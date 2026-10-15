@@ -1,0 +1,15 @@
+/build/
+/inputs/
+/sources.local.json
+/.venv/
+__pycache__/
+*.pyc
+*.pdf
+*.ttf
+*.otf
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.traineddata
+*.log

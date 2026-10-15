@@ -1,0 +1,62 @@
+{
+  "wd_questions_DS": {
+    "filename": "【横版】27王道数据结构选择题做题本.pdf",
+    "pages": 641,
+    "sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+    "rasterize": false
+  },
+  "wd_questions_CO": {
+    "filename": "【横版】27王道计算机组成原理选择题做题本.pdf",
+    "pages": 604,
+    "sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+    "rasterize": false
+  },
+  "wd_questions_OS": {
+    "filename": "【横版】27王道操作系统选择题做题本.pdf",
+    "pages": 652,
+    "sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+    "rasterize": false
+  },
+  "wd_questions_CN": {
+    "filename": "【横版】27王道计算机网络选择题做题本.pdf",
+    "pages": 564,
+    "sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+    "rasterize": false
+  },
+  "relax_answers": {
+    "filename": "27relax1000题解析册_7.29最新勘误版-去水印.pdf",
+    "pages": 313,
+    "sha256": "8df4bdd9ea5731b52a320ca30dcb167f0cd3460f51a5f8b2ce4c3d1ffa618b81",
+    "rasterize": false
+  },
+  "relax_questions": {
+    "filename": "27relax1000题题目册_7.29最新勘误版-去水印.pdf",
+    "pages": 252,
+    "sha256": "39fa63457fec3af4b648bb59b8b9ee7fb2f79e929aa5e7e4d30de023bdca409f",
+    "rasterize": false
+  },
+  "wd_book_OS": {
+    "filename": "王道2027操作系统_高清带书签版.pdf",
+    "pages": 372,
+    "sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3",
+    "rasterize": true
+  },
+  "wd_book_DS": {
+    "filename": "王道2027数据结构_高清带书签版.pdf",
+    "pages": 404,
+    "sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30",
+    "rasterize": true
+  },
+  "wd_book_CO": {
+    "filename": "王道2027计算机组成原理_高清带书签版.pdf",
+    "pages": 340,
+    "sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
+    "rasterize": true
+  },
+  "wd_book_CN": {
+    "filename": "王道2027计算机网络_高清带书签版.pdf",
+    "pages": 316,
+    "sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630",
+    "rasterize": true
+  }
+}

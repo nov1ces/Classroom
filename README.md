@@ -2,6 +2,12 @@
 
 本项目系统归档了 408 考研初试所需的全部核心资料，包括王道全套高清教材、横版单题刷题本、章节考点精讲课件以及个人选择题错题精简数据集。
 
+## 四科讲义最终合订本
+
+[下载最终合订本 PDF（310 页，约 22 MB）](408_lecture_notes/dist/final/408四科讲义_最终稿_合订本.pdf?raw=true)
+
+基于 DeepSeek 润色稿，包含数据结构第 5 章自测答案、计组例 3-13 表格与解析优化，以及例 2-4、例 2-9 等同类选项排版修订。合订本保留四科书签与内部跳转链接。
+
 ## 四科自学讲义：完整可编辑项目
 
 [进入讲义项目](408_lecture_notes/) · [正文审阅说明](408_lecture_notes/CONTENT_REVIEW.md) · [本轮修改说明](408_lecture_notes/dist/revision3/本轮修改说明.md)
@@ -15,7 +21,7 @@
 | 操作系统 | [PDF](408_lecture_notes/dist/revision3/操作系统_正文审阅稿.pdf) | [分章](408_lecture_notes/manuscript/OS/) |
 | 计算机网络 | [PDF](408_lecture_notes/dist/revision3/计算机网络_正文审阅稿.pdf) | [分章](408_lecture_notes/manuscript/CN/) |
 
-本轮已完成所列内容修订与复算，按要求暂未检查讲义排版，待内容再次审阅后统一处理。
+上表保留历史正文审阅稿；包含后续内容与排版修订的版本，请下载上方最终合订本。
 
 ---
 

@@ -1,0 +1,1555 @@
+{
+  "method": "运行此脚本独立计算数值/状态；不覆盖未列题。",
+  "checks": [
+    {
+      "ids": [
+        "ERR-DS-1.2-015"
+      ],
+      "calculation": "循环实跑：n、次数、结束sum",
+      "observed": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          100,
+          14,
+          105
+        ],
+        [
+          10000,
+          141,
+          10011
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          2,
+          2,
+          3
+        ],
+        [
+          10,
+          4,
+          10
+        ],
+        [
+          100,
+          14,
+          105
+        ],
+        [
+          10000,
+          141,
+          10011
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-1.2-016"
+      ],
+      "calculation": "平方条件循环实跑：n、次数",
+      "observed": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          100,
+          10
+        ],
+        [
+          10000,
+          100
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          10,
+          3
+        ],
+        [
+          100,
+          10
+        ],
+        [
+          10000,
+          100
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-1.2-017"
+      ],
+      "calculation": "内层总次数等比求和实跑",
+      "observed": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          100,
+          127
+        ],
+        [
+          10000,
+          16383
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          100,
+          127
+        ],
+        [
+          10000,
+          16383
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-3.1-026"
+      ],
+      "calculation": "原做题本重复e序列不可由abcdefg各一次生成",
+      "observed": null,
+      "expected": null,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-3.1-026"
+      ],
+      "calculation": "原书恢复序列bdcfeag的最小容量",
+      "observed": 3,
+      "expected": 3,
+      "passed": true,
+      "trace": [
+        [
+          "push",
+          "a",
+          "a"
+        ],
+        [
+          "push",
+          "b",
+          "ab"
+        ],
+        [
+          "pop",
+          "b",
+          "a"
+        ],
+        [
+          "push",
+          "c",
+          "ac"
+        ],
+        [
+          "push",
+          "d",
+          "acd"
+        ],
+        [
+          "pop",
+          "d",
+          "ac"
+        ],
+        [
+          "pop",
+          "c",
+          "a"
+        ],
+        [
+          "push",
+          "e",
+          "ae"
+        ],
+        [
+          "push",
+          "f",
+          "aef"
+        ],
+        [
+          "pop",
+          "f",
+          "ae"
+        ],
+        [
+          "pop",
+          "e",
+          "a"
+        ],
+        [
+          "pop",
+          "a",
+          ""
+        ],
+        [
+          "push",
+          "g",
+          "g"
+        ],
+        [
+          "pop",
+          "g",
+          ""
+        ]
+      ]
+    },
+    {
+      "ids": [
+        "ERR-DS-3.2-006"
+      ],
+      "calculation": "(3-8+21)%21",
+      "observed": 16,
+      "expected": 16,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-3.3-006"
+      ],
+      "calculation": "F(8)返回值与调用次数",
+      "observed": [
+        9,
+        9
+      ],
+      "expected": [
+        9,
+        9
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-3.3-007"
+      ],
+      "calculation": "调用进入顺序",
+      "observed": [
+        5,
+        3,
+        1,
+        4,
+        2,
+        0
+      ],
+      "expected": [
+        5,
+        3,
+        1,
+        4,
+        2,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-3.4-003"
+      ],
+      "calculation": "下三角0基对角下标",
+      "observed": [
+        0,
+        2,
+        5,
+        9,
+        14,
+        20,
+        27,
+        35,
+        44
+      ],
+      "expected": [
+        0,
+        2,
+        5,
+        9,
+        14,
+        20,
+        27,
+        35,
+        44
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-3.4-006"
+      ],
+      "calculation": "三对角数组1基：A[66][65]",
+      "observed": 195,
+      "expected": 195,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-3.4-011"
+      ],
+      "calculation": "三对角数组0基：M[30][30]",
+      "observed": 87,
+      "expected": 87,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-3.4-013"
+      ],
+      "calculation": "上三角12阶按行0基：m6,6",
+      "observed": 50,
+      "expected": 50,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-3.4-014"
+      ],
+      "calculation": "上三角10阶按列0基：m7,2=m2,7",
+      "observed": 22,
+      "expected": 22,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-5.1-009"
+      ],
+      "calculation": "树叶数1+1+2×10+3×20",
+      "observed": 82,
+      "expected": 82,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-5.5-022"
+      ],
+      "calculation": "哈夫曼WPL/总权",
+      "observed": 2.5,
+      "expected": 2.5,
+      "passed": true,
+      "trace": [
+        [
+          3,
+          4,
+          7
+        ],
+        [
+          5,
+          6,
+          11
+        ],
+        [
+          7,
+          8,
+          15
+        ],
+        [
+          10,
+          11,
+          21
+        ],
+        [
+          15,
+          21,
+          36
+        ]
+      ]
+    },
+    {
+      "ids": [
+        "ERR-DS-6.1-011"
+      ],
+      "calculation": "21边集中于K7后连通分量",
+      "observed": 45,
+      "expected": 45,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-6.1-016"
+      ],
+      "calculation": "最大不连通K6+孤立点再增1边",
+      "observed": 16,
+      "expected": 16,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-6.1-012"
+      ],
+      "calculation": "有向图强连通分量",
+      "observed": [
+        [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        [
+          "B"
+        ]
+      ],
+      "expected": [
+        [
+          "A",
+          "C",
+          "D",
+          "E"
+        ],
+        [
+          "B"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-6.4-009"
+      ],
+      "calculation": "最短距离和路径",
+      "observed": [
+        13,
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "expected": [
+        13,
+        [
+          1,
+          3,
+          4,
+          6,
+          7
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-6.4-044"
+      ],
+      "calculation": "确定起点后第二个顶点时dist2..5",
+      "observed": [
+        21,
+        3,
+        14,
+        6
+      ],
+      "expected": [
+        21,
+        3,
+        14,
+        6
+      ],
+      "passed": true,
+      "trace": [
+        {
+          "u": 1,
+          "dist": [
+            0,
+            26,
+            3,
+            null,
+            6
+          ]
+        },
+        {
+          "u": 3,
+          "dist": [
+            0,
+            25,
+            3,
+            null,
+            6
+          ]
+        },
+        {
+          "u": 5,
+          "dist": [
+            0,
+            21,
+            3,
+            14,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "ERR-DS-6.4-031"
+      ],
+      "calculation": "关键路径与工期",
+      "observed": [
+        [
+          "bdcg",
+          "bdeh",
+          "bfh"
+        ],
+        27
+      ],
+      "expected": [
+        [
+          "bdcg",
+          "bdeh",
+          "bfh"
+        ],
+        27
+      ],
+      "passed": true,
+      "trace": [
+        [
+          "acg",
+          18
+        ],
+        [
+          "aeh",
+          18
+        ],
+        [
+          "bdcg",
+          27
+        ],
+        [
+          "bdeh",
+          27
+        ],
+        [
+          "bfh",
+          27
+        ]
+      ]
+    },
+    {
+      "ids": [
+        "ERR-DS-6.4-031"
+      ],
+      "calculation": "选项活动集合覆盖全部关键路径",
+      "observed": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "expected": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-7.2-009"
+      ],
+      "calculation": "折半查找A11的1基比较下标",
+      "observed": [
+        6,
+        9,
+        10,
+        11
+      ],
+      "expected": [
+        6,
+        9,
+        10,
+        11
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-7.2-011"
+      ],
+      "calculation": "比较关键字",
+      "observed": [
+        "f",
+        "c",
+        "b"
+      ],
+      "expected": [
+        "f",
+        "c",
+        "b"
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-7.2-020"
+      ],
+      "calculation": "16项所有失败间隙的最多比较",
+      "observed": 5,
+      "expected": 5,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-7.4-009"
+      ],
+      "calculation": "2047关键字3阶B树最大/最小层数",
+      "observed": [
+        11,
+        7
+      ],
+      "expected": [
+        11,
+        7
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-7.5-014"
+      ],
+      "calculation": "线性探测49最终地址",
+      "observed": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-7.5-023"
+      ],
+      "calculation": "删除标记后的各起点失败长度与ASL",
+      "observed": [
+        [
+          1,
+          3,
+          2,
+          1,
+          2
+        ],
+        1.8
+      ],
+      "expected": [
+        [
+          1,
+          3,
+          2,
+          1,
+          2
+        ],
+        1.8
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-DS-8.2-012"
+      ],
+      "calculation": "希尔排序5、3两趟结果",
+      "observed": [
+        1,
+        7,
+        5,
+        2,
+        8,
+        9,
+        24,
+        11,
+        34,
+        51,
+        13,
+        77,
+        56
+      ],
+      "expected": [
+        1,
+        7,
+        5,
+        2,
+        8,
+        9,
+        24,
+        11,
+        34,
+        51,
+        13,
+        77,
+        56
+      ],
+      "passed": true,
+      "trace": [
+        [
+          2,
+          11,
+          5,
+          1,
+          8,
+          9,
+          24,
+          7,
+          34,
+          51,
+          13,
+          77,
+          56
+        ],
+        [
+          1,
+          7,
+          5,
+          2,
+          8,
+          9,
+          24,
+          11,
+          34,
+          51,
+          13,
+          77,
+          56
+        ]
+      ]
+    },
+    {
+      "ids": [
+        "ERR-DS-8.4-013"
+      ],
+      "calculation": "堆顶删除的关键字比较次数",
+      "observed": 3,
+      "expected": 3,
+      "passed": true,
+      "trace": [
+        [
+          34,
+          53
+        ],
+        [
+          22,
+          53
+        ],
+        [
+          22,
+          46
+        ]
+      ]
+    },
+    {
+      "ids": [
+        "ERR-DS-8.4-017"
+      ],
+      "calculation": "堆顶删除的关键字比较次数",
+      "observed": 3,
+      "expected": 3,
+      "passed": true,
+      "trace": [
+        [
+          15,
+          10
+        ],
+        [
+          12,
+          10
+        ],
+        [
+          12,
+          16
+        ]
+      ]
+    },
+    {
+      "ids": [
+        "ERR-CO-1.3-014"
+      ],
+      "calculation": "局部加速90/1.5+10",
+      "observed": 70.0,
+      "expected": 70.0,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-2.1-001"
+      ],
+      "calculation": "137.5转8进制的整数与小数位",
+      "observed": [
+        "211",
+        4
+      ],
+      "expected": [
+        "211",
+        4
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-2.1-027"
+      ],
+      "calculation": "65530零扩展后的32位十六进制",
+      "observed": "0000FFFA",
+      "expected": "0000FFFA",
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-2.1-034"
+      ],
+      "calculation": "-32767转换为32位unsigned",
+      "observed": 4294934529,
+      "expected": 4294934529,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-2.2-018"
+      ],
+      "calculation": "减法器A/B/Cin",
+      "observed": [
+        "01000101",
+        "11011001",
+        1
+      ],
+      "expected": [
+        "01000101",
+        "11011001",
+        1
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-2.2-029"
+      ],
+      "calculation": "-33-65的补码",
+      "observed": "FFFFFF9E",
+      "expected": "FFFFFF9E",
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-2.2-031"
+      ],
+      "calculation": "CF借位、OF有符号范围",
+      "observed": [
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-2.2-032"
+      ],
+      "calculation": "CF借位、OF有符号范围",
+      "observed": [
+        1,
+        0
+      ],
+      "expected": [
+        1,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-2.3-007"
+      ],
+      "calculation": "同位串四解释从大到小",
+      "observed": "移补原浮",
+      "expected": "移补原浮",
+      "passed": true,
+      "values": {
+        "浮": -1.5845632502852868e+29,
+        "原": -1879048192,
+        "补": -268435456,
+        "移": 1879048192
+      }
+    },
+    {
+      "ids": [
+        "ERR-CO-2.3-021"
+      ],
+      "calculation": "b[1][2]地址及低字节",
+      "observed": [
+        134518828,
+        250
+      ],
+      "expected": [
+        134518828,
+        250
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-2.3-030"
+      ],
+      "calculation": "record.a低字节和record.c地址",
+      "observed": [
+        17,
+        "0xc00e"
+      ],
+      "expected": [
+        17,
+        "0xc00e"
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-2.3-045"
+      ],
+      "calculation": "employee[1].id中56H地址",
+      "observed": "0xa0c5",
+      "expected": "0xa0c5",
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-3.2-001"
+      ],
+      "calculation": "SRAM地址/数据引脚",
+      "observed": 18,
+      "expected": 18,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-3.2-032"
+      ],
+      "calculation": "DRAM地址复用后的引脚",
+      "observed": 19,
+      "expected": 19,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-3.3-001"
+      ],
+      "calculation": "字扩展/位扩展",
+      "observed": [
+        4,
+        8
+      ],
+      "expected": [
+        4,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-3.3-008"
+      ],
+      "calculation": "地址区间容量/单片容量",
+      "observed": 16,
+      "expected": 16,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-3.3-009"
+      ],
+      "calculation": "按字编址的片选111首末地址",
+      "observed": [
+        "0x38000",
+        "0x3ffff"
+      ],
+      "expected": [
+        "0x38000",
+        "0x3ffff"
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-3.3-012"
+      ],
+      "calculation": "64MB按字节编址MAR位数",
+      "observed": 26,
+      "expected": 26,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-3.4-011"
+      ],
+      "calculation": "磁盘平均存取时间ms四舍五入",
+      "observed": 12.2,
+      "expected": 12.2,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-3.5-023",
+        "ERR-CO-3.5-024"
+      ],
+      "calculation": "非突发/突发的缺失损失周期",
+      "observed": [
+        80,
+        17
+      ],
+      "expected": [
+        80,
+        17
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-3.5-030"
+      ],
+      "calculation": "常见分组/原书分组的命中次数",
+      "observed": [
+        1,
+        3
+      ],
+      "expected": [
+        1,
+        3
+      ],
+      "passed": true,
+      "standard_trace": [
+        {
+          "block": 0,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              0
+            ],
+            []
+          ]
+        },
+        {
+          "block": 4,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              0,
+              4
+            ],
+            []
+          ]
+        },
+        {
+          "block": 8,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              4,
+              8
+            ],
+            []
+          ]
+        },
+        {
+          "block": 2,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              8,
+              2
+            ],
+            []
+          ]
+        },
+        {
+          "block": 0,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              2,
+              0
+            ],
+            []
+          ]
+        },
+        {
+          "block": 6,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              0,
+              6
+            ],
+            []
+          ]
+        },
+        {
+          "block": 8,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              6,
+              8
+            ],
+            []
+          ]
+        },
+        {
+          "block": 6,
+          "set": 0,
+          "hit": true,
+          "groups": [
+            [
+              8,
+              6
+            ],
+            []
+          ]
+        },
+        {
+          "block": 4,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              6,
+              4
+            ],
+            []
+          ]
+        },
+        {
+          "block": 8,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              4,
+              8
+            ],
+            []
+          ]
+        }
+      ],
+      "book_trace": [
+        {
+          "block": 0,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              0
+            ],
+            []
+          ]
+        },
+        {
+          "block": 4,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              0,
+              4
+            ],
+            []
+          ]
+        },
+        {
+          "block": 8,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              4,
+              8
+            ],
+            []
+          ]
+        },
+        {
+          "block": 2,
+          "set": 1,
+          "hit": false,
+          "groups": [
+            [
+              4,
+              8
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        {
+          "block": 0,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              8,
+              0
+            ],
+            [
+              2
+            ]
+          ]
+        },
+        {
+          "block": 6,
+          "set": 1,
+          "hit": false,
+          "groups": [
+            [
+              8,
+              0
+            ],
+            [
+              2,
+              6
+            ]
+          ]
+        },
+        {
+          "block": 8,
+          "set": 0,
+          "hit": true,
+          "groups": [
+            [
+              0,
+              8
+            ],
+            [
+              2,
+              6
+            ]
+          ]
+        },
+        {
+          "block": 6,
+          "set": 1,
+          "hit": true,
+          "groups": [
+            [
+              0,
+              8
+            ],
+            [
+              2,
+              6
+            ]
+          ]
+        },
+        {
+          "block": 4,
+          "set": 0,
+          "hit": false,
+          "groups": [
+            [
+              8,
+              4
+            ],
+            [
+              2,
+              6
+            ]
+          ]
+        },
+        {
+          "block": 8,
+          "set": 0,
+          "hit": true,
+          "groups": [
+            [
+              4,
+              8
+            ],
+            [
+              2,
+              6
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "ids": [
+        "ERR-CO-3.5-031"
+      ],
+      "calculation": "含tag/valid/dirty的Cache总容量Kbit",
+      "observed": 148,
+      "expected": 148,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-3.5-032"
+      ],
+      "calculation": "读写均计的缺失率",
+      "observed": 12.5,
+      "expected": 12.5,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-3.5-034"
+      ],
+      "calculation": "Cache每行总位数",
+      "observed": 275,
+      "expected": 275,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-3.5-035"
+      ],
+      "calculation": "并行比较器个数/位数",
+      "observed": [
+        8,
+        20
+      ],
+      "expected": [
+        8,
+        20
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-3.6-019"
+      ],
+      "calculation": "TLB标记位数",
+      "observed": 19,
+      "expected": 19,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-4.1-012"
+      ],
+      "calculation": "分层扩展操作码指令总条数",
+      "observed": 46,
+      "expected": 46,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-4.2-011"
+      ],
+      "calculation": "小端取16位字",
+      "observed": "0x7856",
+      "expected": "0x7856",
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-4.2-012"
+      ],
+      "calculation": "按字编址相对跳转PC",
+      "observed": "0x4007",
+      "expected": "0x4007",
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-4.2-015"
+      ],
+      "calculation": "指令剩余位移位数及范围",
+      "observed": [
+        6,
+        -32,
+        31
+      ],
+      "expected": [
+        6,
+        -32,
+        31
+      ],
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-4.2-019"
+      ],
+      "calculation": "补码位移+基址+LSB偏移",
+      "observed": "0xbfffff03",
+      "expected": "0xbfffff03",
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-4.3-006"
+      ],
+      "calculation": "x86 jle下一条地址加位移",
+      "observed": "0x804847b",
+      "expected": "0x804847b",
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-5.4-006"
+      ],
+      "calculation": "4个互斥微命令含不操作状态的字段位数",
+      "observed": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-6.1-016"
+      ],
+      "calculation": "总线MB/s",
+      "observed": 20.0,
+      "expected": 20.0,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-6.1-022"
+      ],
+      "calculation": "3通道有效带宽GB/s四舍五入",
+      "observed": 32,
+      "expected": 32,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-6.1-023"
+      ],
+      "calculation": "QPI双向有效带宽GB/s",
+      "observed": 19.2,
+      "expected": 19.2,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-6.1-025"
+      ],
+      "calculation": "1333MT/s乘8B的GB/s四舍五入",
+      "observed": 10.66,
+      "expected": 10.66,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-6.2-010"
+      ],
+      "calculation": "突发读块有效MB/s",
+      "observed": 133.3,
+      "expected": 133.3,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-6.2-011"
+      ],
+      "calculation": "每秒线路位数",
+      "observed": 4800,
+      "expected": 4800,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-6.2-020"
+      ],
+      "calculation": "非突发读32B耗时ns",
+      "observed": 32,
+      "expected": 32,
+      "passed": true
+    },
+    {
+      "ids": [
+        "ERR-CO-7.3-039"
+      ],
+      "calculation": "周期中断CPU实际占用比",
+      "observed": 0.25,
+      "expected": 0.25,
+      "passed": true
+    }
+  ],
+  "distinct_question_count": 71
+}

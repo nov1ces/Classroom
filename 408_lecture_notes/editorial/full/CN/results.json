@@ -1,0 +1,3674 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "id": "CN-CAL-001",
+      "description": "1500B@100Mb/s sends in120us",
+      "actual": 0.00012,
+      "expected": 0.00012,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-002",
+      "description": "200km propagation is1ms",
+      "actual": 0.001,
+      "expected": 0.001,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-003",
+      "description": "last bit arrives1.12ms",
+      "actual": 0.0011200000000000001,
+      "expected": 0.00112,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-004",
+      "description": "single-way BDP is100000bit",
+      "actual": 100000,
+      "expected": 100000,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-005",
+      "description": "4kb/s at1000Baud needs16states",
+      "actual": 16,
+      "expected": 16,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-006",
+      "description": "one16-state symbol each1/8s gives32bit/s",
+      "actual": 32,
+      "expected": 32,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-007",
+      "description": "200kHz 4ASK Nyquist gives800kb/s",
+      "actual": 800000,
+      "expected": 800000,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-008",
+      "description": "8kHz 8-state upper bound remains48kb/s",
+      "actual": 48000,
+      "expected": 48000,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-009",
+      "description": "binary4kHz SNR127 tighter8kb/s bound",
+      "actual": 8000,
+      "expected": 8000,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-010",
+      "description": "QAM32 changed conditions nearest gain is2",
+      "actual": 2,
+      "expected": 2,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-011",
+      "description": "2023q33 independent hop event simulation",
+      "actual": 0.08009999999999809,
+      "expected": 0.0801,
+      "tolerance": 1e-12,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-012",
+      "description": "3packets2hops no propagation completes4slots",
+      "actual": [
+        2,
+        3,
+        4
+      ],
+      "expected": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-013",
+      "description": "chapter2 review10packets3hops",
+      "actual": 0.01800000000000001,
+      "expected": 0.018,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-014",
+      "description": "2013q37 exact18-bit stuffed stream",
+      "actual": "011111000011111010",
+      "expected": "011111000011111010",
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-015",
+      "description": "stuffed111110 restores original without deleting data0",
+      "actual": "111110",
+      "expected": "111110",
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-016",
+      "description": "CRC complete division intermediate values",
+      "actual": [
+        328,
+        232,
+        56,
+        12,
+        1
+      ],
+      "expected": [
+        328,
+        232,
+        56,
+        12,
+        1
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-017",
+      "description": "CRC appended frame has zero remainder",
+      "actual": 0,
+      "expected": 0,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-018",
+      "description": "2023q37 A/B/C/D remainders",
+      "actual": [
+        12,
+        8,
+        4,
+        0
+      ],
+      "expected": [
+        12,
+        8,
+        4,
+        0
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-019",
+      "description": "nonzero corruption can remain divisible by generator",
+      "actual": [
+        true,
+        true
+      ],
+      "expected": [
+        true,
+        true
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-020",
+      "description": "2025q34 all six Hamming distances",
+      "actual": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        8
+      ],
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        8
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-021",
+      "description": "min distance4 detects3 corrects1",
+      "actual": [
+        3,
+        1
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-022",
+      "description": "Hamming encoded word syndrome0",
+      "actual": 0,
+      "expected": 0,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-023",
+      "description": "Hamming flipped position6 gives syndrome6",
+      "actual": 6,
+      "expected": 6,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-024",
+      "description": "Hamming actual correction restores word",
+      "actual": "1011010",
+      "expected": "1011010",
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-025",
+      "description": "2020q36 SW with long ACK gives40percent",
+      "actual": 0.4,
+      "expected": 0.4,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-026",
+      "description": "GBN window10 has no idle through40frames",
+      "actual": [
+        0,
+        64,
+        128,
+        192,
+        256,
+        320,
+        384,
+        448,
+        512,
+        576,
+        640,
+        704,
+        768,
+        832,
+        896,
+        960,
+        1024,
+        1088,
+        1152,
+        1216,
+        1280,
+        1344,
+        1408,
+        1472,
+        1536,
+        1600,
+        1664,
+        1728,
+        1792,
+        1856,
+        1920,
+        1984,
+        2048,
+        2112,
+        2176,
+        2240,
+        2304,
+        2368,
+        2432,
+        2496
+      ],
+      "expected": [
+        0,
+        64,
+        128,
+        192,
+        256,
+        320,
+        384,
+        448,
+        512,
+        576,
+        640,
+        704,
+        768,
+        832,
+        896,
+        960,
+        1024,
+        1088,
+        1152,
+        1216,
+        1280,
+        1344,
+        1408,
+        1472,
+        1536,
+        1600,
+        1664,
+        1728,
+        1792,
+        1856,
+        1920,
+        1984,
+        2048,
+        2112,
+        2176,
+        2240,
+        2304,
+        2368,
+        2432,
+        2496
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-027",
+      "description": "GBN window9 incurs first52ms idle",
+      "actual": 52,
+      "expected": 52,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-028",
+      "description": "GBN capacity requires4 sequence bits",
+      "actual": 4,
+      "expected": 4,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-029",
+      "description": "2009q35 cumulative ACK3 leaves4..7",
+      "actual": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "expected": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-030",
+      "description": "GBN discards3,4 before2; SR preserves them",
+      "actual": [
+        {
+          "delivered": [
+            2
+          ],
+          "expected": 3,
+          "buffer": []
+        },
+        {
+          "delivered": [
+            2,
+            3,
+            4
+          ],
+          "expected": 5,
+          "buffer": []
+        }
+      ],
+      "expected": [
+        {
+          "delivered": [
+            2
+          ],
+          "expected": 3,
+          "buffer": []
+        },
+        {
+          "delivered": [
+            2,
+            3,
+            4
+          ],
+          "expected": 5,
+          "buffer": []
+        }
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-031",
+      "description": "window ambiguity enumeration49 cases satisfiesWs+Wr<=8",
+      "actual": 49,
+      "expected": 49,
+      "assumptions": [
+        "枚举旧窗口与新接收窗口序号集合交叠，非仅检查文件存在"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-032",
+      "description": "CDMA targetA normalized dot products",
+      "actual": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-033",
+      "description": "CSMACD frame decrease800bit requires80m decrease",
+      "actual": 80.0,
+      "expected": 80.0,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-034",
+      "description": "4collisions max15slots",
+      "actual": 768.0,
+      "expected": 768.0,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-035",
+      "description": "11collisions cap exponent10",
+      "actual": 52.3776,
+      "expected": 52.3776,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-036",
+      "description": "2024NAV twoSIFS+DATA+ACK",
+      "actual": 354.0,
+      "expected": 354.0,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-037",
+      "description": "cut-through6B@100Mb/s",
+      "actual": 4.8e-07,
+      "expected": 4.8e-07,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-038",
+      "description": "VLAN/native minimum payload and padding",
+      "actual": [
+        42,
+        46,
+        2,
+        6
+      ],
+      "expected": [
+        42,
+        46,
+        2,
+        6
+      ],
+      "assumptions": [
+        "采用书题最短64B、标签首尾22B的模型"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-039",
+      "description": "2021q37 distance vectors add local link first",
+      "actual": [
+        9,
+        20,
+        28,
+        20
+      ],
+      "expected": [
+        9,
+        20,
+        28,
+        20
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-040",
+      "description": "Dijkstra actual settle sequence",
+      "actual": [
+        [
+          "A",
+          0
+        ],
+        [
+          "B",
+          1
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "D",
+          4
+        ]
+      ],
+      "expected": [
+        [
+          "A",
+          0
+        ],
+        [
+          "B",
+          1
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "D",
+          4
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-041",
+      "description": "2021q36 exact fragments and intermediate offsets",
+      "actual": [
+        {
+          "payload": 776,
+          "total": 796,
+          "offset": 0,
+          "mf": 1
+        },
+        {
+          "payload": 776,
+          "total": 796,
+          "offset": 97,
+          "mf": 1
+        },
+        {
+          "payload": 8,
+          "total": 28,
+          "offset": 194,
+          "mf": 0
+        }
+      ],
+      "expected": [
+        {
+          "payload": 776,
+          "total": 796,
+          "offset": 0,
+          "mf": 1
+        },
+        {
+          "payload": 776,
+          "total": 796,
+          "offset": 97,
+          "mf": 1
+        },
+        {
+          "payload": 8,
+          "total": 28,
+          "offset": 194,
+          "mf": 0
+        }
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-042",
+      "description": "2023q39 subnet host bounds",
+      "actual": [
+        "168.16.80.1",
+        "168.16.95.254"
+      ],
+      "expected": [
+        "168.16.80.1",
+        "168.16.95.254"
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-043",
+      "description": "2019q37 constructive full five-subnet partition",
+      "actual": [
+        5,
+        "101.200.16.0/20",
+        254
+      ],
+      "expected": [
+        5,
+        "101.200.16.0/20",
+        254
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-044",
+      "description": "2018q38 exact aggregation",
+      "actual": [
+        "35.230.32.0/19"
+      ],
+      "expected": [
+        "35.230.32.0/19"
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-045",
+      "description": "ARP same-subnet check under20-bit mask",
+      "actual": true,
+      "expected": true,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-046",
+      "description": "chapter4 review network/broadcast",
+      "actual": [
+        "192.168.10.128",
+        "192.168.10.191"
+      ],
+      "expected": [
+        "192.168.10.128",
+        "192.168.10.191"
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-047",
+      "description": "chapter4 review fragmentation",
+      "actual": [
+        600,
+        75
+      ],
+      "expected": [
+        600,
+        75
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-048",
+      "description": "2024q39 end-around carry yieldsE083",
+      "actual": 57475,
+      "expected": 57475,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-049",
+      "description": "TCP2009 byte ranges produceACK1000",
+      "actual": 1000,
+      "expected": 1000,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-050",
+      "description": "SYN/FIN application bytes only",
+      "actual": 772,
+      "expected": 772,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-051",
+      "description": "close minimal C1650/S75",
+      "actual": [
+        1650,
+        75.0
+      ],
+      "expected": [
+        1650,
+        75.0
+      ],
+      "assumptions": [
+        "服务器收到FIN后立即合并ACK+FIN；单向传播RTT/2"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-052",
+      "description": "2025q38 actual acknowledged/inflight/new-send states",
+      "actual": [
+        1000,
+        3000,
+        3000,
+        2000,
+        2
+      ],
+      "expected": [
+        1000,
+        3000,
+        3000,
+        2000,
+        2
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-053",
+      "description": "linear longest8KBto32KB",
+      "actual": [
+        24,
+        48
+      ],
+      "expected": [
+        24,
+        48
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-054",
+      "description": "typical33 thirteen rounds",
+      "actual": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "expected": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-055",
+      "description": "2014q38 reaches rwnd10 by eighthRTT",
+      "actual": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "expected": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-056",
+      "description": "selfcheck FIN and window",
+      "actual": [
+        601,
+        602,
+        1500,
+        8000
+      ],
+      "expected": [
+        601,
+        602,
+        1500,
+        8000
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-057",
+      "description": "2016DNS four delegated steps",
+      "actual": [
+        "root",
+        "com",
+        "xyz.com",
+        "abc.xyz.com"
+      ],
+      "expected": [
+        "root",
+        "com",
+        "xyz.com",
+        "abc.xyz.com"
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-058",
+      "description": "nonpersistent serial8objects",
+      "actual": 16,
+      "expected": 16,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-059",
+      "description": "already connected pipeline HTMLthen3images",
+      "actual": 2,
+      "expected": 2,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-060",
+      "description": "2020DNS and Web shortest/longestms",
+      "actual": [
+        20,
+        50
+      ],
+      "expected": [
+        20,
+        50
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-061",
+      "description": "2022image afterHTML withcwnd2MSS",
+      "actual": [
+        2,
+        1
+      ],
+      "expected": [
+        2,
+        1
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-062",
+      "description": "2022TCP+HTML+two image rounds",
+      "actual": 4,
+      "expected": 4,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-063",
+      "description": "larger initial window changes2022 numeric result",
+      "actual": 3,
+      "expected": 3,
+      "assumptions": [
+        "明确新增初始cwnd较大的变式；原题教材模型仍40ms"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-064",
+      "description": "chapter6 review persistent nonpipeline/pipeline",
+      "actual": [
+        6,
+        3
+      ],
+      "expected": [
+        6,
+        3
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-065",
+      "description": "NAV figure data matches independent result",
+      "actual": 354,
+      "expected": 354.0,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-066",
+      "description": "fragment graphic shares actual computed arrays",
+      "actual": [
+        [
+          776,
+          776,
+          8
+        ],
+        [
+          0,
+          97,
+          194
+        ]
+      ],
+      "expected": [
+        [
+          776,
+          776,
+          8
+        ],
+        [
+          0,
+          97,
+          194
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-067",
+      "description": "TCP graphic shares actual remaining segment count",
+      "actual": 2,
+      "expected": 2,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-001",
+      "description": "ipv4 every named field global bit offset and width",
+      "actual": [
+        [
+          "版本",
+          0,
+          4
+        ],
+        [
+          "IHL",
+          4,
+          4
+        ],
+        [
+          "区分服务",
+          8,
+          8
+        ],
+        [
+          "总长度",
+          16,
+          16
+        ],
+        [
+          "标识",
+          32,
+          16
+        ],
+        [
+          "标志",
+          48,
+          3
+        ],
+        [
+          "片偏移",
+          51,
+          13
+        ],
+        [
+          "TTL",
+          64,
+          8
+        ],
+        [
+          "协议",
+          72,
+          8
+        ],
+        [
+          "首部检验和",
+          80,
+          16
+        ],
+        [
+          "源IPv4地址",
+          96,
+          32
+        ],
+        [
+          "目的IPv4地址",
+          128,
+          32
+        ]
+      ],
+      "expected": [
+        [
+          "版本",
+          0,
+          4
+        ],
+        [
+          "IHL",
+          4,
+          4
+        ],
+        [
+          "区分服务",
+          8,
+          8
+        ],
+        [
+          "总长度",
+          16,
+          16
+        ],
+        [
+          "标识",
+          32,
+          16
+        ],
+        [
+          "标志",
+          48,
+          3
+        ],
+        [
+          "片偏移",
+          51,
+          13
+        ],
+        [
+          "TTL",
+          64,
+          8
+        ],
+        [
+          "协议",
+          72,
+          8
+        ],
+        [
+          "首部检验和",
+          80,
+          16
+        ],
+        [
+          "源IPv4地址",
+          96,
+          32
+        ],
+        [
+          "目的IPv4地址",
+          128,
+          32
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-002",
+      "description": "tcp every named field global bit offset and width",
+      "actual": [
+        [
+          "源端口",
+          0,
+          16
+        ],
+        [
+          "目的端口",
+          16,
+          16
+        ],
+        [
+          "序号 seq",
+          32,
+          32
+        ],
+        [
+          "确认号 ack",
+          64,
+          32
+        ],
+        [
+          "数据偏移",
+          96,
+          4
+        ],
+        [
+          "保留",
+          100,
+          6
+        ],
+        [
+          "URG",
+          106,
+          1
+        ],
+        [
+          "ACK",
+          107,
+          1
+        ],
+        [
+          "PSH",
+          108,
+          1
+        ],
+        [
+          "RST",
+          109,
+          1
+        ],
+        [
+          "SYN",
+          110,
+          1
+        ],
+        [
+          "FIN",
+          111,
+          1
+        ],
+        [
+          "接收窗口",
+          112,
+          16
+        ],
+        [
+          "检验和",
+          128,
+          16
+        ],
+        [
+          "紧急指针",
+          144,
+          16
+        ]
+      ],
+      "expected": [
+        [
+          "源端口",
+          0,
+          16
+        ],
+        [
+          "目的端口",
+          16,
+          16
+        ],
+        [
+          "序号 seq",
+          32,
+          32
+        ],
+        [
+          "确认号 ack",
+          64,
+          32
+        ],
+        [
+          "数据偏移",
+          96,
+          4
+        ],
+        [
+          "保留",
+          100,
+          6
+        ],
+        [
+          "URG",
+          106,
+          1
+        ],
+        [
+          "ACK",
+          107,
+          1
+        ],
+        [
+          "PSH",
+          108,
+          1
+        ],
+        [
+          "RST",
+          109,
+          1
+        ],
+        [
+          "SYN",
+          110,
+          1
+        ],
+        [
+          "FIN",
+          111,
+          1
+        ],
+        [
+          "接收窗口",
+          112,
+          16
+        ],
+        [
+          "检验和",
+          128,
+          16
+        ],
+        [
+          "紧急指针",
+          144,
+          16
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-003",
+      "description": "udp every named field global bit offset and width",
+      "actual": [
+        [
+          "源端口",
+          0,
+          16
+        ],
+        [
+          "目的端口",
+          16,
+          16
+        ],
+        [
+          "UDP长度",
+          32,
+          16
+        ],
+        [
+          "检验和",
+          48,
+          16
+        ]
+      ],
+      "expected": [
+        [
+          "源端口",
+          0,
+          16
+        ],
+        [
+          "目的端口",
+          16,
+          16
+        ],
+        [
+          "UDP长度",
+          32,
+          16
+        ],
+        [
+          "检验和",
+          48,
+          16
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-004",
+      "description": "IPv4/TCP/UDP fixed header bytes from independent layouts",
+      "actual": [
+        20,
+        20,
+        8
+      ],
+      "expected": [
+        20,
+        20,
+        8
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-005",
+      "description": "length units in figures: IHL/TCP offset/total/fragment/UDP",
+      "actual": [
+        4,
+        4,
+        1,
+        8,
+        1
+      ],
+      "expected": [
+        4,
+        4,
+        1,
+        8,
+        1
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-006",
+      "description": "TCP classic 6 reserved bits plus six single-bit controls",
+      "actual": [
+        6,
+        [
+          [
+            "URG",
+            1
+          ],
+          [
+            "ACK",
+            1
+          ],
+          [
+            "PSH",
+            1
+          ],
+          [
+            "RST",
+            1
+          ],
+          [
+            "SYN",
+            1
+          ],
+          [
+            "FIN",
+            1
+          ]
+        ]
+      ],
+      "expected": [
+        6,
+        [
+          [
+            "URG",
+            1
+          ],
+          [
+            "ACK",
+            1
+          ],
+          [
+            "PSH",
+            1
+          ],
+          [
+            "RST",
+            1
+          ],
+          [
+            "SYN",
+            1
+          ],
+          [
+            "FIN",
+            1
+          ]
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-007",
+      "description": "ipv4 SVG rectangles have actual 32-bit row boundaries",
+      "actual": [
+        [
+          155.0,
+          114.0,
+          112.0,
+          66.0
+        ],
+        [
+          267.0,
+          114.0,
+          112.0,
+          66.0
+        ],
+        [
+          379.0,
+          114.0,
+          224.0,
+          66.0
+        ],
+        [
+          603.0,
+          114.0,
+          448.0,
+          66.0
+        ],
+        [
+          155.0,
+          180.0,
+          448.0,
+          66.0
+        ],
+        [
+          603.0,
+          180.0,
+          84.0,
+          66.0
+        ],
+        [
+          687.0,
+          180.0,
+          364.0,
+          66.0
+        ],
+        [
+          155.0,
+          246.0,
+          224.0,
+          66.0
+        ],
+        [
+          379.0,
+          246.0,
+          224.0,
+          66.0
+        ],
+        [
+          603.0,
+          246.0,
+          448.0,
+          66.0
+        ],
+        [
+          155.0,
+          312.0,
+          896.0,
+          66.0
+        ],
+        [
+          155.0,
+          378.0,
+          896.0,
+          66.0
+        ]
+      ],
+      "expected": [
+        [
+          155,
+          114,
+          112,
+          66
+        ],
+        [
+          267,
+          114,
+          112,
+          66
+        ],
+        [
+          379,
+          114,
+          224,
+          66
+        ],
+        [
+          603,
+          114,
+          448,
+          66
+        ],
+        [
+          155,
+          180,
+          448,
+          66
+        ],
+        [
+          603,
+          180,
+          84,
+          66
+        ],
+        [
+          687,
+          180,
+          364,
+          66
+        ],
+        [
+          155,
+          246,
+          224,
+          66
+        ],
+        [
+          379,
+          246,
+          224,
+          66
+        ],
+        [
+          603,
+          246,
+          448,
+          66
+        ],
+        [
+          155,
+          312,
+          896,
+          66
+        ],
+        [
+          155,
+          378,
+          896,
+          66
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-008",
+      "description": "tcp SVG rectangles have actual 32-bit row boundaries",
+      "actual": [
+        [
+          155.0,
+          114.0,
+          448.0,
+          66.0
+        ],
+        [
+          603.0,
+          114.0,
+          448.0,
+          66.0
+        ],
+        [
+          155.0,
+          180.0,
+          896.0,
+          66.0
+        ],
+        [
+          155.0,
+          246.0,
+          896.0,
+          66.0
+        ],
+        [
+          155.0,
+          312.0,
+          112.0,
+          66.0
+        ],
+        [
+          267.0,
+          312.0,
+          168.0,
+          66.0
+        ],
+        [
+          435.0,
+          312.0,
+          28.0,
+          66.0
+        ],
+        [
+          463.0,
+          312.0,
+          28.0,
+          66.0
+        ],
+        [
+          491.0,
+          312.0,
+          28.0,
+          66.0
+        ],
+        [
+          519.0,
+          312.0,
+          28.0,
+          66.0
+        ],
+        [
+          547.0,
+          312.0,
+          28.0,
+          66.0
+        ],
+        [
+          575.0,
+          312.0,
+          28.0,
+          66.0
+        ],
+        [
+          603.0,
+          312.0,
+          448.0,
+          66.0
+        ],
+        [
+          155.0,
+          378.0,
+          448.0,
+          66.0
+        ],
+        [
+          603.0,
+          378.0,
+          448.0,
+          66.0
+        ]
+      ],
+      "expected": [
+        [
+          155,
+          114,
+          448,
+          66
+        ],
+        [
+          603,
+          114,
+          448,
+          66
+        ],
+        [
+          155,
+          180,
+          896,
+          66
+        ],
+        [
+          155,
+          246,
+          896,
+          66
+        ],
+        [
+          155,
+          312,
+          112,
+          66
+        ],
+        [
+          267,
+          312,
+          168,
+          66
+        ],
+        [
+          435,
+          312,
+          28,
+          66
+        ],
+        [
+          463,
+          312,
+          28,
+          66
+        ],
+        [
+          491,
+          312,
+          28,
+          66
+        ],
+        [
+          519,
+          312,
+          28,
+          66
+        ],
+        [
+          547,
+          312,
+          28,
+          66
+        ],
+        [
+          575,
+          312,
+          28,
+          66
+        ],
+        [
+          603,
+          312,
+          448,
+          66
+        ],
+        [
+          155,
+          378,
+          448,
+          66
+        ],
+        [
+          603,
+          378,
+          448,
+          66
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-009",
+      "description": "udp SVG rectangles have actual 32-bit row boundaries",
+      "actual": [
+        [
+          155.0,
+          114.0,
+          448.0,
+          68.0
+        ],
+        [
+          603.0,
+          114.0,
+          448.0,
+          68.0
+        ],
+        [
+          155.0,
+          182.0,
+          448.0,
+          68.0
+        ],
+        [
+          603.0,
+          182.0,
+          448.0,
+          68.0
+        ]
+      ],
+      "expected": [
+        [
+          155,
+          114,
+          448,
+          68
+        ],
+        [
+          603,
+          114,
+          448,
+          68
+        ],
+        [
+          155,
+          182,
+          448,
+          68
+        ],
+        [
+          603,
+          182,
+          448,
+          68
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-010",
+      "description": "options length to zero padding/header length/encoded offset",
+      "actual": [
+        [
+          0,
+          0,
+          20,
+          5
+        ],
+        [
+          1,
+          3,
+          24,
+          6
+        ],
+        [
+          3,
+          1,
+          24,
+          6
+        ],
+        [
+          4,
+          0,
+          24,
+          6
+        ],
+        [
+          39,
+          1,
+          60,
+          15
+        ],
+        [
+          40,
+          0,
+          60,
+          15
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          0,
+          20,
+          5
+        ],
+        [
+          1,
+          3,
+          24,
+          6
+        ],
+        [
+          3,
+          1,
+          24,
+          6
+        ],
+        [
+          4,
+          0,
+          24,
+          6
+        ],
+        [
+          39,
+          1,
+          60,
+          15
+        ],
+        [
+          40,
+          0,
+          60,
+          15
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-011",
+      "description": "all option lengths0..40 fit legal20..60-byte headers",
+      "actual": true,
+      "expected": true,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-012",
+      "description": "serialized IPv4 decodes IHL6/total100/offset97/MF1/DF0/protocol6",
+      "actual": [
+        4,
+        6,
+        24,
+        100,
+        76,
+        776,
+        true,
+        false,
+        6
+      ],
+      "expected": [
+        4,
+        6,
+        24,
+        100,
+        76,
+        776,
+        true,
+        false,
+        6
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-013",
+      "description": "raw IPv4 source/destination occupy byte12..19",
+      "actual": [
+        "192.0.2.1",
+        "198.51.100.2"
+      ],
+      "expected": [
+        "192.0.2.1",
+        "198.51.100.2"
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-014",
+      "description": "serialized TCP independent byte offsets and payload length",
+      "actual": [
+        24,
+        2001,
+        3001,
+        24,
+        true,
+        4000,
+        52
+      ],
+      "expected": [
+        24,
+        2001,
+        3001,
+        24,
+        true,
+        4000,
+        52
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-015",
+      "description": "serialized UDP four16-bit fields and actual payload boundary",
+      "actual": [
+        [
+          12345,
+          53,
+          20,
+          0
+        ],
+        20,
+        12
+      ],
+      "expected": [
+        [
+          12345,
+          53,
+          20,
+          0
+        ],
+        20,
+        12
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-016",
+      "description": "UDP length-field ceiling differs from IPv4 application limit",
+      "actual": [
+        65535,
+        65515,
+        65507
+      ],
+      "expected": [
+        65535,
+        65515,
+        65507
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-017",
+      "description": "known Internet checksum word vector",
+      "actual": 8717,
+      "expected": 8717,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-018",
+      "description": "IPv4 checksum sees TTL changes but excludes IP payload",
+      "actual": [
+        true,
+        true,
+        false
+      ],
+      "expected": [
+        true,
+        true,
+        false
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-019",
+      "description": "a legitimate zero IPv4 checksum still satisfies full header check",
+      "actual": [
+        0,
+        0,
+        true
+      ],
+      "expected": [
+        0,
+        0,
+        true
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-020",
+      "description": "TTL mutation invalidates a zero-checksum header",
+      "actual": false,
+      "expected": false,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-021",
+      "description": "UDP odd-byte padding and 12-byte pseudoheader do not go on wire",
+      "actual": [
+        12,
+        11,
+        11,
+        0
+      ],
+      "expected": [
+        12,
+        11,
+        11,
+        0
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-022",
+      "description": "UDP validates data/header/pseudoheader rather than just its8-byte header",
+      "actual": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "expected": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-023",
+      "description": "UDP computed0 is encodedFFFF to distinguish IPv4 disabled0",
+      "actual": [
+        0,
+        65535,
+        0
+      ],
+      "expected": [
+        0,
+        65535,
+        0
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-024",
+      "description": "TCP checksum binds protocol6/addresses/header/data",
+      "actual": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "expected": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-025",
+      "description": "IP/TCP/UDP figure models state exact checksum scopes",
+      "actual": [
+        [
+          "header"
+        ],
+        [
+          "pseudoheader",
+          "header",
+          "data"
+        ],
+        [
+          "pseudoheader",
+          "header",
+          "data"
+        ]
+      ],
+      "expected": [
+        [
+          "header"
+        ],
+        [
+          "pseudoheader",
+          "header",
+          "data"
+        ],
+        [
+          "pseudoheader",
+          "header",
+          "data"
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-026",
+      "description": "Ethernet II no-VLAN header/payload/frame/prefix/MTU boundaries",
+      "actual": [
+        0,
+        14,
+        [
+          [
+            "目的MAC",
+            6
+          ],
+          [
+            "源MAC",
+            6
+          ],
+          [
+            "类型",
+            2
+          ],
+          [
+            "数据及填充",
+            [
+              46,
+              1500
+            ]
+          ],
+          [
+            "FCS",
+            4
+          ]
+        ],
+        [
+          64,
+          1518
+        ],
+        7,
+        1,
+        1500
+      ],
+      "expected": [
+        0,
+        14,
+        [
+          [
+            "目的MAC",
+            6
+          ],
+          [
+            "源MAC",
+            6
+          ],
+          [
+            "类型",
+            2
+          ],
+          [
+            "数据及填充",
+            [
+              46,
+              1500
+            ]
+          ],
+          [
+            "FCS",
+            4
+          ]
+        ],
+        [
+          64,
+          1518
+        ],
+        7,
+        1,
+        1500
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-027",
+      "description": "actual Ethernet bytes:40-byte IP+6 pad+14 header+4FCS",
+      "actual": [
+        14,
+        40,
+        6,
+        60,
+        4,
+        64
+      ],
+      "expected": [
+        14,
+        40,
+        6,
+        60,
+        4,
+        64
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-028",
+      "description": "Ethernet FCS includes pad and excludes preamble/SFD",
+      "actual": [
+        true,
+        false,
+        false
+      ],
+      "expected": [
+        true,
+        false,
+        false
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-029",
+      "description": "Ethernet max frame and min/max on-wire byte-time periods",
+      "actual": [
+        1518,
+        72,
+        84,
+        1538
+      ],
+      "expected": [
+        1518,
+        72,
+        84,
+        1538
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-030",
+      "description": "96bit-time IFG at10Mb/s is9.6us",
+      "actual": 9.6e-06,
+      "expected": 9.6e-06,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-031",
+      "description": "MAC min frame plus prefix/IFG consumes672bit-times",
+      "actual": 672,
+      "expected": 672,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-032",
+      "description": "FCS field is distinct from protected MAC header+payload",
+      "actual": [
+        "目的MAC",
+        "源MAC",
+        "类型",
+        "数据及填充"
+      ],
+      "expected": [
+        "目的MAC",
+        "源MAC",
+        "类型",
+        "数据及填充"
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-033",
+      "description": "HTTP common-condition counts for1/3/7 dependent objects",
+      "actual": [
+        [
+          4,
+          3,
+          3
+        ],
+        [
+          8,
+          5,
+          3
+        ],
+        [
+          16,
+          9,
+          3
+        ]
+      ],
+      "expected": [
+        [
+          4,
+          3,
+          3
+        ],
+        [
+          8,
+          5,
+          3
+        ],
+        [
+          16,
+          9,
+          3
+        ]
+      ],
+      "assumptions": [
+        "DNS完成，未建TCP，必须先HTML，单站点，无并行连接，小对象且忽略发送/流控/拥塞"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-034",
+      "description": "all41 original full-example stems/options/figures remain unchanged",
+      "actual": [
+        41,
+        true
+      ],
+      "expected": [
+        41,
+        true
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-035",
+      "description": "all71 knowledge anchors preserved",
+      "actual": [
+        71,
+        true
+      ],
+      "expected": [
+        71,
+        true
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-036",
+      "description": "97 supplied-error identities/knowledge IDs/destinations/targets preserved",
+      "actual": [
+        97,
+        true
+      ],
+      "expected": [
+        97,
+        true
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-037",
+      "description": "41 source markers share their unindented question first lines",
+      "actual": 41,
+      "expected": 41,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-038",
+      "description": "reader manuscript excludes internal error IDs and long source names",
+      "actual": false,
+      "expected": false,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-039",
+      "description": "ordinary UDP: zero checksum disables IPv4 check but IPv6 rejects it",
+      "actual": [
+        40,
+        true,
+        false,
+        true,
+        false
+      ],
+      "expected": [
+        40,
+        true,
+        false,
+        true,
+        false
+      ],
+      "assumptions": [
+        "普通UDP数据报；不讨论IPv6特定隧道零检验和例外或jumbogram"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-FMT-040",
+      "description": "textbook SR also requiresWr<=Ws; asymmetric maximum remains9+7",
+      "actual": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      "expected": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      "assumptions": [
+        "主书PDF p78与SR课件p3–6的常用配置；序号不重叠条件独立枚举见CN-CAL-031"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-001",
+      "description": "2017 two GBN directions: bases, expected receive numbers and outstanding frames",
+      "actual": [
+        3,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "expected": [
+        3,
+        2,
+        2,
+        2,
+        3,
+        3
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-002",
+      "description": "2017 five new frames actually wrap modulo8",
+      "actual": [
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "expected": [
+        [
+          5,
+          2
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-003",
+      "description": "2017 go-back retransmits three frames with the NEW piggyback ACK",
+      "actual": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "expected": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          3
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-004",
+      "description": "2017 long piggyback ACK cycle1.12ms and utilization50percent",
+      "actual": [
+        0.08,
+        1.12,
+        0.5
+      ],
+      "expected": [
+        0.08,
+        1.12,
+        0.5
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-005",
+      "description": "CN20 actual SVG carries all sixteen ordered source event labels",
+      "actual": [
+        "S0,0",
+        "S1,0",
+        "S2,0",
+        "S3,0",
+        "R0,1",
+        "S4,1",
+        "R1,3",
+        "R3,3",
+        "S0,0",
+        "S1,0",
+        "S2,0",
+        "R0,1",
+        "R1,2",
+        "S3,2",
+        "S4,2",
+        "R2,2"
+      ],
+      "expected": [
+        "S0,0",
+        "S1,0",
+        "S2,0",
+        "S3,0",
+        "R0,1",
+        "S4,1",
+        "R1,3",
+        "R3,3",
+        "S0,0",
+        "S1,0",
+        "S2,0",
+        "R0,1",
+        "R1,2",
+        "S3,2",
+        "S4,2",
+        "R2,2"
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-006",
+      "description": "2018 CIDR boundaries and actual inclusive host-count subtraction",
+      "actual": [
+        "192.168.1.127",
+        "192.168.1.128/25",
+        80,
+        45
+      ],
+      "expected": [
+        "192.168.1.127",
+        "192.168.1.128/25",
+        80,
+        45
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-007",
+      "description": "2018 exact 776/704B fragments, offsets, MF and length conservation",
+      "actual": [
+        [
+          {
+            "payload": 776,
+            "total": 796,
+            "offset": 0,
+            "mf": 1
+          },
+          {
+            "payload": 704,
+            "total": 724,
+            "offset": 97,
+            "mf": 0
+          }
+        ],
+        1480
+      ],
+      "expected": [
+        [
+          {
+            "payload": 776,
+            "total": 796,
+            "offset": 0,
+            "mf": 1
+          },
+          {
+            "payload": 704,
+            "total": 724,
+            "offset": 97,
+            "mf": 0
+          }
+        ],
+        1480
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-008",
+      "description": "CN21 actual SVG contains every allocated range endpoint and interface address",
+      "actual": true,
+      "expected": true,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-009",
+      "description": "2013 three minimal exit routes include an overlapping direct exception",
+      "actual": [
+        [
+          "153.14.5.0/24",
+          "S0"
+        ],
+        [
+          "194.17.20.0/23",
+          "S1"
+        ],
+        [
+          "194.17.20.128/25",
+          "E0"
+        ]
+      ],
+      "expected": [
+        [
+          "153.14.5.0/24",
+          "S0"
+        ],
+        [
+          "194.17.20.0/23",
+          "S1"
+        ],
+        [
+          "194.17.20.128/25",
+          "E0"
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-010",
+      "description": "2013 LPM probes both sides of the exception and the requested host",
+      "actual": [
+        "S0",
+        "S0",
+        "S1",
+        "E0",
+        "S1"
+      ],
+      "expected": [
+        "S0",
+        "S0",
+        "S1",
+        "E0",
+        "S1"
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-011",
+      "description": "CN22 actual SVG includes every subnet and both next-hop addresses",
+      "actual": true,
+      "expected": true,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-012",
+      "description": "2024 book topology synchronous RIP learned-router sets from initial exchange t=0",
+      "actual": {
+        "210.2.3.0/24": {
+          "0": [
+            "R11",
+            "R14",
+            "R15"
+          ],
+          "30": [
+            "R11",
+            "R12",
+            "R13",
+            "R14",
+            "R15",
+            "R16"
+          ]
+        },
+        "210.2.4.0/24": {
+          "0": [
+            "R15",
+            "R16"
+          ],
+          "30": [
+            "R13",
+            "R14",
+            "R15",
+            "R16"
+          ],
+          "60": [
+            "R11",
+            "R12",
+            "R13",
+            "R14",
+            "R15",
+            "R16"
+          ]
+        }
+      },
+      "expected": {
+        "210.2.3.0/24": {
+          "0": [
+            "R11",
+            "R14",
+            "R15"
+          ],
+          "30": [
+            "R11",
+            "R12",
+            "R13",
+            "R14",
+            "R15",
+            "R16"
+          ]
+        },
+        "210.2.4.0/24": {
+          "0": [
+            "R15",
+            "R16"
+          ],
+          "30": [
+            "R13",
+            "R14",
+            "R15",
+            "R16"
+          ],
+          "60": [
+            "R11",
+            "R12",
+            "R13",
+            "R14",
+            "R15",
+            "R16"
+          ]
+        }
+      },
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-013",
+      "description": "2024 final propagation times derive from actual stage traces",
+      "actual": [
+        30,
+        60
+      ],
+      "expected": [
+        30,
+        60
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-014",
+      "description": "2024 shortest-AS-path filter then actual RIP hop distance to exit",
+      "actual": [
+        [
+          "R11",
+          "R13"
+        ],
+        {
+          "R14": "R11",
+          "R15": "R13"
+        }
+      ],
+      "expected": [
+        [
+          "R11",
+          "R13"
+        ],
+        {
+          "R14": "R11",
+          "R15": "R13"
+        }
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-015",
+      "description": "CN23 actual SVG has exactly six source edges and no R13-R16",
+      "actual": [
+        [
+          "R11",
+          "R12"
+        ],
+        [
+          "R11",
+          "R14"
+        ],
+        [
+          "R12",
+          "R13"
+        ],
+        [
+          "R13",
+          "R15"
+        ],
+        [
+          "R14",
+          "R15"
+        ],
+        [
+          "R15",
+          "R16"
+        ]
+      ],
+      "expected": [
+        [
+          "R11",
+          "R12"
+        ],
+        [
+          "R11",
+          "R14"
+        ],
+        [
+          "R12",
+          "R13"
+        ],
+        [
+          "R13",
+          "R15"
+        ],
+        [
+          "R14",
+          "R15"
+        ],
+        [
+          "R15",
+          "R16"
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-016",
+      "description": "2024 minimum TTL retains one after all fifteen routers",
+      "actual": 16,
+      "expected": 16,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-017",
+      "description": "2025 propagation and bottleneck-file ideal lower bound in ms",
+      "actual": [
+        240,
+        200000,
+        160,
+        400
+      ],
+      "expected": [
+        240,
+        200000,
+        160,
+        400
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-018",
+      "description": "2025 enumerate window meeting80percent then GBN sequence-bit constraint",
+      "actual": [
+        60,
+        540,
+        8,
+        4
+      ],
+      "expected": [
+        60,
+        540,
+        8,
+        4
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-019",
+      "description": "2025 W7 fails, W8 passes, W9 saturates; LAN serialization is nonzero",
+      "actual": [
+        0.7777777777777778,
+        0.8888888888888888,
+        1.0,
+        32
+      ],
+      "expected": [
+        0.7777777777777778,
+        0.8888888888888888,
+        1.0,
+        32
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-020",
+      "description": "2025 enumerate aligned disjoint VLSM assignments under existing H mask",
+      "actual": [
+        [
+          "10.10.10.64/26",
+          "10.10.10.0/26",
+          "10.10.10.128/25"
+        ]
+      ],
+      "expected": [
+        [
+          "10.10.10.64/26",
+          "10.10.10.0/26",
+          "10.10.10.128/25"
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-021",
+      "description": "2012 decode every packet length, IP/TCP header, control byte and application length",
+      "actual": [
+        [
+          48,
+          20,
+          28,
+          2,
+          0
+        ],
+        [
+          48,
+          20,
+          28,
+          18,
+          0
+        ],
+        [
+          40,
+          20,
+          20,
+          16,
+          0
+        ],
+        [
+          56,
+          20,
+          20,
+          24,
+          16
+        ],
+        [
+          40,
+          20,
+          20,
+          16,
+          0
+        ]
+      ],
+      "expected": [
+        [
+          48,
+          20,
+          28,
+          2,
+          0
+        ],
+        [
+          48,
+          20,
+          28,
+          18,
+          0
+        ],
+        [
+          40,
+          20,
+          20,
+          16,
+          0
+        ],
+        [
+          56,
+          20,
+          20,
+          24,
+          16
+        ],
+        [
+          40,
+          20,
+          20,
+          16,
+          0
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-022",
+      "description": "2012 classify H-sent packets and exact Ethernet padding bytes",
+      "actual": [
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          6
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          3,
+          4
+        ],
+        [
+          0,
+          0,
+          6,
+          0,
+          6
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-023",
+      "description": "2012 handshake SYN consumes one at each endpoint; pure ACK consumes none",
+      "actual": [
+        true,
+        true,
+        true
+      ],
+      "expected": [
+        true,
+        true,
+        true
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-024",
+      "description": "2012 ACK difference counts only application data and ID-matched TTL difference counts routers",
+      "actual": [
+        16,
+        true,
+        15
+      ],
+      "expected": [
+        16,
+        true,
+        15
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-025",
+      "description": "2012 complete40B rows3/5 TCP checksums validate; excerpt does not validate missing options/data",
+      "actual": [
+        0,
+        0
+      ],
+      "expected": [
+        0,
+        0
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-026",
+      "description": "CN25 actual SVG retains all240 source bytes including45/5010/2b32/e655",
+      "actual": [
+        "45 00 00 30 01 9b 40 00 80 06 1d e8 c0 a8 00 08 d3 44 47 50 0b d9 13 88 84 6b 41 c5 00 00 00 00 70 02 43 80 5d b0 00 00",
+        "45 00 00 30 00 00 40 00 31 06 6e 83 d3 44 47 50 c0 a8 00 08 13 88 0b d9 e0 59 9f ef 84 6b 41 c6 70 12 16 d0 37 e1 00 00",
+        "45 00 00 28 01 9c 40 00 80 06 1d ef c0 a8 00 08 d3 44 47 50 0b d9 13 88 84 6b 41 c6 e0 59 9f f0 50 10 43 80 2b 32 00 00",
+        "45 00 00 38 01 9d 40 00 80 06 1d de c0 a8 00 08 d3 44 47 50 0b d9 13 88 84 6b 41 c6 e0 59 9f f0 50 18 43 80 e6 55 00 00",
+        "45 00 00 28 68 11 40 00 31 06 06 7a d3 44 47 50 c0 a8 00 08 13 88 0b d9 e0 59 9f f0 84 6b 41 d6 50 10 16 d0 57 d2 00 00",
+        "45 00 00 28 68 11 40 00 40 06 ec ad d3 44 47 50 ca 76 01 06 13 88 a1 08 e0 59 9f f0 84 6b 41 d6 50 10 16 d0 b7 d6 00 00"
+      ],
+      "expected": [
+        "45 00 00 30 01 9b 40 00 80 06 1d e8 c0 a8 00 08 d3 44 47 50 0b d9 13 88 84 6b 41 c5 00 00 00 00 70 02 43 80 5d b0 00 00",
+        "45 00 00 30 00 00 40 00 31 06 6e 83 d3 44 47 50 c0 a8 00 08 13 88 0b d9 e0 59 9f ef 84 6b 41 c6 70 12 16 d0 37 e1 00 00",
+        "45 00 00 28 01 9c 40 00 80 06 1d ef c0 a8 00 08 d3 44 47 50 0b d9 13 88 84 6b 41 c6 e0 59 9f f0 50 10 43 80 2b 32 00 00",
+        "45 00 00 38 01 9d 40 00 80 06 1d de c0 a8 00 08 d3 44 47 50 0b d9 13 88 84 6b 41 c6 e0 59 9f f0 50 18 43 80 e6 55 00 00",
+        "45 00 00 28 68 11 40 00 31 06 06 7a d3 44 47 50 c0 a8 00 08 13 88 0b d9 e0 59 9f f0 84 6b 41 d6 50 10 16 d0 57 d2 00 00",
+        "45 00 00 28 68 11 40 00 40 06 ec ad d3 44 47 50 ca 76 01 06 13 88 a1 08 e0 59 9f f0 84 6b 41 d6 50 10 16 d0 b7 d6 00 00"
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-027",
+      "description": "2016 second handshake and eighth ACK windows in bytes",
+      "actual": [
+        101,
+        12288,
+        9216,
+        9216
+      ],
+      "expected": [
+        101,
+        12288,
+        9216,
+        9216
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-028",
+      "description": "2016 per-ACK slow-start constrained by actual remaining receiver capacity",
+      "actual": [
+        1,
+        2,
+        4,
+        8,
+        5
+      ],
+      "expected": [
+        1,
+        2,
+        4,
+        8,
+        5
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-029",
+      "description": "2016 zero-window next sequence, full five-RTT endpoint and average rate",
+      "actual": [
+        20581,
+        1000,
+        163840
+      ],
+      "expected": [
+        20581,
+        1000,
+        163840
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-030",
+      "description": "2016 passive close shortest three one-way propagation legs",
+      "actual": 300,
+      "expected": 300,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-031",
+      "description": "2023 SYN and FIN occupancy yield first file byte and second-close ACK",
+      "actual": [
+        101,
+        18102
+      ],
+      "expected": [
+        101,
+        18102
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-032",
+      "description": "2023 ACK2101 lies within second round, ACK7101 ends third round",
+      "actual": [
+        [
+          2,
+          7
+        ],
+        3,
+        5
+      ],
+      "expected": [
+        [
+          2,
+          7
+        ],
+        3,
+        5
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-033",
+      "description": "2023 file transfer rounds and actual send/ACK endpoints including handshake",
+      "actual": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        [
+          20,
+          30,
+          40,
+          50,
+          60
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          10,
+          20,
+          30,
+          40,
+          50
+        ],
+        [
+          20,
+          30,
+          40,
+          50,
+          60
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-034",
+      "description": "2023 complete data connection interval and application average rate",
+      "actual": [
+        60,
+        2400000
+      ],
+      "expected": [
+        60,
+        2400000
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-035",
+      "description": "2021 subnet membership requires local DNS ARP before DNS query",
+      "actual": 1,
+      "expected": 1,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-036",
+      "description": "2021 actual source-MAC learning produces only H1/DNS/R, no passive H2 entry",
+      "actual": {
+        "00-11-22-33-44-cc": 4,
+        "00-11-22-33-44-bb": 1,
+        "00-11-22-33-44-aa": 2
+      },
+      "expected": {
+        "00-11-22-33-44-cc": 4,
+        "00-11-22-33-44-bb": 1,
+        "00-11-22-33-44-aa": 2
+      },
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-037",
+      "description": "2021 every frame follows known unicast or broadcast ports in dependency order",
+      "actual": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          1
+        ],
+        [
+          4
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          4
+        ],
+        [
+          2
+        ],
+        [
+          4
+        ],
+        [
+          2
+        ],
+        [
+          2
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-038",
+      "description": "2021 fresh DNS flow sends two broadcasts to H2; cache-hit boundary sends only one",
+      "actual": [
+        2,
+        true,
+        1
+      ],
+      "expected": [
+        2,
+        true,
+        1
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-039",
+      "description": "CN27 actual SVG contains every original node IP and MAC",
+      "actual": true,
+      "expected": true,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-040",
+      "description": "nine added full examples are six unchanged exam stems and three explicit adaptations",
+      "actual": [
+        9,
+        6,
+        3,
+        50
+      ],
+      "expected": [
+        9,
+        6,
+        3,
+        50
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-041",
+      "description": "all nine complete source question parts remain before their explanations",
+      "actual": [
+        4,
+        2,
+        3,
+        5,
+        3,
+        3,
+        4,
+        4,
+        3
+      ],
+      "expected": [
+        4,
+        2,
+        3,
+        5,
+        3,
+        3,
+        4,
+        4,
+        3
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-042",
+      "description": "all fifty short source markers share the unindented question first line",
+      "actual": 50,
+      "expected": 50,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-043",
+      "description": "all six source chapters pipe-table header/separator/data column counts agree",
+      "actual": [],
+      "expected": [],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-044",
+      "description": "all57 original SVG/PNG/single-figure PDF bytes are unchanged",
+      "actual": [
+        57,
+        true
+      ],
+      "expected": [
+        57,
+        true
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-R3-045",
+      "description": "all eight new figures have SVG/PNG/single-figure PDF artifacts and source use",
+      "actual": [
+        8,
+        true
+      ],
+      "expected": [
+        8,
+        true
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    }
+  ],
+  "count": 152,
+  "limitations": [
+    "计算核验不替代题源全文核验、正式大纲核验或PDF逐页视觉检查",
+    "协议计时与增长采用正文已说明的教材模型；未声称所有现代实现数值相同"
+  ],
+  "algorithm_processes": [
+    "存储转发逐组逐跳事件递推",
+    "CRC逐次异或余数",
+    "海明综合征与实际翻转恢复",
+    "GBN长ACK受窗口约束的发送时刻",
+    "GBN/SR接收缓存不同轨迹",
+    "序号窗口49种重叠枚举",
+    "Dijkstra定型状态",
+    "IPv4分片偏移",
+    "TCP按ACK移除在途区间",
+    "TCP13轮cwnd与HTTP图片分轮",
+    "IPv4/TCP/UDP字节序列化及字段解码",
+    "独立位段规格对照SVG实际矩形几何",
+    "选项长度与4B对齐枚举",
+    "IPv4/TCP/UDP校验范围变异与合法零值构造",
+    "普通IPv4/IPv6 UDP零检验和条件",
+    "Ethernet II实际封装、CRC范围、前导与间隔时间",
+    "71知识锚点、41题题干/选项/题图与97错题去向的基线保持",
+    "2017双向GBN逐事件、回绕和重传确认号",
+    "2018等分子网与实际分片守恒",
+    "2013覆盖聚合加例外最长前缀",
+    "2024同步RIP传播集合和BGP候选筛选",
+    "2025卫星利用率窗口枚举和VLSM划分枚举",
+    "2012逐字段解码、以太网填充、累计ACK及TTL差",
+    "2016逐ACK窗口与缓存限制的五轮零窗口",
+    "2023数据SYN到末ACK的完整FTP上传",
+    "2021逐帧ARP/DNS/TCP/HTTP交换学习及缓存边界"
+  ],
+  "revision2": {
+    "original_checks": 67,
+    "new_checks": 40,
+    "stage": "正文内容修订与协议图机制核验；待用户审阅",
+    "lecture_pdf_layout_review": "按用户要求本轮未执行"
+  },
+  "revision3": {
+    "original_checks_retained": 107,
+    "new_checks": 45,
+    "total": 152,
+    "source_conditions": "figures/CN_model_data.json plus editorial/revision3/CN_sources/case_manifest.json",
+    "external_original_books_required": false,
+    "lecture_pdf_review": "未执行"
+  }
+}

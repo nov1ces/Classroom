@@ -1,0 +1,315 @@
+{
+  "status": "PASS_CONTENT",
+  "date_utc": "2026-10-17T07:25:35.694890+00:00",
+  "reviewer": "r3_review_finish",
+  "manuscript_sha256": {
+    "manuscript/CN/03_链路层可靠传输与介质访问.md": "858e4d661bd6b8afe2977b1eec76f939dcd73b062c72c515348bf49ef987eb70",
+    "manuscript/CN/04_网络层地址路由与转发.md": "593022d629dec934c563a26928bdd0b757054c729acdca997c30dea6bc700291",
+    "manuscript/CN/05_传输层可靠连接与窗口.md": "0b361bcb2affee293c2024a314843573e46763854195a1fe7ddec69f466601ca",
+    "manuscript/CN/06_应用层名称邮件与Web.md": "da0add4da1bbcb60432b32566ac8b5c1b2b2d637efb7b90ac0b90fc1d3624eef",
+    "manuscript/CO/04_指令系统与程序表示.md": "b633e2750e73504929151bc4c938053fa459f27497c75fd788cfb149f1d4a995",
+    "manuscript/CO/06_流水线与并行处理.md": "a95a4ae350d917b4532c779fad7493a37bae0df32e79c8aa8eeaa63b4da524f6",
+    "manuscript/DS/05_树二叉树与应用.md": "ac131dd2ee69131b49dd8fc5660583b75ae09a6dcd58591ce67bacc6d95abc92",
+    "manuscript/OS/01_操作系统与程序运行环境.md": "26421e67f4dd53b345e776b48359136758bd434927759b5a055c9ffbc8970969",
+    "manuscript/OS/02_进程线程调度与上下文切换.md": "19b11a68de0709dc0ea0925fe5e0101d68b1853bf34581248c0deae0a0e3e6c7",
+    "manuscript/OS/04_死锁与资源分配.md": "7e2f046a0e5a9b2ac005562926872ec888719ab56fc304c36e2fa5b9dce9990e",
+    "manuscript/OS/05_内存管理与虚拟内存.md": "2fe788a6047bcc6566c43a5b23673b83f2749f58116510c356cb1bf83b995199",
+    "manuscript/OS/06_文件目录与文件系统.md": "d5de99eab38977923d62fc742ac6affb7dd4702a63c1a175d5546a0ac5503973",
+    "manuscript/OS/07_IO设备与外存调度.md": "57c242a501a390ae2c34e16fb19f244055c6e3bbcfa9269694f71554f9a49877"
+  },
+  "unchanged_chapters_sha_only": {
+    "manuscript/CN/01_网络层次服务与性能.md": {
+      "sha256": "8dbeb5a3eddaffca56ca1b6d2250249f8c5d7e9607be309c80b4544896842189",
+      "baseline_sha256": "8dbeb5a3eddaffca56ca1b6d2250249f8c5d7e9607be309c80b4544896842189"
+    },
+    "manuscript/CN/02_物理层信号速率与交换.md": {
+      "sha256": "b4bd3abcaf2e34d7f4d6c95e75f6071a56fcb9092a126f323fdfb5b54504711e",
+      "baseline_sha256": "b4bd3abcaf2e34d7f4d6c95e75f6071a56fcb9092a126f323fdfb5b54504711e"
+    },
+    "manuscript/CO/01_计算机系统与程序执行.md": {
+      "sha256": "5eb9f6d92889bc55e6fc03d620bc1457dfd1ce8c0f02f76719c4a9bafe6b5281",
+      "baseline_sha256": "5eb9f6d92889bc55e6fc03d620bc1457dfd1ce8c0f02f76719c4a9bafe6b5281"
+    },
+    "manuscript/CO/02_数据表示与运算.md": {
+      "sha256": "13152e455d2ddb8096f480fd828c81e3e535b0b91b323d3bbe9faf1a05c5a4ff",
+      "baseline_sha256": "13152e455d2ddb8096f480fd828c81e3e535b0b91b323d3bbe9faf1a05c5a4ff"
+    },
+    "manuscript/CO/03_存储系统与地址.md": {
+      "sha256": "c0dd3094a9dc8d06c749432840928b1350c30e94bc0f1086b1333f8fe7c3c9a4",
+      "baseline_sha256": "c0dd3094a9dc8d06c749432840928b1350c30e94bc0f1086b1333f8fe7c3c9a4"
+    },
+    "manuscript/CO/05_CPU与控制.md": {
+      "sha256": "e47fda476e9ffdadec5cbaa66189323deca16a7bdd5f23f5eaaad464faa61e18",
+      "baseline_sha256": "e47fda476e9ffdadec5cbaa66189323deca16a7bdd5f23f5eaaad464faa61e18"
+    },
+    "manuscript/CO/07_总线与传输时间.md": {
+      "sha256": "3cf59d66a1e224cb4a88822009f19fca66d0ea8f1ecbc6d482e70bd061915d42",
+      "baseline_sha256": "3cf59d66a1e224cb4a88822009f19fca66d0ea8f1ecbc6d482e70bd061915d42"
+    },
+    "manuscript/CO/08_IO与DMA.md": {
+      "sha256": "5979de842f4a6e65ee5920c9f7ebafac8742044ae2aa297ba53af41a3d5ae4d5",
+      "baseline_sha256": "5979de842f4a6e65ee5920c9f7ebafac8742044ae2aa297ba53af41a3d5ae4d5"
+    },
+    "manuscript/DS/01_数据结构算法与复杂度.md": {
+      "sha256": "50ea81c2b22af78872f0f5defd888bdd8cfcae036403f8a00d1672fa227facb5",
+      "baseline_sha256": "50ea81c2b22af78872f0f5defd888bdd8cfcae036403f8a00d1672fa227facb5"
+    },
+    "manuscript/DS/02_线性表下标结点与指针.md": {
+      "sha256": "7275df546d19c29ecf12c4f555b12ac548f9eefd98650284f6fa82495f0ad368",
+      "baseline_sha256": "7275df546d19c29ecf12c4f555b12ac548f9eefd98650284f6fa82495f0ad368"
+    },
+    "manuscript/DS/03_栈队列与数组.md": {
+      "sha256": "8c2ce0f7a734f26e671f4a38f63791fbbba325e833d7df5fee931c8223dbb90b",
+      "baseline_sha256": "8c2ce0f7a734f26e671f4a38f63791fbbba325e833d7df5fee931c8223dbb90b"
+    },
+    "manuscript/DS/04_串与模式匹配.md": {
+      "sha256": "508bfb54c946d5cb4f712d6045e1831b724b7bd6644571a79bdca389aefbf32f",
+      "baseline_sha256": "508bfb54c946d5cb4f712d6045e1831b724b7bd6644571a79bdca389aefbf32f"
+    },
+    "manuscript/DS/06_图与图算法.md": {
+      "sha256": "72ac42ac5bcefd164241298917b81099336a081dfcc2090fce20330c0ea6bc30",
+      "baseline_sha256": "72ac42ac5bcefd164241298917b81099336a081dfcc2090fce20330c0ea6bc30"
+    },
+    "manuscript/DS/07_查找与索引结构.md": {
+      "sha256": "84b5a8978a62f918f80958d8d2b93b0aed347336265fe5d24200d29921285904",
+      "baseline_sha256": "84b5a8978a62f918f80958d8d2b93b0aed347336265fe5d24200d29921285904"
+    },
+    "manuscript/DS/08_排序与外部归并.md": {
+      "sha256": "ffa1602936e872cbd03e1a70d38f6c485ce0e5ce57e0957db6eb5ddae196d290",
+      "baseline_sha256": "ffa1602936e872cbd03e1a70d38f6c485ce0e5ce57e0957db6eb5ddae196d290"
+    },
+    "manuscript/OS/03_同步互斥与信号量.md": {
+      "sha256": "3a96a181d6cad7b43c36a0db4361dacf634de93eef89096e3e07735c0d0e969f",
+      "baseline_sha256": "3a96a181d6cad7b43c36a0db4361dacf634de93eef89096e3e07735c0d0e969f"
+    }
+  },
+  "mechanism_figures": {
+    "DS_06_inorder_threads": {
+      "png_sha256": "79f005f52bf6da5979851208a768879c0eec7dd916550393b5d49a96db5469fe",
+      "svg_sha256": "7ab4eb53eaefcfff5c90338a9decaef28e380eb738a701e7d1da33ecc1da4e86"
+    },
+    "CO_F13_pipeline_schedule": {
+      "png_sha256": "7a1a5896c8efe67d22903fe1318cfd4b20d1ce7a30e81b20582eccfa995c122b",
+      "svg_sha256": "5b4d6d8c5d4f08d479168b08597289e7362a02a8f7a29b108a470741f1ec5d92"
+    },
+    "OS_file_directory_2022": {
+      "png_sha256": "695d6f2aee2f8c528db6fcbf39969831b499660e7ed931c515eec7e997316282",
+      "svg_sha256": "fbb83bbc196dce42604fdf0c96b2bfcec27dcfee97e9de6b7b79c8583014324d"
+    },
+    "CN14_dns_topology_2016": {
+      "png_sha256": "d652bf077104ec51a8706c568553af0ad91194dd10b5d9ffaba9fc5506ed4266",
+      "svg_sha256": "b5291d5f53d84d226b5a8c36777a6ac3b0930bea13865704a6b1affd41ffb3fe"
+    },
+    "CN20_gbn_2017": {
+      "png_sha256": "75da0f6ddbc4b3fe55e79546179ca2b5378506fce5829e90b82919571046be90",
+      "svg_sha256": "cfaf7e480e4e0adbd8928186318c413a5f181a017cd49223bfea33cfbef54abe"
+    },
+    "CN21_subnet_fragment_2018": {
+      "png_sha256": "cb34b5d722bd2f3406ea72940c619208cb7b1a52d9c144882ba84d6736e64176",
+      "svg_sha256": "bee1c2fffff27fb060d3ee96a6bfef953bfd06283af130e8223cccd388013557"
+    },
+    "CN22_aggregate_2013": {
+      "png_sha256": "13809c4fed2acf74d79b83702f2ed6b7d82bcc0c582cf2758f3b1823161410f8",
+      "svg_sha256": "c46c7245ad1d939b892fdb28fd3ea0057594cfab58e30947f90af7ee8b3e3bbc"
+    },
+    "CN23_routing_2024": {
+      "png_sha256": "d02bf8fb0db0272d57e35a1574ec8728870cae90a83e2dc5d8d11b2f7d533e28",
+      "svg_sha256": "225a01bad8096d50914d6da5dc9d7bd4fc72a57b547f2697a9c550f5f2decfc6"
+    },
+    "CN24_satellite_2025": {
+      "png_sha256": "bc754a6de24ee9ee9d3a631ed6a8d2335a33daa06de6709a6831ebb296d96ad5",
+      "svg_sha256": "e58a18aa2c5bd5d542ecc10e6c03c8ef5a7c537130ea10dd7858640982393342"
+    },
+    "CN25_packets_2012": {
+      "png_sha256": "a97b79bac049c483388de70434fbdc891041e8236c8f6418134ee3e18bc64f2b",
+      "svg_sha256": "b954b1b1db03f40f2e8d80893dea75548d2a8a4cf4f3aac8a4ca0a9f6600fe1d"
+    },
+    "CN26_ftp_2023": {
+      "png_sha256": "af3ab57564843ee85d87d22bddffc0bab0c43d6762f6e5c5a9c8117d168b3390",
+      "svg_sha256": "a6ab5d9268b41cc7c0835017492d4d781323d52ed720926cc08ed41e2d128bff"
+    },
+    "CN27_dns_switch_2021": {
+      "png_sha256": "f77e12eb89ba772885c8942ba134d22e943186a1bf4ecb83753d587d270af206",
+      "svg_sha256": "c261233f00a98ac4b4bfa6f9d0ad78420c383106335c24e07c4105f08ba5a7c7"
+    }
+  },
+  "resolved_findings": [
+    {
+      "id": "CO-R3-01",
+      "finding": "内联代码首部裸断点会改变p列初始TeX模式。",
+      "resolution": "当前共享Code过滤器已移除首部裸allowbreak，保留内部逗号/分号断点；两题汇编转为等宽代码记录，16行四字段及5种格式完整。",
+      "evidence": [
+        "review/code_cell_box_probe.tex",
+        "review/code_cell_box_probe.log",
+        "review/final_content_integrity.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "id": "CO-R3-02",
+      "finding": "流水线时序的题意空格不能作为无效单元格删除。",
+      "resolution": "I3的4–6拍ID等待、I4的4–6拍取指受阻和8–10拍ID等待完整保留；独立重排得到原14拍和最短17拍。",
+      "evidence": [
+        "review/independent_content_states.json",
+        "CO_revision.md"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "id": "CO-R3-03",
+      "finding": "RISC/CISC共同维度与实现边界需要明确，避免重复结论段。",
+      "resolution": "八维表与已实读的四书页、两课件页一致；访存/取指、ABI、CPI/延迟、控制与流水实现边界均清楚，重复段已压为一句。",
+      "evidence": [
+        "review/actual_read_sources.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "id": "DS-R3-01",
+      "finding": "中序线索图须核孩子域、线索域、箭头方向和首尾约定。",
+      "resolution": "实际PNG和SVG语义均与DBEACF一致：5孩子边，7线索域（5普通结点目标、2空边界），12个L/R域及0/1标志正确；无头结点模型一致。",
+      "evidence": [
+        "review/actual_read_sources.json",
+        "review/independent_content_states.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "id": "OS-R3-01",
+      "finding": "2022年第45题跨页第(4)问容易遗漏。",
+      "resolution": "最终例6-7保留完整四问；6MB=1536数据块，需一级、二级间接项，不需三级。源题293–294及解305均重新实际打开。",
+      "evidence": [
+        "review/actual_read_sources.json",
+        "review/independent_content_states.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "id": "OS-R3-02",
+      "finding": "存在来源版本冲突或算法命名歧义的候选题不能称完整认证原题。",
+      "resolution": "2016年第47题和2010磁盘候选未作为新增题；改选2018年第46题与2019年第44题。最终七题均重新核完整书题与社区题面，并保留二手来源边界。",
+      "evidence": [
+        "OS_revision.md",
+        "review/actual_read_sources.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "id": "OS-R3-03",
+      "finding": "共同维度比较须能支持真实做题决定。",
+      "resolution": "最终比较实际用于保护域/通信代价、进程线程现场/映射、Need与当前Request、驻留和缺页重试、目录与inode生命周期，以及六种磁盘算法的端点/回跳/服务/等待边界。保留已有SRTF/RR等完整小例。",
+      "evidence": [
+        "OS_revision.md",
+        "OS_disk_comparison_for_review.md"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "id": "OS-R3-04",
+      "finding": "2018年第46题只问末簇号，不是读取末簇数据。",
+      "resolution": "最终例6-8在共同inode已驻留的起点下区分取簇号额外访盘0/1与读取数据1/2；独立计算记录也纠正了旧字段的对象命名。",
+      "evidence": [
+        "review/verify_content_states.py",
+        "review/independent_content_states.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "id": "OS-R3-05",
+      "finding": "2023年第46题应按键盘中断完整机制解释。",
+      "resolution": "六操作为2→6→4→3→1→5，驱动执行3；P在唤醒前阻塞，随后就绪，CPU处理代码在内核态。没有套用磁盘或DMA搬运。",
+      "evidence": [
+        "review/actual_read_sources.json",
+        "review/independent_content_states.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "id": "CN-R3-01",
+      "finding": "2012报文字节、2016云子网及2024拓扑存在两来源差异。",
+      "resolution": "九题分类为六真题与三明确改编。2012采用包2首字节45及包3的50 10；2016采用201.1.1.0/24共用图；2024采用无R13—R16边的书拓扑。两版源图留档，未宣称官方完整认证。",
+      "evidence": [
+        "CN_independent_sources/results.json",
+        "review/final_content_integrity.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "id": "CN-R3-02",
+      "finding": "时延、确认、缓存与拥塞轮次的教材条件不能扩张。",
+      "resolution": "GBN保留长捎带ACK发送时间；TCP逐ACK与逐轮模型分清；2021注明新DNS查询前提；2025的400ms明确为教材理想下界，未杜撰LAN转发参数。",
+      "evidence": [
+        "CN_independent_sources/results.json",
+        "review/actual_read_sources.json"
+      ],
+      "status": "RESOLVED"
+    },
+    {
+      "id": "CN-R3-03",
+      "finding": "2012解码表分隔行列数曾与表头不一致。",
+      "resolution": "已修为7列，实际Pandoc AST确认5条数据行各7列；全29章102张源表均未因管道解析丢字段。",
+      "evidence": [
+        "review/final_content_integrity.json"
+      ],
+      "status": "RESOLVED"
+    }
+  ],
+  "remaining": [],
+  "scope": {
+    "fully_reread_changed_chapters": 13,
+    "unchanged_chapters_sha_only": 16,
+    "new_complete_OS_questions": 7,
+    "new_complete_CN_questions": 9,
+    "new_numbered_subquestions": 52,
+    "CN_classification": {
+      "exam_questions": 6,
+      "explicit_adaptations": 3
+    },
+    "source_PNGs_actually_opened_by_this_restored_reviewer": 33,
+    "standalone_teaching_PNGs_actually_opened_for_semantics": 12,
+    "CN_source_question_texts_actually_read": 9,
+    "source_pipe_tables_compared_to_actual_Pandoc_AST": 102,
+    "CO_and_DS_calculations": "Source-derived independent calculations in review/verify_content_states.py, plus manual equation/state reads.",
+    "CN_independent_source_calculations": "Prior independent CN reviewer; this reviewer read the evidence, all final changed chapters, all nine question texts, and the teaching diagrams. Does not claim the prior source-image reading as its own.",
+    "content_only": true
+  },
+  "not_reviewed": [
+    "16 unchanged chapter contents were not fully reread in this restored round; only current/baseline SHA identity was checked.",
+    "No lecture PDF generation, opening, rendering, layout, visual, pagination, cropping, or page-structure review was performed by this reviewer.",
+    "Official 2027 syllabus full text and official original-paper/official-answer authentication were not obtained or certified.",
+    "No universal performance claim for arbitrary real implementations beyond the explicitly stated textbook conditions."
+  ],
+  "evidence": {
+    "human_conclusion": "editorial/revision3/review/02_final_content_review.md",
+    "actual_source_reads": "editorial/revision3/review/actual_read_sources.json",
+    "independent_state_calculations": "editorial/revision3/review/independent_content_states.json",
+    "independent_state_calculation_groups": [
+      "OS_2016_46",
+      "OS_2009_46",
+      "OS_2020_46",
+      "OS_2022_45",
+      "OS_2018_46",
+      "OS_2023_46",
+      "OS_2019_44",
+      "DS_06_inorder_threads",
+      "CO_2012_44_pipeline",
+      "CO_2019_45_call"
+    ],
+    "independent_source_field_checks": "editorial/revision3/review/final_content_integrity.json",
+    "CN_external_independent_results": "editorial/revision3/CN_independent_sources/results.json",
+    "CN_external_independent_results_sha256": "b490694271854e20ee0b2b9056f42a0785369407aae40485a0337bb41f137dc4",
+    "shared_lua_sha256": "26270841a4cb70f6796ce43a8a73b03c546db30e9d5fbfc44718f6ca4a0eeb6a"
+  },
+  "author_locks": {
+    "OS": {
+      "path": "editorial/revision3/OS_locked_manuscript_sha256.json",
+      "sha256": "197caf566c4080a32925506618bac3313d7eeb1cbb9c54a4acda8f1f40e6c059",
+      "all_locked_hashes_match": true
+    },
+    "CN": {
+      "path": "editorial/revision3/CN_locked_manuscript_sha256.json",
+      "sha256": "e5f6433c5661a463ec783d7f43038a1a14eac5738183b66ce79675ddfbba00aa",
+      "all_locked_hashes_match": true
+    }
+  }
+}

@@ -1,0 +1,529 @@
+{
+  "date": "2026-10-15",
+  "selection_rule": "已核验真题优先；个人错题与典型例题同等；原创只用于章内回顾自查。",
+  "numbering": "完整编号例题7道；5道真题（其中1道兼个人错题）+2道其他个人错题；另3道个人错题并入。模型讲解与6个原创回顾设问不计作完整代表题数量。",
+  "items": [
+    {
+      "id": "OS-EX-2022-46",
+      "category": "408真题（教材+社区完整重建卷二手交叉核验）",
+      "priority": 1,
+      "is_personal_error": false,
+      "source_and_location": {
+        "detail": "editorial/sources/os_exam_candidates.json",
+        "id": "OS-EX-2022-46",
+        "book": {
+          "file": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+          "edition": "2027年操作系统考研复习指导",
+          "section": "2.3 进程同步与互斥",
+          "type": "综合应用题",
+          "question_number": 26,
+          "question_pdf_physical_pages": [
+            138
+          ],
+          "question_printed_pages": [
+            126
+          ],
+          "answer_pdf_physical_pages": [
+            160
+          ],
+          "answer_printed_pages": [
+            148
+          ]
+        }
+      },
+      "methods": "OS-M08",
+      "key_steps": "线程内顺序先保留；只传A完成与C完成两种跨线程通知",
+      "boundaries": "不得增加D到E/F的边",
+      "teaching_difficulty": "中等",
+      "reason": "图到程序的完整转换",
+      "added_value": "线程归属使五条边只需两次跨线程通知",
+      "deletion_check": "失去前驱图的完整真题演示",
+      "destination": "正文例3-3",
+      "changes": "题意和数据未修改；解析重新编写",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "OS-EX-2024-46",
+      "category": "408真题（教材+社区完整重建卷二手交叉核验）",
+      "priority": 1,
+      "is_personal_error": false,
+      "source_and_location": {
+        "detail": "editorial/sources/os_exam_candidates.json",
+        "id": "OS-EX-2024-46",
+        "book": {
+          "file": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+          "edition": "2027年操作系统考研复习指导",
+          "section": "2.3 进程同步与互斥",
+          "type": "综合应用题",
+          "question_number": 28,
+          "question_pdf_physical_pages": [
+            138
+          ],
+          "question_printed_pages": [
+            126
+          ],
+          "answer_pdf_physical_pages": [
+            160,
+            161
+          ],
+          "answer_printed_pages": [
+            148,
+            149
+          ]
+        }
+      },
+      "methods": "OS-M09",
+      "key_steps": "三情境分开；一次先后done=0，两修改者mutex=1",
+      "boundaries": "各一次；只有题给操作；修改不清空分组",
+      "teaching_difficulty": "基础至中等",
+      "reason": "同对象但活动范围不同，纠正固定背量数",
+      "added_value": "同步本身已排除一次读写重叠的边界",
+      "deletion_check": "失去最少量与执行次数的辨析",
+      "destination": "正文例3-4",
+      "changes": "题意和数据未修改；解析重新编写",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "OS-EX-2009-45",
+      "category": "408真题（教材+社区完整重建卷二手交叉核验）",
+      "priority": 1,
+      "is_personal_error": false,
+      "source_and_location": {
+        "detail": "editorial/sources/os_exam_candidates.json",
+        "id": "OS-EX-2009-45",
+        "book": {
+          "file": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+          "edition": "2027年操作系统考研复习指导",
+          "section": "2.3 进程同步与互斥",
+          "type": "综合应用题",
+          "question_number": 17,
+          "question_pdf_physical_pages": [
+            135
+          ],
+          "question_printed_pages": [
+            123
+          ],
+          "answer_pdf_physical_pages": [
+            154
+          ],
+          "answer_printed_pages": [
+            142
+          ]
+        }
+      },
+      "methods": "OS-M13",
+      "key_steps": "empty共用，odd/even按可取类别分开；锁内取放，锁外统计",
+      "boundaries": "原题没写初态，解答显式按空；可推广a奇b偶",
+      "teaching_difficulty": "中等",
+      "reason": "在标准模型上加不同的等待条件",
+      "added_value": "有产品不等于有本进程能取的产品",
+      "deletion_check": "失去分类许可模型",
+      "destination": "正文例3-5",
+      "changes": "题意和数据未修改；解析重新编写",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "OS-EX-2014-47",
+      "category": "408真题（教材+社区完整重建卷二手交叉核验）",
+      "priority": 1,
+      "is_personal_error": false,
+      "source_and_location": {
+        "detail": "editorial/sources/os_exam_candidates.json",
+        "id": "OS-EX-2014-47",
+        "book": {
+          "file": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+          "edition": "2027年操作系统考研复习指导",
+          "section": "2.3 进程同步与互斥",
+          "type": "综合应用题",
+          "question_number": 20,
+          "question_pdf_physical_pages": [
+            136
+          ],
+          "question_printed_pages": [
+            124
+          ],
+          "answer_pdf_physical_pages": [
+            156
+          ],
+          "answer_printed_pages": [
+            144
+          ]
+        }
+      },
+      "methods": "OS-M14",
+      "key_steps": "batch锁整批；mutex只锁单次；空位逐件归还",
+      "boundaries": "消费者缺货可等；不能阻止生产者补货",
+      "teaching_difficulty": "综合",
+      "reason": "锁范围由连续10件条件决定",
+      "added_value": "一批中的消费者排他与生产并发同时成立",
+      "deletion_check": "失去批次约束改变锁范围的迁移",
+      "destination": "正文例3-6",
+      "changes": "题意和数据未修改；解析重新编写",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "OS-EX-2025-45",
+      "category": "408真题（教材+社区完整重建卷二手交叉核验）",
+      "priority": 1,
+      "is_personal_error": false,
+      "source_and_location": {
+        "detail": "editorial/sources/os_exam_candidates.json",
+        "id": "OS-EX-2025-45",
+        "book": {
+          "file": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+          "edition": "2027年操作系统考研复习指导",
+          "section": "2.3 进程同步与互斥",
+          "type": "综合应用题",
+          "question_number": 29,
+          "question_pdf_physical_pages": [
+            138,
+            139
+          ],
+          "question_printed_pages": [
+            126,
+            127
+          ],
+          "answer_pdf_physical_pages": [
+            161
+          ],
+          "answer_printed_pages": [
+            149
+          ]
+        }
+      },
+      "methods": "OS-M10；OS-M13",
+      "key_steps": "空坑配额、阶段产物和共享铁锹分别建量",
+      "boundaries": "树坑按尚未放苗空坑理解；丙独用水桶",
+      "teaching_difficulty": "综合",
+      "reason": "可用于后续阶段流水线综合",
+      "added_value": "新增三阶段工具共享，但当前单元主要模型已由四题与典型模型完成",
+      "deletion_check": "本轮删除不损失当前主要考法；保留到后续综合章",
+      "destination": "备用，未收入样章",
+      "changes": "题意和数据未修改；解析重新编写",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "ERR-OS-2.3-011",
+      "category": "个人错题；王道典型选择题",
+      "priority": 2,
+      "is_personal_error": true,
+      "source_and_location": "做题本§2.3第11题；完整原题/选项/原错选/扫描答案位置见editorial/errors/错误题总台账.json，id=ERR-OS-2.3-011",
+      "methods": "OS-M02",
+      "key_steps": "先写后读为同步，访问共享缓冲区为互斥",
+      "boundaries": "不能从关系分类机械推出必须几个量",
+      "teaching_difficulty": "基础辨析",
+      "reason": "处理实际错选B；用一题建立两类约束",
+      "added_value": "同一对进程可能同时受两类约束",
+      "deletion_check": "删除或合并后仍须保留该实际错误选项的具体纠正",
+      "destination": "正文例3-1",
+      "changes": "题意和数据未修改；解析重新编写",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "ERR-OS-2.3-018",
+      "category": "个人错题；王道典型选择题",
+      "priority": 2,
+      "is_personal_error": true,
+      "source_and_location": "做题本§2.3第18题；完整原题/选项/原错选/扫描答案位置见editorial/errors/错误题总台账.json，id=ERR-OS-2.3-018",
+      "methods": "OS-M07",
+      "key_steps": "初值从实际初态求，不由名称决定",
+      "boundaries": "D不是任意取值；0仅覆盖部分初态",
+      "teaching_difficulty": "基础辨析",
+      "reason": "处理实际错选B；题目直接检验初值泛化",
+      "added_value": "同步量不一律从0开始",
+      "deletion_check": "删除或合并后仍须保留该实际错误选项的具体纠正",
+      "destination": "正文例3-2",
+      "changes": "题意和数据未修改；解析重新编写",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "ERR-OS-2.3-027",
+      "category": "个人错题；王道典型选择题",
+      "priority": 2,
+      "is_personal_error": true,
+      "source_and_location": "做题本§2.3第27题；完整原题/选项/原错选/扫描答案位置见editorial/errors/错误题总台账.json，id=ERR-OS-2.3-027",
+      "methods": "OS-M01",
+      "key_steps": "资源对象与各进程代码段分别计数",
+      "boundaries": "题目默认每个进程一个相关段",
+      "teaching_difficulty": "基础辨析",
+      "reason": "实际错选A，不能被其他缓冲题替掉",
+      "added_value": "相关代码区段数不同于资源份数",
+      "deletion_check": "删除或合并后仍须保留该实际错误选项的具体纠正",
+      "destination": "并入§3.1定义",
+      "changes": "题意和数据未修改；解析重新编写",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "ERR-OS-2.3-029",
+      "category": "个人错题；王道典型选择题",
+      "priority": 2,
+      "is_personal_error": true,
+      "source_and_location": "做题本§2.3第29题；完整原题/选项/原错选/扫描答案位置见editorial/errors/错误题总台账.json，id=ERR-OS-2.3-029",
+      "methods": "OS-M18",
+      "key_steps": "检查无等待者时signal是否留许可",
+      "boundaries": "D按教材语法模块语境，不推广成所有对象无法实例化",
+      "teaching_difficulty": "基础辨析",
+      "reason": "保留实际错选D与正确C的边界纠正",
+      "added_value": "相对2018题补无等待者signal边界",
+      "deletion_check": "删除或合并后仍须保留该实际错误选项的具体纠正",
+      "destination": "并入§3.8条件变量辨析",
+      "changes": "题意和数据未修改；解析重新编写",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "ERR-OS-2.3-039",
+      "category": "个人错题；王道典型选择题",
+      "priority": 2,
+      "is_personal_error": true,
+      "source_and_location": "做题本§2.3第39题；完整原题/选项/原错选/扫描答案位置见editorial/errors/错误题总台账.json，id=ERR-OS-2.3-039",
+      "methods": "OS-M12",
+      "key_steps": "模型解决同步互斥；错误代码可能制造死锁",
+      "boundaries": "正确生产消费不自动保证公平",
+      "teaching_difficulty": "基础辨析",
+      "reason": "真实错选C并入模型解释，避免重复完整题",
+      "added_value": "区分建模任务与死锁/饥饿保证",
+      "deletion_check": "删除或合并后仍须保留该实际错误选项的具体纠正",
+      "destination": "并入§3.5模型边界",
+      "changes": "题意和数据未修改；解析重新编写",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "OS-EX-2018-28",
+      "category": "408真题+个人错题",
+      "priority": 1,
+      "is_personal_error": true,
+      "source_and_location": "2018重建卷第28题；做题本§2.3第54题p271；王道答案PDF144；ERR-OS-2.3-054",
+      "methods": "OS-M18",
+      "key_steps": "调用前判断共享状态；wait入队阻塞并让出管程",
+      "boundaries": "条件变量不是整数资源数，wait不自行判值",
+      "teaching_difficulty": "基础辨析",
+      "reason": "同考法有已核身份真题且是实际错题，优先完整讲",
+      "added_value": "实际错选C直接暴露选项职责混淆，机制处纠正",
+      "deletion_check": "失去条件等待的真题与实际错选；不能用泛讲替掉",
+      "destination": "正文例3-7",
+      "changes": "题意和数据未修改；解析重新编写",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "TYP-OS-SW",
+      "category": "可信资料中的典型模型讲解（不计为编号完整例题）",
+      "priority": 2,
+      "is_personal_error": false,
+      "source_and_location": "王道OS §2.3.2，印100–101/PDF112–113",
+      "methods": "OS-M03；OS-M04",
+      "key_steps": "三种失败法的决定交错与Peterson代码/证明",
+      "boundaries": "共享读写原子、顺序一致、两进程",
+      "teaching_difficulty": "机制理解至执行",
+      "reason": "软件互斥的机制不能由缓冲PV题代替",
+      "added_value": "软件互斥的机制不能由缓冲PV题代替",
+      "deletion_check": "删除会失去所列机制、状态或成立条件；与完整真题分工，未另堆同模型数值题",
+      "destination": "正文相应知识段",
+      "changes": "叙述与伪代码重新编排，变量按全章统一；TYP-OS-CV将Oracle occupied/more/less改称count/notEmpty/notFull并省略C接口、索引与assert，保留等待/通知逻辑；不声称逐字原例题",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "TYP-OS-HW",
+      "category": "可信资料中的典型模型讲解（不计为编号完整例题）",
+      "priority": 2,
+      "is_personal_error": false,
+      "source_and_location": "王道OS §2.3.2–3，印102–104/PDF114–116",
+      "methods": "OS-M05",
+      "key_steps": "TS原子取旧置真、Swap申请/退出步骤，区分自旋与阻塞",
+      "boundaries": "原子性不是普通C赋值；屏蔽仅本CPU；公平需另定",
+      "teaching_difficulty": "机制理解至执行",
+      "reason": "补足信号量前置和锁实现条件",
+      "added_value": "补足信号量前置和锁实现条件",
+      "deletion_check": "删除会失去所列机制、状态或成立条件；与完整真题分工，未另堆同模型数值题",
+      "destination": "正文相应知识段",
+      "changes": "叙述与伪代码重新编排，变量按全章统一；TYP-OS-CV将Oracle occupied/more/less改称count/notEmpty/notFull并省略C接口、索引与assert，保留等待/通知逻辑；不声称逐字原例题",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "MODEL-OS-SEM",
+      "category": "可信资料中的典型模型讲解（不计为编号完整例题）",
+      "priority": 2,
+      "is_personal_error": false,
+      "source_and_location": "王道信号量机制课件2.3.4_1 PDF5–7；主书印104–105",
+      "methods": "OS-M06",
+      "key_steps": "初值2，四次P两次V的有符号队列轨迹",
+      "boundaries": "为追踪显式假定FIFO；唤醒不重复P、不等于运行",
+      "teaching_difficulty": "机制理解至执行",
+      "reason": "用最小状态序列讲清机制，非另编独立练习题",
+      "added_value": "用最小状态序列讲清机制，非另编独立练习题",
+      "deletion_check": "删除会失去所列机制、状态或成立条件；与完整真题分工，未另堆同模型数值题",
+      "destination": "正文相应知识段",
+      "changes": "叙述与伪代码重新编排，变量按全章统一；TYP-OS-CV将Oracle occupied/more/less改称count/notEmpty/notFull并省略C接口、索引与assert，保留等待/通知逻辑；不声称逐字原例题",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "TYP-OS-PC",
+      "category": "可信资料中的典型模型讲解（不计为编号完整例题）",
+      "priority": 2,
+      "is_personal_error": false,
+      "source_and_location": "王道OS §2.3.5，印107–108/PDF119–120",
+      "methods": "OS-M10；OS-M11；OS-M12",
+      "key_steps": "容量/产品/锁三量；具体持锁等待反例",
+      "boundaries": "许可已预留时不同于物理库存；P顺序规则有范围",
+      "teaching_difficulty": "机制理解至执行",
+      "reason": "标准代码作为分类与批次真题的前置模型",
+      "added_value": "标准代码作为分类与批次真题的前置模型",
+      "deletion_check": "删除会失去所列机制、状态或成立条件；与完整真题分工，未另堆同模型数值题",
+      "destination": "正文相应知识段",
+      "changes": "叙述与伪代码重新编排，变量按全章统一；TYP-OS-CV将Oracle occupied/more/less改称count/notEmpty/notFull并省略C接口、索引与assert，保留等待/通知逻辑；不声称逐字原例题",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "TYP-OS-RW",
+      "category": "可信资料中的典型模型讲解（不计为编号完整例题）",
+      "priority": 2,
+      "is_personal_error": false,
+      "source_and_location": "王道OS §2.3.5，印109–111/PDF121–123",
+      "methods": "OS-M15；OS-M16",
+      "key_steps": "首读者取rw，末读者放rw；计数判断整体保护；gate入口",
+      "boundaries": "FIFO/进度/有限访问是公平性结论的条件",
+      "teaching_difficulty": "机制理解至执行",
+      "reason": "共享读者组的模型未由生产消费题覆盖",
+      "added_value": "共享读者组的模型未由生产消费题覆盖",
+      "deletion_check": "删除会失去所列机制、状态或成立条件；与完整真题分工，未另堆同模型数值题",
+      "destination": "正文相应知识段",
+      "changes": "叙述与伪代码重新编排，变量按全章统一；TYP-OS-CV将Oracle occupied/more/less改称count/notEmpty/notFull并省略C接口、索引与assert，保留等待/通知逻辑；不声称逐字原例题",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "TYP-OS-PHI",
+      "category": "可信资料中的典型模型讲解（不计为编号完整例题）",
+      "priority": 2,
+      "is_personal_error": false,
+      "source_and_location": "王道OS §2.3.5，印111–112/PDF123–124",
+      "methods": "OS-M17；OS-M16",
+      "key_steps": "五人等待环；room=4完整代码；资源排序反证",
+      "boundaries": "限制申请人数不同于同时进餐；无死锁不自动无饥饿",
+      "teaching_difficulty": "机制理解至执行",
+      "reason": "多资源循环等待与断环的不同方法",
+      "added_value": "多资源循环等待与断环的不同方法",
+      "deletion_check": "删除会失去所列机制、状态或成立条件；与完整真题分工，未另堆同模型数值题",
+      "destination": "正文相应知识段",
+      "changes": "叙述与伪代码重新编排，变量按全章统一；TYP-OS-CV将Oracle occupied/more/less改称count/notEmpty/notFull并省略C接口、索引与assert，保留等待/通知逻辑；不声称逐字原例题",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "TYP-OS-CV",
+      "category": "可信资料中的典型模型讲解（不计为编号完整例题）",
+      "priority": 2,
+      "is_personal_error": false,
+      "source_and_location": "王道OS §2.3.6印112–114；Oracle Using Condition Variables例18–20",
+      "methods": "OS-M19",
+      "key_steps": "wait释放并重取锁；while重检；缓冲模块完整接口",
+      "boundaries": "明确Mesa/POSIX式；条件变量不保存许可",
+      "teaching_difficulty": "机制理解至执行",
+      "reason": "将管程概念接到可执行等待过程，补教材语义省略",
+      "added_value": "将管程概念接到可执行等待过程，补教材语义省略",
+      "deletion_check": "删除会失去所列机制、状态或成立条件；与完整真题分工，未另堆同模型数值题",
+      "destination": "正文相应知识段",
+      "changes": "叙述与伪代码重新编排，变量按全章统一；TYP-OS-CV将Oracle occupied/more/less改称count/notEmpty/notFull并省略C接口、索引与assert，保留等待/通知逻辑；不声称逐字原例题",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "OS-RECALL-01",
+      "category": "原创章内回顾设问",
+      "priority": 3,
+      "is_personal_error": false,
+      "source_and_location": "MODEL-OS-SEM；ERR-OS-2.3-018",
+      "methods": "对应已选主例题/模型的局部自查",
+      "key_steps": "检查P后0、V后0两个不同边界",
+      "boundaries": "以正文已经说明的条件为准",
+      "teaching_difficulty": "短辨析/迁移",
+      "reason": "补充目的：允许遮住正文答案检验关键中间状态；主要模型已优先用真题、错题和典型模型讲解",
+      "added_value": "检查P后0、V后0两个不同边界",
+      "deletion_check": "不计作新增代表模型；若后续增加同任务的独立练习，合并此回顾以免重复",
+      "destination": "§3.10，答案集中在节末",
+      "changes": "抽取原机制边界作三问",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "OS-RECALL-02",
+      "category": "原创章内回顾设问",
+      "priority": 3,
+      "is_personal_error": false,
+      "source_and_location": "OS-EX-2022-46",
+      "methods": "对应已选主例题/模型的局部自查",
+      "key_steps": "检查延迟通知是否增加原题没有的顺序",
+      "boundaries": "以正文已经说明的条件为准",
+      "teaching_difficulty": "短辨析/迁移",
+      "reason": "补充目的：允许遮住正文答案检验关键中间状态；主要模型已优先用真题、错题和典型模型讲解",
+      "added_value": "检查延迟通知是否增加原题没有的顺序",
+      "deletion_check": "不计作新增代表模型；若后续增加同任务的独立练习，合并此回顾以免重复",
+      "destination": "§3.10，答案集中在节末",
+      "changes": "把signal位置移到D后，作为错误代码辨析",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "OS-RECALL-03",
+      "category": "原创章内回顾设问",
+      "priority": 3,
+      "is_personal_error": false,
+      "source_and_location": "OS-EX-2009-45",
+      "methods": "对应已选主例题/模型的局部自查",
+      "key_steps": "检查原题未明初态时怎样参数化",
+      "boundaries": "以正文已经说明的条件为准",
+      "teaching_difficulty": "短辨析/迁移",
+      "reason": "补充目的：允许遮住正文答案检验关键中间状态；主要模型已优先用真题、错题和典型模型讲解",
+      "added_value": "检查原题未明初态时怎样参数化",
+      "deletion_check": "不计作新增代表模型；若后续增加同任务的独立练习，合并此回顾以免重复",
+      "destination": "§3.10，答案集中在节末",
+      "changes": "解答改按已有a奇b偶，原题未静默添数据",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "OS-RECALL-04",
+      "category": "原创章内回顾设问",
+      "priority": 3,
+      "is_personal_error": false,
+      "source_and_location": "OS-EX-2014-47",
+      "methods": "对应已选主例题/模型的局部自查",
+      "key_steps": "检查批内缺货时的持有与等待",
+      "boundaries": "以正文已经说明的条件为准",
+      "teaching_difficulty": "短辨析/迁移",
+      "reason": "补充目的：允许遮住正文答案检验关键中间状态；主要模型已优先用真题、错题和典型模型讲解",
+      "added_value": "检查批内缺货时的持有与等待",
+      "deletion_check": "不计作新增代表模型；若后续增加同任务的独立练习，合并此回顾以免重复",
+      "destination": "§3.10，答案集中在节末",
+      "changes": "观察已取3件的中间态",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "OS-RECALL-05",
+      "category": "原创章内回顾设问",
+      "priority": 3,
+      "is_personal_error": false,
+      "source_and_location": "TYP-OS-PHI",
+      "methods": "对应已选主例题/模型的局部自查",
+      "key_steps": "区别四人申请与二人可同时进餐",
+      "boundaries": "以正文已经说明的条件为准",
+      "teaching_difficulty": "短辨析/迁移",
+      "reason": "补充目的：允许遮住正文答案检验关键中间状态；主要模型已优先用真题、错题和典型模型讲解",
+      "added_value": "区别四人申请与二人可同时进餐",
+      "deletion_check": "不计作新增代表模型；若后续增加同任务的独立练习，合并此回顾以免重复",
+      "destination": "§3.10，答案集中在节末",
+      "changes": "回顾既有模型，不改五根筷子条件",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    },
+    {
+      "id": "OS-RECALL-06",
+      "category": "原创章内回顾设问",
+      "priority": 3,
+      "is_personal_error": false,
+      "source_and_location": "ERR-OS-2.3-029",
+      "methods": "对应已选主例题/模型的局部自查",
+      "key_steps": "检查无等待者的通知边界",
+      "boundaries": "以正文已经说明的条件为准",
+      "teaching_difficulty": "短辨析/迁移",
+      "reason": "补充目的：允许遮住正文答案检验关键中间状态；主要模型已优先用真题、错题和典型模型讲解",
+      "added_value": "检查无等待者的通知边界",
+      "deletion_check": "不计作新增代表模型；若后续增加同任务的独立练习，合并此回顾以免重复",
+      "destination": "§3.10，答案集中在节末",
+      "changes": "回顾本章已纠正选项的最小判断",
+      "review_state": "本轮已检查；官方原卷/官方答案未取得时不声称官方核验"
+    }
+  ]
+}

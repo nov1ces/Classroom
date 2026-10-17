@@ -1,0 +1,149 @@
+{
+  "status": "PASS",
+  "scope": "OS content/provenance integrity only; no lecture PDF generated or opened",
+  "checks": [
+    {
+      "check": "original_133_error_records_unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "all_38_old_example_records_unchanged",
+      "status": "PASS",
+      "detail": 38
+    },
+    {
+      "check": "seven_new_complete_examples",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "all_21_new_subquestions_registered",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "six_locked_manuscript_hashes_match",
+      "status": "PASS",
+      "detail": {
+        "manuscript/OS/01_操作系统与程序运行环境.md": "26421e67f4dd53b345e776b48359136758bd434927759b5a055c9ffbc8970969",
+        "manuscript/OS/02_进程线程调度与上下文切换.md": "19b11a68de0709dc0ea0925fe5e0101d68b1853bf34581248c0deae0a0e3e6c7",
+        "manuscript/OS/04_死锁与资源分配.md": "7e2f046a0e5a9b2ac005562926872ec888719ab56fc304c36e2fa5b9dce9990e",
+        "manuscript/OS/05_内存管理与虚拟内存.md": "2fe788a6047bcc6566c43a5b23673b83f2749f58116510c356cb1bf83b995199",
+        "manuscript/OS/06_文件目录与文件系统.md": "d5de99eab38977923d62fc742ac6affb7dd4702a63c1a175d5546a0ac5503973",
+        "manuscript/OS/07_IO设备与外存调度.md": "57c242a501a390ae2c34e16fb19f244055c6e3bbcfa9269694f71554f9a49877"
+      }
+    },
+    {
+      "check": "sync_sample_unmodified",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "manuscript_counts_hashes_and_characters_match_records",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "first_37_calculation_results_preserved",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "66_calculations_all_pass",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "revision3_result_copy_matches",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "all_new_source_evidence_files_exist",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "all_new_community_volume_paths_exist",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "chapter_1_old_numbered_anchors_retained",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "chapter_2_old_numbered_anchors_retained",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "chapter_4_old_numbered_anchors_retained",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "chapter_5_old_numbered_anchors_retained",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "chapter_6_old_numbered_anchors_retained",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "chapter_7_old_numbered_anchors_retained",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "OS-R3-2016-46_year_and_question_share_first_line",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "OS-R3-2009-46_year_and_question_share_first_line",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "OS-R3-2020-46_year_and_question_share_first_line",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "OS-R3-2022-45_year_and_question_share_first_line",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "OS-R3-2018-46_year_and_question_share_first_line",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "OS-R3-2023-46_year_and_question_share_first_line",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "OS-R3-2019-44_year_and_question_share_first_line",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "new_directory_figure_svg_png_present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "verification_rebuilds_from_only_local_data_and_stdlib",
+      "status": "PASS",
+      "detail": "{\"status\": \"PASS\", \"checks\": 66}"
+    }
+  ],
+  "count": 27
+}

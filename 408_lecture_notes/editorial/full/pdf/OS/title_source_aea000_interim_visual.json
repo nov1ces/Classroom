@@ -1,0 +1,336 @@
+{
+  "subject": "OS",
+  "pdf": "build/OS/title_source_review_aea000/reviewed.pdf",
+  "sha256": "aea000e43902341c62fa6e55c01ebff8ec7f36339e8ac59b5f28e7242d5e4000",
+  "page_count": 75,
+  "reviewed_at": "2026-10-16T15:34:13.504870+00:00",
+  "reviewer": "full_reviewer",
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75
+  ],
+  "detail_pages": [
+    6,
+    8,
+    19,
+    20
+  ],
+  "artifacts": [
+    {
+      "path": "build/OS/title_source_review_aea000/contact_001.png",
+      "sha256": "b6af031365ff9c84c28d0e2dee500fc70e8b0de51e0a39b2d3d9b97a1289ba65",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_002.png",
+      "sha256": "8bf412600c15ce3c7279097ca1eac887a12a0b4acad8e884ca8033a794caafcb",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_003.png",
+      "sha256": "6d8c094303282ac5a56c214e4721cb08efb6a585f51cf1f6775b0f57d25e3093",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_004.png",
+      "sha256": "1c2633fa37bee1865ede940c32aab2e926b10956e8581220080a3b07bcaa59f2",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_005.png",
+      "sha256": "c51074f3708aeb819ea870e67346594f1e0ea5d2a2f525c685e411a8f8bc4712",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_006.png",
+      "sha256": "7ee8ec1906d8724fa7d53834b6c5464a22ca3d4cfecc5372d803aaa5f91335a5",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_007.png",
+      "sha256": "4a406fafa06425541a66be791bfdf7f62bb5abeabd942895d6300fadb0758f68",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_008.png",
+      "sha256": "5a68d8982e1207c21d566cf781a5db2f4926c713955b280216a08827a9d8a805",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_009.png",
+      "sha256": "69ff9adddcfc15e4673734c3c9aafadbf7600868dcff7b18e8bfbc22c4063518",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_010.png",
+      "sha256": "b4984e6be57c8152d5d4554792fc835ddb7823ca5639bf0e54c9c0ceb168f9e9",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_011.png",
+      "sha256": "89deae7077e154f75cf9a41ef64d9a0a13fe555eef55c3c0e7b6b72d8c88f39a",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_012.png",
+      "sha256": "40b04aab47dc4965ba06fa2eaaaa6bc71092780a9dec573b61a2bd11670ed8d5",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_013.png",
+      "sha256": "8796ac2d073852d0e69dc8fd2cbcb7973b168f807114c073874b5801de377f01",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_014.png",
+      "sha256": "82f528499e2c6fe64c0256a90666a177072f2f359fa372ecfe26525b8ab43a47",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        53,
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_015.png",
+      "sha256": "08eb8059efcb6a500afd0944ccea2b8950fbf52f2dfd4ee1100586e5290b0c7e",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_016.png",
+      "sha256": "d8b3c75604ef17e649f3c5944f69f2cf890bfc660a5f8eb7fd6417e3caf7cbe3",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_017.png",
+      "sha256": "d2e06233a3460e7132e841c218ff2cdbcc9511933097ae19c4f87a8ba623e345",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_018.png",
+      "sha256": "1d26f55725332ddb898d076f499be70e956ebe1a3668ab2c210e6b4c0a24d4ec",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/contact_019.png",
+      "sha256": "3c5b840705bc9b4a2972b6127d1fc849cd91ca01205522793f9f5e24be8e7514",
+      "kind": "contact_sheet",
+      "reviewed_physical_pages": [
+        73,
+        74,
+        75
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/page_006.png",
+      "sha256": "92219ba19d4756d8e553d4d63d0337c9635b4bfc2c1eed677fbe2bfa1f8ed107",
+      "kind": "full_page_detail",
+      "reviewed_physical_pages": [
+        6
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/page_008.png",
+      "sha256": "c89555aa8fe51c797a1560f7e8d9bcddde93d1190634492dec0f9538a835929c",
+      "kind": "full_page_detail",
+      "reviewed_physical_pages": [
+        8
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/page_019.png",
+      "sha256": "ce99dccc732ecb052e658987c0815a7c7e1638e7beefcecad9f27b118c1a96c3",
+      "kind": "full_page_detail",
+      "reviewed_physical_pages": [
+        19
+      ]
+    },
+    {
+      "path": "build/OS/title_source_review_aea000/page_020.png",
+      "sha256": "f692cb642e6f94f23dd9c963d407bcd5a7feb244d0ea4a399ebc290e9b0fc0d7",
+      "kind": "full_page_detail",
+      "reviewed_physical_pages": [
+        20
+      ]
+    }
+  ],
+  "findings": [],
+  "status": "SUPERSEDED_BEFORE_FINAL_REVIEW",
+  "method": "实际看完19张联系图覆盖75页，并打开4原页；用户随后将源标位置改为题干首行且该行不缩进，主编将再排版，因此暂停本版后续高风险原页检查，不把阶段证据冒充下一版最终PASS。"
+}

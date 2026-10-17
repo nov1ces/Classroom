@@ -1,0 +1,622 @@
+{
+  "priority_2022": [
+    [
+      0,
+      10,
+      "P0"
+    ],
+    [
+      10,
+      15,
+      "P2"
+    ],
+    [
+      15,
+      25,
+      "P3"
+    ],
+    [
+      25,
+      40,
+      "P2"
+    ],
+    [
+      40,
+      130,
+      "P0"
+    ],
+    [
+      130,
+      190,
+      "P1"
+    ]
+  ],
+  "banker_candidate_safe_sequence_counts": [
+    24,
+    0,
+    0,
+    0
+  ],
+  "lru_2019": [
+    {
+      "page": 0,
+      "order": [
+        0
+      ],
+      "fault": true,
+      "victim": null
+    },
+    {
+      "page": 1,
+      "order": [
+        0,
+        1
+      ],
+      "fault": true,
+      "victim": null
+    },
+    {
+      "page": 2,
+      "order": [
+        0,
+        1,
+        2
+      ],
+      "fault": true,
+      "victim": null
+    },
+    {
+      "page": 7,
+      "order": [
+        0,
+        1,
+        2,
+        7
+      ],
+      "fault": true,
+      "victim": null
+    },
+    {
+      "page": 0,
+      "order": [
+        1,
+        2,
+        7,
+        0
+      ],
+      "fault": false,
+      "victim": null
+    },
+    {
+      "page": 5,
+      "order": [
+        2,
+        7,
+        0,
+        5
+      ],
+      "fault": true,
+      "victim": 1
+    },
+    {
+      "page": 3,
+      "order": [
+        7,
+        0,
+        5,
+        3
+      ],
+      "fault": true,
+      "victim": 2
+    },
+    {
+      "page": 5,
+      "order": [
+        7,
+        0,
+        3,
+        5
+      ],
+      "fault": false,
+      "victim": null
+    },
+    {
+      "page": 0,
+      "order": [
+        7,
+        3,
+        5,
+        0
+      ],
+      "fault": false,
+      "victim": null
+    },
+    {
+      "page": 2,
+      "order": [
+        3,
+        5,
+        0,
+        2
+      ],
+      "fault": true,
+      "victim": 7
+    },
+    {
+      "page": 7,
+      "order": [
+        5,
+        0,
+        2,
+        7
+      ],
+      "fault": true,
+      "victim": 3
+    },
+    {
+      "page": 6,
+      "order": [
+        0,
+        2,
+        7,
+        6
+      ],
+      "fault": true,
+      "victim": 5
+    }
+  ],
+  "single_buffer": [
+    {
+      "block": 1,
+      "buffer": 0,
+      "input": [
+        0,
+        100
+      ],
+      "copy": [
+        100,
+        150
+      ],
+      "compute": [
+        150,
+        200
+      ]
+    },
+    {
+      "block": 2,
+      "buffer": 0,
+      "input": [
+        150,
+        250
+      ],
+      "copy": [
+        250,
+        300
+      ],
+      "compute": [
+        300,
+        350
+      ]
+    },
+    {
+      "block": 3,
+      "buffer": 0,
+      "input": [
+        300,
+        400
+      ],
+      "copy": [
+        400,
+        450
+      ],
+      "compute": [
+        450,
+        500
+      ]
+    },
+    {
+      "block": 4,
+      "buffer": 0,
+      "input": [
+        450,
+        550
+      ],
+      "copy": [
+        550,
+        600
+      ],
+      "compute": [
+        600,
+        650
+      ]
+    },
+    {
+      "block": 5,
+      "buffer": 0,
+      "input": [
+        600,
+        700
+      ],
+      "copy": [
+        700,
+        750
+      ],
+      "compute": [
+        750,
+        800
+      ]
+    },
+    {
+      "block": 6,
+      "buffer": 0,
+      "input": [
+        750,
+        850
+      ],
+      "copy": [
+        850,
+        900
+      ],
+      "compute": [
+        900,
+        950
+      ]
+    },
+    {
+      "block": 7,
+      "buffer": 0,
+      "input": [
+        900,
+        1000
+      ],
+      "copy": [
+        1000,
+        1050
+      ],
+      "compute": [
+        1050,
+        1100
+      ]
+    },
+    {
+      "block": 8,
+      "buffer": 0,
+      "input": [
+        1050,
+        1150
+      ],
+      "copy": [
+        1150,
+        1200
+      ],
+      "compute": [
+        1200,
+        1250
+      ]
+    },
+    {
+      "block": 9,
+      "buffer": 0,
+      "input": [
+        1200,
+        1300
+      ],
+      "copy": [
+        1300,
+        1350
+      ],
+      "compute": [
+        1350,
+        1400
+      ]
+    },
+    {
+      "block": 10,
+      "buffer": 0,
+      "input": [
+        1350,
+        1450
+      ],
+      "copy": [
+        1450,
+        1500
+      ],
+      "compute": [
+        1500,
+        1550
+      ]
+    }
+  ],
+  "double_buffer": [
+    {
+      "block": 1,
+      "buffer": 0,
+      "input": [
+        0,
+        100
+      ],
+      "copy": [
+        100,
+        150
+      ],
+      "compute": [
+        150,
+        200
+      ]
+    },
+    {
+      "block": 2,
+      "buffer": 1,
+      "input": [
+        100,
+        200
+      ],
+      "copy": [
+        200,
+        250
+      ],
+      "compute": [
+        250,
+        300
+      ]
+    },
+    {
+      "block": 3,
+      "buffer": 0,
+      "input": [
+        200,
+        300
+      ],
+      "copy": [
+        300,
+        350
+      ],
+      "compute": [
+        350,
+        400
+      ]
+    },
+    {
+      "block": 4,
+      "buffer": 1,
+      "input": [
+        300,
+        400
+      ],
+      "copy": [
+        400,
+        450
+      ],
+      "compute": [
+        450,
+        500
+      ]
+    },
+    {
+      "block": 5,
+      "buffer": 0,
+      "input": [
+        400,
+        500
+      ],
+      "copy": [
+        500,
+        550
+      ],
+      "compute": [
+        550,
+        600
+      ]
+    },
+    {
+      "block": 6,
+      "buffer": 1,
+      "input": [
+        500,
+        600
+      ],
+      "copy": [
+        600,
+        650
+      ],
+      "compute": [
+        650,
+        700
+      ]
+    },
+    {
+      "block": 7,
+      "buffer": 0,
+      "input": [
+        600,
+        700
+      ],
+      "copy": [
+        700,
+        750
+      ],
+      "compute": [
+        750,
+        800
+      ]
+    },
+    {
+      "block": 8,
+      "buffer": 1,
+      "input": [
+        700,
+        800
+      ],
+      "copy": [
+        800,
+        850
+      ],
+      "compute": [
+        850,
+        900
+      ]
+    },
+    {
+      "block": 9,
+      "buffer": 0,
+      "input": [
+        800,
+        900
+      ],
+      "copy": [
+        900,
+        950
+      ],
+      "compute": [
+        950,
+        1000
+      ]
+    },
+    {
+      "block": 10,
+      "buffer": 1,
+      "input": [
+        900,
+        1000
+      ],
+      "copy": [
+        1000,
+        1050
+      ],
+      "compute": [
+        1050,
+        1100
+      ]
+    }
+  ],
+  "revision3": {
+    "paging_2009": [
+      {
+        "VA": "2362H",
+        "page": 2,
+        "offset": 866,
+        "fault": false,
+        "victim": null,
+        "time_ns": 210,
+        "PA": "254362H",
+        "resident": {
+          "0": 257,
+          "2": 596
+        },
+        "TLB": {
+          "2": 596
+        },
+        "LRU_oldest_first": [
+          0,
+          2
+        ]
+      },
+      {
+        "VA": "1565H",
+        "page": 1,
+        "offset": 1381,
+        "fault": true,
+        "victim": 0,
+        "time_ns": 100000220,
+        "PA": "101565H",
+        "resident": {
+          "2": 596,
+          "1": 257
+        },
+        "TLB": {
+          "2": 596,
+          "1": 257
+        },
+        "LRU_oldest_first": [
+          2,
+          1
+        ]
+      },
+      {
+        "VA": "25A5H",
+        "page": 2,
+        "offset": 1445,
+        "fault": false,
+        "victim": null,
+        "time_ns": 110,
+        "PA": "2545A5H",
+        "resident": {
+          "2": 596,
+          "1": 257
+        },
+        "TLB": {
+          "2": 596,
+          "1": 257
+        },
+        "LRU_oldest_first": [
+          1,
+          2
+        ]
+      }
+    ],
+    "keyboard_2023": [
+      {
+        "operation": 2,
+        "P_state_after": "blocked",
+        "CPU_mode_after": "other process mode unspecified",
+        "system_buffer_has_character": false
+      },
+      {
+        "operation": 6,
+        "P_state_after": "blocked",
+        "CPU_mode_after": "other process mode unspecified",
+        "system_buffer_has_character": false
+      },
+      {
+        "operation": 4,
+        "P_state_after": "blocked",
+        "CPU_mode_after": "kernel",
+        "system_buffer_has_character": false
+      },
+      {
+        "operation": 3,
+        "P_state_after": "blocked",
+        "CPU_mode_after": "kernel",
+        "system_buffer_has_character": true
+      },
+      {
+        "operation": 1,
+        "P_state_after": "ready",
+        "CPU_mode_after": "kernel",
+        "system_buffer_has_character": true
+      },
+      {
+        "operation": 5,
+        "P_state_after": "running",
+        "CPU_mode_after": "user",
+        "system_buffer_has_character": true
+      }
+    ],
+    "disk_2019": [
+      {
+        "from_cylinder": 85,
+        "cluster": 100260,
+        "to_cylinder": 100,
+        "distance": 15
+      },
+      {
+        "from_cylinder": 100,
+        "cluster": 101660,
+        "to_cylinder": 101,
+        "distance": 1
+      },
+      {
+        "from_cylinder": 101,
+        "cluster": 110560,
+        "to_cylinder": 110,
+        "distance": 9
+      },
+      {
+        "from_cylinder": 110,
+        "cluster": 60005,
+        "to_cylinder": 60,
+        "distance": 50
+      }
+    ]
+  }
+}

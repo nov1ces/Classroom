@@ -1,0 +1,1966 @@
+{
+  "subject": "DS",
+  "count": 21,
+  "figures": [
+    {
+      "id": "DS_01_list_insert",
+      "title": "单链表插入的两次链接更新",
+      "svg": "figures/DS_01_list_insert.svg",
+      "png": "figures/DS_01_list_insert.png",
+      "pdf": "figures/DS_01_list_insert.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "before": [
+          "A",
+          "B",
+          "C"
+        ],
+        "insert": "X",
+        "after": [
+          "A",
+          "X",
+          "B",
+          "C"
+        ],
+        "operations": [
+          "s.next=p.next",
+          "p.next=s"
+        ]
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_02_shared_suffix",
+      "title": "两个单链表共享后缀",
+      "svg": "figures/DS_02_shared_suffix.svg",
+      "png": "figures/DS_02_shared_suffix.png",
+      "pdf": "figures/DS_02_shared_suffix.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "words": [
+          "loading",
+          "being"
+        ],
+        "shared": "ing",
+        "lengths": [
+          7,
+          5
+        ],
+        "head_nodes": [
+          "头1",
+          "头2"
+        ],
+        "head_pointer_targets": [
+          "头1",
+          "头2"
+        ]
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_03_circular_queue",
+      "title": "循环队列下标环绕",
+      "svg": "figures/DS_03_circular_queue.svg",
+      "png": "figures/DS_03_circular_queue.png",
+      "pdf": "figures/DS_03_circular_queue.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "M": 8,
+        "front": 6,
+        "rear": 2,
+        "values": {
+          "6": "A",
+          "7": "B",
+          "0": "C",
+          "1": "D"
+        },
+        "length": 4,
+        "spare": 3
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_04_kmp_shift",
+      "title": "KMP失配保留最长相等前后缀",
+      "svg": "figures/DS_04_kmp_shift.svg",
+      "png": "figures/DS_04_kmp_shift.png",
+      "pdf": "figures/DS_04_kmp_shift.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "pattern": "abaabc",
+        "matched": "abaab",
+        "i": 5,
+        "j_before": 5,
+        "j_after": 2,
+        "shift": 3
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_05_binary_traversal",
+      "title": "同一二叉树的四种遍历",
+      "svg": "figures/DS_05_binary_traversal.svg",
+      "png": "figures/DS_05_binary_traversal.png",
+      "pdf": "figures/DS_05_binary_traversal.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "children": {
+          "A": [
+            "B",
+            "C"
+          ],
+          "B": [
+            "D",
+            "E"
+          ],
+          "C": [
+            null,
+            "F"
+          ]
+        },
+        "preorder": "ABDECF",
+        "inorder": "DBEACF",
+        "postorder": "DEBFCA",
+        "levelorder": "ABCDEF"
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_06_inorder_threads",
+      "title": "中序线索与孩子链接",
+      "svg": "figures/DS_06_inorder_threads.svg",
+      "png": "figures/DS_06_inorder_threads.png",
+      "pdf": "figures/DS_06_inorder_threads.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "inorder": "DBEACF",
+        "threads": {
+          "D_left": null,
+          "D_right": "B",
+          "E_left": "B",
+          "E_right": "A",
+          "C_left": "A",
+          "F_left": "C",
+          "F_right": null
+        }
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_07_forest_conversion",
+      "title": "森林的孩子兄弟转换",
+      "svg": "figures/DS_07_forest_conversion.svg",
+      "png": "figures/DS_07_forest_conversion.png",
+      "pdf": "figures/DS_07_forest_conversion.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "forest": [
+          {
+            "A": [
+              "B",
+              "C"
+            ]
+          },
+          {
+            "D": []
+          }
+        ],
+        "binary_edges": [
+          [
+            "A",
+            "B",
+            "left"
+          ],
+          [
+            "B",
+            "C",
+            "right"
+          ],
+          [
+            "A",
+            "D",
+            "right"
+          ]
+        ]
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_08_huffman",
+      "title": "六字符哈夫曼合并树",
+      "svg": "figures/DS_08_huffman.svg",
+      "png": "figures/DS_08_huffman.png",
+      "pdf": "figures/DS_08_huffman.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "weights": [
+          3,
+          4,
+          5,
+          6,
+          8,
+          10
+        ],
+        "merge_weights": [
+          7,
+          11,
+          15,
+          21,
+          36
+        ],
+        "WPL": 90,
+        "average": 2.5
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_09_heap_delete",
+      "title": "小根堆删除堆顶后的下滤",
+      "svg": "figures/DS_09_heap_delete.svg",
+      "png": "figures/DS_09_heap_delete.png",
+      "pdf": "figures/DS_09_heap_delete.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "initial": [
+          8,
+          15,
+          10,
+          21,
+          34,
+          16,
+          12
+        ],
+        "states": [
+          [
+            12,
+            15,
+            10,
+            21,
+            34,
+            16
+          ],
+          [
+            10,
+            15,
+            12,
+            21,
+            34,
+            16
+          ]
+        ],
+        "comparisons": [
+          [
+            15,
+            10
+          ],
+          [
+            12,
+            10
+          ],
+          [
+            12,
+            16
+          ]
+        ],
+        "comparison_count": 3
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_10_graph_storage",
+      "title": "同一无向图及其邻接表",
+      "svg": "figures/DS_10_graph_storage.svg",
+      "png": "figures/DS_10_graph_storage.png",
+      "pdf": "figures/DS_10_graph_storage.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "vertices": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ],
+        "edges": [
+          [
+            "a",
+            "b"
+          ],
+          [
+            "a",
+            "c"
+          ],
+          [
+            "a",
+            "e"
+          ],
+          [
+            "b",
+            "e"
+          ],
+          [
+            "c",
+            "f"
+          ],
+          [
+            "f",
+            "d"
+          ],
+          [
+            "e",
+            "d"
+          ]
+        ],
+        "DFS": "abedfc",
+        "BFS": "abcefd"
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_11_mst_2015",
+      "title": "2015最小生成树原图重绘",
+      "svg": "figures/DS_11_mst_2015.svg",
+      "png": "figures/DS_11_mst_2015.png",
+      "pdf": "figures/DS_11_mst_2015.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "year": 2015,
+        "question": 6,
+        "edges": [
+          [
+            "V1",
+            "V2",
+            10
+          ],
+          [
+            "V1",
+            "V3",
+            8
+          ],
+          [
+            "V1",
+            "V4",
+            5
+          ],
+          [
+            "V2",
+            "V3",
+            8
+          ],
+          [
+            "V2",
+            "V4",
+            11
+          ],
+          [
+            "V3",
+            "V4",
+            8
+          ]
+        ],
+        "MST_weight": 21
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_12_dijkstra_2021",
+      "title": "2021Dijkstra原图重绘",
+      "svg": "figures/DS_12_dijkstra_2021.svg",
+      "png": "figures/DS_12_dijkstra_2021.png",
+      "pdf": "figures/DS_12_dijkstra_2021.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "year": 2021,
+        "question": 8,
+        "edges": [
+          [
+            "1",
+            "5",
+            6
+          ],
+          [
+            "1",
+            "2",
+            26
+          ],
+          [
+            "1",
+            "3",
+            3
+          ],
+          [
+            "5",
+            "2",
+            15
+          ],
+          [
+            "5",
+            "4",
+            8
+          ],
+          [
+            "5",
+            "3",
+            6
+          ],
+          [
+            "4",
+            "2",
+            1
+          ],
+          [
+            "4",
+            "3",
+            6
+          ],
+          [
+            "3",
+            "2",
+            22
+          ]
+        ],
+        "after_two": [
+          21,
+          3,
+          14,
+          6
+        ],
+        "final": [
+          15,
+          3,
+          14,
+          6
+        ]
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_13_aoe_2013",
+      "title": "2013AOE原图重绘",
+      "svg": "figures/DS_13_aoe_2013.svg",
+      "png": "figures/DS_13_aoe_2013.png",
+      "pdf": "figures/DS_13_aoe_2013.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "year": 2013,
+        "question": 9,
+        "edges": [
+          [
+            "1",
+            "2",
+            "a=3"
+          ],
+          [
+            "1",
+            "3",
+            "b=8"
+          ],
+          [
+            "3",
+            "2",
+            "d=4"
+          ],
+          [
+            "2",
+            "4",
+            "c=9"
+          ],
+          [
+            "2",
+            "5",
+            "e=6"
+          ],
+          [
+            "3",
+            "5",
+            "f=10"
+          ],
+          [
+            "4",
+            "6",
+            "g=6"
+          ],
+          [
+            "5",
+            "6",
+            "h=9"
+          ]
+        ],
+        "ve": [
+          0,
+          12,
+          8,
+          21,
+          18,
+          27
+        ],
+        "vl": [
+          0,
+          12,
+          8,
+          21,
+          18,
+          27
+        ],
+        "critical_paths": [
+          "bdcg",
+          "bdeh",
+          "bfh"
+        ]
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_14_avl_rotations",
+      "title": "AVL的LL/RR单旋与中间子树转接",
+      "svg": "figures/DS_14_avl_rotations.svg",
+      "png": "figures/DS_14_avl_rotations.png",
+      "pdf": "figures/DS_14_avl_rotations.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "cases": [
+          {
+            "type": "LL",
+            "insert": 10,
+            "pre_insert": [
+              50,
+              [
+                30,
+                [
+                  20,
+                  null,
+                  null
+                ],
+                [
+                  40,
+                  null,
+                  null
+                ]
+              ],
+              [
+                70,
+                null,
+                null
+              ]
+            ],
+            "states": [
+              [
+                50,
+                [
+                  30,
+                  [
+                    20,
+                    [
+                      10,
+                      null,
+                      null
+                    ],
+                    null
+                  ],
+                  [
+                    40,
+                    null,
+                    null
+                  ]
+                ],
+                [
+                  70,
+                  null,
+                  null
+                ]
+              ],
+              [
+                30,
+                [
+                  20,
+                  [
+                    10,
+                    null,
+                    null
+                  ],
+                  null
+                ],
+                [
+                  50,
+                  [
+                    40,
+                    null,
+                    null
+                  ],
+                  [
+                    70,
+                    null,
+                    null
+                  ]
+                ]
+              ]
+            ],
+            "operations": [
+              {
+                "direction": "right",
+                "at": 50
+              }
+            ],
+            "transfer": "40：由30的右子树转接为50的左子树"
+          },
+          {
+            "type": "RR",
+            "insert": 70,
+            "pre_insert": [
+              30,
+              [
+                10,
+                null,
+                null
+              ],
+              [
+                50,
+                [
+                  40,
+                  null,
+                  null
+                ],
+                [
+                  60,
+                  null,
+                  null
+                ]
+              ]
+            ],
+            "states": [
+              [
+                30,
+                [
+                  10,
+                  null,
+                  null
+                ],
+                [
+                  50,
+                  [
+                    40,
+                    null,
+                    null
+                  ],
+                  [
+                    60,
+                    null,
+                    [
+                      70,
+                      null,
+                      null
+                    ]
+                  ]
+                ]
+              ],
+              [
+                50,
+                [
+                  30,
+                  [
+                    10,
+                    null,
+                    null
+                  ],
+                  [
+                    40,
+                    null,
+                    null
+                  ]
+                ],
+                [
+                  60,
+                  null,
+                  [
+                    70,
+                    null,
+                    null
+                  ]
+                ]
+              ]
+            ],
+            "operations": [
+              {
+                "direction": "left",
+                "at": 30
+              }
+            ],
+            "transfer": "40：由50的左子树转接为30的右子树"
+          }
+        ],
+        "purpose": "原创数值机制例，显示非空中间子树的转接；不属于例7-3原题数据",
+        "sources": [
+          {
+            "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+            "pdf_pages": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          {
+            "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+            "pdf_pages": [
+              294,
+              295,
+              296,
+              297
+            ],
+            "printed_pages": [
+              282,
+              283,
+              284,
+              285
+            ]
+          }
+        ]
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_21_avl_double_rotations",
+      "title": "AVL的LR/RL两步状态与中间子树转接",
+      "svg": "figures/DS_21_avl_double_rotations.svg",
+      "png": "figures/DS_21_avl_double_rotations.png",
+      "pdf": "figures/DS_21_avl_double_rotations.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "cases": [
+          {
+            "type": "LR",
+            "insert": 40,
+            "pre_insert": [
+              70,
+              [
+                30,
+                [
+                  20,
+                  null,
+                  null
+                ],
+                [
+                  50,
+                  null,
+                  null
+                ]
+              ],
+              [
+                90,
+                null,
+                null
+              ]
+            ],
+            "states": [
+              [
+                70,
+                [
+                  30,
+                  [
+                    20,
+                    null,
+                    null
+                  ],
+                  [
+                    50,
+                    [
+                      40,
+                      null,
+                      null
+                    ],
+                    null
+                  ]
+                ],
+                [
+                  90,
+                  null,
+                  null
+                ]
+              ],
+              [
+                70,
+                [
+                  50,
+                  [
+                    30,
+                    [
+                      20,
+                      null,
+                      null
+                    ],
+                    [
+                      40,
+                      null,
+                      null
+                    ]
+                  ],
+                  null
+                ],
+                [
+                  90,
+                  null,
+                  null
+                ]
+              ],
+              [
+                50,
+                [
+                  30,
+                  [
+                    20,
+                    null,
+                    null
+                  ],
+                  [
+                    40,
+                    null,
+                    null
+                  ]
+                ],
+                [
+                  70,
+                  null,
+                  [
+                    90,
+                    null,
+                    null
+                  ]
+                ]
+              ]
+            ],
+            "operations": [
+              {
+                "direction": "left",
+                "at": 30
+              },
+              {
+                "direction": "right",
+                "at": 70
+              }
+            ],
+            "transfer": "40：第一步由50的左子树转接为30的右子树"
+          },
+          {
+            "type": "RL",
+            "insert": 80,
+            "pre_insert": [
+              50,
+              [
+                30,
+                null,
+                null
+              ],
+              [
+                90,
+                [
+                  70,
+                  null,
+                  null
+                ],
+                [
+                  100,
+                  null,
+                  null
+                ]
+              ]
+            ],
+            "states": [
+              [
+                50,
+                [
+                  30,
+                  null,
+                  null
+                ],
+                [
+                  90,
+                  [
+                    70,
+                    null,
+                    [
+                      80,
+                      null,
+                      null
+                    ]
+                  ],
+                  [
+                    100,
+                    null,
+                    null
+                  ]
+                ]
+              ],
+              [
+                50,
+                [
+                  30,
+                  null,
+                  null
+                ],
+                [
+                  70,
+                  null,
+                  [
+                    90,
+                    [
+                      80,
+                      null,
+                      null
+                    ],
+                    [
+                      100,
+                      null,
+                      null
+                    ]
+                  ]
+                ]
+              ],
+              [
+                70,
+                [
+                  50,
+                  [
+                    30,
+                    null,
+                    null
+                  ],
+                  null
+                ],
+                [
+                  90,
+                  [
+                    80,
+                    null,
+                    null
+                  ],
+                  [
+                    100,
+                    null,
+                    null
+                  ]
+                ]
+              ]
+            ],
+            "operations": [
+              {
+                "direction": "right",
+                "at": 90
+              },
+              {
+                "direction": "left",
+                "at": 50
+              }
+            ],
+            "transfer": "80：第一步由70的右子树转接为90的左子树"
+          }
+        ],
+        "purpose": "原创数值机制例，显示非空中间子树的转接；不属于例7-3原题数据",
+        "sources": [
+          {
+            "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+            "pdf_pages": [
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15
+            ]
+          },
+          {
+            "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+            "pdf_pages": [
+              294,
+              295,
+              296,
+              297
+            ],
+            "printed_pages": [
+              282,
+              283,
+              284,
+              285
+            ]
+          }
+        ]
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_15_btree_split",
+      "title": "5阶B树叶分裂向根传播",
+      "svg": "figures/DS_15_btree_split.svg",
+      "png": "figures/DS_15_btree_split.png",
+      "pdf": "figures/DS_15_btree_split.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "order": 5,
+        "insert": 29,
+        "initial": {
+          "keys": [
+            5,
+            10,
+            15,
+            20
+          ],
+          "children": [
+            {
+              "keys": [
+                1,
+                3
+              ],
+              "children": []
+            },
+            {
+              "keys": [
+                6,
+                8
+              ],
+              "children": []
+            },
+            {
+              "keys": [
+                11,
+                13
+              ],
+              "children": []
+            },
+            {
+              "keys": [
+                16,
+                18
+              ],
+              "children": []
+            },
+            {
+              "keys": [
+                21,
+                23,
+                25,
+                27
+              ],
+              "children": []
+            }
+          ]
+        },
+        "states": [
+          {
+            "keys": [
+              5,
+              10,
+              15,
+              20
+            ],
+            "children": [
+              {
+                "keys": [
+                  1,
+                  3
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  6,
+                  8
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  11,
+                  13
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  16,
+                  18
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  21,
+                  23,
+                  25,
+                  27,
+                  29
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "keys": [
+              5,
+              10,
+              15,
+              20,
+              25
+            ],
+            "children": [
+              {
+                "keys": [
+                  1,
+                  3
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  6,
+                  8
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  11,
+                  13
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  16,
+                  18
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  21,
+                  23
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  27,
+                  29
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "keys": [
+              15
+            ],
+            "children": [
+              {
+                "keys": [
+                  5,
+                  10
+                ],
+                "children": [
+                  {
+                    "keys": [
+                      1,
+                      3
+                    ],
+                    "children": []
+                  },
+                  {
+                    "keys": [
+                      6,
+                      8
+                    ],
+                    "children": []
+                  },
+                  {
+                    "keys": [
+                      11,
+                      13
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "keys": [
+                  20,
+                  25
+                ],
+                "children": [
+                  {
+                    "keys": [
+                      16,
+                      18
+                    ],
+                    "children": []
+                  },
+                  {
+                    "keys": [
+                      21,
+                      23
+                    ],
+                    "children": []
+                  },
+                  {
+                    "keys": [
+                      27,
+                      29
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "temporary_violations": [
+          [
+            {
+              "path": [
+                4
+              ],
+              "keys": 5
+            }
+          ],
+          [
+            {
+              "path": [],
+              "keys": 5
+            }
+          ],
+          []
+        ],
+        "purpose": "原创5阶B树机制例；沿用来源定义与调整规则，数值快照为教学构造，未改任何真题阶数",
+        "sources": [
+          {
+            "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+            "pdf_pages": [
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          },
+          {
+            "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_2 B树的插入删除.pdf",
+            "pdf_pages": [
+              2,
+              7,
+              8,
+              12,
+              13,
+              24,
+              25,
+              26,
+              27,
+              30,
+              34,
+              36,
+              39,
+              41,
+              44,
+              45,
+              53
+            ]
+          },
+          {
+            "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+            "pdf_pages": [
+              317,
+              318,
+              319,
+              320
+            ],
+            "printed_pages": [
+              305,
+              306,
+              307,
+              308
+            ]
+          }
+        ]
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_20_btree_delete",
+      "title": "5阶B树借位、合并向上传播与根降高",
+      "svg": "figures/DS_20_btree_delete.svg",
+      "png": "figures/DS_20_btree_delete.png",
+      "pdf": "figures/DS_20_btree_delete.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "order": 5,
+        "borrow": {
+          "initial": {
+            "keys": [
+              10
+            ],
+            "children": [
+              {
+                "keys": [
+                  2,
+                  5
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  12,
+                  15,
+                  18
+                ],
+                "children": []
+              }
+            ]
+          },
+          "delete": 2,
+          "states": [
+            {
+              "keys": [
+                10
+              ],
+              "children": [
+                {
+                  "keys": [
+                    5
+                  ],
+                  "children": []
+                },
+                {
+                  "keys": [
+                    12,
+                    15,
+                    18
+                  ],
+                  "children": []
+                }
+              ]
+            },
+            {
+              "keys": [
+                12
+              ],
+              "children": [
+                {
+                  "keys": [
+                    5,
+                    10
+                  ],
+                  "children": []
+                },
+                {
+                  "keys": [
+                    15,
+                    18
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "temporary_violations": [
+            [
+              {
+                "path": [
+                  0
+                ],
+                "keys": 1
+              }
+            ],
+            []
+          ]
+        },
+        "cascade": {
+          "initial": {
+            "keys": [
+              15
+            ],
+            "children": [
+              {
+                "keys": [
+                  5,
+                  10
+                ],
+                "children": [
+                  {
+                    "keys": [
+                      1,
+                      3
+                    ],
+                    "children": []
+                  },
+                  {
+                    "keys": [
+                      6,
+                      8
+                    ],
+                    "children": []
+                  },
+                  {
+                    "keys": [
+                      11,
+                      13
+                    ],
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "keys": [
+                  20,
+                  25
+                ],
+                "children": [
+                  {
+                    "keys": [
+                      16,
+                      18
+                    ],
+                    "children": []
+                  },
+                  {
+                    "keys": [
+                      21,
+                      23
+                    ],
+                    "children": []
+                  },
+                  {
+                    "keys": [
+                      27,
+                      29
+                    ],
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          "delete": 1,
+          "states": [
+            {
+              "keys": [
+                15
+              ],
+              "children": [
+                {
+                  "keys": [
+                    5,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "keys": [
+                        3
+                      ],
+                      "children": []
+                    },
+                    {
+                      "keys": [
+                        6,
+                        8
+                      ],
+                      "children": []
+                    },
+                    {
+                      "keys": [
+                        11,
+                        13
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "keys": [
+                    20,
+                    25
+                  ],
+                  "children": [
+                    {
+                      "keys": [
+                        16,
+                        18
+                      ],
+                      "children": []
+                    },
+                    {
+                      "keys": [
+                        21,
+                        23
+                      ],
+                      "children": []
+                    },
+                    {
+                      "keys": [
+                        27,
+                        29
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "keys": [
+                15
+              ],
+              "children": [
+                {
+                  "keys": [
+                    10
+                  ],
+                  "children": [
+                    {
+                      "keys": [
+                        3,
+                        5,
+                        6,
+                        8
+                      ],
+                      "children": []
+                    },
+                    {
+                      "keys": [
+                        11,
+                        13
+                      ],
+                      "children": []
+                    }
+                  ]
+                },
+                {
+                  "keys": [
+                    20,
+                    25
+                  ],
+                  "children": [
+                    {
+                      "keys": [
+                        16,
+                        18
+                      ],
+                      "children": []
+                    },
+                    {
+                      "keys": [
+                        21,
+                        23
+                      ],
+                      "children": []
+                    },
+                    {
+                      "keys": [
+                        27,
+                        29
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "keys": [],
+              "children": [
+                {
+                  "keys": [
+                    10,
+                    15,
+                    20,
+                    25
+                  ],
+                  "children": [
+                    {
+                      "keys": [
+                        3,
+                        5,
+                        6,
+                        8
+                      ],
+                      "children": []
+                    },
+                    {
+                      "keys": [
+                        11,
+                        13
+                      ],
+                      "children": []
+                    },
+                    {
+                      "keys": [
+                        16,
+                        18
+                      ],
+                      "children": []
+                    },
+                    {
+                      "keys": [
+                        21,
+                        23
+                      ],
+                      "children": []
+                    },
+                    {
+                      "keys": [
+                        27,
+                        29
+                      ],
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "keys": [
+                10,
+                15,
+                20,
+                25
+              ],
+              "children": [
+                {
+                  "keys": [
+                    3,
+                    5,
+                    6,
+                    8
+                  ],
+                  "children": []
+                },
+                {
+                  "keys": [
+                    11,
+                    13
+                  ],
+                  "children": []
+                },
+                {
+                  "keys": [
+                    16,
+                    18
+                  ],
+                  "children": []
+                },
+                {
+                  "keys": [
+                    21,
+                    23
+                  ],
+                  "children": []
+                },
+                {
+                  "keys": [
+                    27,
+                    29
+                  ],
+                  "children": []
+                }
+              ]
+            }
+          ],
+          "temporary_violations": [
+            [
+              {
+                "path": [
+                  0,
+                  0
+                ],
+                "keys": 1
+              }
+            ],
+            [
+              {
+                "path": [
+                  0
+                ],
+                "keys": 1
+              }
+            ],
+            [
+              {
+                "path": [],
+                "keys": 0
+              }
+            ],
+            []
+          ]
+        },
+        "purpose": "原创5阶B树机制例；沿用来源定义与调整规则，数值快照为教学构造，未改任何真题阶数",
+        "sources": [
+          {
+            "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+            "pdf_pages": [
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18
+            ]
+          },
+          {
+            "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_2 B树的插入删除.pdf",
+            "pdf_pages": [
+              2,
+              7,
+              8,
+              12,
+              13,
+              24,
+              25,
+              26,
+              27,
+              30,
+              34,
+              36,
+              39,
+              41,
+              44,
+              45,
+              53
+            ]
+          },
+          {
+            "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+            "pdf_pages": [
+              317,
+              318,
+              319,
+              320
+            ],
+            "printed_pages": [
+              305,
+              306,
+              307,
+              308
+            ]
+          }
+        ]
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_16_bplus",
+      "title": "B+树索引与叶链",
+      "svg": "figures/DS_16_bplus.svg",
+      "png": "figures/DS_16_bplus.png",
+      "pdf": "figures/DS_16_bplus.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "convention": "每个内部关键字为对应孩子子树最大值",
+        "index": [
+          20,
+          40,
+          60
+        ],
+        "leaves": [
+          [
+            10,
+            20
+          ],
+          [
+            30,
+            40
+          ],
+          [
+            50,
+            60
+          ]
+        ]
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_17_merge_trace",
+      "title": "二路归并的逐层有序段",
+      "svg": "figures/DS_17_merge_trace.svg",
+      "png": "figures/DS_17_merge_trace.png",
+      "pdf": "figures/DS_17_merge_trace.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "input": [
+          7,
+          3,
+          5,
+          1,
+          6,
+          2,
+          4,
+          8
+        ],
+        "levels": [
+          [
+            [
+              7
+            ],
+            [
+              3
+            ],
+            [
+              5
+            ],
+            [
+              1
+            ],
+            [
+              6
+            ],
+            [
+              2
+            ],
+            [
+              4
+            ],
+            [
+              8
+            ]
+          ],
+          [
+            [
+              3,
+              7
+            ],
+            [
+              1,
+              5
+            ],
+            [
+              2,
+              6
+            ],
+            [
+              4,
+              8
+            ]
+          ],
+          [
+            [
+              1,
+              3,
+              5,
+              7
+            ],
+            [
+              2,
+              4,
+              6,
+              8
+            ]
+          ],
+          [
+            [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ]
+          ]
+        ]
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_18_replacement_selection",
+      "title": "置换选择的冻结与换段",
+      "svg": "figures/DS_18_replacement_selection.svg",
+      "png": "figures/DS_18_replacement_selection.png",
+      "pdf": "figures/DS_18_replacement_selection.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "input": [
+          51,
+          94,
+          37,
+          92,
+          14,
+          63,
+          15,
+          99,
+          48,
+          56,
+          23,
+          60,
+          31,
+          17,
+          43,
+          8,
+          90,
+          166,
+          100
+        ],
+        "m": 4,
+        "first_run": [
+          37,
+          51,
+          63,
+          92,
+          94,
+          99
+        ],
+        "frozen_after_first": [
+          14,
+          15,
+          48,
+          56
+        ]
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    },
+    {
+      "id": "DS_19_loser_tree",
+      "title": "四路归并败者树两轮状态",
+      "svg": "figures/DS_19_loser_tree.svg",
+      "png": "figures/DS_19_loser_tree.png",
+      "pdf": "figures/DS_19_loser_tree.pdf",
+      "source": "tools/draw_ds_figures.py",
+      "data": {
+        "heads_before": [
+          3,
+          5,
+          2,
+          7
+        ],
+        "heads_after": [
+          3,
+          5,
+          6,
+          7
+        ],
+        "champions": [
+          "C",
+          "A"
+        ],
+        "losers_before": [
+          5,
+          7,
+          3
+        ],
+        "losers_after": [
+          5,
+          7,
+          6
+        ]
+      },
+      "semantics": "实线为原有/已生效关系，虚线为待改关系、线索或冻结标记；文字标签在灰度打印中保留含义。"
+    }
+  ]
+}

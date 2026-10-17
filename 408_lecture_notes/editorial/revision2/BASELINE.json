@@ -1,0 +1,201 @@
+{
+  "version": "V1",
+  "source_archive": "dist/408讲义_四科全稿_正文图稿与构建源码.zip",
+  "archive_sha256": "342cd445794cb6b6af7ef8fb052765288b036de47b532a45ed87ae5e0cae8317",
+  "files": [
+    {
+      "path": "PROJECT_STATE.json",
+      "sha256": "f4e56ca3280435a6fa2b799ee816f82d1ce61d61bdc4a1eb2d276f2edb559fee"
+    },
+    {
+      "path": "editorial/full/CN/chapter_records.json",
+      "sha256": "f4ffbd047a2b4c0a2ad6f32cc3093ce88e0d9f42c523534bfcc5469f15557554"
+    },
+    {
+      "path": "editorial/full/CN/results.json",
+      "sha256": "3920654936857aaa29666fad07ae0459b00cfdfacfe693fa588ac52ac277bf07"
+    },
+    {
+      "path": "editorial/full/CN/verification.py",
+      "sha256": "ad28ce39b27487fb47156c01a5d1391adb75261bfc2de7534dc98ba9b2bf1ea8"
+    },
+    {
+      "path": "editorial/full/CO/chapter_records.json",
+      "sha256": "bec8255a421cec2fcc8cd31507705a65b44211d02072c219b4e650d4ce47770b"
+    },
+    {
+      "path": "editorial/full/CO/results.json",
+      "sha256": "a6359171df7b92c3c457eeffb4132c17a4b6579b96fe8fd0f4d8ff4949c00c56"
+    },
+    {
+      "path": "editorial/full/CO/verification.py",
+      "sha256": "184527567c4873d2f302767e14d8a471343741d7eda0d88030822ceb08255683"
+    },
+    {
+      "path": "editorial/full/DS/chapter_records.json",
+      "sha256": "6892a0829eea71a83c63806945cd343899544594d7e0711a73e9da80e2c86589"
+    },
+    {
+      "path": "editorial/full/DS/results.json",
+      "sha256": "ad8b09b92915bde678b5a59177f444f9dba9425bd654c495f196d625b306c5c7"
+    },
+    {
+      "path": "editorial/full/DS/verification.py",
+      "sha256": "3b2593fff3be6463cf65de66c43efad3df431773ff518b77a516dd91135a77e6"
+    },
+    {
+      "path": "editorial/full/OS/chapter_records.json",
+      "sha256": "01ca6eec064963418489fb6ff830389594866c25a9800808e2f7f0d1f430a161"
+    },
+    {
+      "path": "editorial/full/OS/results.json",
+      "sha256": "9a1353c2e119344cf3a1219c23877d373f5b682fefe09e4de9519e0fac87f886"
+    },
+    {
+      "path": "editorial/full/OS/verification.py",
+      "sha256": "f0dc654a5d46187d389a2cefbdb267794021cf716c2b62cff5fa7cab02117509"
+    },
+    {
+      "path": "editorial/full/coverage_validation.json",
+      "sha256": "3fc5163343721ea4c8fc147c7355a79d49aae346be8b194c43929b5f1a092e18"
+    },
+    {
+      "path": "manuscript/CN/01_网络层次服务与性能.md",
+      "sha256": "b979b18aa7c2d7e342b53f1962762ea8fadd8556bedf103dbd4f1b7a89ccbb0f"
+    },
+    {
+      "path": "manuscript/CN/02_物理层信号速率与交换.md",
+      "sha256": "f852416d6c2f457d015c8e7ed38a8c7eba6d3720d1f62fc36dc80cbffbe91b6f"
+    },
+    {
+      "path": "manuscript/CN/03_链路层可靠传输与介质访问.md",
+      "sha256": "6b4475bf5fb93b6f23185f1c30132647a8a1148c921402331428056d5054a4b3"
+    },
+    {
+      "path": "manuscript/CN/04_网络层地址路由与转发.md",
+      "sha256": "0acb63007234d618d898d7c60a10138fc76a6ae543a5acbcef0494115312c974"
+    },
+    {
+      "path": "manuscript/CN/05_传输层可靠连接与窗口.md",
+      "sha256": "f755aad89cdef2e2658d9074e0bd7da5d137293a57e4a74e07688a0e3a331b16"
+    },
+    {
+      "path": "manuscript/CN/06_应用层名称邮件与Web.md",
+      "sha256": "58c9cebfc83c93d028994c1204f9516c4618228f02c861f75fd535e9c858cbf3"
+    },
+    {
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "sha256": "5bd01c6174abd9201260d43c385ab6dbe4f7267c5e17978bbb797e9e043e65e2"
+    },
+    {
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "sha256": "2d1fa5e28b681c344b4a89ffe25a2b3e15ff70defff6ba451fdc169fba27ea77"
+    },
+    {
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "sha256": "8778ebe3812af2f13831b8d730dc9c1c2efd5e05fd6a74411b24b03415edbb87"
+    },
+    {
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "sha256": "c79649fbdb6323a5a2b508abdf2ee8ca2ddad781685700a287109cbdc0a2e24c"
+    },
+    {
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "sha256": "9237d5ee461e767ccf38b1b9541ffd48fb2ca25bdf2ad78bde7e25eb2201247a"
+    },
+    {
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "sha256": "03e537e19373e0165f8594ebe6dc01174bc8e26464d37f923477d9823e2262a8"
+    },
+    {
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "sha256": "eb2f88bf0864d5f056a94ac1ab7dcd772fcdb39b2889fa222fa4b49ff107fd8b"
+    },
+    {
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "sha256": "3388dca21fc86626bc8d4a8b3f1fe3d8b95123253247408528e2d2b83dba96ec"
+    },
+    {
+      "path": "manuscript/DS/01_数据结构算法与复杂度.md",
+      "sha256": "50ea81c2b22af78872f0f5defd888bdd8cfcae036403f8a00d1672fa227facb5"
+    },
+    {
+      "path": "manuscript/DS/02_线性表下标结点与指针.md",
+      "sha256": "7275df546d19c29ecf12c4f555b12ac548f9eefd98650284f6fa82495f0ad368"
+    },
+    {
+      "path": "manuscript/DS/03_栈队列与数组.md",
+      "sha256": "8c2ce0f7a734f26e671f4a38f63791fbbba325e833d7df5fee931c8223dbb90b"
+    },
+    {
+      "path": "manuscript/DS/04_串与模式匹配.md",
+      "sha256": "508bfb54c946d5cb4f712d6045e1831b724b7bd6644571a79bdca389aefbf32f"
+    },
+    {
+      "path": "manuscript/DS/05_树二叉树与应用.md",
+      "sha256": "aebc56fd446131a438717ba2406a69459dbb9b9ccecee61752f0f92b641215f8"
+    },
+    {
+      "path": "manuscript/DS/06_图与图算法.md",
+      "sha256": "72ac42ac5bcefd164241298917b81099336a081dfcc2090fce20330c0ea6bc30"
+    },
+    {
+      "path": "manuscript/DS/07_查找与索引结构.md",
+      "sha256": "5976e10302bc91f87bf16a2943968d3b1d427d013b210ef1ebb2a5bfddbb19e5"
+    },
+    {
+      "path": "manuscript/DS/08_排序与外部归并.md",
+      "sha256": "d4c2a91c408c83fdfe18de12078d9c6e3c28d0db4d542ae18fae73a67e644aac"
+    },
+    {
+      "path": "manuscript/OS/01_操作系统与程序运行环境.md",
+      "sha256": "54d093504de58e5436ca93ba7bcf87ac6b71937c6c91528a6c512f9fd5b54e47"
+    },
+    {
+      "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+      "sha256": "f8c27abb60ddfe50cd709e595c3adb54b6edd557f2978da5da50ebbffc36b920"
+    },
+    {
+      "path": "manuscript/OS/03_同步互斥与信号量.md",
+      "sha256": "3a96a181d6cad7b43c36a0db4361dacf634de93eef89096e3e07735c0d0e969f"
+    },
+    {
+      "path": "manuscript/OS/04_死锁与资源分配.md",
+      "sha256": "e68dc825bc9d938931cba9d28d92527b8708f29aa2825b479372d076465ecdea"
+    },
+    {
+      "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "sha256": "909789fb135aaf350be455e2a7a4a214afce207820d25357cbc704a64111d3d9"
+    },
+    {
+      "path": "manuscript/OS/06_文件目录与文件系统.md",
+      "sha256": "2ab39f78a780a08573e0f8bfa7e381d8700dab80af6abf492cef3b8cbaaa55d4"
+    },
+    {
+      "path": "manuscript/OS/07_IO设备与外存调度.md",
+      "sha256": "e1cea9533378c1817794a4bf2a14e3d52c3609a33840f6a079986ca34d8bd813"
+    },
+    {
+      "path": "tools/draw_cn_figures.py",
+      "sha256": "fb424f428cd4b730857546326fe20e212b8d938a1618e9d6e1f013d17956cb6a"
+    },
+    {
+      "path": "tools/draw_co_figures.py",
+      "sha256": "511173e250630e00eac63764f1ea62f40635924e60ef5747b33bfca1bf551d02"
+    },
+    {
+      "path": "tools/draw_ds_figures.py",
+      "sha256": "cfc674821e4a1ed3ae7f97ef5dd6c88e2ac8cd06ea277506e6705632ba5879b3"
+    },
+    {
+      "path": "tools/draw_figures.py",
+      "sha256": "e3a34d8b0002ff04305da766cbe50628841575e670778c4440a7f074c82af7ee"
+    },
+    {
+      "path": "tools/draw_os_figures.py",
+      "sha256": "bc4ac6e364285d4c360b69370377dfd8a6d025ccf01ed5c6345315385793c07c"
+    }
+  ],
+  "new_stage": "第二轮内容修订；待用户审阅后才做排版检查",
+  "layout_review": "本轮未开始，按用户要求暂缓"
+}

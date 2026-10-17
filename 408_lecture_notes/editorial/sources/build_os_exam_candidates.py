@@ -1,0 +1,200 @@
+"""Build the editorial candidates ledger; no manuscript is written here."""
+from pathlib import Path
+import hashlib
+import json
+
+ROOT = Path(__file__).resolve().parent
+CHECKS = ROOT / 'os_exam_checks'
+BOOK = '/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf'
+BASE = 'https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/papers-rebuild/'
+DATE = '2026-10-15'
+
+
+def question(year, num, book_num, book_pages, answer_pages, exam_page, title, prompt, **kw):
+    return dict(
+        id=f'OS-EX-{year}-{num}', subject='操作系统', title=title,
+        category='408真题（王道收录；公开第三方重建卷交叉核验）',
+        priority=1, is_personal_error=None,
+        personal_answer=None, personal_error_reason=None,
+        year=year, exam_question_number=num, marks=kw.pop('marks'),
+        book=dict(file=BOOK, edition='2027年操作系统考研复习指导',
+                  section='2.3 进程同步与互斥', type='综合应用题', question_number=book_num,
+                  question_pdf_physical_pages=book_pages,
+                  question_printed_pages=[p-12 for p in book_pages],
+                  answer_pdf_physical_pages=answer_pages,
+                  answer_printed_pages=[p-12 for p in answer_pages]),
+        cross_source=dict(url=BASE+f'{year}.pdf', provider='neville-studio/408-exam-paper',
+                          source_type='公开社区重建卷，非官方原始发布',
+                          local_file=str(CHECKS/f'exam_{year}_rebuild.pdf'),
+                          pdf_physical_page=exam_page, printed_page=exam_page,
+                          sha256=hashlib.sha256((CHECKS/f'exam_{year}_rebuild.pdf').read_bytes()).hexdigest()),
+        prompt=prompt, options=None,
+        verification=dict(date=DATE, book_question_visual=True,
+                          book_answer_visual=True, cross_source_question_visual=True,
+                          year_and_question_number='已由书中年份标识与第三方重建卷题号交叉核验',
+                          prompt_and_data='已逐句对照，统一全半角与下标；无题意、数据、设问改动',
+                          official_question_or_answer_obtained=False,
+                          status='题干/年份/题号/必要图示/王道参考答案已交叉核验（二手资料口径）；未取得官方原卷/官方答案发布页'),
+        **kw)
+
+
+questions = [
+    question(2024, 46, 28, [138], [160, 161], 11,
+        '单缓冲区：同步条件和互斥条件分别在问什么',
+        '（8分）计算机系统中的进程之间往往需要相互协作以完成一个任务。在某网络系统中，缓冲区B用于存放一个数据分组，对B的操作有C1、C2和C3。C1将一个数据分组写入B中，C2从B中读出一个数据分组，C3对B中的数据分组进行修改。要求B为空时才能执行C1，B非空时才能执行C2和C3。\n（1）假设进程P1和P2均需要执行C1，实现C1的代码是否为临界区？为什么？（2分）\n（2）假设B初始为空，进程P1执行C1一次，进程P2执行C2一次。请定义尽可能少的信号量，并用wait()、signal()操作描述进程P1和P2之间的同步或互斥关系，说明所用信号量的作用及其初值。（3分）\n（3）假设B初始不为空，进程P1和P2各执行C3一次。请定义尽可能少的信号量，并用wait()、signal()操作描述进程P1和P2之间的同步或互斥关系，说明所用信号量的作用及其初值。（3分）',
+        marks=8, figures=[], difficulty='基础辨析与建模',
+        model='一次写后一次读的先后约束；两个修改者的互斥约束',
+        selection_reason='同一道真题把临界区、先后约束、最少信号量放在可区分的三个情境中，适合作为概念后的第一道代表题。',
+        deletion_loss='删除后会失去“同一缓冲区随操作和执行次数改变信号量模型”的边界辨析。',
+        added_value='区别于多次生产消费：第（2）问仅各执行一次，单个同步信号量足以保证互斥。',
+        key_steps=['区分三个小问各自的初态与操作，不将其拼成一个循环系统。',
+                   '第（2）问用一次完成通知，signal位于C1之后，wait位于C2之前。',
+                   '第（3）问C3不取走分组，非空条件一直成立，只需序列化两个修改者。'],
+        boundaries=['第（2）问“各一次”是只用一个信号量的必要限定；改成反复写读需要空位许可。',
+                    '第（3）问假定只有题干所列的两个C3操作，不引入额外C2取走分组。'],
+        solution='（1）是。C1修改共享的缓冲区B及其空/非空状态，两个进程并发执行会争用同一空缓冲区，因此实现该共享资源访问的代码属于临界区。\n（2）设done=0，表示P1完成唯一一次写入的通知。P1：C1; signal(done);。P2：wait(done); C2;。P2只有在P1完成C1后才可能执行C2；P1不再进行第二次写入，所以两次缓冲操作不会重叠，无需再加mutex。一个信号量足够；若不设置任何同步手段，P2可能先读空缓冲区。\n（3）设mutex=1。P1和P2均执行wait(mutex); C3; signal(mutex);。第一个进入者把许可从1取走，另一个必须等其归还。C3只修改已有分组而不把缓冲区清空，因此无需另设非空通知。',
+        pseudocode={'part2': 'semaphore done = 0;\nP1: C1; signal(done);\nP2: wait(done); C2;',
+                    'part3': 'semaphore mutex = 1;\nP1: wait(mutex); C3; signal(mutex);\nP2: wait(mutex); C3; signal(mutex);'},
+        answer_comparison='与王道第28题答案一致；教材关于“容量为1即可省互斥量”的说明在本题还依赖仅一次写和一次读，不能脱离这一限定推广。',
+        disposition='建议正文完整例题'),
+
+    question(2022, 46, 26, [138], [160], 10,
+        '前趋图：只对跨线程的约束设置信号量',
+        '（8分）某进程的两个线程T1和T2并发执行A、B、C、D、E和F共6个操作，其中T1执行A、E和F，T2执行B、C和D。题46图表示上述6个操作的执行顺序所必须满足的约束：C在A和B完成后执行，D和E在C完成后执行，F在E完成后执行。请使用信号量的wait()、signal()操作描述T1和T2之间的同步关系，并说明所用信号量的作用及其初值。',
+        marks=8, figures=[dict(type='有向前趋图', id='OS-EX-2022-46-G1',
+                              vertices=list('ABCDEF'),
+                              edges=[['A','C'],['B','C'],['C','D'],['C','E'],['E','F']],
+                              thread_membership={'T1':['A','E','F'],'T2':['B','C','D']},
+                              visual_sources=['book-physical-138.png','exam_2022_p10.png'],
+                              redraw_requirement='保持五条边和顶点名称；可用实线表示跨线程边、虚线表示线程内已有顺序，并在图注解释。不可增加D→F或D→E。')],
+        difficulty='基础到中等', model='有向无环前趋图中的跨线程完成通知',
+        selection_reason='题图和线程归属都完整，能说明为什么不是每条边都加信号量，以及通知应当发生在完成点。',
+        deletion_loss='删除后会失去前趋图向并发线程代码转换的完整真题示范。',
+        added_value='区分线程内的固有顺序与线程间的同步，保留D与E的并发性。',
+        key_steps=['列出五条约束边，再标记每个顶点所属线程。',
+                   'B→C、C→D和E→F由各线程顺序执行保证。',
+                   '仅为A→C、C→E分别设置初值为0的完成通知。',
+                   'C后立即通知E，不把通知移到D后，否则施加题目没有要求的D→E。'],
+        boundaries=['本题两个线程各执行给定序列一次；没有要求扩展成多轮流水线。',
+                    'D和E都要等C，但D与E之间没有前趋边。',
+                    '同一线程的操作顺序须在给出的伪代码中体现，而不是只看顶点归属猜测。'],
+        solution='设S_AC=0表示A已经完成，S_CE=0表示C已经完成。T1依次执行A; signal(S_AC); wait(S_CE); E; F;。T2依次执行B; wait(S_AC); C; signal(S_CE); D;。T2执行C时，B已经由本线程执行完，且wait(S_AC)已经取得A完成的通知，所以C的两个前提均满足。T1执行E时已经收到C完成的通知，再按程序顺序执行F。D在本线程的C之后；C完成后T1与T2均可继续，D与E/F的相对先后由调度决定。',
+        pseudocode={'T1':'A;\nsignal(S_AC);\nwait(S_CE);\nE;\nF;',
+                    'T2':'B;\nwait(S_AC);\nC;\nsignal(S_CE);\nD;',
+                    'initial':'semaphore S_AC=0, S_CE=0;'},
+        answer_comparison='与王道第26题两信号量解答一致。书中说明偶将线程称为进程，成稿统一用题干的“线程”。',
+        disposition='建议正文完整例题'),
+
+    question(2009, 45, 17, [135], [154], 8,
+        '分类缓冲：有产品不等于有本进程可取的产品',
+        '（7分）三个进程P1、P2、P3互斥使用一个包含N（N>0）个单元的缓冲区。P1每次用produce()生成一个正整数并用put()送入缓冲区某一空单元中；P2每次用getodd()从该缓冲区中取出一个奇数并用countodd()统计奇数个数；P3每次用geteven()从该缓冲区中取出一个偶数并用counteven()统计偶数个数。请用信号量机制实现这三个进程的同步与互斥活动，并说明所定义信号量的含义（要求用伪代码描述）。',
+        marks=7, figures=[], difficulty='中等',
+        model='有限缓冲区的容量许可 + 按类别分配的产品许可 + 共享缓冲区互斥',
+        selection_reason='在标准生产消费上增加“消费者只能取特定类别”，逼迫学生从实际等待条件决定计数信号量。',
+        deletion_loss='删除后会失去“一个full无法表示两类不同可取条件”的真题边界。',
+        added_value='空位计数共用，产品计数按奇偶拆开；自然检验wait顺序与临界区长度。',
+        key_steps=['设empty=N、odd=0、even=0、mutex=1。',
+                   'P1先取得一个空位，再互斥执行put()，放入完成后只通知正确类别。',
+                   'P2/P3先等本类别许可，再锁缓冲区取数，取走后归还空位。',
+                   'produce和两个统计操作不访问公共缓冲区，放在互斥区外。'],
+        boundaries=['原题未另写“初始为空”，但王道答案使用odd=even=0、empty=N；重排正文须把“以下按初始为空求解”作为解答的显式假设，不能静默插入原题。若初始有a个奇数、b个偶数，则empty=N-a-b、odd=a、even=b，且a+b≤N。',
+                    '不能用单一full代替odd/even：即使缓冲区非空，也可能没有P2或P3需要的类别。',
+                    '不能先wait(mutex)再wait(odd/even/empty)：否则可能占锁等待，使解除该等待的进程无法访问缓冲区。',
+                    'empty/odd/even在有进程已经取得许可但尚未完成操作时表示未被预留的许可数，不能每一步都等同于物理空位或实存元素数。'],
+        solution='原题未声明缓冲区初态；按王道参考答案采用初始为空，故empty=N、odd=even=0。mutex=1保证put、getodd和geteven互斥。生产者在本地生成x，先wait(empty)预留空位，再wait(mutex)进入缓冲区，put()后释放mutex；若x为奇数则signal(odd)，否则signal(even)。消费者只有收到所属类别的许可后才进入缓冲区取数，随后释放mutex并signal(empty)，统计放在锁外。这样没有消费者会取不存在的类别，缓冲区也不会写满后继续写。某类别长期没有产生时，其消费者可以一直等待，这由输入决定，并非算法的死锁。',
+        pseudocode={'initial':'semaphore empty=N, odd=0, even=0, mutex=1; //按初始为空',
+                    'P1':'while (true) {\n  x=produce();\n  wait(empty);\n  wait(mutex);\n  put(); //放入本次生成的x，保留题设函数名\n  signal(mutex);\n  if (x%2==1) signal(odd); else signal(even);\n}',
+                    'P2':'while (true) {\n  wait(odd);\n  wait(mutex);\n  getodd();\n  signal(mutex);\n  signal(empty);\n  countodd();\n}',
+                    'P3':'while (true) {\n  wait(even);\n  wait(mutex);\n  geteven();\n  signal(mutex);\n  signal(empty);\n  counteven();\n}'},
+        answer_comparison='信号量及操作顺序与王道第17题一致；补明原题未明确写出的初始为空假设；原书只有本页即完整收录答案，旧提取器误将p155顶端空白并入，答案定位修正为物理p154/印142。',
+        disposition='建议正文完整例题'),
+
+    question(2014, 47, 20, [136], [156], 11,
+        '连续取十件：单次缓冲操作和整批消费者分别互斥',
+        '（8分）系统中有多个生产者进程和多个消费者进程，共享一个能存放1000件产品的环形缓冲区（初始为空）。当缓冲区未满时，生产者进程可以放入其生产的一件产品，否则等待；当缓冲区未空时，消费者进程可以从缓冲区取走一件产品，否则等待。要求一个消费者进程从缓冲区连续取出10件产品后，其他消费者进程才可以取产品。请使用信号量P、V（或wait()、signal()）操作实现进程间的互斥与同步，要求写出完整的过程，并说明所用信号量的含义和初值。',
+        marks=8, figures=[], difficulty='中等到综合',
+        model='有限环形缓冲区 + 消费者批次互斥，允许生产者在消费者批内继续生产',
+        selection_reason='“连续取10件”会改变互斥粒度，不能仅把标准消费者代码循环十次；同时能揭示持有共享缓冲锁等产品的死锁。',
+        deletion_loss='删除后会失去批次约束改变锁范围，以及“批内等待仍须允许生产”这一边界。',
+        added_value='标准有限缓冲区不能覆盖消费者之间的整批排他；题目条件直接决定额外batch信号量。',
+        key_steps=['empty=1000、full=0管理容量，mutex=1管理单次缓冲操作，batch=1管理消费者整批取数。',
+                   '消费者在十次取数外持有batch，在每次get的前后获取和释放mutex。',
+                   '每次先wait(full)，再wait(mutex)；缺货时不占用缓冲区锁。',
+                   '生产者只使用empty和mutex，不受batch约束。'],
+        boundaries=['连续是指其他消费者不得插入取走产品；不要求生产者在这十次之间停止放入。',
+                    '不要求开始时已有10件；允许消费者取若干件后等待生产者继续补货。',
+                    '只有一个普通mutex贯穿整批会在产品不足时阻止生产者补货。',
+                    '若在batch外由多个消费者分别先wait(full)十次，可能各预留不足10件，造成许可分散；先锁batch再逐件申请。'],
+        solution='设empty=1000表示未预留的空槽许可，full=0表示未预留的产品许可；mutex=1保证单次放入、取出及指针修改互斥；batch=1保证同一批十次取数由一个消费者独占。消费者先wait(batch)，再循环十次：wait(full)、wait(mutex)、取buf[out]并更新out、signal(mutex)、signal(empty)。十次完成后signal(batch)，再处理本地的十件产品。生产者每次wait(empty)、wait(mutex)、写buf[in]并更新in、signal(mutex)、signal(full)。消费者缺货时只持有batch而没有mutex，生产者不需要batch，因而仍能补货；其他消费者则被batch挡住。',
+        pseudocode={'initial':'semaphore empty=1000, full=0, mutex=1, batch=1;\nint in=0, out=0;\nitem buf[1000];',
+                    'producer':'while (true) {\n  x=produce();\n  wait(empty);\n  wait(mutex);\n  buf[in]=x; in=(in+1)%1000;\n  signal(mutex);\n  signal(full);\n}',
+                    'consumer':'item local[10]; //每个消费者的私有数组\nwhile (true) {\n  wait(batch);\n  for (int k=0; k<10; ++k) {\n    wait(full);\n    wait(mutex);\n    local[k]=buf[out]; out=(out+1)%1000;\n    signal(mutex);\n    signal(empty);\n  }\n  signal(batch);\n  consume(local);\n}'},
+        answer_comparison='原书p156说明段将mutex1解释为整批、mutex2解释为单次，但代码注释和实际操作则是mutex1生产者互斥、mutex2消费者整批互斥，命名不一致。原书代码在环形缓冲区生产者/消费者使用独立in/out、由empty/full保证不同槽位的前提下可行；本讲义采用更易核查的共享mutex+batch四信号量解法，数值、题意、设问均未改动，属于同题另一正确解法。',
+        disposition='建议正文后段或章末完整综合例题'),
+
+    question(2025, 45, 29, [138,139], [161], 10,
+        '植树协作：容量配额、工具互斥与阶段完成通知',
+        '（7分）甲、乙、丙三人一起植树，甲负责挖树坑，乙负责将树苗放入树坑中并填土，丙负责为新种的树苗浇水。植树的步骤依次为：挖树坑、放树苗、填土和浇水。现有铁锹和水桶各1个，铁锹用于挖树坑和填土，水桶用于浇水。当树坑的数量小于3时，甲才可以挖树坑。假设初始时树坑的数量为0，铁锹和水桶均可用。请定义尽可能少的信号量，用wait()、signal()操作描述植树过程中三人之间的同步或互斥关系，并说明所用信号量的作用及其初值。',
+        marks=7, figures=[], difficulty='综合',
+        model='三阶段流水线中的中间产物计数、未用树坑容量和共享铁锹互斥',
+        selection_reason='可检验学生是否只为真正共享的水桶/铁锹建模，是否正确确定空坑配额的归还时刻。',
+        deletion_loss='如不收录，本单元已有四题仍能完成主要教学任务；本题新增三阶段共享资源建模，可后续综合章保留。',
+        added_value='甲乙共享铁锹但丙独占水桶，无需水桶互斥量；放入树苗后即归还空坑配额。',
+        key_steps=['position=3表示可新增的未用空坑配额，pit=0表示可供乙用的空坑，tree=0表示已填土待浇水，shovel=1表示铁锹可用。',
+                   '甲先申请position再申请shovel，避免拿着铁锹等配额使乙无法填土。',
+                   '乙wait(pit)后放树苗，随后归还position，再拿铁锹填土并signal(tree)。',
+                   '丙只wait(tree)后浇水，不为只有自己使用的水桶增加信号量。'],
+        boundaries=['“树坑数量”按王道参考答案解释为尚未放树苗的空坑数，放入树苗即释放其空坑配额。',
+                    '若把position一直等到浇水后才释放，会施加“未浇水树苗与空坑总数至多3”的额外限制，减少原题允许的并发。',
+                    '只有甲乙争用铁锹；“资源只有一个”不能单独推出需要互斥量，还要看是否有多个使用者。'],
+        solution='使用四个信号量：position=3、pit=0、tree=0、shovel=1。甲wait(position)，wait(shovel)，挖坑，signal(shovel)，signal(pit)。乙wait(pit)，放苗，signal(position)，wait(shovel)，填土，signal(shovel)，signal(tree)。丙wait(tree)，浇水。各自重复以上过程。甲获得一个配额才挖坑；乙放苗后空坑已被使用，及时归还配额；乙填土完成后才通知丙浇水。甲乙的铁锹区互斥，水桶只有丙使用。',
+        pseudocode={'initial':'semaphore position=3, pit=0, tree=0, shovel=1;',
+                    '甲':'while (true) {\n  wait(position);\n  wait(shovel);\n  挖树坑;\n  signal(shovel);\n  signal(pit);\n}',
+                    '乙':'while (true) {\n  wait(pit);\n  放树苗;\n  signal(position);\n  wait(shovel);\n  填土;\n  signal(shovel);\n  signal(tree);\n}',
+                    '丙':'while (true) {\n  wait(tree);\n  浇水;\n}'},
+        answer_comparison='四信号量与王道第29题答案一致，mutex改名shovel仅为清楚表意，不改题干或解法。',
+        disposition='备用综合题；本轮四题够用时不为增加年份而堆入')
+]
+
+result_file = CHECKS/'verification_results.json'
+if result_file.exists():
+    results=json.loads(result_file.read_text())
+    for q in questions:
+        q['computation_verification']=results[f"{q['year']}-{q['exam_question_number']}"]
+
+payload = dict(
+    scope='同步与信号量样章真题候选，5道；非全题库统计',
+    verification_date=DATE,
+    source_limits=['王道为可信复习主资料、公开社区重建卷为题号交叉核验资料，两者均非本次取得的官方原始试卷。',
+                   '参考答案已与实际扫描页及独立推理对照，未取得官方参考答案发布页，不能宣称官方答案已核。',
+                   '不据这5题报告高频、趋势或百分比。',
+                   'is_personal_error=null表示此题源核验未认定个人错题身份，须由独立错题映射记录关联；不能由来源反推个人作答。'],
+    questions=questions,
+)
+(ROOT/'os_exam_candidates.json').write_text(json.dumps(payload,ensure_ascii=False,indent=2)+'\n')
+
+lines=['# 同步与信号量样章真题候选核验\n',
+       f'核验日期：{DATE}。本台账实际图核5题；不是题库频率统计。页号中的“物理页”从PDF第一张开始计为1；本书本段印刷页=物理页−12。\n',
+       '题源：王道《2027年操作系统考研复习指导》2.3综合应用题，与 neville-studio/408-exam-paper 公开社区重建卷逐题交叉核对。后者非官方原卷。题干、年份、题号、必要图和王道答案已核；未取得官方原卷或官方答案发布页。\n',
+       '|ID|王道题号|题：物理/印刷页|答：物理/印刷页|重建卷页|去向|\n|---|---:|---|---|---:|---|']
+for q in questions:
+    b=q['book']
+    lines.append(f"|{q['id']}|{b['question_number']}|{b['question_pdf_physical_pages']}/{b['question_printed_pages']}|{b['answer_pdf_physical_pages']}/{b['answer_printed_pages']}|{q['cross_source']['pdf_physical_page']}|{q['disposition']}|")
+for q in questions:
+    lines += [f"\n## {q['id']}　{q['title']}\n", f"题源：[{q['year']}重建卷]({q['cross_source']['url']})第{q['cross_source']['pdf_physical_page']}页，第{q['exam_question_number']}题；王道2.3综合题{q['book']['question_number']}。",
+              '\n### 完整题干\n', q['prompt'], '\n### 识别条件与独立求解\n', q['solution']]
+    for key,code in q['pseudocode'].items():
+        lines += [f'\n{key}：\n', '```text\n'+code+'\n```']
+    if q['figures']:
+        lines.append('\n图的精确数据：\n```json\n'+json.dumps(q['figures'],ensure_ascii=False,indent=2)+'\n```')
+    lines += ['\n### 选题和边界\n', '模型：'+q['model'], '入选理由：'+q['selection_reason'],
+              '相对新增：'+q['added_value'], '删除检查：'+q['deletion_loss'],
+              '\n'+'\n'.join('- '+s for s in q['boundaries']), '\n原答案对照：'+q['answer_comparison'],
+              '\n个人错题信息：本台账没有将本题认定为个人错题；原作答和个人错因均未从题源中获得，不作推测。']
+lines += ['\n## 实际渲染证据和自动核验\n',
+          '`os_exam_checks/book-physical-*.png` 为扫描原书实际页渲染；`exam_YYYY_pN.png`为交叉核验卷对应页。本台账引用的原题和答案页（书135、136、138、139、154、156、160、161；重建卷5页）均在本轮用view_image实际查看。其余渲染页不是本台账处理题目的额外依据。',
+          '自动核验见 `os_exam_checks/verify_os_examples.py` 与 `verification_results.json`：实际枚举合法执行轨迹、检查容量和互斥不变量；小规模穷举为数学分析提供交叉检查，不把有限样本等同一般证明。',
+          '正文图稿只需重绘2022前趋图；其他题可新增状态过程教学图，需明确为讲解图，不声称原题已有图。']
+(ROOT/'os_exam_candidates.md').write_text('\n\n'.join(lines)+'\n')
+print('Wrote',ROOT/'os_exam_candidates.json')
+print('Wrote',ROOT/'os_exam_candidates.md')

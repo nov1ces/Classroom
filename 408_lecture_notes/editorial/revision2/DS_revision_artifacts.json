@@ -1,0 +1,141 @@
+{
+  "subject": "DS",
+  "date": "2026-10-17",
+  "status": "content_ready_for_review",
+  "checks_count": 66,
+  "figures_count": 21,
+  "changed_figure_ids": [
+    "DS_14_avl_rotations",
+    "DS_21_avl_double_rotations",
+    "DS_15_btree_split",
+    "DS_20_btree_delete"
+  ],
+  "files": [
+    {
+      "path": "manuscript/DS/07_查找与索引结构.md",
+      "sha256": "84b5a8978a62f918f80958d8d2b93b0aed347336265fe5d24200d29921285904",
+      "bytes": 27416
+    },
+    {
+      "path": "manuscript/DS/08_排序与外部归并.md",
+      "sha256": "ffa1602936e872cbd03e1a70d38f6c485ce0e5ce57e0957db6eb5ddae196d290",
+      "bytes": 25798
+    },
+    {
+      "path": "tools/draw_ds_figures.py",
+      "sha256": "fa0882b826eb8e7691baf982806a0053d762a2387993d3324111a1ab85a795ac",
+      "bytes": 25473
+    },
+    {
+      "path": "editorial/full/DS/README.md",
+      "sha256": "6ea7975d8c1f07d9c07c3599bf7323d9ecc2ca7bb9523e05f5b84e40731de9f7",
+      "bytes": 3010
+    },
+    {
+      "path": "editorial/full/DS/build_records.py",
+      "sha256": "c4426d16e30388a41e8a5fc121d7d422866827600bb4ce22afc45de7744e08c0",
+      "bytes": 37384
+    },
+    {
+      "path": "editorial/full/DS/chapter_records.json",
+      "sha256": "f1ad16a5f35c89cf431339e5d27046392dd51b7965b7e64b9d7506dc431fb1cc",
+      "bytes": 496916
+    },
+    {
+      "path": "editorial/full/DS/content_lock.json",
+      "sha256": "552d4f64cc092d8eb16a2ab7d6acfbc8f6850d2b30dd26307b3337c71a6e2e3c",
+      "bytes": 3216
+    },
+    {
+      "path": "editorial/full/DS/figure_manifest.json",
+      "sha256": "b4994bd6e0cc8b50a6754173cb540d24f348e3cb1b76252ef9af91cbbab96c36",
+      "bytes": 45500
+    },
+    {
+      "path": "editorial/full/DS/verification.py",
+      "sha256": "bd8ae383f36d3701d6a2d17346d9a7d0313e7e014fc49e22ce507082b4edd205",
+      "bytes": 34246
+    },
+    {
+      "path": "editorial/full/DS/results.json",
+      "sha256": "69374cdcdfabd80ae115d75787bf93e139cfeaf21ffc13c978fdc17b6693f385",
+      "bytes": 63628
+    },
+    {
+      "path": "editorial/revision2/DS_revision.md",
+      "sha256": "b1bb226243fb9e307879a38ba7e06e0061e7c8d31ec3e1c9c4a9c43d512e27a3",
+      "bytes": 6099
+    },
+    {
+      "path": "editorial/revision2/DS_revision_sources.json",
+      "sha256": "9148c0386bacd6b260998dfcab13a693df6bb5cec8bca857a501e1d1ec935fbf",
+      "bytes": 21014
+    },
+    {
+      "path": "editorial/revision2/DS_baseline.json",
+      "sha256": "ded54a2246bbc7766219d6f5dad2c2a19fd8d159c1199ee8310e398b2b329bc0",
+      "bytes": 2573
+    },
+    {
+      "path": "figures/DS_14_avl_rotations.svg",
+      "sha256": "4f7719bed06aa0a6aef812b20db4f80f65589acc8e454ad78b3a615a8ef6de2e",
+      "bytes": 12557
+    },
+    {
+      "path": "figures/DS_14_avl_rotations.png",
+      "sha256": "b2b81c845d403ee21f738eda0809df5f18c24f70b28173d6251486bb7cb98b61",
+      "bytes": 153810
+    },
+    {
+      "path": "figures/DS_14_avl_rotations.pdf",
+      "sha256": "f6f366a71554dfecfe624bee4aae6642ffa8ee7b3afd8c8fcf5d7892fc9ebe64",
+      "bytes": 125223
+    },
+    {
+      "path": "figures/DS_21_avl_double_rotations.svg",
+      "sha256": "1e86fb22b05a6b0c21495a3f5a0e39d037808faf434ba0eea8fb00739cdc6003",
+      "bytes": 18454
+    },
+    {
+      "path": "figures/DS_21_avl_double_rotations.png",
+      "sha256": "c0c845601473511a912bf9a8d84f57ccca5111a15a10a9a0f04dcf20eacc96a1",
+      "bytes": 184504
+    },
+    {
+      "path": "figures/DS_21_avl_double_rotations.pdf",
+      "sha256": "4a890ebbd64d22b59a33caad9edbd1cb56cd7c95010e0076e833a43918666bb0",
+      "bytes": 128738
+    },
+    {
+      "path": "figures/DS_15_btree_split.svg",
+      "sha256": "38cb52c179d25325ccf4d20d0fc186b8f704c2bd02d9b4d86ad841cd5f1e9c7f",
+      "bytes": 7522
+    },
+    {
+      "path": "figures/DS_15_btree_split.png",
+      "sha256": "ff0ca5278d9b97a1fa61665e5b3b245a9121bd632011170d073f6261b0728a3e",
+      "bytes": 148989
+    },
+    {
+      "path": "figures/DS_15_btree_split.pdf",
+      "sha256": "e8d228d9a6c54ebb8f718201f04f3c6b413db69590f1f06efa9bf1465b2cd061",
+      "bytes": 124130
+    },
+    {
+      "path": "figures/DS_20_btree_delete.svg",
+      "sha256": "1bfad53db3b3efea3486d87f20d72c893afb92bc592902c9fe6758c0a87c043c",
+      "bytes": 7879
+    },
+    {
+      "path": "figures/DS_20_btree_delete.png",
+      "sha256": "95979b30f8624f4752575018968d88e57b12729cc09309959ad7afc4687eb6ae",
+      "bytes": 139912
+    },
+    {
+      "path": "figures/DS_20_btree_delete.pdf",
+      "sha256": "47f8dc4b594b09ba1dba8c8430f2e2bcc4423f678ba846085ac99884bcf31f92",
+      "bytes": 130101
+    }
+  ],
+  "not_performed": "本分支未生成讲义PDF/未覆盖V1；主编仅导出正文审阅PDF；本轮未做讲义PDF分页、裁切、视觉或排版检查"
+}

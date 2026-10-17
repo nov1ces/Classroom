@@ -1,0 +1,1019 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "id": "CN-CAL-001",
+      "description": "1500B@100Mb/s sends in120us",
+      "actual": 0.00012,
+      "expected": 0.00012,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-002",
+      "description": "200km propagation is1ms",
+      "actual": 0.001,
+      "expected": 0.001,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-003",
+      "description": "last bit arrives1.12ms",
+      "actual": 0.0011200000000000001,
+      "expected": 0.00112,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-004",
+      "description": "single-way BDP is100000bit",
+      "actual": 100000,
+      "expected": 100000,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-005",
+      "description": "4kb/s at1000Baud needs16states",
+      "actual": 16,
+      "expected": 16,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-006",
+      "description": "one16-state symbol each1/8s gives32bit/s",
+      "actual": 32,
+      "expected": 32,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-007",
+      "description": "200kHz 4ASK Nyquist gives800kb/s",
+      "actual": 800000,
+      "expected": 800000,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-008",
+      "description": "8kHz 8-state upper bound remains48kb/s",
+      "actual": 48000,
+      "expected": 48000,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-009",
+      "description": "binary4kHz SNR127 tighter8kb/s bound",
+      "actual": 8000,
+      "expected": 8000,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-010",
+      "description": "QAM32 changed conditions nearest gain is2",
+      "actual": 2,
+      "expected": 2,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-011",
+      "description": "2023q33 independent hop event simulation",
+      "actual": 0.08009999999999809,
+      "expected": 0.0801,
+      "tolerance": 1e-12,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-012",
+      "description": "3packets2hops no propagation completes4slots",
+      "actual": [
+        2,
+        3,
+        4
+      ],
+      "expected": [
+        2.0,
+        3.0,
+        4.0
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-013",
+      "description": "chapter2 review10packets3hops",
+      "actual": 0.01800000000000001,
+      "expected": 0.018,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-014",
+      "description": "2013q37 exact18-bit stuffed stream",
+      "actual": "011111000011111010",
+      "expected": "011111000011111010",
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-015",
+      "description": "stuffed111110 restores original without deleting data0",
+      "actual": "111110",
+      "expected": "111110",
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-016",
+      "description": "CRC complete division intermediate values",
+      "actual": [
+        328,
+        232,
+        56,
+        12,
+        1
+      ],
+      "expected": [
+        328,
+        232,
+        56,
+        12,
+        1
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-017",
+      "description": "CRC appended frame has zero remainder",
+      "actual": 0,
+      "expected": 0,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-018",
+      "description": "2023q37 A/B/C/D remainders",
+      "actual": [
+        12,
+        8,
+        4,
+        0
+      ],
+      "expected": [
+        12,
+        8,
+        4,
+        0
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-019",
+      "description": "nonzero corruption can remain divisible by generator",
+      "actual": [
+        true,
+        true
+      ],
+      "expected": [
+        true,
+        true
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-020",
+      "description": "2025q34 all six Hamming distances",
+      "actual": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        8
+      ],
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        8
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-021",
+      "description": "min distance4 detects3 corrects1",
+      "actual": [
+        3,
+        1
+      ],
+      "expected": [
+        3,
+        1
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-022",
+      "description": "Hamming encoded word syndrome0",
+      "actual": 0,
+      "expected": 0,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-023",
+      "description": "Hamming flipped position6 gives syndrome6",
+      "actual": 6,
+      "expected": 6,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-024",
+      "description": "Hamming actual correction restores word",
+      "actual": "1011010",
+      "expected": "1011010",
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-025",
+      "description": "2020q36 SW with long ACK gives40percent",
+      "actual": 0.4,
+      "expected": 0.4,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-026",
+      "description": "GBN window10 has no idle through40frames",
+      "actual": [
+        0,
+        64,
+        128,
+        192,
+        256,
+        320,
+        384,
+        448,
+        512,
+        576,
+        640,
+        704,
+        768,
+        832,
+        896,
+        960,
+        1024,
+        1088,
+        1152,
+        1216,
+        1280,
+        1344,
+        1408,
+        1472,
+        1536,
+        1600,
+        1664,
+        1728,
+        1792,
+        1856,
+        1920,
+        1984,
+        2048,
+        2112,
+        2176,
+        2240,
+        2304,
+        2368,
+        2432,
+        2496
+      ],
+      "expected": [
+        0,
+        64,
+        128,
+        192,
+        256,
+        320,
+        384,
+        448,
+        512,
+        576,
+        640,
+        704,
+        768,
+        832,
+        896,
+        960,
+        1024,
+        1088,
+        1152,
+        1216,
+        1280,
+        1344,
+        1408,
+        1472,
+        1536,
+        1600,
+        1664,
+        1728,
+        1792,
+        1856,
+        1920,
+        1984,
+        2048,
+        2112,
+        2176,
+        2240,
+        2304,
+        2368,
+        2432,
+        2496
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-027",
+      "description": "GBN window9 incurs first52ms idle",
+      "actual": 52,
+      "expected": 52,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-028",
+      "description": "GBN capacity requires4 sequence bits",
+      "actual": 4,
+      "expected": 4,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-029",
+      "description": "2009q35 cumulative ACK3 leaves4..7",
+      "actual": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "expected": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-030",
+      "description": "GBN discards3,4 before2; SR preserves them",
+      "actual": [
+        {
+          "delivered": [
+            2
+          ],
+          "expected": 3,
+          "buffer": []
+        },
+        {
+          "delivered": [
+            2,
+            3,
+            4
+          ],
+          "expected": 5,
+          "buffer": []
+        }
+      ],
+      "expected": [
+        {
+          "delivered": [
+            2
+          ],
+          "expected": 3,
+          "buffer": []
+        },
+        {
+          "delivered": [
+            2,
+            3,
+            4
+          ],
+          "expected": 5,
+          "buffer": []
+        }
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-031",
+      "description": "window ambiguity enumeration49 cases satisfiesWs+Wr<=8",
+      "actual": 49,
+      "expected": 49,
+      "assumptions": [
+        "枚举旧窗口与新接收窗口序号集合交叠，非仅检查文件存在"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-032",
+      "description": "CDMA targetA normalized dot products",
+      "actual": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "expected": [
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-033",
+      "description": "CSMACD frame decrease800bit requires80m decrease",
+      "actual": 80.0,
+      "expected": 80.0,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-034",
+      "description": "4collisions max15slots",
+      "actual": 768.0,
+      "expected": 768.0,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-035",
+      "description": "11collisions cap exponent10",
+      "actual": 52.3776,
+      "expected": 52.3776,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-036",
+      "description": "2024NAV twoSIFS+DATA+ACK",
+      "actual": 354.0,
+      "expected": 354.0,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-037",
+      "description": "cut-through6B@100Mb/s",
+      "actual": 4.8e-07,
+      "expected": 4.8e-07,
+      "tolerance": 1e-09,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-038",
+      "description": "VLAN/native minimum payload and padding",
+      "actual": [
+        42,
+        46,
+        2,
+        6
+      ],
+      "expected": [
+        42,
+        46,
+        2,
+        6
+      ],
+      "assumptions": [
+        "采用书题最短64B、标签首尾22B的模型"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-039",
+      "description": "2021q37 distance vectors add local link first",
+      "actual": [
+        9,
+        20,
+        28,
+        20
+      ],
+      "expected": [
+        9,
+        20,
+        28,
+        20
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-040",
+      "description": "Dijkstra actual settle sequence",
+      "actual": [
+        [
+          "A",
+          0
+        ],
+        [
+          "B",
+          1
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "D",
+          4
+        ]
+      ],
+      "expected": [
+        [
+          "A",
+          0
+        ],
+        [
+          "B",
+          1
+        ],
+        [
+          "C",
+          3
+        ],
+        [
+          "D",
+          4
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-041",
+      "description": "2021q36 exact fragments and intermediate offsets",
+      "actual": [
+        {
+          "payload": 776,
+          "total": 796,
+          "offset": 0,
+          "mf": 1
+        },
+        {
+          "payload": 776,
+          "total": 796,
+          "offset": 97,
+          "mf": 1
+        },
+        {
+          "payload": 8,
+          "total": 28,
+          "offset": 194,
+          "mf": 0
+        }
+      ],
+      "expected": [
+        {
+          "payload": 776,
+          "total": 796,
+          "offset": 0,
+          "mf": 1
+        },
+        {
+          "payload": 776,
+          "total": 796,
+          "offset": 97,
+          "mf": 1
+        },
+        {
+          "payload": 8,
+          "total": 28,
+          "offset": 194,
+          "mf": 0
+        }
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-042",
+      "description": "2023q39 subnet host bounds",
+      "actual": [
+        "168.16.80.1",
+        "168.16.95.254"
+      ],
+      "expected": [
+        "168.16.80.1",
+        "168.16.95.254"
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-043",
+      "description": "2019q37 constructive full five-subnet partition",
+      "actual": [
+        5,
+        "101.200.16.0/20",
+        254
+      ],
+      "expected": [
+        5,
+        "101.200.16.0/20",
+        254
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-044",
+      "description": "2018q38 exact aggregation",
+      "actual": [
+        "35.230.32.0/19"
+      ],
+      "expected": [
+        "35.230.32.0/19"
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-045",
+      "description": "ARP same-subnet check under20-bit mask",
+      "actual": true,
+      "expected": true,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-046",
+      "description": "chapter4 review network/broadcast",
+      "actual": [
+        "192.168.10.128",
+        "192.168.10.191"
+      ],
+      "expected": [
+        "192.168.10.128",
+        "192.168.10.191"
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-047",
+      "description": "chapter4 review fragmentation",
+      "actual": [
+        600,
+        75
+      ],
+      "expected": [
+        600,
+        75
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-048",
+      "description": "2024q39 end-around carry yieldsE083",
+      "actual": 57475,
+      "expected": 57475,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-049",
+      "description": "TCP2009 byte ranges produceACK1000",
+      "actual": 1000,
+      "expected": 1000,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-050",
+      "description": "SYN/FIN application bytes only",
+      "actual": 772,
+      "expected": 772,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-051",
+      "description": "close minimal C1650/S75",
+      "actual": [
+        1650,
+        75.0
+      ],
+      "expected": [
+        1650,
+        75.0
+      ],
+      "assumptions": [
+        "服务器收到FIN后立即合并ACK+FIN；单向传播RTT/2"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-052",
+      "description": "2025q38 actual acknowledged/inflight/new-send states",
+      "actual": [
+        1000,
+        3000,
+        3000,
+        2000,
+        2
+      ],
+      "expected": [
+        1000,
+        3000,
+        3000,
+        2000,
+        2
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-053",
+      "description": "linear longest8KBto32KB",
+      "actual": [
+        24,
+        48
+      ],
+      "expected": [
+        24,
+        48
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-054",
+      "description": "typical33 thirteen rounds",
+      "actual": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "expected": [
+        1,
+        2,
+        4,
+        8,
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        4,
+        6,
+        7
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-055",
+      "description": "2014q38 reaches rwnd10 by eighthRTT",
+      "actual": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "expected": [
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-056",
+      "description": "selfcheck FIN and window",
+      "actual": [
+        601,
+        602,
+        1500,
+        8000
+      ],
+      "expected": [
+        601,
+        602,
+        1500,
+        8000
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-057",
+      "description": "2016DNS four delegated steps",
+      "actual": [
+        "root",
+        "com",
+        "xyz.com",
+        "abc.xyz.com"
+      ],
+      "expected": [
+        "root",
+        "com",
+        "xyz.com",
+        "abc.xyz.com"
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-058",
+      "description": "nonpersistent serial8objects",
+      "actual": 16,
+      "expected": 16,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-059",
+      "description": "already connected pipeline HTMLthen3images",
+      "actual": 2,
+      "expected": 2,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-060",
+      "description": "2020DNS and Web shortest/longestms",
+      "actual": [
+        20,
+        50
+      ],
+      "expected": [
+        20,
+        50
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-061",
+      "description": "2022image afterHTML withcwnd2MSS",
+      "actual": [
+        2,
+        1
+      ],
+      "expected": [
+        2,
+        1
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-062",
+      "description": "2022TCP+HTML+two image rounds",
+      "actual": 4,
+      "expected": 4,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-063",
+      "description": "larger initial window changes2022 numeric result",
+      "actual": 3,
+      "expected": 3,
+      "assumptions": [
+        "明确新增初始cwnd较大的变式；原题教材模型仍40ms"
+      ],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-064",
+      "description": "chapter6 review persistent nonpipeline/pipeline",
+      "actual": [
+        6,
+        3
+      ],
+      "expected": [
+        6,
+        3
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-065",
+      "description": "NAV figure data matches independent result",
+      "actual": 354,
+      "expected": 354.0,
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-066",
+      "description": "fragment graphic shares actual computed arrays",
+      "actual": [
+        [
+          776,
+          776,
+          8
+        ],
+        [
+          0,
+          97,
+          194
+        ]
+      ],
+      "expected": [
+        [
+          776,
+          776,
+          8
+        ],
+        [
+          0,
+          97,
+          194
+        ]
+      ],
+      "assumptions": [],
+      "status": "PASS"
+    },
+    {
+      "id": "CN-CAL-067",
+      "description": "TCP graphic shares actual remaining segment count",
+      "actual": 2,
+      "expected": 2,
+      "assumptions": [],
+      "status": "PASS"
+    }
+  ],
+  "count": 67,
+  "limitations": [
+    "计算核验不替代题源全文核验、正式大纲核验或PDF逐页视觉检查",
+    "协议计时与增长采用正文已说明的教材模型；未声称所有现代实现数值相同"
+  ],
+  "algorithm_processes": [
+    "存储转发逐组逐跳事件递推",
+    "CRC逐次异或余数",
+    "海明综合征与实际翻转恢复",
+    "GBN长ACK受窗口约束的发送时刻",
+    "GBN/SR接收缓存不同轨迹",
+    "序号窗口49种重叠枚举",
+    "Dijkstra定型状态",
+    "IPv4分片偏移",
+    "TCP按ACK移除在途区间",
+    "TCP13轮cwnd与HTTP图片分轮"
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "verification_date": "2026-10-15",
+  "method": "独立状态转移枚举；P/V按原子许可操作；有限穷举加一般不变量说明。",
+  "2022-46": {
+    "states": 34,
+    "transitions": 36,
+    "deadlocks": 0,
+    "terminal_states": 6,
+    "visible_complete_orders": [
+      "ABCDEF",
+      "ABCEDF",
+      "ABCEFD",
+      "BACDEF",
+      "BACEDF",
+      "BACEFD"
+    ],
+    "complete_orders_equal_graph_topological_orders": true
+  },
+  "2024-46": {
+    "part2_once": {
+      "states": 7,
+      "transitions": 6,
+      "deadlocks": 0,
+      "terminal_states": 1
+    },
+    "part3_read_modify_write_illustration_with_mutex": {
+      "states": 17,
+      "transitions": 16,
+      "deadlocks": 0,
+      "terminal_states": 2,
+      "final_values": [
+        2
+      ]
+    },
+    "illustration_without_mutex": {
+      "states": 13,
+      "transitions": 14,
+      "deadlocks": 0,
+      "terminal_states": 3,
+      "final_values": [
+        1,
+        2
+      ]
+    },
+    "limitation": "加一仅为读改写互斥的教学检查实例，非真题C3的附加条件。"
+  },
+  "2009-45": [
+    {
+      "states": 116,
+      "transitions": 248,
+      "deadlocks": 0,
+      "terminal_states": 0,
+      "capacity": 1,
+      "checks": [
+        "分类取数前确有相应类别",
+        "容量不越界",
+        "单次缓冲操作互斥",
+        "许可与操作中预留量的精确守恒",
+        "不存在全局死锁状态"
+      ]
+    },
+    {
+      "states": 444,
+      "transitions": 1064,
+      "deadlocks": 0,
+      "terminal_states": 0,
+      "capacity": 2,
+      "checks": [
+        "分类取数前确有相应类别",
+        "容量不越界",
+        "单次缓冲操作互斥",
+        "许可与操作中预留量的精确守恒",
+        "不存在全局死锁状态"
+      ]
+    },
+    {
+      "states": 1060,
+      "transitions": 2684,
+      "deadlocks": 0,
+      "terminal_states": 0,
+      "capacity": 3,
+      "checks": [
+        "分类取数前确有相应类别",
+        "容量不越界",
+        "单次缓冲操作互斥",
+        "许可与操作中预留量的精确守恒",
+        "不存在全局死锁状态"
+      ]
+    }
+  ],
+  "2014-47": {
+    "exhaustive_small_capacity": [
+      {
+        "states": 510,
+        "transitions": 770,
+        "deadlocks": 0,
+        "terminal_states": 0,
+        "capacity": 1,
+        "batch_size": 10,
+        "producers": 2,
+        "consumers": 2,
+        "checks": [
+          "实际缓冲容量守恒",
+          "单次缓冲操作互斥",
+          "十件批次不被其他消费者插入",
+          "批内允许生产者补货",
+          "不存在全局死锁状态"
+        ]
+      },
+      {
+        "states": 1973,
+        "transitions": 4128,
+        "deadlocks": 0,
+        "terminal_states": 0,
+        "capacity": 2,
+        "batch_size": 10,
+        "producers": 2,
+        "consumers": 2,
+        "checks": [
+          "实际缓冲容量守恒",
+          "单次缓冲操作互斥",
+          "十件批次不被其他消费者插入",
+          "批内允许生产者补货",
+          "不存在全局死锁状态"
+        ]
+      },
+      {
+        "states": 4076,
+        "transitions": 9646,
+        "deadlocks": 0,
+        "terminal_states": 0,
+        "capacity": 3,
+        "batch_size": 10,
+        "producers": 2,
+        "consumers": 2,
+        "checks": [
+          "实际缓冲容量守恒",
+          "单次缓冲操作互斥",
+          "十件批次不被其他消费者插入",
+          "批内允许生产者补货",
+          "不存在全局死锁状态"
+        ]
+      }
+    ],
+    "actual_capacity_random_interleaving": {
+      "random_seed": 408,
+      "steps": 100000,
+      "puts": 9482,
+      "gets": 8482,
+      "final_occupancy": 1000,
+      "deadlocks": 0,
+      "capacity": 1000,
+      "batch_size": 10,
+      "producers": 2,
+      "consumers": 2,
+      "checks": [
+        "实际缓冲容量守恒",
+        "单次缓冲操作互斥",
+        "十件批次不被其他消费者插入",
+        "批内允许生产者补货",
+        "不存在全局死锁状态"
+      ]
+    }
+  },
+  "2025-45": [
+    {
+      "states": 15,
+      "transitions": 14,
+      "deadlocks": 0,
+      "terminal_states": 1,
+      "cycles_per_worker": 1,
+      "checks": [
+        "未用空坑不超过3",
+        "铁锹互斥",
+        "先放苗再填土再浇水",
+        "坑配额与预留量守恒",
+        "全部工人可完成给定轮数"
+      ]
+    },
+    {
+      "states": 270,
+      "transitions": 538,
+      "deadlocks": 0,
+      "terminal_states": 1,
+      "cycles_per_worker": 3,
+      "checks": [
+        "未用空坑不超过3",
+        "铁锹互斥",
+        "先放苗再填土再浇水",
+        "坑配额与预留量守恒",
+        "全部工人可完成给定轮数"
+      ]
+    },
+    {
+      "states": 620,
+      "transitions": 1374,
+      "deadlocks": 0,
+      "terminal_states": 1,
+      "cycles_per_worker": 4,
+      "checks": [
+        "未用空坑不超过3",
+        "铁锹互斥",
+        "先放苗再填土再浇水",
+        "坑配额与预留量守恒",
+        "全部工人可完成给定轮数"
+      ]
+    }
+  ],
+  "limits": [
+    "小容量穷举不宣称穷举原题1000槽全部状态；原容量另外检查固定种子的100000步真实交错。",
+    "证明无全局死锁不等于保证任意不公平调度下无饥饿。",
+    "2009题按参考答案的初始为空；非空初态另由许可定义与守恒式说明。",
+    "2024读改写加一是解释实例，未改写原题。"
+  ]
+}

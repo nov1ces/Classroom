@@ -1,0 +1,13 @@
+{
+  "subject": "CN",
+  "revision": 3,
+  "status": "LOCKED_CONTENT",
+  "no_further_manuscript_changes": true,
+  "files": {
+    "manuscript/CN/03_链路层可靠传输与介质访问.md": "858e4d661bd6b8afe2977b1eec76f939dcd73b062c72c515348bf49ef987eb70",
+    "manuscript/CN/04_网络层地址路由与转发.md": "593022d629dec934c563a26928bdd0b757054c729acdca997c30dea6bc700291",
+    "manuscript/CN/05_传输层可靠连接与窗口.md": "0b361bcb2affee293c2024a314843573e46763854195a1fe7ddec69f466601ca",
+    "manuscript/CN/06_应用层名称邮件与Web.md": "da0add4da1bbcb60432b32566ac8b5c1b2b2d637efb7b90ac0b90fc1d3624eef"
+  },
+  "scope": "Only source text hashes; no lecture PDF generation, pagination or visual review."
+}

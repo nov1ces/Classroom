@@ -1,0 +1,50 @@
+{
+  "verification_date": "2026-10-15",
+  "queries": [
+    "site.neea.edu.cn 2027 全国硕士研究生招生考试 计算机学科专业基础 考试大纲",
+    "site.hep.com.cn 2027 计算机学科专业基础 考试大纲",
+    "site.neea.edu.cn 2026 全国硕士研究生招生考试 考试大纲 计算机",
+    "site.hep.com.cn \"2027年全国硕士研究生招生考试计算机学科专业基础考试大纲\"",
+    "site.hep.com.cn \"2026年全国硕士研究生招生考试计算机学科专业基础考试大纲\"",
+    "site.hep.com.cn \"978-7-04-068451-3\" \"目录\"",
+    "site.pep.com.cn \"2026年全国硕士研究生招生考试计算机学科专业基础考试大纲\"",
+    "\"2027年全国硕士研究生招生考试计算机学科专业基础考试大纲\" filetype:pdf",
+    "\"2027\" \"计算机学科专业基础\" \"考试大纲\" site:edu.cn",
+    "\"2027\" \"计算机学科专业基础考试大纲\" site:neea.edu.cn",
+    "\"2027\" \"计算机学科专业基础考试大纲\" site:hep.com.cn \"下载\""
+  ],
+  "sources": [
+    {
+      "url": "https://xuanshu.hep.com.cn/front/book/findBookDetails?bookId=6aa97a0be119ac9729dd09ea",
+      "organization": "高等教育出版社",
+      "access": "正文书目详情直接可读；目录与简介显示暂无",
+      "verified_facts": {
+        "title": "2027年全国硕士研究生招生考试计算机学科专业基础考试大纲",
+        "author": "教育部教育考试院",
+        "isbn": "978-7-04-068451-3",
+        "published_month": "2026-09",
+        "pages": 96,
+        "material_number": "68451-00"
+      },
+      "does_not_verify": ["正式大纲全文条目", "2026与2027条目是否相同"]
+    },
+    {
+      "url": "https://www.hep.com.cn/book/show/2099763850751057921",
+      "organization": "高等教育出版社",
+      "access": "搜索索引摘要可读；直接打开要求Javascript",
+      "indexed_metadata_date": "2026-09-29",
+      "limitation": "日级日期只来自搜索摘要，正式报告优先使用可直接核验的2026年9月"
+    },
+    {
+      "url": "https://yankao.neea.edu.cn/html1/category/1509/6235-1.htm",
+      "organization": "教育部教育考试院/中国教育考试网",
+      "access": "直接打开成功；首屏为2022年度大纲链接",
+      "does_not_verify": ["2027大纲尚未出版", "2027正式细目"]
+    }
+  ],
+  "excluded_from_official_verification": [
+    {"url": "https://zhenti.beokayy.club/outline", "reason": "第三方自称2027版及无变化，未以此认证正式条目"},
+    {"url": "https://www.yeyulingfeng.com/a/1173924.html", "reason": "第三方转载，不能替代正式全文来源核验"}
+  ],
+  "result": "2027版正式出版书目信息已核验；完整细目未获得。采用本地题名2026的王道转录副本作暂定规划，全部条目标待2027正式逐条核对。"
+}

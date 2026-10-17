@@ -1,0 +1,206 @@
+[
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.1 查找的基本概念.pdf",
+    "pages": 10,
+    "text_chars": 2023,
+    "extracted": "editorial/revision2/DS_sources/7.1 查找的基本概念_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.1 顺序查找.pdf",
+    "pages": 20,
+    "text_chars": 3047,
+    "extracted": "editorial/revision2/DS_sources/7.2.1 顺序查找_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.2 折半查找.pdf",
+    "pages": 47,
+    "text_chars": 7676,
+    "extracted": "editorial/revision2/DS_sources/7.2.2 折半查找_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.3 分块查找.pdf",
+    "pages": 24,
+    "text_chars": 4782,
+    "extracted": "editorial/revision2/DS_sources/7.2.3 分块查找_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.1 二叉排序树.pdf",
+    "pages": 21,
+    "text_chars": 4184,
+    "extracted": "editorial/revision2/DS_sources/7.3.1 二叉排序树_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+    "pages": 30,
+    "text_chars": 6083,
+    "extracted": "editorial/revision2/DS_sources/7.3.2_1 平衡二叉树_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_2 平衡二叉树的删除.pdf",
+    "pages": 49,
+    "text_chars": 10591,
+    "extracted": "editorial/revision2/DS_sources/7.3.2_2 平衡二叉树的删除_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_1 红黑树的定义和性质.pdf",
+    "pages": 14,
+    "text_chars": 1610,
+    "extracted": "editorial/revision2/DS_sources/7.3.3_1 红黑树的定义和性质_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_2 红黑树的插入.pdf",
+    "pages": 33,
+    "text_chars": 5217,
+    "extracted": "editorial/revision2/DS_sources/7.3.3_2 红黑树的插入_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_3 红黑树的删除.pdf",
+    "pages": 6,
+    "text_chars": 522,
+    "extracted": "editorial/revision2/DS_sources/7.3.3_3 红黑树的删除_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+    "pages": 19,
+    "text_chars": 3750,
+    "extracted": "editorial/revision2/DS_sources/7.4.1_1 B树_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_2 B树的插入删除.pdf",
+    "pages": 54,
+    "text_chars": 10412,
+    "extracted": "editorial/revision2/DS_sources/7.4.1_2 B树的插入删除_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf",
+    "pages": 22,
+    "text_chars": 4533,
+    "extracted": "editorial/revision2/DS_sources/7.4.2 B+树_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.1 散列表的基本概念.pdf",
+    "pages": 9,
+    "text_chars": 1675,
+    "extracted": "editorial/revision2/DS_sources/7.5.1 散列表的基本概念_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.2 散列函数的构造.pdf",
+    "pages": 9,
+    "text_chars": 2452,
+    "extracted": "editorial/revision2/DS_sources/7.5.2 散列函数的构造_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.3_1 处理冲突的方法_拉链法.pdf",
+    "pages": 20,
+    "text_chars": 4947,
+    "extracted": "editorial/revision2/DS_sources/7.5.3_1 处理冲突的方法_拉链法_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.3_2 处理冲突的方法_开放定址法.pdf",
+    "pages": 21,
+    "text_chars": 6757,
+    "extracted": "editorial/revision2/DS_sources/7.5.3_2 处理冲突的方法_开放定址法_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+    "pages": 12,
+    "text_chars": 3880,
+    "extracted": "editorial/revision2/DS_sources/7.5.4 散列查找的性能分析_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+    "pages": 8,
+    "text_chars": 1057,
+    "extracted": "editorial/revision2/DS_sources/8.1 排序的基本概念_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.1+8.2.2 插入排序.pdf",
+    "pages": 68,
+    "text_chars": 9915,
+    "extracted": "editorial/revision2/DS_sources/8.2.1+8.2.2 插入排序_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.3 希尔排序.pdf",
+    "pages": 72,
+    "text_chars": 10697,
+    "extracted": "editorial/revision2/DS_sources/8.2.3 希尔排序_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.1 冒泡排序.pdf",
+    "pages": 59,
+    "text_chars": 5755,
+    "extracted": "editorial/revision2/DS_sources/8.3.1 冒泡排序_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.2 快速排序.pdf",
+    "pages": 132,
+    "text_chars": 18610,
+    "extracted": "editorial/revision2/DS_sources/8.3.2 快速排序_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.4.1 简单选择排序.pdf",
+    "pages": 29,
+    "text_chars": 3351,
+    "extracted": "editorial/revision2/DS_sources/8.4.1 简单选择排序_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.4.2_1 堆排序.pdf",
+    "pages": 78,
+    "text_chars": 14765,
+    "extracted": "editorial/revision2/DS_sources/8.4.2_1 堆排序_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.4.2_2 堆的插入删除.pdf",
+    "pages": 19,
+    "text_chars": 2853,
+    "extracted": "editorial/revision2/DS_sources/8.4.2_2 堆的插入删除_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.1 归并排序.pdf",
+    "pages": 44,
+    "text_chars": 8393,
+    "extracted": "editorial/revision2/DS_sources/8.5.1 归并排序_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.2 基数排序.pdf",
+    "pages": 81,
+    "text_chars": 12159,
+    "extracted": "editorial/revision2/DS_sources/8.5.2 基数排序_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.3 计数排序.pdf",
+    "pages": 21,
+    "text_chars": 3783,
+    "extracted": "editorial/revision2/DS_sources/8.5.3 计数排序_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.3 计数排序代码附件.pdf",
+    "pages": 2,
+    "text_chars": 1724,
+    "extracted": "editorial/revision2/DS_sources/8.5.3 计数排序代码附件_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.1+8.7.2 外部排序.pdf",
+    "pages": 98,
+    "text_chars": 23199,
+    "extracted": "editorial/revision2/DS_sources/8.7.1+8.7.2 外部排序_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.3 败者树.pdf",
+    "pages": 36,
+    "text_chars": 5043,
+    "extracted": "editorial/revision2/DS_sources/8.7.3 败者树_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.4 置换_选择排序.pdf",
+    "pages": 66,
+    "text_chars": 12909,
+    "extracted": "editorial/revision2/DS_sources/8.7.4 置换_选择排序_slides.txt"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.5 最佳归并树.pdf",
+    "pages": 24,
+    "text_chars": 3041,
+    "extracted": "editorial/revision2/DS_sources/8.7.5 最佳归并树_slides.txt"
+  }
+]

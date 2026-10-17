@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "scope": "只计算旧版文件SHA，与存档指纹逐项比较；未打开PDF内容或检查排版。",
+  "files": [
+    {
+      "path": "dist/数据结构_讲义.pdf",
+      "sha256": "641085ef3bf906c0a397d54acbef8bf468c50df4e84bc54449c3ab02276621dc",
+      "unchanged": true
+    },
+    {
+      "path": "dist/计算机组成原理_讲义.pdf",
+      "sha256": "6c13edf10d9d4c2cddcf1c68fddd6d30631b8fc1530e7b88965c30a39bd6fa32",
+      "unchanged": true
+    },
+    {
+      "path": "dist/操作系统_讲义.pdf",
+      "sha256": "fbc3ff8e3aefebdf83b42032d1f8a305e88dd65f35f5965a72e913c60e487d94",
+      "unchanged": true
+    },
+    {
+      "path": "dist/计算机网络_讲义.pdf",
+      "sha256": "05115c1c06596f0f65d19a5a5e63968a6706f8bb6592082dfead322b91ce610b",
+      "unchanged": true
+    },
+    {
+      "path": "dist/revision2/数据结构_正文审阅稿.pdf",
+      "sha256": "45e433ca6be69bc9b4bf3b4c2407e6dbc1a66746ca10e600c67f1c9eff849310",
+      "unchanged": true
+    },
+    {
+      "path": "dist/revision2/计算机组成原理_正文审阅稿.pdf",
+      "sha256": "415a8e67cdbebc7df1ae75e3eecaa120a399291c210acd9f28f47e989bcfbf3b",
+      "unchanged": true
+    },
+    {
+      "path": "dist/revision2/操作系统_正文审阅稿.pdf",
+      "sha256": "015188cbac29640a69f27eec58d325d0b2d98ddefa1549337cbf24de1bf26285",
+      "unchanged": true
+    },
+    {
+      "path": "dist/revision2/计算机网络_正文审阅稿.pdf",
+      "sha256": "8390a38d4831cbd5639bcabc1503bd8f0304ce0add578688ef53b907819dd959",
+      "unchanged": true
+    },
+    {
+      "path": "dist/revision2/408讲义_第二轮正文审阅稿与源码.zip",
+      "sha256": "9c5216297d1d31562b8a209308a3188e612a0b910810c6ec51a02a69c3add5a7",
+      "unchanged": true
+    }
+  ]
+}

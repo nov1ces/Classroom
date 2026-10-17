@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9" fill="#243746"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#243746" font-size="22">
+<rect x="35" y="92" width="235" height="125" rx="4" fill="#f1f4f5" stroke="#243746" stroke-width="1.6"/>
+<text x="152" y="130" text-anchor="middle" font-size="25" fill="#243746" font-weight="bold">生产者</text>
+<text x="152" y="172" text-anchor="middle" font-size="20" fill="#243746" font-weight="normal">P(empty) → 放入</text>
+<rect x="730" y="92" width="235" height="125" rx="4" fill="#f1f4f5" stroke="#243746" stroke-width="1.6"/>
+<text x="848" y="130" text-anchor="middle" font-size="25" fill="#243746" font-weight="bold">消费者</text>
+<text x="848" y="172" text-anchor="middle" font-size="20" fill="#243746" font-weight="normal">P(full) → 取出</text>
+<rect x="350" y="111" width="65" height="65" rx="4" fill="white" stroke="#243746" stroke-width="1.6"/>
+<text x="382" y="151" text-anchor="middle" font-size="18" fill="#243746" font-weight="normal">槽0</text>
+<rect x="424" y="111" width="65" height="65" rx="4" fill="white" stroke="#243746" stroke-width="1.6"/>
+<text x="456" y="151" text-anchor="middle" font-size="18" fill="#243746" font-weight="normal">槽1</text>
+<rect x="498" y="111" width="65" height="65" rx="4" fill="white" stroke="#243746" stroke-width="1.6"/>
+<text x="530" y="151" text-anchor="middle" font-size="18" fill="#243746" font-weight="normal">槽2</text>
+<rect x="572" y="111" width="65" height="65" rx="4" fill="white" stroke="#243746" stroke-width="1.6"/>
+<text x="604" y="151" text-anchor="middle" font-size="18" fill="#243746" font-weight="normal">槽3</text>
+<text x="500" y="216" text-anchor="middle" font-size="21" fill="#243746" font-weight="normal">单次缓冲操作由 mutex 保护</text>
+<line x1="230" y1="60" x2="785" y2="60" stroke="#243746" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="500" y="43" text-anchor="middle" font-size="21" fill="#243746" font-weight="normal">放入完成后 V(full)：发布产品</text>
+<line x1="785" y1="263" x2="230" y2="263" stroke="#243746" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="500" y="294" text-anchor="middle" font-size="21" fill="#243746" font-weight="normal">取出完成后 V(empty)：归还空槽</text>
+</g>
+</svg>

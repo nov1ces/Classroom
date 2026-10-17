@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-16",
+  "purpose": "第二轮读取当前V1前的文件指纹；非旧备份，修订直接应用当前稿",
+  "files": [
+    {
+      "path": "manuscript/DS/01_数据结构算法与复杂度.md",
+      "sha256": "50ea81c2b22af78872f0f5defd888bdd8cfcae036403f8a00d1672fa227facb5"
+    },
+    {
+      "path": "manuscript/DS/02_线性表下标结点与指针.md",
+      "sha256": "7275df546d19c29ecf12c4f555b12ac548f9eefd98650284f6fa82495f0ad368"
+    },
+    {
+      "path": "manuscript/DS/03_栈队列与数组.md",
+      "sha256": "8c2ce0f7a734f26e671f4a38f63791fbbba325e833d7df5fee931c8223dbb90b"
+    },
+    {
+      "path": "manuscript/DS/04_串与模式匹配.md",
+      "sha256": "508bfb54c946d5cb4f712d6045e1831b724b7bd6644571a79bdca389aefbf32f"
+    },
+    {
+      "path": "manuscript/DS/05_树二叉树与应用.md",
+      "sha256": "aebc56fd446131a438717ba2406a69459dbb9b9ccecee61752f0f92b641215f8"
+    },
+    {
+      "path": "manuscript/DS/06_图与图算法.md",
+      "sha256": "72ac42ac5bcefd164241298917b81099336a081dfcc2090fce20330c0ea6bc30"
+    },
+    {
+      "path": "manuscript/DS/07_查找与索引结构.md",
+      "sha256": "5976e10302bc91f87bf16a2943968d3b1d427d013b210ef1ebb2a5bfddbb19e5"
+    },
+    {
+      "path": "manuscript/DS/08_排序与外部归并.md",
+      "sha256": "d4c2a91c408c83fdfe18de12078d9c6e3c28d0db4d542ae18fae73a67e644aac"
+    },
+    {
+      "path": "tools/draw_ds_figures.py",
+      "sha256": "cfc674821e4a1ed3ae7f97ef5dd6c88e2ac8cd06ea277506e6705632ba5879b3"
+    },
+    {
+      "path": "editorial/full/DS/chapter_records.json",
+      "sha256": "6892a0829eea71a83c63806945cd343899544594d7e0711a73e9da80e2c86589"
+    },
+    {
+      "path": "editorial/full/DS/content_lock.json",
+      "sha256": "3870060110cd9ec4d568d7347308cb75d11e28c3c23decb25f61d96d484c12f0"
+    },
+    {
+      "path": "editorial/full/DS/figure_manifest.json",
+      "sha256": "2af2ea53d83043e2ce47b2b8003bdc82aed151851e0b95360a52a01dbfebf9ad"
+    },
+    {
+      "path": "editorial/full/DS/results.json",
+      "sha256": "ad8b09b92915bde678b5a59177f444f9dba9425bd654c495f196d625b306c5c7"
+    },
+    {
+      "path": "editorial/full/DS/source_records.json",
+      "sha256": "83d0db83596a144a2415211487094dc29bf0a9e832ba53757750c40fa2a06dc9"
+    },
+    {
+      "path": "editorial/full/DS/verification.py",
+      "sha256": "3b2593fff3be6463cf65de66c43efad3df431773ff518b77a516dd91135a77e6"
+    },
+    {
+      "path": "editorial/full/DS/build_records.py",
+      "sha256": "f57938ab27d3b89764c11a52f36d3e1cd9107da07e2b99ac46aa16da0e499fa9"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "manuscript_sha256": "a7f2ea8d92498ac2f2389f212cdfc322006787dedb40b309dc411ee98783ed5b",
+  "checked_on": "2026-10-15",
+  "peterson": [
+    {
+      "cycles_per_actor": 1,
+      "states": 66,
+      "transitions": 102,
+      "simultaneous_critical_sections_max": 1,
+      "observed_max_bypass_after_flag_true": 1,
+      "memory_model": "顺序一致；flag与turn单次读写原子；&&两次读可分开交错",
+      "limit": "每进程只检查给定有限轮数；不把有限轮数视为一般活性证明。计数从flag置真开始，包括尚未执行turn赋值的窗口，不声称此起点只有一次越过。"
+    },
+    {
+      "cycles_per_actor": 2,
+      "states": 418,
+      "transitions": 722,
+      "simultaneous_critical_sections_max": 1,
+      "observed_max_bypass_after_flag_true": 2,
+      "memory_model": "顺序一致；flag与turn单次读写原子；&&两次读可分开交错",
+      "limit": "每进程只检查给定有限轮数；不把有限轮数视为一般活性证明。计数从flag置真开始，包括尚未执行turn赋值的窗口，不声称此起点只有一次越过。"
+    },
+    {
+      "cycles_per_actor": 3,
+      "states": 1226,
+      "transitions": 2230,
+      "simultaneous_critical_sections_max": 1,
+      "observed_max_bypass_after_flag_true": 2,
+      "memory_model": "顺序一致；flag与turn单次读写原子；&&两次读可分开交错",
+      "limit": "每进程只检查给定有限轮数；不把有限轮数视为一般活性证明。计数从flag置真开始，包括尚未执行turn赋值的窗口，不声称此起点只有一次越过。"
+    }
+  ],
+  "reader_check_increment_separation": {
+    "trace": [
+      "R0正在读，readCount=1，读者组占有rw。",
+      "R1在锁外检查readCount!=0，决定跳过P(rw)，在++前暂停。",
+      "R0在计数锁内--至0，V(rw)，随后退出。",
+      "W执行P(rw)，开始写文件。",
+      "R1恢复，在计数锁内++至1，然后读文件。"
+    ],
+    "violation": "读者R1与写者W重叠",
+    "applies_to": "只保护readCount++而把首读者判断放在锁外的错误拆法，非正文正确代码。"
+  }
+}

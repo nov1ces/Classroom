@@ -1,0 +1,2001 @@
+{
+  "status": "PASS",
+  "scope": "Markdown, AST and TeX source only; no lecture PDF build or page inspection",
+  "checks": 70,
+  "chapters": [
+    {
+      "manuscript": "manuscript/CO/01_计算机系统与程序执行.md",
+      "sha256": "5eb9f6d92889bc55e6fc03d620bc1457dfd1ce8c0f02f76719c4a9bafe6b5281",
+      "old_code_blocks": 0,
+      "code_blocks": 0,
+      "inline_code": 2,
+      "tables": 1,
+      "ast": "editorial/revision3/CO_sources/source_conversion/01_计算机系统与程序执行.json",
+      "latex": "editorial/revision3/CO_sources/source_conversion/01_计算机系统与程序执行.tex"
+    },
+    {
+      "manuscript": "manuscript/CO/02_数据表示与运算.md",
+      "sha256": "13152e455d2ddb8096f480fd828c81e3e535b0b91b323d3bbe9faf1a05c5a4ff",
+      "old_code_blocks": 3,
+      "code_blocks": 3,
+      "inline_code": 63,
+      "tables": 6,
+      "ast": "editorial/revision3/CO_sources/source_conversion/02_数据表示与运算.json",
+      "latex": "editorial/revision3/CO_sources/source_conversion/02_数据表示与运算.tex"
+    },
+    {
+      "manuscript": "manuscript/CO/03_存储系统与地址.md",
+      "sha256": "c0dd3094a9dc8d06c749432840928b1350c30e94bc0f1086b1333f8fe7c3c9a4",
+      "old_code_blocks": 3,
+      "code_blocks": 3,
+      "inline_code": 8,
+      "tables": 7,
+      "ast": "editorial/revision3/CO_sources/source_conversion/03_存储系统与地址.json",
+      "latex": "editorial/revision3/CO_sources/source_conversion/03_存储系统与地址.tex"
+    },
+    {
+      "manuscript": "manuscript/CO/04_指令系统与程序表示.md",
+      "sha256": "b633e2750e73504929151bc4c938053fa459f27497c75fd788cfb149f1d4a995",
+      "old_code_blocks": 5,
+      "code_blocks": 6,
+      "inline_code": 11,
+      "tables": 3,
+      "ast": "editorial/revision3/CO_sources/source_conversion/04_指令系统与程序表示.json",
+      "latex": "editorial/revision3/CO_sources/source_conversion/04_指令系统与程序表示.tex"
+    },
+    {
+      "manuscript": "manuscript/CO/05_CPU与控制.md",
+      "sha256": "e47fda476e9ffdadec5cbaa66189323deca16a7bdd5f23f5eaaad464faa61e18",
+      "old_code_blocks": 0,
+      "code_blocks": 0,
+      "inline_code": 4,
+      "tables": 3,
+      "ast": "editorial/revision3/CO_sources/source_conversion/05_CPU与控制.json",
+      "latex": "editorial/revision3/CO_sources/source_conversion/05_CPU与控制.tex"
+    },
+    {
+      "manuscript": "manuscript/CO/06_流水线与并行处理.md",
+      "sha256": "a95a4ae350d917b4532c779fad7493a37bae0df32e79c8aa8eeaa63b4da524f6",
+      "old_code_blocks": 4,
+      "code_blocks": 5,
+      "inline_code": 12,
+      "tables": 4,
+      "ast": "editorial/revision3/CO_sources/source_conversion/06_流水线与并行处理.json",
+      "latex": "editorial/revision3/CO_sources/source_conversion/06_流水线与并行处理.tex"
+    },
+    {
+      "manuscript": "manuscript/CO/07_总线与传输时间.md",
+      "sha256": "3cf59d66a1e224cb4a88822009f19fca66d0ea8f1ecbc6d482e70bd061915d42",
+      "old_code_blocks": 0,
+      "code_blocks": 0,
+      "inline_code": 0,
+      "tables": 0,
+      "ast": "editorial/revision3/CO_sources/source_conversion/07_总线与传输时间.json",
+      "latex": "editorial/revision3/CO_sources/source_conversion/07_总线与传输时间.tex"
+    },
+    {
+      "manuscript": "manuscript/CO/08_IO与DMA.md",
+      "sha256": "5979de842f4a6e65ee5920c9f7ebafac8742044ae2aa297ba53af41a3d5ae4d5",
+      "old_code_blocks": 1,
+      "code_blocks": 1,
+      "inline_code": 0,
+      "tables": 1,
+      "ast": "editorial/revision3/CO_sources/source_conversion/08_IO与DMA.json",
+      "latex": "editorial/revision3/CO_sources/source_conversion/08_IO与DMA.tex"
+    }
+  ],
+  "results": [
+    {
+      "id": "01_计算机系统与程序执行:fences_equal_AST",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "01_计算机系统与程序执行:all_inline_code_equal_AST",
+      "actual": [
+        "c=a+b",
+        "add"
+      ],
+      "expected": [
+        "c=a+b",
+        "add"
+      ],
+      "passed": true
+    },
+    {
+      "id": "01_计算机系统与程序执行:all_pipe_table_rows_columns_equal_AST",
+      "actual": [
+        [
+          2,
+          [
+            2,
+            2,
+            2,
+            2
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          2,
+          [
+            2,
+            2,
+            2,
+            2
+          ]
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "01_计算机系统与程序执行:AST_equal_verbatim",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "01_计算机系统与程序执行:all_previous_code_blocks_retained",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "01_计算机系统与程序执行:all_anchors_preserved",
+      "actual": [
+        "co-ch1",
+        "co-01-01",
+        "co-01-02",
+        "co-ex1-1",
+        "co-01-03",
+        "co-ex1-2",
+        "co-ex1-3",
+        "co-self1"
+      ],
+      "expected": [
+        "co-ch1",
+        "co-01-01",
+        "co-01-02",
+        "co-ex1-1",
+        "co-01-03",
+        "co-ex1-2",
+        "co-ex1-3",
+        "co-self1"
+      ],
+      "passed": true
+    },
+    {
+      "id": "01_计算机系统与程序执行:source_markers_retained",
+      "actual": [
+        "【2015】 计算机硬件能够直接执行的是（　）。",
+        "【2022】 某计算机主频为1 GHz，程序 P 运行过程中共执行10000条指令，其中80%的指令执行平均需1个时钟周期，20%的指令执行平均需10个时钟周期。程序 P 的平均 CPI 和 CPU 执行时间分别是（　）。",
+        "【2012】 假定基准程序 A 在某计算机上的运行时间为100 s，其中90 s为 CPU 时间，其余为 I/O 时间。若 CPU 速度提高50%，I/O 速度不变，则运行基准程序 A 所耗费的时间是（　）。"
+      ],
+      "expected": [
+        "【2015】 计算机硬件能够直接执行的是（　）。",
+        "【2022】 某计算机主频为1 GHz，程序 P 运行过程中共执行10000条指令，其中80%的指令执行平均需1个时钟周期，20%的指令执行平均需10个时钟周期。程序 P 的平均 CPI 和 CPU 执行时间分别是（　）。",
+        "【2012】 假定基准程序 A 在某计算机上的运行时间为100 s，其中90 s为 CPU 时间，其余为 I/O 时间。若 CPU 速度提高50%，I/O 速度不变，则运行基准程序 A 所耗费的时间是（　）。"
+      ],
+      "passed": true
+    },
+    {
+      "id": "02_数据表示与运算:fences_equal_AST",
+      "actual": [
+        "unsigned short x = 65530;\nunsigned int y = x;",
+        "short si = -32767;\nunsigned int ui = si;",
+        "int f1(unsigned n) {\n    int sum = 1, power = 1;\n    for (unsigned i = 0; i <= n - 1; i++) {\n        power *= 2;\n        sum += power;\n    }\n    return sum;\n}"
+      ],
+      "expected": [
+        "unsigned short x = 65530;\nunsigned int y = x;",
+        "short si = -32767;\nunsigned int ui = si;",
+        "int f1(unsigned n) {\n    int sum = 1, power = 1;\n    for (unsigned i = 0; i <= n - 1; i++) {\n        power *= 2;\n        sum += power;\n    }\n    return sum;\n}"
+      ],
+      "passed": true
+    },
+    {
+      "id": "02_数据表示与运算:all_inline_code_equal_AST",
+      "actual": [
+        "1111 1101",
+        "1000 0000",
+        "1000 0000",
+        "1111 1111",
+        "1111 1111 1111 1101",
+        "0000 0000 1111 1101",
+        "0000 FFFAH",
+        "8001H",
+        "FFFF 8001H",
+        "8001H",
+        "int i=-1",
+        "unsigned u=1",
+        "i<u",
+        "1101 1001",
+        "7FH+01H",
+        "80H",
+        "FFH+01H",
+        "00H",
+        "80H-01H",
+        "7FH",
+        "00H-01H",
+        "FFH",
+        "FFFFFFDFH",
+        "41H",
+        "1000 1111",
+        "00000",
+        "0101",
+        "11111 0001",
+        "1111 0001",
+        "111",
+        "010",
+        "111",
+        "010",
+        "01111101",
+        "110",
+        "1|01111101|11000000000000000000000",
+        "BEE00000H",
+        "(f1)=CC90 0000H",
+        "(f2)=B0C0 0000H",
+        "x/x==1",
+        "1.000",
+        "1.001",
+        "1.000",
+        "1.001",
+        "1.0011",
+        "1.010",
+        "1000…",
+        "1000…1",
+        "10.xxx",
+        "n-1",
+        "i<=n-1",
+        "00FF FFFFH",
+        "4B7F FFFFH",
+        "4C00 0000H",
+        "7F80 0000H",
+        "7FH+01H",
+        "0000 0001H",
+        "0080 0000H",
+        "i==(int)(double)i",
+        "f==(float)(double)f",
+        "i==(int)(float)i",
+        "f==(float)(int)f",
+        "80H"
+      ],
+      "expected": [
+        "1111 1101",
+        "1000 0000",
+        "1000 0000",
+        "1111 1111",
+        "1111 1111 1111 1101",
+        "0000 0000 1111 1101",
+        "0000 FFFAH",
+        "8001H",
+        "FFFF 8001H",
+        "8001H",
+        "int i=-1",
+        "unsigned u=1",
+        "i<u",
+        "1101 1001",
+        "7FH+01H",
+        "80H",
+        "FFH+01H",
+        "00H",
+        "80H-01H",
+        "7FH",
+        "00H-01H",
+        "FFH",
+        "FFFFFFDFH",
+        "41H",
+        "1000 1111",
+        "00000",
+        "0101",
+        "11111 0001",
+        "1111 0001",
+        "111",
+        "010",
+        "111",
+        "010",
+        "01111101",
+        "110",
+        "1|01111101|11000000000000000000000",
+        "BEE00000H",
+        "(f1)=CC90 0000H",
+        "(f2)=B0C0 0000H",
+        "x/x==1",
+        "1.000",
+        "1.001",
+        "1.000",
+        "1.001",
+        "1.0011",
+        "1.010",
+        "1000…",
+        "1000…1",
+        "10.xxx",
+        "n-1",
+        "i<=n-1",
+        "00FF FFFFH",
+        "4B7F FFFFH",
+        "4C00 0000H",
+        "7F80 0000H",
+        "7FH+01H",
+        "0000 0001H",
+        "0080 0000H",
+        "i==(int)(double)i",
+        "f==(float)(double)f",
+        "i==(int)(float)i",
+        "f==(float)(int)f",
+        "80H"
+      ],
+      "passed": true
+    },
+    {
+      "id": "02_数据表示与运算:all_pipe_table_rows_columns_equal_AST",
+      "actual": [
+        [
+          3,
+          [
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        [
+          5,
+          [
+            5,
+            5,
+            5,
+            5
+          ]
+        ],
+        [
+          4,
+          [
+            4,
+            4,
+            4,
+            4
+          ]
+        ],
+        [
+          6,
+          [
+            6,
+            6,
+            6,
+            6
+          ]
+        ],
+        [
+          4,
+          [
+            4,
+            4,
+            4
+          ]
+        ],
+        [
+          5,
+          [
+            5,
+            5,
+            5
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          3,
+          [
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        [
+          5,
+          [
+            5,
+            5,
+            5,
+            5
+          ]
+        ],
+        [
+          4,
+          [
+            4,
+            4,
+            4,
+            4
+          ]
+        ],
+        [
+          6,
+          [
+            6,
+            6,
+            6,
+            6
+          ]
+        ],
+        [
+          4,
+          [
+            4,
+            4,
+            4
+          ]
+        ],
+        [
+          5,
+          [
+            5,
+            5,
+            5
+          ]
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "02_数据表示与运算:AST_equal_verbatim",
+      "actual": [
+        "unsigned short x = 65530;\nunsigned int y = x;",
+        "short si = -32767;\nunsigned int ui = si;",
+        "int f1(unsigned n) {\n    int sum = 1, power = 1;\n    for (unsigned i = 0; i <= n - 1; i++) {\n        power *= 2;\n        sum += power;\n    }\n    return sum;\n}"
+      ],
+      "expected": [
+        "unsigned short x = 65530;\nunsigned int y = x;",
+        "short si = -32767;\nunsigned int ui = si;",
+        "int f1(unsigned n) {\n    int sum = 1, power = 1;\n    for (unsigned i = 0; i <= n - 1; i++) {\n        power *= 2;\n        sum += power;\n    }\n    return sum;\n}"
+      ],
+      "passed": true
+    },
+    {
+      "id": "02_数据表示与运算:all_previous_code_blocks_retained",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "02_数据表示与运算:all_anchors_preserved",
+      "actual": [
+        "co-ch2",
+        "co-02-01",
+        "co-ex2-1",
+        "co-02-02",
+        "co-02-03",
+        "co-ex2-2",
+        "co-ex2-3",
+        "co-02-04",
+        "co-ex2-4",
+        "co-02-05",
+        "co-ex2-5",
+        "co-ex2-6",
+        "co-02-06",
+        "co-02-07",
+        "co-fig-ieee",
+        "co-ex2-7",
+        "co-ex2-8",
+        "co-02-08",
+        "co-ex2-9",
+        "co-ex2-10",
+        "co-self2"
+      ],
+      "expected": [
+        "co-ch2",
+        "co-02-01",
+        "co-ex2-1",
+        "co-02-02",
+        "co-02-03",
+        "co-ex2-2",
+        "co-ex2-3",
+        "co-02-04",
+        "co-ex2-4",
+        "co-02-05",
+        "co-ex2-5",
+        "co-ex2-6",
+        "co-02-06",
+        "co-02-07",
+        "co-fig-ieee",
+        "co-ex2-7",
+        "co-ex2-8",
+        "co-02-08",
+        "co-ex2-9",
+        "co-ex2-10",
+        "co-self2"
+      ],
+      "passed": true
+    },
+    {
+      "id": "02_数据表示与运算:source_markers_retained",
+      "actual": [
+        "〖2.1-001〗 若十进制数为137.5，则其八进制数为（　）。",
+        "【2012】 假定编译器规定 int 型和 short 型长度分别为32位和16位，执行下列 C 语言语句：",
+        "【2025】 在32位计算机上执行下列 C 语言代码段后，ui 的值是（　）。",
+        "〖2.2-018〗 某计算机字长为8位，CPU 中有一个8位加法器。已知无符号数 $x=69,y=38$，若在该加法器中计算 $x-y$，则加法器的两个输入端信息和输入的低位进位信息分别为（　）。",
+        "【2018】 假定有符号整数采用补码表示，若 int 型变量 x 和 y 的机器数分别是 FFFF FFDFH 和0000 0041H，则 x、y 的值及 x−y 的机器数分别是（　）。",
+        "【2023】 已知 x、y 为 int 类型，当 x=100、y=200时，执行“x减y”指令得到的溢出标志 OF 和借位标志 CF 分别为0、1。那么当 x=10、y=−20时，执行该指令得到的 OF 和 CF 分别是（　）。",
+        "【2022】 −0.4375的 IEEE 754 单精度浮点数表示为（　）。",
+        "【2014】 float 型数据常用 IEEE 754 单精度浮点格式表示。假设两个 float 型变量 x 和 y 分别存放在32位寄存器 f1 和 f2 中，若 `(f1)=CC90 0000H`、`(f2)=B0C0 0000H`，则 x 和 y 之间的关系为（　）。",
+        "【2015】 下列有关浮点数加减运算的叙述中，正确的是（　）。",
+        "【2017】 已知 $f(n)=\\sum_{i=0}^{n}2^i=2^{n+1}-1=\\underbrace{11\\cdots1}_{n+1\\text{位}}{}_2$，计算 $f(n)$ 的C语言函数f1如下。"
+      ],
+      "expected": [
+        "〖2.1-001〗 若十进制数为137.5，则其八进制数为（　）。",
+        "【2012】 假定编译器规定 int 型和 short 型长度分别为32位和16位，执行下列 C 语言语句：",
+        "【2025】 在32位计算机上执行下列 C 语言代码段后，ui 的值是（　）。",
+        "〖2.2-018〗 某计算机字长为8位，CPU 中有一个8位加法器。已知无符号数 $x=69,y=38$，若在该加法器中计算 $x-y$，则加法器的两个输入端信息和输入的低位进位信息分别为（　）。",
+        "【2018】 假定有符号整数采用补码表示，若 int 型变量 x 和 y 的机器数分别是 FFFF FFDFH 和0000 0041H，则 x、y 的值及 x−y 的机器数分别是（　）。",
+        "【2023】 已知 x、y 为 int 类型，当 x=100、y=200时，执行“x减y”指令得到的溢出标志 OF 和借位标志 CF 分别为0、1。那么当 x=10、y=−20时，执行该指令得到的 OF 和 CF 分别是（　）。",
+        "【2022】 −0.4375的 IEEE 754 单精度浮点数表示为（　）。",
+        "【2014】 float 型数据常用 IEEE 754 单精度浮点格式表示。假设两个 float 型变量 x 和 y 分别存放在32位寄存器 f1 和 f2 中，若 `(f1)=CC90 0000H`、`(f2)=B0C0 0000H`，则 x 和 y 之间的关系为（　）。",
+        "【2015】 下列有关浮点数加减运算的叙述中，正确的是（　）。",
+        "【2017】 已知 $f(n)=\\sum_{i=0}^{n}2^i=2^{n+1}-1=\\underbrace{11\\cdots1}_{n+1\\text{位}}{}_2$，计算 $f(n)$ 的C语言函数f1如下。"
+      ],
+      "passed": true
+    },
+    {
+      "id": "03_存储系统与地址:fences_equal_AST",
+      "actual": [
+        "for (k = 0; k < 1000; k++)\n    a[k] = a[k] + 32;",
+        "int a[24][64];\n/* ... */\nfor (i = 0; i < 24; i++)\n    for (j = 0; j < 64; j++) a[i][j] = 10;",
+        "for (j = 0; j < 64; j++)\n    for (i = 0; i < 24; i++) a[i][j] = 10;"
+      ],
+      "expected": [
+        "for (k = 0; k < 1000; k++)\n    a[k] = a[k] + 32;",
+        "int a[24][64];\n/* ... */\nfor (i = 0; i < 24; i++)\n    for (j = 0; j < 64; j++) a[i][j] = 10;",
+        "for (j = 0; j < 64; j++)\n    for (i = 0; i < 24; i++) a[i][j] = 10;"
+      ],
+      "passed": true
+    },
+    {
+      "id": "03_存储系统与地址:all_inline_code_equal_AST",
+      "actual": [
+        "38000H",
+        "3FFFFH",
+        "840H",
+        "82H",
+        "018H",
+        "018H×1000H+840H=018840H",
+        "sizeof(int)=4",
+        "(2100H>>5) mod 64=8"
+      ],
+      "expected": [
+        "38000H",
+        "3FFFFH",
+        "840H",
+        "82H",
+        "018H",
+        "018H×1000H+840H=018840H",
+        "sizeof(int)=4",
+        "(2100H>>5) mod 64=8"
+      ],
+      "passed": true
+    },
+    {
+      "id": "03_存储系统与地址:all_pipe_table_rows_columns_equal_AST",
+      "actual": [
+        [
+          5,
+          [
+            5,
+            5,
+            5
+          ]
+        ],
+        [
+          4,
+          [
+            4,
+            4,
+            4
+          ]
+        ],
+        [
+          3,
+          [
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        [
+          6,
+          [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        ],
+        [
+          5,
+          [
+            5,
+            5
+          ]
+        ],
+        [
+          3,
+          [
+            3,
+            3
+          ]
+        ],
+        [
+          7,
+          [
+            7,
+            7
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          5,
+          [
+            5,
+            5,
+            5
+          ]
+        ],
+        [
+          4,
+          [
+            4,
+            4,
+            4
+          ]
+        ],
+        [
+          3,
+          [
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        [
+          6,
+          [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ]
+        ],
+        [
+          5,
+          [
+            5,
+            5
+          ]
+        ],
+        [
+          3,
+          [
+            3,
+            3
+          ]
+        ],
+        [
+          7,
+          [
+            7,
+            7
+          ]
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "03_存储系统与地址:AST_equal_verbatim",
+      "actual": [
+        "for (k = 0; k < 1000; k++)\n    a[k] = a[k] + 32;",
+        "int a[24][64];\n/* ... */\nfor (i = 0; i < 24; i++)\n    for (j = 0; j < 64; j++) a[i][j] = 10;",
+        "for (j = 0; j < 64; j++)\n    for (i = 0; i < 24; i++) a[i][j] = 10;"
+      ],
+      "expected": [
+        "for (k = 0; k < 1000; k++)\n    a[k] = a[k] + 32;",
+        "int a[24][64];\n/* ... */\nfor (i = 0; i < 24; i++)\n    for (j = 0; j < 64; j++) a[i][j] = 10;",
+        "for (j = 0; j < 64; j++)\n    for (i = 0; i < 24; i++) a[i][j] = 10;"
+      ],
+      "passed": true
+    },
+    {
+      "id": "03_存储系统与地址:all_previous_code_blocks_retained",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "03_存储系统与地址:all_anchors_preserved",
+      "actual": [
+        "co-ch3",
+        "co-03-01",
+        "co-03-02",
+        "co-03-03",
+        "co-ex3-1",
+        "co-ex3-2",
+        "co-03-04",
+        "co-ex3-3",
+        "co-03-05",
+        "co-fig-expand",
+        "co-ex3-4",
+        "co-03-06",
+        "co-ex3-5",
+        "co-03-07",
+        "co-ex3-6",
+        "co-03-08",
+        "co-fig-cache",
+        "co-ex3-7",
+        "co-03-09",
+        "co-03-10",
+        "co-ex3-8",
+        "co-03-11",
+        "co-03-12",
+        "co-fig-vm",
+        "co-ex3-9",
+        "co-ex3-10",
+        "co-03-13",
+        "co-memory-synthesis",
+        "co-ex3-11",
+        "co-ex3-12",
+        "co-ex3-13",
+        "co-self3"
+      ],
+      "expected": [
+        "co-ch3",
+        "co-03-01",
+        "co-03-02",
+        "co-03-03",
+        "co-ex3-1",
+        "co-ex3-2",
+        "co-03-04",
+        "co-ex3-3",
+        "co-03-05",
+        "co-fig-expand",
+        "co-ex3-4",
+        "co-03-06",
+        "co-ex3-5",
+        "co-03-07",
+        "co-ex3-6",
+        "co-03-08",
+        "co-fig-cache",
+        "co-ex3-7",
+        "co-03-09",
+        "co-03-10",
+        "co-ex3-8",
+        "co-03-11",
+        "co-03-12",
+        "co-fig-vm",
+        "co-ex3-9",
+        "co-ex3-10",
+        "co-03-13",
+        "co-memory-synthesis",
+        "co-ex3-11",
+        "co-ex3-12",
+        "co-ex3-13",
+        "co-self3"
+      ],
+      "passed": true
+    },
+    {
+      "id": "03_存储系统与地址:source_markers_retained",
+      "actual": [
+        "【2014】 某容量为256 MB的存储器由若干 $4\\mathrm M\\times8$ 位的 DRAM 芯片构成，该 DRAM 芯片的地址引脚和数据引脚总数是（　）。",
+        "【2011】 某计算机存储器按字节编址，主存地址空间大小为64 MB，现用 $4\\mathrm M\\times8$ 位的 RAM 芯片组成32 MB的主存储器，则存储器地址寄存器 MAR 的位数至少是（　）。",
+        "【2015】 某计算机使用4体交叉编址存储器，假定在存储器总线上出现的主存地址（十进制）序列为8005、8006、8007、8008、8001、8002、8003、8004、8000，则可能发生访存冲突的地址对是（　）。",
+        "【2009】 某计算机主存容量为64 KB，其中 ROM 区为4 KB，其余为 RAM 区，按字节编址。现要用 $2\\mathrm K\\times8$ 位的 ROM 芯片和 $4\\mathrm K\\times4$ 位的 RAM 芯片来设计该存储器，则需要上述规格的 ROM 芯片数和 RAM 芯片数分别是（　）。",
+        "【2015】 若磁盘转速为7200转/分，平均寻道时间为8 ms，每个磁道包含1000个扇区，则访问一个扇区的平均存取时间大约是（　）。",
+        "【2016】 有如下 C 语言程序段：",
+        "【2022】 若计算机主存地址为32位，按字节编址，某 Cache 的数据区容量为32 KB，主存块大小为64 B，采用8路组相联映射方式，该 Cache 中比较器的个数和位数分别为（　）。",
+        "【2015】 假定主存地址为32位，按字节编址，主存和 Cache 之间采用直接映射方式，主存块大小为4个字，每字32位，采用回写方式，则能存放4 K字数据的 Cache 的总容量的位数至少是（　）。",
+        "【2022】 某计算机主存地址为24位，采用分页虚拟存储管理方式，虚拟地址空间大小为4 GB，页大小为4 KB，按字节编址。某进程的页表部分内容如下。",
+        "【2024】 某计算机按字节编址，采用页式虚拟存储管理方式，虚拟地址为32位，主存地址为30位，页大小为1 KB。若 TLB 共有32个表项，采用4路组相联映射方式，则 TLB 表项中标记字段的位数至少是（　）。",
+        "【2023】改编（两个赋值式统一为常量10） 已知计算机M字长为32位，按字节编址，采用请求调页策略的虚拟存储管理方式，虚拟地址32位，页面大小为4 KB；数据Cache采用4路组相联映射方式，数据区大小为8 KB，主存块大小为32 B。现有C语言程序段如下：",
+        "【2021】 假设计算机M的主存地址为24位，按字节编址；采用分页存储管理方式，虚拟地址为30位，页大小为4 KB；TLB采用2路组相联方式和LRU替换策略，共8组。请回答下列问题。",
+        "典型示例（王道操作系统§3.2.9，摘编）。某系统按字节编址，虚拟地址14位、物理地址12位，页大小64 B；TLB共有16项，采用4路组相联；数据Cache采用物理地址、直接映射，共16行，每行4 B。以下只摘录本题涉及的状态，所有地址、标记、页号和数据均为十六进制，V为有效位，P为页表存在位。"
+      ],
+      "expected": [
+        "【2014】 某容量为256 MB的存储器由若干 $4\\mathrm M\\times8$ 位的 DRAM 芯片构成，该 DRAM 芯片的地址引脚和数据引脚总数是（　）。",
+        "【2011】 某计算机存储器按字节编址，主存地址空间大小为64 MB，现用 $4\\mathrm M\\times8$ 位的 RAM 芯片组成32 MB的主存储器，则存储器地址寄存器 MAR 的位数至少是（　）。",
+        "【2015】 某计算机使用4体交叉编址存储器，假定在存储器总线上出现的主存地址（十进制）序列为8005、8006、8007、8008、8001、8002、8003、8004、8000，则可能发生访存冲突的地址对是（　）。",
+        "【2009】 某计算机主存容量为64 KB，其中 ROM 区为4 KB，其余为 RAM 区，按字节编址。现要用 $2\\mathrm K\\times8$ 位的 ROM 芯片和 $4\\mathrm K\\times4$ 位的 RAM 芯片来设计该存储器，则需要上述规格的 ROM 芯片数和 RAM 芯片数分别是（　）。",
+        "【2015】 若磁盘转速为7200转/分，平均寻道时间为8 ms，每个磁道包含1000个扇区，则访问一个扇区的平均存取时间大约是（　）。",
+        "【2016】 有如下 C 语言程序段：",
+        "【2022】 若计算机主存地址为32位，按字节编址，某 Cache 的数据区容量为32 KB，主存块大小为64 B，采用8路组相联映射方式，该 Cache 中比较器的个数和位数分别为（　）。",
+        "【2015】 假定主存地址为32位，按字节编址，主存和 Cache 之间采用直接映射方式，主存块大小为4个字，每字32位，采用回写方式，则能存放4 K字数据的 Cache 的总容量的位数至少是（　）。",
+        "【2022】 某计算机主存地址为24位，采用分页虚拟存储管理方式，虚拟地址空间大小为4 GB，页大小为4 KB，按字节编址。某进程的页表部分内容如下。",
+        "【2024】 某计算机按字节编址，采用页式虚拟存储管理方式，虚拟地址为32位，主存地址为30位，页大小为1 KB。若 TLB 共有32个表项，采用4路组相联映射方式，则 TLB 表项中标记字段的位数至少是（　）。",
+        "【2023】改编（两个赋值式统一为常量10） 已知计算机M字长为32位，按字节编址，采用请求调页策略的虚拟存储管理方式，虚拟地址32位，页面大小为4 KB；数据Cache采用4路组相联映射方式，数据区大小为8 KB，主存块大小为32 B。现有C语言程序段如下：",
+        "【2021】 假设计算机M的主存地址为24位，按字节编址；采用分页存储管理方式，虚拟地址为30位，页大小为4 KB；TLB采用2路组相联方式和LRU替换策略，共8组。请回答下列问题。",
+        "典型示例（王道操作系统§3.2.9，摘编）。某系统按字节编址，虚拟地址14位、物理地址12位，页大小64 B；TLB共有16项，采用4路组相联；数据Cache采用物理地址、直接映射，共16行，每行4 B。以下只摘录本题涉及的状态，所有地址、标记、页号和数据均为十六进制，V为有效位，P为页表存在位。"
+      ],
+      "passed": true
+    },
+    {
+      "id": "04_指令系统与程序表示:fences_equal_AST",
+      "actual": [
+        "struct {\n    int a;\n    char b;\n    short c;\n} record;\nrecord.a = 273;",
+        "    bge R1, R2, ELSE     // x>=y 时跳过 then\n    sub R3, R2, R1      // then: z=y-x\n    jump END\nELSE:\n    sub R3, R1, R2      // else: z=x-y\nEND:",
+        "    R1 <- 0; R2 <- 0\nTEST:\n    if R1 >= R3 jump EXIT\n    R4 <- R1 << 2\n    R5 <- M[R0 + R4]\n    R2 <- R2 + R5\n    R1 <- R1 + 1\n    jump TEST\nEXIT:",
+        "int f1(int n) {\n    if (n > 1)\n        return n * f1(n - 1);\n    else\n        return 1;\n}",
+        " 1  00401000  55              push ebp\n …  …         …               …\n11  00401018  83 7D 08 01     cmp dword ptr [ebp+8], 1\n12  0040101C  7E 17           jle f1+35h (00401035)\n13  0040101E  8B 45 08        mov eax, dword ptr [ebp+8]\n14  00401021  83 E8 01        sub eax, 1\n15  00401024  50              push eax\n16  00401025  E8 D6 FF FF FF  call f1 (00401000)\n …  …         …               …\n19  00401030  0F AF C1        imul eax, ecx\n20  00401033  EB 05           jmp f1+3Ah (0040103A)\n21  00401035  B8 01 00 00 00  mov eax, 1\n …  …         …               …\n26  00401040  3B EC           cmp ebp, esp\n …  …         …               …\n30  0040104A  C3              ret",
+        "long long f1(int n) {\n    if (n > 1)\n        return n * f1(n - 1);\n    return 1LL;\n}"
+      ],
+      "expected": [
+        "struct {\n    int a;\n    char b;\n    short c;\n} record;\nrecord.a = 273;",
+        "    bge R1, R2, ELSE     // x>=y 时跳过 then\n    sub R3, R2, R1      // then: z=y-x\n    jump END\nELSE:\n    sub R3, R1, R2      // else: z=x-y\nEND:",
+        "    R1 <- 0; R2 <- 0\nTEST:\n    if R1 >= R3 jump EXIT\n    R4 <- R1 << 2\n    R5 <- M[R0 + R4]\n    R2 <- R2 + R5\n    R1 <- R1 + 1\n    jump TEST\nEXIT:",
+        "int f1(int n) {\n    if (n > 1)\n        return n * f1(n - 1);\n    else\n        return 1;\n}",
+        " 1  00401000  55              push ebp\n …  …         …               …\n11  00401018  83 7D 08 01     cmp dword ptr [ebp+8], 1\n12  0040101C  7E 17           jle f1+35h (00401035)\n13  0040101E  8B 45 08        mov eax, dword ptr [ebp+8]\n14  00401021  83 E8 01        sub eax, 1\n15  00401024  50              push eax\n16  00401025  E8 D6 FF FF FF  call f1 (00401000)\n …  …         …               …\n19  00401030  0F AF C1        imul eax, ecx\n20  00401033  EB 05           jmp f1+3Ah (0040103A)\n21  00401035  B8 01 00 00 00  mov eax, 1\n …  …         …               …\n26  00401040  3B EC           cmp ebp, esp\n …  …         …               …\n30  0040104A  C3              ret",
+        "long long f1(int n) {\n    if (n > 1)\n        return n * f1(n - 1);\n    return 1LL;\n}"
+      ],
+      "passed": true
+    },
+    {
+      "id": "04_指令系统与程序表示:all_inline_code_equal_AST",
+      "actual": [
+        "a[i]",
+        "12345678H",
+        "a[i][j]",
+        "FFFAH",
+        "bge",
+        "if(x<y) z=y-x; else z=x-y;",
+        "a[0]",
+        "FFFF FFD6H",
+        "long long",
+        "jo",
+        "struct record { int id; char name[10]; int salary; } employee[200];"
+      ],
+      "expected": [
+        "a[i]",
+        "12345678H",
+        "a[i][j]",
+        "FFFAH",
+        "bge",
+        "if(x<y) z=y-x; else z=x-y;",
+        "a[0]",
+        "FFFF FFD6H",
+        "long long",
+        "jo",
+        "struct record { int id; char name[10]; int salary; } employee[200];"
+      ],
+      "passed": true
+    },
+    {
+      "id": "04_指令系统与程序表示:all_pipe_table_rows_columns_equal_AST",
+      "actual": [
+        [
+          3,
+          [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        [
+          4,
+          [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        ],
+        [
+          4,
+          [
+            4,
+            4,
+            4,
+            4
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          3,
+          [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        [
+          4,
+          [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        ],
+        [
+          4,
+          [
+            4,
+            4,
+            4,
+            4
+          ]
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "04_指令系统与程序表示:AST_equal_verbatim",
+      "actual": [
+        "struct {\n    int a;\n    char b;\n    short c;\n} record;\nrecord.a = 273;",
+        "    bge R1, R2, ELSE     // x>=y 时跳过 then\n    sub R3, R2, R1      // then: z=y-x\n    jump END\nELSE:\n    sub R3, R1, R2      // else: z=x-y\nEND:",
+        "    R1 <- 0; R2 <- 0\nTEST:\n    if R1 >= R3 jump EXIT\n    R4 <- R1 << 2\n    R5 <- M[R0 + R4]\n    R2 <- R2 + R5\n    R1 <- R1 + 1\n    jump TEST\nEXIT:",
+        "int f1(int n) {\n    if (n > 1)\n        return n * f1(n - 1);\n    else\n        return 1;\n}",
+        " 1  00401000  55              push ebp\n …  …         …               …\n11  00401018  83 7D 08 01     cmp dword ptr [ebp+8], 1\n12  0040101C  7E 17           jle f1+35h (00401035)\n13  0040101E  8B 45 08        mov eax, dword ptr [ebp+8]\n14  00401021  83 E8 01        sub eax, 1\n15  00401024  50              push eax\n16  00401025  E8 D6 FF FF FF  call f1 (00401000)\n …  …         …               …\n19  00401030  0F AF C1        imul eax, ecx\n20  00401033  EB 05           jmp f1+3Ah (0040103A)\n21  00401035  B8 01 00 00 00  mov eax, 1\n …  …         …               …\n26  00401040  3B EC           cmp ebp, esp\n …  …         …               …\n30  0040104A  C3              ret",
+        "long long f1(int n) {\n    if (n > 1)\n        return n * f1(n - 1);\n    return 1LL;\n}"
+      ],
+      "expected": [
+        "struct {\n    int a;\n    char b;\n    short c;\n} record;\nrecord.a = 273;",
+        "    bge R1, R2, ELSE     // x>=y 时跳过 then\n    sub R3, R2, R1      // then: z=y-x\n    jump END\nELSE:\n    sub R3, R1, R2      // else: z=x-y\nEND:",
+        "    R1 <- 0; R2 <- 0\nTEST:\n    if R1 >= R3 jump EXIT\n    R4 <- R1 << 2\n    R5 <- M[R0 + R4]\n    R2 <- R2 + R5\n    R1 <- R1 + 1\n    jump TEST\nEXIT:",
+        "int f1(int n) {\n    if (n > 1)\n        return n * f1(n - 1);\n    else\n        return 1;\n}",
+        " 1  00401000  55              push ebp\n …  …         …               …\n11  00401018  83 7D 08 01     cmp dword ptr [ebp+8], 1\n12  0040101C  7E 17           jle f1+35h (00401035)\n13  0040101E  8B 45 08        mov eax, dword ptr [ebp+8]\n14  00401021  83 E8 01        sub eax, 1\n15  00401024  50              push eax\n16  00401025  E8 D6 FF FF FF  call f1 (00401000)\n …  …         …               …\n19  00401030  0F AF C1        imul eax, ecx\n20  00401033  EB 05           jmp f1+3Ah (0040103A)\n21  00401035  B8 01 00 00 00  mov eax, 1\n …  …         …               …\n26  00401040  3B EC           cmp ebp, esp\n …  …         …               …\n30  0040104A  C3              ret",
+        "long long f1(int n) {\n    if (n > 1)\n        return n * f1(n - 1);\n    return 1LL;\n}"
+      ],
+      "passed": true
+    },
+    {
+      "id": "04_指令系统与程序表示:all_previous_code_blocks_retained",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "04_指令系统与程序表示:all_anchors_preserved",
+      "actual": [
+        "co-ch4",
+        "co-04-01",
+        "co-ex4-1",
+        "co-04-02",
+        "co-ex4-2",
+        "co-04-03",
+        "co-ex4-3",
+        "co-fig-struct",
+        "co-04-04",
+        "co-ex4-4",
+        "co-04-05",
+        "co-ex4-5",
+        "co-04-06",
+        "co-04-07",
+        "co-fig-stack",
+        "co-ex4-6",
+        "co-self4"
+      ],
+      "expected": [
+        "co-ch4",
+        "co-04-01",
+        "co-ex4-1",
+        "co-04-02",
+        "co-ex4-2",
+        "co-04-03",
+        "co-ex4-3",
+        "co-fig-struct",
+        "co-04-04",
+        "co-ex4-4",
+        "co-04-05",
+        "co-ex4-5",
+        "co-04-06",
+        "co-04-07",
+        "co-fig-stack",
+        "co-ex4-6",
+        "co-self4"
+      ],
+      "passed": true
+    },
+    {
+      "id": "04_指令系统与程序表示:source_markers_retained",
+      "actual": [
+        "【2022】 设计某指令系统时，假设采用16位定长指令字格式，操作码使用扩展编码方式，地址码为6位，包含零地址、一地址和二地址3种格式的指令。若二地址指令有12条，一地址指令有254条，则零地址指令的条数最多为（　）。",
+        "【2009】 某机器字长为16位，主存按字节编址，转移指令采用相对寻址，由两个字节组成，第一个字节为操作码字段，第二个字节为相对位移量字段。假定取指令时，每取一个字节 PC 自动加1。若某转移指令所在主存地址为2000H，相对位移量字段的内容为06H，则该转移指令成功转移后的目标地址是（　）。",
+        "【2012】 某计算机存储器按字节编址，采用小端方式存放数据。假定编译器规定 int 型和 short 型长度分别为32位和16位，并且数据按边界对齐存储。某 C 语言程序段如下：",
+        "【2025】 下列关于 RISC 的叙述中，错误的是（　）。",
+        "【2022】 将高级语言源程序转换为可执行目标文件的主要过程是（　）。",
+        "【2019】 已知 $f(n)=n!=n\\times(n-1)\\times(n-2)\\times\\cdots\\times2\\times1$，计算 $f(n)$ 的C语言函数f1的源程序及其在32位计算机M上的部分机器级代码如下。"
+      ],
+      "expected": [
+        "【2022】 设计某指令系统时，假设采用16位定长指令字格式，操作码使用扩展编码方式，地址码为6位，包含零地址、一地址和二地址3种格式的指令。若二地址指令有12条，一地址指令有254条，则零地址指令的条数最多为（　）。",
+        "【2009】 某机器字长为16位，主存按字节编址，转移指令采用相对寻址，由两个字节组成，第一个字节为操作码字段，第二个字节为相对位移量字段。假定取指令时，每取一个字节 PC 自动加1。若某转移指令所在主存地址为2000H，相对位移量字段的内容为06H，则该转移指令成功转移后的目标地址是（　）。",
+        "【2012】 某计算机存储器按字节编址，采用小端方式存放数据。假定编译器规定 int 型和 short 型长度分别为32位和16位，并且数据按边界对齐存储。某 C 语言程序段如下：",
+        "【2025】 下列关于 RISC 的叙述中，错误的是（　）。",
+        "【2022】 将高级语言源程序转换为可执行目标文件的主要过程是（　）。",
+        "【2019】 已知 $f(n)=n!=n\\times(n-1)\\times(n-2)\\times\\cdots\\times2\\times1$，计算 $f(n)$ 的C语言函数f1的源程序及其在32位计算机M上的部分机器级代码如下。"
+      ],
+      "passed": true
+    },
+    {
+      "id": "05_CPU与控制:fences_equal_AST",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "05_CPU与控制:all_inline_code_equal_AST",
+      "actual": [
+        "R1→Y",
+        "R2→MAR",
+        "R1→Y",
+        "R1→MAR"
+      ],
+      "expected": [
+        "R1→Y",
+        "R2→MAR",
+        "R1→Y",
+        "R1→MAR"
+      ],
+      "passed": true
+    },
+    {
+      "id": "05_CPU与控制:all_pipe_table_rows_columns_equal_AST",
+      "actual": [
+        [
+          2,
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        ],
+        [
+          4,
+          [
+            4,
+            4,
+            4,
+            4
+          ]
+        ],
+        [
+          3,
+          [
+            3,
+            3,
+            3
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          2,
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        ],
+        [
+          4,
+          [
+            4,
+            4,
+            4,
+            4
+          ]
+        ],
+        [
+          3,
+          [
+            3,
+            3,
+            3
+          ]
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "05_CPU与控制:AST_equal_verbatim",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "05_CPU与控制:all_previous_code_blocks_retained",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "05_CPU与控制:all_anchors_preserved",
+      "actual": [
+        "co-ch5",
+        "co-05-01",
+        "co-ex5-1",
+        "co-05-02",
+        "co-05-03",
+        "co-ex5-2",
+        "co-fig-datapath",
+        "co-ex5-3",
+        "co-05-04",
+        "co-ex5-4",
+        "co-ex5-5",
+        "co-05-05",
+        "co-fig-interrupt",
+        "co-ex5-6",
+        "co-self5"
+      ],
+      "expected": [
+        "co-ch5",
+        "co-05-01",
+        "co-ex5-1",
+        "co-05-02",
+        "co-05-03",
+        "co-ex5-2",
+        "co-fig-datapath",
+        "co-ex5-3",
+        "co-05-04",
+        "co-ex5-4",
+        "co-ex5-5",
+        "co-05-05",
+        "co-fig-interrupt",
+        "co-ex5-6",
+        "co-self5"
+      ],
+      "passed": true
+    },
+    {
+      "id": "05_CPU与控制:source_markers_retained",
+      "actual": [
+        "【2023】 数据通路由组合逻辑元件（操作元件）和时序逻辑元件（状态元件）组成。以下给出的元件中，属于操作元件的是（　）。",
+        "【2022】 某CPU中部分数据通路如下图所示，其中，GPRs为通用寄存器组；FR为标志寄存器，用于存放ALU产生的标志信息；带箭头虚线表示控制信号，如控制信号Read、Write分别表示主存读、主存写，MDRin表示内部总线上数据写入MDR，MDRout表示MDR的内容送内部总线。",
+        "【2019】 某指令功能为 $\\mathrm R[r2]\\leftarrow\\mathrm R[r1]+\\mathrm M[\\mathrm R[r0]]$，其两个源操作数分别采用寄存器、寄存器间接寻址方式。对于下列给定部件，该指令在取数及执行过程中需要用到的是（　）。",
+        "【2012】 某计算机的控制器采用微程序控制方式，微指令中的操作控制字段采用字段直接编码法，共有33个微命令，构成5个互斥类，分别包含7、3、12、5和6个微命令，则操作控制字段至少有（　）。",
+        "【2014】 某计算机采用微程序控制器，共有32条指令，公共的取指令微程序包含2条微指令，各指令对应的微程序平均由4条微指令组成，采用断定法（下地址字段法）确定下条微指令地址，则微指令中下地址字段的位数至少是（　）。",
+        "【2021】 异常事件在当前指令执行过程中进行检测，中断请求则在当前指令执行后进行检测。下列事件中，相应处理程序执行后，必须回到当前指令重新执行的是（　）。"
+      ],
+      "expected": [
+        "【2023】 数据通路由组合逻辑元件（操作元件）和时序逻辑元件（状态元件）组成。以下给出的元件中，属于操作元件的是（　）。",
+        "【2022】 某CPU中部分数据通路如下图所示，其中，GPRs为通用寄存器组；FR为标志寄存器，用于存放ALU产生的标志信息；带箭头虚线表示控制信号，如控制信号Read、Write分别表示主存读、主存写，MDRin表示内部总线上数据写入MDR，MDRout表示MDR的内容送内部总线。",
+        "【2019】 某指令功能为 $\\mathrm R[r2]\\leftarrow\\mathrm R[r1]+\\mathrm M[\\mathrm R[r0]]$，其两个源操作数分别采用寄存器、寄存器间接寻址方式。对于下列给定部件，该指令在取数及执行过程中需要用到的是（　）。",
+        "【2012】 某计算机的控制器采用微程序控制方式，微指令中的操作控制字段采用字段直接编码法，共有33个微命令，构成5个互斥类，分别包含7、3、12、5和6个微命令，则操作控制字段至少有（　）。",
+        "【2014】 某计算机采用微程序控制器，共有32条指令，公共的取指令微程序包含2条微指令，各指令对应的微程序平均由4条微指令组成，采用断定法（下地址字段法）确定下条微指令地址，则微指令中下地址字段的位数至少是（　）。",
+        "【2021】 异常事件在当前指令执行过程中进行检测，中断请求则在当前指令执行后进行检测。下列事件中，相应处理程序执行后，必须回到当前指令重新执行的是（　）。"
+      ],
+      "passed": true
+    },
+    {
+      "id": "06_流水线与并行处理:fences_equal_AST",
+      "actual": [
+        "I1: add  r1, r0, 1    // R[r1] <- R[r0] + 1\nI2: load r3, 12(r2)   // R[r3] <- M[R[r2] + 12]\nI3: add  r5, r3, r1   // R[r5] <- R[r3] + R[r1]",
+        "I1: add  s2, s1, s0  // R[s2] <- R[s1] + R[s0]\nI2: load s3, 0(s2)   // R[s3] <- M[R[s2] + 0]\nI3: beq  t2, s3, L1  // if R[t2] = R[s3] jump to L1\nI4: addi t2, t2, 20  // R[t2] <- R[t2] + 20\nI5: L1: ...",
+        "ADD   Rs, Rd\nSHL   Rd\nSHR   Rd\nLOAD  Rd, mem\nSTORE Rs, mem",
+        "I1  LOAD  R1, [a]\nI2  LOAD  R2, [b]\nI3  ADD   R1, R2\nI4  STORE R2, [x]",
+        "I1  LOAD  R1, [x]\nI2  LOAD  R2, [a]\nI3  SHL   R1          // 也可用 ADD R1, R1\nI4  ADD   R1, R2      // R2 <- 2*x + a\nI5  STORE R2, [x]"
+      ],
+      "expected": [
+        "I1: add  r1, r0, 1    // R[r1] <- R[r0] + 1\nI2: load r3, 12(r2)   // R[r3] <- M[R[r2] + 12]\nI3: add  r5, r3, r1   // R[r5] <- R[r3] + R[r1]",
+        "I1: add  s2, s1, s0  // R[s2] <- R[s1] + R[s0]\nI2: load s3, 0(s2)   // R[s3] <- M[R[s2] + 0]\nI3: beq  t2, s3, L1  // if R[t2] = R[s3] jump to L1\nI4: addi t2, t2, 20  // R[t2] <- R[t2] + 20\nI5: L1: ...",
+        "ADD   Rs, Rd\nSHL   Rd\nSHR   Rd\nLOAD  Rd, mem\nSTORE Rs, mem",
+        "I1  LOAD  R1, [a]\nI2  LOAD  R2, [b]\nI3  ADD   R1, R2\nI4  STORE R2, [x]",
+        "I1  LOAD  R1, [x]\nI2  LOAD  R2, [a]\nI3  SHL   R1          // 也可用 ADD R1, R1\nI4  ADD   R1, R2      // R2 <- 2*x + a\nI5  STORE R2, [x]"
+      ],
+      "passed": true
+    },
+    {
+      "id": "06_流水线与并行处理:all_inline_code_equal_AST",
+      "actual": [
+        "ADD",
+        "SHL",
+        "SHR",
+        "LOAD",
+        "STORE",
+        "SHR R1",
+        "x=a+b",
+        "x=x*2+a",
+        "FDFFH",
+        "1111 1101 1111 1111",
+        "1111 1110 1111 1111",
+        "FEFFH"
+      ],
+      "expected": [
+        "ADD",
+        "SHL",
+        "SHR",
+        "LOAD",
+        "STORE",
+        "SHR R1",
+        "x=a+b",
+        "x=x*2+a",
+        "FDFFH",
+        "1111 1101 1111 1111",
+        "1111 1110 1111 1111",
+        "FEFFH"
+      ],
+      "passed": true
+    },
+    {
+      "id": "06_流水线与并行处理:all_pipe_table_rows_columns_equal_AST",
+      "actual": [
+        [
+          3,
+          [
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        [
+          9,
+          [
+            9,
+            9,
+            9
+          ]
+        ],
+        [
+          3,
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        [
+          15,
+          [
+            15,
+            15,
+            15,
+            15
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          3,
+          [
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        [
+          9,
+          [
+            9,
+            9,
+            9
+          ]
+        ],
+        [
+          3,
+          [
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        [
+          15,
+          [
+            15,
+            15,
+            15,
+            15
+          ]
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "06_流水线与并行处理:AST_equal_verbatim",
+      "actual": [
+        "I1: add  r1, r0, 1    // R[r1] <- R[r0] + 1\nI2: load r3, 12(r2)   // R[r3] <- M[R[r2] + 12]\nI3: add  r5, r3, r1   // R[r5] <- R[r3] + R[r1]",
+        "I1: add  s2, s1, s0  // R[s2] <- R[s1] + R[s0]\nI2: load s3, 0(s2)   // R[s3] <- M[R[s2] + 0]\nI3: beq  t2, s3, L1  // if R[t2] = R[s3] jump to L1\nI4: addi t2, t2, 20  // R[t2] <- R[t2] + 20\nI5: L1: ...",
+        "ADD   Rs, Rd\nSHL   Rd\nSHR   Rd\nLOAD  Rd, mem\nSTORE Rs, mem",
+        "I1  LOAD  R1, [a]\nI2  LOAD  R2, [b]\nI3  ADD   R1, R2\nI4  STORE R2, [x]",
+        "I1  LOAD  R1, [x]\nI2  LOAD  R2, [a]\nI3  SHL   R1          // 也可用 ADD R1, R1\nI4  ADD   R1, R2      // R2 <- 2*x + a\nI5  STORE R2, [x]"
+      ],
+      "expected": [
+        "I1: add  r1, r0, 1    // R[r1] <- R[r0] + 1\nI2: load r3, 12(r2)   // R[r3] <- M[R[r2] + 12]\nI3: add  r5, r3, r1   // R[r5] <- R[r3] + R[r1]",
+        "I1: add  s2, s1, s0  // R[s2] <- R[s1] + R[s0]\nI2: load s3, 0(s2)   // R[s3] <- M[R[s2] + 0]\nI3: beq  t2, s3, L1  // if R[t2] = R[s3] jump to L1\nI4: addi t2, t2, 20  // R[t2] <- R[t2] + 20\nI5: L1: ...",
+        "ADD   Rs, Rd\nSHL   Rd\nSHR   Rd\nLOAD  Rd, mem\nSTORE Rs, mem",
+        "I1  LOAD  R1, [a]\nI2  LOAD  R2, [b]\nI3  ADD   R1, R2\nI4  STORE R2, [x]",
+        "I1  LOAD  R1, [x]\nI2  LOAD  R2, [a]\nI3  SHL   R1          // 也可用 ADD R1, R1\nI4  ADD   R1, R2      // R2 <- 2*x + a\nI5  STORE R2, [x]"
+      ],
+      "passed": true
+    },
+    {
+      "id": "06_流水线与并行处理:all_previous_code_blocks_retained",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "06_流水线与并行处理:all_anchors_preserved",
+      "actual": [
+        "co-ch6",
+        "co-06-01",
+        "co-ex6-1",
+        "co-06-02",
+        "co-06-03",
+        "co-ex6-2",
+        "co-fig-pipeline",
+        "co-ex6-3",
+        "co-06-04",
+        "co-06-05",
+        "co-06-06",
+        "co-ex6-4",
+        "co-ex6-5",
+        "co-fig-pipeline-schedule",
+        "co-self6"
+      ],
+      "expected": [
+        "co-ch6",
+        "co-06-01",
+        "co-ex6-1",
+        "co-06-02",
+        "co-06-03",
+        "co-ex6-2",
+        "co-fig-pipeline",
+        "co-ex6-3",
+        "co-06-04",
+        "co-06-05",
+        "co-06-06",
+        "co-ex6-4",
+        "co-ex6-5",
+        "co-fig-pipeline-schedule",
+        "co-self6"
+      ],
+      "passed": true
+    },
+    {
+      "id": "06_流水线与并行处理:source_markers_retained",
+      "actual": [
+        "【2009】 某计算机的指令流水线由四个功能段组成，指令流经各功能段的时间（忽略各功能段之间的缓存时间）分别为90 ns、80 ns、70 ns和60 ns，则该计算机的 CPU 时钟周期至少是（　）。",
+        "〖5.6-013〗 下列指令序列中，指令I1和I3、I2和I3之间发生数据相关。假定采用“取指、译码/取数、执行、访存、写回”五段流水线方式，那么在采用转发技术时，需要在指令I3之前加入（　）条空操作指令才能使这段程序不发生数据冒险。",
+        "【2023】 在采用“取指、译码/取数、执行、访存、写回”5段流水线的 RISC 处理器中，执行如下指令序列，其中s0、s1、s2、s3和t2表示寄存器编号。",
+        "【2022】 下列关于并行处理技术的叙述中，不正确的是（　）。",
+        "【2012】 某16位计算机中，带符号整数用补码表示，数据Cache和指令Cache分离。"
+      ],
+      "expected": [
+        "【2009】 某计算机的指令流水线由四个功能段组成，指令流经各功能段的时间（忽略各功能段之间的缓存时间）分别为90 ns、80 ns、70 ns和60 ns，则该计算机的 CPU 时钟周期至少是（　）。",
+        "〖5.6-013〗 下列指令序列中，指令I1和I3、I2和I3之间发生数据相关。假定采用“取指、译码/取数、执行、访存、写回”五段流水线方式，那么在采用转发技术时，需要在指令I3之前加入（　）条空操作指令才能使这段程序不发生数据冒险。",
+        "【2023】 在采用“取指、译码/取数、执行、访存、写回”5段流水线的 RISC 处理器中，执行如下指令序列，其中s0、s1、s2、s3和t2表示寄存器编号。",
+        "【2022】 下列关于并行处理技术的叙述中，不正确的是（　）。",
+        "【2012】 某16位计算机中，带符号整数用补码表示，数据Cache和指令Cache分离。"
+      ],
+      "passed": true
+    },
+    {
+      "id": "07_总线与传输时间:fences_equal_AST",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "07_总线与传输时间:all_inline_code_equal_AST",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "07_总线与传输时间:all_pipe_table_rows_columns_equal_AST",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "07_总线与传输时间:AST_equal_verbatim",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "07_总线与传输时间:all_previous_code_blocks_retained",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "07_总线与传输时间:all_anchors_preserved",
+      "actual": [
+        "co-ch7",
+        "co-07-01",
+        "co-ex7-1",
+        "co-ex7-2",
+        "co-07-02",
+        "co-ex7-3",
+        "co-ex7-4",
+        "co-fig-handshake",
+        "co-self7"
+      ],
+      "expected": [
+        "co-ch7",
+        "co-07-01",
+        "co-ex7-1",
+        "co-ex7-2",
+        "co-07-02",
+        "co-ex7-3",
+        "co-ex7-4",
+        "co-fig-handshake",
+        "co-self7"
+      ],
+      "passed": true
+    },
+    {
+      "id": "07_总线与传输时间:source_markers_retained",
+      "actual": [
+        "【2009】 假设某系统总线在一个总线周期中并行传输4 B信息，一个总线周期占用2个时钟周期，总线时钟频率为10 MHz，则总线带宽是（　）。",
+        "【2025】 某处理器总线采用同步、并行传输方式，每个总线时钟周期传送4次数据（quadpumped技术）。若该总线的工作频率为1333 MHz（实际单位是MT/s，表示每秒传送1333 M次），总线宽度为64位，则总线带宽约为（　）。",
+        "【2023】 某存储器总线宽度为64位，总线时钟频率为1 GHz，在总线上传输一个数据或地址需要一个时钟周期，不支持突发传送方式。若通过该总线连接CPU和主存，主存每次准备一个64位数据需要6 ns，主存块大小为32 B，则读取一个主存块所需的时间是（　）。",
+        "【2024】 某存储器总线的时钟频率为420 MHz，总线宽度为64位，每个时钟周期传送2次数据；其总线事务支持突发传送方式，最多传送8次数据，第1个时钟周期传送地址和读/写命令，从第4个至第7个时钟周期连续传送8次数据。该总线的总线带宽（最大数据传输率）为（　）。"
+      ],
+      "expected": [
+        "【2009】 假设某系统总线在一个总线周期中并行传输4 B信息，一个总线周期占用2个时钟周期，总线时钟频率为10 MHz，则总线带宽是（　）。",
+        "【2025】 某处理器总线采用同步、并行传输方式，每个总线时钟周期传送4次数据（quadpumped技术）。若该总线的工作频率为1333 MHz（实际单位是MT/s，表示每秒传送1333 M次），总线宽度为64位，则总线带宽约为（　）。",
+        "【2023】 某存储器总线宽度为64位，总线时钟频率为1 GHz，在总线上传输一个数据或地址需要一个时钟周期，不支持突发传送方式。若通过该总线连接CPU和主存，主存每次准备一个64位数据需要6 ns，主存块大小为32 B，则读取一个主存块所需的时间是（　）。",
+        "【2024】 某存储器总线的时钟频率为420 MHz，总线宽度为64位，每个时钟周期传送2次数据；其总线事务支持突发传送方式，最多传送8次数据，第1个时钟周期传送地址和读/写命令，从第4个至第7个时钟周期连续传送8次数据。该总线的总线带宽（最大数据传输率）为（　）。"
+      ],
+      "passed": true
+    },
+    {
+      "id": "08_IO与DMA:fences_equal_AST",
+      "actual": [
+        "设置设备命令、目标地址和剩余数量\nwhile 剩余数量 > 0:\n    while 状态端口表示未就绪:\n        继续检查\n    从数据端口读一个单位并存入目标地址\n    目标地址 += 单位大小\n    剩余数量 -= 1"
+      ],
+      "expected": [
+        "设置设备命令、目标地址和剩余数量\nwhile 剩余数量 > 0:\n    while 状态端口表示未就绪:\n        继续检查\n    从数据端口读一个单位并存入目标地址\n    目标地址 += 单位大小\n    剩余数量 -= 1"
+      ],
+      "passed": true
+    },
+    {
+      "id": "08_IO与DMA:all_inline_code_equal_AST",
+      "actual": [],
+      "expected": [],
+      "passed": true
+    },
+    {
+      "id": "08_IO与DMA:all_pipe_table_rows_columns_equal_AST",
+      "actual": [
+        [
+          5,
+          [
+            5,
+            5,
+            5,
+            5
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          5,
+          [
+            5,
+            5,
+            5,
+            5
+          ]
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "08_IO与DMA:AST_equal_verbatim",
+      "actual": [
+        "设置设备命令、目标地址和剩余数量\nwhile 剩余数量 > 0:\n    while 状态端口表示未就绪:\n        继续检查\n    从数据端口读一个单位并存入目标地址\n    目标地址 += 单位大小\n    剩余数量 -= 1"
+      ],
+      "expected": [
+        "设置设备命令、目标地址和剩余数量\nwhile 剩余数量 > 0:\n    while 状态端口表示未就绪:\n        继续检查\n    从数据端口读一个单位并存入目标地址\n    目标地址 += 单位大小\n    剩余数量 -= 1"
+      ],
+      "passed": true
+    },
+    {
+      "id": "08_IO与DMA:all_previous_code_blocks_retained",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "id": "08_IO与DMA:all_anchors_preserved",
+      "actual": [
+        "co-ch8",
+        "co-08-01",
+        "co-ex8-1",
+        "co-08-02",
+        "co-ex8-2",
+        "co-08-03",
+        "co-ex8-3",
+        "co-fig-nesting",
+        "co-ex8-4",
+        "co-08-04",
+        "co-fig-dma",
+        "co-ex8-5",
+        "co-ex8-6",
+        "co-ex8-7",
+        "co-self8"
+      ],
+      "expected": [
+        "co-ch8",
+        "co-08-01",
+        "co-ex8-1",
+        "co-08-02",
+        "co-ex8-2",
+        "co-08-03",
+        "co-ex8-3",
+        "co-fig-nesting",
+        "co-ex8-4",
+        "co-08-04",
+        "co-fig-dma",
+        "co-ex8-5",
+        "co-ex8-6",
+        "co-ex8-7",
+        "co-self8"
+      ],
+      "passed": true
+    },
+    {
+      "id": "08_IO与DMA:source_markers_retained",
+      "actual": [
+        "【2012】 下列选项中，在I/O总线的数据线上传输的信息包括（　）。",
+        "【2011】 某计算机处理器主频为50 MHz，采用定时查询方式控制设备A的I/O，查询程序运行一次所用的时钟周期数至少为500。在设备A工作期间，为保证数据不丢失，每秒需对其查询至少200次，则CPU用于设备A的I/O的时间占整个CPU时间的百分比至少是（　）。",
+        "【2014】 若某设备中断请求的响应和处理时间为100 ns，每400 ns发出一次中断请求，中断响应所允许的最长延迟时间为50 ns，则在该设备持续工作过程中，CPU用于该设备的I/O时间占整个CPU时间的百分比至少是（　）。",
+        "【2020】 若设备采用周期挪用DMA方式进行输入和输出，每次DMA传送的数据块大小为512字节，相应的I/O接口中有一个32位数据缓冲寄存器。对于数据输入过程，下列叙述中，错误的是（　）。",
+        "【2019】 下列关于DMA方式的叙述中，正确的是（　）。",
+        "【2018】 假定计算机的主频为500 MHz，CPI为4。现有设备A和B，其数据传输率分别为2 MB/s和40 MB/s，对应I/O接口中各有一个32位数据缓冲寄存器。请回答下列问题，要求给出计算过程。"
+      ],
+      "expected": [
+        "【2012】 下列选项中，在I/O总线的数据线上传输的信息包括（　）。",
+        "【2011】 某计算机处理器主频为50 MHz，采用定时查询方式控制设备A的I/O，查询程序运行一次所用的时钟周期数至少为500。在设备A工作期间，为保证数据不丢失，每秒需对其查询至少200次，则CPU用于设备A的I/O的时间占整个CPU时间的百分比至少是（　）。",
+        "【2014】 若某设备中断请求的响应和处理时间为100 ns，每400 ns发出一次中断请求，中断响应所允许的最长延迟时间为50 ns，则在该设备持续工作过程中，CPU用于该设备的I/O时间占整个CPU时间的百分比至少是（　）。",
+        "【2020】 若设备采用周期挪用DMA方式进行输入和输出，每次DMA传送的数据块大小为512字节，相应的I/O接口中有一个32位数据缓冲寄存器。对于数据输入过程，下列叙述中，错误的是（　）。",
+        "【2019】 下列关于DMA方式的叙述中，正确的是（　）。",
+        "【2018】 假定计算机的主频为500 MHz，CPI为4。现有设备A和B，其数据传输率分别为2 MB/s和40 MB/s，对应I/O接口中各有一个32位数据缓冲寄存器。请回答下列问题，要求给出计算过程。"
+      ],
+      "passed": true
+    },
+    {
+      "id": "CO4-6:four_fields_each_row",
+      "actual": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "id": "CO4-6:all_four_fields_preserved",
+      "actual": [
+        [
+          "1",
+          "00401000",
+          "55",
+          "push ebp"
+        ],
+        [
+          "…",
+          "…",
+          "…",
+          "…"
+        ],
+        [
+          "11",
+          "00401018",
+          "83 7D 08 01",
+          "cmp dword ptr [ebp+8], 1"
+        ],
+        [
+          "12",
+          "0040101C",
+          "7E 17",
+          "jle f1+35h (00401035)"
+        ],
+        [
+          "13",
+          "0040101E",
+          "8B 45 08",
+          "mov eax, dword ptr [ebp+8]"
+        ],
+        [
+          "14",
+          "00401021",
+          "83 E8 01",
+          "sub eax, 1"
+        ],
+        [
+          "15",
+          "00401024",
+          "50",
+          "push eax"
+        ],
+        [
+          "16",
+          "00401025",
+          "E8 D6 FF FF FF",
+          "call f1 (00401000)"
+        ],
+        [
+          "…",
+          "…",
+          "…",
+          "…"
+        ],
+        [
+          "19",
+          "00401030",
+          "0F AF C1",
+          "imul eax, ecx"
+        ],
+        [
+          "20",
+          "00401033",
+          "EB 05",
+          "jmp f1+3Ah (0040103A)"
+        ],
+        [
+          "21",
+          "00401035",
+          "B8 01 00 00 00",
+          "mov eax, 1"
+        ],
+        [
+          "…",
+          "…",
+          "…",
+          "…"
+        ],
+        [
+          "26",
+          "00401040",
+          "3B EC",
+          "cmp ebp, esp"
+        ],
+        [
+          "…",
+          "…",
+          "…",
+          "…"
+        ],
+        [
+          "30",
+          "0040104A",
+          "C3",
+          "ret"
+        ]
+      ],
+      "expected": [
+        [
+          "1",
+          "00401000",
+          "55",
+          "push ebp"
+        ],
+        [
+          "…",
+          "…",
+          "…",
+          "…"
+        ],
+        [
+          "11",
+          "00401018",
+          "83 7D 08 01",
+          "cmp dword ptr [ebp+8], 1"
+        ],
+        [
+          "12",
+          "0040101C",
+          "7E 17",
+          "jle f1+35h (00401035)"
+        ],
+        [
+          "13",
+          "0040101E",
+          "8B 45 08",
+          "mov eax, dword ptr [ebp+8]"
+        ],
+        [
+          "14",
+          "00401021",
+          "83 E8 01",
+          "sub eax, 1"
+        ],
+        [
+          "15",
+          "00401024",
+          "50",
+          "push eax"
+        ],
+        [
+          "16",
+          "00401025",
+          "E8 D6 FF FF FF",
+          "call f1 (00401000)"
+        ],
+        [
+          "…",
+          "…",
+          "…",
+          "…"
+        ],
+        [
+          "19",
+          "00401030",
+          "0F AF C1",
+          "imul eax, ecx"
+        ],
+        [
+          "20",
+          "00401033",
+          "EB 05",
+          "jmp f1+3Ah (0040103A)"
+        ],
+        [
+          "21",
+          "00401035",
+          "B8 01 00 00 00",
+          "mov eax, 1"
+        ],
+        [
+          "…",
+          "…",
+          "…",
+          "…"
+        ],
+        [
+          "26",
+          "00401040",
+          "3B EC",
+          "cmp ebp, esp"
+        ],
+        [
+          "…",
+          "…",
+          "…",
+          "…"
+        ],
+        [
+          "30",
+          "0040104A",
+          "C3",
+          "ret"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "CO4-6:omitted_rows_preserved",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "id": "CO4-6:source_code_and_all_questions_solutions_unchanged",
+      "actual": [
+        "\n【2019】 已知 $f(n)=n!=n\\times(n-1)\\times(n-2)\\times\\cdots\\times2\\times1$，计算 $f(n)$ 的C语言函数f1的源程序及其在32位计算机M上的部分机器级代码如下。\n\n```c\nint f1(int n) {\n    if (n > 1)\n        return n * f1(n - 1);\n    else\n        return 1;\n}\n```\n\n",
+        "行号、虚拟地址、机器指令和汇编指令，计算机M按字节编址，int型数据占32位。请回答下列问题。\n\n（1）计算f(10)需要调用函数f1多少次？执行哪条指令会递归调用f1？\n\n（2）上述代码中，哪条指令是条件转移指令？哪几条指令一定会使程序跳转执行？\n\n（3）根据第16行的call指令，第17行指令的虚拟地址应是多少？已知第16行的call指令采用相对寻址方式，该指令中的偏移量应是多少（给出计算过程）？已知第16行的call指令的后4字节为偏移量，M采用大端方式还是小端方式？\n\n（4）$f(13)=6\\,227\\,020\\,800$，但f1(13)的返回值为1 932 053 504，为什么两者不相等？要使f1(13)能返回正确的结果，应如何修改f1的源程序？\n\n（5）第19行的imul指令（带符号整数乘）的功能是 $\\mathrm R[\\mathrm{eax}]\\leftarrow\\mathrm R[\\mathrm{eax}]\\times\\mathrm R[\\mathrm{ecx}]$，当乘法器输出的高、低32位乘积之间满足什么条件时，溢出标志OF=1？要使CPU在发生溢出时转异常处理，编译器应在imul指令后加一条什么指令？\n\n**解析。** 先追踪源程序的调用层次，再读指令对PC和数据的作用。表中的省略号表示原题未展示的指令，不将行号差当成字节数。\n\n（1）调用参数依次为10、9、…、1，共10次，包含最外层调用；函数内部第16行call实际递归执行9次。参数为1时，第12行转到返回1的分支，不再递归。各层的返回位置虽都是调用点的后继地址，但栈帧和参数相互独立，返回时逐层乘回2、3、…、10。\n\n（2）第12行jle是条件转移，根据比较结果决定是否转移。第16行call、第20行jmp、第30行ret在执行时都会改变顺序后继：分别是调用、无条件跳转和返回。第15行push保存参数，它本身不承担转到f1入口的任务。\n\n（3）call从0040 1025H开始，占1字节操作码及4字节位移，共5 B，所以后继地址为\n\n\\[\n\\mathtt{00401025H}+5=\\mathtt{0040102AH}.\n\\]\n\n按后继地址为相对基准，位移为 $\\mathtt{00401000H}-\\mathtt{0040102AH}=-\\mathtt{2AH}=-42$，其32位补码为 `FFFF FFD6H`。表中后4字节按低地址到高地址为D6、FF、FF、FF，低有效字节先存，因此为小端。复核：$\\mathtt{0040102AH}+(-42)=\\mathtt{00401000H}$。不能用call自身起点减目标，也不能把D6当成正214。\n\n（4）13!超过32位int上界 $2^{31}-1$。题给返回值是保留低32位后的机器结果：$6\\,227\\,020\\,800-2^{32}=1\\,932\\,053\\,504$，它虽为正数，仍是溢出后的错误数学结果。标准C不保证有符号溢出这样绕回；这里解释的是原题给定的机器执行结果。\n\n一种修改是把函数返回类型改为至少64位的 `long long`，使递归返回值及与n的乘法都按该较宽类型进行：\n\n```c\nlong long f1(int n) {\n    if (n > 1)\n        return n * f1(n - 1);\n    return 1LL;\n}\n```\n\n13!可被该类型精确表示。若只是先在int中乘完，再把溢出结果强制转换为宽类型，已经丢失的高位无法恢复。这里仅保证题问的f1(13)，不意味着任意大的阶乘都能用固定64位整数表示。\n\n（5）令精确64位乘积为高32位H与低32位L。若H恰是L最高位的32位符号扩展，即L的符号位为0时H全0、为1时H全1，则截为32位仍保留真值，OF=0；否则OF=1。等价地，乘积从第63位至第31位的高33位必须全0或全1才不溢出。不能只检查H是否为0，因为可表示的负积需要H全1。\n\n要按题问触发异常处理，应在imul后安排检查OF的**溢出自陷指令**：OF=1时发出溢出异常并转入处理程序。普通条件转移 `jo` 能根据OF跳往一段代码，但仅有普通跳转不等于已经完成题问的异常入口动作。乘法器设置标志、指令检查标志、异常机制保存返回状态并转入口，是相接的三个步骤。\n\n"
+      ],
+      "expected": [
+        "\n【2019】 已知 $f(n)=n!=n\\times(n-1)\\times(n-2)\\times\\cdots\\times2\\times1$，计算 $f(n)$ 的C语言函数f1的源程序及其在32位计算机M上的部分机器级代码如下。\n\n```c\nint f1(int n) {\n    if (n > 1)\n        return n * f1(n - 1);\n    else\n        return 1;\n}\n```\n\n",
+        "行号、虚拟地址、机器指令和汇编指令，计算机M按字节编址，int型数据占32位。请回答下列问题。\n\n（1）计算f(10)需要调用函数f1多少次？执行哪条指令会递归调用f1？\n\n（2）上述代码中，哪条指令是条件转移指令？哪几条指令一定会使程序跳转执行？\n\n（3）根据第16行的call指令，第17行指令的虚拟地址应是多少？已知第16行的call指令采用相对寻址方式，该指令中的偏移量应是多少（给出计算过程）？已知第16行的call指令的后4字节为偏移量，M采用大端方式还是小端方式？\n\n（4）$f(13)=6\\,227\\,020\\,800$，但f1(13)的返回值为1 932 053 504，为什么两者不相等？要使f1(13)能返回正确的结果，应如何修改f1的源程序？\n\n（5）第19行的imul指令（带符号整数乘）的功能是 $\\mathrm R[\\mathrm{eax}]\\leftarrow\\mathrm R[\\mathrm{eax}]\\times\\mathrm R[\\mathrm{ecx}]$，当乘法器输出的高、低32位乘积之间满足什么条件时，溢出标志OF=1？要使CPU在发生溢出时转异常处理，编译器应在imul指令后加一条什么指令？\n\n**解析。** 先追踪源程序的调用层次，再读指令对PC和数据的作用。表中的省略号表示原题未展示的指令，不将行号差当成字节数。\n\n（1）调用参数依次为10、9、…、1，共10次，包含最外层调用；函数内部第16行call实际递归执行9次。参数为1时，第12行转到返回1的分支，不再递归。各层的返回位置虽都是调用点的后继地址，但栈帧和参数相互独立，返回时逐层乘回2、3、…、10。\n\n（2）第12行jle是条件转移，根据比较结果决定是否转移。第16行call、第20行jmp、第30行ret在执行时都会改变顺序后继：分别是调用、无条件跳转和返回。第15行push保存参数，它本身不承担转到f1入口的任务。\n\n（3）call从0040 1025H开始，占1字节操作码及4字节位移，共5 B，所以后继地址为\n\n\\[\n\\mathtt{00401025H}+5=\\mathtt{0040102AH}.\n\\]\n\n按后继地址为相对基准，位移为 $\\mathtt{00401000H}-\\mathtt{0040102AH}=-\\mathtt{2AH}=-42$，其32位补码为 `FFFF FFD6H`。表中后4字节按低地址到高地址为D6、FF、FF、FF，低有效字节先存，因此为小端。复核：$\\mathtt{0040102AH}+(-42)=\\mathtt{00401000H}$。不能用call自身起点减目标，也不能把D6当成正214。\n\n（4）13!超过32位int上界 $2^{31}-1$。题给返回值是保留低32位后的机器结果：$6\\,227\\,020\\,800-2^{32}=1\\,932\\,053\\,504$，它虽为正数，仍是溢出后的错误数学结果。标准C不保证有符号溢出这样绕回；这里解释的是原题给定的机器执行结果。\n\n一种修改是把函数返回类型改为至少64位的 `long long`，使递归返回值及与n的乘法都按该较宽类型进行：\n\n```c\nlong long f1(int n) {\n    if (n > 1)\n        return n * f1(n - 1);\n    return 1LL;\n}\n```\n\n13!可被该类型精确表示。若只是先在int中乘完，再把溢出结果强制转换为宽类型，已经丢失的高位无法恢复。这里仅保证题问的f1(13)，不意味着任意大的阶乘都能用固定64位整数表示。\n\n（5）令精确64位乘积为高32位H与低32位L。若H恰是L最高位的32位符号扩展，即L的符号位为0时H全0、为1时H全1，则截为32位仍保留真值，OF=0；否则OF=1。等价地，乘积从第63位至第31位的高33位必须全0或全1才不溢出。不能只检查H是否为0，因为可表示的负积需要H全1。\n\n要按题问触发异常处理，应在imul后安排检查OF的**溢出自陷指令**：OF=1时发出溢出异常并转入处理程序。普通条件转移 `jo` 能根据OF跳往一段代码，但仅有普通跳转不等于已经完成题问的异常入口动作。乘法器设置标志、指令检查标志、异常机制保存返回状态并转入口，是相接的三个步骤。\n\n"
+      ],
+      "passed": true
+    },
+    {
+      "id": "CO6-5:all_assembly_formats_preserved",
+      "actual": [
+        "ADD Rs, Rd",
+        "SHL Rd",
+        "SHR Rd",
+        "LOAD Rd, mem",
+        "STORE Rs, mem"
+      ],
+      "expected": [
+        "ADD Rs, Rd",
+        "SHL Rd",
+        "SHR Rd",
+        "LOAD Rd, mem",
+        "STORE Rs, mem"
+      ],
+      "passed": true
+    },
+    {
+      "id": "CO6-5:all_names_mnemonics_functions_preserved",
+      "actual": [
+        [
+          "加法",
+          "ADD",
+          "$(\\mathrm{Rs})+(\\mathrm{Rd})\\to\\mathrm{Rd}$"
+        ],
+        [
+          "算术/逻辑左移",
+          "SHL",
+          "$2(\\mathrm{Rd})\\to\\mathrm{Rd}$"
+        ],
+        [
+          "算术右移",
+          "SHR",
+          "$(\\mathrm{Rd})/2\\to\\mathrm{Rd}$"
+        ],
+        [
+          "取数",
+          "LOAD",
+          "$(\\mathrm{mem})\\to\\mathrm{Rd}$"
+        ],
+        [
+          "存数",
+          "STORE",
+          "$(\\mathrm{Rs})\\to\\mathrm{mem}$"
+        ]
+      ],
+      "expected": [
+        [
+          "加法",
+          "ADD",
+          "$(\\mathrm{Rs})+(\\mathrm{Rd})\\to\\mathrm{Rd}$"
+        ],
+        [
+          "算术/逻辑左移",
+          "SHL",
+          "$2(\\mathrm{Rd})\\to\\mathrm{Rd}$"
+        ],
+        [
+          "算术右移",
+          "SHR",
+          "$(\\mathrm{Rd})/2\\to\\mathrm{Rd}$"
+        ],
+        [
+          "取数",
+          "LOAD",
+          "$(\\mathrm{mem})\\to\\mathrm{Rd}$"
+        ],
+        [
+          "存数",
+          "STORE",
+          "$(\\mathrm{Rs})\\to\\mathrm{mem}$"
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "id": "CO6-5:original_pipeline_table_including_empty_cells_preserved",
+      "actual": "| 指令 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| I1 | IF | ID | EX | M | WB | | | | | | | | | |\n| I2 | | IF | ID | EX | M | WB | | | | | | | | |\n| I3 | | | IF | | | | ID | EX | M | WB | | | | |\n| I4 | | | | | | | IF | | | | ID | EX | M | WB |",
+      "expected": "| 指令 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| I1 | IF | ID | EX | M | WB | | | | | | | | | |\n| I2 | | IF | ID | EX | M | WB | | | | | | | | |\n| I3 | | | IF | | | | ID | EX | M | WB | | | | |\n| I4 | | | | | | | IF | | | | ID | EX | M | WB |",
+      "passed": true
+    },
+    {
+      "id": "CO6-5:all_question_lines_preserved",
+      "actual": [
+        "（1）若int型变量x的值为−513，存放在寄存器R1中，则执行指令 `SHR R1` 后，R1的内容是多少（用十六进制表示）？",
+        "（2）若某个时间段中有连续4条指令进入流水线，在其执行过程中没有发生任何阻塞，则执行这4条指令需要多少个时钟周期？",
+        "（3）若赋值语句为 `x=a+b`，x、a、b均为int型变量，其存储单元地址分别为[x]、[a]、[b]。对应指令序列及流水过程如下，I3的ID段和I4的IF段被阻塞的原因各是什么？",
+        "（4）若赋值语句为 `x=x*2+a`，x和a均为unsigned int型变量，其存储单元地址分别为[x]、[a]，执行这条语句至少需要多少个时钟周期？要求模仿上图，画出对应指令序列及流水线执行过程示意图。"
+      ],
+      "expected": [
+        "（1）若int型变量x的值为−513，存放在寄存器R1中，则执行指令 `SHR R1` 后，R1的内容是多少（用十六进制表示）？",
+        "（2）若某个时间段中有连续4条指令进入流水线，在其执行过程中没有发生任何阻塞，则执行这4条指令需要多少个时钟周期？",
+        "（3）若赋值语句为 `x=a+b`，x、a、b均为int型变量，其存储单元地址分别为[x]、[a]、[b]。对应指令序列及流水过程如下，I3的ID段和I4的IF段被阻塞的原因各是什么？",
+        "（4）若赋值语句为 `x=x*2+a`，x和a均为unsigned int型变量，其存储单元地址分别为[x]、[a]，执行这条语句至少需要多少个时钟周期？要求模仿上图，画出对应指令序列及流水线执行过程示意图。"
+      ],
+      "passed": true
+    },
+    {
+      "id": "CO6-5:machine_conditions_preserved",
+      "actual": "执行指令，各流水段分别是取指IF、译码/读寄存器ID、执行/计算有效地址EX、访问存储器M和结果写回寄存器WB。流水线采用“按序发射、按序完成”方式，没有采用转发技术处理数据相关，并且同一个寄存器的读和写操作不能在同一个时钟周期内进行。请回答下列问题。\n\n",
+      "expected": "执行指令，各流水段分别是取指IF、译码/读寄存器ID、执行/计算有效地址EX、访问存储器M和结果写回寄存器WB。流水线采用“按序发射、按序完成”方式，没有采用转发技术处理数据相关，并且同一个寄存器的读和写操作不能在同一个时钟周期内进行。请回答下列问题。\n\n",
+      "passed": true
+    },
+    {
+      "id": "CO6-5:all_solutions_preserved",
+      "actual": " 本题与例6-2的转发模型不同。统一使用约束：源寄存器若在第w拍WB写回，则消费者最早第w+1拍在ID完成取数并向后推进；在此之前可以停留于ID端等待，IF/ID寄存器保持，后继取指也被阻塞。按题中过程，所有指令均走完五段计完成，即使某一段不产生实际数据读写。\n\n（1）−513的16位补码为 `FDFFH`，即 `1111 1101 1111 1111`。算术右移复制符号位，得到 `1111 1110 1111 1111`，即 `FEFFH`，真值−257。表中“除以2”说明算术右移的数量关系；对负奇数按位右移相当于向负无穷取整，不能代入C整数除法向零截断而答−256。\n\n（2）无阻塞时，第一条用5拍，后3条每隔1拍完成，共 $5+4-1=8$ 拍。指令Cache与数据Cache分离，不能额外添加题干未给的取指与数据访存争用。\n\n（3）I3要读I1写入的R1和I2写入的R2，存在两条RAW依赖。I1在第5拍、I2在第6拍WB写回，且不许同拍读写，所以I3在第4～6拍于ID端等待，第7拍才可完成取数，而非第6拍。I3占用的IF/ID状态尚未释放时，若I4继续取指，会覆盖这条待推进指令，因此I4的IF也推迟到第7拍。后一处是前方数据等待向取指端传播，不能误说成STORE在IF就要读R2。\n\n等I3在第10拍WB写出和，I4才可在第11拍ID读取R2，随后经过EX、M、WB，在第14拍流出。原图的两段空白应分别追到其等待的生产者与受阻资源，不能把空白一概叫作访存延迟。\n\n（4）用两个寄存器保存x和a，让x先装入，以便尽早启动连续依赖的移位、相加：\n\n```text\nI1  LOAD  R1, [x]\nI2  LOAD  R2, [a]\nI3  SHL   R1          // 也可用 ADD R1, R1\nI4  ADD   R1, R2      // R2 <- 2*x + a\nI5  STORE R2, [x]\n```\n\n![无转发且寄存器不能同拍读写：分别等待WB后的下一拍，最短17拍](CO_F13_pipeline_schedule.png){#co-fig-pipeline-schedule width=98%}\n\nI1第5拍WB，故I3最早第6拍ID、第9拍WB。I4依赖I3的R1，最早第10拍ID、第13拍WB；I2已在第6拍写回，不再额外拖延I4。I5最早第14拍ID，至第17拍流出，故至少17拍。\n\n这个排程还给出了下界证明：本题给定指令中，需要两次LOAD、一次翻倍、一次相加和一次STORE；x的“LOAD→翻倍→相加→STORE”链不能颠倒。即使其余工作都尽早完成，这条链也要求上面的ID下界6、10、14；所列排程恰好达到下界。若先装a再装x，关键链反而晚一拍。STORE在第16拍M已写存储器，但按原题五段完整流出的统一口径，答案仍为17拍。\n\n",
+      "expected": " 本题与例6-2的转发模型不同。统一使用约束：源寄存器若在第w拍WB写回，则消费者最早第w+1拍在ID完成取数并向后推进；在此之前可以停留于ID端等待，IF/ID寄存器保持，后继取指也被阻塞。按题中过程，所有指令均走完五段计完成，即使某一段不产生实际数据读写。\n\n（1）−513的16位补码为 `FDFFH`，即 `1111 1101 1111 1111`。算术右移复制符号位，得到 `1111 1110 1111 1111`，即 `FEFFH`，真值−257。表中“除以2”说明算术右移的数量关系；对负奇数按位右移相当于向负无穷取整，不能代入C整数除法向零截断而答−256。\n\n（2）无阻塞时，第一条用5拍，后3条每隔1拍完成，共 $5+4-1=8$ 拍。指令Cache与数据Cache分离，不能额外添加题干未给的取指与数据访存争用。\n\n（3）I3要读I1写入的R1和I2写入的R2，存在两条RAW依赖。I1在第5拍、I2在第6拍WB写回，且不许同拍读写，所以I3在第4～6拍于ID端等待，第7拍才可完成取数，而非第6拍。I3占用的IF/ID状态尚未释放时，若I4继续取指，会覆盖这条待推进指令，因此I4的IF也推迟到第7拍。后一处是前方数据等待向取指端传播，不能误说成STORE在IF就要读R2。\n\n等I3在第10拍WB写出和，I4才可在第11拍ID读取R2，随后经过EX、M、WB，在第14拍流出。原图的两段空白应分别追到其等待的生产者与受阻资源，不能把空白一概叫作访存延迟。\n\n（4）用两个寄存器保存x和a，让x先装入，以便尽早启动连续依赖的移位、相加：\n\n```text\nI1  LOAD  R1, [x]\nI2  LOAD  R2, [a]\nI3  SHL   R1          // 也可用 ADD R1, R1\nI4  ADD   R1, R2      // R2 <- 2*x + a\nI5  STORE R2, [x]\n```\n\n![无转发且寄存器不能同拍读写：分别等待WB后的下一拍，最短17拍](CO_F13_pipeline_schedule.png){#co-fig-pipeline-schedule width=98%}\n\nI1第5拍WB，故I3最早第6拍ID、第9拍WB。I4依赖I3的R1，最早第10拍ID、第13拍WB；I2已在第6拍写回，不再额外拖延I4。I5最早第14拍ID，至第17拍流出，故至少17拍。\n\n这个排程还给出了下界证明：本题给定指令中，需要两次LOAD、一次翻倍、一次相加和一次STORE；x的“LOAD→翻倍→相加→STORE”链不能颠倒。即使其余工作都尽早完成，这条链也要求上面的ID下界6、10、14；所列排程恰好达到下界。若先装a再装x，关键链反而晚一拍。STORE在第16拍M已写存储器，但按原题五段完整流出的统一口径，答案仍为17拍。\n\n",
+      "passed": true
+    },
+    {
+      "id": "co-ex2-10:whole_example_unchanged",
+      "actual": "\n【2017】 已知 $f(n)=\\sum_{i=0}^{n}2^i=2^{n+1}-1=\\underbrace{11\\cdots1}_{n+1\\text{位}}{}_2$，计算 $f(n)$ 的C语言函数f1如下。\n\n```c\nint f1(unsigned n) {\n    int sum = 1, power = 1;\n    for (unsigned i = 0; i <= n - 1; i++) {\n        power *= 2;\n        sum += power;\n    }\n    return sum;\n}\n```\n\n将f1中的int都改为float，可得到计算 $f(n)$ 的另一个函数f2。假设unsigned和int型数据都占32位，float采用IEEE 754单精度标准。请回答下列问题。\n\n（1）当n=0时，f1会出现死循环，为什么？若将f1中的变量i和n都定义为int型，则f1是否还会出现死循环？为什么？\n\n（2）f1(23)和f2(23)的返回值是否相等？机器数各是什么（用十六进制表示）？\n\n（3）f1(24)和f2(24)的返回值分别为33 554 431和33 554 432.0，为什么不相等？\n\n（4）$f(31)=2^{32}-1$，而f1(31)的返回值却为−1，为什么？若使f1(n)的返回值与f(n)相等，则最大的n是多少？\n\n（5）f2(127)的机器数为7F80 0000H，对应的值是什么？若使f2(n)的结果不溢出，则最大的n是多少？若使f2(n)的结果精确（无舍入），则最大的n是多少？\n\n**解析。** 本题把同一数列放进不同表示中：先查循环是否结束，再查运算范围，最后查浮点有效位。以下f1(31)的既定结果与n=0的持续循环轨迹按32位补码机器执行模型解释；标准C中有符号溢出属于未定义行为，n=0时循环体也可能先发生这种溢出，不能把本题机器推演当成可移植C保证。\n\n（1）i和n均为unsigned，n=0时，`n-1`按模 $2^{32}$ 运算成为 $2^{32}-1$。任何32位无符号i都满足 `i<=n-1`，i达到最大值后再加1又回到0，因此循环条件一直为真。若两者都改为int，n−1为−1，第一次测试 $0\\le-1$ 就为假，循环不进入，不会因这个边界形成死循环。\n\n（2）$f(23)=2^{24}-1=16\\,777\\,215$，是24个连续的二进制1。它在32位int范围内，且binary32恰有24位有效精度，故两者数值相等。f1(23)的补码机器数为 `00FF FFFFH`。浮点形式为 $1.\\underbrace{11\\cdots1}_{23\\text{位}}\\times2^{23}$，s=0、E=23+127=150、F全1，故f2(23)的机器数为 `4B7F FFFFH`。相同数值不要求机器编码相同。\n\n（3）$f(24)=2^{25}-1$ 需要25位有效数字，int仍能精确保存，binary32却只能保留24位。最后一次加法的精确结果为33 554 431，处于33 554 430与33 554 432之间的正中；最近偶数舍入选后者，得到 $2^{25}$，机器数 `4C00 0000H`。这里尚未浮点溢出，只丢失了低位精度。\n\n（4）$2^{32}-1$ 超过32位补码int最大值 $2^{31}-1$。按题设保留的低32位全为1，解释为补码−1。要求所有返回值与数学数列一致，须 $2^{n+1}-1\\le2^{31}-1$，所以最大n=30；不能因为无符号32位能表示 $2^{32}-1$，便认为int也能表示。\n\n（5）`7F80 0000H` 的阶码全1、尾数全0、符号0，表示正无穷。n=126时，精确数 $2^{127}-1$ 被舍入为 $2^{127}$，仍是有限数；n=127时，结果越过最大有限数并舍入为正无穷。因此不溢出的最大n=126。要完全精确，数列中n+1个连续1必须全部容纳在24位有效数中，最大n=23。两个上界分别来自指数范围与有效精度，不能互换。\n\n",
+      "expected": "\n【2017】 已知 $f(n)=\\sum_{i=0}^{n}2^i=2^{n+1}-1=\\underbrace{11\\cdots1}_{n+1\\text{位}}{}_2$，计算 $f(n)$ 的C语言函数f1如下。\n\n```c\nint f1(unsigned n) {\n    int sum = 1, power = 1;\n    for (unsigned i = 0; i <= n - 1; i++) {\n        power *= 2;\n        sum += power;\n    }\n    return sum;\n}\n```\n\n将f1中的int都改为float，可得到计算 $f(n)$ 的另一个函数f2。假设unsigned和int型数据都占32位，float采用IEEE 754单精度标准。请回答下列问题。\n\n（1）当n=0时，f1会出现死循环，为什么？若将f1中的变量i和n都定义为int型，则f1是否还会出现死循环？为什么？\n\n（2）f1(23)和f2(23)的返回值是否相等？机器数各是什么（用十六进制表示）？\n\n（3）f1(24)和f2(24)的返回值分别为33 554 431和33 554 432.0，为什么不相等？\n\n（4）$f(31)=2^{32}-1$，而f1(31)的返回值却为−1，为什么？若使f1(n)的返回值与f(n)相等，则最大的n是多少？\n\n（5）f2(127)的机器数为7F80 0000H，对应的值是什么？若使f2(n)的结果不溢出，则最大的n是多少？若使f2(n)的结果精确（无舍入），则最大的n是多少？\n\n**解析。** 本题把同一数列放进不同表示中：先查循环是否结束，再查运算范围，最后查浮点有效位。以下f1(31)的既定结果与n=0的持续循环轨迹按32位补码机器执行模型解释；标准C中有符号溢出属于未定义行为，n=0时循环体也可能先发生这种溢出，不能把本题机器推演当成可移植C保证。\n\n（1）i和n均为unsigned，n=0时，`n-1`按模 $2^{32}$ 运算成为 $2^{32}-1$。任何32位无符号i都满足 `i<=n-1`，i达到最大值后再加1又回到0，因此循环条件一直为真。若两者都改为int，n−1为−1，第一次测试 $0\\le-1$ 就为假，循环不进入，不会因这个边界形成死循环。\n\n（2）$f(23)=2^{24}-1=16\\,777\\,215$，是24个连续的二进制1。它在32位int范围内，且binary32恰有24位有效精度，故两者数值相等。f1(23)的补码机器数为 `00FF FFFFH`。浮点形式为 $1.\\underbrace{11\\cdots1}_{23\\text{位}}\\times2^{23}$，s=0、E=23+127=150、F全1，故f2(23)的机器数为 `4B7F FFFFH`。相同数值不要求机器编码相同。\n\n（3）$f(24)=2^{25}-1$ 需要25位有效数字，int仍能精确保存，binary32却只能保留24位。最后一次加法的精确结果为33 554 431，处于33 554 430与33 554 432之间的正中；最近偶数舍入选后者，得到 $2^{25}$，机器数 `4C00 0000H`。这里尚未浮点溢出，只丢失了低位精度。\n\n（4）$2^{32}-1$ 超过32位补码int最大值 $2^{31}-1$。按题设保留的低32位全为1，解释为补码−1。要求所有返回值与数学数列一致，须 $2^{n+1}-1\\le2^{31}-1$，所以最大n=30；不能因为无符号32位能表示 $2^{32}-1$，便认为int也能表示。\n\n（5）`7F80 0000H` 的阶码全1、尾数全0、符号0，表示正无穷。n=126时，精确数 $2^{127}-1$ 被舍入为 $2^{127}$，仍是有限数；n=127时，结果越过最大有限数并舍入为正无穷。因此不溢出的最大n=126。要完全精确，数列中n+1个连续1必须全部容纳在24位有效数中，最大n=23。两个上界分别来自指数范围与有效精度，不能互换。\n\n",
+      "passed": true
+    },
+    {
+      "id": "co-ex3-12:whole_example_unchanged",
+      "actual": "\n【2021】 假设计算机M的主存地址为24位，按字节编址；采用分页存储管理方式，虚拟地址为30位，页大小为4 KB；TLB采用2路组相联方式和LRU替换策略，共8组。请回答下列问题。\n\n（1）虚拟地址中哪几位表示虚页号？哪几位表示页内地址？\n\n（2）已知访问TLB时虚页号高位部分用作TLB标记，低位部分用作TLB组号，M的虚拟地址中哪几位是TLB标记？哪几位是TLB组号？\n\n（3）假设TLB初始时为空，访问的虚页号依次为10、12、16、7、26、4、12和20，在此过程中，哪一个虚页号对应的TLB表项被替换？说明理由。\n\n（4）若将M中的虚拟地址位数增加到32位，则TLB表项的位数增加几位？\n\n**解析。** 这里替换的是地址映射表项，先按VPN选TLB组，再在所选组内更新LRU；不依据物理页框号选组，也不对全部16项作一次全局LRU。\n\n（1）4 KB=$2^{12}$ B，故虚拟地址A11～A0为页内偏移，A29～A12共18位为VPN。物理地址24位只决定页框号为12位，不能据此把虚页号也截成12位。\n\n（2）8组需3位组号，取VPN最低3位，即虚拟地址A14～A12；余下A29～A15共15位为TLB标记。把字段写成位数核对：$15+3+12=30$。\n\n（3）题中虚页号均为十进制。组号为VPN mod 8，标记为 $\\lfloor\\mathrm{VPN}/8\\rfloor$。下表的状态从最久未使用到最近使用，只列本次选中的组。\n\n| 次序 | VPN | 组号 | 标记 | 命中与否 | 本次访问后该组的VPN次序 |\n|---:|---:|---:|---:|---|---|\n| 1 | 10 | 2 | 1 | 未命中，空行装入 | [10] |\n| 2 | 12 | 4 | 1 | 未命中，空行装入 | [12] |\n| 3 | 16 | 0 | 2 | 未命中，空行装入 | [16] |\n| 4 | 7 | 7 | 0 | 未命中，空行装入 | [7] |\n| 5 | 26 | 2 | 3 | 未命中，第二路装入 | [10,26] |\n| 6 | 4 | 4 | 0 | 未命中，第二路装入 | [12,4] |\n| 7 | 12 | 4 | 1 | 命中，更新最近次序 | [4,12] |\n| 8 | 20 | 4 | 2 | 未命中，淘汰4 | [12,20] |\n\n只有组4遇到第三个不同虚页。第7次命中12后，最久未用的是4，所以访问20时替换VPN=4的表项。若只按装入次序排队，会错误淘汰12；若只数全部已用项，还会误以为16项未满就无需替换。\n\n（4）页大小、组数和主存地址位数都不变。新增的2位虚拟地址属于VPN高位，全部进入TLB标记；页框号仍12位，故每个TLB表项增加2位。增加虚址位宽扩大了可区分的虚页范围，不会自动增加实际主存容量或TLB项数。\n\n",
+      "expected": "\n【2021】 假设计算机M的主存地址为24位，按字节编址；采用分页存储管理方式，虚拟地址为30位，页大小为4 KB；TLB采用2路组相联方式和LRU替换策略，共8组。请回答下列问题。\n\n（1）虚拟地址中哪几位表示虚页号？哪几位表示页内地址？\n\n（2）已知访问TLB时虚页号高位部分用作TLB标记，低位部分用作TLB组号，M的虚拟地址中哪几位是TLB标记？哪几位是TLB组号？\n\n（3）假设TLB初始时为空，访问的虚页号依次为10、12、16、7、26、4、12和20，在此过程中，哪一个虚页号对应的TLB表项被替换？说明理由。\n\n（4）若将M中的虚拟地址位数增加到32位，则TLB表项的位数增加几位？\n\n**解析。** 这里替换的是地址映射表项，先按VPN选TLB组，再在所选组内更新LRU；不依据物理页框号选组，也不对全部16项作一次全局LRU。\n\n（1）4 KB=$2^{12}$ B，故虚拟地址A11～A0为页内偏移，A29～A12共18位为VPN。物理地址24位只决定页框号为12位，不能据此把虚页号也截成12位。\n\n（2）8组需3位组号，取VPN最低3位，即虚拟地址A14～A12；余下A29～A15共15位为TLB标记。把字段写成位数核对：$15+3+12=30$。\n\n（3）题中虚页号均为十进制。组号为VPN mod 8，标记为 $\\lfloor\\mathrm{VPN}/8\\rfloor$。下表的状态从最久未使用到最近使用，只列本次选中的组。\n\n| 次序 | VPN | 组号 | 标记 | 命中与否 | 本次访问后该组的VPN次序 |\n|---:|---:|---:|---:|---|---|\n| 1 | 10 | 2 | 1 | 未命中，空行装入 | [10] |\n| 2 | 12 | 4 | 1 | 未命中，空行装入 | [12] |\n| 3 | 16 | 0 | 2 | 未命中，空行装入 | [16] |\n| 4 | 7 | 7 | 0 | 未命中，空行装入 | [7] |\n| 5 | 26 | 2 | 3 | 未命中，第二路装入 | [10,26] |\n| 6 | 4 | 4 | 0 | 未命中，第二路装入 | [12,4] |\n| 7 | 12 | 4 | 1 | 命中，更新最近次序 | [4,12] |\n| 8 | 20 | 4 | 2 | 未命中，淘汰4 | [12,20] |\n\n只有组4遇到第三个不同虚页。第7次命中12后，最久未用的是4，所以访问20时替换VPN=4的表项。若只按装入次序排队，会错误淘汰12；若只数全部已用项，还会误以为16项未满就无需替换。\n\n（4）页大小、组数和主存地址位数都不变。新增的2位虚拟地址属于VPN高位，全部进入TLB标记；页框号仍12位，故每个TLB表项增加2位。增加虚址位宽扩大了可区分的虚页范围，不会自动增加实际主存容量或TLB项数。\n\n",
+      "passed": true
+    },
+    {
+      "id": "co-ex3-13:whole_example_unchanged",
+      "actual": "\n典型示例（王道操作系统§3.2.9，摘编）。某系统按字节编址，虚拟地址14位、物理地址12位，页大小64 B；TLB共有16项，采用4路组相联；数据Cache采用物理地址、直接映射，共16行，每行4 B。以下只摘录本题涉及的状态，所有地址、标记、页号和数据均为十六进制，V为有效位，P为页表存在位。\n\n| TLB组号 | 路0：标记／V／页框 | 路1：标记／V／页框 | 路2：标记／V／页框 | 路3：标记／V／页框 |\n| --- | --- | --- | --- | --- |\n| 0 | 03／0／— | 00／0／— | 09／1／0D | 07／1／02 |\n| 3 | 07／0／— | 0A／1／34 | 03／1／0D | 02／0／— |\n\n| 虚页号 | 页框号 | P |\n| --- | --- | ---: |\n| 03 | 02 | 1 |\n| 08 | — | 0 |\n\n| Cache行号 | 标记 | V | 块内字节0 | 字节1 | 字节2 | 字节3 |\n| --- | --- | ---: | --- | --- | --- | --- |\n| 5 | 0D | 1 | 36 | 72 | F0 | 1D |\n| C | 02 | 0 | — | — | — | — |\n\n分别从上述初始状态读取虚拟地址03D4H、00F1H、0229H处的一个字节，说明地址转换、Cache查找及最终取数路径。题中P=0的项按合法但尚未驻留的页面处理；不要求推演缺页后的装入和替换。\n\n**解析。** 页大小为 $2^6$ B，虚拟地址低6位是页内偏移。TLB有 $16/4=4$ 组，取VPN低2位选组，因此虚拟地址字段依次为标记6位、TLB组号2位、页内偏移6位。物理Cache的块内偏移为2位，行号4位，标记为 $12-4-2=6$ 位。两次拆分的对象不同：先拆虚拟地址查映射，得到物理地址后再拆Cache字段。\n\n03D4H的VPN为0FH，页内偏移为14H；TLB组号为 $0\\mathrm{FH}\\bmod4=3$，标记为03H。组3中标记03H的项有效，得到页框0DH，物理地址为\n\n\\[\n0\\mathrm{DH}\\times40\\mathrm{H}+14\\mathrm{H}=354\\mathrm{H}.\n\\]\n\n再拆354H：Cache标记0DH、行号5、块内偏移0。第5行有效且标记相同，故命中，读到字节 **36H**。页内偏移14H不能直接当作Cache块内偏移；它还包含行号所需的位。\n\n00F1H的VPN为03H，页内偏移31H；TLB组号3、标记00H，组3没有有效的匹配项。继续查页表，VPN=03H的P=1、页框02H，所以**TLB未命中却没有缺页**。物理地址为 $02\\mathrm{H}\\times40\\mathrm{H}+31\\mathrm{H}=0\\mathrm{B1H}$。其Cache标记02H、行号CH、块内偏移1；第C行虽然保留标记02H，但V=0，仍是Cache未命中，须从主存取得该字节。题目未给出主存中的字节值，不能据表中无效内容补出答案。\n\n0229H的VPN为08H，页内偏移29H；TLB组号0、标记02H，未命中。页表中VPN=08H的P=0，发生缺页。当前没有可用于本次访问的页框号，因此停止这次正常查找，不再拼一个物理地址去查数据Cache。缺页处理完成、更新映射并重试后，才继续实际取数。\n\n三条路径的分岔依据分别是TLB有效匹配、页表驻留状态和Cache有效匹配。先说明在哪一步停止或转向，再统计时间与访存次数；本题没有给出页表访问是否经过Cache及各层时间，不能据这三条路径直接套一个平均时间公式。\n\n",
+      "expected": "\n典型示例（王道操作系统§3.2.9，摘编）。某系统按字节编址，虚拟地址14位、物理地址12位，页大小64 B；TLB共有16项，采用4路组相联；数据Cache采用物理地址、直接映射，共16行，每行4 B。以下只摘录本题涉及的状态，所有地址、标记、页号和数据均为十六进制，V为有效位，P为页表存在位。\n\n| TLB组号 | 路0：标记／V／页框 | 路1：标记／V／页框 | 路2：标记／V／页框 | 路3：标记／V／页框 |\n| --- | --- | --- | --- | --- |\n| 0 | 03／0／— | 00／0／— | 09／1／0D | 07／1／02 |\n| 3 | 07／0／— | 0A／1／34 | 03／1／0D | 02／0／— |\n\n| 虚页号 | 页框号 | P |\n| --- | --- | ---: |\n| 03 | 02 | 1 |\n| 08 | — | 0 |\n\n| Cache行号 | 标记 | V | 块内字节0 | 字节1 | 字节2 | 字节3 |\n| --- | --- | ---: | --- | --- | --- | --- |\n| 5 | 0D | 1 | 36 | 72 | F0 | 1D |\n| C | 02 | 0 | — | — | — | — |\n\n分别从上述初始状态读取虚拟地址03D4H、00F1H、0229H处的一个字节，说明地址转换、Cache查找及最终取数路径。题中P=0的项按合法但尚未驻留的页面处理；不要求推演缺页后的装入和替换。\n\n**解析。** 页大小为 $2^6$ B，虚拟地址低6位是页内偏移。TLB有 $16/4=4$ 组，取VPN低2位选组，因此虚拟地址字段依次为标记6位、TLB组号2位、页内偏移6位。物理Cache的块内偏移为2位，行号4位，标记为 $12-4-2=6$ 位。两次拆分的对象不同：先拆虚拟地址查映射，得到物理地址后再拆Cache字段。\n\n03D4H的VPN为0FH，页内偏移为14H；TLB组号为 $0\\mathrm{FH}\\bmod4=3$，标记为03H。组3中标记03H的项有效，得到页框0DH，物理地址为\n\n\\[\n0\\mathrm{DH}\\times40\\mathrm{H}+14\\mathrm{H}=354\\mathrm{H}.\n\\]\n\n再拆354H：Cache标记0DH、行号5、块内偏移0。第5行有效且标记相同，故命中，读到字节 **36H**。页内偏移14H不能直接当作Cache块内偏移；它还包含行号所需的位。\n\n00F1H的VPN为03H，页内偏移31H；TLB组号3、标记00H，组3没有有效的匹配项。继续查页表，VPN=03H的P=1、页框02H，所以**TLB未命中却没有缺页**。物理地址为 $02\\mathrm{H}\\times40\\mathrm{H}+31\\mathrm{H}=0\\mathrm{B1H}$。其Cache标记02H、行号CH、块内偏移1；第C行虽然保留标记02H，但V=0，仍是Cache未命中，须从主存取得该字节。题目未给出主存中的字节值，不能据表中无效内容补出答案。\n\n0229H的VPN为08H，页内偏移29H；TLB组号0、标记02H，未命中。页表中VPN=08H的P=0，发生缺页。当前没有可用于本次访问的页框号，因此停止这次正常查找，不再拼一个物理地址去查数据Cache。缺页处理完成、更新映射并重试后，才继续实际取数。\n\n三条路径的分岔依据分别是TLB有效匹配、页表驻留状态和Cache有效匹配。先说明在哪一步停止或转向，再统计时间与访存次数；本题没有给出页表访问是否经过Cache及各层时间，不能据这三条路径直接套一个平均时间公式。\n\n",
+      "passed": true
+    },
+    {
+      "id": "co-ex8-7:whole_example_unchanged",
+      "actual": "\n【2018】 假定计算机的主频为500 MHz，CPI为4。现有设备A和B，其数据传输率分别为2 MB/s和40 MB/s，对应I/O接口中各有一个32位数据缓冲寄存器。请回答下列问题，要求给出计算过程。\n\n（1）若设备A采用定时查询I/O方式，每次输入/输出都至少执行10条指令。设备A最多间隔多长时间查询一次才能不丢失数据？CPU用于设备A输入/输出的时间占CPU总时间的百分比至少是多少？\n\n（2）在中断I/O方式下，若每次中断响应和中断处理的总时钟周期数至少为400，则设备B能否采用中断I/O方式？为什么？\n\n（3）若设备B采用DMA方式，每次DMA传送的数据块大小为1000 B，CPU用于DMA预处理和后处理的总时钟周期数为500，则CPU用于设备B输入/输出的时间占CPU总时间的百分比最多是多少？\n\n**解析。** 数据率中的M按 $10^6$ 计，缓冲32位=4 B，CPU每秒有 $500\\times10^6$ 个时钟周期。先分别求设备填满缓冲的时间、CPU每次服务时间，再求长期比例，不把设备工作时间直接当作CPU忙碌时间。\n\n（1）A每准备4 B需要\n\n\\[\n\\Delta t_A=\\frac4{2\\times10^6}=2\\ \\mu\\mathrm s.\n\\]\n\n因此最多每2 μs就必须完成一次相应查询与取数；间隔更长，单个缓冲可能被下一组数据覆盖。每秒至少服务 $2\\times10^6/4=5\\times10^5$ 次；每次至少10×4=40周期，故CPU占用比例至少为\n\n\\[\n\\frac{(5\\times10^5)\\times40}{500\\times10^6}=4\\%.\n\\]\n\n每次这项服务最少耗时80 ns，2 μs是设备产生一缓冲数据的间隔，不是CPU每次都要执行2 μs。\n\n（2）B每4 B只允许 $4/(40\\times10^6)=0.1\\ \\mu\\mathrm s$，相当于50个CPU周期；一次中断响应与处理却至少需400周期=0.8 μs。每次服务还未完成，后续数据已连续到来，不能持续及时处理。按请求率核对，所需CPU比例为\n\n\\[\n\\frac{(40\\times10^6/4)\\times400}{500\\times10^6}=8=800\\%.\n\\]\n\n这表示所需服务能力超过CPU预算，不能解释成实际CPU利用率能达到800%。给定单缓冲与逐次中断模型下，设备B不适合这种中断I/O方式。\n\n（3）DMA把CPU事件粒度改成1000 B一块。以设备满速计，每秒最多 $40\\times10^6/1000=40000$ 块；每块CPU预处理和后处理500周期，所以CPU开销比例最多为\n\n\\[\n\\frac{40000\\times500}{500\\times10^6}=4\\%.\n\\]\n\n一块设备传送时间为25 μs，CPU设置收尾共1 μs，二者相除也得4%。这一项没有再乘CPI，因为题干已直接给时钟周期数。第（1）问的4%是由“至少10条指令”得到下界，本问的4%按最大设备速率得到上界；数值相同，含义不同。\n\nDMA的4%统计CPU设置收尾，并未把DMA占用总线的时间当作CPU执行时间。若另问整机吞吐是否可达40 MB/s，还须核总线与主存带宽；若另问CPU程序因此慢多少，还要看CPU同时是否需要这些资源。第7章的总线预算与本题CPU预算应分别算，再按共享资源关系连接。\n\n",
+      "expected": "\n【2018】 假定计算机的主频为500 MHz，CPI为4。现有设备A和B，其数据传输率分别为2 MB/s和40 MB/s，对应I/O接口中各有一个32位数据缓冲寄存器。请回答下列问题，要求给出计算过程。\n\n（1）若设备A采用定时查询I/O方式，每次输入/输出都至少执行10条指令。设备A最多间隔多长时间查询一次才能不丢失数据？CPU用于设备A输入/输出的时间占CPU总时间的百分比至少是多少？\n\n（2）在中断I/O方式下，若每次中断响应和中断处理的总时钟周期数至少为400，则设备B能否采用中断I/O方式？为什么？\n\n（3）若设备B采用DMA方式，每次DMA传送的数据块大小为1000 B，CPU用于DMA预处理和后处理的总时钟周期数为500，则CPU用于设备B输入/输出的时间占CPU总时间的百分比最多是多少？\n\n**解析。** 数据率中的M按 $10^6$ 计，缓冲32位=4 B，CPU每秒有 $500\\times10^6$ 个时钟周期。先分别求设备填满缓冲的时间、CPU每次服务时间，再求长期比例，不把设备工作时间直接当作CPU忙碌时间。\n\n（1）A每准备4 B需要\n\n\\[\n\\Delta t_A=\\frac4{2\\times10^6}=2\\ \\mu\\mathrm s.\n\\]\n\n因此最多每2 μs就必须完成一次相应查询与取数；间隔更长，单个缓冲可能被下一组数据覆盖。每秒至少服务 $2\\times10^6/4=5\\times10^5$ 次；每次至少10×4=40周期，故CPU占用比例至少为\n\n\\[\n\\frac{(5\\times10^5)\\times40}{500\\times10^6}=4\\%.\n\\]\n\n每次这项服务最少耗时80 ns，2 μs是设备产生一缓冲数据的间隔，不是CPU每次都要执行2 μs。\n\n（2）B每4 B只允许 $4/(40\\times10^6)=0.1\\ \\mu\\mathrm s$，相当于50个CPU周期；一次中断响应与处理却至少需400周期=0.8 μs。每次服务还未完成，后续数据已连续到来，不能持续及时处理。按请求率核对，所需CPU比例为\n\n\\[\n\\frac{(40\\times10^6/4)\\times400}{500\\times10^6}=8=800\\%.\n\\]\n\n这表示所需服务能力超过CPU预算，不能解释成实际CPU利用率能达到800%。给定单缓冲与逐次中断模型下，设备B不适合这种中断I/O方式。\n\n（3）DMA把CPU事件粒度改成1000 B一块。以设备满速计，每秒最多 $40\\times10^6/1000=40000$ 块；每块CPU预处理和后处理500周期，所以CPU开销比例最多为\n\n\\[\n\\frac{40000\\times500}{500\\times10^6}=4\\%.\n\\]\n\n一块设备传送时间为25 μs，CPU设置收尾共1 μs，二者相除也得4%。这一项没有再乘CPI，因为题干已直接给时钟周期数。第（1）问的4%是由“至少10条指令”得到下界，本问的4%按最大设备速率得到上界；数值相同，含义不同。\n\nDMA的4%统计CPU设置收尾，并未把DMA占用总线的时间当作CPU执行时间。若另问整机吞吐是否可达40 MB/s，还须核总线与主存带宽；若另问CPU程序因此慢多少，还要看CPU同时是否需要这些资源。第7章的总线预算与本题CPU预算应分别算，再按共享资源关系连接。\n\n",
+      "passed": true
+    }
+  ],
+  "filter": {
+    "path": "tools/book_images.lua",
+    "sha256": "26270841a4cb70f6796ce43a8a73b03c546db30e9d5fbfc44718f6ca4a0eeb6a"
+  },
+  "preamble": {
+    "path": "tools/book_preamble.tex",
+    "sha256": "6f844ecdfc53cc2af74f7701d849c3d22f049d8d055d9369808c5be24a8cf2bc"
+  }
+}

@@ -1,0 +1,104 @@
+[
+  {
+    "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+    "pages": 16,
+    "text_read_pages": "已提取全页文本；图读另记",
+    "candidate_figure_pages": [
+      5,
+      7
+    ],
+    "text_file": "editorial/revision2/CN_sources/4_2_1_slides.txt"
+  },
+  {
+    "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（纯净版无手稿）.pdf",
+    "pages": 16,
+    "text_read_pages": "已提取全页文本；图读另记",
+    "candidate_figure_pages": [
+      9
+    ],
+    "text_file": "editorial/revision2/CN_sources/5_3_1+2_slides.txt"
+  },
+  {
+    "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.2.1 UDP数据报.pdf",
+    "pages": 8,
+    "text_read_pages": "已提取全页文本；图读另记",
+    "candidate_figure_pages": [
+      5
+    ],
+    "text_file": "editorial/revision2/CN_sources/5_2_1_slides.txt"
+  },
+  {
+    "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.2.2 UDP检验.pdf",
+    "pages": 8,
+    "text_read_pages": "已提取全页文本；图读另记",
+    "candidate_figure_pages": [],
+    "text_file": "editorial/revision2/CN_sources/5_2_2_slides.txt"
+  },
+  {
+    "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.2 以太网与IEEE 802.3.pdf",
+    "pages": 13,
+    "text_read_pages": "已提取全页文本；图读另记",
+    "candidate_figure_pages": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "text_file": "editorial/revision2/CN_sources/3_6_2_slides.txt"
+  },
+  {
+    "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_3 电路交换、报文交换、分组交换.pdf",
+    "pages": 32,
+    "text_read_pages": "已提取全页文本；图读另记",
+    "candidate_figure_pages": [
+      11,
+      12,
+      15
+    ],
+    "text_file": "editorial/revision2/CN_sources/1_1_3_slides.txt"
+  },
+  {
+    "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_1 流量控制、可靠传输与滑动窗口机制.pdf",
+    "pages": 7,
+    "text_read_pages": "已提取全页文本；图读另记",
+    "candidate_figure_pages": [],
+    "text_file": "editorial/revision2/CN_sources/3_4_1_slides.txt"
+  },
+  {
+    "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_3 后退N帧协议（GBN）.pdf",
+    "pages": 30,
+    "text_read_pages": "已提取全页文本；图读另记",
+    "candidate_figure_pages": [],
+    "text_file": "editorial/revision2/CN_sources/3_4_3_slides.txt"
+  },
+  {
+    "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_4 选择重传协议（SR）.pdf",
+    "pages": 45,
+    "text_read_pages": "已提取全页文本；图读另记",
+    "candidate_figure_pages": [],
+    "text_file": "editorial/revision2/CN_sources/3_4_4_slides.txt"
+  },
+  {
+    "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.2 分层次的路由协议.pdf",
+    "pages": 6,
+    "text_read_pages": "已提取全页文本；图读另记",
+    "candidate_figure_pages": [],
+    "text_file": "editorial/revision2/CN_sources/4_4_2_slides.txt"
+  },
+  {
+    "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.4 电子邮件.pdf",
+    "pages": 11,
+    "text_read_pages": "已提取全页文本；图读另记",
+    "candidate_figure_pages": [
+      8
+    ],
+    "text_file": "editorial/revision2/CN_sources/6_4_slides.txt"
+  },
+  {
+    "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.5 WWW和HTTP.pdf",
+    "pages": 14,
+    "text_read_pages": "已提取全页文本；图读另记",
+    "candidate_figure_pages": [],
+    "text_file": "editorial/revision2/CN_sources/6_5_slides.txt"
+  }
+]

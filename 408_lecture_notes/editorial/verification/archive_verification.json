@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "archive": "dist/408讲义_首轮交付_含源码与编辑材料.zip",
+  "bytes": 62998302,
+  "sha256": "3c8578c492a1d07589c4e2ae9edc95b6ec8793519c5709ccf6350714ae6b223b",
+  "entries": 687,
+  "pdf_sha256": "2eac4d6a5d5a168f474f6ddb07afdd1752ba291b0015bd876687663b1066c690",
+  "visual_pdf_sha256": "2eac4d6a5d5a168f474f6ddb07afdd1752ba291b0015bd876687663b1066c690",
+  "frozen_visual_review_matches_pdf": true,
+  "searchable_text_checks": "P(empty)、signal(S_AC)、信号量均实查可搜索"
+}

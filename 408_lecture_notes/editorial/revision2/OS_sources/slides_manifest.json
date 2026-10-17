@@ -1,0 +1,44 @@
+[
+  {
+    "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.5_1 调度算法：先来先服务、最短作业优先、最高响应比优先.pdf",
+    "pages": 17,
+    "sha256": "156586600a1157f6f70a0a1fb61d9cf2f83b6446f11e4b0834d8903bd3655613",
+    "text": "editorial/revision2/OS_sources/2.2.5_1 调度算法：先来先服务、最短作业优先、最高响应比优先.txt",
+    "status": "文本已提取，实际核读范围另记"
+  },
+  {
+    "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.5_2 调度算法：时间片轮转、优先级、多级反馈队列.pdf",
+    "pages": 21,
+    "sha256": "6fdf33024c45ad2ea0102a81d6c11d7000cd1c102c17801100e2a0aecb745340",
+    "text": "editorial/revision2/OS_sources/2.2.5_2 调度算法：时间片轮转、优先级、多级反馈队列.txt",
+    "status": "文本已提取，实际核读范围另记"
+  },
+  {
+    "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_1 基本分页存储管理的基本概念.pdf",
+    "pages": 18,
+    "sha256": "3344fff1be242277f7992e0f3f9a9d9ba47f6ecf6d1267c77c0ba56093a43fc9",
+    "text": "editorial/revision2/OS_sources/3.1.3_1 基本分页存储管理的基本概念.txt",
+    "status": "文本已提取，实际核读范围另记"
+  },
+  {
+    "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.4 基本分段存储管理方式.pdf",
+    "pages": 13,
+    "sha256": "471c697462bffa977d2009bc94ed8f43888b89d16e64e266745aeaeedcf2f69d",
+    "text": "editorial/revision2/OS_sources/3.1.4 基本分段存储管理方式.txt",
+    "status": "文本已提取，实际核读范围另记"
+  },
+  {
+    "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.5 段页式管理方式.pdf",
+    "pages": 9,
+    "sha256": "27583f86dc602dc85318fc0cb3a4b65319792aa7a390e7b4d2765f23120193fc",
+    "text": "editorial/revision2/OS_sources/3.1.5 段页式管理方式.txt",
+    "status": "文本已提取，实际核读范围另记"
+  },
+  {
+    "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_4_文件的物理结构.pdf",
+    "pages": 30,
+    "sha256": "aadf34689a38b67798355d1d3a7db6375a6b67de8cb077b822da03d8bd6478fa",
+    "text": "editorial/revision2/OS_sources/4.1_4_文件的物理结构.txt",
+    "status": "文本已提取，实际核读范围另记"
+  }
+]

@@ -1,0 +1,2012 @@
+{
+  "subject": "CN",
+  "pdf": "dist/计算机网络_讲义.pdf",
+  "sha256": "05115c1c06596f0f65d19a5a5e63968a6706f8bb6592082dfead322b91ce610b",
+  "page_count": 58,
+  "page_labels": [
+    {
+      "startpage": 0,
+      "prefix": "",
+      "firstpagenum": 1,
+      "style": "a"
+    },
+    {
+      "startpage": 1,
+      "prefix": "",
+      "firstpagenum": 1,
+      "style": "r"
+    },
+    {
+      "startpage": 5,
+      "prefix": "",
+      "firstpagenum": 1,
+      "style": "D"
+    }
+  ],
+  "bookmarks": [
+    [
+      1,
+      "阅读约定",
+      5
+    ],
+    [
+      1,
+      "1 网络层次、服务与性能指标",
+      6
+    ],
+    [
+      2,
+      "1.1 网络由什么组成，提供什么能力",
+      6
+    ],
+    [
+      2,
+      "1.2 网络分类与拓扑描述的是哪些维度",
+      6
+    ],
+    [
+      2,
+      "1.3 发送、传播、排队：怎样确定时延",
+      7
+    ],
+    [
+      3,
+      "一个可直接检查单位的小例",
+      7
+    ],
+    [
+      2,
+      "1.4 分层与封装：对等层怎样交换数据",
+      7
+    ],
+    [
+      2,
+      "1.5 协议、服务和接口分别约束谁",
+      8
+    ],
+    [
+      2,
+      "1.6 OSI 与 TCP/IP：先看模型，再看端点",
+      9
+    ],
+    [
+      3,
+      "例 1-1　端到端服务从哪层开始",
+      9
+    ],
+    [
+      3,
+      "例 1-2　相邻节点间的流量控制",
+      9
+    ],
+    [
+      2,
+      "1.7 自测与答案",
+      10
+    ],
+    [
+      1,
+      "2 物理层：信号、速率与交换",
+      11
+    ],
+    [
+      2,
+      "2.1 数据、信号、码元与两种带宽",
+      11
+    ],
+    [
+      2,
+      "2.2 奈奎斯特与香农：哪个条件限制了速率",
+      11
+    ],
+    [
+      3,
+      "例 2-1　由调制状态数求最大速率",
+      12
+    ],
+    [
+      3,
+      "例 2-2　增加信噪比是否一定提高固定调制的极限",
+      12
+    ],
+    [
+      2,
+      "2.3 编码、调制与 PCM 怎样区分",
+      12
+    ],
+    [
+      2,
+      "2.4 电路、报文和分组交换如何沿时间线计算",
+      13
+    ],
+    [
+      3,
+      "例 2-3　时延带宽积先转成传播时间",
+      14
+    ],
+    [
+      2,
+      "2.5 数据报与虚电路：连接不等于电路",
+      15
+    ],
+    [
+      3,
+      "例 2-4　虚电路必须预留带宽吗",
+      15
+    ],
+    [
+      2,
+      "2.6 传输介质：比较受什么条件约束",
+      15
+    ],
+    [
+      2,
+      "2.7 物理层接口规定什么，不规定什么",
+      16
+    ],
+    [
+      3,
+      "例 2-5　MAC 地址属于物理层接口规范吗",
+      16
+    ],
+    [
+      2,
+      "2.8 中继器与集线器：再生比特，不解释地址",
+      16
+    ],
+    [
+      2,
+      "2.9 自测与答案",
+      16
+    ],
+    [
+      1,
+      "3 数据链路层：帧、重传与介质访问",
+      17
+    ],
+    [
+      2,
+      "3.1 一跳链路提供什么功能",
+      17
+    ],
+    [
+      2,
+      "3.2 怎样从连续比特中划出帧",
+      17
+    ],
+    [
+      3,
+      "例 3-1　填充按连续1计数，不按字节重置",
+      18
+    ],
+    [
+      2,
+      "3.3 奇偶校验与 CRC：检验通过能推出什么",
+      18
+    ],
+    [
+      3,
+      "例 3-2　找出满足生成式的接收串",
+      18
+    ],
+    [
+      2,
+      "3.4 码距与海明码：怎样从检验位定位单错",
+      19
+    ],
+    [
+      3,
+      "例 3-3　先比较所有码字，再谈纠错",
+      19
+    ],
+    [
+      2,
+      "3.5 反馈、计时器与窗口分别解决什么",
+      20
+    ],
+    [
+      2,
+      "3.6 停止—等待：为什么序号至少有0和1",
+      20
+    ],
+    [
+      3,
+      "例 3-4　长确认不能从周期中消失",
+      20
+    ],
+    [
+      2,
+      "3.7 GBN：累计确认越过了哪些帧",
+      21
+    ],
+    [
+      3,
+      "例 3-5　收到哪些确认，不等于只收到哪些数据",
+      21
+    ],
+    [
+      3,
+      "例 3-6　先求填满链路的窗口，再求序号位数",
+      21
+    ],
+    [
+      2,
+      "3.8 SR：缓存失序帧为何仍不能立即滑窗",
+      21
+    ],
+    [
+      2,
+      "3.9 频分、时分、波分与码分怎样共享介质",
+      22
+    ],
+    [
+      3,
+      "例 3-7　CDMA 先按码片分组，再做内积",
+      22
+    ],
+    [
+      2,
+      "3.10 ALOHA 与 CSMA：监听为何不能消除冲突",
+      23
+    ],
+    [
+      2,
+      "3.11 CSMA/CD：最短帧与网络跨度的关系",
+      23
+    ],
+    [
+      3,
+      "例 3-8　最短帧缩短后要缩短多少电缆",
+      23
+    ],
+    [
+      2,
+      "3.12 CSMA/CA、确认与 NAV：隐藏站等到何时",
+      24
+    ],
+    [
+      3,
+      "例 3-9　收到 CTS 后只计算剩余时间",
+      24
+    ],
+    [
+      2,
+      "3.13 令牌传递与轮询：如何给出有界的使用机会",
+      25
+    ],
+    [
+      2,
+      "3.14 局域网与 IEEE 802 的层次",
+      25
+    ],
+    [
+      2,
+      "3.15 以太网帧、MAC 地址与有效载荷",
+      25
+    ],
+    [
+      2,
+      "3.16 802.11：接收者、发送者和原始端点可能不同",
+      26
+    ],
+    [
+      2,
+      "3.17 VLAN：广播域如何跨交换机延伸",
+      26
+    ],
+    [
+      3,
+      "例 3-10　填充前先识别有无标签",
+      26
+    ],
+    [
+      2,
+      "3.18 广域链路与 PPP：不需要争用不等于没有成帧",
+      27
+    ],
+    [
+      2,
+      "3.19 交换机如何学习、过滤和转发",
+      27
+    ],
+    [
+      3,
+      "例 3-11　直通交换最早何时能决定出口",
+      27
+    ],
+    [
+      2,
+      "3.20 自测与答案",
+      28
+    ],
+    [
+      1,
+      "4 网络层：地址、路由与逐跳转发",
+      29
+    ],
+    [
+      2,
+      "4.1 路由与转发：先选路径，再逐包查表",
+      29
+    ],
+    [
+      2,
+      "4.2 SDN：控制平面与数据平面怎样分工",
+      29
+    ],
+    [
+      2,
+      "4.3 拥塞与流量控制：瓶颈究竟在哪里",
+      30
+    ],
+    [
+      2,
+      "4.4 静态、动态与层次路由",
+      30
+    ],
+    [
+      2,
+      "4.5 距离—向量：邻居报出的距离还要加哪一段",
+      30
+    ],
+    [
+      3,
+      "例 4-1　逐列做加法，再比较候选",
+      30
+    ],
+    [
+      2,
+      "4.6 链路状态：全网拓扑怎样变成最短路径树",
+      31
+    ],
+    [
+      2,
+      "4.7 IPv4 首部、MTU 与分片重组",
+      31
+    ],
+    [
+      3,
+      "例 4-2　为何800 B链路上的分片总长只有796 B",
+      31
+    ],
+    [
+      2,
+      "4.8 子网掩码、CIDR 与可分配地址",
+      32
+    ],
+    [
+      3,
+      "例 4-3　非整字节前缀怎样求地址边界",
+      32
+    ],
+    [
+      3,
+      "例 4-4　``完整划成5个子网''限制了最深分支",
+      33
+    ],
+    [
+      2,
+      "4.9 路由聚合与最长前缀匹配",
+      33
+    ],
+    [
+      3,
+      "例 4-5　四个 /21 应缩短几位",
+      33
+    ],
+    [
+      2,
+      "4.10 NAT：为什么地址变了，传输层校验也要变",
+      34
+    ],
+    [
+      2,
+      "4.11 ARP 与逐跳 MAC：最终目的和当前下一跳分开算",
+      34
+    ],
+    [
+      3,
+      "例 4-6　相差几个第三字节，仍可能在同一子网",
+      34
+    ],
+    [
+      2,
+      "4.12 DHCP：请求一个地址不等于已经拥有它",
+      35
+    ],
+    [
+      3,
+      "例 4-7　初始 DHCPREQUEST 的源、目的IP",
+      35
+    ],
+    [
+      2,
+      "4.13 ICMP：报告差错不等于替原分组重传",
+      36
+    ],
+    [
+      3,
+      "例 4-8　历史 ICMP 题要保留协议年代",
+      36
+    ],
+    [
+      2,
+      "4.14 IPv6：基本首部固定，不代表没有扩展",
+      36
+    ],
+    [
+      3,
+      "例 4-9　地址位数增加96，不是地址数乘96",
+      37
+    ],
+    [
+      2,
+      "4.15 自治系统：域内最短与域间策略分开",
+      37
+    ],
+    [
+      2,
+      "4.16 RIP：加1更新，16表示不可达",
+      37
+    ],
+    [
+      2,
+      "4.17 OSPF：区域怎样限制拓扑细节",
+      38
+    ],
+    [
+      2,
+      "4.18 BGP：AS_PATH 是路径向量，不是链路状态",
+      38
+    ],
+    [
+      2,
+      "4.19 IP 组播：分支复制放在哪里",
+      38
+    ],
+    [
+      2,
+      "4.20 移动 IP：位置改变后，固定地址怎样仍能被找到",
+      38
+    ],
+    [
+      2,
+      "4.21 路由器内部：查表后为何仍可能排队",
+      39
+    ],
+    [
+      2,
+      "4.22 自测与答案",
+      39
+    ],
+    [
+      1,
+      "5 传输层：端口、可靠传输与 TCP 窗口",
+      40
+    ],
+    [
+      2,
+      "5.1 端口与套接字：一个IP为什么能运行多个服务",
+      40
+    ],
+    [
+      3,
+      "例 5-1　谁决定这个 UDP 数据报交给哪个本机服务",
+      40
+    ],
+    [
+      2,
+      "5.2 UDP：8字节首部保留了哪些边界",
+      40
+    ],
+    [
+      2,
+      "5.3 反码校验和：进位为什么要加回低位",
+      41
+    ],
+    [
+      3,
+      "例 5-2　少做一次回卷，会错在哪一位",
+      41
+    ],
+    [
+      2,
+      "5.4 TCP 序号、确认号与控制位怎样一起读",
+      41
+    ],
+    [
+      3,
+      "例 5-3　最后收到的字节与确认号相差1",
+      42
+    ],
+    [
+      2,
+      "5.5 三次握手与连接释放：状态变化由哪个事件触发",
+      42
+    ],
+    [
+      3,
+      "例 5-4　至少关闭时间要从FIN开始画",
+      43
+    ],
+    [
+      2,
+      "5.6 确认、重传与 RTT 估计",
+      43
+    ],
+    [
+      2,
+      "5.7 接收窗口：总额度与剩余额度怎样区分",
+      43
+    ],
+    [
+      2,
+      "5.8 慢开始、拥塞避免与 Reno 的丢包反应",
+      44
+    ],
+    [
+      3,
+      "例 5-5　没有拥塞，不代表一定指数增长",
+      44
+    ],
+    [
+      2,
+      "5.9 两个窗口与在途数据：本次究竟还能发多少",
+      45
+    ],
+    [
+      3,
+      "例 5-6　ACK 只移走已经确认的那一段",
+      45
+    ],
+    [
+      3,
+      "例 5-7　拥塞窗口变大后，接收窗口仍可成为上限",
+      46
+    ],
+    [
+      2,
+      "5.10 自测与答案",
+      46
+    ],
+    [
+      1,
+      "6 应用层：一次请求的通信过程",
+      47
+    ],
+    [
+      2,
+      "6.1 C/S 与 P2P：角色由谁发起服务请求决定",
+      47
+    ],
+    [
+      2,
+      "6.2 DNS 层次、服务器与区",
+      47
+    ],
+    [
+      2,
+      "6.3 递归、迭代与缓存：谁又发了一次查询",
+      48
+    ],
+    [
+      3,
+      "例 6-1　问的是本地服务器发出多少次查询",
+      48
+    ],
+    [
+      2,
+      "6.4 FTP：控制命令与文件数据为什么分两条连接",
+      49
+    ],
+    [
+      3,
+      "例 6-2　传递 FTP 命令使用哪条连接",
+      49
+    ],
+    [
+      2,
+      "6.5 邮件系统、邮件格式与 MIME",
+      49
+    ],
+    [
+      2,
+      "6.6 SMTP 负责发送，POP3 负责读取",
+      50
+    ],
+    [
+      3,
+      "例 6-3　一次 POP3 连接可以读几封邮件",
+      50
+    ],
+    [
+      2,
+      "6.7 WWW、URL 与资源位置",
+      50
+    ],
+    [
+      2,
+      "6.8 HTTP 请求、连接复用、缓存与时延",
+      51
+    ],
+    [
+      3,
+      "例 6-4　非持久且不允许并行，要算上 HTML 本身",
+      51
+    ],
+    [
+      3,
+      "例 6-5　流水线仍不能跨过资源发现依赖",
+      51
+    ],
+    [
+      3,
+      "例 6-6　DNS 与 Web 的时间由哪几项组成",
+      52
+    ],
+    [
+      3,
+      "例 6-7　收到 HTML 后，拥塞窗口还限制图片分几轮",
+      53
+    ],
+    [
+      2,
+      "6.9 自测与答案",
+      53
+    ],
+    [
+      1,
+      "题目索引",
+      54
+    ],
+    [
+      1,
+      "方法索引",
+      56
+    ]
+  ],
+  "pages": [
+    {
+      "physical_page": 1,
+      "label": "a",
+      "characters": 52,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        10.91,
+        15.94,
+        31.88
+      ]
+    },
+    {
+      "physical_page": 2,
+      "label": "i",
+      "characters": 1943,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        10.91,
+        22.91
+      ]
+    },
+    {
+      "physical_page": 3,
+      "label": "ii",
+      "characters": 2539,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91
+      ]
+    },
+    {
+      "physical_page": 4,
+      "label": "iii",
+      "characters": 1483,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91
+      ]
+    },
+    {
+      "physical_page": 5,
+      "label": "iv",
+      "characters": 240,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        10.91,
+        22.91
+      ]
+    },
+    {
+      "physical_page": 6,
+      "label": "1",
+      "characters": 1162,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        10.91,
+        14.35,
+        22.91
+      ]
+    },
+    {
+      "physical_page": 7,
+      "label": "2",
+      "characters": 1194,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 8,
+      "label": "3",
+      "characters": 892,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        8.55,
+        9.0,
+        9.96,
+        10.8,
+        10.91,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 9,
+      "label": "4",
+      "characters": 1192,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 10,
+      "label": "5",
+      "characters": 302,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 11,
+      "label": "6",
+      "characters": 971,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        10.91,
+        14.35,
+        22.91
+      ]
+    },
+    {
+      "physical_page": 12,
+      "label": "7",
+      "characters": 1233,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 13,
+      "label": "8",
+      "characters": 885,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.0,
+        9.9,
+        9.96,
+        10.35,
+        10.91,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 14,
+      "label": "9",
+      "characters": 719,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        8.55,
+        8.9,
+        9.0,
+        9.45,
+        9.79,
+        9.96,
+        10.35,
+        10.91,
+        11.96
+      ]
+    },
+    {
+      "physical_page": 15,
+      "label": "10",
+      "characters": 1153,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 16,
+      "label": "11",
+      "characters": 1206,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 17,
+      "label": "12",
+      "characters": 1048,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        14.35,
+        22.91
+      ]
+    },
+    {
+      "physical_page": 18,
+      "label": "13",
+      "characters": 1096,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 19,
+      "label": "14",
+      "characters": 1267,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 20,
+      "label": "15",
+      "characters": 1061,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 21,
+      "label": "16",
+      "characters": 1121,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 22,
+      "label": "17",
+      "characters": 1079,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.0,
+        9.45,
+        9.96,
+        10.35,
+        10.8,
+        10.91,
+        11.96,
+        14.35,
+        14.4
+      ]
+    },
+    {
+      "physical_page": 23,
+      "label": "18",
+      "characters": 1391,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 24,
+      "label": "19",
+      "characters": 1032,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        8.1,
+        9.0,
+        9.45,
+        9.96,
+        10.8,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 25,
+      "label": "20",
+      "characters": 1116,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 26,
+      "label": "21",
+      "characters": 1212,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 27,
+      "label": "22",
+      "characters": 1077,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.0,
+        9.9,
+        9.96,
+        10.35,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 28,
+      "label": "23",
+      "characters": 623,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 29,
+      "label": "24",
+      "characters": 992,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        10.91,
+        14.35,
+        22.91
+      ]
+    },
+    {
+      "physical_page": 30,
+      "label": "25",
+      "characters": 1072,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 31,
+      "label": "26",
+      "characters": 1363,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 32,
+      "label": "27",
+      "characters": 1129,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        8.55,
+        9.0,
+        9.9,
+        9.96,
+        10.35,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 33,
+      "label": "28",
+      "characters": 1421,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 34,
+      "label": "29",
+      "characters": 1129,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.0,
+        9.9,
+        9.96,
+        10.8,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 35,
+      "label": "30",
+      "characters": 1007,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        8.78,
+        9.22,
+        9.65,
+        9.96,
+        10.09,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 36,
+      "label": "31",
+      "characters": 1435,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 37,
+      "label": "32",
+      "characters": 1059,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 38,
+      "label": "33",
+      "characters": 1273,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 39,
+      "label": "34",
+      "characters": 1069,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 40,
+      "label": "35",
+      "characters": 1013,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        10.91,
+        11.96,
+        14.35,
+        22.91
+      ]
+    },
+    {
+      "physical_page": 41,
+      "label": "36",
+      "characters": 1151,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 42,
+      "label": "37",
+      "characters": 1192,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.25,
+        9.96,
+        10.13,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 43,
+      "label": "38",
+      "characters": 1337,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 44,
+      "label": "39",
+      "characters": 1228,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 45,
+      "label": "40",
+      "characters": 931,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.15,
+        9.59,
+        9.96,
+        10.46,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 46,
+      "label": "41",
+      "characters": 990,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 47,
+      "label": "42",
+      "characters": 1028,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        10.91,
+        14.35,
+        22.91
+      ]
+    },
+    {
+      "physical_page": 48,
+      "label": "43",
+      "characters": 1026,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.36,
+        7.77,
+        8.18,
+        9.82,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 49,
+      "label": "44",
+      "characters": 1029,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 50,
+      "label": "45",
+      "characters": 1156,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 51,
+      "label": "46",
+      "characters": 1180,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 52,
+      "label": "47",
+      "characters": 739,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        8.64,
+        9.09,
+        9.25,
+        9.54,
+        9.96,
+        10.0,
+        10.13,
+        10.91,
+        11.96
+      ]
+    },
+    {
+      "physical_page": 53,
+      "label": "48",
+      "characters": 1141,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 54,
+      "label": "49",
+      "characters": 711,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        10.91,
+        22.91
+      ]
+    },
+    {
+      "physical_page": 55,
+      "label": "50",
+      "characters": 628,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91
+      ]
+    },
+    {
+      "physical_page": 56,
+      "label": "51",
+      "characters": 573,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        10.91,
+        22.91
+      ]
+    },
+    {
+      "physical_page": 57,
+      "label": "52",
+      "characters": 754,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91
+      ]
+    },
+    {
+      "physical_page": 58,
+      "label": "53",
+      "characters": 212,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91
+      ]
+    }
+  ],
+  "bad_internal_links": [],
+  "internal_link_count": 204,
+  "scope": "PDF结构、文本边界与实际逐页渲染；不能代替知识核验或人工视觉检查。",
+  "latex": {
+    "missing_glyph": [],
+    "overfull": [],
+    "undefined": [],
+    "float_too_large": [],
+    "duplicate_destination": []
+  },
+  "embedded_font_names": [
+    "BORNPX+NotoSansCJKsc-Regular",
+    "BRUBKG+NotoSansCJKsc-Bold",
+    "CBLMRI+NotoSansCJKsc-Bold",
+    "CONNJU+NotoSansCJKsc-Regular",
+    "DSTHBY+NotoSansCJKsc-Regular",
+    "EDLTXG+NotoSansCJKjp-Regular-Identity-H",
+    "EXSQGY+CMMI8",
+    "GADEFH+CMEX10",
+    "HBLEZC+NotoSansCJKsc-Regular",
+    "HIWYDI+NotoSansCJKsc-Regular",
+    "HUTDKR+CMR8",
+    "IMUUDO+NotoSansCJKsc-Bold",
+    "KRWLST+NotoSansCJKsc-Bold",
+    "KTBVGV+NotoSansCJKsc-Regular",
+    "LJOGDP+NotoSansCJKsc-Regular",
+    "MMQSKF+NotoSansCJKsc-Bold",
+    "OQFPEX+NotoSansCJKsc-Regular",
+    "PBBNFT+CMR10",
+    "PKVLWI+CMSY10",
+    "QZBBZB+NotoSansCJKsc-Bold",
+    "RIAKRZ+NotoSansCJKjp-Regular-Identity-H",
+    "RUOEYD+NotoSansCJKsc-Regular",
+    "RVDTBA+NotoSansCJKsc-Bold",
+    "SUZMVF+NotoSans-Regular",
+    "TLHNXO+NotoSansCJKsc-Bold",
+    "TNEAEA+NotoSerifCJKjp-Bold-Identity-H",
+    "TPQDVS+NotoSansCJKsc-Regular",
+    "UHKEPW+NotoSansCJKsc-Bold",
+    "UNEWFV+NotoSansCJKjp-Bold-Identity-H",
+    "UOEAUF+NotoSansCJKsc-Regular",
+    "WSUQFL+NotoSerifCJKjp-Regular-Identity-H",
+    "XCVNDP+CMMI10",
+    "XESDYO+NotoSans-Bold",
+    "XXGTWV+CMSY8",
+    "YBHKPP+NotoSansCJKsc-Bold",
+    "YPJBAX+NotoSansCJKsc-Bold",
+    "YZMGCM+NotoSansCJKsc-Regular",
+    "ZBGFOO+NotoSansCJKsc-Bold",
+    "ZIPHTN+NotoSansCJKsc-Regular",
+    "ZJOKRD+NotoSansCJKsc-Regular",
+    "ZKPPVD+NotoSansCJKjp-Bold-Identity-H",
+    "ZLQXSV+NotoSansCJKsc-Bold",
+    "ZRWDHB+NotoSansCJKsc-Bold",
+    "ZTXLNL+NotoSansCJKsc-Regular",
+    "ZXCQBD+NotoSansCJKsc-Bold"
+  ],
+  "font_faces_verified": true,
+  "font_note": "SC由TTC面索引2/2/7及cmap确定；共享CFF的jp内部名不表示选用了日文字形。",
+  "reader_text_policy_findings": [],
+  "contact_sheets": [
+    {
+      "path": "build/CN/rendered/contact_001.png",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_002.png",
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_003.png",
+      "pages": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_004.png",
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_005.png",
+      "pages": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_006.png",
+      "pages": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_007.png",
+      "pages": [
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_008.png",
+      "pages": [
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_009.png",
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_010.png",
+      "pages": [
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_011.png",
+      "pages": [
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_012.png",
+      "pages": [
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_013.png",
+      "pages": [
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_014.png",
+      "pages": [
+        53,
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "path": "build/CN/rendered/contact_015.png",
+      "pages": [
+        57,
+        58
+      ]
+    }
+  ],
+  "all_pages_rendered": true,
+  "visual_status": "未由本脚本判断；人工检查记录另存，须绑定本PDF的SHA256。",
+  "structural_status": "PASS"
+}

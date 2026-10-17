@@ -1,0 +1,2402 @@
+[
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/02_数据表示与运算.md",
+    "manuscript_sha256": "b1ec19572cc7e099b0bb015647640ee1b847c73877f8c5ecc1876a8997c5bfa6",
+    "heading": "2-7　负小数怎样组成单精度机器数 {#co-ex2-7}",
+    "year": 2022,
+    "exam_question": 14,
+    "manuscript_stem": "−0.4375的 IEEE 754 单精度浮点数表示为（　）。\n\nA. BEE0 0000H　 B. BF60 0000H　 C. BF70 0000H　 D. C0E0 0000H",
+    "exam_text": "14.－0.4375 的IEEE 754 单精度浮点数表示为        。 \nA. BEE0 0000H \nB. BF60 0000H \nC. BF70 0000H \nD. C0E0 0000H",
+    "exam_page": 2,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 40,
+      "year": 2022,
+      "section": "2.3",
+      "native_text": "40.【2022 统考真题】-0.4375 的IEEE754 单精度浮点数表示为(\n)\nA. BEE0 0000H\nB. BF60 0000H\nC. BF70 0000H\nD. C0E0 0000H",
+      "horizontal_page": 143
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO2-7",
+    "book_answer": {
+      "num": 40,
+      "answer": "A",
+      "page": 83,
+      "y": 605.0400000000001,
+      "line": "40. A",
+      "crops": [
+        {
+          "page": 83,
+          "bbox": [
+            54,
+            605.0400000000001,
+            489,
+            705
+          ]
+        },
+        {
+          "page": 84,
+          "bbox": [
+            54,
+            71,
+            489,
+            75.12
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "2.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO2-7_book_answer_1.png",
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO2-7_book_answer_2.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO2-7_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/02_数据表示与运算.md",
+    "manuscript_sha256": "b1ec19572cc7e099b0bb015647640ee1b847c73877f8c5ecc1876a8997c5bfa6",
+    "heading": "2-8　同为负浮点数时怎样比较 {#co-ex2-8}",
+    "year": 2014,
+    "exam_question": 14,
+    "manuscript_stem": "float 型数据常用 IEEE 754 单精度浮点格式表示。假设两个 float 型变量 x 和 y 分别存放在32位寄存器 f1 和 f2 中，若 `(f1)=CC90 0000H`、`(f2)=B0C0 0000H`，则 x 和 y 之间的关系为（　）。\n\nA. x<y且符号相同　 B. x<y且符号不同　 C. x>y且符号相同　 D. x>y且符号不同",
+    "exam_text": "14.float 型数据常用IEEE754 单精度浮点格式表示。假设两个float 型变量x 和y 分别存放在32 位寄\n存器f1和f2中，若(f1)=CC90 0000H, (f2)= B0C0 0000H, 则x 和y 之间的关系为        。 \nA. x < y 且符号相同 \nB. x < y 且符号不同 \nC. x > y 且符号相同 \nD. x > y 且符号不同",
+    "exam_page": 2,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 32,
+      "year": 2014,
+      "section": "2.3",
+      "native_text": "32.【2014 统考真题】float 型数据常用IEEE754 单精度浮点格式表示。假设两个float 型变量x 和y\n分别存放在32 位寄存器f 1 和f 2 中，若( f 1) = CC90 0000H，( f 2) = B0C0 0000H，则x 和y 之间\n的关系为(\n)\nA. x < y 且符号相同\nB. x < y 且符号不同\nC. x > y 且符号相同\nD. x > y 且符号不同",
+      "horizontal_page": 135
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO2-8",
+    "book_answer": {
+      "num": 32,
+      "answer": "A",
+      "page": 82,
+      "y": 511.80000000000007,
+      "line": "32. A",
+      "crops": [
+        {
+          "page": 82,
+          "bbox": [
+            54,
+            511.80000000000007,
+            489,
+            601.8000000000001
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "2.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO2-8_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO2-8_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/02_数据表示与运算.md",
+    "manuscript_sha256": "b1ec19572cc7e099b0bb015647640ee1b847c73877f8c5ecc1876a8997c5bfa6",
+    "heading": "2-9　哪些步骤可能造成指数越界 {#co-ex2-9}",
+    "year": 2015,
+    "exam_question": 14,
+    "manuscript_stem": "下列有关浮点数加减运算的叙述中，正确的是（　）。\n\nI. 对阶操作不会引起阶码上溢或下溢  \nII. 右规和尾数舍入都可能引起阶码上溢  \nIII. 左规时可能引起阶码下溢  \nIV. 尾数溢出时，结果不一定溢出\n\nA. 仅 II、III　 B. 仅 I、II、IV　 C. 仅 I、III、IV　 D. I、II、III、IV",
+    "exam_text": "14.下列有关浮点数加减运算的叙述中，正确的是        。 \nI. 对阶操作不会引起阶码上溢或下溢 \nII. 右规和尾数舍入都可能引起阶码上溢 \nIII. 左规时可能引起阶码下溢 \nIV. 尾数溢出时，结果不一定溢出 \nA. 仅II、III \nB. 仅I、II、IV \nC. 仅I、III、IV \nD. I、II、III、IV",
+    "exam_page": 2,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 33,
+      "year": 2015,
+      "section": "2.3",
+      "native_text": "33.【2015 统考真题】下列有关浮点数加减运算的叙述中,正确的是(\n)\nI.对阶操作不会引起阶码上溢或下溢\nII.右规和尾数舍入都可能引起阶码上溢\nIII.左规时可能引起阶码下溢\nIV.尾数溢出时结果不一定溢出\nA. 仅II、III\nB. 仅I、II、IV\nC. 仅I、III、IV\nD. I、II、III、IV",
+      "horizontal_page": 136
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO2-9",
+    "book_answer": {
+      "num": 33,
+      "answer": "D",
+      "page": 82,
+      "y": 601.8000000000001,
+      "line": "33. D",
+      "crops": [
+        {
+          "page": 82,
+          "bbox": [
+            54,
+            601.8000000000001,
+            489,
+            661.9200000000001
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "2.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO2-9_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO2-9_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/03_存储系统与地址.md",
+    "manuscript_sha256": "9a30b2900bca1947b65adbfad041fc11ed816f93c10500561544ffb0e40851e0",
+    "heading": "3-1　DRAM 的复用地址怎样计数 {#co-ex3-1}",
+    "year": 2014,
+    "exam_question": 15,
+    "manuscript_stem": "某容量为256 MB的存储器由若干 $4\\mathrm M\\times8$ 位的 DRAM 芯片构成，该 DRAM 芯片的地址引脚和数据引脚总数是（　）。\n\nA. 19　 B. 22　 C. 30　 D. 36",
+    "exam_text": "15.某容量为256MB 的存储器由若干4Mx8 位的DRAM 芯片构成，该DRAM 芯片的地址引脚和数\n据引脚总数是        。 \nA. 19 \nB. 22 \nC. 30 \nD. 36",
+    "exam_page": 2,
+    "exam_match_score": 0.9896907216494846,
+    "wangdao_match_score": 0.9896907216494846,
+    "wangdao_location": {
+      "question_number": 32,
+      "year": 2014,
+      "section": "3.2",
+      "native_text": "32.【2014 统考真题】某容量为256MB 的存储器由若干4M × 8 位的DRAM 芯片构成,该DRAM 芯片\n的地址引脚和数据引脚总数是(\n)\nA. 19\nB. 22\nC. 30\nD. 36",
+      "horizontal_page": 191
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO3-1",
+    "book_answer": {
+      "num": 32,
+      "answer": "A",
+      "page": 107,
+      "y": 337.92,
+      "line": "32. A",
+      "crops": [
+        {
+          "page": 107,
+          "bbox": [
+            54,
+            337.92,
+            489,
+            413.88
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "3.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-1_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-1_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/03_存储系统与地址.md",
+    "manuscript_sha256": "9a30b2900bca1947b65adbfad041fc11ed816f93c10500561544ffb0e40851e0",
+    "heading": "3-2　已安装容量不是全部可编址空间 {#co-ex3-2}",
+    "year": 2011,
+    "exam_question": 15,
+    "manuscript_stem": "某计算机存储器按字节编址，主存地址空间大小为64 MB，现用 $4\\mathrm M\\times8$ 位的 RAM 芯片组成32 MB的主存储器，则存储器地址寄存器 MAR 的位数至少是（　）。\n\nA. 22位　 B. 23位　 C. 25位　 D. 26位",
+    "exam_text": "15. 某计算机存储器按字节编址，主存地址空间大小为64MB, 现用4MB×8 位的RAM 芯片组成\n32MB 的主存储器， 则存储器地址寄存器MAR 的位数至少是       。 \nA. 22 位 \n \n \n \nB. 23 位 \n \n \n \nC. 25 位 \n \n \nD. 26 位",
+    "exam_page": 2,
+    "exam_match_score": 0.9927007299270073,
+    "wangdao_match_score": 0.9927007299270073,
+    "wangdao_location": {
+      "question_number": 12,
+      "year": 2011,
+      "section": "3.3",
+      "native_text": "12.【2011 统考真题】某计算机存储器按字节编址, 主存地址空间大小为64MB, 现用4M × 8 位的\nRAM 芯片组成32MB 的主存储器,则存储器地址寄存器MAR 的位数至少是(\n)\nA. 22 位\nB. 23 位\nC. 25 位\nD. 26 位",
+      "horizontal_page": 208
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO3-2",
+    "book_answer": {
+      "num": 12,
+      "answer": "D",
+      "page": 113,
+      "y": 593.52,
+      "line": "12. D",
+      "crops": [
+        {
+          "page": 113,
+          "bbox": [
+            54,
+            593.52,
+            489,
+            652.5600000000001
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "3.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-2_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-2_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/03_存储系统与地址.md",
+    "manuscript_sha256": "9a30b2900bca1947b65adbfad041fc11ed816f93c10500561544ffb0e40851e0",
+    "heading": "3-3　同一模块不等于立即发生冲突 {#co-ex3-3}",
+    "year": 2015,
+    "exam_question": 18,
+    "manuscript_stem": "某计算机使用4体交叉编址存储器，假定在存储器总线上出现的主存地址（十进制）序列为8005、8006、8007、8008、8001、8002、8003、8004、8000，则可能发生访存冲突的地址对是（　）。\n\nA. 8004和8008　 B. 8002和8007　 C. 8001和8008　 D. 8000和8004",
+    "exam_text": "18.某计算机使用4 体交叉编址存储器，假定在存储器总线上出现的主存地址（十进制）序列为\n8005, 8006, 8007, 8008, 8001, 8002, 8003, 8004, 8000，则可能发生访存冲突的地址对是        。 \nA. 8004 和8008 \nB. 8002 和8007 \nC. 8001 和8008 \nD. 8000 和8004",
+    "exam_page": 2,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 0.9914529914529915,
+    "wangdao_location": {
+      "question_number": 34,
+      "year": 2015,
+      "section": "3.2",
+      "native_text": "34.【2015 统考真题】某计算机使用四体交叉编址存储器,假定在存储器总线上出现的主存地址(十进\n制) 序列为8005, 8006, 8007, 8008, 8001, 8002, 8003, 8004, 8000,则可能发生访存冲突的地址对是(\n)\nA. 8004 和8008\nB. 8002 和8007\nC. 8001 和8008\nD. 8000 和8004",
+      "horizontal_page": 193
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO3-3",
+    "book_answer": {
+      "num": 34,
+      "answer": "D",
+      "page": 107,
+      "y": 459.6,
+      "line": "34. D",
+      "crops": [
+        {
+          "page": 107,
+          "bbox": [
+            54,
+            459.6,
+            489,
+            582.0
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "3.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-3_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-3_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/03_存储系统与地址.md",
+    "manuscript_sha256": "9a30b2900bca1947b65adbfad041fc11ed816f93c10500561544ffb0e40851e0",
+    "heading": "3-4　ROM 与 RAM 分区要分别计算 {#co-ex3-4}",
+    "year": 2009,
+    "exam_question": 15,
+    "manuscript_stem": "某计算机主存容量为64 KB，其中 ROM 区为4 KB，其余为 RAM 区，按字节编址。现要用 $2\\mathrm K\\times8$ 位的 ROM 芯片和 $4\\mathrm K\\times4$ 位的 RAM 芯片来设计该存储器，则需要上述规格的 ROM 芯片数和 RAM 芯片数分别是（　）。\n\nA. 1、15　 B. 2、15　 C. 1、30　 D. 2、30",
+    "exam_text": "15. 某计算机主存容量为64KB，其中ROM 区为4KB，其余为RAM 区，按字节编址。现要用2K×\n8 位的ROM 芯片和4K×4 位的RAM 芯片来设计该存储器，则需要上述规格的ROM 芯片数和\nRAM 芯片数分别是        。 \nA. 1、15 \nB. 2、15 \nC. 1、30 \nD. 2、30",
+    "exam_page": 2,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 0.9942196531791907,
+    "wangdao_location": {
+      "question_number": 10,
+      "year": 2009,
+      "section": "3.3",
+      "native_text": "10.【2009 统考真题】某计算机主存容量为64KB, 其中ROM 区为4KB, 其余为RAM 区, 按字节编址。\n现要用2K × 8 位的ROM 芯片和4K × 4 位的RAM 芯片来设计该存储器, 需要上述规格的ROM 芯片\n数和RAM 芯片数分别是(\n)\nA. 1, 15\nB. 2, 15\nC. 1,30\nD. 2, 30",
+      "horizontal_page": 206
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO3-4",
+    "book_answer": {
+      "num": 10,
+      "answer": "D",
+      "page": 113,
+      "y": 415.68,
+      "line": "10. D",
+      "crops": [
+        {
+          "page": 113,
+          "bbox": [
+            54,
+            415.68,
+            489,
+            475.08000000000004
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "3.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-4_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-4_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/03_存储系统与地址.md",
+    "manuscript_sha256": "9a30b2900bca1947b65adbfad041fc11ed816f93c10500561544ffb0e40851e0",
+    "heading": "3-5　7200转每分不是7200转每秒 {#co-ex3-5}",
+    "year": 2015,
+    "exam_question": 20,
+    "manuscript_stem": "若磁盘转速为7200转/分，平均寻道时间为8 ms，每个磁道包含1000个扇区，则访问一个扇区的平均存取时间大约是（　）。\n\nA. 8.1 ms　 B. 12.2 ms　 C. 16.3 ms　 D. 20.5 ms",
+    "exam_text": "20.若磁盘转速为7200rpm，平均寻道时间为8ms，每个磁道包含1000 个扇区，则访问一个扇区的\n平均存取时间大约是        。 \nA. 8.1ms \nB. 12.2ms \nC. 16.3ms \nD. 20.5ms",
+    "exam_page": 2,
+    "exam_match_score": 0.954954954954955,
+    "wangdao_match_score": 0.954954954954955,
+    "wangdao_location": {
+      "question_number": 11,
+      "year": 2015,
+      "section": "3.4",
+      "native_text": "11.【2015 统考真题】若磁盘转速为7200 转/ 分, 平均寻道时间为8ms, 每个磁道包含1000 个扇区,则\n访问一个扇区的平均存取时间大约是(\n)\nA. 8.1ms\nB. 12.2ms\nC. 16.3ms\nD. 20.5ms",
+      "horizontal_page": 222
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO3-5",
+    "book_answer": {
+      "num": 11,
+      "answer": "B",
+      "page": 120,
+      "y": 334.32,
+      "line": "11. B",
+      "crops": [
+        {
+          "page": 120,
+          "bbox": [
+            54,
+            334.32,
+            489,
+            395.52000000000004
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "3.4"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-5_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-5_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/03_存储系统与地址.md",
+    "manuscript_sha256": "9a30b2900bca1947b65adbfad041fc11ed816f93c10500561544ffb0e40851e0",
+    "heading": "3-6　读后写的数组访问怎样计缺失率 {#co-ex3-6}",
+    "year": 2016,
+    "exam_question": 15,
+    "manuscript_stem": "有如下 C 语言程序段：\n\n```c\nfor (k = 0; k < 1000; k++)\n    a[k] = a[k] + 32;\n```\n\n若数组 a 和变量 k 均为 int 型，int 型数据占4 B，数据 Cache 采用直接映射方式，数据区大小为1 KB、块大小为16 B，该程序段执行前 Cache 为空，则该程序段执行过程中访问数组 a 的 Cache 缺失率约为（　）。\n\nA. 1.25%　 B. 2.5%　 C. 12.5%　 D. 25%",
+    "exam_text": "15.有如下C 语言程序段： \nfor(k=0; k<1000; k++) \n   a[k] = a[k]+32 \n若数组a 及变量k 均为int 型，int 型数据占4B，数据Cache 采用直接映射方式，数据区大小为\n1KB、块大小为16B，该程序段执行前Cache 为空，则该程序段执行过程中访问数组a 的Cache\n缺失率约为        。 \nA. 1.25％ \nB. 2.5％ \nC. 12.5％ \nD. 25％",
+    "exam_page": 2,
+    "exam_match_score": 0.986784140969163,
+    "wangdao_match_score": 0.9911504424778761,
+    "wangdao_location": {
+      "question_number": 32,
+      "year": 2016,
+      "section": "3.5",
+      "native_text": "32.【2016 统考真题】有如下C 语言程序段:\nfor (k = 0; k < 1000; k++)\na[k] = a[k] + 32；\n若数组a 和变量k 均为int 型, int 型数据占4B,数据Cache 采用直接映射方式,数据区大小为1KB、块\n大小为16B，该程序段执行前Cache 为空，则该程序段执行过程中访问数组a 的Cache 缺失率约为\n(\n)\nA. 1.25%\nB. 2.5%\nC. 12.5%\nD. 25%",
+      "horizontal_page": 255
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO3-6",
+    "book_answer": {
+      "num": 32,
+      "answer": "C",
+      "page": 138,
+      "y": 449.16,
+      "line": "32. C",
+      "crops": [
+        {
+          "page": 138,
+          "bbox": [
+            54,
+            449.16,
+            489,
+            524.4
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "3.5"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-6_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-6_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/03_存储系统与地址.md",
+    "manuscript_sha256": "9a30b2900bca1947b65adbfad041fc11ed816f93c10500561544ffb0e40851e0",
+    "heading": "3-7　8路组相联需要几个比较器 {#co-ex3-7}",
+    "year": 2022,
+    "exam_question": 16,
+    "manuscript_stem": "若计算机主存地址为32位，按字节编址，某 Cache 的数据区容量为32 KB，主存块大小为64 B，采用8路组相联映射方式，该 Cache 中比较器的个数和位数分别为（　）。\n\nA. 8，20　 B. 8，23　 C. 64，20　 D. 64，23",
+    "exam_text": "16.若计算机主存地址为32 位，按字节编址，某Cache 的数据区容量为32KB，主存块大小为64B，\n采用8 路组相联映射方式，该Cache 中比较器的个数和位数分别为        。 \nA. 8, 20 \nB. 8, 23 \nC. 64, 20 \nD. 64, 23",
+    "exam_page": 2,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 35,
+      "year": 2022,
+      "section": "3.5",
+      "native_text": "35.【2022 统考真题】若计算机主存地址为32 位,按字节编址,某Cache 的数据区容量为32KB,主存块\n大小为64B，采用8 路组相联映射方式，该Cache 中比较器的个数和位数分别为(\n)\nA. 8, 20\nB. 8, 23\nC. 64, 20\nD. 64, 23",
+      "horizontal_page": 258
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO3-7",
+    "book_answer": {
+      "num": 35,
+      "answer": "A",
+      "page": 139,
+      "y": 75.48,
+      "line": "35. A",
+      "crops": [
+        {
+          "page": 139,
+          "bbox": [
+            54,
+            75.48,
+            489,
+            274.56
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "3.5"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-7_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-7_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/03_存储系统与地址.md",
+    "manuscript_sha256": "9a30b2900bca1947b65adbfad041fc11ed816f93c10500561544ffb0e40851e0",
+    "heading": "3-8　Cache 总容量还包括哪些位 {#co-ex3-8}",
+    "year": 2015,
+    "exam_question": 15,
+    "manuscript_stem": "假定主存地址为32位，按字节编址，主存和 Cache 之间采用直接映射方式，主存块大小为4个字，每字32位，采用回写方式，则能存放4 K字数据的 Cache 的总容量的位数至少是（　）。\n\nA. 146 K　 B. 147 K　 C. 148 K　 D. 158 K",
+    "exam_text": "15.假定主存地址为32 位，按字节编址，主存和Cache 之间采用直接映射方式，主存块大小为4 个\n字，每字32 位，采用回写（Write Back）方式，则能存放4K 字数据的Cache 的总容量的位数至\n少是         \nA. 146k \nB. 147K \nC. 148K \nD. 158K",
+    "exam_page": 2,
+    "exam_match_score": 0.9467455621301775,
+    "wangdao_match_score": 0.9467455621301775,
+    "wangdao_location": {
+      "question_number": 31,
+      "year": 2015,
+      "section": "3.5",
+      "native_text": "31.【2015 统考真题】假定主存地址为32 位，按字节编址，主存和Cache 之间采用直接映射方式，\n主存块大小为4 个字,每字32 位,采用回写方式,则能存放4K 字数据的Cache 的总容量的位数至少是\n(\n)\nA. 146K\nB. 147K\nC. 148K\nD. 158K",
+      "horizontal_page": 254
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO3-8",
+    "book_answer": {
+      "num": 31,
+      "answer": "C",
+      "page": 138,
+      "y": 278.88,
+      "line": "31. C",
+      "crops": [
+        {
+          "page": 138,
+          "bbox": [
+            54,
+            278.88,
+            489,
+            449.16
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "3.5"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-8_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-8_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/03_存储系统与地址.md",
+    "manuscript_sha256": "9a30b2900bca1947b65adbfad041fc11ed816f93c10500561544ffb0e40851e0",
+    "heading": "3-9　页号的十六进制不能直接当表中十进制 {#co-ex3-9}",
+    "year": 2022,
+    "exam_question": 15,
+    "manuscript_stem": "某计算机主存地址为24位，采用分页虚拟存储管理方式，虚拟地址空间大小为4 GB，页大小为4 KB，按字节编址。某进程的页表部分内容如下。\n\n| 虚页号 | 实页号（页框号） | 存在位 |\n|---:|---:|---:|\n| 82 | 024H | 0 |\n| … | … | … |\n| 129 | 180H | 1 |\n| 130 | 018H | 1 |\n\n当 CPU 访问虚拟地址0008 2840H时，虚—实地址转换的结果是（　）。\n\nA. 得到主存地址02 4840H　 B. 得到主存地址18 0840H  \nC. 得到主存地址01 8840H　 D. 检测到缺页异常",
+    "exam_text": "15.某计算机主存地址为24 位，采用分页虚拟存储管理方式，虚拟地址空间大小为4GB，页大小为\n4KB，按字节编址。某进程的页表部分内容如下表所示。 \n虚页号 \n实页号（页框号） \n存在位 \n82 \n024H \n0 \n… \n… \n… \n129 \n180H \n1 \n130 \n018H \n1 \n当CPU 访问虚拟地址0008 2840H 时，虚–实地址转换的结果是        。 \nA. 得到主存地址02 4840H \nB. 得到主存地址18 0840H \nC. 得到主存地址01 8840H \nD. 检测到缺页异常",
+    "exam_page": 2,
+    "exam_match_score": 0.9881422924901185,
+    "wangdao_match_score": 0.803347280334728,
+    "wangdao_location": {
+      "question_number": 17,
+      "year": 2022,
+      "section": "3.6",
+      "native_text": "17.【2022 统考真题】计算机主存地址为24 位,采用分页虚拟存储管理方式,虚拟地址空间大小为\n4GB, 页大小为4KB, 按字节编址。CPU 访问虚拟地址0008 2840H 时, 虚- 实地址转换的结果是( )\n虚页号\n实页号(页框号)\n存在位\n82\n024H\n0\n...\n...\n...\n129\n180H\n1\n130\n018H\n1\nA. 得到主存地址024840H\nB. 得到主存地址180840H\nC. 得到主存地址018840H\nD. 检测到缺页异常",
+      "horizontal_page": 275
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO3-9",
+    "book_answer": {
+      "num": 17,
+      "answer": "C",
+      "page": 154,
+      "y": 544.5600000000001,
+      "line": "17.C",
+      "crops": [
+        {
+          "page": 154,
+          "bbox": [
+            54,
+            544.5600000000001,
+            489,
+            648.6
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "3.6"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-9_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-9_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/03_存储系统与地址.md",
+    "manuscript_sha256": "9a30b2900bca1947b65adbfad041fc11ed816f93c10500561544ffb0e40851e0",
+    "heading": "3-10　TLB 标记不包含页内偏移 {#co-ex3-10}",
+    "year": 2024,
+    "exam_question": 17,
+    "manuscript_stem": "某计算机按字节编址，采用页式虚拟存储管理方式，虚拟地址为32位，主存地址为30位，页大小为1 KB。若 TLB 共有32个表项，采用4路组相联映射方式，则 TLB 表项中标记字段的位数至少是（　）。\n\nA. 17　 B. 18　 C. 19　 D. 20",
+    "exam_text": "17.某计算机按字节编址，采用页式虚拟存储管理方式，虚拟地址为32 位，主存地址为30 位，页大\n小为1KB。若TLB 共有32 个表项，采用4 路组相联映射方式，则TLB 表项中标记字段的位数至\n少是        。 \nA. 17 \nB. 18 \nC. 19 \nD. 20",
+    "exam_page": 2,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 19,
+      "year": 2024,
+      "section": "3.6",
+      "native_text": "19.【2024 统考真题】某计算机按字节编址,采用页式虚拟存储管理方式,虚拟地址为32 位,主存地址\n为30 位,页大小为1KB。若TLB 共有32 个表项,采用4 路组相联映射方式,则TLB 表项中标记字段的\n位数至少是(\n)\nA. 17\nB. 18\nC. 19\nD. 20",
+      "horizontal_page": 277
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO3-10",
+    "book_answer": {
+      "num": 19,
+      "answer": "C",
+      "page": 155,
+      "y": 134.88,
+      "line": "19. C",
+      "crops": [
+        {
+          "page": 155,
+          "bbox": [
+            54,
+            134.88,
+            489,
+            179.52
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "3.6"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-10_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO3-10_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/06_流水线与并行处理.md",
+    "manuscript_sha256": "dc90b5682aee8ff0a5e5baa79d850b43e7140e1953e4aabb7e04a42000f1151e",
+    "heading": "6-1　最慢的一段决定时钟下限 {#co-ex6-1}",
+    "year": 2009,
+    "exam_question": 18,
+    "manuscript_stem": "某计算机的指令流水线由四个功能段组成，指令流经各功能段的时间（忽略各功能段之间的缓存时间）分别为90 ns、80 ns、70 ns和60 ns，则该计算机的 CPU 时钟周期至少是（　）。\n\nA. 90 ns　 B. 80 ns　 C. 70 ns　 D. 60 ns",
+    "exam_text": "18. 某计算机的指令流水线由四个功能段组成，指令流经各功能段的时间（忽略各功能段之间的缓存\n时间）分别为90ns、80ns、70ns、和60ns，则该计算机的CPU 时钟周期至少是        。 \nA. 90ns \nB. 80ns \nC. 70ns \nD.  60ns",
+    "exam_page": 2,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 0.9813664596273292,
+    "wangdao_location": {
+      "question_number": 19,
+      "year": 2009,
+      "section": "5.6",
+      "native_text": "19.【2009 统考真题】某计算机的指令流水线由4 个功能段组成,指令流经各功能段的时间(忽略各功\n能段之间的缓存时间) 分别为90ns、80ns、70ns 和60ns，则该计算机的CPU 周期至少是(\n)\nA. 90ns\nB. 80ns\nC. 70ns\nD. 60ns",
+      "horizontal_page": 457
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO6-1",
+    "book_answer": {
+      "num": 19,
+      "answer": "A",
+      "page": 274,
+      "y": 594.96,
+      "line": "19. A",
+      "crops": [
+        {
+          "page": 274,
+          "bbox": [
+            54,
+            594.96,
+            489,
+            624.12
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "5.6"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO6-1_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO6-1_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/06_流水线与并行处理.md",
+    "manuscript_sha256": "dc90b5682aee8ff0a5e5baa79d850b43e7140e1953e4aabb7e04a42000f1151e",
+    "heading": "6-3　同一段序列里同时有数据与控制等待 {#co-ex6-3}",
+    "year": 2023,
+    "exam_question": 19,
+    "manuscript_stem": "在采用“取指、译码/取数、执行、访存、写回”5段流水线的 RISC 处理器中，执行如下指令序列，其中s0、s1、s2、s3和t2表示寄存器编号。\n\n```text\nI1: add  s2, s1, s0  // R[s2] <- R[s1] + R[s0]\nI2: load s3, 0(s2)   // R[s3] <- M[R[s2] + 0]\nI3: beq  t2, s3, L1  // if R[t2] = R[s3] jump to L1\nI4: addi t2, t2, 20  // R[t2] <- R[t2] + 20\nI5: L1: ...\n```\n\n若采用转发（旁路）技术处理数据冒险，采用硬件阻塞方式处理控制冒险，则在指令I1～I4的执行过程中，发生流水线阻塞的指令有（　）。\n\nA. 仅 I3　 B. 仅 I2、I4　 C. 仅 I3、I4　 D. I2、I3、I4",
+    "exam_text": "19.某系统采用“取指、译码/取数、执行、访存、写回”5 段流水线，RISC 处理器中执行如下指令序\n列（第一列为指令序号），其中s0、s1、s2、s3、t2 表示寄存器编号。 \nI1 add s2, s1, s0 \n//R[s2]←R[s1]+R[s0] \nI2 load s3, 0(s2) \n//R[s3]←M[R[s2]+0] \nI3 beq t2, s3, L1 \n//if R[t2]=R[s3] jump to L1 \nI4 addi t2, t2, 20 //R[t2]←R[t2] + 20 \nI5 L1:... \n若采用转发（旁路）技术处理数据冒险，采用硬件阻塞方式处理控制冒险，则在I1~I4 执行过程\n中，发生流水线阻塞的指令有        。 \nA. 仅I3 \nB. 仅I2、I4 \nC. 仅I3、I4 \nD. I2、I3、I4",
+    "exam_page": 2,
+    "exam_match_score": 0.9418282548476454,
+    "wangdao_match_score": 0.9726775956284153,
+    "wangdao_location": {
+      "question_number": 30,
+      "year": 2023,
+      "section": "5.6",
+      "native_text": "30.【2023 统考真题】在采用“取指、译码/ 取数、执行、访存、写回” 5 段流水线的RISC 处理器中，\n执行如下指令序列(第一列为指令序号)，其中s0、s1、s2、s3 和t2 表示寄存器编号。\nI1:\nadd s2, s1, s0\n// R[s2] ←R[s1] + R[s0]\nI2:\nload s3, 0(s2)\n// R[s3] ←M[R[s2] + 0]\nI3:\nbeq t2, s3, L1\n// if R[t2] = R[s3]\njump to L1\nI4:\naddi t2, t2, 20\n// R[t2] ←R[t2] + 20\nI5:\nL1:\n....\n若采用转发(旁路) 技术处理数据冒险,采用硬件阻塞方式处理控制冒险,则在指令I1~I4 的执行过程\n中,发生流水线阻塞的指令有(\n)\nA. 仅I3\nB. 仅I2、I4\nC. 仅I3、I4\nD. 仅I2、I3、I4",
+      "horizontal_page": 468
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO6-3",
+    "book_answer": {
+      "num": 30,
+      "answer": "C",
+      "page": 276,
+      "y": 300.84000000000003,
+      "line": "30. C",
+      "crops": [
+        {
+          "page": 276,
+          "bbox": [
+            54,
+            300.84000000000003,
+            489,
+            543.12
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "5.6"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO6-3_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO6-3_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/06_流水线与并行处理.md",
+    "manuscript_sha256": "dc90b5682aee8ff0a5e5baa79d850b43e7140e1953e4aabb7e04a42000f1151e",
+    "heading": "6-4　硬件多线程不等于多核 {#co-ex6-4}",
+    "year": 2022,
+    "exam_question": 22,
+    "manuscript_stem": "下列关于并行处理技术的叙述中，不正确的是（　）。\n\nA. 多核处理器属于 MIMD 结构  \nB. 向量处理器属于 SIMD 结构  \nC. 硬件多线程技术只可用于多核处理器  \nD. SMP中所有处理器共享单一物理地址空间",
+    "exam_text": "22.下列关于并行处理技术的叙述中，不．正确的是        。 \nA. 多核处理器属于MIMD 结构 \nB. 向量处理器属于SIMD 结构 \nC. 硬件多线程技术只可用于多核处理器 \nD. SMP 中所有处理器共享单一物理地址空间",
+    "exam_page": 3,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 12,
+      "year": 2022,
+      "section": "5.7",
+      "native_text": "12.【2022 统考真题】下列关于并行处理技术的叙述中,不正确的是(\n)\nA. 多核处理器属于MIMD 结构\nB. 向量处理器属于SIMD 结构\nC. 硬件多线程技术只可用于多核处理器\nD. SMP 中所有处理器共享单一物理地址空间",
+      "horizontal_page": 483
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO6-4",
+    "book_answer": {
+      "num": 12,
+      "answer": "C",
+      "page": 284,
+      "y": 379.68,
+      "line": "12. C",
+      "crops": [
+        {
+          "page": 284,
+          "bbox": [
+            54,
+            379.68,
+            489,
+            458.52000000000004
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "5.7"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO6-4_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO6-4_exam_p3.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/07_总线与传输时间.md",
+    "manuscript_sha256": "27448ccebe8346465a7c617617f541a300eb5160727f85fa20d69766e5579a98",
+    "heading": "7-1　一个总线周期占两个时钟周期 {#co-ex7-1}",
+    "year": 2009,
+    "exam_question": 20,
+    "manuscript_stem": "假设某系统总线在一个总线周期中并行传输4 B信息，一个总线周期占用2个时钟周期，总线时钟频率为10 MHz，则总线带宽是（　）。\n\nA. 10 MB/s　 B. 20 MB/s　 C. 40 MB/s　 D. 80 MB/s",
+    "exam_text": "20. 假设某系统总线在一个总线周期中并行传输4B 信息，一个总线周期占用2 个时钟周期，总线时\n钟频率为10MHz，则总线带宽是        。 \nA. 10MB/s \nB. 20MB/s \nC. 40MB/s \nD. 80MB/s",
+    "exam_page": 2,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 0.9777777777777777,
+    "wangdao_location": {
+      "question_number": 16,
+      "year": 2009,
+      "section": "6.1",
+      "native_text": "16.【2009 统考真题】假设某系统总线在一个总线周期中并行传输4 字节信息,一个总线周期占用2\n个时钟周期，总线时钟频率为10MHz，则总线带宽是(\n)\nA. 10MB/s\nB. 20MB/s\nC. 40MB/s\nD. 80MB/s",
+      "horizontal_page": 499
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO7-1",
+    "book_answer": {
+      "num": 16,
+      "answer": "B",
+      "page": 294,
+      "y": 151.8,
+      "line": "16. B",
+      "crops": [
+        {
+          "page": 294,
+          "bbox": [
+            54,
+            151.8,
+            489,
+            212.64000000000001
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "6.1"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO7-1_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO7-1_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/07_总线与传输时间.md",
+    "manuscript_sha256": "27448ccebe8346465a7c617617f541a300eb5160727f85fa20d69766e5579a98",
+    "heading": "7-2　已经给出 MT/s 就不再乘4 {#co-ex7-2}",
+    "year": 2025,
+    "exam_question": 20,
+    "manuscript_stem": "某处理器总线采用同步、并行传输方式，每个总线时钟周期传送4次数据（quadpumped技术）。若该总线的工作频率为1333 MHz（实际单位是MT/s，表示每秒传送1333 M次），总线宽度为64位，则总线带宽约为（　）。\n\nA. 10.66 GB/s　 B. 42.66 GB/s　 C. 85.31 GB/s　 D. 341.25 GB/s",
+    "exam_text": "20.某处理器总线采用同步、并行传输方式，每个总线时钟周期传送4 次数据（quadpumped 技术）。\n若该总线的工作频率为1333MHz（实际单位是MT/s，表示每秒传送1333M 次），总线宽度为64\n位，则总线带宽约为        。 \nA. 10.66 GB/s \nB. 42.66 GB/s \nC. 85.31 GB/s \nD. 341.25 GB/s",
+    "exam_page": 2,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 25,
+      "year": 2025,
+      "section": "6.1",
+      "native_text": "25.【2025 统考真题】某处理器总线采用同步、并行传输方式,每个总线时钟周期传送4 次数据\n(quadpumped 技术)。若该总线的工作频率为1333MHz(实际单位是MT/s，表示每秒传送1333M\n次)，总线宽度为64 位,则总线带宽约为(\n)\nA. 10.66GB/s\nB. 42.66GB/s\nC. 85.31GB/s\nD. 341.25GB/s",
+      "horizontal_page": 508
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO7-2",
+    "book_answer": {
+      "num": 25,
+      "answer": "A",
+      "page": 295,
+      "y": 117.96000000000001,
+      "line": "25. A",
+      "crops": [
+        {
+          "page": 295,
+          "bbox": [
+            54,
+            117.96000000000001,
+            489,
+            170.16
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "6.1"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO7-2_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO7-2_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/07_总线与传输时间.md",
+    "manuscript_sha256": "27448ccebe8346465a7c617617f541a300eb5160727f85fa20d69766e5579a98",
+    "heading": "7-3　不支持突发，就要反复准备每个数据 {#co-ex7-3}",
+    "year": 2023,
+    "exam_question": 20,
+    "manuscript_stem": "某存储器总线宽度为64位，总线时钟频率为1 GHz，在总线上传输一个数据或地址需要一个时钟周期，不支持突发传送方式。若通过该总线连接CPU和主存，主存每次准备一个64位数据需要6 ns，主存块大小为32 B，则读取一个主存块所需的时间是（　）。\n\nA. 8 ns　 B. 11 ns　 C. 26 ns　 D. 32 ns",
+    "exam_text": "20.某存储总线宽度为64b，总线时钟频率为1GHz，在总线上传输一个数据或地址需要一个时钟周期，\n不支持突发传送方式。若通过该总线连接CPU 和主存，主存每次准备一个64b 数据需要6ns，主\n存块大小为32B，则读取一个主存块需要的时间是        。 \nA. 8ns \nB. 11ns \nC. 26ns \nD. 32ns",
+    "exam_page": 2,
+    "exam_match_score": 0.968609865470852,
+    "wangdao_match_score": 0.968609865470852,
+    "wangdao_location": {
+      "question_number": 20,
+      "year": 2023,
+      "section": "6.2",
+      "native_text": "20.【2023 统考真题】某存储器总线宽度为64 位,总线时钟频率为1GHz,在总线上传输一个数据或地\n址需要一个时钟周期，不支持突发传送方式。若通过该总线连接CPU 和主存，主存每次准备一个\n64 位数据需要6ns，主存块大小为32B，则读取一个主存块所需的时间是(\n)\nA. 8ns\nB. 11ns\nC. 26ns\nD. 32ns",
+      "horizontal_page": 528
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO7-3",
+    "book_answer": {
+      "num": 20,
+      "answer": "D",
+      "page": 302,
+      "y": 197.52,
+      "line": "20. D",
+      "crops": [
+        {
+          "page": 302,
+          "bbox": [
+            54,
+            197.52,
+            489,
+            278.16
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "6.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO7-3_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO7-3_exam_p2.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CO/07_总线与传输时间.md",
+    "manuscript_sha256": "27448ccebe8346465a7c617617f541a300eb5160727f85fa20d69766e5579a98",
+    "heading": "7-4　峰值带宽与整次事务的有效速率 {#co-ex7-4}",
+    "year": 2024,
+    "exam_question": 20,
+    "manuscript_stem": "某存储器总线的时钟频率为420 MHz，总线宽度为64位，每个时钟周期传送2次数据；其总线事务支持突发传送方式，最多传送8次数据，第1个时钟周期传送地址和读/写命令，从第4个至第7个时钟周期连续传送8次数据。该总线的总线带宽（最大数据传输率）为（　）。\n\nA. 3.84 GB/s　 B. 6.72 GB/s　 C. 30.72 GB/s　 D. 53.76 GB/s",
+    "exam_text": "20.某存储器总线的时钟频率为420MHz，总线宽度为64 位，每个时钟周期传送2 次数据；其总线事\n务支持突发传送方式，最多传送8 次数据，第1 个时钟周期传送地址和读/写命令，从第4 个至第\n7 个时钟周期连续传送8 次数据。该总线的总线带宽（最大数据传输率）为        。 \nA. 3.84GB/s \nB. 6.72GB/s \nC. 30.72 GB/s \nD. 53.76GB/s",
+    "exam_page": 3,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 24,
+      "year": 2024,
+      "section": "6.1",
+      "native_text": "24.【2024 统考真题】某存储器总线的时钟频率为420MHz,总线宽度为64 位,每个时钟周期传送2 次\n数据; 其总线事务支持突发传送方式,最多传送8 次数据,第1 个时钟周期传送地址和读/ 写命令,从第\n4 个至第7 个时钟周期连续传送8 次数据。该总线的总线带宽(最大数据传输率) 为(\n)\nA. 3.84GB/s\nB. 6.72GB/s\nC. 30.72GB/s\nD. 53.76GB/s",
+      "horizontal_page": 507
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CO7-4",
+    "book_answer": {
+      "num": 24,
+      "answer": "B",
+      "page": 294,
+      "y": 668.76,
+      "line": "24. B",
+      "crops": [
+        {
+          "page": 294,
+          "bbox": [
+            54,
+            668.76,
+            489,
+            705
+          ]
+        },
+        {
+          "page": 295,
+          "bbox": [
+            54,
+            71,
+            489,
+            117.96000000000001
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "subject": "CO",
+      "section": "6.1"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO7-4_book_answer_1.png",
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO7-4_book_answer_2.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CO7-4_exam_p3.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/03_链路层可靠传输与介质访问.md",
+    "manuscript_sha256": "757dfb541f504df0032aacdb32515c888e8fa1529fe027b12e17800903770941",
+    "heading": "3-1　填充按连续1计数，不按字节重置【2013】 {#cn-ex3-1}",
+    "year": 2013,
+    "exam_question": 37,
+    "manuscript_stem": "HDLC 协议对 `01111100 01111110` 组帧后对应的比特串为（　）。\n\nA. `01111100 00111110 10`\n\nB. `01111100 01111101 01111110`\n\nC. `01111100 01111101 0`\n\nD. `01111100 01111110 01111101`",
+    "exam_text": "37.HDLC 协议对01111100 01111110 组帧后对应的比特串为      。 \nA. 01111100 00111110 10  \nB. 01111100 01111101 01111110 \nC. 01111100 01111101 0 \n \nD. 01111100 01111110 01111101",
+    "exam_page": 4,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 0.7241379310344828,
+    "wangdao_location": {
+      "question_number": 1,
+      "year": 2013,
+      "section": "3.2",
+      "native_text": "1.【2013 统考真题】HDLC 协议对01111100 01111110 组帧后,对应的比特串为(\n) (注:HDLC 协议已\n从最新大纲中删除)\nA. 01111100 00111110 10\nB. 01111100 01111101 01111110\nC. 01111100 01111101 0\nD. 01111100 01111110 01111101",
+      "horizontal_page": 111
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN3-1",
+    "book_answer": {
+      "num": 1,
+      "answer": "A",
+      "page": 67,
+      "y": 684.24,
+      "line": "01. A",
+      "crops": [
+        {
+          "page": 67,
+          "bbox": [
+            54,
+            684.24,
+            489,
+            705
+          ]
+        },
+        {
+          "page": 68,
+          "bbox": [
+            54,
+            71,
+            489,
+            123.0
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "3.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-1_book_answer_1.png",
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-1_book_answer_2.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-1_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/03_链路层可靠传输与介质访问.md",
+    "manuscript_sha256": "757dfb541f504df0032aacdb32515c888e8fa1529fe027b12e17800903770941",
+    "heading": "3-2　找出满足生成式的接收串【2023】 {#cn-ex3-2}",
+    "year": 2023,
+    "exam_question": 37,
+    "manuscript_stem": "若甲向乙发送数据时采用 CRC 校验，生成多项式为 $G(X)=X^4+X+1$（即 $G=10011$），则乙接收到下列比特串时，可以断定其在传输过程中未发生错误的是（　）。\n\nA. `1 0111 0000`　B. `1 0111 0100`\n\nC. `1 0111 1000`　D. `1 0111 1100`",
+    "exam_text": "37.若甲向乙发送数据时采用CRC 校验，生成多项式为G(X)=X\n4+X+1(即G=10011)，则乙接收到下列\n比特串时，可以断定其在传输过程中未发生错误的是        。  \nA. 1 0111 0000 \nB. 1 0111 0100 \nC. 1 0111 1000 \nD. 1 0111 1100",
+    "exam_page": 4,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 0.9322033898305084,
+    "wangdao_location": {
+      "question_number": 8,
+      "year": 2023,
+      "section": "3.3",
+      "native_text": "8.【2023 统考真题】若甲向乙发送数据时采用CRC 检验, 生成多项式为G X\n\n\n= X 4 + X + 1(G =\n10011),则乙方接收到比特串(\n) 时,可以断定其在传输过程中未发生错误。\nA. 10111 0000\nB. 10111 0100\nC. 10111 1000\nD. 10111 1100",
+      "horizontal_page": 119
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN3-2",
+    "book_answer": {
+      "num": 8,
+      "answer": "D",
+      "page": 73,
+      "y": 197.88,
+      "line": "08. D",
+      "crops": [
+        {
+          "page": 73,
+          "bbox": [
+            54,
+            197.88,
+            489,
+            307.68
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "3.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-2_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-2_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/03_链路层可靠传输与介质访问.md",
+    "manuscript_sha256": "757dfb541f504df0032aacdb32515c888e8fa1529fe027b12e17800903770941",
+    "heading": "3-3　先比较所有码字，再谈纠错【2025】 {#cn-ex3-3}",
+    "year": 2025,
+    "exam_question": 34,
+    "manuscript_stem": "若某差错编码的编码集为 `{1001 1010, 0101 1100, 1111 0000, 0000 1111}`，则该差错编码的检错和纠错能力是（　）。\n\nA. 不超过2位错的100%检错、不超过1位错的纠错\n\nB. 不超过2位错的100%检错、不超过2位错的纠错\n\nC. 不超过3位错的100%检错、不超过1位错的纠错\n\nD. 不超过3位错的100%检错、不超过2位错的纠错",
+    "exam_text": "34.若某差错编码的编码集为{1001 1010, 0101 1100, 1111 0000, 0000 1111}，则该差错编码的检错和纠\n错能力是 \nA. 不超过2 位错的100%检错、不超过1 位错的纠错 \nB. 不超过2 位错的100%检错、不超过2 位错的纠错 \nC. 不超过3 位错的100%检错、不超过1 位错的纠错 \nD. 不超过3 位错的100%检错、不超过2 位错的纠错",
+    "exam_page": 4,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 0.989247311827957,
+    "wangdao_location": {
+      "question_number": 9,
+      "year": 2025,
+      "section": "3.3",
+      "native_text": "9.【2025 统考真题】某差错编码的编码集为{10011010,01011100,11110000,00001111}, 该差错编码\n的检错和纠错能力是(\n)\nA. 不超过2 位错的100% 检错、不超过1 位错的纠错\nB. 不超过2 位错的100% 检错、不超过2 位错的纠错\nC. 不超过3 位错的100% 检错、不超过1 位错的纠错\nD. 不超过3 位错的100% 检错、不超过2 位错的纠错",
+      "horizontal_page": 120
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN3-3",
+    "book_answer": {
+      "num": 9,
+      "answer": "C",
+      "page": 73,
+      "y": 307.68,
+      "line": "09. C",
+      "crops": [
+        {
+          "page": 73,
+          "bbox": [
+            54,
+            307.68,
+            489,
+            371.76
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "3.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-3_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-3_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/03_链路层可靠传输与介质访问.md",
+    "manuscript_sha256": "757dfb541f504df0032aacdb32515c888e8fa1529fe027b12e17800903770941",
+    "heading": "3-4　长确认不能从周期中消失【2020】 {#cn-ex3-4}",
+    "year": 2020,
+    "exam_question": 36,
+    "manuscript_stem": "假设主机甲采用停—等协议向主机乙发送数据帧，数据帧长与确认帧长均为1000 B，数据传输速率是10 kb/s，单向传播延时是200 ms。则甲的最大信道利用率为（　）。\n\nA. 80%　B. 66.7%　C. 44.4%　D. 40%",
+    "exam_text": "36.假设主机甲采用停–等协议向主机乙发送数据帧，数据帧长与确认帧长均为1000B，数据传输速\n率是10kbps，单向传播延时是200ms。则甲的最大信道利用率为        。 \nA. 80% \nB. 66.7% \nC. 44.4% \nD. 40%",
+    "exam_page": 4,
+    "exam_match_score": 0.9924812030075187,
+    "wangdao_match_score": 0.948905109489051,
+    "wangdao_location": {
+      "question_number": 29,
+      "year": 2020,
+      "section": "3.4",
+      "native_text": "29.【2020 统考真题】假设主机甲采用停止- 等待协议向主机乙发送数据帧,数据帧长与确认帧长均\n为1000B，数据传输速率是10kb/s，单项传播延时是200ms。则主机甲的最大信道利用率为(\n)\nA. 80%\nB. 66.7%\nC. 44.4%\nD. 40%",
+      "horizontal_page": 149
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN3-4",
+    "book_answer": {
+      "num": 29,
+      "answer": "D",
+      "page": 87,
+      "y": 288.96000000000004,
+      "line": "29. D",
+      "crops": [
+        {
+          "page": 87,
+          "bbox": [
+            54,
+            288.96000000000004,
+            489,
+            349.8
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "3.4"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-4_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-4_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/03_链路层可靠传输与介质访问.md",
+    "manuscript_sha256": "757dfb541f504df0032aacdb32515c888e8fa1529fe027b12e17800903770941",
+    "heading": "3-5　收到哪些确认，不等于只收到哪些数据【2009】 {#cn-ex3-5}",
+    "year": 2009,
+    "exam_question": 35,
+    "manuscript_stem": "数据链路层采用后退帧（GBN）协议，发送方已经发送了编号为0～7的帧。当计时器超时时，若发送方只收到0、2、3号帧的确认，则发送方需要重发的帧数是（　）。\n\nA. 2　B. 3　C. 4　D. 5",
+    "exam_text": "35. 数据链路层采用后退帧(GBN)协议，发送方己经发送了编号为0～7 的帧。当计时器超时时，若发\n送方只收到0、2、3 号帧的确认，则发送方需要重发的帧数是        。 \nA. 2 \nB. 3 \nC. 4 \nD. 5",
+    "exam_page": 3,
+    "exam_match_score": 0.9841269841269841,
+    "wangdao_match_score": 0.9538461538461539,
+    "wangdao_location": {
+      "question_number": 22,
+      "year": 2009,
+      "section": "3.4",
+      "native_text": "22.【2009 统考真题】数据链路层采用了后退N 帧(GBN) 协议, 发送方已经发送了编号为0 ∼7 的帧。\n当计时器超时的时候,若发送方只收到0、2、3 号帧的确认,则发送方需要重发的帧数是(\n)\nA. 2\nB. 3\nC. 4\nD. 5",
+      "horizontal_page": 142
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN3-5",
+    "book_answer": {
+      "num": 22,
+      "answer": "C",
+      "page": 86,
+      "y": 121.56,
+      "line": "22. C",
+      "crops": [
+        {
+          "page": 86,
+          "bbox": [
+            54,
+            121.56,
+            489,
+            212.64000000000001
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "3.4"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-5_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-5_exam_p3.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/03_链路层可靠传输与介质访问.md",
+    "manuscript_sha256": "757dfb541f504df0032aacdb32515c888e8fa1529fe027b12e17800903770941",
+    "heading": "3-7　CDMA 先按码片分组，再做内积【2014】 {#cn-ex3-7}",
+    "year": 2014,
+    "exam_question": 37,
+    "manuscript_stem": "站点 A、B、C通过 CDMA 共享链路，A、B、C的码片序列分别是 `(1,1,1,1)`、`(1,−1,1,−1)` 和 `(1,1,−1,−1)`。若 C 从链路上收到的序列是 `(2,0,2,0,0,−2,0,−2,0,2,0,2)`，则 C 收到 A 发送的数据是（　）。\n\nA. 000　B. 101　C. 110　D. 111",
+    "exam_text": "37.站点A、B、C 通过CDMA 共享链路，A、B、C 的码片序列（chipping sequence）分别是(1, 1, 1, \n1)、(1,－1, 1, －1)和(1, 1, －1, －1)。若C 从链路上收到的序列是(2, 0, 2, 0, 0, －2, 0, －2, 0, 2, \n0, 2), 则C 收到A 发送的数据是        。 \nA. 000 \nB. 101 \nC. 110 \nD. 111",
+    "exam_page": 4,
+    "exam_match_score": 0.8709677419354839,
+    "wangdao_match_score": 0.8709677419354839,
+    "wangdao_location": {
+      "question_number": 21,
+      "year": 2014,
+      "section": "3.5",
+      "native_text": "21.【2014 统考真题】站点A、B、C 通过CDMA 共享链路, A、B、C 的码片序列分别是1,1,1,1\n\n\n、\n1,-1,1,-1\n\n\n和1,1,-1,-1\n\n\n。若C 从链路上收到的序列是2,0,2,0,0,-2,0,-2,0,2,0,2\n\n\n, 则C 收\n到A 发送的数据是(\n)\nA. 000\nB. 101\nC. 110\nD. 111",
+      "horizontal_page": 172
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN3-7",
+    "book_answer": {
+      "num": 21,
+      "answer": "B",
+      "page": 99,
+      "y": 164.04,
+      "line": "21. B",
+      "crops": [
+        {
+          "page": 99,
+          "bbox": [
+            54,
+            164.04,
+            489,
+            705
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "3.5"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-7_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-7_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/03_链路层可靠传输与介质访问.md",
+    "manuscript_sha256": "757dfb541f504df0032aacdb32515c888e8fa1529fe027b12e17800903770941",
+    "heading": "3-8　最短帧缩短后要缩短多少电缆【2009】 {#cn-ex3-8}",
+    "year": 2009,
+    "exam_question": 37,
+    "manuscript_stem": "在一个采用 CSMA/CD 协议的网络中，传输介质是一根完整的电缆，传输速率为1 Gb/s，电缆中的信号传播速度为200000 km/s。若最小数据帧长度减少800 bit，则最远的两个站点之间的距离至少需要（　）。\n\nA. 增加160 m　B. 增加80 m　C. 减少160 m　D. 减少80 m",
+    "exam_text": "37. 在一个采用CSMA/CD 协议的网络中，传输介质是一根完整的电缆，传输速率为1Gbps，电缆中\n的信号传播速度为200000km/s。若最小数据帧长度减少800bit，则最远的两个站点之间的距离至\n少需要        。 \nA. 增加160m \nB．增加80m \nC. 减少160m \nD. 减少80m",
+    "exam_page": 3,
+    "exam_match_score": 0.9948717948717949,
+    "wangdao_match_score": 0.9484536082474226,
+    "wangdao_location": {
+      "question_number": 37,
+      "year": 2009,
+      "section": "3.6",
+      "native_text": "37.【2009 统考真题】在一个采用CSMA/CD 协议的网络中,传输介质是一根完整的电缆,传输速率为\n1Gb/s，电缆中的信号传播速率是200000km/s。若最小数据帧长度减少800 比特，则最远的两个站\n点之间的距离至少需要(\n)\nA. 增加160m\nB. 增加80m\nC. 减少160m\nD. 减少80m",
+      "horizontal_page": 209
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN3-8",
+    "book_answer": {
+      "num": 37,
+      "answer": "D",
+      "page": 121,
+      "y": 683.52,
+      "line": "37. D",
+      "crops": [
+        {
+          "page": 121,
+          "bbox": [
+            54,
+            683.52,
+            489,
+            705
+          ]
+        },
+        {
+          "page": 122,
+          "bbox": [
+            54,
+            71,
+            489,
+            137.04
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "3.6"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-8_book_answer_1.png",
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-8_book_answer_2.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-8_exam_p3.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/03_链路层可靠传输与介质访问.md",
+    "manuscript_sha256": "757dfb541f504df0032aacdb32515c888e8fa1529fe027b12e17800903770941",
+    "heading": "3-9　收到 CTS 后只计算剩余时间【2024】 {#cn-ex3-9}",
+    "year": 2024,
+    "exam_question": 36,
+    "manuscript_stem": "在采用 CSMA/CA 协议的802.11无线局域网中，DIFS=128 μs，SIFS=28 μs，RTS帧、CTS帧和ACK帧的传输时延分别是3 μs、2 μs和2 μs，忽略信号传播时延。若主机A要向AP发送一个总长度为1998 B的数据帧，无线链路带宽为54 Mb/s，则隐藏站B收到AP发送的CTS帧时，设置的NAV值是（　）。\n\nA. 326 μs　B. 354 μs　C. 385 μs　D. 513 μs",
+    "exam_text": "36.在采用CSMA/CA 的802.11 无线局域网中，DIFS=128s，SIFS≥28μs，RTS、CTS 和ACK 帧的传\n输时延分别是3μs、2us 和2μs，忽略信号传播时延。若主机A 欲向AP 发送一个总长度为1 998B\n的数据帧，无线链路带宽为54Mb/s，则隐藏站B 收到AP 发送的CTS 帧时，设置的网络分配向量\nNAV 的值是        。 \nA. 326μs \nB. 354μs \nC. 385μs \nD. 513μs",
+    "exam_page": 4,
+    "exam_match_score": 0.9407407407407408,
+    "wangdao_match_score": 0.9675090252707581,
+    "wangdao_location": {
+      "question_number": 48,
+      "year": 2024,
+      "section": "3.6",
+      "native_text": "48.【2024 统考真题】在采用CSMA/CA 协议的802.11 无线局域网中, DIFS = 128μs, SIFS = 28μs, RTS\n帧、CTS 帧和ACK 帧的传输时延分别是3μs、2μs 和2μs, 忽略信号传播时延。若主机A 要向AP 发\n送一个总长度为1998B 的数据帧, 无线链路带宽为54Mb/s, 则隐藏站B 收到AP 发送的CTS 帧时, 设\n置的网络分配向量NAV 的值是(\n)\nA. 326μs\nB. 354μs\nC. 385μs\nD. 513μs",
+      "horizontal_page": 220
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN3-9",
+    "book_answer": {
+      "num": 48,
+      "answer": "B",
+      "page": 123,
+      "y": 318.48,
+      "line": "48. B",
+      "crops": [
+        {
+          "page": 123,
+          "bbox": [
+            54,
+            318.48,
+            489,
+            470.40000000000003
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "3.6"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-9_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-9_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/03_链路层可靠传输与介质访问.md",
+    "manuscript_sha256": "757dfb541f504df0032aacdb32515c888e8fa1529fe027b12e17800903770941",
+    "heading": "3-11　直通交换最早何时能决定出口【2013】 {#cn-ex3-11}",
+    "year": 2013,
+    "exam_question": 38,
+    "manuscript_stem": "对于100 Mb/s的以太网交换机，当输出端口无排队，以直通交换方式转发一个以太网帧（不包括前导码）时，引入的转发时延至少是（　）。\n\nA. 0 μs　B. 0.48 μs　C. 5.12 μs　D. 121.44 μs",
+    "exam_text": "38.对于100 Mbps 的以太网交换机，当输出端口无排队，以直通交换（cut-through switching）方式\n转发一个以太网帧（不包括前导码）时，引入的转发延迟至少是      。 \nA. 0μs \nB. 0.48μs  \nC. 5.12μs \nD. 121.44μs",
+    "exam_page": 4,
+    "exam_match_score": 0.8513513513513513,
+    "wangdao_match_score": 0.8513513513513513,
+    "wangdao_location": {
+      "question_number": 20,
+      "year": 2013,
+      "section": "3.8",
+      "native_text": "20.【2013 统考真题】对于100Mb/s 的以太网交换机, 当输出端口无排队, 以直通交换方式转发一个\n以太网帧(不包括前导码) 时,引入的转发时延至少是(\n)\nA. 0μs\nB. 0.48μs\nC. 5.12μs\nD. 121.44μs",
+      "horizontal_page": 253
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN3-11",
+    "book_answer": {
+      "num": 20,
+      "answer": "B",
+      "page": 137,
+      "y": 380.04,
+      "line": "20. B",
+      "crops": [
+        {
+          "page": 137,
+          "bbox": [
+            54,
+            380.04,
+            489,
+            440.88
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "3.8"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-11_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN3-11_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/04_网络层地址路由与转发.md",
+    "manuscript_sha256": "2efff033da6fc34f82003ebe0400dac3fcf2e921fca70a4121ec449e51de05e3",
+    "heading": "4-1　逐列做加法，再比较候选【2021】 {#cn-ex4-1}",
+    "year": 2021,
+    "exam_question": 37,
+    "manuscript_stem": "某网络中的所有路由器均采用距离向量路由算法。路由器E与邻居A、B、C、D的直接链路距离分别是8、10、12、6，收到的距离向量如下。E更新后到Net1～Net4的距离分别是（　）。\n\n| 目的网络 | A、B的通告 | C、D的通告 |\n| --- | --- | --- |\n| Net1 | 1，23 | 20，22 |\n| Net2 | 12，35 | 30，28 |\n| Net3 | 24，18 | 16，36 |\n| Net4 | 36，30 | 8，24 |\n\nA. 9，10，12，6　B. 9，10，28，20\n\nC. 9，20，12，20　D. 9，20，28，20",
+    "exam_text": "37.某网络中的所有路由器均采用距离向量路由算法计算路由。若路由器E 与邻居路由器A, B, C 和\nD 之间的直接链路距离分别是8, 10, 12 和6, 且E 收到邻居路由器的距离向量如下表所示，则路\n由器E 更新后的到达目的网络Net1～Net4 的距离分别是        。 \n目的网络\nA 的距离向量\nB 的距离向量\nC 的距离向量\nD 的距离向量\nNet1 \n1 \n23 \n20 \n22 \nNet2 \n12 \n35 \n30 \n28 \nNet3 \n24 \n18 \n16 \n36 \nNet4 \n36 \n30 \n8 \n24 \nA. 9, 10, 12, 6 \nB. 9, 10, 28, 20 \nC. 9, 20, 12, 20 \nD. 9, 20, 28, 20",
+    "exam_page": 4,
+    "exam_match_score": 0.7768595041322314,
+    "wangdao_match_score": 0.8387096774193549,
+    "wangdao_location": {
+      "question_number": 27,
+      "year": 2021,
+      "section": "4.4",
+      "native_text": "27.【2021 统考真题】某网络中的所有路由器均采用距离向量路由算法计算路由。若路由器E 与邻\n居路由器A、B、C 和D 之间的直接链路距离分别是8,10,12 和6,且E 收到邻居路由器的距离向量\n如下表所示，则路由器E 更新后的到达目的网络Net1~Net4 的距离分别是(\n)\nA. 9,10,12,6\nB. 9,10,28,20\nC. 9,20,12,20\nD. 9,20,28,20",
+      "horizontal_page": 383
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN4-1",
+    "book_answer": {
+      "num": 27,
+      "answer": "D",
+      "page": 217,
+      "y": 577.6800000000001,
+      "line": "27. D",
+      "crops": [
+        {
+          "page": 217,
+          "bbox": [
+            54,
+            577.6800000000001,
+            489,
+            705
+          ]
+        },
+        {
+          "page": 218,
+          "bbox": [
+            54,
+            71,
+            489,
+            201.48000000000002
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "4.4"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-1_book_answer_1.png",
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-1_book_answer_2.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-1_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/04_网络层地址路由与转发.md",
+    "manuscript_sha256": "2efff033da6fc34f82003ebe0400dac3fcf2e921fca70a4121ec449e51de05e3",
+    "heading": "4-2　为何800 B链路上的分片总长只有796 B【2021】 {#cn-ex4-2}",
+    "year": 2021,
+    "exam_question": 36,
+    "manuscript_stem": "若路由器向MTU=800 B的链路转发一个总长度为1580 B的IP数据报（首部长度为20 B）时进行了分片，且每个分片尽可能大，则第2个分片的总长度字段和MF标志位的值分别是（　）。\n\nA. 796，0　B. 796，1　C. 800，0　D. 800，1",
+    "exam_text": "36.若路由器向MTU = 800B 的链路转发一个总长度为1580B 的IP 数据报（首部长度为20B）时，\n进行了分片，且每个分片尽可能大，则第2 个分片的总长度字段和MF 标志位的值分别\n是        。 \nA. 796, 0 \nB. 796, 1 \nC. 800, 0 \nD. 800, 1",
+    "exam_page": 4,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 66,
+      "year": 2021,
+      "section": "4.2",
+      "native_text": "66.【2021 统考真题】若路由器向MTU = 800B 的链路转发一个总长度为1580B 的IP 数据报(首部长\n度为20B) 时,进行了分片,且每个分片尽可能大,则第2 个分片的总长度字段和MF 标志位的值分别是\n(\n)\nA. 796,0\nB. 796,1\nC. 800,0\nD. 800,1",
+      "horizontal_page": 343
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN4-2",
+    "book_answer": {
+      "num": 66,
+      "answer": "B",
+      "page": 185,
+      "y": 445.92,
+      "line": "66. B",
+      "crops": [
+        {
+          "page": 185,
+          "bbox": [
+            54,
+            445.92,
+            489,
+            522.24
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "4.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-2_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-2_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/04_网络层地址路由与转发.md",
+    "manuscript_sha256": "2efff033da6fc34f82003ebe0400dac3fcf2e921fca70a4121ec449e51de05e3",
+    "heading": "4-3　非整字节前缀怎样求地址边界【2023】 {#cn-ex4-3}",
+    "year": 2023,
+    "exam_question": 39,
+    "manuscript_stem": "主机 `168.16.84.24/20` 所在子网的最小可分配IP地址和最大可分配IP地址分别是（　）。\n\nA. 168.16.80.1，168.16.84.254\n\nB. 168.16.80.1，168.16.95.254\n\nC. 168.16.84.1，168.16.84.254\n\nD. 168.16.84.1，168.16.95.254",
+    "exam_text": "39.主机168.16.84.24/20 所在子网的最小可分配IP 地址和最大可分配IP 地址分别是        。 \nA. 168.16.80.1, 168.16.84.254 \nB. 168.16.80.1, 168.16.95.254 \nC. 168.16.84.1, 168.16.84.254 \nD. 168.16.84.1, 168.16.95.254",
+    "exam_page": 4,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 70,
+      "year": 2023,
+      "section": "4.2",
+      "native_text": "70.【2023 统考真题】主机168.16.84.24/20 所在子网的最小可分配IP 地址和最大可分配IP 地址分别\n是(\n)\nA. 168.16.80.1, 168.16.84.254\nB. 168.16.80.1, 168.16.95.254\nC. 168.16.84.1, 168.16.84.254\nD. 168.16.84.1, 168.16.95.254",
+      "horizontal_page": 347
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN4-3",
+    "book_answer": {
+      "num": 70,
+      "answer": "B",
+      "page": 186,
+      "y": 91.32000000000001,
+      "line": "70. B",
+      "crops": [
+        {
+          "page": 186,
+          "bbox": [
+            54,
+            91.32000000000001,
+            489,
+            152.16
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "4.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-3_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-3_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/04_网络层地址路由与转发.md",
+    "manuscript_sha256": "2efff033da6fc34f82003ebe0400dac3fcf2e921fca70a4121ec449e51de05e3",
+    "heading": "4-4　“完整划成5个子网”限制了最深分支【2019】 {#cn-ex4-4}",
+    "year": 2019,
+    "exam_question": 37,
+    "manuscript_stem": "若将 `101.200.16.0/20` 划分为5个子网，则可能的最小子网的可分配IP地址数是（　）。\n\nA. 126　B. 254　C. 510　D. 1022",
+    "exam_text": "37.若将101.200.16.0/20 划分为5 个子网，则可能的最小子网的可分配IP 地址数是        。 \nA. 126 \nB. 254 \nC. 510 \nD. 1022",
+    "exam_page": 4,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 0.9830508474576272,
+    "wangdao_location": {
+      "question_number": 64,
+      "year": 2019,
+      "section": "4.2",
+      "native_text": "64.【2019 统考真题】将101.200.16.0/20 划分为5 个子网,则可能的最小子网的可分配IP 地址数是( )\nA. 126\nB. 254\nC. 510\nD. 1022",
+      "horizontal_page": 341
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN4-4",
+    "book_answer": {
+      "num": 64,
+      "answer": "B",
+      "page": 184,
+      "y": 589.2,
+      "line": "64. B",
+      "crops": [
+        {
+          "page": 184,
+          "bbox": [
+            54,
+            589.2,
+            489,
+            705
+          ]
+        },
+        {
+          "page": 185,
+          "bbox": [
+            54,
+            71,
+            489,
+            197.88
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "4.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-4_book_answer_1.png",
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-4_book_answer_2.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-4_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/04_网络层地址路由与转发.md",
+    "manuscript_sha256": "2efff033da6fc34f82003ebe0400dac3fcf2e921fca70a4121ec449e51de05e3",
+    "heading": "4-5　四个 `/21` 应缩短几位【2018】 {#cn-ex4-5}",
+    "year": 2018,
+    "exam_question": 38,
+    "manuscript_stem": "某路由表中有转发接口相同的4条路由表项，其目的网络地址分别为 `35.230.32.0/21`、`35.230.40.0/21`、`35.230.48.0/21` 和 `35.230.56.0/21`，将该4条路由聚合后的目的网络地址为（　）。\n\nA. 35.230.0.0/19　B. 35.230.0.0/20\n\nC. 35.230.32.0/19　D. 35.230.32.0/20",
+    "exam_text": "38.某路由表中有转发接口相同的4 条路由表项，其目的网络地址分别为35.230.32.0/21, \n35.230.40.0/21, 35.230.48.0/21 和35.230.56.0/21，将该4 条路由聚合后的目的网络地址\n为        。 \nA. 35.230.0.0/19 \nB. 35.230.0.0/20 \nC. 35.230.32.0/19 \nD. 35.230.32.0/20",
+    "exam_page": 4,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 62,
+      "year": 2018,
+      "section": "4.2",
+      "native_text": "62.【2018 统考真题】某路由表中有转发接口相同的4 条路由表项,其目的网络地址分别为\n35.230.32.0/21、35.230.40.0/21、35.230.48.0/21 和35.230.56.0/21，将该4 条路由聚合后的目的网络\n地址为(\n)\nA. 35.230.0.0/19\nB. 35.230.0.0/20\nC. 35.230.32.0/19\nD. 35.230.32.0/20",
+      "horizontal_page": 339
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN4-5",
+    "book_answer": {
+      "num": 62,
+      "answer": "C",
+      "page": 184,
+      "y": 258.72,
+      "line": "62. C",
+      "crops": [
+        {
+          "page": 184,
+          "bbox": [
+            54,
+            258.72,
+            489,
+            436.92
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "4.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-5_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-5_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/04_网络层地址路由与转发.md",
+    "manuscript_sha256": "2efff033da6fc34f82003ebe0400dac3fcf2e921fca70a4121ec449e51de05e3",
+    "heading": "4-7　初始 DHCPREQUEST 的源、目的IP【2025】 {#cn-ex4-7}",
+    "year": 2025,
+    "exam_question": 36,
+    "manuscript_stem": "一台新接入网络的主机H通过DHCP服务器动态请求IP地址过程中，与DHCP服务器交换DHCP报文的部分过程如下图。封装DHCPREQUEST报文的IP数据报的目的IP地址和源IP地址分别是（　）。\n\n![原题的两个报文及字段标记；时间向下](CN13_dhcp_2025.png){#cn-fig-dhcp width=86%}\n\nA. 192.168.5.1，0.0.0.0\n\nB. 192.168.5.1，192.168.5.9\n\nC. 255.255.255.255，0.0.0.0\n\nD. 255.255.255.255，192.168.5.9",
+    "exam_text": "36.一台新接入网络的主机H 通过DHCP 服务器动态请求IP 地址过程中，与DHCP 服务器交换DHCP\n报文的部分过程如题36 图所示。封装DHCPREQUEST 报文的IP 数据报的目的IP 地址和源IP 地\n址分别是 \n \n题36 图 \nA. 192.168.5.1, 0.0.0.0 \n \nB. 192.168.5.1, 192.168.5.9 \nC. 255.255.255.255, 0.0.0.0 \nD. 255.255.255.255, 192.168.5.9",
+    "exam_page": 4,
+    "exam_match_score": 0.8687782805429864,
+    "wangdao_match_score": 0.9641025641025641,
+    "wangdao_location": {
+      "question_number": 72,
+      "year": 2025,
+      "section": "4.2",
+      "native_text": "72.【2025 年统考真题】一台新接入网络的主机H 通过DHCP 服务器动态请求IP 地址过程中,与\nDHCP 服务器交换DHCP 报文过程如下图所示。封装DHCPREQUEST 报文的IP 数据报的目的IP\n地址和源IP 地址分别是(\n)\nA. 192.168.5.1、0.0.0.0\nB. 192.168.5.1、192.168.5.9\nC. 255.255.255.255、0.0.0.0\nD. 255.255.255.255、192.168.5.9",
+      "horizontal_page": 349
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN4-7",
+    "book_answer": {
+      "num": 72,
+      "answer": "C",
+      "page": 186,
+      "y": 212.64000000000001,
+      "line": "72.C",
+      "crops": [
+        {
+          "page": 186,
+          "bbox": [
+            54,
+            212.64000000000001,
+            489,
+            276.72
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "4.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-7_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-7_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/04_网络层地址路由与转发.md",
+    "manuscript_sha256": "2efff033da6fc34f82003ebe0400dac3fcf2e921fca70a4121ec449e51de05e3",
+    "heading": "4-8　历史 ICMP 题要保留协议年代【2010】 {#cn-ex4-8}",
+    "year": 2010,
+    "exam_question": 36,
+    "manuscript_stem": "若路由器R因为拥塞丢弃IP分组，则此时R可向发出该IP分组的源主机发送的ICMP报文类型是（　）。\n\nA. 路由重定向　B. 目的不可达　C. 源点抑制　D. 超时",
+    "exam_text": "36. 若路由器R 因为拥塞丢弃IP 分组，则此时R 可向发出该IP 分组的源主机发送的ICMP 报文类\n型是      。 \nA. 路由重定向  \n \nB. 目的不可达  \n \nC. 源点抑制 \n \n \nD. 超时",
+    "exam_page": 4,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 51,
+      "year": 2010,
+      "section": "4.2",
+      "native_text": "51.【2010 统考真题】若路由器R 因为拥塞丢弃IP 分组,则此时R 可向发出该IP 分组的源主机发送\n的ICMP 报文类型是(\n)\nA. 路由重定向\nB. 目的不可达\nC. 源点抑制\nD. 超时",
+      "horizontal_page": 328
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN4-8",
+    "book_answer": {
+      "num": 51,
+      "answer": "C",
+      "page": 183,
+      "y": 106.44,
+      "line": "51. C",
+      "crops": [
+        {
+          "page": 183,
+          "bbox": [
+            54,
+            106.44,
+            489,
+            167.28
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "4.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-8_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-8_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/04_网络层地址路由与转发.md",
+    "manuscript_sha256": "2efff033da6fc34f82003ebe0400dac3fcf2e921fca70a4121ec449e51de05e3",
+    "heading": "4-9　地址位数增加96，不是地址数乘96【2023】 {#cn-ex4-9}",
+    "year": 2023,
+    "exam_question": 40,
+    "manuscript_stem": "下列关于IPv4和IPv6的叙述中，正确的是（　）。\n\nI. IPv6地址空间是IPv4地址空间的96倍\n\nII. IPv4首部和IPv6基本首部的长度均可变\n\nIII. IPv4向IPv6过渡可以采用双协议栈和隧道技术\n\nIV. IPv6首部的Hop Limit字段等价于IPv4首部的TTL字段\n\nA. 仅I、II　B. 仅I、IV　C. 仅II、III　D. 仅III、IV",
+    "exam_text": "40.下列关于IPv4 和IPv6 的叙述中，正确的是（ ）。 \nI. IPv6 地址空间是IPv4 地址空间的96 倍 \nII. IPv4 首部和IPv6 的基本首部的长度均可变 \nIII. IPv4 向IPv6 过渡可以采用双协议栈和隧道技术 \nIV. IPv6 首部的Hop Limit 等价于IPv4 首部的TTL 字段 \nA. 仅I、II \nB. 仅I、IV \nC. 仅II、III \nD. 仅III、IV",
+    "exam_page": 4,
+    "exam_match_score": 0.9891696750902527,
+    "wangdao_match_score": 0.9891696750902527,
+    "wangdao_location": {
+      "question_number": 7,
+      "year": 2023,
+      "section": "4.3",
+      "native_text": "7.【2023 统考真题】下列关于IPv4 和IPv6 的叙述中,正确的是(\n)\nI. IPv6 地址空间是IPv4 地址空间的96 倍\nII. IPv4 首部和IPv6 基本首部的长度均可变\nIII. IPv4 向IPv6 过渡可以采用双协议栈和隧道技术\nIV. IPv6 首部的HopLimit 字段等价于IPv4 首部的TTL 字段\nA. 仅I、II\nB. 仅I、IV\nC. 仅II、III\nD. 仅III、IV",
+      "horizontal_page": 356
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN4-9",
+    "book_answer": {
+      "num": 7,
+      "answer": "D",
+      "page": 198,
+      "y": 91.32000000000001,
+      "line": "07. D",
+      "crops": [
+        {
+          "page": 198,
+          "bbox": [
+            54,
+            91.32,
+            489,
+            202.6
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "4.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-9_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN4-9_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/05_传输层可靠连接与窗口.md",
+    "manuscript_sha256": "f01cd5a0e6e5f94e101449e6af5d351042551cc97fe08a6dd50ca1a9b12f9bad",
+    "heading": "5-1　谁决定这个 UDP 数据报交给哪个本机服务【2018】 {#cn-ex5-1}",
+    "year": 2018,
+    "exam_question": 39,
+    "manuscript_stem": "UDP协议实现分用时所依据的头部字段是（　）。\n\nA. 源端口号　B. 目的端口号　C. 长度　D. 校验和",
+    "exam_text": "39.UDP 协议实现分用（demultiplexing）时所依据的头部字段是        。 \nA. 源端口号 \nB. 目的端口号 \nC. 长度 \nD. 校验和",
+    "exam_page": 4,
+    "exam_match_score": 0.8409090909090909,
+    "wangdao_match_score": 0.7906976744186046,
+    "wangdao_location": {
+      "question_number": 15,
+      "year": 2018,
+      "section": "5.2",
+      "native_text": "15.【2018 统考真题】UDP 实现分用时所依据的头部字段是(\n)\nA. 源端口号\nB. 目的端口号\nC. 长度\nD. 检验和",
+      "horizontal_page": 436
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN5-1",
+    "book_answer": {
+      "num": 15,
+      "answer": "B",
+      "page": 246,
+      "y": 668.76,
+      "line": "15. B",
+      "crops": [
+        {
+          "page": 246,
+          "bbox": [
+            54,
+            668.76,
+            489,
+            705
+          ]
+        },
+        {
+          "page": 247,
+          "bbox": [
+            54,
+            71,
+            489,
+            106.08
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "5.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-1_book_answer_1.png",
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-1_book_answer_2.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-1_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/05_传输层可靠连接与窗口.md",
+    "manuscript_sha256": "f01cd5a0e6e5f94e101449e6af5d351042551cc97fe08a6dd50ca1a9b12f9bad",
+    "heading": "5-2　少做一次回卷，会错在哪一位【2024】 {#cn-ex5-2}",
+    "year": 2024,
+    "exam_question": 39,
+    "manuscript_stem": "若UDP协议在计算校验和过程中，计算得到中间结果为 `1011 1001 1011 0110` 时，还需要加上最后一个16位数 `0110 0101 1100 0101`，则最终计算得到的校验和是（　）。\n\nA. `0001 1111 0111 1011`\n\nB. `0001 1111 0111 1100`\n\nC. `1110 0000 1000 0011`\n\nD. `1110 0000 1000 0100`",
+    "exam_text": "39.若UDP 协议在计算校验和过程中，计算得到中间结果为1011 1001 1011 0110 时，还需要加上最\n后一个16 位数0110 0101 1100 0101，则最终计算得到的校验和是        。 \nA. 0001 1111 0111 1011 B. 0001 1111 0111 1100 C. 1110 0000 1000 0011 D. 1110 0000 1000 0100",
+    "exam_page": 5,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 0.9320388349514563,
+    "wangdao_location": {
+      "question_number": 16,
+      "year": 2024,
+      "section": "5.2",
+      "native_text": "16.【2024 统考真题】若UDP 在计算检验和的过程中,计算得到中间结果为1011 1001 1011 0110 时,\n还需要加上最后一个16 位数0110 0101 1100 0101,则最终计算得到的检验和是(\n)\nA. 0001 1111 0111 1011\nB. 0001 1111 0111 1100\nC. 1110 0000 1000 0011\nD. 1110 0000 1000 0100",
+      "horizontal_page": 437
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN5-2",
+    "book_answer": {
+      "num": 16,
+      "answer": "C",
+      "page": 247,
+      "y": 106.08,
+      "line": "16. C",
+      "crops": [
+        {
+          "page": 247,
+          "bbox": [
+            54,
+            106.08,
+            489,
+            237.84
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "5.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-2_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-2_exam_p5.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/05_传输层可靠连接与窗口.md",
+    "manuscript_sha256": "f01cd5a0e6e5f94e101449e6af5d351042551cc97fe08a6dd50ca1a9b12f9bad",
+    "heading": "5-3　最后收到的字节与确认号相差1【2009】 {#cn-ex5-3}",
+    "year": 2009,
+    "exam_question": 38,
+    "manuscript_stem": "主机甲与主机乙之间已建立一个TCP连接，甲向乙发送了两个连续TCP段，分别包含300 B和500 B有效载荷，第一个段的序列号为200，乙正确接收到两个段后，发送给甲的确认序列号是（　）。\n\nA. 500　B. 700　C. 800　D. 1000",
+    "exam_text": "38. 主机甲与主机乙之间己建立一个TCP 连接，主机甲向主机乙发送了两个连续的TCP 段，分别包\n含300B 和500B 的有效载荷，第一个段的序列号为200，主机乙正确接收到两个段后，发送给主\n机甲的确认序列号是        。 \nA. 500 \nB. 700 \nC. 800 \nD. 1000",
+    "exam_page": 3,
+    "exam_match_score": 0.927710843373494,
+    "wangdao_match_score": 0.9720670391061452,
+    "wangdao_location": {
+      "question_number": 41,
+      "year": 2009,
+      "section": "5.3",
+      "native_text": "41.【2009 统考真题】主机甲与主机乙之间已建立一个TCP 连接,主机甲向主机乙发送了两个连续的\nTCP 段, 分别包含300B 和500B 的有效载荷, 第一个段的序列号为200, 主机乙正确接收到这两个数\n据段后,发送给主机甲的确认序列号是(\n)\nA. 500\nB. 700\nC. 800\nD. 1000",
+      "horizontal_page": 479
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN5-3",
+    "book_answer": {
+      "num": 41,
+      "answer": "D",
+      "page": 272,
+      "y": 137.04,
+      "line": "41. D",
+      "crops": [
+        {
+          "page": 272,
+          "bbox": [
+            54,
+            137.04,
+            489,
+            197.88
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "5.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-3_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-3_exam_p3.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/05_传输层可靠连接与窗口.md",
+    "manuscript_sha256": "f01cd5a0e6e5f94e101449e6af5d351042551cc97fe08a6dd50ca1a9b12f9bad",
+    "heading": "5-4　至少关闭时间要从FIN开始画【2022】 {#cn-ex5-4}",
+    "year": 2022,
+    "exam_question": 39,
+    "manuscript_stem": "假设客户C和服务器S已建立TCP连接，RTT=50 ms，最长报文段寿命MSL=800 ms，数据传输结束后C主动请求断开连接。若从C主动向S发出FIN段时刻算起，则C和S进入CLOSED状态所需的时间至少分别是（　）。\n\nA. 850 ms，50 ms　B. 1650 ms，50 ms\n\nC. 850 ms，75 ms　D. 1650 ms，75 ms",
+    "exam_text": "39.假设客户C 和服务器S 已建立一个TCP 连接，通信往返时间RTT=50ms，最长报文段寿命MSL \n= 800ms，数据传输结束后，C 主动请求断开连接。若从C 主动向S 发出FIN 段时刻算起，则C\n和S 进入CLOSED 状态所需的时间至少分别是        。 \nA. 850ms，50ms \nB. 1650ms, 50ms \nC. 850ms, 75ms \nD. 1650ms, 75ms",
+    "exam_page": 4,
+    "exam_match_score": 0.9655172413793104,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 58,
+      "year": 2022,
+      "section": "5.3",
+      "native_text": "58.【2022 统考真题】假设客户C 和服务器S 已建立一个TCP 连接, 通信往返时间RTT = 50ms，最长\n报文段寿命MSL = 800ms，数据传输结束后，C 主动请求断开连接。若从C 主动向S 发出FIN 段时\n刻算起,则C 和S 进入CLOSED 状态所需的时间至少分别是(\n)\nA. 850ms, 50ms\nB. 1650ms, 50ms\nC. 850ms, 75ms\nD. 1650ms, 75ms",
+      "horizontal_page": 496
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN5-4",
+    "book_answer": {
+      "num": 58,
+      "answer": "D",
+      "page": 273,
+      "y": 633.48,
+      "line": "58. D",
+      "crops": [
+        {
+          "page": 273,
+          "bbox": [
+            54,
+            633.48,
+            489,
+            705
+          ]
+        },
+        {
+          "page": 274,
+          "bbox": [
+            54,
+            71,
+            489,
+            106.44
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "5.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-4_book_answer_1.png",
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-4_book_answer_2.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-4_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/05_传输层可靠连接与窗口.md",
+    "manuscript_sha256": "f01cd5a0e6e5f94e101449e6af5d351042551cc97fe08a6dd50ca1a9b12f9bad",
+    "heading": "5-5　没有拥塞，不代表一定指数增长【2020】 {#cn-ex5-5}",
+    "year": 2020,
+    "exam_question": 38,
+    "manuscript_stem": "若主机甲与主机乙已建立TCP连接，MSS为1 KB，RTT为2 ms，则在不出现拥塞的前提下，拥塞窗口从8 KB增长到32 KB所需的最长时间是（　）。\n\nA. 4 ms　B. 8 ms　C. 24 ms　D. 48 ms",
+    "exam_text": "38.若主机甲与主机乙已建立一条TCP 连接，最大段长（MSS）为1KB，往返时间（RTT）为\n2ms，则在不出现拥塞的前提下，拥塞窗口从8KB 增长到32KB 所需的最长时间是        。 \nA. 4ms \nB. 8ms \nC. 24ms \nD. 48ms",
+    "exam_page": 5,
+    "exam_match_score": 0.9342105263157895,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 52,
+      "year": 2020,
+      "section": "5.3",
+      "native_text": "52.【2020 统考真题】若主机甲与主机乙已建立一条TCP 连接,最大段长(MSS) 为1KB,往返时间\n(RTT) 为2ms, 则在不出现拥塞的前提下, 拥塞窗口从8KB 增长到32KB 所需的最长时间是(\n)\nA. 4ms\nB. 8ms\nC. 24ms\nD. 48ms",
+      "horizontal_page": 490
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN5-5",
+    "book_answer": {
+      "num": 52,
+      "answer": "D",
+      "page": 273,
+      "y": 243.24,
+      "line": "52. D",
+      "crops": [
+        {
+          "page": 273,
+          "bbox": [
+            54,
+            243.24,
+            489,
+            304.08
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "5.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-5_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-5_exam_p5.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/05_传输层可靠连接与窗口.md",
+    "manuscript_sha256": "f01cd5a0e6e5f94e101449e6af5d351042551cc97fe08a6dd50ca1a9b12f9bad",
+    "heading": "5-6　ACK 只移走已经确认的那一段【2025】 {#cn-ex5-6}",
+    "year": 2025,
+    "exam_question": 38,
+    "manuscript_stem": "主机甲通过TCP向主机乙发送数据的部分过程如下图。seq为序号，ack_seq为确认序号，rcvwnd为接收窗口。甲在 $t_0$ 的拥塞窗口和发送窗口均为2000 B，拥塞控制阈值为8000 B，MSS=1000 B，甲始终以MSS发送TCP段。若甲在 $t_1$ 收到图示确认段，则未收到新的确认之前，还可以继续发送的TCP段数是（　）。\n\n![原题数据：第二个数据段仍未被ack_seq=3001确认](CN10_tcp_window_2025.png){#cn-fig-tcp-window width=93%}\n\nA. 2　B. 3　C. 4　D. 5",
+    "exam_text": "38.主机甲通过TCP 向主机乙发送数据的部分过程如题38 图所示，seq 为序号，ack_seq 为确认序号，\nrcvwnd 为接收窗口。甲在t0 时刻的拥塞窗口和发送窗口均为2000B，拥塞控制值为8000B，\nMSS=1000B，甲始终以MSS 发送TCP 段。若甲在t1时刻收到如图所示的确认段，则甲在未收到\n新的确认段之前，还可以继续向乙发送的TCP 段数是 \n \n题38 图 \nA. 2 \nB. 3 \nC. 4 \nD. 5",
+    "exam_page": 5,
+    "exam_match_score": 0.8343949044585988,
+    "wangdao_match_score": 0.9759450171821306,
+    "wangdao_location": {
+      "question_number": 60,
+      "year": 2025,
+      "section": "5.3",
+      "native_text": "60.【2025 统考真题】主机甲通过TCP 向主机乙发送数据的部分过程如下图, seq 为序号, ack_seq 为\n确认序号, rcvwnd 为接收窗口。甲在t0 时刻的拥塞窗口和发送窗口均为2000B，拥塞控制阈值为\n8000B,MSS = 1000B。甲始终以MSS 发送TCP 段。若甲在t1 时刻收到如图所示的确认段, 则甲在未\n收到新的确认段之前,还可以继续向乙发送的TCP 段数是(\n)\nA. 2\nB. 3\nC. 4\nD. 5",
+      "horizontal_page": 498
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN5-6",
+    "book_answer": {
+      "num": 60,
+      "answer": "A",
+      "page": 274,
+      "y": 300.84000000000003,
+      "line": "60. A",
+      "crops": [
+        {
+          "page": 274,
+          "bbox": [
+            54,
+            300.84000000000003,
+            489,
+            377.16
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "5.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-6_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-6_exam_p5.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/05_传输层可靠连接与窗口.md",
+    "manuscript_sha256": "f01cd5a0e6e5f94e101449e6af5d351042551cc97fe08a6dd50ca1a9b12f9bad",
+    "heading": "5-7　拥塞窗口变大后，接收窗口仍可成为上限【2014】 {#cn-ex5-7}",
+    "year": 2014,
+    "exam_question": 38,
+    "manuscript_stem": "主机甲和乙已建立TCP连接，甲始终以MSS=1 KB大小的段发送数据，并一直有数据发送；乙每收到一个数据段都会发出一个接收窗口为10 KB的确认段。若甲在 $t$ 时刻发生超时时拥塞窗口为8 KB，则从 $t$ 起不再发生超时的情况下，经过10个RTT后，甲的发送窗口是（　）。\n\nA. 10 KB　B. 12 KB　C. 14 KB　D. 15 KB",
+    "exam_text": "38.主机甲和主机乙已建立了TCP 连接，甲始终以MSS = 1KB 大小的段发送数据，并一直有数据发\n送；乙每收到一个数据段都会发出一个接收窗口为10KB 的确认段。若甲在t 时刻发生超时时拥\n塞窗口为8KB，则从t 时刻起，不再发生超时的情况下，经过10 个RTT 后，甲的发送窗口\n是        。 \nA. 10KB \nB. 12KB \nC. 14KB \nD. 15KB",
+    "exam_page": 4,
+    "exam_match_score": 0.9799196787148594,
+    "wangdao_match_score": 0.9761904761904762,
+    "wangdao_location": {
+      "question_number": 47,
+      "year": 2014,
+      "section": "5.3",
+      "native_text": "47.【2014 统考真题】主机甲和乙建立了TCP 连接,甲始终以MSS = 1KB 大小的段发送数据,并一直\n有数据发送; 乙每收到一个数据段都会发出一个接收窗口为10KB 的确认段。若甲在t 时刻发生超时\n的时候拥塞窗口为8KB, 则从t 时刻起, 不再发生超时的情况下, 经过10RTT 后, 甲的发送窗口是(\n)\nA. 10KB\nB. 12KB\nC. 14KB\nD. 15KB",
+      "horizontal_page": 485
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN5-7",
+    "book_answer": {
+      "num": 47,
+      "answer": "A",
+      "page": 272,
+      "y": 547.44,
+      "line": "47. A",
+      "crops": [
+        {
+          "page": 272,
+          "bbox": [
+            54,
+            547.44,
+            489,
+            623.4
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "5.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-7_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN5-7_exam_p4.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/06_应用层名称邮件与Web.md",
+    "manuscript_sha256": "f91c7fcd17227ec96d56afedcf4fe6921ab624fc349ef6c53402f79d85145aae",
+    "heading": "6-1　问的是本地服务器发出多少次查询【2016】 {#cn-ex6-1}",
+    "year": 2016,
+    "exam_question": 40,
+    "manuscript_stem": "假设所有域名服务器均采用迭代查询方式进行域名解析。当H4访问规范域名为 `www.abc.xyz.com` 的网站时，域名服务器201.1.1.1完成该域名解析过程中，可能发出DNS查询的最少和最多次数分别是（　）。共用网络拓扑如下。\n\n![2016年共用拓扑；本题只使用H4及其默认DNS服务器201.1.1.1](CN14_dns_topology_2016.png){#cn-fig-dns2016 width=98%}\n\nA. 0，3　B. 1，3　C. 0，4　D. 1，4",
+    "exam_text": "40.假设所有域名服务器均采用迭代查询方式进行域名解析。当H4 访问规范域名为\nwww.abc.xyz.com 的网站时，域名服务器201.1.1.1 完成该域名解析过程中，可能发出DNS 查询\n的最少和最多次数分别是 \nA. 0，3 \nB. 1，3 \nC. 0，4 \nD. 1，4",
+    "exam_page": 5,
+    "exam_match_score": 0.7963800904977375,
+    "wangdao_match_score": 0.9613259668508287,
+    "wangdao_location": {
+      "question_number": 12,
+      "year": 2016,
+      "section": "6.2",
+      "native_text": "12.【2016 统考真题】假设所有域名服务器均采用迭代查询方式进行域名解析。当主机访问规范域\n名为www.abc.xyz.com 的网站时,本地域名服务器在完成该域名解析的过程中,可能发出DNS 查询的\n最少和最多次数分别是(\n)\nA. 0,3\nB. 1,3\nC. 0,4\nD. 1,4",
+      "horizontal_page": 517
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN6-1",
+    "book_answer": {
+      "num": 12,
+      "answer": "C",
+      "page": 288,
+      "y": 471.48,
+      "line": "12. C",
+      "crops": [
+        {
+          "page": 288,
+          "bbox": [
+            54,
+            471.48,
+            489,
+            547.8000000000001
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "6.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-1_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-1_exam_p5.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/06_应用层名称邮件与Web.md",
+    "manuscript_sha256": "f91c7fcd17227ec96d56afedcf4fe6921ab624fc349ef6c53402f79d85145aae",
+    "heading": "6-2　传递 FTP 命令使用哪条连接【2009】 {#cn-ex6-2}",
+    "year": 2009,
+    "exam_question": 40,
+    "manuscript_stem": "FTP客户和服务器间传递FTP命令时，使用的连接是（　）。\n\nA. 建立在TCP之上的控制连接\n\nB. 建立在TCP之上的数据连接\n\nC. 建立在UDP之上的控制连接\n\nD. 建立在UDP之上的数据连接",
+    "exam_text": "40. FTP 客户和服务器间传递FTP 命令时，使用的连接是      。 \nA. 建立在TCP 之上的控制连接 \nB. 建立在TCP 之上的数据连接 \nC. 建立在UDP 之上的控制连接 \nD. 建立在UDP 之上的数据连接",
+    "exam_page": 3,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 13,
+      "year": 2009,
+      "section": "6.3",
+      "native_text": "13.【2009 统考真题】FTP 客户和服务器间传递FTP 命令时,使用的连接是(\n)\nA. 建立在TCP 之上的控制连接\nB. 建立在TCP 之上的数据连接\nC. 建立在UDP 之上的控制连接\nD. 建立在UDP 之上的数据连接",
+      "horizontal_page": 532
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN6-2",
+    "book_answer": {
+      "num": 13,
+      "answer": "A",
+      "page": 293,
+      "y": 623.4,
+      "line": "13. A",
+      "crops": [
+        {
+          "page": 293,
+          "bbox": [
+            54,
+            623.4,
+            489,
+            668.76
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "6.3"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-2_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-2_exam_p3.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/06_应用层名称邮件与Web.md",
+    "manuscript_sha256": "f91c7fcd17227ec96d56afedcf4fe6921ab624fc349ef6c53402f79d85145aae",
+    "heading": "6-3　一次 POP3 连接可以读几封邮件【2025】 {#cn-ex6-3}",
+    "year": 2025,
+    "exam_question": 40,
+    "manuscript_stem": "下列关于POP3协议的叙述中，正确的是（　）。\n\nI. 支持用户代理从邮件服务器读取邮件\n\nII. 支持用户代理向邮件服务器发送邮件\n\nIII. 支持邮件服务器之间发送与接收邮件\n\nIV. 支持通过一条TCP连接收取多封邮件\n\nA. 仅I、IV　B. 仅II、III　C. 仅I、II、III　D. 仅I、III、IV",
+    "exam_text": "40.下列关于POP3 协议的叙述中，正确的是 \nI. 支持用户代理从邮件服务器读取邮件 \nII. 支持用户代理向邮件服务器发送邮件 \nIII. 支持邮件服务器之间发送与接收邮件 \nIV. 支持通过一条TCP 连接收取多封邮件 \nA. 仅I、IV \nB. 仅II、III \nC. 仅I、II、III \nD. 仅I、III、IV",
+    "exam_page": 5,
+    "exam_match_score": 1.0,
+    "wangdao_match_score": 1.0,
+    "wangdao_location": {
+      "question_number": 12,
+      "year": 2025,
+      "section": "6.4",
+      "native_text": "12.【2025 统考真题】下列关于POP3 协议的叙述中,正确的是(\n)\nI.支持用户代理从邮件服务器读取邮件\nII.支持用户代理向邮件服务器发送邮件\nIII.支持邮件服务器之间发送与接收邮件\nIV.支持通过一条TCP 连接收取多封邮件\nA. 仅I、IV\nB. 仅II、III\nC. 仅I、II、III\nD. 仅I、III、IV",
+      "horizontal_page": 545
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN6-3",
+    "book_answer": {
+      "num": 12,
+      "answer": "A",
+      "page": 301,
+      "y": 193.92000000000002,
+      "line": "12. A",
+      "crops": [
+        {
+          "page": 301,
+          "bbox": [
+            54,
+            193.92000000000002,
+            489,
+            261.96000000000004
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "6.4"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-3_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-3_exam_p5.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/06_应用层名称邮件与Web.md",
+    "manuscript_sha256": "f91c7fcd17227ec96d56afedcf4fe6921ab624fc349ef6c53402f79d85145aae",
+    "heading": "6-4　非持久且不允许并行，要算上 HTML 本身【2024】 {#cn-ex6-4}",
+    "year": 2024,
+    "exam_question": 40,
+    "manuscript_stem": "若浏览器不支持并行TCP连接，使用非持久的HTTP/1.0协议请求浏览1个Web页，该页中引用同一网站上的7个小图像文件，则从浏览器为传输Web页请求建立TCP连接开始，到接收完所有内容为止，所需要的RTT数至少是（　）。\n\nA. 4　B. 9　C. 14　D. 16",
+    "exam_text": "40.若浏览器不支持并行TCP 连接，使用非持久的HTTP/1.0 协议请求浏览1 个Web 页，该顶中引\n用同一网站上7 个小图像文件，则从浏览器为传输Web 页请求建立TCP 连接开始，到接收完所\n有内容为止，所需要的往返时间RTT 数至少是        。 \nA. 4 \nB. 9 \nC. 14 \nD. 16",
+    "exam_page": 5,
+    "exam_match_score": 0.9655172413793104,
+    "wangdao_match_score": 0.9855072463768116,
+    "wangdao_location": {
+      "question_number": 19,
+      "year": 2024,
+      "section": "6.5",
+      "native_text": "19.【2024 统考真题】若浏览器不支持并行TCP 连接,使用非持久的HTTP/1.0 协议请求浏览1 个Web\n页,该页中引用同一网站上的7 个小图像文件,则从浏览器为传输Web 页请求建立TCP 连接开始,到接\n收完所有内容为止,所需要的往返时间RTT 数至少是(\n)\nA. 4\nB. 9\nC. 14\nD. 16",
+      "horizontal_page": 564
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN6-4",
+    "book_answer": {
+      "num": 19,
+      "answer": "D",
+      "page": 313,
+      "y": 240.36,
+      "line": "19. D",
+      "crops": [
+        {
+          "page": 313,
+          "bbox": [
+            54,
+            240.36,
+            489,
+            348.36
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "6.5"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-4_book_answer_1.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-4_exam_p5.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/06_应用层名称邮件与Web.md",
+    "manuscript_sha256": "f91c7fcd17227ec96d56afedcf4fe6921ab624fc349ef6c53402f79d85145aae",
+    "heading": "6-6　DNS 与 Web 的时间由哪几项组成【2020】 {#cn-ex6-6}",
+    "year": 2020,
+    "exam_question": 40,
+    "manuscript_stem": "假设下图网络中的本地域名服务器只提供递归查询服务，其他域名服务器均只提供迭代查询服务；局域网内主机访问Internet上各服务器的RTT均为10 ms，忽略其他各种时延。若主机H通过超链接 `http://www.abc.com/index.html` 请求浏览纯文本Web页index.html，从单击超链接到浏览器收到页面，所需的最短与最长时间分别是（　）。\n\n![主机、本地DNS与路由器共享局域网，远程服务器分别承担名称解析和Web响应](CN11_dns_web_2020.png){#cn-fig-dns2020 width=97%}\n\nA. 10 ms，40 ms　B. 10 ms，50 ms\n\nC. 20 ms，40 ms　D. 20 ms，50 ms",
+    "exam_text": "40.假设下图所示网络中的本地域名服务器只提供递归查询服务，其他域名服务器均只提供迭代查询\n服务；局域网内主机访问Internet 上各服务器的往返时间（RTT）均为10ms,忽略其他各种时延。\n若主机H 通过超链接http://www.abc.com/index.html 请求浏览纯文本Web 页index.html,则从点击\n超链接开始到浏览器接收到index.html 页面为止，所需的最短时间与最长时间分别是        。 \n \nA. 10ms, 40ms \nB. 10ms, 50ms \nC. 20ms, 40ms \nD. 20ms, 50ms",
+    "exam_page": 5,
+    "exam_match_score": 0.831353919239905,
+    "wangdao_match_score": 0.9949748743718593,
+    "wangdao_location": {
+      "question_number": 14,
+      "year": 2020,
+      "section": "6.2",
+      "native_text": "14.【2020 统考真题】假设下图所示网络中的本地域名服务器只提供递归查询服务,其他域名服务器\n均只提供迭代查询服务; 局域网内主机访问Internet 上各服务器的往返时间(RTT) 均为10ms,忽略其\n他各种时延。若主机H 通过超链接http:⎳www.abc.com/index.html 请求浏览纯文本Web 页index.html,\n则从单击超链接开始到浏览器接收到index.html 页面为止,所需的最短时间与最长时间分别是(\n)\nA. 10ms, 40ms\nB. 10ms, 50ms\nC. 20ms, 40ms\nD. 20ms, 50ms",
+      "horizontal_page": 519
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN6-6",
+    "book_answer": {
+      "num": 14,
+      "answer": "D",
+      "page": 288,
+      "y": 608.28,
+      "line": "14. D",
+      "crops": [
+        {
+          "page": 288,
+          "bbox": [
+            54,
+            608.28,
+            489,
+            705
+          ]
+        },
+        {
+          "page": 289,
+          "bbox": [
+            54,
+            71,
+            489,
+            94.56
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "6.2"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-6_book_answer_1.png",
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-6_book_answer_2.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-6_exam_p5.png"
+  },
+  {
+    "manuscript": "/workspace/408_lecture_notes/manuscript/CN/06_应用层名称邮件与Web.md",
+    "manuscript_sha256": "f91c7fcd17227ec96d56afedcf4fe6921ab624fc349ef6c53402f79d85145aae",
+    "heading": "6-7　收到 HTML 后，拥塞窗口还限制图片分几轮【2022】 {#cn-ex6-7}",
+    "year": 2022,
+    "exam_question": 40,
+    "manuscript_stem": "假设主机H通过HTTP/1.1请求Web服务器S上的news408.html，它引用同目录下1幅图像。HTML文件大小为1 MSS，图像3 MSS，RTT=10 ms，忽略HTTP响应首部开销和TCP段传输时延。若H已完成域名解析，则从H请求与S建立TCP连接时刻起，到收到全部内容，所需的时间至少是（　）。\n\nA. 30 ms　B. 40 ms　C. 50 ms　D. 60 ms",
+    "exam_text": "40.假设主机H 通过HTTP/1.1 请求浏览某Web 服务器S 上的Web 页news408.html，news408 引用\n了同目录下的1 幅图像，news408.html 文件大小为1MSS（最大段长），图像文件大小为3MSS，\nH 访问S 的往返时间RTT=10ms，忽略HTTP 响应报文的首部开销和TCP 段传输时延。若H 已\n完成域名解析，则从H 请求与S 建立TCP 连接时刻起，到接收到全部内容止，所需的时间至少\n是        。 \nA. 30ms \nB. 40ms \nC. 50ms \nD. 60ms",
+    "exam_page": 4,
+    "exam_match_score": 0.8681672025723473,
+    "wangdao_match_score": 0.9887005649717514,
+    "wangdao_location": {
+      "question_number": 18,
+      "year": 2022,
+      "section": "6.5",
+      "native_text": "18.【2022 统考真题】假设主机H 通过HTTP/1.1 请求浏览某Web 服务器S 上的Web 页news408.html,\nnews408.html 引用了同目录下的1 幅图像, news408.html 文件大小为1MSS(最大段长), 图像文件大小\n为3MSS,H 访问S 的往返时间RTT = 10ms, 忽略HTTP 响应报文的首部开销和TCP 段传输时延。若\nH 已完成域名解析，则从H 请求与S 建立TCP 连接时刻起，到接收到全部内容止，所需的时间至\n少是(\n)\nA. 30ms\nB. 40ms\nC. 50ms\nD. 60ms",
+      "horizontal_page": 563
+    },
+    "review_status": "待人工读题核验，不因匹配升级",
+    "id": "CN6-7",
+    "book_answer": {
+      "num": 18,
+      "answer": "B",
+      "page": 312,
+      "y": 540.6,
+      "line": "18. B",
+      "crops": [
+        {
+          "page": 312,
+          "bbox": [
+            54,
+            540.6,
+            489,
+            705
+          ]
+        },
+        {
+          "page": 313,
+          "bbox": [
+            54,
+            71,
+            489,
+            240.36
+          ]
+        }
+      ],
+      "book": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "subject": "CN",
+      "section": "6.5"
+    },
+    "answer_images": [
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-7_book_answer_1.png",
+      "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-7_book_answer_2.png"
+    ],
+    "exam_image": "/workspace/408_lecture_notes/editorial/full/sources/current_review/CN6-7_exam_p4.png"
+  }
+]

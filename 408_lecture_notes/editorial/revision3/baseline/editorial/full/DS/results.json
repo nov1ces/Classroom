@@ -1,0 +1,3480 @@
+{
+  "subject": "DS",
+  "status": "PASS",
+  "checks_count": 66,
+  "checks": [
+    {
+      "id": "DS-C01",
+      "task": "2017累计和停止次数，n=0..1000",
+      "actual": 14,
+      "expected": 14,
+      "status": "PASS",
+      "scope": "实际循环与最小三角数不等式逐项互证"
+    },
+    {
+      "id": "DS-C02",
+      "task": "2022倍增嵌套循环n=1000",
+      "actual": 1023,
+      "expected": 1023,
+      "status": "PASS",
+      "scope": "逐轮次数之和；验证线性上下界，不只看层数"
+    },
+    {
+      "id": "DS-C03",
+      "task": "三次逆置循环左移",
+      "actual": true,
+      "expected": true,
+      "status": "PASS",
+      "scope": "穷举n=2..29全部合法p，含p=1、p=n−1"
+    },
+    {
+      "id": "DS-C04",
+      "task": "主元素候选加复核",
+      "actual": true,
+      "expected": true,
+      "status": "PASS",
+      "scope": "穷举长度1..8、值域0..2，与直接计数对照"
+    },
+    {
+      "id": "DS-C05",
+      "task": "2009栈最小容量",
+      "actual": 3,
+      "expected": 3,
+      "status": "PASS",
+      "scope": "逐次压入弹出；原材料错误字符不进入计算"
+    },
+    {
+      "id": "DS-C06",
+      "task": "栈以cd开头的序列",
+      "actual": [
+        "cdba"
+      ],
+      "expected": [
+        "cdba"
+      ],
+      "status": "PASS",
+      "scope": "枚举全部4!输出并模拟栈"
+    },
+    {
+      "id": "DS-C07",
+      "task": "循环队列A[21]长度",
+      "actual": 16,
+      "expected": 16,
+      "status": "PASS",
+      "scope": "直接按有效下标9..20、0..3另计16"
+    },
+    {
+      "id": "DS-C08",
+      "task": "共享栈相邻余量",
+      "actual": 1,
+      "expected": 1,
+      "status": "PASS",
+      "scope": "已用左0..2右4..7，剩单元3"
+    },
+    {
+      "id": "DS-C09",
+      "task": "递归F(8)调用次数",
+      "actual": 9,
+      "expected": 9,
+      "status": "PASS",
+      "scope": "数调用树结点，不以返回值代替次数"
+    },
+    {
+      "id": "DS-C10",
+      "task": "2016三对角(30,30)位置",
+      "actual": 87,
+      "expected": 87,
+      "status": "PASS",
+      "scope": "枚举按行压缩坐标，与公式独立交叉"
+    },
+    {
+      "id": "DS-C11",
+      "task": "2020对称上三角列优先",
+      "actual": 22,
+      "expected": 22,
+      "status": "PASS",
+      "scope": "先对称转换(7,2)→(2,7)，再坐标枚举"
+    },
+    {
+      "id": "DS-C12",
+      "task": "2018上三角行优先",
+      "actual": 50,
+      "expected": 50,
+      "status": "PASS",
+      "scope": "正文方法变式去向的独立位置校验"
+    },
+    {
+      "id": "DS-C13",
+      "task": "多维数组地址",
+      "actual": 1040,
+      "expected": 1040,
+      "status": "PASS",
+      "scope": "单位字节；行宽4而非3"
+    },
+    {
+      "id": "DS-C14",
+      "task": "下三角按列压缩公式",
+      "actual": true,
+      "expected": true,
+      "status": "PASS",
+      "scope": "n=2..9全部坐标，数组从1开始"
+    },
+    {
+      "id": "DS-C15",
+      "task": "2018双栈表达式",
+      "actual": [
+        15
+      ],
+      "expected": [
+        15
+      ],
+      "status": "PASS",
+      "scope": "按b op a实际弹栈"
+    },
+    {
+      "id": "DS-C16",
+      "task": "abaabc普通next",
+      "actual": [
+        -1,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "expected": [
+        -1,
+        0,
+        0,
+        1,
+        1,
+        2
+      ],
+      "status": "PASS",
+      "scope": "定义枚举真前后缀，而非复制正文线性建表程序"
+    },
+    {
+      "id": "DS-C17",
+      "task": "aabaab普通next",
+      "actual": [
+        -1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "expected": [
+        -1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      "status": "PASS",
+      "scope": "逐前缀枚举"
+    },
+    {
+      "id": "DS-C18",
+      "task": "aabaab修正next",
+      "actual": [
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "expected": [
+        -1,
+        -1,
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "status": "PASS",
+      "scope": "相同失配字符连续跳过"
+    },
+    {
+      "id": "DS-C19",
+      "task": "2024最大模式位移",
+      "actual": 5,
+      "expected": 5,
+      "status": "PASS",
+      "scope": "所有失配位置完整比较"
+    },
+    {
+      "id": "DS-C20",
+      "task": "KMP与独立字符串查找一致",
+      "actual": 3937,
+      "expected": 3937,
+      "status": "PASS",
+      "scope": "穷举主串长度0..6、模式0..4，含空串与重叠边界"
+    },
+    {
+      "id": "DS-C21",
+      "task": "树度数求叶",
+      "actual": 82,
+      "expected": 82,
+      "status": "PASS",
+      "scope": "总度数=总节点数−1"
+    },
+    {
+      "id": "DS-C22",
+      "task": "3叉50结点最小高",
+      "actual": 5,
+      "expected": 5,
+      "status": "PASS",
+      "scope": "按每层最大容量枚举"
+    },
+    {
+      "id": "DS-C23",
+      "task": "2020最坏顺序位置见证",
+      "actual": [
+        10,
+        31,
+        5
+      ],
+      "expected": [
+        10,
+        31,
+        5
+      ],
+      "status": "PASS",
+      "scope": "显式合法10节点形态，证明31位置可能被使用"
+    },
+    {
+      "id": "DS-C24",
+      "task": "二叉树四序前三种",
+      "actual": [
+        "ABDECF",
+        "DBEACF",
+        "DEBFCA"
+      ],
+      "expected": [
+        "ABDECF",
+        "DBEACF",
+        "DEBFCA"
+      ],
+      "status": "PASS",
+      "scope": "递归实际遍历"
+    },
+    {
+      "id": "DS-C25",
+      "task": "非递归后序与递归互证",
+      "actual": [
+        "D",
+        "E",
+        "B",
+        "F",
+        "C",
+        "A"
+      ],
+      "expected": [
+        "D",
+        "E",
+        "B",
+        "F",
+        "C",
+        "A"
+      ],
+      "status": "PASS",
+      "scope": "显式栈与last机制独立运行"
+    },
+    {
+      "id": "DS-C26",
+      "task": "4结点先序形态数",
+      "actual": 14,
+      "expected": 14,
+      "status": "PASS",
+      "scope": "卡特兰计数"
+    },
+    {
+      "id": "DS-C27",
+      "task": "2023哈夫曼WPL",
+      "actual": [
+        90,
+        2.5
+      ],
+      "expected": [
+        90,
+        2.5
+      ],
+      "status": "PASS",
+      "scope": "优先队列每轮重新取两个最小值"
+    },
+    {
+      "id": "DS-C28",
+      "task": "前缀编码剩余容量",
+      "actual": 4,
+      "expected": 4,
+      "status": "PASS",
+      "scope": "枚举长度4全部码位，扣除被占子树"
+    },
+    {
+      "id": "DS-C29",
+      "task": "固定邻接次序DFS",
+      "actual": "abedfc",
+      "expected": "abedfc",
+      "status": "PASS",
+      "scope": "按字母顺序实际递归"
+    },
+    {
+      "id": "DS-C30",
+      "task": "BFS轨迹与距离",
+      "actual": [
+        "abcefd",
+        2,
+        2
+      ],
+      "expected": [
+        "abcefd",
+        2,
+        2
+      ],
+      "status": "PASS",
+      "scope": "入队时标记"
+    },
+    {
+      "id": "DS-C31",
+      "task": "2015MST总权",
+      "actual": 21,
+      "expected": 21,
+      "status": "PASS",
+      "scope": "枚举6选3并独立检查连通"
+    },
+    {
+      "id": "DS-C32",
+      "task": "2021Dijkstra第二次路径确定",
+      "actual": [
+        21,
+        3,
+        14,
+        6
+      ],
+      "expected": [
+        21,
+        3,
+        14,
+        6
+      ],
+      "status": "PASS",
+      "scope": "记录起点之后确定3、5时的真实距离数组"
+    },
+    {
+      "id": "DS-C33",
+      "task": "2021Dijkstra最终距离",
+      "actual": [
+        0,
+        15,
+        3,
+        14,
+        6
+      ],
+      "expected": [
+        0,
+        15,
+        3,
+        14,
+        6
+      ],
+      "status": "PASS",
+      "scope": "枚举全部简单路径的独立交叉核验"
+    },
+    {
+      "id": "DS-C34",
+      "task": "非负最短路通用测试",
+      "actual": 100,
+      "expected": 100,
+      "status": "PASS",
+      "scope": "含零权、不可达，与枚举路径比较"
+    },
+    {
+      "id": "DS-C35",
+      "task": "唯一拓扑序与排列枚举",
+      "actual": 64,
+      "expected": 64,
+      "status": "PASS",
+      "scope": "4顶点全部按编号定向DAG；另查含环情况"
+    },
+    {
+      "id": "DS-C36",
+      "task": "2013AOE三关键路径",
+      "actual": [
+        "bdcg",
+        "bdeh",
+        "bfh"
+      ],
+      "expected": [
+        "bdcg",
+        "bdeh",
+        "bfh"
+      ],
+      "status": "PASS",
+      "scope": "枚举源到汇全部有向路径"
+    },
+    {
+      "id": "DS-C37",
+      "task": "2013四个选项分别缩短1后的工期",
+      "actual": [
+        27,
+        27,
+        26,
+        27
+      ],
+      "expected": [
+        27,
+        27,
+        26,
+        27
+      ],
+      "status": "PASS",
+      "scope": "改变实际持续时间重算全部路径，不只检查标题"
+    },
+    {
+      "id": "DS-C38",
+      "task": "2010折半失败比较位序",
+      "actual": [
+        8,
+        12,
+        14,
+        15,
+        16
+      ],
+      "expected": [
+        8,
+        12,
+        14,
+        15,
+        16
+      ],
+      "status": "PASS",
+      "scope": "目标大于最大关键字，闭区间向下取中点"
+    },
+    {
+      "id": "DS-C39",
+      "task": "AVL七次插入最终树",
+      "actual": [
+        34,
+        [
+          23,
+          [
+            15,
+            null,
+            null
+          ],
+          [
+            28,
+            null,
+            null
+          ]
+        ],
+        [
+          107,
+          [
+            98,
+            null,
+            null
+          ],
+          [
+            115,
+            null,
+            null
+          ]
+        ]
+      ],
+      "expected": [
+        34,
+        [
+          23,
+          [
+            15,
+            null,
+            null
+          ],
+          [
+            28,
+            null,
+            null
+          ]
+        ],
+        [
+          107,
+          [
+            98,
+            null,
+            null
+          ],
+          [
+            115,
+            null,
+            null
+          ]
+        ]
+      ],
+      "status": "PASS",
+      "scope": "每一步同时检查平衡与中序，不只检查最终根"
+    },
+    {
+      "id": "DS-C40",
+      "task": "3阶B树高度区间",
+      "actual": [
+        11,
+        7
+      ],
+      "expected": [
+        11,
+        7
+      ],
+      "status": "PASS",
+      "scope": "最小/最大容量两端分别计算"
+    },
+    {
+      "id": "DS-C41",
+      "task": "2025B树按高度计形态",
+      "actual": [
+        0,
+        8,
+        1
+      ],
+      "expected": [
+        0,
+        8,
+        1
+      ],
+      "status": "PASS",
+      "scope": "递归枚举合法有序子树项数分配，包含非根下限与等高约束"
+    },
+    {
+      "id": "DS-C42",
+      "task": "2023删除标记失败ASL",
+      "actual": [
+        [
+          1,
+          3,
+          2,
+          1,
+          2
+        ],
+        1.8
+      ],
+      "expected": [
+        [
+          1,
+          3,
+          2,
+          1,
+          2
+        ],
+        1.8
+      ],
+      "status": "PASS",
+      "scope": "按五个初始地址实际探查到从未用空槽"
+    },
+    {
+      "id": "DS-C43",
+      "task": "2024二次探查散列表",
+      "actual": [
+        11,
+        null,
+        14,
+        7,
+        null,
+        20,
+        9,
+        null,
+        null,
+        3,
+        18
+      ],
+      "expected": [
+        11,
+        null,
+        14,
+        7,
+        null,
+        20,
+        9,
+        null,
+        null,
+        3,
+        18
+      ],
+      "status": "PASS",
+      "scope": "每个增量从H0计算"
+    },
+    {
+      "id": "DS-C44",
+      "task": "2024查8失败地址序列",
+      "actual": [
+        2,
+        3,
+        6,
+        0,
+        7
+      ],
+      "expected": [
+        2,
+        3,
+        6,
+        0,
+        7
+      ],
+      "status": "PASS",
+      "scope": "实际探查并确认最后空槽7"
+    },
+    {
+      "id": "DS-C45",
+      "task": "希尔前两趟",
+      "actual": [
+        [
+          2,
+          11,
+          5,
+          1,
+          8,
+          9,
+          24,
+          7,
+          34,
+          51,
+          13,
+          77,
+          56
+        ],
+        [
+          1,
+          7,
+          5,
+          2,
+          8,
+          9,
+          24,
+          11,
+          34,
+          51,
+          13,
+          77,
+          56
+        ]
+      ],
+      "expected": [
+        [
+          2,
+          11,
+          5,
+          1,
+          8,
+          9,
+          24,
+          7,
+          34,
+          51,
+          13,
+          77,
+          56
+        ],
+        [
+          1,
+          7,
+          5,
+          2,
+          8,
+          9,
+          24,
+          11,
+          34,
+          51,
+          13,
+          77,
+          56
+        ]
+      ],
+      "status": "PASS",
+      "scope": "对所有余数分组进行真实间隔插入"
+    },
+    {
+      "id": "DS-C46",
+      "task": "双向划分排序正确",
+      "actual": true,
+      "expected": true,
+      "status": "PASS",
+      "scope": "全部6!不同键排列及3^6重复值输入，含全相等"
+    },
+    {
+      "id": "DS-C47",
+      "task": "2019各选项分隔位置",
+      "actual": [
+        [
+          4,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "expected": [
+        [
+          4,
+          7
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          0,
+          4,
+          5
+        ],
+        [
+          2,
+          5
+        ]
+      ],
+      "status": "PASS",
+      "scope": "同时检查全左/全右关系，非只看与最终排名相同"
+    },
+    {
+      "id": "DS-C48",
+      "task": "2015删堆顶实际比较",
+      "actual": [
+        3,
+        [
+          10,
+          15,
+          12,
+          21,
+          34,
+          16
+        ]
+      ],
+      "expected": [
+        3,
+        [
+          10,
+          15,
+          12,
+          21,
+          34,
+          16
+        ]
+      ],
+      "status": "PASS",
+      "scope": "数孩子间及候选间比较，不计边界判断"
+    },
+    {
+      "id": "DS-C49",
+      "task": "2024两次归并比较",
+      "actual": [
+        2,
+        3,
+        5,
+        [
+          3,
+          5,
+          6,
+          7,
+          9
+        ]
+      ],
+      "expected": [
+        2,
+        3,
+        5,
+        [
+          3,
+          5,
+          6,
+          7,
+          9
+        ]
+      ],
+      "status": "PASS",
+      "scope": "真实合并到一侧耗尽，剩余直接复制"
+    },
+    {
+      "id": "DS-C50",
+      "task": "LSD第一趟",
+      "actual": [
+        42,
+        13,
+        94,
+        5,
+        55,
+        46,
+        17
+      ],
+      "expected": [
+        42,
+        13,
+        94,
+        5,
+        55,
+        46,
+        17
+      ],
+      "status": "PASS",
+      "scope": "稳定个位分配；05以数值5记录，正文保留两位显示"
+    },
+    {
+      "id": "DS-C51",
+      "task": "2023置换选择全部三段",
+      "actual": [
+        [
+          37,
+          51,
+          63,
+          92,
+          94,
+          99
+        ],
+        [
+          14,
+          15,
+          23,
+          31,
+          48,
+          56,
+          60,
+          90,
+          166
+        ],
+        [
+          8,
+          17,
+          43,
+          100
+        ]
+      ],
+      "expected": [
+        [
+          37,
+          51,
+          63,
+          92,
+          94,
+          99
+        ],
+        [
+          14,
+          15,
+          23,
+          31,
+          48,
+          56,
+          60,
+          90,
+          166
+        ],
+        [
+          8,
+          17,
+          43,
+          100
+        ]
+      ],
+      "status": "PASS",
+      "scope": "真实工作区输出/换入/冻结，全部19条记录一次输出"
+    },
+    {
+      "id": "DS-C52",
+      "task": "置换选择首段两端长度",
+      "actual": [
+        20,
+        4
+      ],
+      "expected": [
+        20,
+        4
+      ],
+      "status": "PASS",
+      "scope": "递增/递减20记录，m=4，实际过程验证"
+    },
+    {
+      "id": "DS-C53",
+      "task": "2012最优二路归并",
+      "actual": [
+        830,
+        825
+      ],
+      "expected": [
+        830,
+        825
+      ],
+      "status": "PASS",
+      "scope": "每次重新取最短两段，比较成本减五个−1"
+    },
+    {
+      "id": "DS-C54",
+      "task": "四路归并补零后WPL",
+      "actual": [
+        690,
+        [
+          17,
+          64,
+          196,
+          413
+        ]
+      ],
+      "expected": [
+        690,
+        [
+          17,
+          64,
+          196,
+          413
+        ]
+      ],
+      "status": "PASS",
+      "scope": "自动补1个零权叶，再逐次选4个最小值"
+    },
+    {
+      "id": "DS-C55",
+      "task": "外存60块与两趟归并I/O",
+      "actual": 360,
+      "expected": 360,
+      "status": "PASS",
+      "scope": "明确包含初始段生成、读写各一遍"
+    },
+    {
+      "id": "DS-C57",
+      "task": "2022最小10个数的迭代选择",
+      "actual": 100,
+      "expected": 100,
+      "status": "PASS",
+      "scope": "随机且含重复值输入，与完整排序的前10项独立对照；不要求保留的10项自身已序"
+    },
+    {
+      "id": "DS-C56",
+      "task": "图文共用数值一致",
+      "actual": true,
+      "expected": true,
+      "status": "PASS",
+      "scope": "读实际图稿manifest，与本脚本实际结果对照"
+    },
+    {
+      "id": "DS-C58",
+      "task": "AVL四型逐状态BST、节点高度/平衡因子与实际旋转",
+      "actual": [
+        [
+          "LL",
+          [
+            4,
+            3
+          ]
+        ],
+        [
+          "RR",
+          [
+            4,
+            3
+          ]
+        ],
+        [
+          "LR",
+          [
+            4,
+            4,
+            3
+          ]
+        ],
+        [
+          "RL",
+          [
+            4,
+            4,
+            3
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          "LL",
+          [
+            4,
+            3
+          ]
+        ],
+        [
+          "RR",
+          [
+            4,
+            3
+          ]
+        ],
+        [
+          "LR",
+          [
+            4,
+            4,
+            3
+          ]
+        ],
+        [
+          "RL",
+          [
+            4,
+            4,
+            3
+          ]
+        ]
+      ],
+      "status": "PASS",
+      "scope": "读取数值图数据；每状态中序、每节点高度/BF、插入前合法AVL、每一次旋转与最后平衡均核验，双旋中间态允许尚未平衡"
+    },
+    {
+      "id": "DS-C59",
+      "task": "5阶插入：叶5项分裂、根5项分裂及6孩子分接",
+      "actual": [
+        [
+          16,
+          2
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          17,
+          3
+        ]
+      ],
+      "expected": [
+        [
+          16,
+          2
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          17,
+          2
+        ],
+        [
+          17,
+          3
+        ]
+      ],
+      "status": "PASS",
+      "scope": "独立自底向上插入重现图中全部3步；非根2..4、根1..4、结点内有序、孩子区间/数量、叶等深逐状态断言；仅指定节点临时5项"
+    },
+    {
+      "id": "DS-C60",
+      "task": "5阶删除经父借位：10下移、12上移",
+      "actual": [
+        [
+          6,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "expected": [
+        [
+          6,
+          2
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          2
+        ]
+      ],
+      "status": "PASS",
+      "scope": "实际删除2后叶仅1项，再经父分隔项向3项兄弟借；完成态两叶各2项，不直接搬兄弟项跳过父"
+    },
+    {
+      "id": "DS-C61",
+      "task": "5阶删除合并传播：叶下溢、双亲下溢、空根降高",
+      "actual": [
+        [
+          17,
+          3
+        ],
+        [
+          16,
+          3
+        ],
+        [
+          16,
+          3
+        ],
+        [
+          16,
+          3
+        ],
+        [
+          16,
+          2
+        ]
+      ],
+      "expected": [
+        [
+          17,
+          3
+        ],
+        [
+          16,
+          3
+        ],
+        [
+          16,
+          3
+        ],
+        [
+          16,
+          3
+        ],
+        [
+          16,
+          2
+        ]
+      ],
+      "status": "PASS",
+      "scope": "每层1+1+2合并成4项，内结点合并按原顺序接5个孩子；空根暂只有1孩子，压缩后全叶同时升一层"
+    },
+    {
+      "id": "DS-C62",
+      "task": "5阶内部层左右借位的孩子转接",
+      "actual": [
+        19,
+        19
+      ],
+      "expected": [
+        19,
+        19
+      ],
+      "status": "PASS",
+      "scope": "先在底层合并造成内结点下溢；右借时把右兄弟最左孩子[16,18]接到左结点，左借作镜像核验，保持3孩子和全树区间"
+    },
+    {
+      "id": "DS-C63",
+      "task": "5阶禁止合法2键兄弟的提前合并",
+      "actual": [
+        5,
+        4,
+        true
+      ],
+      "expected": [
+        5,
+        4,
+        true
+      ],
+      "status": "PASS",
+      "scope": "m=5上限4，不把CLRS最小度t=3的最大5键套来；合法合并发生在一侧下溢到1键之后"
+    },
+    {
+      "id": "DS-C64",
+      "task": "每趟照常折半：有序仍需对数定位、逆序仍需二次移动",
+      "actual": [
+        769,
+        0,
+        8128
+      ],
+      "expected": [
+        769,
+        0,
+        8128
+      ],
+      "status": "PASS",
+      "scope": "n=2..128逐一计比较与右移；n=128给出实际计数，不以零移动推断最好线性总时间"
+    },
+    {
+      "id": "DS-C65",
+      "task": "允许相等即停的堆排序全等输入",
+      "actual": [
+        186,
+        378,
+        762
+      ],
+      "expected": [
+        186,
+        378,
+        762
+      ],
+      "status": "PASS",
+      "scope": "含自底向上建堆与n−1次输出，下滤每次至多两比即停，计数3n−6；说明线性特例，不反推一般最坏界"
+    },
+    {
+      "id": "DS-C66",
+      "task": "计数排序频次、前缀与相等记录身份",
+      "actual": [
+        [
+          1,
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          3,
+          5,
+          6
+        ],
+        [
+          [
+            0,
+            "x"
+          ],
+          [
+            2,
+            "a"
+          ],
+          [
+            2,
+            "b"
+          ],
+          [
+            3,
+            "a"
+          ],
+          [
+            3,
+            "b"
+          ],
+          [
+            4,
+            "x"
+          ]
+        ],
+        1093
+      ],
+      "expected": [
+        [
+          1,
+          0,
+          2,
+          2,
+          1
+        ],
+        [
+          1,
+          1,
+          3,
+          5,
+          6
+        ],
+        [
+          [
+            0,
+            "x"
+          ],
+          [
+            2,
+            "a"
+          ],
+          [
+            2,
+            "b"
+          ],
+          [
+            3,
+            "a"
+          ],
+          [
+            3,
+            "b"
+          ],
+          [
+            4,
+            "x"
+          ]
+        ],
+        1093
+      ],
+      "status": "PASS",
+      "scope": "复算正文6条带身份记录；再枚举长度0..6、值域0..2的1093序列，与稳定参考排序对照"
+    }
+  ],
+  "notes": [
+    "程序结果核验不替代题源图文核验或PDF视觉检查。",
+    "图数值检查读取图源manifest，并非仅检查文件和标题。",
+    "有限穷举范围与各项记录一致，不据此声称所有算法性质已形式证明。",
+    "第二轮仅进行正文与图机制复核，未生成、分页或视觉检查成稿PDF。"
+  ],
+  "replacement_events": [
+    {
+      "out": 37,
+      "new": 14,
+      "active": [
+        51,
+        92,
+        94
+      ],
+      "frozen": [
+        14
+      ]
+    },
+    {
+      "out": 51,
+      "new": 63,
+      "active": [
+        63,
+        92,
+        94
+      ],
+      "frozen": [
+        14
+      ]
+    },
+    {
+      "out": 63,
+      "new": 15,
+      "active": [
+        92,
+        94
+      ],
+      "frozen": [
+        14,
+        15
+      ]
+    },
+    {
+      "out": 92,
+      "new": 99,
+      "active": [
+        94,
+        99
+      ],
+      "frozen": [
+        14,
+        15
+      ]
+    },
+    {
+      "out": 94,
+      "new": 48,
+      "active": [
+        99
+      ],
+      "frozen": [
+        14,
+        15,
+        48
+      ]
+    },
+    {
+      "out": 99,
+      "new": 56,
+      "active": [],
+      "frozen": [
+        14,
+        15,
+        48,
+        56
+      ]
+    },
+    {
+      "out": 14,
+      "new": 23,
+      "active": [
+        15,
+        23,
+        48,
+        56
+      ],
+      "frozen": []
+    },
+    {
+      "out": 15,
+      "new": 60,
+      "active": [
+        23,
+        48,
+        56,
+        60
+      ],
+      "frozen": []
+    },
+    {
+      "out": 23,
+      "new": 31,
+      "active": [
+        31,
+        48,
+        56,
+        60
+      ],
+      "frozen": []
+    },
+    {
+      "out": 31,
+      "new": 17,
+      "active": [
+        48,
+        56,
+        60
+      ],
+      "frozen": [
+        17
+      ]
+    },
+    {
+      "out": 48,
+      "new": 43,
+      "active": [
+        56,
+        60
+      ],
+      "frozen": [
+        17,
+        43
+      ]
+    },
+    {
+      "out": 56,
+      "new": 8,
+      "active": [
+        60
+      ],
+      "frozen": [
+        8,
+        17,
+        43
+      ]
+    },
+    {
+      "out": 60,
+      "new": 90,
+      "active": [
+        90
+      ],
+      "frozen": [
+        8,
+        17,
+        43
+      ]
+    },
+    {
+      "out": 90,
+      "new": 166,
+      "active": [
+        166
+      ],
+      "frozen": [
+        8,
+        17,
+        43
+      ]
+    },
+    {
+      "out": 166,
+      "new": 100,
+      "active": [],
+      "frozen": [
+        8,
+        17,
+        43,
+        100
+      ]
+    },
+    {
+      "out": 8,
+      "new": null,
+      "active": [
+        17,
+        43,
+        100
+      ],
+      "frozen": []
+    },
+    {
+      "out": 17,
+      "new": null,
+      "active": [
+        43,
+        100
+      ],
+      "frozen": []
+    },
+    {
+      "out": 43,
+      "new": null,
+      "active": [
+        100
+      ],
+      "frozen": []
+    },
+    {
+      "out": 100,
+      "new": null,
+      "active": [],
+      "frozen": []
+    }
+  ],
+  "optimal_merge_steps": [
+    [
+      [
+        10,
+        35
+      ],
+      45
+    ],
+    [
+      [
+        40,
+        45
+      ],
+      85
+    ],
+    [
+      [
+        50,
+        60
+      ],
+      110
+    ],
+    [
+      [
+        85,
+        110
+      ],
+      195
+    ],
+    [
+      [
+        195,
+        200
+      ],
+      395
+    ]
+  ],
+  "four_way_steps": [
+    [
+      [
+        0,
+        3,
+        6,
+        8
+      ],
+      17
+    ],
+    [
+      [
+        9,
+        17,
+        18,
+        20
+      ],
+      64
+    ],
+    [
+      [
+        30,
+        44,
+        60,
+        62
+      ],
+      196
+    ],
+    [
+      [
+        64,
+        68,
+        85,
+        196
+      ],
+      413
+    ]
+  ],
+  "revision2": {
+    "avl_states": [
+      {
+        "type": "LL",
+        "insert": 10,
+        "operations": [
+          {
+            "direction": "right",
+            "at": 50
+          }
+        ],
+        "states": [
+          {
+            "inorder": [
+              10,
+              20,
+              30,
+              40,
+              50,
+              70
+            ],
+            "height": 4,
+            "nodes": [
+              {
+                "key": 50,
+                "height": 4,
+                "balance": 2
+              },
+              {
+                "key": 30,
+                "height": 3,
+                "balance": 1
+              },
+              {
+                "key": 20,
+                "height": 2,
+                "balance": 1
+              },
+              {
+                "key": 10,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 40,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 70,
+                "height": 1,
+                "balance": 0
+              }
+            ]
+          },
+          {
+            "inorder": [
+              10,
+              20,
+              30,
+              40,
+              50,
+              70
+            ],
+            "height": 3,
+            "nodes": [
+              {
+                "key": 30,
+                "height": 3,
+                "balance": 0
+              },
+              {
+                "key": 20,
+                "height": 2,
+                "balance": 1
+              },
+              {
+                "key": 10,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 50,
+                "height": 2,
+                "balance": 0
+              },
+              {
+                "key": 40,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 70,
+                "height": 1,
+                "balance": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RR",
+        "insert": 70,
+        "operations": [
+          {
+            "direction": "left",
+            "at": 30
+          }
+        ],
+        "states": [
+          {
+            "inorder": [
+              10,
+              30,
+              40,
+              50,
+              60,
+              70
+            ],
+            "height": 4,
+            "nodes": [
+              {
+                "key": 30,
+                "height": 4,
+                "balance": -2
+              },
+              {
+                "key": 10,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 50,
+                "height": 3,
+                "balance": -1
+              },
+              {
+                "key": 40,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 60,
+                "height": 2,
+                "balance": -1
+              },
+              {
+                "key": 70,
+                "height": 1,
+                "balance": 0
+              }
+            ]
+          },
+          {
+            "inorder": [
+              10,
+              30,
+              40,
+              50,
+              60,
+              70
+            ],
+            "height": 3,
+            "nodes": [
+              {
+                "key": 50,
+                "height": 3,
+                "balance": 0
+              },
+              {
+                "key": 30,
+                "height": 2,
+                "balance": 0
+              },
+              {
+                "key": 10,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 40,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 60,
+                "height": 2,
+                "balance": -1
+              },
+              {
+                "key": 70,
+                "height": 1,
+                "balance": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "LR",
+        "insert": 40,
+        "operations": [
+          {
+            "direction": "left",
+            "at": 30
+          },
+          {
+            "direction": "right",
+            "at": 70
+          }
+        ],
+        "states": [
+          {
+            "inorder": [
+              20,
+              30,
+              40,
+              50,
+              70,
+              90
+            ],
+            "height": 4,
+            "nodes": [
+              {
+                "key": 70,
+                "height": 4,
+                "balance": 2
+              },
+              {
+                "key": 30,
+                "height": 3,
+                "balance": -1
+              },
+              {
+                "key": 20,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 50,
+                "height": 2,
+                "balance": 1
+              },
+              {
+                "key": 40,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 90,
+                "height": 1,
+                "balance": 0
+              }
+            ]
+          },
+          {
+            "inorder": [
+              20,
+              30,
+              40,
+              50,
+              70,
+              90
+            ],
+            "height": 4,
+            "nodes": [
+              {
+                "key": 70,
+                "height": 4,
+                "balance": 2
+              },
+              {
+                "key": 50,
+                "height": 3,
+                "balance": 2
+              },
+              {
+                "key": 30,
+                "height": 2,
+                "balance": 0
+              },
+              {
+                "key": 20,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 40,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 90,
+                "height": 1,
+                "balance": 0
+              }
+            ]
+          },
+          {
+            "inorder": [
+              20,
+              30,
+              40,
+              50,
+              70,
+              90
+            ],
+            "height": 3,
+            "nodes": [
+              {
+                "key": 50,
+                "height": 3,
+                "balance": 0
+              },
+              {
+                "key": 30,
+                "height": 2,
+                "balance": 0
+              },
+              {
+                "key": 20,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 40,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 70,
+                "height": 2,
+                "balance": -1
+              },
+              {
+                "key": 90,
+                "height": 1,
+                "balance": 0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "RL",
+        "insert": 80,
+        "operations": [
+          {
+            "direction": "right",
+            "at": 90
+          },
+          {
+            "direction": "left",
+            "at": 50
+          }
+        ],
+        "states": [
+          {
+            "inorder": [
+              30,
+              50,
+              70,
+              80,
+              90,
+              100
+            ],
+            "height": 4,
+            "nodes": [
+              {
+                "key": 50,
+                "height": 4,
+                "balance": -2
+              },
+              {
+                "key": 30,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 90,
+                "height": 3,
+                "balance": 1
+              },
+              {
+                "key": 70,
+                "height": 2,
+                "balance": -1
+              },
+              {
+                "key": 80,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 100,
+                "height": 1,
+                "balance": 0
+              }
+            ]
+          },
+          {
+            "inorder": [
+              30,
+              50,
+              70,
+              80,
+              90,
+              100
+            ],
+            "height": 4,
+            "nodes": [
+              {
+                "key": 50,
+                "height": 4,
+                "balance": -2
+              },
+              {
+                "key": 30,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 70,
+                "height": 3,
+                "balance": -2
+              },
+              {
+                "key": 90,
+                "height": 2,
+                "balance": 0
+              },
+              {
+                "key": 80,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 100,
+                "height": 1,
+                "balance": 0
+              }
+            ]
+          },
+          {
+            "inorder": [
+              30,
+              50,
+              70,
+              80,
+              90,
+              100
+            ],
+            "height": 3,
+            "nodes": [
+              {
+                "key": 70,
+                "height": 3,
+                "balance": 0
+              },
+              {
+                "key": 50,
+                "height": 2,
+                "balance": 1
+              },
+              {
+                "key": 30,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 90,
+                "height": 2,
+                "balance": 0
+              },
+              {
+                "key": 80,
+                "height": 1,
+                "balance": 0
+              },
+              {
+                "key": 100,
+                "height": 1,
+                "balance": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "btree_insertion": [
+      {
+        "inorder": [
+          1,
+          3,
+          5,
+          6,
+          8,
+          10,
+          11,
+          13,
+          15,
+          16,
+          18,
+          20,
+          21,
+          23,
+          25,
+          27
+        ],
+        "key_count": 16,
+        "height": 2,
+        "nodes": [
+          {
+            "path": [
+              0
+            ],
+            "keys": [
+              1,
+              3
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              1
+            ],
+            "keys": [
+              6,
+              8
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              2
+            ],
+            "keys": [
+              11,
+              13
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              3
+            ],
+            "keys": [
+              16,
+              18
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              4
+            ],
+            "keys": [
+              21,
+              23,
+              25,
+              27
+            ],
+            "key_count": 4,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [],
+            "keys": [
+              5,
+              10,
+              15,
+              20
+            ],
+            "key_count": 4,
+            "child_count": 5,
+            "depth": 1
+          }
+        ],
+        "temporary_violations": []
+      },
+      {
+        "inorder": [
+          1,
+          3,
+          5,
+          6,
+          8,
+          10,
+          11,
+          13,
+          15,
+          16,
+          18,
+          20,
+          21,
+          23,
+          25,
+          27,
+          29
+        ],
+        "key_count": 17,
+        "height": 2,
+        "nodes": [
+          {
+            "path": [
+              0
+            ],
+            "keys": [
+              1,
+              3
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              1
+            ],
+            "keys": [
+              6,
+              8
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              2
+            ],
+            "keys": [
+              11,
+              13
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              3
+            ],
+            "keys": [
+              16,
+              18
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              4
+            ],
+            "keys": [
+              21,
+              23,
+              25,
+              27,
+              29
+            ],
+            "key_count": 5,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [],
+            "keys": [
+              5,
+              10,
+              15,
+              20
+            ],
+            "key_count": 4,
+            "child_count": 5,
+            "depth": 1
+          }
+        ],
+        "temporary_violations": [
+          {
+            "path": [
+              4
+            ],
+            "keys": 5
+          }
+        ]
+      },
+      {
+        "inorder": [
+          1,
+          3,
+          5,
+          6,
+          8,
+          10,
+          11,
+          13,
+          15,
+          16,
+          18,
+          20,
+          21,
+          23,
+          25,
+          27,
+          29
+        ],
+        "key_count": 17,
+        "height": 2,
+        "nodes": [
+          {
+            "path": [
+              0
+            ],
+            "keys": [
+              1,
+              3
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              1
+            ],
+            "keys": [
+              6,
+              8
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              2
+            ],
+            "keys": [
+              11,
+              13
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              3
+            ],
+            "keys": [
+              16,
+              18
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              4
+            ],
+            "keys": [
+              21,
+              23
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              5
+            ],
+            "keys": [
+              27,
+              29
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [],
+            "keys": [
+              5,
+              10,
+              15,
+              20,
+              25
+            ],
+            "key_count": 5,
+            "child_count": 6,
+            "depth": 1
+          }
+        ],
+        "temporary_violations": [
+          {
+            "path": [],
+            "keys": 5
+          }
+        ]
+      },
+      {
+        "inorder": [
+          1,
+          3,
+          5,
+          6,
+          8,
+          10,
+          11,
+          13,
+          15,
+          16,
+          18,
+          20,
+          21,
+          23,
+          25,
+          27,
+          29
+        ],
+        "key_count": 17,
+        "height": 3,
+        "nodes": [
+          {
+            "path": [
+              0,
+              0
+            ],
+            "keys": [
+              1,
+              3
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0,
+              1
+            ],
+            "keys": [
+              6,
+              8
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0,
+              2
+            ],
+            "keys": [
+              11,
+              13
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0
+            ],
+            "keys": [
+              5,
+              10
+            ],
+            "key_count": 2,
+            "child_count": 3,
+            "depth": 2
+          },
+          {
+            "path": [
+              1,
+              0
+            ],
+            "keys": [
+              16,
+              18
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              1,
+              1
+            ],
+            "keys": [
+              21,
+              23
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              1,
+              2
+            ],
+            "keys": [
+              27,
+              29
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              1
+            ],
+            "keys": [
+              20,
+              25
+            ],
+            "key_count": 2,
+            "child_count": 3,
+            "depth": 2
+          },
+          {
+            "path": [],
+            "keys": [
+              15
+            ],
+            "key_count": 1,
+            "child_count": 2,
+            "depth": 1
+          }
+        ],
+        "temporary_violations": []
+      }
+    ],
+    "btree_borrow": [
+      {
+        "inorder": [
+          2,
+          5,
+          10,
+          12,
+          15,
+          18
+        ],
+        "key_count": 6,
+        "height": 2,
+        "nodes": [
+          {
+            "path": [
+              0
+            ],
+            "keys": [
+              2,
+              5
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              1
+            ],
+            "keys": [
+              12,
+              15,
+              18
+            ],
+            "key_count": 3,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [],
+            "keys": [
+              10
+            ],
+            "key_count": 1,
+            "child_count": 2,
+            "depth": 1
+          }
+        ],
+        "temporary_violations": []
+      },
+      {
+        "inorder": [
+          5,
+          10,
+          12,
+          15,
+          18
+        ],
+        "key_count": 5,
+        "height": 2,
+        "nodes": [
+          {
+            "path": [
+              0
+            ],
+            "keys": [
+              5
+            ],
+            "key_count": 1,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              1
+            ],
+            "keys": [
+              12,
+              15,
+              18
+            ],
+            "key_count": 3,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [],
+            "keys": [
+              10
+            ],
+            "key_count": 1,
+            "child_count": 2,
+            "depth": 1
+          }
+        ],
+        "temporary_violations": [
+          {
+            "path": [
+              0
+            ],
+            "keys": 1
+          }
+        ]
+      },
+      {
+        "inorder": [
+          5,
+          10,
+          12,
+          15,
+          18
+        ],
+        "key_count": 5,
+        "height": 2,
+        "nodes": [
+          {
+            "path": [
+              0
+            ],
+            "keys": [
+              5,
+              10
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              1
+            ],
+            "keys": [
+              15,
+              18
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [],
+            "keys": [
+              12
+            ],
+            "key_count": 1,
+            "child_count": 2,
+            "depth": 1
+          }
+        ],
+        "temporary_violations": []
+      }
+    ],
+    "btree_merge_cascade": [
+      {
+        "inorder": [
+          1,
+          3,
+          5,
+          6,
+          8,
+          10,
+          11,
+          13,
+          15,
+          16,
+          18,
+          20,
+          21,
+          23,
+          25,
+          27,
+          29
+        ],
+        "key_count": 17,
+        "height": 3,
+        "nodes": [
+          {
+            "path": [
+              0,
+              0
+            ],
+            "keys": [
+              1,
+              3
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0,
+              1
+            ],
+            "keys": [
+              6,
+              8
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0,
+              2
+            ],
+            "keys": [
+              11,
+              13
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0
+            ],
+            "keys": [
+              5,
+              10
+            ],
+            "key_count": 2,
+            "child_count": 3,
+            "depth": 2
+          },
+          {
+            "path": [
+              1,
+              0
+            ],
+            "keys": [
+              16,
+              18
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              1,
+              1
+            ],
+            "keys": [
+              21,
+              23
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              1,
+              2
+            ],
+            "keys": [
+              27,
+              29
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              1
+            ],
+            "keys": [
+              20,
+              25
+            ],
+            "key_count": 2,
+            "child_count": 3,
+            "depth": 2
+          },
+          {
+            "path": [],
+            "keys": [
+              15
+            ],
+            "key_count": 1,
+            "child_count": 2,
+            "depth": 1
+          }
+        ],
+        "temporary_violations": []
+      },
+      {
+        "inorder": [
+          3,
+          5,
+          6,
+          8,
+          10,
+          11,
+          13,
+          15,
+          16,
+          18,
+          20,
+          21,
+          23,
+          25,
+          27,
+          29
+        ],
+        "key_count": 16,
+        "height": 3,
+        "nodes": [
+          {
+            "path": [
+              0,
+              0
+            ],
+            "keys": [
+              3
+            ],
+            "key_count": 1,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0,
+              1
+            ],
+            "keys": [
+              6,
+              8
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0,
+              2
+            ],
+            "keys": [
+              11,
+              13
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0
+            ],
+            "keys": [
+              5,
+              10
+            ],
+            "key_count": 2,
+            "child_count": 3,
+            "depth": 2
+          },
+          {
+            "path": [
+              1,
+              0
+            ],
+            "keys": [
+              16,
+              18
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              1,
+              1
+            ],
+            "keys": [
+              21,
+              23
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              1,
+              2
+            ],
+            "keys": [
+              27,
+              29
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              1
+            ],
+            "keys": [
+              20,
+              25
+            ],
+            "key_count": 2,
+            "child_count": 3,
+            "depth": 2
+          },
+          {
+            "path": [],
+            "keys": [
+              15
+            ],
+            "key_count": 1,
+            "child_count": 2,
+            "depth": 1
+          }
+        ],
+        "temporary_violations": [
+          {
+            "path": [
+              0,
+              0
+            ],
+            "keys": 1
+          }
+        ]
+      },
+      {
+        "inorder": [
+          3,
+          5,
+          6,
+          8,
+          10,
+          11,
+          13,
+          15,
+          16,
+          18,
+          20,
+          21,
+          23,
+          25,
+          27,
+          29
+        ],
+        "key_count": 16,
+        "height": 3,
+        "nodes": [
+          {
+            "path": [
+              0,
+              0
+            ],
+            "keys": [
+              3,
+              5,
+              6,
+              8
+            ],
+            "key_count": 4,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0,
+              1
+            ],
+            "keys": [
+              11,
+              13
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0
+            ],
+            "keys": [
+              10
+            ],
+            "key_count": 1,
+            "child_count": 2,
+            "depth": 2
+          },
+          {
+            "path": [
+              1,
+              0
+            ],
+            "keys": [
+              16,
+              18
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              1,
+              1
+            ],
+            "keys": [
+              21,
+              23
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              1,
+              2
+            ],
+            "keys": [
+              27,
+              29
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              1
+            ],
+            "keys": [
+              20,
+              25
+            ],
+            "key_count": 2,
+            "child_count": 3,
+            "depth": 2
+          },
+          {
+            "path": [],
+            "keys": [
+              15
+            ],
+            "key_count": 1,
+            "child_count": 2,
+            "depth": 1
+          }
+        ],
+        "temporary_violations": [
+          {
+            "path": [
+              0
+            ],
+            "keys": 1
+          }
+        ]
+      },
+      {
+        "inorder": [
+          3,
+          5,
+          6,
+          8,
+          10,
+          11,
+          13,
+          15,
+          16,
+          18,
+          20,
+          21,
+          23,
+          25,
+          27,
+          29
+        ],
+        "key_count": 16,
+        "height": 3,
+        "nodes": [
+          {
+            "path": [
+              0,
+              0
+            ],
+            "keys": [
+              3,
+              5,
+              6,
+              8
+            ],
+            "key_count": 4,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0,
+              1
+            ],
+            "keys": [
+              11,
+              13
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0,
+              2
+            ],
+            "keys": [
+              16,
+              18
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0,
+              3
+            ],
+            "keys": [
+              21,
+              23
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0,
+              4
+            ],
+            "keys": [
+              27,
+              29
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 3
+          },
+          {
+            "path": [
+              0
+            ],
+            "keys": [
+              10,
+              15,
+              20,
+              25
+            ],
+            "key_count": 4,
+            "child_count": 5,
+            "depth": 2
+          },
+          {
+            "path": [],
+            "keys": [],
+            "key_count": 0,
+            "child_count": 1,
+            "depth": 1
+          }
+        ],
+        "temporary_violations": [
+          {
+            "path": [],
+            "keys": 0
+          }
+        ]
+      },
+      {
+        "inorder": [
+          3,
+          5,
+          6,
+          8,
+          10,
+          11,
+          13,
+          15,
+          16,
+          18,
+          20,
+          21,
+          23,
+          25,
+          27,
+          29
+        ],
+        "key_count": 16,
+        "height": 2,
+        "nodes": [
+          {
+            "path": [
+              0
+            ],
+            "keys": [
+              3,
+              5,
+              6,
+              8
+            ],
+            "key_count": 4,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              1
+            ],
+            "keys": [
+              11,
+              13
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              2
+            ],
+            "keys": [
+              16,
+              18
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              3
+            ],
+            "keys": [
+              21,
+              23
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [
+              4
+            ],
+            "keys": [
+              27,
+              29
+            ],
+            "key_count": 2,
+            "child_count": 0,
+            "depth": 2
+          },
+          {
+            "path": [],
+            "keys": [
+              10,
+              15,
+              20,
+              25
+            ],
+            "key_count": 4,
+            "child_count": 5,
+            "depth": 1
+          }
+        ],
+        "temporary_violations": []
+      }
+    ],
+    "internal_borrow_final": [
+      {
+        "keys": [
+          20
+        ],
+        "children": [
+          {
+            "keys": [
+              10,
+              15
+            ],
+            "children": [
+              {
+                "keys": [
+                  3,
+                  5,
+                  6,
+                  8
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  11,
+                  13
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  16,
+                  18
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "keys": [
+              25,
+              30
+            ],
+            "children": [
+              {
+                "keys": [
+                  21,
+                  23
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  26,
+                  28
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  31,
+                  33
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "keys": [
+          14
+        ],
+        "children": [
+          {
+            "keys": [
+              4,
+              9
+            ],
+            "children": [
+              {
+                "keys": [
+                  1,
+                  3
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  6,
+                  8
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  11,
+                  13
+                ],
+                "children": []
+              }
+            ]
+          },
+          {
+            "keys": [
+              19,
+              24
+            ],
+            "children": [
+              {
+                "keys": [
+                  16,
+                  18
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  21,
+                  23
+                ],
+                "children": []
+              },
+              {
+                "keys": [
+                  26,
+                  28,
+                  29,
+                  31
+                ],
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

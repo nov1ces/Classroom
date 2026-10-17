@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="375" viewBox="0 0 960 375">
+<defs><marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7" fill="#333"/></marker></defs>
+<rect width="960" height="375" fill="white"/>
+<text x="480.0" y="31" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="23" font-weight="bold" fill="#111">单实例资源等待环：分配边与请求边方向不同</text>
+<circle cx="210" cy="125" r="40" fill="white" stroke="#333" stroke-width="2"/>
+<text x="210" y="132" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">P</text>
+<circle cx="750" cy="125" r="40" fill="white" stroke="#333" stroke-width="2"/>
+<text x="750" y="132" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">Q</text>
+<rect x="170" y="265" width="80" height="60" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="210.0" y="302.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">A</text>
+<rect x="710" y="265" width="80" height="60" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="750.0" y="302.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">B</text>
+<line x1="210" y1="265" x2="210" y2="165" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<text x="130" y="222" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">持有</text>
+<line x1="750" y1="265" x2="750" y2="165" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<text x="828" y="222" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">持有</text>
+<line x1="245" y1="146" x2="715" y2="265" stroke="#333" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#arr)"/>
+<text x="468" y="200" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">P请求B</text>
+<path d="M715,100 C600,55 355,60 170,265" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arr)" stroke-dasharray="7 5"/>
+<text x="470" y="75" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">Q请求A</text>
+<text x="480" y="359" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">实线：资源→持有者；虚线：进程→请求资源。每类仅一个实例。</text>
+</svg>

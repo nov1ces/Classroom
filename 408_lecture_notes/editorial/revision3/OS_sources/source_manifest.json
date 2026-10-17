@@ -1,0 +1,610 @@
+{
+  "subject": "OS",
+  "revision": 3,
+  "primary_book": {
+    "file": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+    "role": "正文源题与书解来源；复算和重绘只依赖交付的本地model_data，不要求此绝对路径存在",
+    "actual_visual_read_physical_pages": [
+      98,
+      99,
+      110,
+      246,
+      248,
+      260,
+      261,
+      262,
+      293,
+      294,
+      305,
+      346,
+      351,
+      352,
+      364,
+      370
+    ],
+    "actual_visual_read_printed_pages": [
+      86,
+      87,
+      98,
+      234,
+      236,
+      248,
+      249,
+      250,
+      281,
+      282,
+      293,
+      334,
+      339,
+      340,
+      352,
+      358
+    ]
+  },
+  "community_rebuilds": {
+    "role": "七题完整题面交叉核对；非官方原卷认证",
+    "actual_read": 7
+  },
+  "images": [
+    {
+      "file": "editorial/revision3/OS_sources/book_p110.png",
+      "sha256": "c86a33ee9796908ddaa6d30527504924f103d4812dded53598baa10cafb77004",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p111.png",
+      "sha256": "5ecf45444055b5fac5bcb78fe22a5f38567ed687987a419111160e693a1cd02b",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p164.png",
+      "sha256": "a7d005bbcebb039a92483a9625a174163a8b8abccbd1f043f59b7eee33ddf2bc",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p165.png",
+      "sha256": "9b3f64717a594b1aeaf4bb27d62dc273eacc819e985ae904698ebcbf3fde19d1",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p166.png",
+      "sha256": "7201be5dd79d37a6b0ed19f5f00b4e51dbb66af05d71a2a345a59dae5cd647ac",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p169.png",
+      "sha256": "70d190f85be90f6943ee042c07d7bf4b6eae16cc23b33e52b860be6cf832a26a",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p170.png",
+      "sha256": "fbfb58b5eecfca30f75e69f73992e98add80e963dbef6a392026fa1cf9dcdd87",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p225.png",
+      "sha256": "c2c1590d2f48a4d5d44d27e51c1336b0ce9941184df6cf5258217116bbb11b5c",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p226.png",
+      "sha256": "9e5b9efcba9915eaf262a76b7ec29f25d5a70b9243eb03ce69ba1cae0390166a",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p246.png",
+      "sha256": "177802e14b29a735b9c4a3e8fbf29aafdb8375da56814bf6061be6069924eca4",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p247.png",
+      "sha256": "5ca9299aa91de4ecaa9793ab1c1970c9656cbebe390fa8b76b9384deeaece460",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p248.png",
+      "sha256": "18bf19f595ea48d0ee1a5a008f03e571304fa244c2b97f4856245e125f5546c9",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p258.png",
+      "sha256": "a71eb0e34848582dbc8c27960f32fb48013b54300d98ab83a1fa817275492774",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p259.png",
+      "sha256": "9bd5fa972058ea1f87462914733cb44c640e648922582d0059bcceb1b12e22be",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p260.png",
+      "sha256": "a55c13b0111615713592e5cb5cff0e158448bdefbb067ff35f12e4ecd0f969e7",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p261.png",
+      "sha256": "872e5cfc9e237656226ea9fdeefb1a91a1b7f2e6ce52d80a99c1894f07e3f51b",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p262.png",
+      "sha256": "e77ac5d704704dd7b8e20b2eebae142066b28bdd4ec0660f8f87fa001c51ab7a",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p270.png",
+      "sha256": "c2d87f56e3b3fb1d353f6608ec61bfaba8370be5eca05c41caf91d7645f77d30",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p278.png",
+      "sha256": "5f238a1377957558c760c98398124ac3dd592bdebbd911749163cbcd6fa29a3b",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p279.png",
+      "sha256": "982668d5c0067051b634e89897b347ea6a5fb0f3837f45c0a0bb6cf6fd0ae45d",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p292.png",
+      "sha256": "ab814c7a7da4538d5db17b735d0dd85639f009dec69e479f3d4ac715698ce9e3",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p293.png",
+      "sha256": "313cefe30274c8209308184b137e872e3911257bd6828c3ae2ca05dc44c73cb7",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p294.png",
+      "sha256": "63a9649fc7ba5cf36c2a64268d47a854010475e80924ec97862099af69d2af62",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p304.png",
+      "sha256": "e6e3d566315671ef5311746264425451fed2beae2669982b988c32ee871d2191",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p305.png",
+      "sha256": "33c0c71137e7205d310d44fe54b2f113cdb0c1a3dfbc5bfa87d23d06a5b4a223",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p343.png",
+      "sha256": "1d2a011425a8526810fc3ab312960720cf6b3790389b5354684af14480fd57b9",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p344.png",
+      "sha256": "e4c88c2a6c400141e9bbbf7a8e27a25176d89bdda228ec1aedcebf874182fa40",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p345.png",
+      "sha256": "b332795b113f129c2f5b1a82652f884c45a8773b6cdd9dade5f3c7d7139ee678",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p346.png",
+      "sha256": "92befd47b43dbff215b285b2338801d356d8478696605eea32987ce8213298e1",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p350.png",
+      "sha256": "7e27b8a9427dd069eeed762d6324043ee8ca5b7d2ea4a312fd35316a02851d05",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p351.png",
+      "sha256": "7458c1386bb3d607a9f0b5c9133b6cb125d97c746d5a355e2c2378d3cff640aa",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p352.png",
+      "sha256": "a1de367b1f0f262a91f041ffca67c68d7604f3f523103ecdc072e6d9e2a0ad35",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p355.png",
+      "sha256": "6801ff9397f8fbb7975fd6ff8fc60666ee6d019e83e040e54d264a973cc6dbd8",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p356.png",
+      "sha256": "acb7b78e1ab1e6142d9ee642224f9ca15892b3991f5d866e9cc1e609ce3f26a0",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p357.png",
+      "sha256": "56dbcf65097eece94bfcdd6e7aeefb768173804f664dc3c6ca407bbb9edf0c1b",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p363.png",
+      "sha256": "9d217e14e9ffc8b232940bfe23e9dabc2c80f2f4ad314f5972bf1be00749883a",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p364.png",
+      "sha256": "be1f1c1906fb0ea5ed389d9e5160d64ed080356b5a928b6bc56ed0e9b2396375",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p369.png",
+      "sha256": "1cae965f703ecc09477a25d54ecd4108127d3a051ab929e7c366dfd999897f54",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p370.png",
+      "sha256": "1c9c68644fdeffe3decdcde4b0d2dac4321eba0a5ceb3e21382f58f81653adb4",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p39.png",
+      "sha256": "534d21d3c8ade14c021f731ab2b6ce533b7af98f5160ab5e144cd084613b35f7",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p40.png",
+      "sha256": "343d7809c808017256d0bff62783dc85223467eeb205ad74eeddabdf90af8a75",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p42.png",
+      "sha256": "c59ab8b2073290e0ddc4f77f9bbae3d76cb0f7534effd65ecae4ed3411a3d638",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p43.png",
+      "sha256": "3e3a204b8a28ed63056f4b690ac24c8042695578a3485f63d888c98bcf0a6cd1",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p44.png",
+      "sha256": "6452c770ddddfd5069b1a1cf4075bbc9ed1dc19bc334b0b011e507db64445d2d",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p45.png",
+      "sha256": "c16c280581e0da88e2bfd743428355b562a7a433e7c1ca6ae9f59406050dd9a1",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p57.png",
+      "sha256": "780db4a0e1f5f77b8bb73561132539002a580fc66164f17141ee9a7874d13e67",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p58.png",
+      "sha256": "3b228ff3d85c1ca36eeb26ff8f13ac295a38412e44f3d04efc979612e0b8d25e",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p59.png",
+      "sha256": "a6e8680b63304f8b010ed704297f921c1f474a3d9725abadb06a44a833886175",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p60.png",
+      "sha256": "59d5b695bee3c48c0630b1bf84da4bb5167271b85c0e23114cc7cc5c9a1c4dd3",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p64.png",
+      "sha256": "69a170926985a6e004e7a83c68e465b4e7a3eb6e6bbab45802ecc649f8125253",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p96.png",
+      "sha256": "ae17e72e3ea920f99cb96e91514486eeab596adbb956b8e6f7c67fcc02a6306b",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p97.png",
+      "sha256": "64cd09bf718adcf2755a54bd9ca8446e3a8469696f1c1c5ba9e83e403fb793ac",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p98.png",
+      "sha256": "cba3285caaa628fb74ba3c536e2a237e0d522a726ac94f6ce37a1a142ec4ec71",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/book_p99.png",
+      "sha256": "41165756893acf1da80fd75a976a885e5a618f226cf6de9dad7ebb8417b9df8a",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/exam_2009_q46_p9.png",
+      "sha256": "20075ae67d6b99445265cf969dbcb62dfcb6e3d1f057e82d78f723a5d850ef1d",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/exam_2016_q46_p11.png",
+      "sha256": "3374da2e9c7ad609efcd5e8a43ca9fa30901a823f82658781eb3ecaa5b1da2fc",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/exam_2016_q47_p12.png",
+      "sha256": "bfad8f0fc5de265d74bddbfb7d76f7802c3b22ba9a1e2c91984f27b02162959a",
+      "reading_status": "已有承接材料；接续作者本轮未逐页打开，不计本人实读",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/exam_2018_q46_p10.png",
+      "sha256": "4b89e1fb56b4a180782102a3812e42399953d704427c608d31a2e3ad2c1b535d",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/exam_2019_q44_p8.png",
+      "sha256": "e92596869f24b44042d81de0f7e0caa53506236ab2c3f162d0e9bb7e9c77f3a3",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/exam_2020_q46_p11.png",
+      "sha256": "f85fbe35b5c66cb11b1c8299393faaa5cb821844cf8e8828bcf6fa1c61bdb97b",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/exam_2022_q45_p9.png",
+      "sha256": "289c0de6ca22828ced53b47dcd5ae547a26e9f843f49d5cce373c4ebcc71f49b",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    },
+    {
+      "file": "editorial/revision3/OS_sources/exam_2023_q46_p10.png",
+      "sha256": "7c9d659eba24716105ae2a7905be37c116142255108a5736895e862f6e977908",
+      "reading_status": "接续作者实际打开图读，核完整题面/相关解答",
+      "page_numbering": "book_p指物理PDF页；exam文件指社区重建卷物理页"
+    }
+  ],
+  "slide_selected_transcripts": [
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.4 操作系统体系结构（上）.pdf",
+      "physical_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "extracted_text": "editorial/revision3/OS_sources/1.4 操作系统体系结构（上）.txt",
+      "sha256": "60de6cdfde3d0c5e2d653e3f168142dc7f678d4c99440a811f80192aa8c0b941",
+      "reading_status": "接续作者已完整读取此保存的选页转录；不是整套课件逐页图读或全书通读声明"
+    },
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.6_1 线程的概念与特点.pdf",
+      "physical_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "extracted_text": "editorial/revision3/OS_sources/2.1.6_1 线程的概念与特点.txt",
+      "sha256": "846da8288e49b14d0ec6b7f04fa6f818542f9f929c7b828b5e9385af7e46f0e4",
+      "reading_status": "接续作者已完整读取此保存的选页转录；不是整套课件逐页图读或全书通读声明"
+    },
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.6_2 线程的实现方式和多线程模型.pdf",
+      "physical_pages": [
+        3,
+        4,
+        5,
+        6,
+        12,
+        13
+      ],
+      "extracted_text": "editorial/revision3/OS_sources/2.1.6_2 线程的实现方式和多线程模型.txt",
+      "sha256": "0f5119939905a56f55e3f1f9c4d186f89eb36d18d24ebb0c45e1d33cede47420",
+      "reading_status": "接续作者已完整读取此保存的选页转录；不是整套课件逐页图读或全书通读声明"
+    },
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.2 死锁的处理策略—预防死锁.pdf",
+      "physical_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "extracted_text": "editorial/revision3/OS_sources/2.4.2 死锁的处理策略—预防死锁.txt",
+      "sha256": "51f2fffd25e10dcbf53422976bb4ee58f41bd211b53d11489a348ecbc59674ff",
+      "reading_status": "接续作者已完整读取此保存的选页转录；不是整套课件逐页图读或全书通读声明"
+    },
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.3 死锁的处理策略—避免死锁.pdf",
+      "physical_pages": [
+        3,
+        4,
+        5,
+        6,
+        17
+      ],
+      "extracted_text": "editorial/revision3/OS_sources/2.4.3 死锁的处理策略—避免死锁.txt",
+      "sha256": "ae3cf4e28d56be858d6704bb34ad68e9030140e1420233554c7d61cf5a6e27f3",
+      "reading_status": "接续作者已完整读取此保存的选页转录；不是整套课件逐页图读或全书通读声明"
+    },
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.4 死锁的处理策略—死锁的检测与解除.pdf",
+      "physical_pages": [
+        2,
+        3,
+        4,
+        8,
+        9
+      ],
+      "extracted_text": "editorial/revision3/OS_sources/2.4.4 死锁的处理策略—死锁的检测与解除.txt",
+      "sha256": "e43e715a472eb5f87659b6454c509e59e061031d1d69ee25851a8266b75e22f4",
+      "reading_status": "接续作者已完整读取此保存的选页转录；不是整套课件逐页图读或全书通读声明"
+    },
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.2 请求分页管理方式.pdf",
+      "physical_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "extracted_text": "editorial/revision3/OS_sources/3.2.2 请求分页管理方式.txt",
+      "sha256": "86daa8381b8d92b6b3c75940514158f4e599753df70e990b99f25f511cf4173b",
+      "reading_status": "接续作者已完整读取此保存的选页转录；不是整套课件逐页图读或全书通读声明"
+    },
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_3_文件目录.pdf",
+      "physical_pages": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "extracted_text": "editorial/revision3/OS_sources/4.1_3_文件目录.txt",
+      "sha256": "60fbfc81ae10cddbc9edb25a06654962aecc93767967102cdbb5460f913e83fe",
+      "reading_status": "接续作者已完整读取此保存的选页转录；不是整套课件逐页图读或全书通读声明"
+    },
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_7_文件的基本操作.pdf",
+      "physical_pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "extracted_text": "editorial/revision3/OS_sources/4.1_7_文件的基本操作.txt",
+      "sha256": "132c3c61eac71b6d327d2eafbcdd176283206668ad0d11ab498f71f8addcf469",
+      "reading_status": "接续作者已完整读取此保存的选页转录；不是整套课件逐页图读或全书通读声明"
+    },
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_2_磁盘调度算法.pdf",
+      "physical_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "extracted_text": "editorial/revision3/OS_sources/5.3_2_磁盘调度算法.txt",
+      "sha256": "bdf53c7c1aa823818ede65d040313dbded1bbef22dc7899f488886fd6362543a",
+      "reading_status": "接续作者已完整读取此保存的选页转录；不是整套课件逐页图读或全书通读声明"
+    },
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_4_IO软件层次结构.pdf",
+      "physical_pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "extracted_text": "editorial/revision3/OS_sources/5.1_4_IO软件层次结构.txt",
+      "sha256": "05adc0618f983c9a288935881a43943f962924d1e5ccd5ef69e242e1c16cb945",
+      "reading_status": "接续作者已完整读取此保存的选页转录；不是整套课件逐页图读或全书通读声明"
+    }
+  ],
+  "source_conditions_not_copied_blindly": [
+    "课件大/微内核结构示意不推出任意实现性能结论，也不把具体操作系统简单定性作通则",
+    "线程课件的阻塞/多核结论限纯多对一，正文分开管理方式与映射方式",
+    "死锁检测用当前未满足Request，银行家安全性用未来Need；不把相似化简写成同义",
+    "磁盘课件p14的SCAN/LOOK、C-SCAN/C-LOOK同名约定不作无条件定义；正文按端点/回跳规则区分",
+    "磁盘课件p11给250/9的近似数值存在误算，本轮未照抄该数；新2019题另逐步执行SSTF",
+    "课件读文件页的“read完成写操作”文字不沿用；正文按读/写分别解释"
+  ],
+  "new_figure": {
+    "file": "figures/OS_file_directory_2022.svg",
+    "png": "figures/OS_file_directory_2022.png",
+    "model": "editorial/full/OS/model_data.json:directory_2022",
+    "generator": "tools/draw_os_figures.py --revision3-only",
+    "semantic_read": "接续作者实际打开PNG核目录四条包含边及五行完整数据；未打开讲义PDF",
+    "pdf": "figures/OS_file_directory_2022.pdf",
+    "export_note": "根代理为既有SVG增加矢量PDF导出以供排版管线引用；SVG/PNG SHA保持不变，未读取或检查PDF版面。"
+  },
+  "review_limits": "本轮只对列明源页/选页转录及改动段落负责；OS03仅核基线不变；未取得2027正式大纲全文、官方原卷或官方答案"
+}

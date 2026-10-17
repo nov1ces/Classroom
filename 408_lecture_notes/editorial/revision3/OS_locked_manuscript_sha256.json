@@ -1,0 +1,12 @@
+{
+  "status": "LOCKED",
+  "reason": "独立内容审校闭环；之后仅收尾OS专属台账与说明，不再改正文",
+  "sha256": {
+    "manuscript/OS/01_操作系统与程序运行环境.md": "26421e67f4dd53b345e776b48359136758bd434927759b5a055c9ffbc8970969",
+    "manuscript/OS/02_进程线程调度与上下文切换.md": "19b11a68de0709dc0ea0925fe5e0101d68b1853bf34581248c0deae0a0e3e6c7",
+    "manuscript/OS/04_死锁与资源分配.md": "7e2f046a0e5a9b2ac005562926872ec888719ab56fc304c36e2fa5b9dce9990e",
+    "manuscript/OS/05_内存管理与虚拟内存.md": "2fe788a6047bcc6566c43a5b23673b83f2749f58116510c356cb1bf83b995199",
+    "manuscript/OS/06_文件目录与文件系统.md": "d5de99eab38977923d62fc742ac6affb7dd4702a63c1a175d5546a0ac5503973",
+    "manuscript/OS/07_IO设备与外存调度.md": "57c242a501a390ae2c34e16fb19f244055c6e3bbcfa9269694f71554f9a49877"
+  }
+}

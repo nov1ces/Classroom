@@ -1,0 +1,146 @@
+[
+  {
+    "id": "F01_lost_update",
+    "title": "两次更新的六步交错",
+    "knowledge_id": "OS-03-01",
+    "source_type": "机制示例，非真题原图",
+    "svg": "figures/F01_lost_update.svg",
+    "png": "figures/F01_lost_update.png",
+    "pdf": "figures/F01_lost_update.pdf",
+    "drawing_source": "tools/draw_figures.py",
+    "png_pixels": [
+      1979,
+      821
+    ],
+    "verification": "verify_models.py:lost_update",
+    "svg_sha256": "d99a0aa7f04ee82f2440e1c16639efde7b6661e4ab696f4559e3661b69f6353d",
+    "png_sha256": "e047a942725d786e46fc893e8f2bf6654ce6b2b43dbaa7a7bb26c80b8c501ee7",
+    "status": "已重绘、导出并在样章阅图"
+  },
+  {
+    "id": "F02_signed_semaphore",
+    "title": "初值2的记录型P/V队列",
+    "knowledge_id": "OS-03-05",
+    "source_type": "课件与主书机制重绘",
+    "svg": "figures/F02_signed_semaphore.svg",
+    "png": "figures/F02_signed_semaphore.png",
+    "pdf": "figures/F02_signed_semaphore.pdf",
+    "drawing_source": "tools/draw_figures.py",
+    "png_pixels": [
+      1979,
+      802
+    ],
+    "verification": "model_results.json:signed_trace",
+    "svg_sha256": "53edf12f37d2ca188eee6bde60789f2bdd4b0fb7918824925d4701b4b55dbee2",
+    "png_sha256": "80c9ad758dde875534704e3bb978b10b3f800cb0c72622541be2f84ce37a865f",
+    "status": "已重绘、导出并在样章阅图"
+  },
+  {
+    "id": "F03_precedence_2022",
+    "title": "2022年第46题前驱图",
+    "knowledge_id": "OS-03-05",
+    "source_type": "原题五条边重绘；底部线程归属为讲解标注",
+    "svg": "figures/F03_precedence_2022.svg",
+    "png": "figures/F03_precedence_2022.png",
+    "pdf": "figures/F03_precedence_2022.pdf",
+    "drawing_source": "tools/draw_figures.py",
+    "png_pixels": [
+      1979,
+      703
+    ],
+    "verification": "model_results.json:precedence；原题图证",
+    "svg_sha256": "a1c36f86d482cd33247d0c1a09706d7c9a68c11b4eaa0687005f30abbb1162c9",
+    "png_sha256": "5a49861accf42fce6b512705989fb84bff32964c2a1dd840577f299f04969bed",
+    "status": "已重绘、导出并在样章阅图"
+  },
+  {
+    "id": "F04_buffer_permissions",
+    "title": "空位与产品许可的相反流向",
+    "knowledge_id": "OS-03-07",
+    "source_type": "经典模型讲解图，四槽仅示意",
+    "svg": "figures/F04_buffer_permissions.svg",
+    "png": "figures/F04_buffer_permissions.png",
+    "pdf": "figures/F04_buffer_permissions.pdf",
+    "drawing_source": "tools/draw_figures.py",
+    "png_pixels": [
+      1979,
+      614
+    ],
+    "verification": "缓冲模型守恒检查；正文容量参数n",
+    "svg_sha256": "cd0e0059dd3d405537d3d9608d708d32c65b58280a293677450ef8d55bbd7b9a",
+    "png_sha256": "0b8a39ab8bdf0eb5147dc7de7cd64e3aa03dece102c781278297b1483fd5b761",
+    "status": "已重绘、导出并在样章阅图"
+  },
+  {
+    "id": "F05_buffer_deadlock",
+    "title": "消费者持锁等产品的等待环",
+    "knowledge_id": "OS-03-07",
+    "source_type": "错误代码的过程讲解图",
+    "svg": "figures/F05_buffer_deadlock.svg",
+    "png": "figures/F05_buffer_deadlock.png",
+    "pdf": "figures/F05_buffer_deadlock.pdf",
+    "drawing_source": "tools/draw_figures.py",
+    "png_pixels": [
+      1979,
+      574
+    ],
+    "verification": "model_results.json:buffer_wrong_order",
+    "svg_sha256": "fa8cdf439a461afaa40d895b8e172d1a2363f6531c769c5483461345c1b92808",
+    "png_sha256": "ba9702ac30d384e8baeb90165004f63924757afb12ea40dcd88856d0d3a039ae",
+    "status": "已重绘、导出并在样章阅图"
+  },
+  {
+    "id": "F06_readers_group",
+    "title": "两读者重叠与写者等待",
+    "knowledge_id": "OS-03-08",
+    "source_type": "示意时间线，不是原真题数据",
+    "svg": "figures/F06_readers_group.svg",
+    "png": "figures/F06_readers_group.png",
+    "pdf": "figures/F06_readers_group.pdf",
+    "drawing_source": "tools/draw_figures.py",
+    "png_pixels": [
+      1979,
+      614
+    ],
+    "verification": "R1:[1,4)，R2:[2,5)，W:[5,7)；首末读者机制",
+    "svg_sha256": "76e42e61360839b7a051e6a2b46f50c14f5282361058f9011f56bc350e74b932",
+    "png_sha256": "31920d052f624811e227c11b48be1c3b4e6c05a41005f25e4c31b5babf575a4d",
+    "status": "已重绘、导出并在样章阅图"
+  },
+  {
+    "id": "F07_philosopher_wait_cycle",
+    "title": "五人各持一根的等待环",
+    "knowledge_id": "OS-03-09",
+    "source_type": "经典模型的等待关系图",
+    "svg": "figures/F07_philosopher_wait_cycle.svg",
+    "png": "figures/F07_philosopher_wait_cycle.png",
+    "pdf": "figures/F07_philosopher_wait_cycle.pdf",
+    "drawing_source": "tools/draw_figures.py",
+    "png_pixels": [
+      1979,
+      802
+    ],
+    "verification": "model_results.json:philosophers",
+    "svg_sha256": "904362abcffad0bc3f954b80b6538c141c63680f197b8094cac756c42d8dc603",
+    "png_sha256": "7253f1206f8b76e87ea0e43f4d61de1d635f80d9b27d40a13d0eda1e78a413be",
+    "status": "已重绘、导出并在样章阅图"
+  },
+  {
+    "id": "F08_condition_wait",
+    "title": "等待释放锁与通知后重取锁",
+    "knowledge_id": "OS-03-06",
+    "source_type": "Mesa/POSIX式机制图",
+    "svg": "figures/F08_condition_wait.svg",
+    "png": "figures/F08_condition_wait.png",
+    "pdf": "figures/F08_condition_wait.pdf",
+    "drawing_source": "tools/draw_figures.py",
+    "png_pixels": [
+      1979,
+      722
+    ],
+    "verification": "Oracle接口语义；正文while过程",
+    "svg_sha256": "11b820255fd1f9cb970067056b91febfed01400c4cf2f6e93c291986fce37188",
+    "png_sha256": "a0da1ab5ae8ede037342ac8ac4be0d40bae825c9a34370addeb60db043e12b56",
+    "status": "已重绘、导出并在样章阅图"
+  }
+]

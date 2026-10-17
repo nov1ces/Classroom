@@ -1,0 +1,38 @@
+{
+  "main": {
+    "normal": {
+      "family": "Noto Serif CJK SC",
+      "path": "/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc",
+      "index": 2
+    },
+    "bold": {
+      "family": "Noto Serif CJK SC",
+      "path": "/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc",
+      "index": 2
+    }
+  },
+  "sans": {
+    "normal": {
+      "family": "Noto Sans CJK SC",
+      "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+      "index": 2
+    },
+    "bold": {
+      "family": "Noto Sans CJK SC",
+      "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+      "index": 2
+    }
+  },
+  "mono": {
+    "normal": {
+      "family": "Noto Sans Mono CJK SC",
+      "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+      "index": 7
+    },
+    "bold": {
+      "family": "Noto Sans Mono CJK SC",
+      "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+      "index": 7
+    }
+  }
+}

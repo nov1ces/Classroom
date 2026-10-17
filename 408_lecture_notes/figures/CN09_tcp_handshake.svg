@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="430" viewBox="0 0 980 430">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17212a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#17212a" stroke-linejoin="round">
+<text x="490" y="30" text-anchor="middle" font-size="23" font-weight="bold" fill="#17212a">连接建立：客户初始序号x，服务器初始序号y</text>
+<text x="150" y="80" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">客户C</text>
+<line x1="150" y1="105" x2="150" y2="385" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="830" y="80" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">服务器S</text>
+<line x1="830" y1="105" x2="830" y2="385" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="150" y1="120" x2="830" y2="175" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="245" y="108.5" width="490" height="29" fill="white"/>
+<text x="490" y="132.5" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">SYN=1, seq=x</text>
+<line x1="830" y1="205" x2="150" y2="260" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="245" y="193.5" width="490" height="29" fill="white"/>
+<text x="490" y="217.5" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">SYN=1, ACK=1, seq=y, ack=x+1</text>
+<line x1="150" y1="290" x2="830" y2="345" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="245" y="278.5" width="490" height="29" fill="white"/>
+<text x="490" y="302.5" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">ACK=1, seq=x+1, ack=y+1</text>
+<text x="490" y="415" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">SYN各占1个序号；纯ACK不占序号</text>
+</g></svg>

@@ -1,0 +1,115 @@
+{
+  "scope": "protocol bit/byte boundaries, checksum coverage, and mechanism only; no layout acceptance",
+  "expected_row_widths_from_original_book": {
+    "ipv4": [
+      [
+        4,
+        4,
+        8,
+        16
+      ],
+      [
+        16,
+        3,
+        13
+      ],
+      [
+        8,
+        8,
+        16
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ]
+    ],
+    "tcp": [
+      [
+        16,
+        16
+      ],
+      [
+        32
+      ],
+      [
+        32
+      ],
+      [
+        4,
+        6,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        16
+      ],
+      [
+        16,
+        16
+      ]
+    ],
+    "udp": [
+      [
+        16,
+        16
+      ],
+      [
+        16,
+        16
+      ]
+    ]
+  },
+  "review_witness_udp": {
+    "payload_bytes": 5,
+    "udp_bytes": 13,
+    "IHL": 6,
+    "ip_header_bytes": 24,
+    "ip_total_bytes": 37,
+    "udp_checksum_hex": "19A8",
+    "ip_checksum_hex": "7A5C",
+    "odd_padding_transmitted": false,
+    "mutations_detected": [
+      "payload changes UDP but not IPv4 checksum",
+      "TTL invalidates IPv4 checksum",
+      "pseudo-destination change invalidates UDP checksum",
+      "protocol17 pseudoheader invalidates TCP checksum"
+    ],
+    "computed_zero_udp_transmitted_as": "FFFF"
+  },
+  "review_witness_tcp": {
+    "header_bytes": 20,
+    "segment_bytes": 25,
+    "flags": "PSH+ACK",
+    "window_bytes": 4096,
+    "checksum_hex": "57FF"
+  },
+  "Ethernet_II": {
+    "frame_bytes": [
+      64,
+      1518
+    ],
+    "MTU": 1500,
+    "minimum_wire_cycle_bits_in_stated_model": 672
+  },
+  "input_sha256": {
+    "figures/CN_model_data.json": "dbfa0c75d8321904302a1c9b64f7eec300281642f850609024347e869daf2079",
+    "manuscript/CN/01_网络层次服务与性能.md": "8dbeb5a3eddaffca56ca1b6d2250249f8c5d7e9607be309c80b4544896842189",
+    "manuscript/CN/02_物理层信号速率与交换.md": "b4bd3abcaf2e34d7f4d6c95e75f6071a56fcb9092a126f323fdfb5b54504711e",
+    "manuscript/CN/03_链路层可靠传输与介质访问.md": "71ed81a6cd55080df02a15f626344d8237e2f23f25de37afe26459ce5db702b9",
+    "manuscript/CN/04_网络层地址路由与转发.md": "a72f0e210000159303266a4f08edbbf7b748210cda1a0479ba76b1e801f97970",
+    "manuscript/CN/05_传输层可靠连接与窗口.md": "9ec15261326ce39a7337ef43c6bfe8cf5a82201422c848bd4a0530375e93481f",
+    "manuscript/CN/06_应用层名称邮件与Web.md": "5094b561a394c67883e8ad8070c4ffb228cfb14498bec74432a64724b8ef52ed",
+    "figures/CN16_ipv4_header.svg": "70c917b67528b32da76cf5df7853e6664f948350f629ad5debb9110c39bbfe86",
+    "figures/CN16_ipv4_header.png": "3759a4d6e8cbb1f645653f4696edca56bb25afd74a638a4c221b7c4b130c59d9",
+    "figures/CN17_tcp_header.svg": "4c77bf28a0ea104773ae30a44bc3d3aaa3ccde8559723a772a2c61c21f72a89d",
+    "figures/CN17_tcp_header.png": "08c405ed34e1f88056c26e564a15c1526207ab8f846bc0e37146c95a69726df8",
+    "figures/CN18_udp_header.svg": "8be19e398c9506ee4269c1b322294c108e71a5eb47226338010252a6f0e02a24",
+    "figures/CN18_udp_header.png": "9119a0a1213cbaa681145fcca04a186ac7d2e3075649c3fb0df1fdc88e8e1574",
+    "figures/CN19_ethernet_frame.svg": "0576f9c5a1e60c175df27efa9da30316bd34f944c80df8bd0a695688bb31582a",
+    "figures/CN19_ethernet_frame.png": "ed4b18ffd6347631551e3a12a5acb03009e52bf03067f86d14219a61a41b800b"
+  }
+}

@@ -1,0 +1,647 @@
+{
+  "subject": "DS",
+  "started": "2026-10-16",
+  "updated": "2026-10-17",
+  "status": "第二轮正文修订完成，供内容审阅；本分支未生成讲义PDF/未覆盖V1，主编仅导出正文审阅PDF",
+  "manuscript_baseline": "直接读取当前V1后修改，未用旧备份覆盖；基线指纹见DS_baseline.json",
+  "book": {
+    "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+    "sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30",
+    "read_method": "下列物理PDF页逐页渲染目验；印刷码现场核对为PDF页减12",
+    "bookmark_warning": "本文件部分书签与实际章节起页漂移，例表8.1为物理PDF386/印374，不以toc.json或书签页替代。",
+    "topics": [
+      {
+        "topic": "AVL与邻近BST/RB概念",
+        "pdf_pages": [
+          294,
+          295,
+          296,
+          297,
+          298,
+          299
+        ],
+        "printed_pages": [
+          282,
+          283,
+          284,
+          285,
+          286,
+          287
+        ],
+        "evidence": [
+          "editorial/revision2/DS_sources/book_p294.png",
+          "editorial/revision2/DS_sources/book_p295.png",
+          "editorial/revision2/DS_sources/book_p296.png",
+          "editorial/revision2/DS_sources/book_p297.png",
+          "editorial/revision2/DS_sources/book_p298.png",
+          "editorial/revision2/DS_sources/book_p299.png"
+        ]
+      },
+      {
+        "topic": "B树定义、5阶源图、插入/删除、B+树",
+        "pdf_pages": [
+          317,
+          318,
+          319,
+          320,
+          321,
+          322
+        ],
+        "printed_pages": [
+          305,
+          306,
+          307,
+          308,
+          309,
+          310
+        ],
+        "evidence": [
+          "editorial/revision2/DS_sources/book_p317.png",
+          "editorial/revision2/DS_sources/book_p318.png",
+          "editorial/revision2/DS_sources/book_p319.png",
+          "editorial/revision2/DS_sources/book_p320.png",
+          "editorial/revision2/DS_sources/book_p321.png",
+          "editorial/revision2/DS_sources/book_p322.png"
+        ]
+      },
+      {
+        "topic": "散列查找性能",
+        "pdf_pages": [
+          332
+        ],
+        "printed_pages": [
+          320
+        ],
+        "evidence": [
+          "editorial/revision2/DS_sources/book_p332.png"
+        ]
+      },
+      {
+        "topic": "排序定义、插入/折半/希尔",
+        "pdf_pages": [
+          344,
+          345,
+          346,
+          347,
+          348
+        ],
+        "printed_pages": [
+          332,
+          333,
+          334,
+          335,
+          336
+        ],
+        "evidence": [
+          "editorial/revision2/DS_sources/book_p344.png",
+          "editorial/revision2/DS_sources/book_p345.png",
+          "editorial/revision2/DS_sources/book_p346.png",
+          "editorial/revision2/DS_sources/book_p347.png",
+          "editorial/revision2/DS_sources/book_p348.png"
+        ]
+      },
+      {
+        "topic": "冒泡、快速",
+        "pdf_pages": [
+          353,
+          354,
+          355
+        ],
+        "printed_pages": [
+          341,
+          342,
+          343
+        ],
+        "evidence": [
+          "editorial/revision2/DS_sources/book_p353.png",
+          "editorial/revision2/DS_sources/book_p354.png",
+          "editorial/revision2/DS_sources/book_p355.png"
+        ]
+      },
+      {
+        "topic": "选择、堆及程序停机",
+        "pdf_pages": [
+          363,
+          364,
+          365,
+          366
+        ],
+        "printed_pages": [
+          351,
+          352,
+          353,
+          354
+        ],
+        "evidence": [
+          "editorial/revision2/DS_sources/book_p363.png",
+          "editorial/revision2/DS_sources/book_p364.png",
+          "editorial/revision2/DS_sources/book_p365.png",
+          "editorial/revision2/DS_sources/book_p366.png"
+        ]
+      },
+      {
+        "topic": "归并、基数、计数与源码状态",
+        "pdf_pages": [
+          376,
+          377,
+          378,
+          379
+        ],
+        "printed_pages": [
+          364,
+          365,
+          366,
+          367
+        ],
+        "evidence": [
+          "editorial/revision2/DS_sources/book_p376.png",
+          "editorial/revision2/DS_sources/book_p377.png",
+          "editorial/revision2/DS_sources/book_p378.png",
+          "editorial/revision2/DS_sources/book_p379.png"
+        ]
+      },
+      {
+        "topic": "内部排序比较、应用与表8.1",
+        "pdf_pages": [
+          385,
+          386
+        ],
+        "printed_pages": [
+          373,
+          374
+        ],
+        "evidence": [
+          "editorial/revision2/DS_sources/book_p385.png",
+          "editorial/revision2/DS_sources/book_p386.png"
+        ]
+      }
+    ]
+  },
+  "slides_read": [
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+      "sha256": "ac32bd9293de24d471c4d376a04ca42418b4dfa474465731c9de215426e15464",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "read_method": "逐页提取文字核读；第11、14页另看源图",
+      "topic": "AVL定义、四型旋转、双旋中间状态、子树转接、高度恢复",
+      "page_evidence": [
+        "editorial/revision2/DS_sources/AVL_slide_p11.png",
+        "editorial/revision2/DS_sources/AVL_slide_p14.png"
+      ],
+      "text_extract": "editorial/revision2/DS_sources/7.3.2_1 平衡二叉树_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+      "sha256": "e14b95b96b04506ccf8481d29f1aef75a1311c1188a6341fcc1983161429048b",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "read_method": "逐页提取文字核读，并与主书317页源图交叉",
+      "topic": "5阶上下限、根例外、孩子区间、叶等深、一般高度界",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/7.4.1_1 B树_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_2 B树的插入删除.pdf",
+      "sha256": "dc4f8284a21b667d459a26c17556dee100a9ccaf25f0d96f760575430342151c",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "read_method": "逐页文字核读；第8、25、26、39、44、53页另看源图",
+      "topic": "5阶分裂向上传播、经父借位、合并传播、空根降高",
+      "page_evidence": [
+        "editorial/revision2/DS_sources/Btree_slide_p8.png",
+        "editorial/revision2/DS_sources/Btree_slide_p25.png",
+        "editorial/revision2/DS_sources/Btree_slide_p26.png",
+        "editorial/revision2/DS_sources/Btree_slide_p39.png",
+        "editorial/revision2/DS_sources/Btree_slide_p44.png",
+        "editorial/revision2/DS_sources/Btree_slide_p53.png"
+      ],
+      "text_extract": "editorial/revision2/DS_sources/7.4.1_2 B树的插入删除_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.1 二叉排序树.pdf",
+      "sha256": "c1abfff3e3ce05ffd50f78c8c0f5c762a8ab6c297107cb39c72aee3cfc03b7f4",
+      "pdf_pages_read": [
+        19,
+        20,
+        21
+      ],
+      "read_method": "核读指定页文字，配合主书294页",
+      "topic": "普通BST退化与查找路径",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/7.3.1 二叉排序树_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_1 红黑树的定义和性质.pdf",
+      "sha256": "d36cb4b32b6d3da43334a2bf5a3da5fcc3e3c51a34c03ed1d2dc6f1e5c4fc7a3",
+      "pdf_pages_read": [
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "read_method": "核读指定页文字，配合主书298、299页",
+      "topic": "黑高、搜索次序、对数高度",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/7.3.3_1 红黑树的定义和性质_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf",
+      "sha256": "2e40e06f10f6b985e0bc6fb1629bb2303b4cb8843865d07f7737b31b10e5d22b",
+      "pdf_pages_read": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "read_method": "核读指定页文字，配合主书320、321页源图",
+      "topic": "索引与叶层的键/记录分工、点查与范围、页读盘口径",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/7.4.2 B+树_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+      "sha256": "3cfc0e39a4177fd65deba469506a520909884dc2e663949159f2dbdcd763cae3",
+      "pdf_pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "read_method": "核读全部12页文字，配合主书332页",
+      "topic": "装填因子、聚集、成功/失败ASL条件",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/7.5.4 散列查找的性能分析_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.1+8.2.2 插入排序.pdf",
+      "sha256": "3b58a0e12ffc4c18bbf8a528f6ce21a082c1499232bb2fd29d56025fdd2c14cf",
+      "pdf_pages_read": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        65,
+        66
+      ],
+      "read_method": "核读性能分析与折半定位文字，配合主书345–347页代码",
+      "topic": "直接/折半插入的比较、移动、稳定插入位置",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/8.2.1+8.2.2 插入排序_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.3 希尔排序.pdf",
+      "sha256": "cfda989e6ec2ba7479bd08a67e03f3f035a29a074e42409b9a850ae48784b054",
+      "pdf_pages_read": [
+        70,
+        71
+      ],
+      "read_method": "核读性能和稳定性文字，配合主书347、348页",
+      "topic": "增量依赖与不稳定性；不把某范围经验指数当统一阶",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/8.2.3 希尔排序_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.1 冒泡排序.pdf",
+      "sha256": "66cd0951f467d593a33d2aa6a4a69ea294af7073084b0b2d1646ed15dbc83a9a",
+      "pdf_pages_read": [
+        51
+      ],
+      "read_method": "核读性能文字，配合主书353页",
+      "topic": "提前停止条件与最好/最坏工作",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/8.3.1 冒泡排序_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.2 快速排序.pdf",
+      "sha256": "3a9527c2bca8732f3a204584885a7a0ac99b207381616a820bfd8cb138cc152f",
+      "pdf_pages_read": [
+        119,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131
+      ],
+      "read_method": "核读性能/稳定性文字；主书354、355页代码与分析交叉",
+      "topic": "划分深度、平均/最坏时间、递归栈、不稳定性",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/8.3.2 快速排序_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.4.1 简单选择排序.pdf",
+      "sha256": "c5dea23ddd97dee63d10d1c84c1cdda158e7030493258ba939d461c0d53ba5b8",
+      "pdf_pages_read": [
+        27,
+        28,
+        29
+      ],
+      "read_method": "核读性能/稳定性文字，配合主书363页",
+      "topic": "固定比较次数、交换与不稳定性",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/8.4.1 简单选择排序_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.4.2_1 堆排序.pdf",
+      "sha256": "05082448f62c789945e42c4173ce5e7cc961fc47bf011bd6865d9df46e8af1f5",
+      "pdf_pages_read": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78
+      ],
+      "read_method": "核读性能和稳定性文字，配合主书365、366页程序",
+      "topic": "建堆线性、逐层比较、完整排序上界、等键停机边界",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/8.4.2_1 堆排序_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.1 归并排序.pdf",
+      "sha256": "cf64754c5e53b4f192dad5e8f2ca9eb6864b317c2df579602c449bc01867275a",
+      "pdf_pages_read": [
+        43,
+        44
+      ],
+      "read_method": "核读性能文字，配合主书376页代码",
+      "topic": "完整归并轮数、辅助区、相等先取左段",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/8.5.1 归并排序_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.2 基数排序.pdf",
+      "sha256": "8cfd407bccc5a6e450c99b9c485faee16db45533a122bc81934219f3559dd930",
+      "pdf_pages_read": [
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81
+      ],
+      "read_method": "核读算法、代价和稳定性文字，配合主书377、378页",
+      "topic": "固定d轮、r桶、链式额外空间与稳定收集",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/8.5.2 基数排序_slides.txt"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.3 计数排序.pdf",
+      "sha256": "ea503575b7c5fb594a4b73fe1ff78ec47529b77cedeafe9c49ca58a66ce42a0e",
+      "pdf_pages_read": [
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "read_method": "核读指定页文字，主书378、379页代码与数组状态另目验",
+      "topic": "计数/前缀和/逆向输出的稳定实现与n+k代价",
+      "page_evidence": [],
+      "text_extract": "editorial/revision2/DS_sources/8.5.3 计数排序_slides.txt"
+    }
+  ],
+  "extraction_scope_note": "DS_sources/slides_manifest.json提取查找和排序目录全部PDF文字用于定位；提取不等于全部课件均已完整核读。本记录只声明slides_read明确列出的页和方法。",
+  "source_cautions": [
+    {
+      "source": "7.4.1_2 B树的插入删除.pdf",
+      "pages": [
+        36,
+        39,
+        45,
+        53
+      ],
+      "finding": "部分说明把触发下溢写作“删除前…低于下限”；按逐状态图及主书，正文明确为删除后降到1键再修复。",
+      "treatment": "不照抄“删除前”的不当时点；下溢前2键是合法状态。"
+    },
+    {
+      "source": "王道2027数据结构_高清带书签版.pdf",
+      "pages": [
+        385,
+        386
+      ],
+      "finding": "表8.1空间列只列平均；堆汇总的各情况同阶须与具体程序对重复键的停机条件区分。",
+      "treatment": "快排空间明确平均/最坏；堆表给最好上界并在邻段解释互异教材模型与全等早停线性特例。"
+    }
+  ],
+  "changes": [
+    {
+      "id": "DS-R2-AVL",
+      "knowledge_ids": [
+        "DS-07-05"
+      ],
+      "figures": [
+        "DS_14_avl_rotations",
+        "DS_21_avl_double_rotations"
+      ],
+      "kind": "原创数值机制图",
+      "purpose": "每例6个数值结点，显示非空中间子树；LL/RR两态，LR/RL三态；h和每结点BF可逐步复算",
+      "source_priority": "先检查当前例7-3：原34、23、15、98、115、28、107七次插入保留，其任务与单独展示LR中间态不同；图按已核课件/主书四型规则另构数值快照，不增原创长题、不改原题。",
+      "deletion_loss": "删去会重新失去LR/RL第一旋后的显式状态和非空子树转接。"
+    },
+    {
+      "id": "DS-R2-BTREE",
+      "knowledge_ids": [
+        "DS-07-07"
+      ],
+      "figures": [
+        "DS_15_btree_split",
+        "DS_20_btree_delete"
+      ],
+      "kind": "原创5阶机制快照，规则据课件",
+      "purpose": "连续展示非根叶分裂→父根溢出→新根增高；另展示借位、叶合并→父下溢→内部合并→空根降高",
+      "source_priority": "当前例7-5是3阶高度题、例7-6是4阶形态计数真题，均保留原阶数；课件已采用5阶完整机制，主书亦有5阶定义图。本图据其机制构造较短键值以并排显示，不冒充任何原题或原动画数值。",
+      "model": "m=5，非根2..4键；内部非根3..5孩子；根1..4键，非叶根至少2孩子；临时溢出5键后分裂为2/提升1/2；删除下溢到1键后按1+父1+兄弟2合并成4。",
+      "deletion_loss": "删去会失去奇数阶上下界与上下传播、内部孩子分接的连续检验。"
+    },
+    {
+      "id": "DS-R2-SORT",
+      "knowledge_ids": [
+        "DS-08-02",
+        "DS-08-07",
+        "DS-08-09",
+        "DS-08-11"
+      ],
+      "kind": "源书机制整理与表格补全",
+      "purpose": "分列最好/平均/最坏时间、辅助空间、稳定性与条件；限定折半定位、冒泡早停、快排栈、堆等键早停、归并实现、基数表示；补计数稳定过程",
+      "source_priority": "不新增完整题；计数6项数列采用主书PDF379的2,4,3,0,2,3并给重复记录加a/b身份以观察稳定性。现有排序例题/真题不改数据或身份。",
+      "deletion_loss": "删去会失去完整排序总工作与单项比较/移动的区分，以及比较表里实现前提。"
+    },
+    {
+      "id": "DS-R2-SEARCH",
+      "knowledge_ids": [
+        "DS-07-10"
+      ],
+      "kind": "已讲结构的同维度对照",
+      "purpose": "普通BST/AVL/RB/B/B+/散列分别说明条件、查找界与操作适用性；B/B+区分索引路径页访问与记录页，散列区分n与表长m。"
+    }
+  ],
+  "calculation": {
+    "script": "editorial/full/DS/verification.py",
+    "results": "editorial/full/DS/results.json",
+    "checks_count": 66,
+    "new_check_ids": [
+      "DS-C58",
+      "DS-C59",
+      "DS-C60",
+      "DS-C61",
+      "DS-C62",
+      "DS-C63",
+      "DS-C64",
+      "DS-C65",
+      "DS-C66"
+    ],
+    "status": "PASS",
+    "scope": "独立旋转/B树操作重现实际manifest逐态；数值和条件复算，不是文件存在性测试。"
+  },
+  "not_performed": [
+    "本分支讲义PDF生成或覆盖V1",
+    "讲义PDF分页、裁切、视觉或排版检查",
+    "共享脚本、共享样式变更",
+    "正式2027大纲全文细目认证"
+  ],
+  "review_pdf_handling": {
+    "branch": "未生成讲义PDF、未覆盖V1",
+    "chief_editor": "仅导出正文审阅PDF",
+    "layout_checks": "本轮未执行讲义PDF分页、裁切、视觉或排版检查"
+  }
+}

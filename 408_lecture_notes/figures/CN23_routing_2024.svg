@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="560" viewBox="0 0 1120 560">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17212a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#17212a" stroke-linejoin="round">
+<text x="560" y="32" text-anchor="middle" font-size="23" font-weight="bold" fill="#17212a">2024改编：采用主书拓扑，R13与R16不直接相连</text>
+<rect x="250" y="247" width="580" height="270" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="8"/>
+<text x="290" y="279" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">AS1</text>
+<line x1="340" y1="300" x2="540" y2="300" stroke="#17212a" stroke-width="2"/>
+<line x1="540" y1="300" x2="740" y2="300" stroke="#17212a" stroke-width="2"/>
+<line x1="340" y1="300" x2="340" y2="430" stroke="#17212a" stroke-width="2"/>
+<line x1="340" y1="430" x2="540" y2="430" stroke="#17212a" stroke-width="2"/>
+<line x1="540" y1="430" x2="740" y2="430" stroke="#17212a" stroke-width="2"/>
+<line x1="540" y1="430" x2="740" y2="300" stroke="#17212a" stroke-width="2"/>
+<circle cx="340" cy="300" r="27" fill="white" stroke="#17212a" stroke-width="2"/>
+<text x="340" y="307" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">R11</text>
+<circle cx="540" cy="300" r="27" fill="white" stroke="#17212a" stroke-width="2"/>
+<text x="540" y="307" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">R12</text>
+<circle cx="740" cy="300" r="27" fill="white" stroke="#17212a" stroke-width="2"/>
+<text x="740" y="307" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">R13</text>
+<circle cx="340" cy="430" r="27" fill="white" stroke="#17212a" stroke-width="2"/>
+<text x="340" y="437" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">R14</text>
+<circle cx="540" cy="430" r="27" fill="white" stroke="#17212a" stroke-width="2"/>
+<text x="540" y="437" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">R15</text>
+<circle cx="740" cy="430" r="27" fill="white" stroke="#17212a" stroke-width="2"/>
+<text x="740" y="437" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">R16</text>
+<rect x="100" y="119" width="160" height="102" fill="white" stroke="#17212a" stroke-width="2" rx="8"/>
+<text x="180" y="145" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">AS2</text>
+<circle cx="180" cy="183" r="27" fill="white" stroke="#17212a" stroke-width="2"/>
+<text x="180" y="190" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">R22</text>
+<rect x="460" y="119" width="160" height="102" fill="white" stroke="#17212a" stroke-width="2" rx="8"/>
+<text x="540" y="145" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">AS3</text>
+<circle cx="540" cy="183" r="27" fill="white" stroke="#17212a" stroke-width="2"/>
+<text x="540" y="190" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">R33</text>
+<rect x="840" y="119" width="160" height="102" fill="white" stroke="#17212a" stroke-width="2" rx="8"/>
+<text x="920" y="145" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">AS4</text>
+<circle cx="920" cy="183" r="27" fill="white" stroke="#17212a" stroke-width="2"/>
+<text x="920" y="190" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">R44</text>
+<line x1="180" y1="210" x2="340" y2="273" stroke="#17212a" stroke-width="2"/>
+<line x1="540" y1="210" x2="540" y2="273" stroke="#17212a" stroke-width="2"/>
+<line x1="920" y1="210" x2="740" y2="273" stroke="#17212a" stroke-width="2"/>
+<rect x="407" y="60" width="266" height="42" fill="white" stroke="#17212a" stroke-width="2" rx="8"/>
+<text x="540.0" y="88.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">136.5.16.0/20</text>
+<line x1="560" y1="102" x2="180" y2="119" stroke="#17212a" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="560" y1="102" x2="540" y2="119" stroke="#17212a" stroke-width="2" stroke-dasharray="7 5"/>
+<line x1="560" y1="102" x2="920" y2="119" stroke="#17212a" stroke-width="2" stroke-dasharray="7 5"/>
+<text x="107" y="437" text-anchor="middle" font-size="18" font-weight="normal" fill="#17212a">210.2.3.0/24</text>
+<line x1="190" y1="430" x2="313" y2="430" stroke="#17212a" stroke-width="2"/>
+<text x="976" y="437" text-anchor="middle" font-size="18" font-weight="normal" fill="#17212a">210.2.4.0/24</text>
+<line x1="767" y1="430" x2="887" y2="430" stroke="#17212a" stroke-width="2"/>
+<text x="540" y="499" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">内部网关协议：RIP</text>
+<text x="560" y="548" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">AS3任意主机间至多经过15个路由器；AS4可能超过20个</text>
+</g></svg>

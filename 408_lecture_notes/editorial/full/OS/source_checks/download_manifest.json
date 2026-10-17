@@ -1,0 +1,58 @@
+[
+  {
+    "year": 2010,
+    "path": "editorial/sources/exams/exam_2010_rebuild.pdf",
+    "bytes": 891051,
+    "source": "第三方复原卷，非官方发布",
+    "cache_note": "已合并全科公共缓存，私有重复PDF删除，核验PNG保留"
+  },
+  {
+    "year": 2011,
+    "path": "editorial/sources/exams/exam_2011_rebuild.pdf",
+    "bytes": 1044010,
+    "source": "第三方复原卷，非官方发布",
+    "cache_note": "已合并全科公共缓存，私有重复PDF删除，核验PNG保留"
+  },
+  {
+    "year": 2013,
+    "path": "editorial/sources/exams/exam_2013_rebuild.pdf",
+    "bytes": 1013658,
+    "source": "第三方复原卷，非官方发布",
+    "cache_note": "已合并全科公共缓存，私有重复PDF删除，核验PNG保留"
+  },
+  {
+    "year": 2015,
+    "path": "editorial/sources/exams/exam_2015_rebuild.pdf",
+    "bytes": 1093642,
+    "source": "第三方复原卷，非官方发布",
+    "cache_note": "已合并全科公共缓存，私有重复PDF删除，核验PNG保留"
+  },
+  {
+    "year": 2016,
+    "path": "editorial/sources/exams/exam_2016_rebuild.pdf",
+    "bytes": 1024044,
+    "source": "第三方复原卷，非官方发布",
+    "cache_note": "已合并全科公共缓存，私有重复PDF删除，核验PNG保留"
+  },
+  {
+    "year": 2017,
+    "path": "editorial/sources/exams/exam_2017_rebuild.pdf",
+    "bytes": 1153304,
+    "source": "第三方复原卷，非官方发布",
+    "cache_note": "已合并全科公共缓存，私有重复PDF删除，核验PNG保留"
+  },
+  {
+    "year": 2019,
+    "path": "editorial/sources/exams/exam_2019_rebuild.pdf",
+    "bytes": 879667,
+    "source": "第三方复原卷，非官方发布",
+    "cache_note": "已合并全科公共缓存，私有重复PDF删除，核验PNG保留"
+  },
+  {
+    "year": 2023,
+    "path": "editorial/sources/exams/exam_2023_rebuild.pdf",
+    "bytes": 853848,
+    "source": "第三方复原卷，非官方发布",
+    "cache_note": "已合并全科公共缓存，私有重复PDF删除，核验PNG保留"
+  }
+]

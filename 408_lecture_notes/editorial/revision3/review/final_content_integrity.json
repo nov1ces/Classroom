@@ -1,0 +1,398 @@
+{
+  "status": "PASS_CONTENT_FIELD_INTEGRITY",
+  "checks": [
+    "all_29_chapters_preserve_old_anchor_identities_and_source_table_cells",
+    "seven_OS_and_nine_CN_complete_stems_with_52_numbered_subquestions",
+    "CN_six_exam_questions_and_three_explicit_adaptations",
+    "CO_16_assembly_records_and_five_instruction_formats_preserved",
+    "shared_Code_filter_removes_initial_bare_penalty_and_preserves_internal_break",
+    "CN_2012_actual_SVG_all_240_hex_bytes_match_independent_source_transcription"
+  ],
+  "chapters": {
+    "manuscript/CN/01_网络层次服务与性能.md": {
+      "sha256": "8dbeb5a3eddaffca56ca1b6d2250249f8c5d7e9607be309c80b4544896842189",
+      "baseline_sha256": "8dbeb5a3eddaffca56ca1b6d2250249f8c5d7e9607be309c80b4544896842189",
+      "changed": false,
+      "old_anchor_count": 11,
+      "pipe_table_count": 2,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/CN/02_物理层信号速率与交换.md": {
+      "sha256": "b4bd3abcaf2e34d7f4d6c95e75f6071a56fcb9092a126f323fdfb5b54504711e",
+      "baseline_sha256": "b4bd3abcaf2e34d7f4d6c95e75f6071a56fcb9092a126f323fdfb5b54504711e",
+      "changed": false,
+      "old_anchor_count": 18,
+      "pipe_table_count": 1,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/CN/03_链路层可靠传输与介质访问.md": {
+      "sha256": "858e4d661bd6b8afe2977b1eec76f939dcd73b062c72c515348bf49ef987eb70",
+      "baseline_sha256": "71ed81a6cd55080df02a15f626344d8237e2f23f25de37afe26459ce5db702b9",
+      "changed": true,
+      "old_anchor_count": 36,
+      "pipe_table_count": 4,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/CN/04_网络层地址路由与转发.md": {
+      "sha256": "593022d629dec934c563a26928bdd0b757054c729acdca997c30dea6bc700291",
+      "baseline_sha256": "a72f0e210000159303266a4f08edbbf7b748210cda1a0479ba76b1e801f97970",
+      "changed": true,
+      "old_anchor_count": 36,
+      "pipe_table_count": 9,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/CN/05_传输层可靠连接与窗口.md": {
+      "sha256": "0b361bcb2affee293c2024a314843573e46763854195a1fe7ddec69f466601ca",
+      "baseline_sha256": "9ec15261326ce39a7337ef43c6bfe8cf5a82201422c848bd4a0530375e93481f",
+      "changed": true,
+      "old_anchor_count": 22,
+      "pipe_table_count": 5,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/CN/06_应用层名称邮件与Web.md": {
+      "sha256": "da0add4da1bbcb60432b32566ac8b5c1b2b2d637efb7b90ac0b90fc1d3624eef",
+      "baseline_sha256": "5094b561a394c67883e8ad8070c4ffb228cfb14498bec74432a64724b8ef52ed",
+      "changed": true,
+      "old_anchor_count": 20,
+      "pipe_table_count": 5,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/CO/01_计算机系统与程序执行.md": {
+      "sha256": "5eb9f6d92889bc55e6fc03d620bc1457dfd1ce8c0f02f76719c4a9bafe6b5281",
+      "baseline_sha256": "5eb9f6d92889bc55e6fc03d620bc1457dfd1ce8c0f02f76719c4a9bafe6b5281",
+      "changed": false,
+      "old_anchor_count": 8,
+      "pipe_table_count": 1,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/CO/02_数据表示与运算.md": {
+      "sha256": "13152e455d2ddb8096f480fd828c81e3e535b0b91b323d3bbe9faf1a05c5a4ff",
+      "baseline_sha256": "13152e455d2ddb8096f480fd828c81e3e535b0b91b323d3bbe9faf1a05c5a4ff",
+      "changed": false,
+      "old_anchor_count": 21,
+      "pipe_table_count": 6,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/CO/03_存储系统与地址.md": {
+      "sha256": "c0dd3094a9dc8d06c749432840928b1350c30e94bc0f1086b1333f8fe7c3c9a4",
+      "baseline_sha256": "c0dd3094a9dc8d06c749432840928b1350c30e94bc0f1086b1333f8fe7c3c9a4",
+      "changed": false,
+      "old_anchor_count": 32,
+      "pipe_table_count": 7,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/CO/04_指令系统与程序表示.md": {
+      "sha256": "b633e2750e73504929151bc4c938053fa459f27497c75fd788cfb149f1d4a995",
+      "baseline_sha256": "09dea181c764fa054ed208e23099684cdd487f3938ef2f7d6f89e75e24e1900b",
+      "changed": true,
+      "old_anchor_count": 17,
+      "pipe_table_count": 3,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/CO/05_CPU与控制.md": {
+      "sha256": "e47fda476e9ffdadec5cbaa66189323deca16a7bdd5f23f5eaaad464faa61e18",
+      "baseline_sha256": "e47fda476e9ffdadec5cbaa66189323deca16a7bdd5f23f5eaaad464faa61e18",
+      "changed": false,
+      "old_anchor_count": 15,
+      "pipe_table_count": 3,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/CO/06_流水线与并行处理.md": {
+      "sha256": "a95a4ae350d917b4532c779fad7493a37bae0df32e79c8aa8eeaa63b4da524f6",
+      "baseline_sha256": "56bf3d8146abacd5dad272ccfc9408ea8ba78aa627196981268b6ef2f5a94879",
+      "changed": true,
+      "old_anchor_count": 15,
+      "pipe_table_count": 4,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/CO/07_总线与传输时间.md": {
+      "sha256": "3cf59d66a1e224cb4a88822009f19fca66d0ea8f1ecbc6d482e70bd061915d42",
+      "baseline_sha256": "3cf59d66a1e224cb4a88822009f19fca66d0ea8f1ecbc6d482e70bd061915d42",
+      "changed": false,
+      "old_anchor_count": 9,
+      "pipe_table_count": 0,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/CO/08_IO与DMA.md": {
+      "sha256": "5979de842f4a6e65ee5920c9f7ebafac8742044ae2aa297ba53af41a3d5ae4d5",
+      "baseline_sha256": "5979de842f4a6e65ee5920c9f7ebafac8742044ae2aa297ba53af41a3d5ae4d5",
+      "changed": false,
+      "old_anchor_count": 15,
+      "pipe_table_count": 1,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/DS/01_数据结构算法与复杂度.md": {
+      "sha256": "50ea81c2b22af78872f0f5defd888bdd8cfcae036403f8a00d1672fa227facb5",
+      "baseline_sha256": "50ea81c2b22af78872f0f5defd888bdd8cfcae036403f8a00d1672fa227facb5",
+      "changed": false,
+      "old_anchor_count": 9,
+      "pipe_table_count": 0,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/DS/02_线性表下标结点与指针.md": {
+      "sha256": "7275df546d19c29ecf12c4f555b12ac548f9eefd98650284f6fa82495f0ad368",
+      "baseline_sha256": "7275df546d19c29ecf12c4f555b12ac548f9eefd98650284f6fa82495f0ad368",
+      "changed": false,
+      "old_anchor_count": 15,
+      "pipe_table_count": 0,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/DS/03_栈队列与数组.md": {
+      "sha256": "8c2ce0f7a734f26e671f4a38f63791fbbba325e833d7df5fee931c8223dbb90b",
+      "baseline_sha256": "8c2ce0f7a734f26e671f4a38f63791fbbba325e833d7df5fee931c8223dbb90b",
+      "changed": false,
+      "old_anchor_count": 15,
+      "pipe_table_count": 1,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/DS/04_串与模式匹配.md": {
+      "sha256": "508bfb54c946d5cb4f712d6045e1831b724b7bd6644571a79bdca389aefbf32f",
+      "baseline_sha256": "508bfb54c946d5cb4f712d6045e1831b724b7bd6644571a79bdca389aefbf32f",
+      "changed": false,
+      "old_anchor_count": 8,
+      "pipe_table_count": 2,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/DS/05_树二叉树与应用.md": {
+      "sha256": "ac131dd2ee69131b49dd8fc5660583b75ae09a6dcd58591ce67bacc6d95abc92",
+      "baseline_sha256": "aebc56fd446131a438717ba2406a69459dbb9b9ccecee61752f0f92b641215f8",
+      "changed": true,
+      "old_anchor_count": 24,
+      "pipe_table_count": 1,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/DS/06_图与图算法.md": {
+      "sha256": "72ac42ac5bcefd164241298917b81099336a081dfcc2090fce20330c0ea6bc30",
+      "baseline_sha256": "72ac42ac5bcefd164241298917b81099336a081dfcc2090fce20330c0ea6bc30",
+      "changed": false,
+      "old_anchor_count": 21,
+      "pipe_table_count": 2,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/DS/07_查找与索引结构.md": {
+      "sha256": "84b5a8978a62f918f80958d8d2b93b0aed347336265fe5d24200d29921285904",
+      "baseline_sha256": "84b5a8978a62f918f80958d8d2b93b0aed347336265fe5d24200d29921285904",
+      "changed": false,
+      "old_anchor_count": 25,
+      "pipe_table_count": 5,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/DS/08_排序与外部归并.md": {
+      "sha256": "ffa1602936e872cbd03e1a70d38f6c485ce0e5ce57e0957db6eb5ddae196d290",
+      "baseline_sha256": "ffa1602936e872cbd03e1a70d38f6c485ce0e5ce57e0957db6eb5ddae196d290",
+      "changed": false,
+      "old_anchor_count": 24,
+      "pipe_table_count": 3,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/OS/01_操作系统与程序运行环境.md": {
+      "sha256": "26421e67f4dd53b345e776b48359136758bd434927759b5a055c9ffbc8970969",
+      "baseline_sha256": "54d093504de58e5436ca93ba7bcf87ac6b71937c6c91528a6c512f9fd5b54e47",
+      "changed": true,
+      "old_anchor_count": 17,
+      "pipe_table_count": 3,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/OS/02_进程线程调度与上下文切换.md": {
+      "sha256": "19b11a68de0709dc0ea0925fe5e0101d68b1853bf34581248c0deae0a0e3e6c7",
+      "baseline_sha256": "178bf4c5a8bc64cb3eb810837a6371c05155fd7651c2a60fa584de0fb15b2045",
+      "changed": true,
+      "old_anchor_count": 20,
+      "pipe_table_count": 10,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/OS/03_同步互斥与信号量.md": {
+      "sha256": "3a96a181d6cad7b43c36a0db4361dacf634de93eef89096e3e07735c0d0e969f",
+      "baseline_sha256": "3a96a181d6cad7b43c36a0db4361dacf634de93eef89096e3e07735c0d0e969f",
+      "changed": false,
+      "old_anchor_count": 26,
+      "pipe_table_count": 3,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/OS/04_死锁与资源分配.md": {
+      "sha256": "7e2f046a0e5a9b2ac005562926872ec888719ab56fc304c36e2fa5b9dce9990e",
+      "baseline_sha256": "e68dc825bc9d938931cba9d28d92527b8708f29aa2825b479372d076465ecdea",
+      "changed": true,
+      "old_anchor_count": 10,
+      "pipe_table_count": 6,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/OS/05_内存管理与虚拟内存.md": {
+      "sha256": "2fe788a6047bcc6566c43a5b23673b83f2749f58116510c356cb1bf83b995199",
+      "baseline_sha256": "f34cc09bf9ace43c58ad486e7b7003adfd320a433706edc637ae0d849b1ff287",
+      "changed": true,
+      "old_anchor_count": 22,
+      "pipe_table_count": 10,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/OS/06_文件目录与文件系统.md": {
+      "sha256": "d5de99eab38977923d62fc742ac6affb7dd4702a63c1a175d5546a0ac5503973",
+      "baseline_sha256": "28fbd0a8c728da641d236d2f7da9232374b9fdc92fdcf718697fa786c162d056",
+      "changed": true,
+      "old_anchor_count": 20,
+      "pipe_table_count": 2,
+      "pipe_table_shapes_match_AST": true
+    },
+    "manuscript/OS/07_IO设备与外存调度.md": {
+      "sha256": "57c242a501a390ae2c34e16fb19f244055c6e3bbcfa9269694f71554f9a49877",
+      "baseline_sha256": "e1cea9533378c1817794a4bf2a14e3d52c3609a33840f6a079986ca34d8bd813",
+      "changed": true,
+      "old_anchor_count": 20,
+      "pipe_table_count": 3,
+      "pipe_table_shapes_match_AST": true
+    }
+  },
+  "new_question_stems": {
+    "cn-ex3-12": {
+      "manuscript": "manuscript/CN/03_链路层可靠传输与介质访问.md",
+      "complete_numbered_subquestions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "identity": "exam_question"
+    },
+    "cn-ex4-10": {
+      "manuscript": "manuscript/CN/04_网络层地址路由与转发.md",
+      "complete_numbered_subquestions": [
+        1,
+        2
+      ],
+      "identity": "exam_question"
+    },
+    "cn-ex4-11": {
+      "manuscript": "manuscript/CN/04_网络层地址路由与转发.md",
+      "complete_numbered_subquestions": [
+        1,
+        2,
+        3
+      ],
+      "identity": "exam_question"
+    },
+    "cn-ex4-12": {
+      "manuscript": "manuscript/CN/04_网络层地址路由与转发.md",
+      "complete_numbered_subquestions": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "identity": "adapted"
+    },
+    "cn-ex4-13": {
+      "manuscript": "manuscript/CN/04_网络层地址路由与转发.md",
+      "complete_numbered_subquestions": [
+        1,
+        2,
+        3
+      ],
+      "identity": "exam_question"
+    },
+    "cn-ex5-8": {
+      "manuscript": "manuscript/CN/05_传输层可靠连接与窗口.md",
+      "complete_numbered_subquestions": [
+        1,
+        2,
+        3
+      ],
+      "identity": "adapted"
+    },
+    "cn-ex5-9": {
+      "manuscript": "manuscript/CN/05_传输层可靠连接与窗口.md",
+      "complete_numbered_subquestions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "identity": "adapted"
+    },
+    "cn-ex6-8": {
+      "manuscript": "manuscript/CN/06_应用层名称邮件与Web.md",
+      "complete_numbered_subquestions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "identity": "exam_question"
+    },
+    "cn-ex6-9": {
+      "manuscript": "manuscript/CN/06_应用层名称邮件与Web.md",
+      "complete_numbered_subquestions": [
+        1,
+        2,
+        3
+      ],
+      "identity": "exam_question"
+    },
+    "os-ex2-7": {
+      "manuscript": "manuscript/OS/02_进程线程调度与上下文切换.md",
+      "complete_numbered_subquestions": [
+        1,
+        2
+      ],
+      "identity": "exam_question"
+    },
+    "os-ex5-8": {
+      "manuscript": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "complete_numbered_subquestions": [
+        1,
+        2
+      ],
+      "identity": "exam_question"
+    },
+    "os-ex5-9": {
+      "manuscript": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "complete_numbered_subquestions": [
+        1,
+        2,
+        3
+      ],
+      "identity": "exam_question"
+    },
+    "os-ex6-7": {
+      "manuscript": "manuscript/OS/06_文件目录与文件系统.md",
+      "complete_numbered_subquestions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "identity": "exam_question"
+    },
+    "os-ex6-8": {
+      "manuscript": "manuscript/OS/06_文件目录与文件系统.md",
+      "complete_numbered_subquestions": [
+        1,
+        2,
+        3
+      ],
+      "identity": "exam_question"
+    },
+    "os-ex7-6": {
+      "manuscript": "manuscript/OS/07_IO设备与外存调度.md",
+      "complete_numbered_subquestions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "identity": "exam_question"
+    },
+    "os-ex7-7": {
+      "manuscript": "manuscript/OS/07_IO设备与外存调度.md",
+      "complete_numbered_subquestions": [
+        1,
+        2,
+        3
+      ],
+      "identity": "exam_question"
+    }
+  },
+  "new_subquestion_count": 52,
+  "shared_lua_sha256": "26270841a4cb70f6796ce43a8a73b03c546db30e9d5fbfc44718f6ca4a0eeb6a",
+  "scope": "Editable source identities and content fields only. No lecture PDF, layout, pagination, cropping, or visual inspection."
+}

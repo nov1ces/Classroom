@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-16",
+  "question": "2017 OS第23题",
+  "finding": "neville社区复原卷p3写J4运行4；用户主书p94/横版p204和另外一份13页二手PDF、希赛正文均写1。支持按主书1修复，非用户资料缺失。",
+  "external_sources": [
+    {
+      "url": "https://officialxuefucom.oss-cn-beijing.aliyuncs.com/u/cms/beijing/202007/03163140uwyh.pdf",
+      "pages": 13,
+      "read_scope": "题23跨物理3—4页，表格在物理4页",
+      "J4": {
+        "arrival": 3,
+        "run": 1
+      },
+      "source_kind": "二手排印卷（含参考答案），不是考试机构官方原始发布",
+      "access": "浏览工具直接读取PDF文本；截图工具未能渲染，不称已图读该外部PDF"
+    },
+    {
+      "url": "https://www.educity.cn/kyyy/5106735.html",
+      "read_scope": "2017第23题表格与题干选项",
+      "J4": {
+        "arrival": 3,
+        "run": 1
+      },
+      "source_kind": "第三方希赛题文",
+      "access": "直接打开全文"
+    },
+    {
+      "url": "https://pgcode.cn/exams/408/years/2017/preview",
+      "read_scope": "搜索索引题23表格",
+      "J4": {
+        "arrival": 3,
+        "run": 1
+      },
+      "source_kind": "第三方索引，旁证"
+    }
+  ],
+  "resolution": "正文采用王道主资料的运行1；保留社区复原件原样并在内部勘误，FCFS J1/SJF J3即D不受J4运行1或4影响，因为到达3尚未到t2。",
+  "official_original_pdf_obtained": false
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "question": "2017第23题/王道§2.2选择45",
+    "book_pdf_pages": [
+      94,
+      95
+    ],
+    "book_data": "J4到达3、运行1",
+    "neville_data": "J4到达3、运行4",
+    "resolution": "正文采用主书1；已实际打开的独立学府PDF和希赛表格均1，neville此处误排不用于改动原题。",
+    "support_urls": [
+      "https://officialxuefucom.oss-cn-beijing.aliyuncs.com/u/cms/beijing/202007/03163140uwyh.pdf",
+      "https://www.educity.cn/kyyy/5106735.html"
+    ],
+    "support_record": "editorial/full/sources，由scope_sources保存实际读取证据",
+    "impact": "t2时J4未到达，答案D未变；数据仍按原题核正。"
+  },
+  {
+    "question": "OS§2.1-022",
+    "resolution": "初始化全局变量属数据区，不照抄正文段混写。"
+  },
+  {
+    "question": "OS§2.4-028",
+    "resolution": "nk<m+n是任意分配最坏总量界，不是银行家可运行必要条件；章4明确反例。"
+  },
+  {
+    "question": "OS§4.2-010",
+    "resolution": "等概率50目录块+1个inode的精确期望26.5，原书N/2近似26分别标明。"
+  },
+  {
+    "question": "OS§4.2-028",
+    "resolution": "FAT总规模一般由卷簇数而非单文件最大值决定，正文保留条件而不把书答128KB无条件推广。"
+  },
+  {
+    "question": "OS§4.2-067",
+    "resolution": "最后close释放内存inode仅按考题简化；现实可缓存，区分打开引用与磁盘硬链接。"
+  }
+]

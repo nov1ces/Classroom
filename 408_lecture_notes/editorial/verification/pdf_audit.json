@@ -1,0 +1,572 @@
+{
+  "pdf": "dist/操作系统_同步互斥与信号量_样章.pdf",
+  "sha256": "2eac4d6a5d5a168f474f6ddb07afdd1752ba291b0015bd876687663b1066c690",
+  "page_count": 20,
+  "page_labels": [
+    {
+      "startpage": 0,
+      "prefix": "",
+      "firstpagenum": 1,
+      "style": "a"
+    },
+    {
+      "startpage": 1,
+      "prefix": "",
+      "firstpagenum": 1,
+      "style": "r"
+    },
+    {
+      "startpage": 2,
+      "prefix": "",
+      "firstpagenum": 1,
+      "style": "D"
+    }
+  ],
+  "bookmarks": [
+    [
+      1,
+      "3 同步、互斥与信号量",
+      3
+    ],
+    [
+      2,
+      "3.1 临界区约束什么，为什么还需要同步",
+      3
+    ],
+    [
+      3,
+      "从一次丢失的更新看原子操作",
+      3
+    ],
+    [
+      3,
+      "资源、代码与先后关系",
+      4
+    ],
+    [
+      3,
+      "例 3-1　共享缓冲区中的两种约束",
+      4
+    ],
+    [
+      3,
+      "怎样判断互斥方案是否合格",
+      4
+    ],
+    [
+      2,
+      "3.2 软件互斥与锁：检查和占用必须连起来",
+      5
+    ],
+    [
+      3,
+      "三种失败方案留下了什么问题",
+      5
+    ],
+    [
+      3,
+      "Peterson 算法怎样处理双方同时申请",
+      5
+    ],
+    [
+      3,
+      "TestAndSet 为什么能够上锁",
+      5
+    ],
+    [
+      2,
+      "3.3 信号量：先说明它代表什么，再计算初值",
+      6
+    ],
+    [
+      3,
+      "记录型 P、V 的完整语义",
+      6
+    ],
+    [
+      3,
+      "初值来自初态，不来自``同步量''这个名称",
+      7
+    ],
+    [
+      3,
+      "例 3-2　同步信号量一定从 0 开始吗",
+      7
+    ],
+    [
+      3,
+      "将完成条件放在正确位置",
+      7
+    ],
+    [
+      2,
+      "3.4 从前驱图到线程代码",
+      8
+    ],
+    [
+      3,
+      "例 3-3　哪些边需要跨线程通知",
+      8
+    ],
+    [
+      2,
+      "3.5 缓冲区：容量许可与互斥范围分别建立",
+      9
+    ],
+    [
+      3,
+      "例 3-4　同一个缓冲区为什么有不同的信号量方案",
+      9
+    ],
+    [
+      3,
+      "有限缓冲区为什么通常需要 empty、full 和 mutex",
+      10
+    ],
+    [
+      3,
+      "为什么不能持有缓冲区锁等待产品",
+      11
+    ],
+    [
+      3,
+      "例 3-5　消费者只能取特定类别时怎样计数",
+      11
+    ],
+    [
+      3,
+      "例 3-6　连续取 10 件改变的是哪一层互斥",
+      13
+    ],
+    [
+      2,
+      "3.6 多个读者怎样作为一组申请资源",
+      14
+    ],
+    [
+      3,
+      "首读者申请，末读者释放",
+      14
+    ],
+    [
+      3,
+      "读者优先与公平需要分别说明",
+      15
+    ],
+    [
+      2,
+      "3.7 哲学家进餐：申请多个资源时怎样断开等待环",
+      16
+    ],
+    [
+      3,
+      "限制竞争人数，与限制同时吃饭人数不同",
+      16
+    ],
+    [
+      2,
+      "3.8 管程与条件变量：等待时必须让出改变条件的机会",
+      17
+    ],
+    [
+      3,
+      "wait 负责等待，不替调用者判断条件",
+      17
+    ],
+    [
+      3,
+      "例 3-7　条件变量的 wait 做什么",
+      17
+    ],
+    [
+      3,
+      "通知以后，何时重新检查条件",
+      18
+    ],
+    [
+      2,
+      "3.9 写出并发代码后，怎样检验",
+      19
+    ],
+    [
+      2,
+      "3.10 自测：先判断，再看答案",
+      19
+    ],
+    [
+      3,
+      "自测答案",
+      20
+    ],
+    [
+      2,
+      "3.11 题目与方法索引",
+      20
+    ]
+  ],
+  "pages": [
+    {
+      "physical_page": 1,
+      "label": "a",
+      "characters": 145,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 10.909099578857422
+    },
+    {
+      "physical_page": 2,
+      "label": "i",
+      "characters": 831,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 10.909099578857422
+    },
+    {
+      "physical_page": 3,
+      "label": "1",
+      "characters": 734,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 9.496739387512207
+    },
+    {
+      "physical_page": 4,
+      "label": "2",
+      "characters": 1034,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 9.962599754333496
+    },
+    {
+      "physical_page": 5,
+      "label": "3",
+      "characters": 1020,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 6.973800182342529
+    },
+    {
+      "physical_page": 6,
+      "label": "4",
+      "characters": 1210,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 9.962599754333496
+    },
+    {
+      "physical_page": 7,
+      "label": "5",
+      "characters": 792,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 9.5977201461792
+    },
+    {
+      "physical_page": 8,
+      "label": "6",
+      "characters": 833,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 9.258007049560547
+    },
+    {
+      "physical_page": 9,
+      "label": "7",
+      "characters": 1199,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 9.962599754333496
+    },
+    {
+      "physical_page": 10,
+      "label": "8",
+      "characters": 837,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 7.935434818267822
+    },
+    {
+      "physical_page": 11,
+      "label": "9",
+      "characters": 1157,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 8.37629222869873
+    },
+    {
+      "physical_page": 12,
+      "label": "10",
+      "characters": 754,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 9.962599754333496
+    },
+    {
+      "physical_page": 13,
+      "label": "11",
+      "characters": 1046,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 9.962599754333496
+    },
+    {
+      "physical_page": 14,
+      "label": "12",
+      "characters": 733,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 9.962599754333496
+    },
+    {
+      "physical_page": 15,
+      "label": "13",
+      "characters": 913,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 7.935434818267822
+    },
+    {
+      "physical_page": 16,
+      "label": "14",
+      "characters": 804,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 7.970099925994873
+    },
+    {
+      "physical_page": 17,
+      "label": "15",
+      "characters": 1184,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 9.962599754333496
+    },
+    {
+      "physical_page": 18,
+      "label": "16",
+      "characters": 872,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 8.37629222869873
+    },
+    {
+      "physical_page": 19,
+      "label": "17",
+      "characters": 1103,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 9.962599754333496
+    },
+    {
+      "physical_page": 20,
+      "label": "18",
+      "characters": 942,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "outside": [],
+      "replacement_glyphs": 0,
+      "font_min": 9.962599754333496
+    }
+  ],
+  "bad_internal_links": [],
+  "internal_link_count": 48,
+  "scope": "Text bounds, glyph warnings, links and render artifacts only; not a semantic or visual pass.",
+  "latex_missing_glyph_lines": [],
+  "latex_overfull_lines": [],
+  "latex_undefined_lines": [],
+  "latex_float_errors": [],
+  "embedded_font_names": [
+    "BIBLQZ+NotoSansCJKsc-Regular",
+    "BPAIGS+NotoSansCJKsc-Regular",
+    "CJEOCW+NotoSerifCJKjp-Bold-Identity-H",
+    "IARZND+NotoSansCJKjp-Bold-Identity-H",
+    "IXRZER+NotoSansCJKsc-Bold",
+    "JOQZCD+NotoSansCJKsc-Bold",
+    "JTCRPY+CMMI10",
+    "KZAQDU+NotoSansCJKsc-Regular",
+    "LRIAXH+NotoSansCJKsc-Bold",
+    "LTAYJR+NotoSansCJKjp-Regular-Identity-H",
+    "MJRDUH+CMR7",
+    "MVHSUL+NotoSansCJKsc-Regular",
+    "NYMFAO+CMR8",
+    "OCHTDC+NotoSansCJKsc-Bold",
+    "OFOOOB+CMSY10",
+    "ROBHWQ+NotoSansCJKsc-Regular",
+    "RSUXBR+NotoSerifCJKjp-Regular-Identity-H",
+    "TJIVDH+NotoSansCJKsc-Bold",
+    "TVLWWP+NotoSansCJKsc-Regular",
+    "UTMLEG+NotoSansCJKjp-Regular-Identity-H",
+    "UVWOCN+NotoSansCJKsc-Bold",
+    "WIJSWD+NotoSansCJKsc-Regular",
+    "WMJHMS+NotoSansCJKsc-Regular",
+    "XBNJBT+NotoSansCJKsc-Bold",
+    "YLGYUB+CMR10",
+    "ZWRWXK+CMMI8"
+  ],
+  "font_face_manifest": {
+    "main": {
+      "normal": {
+        "family": "Noto Serif CJK SC",
+        "path": "/usr/share/fonts/opentype/noto/NotoSerifCJK-Regular.ttc",
+        "index": 2
+      },
+      "bold": {
+        "family": "Noto Serif CJK SC",
+        "path": "/usr/share/fonts/opentype/noto/NotoSerifCJK-Bold.ttc",
+        "index": 2
+      }
+    },
+    "sans": {
+      "normal": {
+        "family": "Noto Sans CJK SC",
+        "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "index": 2
+      },
+      "bold": {
+        "family": "Noto Sans CJK SC",
+        "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+        "index": 2
+      }
+    },
+    "mono": {
+      "normal": {
+        "family": "Noto Sans Mono CJK SC",
+        "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "index": 7
+      },
+      "bold": {
+        "family": "Noto Sans Mono CJK SC",
+        "path": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+        "index": 7
+      }
+    }
+  },
+  "font_faces_verified": true,
+  "cff_name_note": "Noto SC faces share the collection CFF PostScript name containing jp; selected TTC indexes and cmap determine glyphs.",
+  "all_pages_rendered": true,
+  "contact_sheets": [
+    "build/rendered/contact_01.png",
+    "build/rendered/contact_02.png",
+    "build/rendered/contact_03.png",
+    "build/rendered/contact_04.png"
+  ],
+  "structural_status": "PASS"
+}

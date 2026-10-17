@@ -1,0 +1,2000 @@
+{
+  "status": "PASS",
+  "checks": 120,
+  "assertion_cases": 196608,
+  "results": [
+    {
+      "id": "8bit_add_sub_exhaustive",
+      "actual": 131072,
+      "expected": 131072,
+      "pass": true,
+      "detail": "Independent ripple carries versus exact signed/unsigned arithmetic"
+    },
+    {
+      "id": "69_minus_38",
+      "actual": [
+        31,
+        0,
+        0,
+        0,
+        0
+      ],
+      "expected": [
+        31,
+        0,
+        0,
+        0,
+        0
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "7f_plus_01",
+      "actual": [
+        128,
+        0,
+        1,
+        1,
+        0
+      ],
+      "expected": [
+        128,
+        0,
+        1,
+        1,
+        0
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "10_minus_negative20",
+      "actual": [
+        30,
+        1,
+        0
+      ],
+      "expected": [
+        30,
+        1,
+        0
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2018_difference",
+      "actual": "0xffffff9e",
+      "expected": "0xffffff9e",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "unsigned_short_65530",
+      "actual": 65530,
+      "expected": 65530,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "negative_short_to_unsigned",
+      "actual": 4294934529,
+      "expected": 4294934529,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "booth_4bit_all_pairs",
+      "actual": 256,
+      "expected": 256,
+      "pass": true,
+      "detail": "All signed 4-bit operands with 5-bit accumulator"
+    },
+    {
+      "id": "booth_minus3_times5",
+      "actual": -15,
+      "expected": -15,
+      "pass": true,
+      "detail": [
+        {
+          "round": 1,
+          "pair": "10",
+          "operation": "A−M",
+          "A_before_shift": 3,
+          "A": "00001",
+          "A_signed": 1,
+          "Q": "1010",
+          "q_minus1": 1
+        },
+        {
+          "round": 2,
+          "pair": "01",
+          "operation": "A+M",
+          "A_before_shift": -2,
+          "A": "11111",
+          "A_signed": -1,
+          "Q": "0101",
+          "q_minus1": 0
+        },
+        {
+          "round": 3,
+          "pair": "10",
+          "operation": "A−M",
+          "A_before_shift": 2,
+          "A": "00001",
+          "A_signed": 1,
+          "Q": "0010",
+          "q_minus1": 1
+        },
+        {
+          "round": 4,
+          "pair": "01",
+          "operation": "A+M",
+          "A_before_shift": -2,
+          "A": "11111",
+          "A_signed": -1,
+          "Q": "0001",
+          "q_minus1": 0
+        }
+      ]
+    },
+    {
+      "id": "nonrest_8bit_all_valid_divisions",
+      "actual": 65280,
+      "expected": 65280,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "nonrest_7_div3",
+      "actual": [
+        2,
+        1,
+        true
+      ],
+      "expected": [
+        2,
+        1,
+        true
+      ],
+      "pass": true,
+      "detail": [
+        {
+          "round": 1,
+          "shifted_R": 1,
+          "operation": "−D",
+          "R": -2,
+          "Q": "110"
+        },
+        {
+          "round": 2,
+          "shifted_R": -3,
+          "operation": "+D",
+          "R": 0,
+          "Q": "101"
+        },
+        {
+          "round": 3,
+          "shifted_R": 1,
+          "operation": "−D",
+          "R": -2,
+          "Q": "010"
+        }
+      ]
+    },
+    {
+      "id": "2022_float_minus04375",
+      "actual": 3202351104,
+      "expected": 3202351104,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2014_float_comparison",
+      "actual": [
+        true,
+        true
+      ],
+      "expected": [
+        true,
+        true
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "min_positive_subnormal",
+      "actual": 1.401298464324817e-45,
+      "expected": 1.401298464324817e-45,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "min_positive_normal",
+      "actual": 1.1754943508222875e-38,
+      "expected": 1.1754943508222875e-38,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "round4_significand_even_down",
+      "actual": 8,
+      "expected": 8,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "round4_significand_even_up",
+      "actual": 10,
+      "expected": 10,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "float_non_associative",
+      "actual": [
+        1.0,
+        0.0
+      ],
+      "expected": [
+        1.0,
+        0.0
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "weighted_CPI",
+      "actual": "14/5",
+      "expected": "14/5",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "CPU_time_ns",
+      "actual": 28000.0,
+      "expected": 28000.0,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "Amdahl_2012_seconds",
+      "actual": 70.0,
+      "expected": 70.0,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "compile_2014_seconds",
+      "actual": 16.8,
+      "expected": 16.8,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "DRAM_address_data_pins",
+      "actual": 19,
+      "expected": 19,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "MAR_bits_64MiB",
+      "actual": 26,
+      "expected": 26,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "ROM_RAM_chip_counts",
+      "actual": [
+        2,
+        30
+      ],
+      "expected": [
+        2,
+        30
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "interleave_modules",
+      "actual": [
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3,
+        0,
+        0
+      ],
+      "expected": [
+        1,
+        2,
+        3,
+        0,
+        1,
+        2,
+        3,
+        0,
+        0
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "disk_access_ms",
+      "actual": 12.175,
+      "expected": 12.175,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "Cache_2022_tag_comparators",
+      "actual": [
+        8,
+        20
+      ],
+      "expected": [
+        8,
+        20
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "Cache_2015_total_Kbits",
+      "actual": 148,
+      "expected": 148,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "TLB_2024_tag",
+      "actual": 19,
+      "expected": 19,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "VA_to_PA_2022",
+      "actual": [
+        130,
+        2112,
+        100416
+      ],
+      "expected": [
+        130,
+        2112,
+        100416
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2016_array_read_write_misses",
+      "actual": [
+        250,
+        2000
+      ],
+      "expected": [
+        250,
+        2000
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2016_array_miss_rate",
+      "actual": 0.125,
+      "expected": 0.125,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "two_way_LRU_hits",
+      "actual": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "expected": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "pass": true,
+      "detail": [
+        {
+          "address": 0,
+          "block": 0,
+          "group": 0,
+          "hit": false,
+          "LRU_to_MRU": [
+            0
+          ]
+        },
+        {
+          "address": 1,
+          "block": 1,
+          "group": 0,
+          "hit": false,
+          "LRU_to_MRU": [
+            0,
+            1
+          ]
+        },
+        {
+          "address": 0,
+          "block": 0,
+          "group": 0,
+          "hit": true,
+          "LRU_to_MRU": [
+            1,
+            0
+          ]
+        },
+        {
+          "address": 2,
+          "block": 2,
+          "group": 0,
+          "hit": false,
+          "LRU_to_MRU": [
+            0,
+            2
+          ]
+        },
+        {
+          "address": 1,
+          "block": 1,
+          "group": 0,
+          "hit": false,
+          "LRU_to_MRU": [
+            2,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2023Q43_page_fault_addresses",
+      "actual": [
+        4333568,
+        4337664
+      ],
+      "expected": [
+        4333568,
+        4337664
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2023Q43_array_blocks",
+      "actual": 192,
+      "expected": 192,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2023Q43_a10_address_group",
+      "actual": [
+        4333824,
+        8
+      ],
+      "expected": [
+        4333824,
+        8
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2023Q43_row_miss_count",
+      "actual": 192,
+      "expected": 192,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2023Q43_row_hit_rate",
+      "actual": 0.875,
+      "expected": 0.875,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2023Q43_column_miss_count",
+      "actual": 192,
+      "expected": 192,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2023Q43_column_hit_rate",
+      "actual": 0.875,
+      "expected": 0.875,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2023Q43_variant_column_all_miss",
+      "actual": 1536,
+      "expected": 1536,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2023Q43_variant_row_miss",
+      "actual": 192,
+      "expected": 192,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "extended_opcode_2022_zero",
+      "actual": 128,
+      "expected": 128,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "relative_branch_2009",
+      "actual": 8200,
+      "expected": 8200,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "struct_record_c",
+      "actual": 49166,
+      "expected": 49166,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "employee_byte_56H",
+      "actual": 41157,
+      "expected": 41157,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "microcommand_bits",
+      "actual": 15,
+      "expected": 15,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "micro_address_bits",
+      "actual": 8,
+      "expected": 8,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2022Q43_register_count",
+      "actual": 16,
+      "expected": 16,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2022Q43_fetch_cycles",
+      "actual": 7,
+      "expected": 7,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2022Q43_sign_truth_rows",
+      "actual": 8,
+      "expected": 8,
+      "pass": true,
+      "detail": "Both displayed OF Boolean expressions checked for every input sign triple"
+    },
+    {
+      "id": "load_use_EX_cycles",
+      "actual": [
+        3,
+        4,
+        6
+      ],
+      "expected": [
+        3,
+        4,
+        6
+      ],
+      "pass": true,
+      "detail": [
+        {
+          "instruction": "I1",
+          "EX": 3,
+          "result_end_cycle": 3,
+          "WB": 5
+        },
+        {
+          "instruction": "I2",
+          "EX": 4,
+          "result_end_cycle": 5,
+          "WB": 6
+        },
+        {
+          "instruction": "I3",
+          "EX": 6,
+          "result_end_cycle": 6,
+          "WB": 8
+        }
+      ]
+    },
+    {
+      "id": "load_use_final_WB",
+      "actual": 8,
+      "expected": 8,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "pipeline_selftest_ns",
+      "actual": 54,
+      "expected": 54,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "nonuniform_pipeline_10_ns",
+      "actual": 1170,
+      "expected": 1170,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "bus_2009_MBps",
+      "actual": 20.0,
+      "expected": 20.0,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "bus_2025_GBps",
+      "actual": 10.664,
+      "expected": 10.664,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "bus_2023_ns",
+      "actual": 32,
+      "expected": 32,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "bus_2024_peak_GBps",
+      "actual": 6.72,
+      "expected": 6.72,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "bus_2024_transaction_GBps",
+      "actual": 3.84,
+      "expected": 3.84,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "burst_50MHz_MBps",
+      "actual": 133.33333333333334,
+      "expected": 133.33333333333334,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "independent_50MHz_MBps",
+      "actual": 40.0,
+      "expected": 40.0,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "polling_2011_CPU_fraction",
+      "actual": 0.002,
+      "expected": 0.002,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "interrupt_2014_CPU_fraction",
+      "actual": 0.25,
+      "expected": 0.25,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "DMA_512B_transfers",
+      "actual": 128,
+      "expected": 128,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "interrupt_selftest_CPU_fraction",
+      "actual": 0.5,
+      "expected": 0.5,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "DMA_selftest_CPU_fraction",
+      "actual": 0.01953125,
+      "expected": 0.01953125,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "interrupt_masks",
+      "actual": [
+        4,
+        6,
+        7
+      ],
+      "expected": [
+        4,
+        6,
+        7
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2017Q43_unsigned_zero_upper_bound",
+      "actual": 4294967295,
+      "expected": 4294967295,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2017Q43_unsigned_counter_wrap",
+      "actual": 0,
+      "expected": 0,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2017Q43_signed_zero_initial_condition",
+      "actual": false,
+      "expected": false,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2017Q43_f1_23",
+      "actual": 16777215,
+      "expected": 16777215,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2017Q43_f2_23_bits",
+      "actual": "4B7FFFFF",
+      "expected": "4B7FFFFF",
+      "pass": true,
+      "detail": [
+        {
+          "iteration": 22,
+          "power": 4194304.0,
+          "sum": 8388607.0
+        },
+        {
+          "iteration": 23,
+          "power": 8388608.0,
+          "sum": 16777215.0
+        }
+      ]
+    },
+    {
+      "id": "2017Q43_f2_24_bits",
+      "actual": "4C000000",
+      "expected": "4C000000",
+      "pass": true,
+      "detail": [
+        {
+          "iteration": 23,
+          "power": 8388608.0,
+          "sum": 16777215.0
+        },
+        {
+          "iteration": 24,
+          "power": 16777216.0,
+          "sum": 33554432.0
+        }
+      ]
+    },
+    {
+      "id": "2017Q43_f2_126_bits",
+      "actual": "7F000000",
+      "expected": "7F000000",
+      "pass": true,
+      "detail": [
+        {
+          "iteration": 125,
+          "power": 4.253529586511731e+37,
+          "sum": 8.507059173023462e+37
+        },
+        {
+          "iteration": 126,
+          "power": 8.507059173023462e+37,
+          "sum": 1.7014118346046923e+38
+        }
+      ]
+    },
+    {
+      "id": "2017Q43_f2_127_bits",
+      "actual": "7F800000",
+      "expected": "7F800000",
+      "pass": true,
+      "detail": [
+        {
+          "iteration": 126,
+          "power": 8.507059173023462e+37,
+          "sum": 1.7014118346046923e+38
+        },
+        {
+          "iteration": 127,
+          "power": 1.7014118346046923e+38,
+          "sum": "+inf"
+        }
+      ]
+    },
+    {
+      "id": "2017Q43_f1_31_machine_value",
+      "actual": -1,
+      "expected": -1,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2017Q43_int_exact_n",
+      "actual": 30,
+      "expected": 30,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2017Q43_float_finite_n",
+      "actual": 126,
+      "expected": 126,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2017Q43_float_exact_n",
+      "actual": 23,
+      "expected": 23,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2021Q44_address_field_widths",
+      "actual": [
+        15,
+        3,
+        12,
+        12
+      ],
+      "expected": [
+        15,
+        3,
+        12,
+        12
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2021Q44_TLB_group_sequence",
+      "actual": [
+        2,
+        4,
+        0,
+        7,
+        2,
+        4,
+        4,
+        4
+      ],
+      "expected": [
+        2,
+        4,
+        0,
+        7,
+        2,
+        4,
+        4,
+        4
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2021Q44_TLB_replaced_vpns",
+      "actual": [
+        4
+      ],
+      "expected": [
+        4
+      ],
+      "pass": true,
+      "detail": [
+        {
+          "vpn": 10,
+          "group": 2,
+          "tag": 1,
+          "hit": false,
+          "LRU_to_MRU_vpns": [
+            10
+          ]
+        },
+        {
+          "vpn": 12,
+          "group": 4,
+          "tag": 1,
+          "hit": false,
+          "LRU_to_MRU_vpns": [
+            12
+          ]
+        },
+        {
+          "vpn": 16,
+          "group": 0,
+          "tag": 2,
+          "hit": false,
+          "LRU_to_MRU_vpns": [
+            16
+          ]
+        },
+        {
+          "vpn": 7,
+          "group": 7,
+          "tag": 0,
+          "hit": false,
+          "LRU_to_MRU_vpns": [
+            7
+          ]
+        },
+        {
+          "vpn": 26,
+          "group": 2,
+          "tag": 3,
+          "hit": false,
+          "LRU_to_MRU_vpns": [
+            10,
+            26
+          ]
+        },
+        {
+          "vpn": 4,
+          "group": 4,
+          "tag": 0,
+          "hit": false,
+          "LRU_to_MRU_vpns": [
+            12,
+            4
+          ]
+        },
+        {
+          "vpn": 12,
+          "group": 4,
+          "tag": 1,
+          "hit": true,
+          "LRU_to_MRU_vpns": [
+            4,
+            12
+          ]
+        },
+        {
+          "vpn": 20,
+          "group": 4,
+          "tag": 2,
+          "hit": false,
+          "LRU_to_MRU_vpns": [
+            12,
+            20
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2021Q44_TLB_added_tag_bits",
+      "actual": 2,
+      "expected": 2,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2019Q45_call_next_pc",
+      "actual": "0040102A",
+      "expected": "0040102A",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2019Q45_call_displacement",
+      "actual": -42,
+      "expected": -42,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2019Q45_call_target",
+      "actual": "00401000",
+      "expected": "00401000",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2019Q45_invocation_count",
+      "actual": [
+        10,
+        9
+      ],
+      "expected": [
+        10,
+        9
+      ],
+      "pass": true,
+      "detail": [
+        10,
+        9,
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "id": "2019Q45_factorial13_exact",
+      "actual": 6227020800,
+      "expected": 6227020800,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2019Q45_factorial13_low32",
+      "actual": 1932053504,
+      "expected": 1932053504,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2019Q45_signed_product_overflow_cases",
+      "actual": 6,
+      "expected": 6,
+      "pass": true,
+      "detail": [
+        {
+          "x": 2147483647,
+          "y": 2,
+          "high": "00000000",
+          "low": "FFFFFFFE",
+          "OF": 1
+        },
+        {
+          "x": -2147483648,
+          "y": -1,
+          "high": "00000000",
+          "low": "80000000",
+          "OF": 1
+        },
+        {
+          "x": -2147483648,
+          "y": 1,
+          "high": "FFFFFFFF",
+          "low": "80000000",
+          "OF": 0
+        },
+        {
+          "x": -1,
+          "y": 1,
+          "high": "FFFFFFFF",
+          "low": "FFFFFFFF",
+          "OF": 0
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "high": "00000000",
+          "low": "00000000",
+          "OF": 0
+        },
+        {
+          "x": 46341,
+          "y": 46341,
+          "high": "00000000",
+          "low": "80001219",
+          "OF": 1
+        }
+      ]
+    },
+    {
+      "id": "2012Q44_arithmetic_shift",
+      "actual": "FEFF",
+      "expected": "FEFF",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2012Q44_ideal_cycles",
+      "actual": 8,
+      "expected": 8,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2012Q44_original_stage_cycles",
+      "actual": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          7,
+          8,
+          9,
+          10
+        ],
+        [
+          7,
+          11,
+          12,
+          13,
+          14
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          7,
+          8,
+          9,
+          10
+        ],
+        [
+          7,
+          11,
+          12,
+          13,
+          14
+        ]
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2012Q44_legal_orders",
+      "actual": 3,
+      "expected": 3,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2012Q44_all_legal_finish_cycles",
+      "actual": [
+        17,
+        18,
+        18
+      ],
+      "expected": [
+        17,
+        18,
+        18
+      ],
+      "pass": true,
+      "detail": [
+        {
+          "order": [
+            "LOAD_x",
+            "LOAD_a",
+            "SHL",
+            "ADD",
+            "STORE"
+          ],
+          "finish": 17,
+          "trajectory": [
+            {
+              "name": "LOAD_x",
+              "IF": 1,
+              "ID": 2,
+              "EX": 3,
+              "M": 4,
+              "WB": 5
+            },
+            {
+              "name": "LOAD_a",
+              "IF": 2,
+              "ID": 3,
+              "EX": 4,
+              "M": 5,
+              "WB": 6
+            },
+            {
+              "name": "SHL",
+              "IF": 3,
+              "ID": 6,
+              "EX": 7,
+              "M": 8,
+              "WB": 9
+            },
+            {
+              "name": "ADD",
+              "IF": 6,
+              "ID": 10,
+              "EX": 11,
+              "M": 12,
+              "WB": 13
+            },
+            {
+              "name": "STORE",
+              "IF": 10,
+              "ID": 14,
+              "EX": 15,
+              "M": 16,
+              "WB": 17
+            }
+          ]
+        },
+        {
+          "order": [
+            "LOAD_x",
+            "SHL",
+            "LOAD_a",
+            "ADD",
+            "STORE"
+          ],
+          "finish": 18,
+          "trajectory": [
+            {
+              "name": "LOAD_x",
+              "IF": 1,
+              "ID": 2,
+              "EX": 3,
+              "M": 4,
+              "WB": 5
+            },
+            {
+              "name": "SHL",
+              "IF": 2,
+              "ID": 6,
+              "EX": 7,
+              "M": 8,
+              "WB": 9
+            },
+            {
+              "name": "LOAD_a",
+              "IF": 6,
+              "ID": 7,
+              "EX": 8,
+              "M": 9,
+              "WB": 10
+            },
+            {
+              "name": "ADD",
+              "IF": 7,
+              "ID": 11,
+              "EX": 12,
+              "M": 13,
+              "WB": 14
+            },
+            {
+              "name": "STORE",
+              "IF": 11,
+              "ID": 15,
+              "EX": 16,
+              "M": 17,
+              "WB": 18
+            }
+          ]
+        },
+        {
+          "order": [
+            "LOAD_a",
+            "LOAD_x",
+            "SHL",
+            "ADD",
+            "STORE"
+          ],
+          "finish": 18,
+          "trajectory": [
+            {
+              "name": "LOAD_a",
+              "IF": 1,
+              "ID": 2,
+              "EX": 3,
+              "M": 4,
+              "WB": 5
+            },
+            {
+              "name": "LOAD_x",
+              "IF": 2,
+              "ID": 3,
+              "EX": 4,
+              "M": 5,
+              "WB": 6
+            },
+            {
+              "name": "SHL",
+              "IF": 3,
+              "ID": 7,
+              "EX": 8,
+              "M": 9,
+              "WB": 10
+            },
+            {
+              "name": "ADD",
+              "IF": 7,
+              "ID": 11,
+              "EX": 12,
+              "M": 13,
+              "WB": 14
+            },
+            {
+              "name": "STORE",
+              "IF": 11,
+              "ID": 15,
+              "EX": 16,
+              "M": 17,
+              "WB": 18
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2012Q44_shortest_stage_cycles",
+      "actual": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          6,
+          7,
+          8,
+          9
+        ],
+        [
+          6,
+          10,
+          11,
+          12,
+          13
+        ],
+        [
+          10,
+          14,
+          15,
+          16,
+          17
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          6,
+          7,
+          8,
+          9
+        ],
+        [
+          6,
+          10,
+          11,
+          12,
+          13
+        ],
+        [
+          10,
+          14,
+          15,
+          16,
+          17
+        ]
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2012Q44_figure_matches_independent_schedule",
+      "actual": [
+        {
+          "IF": 1,
+          "ID": 2,
+          "EX": 3,
+          "M": 4,
+          "WB": 5
+        },
+        {
+          "IF": 2,
+          "ID": 3,
+          "EX": 4,
+          "M": 5,
+          "WB": 6
+        },
+        {
+          "IF": 3,
+          "ID": 6,
+          "EX": 7,
+          "M": 8,
+          "WB": 9
+        },
+        {
+          "IF": 6,
+          "ID": 10,
+          "EX": 11,
+          "M": 12,
+          "WB": 13
+        },
+        {
+          "IF": 10,
+          "ID": 14,
+          "EX": 15,
+          "M": 16,
+          "WB": 17
+        }
+      ],
+      "expected": [
+        {
+          "IF": 1,
+          "ID": 2,
+          "EX": 3,
+          "M": 4,
+          "WB": 5
+        },
+        {
+          "IF": 2,
+          "ID": 3,
+          "EX": 4,
+          "M": 5,
+          "WB": 6
+        },
+        {
+          "IF": 3,
+          "ID": 6,
+          "EX": 7,
+          "M": 8,
+          "WB": 9
+        },
+        {
+          "IF": 6,
+          "ID": 10,
+          "EX": 11,
+          "M": 12,
+          "WB": 13
+        },
+        {
+          "IF": 10,
+          "ID": 14,
+          "EX": 15,
+          "M": 16,
+          "WB": 17
+        }
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2018Q43_A_max_interval_us",
+      "actual": 2.0,
+      "expected": 2.0,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2018Q43_A_min_cpu_fraction",
+      "actual": 0.04,
+      "expected": 0.04,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2018Q43_B_cycles_between_buffers",
+      "actual": 50.0,
+      "expected": 50.0,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2018Q43_B_interrupt_required_fraction",
+      "actual": 8.0,
+      "expected": 8.0,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2018Q43_B_DMA_blocks_per_second",
+      "actual": 40000.0,
+      "expected": 40000.0,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "2018Q43_B_DMA_max_cpu_fraction",
+      "actual": 0.04,
+      "expected": 0.04,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "textbook_joint_address_field_widths",
+      "actual": [
+        6,
+        2,
+        6,
+        6,
+        4,
+        2
+      ],
+      "expected": [
+        6,
+        2,
+        6,
+        6,
+        4,
+        2
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "textbook_joint_address_three_paths",
+      "actual": [
+        "cache",
+        "memory",
+        "page_fault"
+      ],
+      "expected": [
+        "cache",
+        "memory",
+        "page_fault"
+      ],
+      "pass": true,
+      "detail": [
+        {
+          "va": 980,
+          "vpn": 15,
+          "page_offset": 20,
+          "tlb_group": 3,
+          "tlb_tag": 3,
+          "tlb_hit": true,
+          "ppn": 13,
+          "pa": 852,
+          "cache_tag": 13,
+          "cache_line": 5,
+          "byte_offset": 0,
+          "cache_hit": true,
+          "outcome": "cache",
+          "byte": 54
+        },
+        {
+          "va": 241,
+          "vpn": 3,
+          "page_offset": 49,
+          "tlb_group": 3,
+          "tlb_tag": 0,
+          "tlb_hit": false,
+          "ppn": 2,
+          "pa": 177,
+          "cache_tag": 2,
+          "cache_line": 12,
+          "byte_offset": 1,
+          "cache_hit": false,
+          "outcome": "memory",
+          "byte": null
+        },
+        {
+          "va": 553,
+          "vpn": 8,
+          "page_offset": 41,
+          "tlb_group": 0,
+          "tlb_tag": 2,
+          "tlb_hit": false,
+          "outcome": "page_fault"
+        }
+      ]
+    },
+    {
+      "id": "textbook_joint_address_first_translation",
+      "actual": [
+        15,
+        3,
+        3,
+        13,
+        852,
+        5,
+        13,
+        0,
+        54
+      ],
+      "expected": [
+        15,
+        3,
+        3,
+        13,
+        852,
+        5,
+        13,
+        0,
+        54
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "textbook_joint_address_second_translation",
+      "actual": [
+        3,
+        3,
+        0,
+        false,
+        2,
+        177,
+        12,
+        2,
+        1,
+        false
+      ],
+      "expected": [
+        3,
+        3,
+        0,
+        false,
+        2,
+        177,
+        12,
+        2,
+        1,
+        false
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "textbook_joint_address_fault_stops_before_cache",
+      "actual": [
+        8,
+        false,
+        false
+      ],
+      "expected": [
+        8,
+        false,
+        false
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "textbook_joint_address_valid_bit_alone_insufficient",
+      "actual": "memory",
+      "expected": "memory",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "textbook_joint_address_TLB_invalid_falls_back_to_page",
+      "actual": [
+        false,
+        852,
+        "cache"
+      ],
+      "expected": [
+        false,
+        852,
+        "cache"
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "revision3_source_structure_checks",
+      "actual": [
+        "PASS",
+        70,
+        true
+      ],
+      "expected": [
+        "PASS",
+        70,
+        true
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "revision3_source_audit_matches_current_manuscripts",
+      "actual": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "expected": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "revision3_source_audit_matches_current_filter",
+      "actual": "26270841a4cb70f6796ce43a8a73b03c546db30e9d5fbfc44718f6ca4a0eeb6a",
+      "expected": "26270841a4cb70f6796ce43a8a73b03c546db30e9d5fbfc44718f6ca4a0eeb6a",
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "revision3_manuscript_call_decode",
+      "actual": [
+        "0040102A",
+        -42,
+        "00401000",
+        "call f1 (00401000)"
+      ],
+      "expected": [
+        "0040102A",
+        -42,
+        "00401000",
+        "call f1 (00401000)"
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "revision3_manuscript_branch_12_target",
+      "actual": 4198453,
+      "expected": 4198453,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "revision3_manuscript_branch_20_target",
+      "actual": 4198458,
+      "expected": 4198458,
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "revision3_manuscript_pipeline_1_trajectory",
+      "actual": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          7,
+          8,
+          9,
+          10
+        ],
+        [
+          7,
+          11,
+          12,
+          13,
+          14
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          7,
+          8,
+          9,
+          10
+        ],
+        [
+          7,
+          11,
+          12,
+          13,
+          14
+        ]
+      ],
+      "pass": true,
+      "detail": null
+    },
+    {
+      "id": "revision3_manuscript_pipeline_2_trajectory",
+      "actual": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          6,
+          7,
+          8,
+          9
+        ],
+        [
+          6,
+          10,
+          11,
+          12,
+          13
+        ],
+        [
+          10,
+          14,
+          15,
+          16,
+          17
+        ]
+      ],
+      "expected": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          3,
+          6,
+          7,
+          8,
+          9
+        ],
+        [
+          6,
+          10,
+          11,
+          12,
+          13
+        ],
+        [
+          10,
+          14,
+          15,
+          16,
+          17
+        ]
+      ],
+      "pass": true,
+      "detail": null
+    }
+  ],
+  "manuscript_sha256": {
+    "manuscript/CO/01_计算机系统与程序执行.md": "5eb9f6d92889bc55e6fc03d620bc1457dfd1ce8c0f02f76719c4a9bafe6b5281",
+    "manuscript/CO/02_数据表示与运算.md": "13152e455d2ddb8096f480fd828c81e3e535b0b91b323d3bbe9faf1a05c5a4ff",
+    "manuscript/CO/03_存储系统与地址.md": "c0dd3094a9dc8d06c749432840928b1350c30e94bc0f1086b1333f8fe7c3c9a4",
+    "manuscript/CO/04_指令系统与程序表示.md": "b633e2750e73504929151bc4c938053fa459f27497c75fd788cfb149f1d4a995",
+    "manuscript/CO/05_CPU与控制.md": "e47fda476e9ffdadec5cbaa66189323deca16a7bdd5f23f5eaaad464faa61e18",
+    "manuscript/CO/06_流水线与并行处理.md": "a95a4ae350d917b4532c779fad7493a37bae0df32e79c8aa8eeaa63b4da524f6",
+    "manuscript/CO/07_总线与传输时间.md": "3cf59d66a1e224cb4a88822009f19fca66d0ea8f1ecbc6d482e70bd061915d42",
+    "manuscript/CO/08_IO与DMA.md": "5979de842f4a6e65ee5920c9f7ebafac8742044ae2aa297ba53af41a3d5ae4d5"
+  },
+  "verification_breakdown": {
+    "calculation_and_state_records": 117,
+    "source_binding_records": 3
+  },
+  "scope": "Actual values/state trajectories checked; this is not an official syllabus or visual PDF certification."
+}

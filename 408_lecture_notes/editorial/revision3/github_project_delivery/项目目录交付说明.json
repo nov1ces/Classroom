@@ -1,0 +1,26 @@
+{
+  "delivery": "完整项目以普通Git目录直接跟踪",
+  "project": "408_lecture_notes/",
+  "retained": [
+    "分章与合并正文",
+    "SVG/PNG/矢量PDF及图数据",
+    "绘图和排版源",
+    "构建脚本及依赖",
+    "四科及历史审阅PDF",
+    "来源证据、覆盖与选题台账、错题去向和独立审校",
+    "Markdown/LaTeX中间源码及构建指纹"
+  ],
+  "excluded_generated_files": [
+    "ZIP归档及分卷",
+    "Python缓存",
+    "build中的重复PDF、TeX运行缓存和临时页面渲染"
+  ],
+  "removed": [
+    "00_408综合资料/408_薄弱点精读与练习册_第二版.pdf",
+    "pdf-build/",
+    "00_408综合资料/四科讲义_第三轮正文审阅/",
+    "根README内的旧练习册下载及介绍"
+  ],
+  "verification": "direct_project_checks.json",
+  "pdf_layout_check_performed": false
+}

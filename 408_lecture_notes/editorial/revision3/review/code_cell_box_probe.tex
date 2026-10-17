@@ -1,0 +1,11 @@
+\documentclass{article}
+\usepackage{array}
+\showboxbreadth=200 \showboxdepth=100
+\begin{document}
+\setbox0=\hbox{\begin{tabular}{p{80pt}}\allowbreak{}\texttt{ADD\ Rs,}\allowbreak{}\texttt{\ Rd}\end{tabular}}
+\typeout{FILTERED-HEIGHT=\the\ht0 DEPTH=\the\dp0}\showbox0
+\setbox1=\hbox{\begin{tabular}{p{80pt}}\texttt{ADD\ Rs,\ Rd}\end{tabular}}
+\typeout{PLAIN-HEIGHT=\the\ht1 DEPTH=\the\dp1}\showbox1
+\setbox2=\hbox{\begin{tabular}{p{80pt}}\leavevmode\allowbreak{}\texttt{ADD\ Rs,}\allowbreak{}\texttt{\ Rd}\end{tabular}}
+\typeout{LEAVEVMODE-HEIGHT=\the\ht2 DEPTH=\the\dp2}\showbox2
+\end{document}

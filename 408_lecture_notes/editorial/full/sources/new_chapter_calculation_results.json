@@ -1,0 +1,250 @@
+{
+  "scope": "本轮稿件计算实际复算；不作为协议全部实现的模型证明",
+  "checks": [
+    {
+      "question": "CO6-1",
+      "actual": 90,
+      "expected": 90,
+      "status": "PASS"
+    },
+    {
+      "question": "CO6-3",
+      "actual": {
+        "I2_add_forwarding_wait": 0,
+        "I3_load_use_wait": 1,
+        "I4_control_wait": true
+      },
+      "expected": {
+        "I2_add_forwarding_wait": 0,
+        "I3_load_use_wait": 1,
+        "I4_control_wait": true
+      },
+      "status": "PASS"
+    },
+    {
+      "question": "CO7-1",
+      "actual": 20.0,
+      "expected": 20.0,
+      "status": "PASS"
+    },
+    {
+      "question": "CO7-2",
+      "actual": 10.664,
+      "expected": 10.664,
+      "status": "PASS"
+    },
+    {
+      "question": "CO7-3",
+      "actual": 32,
+      "expected": 32,
+      "status": "PASS"
+    },
+    {
+      "question": "CO7-4",
+      "actual": {
+        "peak_GBs": 6.72,
+        "transaction_GBs": 3.84
+      },
+      "expected": {
+        "peak_GBs": 6.72,
+        "transaction_GBs": 3.84
+      },
+      "status": "PASS"
+    },
+    {
+      "question": "CN4-1",
+      "actual": [
+        9,
+        20,
+        28,
+        20
+      ],
+      "expected": [
+        9,
+        20,
+        28,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "question": "CN4-2",
+      "actual": {
+        "data_lengths": [
+          776,
+          776,
+          8
+        ],
+        "total_lengths": [
+          796,
+          796,
+          28
+        ],
+        "offsets": [
+          0,
+          97,
+          194
+        ],
+        "MF": [
+          1,
+          1,
+          0
+        ]
+      },
+      "expected": {
+        "data_lengths": [
+          776,
+          776,
+          8
+        ],
+        "total_lengths": [
+          796,
+          796,
+          28
+        ],
+        "offsets": [
+          0,
+          97,
+          194
+        ],
+        "MF": [
+          1,
+          1,
+          0
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "question": "CN4-3",
+      "actual": [
+        "168.16.80.1",
+        "168.16.95.254"
+      ],
+      "expected": [
+        "168.16.80.1",
+        "168.16.95.254"
+      ],
+      "status": "PASS"
+    },
+    {
+      "question": "CN4-4",
+      "actual": {
+        "leaf_count": 5,
+        "smallest_available": 254,
+        "total_addresses": 4096
+      },
+      "expected": {
+        "leaf_count": 5,
+        "smallest_available": 254,
+        "total_addresses": 4096
+      },
+      "status": "PASS"
+    },
+    {
+      "question": "CN4-5",
+      "actual": [
+        "35.230.32.0/19"
+      ],
+      "expected": [
+        "35.230.32.0/19"
+      ],
+      "status": "PASS"
+    },
+    {
+      "question": "CN5-2",
+      "actual": "E083",
+      "expected": "E083",
+      "status": "PASS"
+    },
+    {
+      "question": "CN5-3",
+      "actual": 1000,
+      "expected": 1000,
+      "status": "PASS"
+    },
+    {
+      "question": "CN5-4",
+      "actual": {
+        "server_receives_FIN": 25.0,
+        "client_receives_FIN_and_starts_TIME_WAIT": 50,
+        "server_CLOSED": 75.0,
+        "client_CLOSED": 1650
+      },
+      "expected": {
+        "server_receives_FIN": 25.0,
+        "client_receives_FIN_and_starts_TIME_WAIT": 50,
+        "server_CLOSED": 75.0,
+        "client_CLOSED": 1650
+      },
+      "status": "PASS"
+    },
+    {
+      "question": "CN5-5",
+      "actual": 48,
+      "expected": 48,
+      "status": "PASS"
+    },
+    {
+      "question": "CN5-7",
+      "actual": {
+        "cwnd_trace_KB": [
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "window_KB": 10
+      },
+      "expected": {
+        "cwnd_trace_KB": [
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "window_KB": 10
+      },
+      "status": "PASS"
+    },
+    {
+      "question": "CN6-4",
+      "actual": 16,
+      "expected": 16,
+      "status": "PASS"
+    },
+    {
+      "question": "CN6-7",
+      "actual": {
+        "completion_ms": 40,
+        "MSS_per_response": [
+          1,
+          2,
+          1
+        ]
+      },
+      "expected": {
+        "completion_ms": 40,
+        "MSS_per_response": [
+          1,
+          2,
+          1
+        ]
+      },
+      "status": "PASS"
+    }
+  ],
+  "result": "PASS"
+}

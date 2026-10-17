@@ -1,0 +1,32 @@
+稿件题干：
+某指令功能为 $\mathrm R[r2]\leftarrow\mathrm R[r1]+\mathrm M[\mathrm R[r0]]$，其两个源操作数分别采用寄存器、寄存器间接寻址方式。对于下列给定部件，该指令在取数及执行过程中需要用到的是（　）。
+
+I. 通用寄存器组（GPRs）　II. 算术逻辑单元（ALU）  
+III. 存储器（Memory）　IV. 指令译码器（ID）
+
+A. 仅 I、II　 B. 仅 I、II、III　 C. 仅 II、III、IV　 D. 仅 I、III、IV
+
+复原卷：
+17.某指令功能为R[r2]←R[r1] + M[R[r0]]，其两个源操作数分别采用寄存器、寄存器间接寻址方
+式。对于下列给定部件，该指令在取数及执行过程中需要用到的是        。 
+I. 通用寄存器组（GPRs） 
+II. 算术逻辑单元（ALU） 
+III. 存储器（Memory）  
+IV. 指令译码器（ID） 
+A. 仅I、II 
+B. 仅I、II、III 
+C. 仅II、III、IV 
+D. 仅I、III、IV
+
+王道题干：
+25.【2019 统考真题】某指令功能为R[r2] ←M[r1] ＋MR[r0]],其两个源操作数分别采用寄存器、
+寄存器间接寻址方式。对于下列给定部件,该指令在取数及执行过程中需要用到的是(
+)
+I.通用寄存器组(GPRs)
+II.算术逻辑单元(ALU)
+III.存储器(Memory)
+IV.指令译码器(ID)
+A. 仅I、II
+B. 仅I、II、III
+C. 仅II、III、IV
+D. 仅I、III、IV

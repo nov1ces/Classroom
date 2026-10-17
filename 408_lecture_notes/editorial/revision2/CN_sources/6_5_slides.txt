@@ -1,0 +1,336 @@
+[[PDF_PAGE:1]]
+本节内容
+万维网WWW
+王道考研/CSKAOYAN.COM
+
+[[PDF_PAGE:2]]
+王道考研/CSKAOYAN.COM
+体会：一个网页的构成
+解压
+双击
+打开
+
+[[PDF_PAGE:3]]
+王道考研/CSKAOYAN.COM
+体会：一个网页的构成
+html 文件中会说明要引用哪
+些元素（指明存储路径）
+网页= 1个html文件 + n个网页元素（如图片、视频等文件）
+浏览器
+渲染
+
+[[PDF_PAGE:4]]
+王道考研/CSKAOYAN.COM
+观察：html文件的内容（用记事本打开）
+浏览器
+渲染
+注：一个网页中的文本信息、
+交互控件（如输入框、按钮）
+都是在html中说明的
+html中可以
+引用图片、
+视频等元素
+
+[[PDF_PAGE:5]]
+学校局域⽹
+某学校
+B2
+B0
+H3
+H4
+H3、H4 需要配置：
+默认⽹关 = 166.1.128.1
+DNS服务器 = 166.1.128.98
+166.1.128.2/17
+166.1.177.3/17
+166.1.128.1/17
+Web服务器进程
+TCP端⼝号：80
+200.1.1.4
+Web服务器
+Internet
+DNS服务器进程
+UDP端⼝号：53
+本地域名服务器
+166.1.128.98/17
+www.dilidili.com
+硬盘
+（⽂件系统）
+DNS缓存：
+www.dilidili.com → 200.1.1.4
+浏览器
+进程
+根域名服务器
+1.1.1.1
+浏览器访问⼀个⽹⻚的过程（⾮常重要）：
+1. ⽤户输⼊⽹址（域名）
+2. 浏览器通过DNS服务器查询域名对应的IP地址（浏览器会将查询结果“域名→IP”缓存在本地）
+3. 浏览器与<Web服务器IP地址:80端⼝>建⽴TCP连接
+4. 浏览器在握⼿③中携带HTTP请求报⽂（指明要访问哪个html⽹⻚）
+5. 服务器返回HTTP响应报⽂（携带html⽂件）
+6. 如果html引⽤了其他n个元素，还需要n组HTTP请求&响应（持续、⾮持续⼯作⽅式有所区别）
+HTTP请求
+报⽂
+TCP
+⾸部
+TCP报⽂段
+HTTP响应报⽂
+TCP
+⾸部
+TCP报⽂段
+⼀个⽂件，可能
+⽐较⼤(如图⽚、视频)
+要说清楚，想要请求服
+务器做出什么响应？
+
+[[PDF_PAGE:6]]
+释放连接
+（四次挥⼿，过程略）21 
+浏览器进程
+（客户端）
+Web服务器
+进程
+握⼿①
+握⼿②
+握⼿③
+注意：握⼿③就可以携带HTTP请求报⽂
+其中需指明想要GET《www.dilidili.com/默认⾸⻚.html》
+HTTP请求
+报⽂
+TCP
+⾸部
+TCP报⽂段
+HTTP响应报⽂
+TCP
+⾸部
+TCP报⽂段
+⼀个⽂件，可能
+⽐较⼤(如图⽚、视频)
+HTTP响应
+HTTP响应报⽂，携带⽂件《默认⾸⻚.html》
+要说清楚，想要请求服
+务器做出什么响应？
+释放连接
+（四次挥⼿，过程略）
+握⼿①
+握⼿②
+握⼿③
+注意：握⼿③就可以携带HTTP请求报⽂
+其中需指明想要GET《www.dilidili.com/肯德基.png》
+HTTP响应
+HTTP响应报⽂，携带⽂件《肯德基.png》
+释放连接
+（四次挥⼿，过程略）
+握⼿①
+握⼿②
+握⼿③
+注意：握⼿③就可以携带HTTP请求报⽂
+其中需指明想要GET《www.dilidili.com/⼀个⼩视频.mp4》
+HTTP响应
+HTTP响应报⽂，携带⽂件《⼀个⼩视频.mp4》
+释放连接
+（四次挥⼿，过程略）
+握⼿①
+握⼿②
+握⼿③
+注意：握⼿③就可以携带HTTP请求报⽂
+其中需指明想要GET《www.dilidili.com/mc/⻨当劳.png》
+HTTP响应
+HTTP响应报⽂，携带⽂件《⻨当劳.png》
+浏览器解析 html⽂件，发
+现还要引⽤三个元素：
+/肯德基.png
+/⼀个⼩视频.mp4
+/mc/⻨当劳.png
+HTTP请求报⽂通常很
+⼩，因此通常不考虑TCP
+报⽂段传输时延
+HTTP响应报⽂通常⽐较
+⼤，因此通常要考虑TCP
+报⽂段传输时延
+浏览器进程
+（客户端）
+Web服务器
+进程
+握⼿①
+握⼿②
+握⼿③
+注意：握⼿③就可以携带HTTP请求报⽂
+其中需指明想要GET《www.dilidili.com/默认⾸⻚.html》
+HTTP响应
+HTTP响应报⽂，携带⽂件《默认⾸⻚.html》
+HTTP 请求
+注意：握⼿③就可以携带HTTP请求报⽂
+其中需指明想要GET《www.dilidili.com/肯德基.png》
+HTTP响应
+HTTP响应报⽂，携带⽂件《肯德基.png》
+HTTP请求
+注意：握⼿③就可以携带HTTP请求报⽂
+其中需指明想要GET《www.dilidili.com/⼀个⼩视频.mp4》
+HTTP响应
+HTTP响应报⽂，携带⽂件《⼀个⼩视频.mp4》
+HTTP请求
+注意：握⼿③就可以携带HTTP请求报⽂
+其中需指明想要GET《www.dilidili.com/mc/⻨当劳.png》
+HTTP响应
+HTTP响应报⽂，携带⽂件《⻨当劳.png》
+浏览器解析 html⽂件，发
+现还要引⽤三个元素：
+/肯德基.png
+/⼀个⼩视频.mp4
+/mc/⻨当劳.png
+释放连接
+（四次挥⼿，过程略）
+⾮持续连接
+持续连接、⾮流⽔线
+TCP连接也可以多保持⼀段
+时间（由Web服务器设置持
+续时间参数）
+浏览器进程
+（客户端）
+Web服务器
+进程
+握⼿①
+握⼿②
+握⼿③
+注意：握⼿③就可以携带HTTP请求报⽂
+其中需指明想要GET《www.dilidili.com/默认⾸⻚.html》
+HTTP响应
+连发3个HTTP 请求
+HTTP响应
+浏览器解析 html⽂件，发
+现还要引⽤三个元素：
+/肯德基.png
+/⼀个⼩视频.mp4
+/mc/⻨当劳.png
+释放连接
+（四次挥⼿，过程略）
+持续连接、流⽔线
+TCP连接也可以多保持⼀段
+时间（由Web服务器设置持
+续时间参数）
+HTTP响应
+HTTP响应
+HTTP响应报⽂，携带⽂件《默认⾸⻚.html》
+HTTP响应报⽂，携带⽂件《肯德基.png》
+HTTP响应报⽂，携带⽂件《⼀个⼩视频.mp4》
+HTTP响应报⽂，携带⽂件《⻨当劳.png》
+1. GET《www.dilidili.com/肯德基.png》
+2. GET《www.dilidili.com/⼀个⼩视频.mp4》
+3. GET《www.dilidili.com/mc/⻨当劳.png》
+实际上可以在还没释放完
+连接时就迅速建⽴下⼀次
+连接，在这种情况下，⾮
+持续⽅式每请求⼀个⽂件
+⾄少需要2倍RTT
+可以通过“并⾏TCP连接”加
+快获取后3个⽹⻚元素的速度
+
+[[PDF_PAGE:7]]
+王道考研/CSKAOYAN.COM
+•World Wide Web，是一
+个全球范围的、分布式、
+联机式的信息存储空间，
+各种“资源”通过HTTP
+协议传送给用户
+•【例1】https://www.bilibili.com
+•【例2】http://www.dilidili.com/肯德基.png
+•
+HTTP/1.0 默认采用非持续连接
+•
+HTTP/1.1 默认采用持续连接
+（除非在HTTP请求报文中设置
+参数 Connection: Close ）
+
+[[PDF_PAGE:8]]
+本节内容
+超文本传输协议
+（HTTP）
+王道考研/CSKAOYAN.COM
+
+[[PDF_PAGE:9]]
+王道考研/CSKAOYAN.COM
+HTTP报文格式
+如：HTTP/1.0
+HTTP/1.1
+希望服务器做什么？
+如：GET、POST
+对哪个资
+源动手？
+如：200 表示请求成功
+404 表示URL资源不存在
+状态码 (随意了解)
+1xx:信息
+2xx:成功
+3xx:重定向
+4xx:客户端错误
+5xx:服务器错误
+如：HTTP/1.0
+HTTP/1.1
+如：404 
+Not Found
+如：一
+个图片
+文件
+换个名词来理解：
+方法(Method) ≈ 函数(Function)
+字段(field) ≈ 参数(parameter)
+
+[[PDF_PAGE:10]]
+王道考研/CSKAOYAN.COM
+HTTP报文格式实例
+HTTP请求报文
+HTTP响应报文首部
+浏览器显示效果
+字段值，表示采用“持续连接”
+字段名
+字段值，主机域名
+方法
+URL
+协议
+
+[[PDF_PAGE:11]]
+王道考研/CSKAOYAN.COM
+Cookie的作用
+Web服务器
+www.taobao.com
+浏览器
+进程
+①HTTP请求(POST)：登录个人账号
+Cookie：123456
+⽤户名：咸⻥⽼登
+Cookie：123456
+②生成Cookie识别码，并存
+储在服务器。相当于一个临
+时身份证（有效期内可用）
+③HTTP响应（携带Cookie字段）
+⑤后续HTTP请求（携带Cookie字段）
+④浏览器将Cookie缓存
+在本地（有效期内可用）
+通过Cookie
+识别客户端
+
+[[PDF_PAGE:12]]
+王道考研/CSKAOYAN.COM
+2015年真题_40
+注意：
+•
+HTTP/1.0 默认采用非持续连接
+•
+HTTP/1.1 默认采用持续连接
+Connection: close          非持续连接
+Connection: keep-alive      持续连接
+
+[[PDF_PAGE:13]]
+王道考研/CSKAOYAN.COM
+最后一页总结
+状态码 (随意了解)
+1xx:信息
+2xx:成功
+3xx:重定向
+4xx:客户端错误
+5xx:服务器错误
+
+[[PDF_PAGE:14]]
+王道考研/CSKAOYAN.COM
+最后一页

@@ -1,0 +1,2921 @@
+[
+  {
+    "path": "manuscript/DS/01_数据结构算法与复杂度.md",
+    "sha256": "e370e5216996a4b27fbbc359c0f27dafe733b1fe8f12cf379c5bc41f73aac438",
+    "characters": 4563,
+    "read_lines": [
+      1,
+      118
+    ],
+    "read_at": "2026-10-16T02:49:29.007162+00:00",
+    "scope": "逐行审读正文；DS01和CO01真题对照本地整卷文本；OS03复核用户反馈修订及同步条件",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/01_计算机系统与程序执行.md",
+    "sha256": "68645a9afc07da8e6e990dbfa09297f19a793cc6d236c53969b680c84c51df1d",
+    "characters": 4230,
+    "read_lines": [
+      1,
+      121
+    ],
+    "read_at": "2026-10-16T02:49:29.007247+00:00",
+    "scope": "逐行审读正文；DS01和CO01真题对照本地整卷文本；OS03复核用户反馈修订及同步条件",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/03_同步互斥与信号量.md",
+    "sha256": "4deb870d1cf1568b19838da41ac25cf3ab8d9b4a040ed0963ccc35b8db4454bb",
+    "characters": 19058,
+    "read_lines": [
+      1,
+      610
+    ],
+    "read_at": "2026-10-16T02:49:29.007514+00:00",
+    "scope": "逐行审读正文；DS01和CO01真题对照本地整卷文本；OS03复核用户反馈修订及同步条件",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/02_数据表示与运算.md",
+    "sha256": "581b9b6d12ef1f9aa4a7b24f8085afdd182172a35c98a3ef0cd1d1318da0d191",
+    "characters": 9718,
+    "read_lines": [
+      1,
+      260
+    ],
+    "read_at": "2026-10-16T02:53:10.473696+00:00",
+    "scope": "逐行审读正文与题解；相关真题对照本地整卷文本；图待审",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/01_网络层次服务与性能.md",
+    "sha256": "46dbf633d6703f6c76e6a6a2a63041666d3801fbaf5ce64e339981915a112234",
+    "characters": 5089,
+    "read_lines": [
+      1,
+      117
+    ],
+    "read_at": "2026-10-16T02:53:10.473788+00:00",
+    "scope": "逐行审读正文与题解；相关真题对照本地整卷文本；图待审",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/02_物理层信号速率与交换.md",
+    "sha256": "3883349dd50d30d8cda1f1f406dfdd344381d0ecc77efe82a673a9088c5de881",
+    "characters": 6440,
+    "read_lines": [
+      1,
+      155
+    ],
+    "read_at": "2026-10-16T02:53:10.473869+00:00",
+    "scope": "逐行审读正文与题解；相关真题对照本地整卷文本；图待审",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/02_线性表下标结点与指针.md",
+    "sha256": "8a10ee9cd6b564b2eafea281ff75706f5e9a5b162a39ee432c47f9cd6f8d46c9",
+    "characters": 7943,
+    "read_lines": [
+      1,
+      211
+    ],
+    "read_at": "2026-10-16T02:53:10.473965+00:00",
+    "scope": "逐行审读正文与题解；相关真题对照本地整卷文本；图待审",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/01_操作系统与程序运行环境.md",
+    "sha256": "4e0d7b680743f66f1d1a59f55a99f278735141b7a3c65d74060f8cc4ba5a5c96",
+    "characters": 7487,
+    "read_lines": [
+      1,
+      195
+    ],
+    "read_at": "2026-10-16T02:53:10.474071+00:00",
+    "scope": "逐行审读正文与题解；相关真题对照本地整卷文本；图待审",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/03_存储系统与地址.md",
+    "sha256": "e4f2cae1cee94b58a22e059d7b1021d4fe764a6351b44f50193f152bdeb9939f",
+    "characters": 9946,
+    "read_lines": [
+      1,
+      259
+    ],
+    "read_at": "2026-10-16T02:56:00.760056+00:00",
+    "scope": "逐行审读正文/题解，相关真题对照本地整卷文字，图待审",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+    "sha256": "e08a1a3bd0b0db5c18282a0054cfa0f03030cc93080a30ff4edf026f1370b594",
+    "characters": 9030,
+    "read_lines": [
+      1,
+      238
+    ],
+    "read_at": "2026-10-16T02:56:00.760192+00:00",
+    "scope": "逐行审读正文/题解，相关真题对照本地整卷文字，图待审",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/03_栈队列与数组.md",
+    "sha256": "6a859753ff748d9f60aed47fb953077e96bc5f122fe44d9767789a8d114f8101",
+    "characters": 6767,
+    "read_lines": [
+      1,
+      175
+    ],
+    "read_at": "2026-10-16T02:56:00.760279+00:00",
+    "scope": "逐行审读正文/题解，相关真题对照本地整卷文字，图待审",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/04_串与模式匹配.md",
+    "sha256": "b0b67411f07203587f8c89fb03fd066c1d39de2677fcfb1eac7824174f43fc0b",
+    "characters": 4547,
+    "read_lines": [
+      1,
+      135
+    ],
+    "read_at": "2026-10-16T02:56:00.760339+00:00",
+    "scope": "逐行审读正文/题解，相关真题对照本地整卷文字，图待审",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/03_链路层可靠传输与介质访问.md",
+    "sha256": "32be137e6782189eb8bc68fe2e73bc020cc6ce7038d6d0a9e409cf86fd89befc",
+    "characters": 13942,
+    "read_lines": [
+      1,
+      319
+    ],
+    "read_at": "2026-10-16T02:57:40.278893+00:00",
+    "scope": "逐行审读正文、题解；相关真题对照本地整卷文字；图待审",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/04_死锁与资源分配.md",
+    "sha256": "5d4835ee196678fbfd8b2939f313cbaf9b5bfbb6e3d3a2b54c7ba56691875f65",
+    "characters": 6401,
+    "read_lines": [
+      1,
+      185
+    ],
+    "read_at": "2026-10-16T02:57:40.278994+00:00",
+    "scope": "逐行审读正文、题解；相关真题对照本地整卷文字；图待审",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/04_指令系统与程序表示.md",
+    "sha256": "2427e923e8368e4e0d777a668c4e1bc7fae90d1ec939b5bb94e9b6f09f31dfa4",
+    "characters": 6445,
+    "read_lines": [
+      1,
+      186
+    ],
+    "read_at": "2026-10-16T02:57:40.279078+00:00",
+    "scope": "逐行审读正文、题解；相关真题对照本地整卷文字；图待审",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/05_树二叉树与应用.md",
+    "sha256": "e4f720eafc378eaabbe5bff36840a4e44c6d6010c033176a55400e53c669fb3b",
+    "characters": 9185,
+    "read_lines": [
+      1,
+      224
+    ],
+    "read_at": "2026-10-16T03:02:33.640191+00:00",
+    "scope": "逐行审读正文与例题；图未作最终视觉审校",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/05_CPU与控制.md",
+    "sha256": "d73a59be8fff5dbe3026b8a7a622ee85584fdacac33096c730a6747e4c15eaf2",
+    "characters": 5317,
+    "read_lines": [
+      1,
+      146
+    ],
+    "read_at": "2026-10-16T03:02:33.640993+00:00",
+    "scope": "逐行审读正文与例题；图未作最终视觉审校",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/06_流水线与并行处理.md",
+    "sha256": "b2abf3a939a8435e316f32da1a8f3ccd18e1f0d89da77f39b64bc7a56f7fe92b",
+    "characters": 5536,
+    "read_lines": [
+      1,
+      149
+    ],
+    "read_at": "2026-10-16T03:02:33.641109+00:00",
+    "scope": "逐行审读正文与例题；图未作最终视觉审校",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+    "sha256": "640ce151d1e56de6fb0aa374f3a8ba367cbad9a215b832a56d1ff064b58b20fc",
+    "characters": 10712,
+    "read_lines": [
+      1,
+      298
+    ],
+    "read_at": "2026-10-16T03:02:33.641278+00:00",
+    "scope": "逐行审读正文与例题；图未作最终视觉审校",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/04_网络层地址路由与转发.md",
+    "sha256": "ab0387e994b188213373d5612216ad7e687f3bc5d04a910f09a967011cc86ee1",
+    "characters": 13354,
+    "read_lines": [
+      1,
+      309
+    ],
+    "read_at": "2026-10-16T03:02:33.641482+00:00",
+    "scope": "逐行审读正文与例题；图未作最终视觉审校",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/06_图与图算法.md",
+    "sha256": "5106e6ecc717be3d1807f68b49f6609633845b327c52f2ac29a5c1554b45ded3",
+    "characters": 9281,
+    "read_lines": [
+      1,
+      245
+    ],
+    "read_at": "2026-10-16T05:19:39.795267+00:00",
+    "scope": "逐行审读正文与题解，OS6/7输出截断处另补读；未作最终图稿/PDF视觉审校",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/07_总线与传输时间.md",
+    "sha256": "09f2484a2852218b4077d6c5d576dd09efe27c97b0843cea31eaa34c52116c57",
+    "characters": 3725,
+    "read_lines": [
+      1,
+      94
+    ],
+    "read_at": "2026-10-16T05:19:39.795344+00:00",
+    "scope": "逐行审读正文与题解，OS6/7输出截断处另补读；未作最终图稿/PDF视觉审校",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/05_传输层可靠连接与窗口.md",
+    "sha256": "a88e065b18ecf6cb38e755b235f104e5f27b98fc0014d0229eb57625266d56ca",
+    "characters": 7940,
+    "read_lines": [
+      1,
+      180
+    ],
+    "read_at": "2026-10-16T05:19:39.795471+00:00",
+    "scope": "逐行审读正文与题解，OS6/7输出截断处另补读；未作最终图稿/PDF视觉审校",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/06_文件目录与文件系统.md",
+    "sha256": "6be1414121f33d407d84e66b4606c366c7975e28909eae9d4fc37b58de4ebe10",
+    "characters": 8202,
+    "read_lines": [
+      1,
+      204
+    ],
+    "read_at": "2026-10-16T05:19:39.795639+00:00",
+    "scope": "逐行审读正文与题解，OS6/7输出截断处另补读；未作最终图稿/PDF视觉审校",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/07_IO设备与外存调度.md",
+    "sha256": "f7bd0a8edbfbcbb80ef3e26c47a1d2a36d0087985dfde5ba74f57b6f3dfbc5f9",
+    "characters": 7946,
+    "read_lines": [
+      1,
+      201
+    ],
+    "read_at": "2026-10-16T05:19:39.795760+00:00",
+    "scope": "逐行审读正文与题解，OS6/7输出截断处另补读；未作最终图稿/PDF视觉审校",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/08_IO与DMA.md",
+    "sha256": "1eb5c06f49a40ea5034d21a77cd39e4f4787472661041210c218b6b71017d5ff",
+    "characters": 5624,
+    "read_lines": [
+      1,
+      155
+    ],
+    "read_at": "2026-10-16T05:24:11.373905+00:00",
+    "scope": "逐行审读正文与题解；图未作最终视觉审校",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/06_应用层名称邮件与Web.md",
+    "sha256": "f91c7fcd17227ec96d56afedcf4fe6921ab624fc349ef6c53402f79d85145aae",
+    "characters": 7216,
+    "read_lines": [
+      1,
+      163
+    ],
+    "read_at": "2026-10-16T05:24:11.374014+00:00",
+    "scope": "逐行审读正文与题解；图未作最终视觉审校",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/07_查找与索引结构.md",
+    "sha256": "178c1805d0c0d7b42b0a534b9221a353bc4c31661f02f631fa9b85b81f0a9931",
+    "characters": 10017,
+    "read_lines": [
+      1,
+      250
+    ],
+    "read_at": "2026-10-16T05:24:11.374154+00:00",
+    "scope": "逐行审读正文与题解；图未作最终视觉审校",
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/08_排序与外部归并.md",
+    "sha256": "8abeafa95cffe5a2001f010bbff54999aa9754a4a1bbf66dbfa94cef8d78cf4f",
+    "characters": 10055,
+    "read_lines": [
+      1,
+      279
+    ],
+    "read_at": "2026-10-16T05:29:00.885776+00:00",
+    "scope": "逐行全章审读原稿，修复段另见问题闭环",
+    "full_read": true,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/05_树二叉树与应用.md",
+    "sha256": "7031ac57e54baa143f95d2ed00874528b70a5ab0f55f4f743cac55d936dd52b1",
+    "characters": 10338,
+    "read_lines": [
+      75,
+      152
+    ],
+    "read_at": "2026-10-16T05:29:00.885899+00:00",
+    "scope": "原稿全读后新增非递归遍历及线索构造段复核",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+    "sha256": "a129db636015c092ede176f86a3fa8263198726b3b7cf14b3fbfc6532cd9c146",
+    "characters": 9758,
+    "read_lines": [
+      191,
+      224
+    ],
+    "read_at": "2026-10-16T05:29:00.885986+00:00",
+    "scope": "原稿全读后新增SRTF/RR完整例2-6独立手推复核",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/02_数据表示与运算.md",
+    "sha256": "b1ec19572cc7e099b0bb015647640ee1b847c73877f8c5ecc1876a8997c5bfa6",
+    "characters": 10627,
+    "read_lines": [
+      164,
+      201
+    ],
+    "read_at": "2026-10-16T05:29:00.886073+00:00",
+    "scope": "新增Booth及不恢复除法逐位/逐轮复核",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/04_指令系统与程序表示.md",
+    "sha256": "e8128c98c9ae719444e4b0b013db7f10028aec2d1165ae7915021366b1859ea8",
+    "characters": 6449,
+    "read_lines": [
+      [
+        25,
+        41
+      ],
+      [
+        130,
+        148
+      ]
+    ],
+    "read_at": "2026-10-16T05:29:00.886131+00:00",
+    "scope": "寄存器内容记号和差值可表示前提修订复核",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/06_图与图算法.md",
+    "sha256": "40e7b3733c1e08793e9f30a54754131a9d74bd88e03e4b20e54c32672266be41",
+    "characters": 9361,
+    "read_lines": [
+      [
+        171,
+        177
+      ],
+      [
+        196,
+        203
+      ]
+    ],
+    "read_at": "2026-10-16T05:29:00.886202+00:00",
+    "scope": "唯一拓扑证明与按值形参空间修订复核",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/07_查找与索引结构.md",
+    "sha256": "70ae94e9bb98496d91c55febc42b8e712fdc5137e1806713cf0391922095d8a0",
+    "characters": 10015,
+    "read_lines": [
+      112,
+      147
+    ],
+    "read_at": "2026-10-16T05:29:00.886278+00:00",
+    "scope": "黑高口径/B树界限/红黑删除四类和最小前后例增补复核",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/08_排序与外部归并.md",
+    "sha256": "8abeafa95cffe5a2001f010bbff54999aa9754a4a1bbf66dbfa94cef8d78cf4f",
+    "characters": 10055,
+    "read_lines": [
+      [
+        40,
+        44
+      ],
+      [
+        119,
+        127
+      ]
+    ],
+    "read_at": "2026-10-16T05:29:00.886346+00:00",
+    "scope": "稳定性公式/堆排序最好复杂度条件修复复核",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "全部题源图片核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/03_存储系统与地址.md",
+    "sha256": "3e9accfa34b9738d21e18fd995af259f85f317aeed097749a9317f1228460493",
+    "characters": 12228,
+    "read_lines": [
+      253,
+      313
+    ],
+    "read_at": "2026-10-16T10:20:33.493794+00:00",
+    "scope": "新增2023综合例3-11全文/全部4问及原创2路变式审读，另独立模拟不连续物理页框访问",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "原卷官方发布身份",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/07_总线与传输时间.md",
+    "sha256": "d11697cec6af78b2d86d207d07bcf1e5d4f2222fcb6dfd176fe0a13ac4ead87f",
+    "characters": 3788,
+    "read_lines": [
+      75,
+      83
+    ],
+    "read_at": "2026-10-16T10:20:33.493794+00:00",
+    "scope": "非/半/全互锁具体建立撤销等待条件最终修订复核",
+    "full_read": false
+  },
+  {
+    "path": "manuscript/OS/01_操作系统与程序运行环境.md",
+    "sha256": "00d66bbc91db68a413688236b2613dfe49adaab2e8aade35a6f3850492198770",
+    "characters": 7336,
+    "read_lines": [
+      49,
+      60
+    ],
+    "read_at": "2026-10-16T10:33:04.303270+00:00",
+    "scope": "最终第55行仅删“显然”的文风差异实读；条件、术语与推理未变；OS最终76页视觉另有绑定PDF的记录",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "所有题源均由本审校独立逐图核验"
+    ]
+  },
+  {
+    "path": "manuscript/CO/05_CPU与控制.md",
+    "sha256": "a677b5f5022d25e993c97f6376fa2870b98f01a680da91875e01c6a02927de36",
+    "characters": 6348,
+    "read_lines": [
+      43,
+      91
+    ],
+    "read_at": "2026-10-16T10:33:04.303270+00:00",
+    "scope": "以完整2022年第43题替换原原创5-2，逐问读题干/解析并对真实原图、主书题/答和复原整卷图；OF两式及7周期复核",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "所有题源均由本审校独立逐图核验"
+    ],
+    "actually_viewed_sources": [
+      {
+        "path": "editorial/full/CO/big2022book-p232.png",
+        "sha256": "e8d63cfffbca6af264acb9edd21c303662d9c5e372e1da50230c2f67d16135a4"
+      },
+      {
+        "path": "editorial/full/CO/big2022book-p233.png",
+        "sha256": "b56214419c1ecdf279705ca7fcb8d68794a96faa58d26691ad79deeafac69d83"
+      },
+      {
+        "path": "editorial/full/CO/big2022book-p239.png",
+        "sha256": "670b82360fa260ddf49326aa0966893fe612c6548c9ac57b5ff10e280c84feb3"
+      },
+      {
+        "path": "editorial/full/CO/big2022book-p240.png",
+        "sha256": "622349529d0feba1d26f6fa834d65da4e8d2de52e179a5940b641a42e03026c4"
+      },
+      {
+        "path": "editorial/full/CO/big2022exam-p7.png",
+        "sha256": "1acdad5b6e1882b281feb72810d8023be3e43460e5d465938e9831f702551309"
+      },
+      {
+        "path": "figures/CO_F07_datapath.png",
+        "sha256": "029a2279bbf2d1a32390f1b8f0a6c909eab4c6999121ede7a6ff2d86d857dd4a"
+      }
+    ]
+  },
+  {
+    "path": "manuscript/DS/01_数据结构算法与复杂度.md",
+    "sha256": "bdaba1d3840c0393b189dae9f6f27457cee24ce130f8489526d285bb9a759f26",
+    "characters": 4658,
+    "read_lines": [
+      105,
+      118
+    ],
+    "read_at": "2026-10-16T10:33:04.303270+00:00",
+    "scope": "自测1恢复2019真题身份，完整题干四选项及平方根停止条件实读；来源与2019复原卷图一致",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "所有题源均由本审校独立逐图核验"
+    ],
+    "actually_viewed_sources": [
+      {
+        "path": "editorial/full/DS/sources/exam_2019_p1.png",
+        "sha256": "1d2a9729883b752c68d185aec2d8cf205323ab9f624aed6cbe53bc112aa01e26"
+      }
+    ]
+  },
+  {
+    "path": "manuscript/DS/03_栈队列与数组.md",
+    "sha256": "4159e012a65043c36636c51eeb980465bf71b1f1a567da0ccfa590e1bbb5eab3",
+    "characters": 7063,
+    "read_lines": [
+      [
+        1,
+        1
+      ],
+      [
+        167,
+        175
+      ]
+    ],
+    "read_at": "2026-10-16T10:33:04.303270+00:00",
+    "scope": "共享栈自测2恢复王道3.1-025题源并独立核对初值、四选项、A答案；本章标题缩短不增新机制",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "所有题源均由本审校独立逐图核验"
+    ],
+    "actually_viewed_sources": [
+      {
+        "path": "editorial/full/DS/sources/book_p084.png",
+        "sha256": "7c1ae098d12b763f781b5573f503c9baf8941c750d1293fc709eac95059f9cdb"
+      }
+    ]
+  },
+  {
+    "path": "manuscript/DS/08_排序与外部归并.md",
+    "sha256": "68d6ef1f4e569156bb5cf31eaae822a76ea389d076b0c0148f6d73d5be4a0a57",
+    "characters": 10229,
+    "read_lines": [
+      270,
+      279
+    ],
+    "read_at": "2026-10-16T10:33:04.303270+00:00",
+    "scope": "自测2恢复2022年第42题，两问均保留，原题身份句准确；迭代选择/10元堆解析与平均时间、辅助空间边界复核",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "所有题源均由本审校独立逐图核验"
+    ],
+    "actually_viewed_sources": [
+      {
+        "path": "editorial/full/DS/sources/exam_2022_Q42.png",
+        "sha256": "a649caee3272baff5a0baa0cba57a0647b9c1209626a1bef5bb48f6c47716de1"
+      }
+    ]
+  },
+  {
+    "path": "manuscript/DS/04_串与模式匹配.md",
+    "sha256": "6924ab0c18838a726046d2335a10c12179416f3ac222c77080c86b9010fb4803",
+    "characters": 4573,
+    "read_lines": [
+      1,
+      1
+    ],
+    "read_at": "2026-10-16T10:33:04.303270+00:00",
+    "scope": "最终章题缩为“串的模式匹配：失配后怎样移动”，仅定位与版面调整；正文机制此前已全读",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "所有题源均由本审校独立逐图核验"
+    ]
+  },
+  {
+    "path": "manuscript/CN/01_网络层次服务与性能.md",
+    "sha256": "ade0b215cb5d13a8ee7930449c0625968dbe7e7c8d8eb8e89c8f728f0fd53a6b",
+    "characters": 5109,
+    "read_lines": [
+      1,
+      1
+    ],
+    "read_at": "2026-10-16T10:33:04.303270+00:00",
+    "scope": "最终标题和稳定锚点实读；主编确认仅章题缩短，正文机制此前已全读，本次不冒称再次全读",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "所有题源均由本审校独立逐图核验"
+    ]
+  },
+  {
+    "path": "manuscript/CN/02_物理层信号速率与交换.md",
+    "sha256": "c52352f6266896be518cf45f1cc08d652fb33928a0578383baebe44ac6a28bcb",
+    "characters": 6522,
+    "read_lines": [
+      1,
+      1
+    ],
+    "read_at": "2026-10-16T10:33:04.303270+00:00",
+    "scope": "最终标题和稳定锚点实读；主编确认仅章题缩短，正文机制此前已全读，本次不冒称再次全读",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "所有题源均由本审校独立逐图核验"
+    ]
+  },
+  {
+    "path": "manuscript/CN/03_链路层可靠传输与介质访问.md",
+    "sha256": "e687bcca36306ab512ef504498ed20ce0b9fe3c3c767d202ca30df5fcf3cb02a",
+    "characters": 13992,
+    "read_lines": [
+      1,
+      1
+    ],
+    "read_at": "2026-10-16T10:33:04.303270+00:00",
+    "scope": "最终标题和稳定锚点实读；主编确认仅章题缩短，正文机制此前已全读，本次不冒称再次全读",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "所有题源均由本审校独立逐图核验"
+    ]
+  },
+  {
+    "path": "manuscript/CN/04_网络层地址路由与转发.md",
+    "sha256": "2efff033da6fc34f82003ebe0400dac3fcf2e921fca70a4121ec449e51de05e3",
+    "characters": 13336,
+    "read_lines": [
+      1,
+      1
+    ],
+    "read_at": "2026-10-16T10:33:04.303270+00:00",
+    "scope": "最终标题和稳定锚点实读；主编确认仅章题缩短，正文机制此前已全读，本次不冒称再次全读",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "所有题源均由本审校独立逐图核验"
+    ]
+  },
+  {
+    "path": "manuscript/CN/05_传输层可靠连接与窗口.md",
+    "sha256": "f01cd5a0e6e5f94e101449e6af5d351042551cc97fe08a6dd50ca1a9b12f9bad",
+    "characters": 7988,
+    "read_lines": [
+      1,
+      1
+    ],
+    "read_at": "2026-10-16T10:33:04.303270+00:00",
+    "scope": "最终标题和稳定锚点实读；主编确认仅章题缩短，正文机制此前已全读，本次不冒称再次全读",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "所有题源均由本审校独立逐图核验"
+    ]
+  },
+  {
+    "path": "manuscript/CN/06_应用层名称邮件与Web.md",
+    "sha256": "1e0baa14d1fab7c2e128fd11322308206e673812677b34a6e6cb19157e8eebc9",
+    "characters": 7212,
+    "read_lines": [
+      1,
+      1
+    ],
+    "read_at": "2026-10-16T10:33:04.303270+00:00",
+    "scope": "最终标题和稳定锚点实读；主编确认仅章题缩短，正文机制此前已全读，本次不冒称再次全读",
+    "full_read": false,
+    "not_claimed": [
+      "正式大纲全覆盖",
+      "所有题源均由本审校独立逐图核验"
+    ]
+  },
+  {
+    "path": "manuscript/CO/03_存储系统与地址.md",
+    "sha256": "8ce0fe73e3e08a9b53fc432a672cdab9743f7cff0ef3136545da0d352a70228c",
+    "characters": 12256,
+    "read_lines": [
+      253,
+      281
+    ],
+    "read_at": "2026-10-16T10:34:23.671717+00:00",
+    "scope": "最终题源身份差异实读：3-11标2023改编，明确两处赋值改常量10；页/块/命中率题意和此前独立复算未变，不能计作未改原真题",
+    "full_read": false,
+    "not_claimed": [
+      "官方原卷或官方答案发布",
+      "新增全部正文重读"
+    ]
+  },
+  {
+    "path": "manuscript/CO/05_CPU与控制.md",
+    "sha256": "a677b5f5022d25e993c97f6376fa2870b98f01a680da91875e01c6a02927de36",
+    "characters": 6348,
+    "read_lines": [
+      55,
+      55
+    ],
+    "read_at": "2026-10-16T10:36:11.138452+00:00",
+    "scope": "新真题单总线图修订后实际目验：A/B的16位标签避让输入箭头，ALUop避免rd附近混淆；正文无新增机制",
+    "full_read": false,
+    "actually_viewed_sources": [
+      {
+        "path": "figures/CO_F07_datapath.png",
+        "sha256": "4042fbe9b2e69bb0c8e5dd8b785168afcd22db8efb0433dd86a33dcb8835edf6"
+      }
+    ],
+    "not_claimed": [
+      "CO最终PDF全页视觉"
+    ]
+  },
+  {
+    "path": "manuscript/OS/03_同步互斥与信号量.md",
+    "sha256": "19583f6ec2a1ec3bc9348d966871dda4b4f79ac2f6d83f480fa2567e75359dfb",
+    "characters": 17762,
+    "read_lines": [
+      1,
+      591
+    ],
+    "read_at": "2026-10-16T15:26:46.230690+00:00",
+    "scope": "最终当前全文复读；重检P/V负值和唤醒、先后与互斥范围、分类/整批缓冲、读者公平前提、哲学家等待环、Mesa条件变量原子等待；段落衔接与个人信息规则一致。",
+    "full_read": true,
+    "review_round": "最终稿指纹补全实际复读",
+    "knowledge_status": "本次读到内容未发现新增可修问题",
+    "style_status": "已通读，说明具体、题源简短、无个人原作答泄漏",
+    "not_claimed": [
+      "知识复读替代题源逐题图读",
+      "知识复读替代PDF视觉检查",
+      "正式大纲完整发布身份"
+    ]
+  },
+  {
+    "path": "manuscript/OS/04_死锁与资源分配.md",
+    "sha256": "9a37b9ec5295ff316aef01b27b6d190a1def1b01d28aa5ed0552c6c847b3dafe",
+    "characters": 6416,
+    "read_lines": [
+      1,
+      185
+    ],
+    "read_at": "2026-10-16T15:26:46.230690+00:00",
+    "scope": "最终当前全文复读；自死锁定义、单/多实例环、安全与实际死锁、Work净增量、各候选向量独立检查及任意分配界限前提均已连续复核。",
+    "full_read": true,
+    "review_round": "最终稿指纹补全实际复读",
+    "knowledge_status": "本次读到内容未发现新增可修问题",
+    "style_status": "已通读，说明具体、题源简短、无个人原作答泄漏",
+    "not_claimed": [
+      "知识复读替代题源逐题图读",
+      "知识复读替代PDF视觉检查",
+      "正式大纲完整发布身份"
+    ]
+  },
+  {
+    "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+    "sha256": "48cb5e04782d712e752118b1d073e6114015f40f1e3608ed698aae797a8f718c",
+    "characters": 10724,
+    "read_lines": [
+      1,
+      298
+    ],
+    "read_at": "2026-10-16T15:26:46.230690+00:00",
+    "scope": "最终当前全文复读；先查映射再检查状态权限、字段与单位、TLB与缺页分支、LRU各行状态、Clock扫描和工作集窗口、数组对齐与平均访存费用定义均复核。",
+    "full_read": true,
+    "review_round": "最终稿指纹补全实际复读",
+    "knowledge_status": "本次读到内容未发现新增可修问题",
+    "style_status": "已通读，说明具体、题源简短、无个人原作答泄漏",
+    "not_claimed": [
+      "知识复读替代题源逐题图读",
+      "知识复读替代PDF视觉检查",
+      "正式大纲完整发布身份"
+    ]
+  },
+  {
+    "path": "manuscript/DS/01_数据结构算法与复杂度.md",
+    "sha256": "40a74bb10d0b91e5bc9b654816d3f94e719b6a48a0475386ba6f43f468d889bd",
+    "characters": 4667,
+    "read_lines": [
+      47,
+      74
+    ],
+    "read_at": "2026-10-16T15:26:46.230690+00:00",
+    "scope": "最终第67行数学模式呈现修正及连续推理实读；累计和k(k+1)/2、最小终止轮数、ceil根式和平方根时间阶保持一致；其他内容沿用前次实读。",
+    "full_read": false,
+    "review_round": "最终稿指纹补全实际复读",
+    "knowledge_status": "本次读到内容未发现新增可修问题",
+    "style_status": "已通读，说明具体、题源简短、无个人原作答泄漏",
+    "not_claimed": [
+      "知识复读替代题源逐题图读",
+      "知识复读替代PDF视觉检查",
+      "正式大纲完整发布身份"
+    ]
+  },
+  {
+    "path": "manuscript/CO/01_计算机系统与程序执行.md",
+    "sha256": "a303ef1db91df1f906233e00dd597f199f74d3ec7231eef093f821a890c87555",
+    "characters": 4282,
+    "read_lines": [
+      1,
+      115
+    ],
+    "read_at": "2026-10-16T15:29:04.175388+00:00",
+    "scope": "最终当前全文复读（包括已移至标题的短题源）：体系结构/微体系结构、存储程序/工具链、动态指令口径、CPI加权/速度与时间/吞吐响应等均重新连续复核；2014自测四项齐备。",
+    "full_read": true,
+    "review_round": "最终稿指纹补全实际复读",
+    "reading_snapshot": "editorial/full/review/final_snapshots/CO_01_a303ef1db91df1f906233e00dd597f199f74d3ec7231eef093f821a890c87555.md",
+    "current_file_sha256_at_log_time": "a303ef1db91df1f906233e00dd597f199f74d3ec7231eef093f821a890c87555",
+    "knowledge_status": "本次读到内容未发现新增可修问题",
+    "style_status": "已通读，条件与解释衔接、题源简短、无个人原作答泄漏",
+    "not_claimed": [
+      "知识复读替代题源逐题图读",
+      "知识复读替代PDF视觉检查",
+      "正式大纲完整发布身份"
+    ]
+  },
+  {
+    "path": "manuscript/CO/02_数据表示与运算.md",
+    "sha256": "335dcdfa01213c53741d3bd7c9e32b1bcab501fe8ae1b25dd46dcddd1dd4a264",
+    "characters": 10638,
+    "read_lines": [
+      1,
+      263
+    ],
+    "read_at": "2026-10-16T15:29:04.175388+00:00",
+    "scope": "最终当前全文复读（包括已移至标题的短题源）：当前所有位串/补码范围与C11/C17限定、CF借位与OF、Booth四轮/不恢复余数校正、IEEE特殊字段及对阶舍入/下溢边界重新连续复核。",
+    "full_read": true,
+    "review_round": "最终稿指纹补全实际复读",
+    "reading_snapshot": "editorial/full/review/final_snapshots/CO_02_335dcdfa01213c53741d3bd7c9e32b1bcab501fe8ae1b25dd46dcddd1dd4a264.md",
+    "current_file_sha256_at_log_time": "335dcdfa01213c53741d3bd7c9e32b1bcab501fe8ae1b25dd46dcddd1dd4a264",
+    "knowledge_status": "本次读到内容未发现新增可修问题",
+    "style_status": "已通读，条件与解释衔接、题源简短、无个人原作答泄漏",
+    "not_claimed": [
+      "知识复读替代题源逐题图读",
+      "知识复读替代PDF视觉检查",
+      "正式大纲完整发布身份"
+    ]
+  },
+  {
+    "path": "manuscript/CO/04_指令系统与程序表示.md",
+    "sha256": "e18bd55f9b3f92a60a0a916252da29f8ba164bb5b7f66b833ff221416ca47d10",
+    "characters": 6456,
+    "read_lines": [
+      1,
+      176
+    ],
+    "read_at": "2026-10-16T15:29:04.175388+00:00",
+    "scope": "最终当前全文复读（包括已移至标题的短题源）：指令扩展前缀、(R)/(BR)/(IX)记号、PC后继基准、字节序对齐、差值可表示条件、调用ABI/栈帧序列和自测完整题重读。",
+    "full_read": true,
+    "review_round": "最终稿指纹补全实际复读",
+    "reading_snapshot": "editorial/full/review/final_snapshots/CO_04_e18bd55f9b3f92a60a0a916252da29f8ba164bb5b7f66b833ff221416ca47d10.md",
+    "current_file_sha256_at_log_time": "e18bd55f9b3f92a60a0a916252da29f8ba164bb5b7f66b833ff221416ca47d10",
+    "knowledge_status": "本次读到内容未发现新增可修问题",
+    "style_status": "已通读，条件与解释衔接、题源简短、无个人原作答泄漏",
+    "not_claimed": [
+      "知识复读替代题源逐题图读",
+      "知识复读替代PDF视觉检查",
+      "正式大纲完整发布身份"
+    ]
+  },
+  {
+    "path": "manuscript/CO/06_流水线与并行处理.md",
+    "sha256": "e011afb47e55d8f27ebafa12a72c235920c5f155c4b2a6549aa131a82b9693bf",
+    "characters": 5598,
+    "read_lines": [
+      1,
+      141
+    ],
+    "read_at": "2026-10-16T15:29:04.175388+00:00",
+    "scope": "最终当前全文复读（包括已移至标题的短题源）：流水延迟/吞吐与基线、RAW/WAR/WAW条件、load-use逐拍表及WB先写ID后读、分支等待与预测概率、并行分类和线程/多核边界重新复核。",
+    "full_read": true,
+    "review_round": "最终稿指纹补全实际复读",
+    "reading_snapshot": "editorial/full/review/final_snapshots/CO_06_e011afb47e55d8f27ebafa12a72c235920c5f155c4b2a6549aa131a82b9693bf.md",
+    "current_file_sha256_at_log_time": "e011afb47e55d8f27ebafa12a72c235920c5f155c4b2a6549aa131a82b9693bf",
+    "knowledge_status": "本次读到内容未发现新增可修问题",
+    "style_status": "已通读，条件与解释衔接、题源简短、无个人原作答泄漏",
+    "not_claimed": [
+      "知识复读替代题源逐题图读",
+      "知识复读替代PDF视觉检查",
+      "正式大纲完整发布身份"
+    ]
+  },
+  {
+    "path": "manuscript/CO/07_总线与传输时间.md",
+    "sha256": "b558bf2b9ff22d831cab1ceed85951b6eaaa24f2535fd2b3773650fae58e7e35",
+    "characters": 3796,
+    "read_lines": [
+      1,
+      86
+    ],
+    "read_at": "2026-10-16T15:29:04.175388+00:00",
+    "scope": "最终当前全文复读（包括已移至标题的短题源）：带宽的MT/s/时钟和峰值/事务口径、突发启动代价、非/半/全互锁建立撤销规则、同步/异步及字符额外位全部重读。",
+    "full_read": true,
+    "review_round": "最终稿指纹补全实际复读",
+    "reading_snapshot": "editorial/full/review/final_snapshots/CO_07_b558bf2b9ff22d831cab1ceed85951b6eaaa24f2535fd2b3773650fae58e7e35.md",
+    "current_file_sha256_at_log_time": "b558bf2b9ff22d831cab1ceed85951b6eaaa24f2535fd2b3773650fae58e7e35",
+    "knowledge_status": "本次读到内容未发现新增可修问题",
+    "style_status": "已通读，条件与解释衔接、题源简短、无个人原作答泄漏",
+    "not_claimed": [
+      "知识复读替代题源逐题图读",
+      "知识复读替代PDF视觉检查",
+      "正式大纲完整发布身份"
+    ]
+  },
+  {
+    "path": "manuscript/CO/08_IO与DMA.md",
+    "sha256": "d4c6d8e4d9789fe323a03d1c833899f5110e67e98343b90adea60c1aa141420a",
+    "characters": 5631,
+    "read_lines": [
+      1,
+      145
+    ],
+    "read_at": "2026-10-16T15:29:04.175388+00:00",
+    "scope": "最终当前全文复读（包括已移至标题的短题源）：接口端点/数据线内容、轮询与中断CPU成本、硬件断点与软件现场、中断嵌套屏蔽恢复、DMA设置/搬运/收尾与周期挪用条件重新连续复核。",
+    "full_read": true,
+    "review_round": "最终稿指纹补全实际复读",
+    "reading_snapshot": "editorial/full/review/final_snapshots/CO_08_d4c6d8e4d9789fe323a03d1c833899f5110e67e98343b90adea60c1aa141420a.md",
+    "current_file_sha256_at_log_time": "d4c6d8e4d9789fe323a03d1c833899f5110e67e98343b90adea60c1aa141420a",
+    "knowledge_status": "本次读到内容未发现新增可修问题",
+    "style_status": "已通读，条件与解释衔接、题源简短、无个人原作答泄漏",
+    "not_claimed": [
+      "知识复读替代题源逐题图读",
+      "知识复读替代PDF视觉检查",
+      "正式大纲完整发布身份"
+    ]
+  },
+  {
+    "path": "manuscript/DS/02_线性表下标结点与指针.md",
+    "sha256": "646fac8b3481c8a0f87c0d27967a2ce0aca8a508decf94054491eeee1237ec12",
+    "characters": 7935,
+    "read_lines": [
+      1,
+      211
+    ],
+    "read_at": "2026-10-16T15:30:55.628867+00:00",
+    "scope": "最终当前全文复读（包括已移至标题的短题源）：当前全文重读；位序/下标与插删移动、单链保后继/逆置/倒数第k、双链改链和循环边界、三逆置/共享后缀身份/主元素二次计数均连续复核。",
+    "full_read": true,
+    "review_round": "最终稿指纹补全实际复读",
+    "reading_snapshot": "editorial/full/review/final_snapshots/DS_02_646fac8b3481c8a0f87c0d27967a2ce0aca8a508decf94054491eeee1237ec12.md",
+    "current_file_sha256_at_log_time": "646fac8b3481c8a0f87c0d27967a2ce0aca8a508decf94054491eeee1237ec12",
+    "knowledge_status": "本次读到内容未发现新增可修问题",
+    "style_status": "已通读，条件和解释衔接、题源简短、无个人原作答泄漏",
+    "not_claimed": [
+      "知识复读替代题源逐题图读",
+      "知识复读替代PDF视觉检查",
+      "正式大纲完整发布身份"
+    ]
+  },
+  {
+    "path": "manuscript/DS/05_树二叉树与应用.md",
+    "sha256": "e0057bc42f9211e65ee2c8dc92ad026772ca08ef4b658fc425319e4407069eba",
+    "characters": 10429,
+    "read_lines": [
+      1,
+      268
+    ],
+    "read_at": "2026-10-16T15:30:55.628867+00:00",
+    "scope": "最终当前全文复读（包括已移至标题的短题源）：当前全文重读；高度与层号、满/完全树和任意形态容量、非递归中/后序及线索构造标志、森林转换、哈夫曼WPL/码树容量、并查集与堆条件均连续复核。",
+    "full_read": true,
+    "review_round": "最终稿指纹补全实际复读",
+    "reading_snapshot": "editorial/full/review/final_snapshots/DS_05_e0057bc42f9211e65ee2c8dc92ad026772ca08ef4b658fc425319e4407069eba.md",
+    "current_file_sha256_at_log_time": "e0057bc42f9211e65ee2c8dc92ad026772ca08ef4b658fc425319e4407069eba",
+    "knowledge_status": "本次读到内容未发现新增可修问题",
+    "style_status": "已通读，条件和解释衔接、题源简短、无个人原作答泄漏",
+    "not_claimed": [
+      "知识复读替代题源逐题图读",
+      "知识复读替代PDF视觉检查",
+      "正式大纲完整发布身份"
+    ]
+  },
+  {
+    "path": "manuscript/DS/07_查找与索引结构.md",
+    "sha256": "13e2a9d5daef490a66947b7272a52a92314f5daaaa223c6d7518ffb88df0e2f7",
+    "characters": 10236,
+    "read_lines": [
+      1,
+      252
+    ],
+    "read_at": "2026-10-16T15:30:55.628867+00:00",
+    "scope": "最终当前全文复读（包括已移至标题的短题源）：当前全文重读；成功失败ASL口径、折半闭区间、BST整体有序、AVL七次插入轨迹、红黑黑高定义及删除四类、B/B+树约定和散列探查/删除标记均连续复核。",
+    "full_read": true,
+    "review_round": "最终稿指纹补全实际复读",
+    "reading_snapshot": "editorial/full/review/final_snapshots/DS_07_13e2a9d5daef490a66947b7272a52a92314f5daaaa223c6d7518ffb88df0e2f7.md",
+    "current_file_sha256_at_log_time": "13e2a9d5daef490a66947b7272a52a92314f5daaaa223c6d7518ffb88df0e2f7",
+    "knowledge_status": "本次读到内容未发现新增可修问题",
+    "style_status": "已通读，条件和解释衔接、题源简短、无个人原作答泄漏",
+    "not_claimed": [
+      "知识复读替代题源逐题图读",
+      "知识复读替代PDF视觉检查",
+      "正式大纲完整发布身份"
+    ]
+  },
+  {
+    "path": "manuscript/CN/01_网络层次服务与性能.md",
+    "sha256": "4129742f3f96bc9e27e3b96f779db2f731ef5030ad076cc130d9ef0358c0d444",
+    "characters": 5111,
+    "read_lines": [
+      1,
+      7,
+      17,
+      27,
+      45,
+      51,
+      67,
+      75,
+      91,
+      99,
+      111
+    ],
+    "read_at": "2026-10-16T15:31:29.533565+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "ade0b215cb5d13a8ee7930449c0625968dbe7e7c8d8eb8e89c8f728f0fd53a6b",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/02_物理层信号速率与交换.md",
+    "sha256": "994df88ed67d18ad7283c61616b72834beaacae004220beb9cf0c489d0bcfcdc",
+    "characters": 6527,
+    "read_lines": [
+      1,
+      5,
+      19,
+      35,
+      43,
+      53,
+      69,
+      83,
+      99,
+      105,
+      119,
+      129,
+      133,
+      141,
+      149
+    ],
+    "read_at": "2026-10-16T15:31:29.534166+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "c52352f6266896be518cf45f1cc08d652fb33928a0578383baebe44ac6a28bcb",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/03_链路层可靠传输与介质访问.md",
+    "sha256": "3270c54f1ec717d60d6441c4da8e0165c588ea362811e2bcd92f10097c03e973",
+    "characters": 14003,
+    "read_lines": [
+      1,
+      7,
+      15,
+      30,
+      46,
+      64,
+      78,
+      82,
+      102,
+      110,
+      120,
+      128,
+      136,
+      144,
+      156,
+      168,
+      174,
+      182,
+      190,
+      200,
+      210,
+      220,
+      232,
+      238,
+      244,
+      254,
+      268,
+      276,
+      284,
+      292,
+      302,
+      312
+    ],
+    "read_at": "2026-10-16T15:31:29.535293+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "e687bcca36306ab512ef504498ed20ce0b9fe3c3c767d202ca30df5fcf3cb02a",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/04_网络层地址路由与转发.md",
+    "sha256": "bb7d7907ddee188c66b710fd82468f581f8b2abce5fb7bb97de4541c3574d3ad",
+    "characters": 13345,
+    "read_lines": [
+      1,
+      7,
+      15,
+      23,
+      31,
+      37,
+      45,
+      64,
+      74,
+      82,
+      94,
+      100,
+      116,
+      128,
+      132,
+      146,
+      154,
+      164,
+      180,
+      186,
+      204,
+      212,
+      222,
+      230,
+      246,
+      252,
+      260,
+      268,
+      276,
+      284,
+      292,
+      300
+    ],
+    "read_at": "2026-10-16T15:31:29.536386+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "2efff033da6fc34f82003ebe0400dac3fcf2e921fca70a4121ec449e51de05e3",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/05_传输层可靠连接与窗口.md",
+    "sha256": "a2c9161baac9680c5fc2e2463237713bc0c078f0c15aea16048909472e959455",
+    "characters": 7995,
+    "read_lines": [
+      1,
+      7,
+      13,
+      23,
+      31,
+      37,
+      53,
+      59,
+      69,
+      81,
+      91,
+      107,
+      117,
+      129,
+      137,
+      149,
+      161,
+      171
+    ],
+    "read_at": "2026-10-16T15:31:29.536998+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "f01cd5a0e6e5f94e101449e6af5d351042551cc97fe08a6dd50ca1a9b12f9bad",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/06_应用层名称邮件与Web.md",
+    "sha256": "f0d48f2c9e8370529cb408330aafde32e7acb15e5eea2cbed4735d57410833fb",
+    "characters": 7219,
+    "read_lines": [
+      1,
+      5,
+      13,
+      23,
+      29,
+      43,
+      47,
+      63,
+      71,
+      79,
+      95,
+      103,
+      111,
+      119,
+      129,
+      143,
+      155
+    ],
+    "read_at": "2026-10-16T15:31:29.537597+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "1e0baa14d1fab7c2e128fd11322308206e673812677b34a6e6cb19157e8eebc9",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/03_存储系统与地址.md",
+    "sha256": "0d0ef1dfcc2dbfead14e7c7d673184b9ff4a8446feb66b263ee26eb4dc81edfc",
+    "characters": 12245,
+    "read_lines": [
+      1,
+      3,
+      13,
+      21,
+      25,
+      35,
+      39,
+      47,
+      62,
+      70,
+      78,
+      90,
+      100,
+      110,
+      122,
+      137,
+      141,
+      151,
+      159,
+      167,
+      173,
+      183,
+      189,
+      197,
+      215,
+      225,
+      233,
+      235,
+      293
+    ],
+    "read_at": "2026-10-16T15:31:29.539774+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "8ce0fe73e3e08a9b53fc432a672cdab9743f7cff0ef3136545da0d352a70228c",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/05_CPU与控制.md",
+    "sha256": "14bd8db079d9c5671dc74d405087460e5fb47273014d9e483daee8c347d55368",
+    "characters": 6342,
+    "read_lines": [
+      1,
+      3,
+      20,
+      31,
+      41,
+      47,
+      89,
+      102,
+      110,
+      118,
+      128,
+      138,
+      150
+    ],
+    "read_at": "2026-10-16T15:31:29.540916+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "a677b5f5022d25e993c97f6376fa2870b98f01a680da91875e01c6a02927de36",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/01_数据结构算法与复杂度.md",
+    "sha256": "0a67d39edc66d014c8420c6e1285aa62dd9e5fbb052555a4feb22fa7095375c4",
+    "characters": 4669,
+    "read_lines": [
+      1,
+      5,
+      13,
+      25,
+      35,
+      41,
+      53,
+      73,
+      92,
+      100,
+      110
+    ],
+    "read_at": "2026-10-16T15:31:29.542532+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "40a74bb10d0b91e5bc9b654816d3f94e719b6a48a0475386ba6f43f468d889bd",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/03_栈队列与数组.md",
+    "sha256": "9c80f6182eab64bc33b8e09e9ff31595806463400c16e64edee021440cd85729",
+    "characters": 7067,
+    "read_lines": [
+      1,
+      5,
+      11,
+      35,
+      41,
+      47,
+      59,
+      67,
+      88,
+      104,
+      110,
+      118,
+      130,
+      132,
+      138,
+      150,
+      167
+    ],
+    "read_at": "2026-10-16T15:31:29.544156+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "4159e012a65043c36636c51eeb980465bf71b1f1a567da0ccfa590e1bbb5eab3",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/04_串与模式匹配.md",
+    "sha256": "c41054a6ca543bbecac3c924550c28351acbc868ab73f2b198f484b0898fa8e7",
+    "characters": 4575,
+    "read_lines": [
+      1,
+      5,
+      13,
+      30,
+      38,
+      80,
+      90,
+      106,
+      123,
+      127
+    ],
+    "read_at": "2026-10-16T15:31:29.544759+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "6924ab0c18838a726046d2335a10c12179416f3ac222c77080c86b9010fb4803",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/06_图与图算法.md",
+    "sha256": "0b5103be4d76060ff212568851b4043bf682c1f1f96844f0a55be147bfd3e02b",
+    "characters": 9366,
+    "read_lines": [
+      1,
+      5,
+      15,
+      27,
+      41,
+      49,
+      68,
+      78,
+      100,
+      106,
+      120,
+      126,
+      154,
+      160,
+      203,
+      211,
+      236
+    ],
+    "read_at": "2026-10-16T15:31:29.546177+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "40e7b3733c1e08793e9f30a54754131a9d74bd88e03e4b20e54c32672266be41",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/08_排序与外部归并.md",
+    "sha256": "1e125165fe5fcbd5f43c4a6b2c52bc8f1639be507e014ca619d1e0084101f311",
+    "characters": 10234,
+    "read_lines": [
+      1,
+      5,
+      13,
+      33,
+      39,
+      45,
+      49,
+      71,
+      101,
+      119,
+      125,
+      135,
+      143,
+      151,
+      155,
+      173,
+      181,
+      185,
+      214,
+      222,
+      240,
+      250,
+      270
+    ],
+    "read_at": "2026-10-16T15:31:29.547335+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "68d6ef1f4e569156bb5cf31eaae822a76ea389d076b0c0148f6d73d5be4a0a57",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/01_操作系统与程序运行环境.md",
+    "sha256": "b2bc755b9b62e8fb5b1512cd91320f6751ddd570f42cf2a2f680a029aca2038b",
+    "characters": 7332,
+    "read_lines": [
+      1,
+      5,
+      13,
+      23,
+      33,
+      47,
+      55,
+      65,
+      79,
+      89,
+      105,
+      128,
+      136,
+      146,
+      152,
+      162,
+      170,
+      180
+    ],
+    "read_at": "2026-10-16T15:31:29.547853+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "00d66bbc91db68a413688236b2613dfe49adaab2e8aade35a6f3850492198770",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+    "sha256": "4b5ef00d3e3d132c4dedae1a072ee905c9656a4f5fcc00235f5d826aaaa92007",
+    "characters": 9752,
+    "read_lines": [
+      1,
+      5,
+      15,
+      25,
+      35,
+      49,
+      59,
+      71,
+      85,
+      93,
+      97,
+      107,
+      126,
+      130,
+      150,
+      165,
+      173,
+      181,
+      214,
+      222,
+      232,
+      242
+    ],
+    "read_at": "2026-10-16T15:31:29.548374+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "a129db636015c092ede176f86a3fa8263198726b3b7cf14b3fbfc6532cd9c146",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/03_同步互斥与信号量.md",
+    "sha256": "9fc4d3a341fdf745b86f0a75f5bfb73a31f98ac1190f8c950dc0e5a69164ad3a",
+    "characters": 17755,
+    "read_lines": [
+      1,
+      7,
+      9,
+      19,
+      27,
+      37,
+      50,
+      52,
+      64,
+      80,
+      104,
+      106,
+      133,
+      137,
+      145,
+      158,
+      162,
+      186,
+      188,
+      220,
+      258,
+      270,
+      323,
+      371,
+      375,
+      414,
+      439,
+      447,
+      477,
+      483,
+      485,
+      503,
+      543,
+      557,
+      568
+    ],
+    "read_at": "2026-10-16T15:31:29.549403+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "19583f6ec2a1ec3bc9348d966871dda4b4f79ac2f6d83f480fa2567e75359dfb",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/04_死锁与资源分配.md",
+    "sha256": "ec344c2b3345e2ec807705b54106c7f5b83a1872314eac77b588d20e2a2b9776",
+    "characters": 6413,
+    "read_lines": [
+      1,
+      7,
+      13,
+      24,
+      32,
+      38,
+      48,
+      62,
+      73,
+      88,
+      115,
+      137,
+      147,
+      153,
+      163,
+      173
+    ],
+    "read_at": "2026-10-16T15:31:29.549929+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "9a37b9ec5295ff316aef01b27b6d190a1def1b01d28aa5ed0552c6c847b3dafe",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+    "sha256": "b8718bbcd4debb285ff89ef694cba4089d69161983a4f288c341ae6c16534dd0",
+    "characters": 10717,
+    "read_lines": [
+      1,
+      7,
+      15,
+      23,
+      37,
+      45,
+      63,
+      77,
+      79,
+      85,
+      93,
+      105,
+      113,
+      133,
+      145,
+      153,
+      157,
+      182,
+      192,
+      212,
+      220,
+      224,
+      238,
+      254,
+      268,
+      278
+    ],
+    "read_at": "2026-10-16T15:31:29.550594+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "48cb5e04782d712e752118b1d073e6114015f40f1e3608ed698aae797a8f718c",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/06_文件目录与文件系统.md",
+    "sha256": "7f36ec2158fa5bd2a1719feb0cdf1e4e6efd88c540b2341a6916a0fedb104103",
+    "characters": 8196,
+    "read_lines": [
+      1,
+      7,
+      17,
+      27,
+      41,
+      47,
+      53,
+      61,
+      69,
+      86,
+      102,
+      112,
+      122,
+      130,
+      144,
+      152,
+      158,
+      168,
+      176,
+      186
+    ],
+    "read_at": "2026-10-16T15:31:29.551063+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "6be1414121f33d407d84e66b4606c366c7975e28909eae9d4fc37b58de4ebe10",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/07_IO设备与外存调度.md",
+    "sha256": "42d1aad3315ea86881b6726b3ba360ce5fb69a79cc70fed9b93e56a6af227b9d",
+    "characters": 7941,
+    "read_lines": [
+      1,
+      5,
+      15,
+      31,
+      39,
+      47,
+      55,
+      71,
+      85,
+      91,
+      101,
+      109,
+      119,
+      127,
+      131,
+      143,
+      149,
+      165,
+      175,
+      185
+    ],
+    "read_at": "2026-10-16T15:31:29.551478+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐标题检查题源移至例号后；断言普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "f7bd0a8edbfbcbb80ef3e26c47a1d2a36d0087985dfde5ba74f57b6f3dfbc5f9",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/01_网络层次服务与性能.md",
+    "sha256": "b979b18aa7c2d7e342b53f1962762ea8fadd8556bedf103dbd4f1b7a89ccbb0f",
+    "characters": 5111,
+    "read_lines": [
+      1,
+      7,
+      17,
+      27,
+      45,
+      51,
+      67,
+      75,
+      91,
+      99,
+      111
+    ],
+    "read_at": "2026-10-16T15:34:32.060150+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "ade0b215cb5d13a8ee7930449c0625968dbe7e7c8d8eb8e89c8f728f0fd53a6b",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/02_物理层信号速率与交换.md",
+    "sha256": "f852416d6c2f457d015c8e7ed38a8c7eba6d3720d1f62fc36dc80cbffbe91b6f",
+    "characters": 6527,
+    "read_lines": [
+      1,
+      5,
+      19,
+      35,
+      43,
+      53,
+      69,
+      83,
+      99,
+      105,
+      119,
+      129,
+      133,
+      141,
+      149
+    ],
+    "read_at": "2026-10-16T15:34:32.060590+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "c52352f6266896be518cf45f1cc08d652fb33928a0578383baebe44ac6a28bcb",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/03_链路层可靠传输与介质访问.md",
+    "sha256": "6b4475bf5fb93b6f23185f1c30132647a8a1148c921402331428056d5054a4b3",
+    "characters": 14003,
+    "read_lines": [
+      1,
+      7,
+      15,
+      30,
+      46,
+      64,
+      78,
+      82,
+      102,
+      110,
+      120,
+      128,
+      136,
+      144,
+      156,
+      168,
+      174,
+      182,
+      190,
+      200,
+      210,
+      220,
+      232,
+      238,
+      244,
+      254,
+      268,
+      276,
+      284,
+      292,
+      302,
+      312
+    ],
+    "read_at": "2026-10-16T15:34:32.061392+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "e687bcca36306ab512ef504498ed20ce0b9fe3c3c767d202ca30df5fcf3cb02a",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/04_网络层地址路由与转发.md",
+    "sha256": "0acb63007234d618d898d7c60a10138fc76a6ae543a5acbcef0494115312c974",
+    "characters": 13345,
+    "read_lines": [
+      1,
+      7,
+      15,
+      23,
+      31,
+      37,
+      45,
+      64,
+      74,
+      82,
+      94,
+      100,
+      116,
+      128,
+      132,
+      146,
+      154,
+      164,
+      180,
+      186,
+      204,
+      212,
+      222,
+      230,
+      246,
+      252,
+      260,
+      268,
+      276,
+      284,
+      292,
+      300
+    ],
+    "read_at": "2026-10-16T15:34:32.062179+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "2efff033da6fc34f82003ebe0400dac3fcf2e921fca70a4121ec449e51de05e3",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/05_传输层可靠连接与窗口.md",
+    "sha256": "f755aad89cdef2e2658d9074e0bd7da5d137293a57e4a74e07688a0e3a331b16",
+    "characters": 7995,
+    "read_lines": [
+      1,
+      7,
+      13,
+      23,
+      31,
+      37,
+      53,
+      59,
+      69,
+      81,
+      91,
+      107,
+      117,
+      129,
+      137,
+      149,
+      161,
+      171
+    ],
+    "read_at": "2026-10-16T15:34:32.062697+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "f01cd5a0e6e5f94e101449e6af5d351042551cc97fe08a6dd50ca1a9b12f9bad",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CN/06_应用层名称邮件与Web.md",
+    "sha256": "58c9cebfc83c93d028994c1204f9516c4618228f02c861f75fd535e9c858cbf3",
+    "characters": 7219,
+    "read_lines": [
+      1,
+      5,
+      13,
+      23,
+      29,
+      43,
+      47,
+      63,
+      71,
+      79,
+      95,
+      103,
+      111,
+      119,
+      129,
+      143,
+      155
+    ],
+    "read_at": "2026-10-16T15:34:32.063246+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "1e0baa14d1fab7c2e128fd11322308206e673812677b34a6e6cb19157e8eebc9",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/03_存储系统与地址.md",
+    "sha256": "8778ebe3812af2f13831b8d730dc9c1c2efd5e05fd6a74411b24b03415edbb87",
+    "characters": 12245,
+    "read_lines": [
+      1,
+      3,
+      13,
+      21,
+      25,
+      35,
+      39,
+      47,
+      62,
+      70,
+      78,
+      90,
+      100,
+      110,
+      122,
+      137,
+      141,
+      151,
+      159,
+      167,
+      173,
+      183,
+      189,
+      197,
+      215,
+      225,
+      233,
+      235,
+      293
+    ],
+    "read_at": "2026-10-16T15:34:32.065167+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "8ce0fe73e3e08a9b53fc432a672cdab9743f7cff0ef3136545da0d352a70228c",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/05_CPU与控制.md",
+    "sha256": "9237d5ee461e767ccf38b1b9541ffd48fb2ca25bdf2ad78bde7e25eb2201247a",
+    "characters": 6342,
+    "read_lines": [
+      1,
+      3,
+      20,
+      31,
+      41,
+      47,
+      89,
+      102,
+      110,
+      118,
+      128,
+      138,
+      150
+    ],
+    "read_at": "2026-10-16T15:34:32.065988+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "a677b5f5022d25e993c97f6376fa2870b98f01a680da91875e01c6a02927de36",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/01_数据结构算法与复杂度.md",
+    "sha256": "50ea81c2b22af78872f0f5defd888bdd8cfcae036403f8a00d1672fa227facb5",
+    "characters": 4669,
+    "read_lines": [
+      1,
+      5,
+      13,
+      25,
+      35,
+      41,
+      53,
+      73,
+      92,
+      100,
+      110
+    ],
+    "read_at": "2026-10-16T15:34:32.067178+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "40a74bb10d0b91e5bc9b654816d3f94e719b6a48a0475386ba6f43f468d889bd",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/03_栈队列与数组.md",
+    "sha256": "8c2ce0f7a734f26e671f4a38f63791fbbba325e833d7df5fee931c8223dbb90b",
+    "characters": 7067,
+    "read_lines": [
+      1,
+      5,
+      11,
+      35,
+      41,
+      47,
+      59,
+      67,
+      88,
+      104,
+      110,
+      118,
+      130,
+      132,
+      138,
+      150,
+      167
+    ],
+    "read_at": "2026-10-16T15:34:32.068089+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "4159e012a65043c36636c51eeb980465bf71b1f1a567da0ccfa590e1bbb5eab3",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/04_串与模式匹配.md",
+    "sha256": "508bfb54c946d5cb4f712d6045e1831b724b7bd6644571a79bdca389aefbf32f",
+    "characters": 4575,
+    "read_lines": [
+      1,
+      5,
+      13,
+      30,
+      38,
+      80,
+      90,
+      106,
+      123,
+      127
+    ],
+    "read_at": "2026-10-16T15:34:32.068379+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "6924ab0c18838a726046d2335a10c12179416f3ac222c77080c86b9010fb4803",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/06_图与图算法.md",
+    "sha256": "72ac42ac5bcefd164241298917b81099336a081dfcc2090fce20330c0ea6bc30",
+    "characters": 9366,
+    "read_lines": [
+      1,
+      5,
+      15,
+      27,
+      41,
+      49,
+      68,
+      78,
+      100,
+      106,
+      120,
+      126,
+      154,
+      160,
+      203,
+      211,
+      236
+    ],
+    "read_at": "2026-10-16T15:34:32.069737+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "40e7b3733c1e08793e9f30a54754131a9d74bd88e03e4b20e54c32672266be41",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/08_排序与外部归并.md",
+    "sha256": "d4c2a91c408c83fdfe18de12078d9c6e3c28d0db4d542ae18fae73a67e644aac",
+    "characters": 10234,
+    "read_lines": [
+      1,
+      5,
+      13,
+      33,
+      39,
+      45,
+      49,
+      71,
+      101,
+      119,
+      125,
+      135,
+      143,
+      151,
+      155,
+      173,
+      181,
+      185,
+      214,
+      222,
+      240,
+      250,
+      270
+    ],
+    "read_at": "2026-10-16T15:34:32.071046+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "68d6ef1f4e569156bb5cf31eaae822a76ea389d076b0c0148f6d73d5be4a0a57",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/01_操作系统与程序运行环境.md",
+    "sha256": "54d093504de58e5436ca93ba7bcf87ac6b71937c6c91528a6c512f9fd5b54e47",
+    "characters": 7332,
+    "read_lines": [
+      1,
+      5,
+      13,
+      23,
+      33,
+      47,
+      55,
+      65,
+      79,
+      89,
+      105,
+      128,
+      136,
+      146,
+      152,
+      162,
+      170,
+      180
+    ],
+    "read_at": "2026-10-16T15:34:32.071506+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "00d66bbc91db68a413688236b2613dfe49adaab2e8aade35a6f3850492198770",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+    "sha256": "f8c27abb60ddfe50cd709e595c3adb54b6edd557f2978da5da50ebbffc36b920",
+    "characters": 9752,
+    "read_lines": [
+      1,
+      5,
+      15,
+      25,
+      35,
+      49,
+      59,
+      71,
+      85,
+      93,
+      97,
+      107,
+      126,
+      130,
+      150,
+      165,
+      173,
+      181,
+      214,
+      222,
+      232,
+      242
+    ],
+    "read_at": "2026-10-16T15:34:32.072092+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "a129db636015c092ede176f86a3fa8263198726b3b7cf14b3fbfc6532cd9c146",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/03_同步互斥与信号量.md",
+    "sha256": "3a96a181d6cad7b43c36a0db4361dacf634de93eef89096e3e07735c0d0e969f",
+    "characters": 17755,
+    "read_lines": [
+      1,
+      7,
+      9,
+      19,
+      27,
+      37,
+      50,
+      52,
+      64,
+      80,
+      104,
+      106,
+      133,
+      137,
+      145,
+      158,
+      162,
+      186,
+      188,
+      220,
+      258,
+      270,
+      323,
+      371,
+      375,
+      414,
+      439,
+      447,
+      477,
+      483,
+      485,
+      503,
+      543,
+      557,
+      568
+    ],
+    "read_at": "2026-10-16T15:34:32.073143+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "19583f6ec2a1ec3bc9348d966871dda4b4f79ac2f6d83f480fa2567e75359dfb",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/04_死锁与资源分配.md",
+    "sha256": "e68dc825bc9d938931cba9d28d92527b8708f29aa2825b479372d076465ecdea",
+    "characters": 6413,
+    "read_lines": [
+      1,
+      7,
+      13,
+      24,
+      32,
+      38,
+      48,
+      62,
+      73,
+      88,
+      115,
+      137,
+      147,
+      153,
+      163,
+      173
+    ],
+    "read_at": "2026-10-16T15:34:32.073576+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "9a37b9ec5295ff316aef01b27b6d190a1def1b01d28aa5ed0552c6c847b3dafe",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+    "sha256": "909789fb135aaf350be455e2a7a4a214afce207820d25357cbc704a64111d3d9",
+    "characters": 10717,
+    "read_lines": [
+      1,
+      7,
+      15,
+      23,
+      37,
+      45,
+      63,
+      77,
+      79,
+      85,
+      93,
+      105,
+      113,
+      133,
+      145,
+      153,
+      157,
+      182,
+      192,
+      212,
+      220,
+      224,
+      238,
+      254,
+      268,
+      278
+    ],
+    "read_at": "2026-10-16T15:34:32.074244+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "48cb5e04782d712e752118b1d073e6114015f40f1e3608ed698aae797a8f718c",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/06_文件目录与文件系统.md",
+    "sha256": "2ab39f78a780a08573e0f8bfa7e381d8700dab80af6abf492cef3b8cbaaa55d4",
+    "characters": 8196,
+    "read_lines": [
+      1,
+      7,
+      17,
+      27,
+      41,
+      47,
+      53,
+      61,
+      69,
+      86,
+      102,
+      112,
+      122,
+      130,
+      144,
+      152,
+      158,
+      168,
+      176,
+      186
+    ],
+    "read_at": "2026-10-16T15:34:32.074713+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "6be1414121f33d407d84e66b4606c366c7975e28909eae9d4fc37b58de4ebe10",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/OS/07_IO设备与外存调度.md",
+    "sha256": "e1cea9533378c1817794a4bf2a14e3d52c3609a33840f6a079986ca34d8bd813",
+    "characters": 7941,
+    "read_lines": [
+      1,
+      5,
+      15,
+      31,
+      39,
+      47,
+      55,
+      71,
+      85,
+      91,
+      101,
+      109,
+      119,
+      127,
+      131,
+      143,
+      149,
+      165,
+      175,
+      185
+    ],
+    "read_at": "2026-10-16T15:34:32.075146+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "f7bd0a8edbfbcbb80ef3e26c47a1d2a36d0087985dfde5ba74f57b6f3dfbc5f9",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/01_计算机系统与程序执行.md",
+    "sha256": "5bd01c6174abd9201260d43c385ab6dbe4f7267c5e17978bbb797e9e043e65e2",
+    "characters": 4282,
+    "read_lines": [
+      1,
+      3,
+      20,
+      26,
+      41,
+      47,
+      59,
+      78,
+      86,
+      102,
+      110
+    ],
+    "read_at": "2026-10-16T15:34:54.127908+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "a303ef1db91df1f906233e00dd597f199f74d3ec7231eef093f821a890c87555",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/02_数据表示与运算.md",
+    "sha256": "2d1fa5e28b681c344b4a89ffe25a2b3e15ff70defff6ba451fdc169fba27ea77",
+    "characters": 10638,
+    "read_lines": [
+      1,
+      3,
+      9,
+      19,
+      40,
+      46,
+      61,
+      78,
+      82,
+      95,
+      106,
+      114,
+      125,
+      135,
+      137,
+      167,
+      191,
+      212,
+      220,
+      230,
+      240,
+      257
+    ],
+    "read_at": "2026-10-16T15:34:54.128998+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "335dcdfa01213c53741d3bd7c9e32b1bcab501fe8ae1b25dd46dcddd1dd4a264",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/04_指令系统与程序表示.md",
+    "sha256": "c79649fbdb6323a5a2b508abdf2ee8ca2ddad781685700a287109cbdc0a2e24c",
+    "characters": 6456,
+    "read_lines": [
+      1,
+      3,
+      13,
+      23,
+      40,
+      50,
+      54,
+      62,
+      86,
+      92,
+      103,
+      109,
+      120,
+      155,
+      171
+    ],
+    "read_at": "2026-10-16T15:34:54.130386+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "e18bd55f9b3f92a60a0a916252da29f8ba164bb5b7f66b833ff221416ca47d10",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/06_流水线与并行处理.md",
+    "sha256": "03e537e19373e0165f8594ebe6dc01174bc8e26464d37f923477d9823e2262a8",
+    "characters": 5598,
+    "read_lines": [
+      1,
+      3,
+      17,
+      27,
+      35,
+      43,
+      49,
+      73,
+      91,
+      99,
+      109,
+      117,
+      125,
+      136
+    ],
+    "read_at": "2026-10-16T15:34:54.131479+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "e011afb47e55d8f27ebafa12a72c235920c5f155c4b2a6549aa131a82b9693bf",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/07_总线与传输时间.md",
+    "sha256": "eb2f88bf0864d5f056a94ac1ab7dcd772fcdb39b2889fa222fa4b49ff107fd8b",
+    "characters": 3796,
+    "read_lines": [
+      1,
+      3,
+      15,
+      23,
+      33,
+      39,
+      45,
+      53,
+      63,
+      75,
+      81
+    ],
+    "read_at": "2026-10-16T15:34:54.131962+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "b558bf2b9ff22d831cab1ceed85951b6eaaa24f2535fd2b3773650fae58e7e35",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/CO/08_IO与DMA.md",
+    "sha256": "3388dca21fc86626bc8d4a8b3f1fe3d8b95123253247408528e2d2b83dba96ec",
+    "characters": 5631,
+    "read_lines": [
+      1,
+      3,
+      11,
+      23,
+      39,
+      49,
+      55,
+      63,
+      67,
+      84,
+      94,
+      104,
+      117,
+      139
+    ],
+    "read_at": "2026-10-16T15:34:54.132595+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "d4c6d8e4d9789fe323a03d1c833899f5110e67e98343b90adea60c1aa141420a",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/02_线性表下标结点与指针.md",
+    "sha256": "7275df546d19c29ecf12c4f555b12ac548f9eefd98650284f6fa82495f0ad368",
+    "characters": 7935,
+    "read_lines": [
+      1,
+      5,
+      13,
+      30,
+      40,
+      52,
+      71,
+      96,
+      100,
+      125,
+      129,
+      151,
+      157,
+      180,
+      203
+    ],
+    "read_at": "2026-10-16T15:34:54.133671+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "646fac8b3481c8a0f87c0d27967a2ce0aca8a508decf94054491eeee1237ec12",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/05_树二叉树与应用.md",
+    "sha256": "aebc56fd446131a438717ba2406a69459dbb9b9ccecee61752f0f92b641215f8",
+    "characters": 10429,
+    "read_lines": [
+      1,
+      5,
+      13,
+      29,
+      41,
+      47,
+      57,
+      75,
+      113,
+      123,
+      151,
+      159,
+      167,
+      177,
+      185,
+      191,
+      213,
+      223,
+      247,
+      259
+    ],
+    "read_at": "2026-10-16T15:34:54.135278+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "e0057bc42f9211e65ee2c8dc92ad026772ca08ef4b658fc425319e4407069eba",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  },
+  {
+    "path": "manuscript/DS/07_查找与索引结构.md",
+    "sha256": "5976e10302bc91f87bf16a2943968d3b1d427d013b210ef1ebb2a5bfddbb19e5",
+    "characters": 10236,
+    "read_lines": [
+      1,
+      5,
+      13,
+      21,
+      33,
+      52,
+      64,
+      74,
+      82,
+      104,
+      114,
+      142,
+      148,
+      160,
+      170,
+      182,
+      192,
+      200,
+      217,
+      231,
+      243
+    ],
+    "read_at": "2026-10-16T15:34:54.136815+00:00",
+    "reviewer": "root",
+    "scope": "对照已实际审读的前版，逐项检查题源移至题干首行；忽略题源位置后普通正文逐行不变、标题措辞与锚点不变、题源标记多重集相同。不是重新全文知识审读。",
+    "inherited_actual_read_sha256": "13e2a9d5daef490a66947b7272a52a92314f5daaaa223c6d7518ffb88df0e2f7",
+    "evidence": "editorial/full/review/chinese_layout_revision.json",
+    "not_claimed": [
+      "新一轮全部题源核验",
+      "PDF视觉通过"
+    ]
+  }
+]

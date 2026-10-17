@@ -1,0 +1,47 @@
+[
+  {
+    "file": "exam_2009_rebuild.pdf",
+    "url": "https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/papers-rebuild/2009.pdf",
+    "accessed_on": "2026-10-15",
+    "sha256": "06a35e0baaf67631ae311cb98b7d0a4eceb6fa292d5a19bda888d760a2e107da",
+    "bytes": 819058,
+    "question_page": 8,
+    "source_type": "公开社区重建卷，非官方原卷"
+  },
+  {
+    "file": "exam_2014_rebuild.pdf",
+    "url": "https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/papers-rebuild/2014.pdf",
+    "accessed_on": "2026-10-15",
+    "sha256": "ae9a35cdf1e765cc80e4a14e4c15bc6ba9ceabcde1cb1f65d0c839d7a3f4f3c0",
+    "bytes": 925216,
+    "question_page": 11,
+    "source_type": "公开社区重建卷，非官方原卷"
+  },
+  {
+    "file": "exam_2022_rebuild.pdf",
+    "url": "https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/papers-rebuild/2022.pdf",
+    "accessed_on": "2026-10-15",
+    "sha256": "6850a0c624b1ec419114ed9f366cdab0b9bd7e3ad00375ba5a9dba7a3a76eecb",
+    "bytes": 1183597,
+    "question_page": 10,
+    "source_type": "公开社区重建卷，非官方原卷"
+  },
+  {
+    "file": "exam_2024_rebuild.pdf",
+    "url": "https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/papers-rebuild/2024.pdf",
+    "accessed_on": "2026-10-15",
+    "sha256": "baae7ba96588d55117a31c297304927d3791d0f3576bf0c70f32fd8a9fe1766c",
+    "bytes": 771257,
+    "question_page": 11,
+    "source_type": "公开社区重建卷，非官方原卷"
+  },
+  {
+    "file": "exam_2025_rebuild.pdf",
+    "url": "https://raw.githubusercontent.com/neville-studio/408-exam-paper/main/papers-rebuild/2025.pdf",
+    "accessed_on": "2026-10-15",
+    "sha256": "28f4fd31bb5ee1a72a839c939b713ef1729271e676d99291df0df26f8ef90b37",
+    "bytes": 1053731,
+    "question_page": 10,
+    "source_type": "公开社区重建卷，非官方原卷"
+  }
+]

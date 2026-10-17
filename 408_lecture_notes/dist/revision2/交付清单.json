@@ -1,0 +1,253 @@
+{
+  "edition": "revision2_content_review",
+  "date": "2026-10-17",
+  "books": [
+    {
+      "subject": "DS",
+      "title": "数据结构",
+      "pdf": "dist/revision2/数据结构_正文审阅稿.pdf",
+      "sha256": "45e433ca6be69bc9b4bf3b4c2407e6dbc1a66746ca10e600c67f1c9eff849310",
+      "chapters": 8,
+      "manuscript_characters": 67927,
+      "numbered_examples": 44,
+      "selected_source_records_including_selfchecks": 47,
+      "calculation_check_records": 66,
+      "layout_checks": "未执行：待用户正文审阅后进行",
+      "sources": [
+        {
+          "path": "manuscript/DS/01_数据结构算法与复杂度.md",
+          "sha256": "50ea81c2b22af78872f0f5defd888bdd8cfcae036403f8a00d1672fa227facb5",
+          "characters": 4669,
+          "chapter": 1
+        },
+        {
+          "path": "manuscript/DS/02_线性表下标结点与指针.md",
+          "sha256": "7275df546d19c29ecf12c4f555b12ac548f9eefd98650284f6fa82495f0ad368",
+          "characters": 7935,
+          "chapter": 2
+        },
+        {
+          "path": "manuscript/DS/03_栈队列与数组.md",
+          "sha256": "8c2ce0f7a734f26e671f4a38f63791fbbba325e833d7df5fee931c8223dbb90b",
+          "characters": 7067,
+          "chapter": 3
+        },
+        {
+          "path": "manuscript/DS/04_串与模式匹配.md",
+          "sha256": "508bfb54c946d5cb4f712d6045e1831b724b7bd6644571a79bdca389aefbf32f",
+          "characters": 4575,
+          "chapter": 4
+        },
+        {
+          "path": "manuscript/DS/05_树二叉树与应用.md",
+          "sha256": "aebc56fd446131a438717ba2406a69459dbb9b9ccecee61752f0f92b641215f8",
+          "characters": 10429,
+          "chapter": 5
+        },
+        {
+          "path": "manuscript/DS/06_图与图算法.md",
+          "sha256": "72ac42ac5bcefd164241298917b81099336a081dfcc2090fce20330c0ea6bc30",
+          "characters": 9366,
+          "chapter": 6
+        },
+        {
+          "path": "manuscript/DS/07_查找与索引结构.md",
+          "sha256": "84b5a8978a62f918f80958d8d2b93b0aed347336265fe5d24200d29921285904",
+          "characters": 11932,
+          "chapter": 7
+        },
+        {
+          "path": "manuscript/DS/08_排序与外部归并.md",
+          "sha256": "ffa1602936e872cbd03e1a70d38f6c485ce0e5ce57e0957db6eb5ddae196d290",
+          "characters": 11954,
+          "chapter": 8
+        }
+      ]
+    },
+    {
+      "subject": "CO",
+      "title": "计算机组成原理",
+      "pdf": "dist/revision2/计算机组成原理_正文审阅稿.pdf",
+      "sha256": "415a8e67cdbebc7df1ae75e3eecaa120a399291c210acd9f28f47e989bcfbf3b",
+      "chapters": 8,
+      "manuscript_characters": 71279,
+      "numbered_examples": 54,
+      "selected_source_records_including_selfchecks": 54,
+      "calculation_check_records": 112,
+      "layout_checks": "未执行：待用户正文审阅后进行",
+      "sources": [
+        {
+          "path": "manuscript/CO/01_计算机系统与程序执行.md",
+          "sha256": "5eb9f6d92889bc55e6fc03d620bc1457dfd1ce8c0f02f76719c4a9bafe6b5281",
+          "characters": 4611,
+          "chapter": 1
+        },
+        {
+          "path": "manuscript/CO/02_数据表示与运算.md",
+          "sha256": "13152e455d2ddb8096f480fd828c81e3e535b0b91b323d3bbe9faf1a05c5a4ff",
+          "characters": 13314,
+          "chapter": 2
+        },
+        {
+          "path": "manuscript/CO/03_存储系统与地址.md",
+          "sha256": "c0dd3094a9dc8d06c749432840928b1350c30e94bc0f1086b1333f8fe7c3c9a4",
+          "characters": 16443,
+          "chapter": 3
+        },
+        {
+          "path": "manuscript/CO/04_指令系统与程序表示.md",
+          "sha256": "09dea181c764fa054ed208e23099684cdd487f3938ef2f7d6f89e75e24e1900b",
+          "characters": 9717,
+          "chapter": 4
+        },
+        {
+          "path": "manuscript/CO/05_CPU与控制.md",
+          "sha256": "e47fda476e9ffdadec5cbaa66189323deca16a7bdd5f23f5eaaad464faa61e18",
+          "characters": 6897,
+          "chapter": 5
+        },
+        {
+          "path": "manuscript/CO/06_流水线与并行处理.md",
+          "sha256": "56bf3d8146abacd5dad272ccfc9408ea8ba78aa627196981268b6ef2f5a94879",
+          "characters": 8697,
+          "chapter": 6
+        },
+        {
+          "path": "manuscript/CO/07_总线与传输时间.md",
+          "sha256": "3cf59d66a1e224cb4a88822009f19fca66d0ea8f1ecbc6d482e70bd061915d42",
+          "characters": 4234,
+          "chapter": 7
+        },
+        {
+          "path": "manuscript/CO/08_IO与DMA.md",
+          "sha256": "5979de842f4a6e65ee5920c9f7ebafac8742044ae2aa297ba53af41a3d5ae4d5",
+          "characters": 7366,
+          "chapter": 8
+        }
+      ]
+    },
+    {
+      "subject": "OS",
+      "title": "操作系统",
+      "pdf": "dist/revision2/操作系统_正文审阅稿.pdf",
+      "sha256": "015188cbac29640a69f27eec58d325d0b2d98ddefa1549337cbf24de1bf26285",
+      "chapters": 7,
+      "manuscript_characters": 69780,
+      "numbered_examples": 38,
+      "selected_source_records_including_selfchecks": 38,
+      "calculation_check_records": 37,
+      "layout_checks": "未执行：待用户正文审阅后进行",
+      "sources": [
+        {
+          "path": "manuscript/OS/01_操作系统与程序运行环境.md",
+          "sha256": "54d093504de58e5436ca93ba7bcf87ac6b71937c6c91528a6c512f9fd5b54e47",
+          "characters": 7332,
+          "chapter": 1
+        },
+        {
+          "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+          "sha256": "178bf4c5a8bc64cb3eb810837a6371c05155fd7651c2a60fa584de0fb15b2045",
+          "characters": 10509,
+          "chapter": 2
+        },
+        {
+          "path": "manuscript/OS/03_同步互斥与信号量.md",
+          "sha256": "3a96a181d6cad7b43c36a0db4361dacf634de93eef89096e3e07735c0d0e969f",
+          "characters": 17755,
+          "chapter": 3
+        },
+        {
+          "path": "manuscript/OS/04_死锁与资源分配.md",
+          "sha256": "e68dc825bc9d938931cba9d28d92527b8708f29aa2825b479372d076465ecdea",
+          "characters": 6413,
+          "chapter": 4
+        },
+        {
+          "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+          "sha256": "f34cc09bf9ace43c58ad486e7b7003adfd320a433706edc637ae0d849b1ff287",
+          "characters": 11190,
+          "chapter": 5
+        },
+        {
+          "path": "manuscript/OS/06_文件目录与文件系统.md",
+          "sha256": "28fbd0a8c728da641d236d2f7da9232374b9fdc92fdcf718697fa786c162d056",
+          "characters": 8640,
+          "chapter": 6
+        },
+        {
+          "path": "manuscript/OS/07_IO设备与外存调度.md",
+          "sha256": "e1cea9533378c1817794a4bf2a14e3d52c3609a33840f6a079986ca34d8bd813",
+          "characters": 7941,
+          "chapter": 7
+        }
+      ]
+    },
+    {
+      "subject": "CN",
+      "title": "计算机网络",
+      "pdf": "dist/revision2/计算机网络_正文审阅稿.pdf",
+      "sha256": "8390a38d4831cbd5639bcabc1503bd8f0304ce0add578688ef53b907819dd959",
+      "chapters": 6,
+      "manuscript_characters": 63281,
+      "numbered_examples": 41,
+      "selected_source_records_including_selfchecks": 41,
+      "calculation_check_records": 107,
+      "layout_checks": "未执行：待用户正文审阅后进行",
+      "sources": [
+        {
+          "path": "manuscript/CN/01_网络层次服务与性能.md",
+          "sha256": "8dbeb5a3eddaffca56ca1b6d2250249f8c5d7e9607be309c80b4544896842189",
+          "characters": 5732,
+          "chapter": 1
+        },
+        {
+          "path": "manuscript/CN/02_物理层信号速率与交换.md",
+          "sha256": "b4bd3abcaf2e34d7f4d6c95e75f6071a56fcb9092a126f323fdfb5b54504711e",
+          "characters": 7198,
+          "chapter": 2
+        },
+        {
+          "path": "manuscript/CN/03_链路层可靠传输与介质访问.md",
+          "sha256": "71ed81a6cd55080df02a15f626344d8237e2f23f25de37afe26459ce5db702b9",
+          "characters": 16069,
+          "chapter": 3
+        },
+        {
+          "path": "manuscript/CN/04_网络层地址路由与转发.md",
+          "sha256": "a72f0e210000159303266a4f08edbbf7b748210cda1a0479ba76b1e801f97970",
+          "characters": 15294,
+          "chapter": 4
+        },
+        {
+          "path": "manuscript/CN/05_传输层可靠连接与窗口.md",
+          "sha256": "9ec15261326ce39a7337ef43c6bfe8cf5a82201422c848bd4a0530375e93481f",
+          "characters": 10457,
+          "chapter": 5
+        },
+        {
+          "path": "manuscript/CN/06_应用层名称邮件与Web.md",
+          "sha256": "5094b561a394c67883e8ad8070c4ffb228cfb14498bec74432a64724b8ef52ed",
+          "characters": 8531,
+          "chapter": 6
+        }
+      ]
+    }
+  ],
+  "chapters": 29,
+  "numbered_examples": 177,
+  "referenced_figures": 72,
+  "stable_knowledge_groups_located": 243,
+  "read_mistake_dispositions": 457,
+  "calculation_check_records": 326,
+  "independent_content_review": "editorial/revision2/review/final_content_review.json",
+  "pdf_layout_review": {
+    "status": "NOT_PERFORMED",
+    "reason": "遵照用户要求，先审正文，再做分页、裁切和逐页视觉检查"
+  },
+  "limits": [
+    "正式2027大纲全文细目仍未取得，不宣称官方逐条核验完成。",
+    "真题依据王道主书及社区二手复原卷交叉，未取得官方原卷/答案发布。",
+    "V1版式与视觉记录属于旧PDF，不对本次正文审阅稿授予通过。",
+    "未统计考试频率；本轮增补依据教学任务和已读资料。"
+  ]
+}

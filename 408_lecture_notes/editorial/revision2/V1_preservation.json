@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "仅核V1文件未被审阅稿覆盖及目录版本分离；不读取或检查PDF页面",
+  "V1_pdfs": [
+    {
+      "pdf": "dist/数据结构_讲义.pdf",
+      "sha256": "641085ef3bf906c0a397d54acbef8bf468c50df4e84bc54449c3ab02276621dc",
+      "unchanged_from_V1": true
+    },
+    {
+      "pdf": "dist/计算机组成原理_讲义.pdf",
+      "sha256": "6c13edf10d9d4c2cddcf1c68fddd6d30631b8fc1530e7b88965c30a39bd6fa32",
+      "unchanged_from_V1": true
+    },
+    {
+      "pdf": "dist/操作系统_讲义.pdf",
+      "sha256": "fbc3ff8e3aefebdf83b42032d1f8a305e88dd65f35f5965a72e913c60e487d94",
+      "unchanged_from_V1": true
+    },
+    {
+      "pdf": "dist/计算机网络_讲义.pdf",
+      "sha256": "05115c1c06596f0f65d19a5a5e63968a6706f8bb6592082dfead322b91ce610b",
+      "unchanged_from_V1": true
+    }
+  ],
+  "review_directory": "dist/revision2/四科目录.md",
+  "historical_V1_directory_restored_from": "dist/408讲义_四科全稿_正文图稿与构建源码.zip",
+  "pdf_layout_check_performed": false
+}

@@ -1,0 +1,35 @@
+稿件题干：
+下列关于IPv4和IPv6的叙述中，正确的是（　）。
+
+I. IPv6地址空间是IPv4地址空间的96倍
+
+II. IPv4首部和IPv6基本首部的长度均可变
+
+III. IPv4向IPv6过渡可以采用双协议栈和隧道技术
+
+IV. IPv6首部的Hop Limit字段等价于IPv4首部的TTL字段
+
+A. 仅I、II　B. 仅I、IV　C. 仅II、III　D. 仅III、IV
+
+复原卷：
+40.下列关于IPv4 和IPv6 的叙述中，正确的是（ ）。 
+I. IPv6 地址空间是IPv4 地址空间的96 倍 
+II. IPv4 首部和IPv6 的基本首部的长度均可变 
+III. IPv4 向IPv6 过渡可以采用双协议栈和隧道技术 
+IV. IPv6 首部的Hop Limit 等价于IPv4 首部的TTL 字段 
+A. 仅I、II 
+B. 仅I、IV 
+C. 仅II、III 
+D. 仅III、IV
+
+王道题干：
+7.【2023 统考真题】下列关于IPv4 和IPv6 的叙述中,正确的是(
+)
+I. IPv6 地址空间是IPv4 地址空间的96 倍
+II. IPv4 首部和IPv6 基本首部的长度均可变
+III. IPv4 向IPv6 过渡可以采用双协议栈和隧道技术
+IV. IPv6 首部的HopLimit 字段等价于IPv4 首部的TTL 字段
+A. 仅I、II
+B. 仅I、IV
+C. 仅II、III
+D. 仅III、IV

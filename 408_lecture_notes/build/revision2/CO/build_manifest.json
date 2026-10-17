@@ -1,0 +1,2475 @@
+{
+  "subject": "CO",
+  "title": "计算机组成原理",
+  "partial": false,
+  "sources": [
+    {
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "sha256": "5eb9f6d92889bc55e6fc03d620bc1457dfd1ce8c0f02f76719c4a9bafe6b5281",
+      "characters": 4611,
+      "chapter": 1
+    },
+    {
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "sha256": "13152e455d2ddb8096f480fd828c81e3e535b0b91b323d3bbe9faf1a05c5a4ff",
+      "characters": 13314,
+      "chapter": 2
+    },
+    {
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "sha256": "c0dd3094a9dc8d06c749432840928b1350c30e94bc0f1086b1333f8fe7c3c9a4",
+      "characters": 16443,
+      "chapter": 3
+    },
+    {
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "sha256": "09dea181c764fa054ed208e23099684cdd487f3938ef2f7d6f89e75e24e1900b",
+      "characters": 9717,
+      "chapter": 4
+    },
+    {
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "sha256": "e47fda476e9ffdadec5cbaa66189323deca16a7bdd5f23f5eaaad464faa61e18",
+      "characters": 6897,
+      "chapter": 5
+    },
+    {
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "sha256": "56bf3d8146abacd5dad272ccfc9408ea8ba78aa627196981268b6ef2f5a94879",
+      "characters": 8697,
+      "chapter": 6
+    },
+    {
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "sha256": "3cf59d66a1e224cb4a88822009f19fca66d0ea8f1ecbc6d482e70bd061915d42",
+      "characters": 4234,
+      "chapter": 7
+    },
+    {
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "sha256": "5979de842f4a6e65ee5920c9f7ebafac8742044ae2aa297ba53af41a3d5ae4d5",
+      "characters": 7366,
+      "chapter": 8
+    }
+  ],
+  "heading_count": 141,
+  "questions": [
+    {
+      "level": 3,
+      "title": "例 1-1　硬件直接执行哪一种程序",
+      "anchor": "co-ex1-1",
+      "chapter": 1,
+      "section": "1.2",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 47,
+      "marker": "【2015】"
+    },
+    {
+      "level": 3,
+      "title": "例 1-2　主频相同，怎样由指令组成求时间",
+      "anchor": "co-ex1-2",
+      "chapter": 1,
+      "section": "1.3",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 78,
+      "marker": "【2022】"
+    },
+    {
+      "level": 3,
+      "title": "例 1-3　CPU 加快后，I/O 时间怎样处理",
+      "anchor": "co-ex1-3",
+      "chapter": 1,
+      "section": "1.3",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 86,
+      "marker": "【2012】"
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self1",
+      "chapter": 1,
+      "section": "1.3",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 114
+    },
+    {
+      "level": 3,
+      "title": "例 2-1　整数与小数分别换基数",
+      "anchor": "co-ex2-1",
+      "chapter": 2,
+      "section": "2.1",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 9,
+      "marker": "〖2.1-001〗"
+    },
+    {
+      "level": 3,
+      "title": "例 2-2　无符号短整数扩展",
+      "anchor": "co-ex2-2",
+      "chapter": 2,
+      "section": "2.3",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 46,
+      "marker": "【2012】"
+    },
+    {
+      "level": 3,
+      "title": "例 2-3　负的 short 转成 unsigned int",
+      "anchor": "co-ex2-3",
+      "chapter": 2,
+      "section": "2.3",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 61,
+      "marker": "【2025】"
+    },
+    {
+      "level": 3,
+      "title": "例 2-4　减法器的两路输入不直接送负数符号",
+      "anchor": "co-ex2-4",
+      "chapter": 2,
+      "section": "2.4",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 95,
+      "marker": "〖2.2-018〗"
+    },
+    {
+      "level": 3,
+      "title": "例 2-5　十六进制补码相减",
+      "anchor": "co-ex2-5",
+      "chapter": 2,
+      "section": "2.5",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 127,
+      "marker": "【2018】"
+    },
+    {
+      "level": 3,
+      "title": "例 2-6　有符号减法为何仍会产生借位",
+      "anchor": "co-ex2-6",
+      "chapter": 2,
+      "section": "2.5",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 138,
+      "marker": "【2023】"
+    },
+    {
+      "level": 3,
+      "title": "例 2-7　负小数怎样组成单精度机器数",
+      "anchor": "co-ex2-7",
+      "chapter": 2,
+      "section": "2.7",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 225,
+      "marker": "【2022】"
+    },
+    {
+      "level": 3,
+      "title": "例 2-8　同为负浮点数时怎样比较",
+      "anchor": "co-ex2-8",
+      "chapter": 2,
+      "section": "2.7",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 233,
+      "marker": "【2014】"
+    },
+    {
+      "level": 3,
+      "title": "例 2-9　哪些步骤可能造成指数越界",
+      "anchor": "co-ex2-9",
+      "chapter": 2,
+      "section": "2.8",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 253,
+      "marker": "【2015】"
+    },
+    {
+      "level": 3,
+      "title": "例 2-10　同一求和程序中的循环边界、整数范围与浮点精度",
+      "anchor": "co-ex2-10",
+      "chapter": 2,
+      "section": "2.8",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 276,
+      "marker": "【2017】"
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self2",
+      "chapter": 2,
+      "section": "2.8",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 315
+    },
+    {
+      "level": 3,
+      "title": "例 3-1　DRAM 的复用地址怎样计数",
+      "anchor": "co-ex3-1",
+      "chapter": 3,
+      "section": "3.3",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 27,
+      "marker": "【2014】"
+    },
+    {
+      "level": 3,
+      "title": "例 3-2　已安装容量不是全部可编址空间",
+      "anchor": "co-ex3-2",
+      "chapter": 3,
+      "section": "3.3",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 41,
+      "marker": "【2011】"
+    },
+    {
+      "level": 3,
+      "title": "例 3-3　同一模块不等于立即发生冲突",
+      "anchor": "co-ex3-3",
+      "chapter": 3,
+      "section": "3.4",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 64,
+      "marker": "【2015】"
+    },
+    {
+      "level": 3,
+      "title": "例 3-4　ROM 与 RAM 分区要分别计算",
+      "anchor": "co-ex3-4",
+      "chapter": 3,
+      "section": "3.5",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 80,
+      "marker": "【2009】"
+    },
+    {
+      "level": 3,
+      "title": "例 3-5　7200转每分不是7200转每秒",
+      "anchor": "co-ex3-5",
+      "chapter": 3,
+      "section": "3.6",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 102,
+      "marker": "【2015】"
+    },
+    {
+      "level": 3,
+      "title": "例 3-6　读后写的数组访问怎样计缺失率",
+      "anchor": "co-ex3-6",
+      "chapter": 3,
+      "section": "3.7",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 124,
+      "marker": "【2016】"
+    },
+    {
+      "level": 3,
+      "title": "例 3-7　8路组相联需要几个比较器",
+      "anchor": "co-ex3-7",
+      "chapter": 3,
+      "section": "3.8",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 163,
+      "marker": "【2022】"
+    },
+    {
+      "level": 3,
+      "title": "例 3-8　Cache 总容量还包括哪些位",
+      "anchor": "co-ex3-8",
+      "chapter": 3,
+      "section": "3.10",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 185,
+      "marker": "【2015】"
+    },
+    {
+      "level": 3,
+      "title": "例 3-9　页号的十六进制不能直接当表中十进制",
+      "anchor": "co-ex3-9",
+      "chapter": 3,
+      "section": "3.12",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 221,
+      "marker": "【2022】"
+    },
+    {
+      "level": 3,
+      "title": "例 3-10　TLB 标记不包含页内偏移",
+      "anchor": "co-ex3-10",
+      "chapter": 3,
+      "section": "3.12",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 239,
+      "marker": "【2024】"
+    },
+    {
+      "level": 3,
+      "title": "例 3-11　交换内外层循环，命中率一定降低吗",
+      "anchor": "co-ex3-11",
+      "chapter": 3,
+      "section": "3.14",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 259,
+      "marker": "【2023】改编"
+    },
+    {
+      "level": 3,
+      "title": "例 3-12　TLB的组选、标记与连续替换",
+      "anchor": "co-ex3-12",
+      "chapter": 3,
+      "section": "3.14",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 317,
+      "marker": "【2021】"
+    },
+    {
+      "level": 3,
+      "title": "例 3-13　TLB未命中后，还要经过哪些判断",
+      "anchor": "co-ex3-13",
+      "chapter": 3,
+      "section": "3.14",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 352
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self3",
+      "chapter": 3,
+      "section": "3.14",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 389
+    },
+    {
+      "level": 3,
+      "title": "例 4-1　扩展操作码应逐层扣除哪些前缀",
+      "anchor": "co-ex4-1",
+      "chapter": 4,
+      "section": "4.1",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 13,
+      "marker": "【2022】"
+    },
+    {
+      "level": 3,
+      "title": "例 4-2　相对转移用哪个 PC",
+      "anchor": "co-ex4-2",
+      "chapter": 4,
+      "section": "4.2",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 40,
+      "marker": "【2009】"
+    },
+    {
+      "level": 3,
+      "title": "例 4-3　先确定结构布局，再看低字节",
+      "anchor": "co-ex4-3",
+      "chapter": 4,
+      "section": "4.3",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 62,
+      "marker": "【2012】"
+    },
+    {
+      "level": 3,
+      "title": "例 4-4　RISC 设计能否支持流水线",
+      "anchor": "co-ex4-4",
+      "chapter": 4,
+      "section": "4.4",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 92,
+      "marker": "【2025】"
+    },
+    {
+      "level": 3,
+      "title": "例 4-5　工具链顺序",
+      "anchor": "co-ex4-5",
+      "chapter": 4,
+      "section": "4.5",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 109,
+      "marker": "【2022】"
+    },
+    {
+      "level": 3,
+      "title": "例 4-6　递归调用的返回位置、机器编码与乘法溢出",
+      "anchor": "co-ex4-6",
+      "chapter": 4,
+      "section": "4.7",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 182,
+      "marker": "【2019】"
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self4",
+      "chapter": 4,
+      "section": "4.7",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 258
+    },
+    {
+      "level": 3,
+      "title": "例 5-1　哪些元件负责运算，哪些元件保存状态",
+      "anchor": "co-ex5-1",
+      "chapter": 5,
+      "section": "5.1",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 20,
+      "marker": "【2023】"
+    },
+    {
+      "level": 3,
+      "title": "例 5-2　从单总线图确定控制信号与取指时序",
+      "anchor": "co-ex5-2",
+      "chapter": 5,
+      "section": "5.3",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 56,
+      "marker": "【2022】"
+    },
+    {
+      "level": 3,
+      "title": "例 5-3　间接操作数经过哪些部件",
+      "anchor": "co-ex5-3",
+      "chapter": 5,
+      "section": "5.3",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 98,
+      "marker": "【2019】"
+    },
+    {
+      "level": 3,
+      "title": "例 5-4　互斥类为什么还要一个空操作编码",
+      "anchor": "co-ex5-4",
+      "chapter": 5,
+      "section": "5.4",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 121,
+      "marker": "【2012】"
+    },
+    {
+      "level": 3,
+      "title": "例 5-5　控制存储器地址字段怎样估位宽",
+      "anchor": "co-ex5-5",
+      "chapter": 5,
+      "section": "5.4",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 129,
+      "marker": "【2014】"
+    },
+    {
+      "level": 3,
+      "title": "例 5-6　缺页后为什么重试当前指令",
+      "anchor": "co-ex5-6",
+      "chapter": 5,
+      "section": "5.5",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 149,
+      "marker": "【2021】"
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self5",
+      "chapter": 5,
+      "section": "5.5",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 161
+    },
+    {
+      "level": 3,
+      "title": "例 6-1　最慢的一段决定时钟下限",
+      "anchor": "co-ex6-1",
+      "chapter": 6,
+      "section": "6.1",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 17,
+      "marker": "【2009】"
+    },
+    {
+      "level": 3,
+      "title": "例 6-2　装入后立即使用需要一个气泡",
+      "anchor": "co-ex6-2",
+      "chapter": 6,
+      "section": "6.3",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 60,
+      "marker": "〖5.6-013〗"
+    },
+    {
+      "level": 3,
+      "title": "例 6-3　同一段序列里同时有数据与控制等待",
+      "anchor": "co-ex6-3",
+      "chapter": 6,
+      "section": "6.3",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 84,
+      "marker": "【2023】"
+    },
+    {
+      "level": 3,
+      "title": "例 6-4　硬件多线程不等于多核",
+      "anchor": "co-ex6-4",
+      "chapter": 6,
+      "section": "6.6",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 136,
+      "marker": "【2022】"
+    },
+    {
+      "level": 3,
+      "title": "例 6-5　无转发流水线的阻塞传播与最短调度",
+      "anchor": "co-ex6-5",
+      "chapter": 6,
+      "section": "6.6",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 147,
+      "marker": "【2012】"
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self6",
+      "chapter": 6,
+      "section": "6.6",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 211
+    },
+    {
+      "level": 3,
+      "title": "例 7-1　一个总线周期占两个时钟周期",
+      "anchor": "co-ex7-1",
+      "chapter": 7,
+      "section": "7.1",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 15,
+      "marker": "【2009】"
+    },
+    {
+      "level": 3,
+      "title": "例 7-2　已经给出 MT/s 就不再乘4",
+      "anchor": "co-ex7-2",
+      "chapter": 7,
+      "section": "7.1",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 23,
+      "marker": "【2025】"
+    },
+    {
+      "level": 3,
+      "title": "例 7-3　不支持突发，就要反复准备每个数据",
+      "anchor": "co-ex7-3",
+      "chapter": 7,
+      "section": "7.2",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 45,
+      "marker": "【2023】"
+    },
+    {
+      "level": 3,
+      "title": "例 7-4　峰值带宽与整次事务的有效速率",
+      "anchor": "co-ex7-4",
+      "chapter": 7,
+      "section": "7.2",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 53,
+      "marker": "【2024】"
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self7",
+      "chapter": 7,
+      "section": "7.2",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 89
+    },
+    {
+      "level": 3,
+      "title": "例 8-1　命令字走哪组线",
+      "anchor": "co-ex8-1",
+      "chapter": 8,
+      "section": "8.1",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 11,
+      "marker": "【2012】"
+    },
+    {
+      "level": 3,
+      "title": "例 8-2　定时查询占多少 CPU 时间",
+      "anchor": "co-ex8-2",
+      "chapter": 8,
+      "section": "8.2",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 39,
+      "marker": "【2011】"
+    },
+    {
+      "level": 3,
+      "title": "例 8-3　响应顺序与完成顺序为什么可以不同",
+      "anchor": "co-ex8-3",
+      "chapter": 8,
+      "section": "8.3",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 67
+    },
+    {
+      "level": 3,
+      "title": "例 8-4　允许延迟不是额外的服务开销",
+      "anchor": "co-ex8-4",
+      "chapter": 8,
+      "section": "8.3",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 84,
+      "marker": "【2014】"
+    },
+    {
+      "level": 3,
+      "title": "例 8-5　周期挪用不等于整块期间封住主存",
+      "anchor": "co-ex8-5",
+      "chapter": 8,
+      "section": "8.4",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 104,
+      "marker": "【2020】"
+    },
+    {
+      "level": 3,
+      "title": "例 8-6　DMA 的准备与完成仍需要软件",
+      "anchor": "co-ex8-6",
+      "chapter": 8,
+      "section": "8.4",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 117,
+      "marker": "【2019】"
+    },
+    {
+      "level": 3,
+      "title": "例 8-7　同一接口缓冲下比较查询、中断和DMA预算",
+      "anchor": "co-ex8-7",
+      "chapter": 8,
+      "section": "8.4",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 141,
+      "marker": "【2018】"
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self8",
+      "chapter": 8,
+      "section": "8.4",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 185
+    }
+  ],
+  "methods": [
+    {
+      "level": 2,
+      "title": "从程序看计算机的功能部件",
+      "anchor": "co-01-01",
+      "chapter": 1,
+      "section": "1.1",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 3
+    },
+    {
+      "level": 2,
+      "title": "存储程序怎样变成一次次指令执行",
+      "anchor": "co-01-02",
+      "chapter": 1,
+      "section": "1.2",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 26
+    },
+    {
+      "level": 2,
+      "title": "性能计算：先确定谁的时间在改变",
+      "anchor": "co-01-03",
+      "chapter": 1,
+      "section": "1.3",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 59
+    },
+    {
+      "level": 2,
+      "title": "位串与数值之间还差一个解释规则",
+      "anchor": "co-02-01",
+      "chapter": 2,
+      "section": "2.1",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 3
+    },
+    {
+      "level": 2,
+      "title": "定点编码：范围先于运算规则",
+      "anchor": "co-02-02",
+      "chapter": 2,
+      "section": "2.2",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 19
+    },
+    {
+      "level": 2,
+      "title": "截断、扩展与 C 类型转换",
+      "anchor": "co-02-03",
+      "chapter": 2,
+      "section": "2.3",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 40
+    },
+    {
+      "level": 2,
+      "title": "加法器怎样同时支持加与减",
+      "anchor": "co-02-04",
+      "chapter": 2,
+      "section": "2.4",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 82
+    },
+    {
+      "level": 2,
+      "title": "CF 与 OF 分别判断什么",
+      "anchor": "co-02-05",
+      "chapter": 2,
+      "section": "2.5",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 106
+    },
+    {
+      "level": 3,
+      "title": "同一个结果，按哪一种数判断",
+      "anchor": "co-c02-h114",
+      "chapter": 2,
+      "section": "2.5",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 114
+    },
+    {
+      "level": 2,
+      "title": "乘除运算必须保留的中间量",
+      "anchor": "co-02-06",
+      "chapter": 2,
+      "section": "2.6",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 148
+    },
+    {
+      "level": 2,
+      "title": "IEEE 754：字段既规定精度，也规定特殊情况",
+      "anchor": "co-02-07",
+      "chapter": 2,
+      "section": "2.7",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 204
+    },
+    {
+      "level": 2,
+      "title": "浮点加减：对阶丢位以后还要判断舍入",
+      "anchor": "co-02-08",
+      "chapter": 2,
+      "section": "2.8",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 243
+    },
+    {
+      "level": 3,
+      "title": "定点整数与浮点数的范围、精度怎样比较",
+      "anchor": "co-c02-h270",
+      "chapter": 2,
+      "section": "2.8",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 270
+    },
+    {
+      "level": 2,
+      "title": "为什么一个程序同时使用几层存储器",
+      "anchor": "co-03-01",
+      "chapter": 3,
+      "section": "3.1",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 3
+    },
+    {
+      "level": 2,
+      "title": "SRAM、DRAM 与 Flash 保存信息的方式",
+      "anchor": "co-03-02",
+      "chapter": 3,
+      "section": "3.2",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 13
+    },
+    {
+      "level": 2,
+      "title": "地址引脚不总等于地址位数",
+      "anchor": "co-03-03",
+      "chapter": 3,
+      "section": "3.3",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 23
+    },
+    {
+      "level": 3,
+      "title": "MAR 容量由地址空间决定",
+      "anchor": "co-c03-h37",
+      "chapter": 3,
+      "section": "3.3",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 37
+    },
+    {
+      "level": 2,
+      "title": "单体多字和多体交叉怎样提高带宽",
+      "anchor": "co-03-04",
+      "chapter": 3,
+      "section": "3.4",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 49
+    },
+    {
+      "level": 2,
+      "title": "主存芯片怎样连到 CPU",
+      "anchor": "co-03-05",
+      "chapter": 3,
+      "section": "3.5",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 72
+    },
+    {
+      "level": 2,
+      "title": "磁盘与 SSD 的一次访问花在哪些时间上",
+      "anchor": "co-03-06",
+      "chapter": 3,
+      "section": "3.6",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 92
+    },
+    {
+      "level": 2,
+      "title": "Cache 命中率怎样变成时间",
+      "anchor": "co-03-07",
+      "chapter": 3,
+      "section": "3.7",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 112
+    },
+    {
+      "level": 2,
+      "title": "地址拆分决定块能放在哪里",
+      "anchor": "co-03-08",
+      "chapter": 3,
+      "section": "3.8",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 143
+    },
+    {
+      "level": 2,
+      "title": "LRU 更新的是访问次序，不只是装入次序",
+      "anchor": "co-03-09",
+      "chapter": 3,
+      "section": "3.9",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 171
+    },
+    {
+      "level": 2,
+      "title": "写命中与写缺失是两个独立问题",
+      "anchor": "co-03-10",
+      "chapter": 3,
+      "section": "3.10",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 179
+    },
+    {
+      "level": 2,
+      "title": "虚拟存储器怎样让程序看到地址空间",
+      "anchor": "co-03-11",
+      "chapter": 3,
+      "section": "3.11",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 195
+    },
+    {
+      "level": 2,
+      "title": "页表与 TLB：地址偏移为何原样保留",
+      "anchor": "co-03-12",
+      "chapter": 3,
+      "section": "3.12",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 201
+    },
+    {
+      "level": 2,
+      "title": "段式与段页式地址为什么需要界限检查",
+      "anchor": "co-03-13",
+      "chapter": 3,
+      "section": "3.13",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 249
+    },
+    {
+      "level": 2,
+      "title": "综合访存：数组次序、TLB替换与Cache查找",
+      "anchor": "co-memory-synthesis",
+      "chapter": 3,
+      "section": "3.14",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 257
+    },
+    {
+      "level": 2,
+      "title": "指令字段怎样决定可表示的操作和地址",
+      "anchor": "co-04-01",
+      "chapter": 4,
+      "section": "4.1",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 3
+    },
+    {
+      "level": 2,
+      "title": "从形式地址到有效地址",
+      "anchor": "co-04-02",
+      "chapter": 4,
+      "section": "4.2",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 23
+    },
+    {
+      "level": 2,
+      "title": "大端、小端和对齐解决不同问题",
+      "anchor": "co-04-03",
+      "chapter": 4,
+      "section": "4.3",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 54
+    },
+    {
+      "level": 2,
+      "title": "RISC 与 CISC：设计倾向不代替具体实现",
+      "anchor": "co-04-04",
+      "chapter": 4,
+      "section": "4.4",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 86
+    },
+    {
+      "level": 2,
+      "title": "编译、汇编、链接怎样确定程序中的地址",
+      "anchor": "co-04-05",
+      "chapter": 4,
+      "section": "4.5",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 103
+    },
+    {
+      "level": 2,
+      "title": "分支和循环怎样改变 PC",
+      "anchor": "co-04-06",
+      "chapter": 4,
+      "section": "4.6",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 120
+    },
+    {
+      "level": 2,
+      "title": "过程调用为什么要保存返回位置",
+      "anchor": "co-04-07",
+      "chapter": 4,
+      "section": "4.7",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 155
+    },
+    {
+      "level": 2,
+      "title": "寄存器的名字说明它暂存什么",
+      "anchor": "co-05-01",
+      "chapter": 5,
+      "section": "5.1",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 3
+    },
+    {
+      "level": 2,
+      "title": "指令周期、机器周期与时钟周期",
+      "anchor": "co-05-02",
+      "chapter": 5,
+      "section": "5.2",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 31
+    },
+    {
+      "level": 2,
+      "title": "一条指令怎样变为微操作",
+      "anchor": "co-05-03",
+      "chapter": 5,
+      "section": "5.3",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 50
+    },
+    {
+      "level": 2,
+      "title": "控制信号由组合逻辑还是微程序产生",
+      "anchor": "co-05-04",
+      "chapter": 5,
+      "section": "5.4",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 111
+    },
+    {
+      "level": 2,
+      "title": "异常、中断与返回位置",
+      "anchor": "co-05-05",
+      "chapter": 5,
+      "section": "5.5",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 139
+    },
+    {
+      "level": 2,
+      "title": "延迟和完成间隔是两个量",
+      "anchor": "co-06-01",
+      "chapter": 6,
+      "section": "6.1",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 3
+    },
+    {
+      "level": 2,
+      "title": "阶段寄存器保存的不只是一份数据",
+      "anchor": "co-06-02",
+      "chapter": 6,
+      "section": "6.2",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 27
+    },
+    {
+      "level": 2,
+      "title": "冒险先按冲突对象分类",
+      "anchor": "co-06-03",
+      "chapter": 6,
+      "section": "6.3",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 35
+    },
+    {
+      "level": 2,
+      "title": "超标量与动态流水线允许哪些重叠",
+      "anchor": "co-06-04",
+      "chapter": 6,
+      "section": "6.4",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 110
+    },
+    {
+      "level": 2,
+      "title": "一条指令处理多个数据，还是多个指令流",
+      "anchor": "co-06-05",
+      "chapter": 6,
+      "section": "6.5",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 120
+    },
+    {
+      "level": 2,
+      "title": "硬件线程、多核与共享内存",
+      "anchor": "co-06-06",
+      "chapter": 6,
+      "section": "6.6",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 128
+    },
+    {
+      "level": 2,
+      "title": "位宽、频率、传送率分别给出什么",
+      "anchor": "co-07-01",
+      "chapter": 7,
+      "section": "7.1",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 3
+    },
+    {
+      "level": 2,
+      "title": "一次总线事务从地址到应答",
+      "anchor": "co-07-02",
+      "chapter": 7,
+      "section": "7.2",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 33
+    },
+    {
+      "level": 3,
+      "title": "如何读总线时序图",
+      "anchor": "co-c07-h83",
+      "chapter": 7,
+      "section": "7.2",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 83
+    },
+    {
+      "level": 2,
+      "title": "端口是接口中可访问的位置",
+      "anchor": "co-08-01",
+      "chapter": 8,
+      "section": "8.1",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 3
+    },
+    {
+      "level": 2,
+      "title": "查询方式：等待和搬运都由 CPU 安排",
+      "anchor": "co-08-02",
+      "chapter": 8,
+      "section": "8.2",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 23
+    },
+    {
+      "level": 2,
+      "title": "中断方式：先请求，再响应，再运行服务程序",
+      "anchor": "co-08-03",
+      "chapter": 8,
+      "section": "8.3",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 49
+    },
+    {
+      "level": 2,
+      "title": "DMA：数据不经过 CPU 寄存器逐次搬运",
+      "anchor": "co-08-04",
+      "chapter": 8,
+      "section": "8.4",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 94
+    }
+  ],
+  "headings": [
+    {
+      "level": 1,
+      "title": "计算机系统与程序执行的层次",
+      "anchor": "co-ch1",
+      "chapter": 1,
+      "section": "1.0",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "title": "从程序看计算机的功能部件",
+      "anchor": "co-01-01",
+      "chapter": 1,
+      "section": "1.1",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 3
+    },
+    {
+      "level": 3,
+      "title": "ISA 规定什么，微体系结构决定什么",
+      "anchor": "co-c01-h20",
+      "chapter": 1,
+      "section": "1.1",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 20
+    },
+    {
+      "level": 2,
+      "title": "存储程序怎样变成一次次指令执行",
+      "anchor": "co-01-02",
+      "chapter": 1,
+      "section": "1.2",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 26
+    },
+    {
+      "level": 3,
+      "title": "从 C 源文件到 CPU 能执行的内容",
+      "anchor": "co-c01-h41",
+      "chapter": 1,
+      "section": "1.2",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 41
+    },
+    {
+      "level": 3,
+      "title": "例 1-1　硬件直接执行哪一种程序",
+      "anchor": "co-ex1-1",
+      "chapter": 1,
+      "section": "1.2",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 47,
+      "marker": "【2015】"
+    },
+    {
+      "level": 2,
+      "title": "性能计算：先确定谁的时间在改变",
+      "anchor": "co-01-03",
+      "chapter": 1,
+      "section": "1.3",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 59
+    },
+    {
+      "level": 3,
+      "title": "例 1-2　主频相同，怎样由指令组成求时间",
+      "anchor": "co-ex1-2",
+      "chapter": 1,
+      "section": "1.3",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 78,
+      "marker": "【2022】"
+    },
+    {
+      "level": 3,
+      "title": "例 1-3　CPU 加快后，I/O 时间怎样处理",
+      "anchor": "co-ex1-3",
+      "chapter": 1,
+      "section": "1.3",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 86,
+      "marker": "【2012】"
+    },
+    {
+      "level": 3,
+      "title": "比较性能时，为什么不能只看主频或 MIPS",
+      "anchor": "co-c01-h102",
+      "chapter": 1,
+      "section": "1.3",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 102
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self1",
+      "chapter": 1,
+      "section": "1.3",
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "line": 114
+    },
+    {
+      "level": 1,
+      "title": "数据表示、位级运算与浮点数",
+      "anchor": "co-ch2",
+      "chapter": 2,
+      "section": "2.0",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "title": "位串与数值之间还差一个解释规则",
+      "anchor": "co-02-01",
+      "chapter": 2,
+      "section": "2.1",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 3
+    },
+    {
+      "level": 3,
+      "title": "例 2-1　整数与小数分别换基数",
+      "anchor": "co-ex2-1",
+      "chapter": 2,
+      "section": "2.1",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 9,
+      "marker": "〖2.1-001〗"
+    },
+    {
+      "level": 2,
+      "title": "定点编码：范围先于运算规则",
+      "anchor": "co-02-02",
+      "chapter": 2,
+      "section": "2.2",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 19
+    },
+    {
+      "level": 2,
+      "title": "截断、扩展与 C 类型转换",
+      "anchor": "co-02-03",
+      "chapter": 2,
+      "section": "2.3",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 40
+    },
+    {
+      "level": 3,
+      "title": "例 2-2　无符号短整数扩展",
+      "anchor": "co-ex2-2",
+      "chapter": 2,
+      "section": "2.3",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 46,
+      "marker": "【2012】"
+    },
+    {
+      "level": 3,
+      "title": "例 2-3　负的 short 转成 unsigned int",
+      "anchor": "co-ex2-3",
+      "chapter": 2,
+      "section": "2.3",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 61,
+      "marker": "【2025】"
+    },
+    {
+      "level": 3,
+      "title": "移位先问逻辑还是算术",
+      "anchor": "co-c02-h78",
+      "chapter": 2,
+      "section": "2.3",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 78
+    },
+    {
+      "level": 2,
+      "title": "加法器怎样同时支持加与减",
+      "anchor": "co-02-04",
+      "chapter": 2,
+      "section": "2.4",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 82
+    },
+    {
+      "level": 3,
+      "title": "例 2-4　减法器的两路输入不直接送负数符号",
+      "anchor": "co-ex2-4",
+      "chapter": 2,
+      "section": "2.4",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 95,
+      "marker": "〖2.2-018〗"
+    },
+    {
+      "level": 2,
+      "title": "CF 与 OF 分别判断什么",
+      "anchor": "co-02-05",
+      "chapter": 2,
+      "section": "2.5",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 106
+    },
+    {
+      "level": 3,
+      "title": "同一个结果，按哪一种数判断",
+      "anchor": "co-c02-h114",
+      "chapter": 2,
+      "section": "2.5",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 114
+    },
+    {
+      "level": 3,
+      "title": "例 2-5　十六进制补码相减",
+      "anchor": "co-ex2-5",
+      "chapter": 2,
+      "section": "2.5",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 127,
+      "marker": "【2018】"
+    },
+    {
+      "level": 3,
+      "title": "例 2-6　有符号减法为何仍会产生借位",
+      "anchor": "co-ex2-6",
+      "chapter": 2,
+      "section": "2.5",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 138,
+      "marker": "【2023】"
+    },
+    {
+      "level": 2,
+      "title": "乘除运算必须保留的中间量",
+      "anchor": "co-02-06",
+      "chapter": 2,
+      "section": "2.6",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 148
+    },
+    {
+      "level": 3,
+      "title": "无符号乘法：为什么需要部分积和双倍位宽",
+      "anchor": "co-c02-h150",
+      "chapter": 2,
+      "section": "2.6",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 150
+    },
+    {
+      "level": 3,
+      "title": "除法：商来自每一步余数比较",
+      "anchor": "co-c02-h180",
+      "chapter": 2,
+      "section": "2.6",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 180
+    },
+    {
+      "level": 2,
+      "title": "IEEE 754：字段既规定精度，也规定特殊情况",
+      "anchor": "co-02-07",
+      "chapter": 2,
+      "section": "2.7",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 204
+    },
+    {
+      "level": 3,
+      "title": "例 2-7　负小数怎样组成单精度机器数",
+      "anchor": "co-ex2-7",
+      "chapter": 2,
+      "section": "2.7",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 225,
+      "marker": "【2022】"
+    },
+    {
+      "level": 3,
+      "title": "例 2-8　同为负浮点数时怎样比较",
+      "anchor": "co-ex2-8",
+      "chapter": 2,
+      "section": "2.7",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 233,
+      "marker": "【2014】"
+    },
+    {
+      "level": 2,
+      "title": "浮点加减：对阶丢位以后还要判断舍入",
+      "anchor": "co-02-08",
+      "chapter": 2,
+      "section": "2.8",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 243
+    },
+    {
+      "level": 3,
+      "title": "例 2-9　哪些步骤可能造成指数越界",
+      "anchor": "co-ex2-9",
+      "chapter": 2,
+      "section": "2.8",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 253,
+      "marker": "【2015】"
+    },
+    {
+      "level": 3,
+      "title": "定点整数与浮点数的范围、精度怎样比较",
+      "anchor": "co-c02-h270",
+      "chapter": 2,
+      "section": "2.8",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 270
+    },
+    {
+      "level": 3,
+      "title": "例 2-10　同一求和程序中的循环边界、整数范围与浮点精度",
+      "anchor": "co-ex2-10",
+      "chapter": 2,
+      "section": "2.8",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 276,
+      "marker": "【2017】"
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self2",
+      "chapter": 2,
+      "section": "2.8",
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "line": 315
+    },
+    {
+      "level": 1,
+      "title": "存储层次、地址与 Cache",
+      "anchor": "co-ch3",
+      "chapter": 3,
+      "section": "3.0",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "title": "为什么一个程序同时使用几层存储器",
+      "anchor": "co-03-01",
+      "chapter": 3,
+      "section": "3.1",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 3
+    },
+    {
+      "level": 2,
+      "title": "SRAM、DRAM 与 Flash 保存信息的方式",
+      "anchor": "co-03-02",
+      "chapter": 3,
+      "section": "3.2",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 13
+    },
+    {
+      "level": 2,
+      "title": "地址引脚不总等于地址位数",
+      "anchor": "co-03-03",
+      "chapter": 3,
+      "section": "3.3",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 23
+    },
+    {
+      "level": 3,
+      "title": "例 3-1　DRAM 的复用地址怎样计数",
+      "anchor": "co-ex3-1",
+      "chapter": 3,
+      "section": "3.3",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 27,
+      "marker": "【2014】"
+    },
+    {
+      "level": 3,
+      "title": "MAR 容量由地址空间决定",
+      "anchor": "co-c03-h37",
+      "chapter": 3,
+      "section": "3.3",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 37
+    },
+    {
+      "level": 3,
+      "title": "例 3-2　已安装容量不是全部可编址空间",
+      "anchor": "co-ex3-2",
+      "chapter": 3,
+      "section": "3.3",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 41,
+      "marker": "【2011】"
+    },
+    {
+      "level": 2,
+      "title": "单体多字和多体交叉怎样提高带宽",
+      "anchor": "co-03-04",
+      "chapter": 3,
+      "section": "3.4",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 49
+    },
+    {
+      "level": 3,
+      "title": "例 3-3　同一模块不等于立即发生冲突",
+      "anchor": "co-ex3-3",
+      "chapter": 3,
+      "section": "3.4",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 64,
+      "marker": "【2015】"
+    },
+    {
+      "level": 2,
+      "title": "主存芯片怎样连到 CPU",
+      "anchor": "co-03-05",
+      "chapter": 3,
+      "section": "3.5",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 72
+    },
+    {
+      "level": 3,
+      "title": "例 3-4　ROM 与 RAM 分区要分别计算",
+      "anchor": "co-ex3-4",
+      "chapter": 3,
+      "section": "3.5",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 80,
+      "marker": "【2009】"
+    },
+    {
+      "level": 2,
+      "title": "磁盘与 SSD 的一次访问花在哪些时间上",
+      "anchor": "co-03-06",
+      "chapter": 3,
+      "section": "3.6",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 92
+    },
+    {
+      "level": 3,
+      "title": "例 3-5　7200转每分不是7200转每秒",
+      "anchor": "co-ex3-5",
+      "chapter": 3,
+      "section": "3.6",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 102,
+      "marker": "【2015】"
+    },
+    {
+      "level": 2,
+      "title": "Cache 命中率怎样变成时间",
+      "anchor": "co-03-07",
+      "chapter": 3,
+      "section": "3.7",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 112
+    },
+    {
+      "level": 3,
+      "title": "例 3-6　读后写的数组访问怎样计缺失率",
+      "anchor": "co-ex3-6",
+      "chapter": 3,
+      "section": "3.7",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 124,
+      "marker": "【2016】"
+    },
+    {
+      "level": 3,
+      "title": "一次缺失损失要不要反复付启动代价",
+      "anchor": "co-c03-h139",
+      "chapter": 3,
+      "section": "3.7",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 139
+    },
+    {
+      "level": 2,
+      "title": "地址拆分决定块能放在哪里",
+      "anchor": "co-03-08",
+      "chapter": 3,
+      "section": "3.8",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 143
+    },
+    {
+      "level": 3,
+      "title": "例 3-7　8路组相联需要几个比较器",
+      "anchor": "co-ex3-7",
+      "chapter": 3,
+      "section": "3.8",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 163,
+      "marker": "【2022】"
+    },
+    {
+      "level": 2,
+      "title": "LRU 更新的是访问次序，不只是装入次序",
+      "anchor": "co-03-09",
+      "chapter": 3,
+      "section": "3.9",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 171
+    },
+    {
+      "level": 2,
+      "title": "写命中与写缺失是两个独立问题",
+      "anchor": "co-03-10",
+      "chapter": 3,
+      "section": "3.10",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 179
+    },
+    {
+      "level": 3,
+      "title": "例 3-8　Cache 总容量还包括哪些位",
+      "anchor": "co-ex3-8",
+      "chapter": 3,
+      "section": "3.10",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 185,
+      "marker": "【2015】"
+    },
+    {
+      "level": 2,
+      "title": "虚拟存储器怎样让程序看到地址空间",
+      "anchor": "co-03-11",
+      "chapter": 3,
+      "section": "3.11",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 195
+    },
+    {
+      "level": 2,
+      "title": "页表与 TLB：地址偏移为何原样保留",
+      "anchor": "co-03-12",
+      "chapter": 3,
+      "section": "3.12",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 201
+    },
+    {
+      "level": 3,
+      "title": "TLB、页表与Cache各自缺少什么",
+      "anchor": "co-c03-h207",
+      "chapter": 3,
+      "section": "3.12",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 207
+    },
+    {
+      "level": 3,
+      "title": "例 3-9　页号的十六进制不能直接当表中十进制",
+      "anchor": "co-ex3-9",
+      "chapter": 3,
+      "section": "3.12",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 221,
+      "marker": "【2022】"
+    },
+    {
+      "level": 3,
+      "title": "例 3-10　TLB 标记不包含页内偏移",
+      "anchor": "co-ex3-10",
+      "chapter": 3,
+      "section": "3.12",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 239,
+      "marker": "【2024】"
+    },
+    {
+      "level": 2,
+      "title": "段式与段页式地址为什么需要界限检查",
+      "anchor": "co-03-13",
+      "chapter": 3,
+      "section": "3.13",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 249
+    },
+    {
+      "level": 2,
+      "title": "综合访存：数组次序、TLB替换与Cache查找",
+      "anchor": "co-memory-synthesis",
+      "chapter": 3,
+      "section": "3.14",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 257
+    },
+    {
+      "level": 3,
+      "title": "例 3-11　交换内外层循环，命中率一定降低吗",
+      "anchor": "co-ex3-11",
+      "chapter": 3,
+      "section": "3.14",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 259,
+      "marker": "【2023】改编"
+    },
+    {
+      "level": 3,
+      "title": "例 3-12　TLB的组选、标记与连续替换",
+      "anchor": "co-ex3-12",
+      "chapter": 3,
+      "section": "3.14",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 317,
+      "marker": "【2021】"
+    },
+    {
+      "level": 3,
+      "title": "例 3-13　TLB未命中后，还要经过哪些判断",
+      "anchor": "co-ex3-13",
+      "chapter": 3,
+      "section": "3.14",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 352
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self3",
+      "chapter": 3,
+      "section": "3.14",
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "line": 389
+    },
+    {
+      "level": 1,
+      "title": "指令系统与 C 程序的机器级表示",
+      "anchor": "co-ch4",
+      "chapter": 4,
+      "section": "4.0",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "title": "指令字段怎样决定可表示的操作和地址",
+      "anchor": "co-04-01",
+      "chapter": 4,
+      "section": "4.1",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 3
+    },
+    {
+      "level": 3,
+      "title": "例 4-1　扩展操作码应逐层扣除哪些前缀",
+      "anchor": "co-ex4-1",
+      "chapter": 4,
+      "section": "4.1",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 13,
+      "marker": "【2022】"
+    },
+    {
+      "level": 2,
+      "title": "从形式地址到有效地址",
+      "anchor": "co-04-02",
+      "chapter": 4,
+      "section": "4.2",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 23
+    },
+    {
+      "level": 3,
+      "title": "例 4-2　相对转移用哪个 PC",
+      "anchor": "co-ex4-2",
+      "chapter": 4,
+      "section": "4.2",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 40,
+      "marker": "【2009】"
+    },
+    {
+      "level": 3,
+      "title": "访存次数要从执行路径数",
+      "anchor": "co-c04-h50",
+      "chapter": 4,
+      "section": "4.2",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 50
+    },
+    {
+      "level": 2,
+      "title": "大端、小端和对齐解决不同问题",
+      "anchor": "co-04-03",
+      "chapter": 4,
+      "section": "4.3",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 54
+    },
+    {
+      "level": 3,
+      "title": "例 4-3　先确定结构布局，再看低字节",
+      "anchor": "co-ex4-3",
+      "chapter": 4,
+      "section": "4.3",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 62,
+      "marker": "【2012】"
+    },
+    {
+      "level": 2,
+      "title": "RISC 与 CISC：设计倾向不代替具体实现",
+      "anchor": "co-04-04",
+      "chapter": 4,
+      "section": "4.4",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 86
+    },
+    {
+      "level": 3,
+      "title": "例 4-4　RISC 设计能否支持流水线",
+      "anchor": "co-ex4-4",
+      "chapter": 4,
+      "section": "4.4",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 92,
+      "marker": "【2025】"
+    },
+    {
+      "level": 2,
+      "title": "编译、汇编、链接怎样确定程序中的地址",
+      "anchor": "co-04-05",
+      "chapter": 4,
+      "section": "4.5",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 103
+    },
+    {
+      "level": 3,
+      "title": "例 4-5　工具链顺序",
+      "anchor": "co-ex4-5",
+      "chapter": 4,
+      "section": "4.5",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 109,
+      "marker": "【2022】"
+    },
+    {
+      "level": 2,
+      "title": "分支和循环怎样改变 PC",
+      "anchor": "co-04-06",
+      "chapter": 4,
+      "section": "4.6",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 120
+    },
+    {
+      "level": 2,
+      "title": "过程调用为什么要保存返回位置",
+      "anchor": "co-04-07",
+      "chapter": 4,
+      "section": "4.7",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 155
+    },
+    {
+      "level": 3,
+      "title": "顺序、分支、调用和返回分别改变什么",
+      "anchor": "co-c04-h171",
+      "chapter": 4,
+      "section": "4.7",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 171
+    },
+    {
+      "level": 3,
+      "title": "例 4-6　递归调用的返回位置、机器编码与乘法溢出",
+      "anchor": "co-ex4-6",
+      "chapter": 4,
+      "section": "4.7",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 182,
+      "marker": "【2019】"
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self4",
+      "chapter": 4,
+      "section": "4.7",
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "line": 258
+    },
+    {
+      "level": 1,
+      "title": "CPU、数据通路、控制器与异常中断",
+      "anchor": "co-ch5",
+      "chapter": 5,
+      "section": "5.0",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "title": "寄存器的名字说明它暂存什么",
+      "anchor": "co-05-01",
+      "chapter": 5,
+      "section": "5.1",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 3
+    },
+    {
+      "level": 3,
+      "title": "例 5-1　哪些元件负责运算，哪些元件保存状态",
+      "anchor": "co-ex5-1",
+      "chapter": 5,
+      "section": "5.1",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 20,
+      "marker": "【2023】"
+    },
+    {
+      "level": 2,
+      "title": "指令周期、机器周期与时钟周期",
+      "anchor": "co-05-02",
+      "chapter": 5,
+      "section": "5.2",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 31
+    },
+    {
+      "level": 2,
+      "title": "一条指令怎样变为微操作",
+      "anchor": "co-05-03",
+      "chapter": 5,
+      "section": "5.3",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 50
+    },
+    {
+      "level": 3,
+      "title": "例 5-2　从单总线图确定控制信号与取指时序",
+      "anchor": "co-ex5-2",
+      "chapter": 5,
+      "section": "5.3",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 56,
+      "marker": "【2022】"
+    },
+    {
+      "level": 3,
+      "title": "例 5-3　间接操作数经过哪些部件",
+      "anchor": "co-ex5-3",
+      "chapter": 5,
+      "section": "5.3",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 98,
+      "marker": "【2019】"
+    },
+    {
+      "level": 2,
+      "title": "控制信号由组合逻辑还是微程序产生",
+      "anchor": "co-05-04",
+      "chapter": 5,
+      "section": "5.4",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 111
+    },
+    {
+      "level": 3,
+      "title": "例 5-4　互斥类为什么还要一个空操作编码",
+      "anchor": "co-ex5-4",
+      "chapter": 5,
+      "section": "5.4",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 121,
+      "marker": "【2012】"
+    },
+    {
+      "level": 3,
+      "title": "例 5-5　控制存储器地址字段怎样估位宽",
+      "anchor": "co-ex5-5",
+      "chapter": 5,
+      "section": "5.4",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 129,
+      "marker": "【2014】"
+    },
+    {
+      "level": 2,
+      "title": "异常、中断与返回位置",
+      "anchor": "co-05-05",
+      "chapter": 5,
+      "section": "5.5",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 139
+    },
+    {
+      "level": 3,
+      "title": "例 5-6　缺页后为什么重试当前指令",
+      "anchor": "co-ex5-6",
+      "chapter": 5,
+      "section": "5.5",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 149,
+      "marker": "【2021】"
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self5",
+      "chapter": 5,
+      "section": "5.5",
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "line": 161
+    },
+    {
+      "level": 1,
+      "title": "流水线与并行处理的基本模型",
+      "anchor": "co-ch6",
+      "chapter": 6,
+      "section": "6.0",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "title": "延迟和完成间隔是两个量",
+      "anchor": "co-06-01",
+      "chapter": 6,
+      "section": "6.1",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 3
+    },
+    {
+      "level": 3,
+      "title": "例 6-1　最慢的一段决定时钟下限",
+      "anchor": "co-ex6-1",
+      "chapter": 6,
+      "section": "6.1",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 17,
+      "marker": "【2009】"
+    },
+    {
+      "level": 2,
+      "title": "阶段寄存器保存的不只是一份数据",
+      "anchor": "co-06-02",
+      "chapter": 6,
+      "section": "6.2",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 27
+    },
+    {
+      "level": 2,
+      "title": "冒险先按冲突对象分类",
+      "anchor": "co-06-03",
+      "chapter": 6,
+      "section": "6.3",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 35
+    },
+    {
+      "level": 3,
+      "title": "转发能省去等待写回，但不能送来尚未产生的数据",
+      "anchor": "co-c06-h43",
+      "chapter": 6,
+      "section": "6.3",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 43
+    },
+    {
+      "level": 3,
+      "title": "同一组RAW，在不同实现中等到哪一拍",
+      "anchor": "co-c06-h49",
+      "chapter": 6,
+      "section": "6.3",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 49
+    },
+    {
+      "level": 3,
+      "title": "例 6-2　装入后立即使用需要一个气泡",
+      "anchor": "co-ex6-2",
+      "chapter": 6,
+      "section": "6.3",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 60,
+      "marker": "〖5.6-013〗"
+    },
+    {
+      "level": 3,
+      "title": "例 6-3　同一段序列里同时有数据与控制等待",
+      "anchor": "co-ex6-3",
+      "chapter": 6,
+      "section": "6.3",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 84,
+      "marker": "【2023】"
+    },
+    {
+      "level": 3,
+      "title": "三种处理办法各改变什么",
+      "anchor": "co-c06-h102",
+      "chapter": 6,
+      "section": "6.3",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 102
+    },
+    {
+      "level": 2,
+      "title": "超标量与动态流水线允许哪些重叠",
+      "anchor": "co-06-04",
+      "chapter": 6,
+      "section": "6.4",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 110
+    },
+    {
+      "level": 2,
+      "title": "一条指令处理多个数据，还是多个指令流",
+      "anchor": "co-06-05",
+      "chapter": 6,
+      "section": "6.5",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 120
+    },
+    {
+      "level": 2,
+      "title": "硬件线程、多核与共享内存",
+      "anchor": "co-06-06",
+      "chapter": 6,
+      "section": "6.6",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 128
+    },
+    {
+      "level": 3,
+      "title": "例 6-4　硬件多线程不等于多核",
+      "anchor": "co-ex6-4",
+      "chapter": 6,
+      "section": "6.6",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 136,
+      "marker": "【2022】"
+    },
+    {
+      "level": 3,
+      "title": "例 6-5　无转发流水线的阻塞传播与最短调度",
+      "anchor": "co-ex6-5",
+      "chapter": 6,
+      "section": "6.6",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 147,
+      "marker": "【2012】"
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self6",
+      "chapter": 6,
+      "section": "6.6",
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "line": 211
+    },
+    {
+      "level": 1,
+      "title": "总线：一次事务怎样占用时间",
+      "anchor": "co-ch7",
+      "chapter": 7,
+      "section": "7.0",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "title": "位宽、频率、传送率分别给出什么",
+      "anchor": "co-07-01",
+      "chapter": 7,
+      "section": "7.1",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 3
+    },
+    {
+      "level": 3,
+      "title": "例 7-1　一个总线周期占两个时钟周期",
+      "anchor": "co-ex7-1",
+      "chapter": 7,
+      "section": "7.1",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 15,
+      "marker": "【2009】"
+    },
+    {
+      "level": 3,
+      "title": "例 7-2　已经给出 MT/s 就不再乘4",
+      "anchor": "co-ex7-2",
+      "chapter": 7,
+      "section": "7.1",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 23,
+      "marker": "【2025】"
+    },
+    {
+      "level": 2,
+      "title": "一次总线事务从地址到应答",
+      "anchor": "co-07-02",
+      "chapter": 7,
+      "section": "7.2",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 33
+    },
+    {
+      "level": 3,
+      "title": "同步定时：固定采样时刻，必要时插等待",
+      "anchor": "co-c07-h39",
+      "chapter": 7,
+      "section": "7.2",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 39
+    },
+    {
+      "level": 3,
+      "title": "例 7-3　不支持突发，就要反复准备每个数据",
+      "anchor": "co-ex7-3",
+      "chapter": 7,
+      "section": "7.2",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 45,
+      "marker": "【2023】"
+    },
+    {
+      "level": 3,
+      "title": "例 7-4　峰值带宽与整次事务的有效速率",
+      "anchor": "co-ex7-4",
+      "chapter": 7,
+      "section": "7.2",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 53,
+      "marker": "【2024】"
+    },
+    {
+      "level": 3,
+      "title": "峰值、事务速率与CPU占用采用不同分母",
+      "anchor": "co-c07-h63",
+      "chapter": 7,
+      "section": "7.2",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 63
+    },
+    {
+      "level": 3,
+      "title": "异步定时：用握手确认进度",
+      "anchor": "co-c07-h71",
+      "chapter": 7,
+      "section": "7.2",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 71
+    },
+    {
+      "level": 3,
+      "title": "如何读总线时序图",
+      "anchor": "co-c07-h83",
+      "chapter": 7,
+      "section": "7.2",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 83
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self7",
+      "chapter": 7,
+      "section": "7.2",
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "line": 89
+    },
+    {
+      "level": 1,
+      "title": "I/O接口、程序中断与 DMA",
+      "anchor": "co-ch8",
+      "chapter": 8,
+      "section": "8.0",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 1
+    },
+    {
+      "level": 2,
+      "title": "端口是接口中可访问的位置",
+      "anchor": "co-08-01",
+      "chapter": 8,
+      "section": "8.1",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 3
+    },
+    {
+      "level": 3,
+      "title": "例 8-1　命令字走哪组线",
+      "anchor": "co-ex8-1",
+      "chapter": 8,
+      "section": "8.1",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 11,
+      "marker": "【2012】"
+    },
+    {
+      "level": 2,
+      "title": "查询方式：等待和搬运都由 CPU 安排",
+      "anchor": "co-08-02",
+      "chapter": 8,
+      "section": "8.2",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 23
+    },
+    {
+      "level": 3,
+      "title": "例 8-2　定时查询占多少 CPU 时间",
+      "anchor": "co-ex8-2",
+      "chapter": 8,
+      "section": "8.2",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 39,
+      "marker": "【2011】"
+    },
+    {
+      "level": 2,
+      "title": "中断方式：先请求，再响应，再运行服务程序",
+      "anchor": "co-08-03",
+      "chapter": 8,
+      "section": "8.3",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 49
+    },
+    {
+      "level": 3,
+      "title": "硬件保存断点，与软件保护现场分开",
+      "anchor": "co-c08-h55",
+      "chapter": 8,
+      "section": "8.3",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 55
+    },
+    {
+      "level": 3,
+      "title": "屏蔽改变允许谁打断谁",
+      "anchor": "co-c08-h63",
+      "chapter": 8,
+      "section": "8.3",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 63
+    },
+    {
+      "level": 3,
+      "title": "例 8-3　响应顺序与完成顺序为什么可以不同",
+      "anchor": "co-ex8-3",
+      "chapter": 8,
+      "section": "8.3",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 67
+    },
+    {
+      "level": 3,
+      "title": "例 8-4　允许延迟不是额外的服务开销",
+      "anchor": "co-ex8-4",
+      "chapter": 8,
+      "section": "8.3",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 84,
+      "marker": "【2014】"
+    },
+    {
+      "level": 2,
+      "title": "DMA：数据不经过 CPU 寄存器逐次搬运",
+      "anchor": "co-08-04",
+      "chapter": 8,
+      "section": "8.4",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 94
+    },
+    {
+      "level": 3,
+      "title": "例 8-5　周期挪用不等于整块期间封住主存",
+      "anchor": "co-ex8-5",
+      "chapter": 8,
+      "section": "8.4",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 104,
+      "marker": "【2020】"
+    },
+    {
+      "level": 3,
+      "title": "例 8-6　DMA 的准备与完成仍需要软件",
+      "anchor": "co-ex8-6",
+      "chapter": 8,
+      "section": "8.4",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 117,
+      "marker": "【2019】"
+    },
+    {
+      "level": 3,
+      "title": "例 8-7　同一接口缓冲下比较查询、中断和DMA预算",
+      "anchor": "co-ex8-7",
+      "chapter": 8,
+      "section": "8.4",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 141,
+      "marker": "【2018】"
+    },
+    {
+      "level": 3,
+      "title": "自测",
+      "anchor": "co-self8",
+      "chapter": 8,
+      "section": "8.4",
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "line": 185
+    }
+  ],
+  "pdf": "dist/revision2/计算机组成原理_正文审阅稿.pdf",
+  "sha256": "415a8e67cdbebc7df1ae75e3eecaa120a399291c210acd9f28f47e989bcfbf3b",
+  "elapsed_seconds": 3.16,
+  "edition": "content_review",
+  "layout_review_status": "本轮未进行，按用户要求待内容审阅后执行"
+}

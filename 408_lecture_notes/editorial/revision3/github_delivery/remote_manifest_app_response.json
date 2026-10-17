@@ -1,0 +1,7 @@
+{
+  "content": "{\n  \"schema\": 1,\n  \"edition\": \"revision3_content_review\",\n  \"archive\": {\n    \"name\": \"408讲义_第三轮正文审阅稿与源码.zip\",\n    \"bytes\": 188790242,\n    \"sha256\": \"ca7f22cafaf0ee67cc992de6a044263a209068da1b6be3a887dee827d385993b\"\n  },\n  \"parts\": [\n    {\n      \"name\": \"408讲义_第三轮正文审阅稿与源码.zip.001\",\n      \"bytes\": 67108864,\n      \"sha256\": \"eb80a1738a5067b6d431b6723bb9a5fef522b04c555de73519f7b8e0dd89283b\"\n    },\n    {\n      \"name\": \"408讲义_第三轮正文审阅稿与源码.zip.002\",\n      \"bytes\": 67108864,\n      \"sha256\": \"f4a40a3b766dbfa8b2e6776e0d1c644ea828b4b1b1c941423305ca909fff63e4\"\n    },\n    {\n      \"name\": \"408讲义_第三轮正文审阅稿与源码.zip.003\",\n      \"bytes\": 54572514,\n      \"sha256\": \"1d3c5489ed6eaf3429ced35b126d2c8bda693ffbe4a2e9dd2fc9bc592fe6e9c3\"\n    }\n  ],\n  \"part_format\": \"Original ZIP bytes split consecutively; concatenate in the listed order. No recompression or archive contents changed.\",\n  \"pdf_layout_check_performed\": false\n}\n",
+  "encoding": "utf-8",
+  "sha": "ce13a72272090d415ab6379f494947db92b99455",
+  "display_url": "https://github.com/nov1ces/Classroom/blob/main/00_408%E7%BB%BC%E5%90%88%E8%B5%84%E6%96%99/%E5%9B%9B%E7%A7%91%E8%AE%B2%E4%B9%89_%E7%AC%AC%E4%B8%89%E8%BD%AE%E6%AD%A3%E6%96%87%E5%AE%A1%E9%98%85/archive_parts.json",
+  "display_title": "archive_parts.json"
+}

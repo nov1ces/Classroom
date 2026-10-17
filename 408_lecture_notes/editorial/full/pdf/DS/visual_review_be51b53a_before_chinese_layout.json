@@ -1,0 +1,451 @@
+{
+  "subject": "DS",
+  "stage": "旧最终PDF逐页视觉检查，待统一格式修订后复查",
+  "pdf": "dist/数据结构_讲义.pdf",
+  "sha256": "be51b53aef2f7a5149f0c74de976921cecffc2f9c38eb57d1321c9133f182bfe",
+  "page_count": 70,
+  "reviewed_at_utc": "2026-10-16T15:27:57.405591+00:00",
+  "reviewer": "book_ds",
+  "status": "needs_revision",
+  "pages_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70
+  ],
+  "coverage": "70/70物理页全部实际图视；18张contact及11张放大原页。",
+  "contact_evidence": [
+    {
+      "image": "build/DS/rendered/contact_001.png",
+      "sha256": "13f736726af1f450737c568e197e3f5f74daa59b99dcc9cd319382911ccaa923",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_002.png",
+      "sha256": "f3c707cb1b2ce5f1c864d64409bb0ff38a72408ec71146ce8869818ac53530be",
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_003.png",
+      "sha256": "def987f3bd53ea7b9a5866d90eda308748055e3b6ead573bdd76a8ce6df5225f",
+      "pages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_004.png",
+      "sha256": "1a3f78c1fe1a6b9c6029a0cc13df127120a0189f599883a4022824f4d9b43db1",
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_005.png",
+      "sha256": "283ec33771b71a1e46b30adcbe858ce5bab8132c1bea570d101ad6a347dbb037",
+      "pages": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_006.png",
+      "sha256": "bc1464b8befd165bc70c8b3b7a8c1b8ad5858bdd887e039a5dad5d4a30cd100b",
+      "pages": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_007.png",
+      "sha256": "192adb65aec369bc7daf62a6115eeba6cc897a2a7bef3f4af89f2e101e6b2bc1",
+      "pages": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_008.png",
+      "sha256": "6716fd39c07a5b286185586422cb50532b40108cf56cadb88ed61562f59712fa",
+      "pages": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_009.png",
+      "sha256": "d1f0c4c6c7208aa01eddf57b7acf5d2e3717b2d7b9e4f3c3e181b8c01a347b1f",
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_010.png",
+      "sha256": "54d0de5873dd0e24c49b72ae7540e92383fabac5aec4daebb3077b20c5aa574d",
+      "pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_011.png",
+      "sha256": "7e53f8a070e06f7a7de4084e75c7cbe666df0cf1e946b285e9c0ba931ba2f72d",
+      "pages": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_012.png",
+      "sha256": "4447a5c37f5d46ccccf803f7c2cefd7a164fa50a467aa7bcdb7125c3decaaef9",
+      "pages": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_013.png",
+      "sha256": "53443ae6cca5834f0611f20a92773b6732c8b1f36ad65dffab4444b7036be897",
+      "pages": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_014.png",
+      "sha256": "62aebc4aefd193d41a4232928cc8bf137c4f0e4af28fd12bbe678b87dae1a25d",
+      "pages": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_015.png",
+      "sha256": "341f6c5c54f7977c2b973fcec25535946c2b19f9a5205f42af24de799ec87641",
+      "pages": [
+        57,
+        58,
+        59,
+        60
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_016.png",
+      "sha256": "5afa23f647d601cb302b3bff33588eaed587ed84d664f6ab829b811e405f1ecc",
+      "pages": [
+        61,
+        62,
+        63,
+        64
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_017.png",
+      "sha256": "361179bcb001094d4eb9caf7e3114c77749f0416ce8a2cf8599a0b6962f41a83",
+      "pages": [
+        65,
+        66,
+        67,
+        68
+      ],
+      "reviewed": true
+    },
+    {
+      "image": "build/DS/rendered/contact_018.png",
+      "sha256": "cc8ca57c492a77b6089433353f5fdb5dcebfc26cfcfa33282914f2a93527ee15",
+      "pages": [
+        69,
+        70
+      ],
+      "reviewed": true
+    }
+  ],
+  "full_page_evidence": [
+    {
+      "image": "build/DS/rendered/page_008.png",
+      "physical_page": 8,
+      "sha256": "3c9b3d0f00af604eabe999e65b0f6a3402cc691427f57a11b051c43a71a1264a",
+      "reviewed": true,
+      "focus": "例1-2公式字面TeX；正文及累计和步骤可读"
+    },
+    {
+      "image": "build/DS/rendered/page_031.png",
+      "physical_page": 31,
+      "sha256": "13813776ecdece98b1520ecde5e3a96b445d3245fc7510d8e47a6b23f83cecfc",
+      "reviewed": true,
+      "focus": "中序线索构造代码、虚实线与边界线索"
+    },
+    {
+      "image": "build/DS/rendered/page_024.png",
+      "physical_page": 24,
+      "sha256": "710352c6475e7543ab5899d068954887b259386707028167f5ad3a85a3fc55f9",
+      "reviewed": true,
+      "focus": "KMP对齐图、next/nextval表"
+    },
+    {
+      "image": "build/DS/rendered/page_020.png",
+      "physical_page": 20,
+      "sha256": "428f06ecc38fe4147194fe6458604649c481196bcd8e405f54cc7bb3cfd65bbc",
+      "reviewed": true,
+      "focus": "三对角地址题与章节分页"
+    },
+    {
+      "image": "build/DS/rendered/page_032.png",
+      "physical_page": 32,
+      "sha256": "2698102564031f481169c16ad165cc3efedcfe08d852b26e0d102609d332cc77",
+      "reviewed": true,
+      "focus": "森林/二叉树图、例5-4题干与选项分页"
+    },
+    {
+      "image": "build/DS/rendered/page_041.png",
+      "physical_page": 41,
+      "sha256": "1354f7f499b07308efd2d7567229c249599ff75ad36efb8a324f2c4a096a1f05",
+      "reviewed": true,
+      "focus": "Dijkstra有向加权图、例6-4完整数据与选项；边权3标签归属含混"
+    },
+    {
+      "image": "build/DS/rendered/page_052.png",
+      "physical_page": 52,
+      "sha256": "f3052a58933070b4f6ad14e3d49a30e812c3058ab42867d937b26e35537c187a",
+      "reviewed": true,
+      "focus": "3阶B树多阶段分裂、子树连接与键值"
+    },
+    {
+      "image": "build/DS/rendered/page_055.png",
+      "physical_page": 55,
+      "sha256": "2730d5e2617ef86ff60298e09aea33b2e8fd0eed534357b20c5a98d5980954a9",
+      "reviewed": true,
+      "focus": "散列12列表及二次探查过程"
+    },
+    {
+      "image": "build/DS/rendered/page_043.png",
+      "physical_page": 43,
+      "sha256": "50e71a1c6eb0a5c1aa2ea719a6c32dcd6958aacee5dd46ec677f0ba993613ec9",
+      "reviewed": true,
+      "focus": "唯一拓扑序C代码和空间口径"
+    },
+    {
+      "image": "build/DS/rendered/page_058.png",
+      "physical_page": 58,
+      "sha256": "6e9a04334f8e4960d63f4efcdf95c77274f0c8f54b66a59b59f381336f4b16ff",
+      "reviewed": true,
+      "focus": "划分代码、快排接口及例8-2选项"
+    },
+    {
+      "image": "build/DS/rendered/page_063.png",
+      "physical_page": 63,
+      "sha256": "baa8a9d0f14a686e63f54d1173d5cd07dc34234760725e4cb4089264e0ceedc3",
+      "reviewed": true,
+      "focus": "败者树两轮状态、最佳归并表及例8-8分页"
+    }
+  ],
+  "checks": [
+    {
+      "item": "所有页面实际渲染",
+      "status": "PASS",
+      "evidence": "18张contact逐张阅读，覆盖物理页1—70；非仅用PDF文本抽取。"
+    },
+    {
+      "item": "中文字体、公式字形、页面裁切和正文重叠",
+      "status": "needs_revision",
+      "evidence": "未见缺字、裁切和正文相互覆盖；物理p8一处公式在等宽代码中输出字面\\cdots，待重建修正。"
+    },
+    {
+      "item": "教学图、表、代码的辨识",
+      "status": "needs_revision",
+      "evidence": "放大检查Dijkstra、B树、12列散列表、线索构造、KMP、唯一拓扑代码、快排代码、败者树。Dijkstra权3标签需移离水平边；其余检查对象可读。"
+    },
+    {
+      "item": "数值与图文对应",
+      "status": "PASS",
+      "evidence": "本轮图视未发现新的数据、箭头方向、状态结果或答案错误；计算正确性仍另以editorial/full/DS/results.json的57项复算为据。"
+    },
+    {
+      "item": "分页和题干解析相邻",
+      "status": "advisory",
+      "evidence": "短选择题存在题干或图与选项分隔，以及解析另起页的情况，具体物理页见问题项DS-VIS-003。"
+    },
+    {
+      "item": "目录、书签、链接",
+      "status": "separate_audit",
+      "evidence": "结构审计audit.json报告137书签、194链接及无溢出警告；本视觉记录没有冒称逐一点击链接。"
+    }
+  ],
+  "issues": [
+    {
+      "id": "DS-VIS-001",
+      "status": "confirmed_awaiting_rebuild",
+      "severity": "required",
+      "physical_pages": [
+        8
+      ],
+      "location": "例1-2累计和公式",
+      "finding": "公式被行内代码包围，PDF实际出现\\cdots等TeX源命令。",
+      "requested_fix": "改为可编辑数学模式；root已修Markdown，当前旧PDF尚未重建。",
+      "verification_after_rebuild": "放大变化页，确认求和公式渲染及行宽。"
+    },
+    {
+      "id": "DS-VIS-002",
+      "status": "reported_to_root",
+      "severity": "required",
+      "physical_pages": [
+        41
+      ],
+      "location": "DS_12_dijkstra_2021，1→3边的权3标签",
+      "finding": "权3标签位于水平5→2边附近，与该边权15并列，可能误读所属边。原图数据和正文数值正确。",
+      "requested_fix": "将权3标签沿1→3斜边向上移动，避开水平5→2边；不改变边权数据。",
+      "verification_after_rebuild": "放大整图，确认3靠近1→3且不压线或碰节点。"
+    },
+    {
+      "id": "DS-VIS-003",
+      "status": "reported_to_root",
+      "severity": "layout_advisory",
+      "physical_pages": [
+        20,
+        21,
+        32,
+        33,
+        40,
+        41,
+        46,
+        47,
+        60,
+        61,
+        63,
+        64
+      ],
+      "location": "短例题与选项/解析分页",
+      "finding": "p32→33例5-4、p40→41例6-3把选项与题干或图隔页；p20→21例3-3、p46→47例7-1、p60→61例8-5把解析另起页；p63→64例8-8题干与解析分开。",
+      "requested_fix": "可用小范围保留空间或分页控制，使短题至少题干、选项与首段解析相邻；复杂长题允许自然跨页。",
+      "verification_after_rebuild": "查看相应新页面及前后相邻页，避免形成大块无用途留白。"
+    }
+  ],
+  "literal_tex_followup": {
+    "scope": "全部8章Markdown行内代码及后续全部PDF contact",
+    "result": "除例1-2外未发现第二处字面数学TeX；串章\\0是合法C空字符写法，保留。"
+  },
+  "new_user_format_request": "题源并入例题编号后标题内、标题后首段缩进两字符；root统一修改后全部新PDF需要按新渲染复查，本记录只证明当前旧SHA70页。",
+  "limitations": [
+    "本记录不代替知识覆盖、选题来源或独立计算核验。",
+    "本轮记录只绑定给定SHA；内容或共享排版修订后的PDF必须更新SHA与视觉证据。"
+  ],
+  "next_action": "root修复并重建；收到新PDF SHA和变化页后复查，合并成最终视觉记录。"
+}

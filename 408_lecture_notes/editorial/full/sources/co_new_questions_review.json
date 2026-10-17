@@ -1,0 +1,179 @@
+{
+  "review_time_utc": "2026-10-16T10:35:16.206720+00:00",
+  "records": [
+    {
+      "id": "CO3-11",
+      "review_date": "2026-10-16T10:35:16.206720+00:00",
+      "subject": "CO",
+      "manuscript": "/workspace/408_lecture_notes/manuscript/CO/03_存储系统与地址.md",
+      "manuscript_sha256_at_review": "8ce0fe73e3e08a9b53fc432a672cdab9743f7cff0ef3136545da0d352a70228c",
+      "exam_year": 2023,
+      "exam_question_number": 43,
+      "reader_source_mark": "【2023】（改编标签按主编当前处理）",
+      "source_checks": {
+        "complete_rebuild_pdf": "/workspace/408_lecture_notes/editorial/sources/exams/exam_2023_rebuild.pdf",
+        "rebuild_sha256": "4c061880c25df3827374406426a315ec170270ac4b5c900de3dae5a5849b9cd5",
+        "rebuild_question_start_pdf_page": 7,
+        "rebuild_kind": "社区二手复原，非官方原始发布",
+        "main_book_question_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "main_book_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
+        "main_book_question_pages": [
+          152
+        ],
+        "main_book_answer_pages": [
+          157,
+          158
+        ],
+        "main_book_original_pages_actually_viewed": [
+          {
+            "path": "/workspace/408_lecture_notes/editorial/full/CO/big2023book-p152.png",
+            "sha256": "d115e284880ff468b05f3de0c5ec4e37def5ecb13028fe6b3e7212ae58ec47d8"
+          },
+          {
+            "path": "/workspace/408_lecture_notes/editorial/full/CO/big2023book-p157.png",
+            "sha256": "5f68125cf01da541cefe0a25f38d487178054666900b1e6f5614c99585bf4811"
+          },
+          {
+            "path": "/workspace/408_lecture_notes/editorial/full/CO/big2023book-p158.png",
+            "sha256": "d05db3a8475c6a5ac81ffbd594c50fa9a8f70ef43385204adb36a1723ee4bc65"
+          },
+          {
+            "path": "/workspace/408_lecture_notes/editorial/full/CO/big2023exam-p7.png",
+            "sha256": "40aec8512ddcef36e66b7f53630bf05e62b543b36d7fabd0fc5b3bec00c00e5b"
+          }
+        ],
+        "official_answer_publication_obtained": false,
+        "additional_sources": [
+          {
+            "url": "https://images.eduego.com/Uploads/files/wenjian/202312/202312260079110.pdf",
+            "kind": "第三方教育网站分发的8页扫描/文字识别PDF，非教育部官方发布认证",
+            "access_method": "搜索服务网页工具open直接取得PDF全文文字（含页号）；实际读取第43题所在物理6—7页及相邻44题常量",
+            "physical_pages": [
+              6,
+              7
+            ],
+            "observations": [
+              "物理6页第43题正序循环赋值为10",
+              "物理7页第43题逆序循环赋值为10",
+              "相邻第44题mov立即数0Ah和功能a[i][j]←10一致"
+            ],
+            "local_pdf_path": null,
+            "local_pdf_sha256": null,
+            "visual_image_obtained": false,
+            "screenshot_attempt_result": "screenshot调用只返回<<ImageDisplayed>>文本占位，没有可查看图块；不得称已视觉核外部PDF原扫描。",
+            "download_attempt_by_author": "作者告知代理Tunnel403，未获得本地文件；不将失败下载记为读取原图。"
+          },
+          {
+            "url": "https://noobdream.com/Practice/exam_solution/37977/",
+            "kind": "独立公开题库二手录入",
+            "access_method": "网页工具open及find实际读取第43题完整题干、四问与两个代码片段；另读相邻44题常量",
+            "observations": [
+              "第43题正序和逆序两个程序均a[i][j]=10",
+              "第44题第19条mov立即数0Ah，功能也为赋值10"
+            ],
+            "visual_image_obtained": false
+          },
+          {
+            "url": "https://www.codebrick.tech/exam-408/q/co/2023/43.html",
+            "kind": "公开二手题库",
+            "access_method": "搜索结果完整题文并打开该题页",
+            "observations": [
+              "两个循环均赋值10"
+            ],
+            "independence_of_upstream_source": "未知；不按站点数量证明彼此独立底稿"
+          }
+        ]
+      },
+      "actual_reading_scope": [
+        "当前正文完整题干、所有设问、代码或图及连续解析",
+        "完整二手卷对应物理7页题文及年份题号",
+        "提供的王道主书完整题干原页和连续答案原页"
+      ],
+      "comparison_result": "数组两遍历；社区复原代码赋值i*j与主书10不同，独立PDF文字与两题之间的mov常量均支持主书10；保留版本处理记录。",
+      "calculation_checks": [
+        "co_new_question_calculations.json",
+        "verify_co_new_questions.py"
+      ],
+      "issues": [
+        {
+          "type": "secondary_reconstruction_code_difference",
+          "community_rebuild": "两次赋值均i*j",
+          "provided_main_book": "两次赋值均10",
+          "third_party_pdf_text": "两次赋值均10；相邻44题常量0Ah支持10",
+          "effect": "两种赋值产生相同的数组写地址轨迹，不改变本题四问计算，但原题保真需明确版本。",
+          "handling": "最终学生标签及改编登记由主编决定；不将社区复原当作唯一正确原本，也不将外部OCR冒称已视觉读扫描。",
+          "status": "第三来源文字补强主书；原官方发布扫描未取得"
+        }
+      ],
+      "status": "本记录所列书题/书答与复原卷已实际交叉；不代表官方原卷来源认证或整科题目全核",
+      "figure_table_code_review": "无原题图。两份代码、24×64行优先、地址00422000H、4KB页、8KB四路32B块、四问和原假设均核读；新增2路LRU段明确为原创变式。"
+    },
+    {
+      "id": "CO5-2",
+      "review_date": "2026-10-16T10:35:16.206720+00:00",
+      "subject": "CO",
+      "manuscript": "/workspace/408_lecture_notes/manuscript/CO/05_CPU与控制.md",
+      "manuscript_sha256_at_review": "a677b5f5022d25e993c97f6376fa2870b98f01a680da91875e01c6a02927de36",
+      "exam_year": 2022,
+      "exam_question_number": 43,
+      "reader_source_mark": "【2022】",
+      "source_checks": {
+        "complete_rebuild_pdf": "/workspace/408_lecture_notes/editorial/sources/exams/exam_2022_rebuild.pdf",
+        "rebuild_sha256": "6850a0c624b1ec419114ed9f366cdab0b9bd7e3ad00375ba5a9dba7a3a76eecb",
+        "rebuild_question_start_pdf_page": 7,
+        "rebuild_kind": "社区二手复原，非官方原始发布",
+        "main_book_question_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "main_book_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
+        "main_book_question_pages": [
+          232,
+          233
+        ],
+        "main_book_answer_pages": [
+          239,
+          240
+        ],
+        "main_book_original_pages_actually_viewed": [
+          {
+            "path": "/workspace/408_lecture_notes/editorial/full/CO/big2022book-p232.png",
+            "sha256": "e8d63cfffbca6af264acb9edd21c303662d9c5e372e1da50230c2f67d16135a4"
+          },
+          {
+            "path": "/workspace/408_lecture_notes/editorial/full/CO/big2022book-p233.png",
+            "sha256": "b56214419c1ecdf279705ca7fcb8d68794a96faa58d26691ad79deeafac69d83"
+          },
+          {
+            "path": "/workspace/408_lecture_notes/editorial/full/CO/big2022book-p239.png",
+            "sha256": "670b82360fa260ddf49326aa0966893fe612c6548c9ac57b5ff10e280c84feb3"
+          },
+          {
+            "path": "/workspace/408_lecture_notes/editorial/full/CO/big2022book-p240.png",
+            "sha256": "622349529d0feba1d26f6fa834d65da4e8d2de52e179a5940b641a42e03026c4"
+          },
+          {
+            "path": "/workspace/408_lecture_notes/editorial/full/CO/big2022exam-p7.png",
+            "sha256": "1acdad5b6e1882b281feb72810d8023be3e43460e5d465938e9831f702551309"
+          },
+          {
+            "path": "/workspace/408_lecture_notes/figures/CO_F07_datapath.png",
+            "sha256": "029a2279bbf2d1a32390f1b8f0a6c909eab4c6999121ede7a6ff2d86d857dd4a"
+          }
+        ],
+        "official_answer_publication_obtained": false
+      },
+      "actual_reading_scope": [
+        "当前正文完整题干、所有设问、代码或图及连续解析",
+        "完整二手卷对应物理7页题文及年份题号",
+        "提供的王道主书完整题干原页和连续答案原页"
+      ],
+      "comparison_result": "单总线图与五问已读；16位ALU、rs/rd4位、16寄存器、取指7周期均与主书及复原卷一致。",
+      "calculation_checks": [
+        "co_new_question_calculations.json",
+        "verify_co_new_questions.py"
+      ],
+      "issues": [],
+      "status": "本记录所列书题/书答与复原卷已实际交叉；不代表官方原卷来源认证或整科题目全核",
+      "figure_table_code_review": "已逐项对照主书原图、完整卷图和重绘F07：系统总线/内部单总线，MAR/MDR/PC/IR，Y→A、总线→B、ALU→Z和FR，Zout、GPRin/GPRout、rs/rd各4位，A/B/F各16位、各图示控制标签与五问均保留。重绘不暗加专用通路。"
+    }
+  ],
+  "scope": "实际新增2道综合题源交叉与复算；不重新认证此前题库，也不替代最终PDF视觉。"
+}

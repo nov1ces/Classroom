@@ -1,0 +1,217 @@
+[
+  {
+    "id": "OS-M01",
+    "task": "区分资源份数与相关临界区段数",
+    "knowledge_ids": [
+      "OS-03-01"
+    ],
+    "representative": "ERR-OS-2.3-027",
+    "handling": "§3.1定义短例；保留原题默认的一进程一相关段条件",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M02",
+    "task": "识别同一对进程的同步与互斥",
+    "knowledge_ids": [
+      "OS-03-01"
+    ],
+    "representative": "ERR-OS-2.3-011",
+    "handling": "完整例3-1；与一次操作题对照，避免机械数信号量",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M03",
+    "task": "构造反例检验互斥四项原则",
+    "knowledge_ids": [
+      "OS-03-02"
+    ],
+    "representative": "TYP-OS-SW",
+    "handling": "三种软件方案各给一条决定性反例，不再凑重复选择题",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M04",
+    "task": "根据flag与turn推演双方同时申请",
+    "knowledge_ids": [
+      "OS-03-02"
+    ],
+    "representative": "TYP-OS-SW",
+    "handling": "Peterson给代码、单方/双方竞争与不能双进的推理",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M05",
+    "task": "原子指令、锁范围与等待方式",
+    "knowledge_ids": [
+      "OS-03-03",
+      "OS-03-04"
+    ],
+    "representative": "TYP-OS-HW",
+    "handling": "TS逻辑代码、Swap步骤及单核/多核屏蔽边界；典型实现模型",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M06",
+    "task": "记录型信号量的值、队列与唤醒",
+    "knowledge_ids": [
+      "OS-03-05"
+    ],
+    "representative": "MODEL-OS-SEM",
+    "handling": "初值2的连续P/V状态表；整数型计数语义另辨析",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M07",
+    "task": "从初态确定许可初值",
+    "knowledge_ids": [
+      "OS-03-05"
+    ],
+    "representative": "ERR-OS-2.3-018",
+    "handling": "完整例3-2；一次事件与已存在资源分开",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M08",
+    "task": "前驱图中保留并发并删除已由线程保证的边",
+    "knowledge_ids": [
+      "OS-03-05"
+    ],
+    "representative": "OS-EX-2022-46",
+    "handling": "完整例3-3；图和线程程序共同推导",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M09",
+    "task": "单缓冲区一次读写与两次修改的最少量",
+    "knowledge_ids": [
+      "OS-03-01",
+      "OS-03-05",
+      "OS-03-07"
+    ],
+    "representative": "OS-EX-2024-46",
+    "handling": "完整例3-4；三问改变活动范围，不套三信号量",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M10",
+    "task": "从容量、产品与共享状态构造有限缓冲",
+    "knowledge_ids": [
+      "OS-03-07"
+    ],
+    "representative": "TYP-OS-PC",
+    "handling": "经典模型完整代码，再用分类与整批真题迁移",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M11",
+    "task": "区分许可预留与物理库存",
+    "knowledge_ids": [
+      "OS-03-05",
+      "OS-03-07"
+    ],
+    "representative": "TYP-OS-PC",
+    "handling": "容量2、P后尚未放入的中间态；不另造替数字题",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M12",
+    "task": "根据持有与等待找错误P顺序",
+    "knowledge_ids": [
+      "OS-03-05",
+      "OS-03-07"
+    ],
+    "representative": "TYP-OS-PC；ERR-OS-2.3-039",
+    "handling": "给等待环图，真实错选并入模型边界；对照batch例与首读者例",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M13",
+    "task": "按不同可取条件拆产品量",
+    "knowledge_ids": [
+      "OS-03-07"
+    ],
+    "representative": "OS-EX-2009-45",
+    "handling": "完整例3-5；奇偶分开、空位共用，补明初态",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M14",
+    "task": "整批消费者互斥与单次缓冲互斥",
+    "knowledge_ids": [
+      "OS-03-07"
+    ],
+    "representative": "OS-EX-2014-47",
+    "handling": "完整例3-6；缺货时持batch但不持mutex",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M15",
+    "task": "首读者/末读者控制整组访问权",
+    "knowledge_ids": [
+      "OS-03-08"
+    ],
+    "representative": "TYP-OS-RW",
+    "handling": "完整代码与计数错误交错，允许读读并发",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M16",
+    "task": "区别互斥正确、无死锁、无饥饿和公平",
+    "knowledge_ids": [
+      "OS-03-04",
+      "OS-03-08"
+    ],
+    "representative": "TYP-OS-RW；TYP-OS-PHI",
+    "handling": "写者饥饿轨迹与gate条件；无证据不称高频",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M17",
+    "task": "多人持多资源时断开循环等待",
+    "knowledge_ids": [
+      "OS-03-09"
+    ],
+    "representative": "TYP-OS-PHI",
+    "handling": "五人等待环、room=4代码和全局资源排序证明",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M18",
+    "task": "条件变量wait的职责及无等待者signal",
+    "knowledge_ids": [
+      "OS-03-06"
+    ],
+    "representative": "OS-EX-2018-28；ERR-OS-2.3-029",
+    "handling": "完整真题例3-7；第29题的真实错选并入无等待者边界",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  },
+  {
+    "id": "OS-M19",
+    "task": "等待时释放锁、通知后重检及丢失唤醒",
+    "knowledge_ids": [
+      "OS-03-06"
+    ],
+    "representative": "TYP-OS-CV",
+    "handling": "Mesa/POSIX接口过程图与while；Hoare语义另说明条件",
+    "status": "样章已讲解；原正式大纲细目待核",
+    "frequency_basis": null
+  }
+]

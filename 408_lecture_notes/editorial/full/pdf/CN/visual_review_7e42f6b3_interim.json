@@ -1,0 +1,235 @@
+{
+  "subject": "CN",
+  "pdf_sha256": "7e42f6b3c079cc846e155050e87e78ef727ff833a6f53c4fd6d84c9485d8bba5",
+  "time_utc": "2026-10-16T15:34:17.825179+00:00",
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+  ],
+  "method": "本版15张联系图全部实际查看；未进入已渲染28页放大图的实际阅读。用户随后更改源标位置为题干首行，本版不作为最终交付验收。",
+  "zoom_reviewed_pages": [],
+  "artifacts": [
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_001.png",
+      "sha256": "0a0abda60003d1a5c426ca4f753d4e1f07dce8b78baf3a973f377ee0057b2125",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_002.png",
+      "sha256": "f0570c02032cf8ab5769410f77ac228c52c59774375be39d96eafd4616cf6585",
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_003.png",
+      "sha256": "54997ad1168b64d46a8ae28cd10c5131cd08c9d8b0d1ffe048373cbde0f9af68",
+      "pages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_004.png",
+      "sha256": "cee534a201e26b0d8b0e39eea23d0cb32bf0d3809f5d515127fb92facdaedefe",
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_005.png",
+      "sha256": "bbfc1eb1e727973c6933d3fd9212a53594f5672ea99ed7389ad56ea29477cecd",
+      "pages": [
+        17,
+        18,
+        19,
+        20
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_006.png",
+      "sha256": "3b2ff16920c2674b905ae7de45d2b53a5d26d5274d2bb520d541f98d01443b57",
+      "pages": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_007.png",
+      "sha256": "e4a51884b9d0a1f96eec7b367143535faaf646af72083d5efc6bd6088e71d42c",
+      "pages": [
+        25,
+        26,
+        27,
+        28
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_008.png",
+      "sha256": "371ca15b4971b0a2eebe10a946dd5e16685fae87684f87f2c404a54f2ae853de",
+      "pages": [
+        29,
+        30,
+        31,
+        32
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_009.png",
+      "sha256": "f7b3be9824dcc8d819c6ac89cd80dce41cd37abe13f1c799dbff0901dc427ff7",
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_010.png",
+      "sha256": "95a5abe270351e9b66b8aa79fd86d2c07567a8e5aa57220604046930a2d50ae3",
+      "pages": [
+        37,
+        38,
+        39,
+        40
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_011.png",
+      "sha256": "dbcc1b3034ed8377bf2c92dd8847453cf713abf04d8f20ce1d429e9f63cfc8e4",
+      "pages": [
+        41,
+        42,
+        43,
+        44
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_012.png",
+      "sha256": "15117985cea3f66c19f322c23fc6b6613dd939817407fe0fd0ed7c71123c31d5",
+      "pages": [
+        45,
+        46,
+        47,
+        48
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_013.png",
+      "sha256": "d30fefe2cec448f46dcbda1fc367913bf6077487f622b9215de2d2eee331f63d",
+      "pages": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_014.png",
+      "sha256": "93f2578696a422a2399cd3bf573b79fbb18d864f7b9cc0be17eb42f32f4e9183",
+      "pages": [
+        53,
+        54,
+        55,
+        56
+      ],
+      "actually_viewed": true
+    },
+    {
+      "path": "build/CN/source_in_heading_7e42/contact_015.png",
+      "sha256": "2c4e7985d1b286cd0e080fb5fd92641ec88f7549ce8786bbedabcc91f65e274a",
+      "pages": [
+        57,
+        58
+      ],
+      "actually_viewed": true
+    }
+  ],
+  "findings": [],
+  "status": "superseded_before_zoom_review",
+  "next_requirement": "源标移至问题首行且该行不缩进，普通首段仍缩进2字；等待新最终PDF SHA后重新视觉验收。"
+}

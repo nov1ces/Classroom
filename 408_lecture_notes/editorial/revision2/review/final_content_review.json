@@ -1,0 +1,992 @@
+{
+  "status": "PASS_CONTENT",
+  "reviewer": "rev2_review",
+  "completed_at_utc": "2026-10-17T01:40:09.267319+00:00",
+  "scope": {
+    "reviewed_changed_chapters": 19,
+    "method": "independent final-diff content read, actual original-book/original-slide reads, actual mechanism-PNG inspection, separate numerical/state computation",
+    "subjects": {
+      "DS": 2,
+      "CO": 8,
+      "OS": 3,
+      "CN": 6
+    },
+    "mechanism_figures": 9,
+    "CO_new_exam_problems": 5,
+    "CO_textbook_example_not_exam": 1,
+    "no_final_pdf_inspection": true,
+    "meaning_of_pass": "No unresolved substantive error found within the explicitly read revision-2 changes and nine mechanism figures; not a whole-book or visual-layout certification"
+  },
+  "manuscript_sha256": {
+    "manuscript/CN/01_网络层次服务与性能.md": "8dbeb5a3eddaffca56ca1b6d2250249f8c5d7e9607be309c80b4544896842189",
+    "manuscript/CN/02_物理层信号速率与交换.md": "b4bd3abcaf2e34d7f4d6c95e75f6071a56fcb9092a126f323fdfb5b54504711e",
+    "manuscript/CN/03_链路层可靠传输与介质访问.md": "71ed81a6cd55080df02a15f626344d8237e2f23f25de37afe26459ce5db702b9",
+    "manuscript/CN/04_网络层地址路由与转发.md": "a72f0e210000159303266a4f08edbbf7b748210cda1a0479ba76b1e801f97970",
+    "manuscript/CN/05_传输层可靠连接与窗口.md": "9ec15261326ce39a7337ef43c6bfe8cf5a82201422c848bd4a0530375e93481f",
+    "manuscript/CN/06_应用层名称邮件与Web.md": "5094b561a394c67883e8ad8070c4ffb228cfb14498bec74432a64724b8ef52ed",
+    "manuscript/CO/01_计算机系统与程序执行.md": "5eb9f6d92889bc55e6fc03d620bc1457dfd1ce8c0f02f76719c4a9bafe6b5281",
+    "manuscript/CO/02_数据表示与运算.md": "13152e455d2ddb8096f480fd828c81e3e535b0b91b323d3bbe9faf1a05c5a4ff",
+    "manuscript/CO/03_存储系统与地址.md": "c0dd3094a9dc8d06c749432840928b1350c30e94bc0f1086b1333f8fe7c3c9a4",
+    "manuscript/CO/04_指令系统与程序表示.md": "09dea181c764fa054ed208e23099684cdd487f3938ef2f7d6f89e75e24e1900b",
+    "manuscript/CO/05_CPU与控制.md": "e47fda476e9ffdadec5cbaa66189323deca16a7bdd5f23f5eaaad464faa61e18",
+    "manuscript/CO/06_流水线与并行处理.md": "56bf3d8146abacd5dad272ccfc9408ea8ba78aa627196981268b6ef2f5a94879",
+    "manuscript/CO/07_总线与传输时间.md": "3cf59d66a1e224cb4a88822009f19fca66d0ea8f1ecbc6d482e70bd061915d42",
+    "manuscript/CO/08_IO与DMA.md": "5979de842f4a6e65ee5920c9f7ebafac8742044ae2aa297ba53af41a3d5ae4d5",
+    "manuscript/DS/07_查找与索引结构.md": "84b5a8978a62f918f80958d8d2b93b0aed347336265fe5d24200d29921285904",
+    "manuscript/DS/08_排序与外部归并.md": "ffa1602936e872cbd03e1a70d38f6c485ce0e5ce57e0957db6eb5ddae196d290",
+    "manuscript/OS/02_进程线程调度与上下文切换.md": "178bf4c5a8bc64cb3eb810837a6371c05155fd7651c2a60fa584de0fb15b2045",
+    "manuscript/OS/05_内存管理与虚拟内存.md": "f34cc09bf9ace43c58ad486e7b7003adfd320a433706edc637ae0d849b1ff287",
+    "manuscript/OS/06_文件目录与文件系统.md": "28fbd0a8c728da641d236d2f7da9232374b9fdc92fdcf718697fa786c162d056"
+  },
+  "manuscript_read_details": [
+    {
+      "path": "manuscript/CN/01_网络层次服务与性能.md",
+      "sha256": "8dbeb5a3eddaffca56ca1b6d2250249f8c5d7e9607be309c80b4544896842189",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            73,
+            72
+          ],
+          "final_lines": [
+            73,
+            83
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            74,
+            73
+          ],
+          "final_lines": [
+            85,
+            86
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CN_01_网络层次服务与性能.md"
+    },
+    {
+      "path": "manuscript/CN/02_物理层信号速率与交换.md",
+      "sha256": "b4bd3abcaf2e34d7f4d6c95e75f6071a56fcb9092a126f323fdfb5b54504711e",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            75,
+            74
+          ],
+          "final_lines": [
+            75,
+            86
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            104,
+            103
+          ],
+          "final_lines": [
+            116,
+            117
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CN_02_物理层信号速率与交换.md"
+    },
+    {
+      "path": "manuscript/CN/03_链路层可靠传输与介质访问.md",
+      "sha256": "71ed81a6cd55080df02a15f626344d8237e2f23f25de37afe26459ce5db702b9",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            166,
+            165
+          ],
+          "final_lines": [
+            166,
+            167
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            168,
+            167
+          ],
+          "final_lines": [
+            170,
+            181
+          ]
+        },
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            246,
+            246
+          ],
+          "final_lines": [
+            260,
+            266
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            250,
+            249
+          ],
+          "final_lines": [
+            270,
+            271
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            253,
+            252
+          ],
+          "final_lines": [
+            275,
+            276
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            268,
+            267
+          ],
+          "final_lines": [
+            292,
+            302
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CN_03_链路层可靠传输与介质访问.md"
+    },
+    {
+      "path": "manuscript/CN/04_网络层地址路由与转发.md",
+      "sha256": "a72f0e210000159303266a4f08edbbf7b748210cda1a0479ba76b1e801f97970",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            76,
+            76
+          ],
+          "final_lines": [
+            76,
+            92
+          ]
+        },
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            80,
+            80
+          ],
+          "final_lines": [
+            96,
+            98
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            230,
+            229
+          ],
+          "final_lines": [
+            248,
+            257
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            275,
+            274
+          ],
+          "final_lines": [
+            303,
+            312
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CN_04_网络层地址路由与转发.md"
+    },
+    {
+      "path": "manuscript/CN/05_传输层可靠连接与窗口.md",
+      "sha256": "9ec15261326ce39a7337ef43c6bfe8cf5a82201422c848bd4a0530375e93481f",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            25,
+            25
+          ],
+          "final_lines": [
+            25,
+            31
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            31,
+            30
+          ],
+          "final_lines": [
+            37,
+            46
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            53,
+            52
+          ],
+          "final_lines": [
+            69,
+            78
+          ]
+        },
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            55,
+            55
+          ],
+          "final_lines": [
+            81,
+            93
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            148,
+            147
+          ],
+          "final_lines": [
+            186,
+            194
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CN_05_传输层可靠连接与窗口.md"
+    },
+    {
+      "path": "manuscript/CN/06_应用层名称邮件与Web.md",
+      "sha256": "5094b561a394c67883e8ad8070c4ffb228cfb14498bec74432a64724b8ef52ed",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            28,
+            27
+          ],
+          "final_lines": [
+            28,
+            29
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            111,
+            110
+          ],
+          "final_lines": [
+            113,
+            122
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            155,
+            154
+          ],
+          "final_lines": [
+            167,
+            179
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CN_06_应用层名称邮件与Web.md"
+    },
+    {
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "sha256": "5eb9f6d92889bc55e6fc03d620bc1457dfd1ce8c0f02f76719c4a9bafe6b5281",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            106,
+            105
+          ],
+          "final_lines": [
+            106,
+            109
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CO_01_计算机系统与程序执行.md"
+    },
+    {
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "sha256": "13152e455d2ddb8096f480fd828c81e3e535b0b91b323d3bbe9faf1a05c5a4ff",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            113,
+            112
+          ],
+          "final_lines": [
+            113,
+            125
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            257,
+            256
+          ],
+          "final_lines": [
+            270,
+            314
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CO_02_数据表示与运算.md"
+    },
+    {
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "sha256": "c0dd3094a9dc8d06c749432840928b1350c30e94bc0f1086b1333f8fe7c3c9a4",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            20,
+            19
+          ],
+          "final_lines": [
+            20,
+            21
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            149,
+            148
+          ],
+          "final_lines": [
+            151,
+            160
+          ]
+        },
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            193,
+            193
+          ],
+          "final_lines": [
+            205,
+            217
+          ]
+        },
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            233,
+            233
+          ],
+          "final_lines": [
+            257,
+            257
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            293,
+            292
+          ],
+          "final_lines": [
+            317,
+            388
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CO_03_存储系统与地址.md"
+    },
+    {
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "sha256": "09dea181c764fa054ed208e23099684cdd487f3938ef2f7d6f89e75e24e1900b",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            171,
+            170
+          ],
+          "final_lines": [
+            171,
+            257
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CO_04_指令系统与程序表示.md"
+    },
+    {
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "sha256": "e47fda476e9ffdadec5cbaa66189323deca16a7bdd5f23f5eaaad464faa61e18",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            38,
+            37
+          ],
+          "final_lines": [
+            38,
+            46
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            108,
+            107
+          ],
+          "final_lines": [
+            117,
+            118
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CO_05_CPU与控制.md"
+    },
+    {
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "sha256": "56bf3d8146abacd5dad272ccfc9408ea8ba78aa627196981268b6ef2f5a94879",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            48,
+            47
+          ],
+          "final_lines": [
+            48,
+            58
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            136,
+            135
+          ],
+          "final_lines": [
+            147,
+            210
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CO_06_流水线与并行处理.md"
+    },
+    {
+      "path": "manuscript/CO/07_总线与传输时间.md",
+      "sha256": "3cf59d66a1e224cb4a88822009f19fca66d0ea8f1ecbc6d482e70bd061915d42",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            63,
+            62
+          ],
+          "final_lines": [
+            63,
+            70
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CO_07_总线与传输时间.md"
+    },
+    {
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "sha256": "5979de842f4a6e65ee5920c9f7ebafac8742044ae2aa297ba53af41a3d5ae4d5",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            130,
+            135
+          ],
+          "final_lines": [
+            130,
+            135
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            138,
+            137
+          ],
+          "final_lines": [
+            138,
+            183
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_CO_08_IO与DMA.md"
+    },
+    {
+      "path": "manuscript/DS/07_查找与索引结构.md",
+      "sha256": "84b5a8978a62f918f80958d8d2b93b0aed347336265fe5d24200d29921285904",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            80,
+            80
+          ],
+          "final_lines": [
+            80,
+            86
+          ]
+        },
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            150,
+            158
+          ],
+          "final_lines": [
+            156,
+            176
+          ]
+        },
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            233,
+            239
+          ],
+          "final_lines": [
+            251,
+            262
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_DS_07_查找与索引结构.md"
+    },
+    {
+      "path": "manuscript/DS/08_排序与外部归并.md",
+      "sha256": "ffa1602936e872cbd03e1a70d38f6c485ce0e5ce57e0957db6eb5ddae196d290",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            31,
+            31
+          ],
+          "final_lines": [
+            31,
+            33
+          ]
+        },
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            173,
+            172
+          ],
+          "final_lines": [
+            175,
+            180
+          ]
+        },
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            252,
+            266
+          ],
+          "final_lines": [
+            260,
+            277
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_DS_08_排序与外部归并.md"
+    },
+    {
+      "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+      "sha256": "178bf4c5a8bc64cb3eb810837a6371c05155fd7651c2a60fa584de0fb15b2045",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "insert",
+          "baseline_lines": [
+            214,
+            213
+          ],
+          "final_lines": [
+            214,
+            229
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_OS_02_进程线程调度与上下文切换.md"
+    },
+    {
+      "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "sha256": "f34cc09bf9ace43c58ad486e7b7003adfd320a433706edc637ae0d849b1ff287",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            117,
+            117
+          ],
+          "final_lines": [
+            117,
+            130
+          ]
+        },
+        {
+          "kind": "delete",
+          "baseline_lines": [
+            130,
+            131
+          ],
+          "final_lines": [
+            143,
+            142
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_OS_05_内存管理与虚拟内存.md"
+    },
+    {
+      "path": "manuscript/OS/06_文件目录与文件系统.md",
+      "sha256": "28fbd0a8c728da641d236d2f7da9232374b9fdc92fdcf718697fa786c162d056",
+      "read_scope": "all final revision-2 changed paragraphs/tables/problem statements/solutions plus their immediate context; not an exhaustive reread of unchanged chapter text",
+      "changed_ranges": [
+        {
+          "kind": "replace",
+          "baseline_lines": [
+            79,
+            84
+          ],
+          "final_lines": [
+            79,
+            88
+          ]
+        }
+      ],
+      "snapshot": "editorial/revision2/review/snapshots/final_read_OS_06_文件目录与文件系统.md"
+    }
+  ],
+  "unchanged_chapters_sha_only": {
+    "manuscript/DS/01_数据结构算法与复杂度.md": {
+      "sha256": "50ea81c2b22af78872f0f5defd888bdd8cfcae036403f8a00d1672fa227facb5",
+      "baseline_sha256": "50ea81c2b22af78872f0f5defd888bdd8cfcae036403f8a00d1672fa227facb5",
+      "verification": "unchanged SHA only; not counted as a full final-round content read"
+    },
+    "manuscript/DS/02_线性表下标结点与指针.md": {
+      "sha256": "7275df546d19c29ecf12c4f555b12ac548f9eefd98650284f6fa82495f0ad368",
+      "baseline_sha256": "7275df546d19c29ecf12c4f555b12ac548f9eefd98650284f6fa82495f0ad368",
+      "verification": "unchanged SHA only; not counted as a full final-round content read"
+    },
+    "manuscript/DS/03_栈队列与数组.md": {
+      "sha256": "8c2ce0f7a734f26e671f4a38f63791fbbba325e833d7df5fee931c8223dbb90b",
+      "baseline_sha256": "8c2ce0f7a734f26e671f4a38f63791fbbba325e833d7df5fee931c8223dbb90b",
+      "verification": "unchanged SHA only; not counted as a full final-round content read"
+    },
+    "manuscript/DS/04_串与模式匹配.md": {
+      "sha256": "508bfb54c946d5cb4f712d6045e1831b724b7bd6644571a79bdca389aefbf32f",
+      "baseline_sha256": "508bfb54c946d5cb4f712d6045e1831b724b7bd6644571a79bdca389aefbf32f",
+      "verification": "unchanged SHA only; not counted as a full final-round content read"
+    },
+    "manuscript/DS/05_树二叉树与应用.md": {
+      "sha256": "aebc56fd446131a438717ba2406a69459dbb9b9ccecee61752f0f92b641215f8",
+      "baseline_sha256": "aebc56fd446131a438717ba2406a69459dbb9b9ccecee61752f0f92b641215f8",
+      "verification": "unchanged SHA only; not counted as a full final-round content read"
+    },
+    "manuscript/DS/06_图与图算法.md": {
+      "sha256": "72ac42ac5bcefd164241298917b81099336a081dfcc2090fce20330c0ea6bc30",
+      "baseline_sha256": "72ac42ac5bcefd164241298917b81099336a081dfcc2090fce20330c0ea6bc30",
+      "verification": "unchanged SHA only; not counted as a full final-round content read"
+    },
+    "manuscript/OS/01_操作系统与程序运行环境.md": {
+      "sha256": "54d093504de58e5436ca93ba7bcf87ac6b71937c6c91528a6c512f9fd5b54e47",
+      "baseline_sha256": "54d093504de58e5436ca93ba7bcf87ac6b71937c6c91528a6c512f9fd5b54e47",
+      "verification": "unchanged SHA only; not counted as a full final-round content read"
+    },
+    "manuscript/OS/03_同步互斥与信号量.md": {
+      "sha256": "3a96a181d6cad7b43c36a0db4361dacf634de93eef89096e3e07735c0d0e969f",
+      "baseline_sha256": "3a96a181d6cad7b43c36a0db4361dacf634de93eef89096e3e07735c0d0e969f",
+      "verification": "unchanged SHA only; not counted as a full final-round content read"
+    },
+    "manuscript/OS/04_死锁与资源分配.md": {
+      "sha256": "e68dc825bc9d938931cba9d28d92527b8708f29aa2825b479372d076465ecdea",
+      "baseline_sha256": "e68dc825bc9d938931cba9d28d92527b8708f29aa2825b479372d076465ecdea",
+      "verification": "unchanged SHA only; not counted as a full final-round content read"
+    },
+    "manuscript/OS/07_IO设备与外存调度.md": {
+      "sha256": "e1cea9533378c1817794a4bf2a14e3d52c3609a33840f6a079986ca34d8bd813",
+      "baseline_sha256": "e1cea9533378c1817794a4bf2a14e3d52c3609a33840f6a079986ca34d8bd813",
+      "verification": "unchanged SHA only; not counted as a full final-round content read"
+    }
+  },
+  "mechanism_figures": {
+    "DS_14_avl_rotations": {
+      "png_sha256": "b2b81c845d403ee21f738eda0809df5f18c24f70b28173d6251486bb7cb98b61",
+      "svg_sha256": "4f7719bed06aa0a6aef812b20db4f80f65589acc8e454ad78b3a615a8ef6de2e",
+      "method": "actual PNG viewed for semantic content, node membership/edges/states or bit/byte fields; compared with original-book pages and independent calculation; no final-PDF layout acceptance"
+    },
+    "DS_21_avl_double_rotations": {
+      "png_sha256": "c0c845601473511a912bf9a8d84f57ccca5111a15a10a9a0f04dcf20eacc96a1",
+      "svg_sha256": "1e86fb22b05a6b0c21495a3f5a0e39d037808faf434ba0eea8fb00739cdc6003",
+      "method": "actual PNG viewed for semantic content, node membership/edges/states or bit/byte fields; compared with original-book pages and independent calculation; no final-PDF layout acceptance"
+    },
+    "DS_15_btree_split": {
+      "png_sha256": "ff0ca5278d9b97a1fa61665e5b3b245a9121bd632011170d073f6261b0728a3e",
+      "svg_sha256": "38cb52c179d25325ccf4d20d0fc186b8f704c2bd02d9b4d86ad841cd5f1e9c7f",
+      "method": "actual PNG viewed for semantic content, node membership/edges/states or bit/byte fields; compared with original-book pages and independent calculation; no final-PDF layout acceptance"
+    },
+    "DS_20_btree_delete": {
+      "png_sha256": "95979b30f8624f4752575018968d88e57b12729cc09309959ad7afc4687eb6ae",
+      "svg_sha256": "1bfad53db3b3efea3486d87f20d72c893afb92bc592902c9fe6758c0a87c043c",
+      "method": "actual PNG viewed for semantic content, node membership/edges/states or bit/byte fields; compared with original-book pages and independent calculation; no final-PDF layout acceptance"
+    },
+    "CN16_ipv4_header": {
+      "png_sha256": "3759a4d6e8cbb1f645653f4696edca56bb25afd74a638a4c221b7c4b130c59d9",
+      "svg_sha256": "70c917b67528b32da76cf5df7853e6664f948350f629ad5debb9110c39bbfe86",
+      "method": "actual PNG viewed for semantic content, node membership/edges/states or bit/byte fields; compared with original-book pages and independent calculation; no final-PDF layout acceptance"
+    },
+    "CN17_tcp_header": {
+      "png_sha256": "08c405ed34e1f88056c26e564a15c1526207ab8f846bc0e37146c95a69726df8",
+      "svg_sha256": "4c77bf28a0ea104773ae30a44bc3d3aaa3ccde8559723a772a2c61c21f72a89d",
+      "method": "actual PNG viewed for semantic content, node membership/edges/states or bit/byte fields; compared with original-book pages and independent calculation; no final-PDF layout acceptance"
+    },
+    "CN18_udp_header": {
+      "png_sha256": "9119a0a1213cbaa681145fcca04a186ac7d2e3075649c3fb0df1fdc88e8e1574",
+      "svg_sha256": "8be19e398c9506ee4269c1b322294c108e71a5eb47226338010252a6f0e02a24",
+      "method": "actual PNG viewed for semantic content, node membership/edges/states or bit/byte fields; compared with original-book pages and independent calculation; no final-PDF layout acceptance"
+    },
+    "CN19_ethernet_frame": {
+      "png_sha256": "ed4b18ffd6347631551e3a12a5acb03009e52bf03067f86d14219a61a41b800b",
+      "svg_sha256": "0576f9c5a1e60c175df27efa9da30316bd34f944c80df8bd0a695688bb31582a",
+      "method": "actual PNG viewed for semantic content, node membership/edges/states or bit/byte fields; compared with original-book pages and independent calculation; no final-PDF layout acceptance"
+    },
+    "CO_F13_pipeline_schedule": {
+      "png_sha256": "7a1a5896c8efe67d22903fe1318cfd4b20d1ce7a30e81b20582eccfa995c122b",
+      "svg_sha256": "5b4d6d8c5d4f08d479168b08597289e7362a02a8f7a29b108a470741f1ec5d92",
+      "method": "actual PNG viewed for semantic content, node membership/edges/states or bit/byte fields; compared with original-book pages and independent calculation; no final-PDF layout acceptance"
+    }
+  },
+  "resolved_findings": [
+    {
+      "id": "OS-R2-01",
+      "status": "RESOLVED",
+      "issue": "CPU scheduling comparisons used different implicit decision criteria",
+      "resolution": "Unified selection/preemption/time-estimate/starvation columns; preserves same-time rules and bounded-wait qualifications",
+      "files": [
+        "manuscript/OS/02_进程线程调度与上下文切换.md"
+      ]
+    },
+    {
+      "id": "OS-R2-02",
+      "status": "RESOLVED",
+      "issue": "Paging/segmentation/segmented-paging distinctions and access counts were scattered",
+      "resolution": "Common dimensions restored; 2/2/3 accesses explicitly require single-level paging, main-memory tables, no cache hit/fault/permission violation",
+      "files": [
+        "manuscript/OS/05_内存管理与虚拟内存.md"
+      ]
+    },
+    {
+      "id": "OS-R2-03",
+      "status": "RESOLVED",
+      "issue": "File allocation comparison omitted overhead and cache assumptions",
+      "resolution": "Adds zero-based block indexing, path-wide uncached data/index blocks, no saved intermediate block number, resident FAT, explicit h+1 index path and residual block slack",
+      "files": [
+        "manuscript/OS/06_文件目录与文件系统.md"
+      ]
+    },
+    {
+      "id": "OS-R2-04",
+      "status": "RESOLVED",
+      "issue": "Moving segmented-paging prose into a table initially dropped its checks",
+      "resolution": "Checks segment identity/permissions and per-segment page-table length; byte-level segment limit is checked when supplied, without assuming absent hardware fields",
+      "files": [
+        "manuscript/OS/05_内存管理与虚拟内存.md"
+      ]
+    },
+    {
+      "id": "DS-R2-01",
+      "status": "RESOLVED",
+      "issue": "Sorting table combined distinct dimensions and best-case implementations",
+      "resolution": "Separate best/average/worst/space/stability columns; binary-insertion full search, bubble early stop, merge implementation, heap equal-key exception and counting/radix space assumptions are explicit",
+      "files": [
+        "manuscript/DS/08_排序与外部归并.md"
+      ]
+    },
+    {
+      "id": "DS-R2-02",
+      "status": "RESOLVED",
+      "issue": "B-tree mechanism needed a compact order-5 example",
+      "resolution": "Verified 16 to17 keys, leaf split then root split, 5 keys to2/promote1/2, six children to3/3, borrowing, cascading merge and root height reduction; temporary violations explicitly marked",
+      "files": [
+        "manuscript/DS/07_查找与索引结构.md"
+      ],
+      "evidence": "independent_tree_results.json"
+    },
+    {
+      "id": "DS-R2-03",
+      "status": "RESOLVED",
+      "issue": "LR/RL double rotations omitted the first rotation state",
+      "resolution": "All four rotation cases preserve exact key sets/inorder, nonempty transferred subtrees and computed balance factors; pre-insertion height3, temporary4, final3",
+      "files": [
+        "manuscript/DS/07_查找与索引结构.md"
+      ],
+      "evidence": "independent_tree_results.json"
+    },
+    {
+      "id": "DS-R2-04",
+      "status": "RESOLVED",
+      "issue": "Multi-key labels initially crossed B-tree node boundaries",
+      "resolution": "Actual regenerated DS15/DS20 PNGs now contain each key in its node and distinguish neighboring leaves; this is a node-membership mechanism fix, not final-page typesetting acceptance",
+      "figures": [
+        "DS_15_btree_split",
+        "DS_20_btree_delete"
+      ]
+    },
+    {
+      "id": "DS-R2-05",
+      "status": "RESOLVED",
+      "issue": "B+ comparison could conflate leaf records and index-path I/O",
+      "resolution": "Leaf keys plus record/record-pointer convention explicit; h counts index pages, external record I/O separately; hash average complexity keeps distribution/load conditions",
+      "files": [
+        "manuscript/DS/07_查找与索引结构.md"
+      ]
+    },
+    {
+      "id": "CN-R2-01",
+      "status": "RESOLVED",
+      "issue": "Protocol field explanations lacked textbook header placement",
+      "resolution": "Independently checked actual IPv4/TCP/UDP/Ethernet images against original headers: field order, bit widths, units, options/padding, checksum scopes and MAC boundaries match",
+      "evidence": "independent_protocol_results.json"
+    },
+    {
+      "id": "CN-R2-02",
+      "status": "RESOLVED",
+      "issue": "Same-named lengths/checksums and frame/wire-cycle boundaries required explicit conditions",
+      "resolution": "4B IHL/TCP offsets,8B fragment offset, UDP header-inclusive length, checksum-only pseudoheaders, IPv4 zero-checksum semantics and Ethernet14/64-1518/672-bit-cycle conditions remain distinct",
+      "evidence": "independent_protocol_results.json"
+    },
+    {
+      "id": "CN-R2-03",
+      "status": "RESOLVED",
+      "issue": "Comparisons could lose service endpoints or model conditions",
+      "resolution": "ARQ windows/ACK conventions and textbook Wr<=Ws, medium/full-duplex assumptions, routing information versus carrier, TCP versus UDP, rwnd/cwnd/inflight and ideal HTTP dependency timeline reviewed on common dimensions; final CN04 formula-only fix reread",
+      "files": [
+        "manuscript/CN/01_网络层次服务与性能.md",
+        "manuscript/CN/02_物理层信号速率与交换.md",
+        "manuscript/CN/03_链路层可靠传输与介质访问.md",
+        "manuscript/CN/04_网络层地址路由与转发.md",
+        "manuscript/CN/05_传输层可靠连接与窗口.md",
+        "manuscript/CN/06_应用层名称邮件与Web.md"
+      ]
+    },
+    {
+      "id": "CO-R2-01",
+      "status": "RESOLVED",
+      "issue": "Needed supported integrated problems and common hardware comparison dimensions",
+      "resolution": "Five complete original-book exam problems independently recalculated; preserves signed-overflow exam model versus C, IMUL sign-extension test, recursive call count, TLB set LRU, no-forwarding timing and input clock/data-rate conditions",
+      "evidence": "independent_numbers.json"
+    },
+    {
+      "id": "CO-R2-02",
+      "status": "RESOLVED",
+      "issue": "TLB/page-table/physical-Cache chain needed one numeric teaching example",
+      "resolution": "CO3-13 is explicitly an adapted textbook example, not a sixth exam problem; original OS235-237 tables re-read, retained rows match, three initial-state queries independently yield354/36,0B1/main-memory unknown byte,and page-fault stop",
+      "files": [
+        "manuscript/CO/03_存储系统与地址.md"
+      ],
+      "evidence": "independent_numbers.json"
+    },
+    {
+      "id": "CO-R2-03",
+      "status": "RESOLVED",
+      "issue": "Pipeline diagram artifact lagged the corrected ID-wait wording",
+      "resolution": "Final actual F13 PNG/SVG now say ID-side waiting with held front state; all stages and17-cycle completion still match source problem and independent lower bound",
+      "figures": [
+        "CO_F13_pipeline_schedule"
+      ]
+    }
+  ],
+  "remaining": [],
+  "not_reviewed": [
+    "Final lecture PDF page layout, pagination, typography, clipping and print/crop quality; no new visual PASS is asserted",
+    "The ten unchanged chapter files are checked against baseline SHA only; not counted as an exhaustive final-round read",
+    "Unchanged parts of modified chapters, every older exercise source/routing entry, and all original textbook pages were not exhaustively re-audited in this round",
+    "Subject-author larger verification counts are not presented as independent-reviewer checks; only the independent scripts and exact read logs below support this conclusion"
+  ],
+  "evidence": {
+    "primary_source_read_log": "editorial/revision2/review/independent_read_log.json",
+    "prior_draft_read_sessions": "editorial/revision2/review/revision_read_sessions.json",
+    "initial_findings": "editorial/revision2/review/01_initial_findings.md",
+    "independent_numbers": "editorial/revision2/review/independent_numbers.json",
+    "independent_tree_states": "editorial/revision2/review/independent_tree_results.json",
+    "independent_protocols": "editorial/revision2/review/independent_protocol_results.json"
+  },
+  "independent_check_runs": [
+    {
+      "script": "verify_content_numbers.py",
+      "result": "PASS; five original exam problems plus source-table joint translation example"
+    },
+    {
+      "script": "verify_tree_states.py",
+      "result": "PASS; actual AVL/B-tree states, transfers, range/count/depth invariants"
+    },
+    {
+      "script": "verify_protocol_formats.py",
+      "result": "PASS; bit widths, byte serialization, scope-sensitive checksum mutations and frame bounds"
+    }
+  ],
+  "author_source_changes": "Reviewer changed only files under editorial/revision2/review; no author manuscripts, shared original sources, or V1 visual acceptance files were edited by reviewer"
+}

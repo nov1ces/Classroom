@@ -1,0 +1,455 @@
+{
+  "schema": "co-revision2-synthesis-source-verification-v1",
+  "verifier": "/root/rev2_sources",
+  "scope": "只核验本表5道新增综合题；其余年份题号定位/抽读不构成完整核验。未进行讲义PDF排版、分页或视觉检查。",
+  "source_labels": {
+    "exam": "用户工作区已有的社区复原卷；不称官方试卷或官方答案",
+    "main_book": "用户指定主书《王道2027计算机组成原理考研复习指导》扫描PDF；题干与参考解析分别图读",
+    "page_numbering": "所有*_pages字段均为PDF物理页，从1开始；本主书所列印刷页=物理页-12",
+    "options": "5题均为综合应用题，无选择题选项；均核对完整设问",
+    "frequency": "选用依据为现稿模型覆盖缺口，不推断或编造历年频率"
+  },
+  "main_book_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+  "main_book_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
+  "render_manifest": "render_manifest.json",
+  "independent_calculation_script": "independent_checks.py",
+  "independent_calculation_result": "independent_checks.json",
+  "review_document": "CO_new_synthesis_audit.md",
+  "entries": [
+    {
+      "id": "CO2-10",
+      "year": 2017,
+      "exam_question": 43,
+      "exam_pdf": "/workspace/408_lecture_notes/editorial/sources/exams/exam_2017_rebuild.pdf",
+      "exam_pdf_sha256": "be9d174cfb6018c945066c94aa501675be4f3106a187037ab26757823fb51715",
+      "exam_pages": [
+        7
+      ],
+      "main_book_question_pages": [
+        78
+      ],
+      "main_book_answer_pages": [
+        86,
+        87
+      ],
+      "main_book_section": "2.3.5 本节习题精选／二、综合应用题；2.3.6 答案与解析／二、综合应用题",
+      "main_book_comprehensive_number": "05",
+      "actual_views": [
+        {
+          "file": "exam_2017_q43_physical_7.png",
+          "physical_page": 7,
+          "role": "exam_stem",
+          "scope": "题号43/13分，求和公式、完整C代码、32位/IEEE754假设、5个完整设问"
+        },
+        {
+          "file": "book_physical_78.png",
+          "physical_page": 78,
+          "role": "book_stem",
+          "scope": "综合05全题"
+        },
+        {
+          "file": "book_physical_86.png",
+          "physical_page": 86,
+          "role": "book_answer",
+          "scope": "综合05解1~5，末问跨页"
+        },
+        {
+          "file": "book_physical_87.png",
+          "physical_page": 87,
+          "role": "book_answer",
+          "scope": "页首接综合05末问：126与23"
+        }
+      ],
+      "verified_inventory": [
+        "f(n)=Σ(i=0..n)2^i=2^(n+1)-1，n+1位1",
+        "f1(unsigned n)，int sum=1,power=1；for(unsigned i=0;i<=n-1;i++){power*=2;sum+=power;}return sum",
+        "f2仅将int替换float，unsigned控制变量保持；unsigned/int均32位，float为IEEE754单精度",
+        "5问依次为n=0死循环及改signed、n=23机器数、n=24差异、n=31及f1最大精确n、f2(127)特殊值与有限/精确边界"
+      ],
+      "selection_reason": "现稿数据表示章缺整条C控制条件→定点范围→浮点有效位/阶码边界任务；本题一次连通这几种模型。",
+      "differences": [],
+      "boundaries": [
+        "f1(31)=-1按题定32位补码截断机器结果解释；标准C有符号溢出不是可移植保证。不得用运行溢出的C程序当数值验证。",
+        "n=0 unsigned n-1=FFFFFFFFH，循环条件恒真按题设机器模型说明；改为signed时初始条件0<=-1为假。",
+        "float精度边界与范围边界分开：24有效位；最大精确n23；最大有限n126；n127为+∞。"
+      ],
+      "independently_checked_results": {
+        "f1_23": "00FFFFFFH",
+        "f2_23": "4B7FFFFFH",
+        "f1_24": 33554431,
+        "f2_24": 33554432,
+        "f1_31": -1,
+        "f1_max_exact_n": 30,
+        "f2_127": "7F800000H = +∞",
+        "f2_max_finite_n": 126,
+        "f2_max_exact_n": 23
+      },
+      "status": "complete_visual_source_and_reference_check"
+    },
+    {
+      "id": "CO3-12",
+      "year": 2021,
+      "exam_question": 44,
+      "exam_pdf": "/workspace/408_lecture_notes/editorial/sources/exams/exam_2021_rebuild.pdf",
+      "exam_pdf_sha256": "d26b51a98a162c1239df3aded10dba92fc94886090e044393bab2ed840fb7ea3",
+      "exam_pages": [
+        8
+      ],
+      "main_book_question_pages": [
+        152
+      ],
+      "main_book_answer_pages": [
+        157
+      ],
+      "main_book_section": "3.6.6 本节习题精选／二、综合应用题；3.6.7 答案与解析／二、综合应用题",
+      "main_book_comprehensive_number": "07",
+      "actual_views": [
+        {
+          "file": "exam_2021_q44_physical_8.png",
+          "physical_page": 8,
+          "role": "exam_stem",
+          "scope": "题号44/8分，全题含4个设问与完整访问序列"
+        },
+        {
+          "file": "book_physical_152.png",
+          "physical_page": 152,
+          "role": "book_stem",
+          "scope": "综合07全题"
+        },
+        {
+          "file": "book_physical_157.png",
+          "physical_page": 157,
+          "role": "book_answer",
+          "scope": "综合07解1~4"
+        },
+        {
+          "file": "book_physical_157_tlb_answer_crop.png",
+          "physical_page": 157,
+          "role": "book_answer_crop",
+          "scope": "核清“随后3位”指TLB标记之后的VA14..12，非VA最低3位；裁剪矩形[45,330,505,410]，渲染3倍",
+          "sha256": "ee9c66936e9bcf61f0427318e7646fdf2cd2c37c09f401b2bd659b6b1b072f77"
+        }
+      ],
+      "verified_inventory": [
+        "物理地址24位、虚拟地址30位、按字节编址、页4KB",
+        "TLB两路组相联、8组、LRU、初始空",
+        "虚页号访问10,12,16,7,26,4,12,20（十进制）",
+        "4问依次为虚页/页内位段、TLB标记/组号、被替换项、VA增为32时TLB表项增加位数"
+      ],
+      "selection_reason": "现稿已有单次TLB转换但缺连续组映射与LRU更新；本题补上多次访问中的组内状态追踪。",
+      "differences": [],
+      "boundaries": [
+        "访问数列给的是虚页号，不能再次当字节地址右移12位。",
+        "被替换的是VPN4对应表项，访问12命中后须刷新组4的LRU次序。",
+        "本题不提供页表驻留位或Cache状态，不能据TLB缺失自行断言缺页或Cache缺失。"
+      ],
+      "independently_checked_results": {
+        "vpn_bits": "VA29..12",
+        "offset_bits": "VA11..0",
+        "tlb_tag": "VA29..15",
+        "tlb_group": "VA14..12",
+        "group_sequence": [
+          2,
+          4,
+          0,
+          7,
+          2,
+          4,
+          4,
+          4
+        ],
+        "replaced_vpn": 4,
+        "extra_bits": 2
+      },
+      "status": "complete_visual_source_and_reference_check"
+    },
+    {
+      "id": "CO4-6",
+      "year": 2019,
+      "exam_question": 45,
+      "exam_pdf": "/workspace/408_lecture_notes/editorial/sources/exams/exam_2019_rebuild.pdf",
+      "exam_pdf_sha256": "46e45d5c4bb5afce467e6cd0228fa64c90ab2ceb138e2f8b17a9eb0747542057",
+      "exam_pages": [
+        9
+      ],
+      "main_book_question_pages": [
+        195,
+        196
+      ],
+      "main_book_answer_pages": [
+        200,
+        201
+      ],
+      "main_book_section": "4.3.5 本节习题精选／二、综合应用题；4.3.6 答案与解析／二、综合应用题",
+      "main_book_comprehensive_number": "02",
+      "actual_views": [
+        {
+          "file": "exam_2019_q45_physical_9.png",
+          "physical_page": 9,
+          "role": "exam_stem",
+          "scope": "题号45/16分，全部源代码、12行已给机器码/地址/汇编、全部5问"
+        },
+        {
+          "file": "book_physical_195.png",
+          "physical_page": 195,
+          "role": "book_stem",
+          "scope": "页末综合02题首、阶乘定义及引导"
+        },
+        {
+          "file": "book_physical_196.png",
+          "physical_page": 196,
+          "role": "book_stem",
+          "scope": "综合02完整代码与5问"
+        },
+        {
+          "file": "book_physical_200.png",
+          "physical_page": 200,
+          "role": "book_answer",
+          "scope": "页末综合02解1、解2开头"
+        },
+        {
+          "file": "book_physical_201.png",
+          "physical_page": 201,
+          "role": "book_answer",
+          "scope": "页首综合02解2续、解3~5"
+        }
+      ],
+      "verified_inventory": [
+        "32位机器M、字节编址、int32位、f1(int n)递归阶乘，n>1时return n*f1(n-1)，否则return1",
+        "代码已给行1/11/12/13/14/15/16/19/20/21/26/30；行16地址00401025H、字节E8 D6 FF FF FF、call00401000H",
+        "5问依次为f(10)调用次数/递归指令、条件/必跳指令、下一地址/相对偏移/字节序、f(13)截断及改源程序、乘积溢出条件与附加自陷指令"
+      ],
+      "selection_reason": "现稿已有原创调用示意而无真题调用追踪；本题补递归、返回位置、call位移、字节序、乘法结果与异常的完整链。",
+      "differences": [],
+      "boundaries": [
+        "总调用10次包括初始f1(10)，函数体内递归call执行9次。",
+        "call偏移基准是顺序下一指令0040102AH，不是call起址00401025H。",
+        "OF条件可写乘积高33位不全0且不全1，等价于高32位不是低32位符号位的符号扩展。",
+        "末问主书写“溢出自陷指令”：OF=1时调出异常处理程序。仅写普通jo转移不自动构成异常自陷。",
+        "f1(13)低32位结果按题给机器码/机器模型解释，不扩张为标准C有符号溢出保证。"
+      ],
+      "independently_checked_results": {
+        "total_invocations": 10,
+        "recursive_call_line": 16,
+        "conditional_branch_line": 12,
+        "always_transfer_lines": [
+          16,
+          20,
+          30
+        ],
+        "next_pc": "0040102AH",
+        "offset_decimal": -42,
+        "offset_32bit": "FFFFFFD6H",
+        "offset_bytes": "D6 FF FF FF",
+        "endianness": "little",
+        "factorial13": 6227020800,
+        "low32_decimal": 1932053504,
+        "low32_hex": "7328CC00H",
+        "safe_source_edit": "将f1返回类型改为long long（使递归返回值及乘法在足够宽类型中进行）"
+      },
+      "status": "complete_visual_source_and_reference_check"
+    },
+    {
+      "id": "CO6-5",
+      "year": 2012,
+      "exam_question": 44,
+      "exam_pdf": "/workspace/408_lecture_notes/editorial/sources/exams/exam_2012_rebuild.pdf",
+      "exam_pdf_sha256": "63f7ba2f6cf8b10da27eb7ed8b30f87f6edfa918ec3fedad38de82d6d8355fe9",
+      "exam_pages": [
+        8
+      ],
+      "main_book_question_pages": [
+        271
+      ],
+      "main_book_answer_pages": [
+        277
+      ],
+      "main_book_section": "5.6.6 本节习题精选／二、综合应用题；5.6.7 答案与解析／二、综合应用题",
+      "main_book_comprehensive_number": "01",
+      "actual_views": [
+        {
+          "file": "exam_2012_q44_physical_8.png",
+          "physical_page": 8,
+          "role": "exam_stem",
+          "scope": "题号44/12分、完整5条指令功能表、5段限制、4问、原始4×14时空表逐格读"
+        },
+        {
+          "file": "book_physical_271.png",
+          "physical_page": 271,
+          "role": "book_stem",
+          "scope": "综合01全题及完整时空表"
+        },
+        {
+          "file": "book_physical_277.png",
+          "physical_page": 277,
+          "role": "book_answer",
+          "scope": "综合01解1~4及5×17时空表逐格读"
+        }
+      ],
+      "verified_inventory": [
+        "16位补码机器，指令/数据Cache分离",
+        "ADD Rs,Rd为(Rs)+(Rd)→Rd；SHL Rd乘2；SHR Rd算术右移；LOAD Rd,mem；STORE Rs,mem",
+        "5段IF/ID/EX/M/WB；按序发射按序完成；无转发；同一寄存器读写不可同周期",
+        "4问为-513算术右移、理想4指令时长、所给4指令时空图阻塞解释、x=x*2+a的最优指令序列与时空图",
+        "原图I1五段1,2,3,4,5；I2为2,3,4,5,6；I3为3,7,8,9,10；I4为7,11,12,13,14"
+      ],
+      "selection_reason": "现稿只有简短load-use示例，缺完整时空表、阻塞传播及合法调度；本题的明确读写约束使答案可严格复算。",
+      "differences": [],
+      "boundaries": [
+        "算术右移-513为-257（FEFFH），不能将表中/2简写按C除法向零截断。",
+        "原题同周期不可读写使消费者ID必须晚于生产者WB一拍。",
+        "保持源图/主书5段完成口径，STORE列仍画到WB；不得无声明改为MEM完成而把17改16。",
+        "题给ADD第二个操作数为目的寄存器；最优序列ADD R1,R2后由R2存回。"
+      ],
+      "independently_checked_results": {
+        "shift_hex": "FEFFH",
+        "shift_signed": -257,
+        "ideal_cycles": 8,
+        "original_sequence_cycles": 14,
+        "minimum_cycles": 17,
+        "minimum_sequence": [
+          "LOAD R1,[x]",
+          "LOAD R2,[a]",
+          "SHL R1（或ADD R1,R1）",
+          "ADD R1,R2",
+          "STORE R2,[x]"
+        ],
+        "minimum_stage_cycles": [
+          [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          [
+            3,
+            6,
+            7,
+            8,
+            9
+          ],
+          [
+            6,
+            10,
+            11,
+            12,
+            13
+          ],
+          [
+            10,
+            14,
+            15,
+            16,
+            17
+          ]
+        ]
+      },
+      "status": "complete_visual_source_and_reference_check"
+    },
+    {
+      "id": "CO8-7",
+      "year": 2018,
+      "exam_question": 43,
+      "exam_pdf": "/workspace/408_lecture_notes/editorial/sources/exams/exam_2018_rebuild.pdf",
+      "exam_pdf_sha256": "1f47b4d36458b68d261f8e58b459fc5bf7b5fba3da40075f8ade36faeb7ec5ec",
+      "exam_pages": [
+        7
+      ],
+      "main_book_question_pages": [
+        328,
+        329
+      ],
+      "main_book_answer_pages": [
+        337
+      ],
+      "main_book_section": "7.3.4 本节习题精选／二、综合应用题；7.3.5 答案与解析／二、综合应用题",
+      "main_book_comprehensive_number": "10",
+      "actual_views": [
+        {
+          "file": "exam_2018_q43_physical_7.png",
+          "physical_page": 7,
+          "role": "exam_stem",
+          "scope": "题号43/8分，全部参数与3问"
+        },
+        {
+          "file": "book_physical_328.png",
+          "physical_page": 328,
+          "role": "book_stem",
+          "scope": "页末综合10题干、问1~2"
+        },
+        {
+          "file": "book_physical_329.png",
+          "physical_page": 329,
+          "role": "book_stem",
+          "scope": "页首综合10问3"
+        },
+        {
+          "file": "book_physical_337.png",
+          "physical_page": 337,
+          "role": "book_answer",
+          "scope": "综合10解1~3"
+        }
+      ],
+      "verified_inventory": [
+        "主频500MHz、CPI4；设备A2MB/s、B40MB/s；各接口32位缓冲寄存器",
+        "查询A每次至少10指令；问最大查询间隔及最少CPU比例",
+        "中断B每次响应+处理至少400周期；问是否可行及理由",
+        "DMA B块1000B，预处理+后处理总500周期；问最多CPU比例"
+      ],
+      "selection_reason": "现稿I/O多为孤立比例选择，缺同一机器下三方式共同按缓冲单位/到达率/CPU开销建模的综合任务。",
+      "differences": [],
+      "boundaries": [
+        "32位缓冲=4B；MB/s按十进制10^6B/s，勿在无声明情况下换MiB。",
+        "查询给指令数，须乘CPI；中断与DMA已给周期数，不再乘CPI。",
+        "中断是每4B一次；DMA是每1000B一块一次预后处理。",
+        "DMA块传输时间不全算CPU占用，本题仅计指定预后处理周期。"
+      ],
+      "independently_checked_results": {
+        "A_max_interval_us": 2,
+        "A_min_cpu_percent": 4,
+        "B_interrupt_arrival_cycles": 50,
+        "B_interrupt_service_cycles": 400,
+        "B_interrupt_feasible": false,
+        "B_interrupt_required_cpu_percent": 800,
+        "B_DMA_blocks_per_s": 40000,
+        "B_DMA_max_cpu_percent": 4
+      },
+      "status": "complete_visual_source_and_reference_check"
+    }
+  ],
+  "not_counted_as_verified": [
+    {
+      "year": 2017,
+      "question": 44,
+      "reason": "候选范围不足（CISC/长度/CF/float移位），原卷仅文本抽读，不纳入五题核验。"
+    },
+    {
+      "year": 2024,
+      "question": 44,
+      "reason": "原卷为数组地址/小端/机器码题，非流水题；仅文本抽读，撤出候选。"
+    },
+    {
+      "year": 2016,
+      "question": 43,
+      "reason": "原卷物理p8是DS划分算法，原先候选年份题号错配；不纳入CO。"
+    },
+    {
+      "year": 2014,
+      "question": 44,
+      "reason": "曾为流水候选文本定位，未逐图核验；最终改2012q44。"
+    },
+    {
+      "year": 2023,
+      "question": 44,
+      "reason": "曾为机器级代码候选文本定位，最终改用2019q45；未计已核。"
+    }
+  ]
+}

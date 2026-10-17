@@ -28,7 +28,9 @@ def main():
         out.append('\\'+commands[role]+'{'+normal_path.name+'}['+','.join(opts)+']')
     (ROOT/'build').mkdir(exist_ok=True)
     (ROOT/'build/fonts.tex').write_text('\n'.join(out)+'\n')
-    (ROOT/'editorial/verification/font_manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
+    target=ROOT/'editorial/final/font_manifest.json'
+    target.parent.mkdir(parents=True,exist_ok=True)
+    target.write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
     print('Resolved SC faces 2/2/7 for body, headings and code')
 
 if __name__=='__main__':main()

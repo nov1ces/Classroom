@@ -1,0 +1,59 @@
+{
+  "reviewed_at": "2026-10-17T17:02:10.576845+00:00",
+  "reviewer": "assistant using view_image",
+  "scope": "四科310页版面总览，计组例2-4、例2-9、嵌入式自测选项和例3-13、数据结构第5章自测答案细看；全部选项位置另有逐组坐标核验。不是独立内容复核。",
+  "books": [
+    {
+      "subject": "DS",
+      "pdf": "dist/final/数据结构_最终稿.pdf",
+      "sha256": "a4feba204da80b60405233202e80f4f135f6ea25a81159de51677b4b53a3297f",
+      "status": "OVERVIEW_AND_TARGETED_DETAIL_PASS",
+      "detailed_physical_pages": [
+        38
+      ],
+      "previous_reviewed_sha256": "0d72f9185c9ecb9007299fd3ff21e3f4ffc0f85019a89b1d0696a53c8d468ee1",
+      "overview_sheet_count": 4,
+      "review_binding": "由全页文字、像素及导航等价核对沿用原视觉记录；原阅图日期不变。"
+    },
+    {
+      "subject": "CO",
+      "pdf": "dist/final/计算机组成原理_最终稿.pdf",
+      "sha256": "1cfb5132a7598a7b91bb982db8b3a10696ede36f7750144bb19634bc7382946b",
+      "status": "OVERVIEW_AND_TARGETED_DETAIL_PASS",
+      "detailed_physical_pages": [
+        11,
+        16,
+        18,
+        31
+      ],
+      "previous_reviewed_sha256": "31e00b1b10a1a1722148a25b2f81a06f4a8649b84fc237753b3b9ca3f1fdf46c",
+      "overview_sheet_count": 4,
+      "review_binding": "由全页文字、像素及导航等价核对沿用原视觉记录；原阅图日期不变。"
+    },
+    {
+      "subject": "OS",
+      "pdf": "dist/final/操作系统_最终稿.pdf",
+      "sha256": "df07ee7a6863404dc0ab8673f84bc6ec63987c0887a9e1ea3474874b59f42863",
+      "status": "OVERVIEW_AND_TARGETED_DETAIL_PASS",
+      "detailed_physical_pages": [],
+      "previous_reviewed_sha256": "66613fcdf5b869ca2987535cac85d243dd974a4a21fb0d0fffe5e907fde049a7",
+      "overview_sheet_count": 5,
+      "review_binding": "由全页文字、像素及导航等价核对沿用原视觉记录；原阅图日期不变。"
+    },
+    {
+      "subject": "CN",
+      "pdf": "dist/final/计算机网络_最终稿.pdf",
+      "sha256": "615541c73796129d23bfb333843037e40f63dd3777a7d96f3e74e608e13f1a8b",
+      "status": "OVERVIEW_AND_TARGETED_DETAIL_PASS",
+      "detailed_physical_pages": [],
+      "previous_reviewed_sha256": "8e57a892f923aad4d17d6639307f8c89cbaf77e885d26cfd2e1490684d7847e9",
+      "overview_sheet_count": 4,
+      "review_binding": "由全页文字、像素及导航等价核对沿用原视觉记录；原阅图日期不变。"
+    }
+  ],
+  "page_overview_count": 310,
+  "overview_sheets_viewed": 17,
+  "high_resolution_detail_pages_viewed": 5,
+  "rebuild_equivalence": "editorial/final/rebuild_equivalence.json",
+  "preview_cache_note": "逐页预览与总览图为可再生缓存，已从交付中清理。"
+}

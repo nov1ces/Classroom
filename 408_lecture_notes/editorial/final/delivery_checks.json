@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "combined_pdf_sha256": "63dc397e2bc5ae6ddf374bf6ca7aa9ffd60974e6a48a7bf06c96a92b39677928",
+  "roundtrip_link_targets_checked": 798,
+  "source_to_combined_page_text_and_pixels": "All 310 pages verified by export_final.py",
+  "source_chapters_verified": 29,
+  "text_and_code_preservation": "editorial/final/choice_source_checks.json",
+  "conversion_checks": "editorial/final/conversion_results.json"
+}

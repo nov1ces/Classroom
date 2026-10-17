@@ -6,6 +6,8 @@ import html, json, subprocess
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'figures'
 OUT.mkdir(exist_ok=True)
+MANIFEST=ROOT/'build/OS/figure_manifest.json'
+MANIFEST.parent.mkdir(parents=True,exist_ok=True)
 BLUE='#24506b'; GRAY='#f2f3f4'; WAIT='#fff5dc'
 
 class Figure:
@@ -61,7 +63,7 @@ def build():
     f.line(400,315,250,210);f.text(220,286,'事件满足后唤醒',18)
     fs.append(f.finish())
 
-    data=json.loads((ROOT/'editorial/full/OS/model_data.json').read_text())
+    data=json.loads((ROOT/'figures/OS_model_data.json').read_text())
     f=Figure('OS_priority_timeline',960,250,'【2023】抢占式优先级：运行段与剩余时间')
     seg=data['priority_2023']['segments'];left=65;scale=7.2
     for i,(a,b,p) in enumerate(seg):
@@ -152,12 +154,12 @@ def build():
         y=130+i*29;f.line(left+seq[i]*scale,y,left+seq[i+1]*scale,y)
     f.text(500,308,'向内为编号增大；总距离(199−58)+(199−15)=325，服务完15即停止。',19)
     fs.append(f.finish())
-    (ROOT/'editorial/full/OS/figures.json').write_text(json.dumps(fs,ensure_ascii=False,indent=2))
+    MANIFEST.write_text(json.dumps(fs,ensure_ascii=False,indent=2))
     print(json.dumps({'figures':len(fs),'formats':['SVG','PNG','PDF']},ensure_ascii=False))
 
 def build_revision3():
     """Draw only the new source-required directory figure; leave old artifacts intact."""
-    data=json.loads((ROOT/'editorial/full/OS/model_data.json').read_text())['directory_2022']
+    data=json.loads((ROOT/'figures/OS_model_data.json').read_text())['directory_2022']
     f=Figure('OS_file_directory_2022',1040,460,'【2022】目录层次与题设的 inode、磁盘块对应')
     positions={'stu':(35,100,110,55),'course':(195,165,130,55),'doc':(195,345,130,55),
                'course1':(380,185,130,55),'course2':(380,280,130,55)}
@@ -175,7 +177,7 @@ def build_revision3():
         for (x,w),value in zip(cols,record): f.box(x,148+row*48,w,48,value,fill='white',size=20)
     f.text(520,438,'左侧表示目录包含关系；右表保留题设全部名字、inode 号与块号。',19)
     item=f.finish()
-    manifest=ROOT/'editorial/full/OS/figures.json'
+    manifest=MANIFEST
     fs=json.loads(manifest.read_text())
     fs=[entry for entry in fs if entry['id']!=item['id']]+[item]
     manifest.write_text(json.dumps(fs,ensure_ascii=False,indent=2)+'\n')

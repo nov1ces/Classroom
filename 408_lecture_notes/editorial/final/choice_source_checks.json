@@ -1,0 +1,328 @@
+{
+  "status": "PASS",
+  "scope": "29章全量源码与选项转换核对；忽略排版空白，正文字符及代码、公式、图、标题、表格保全。",
+  "source_sha256": {
+    "manuscript/DS/01_数据结构算法与复杂度.md": "b050e840a2b89bdcdb2b7afabd26ce38ab83214e932c880723c9b6962114a281",
+    "manuscript/DS/02_线性表下标结点与指针.md": "bbf41bb4b8b89489df98170666c831f729f98855858a1bbff1629ec79bd08627",
+    "manuscript/DS/03_栈队列与数组.md": "6001965694eac075457a6348fc3bcf5618ca5c7a124b2b7dcd777a6a65aa68da",
+    "manuscript/DS/04_串与模式匹配.md": "842156733cdb65bf0f4d8188c857cea2f5b46e46a9581ef636986a8b3f16fd12",
+    "manuscript/DS/05_树二叉树与应用.md": "2d67063fe0187d560d6b109e56e2c3703b2708b56d6859e3a9a048d3c658b38b",
+    "manuscript/DS/06_图与图算法.md": "8a49e5b466ffc5b44ac9d68382708586f3b6c107a59c72c529cde9cca8314695",
+    "manuscript/DS/07_查找与索引结构.md": "3663092235340e1a20dd0e6ca9b2679085ee1551549317530cd565f7f903de57",
+    "manuscript/DS/08_排序与外部归并.md": "04218e9fbb344c660bdc5b5429b86bc8df5b5712863192797318b743d531264f",
+    "manuscript/CO/01_计算机系统与程序执行.md": "04409b5facd73ee6efc15012380a1700918e97df815396a630f0f0d89ccde544",
+    "manuscript/CO/02_数据表示与运算.md": "89ac8f8c5d60173499a3f52cb90d5277ea5d2e67d49c869baf05ebd16e9aa6db",
+    "manuscript/CO/03_存储系统与地址.md": "459e2d64cd4e5fd2e4dcf4dbde3900a552d0d5f11a7c4afdfaa893f4a623b7ac",
+    "manuscript/CO/04_指令系统与程序表示.md": "c20b603358789cac89a97bdc4300a472bcd03048386da8b66be37ab200a42bfb",
+    "manuscript/CO/05_CPU与控制.md": "9d2a2af4b5c93a34e602eb4277ac9d7511bcc9aa91edb3454cf0c888a33548fc",
+    "manuscript/CO/06_流水线与并行处理.md": "13bce71d2578f17beae347a4f5b80f002818164fcfcd5c2593af0938ed2506cb",
+    "manuscript/CO/07_总线与传输时间.md": "8ba80497dec36097015fdfe1f8e33a199365f367bbddd98661de29dcbfbbd61e",
+    "manuscript/CO/08_IO与DMA.md": "82f54cb2bfa86e9baec10bc085ca8805042011666e3dc991c676fa7c232a837b",
+    "manuscript/OS/01_操作系统与程序运行环境.md": "cc8fd2ad790dc7c66b842a704028ec71b6823e2bb0d06c534cccf2e435d46ee1",
+    "manuscript/OS/02_进程线程调度与上下文切换.md": "780e0b7687d51909dae6665c31b21221edefff22f380ae27c4501da5b3f112ea",
+    "manuscript/OS/03_同步互斥与信号量.md": "494fc77a3c2f723b76f0dd3ede456640b710a5464fa4f3a72cbf4f6c2e21c9c1",
+    "manuscript/OS/04_死锁与资源分配.md": "105359ce2ca705a547dc2fbcbdf2e0f556aa3243e35fec8d002cd83af5625064",
+    "manuscript/OS/05_内存管理与虚拟内存.md": "4da151a728f3e4bd7142a7041ac94e23fde2fc160019f02bb8b18fa552f359b1",
+    "manuscript/OS/06_文件目录与文件系统.md": "89277a3f771b3bae98975324a1e2fcba8f66d55680ec37fa1857fdbc096a226a",
+    "manuscript/OS/07_IO设备与外存调度.md": "384abd2d1b3fbfbc11237aab5f5f34285864f59143f45bd6b04c94de19281275",
+    "manuscript/CN/01_网络层次服务与性能.md": "2ffb7b6b17b8a710832842a4396cabb783d9433fa08cd600a60b0d69a4cd86c3",
+    "manuscript/CN/02_物理层信号速率与交换.md": "2668a3396c8d797ce4fa857bc8d48ae6f14d4ad2d5ca5d9a5b44368e7ff5edac",
+    "manuscript/CN/03_链路层可靠传输与介质访问.md": "9efd996ce31c61144ed0b3cdf357ad2b5aca2e9f85468e2631616ce2aece19fe",
+    "manuscript/CN/04_网络层地址路由与转发.md": "00f04841e5d34c6162a9209d11f00daff8e225affbd1fd43ba7df4ba74a12d1e",
+    "manuscript/CN/05_传输层可靠连接与窗口.md": "019fc76b521f58b4791919b380a880b0ae37ed19420bb0e8145169ebd4f08c47",
+    "manuscript/CN/06_应用层名称邮件与Web.md": "07488d12cd1cbb29fca8bd3d97a8ebc718c16357a9efe768f08acc23dbb6a87f"
+  },
+  "books": [
+    {
+      "subject": "DS",
+      "chapters": [
+        {
+          "path": "manuscript/DS/01_数据结构算法与复杂度.md",
+          "sha256": "b050e840a2b89bdcdb2b7afabd26ce38ab83214e932c880723c9b6962114a281",
+          "choices": 4,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/DS/02_线性表下标结点与指针.md",
+          "sha256": "bbf41bb4b8b89489df98170666c831f729f98855858a1bbff1629ec79bd08627",
+          "choices": 1,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 1,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/DS/03_栈队列与数组.md",
+          "sha256": "6001965694eac075457a6348fc3bcf5618ca5c7a124b2b7dcd777a6a65aa68da",
+          "choices": 6,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/DS/04_串与模式匹配.md",
+          "sha256": "842156733cdb65bf0f4d8188c857cea2f5b46e46a9581ef636986a8b3f16fd12",
+          "choices": 2,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/DS/05_树二叉树与应用.md",
+          "sha256": "2d67063fe0187d560d6b109e56e2c3703b2708b56d6859e3a9a048d3c658b38b",
+          "choices": 6,
+          "statements": 1,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/DS/06_图与图算法.md",
+          "sha256": "8a49e5b466ffc5b44ac9d68382708586f3b6c107a59c72c529cde9cca8314695",
+          "choices": 5,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/DS/07_查找与索引结构.md",
+          "sha256": "3663092235340e1a20dd0e6ca9b2679085ee1551549317530cd565f7f903de57",
+          "choices": 6,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/DS/08_排序与外部归并.md",
+          "sha256": "04218e9fbb344c660bdc5b5429b86bc8df5b5712863192797318b743d531264f",
+          "choices": 5,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        }
+      ],
+      "choices": 35,
+      "statements": 1
+    },
+    {
+      "subject": "CO",
+      "chapters": [
+        {
+          "path": "manuscript/CO/01_计算机系统与程序执行.md",
+          "sha256": "04409b5facd73ee6efc15012380a1700918e97df815396a630f0f0d89ccde544",
+          "choices": 4,
+          "statements": 1,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/CO/02_数据表示与运算.md",
+          "sha256": "89ac8f8c5d60173499a3f52cb90d5277ea5d2e67d49c869baf05ebd16e9aa6db",
+          "choices": 10,
+          "statements": 1,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/CO/03_存储系统与地址.md",
+          "sha256": "459e2d64cd4e5fd2e4dcf4dbde3900a552d0d5f11a7c4afdfaa893f4a623b7ac",
+          "choices": 11,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/CO/04_指令系统与程序表示.md",
+          "sha256": "c20b603358789cac89a97bdc4300a472bcd03048386da8b66be37ab200a42bfb",
+          "choices": 6,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/CO/05_CPU与控制.md",
+          "sha256": "9d2a2af4b5c93a34e602eb4277ac9d7511bcc9aa91edb3454cf0c888a33548fc",
+          "choices": 6,
+          "statements": 2,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/CO/06_流水线与并行处理.md",
+          "sha256": "13bce71d2578f17beae347a4f5b80f002818164fcfcd5c2593af0938ed2506cb",
+          "choices": 4,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/CO/07_总线与传输时间.md",
+          "sha256": "8ba80497dec36097015fdfe1f8e33a199365f367bbddd98661de29dcbfbbd61e",
+          "choices": 5,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/CO/08_IO与DMA.md",
+          "sha256": "82f54cb2bfa86e9baec10bc085ca8805042011666e3dc991c676fa7c232a837b",
+          "choices": 7,
+          "statements": 2,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        }
+      ],
+      "choices": 53,
+      "statements": 6
+    },
+    {
+      "subject": "OS",
+      "chapters": [
+        {
+          "path": "manuscript/OS/01_操作系统与程序运行环境.md",
+          "sha256": "cc8fd2ad790dc7c66b842a704028ec71b6823e2bb0d06c534cccf2e435d46ee1",
+          "choices": 4,
+          "statements": 2,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+          "sha256": "780e0b7687d51909dae6665c31b21221edefff22f380ae27c4501da5b3f112ea",
+          "choices": 5,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/OS/03_同步互斥与信号量.md",
+          "sha256": "494fc77a3c2f723b76f0dd3ede456640b710a5464fa4f3a72cbf4f6c2e21c9c1",
+          "choices": 3,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/OS/04_死锁与资源分配.md",
+          "sha256": "105359ce2ca705a547dc2fbcbdf2e0f556aa3243e35fec8d002cd83af5625064",
+          "choices": 3,
+          "statements": 2,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+          "sha256": "4da151a728f3e4bd7142a7041ac94e23fde2fc160019f02bb8b18fa552f359b1",
+          "choices": 9,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/OS/06_文件目录与文件系统.md",
+          "sha256": "89277a3f771b3bae98975324a1e2fcba8f66d55680ec37fa1857fdbc096a226a",
+          "choices": 6,
+          "statements": 1,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/OS/07_IO设备与外存调度.md",
+          "sha256": "384abd2d1b3fbfbc11237aab5f5f34285864f59143f45bd6b04c94de19281275",
+          "choices": 5,
+          "statements": 1,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        }
+      ],
+      "choices": 35,
+      "statements": 6
+    },
+    {
+      "subject": "CN",
+      "chapters": [
+        {
+          "path": "manuscript/CN/01_网络层次服务与性能.md",
+          "sha256": "2ffb7b6b17b8a710832842a4396cabb783d9433fa08cd600a60b0d69a4cd86c3",
+          "choices": 2,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/CN/02_物理层信号速率与交换.md",
+          "sha256": "2668a3396c8d797ce4fa857bc8d48ae6f14d4ad2d5ca5d9a5b44368e7ff5edac",
+          "choices": 5,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/CN/03_链路层可靠传输与介质访问.md",
+          "sha256": "9efd996ce31c61144ed0b3cdf357ad2b5aca2e9f85468e2631616ce2aece19fe",
+          "choices": 11,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/CN/04_网络层地址路由与转发.md",
+          "sha256": "00f04841e5d34c6162a9209d11f00daff8e225affbd1fd43ba7df4ba74a12d1e",
+          "choices": 9,
+          "statements": 1,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/CN/05_传输层可靠连接与窗口.md",
+          "sha256": "019fc76b521f58b4791919b380a880b0ae37ed19420bb0e8145169ebd4f08c47",
+          "choices": 7,
+          "statements": 0,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        },
+        {
+          "path": "manuscript/CN/06_应用层名称邮件与Web.md",
+          "sha256": "07488d12cd1cbb29fca8bd3d97a8ebc718c16357a9efe768f08acc23dbb6a87f",
+          "choices": 7,
+          "statements": 1,
+          "already_aligned_monospaced_code_choices": 0,
+          "complete_text_preserved": true,
+          "code_math_images_headings_tables_preserved": true
+        }
+      ],
+      "choices": 41,
+      "statements": 2
+    }
+  ],
+  "choices": 164,
+  "statements": 15
+}

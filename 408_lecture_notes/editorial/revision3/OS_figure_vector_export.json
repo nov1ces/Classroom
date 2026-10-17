@@ -1,9 +1,0 @@
-{
-  "unchanged_svg_png_sha256": {
-    "figures/OS_file_directory_2022.svg": "fbb83bbc196dce42604fdf0c96b2bfcec27dcfee97e9de6b7b79c8583014324d",
-    "figures/OS_file_directory_2022.png": "695d6f2aee2f8c528db6fcbf39969831b499660e7ed931c515eec7e997316282"
-  },
-  "pdf": "figures/OS_file_directory_2022.pdf",
-  "pdf_sha256": "12002a22e9ae29e80cba5b614e51d2f4cda7e04ba8357f9b2c09080739c6b0b7",
-  "pdf_read_or_layout_check": false
-}

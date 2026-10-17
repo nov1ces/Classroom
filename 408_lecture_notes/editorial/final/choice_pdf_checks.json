@@ -1,0 +1,5749 @@
+{
+  "status": "PASS",
+  "scope": "逐组检查最终PDF中的全部选项及题组标签：无首行缩进、行列对齐、组内不跨页、标签齐全；人工预览另记。",
+  "books": [
+    {
+      "subject": "DS",
+      "pdf": "build/DS/数据结构_讲义.pdf",
+      "sha256": "a4feba204da80b60405233202e80f4f135f6ea25a81159de51677b4b53a3297f",
+      "choices": 35,
+      "statements": 1,
+      "groups": [
+        {
+          "id": "book-choices-0001",
+          "kind": "choices",
+          "physical_page": 9,
+          "page_label": "4",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              89.85,
+              528.938
+            ],
+            [
+              202.607,
+              528.938
+            ],
+            [
+              315.365,
+              528.938
+            ],
+            [
+              428.123,
+              528.938
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0002",
+          "kind": "choices",
+          "physical_page": 22,
+          "page_label": "17",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              89.85,
+              683.606
+            ],
+            [
+              202.607,
+              683.606
+            ],
+            [
+              315.365,
+              683.606
+            ],
+            [
+              428.123,
+              683.606
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0003",
+          "kind": "choices",
+          "physical_page": 6,
+          "page_label": "1",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              508.746
+            ],
+            [
+              304.456,
+              508.746
+            ],
+            [
+              68.031,
+              526.184
+            ],
+            [
+              304.456,
+              526.184
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0004",
+          "kind": "choices",
+          "physical_page": 8,
+          "page_label": "3",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              198.24
+            ],
+            [
+              186.244,
+              198.24
+            ],
+            [
+              304.456,
+              198.24
+            ],
+            [
+              422.668,
+              198.24
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0005",
+          "kind": "choices",
+          "physical_page": 8,
+          "page_label": "3",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              482.487
+            ],
+            [
+              186.244,
+              482.487
+            ],
+            [
+              304.456,
+              482.487
+            ],
+            [
+              422.668,
+              482.487
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0006",
+          "kind": "choices",
+          "physical_page": 11,
+          "page_label": "6",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              117.444
+            ],
+            [
+              186.244,
+              117.444
+            ],
+            [
+              304.456,
+              117.444
+            ],
+            [
+              422.668,
+              117.444
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0007",
+          "kind": "choices",
+          "physical_page": 17,
+          "page_label": "12",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              444.75
+            ],
+            [
+              186.244,
+              444.75
+            ],
+            [
+              304.456,
+              444.75
+            ],
+            [
+              422.668,
+              444.75
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0008",
+          "kind": "choices",
+          "physical_page": 19,
+          "page_label": "14",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              425.154
+            ],
+            [
+              186.244,
+              425.154
+            ],
+            [
+              304.456,
+              425.154
+            ],
+            [
+              422.668,
+              425.154
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0009",
+          "kind": "choices",
+          "physical_page": 21,
+          "page_label": "16",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              132.89
+            ],
+            [
+              186.244,
+              132.89
+            ],
+            [
+              304.456,
+              132.89
+            ],
+            [
+              422.668,
+              132.89
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0010",
+          "kind": "choices",
+          "physical_page": 21,
+          "page_label": "16",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              281.389
+            ],
+            [
+              186.244,
+              281.389
+            ],
+            [
+              304.456,
+              281.389
+            ],
+            [
+              422.668,
+              281.389
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0011",
+          "kind": "choices",
+          "physical_page": 21,
+          "page_label": "16",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              724.481
+            ],
+            [
+              186.244,
+              724.481
+            ],
+            [
+              304.456,
+              724.481
+            ],
+            [
+              422.668,
+              724.481
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0012",
+          "kind": "choices",
+          "physical_page": 26,
+          "page_label": "21",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              537.925
+            ],
+            [
+              186.244,
+              537.925
+            ],
+            [
+              304.456,
+              537.925
+            ],
+            [
+              422.668,
+              537.925
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0013",
+          "kind": "choices",
+          "physical_page": 27,
+          "page_label": "22",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              271.05
+            ],
+            [
+              186.244,
+              271.05
+            ],
+            [
+              304.456,
+              271.05
+            ],
+            [
+              422.668,
+              271.05
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0014",
+          "kind": "choices",
+          "physical_page": 28,
+          "page_label": "23",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              510.52
+            ],
+            [
+              186.244,
+              510.52
+            ],
+            [
+              304.456,
+              510.52
+            ],
+            [
+              422.668,
+              510.52
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0015",
+          "kind": "choices",
+          "physical_page": 29,
+          "page_label": "24",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              531.663
+            ],
+            [
+              186.244,
+              531.663
+            ],
+            [
+              304.456,
+              531.663
+            ],
+            [
+              422.668,
+              531.663
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0016",
+          "kind": "choices",
+          "physical_page": 31,
+          "page_label": "26",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              556.318
+            ],
+            [
+              304.456,
+              556.318
+            ],
+            [
+              68.031,
+              573.756
+            ],
+            [
+              304.456,
+              573.756
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0017",
+          "kind": "statements",
+          "physical_page": 34,
+          "page_label": "29",
+          "columns": 1,
+          "labels": [
+            "Ⅰ",
+            "Ⅱ",
+            "Ⅲ"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              485.339
+            ],
+            [
+              68.032,
+              502.778
+            ],
+            [
+              68.031,
+              520.217
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0018",
+          "kind": "choices",
+          "physical_page": 34,
+          "page_label": "29",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              543.633
+            ],
+            [
+              186.244,
+              543.633
+            ],
+            [
+              304.456,
+              543.633
+            ],
+            [
+              422.668,
+              543.633
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0019",
+          "kind": "choices",
+          "physical_page": 35,
+          "page_label": "30",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              346.476
+            ],
+            [
+              186.244,
+              346.476
+            ],
+            [
+              304.456,
+              346.476
+            ],
+            [
+              422.668,
+              346.476
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0020",
+          "kind": "choices",
+          "physical_page": 36,
+          "page_label": "31",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              489.554
+            ],
+            [
+              186.244,
+              489.554
+            ],
+            [
+              304.456,
+              489.554
+            ],
+            [
+              422.668,
+              489.554
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0021",
+          "kind": "choices",
+          "physical_page": 39,
+          "page_label": "34",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              545.419
+            ],
+            [
+              186.244,
+              545.419
+            ],
+            [
+              304.456,
+              545.419
+            ],
+            [
+              422.668,
+              545.419
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0022",
+          "kind": "choices",
+          "physical_page": 41,
+          "page_label": "36",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              511.719
+            ],
+            [
+              186.244,
+              511.719
+            ],
+            [
+              304.456,
+              511.719
+            ],
+            [
+              422.668,
+              511.719
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0023",
+          "kind": "choices",
+          "physical_page": 43,
+          "page_label": "38",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              358.056
+            ],
+            [
+              186.244,
+              358.056
+            ],
+            [
+              304.456,
+              358.056
+            ],
+            [
+              422.668,
+              358.056
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0024",
+          "kind": "choices",
+          "physical_page": 44,
+          "page_label": "39",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              406.892
+            ],
+            [
+              186.242,
+              406.892
+            ],
+            [
+              304.453,
+              406.892
+            ],
+            [
+              422.664,
+              406.892
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0025",
+          "kind": "choices",
+          "physical_page": 47,
+          "page_label": "42",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              316.802
+            ],
+            [
+              186.244,
+              316.802
+            ],
+            [
+              304.456,
+              316.802
+            ],
+            [
+              422.668,
+              316.802
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0026",
+          "kind": "choices",
+          "physical_page": 50,
+          "page_label": "45",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              132.89
+            ],
+            [
+              186.244,
+              132.89
+            ],
+            [
+              304.456,
+              132.89
+            ],
+            [
+              422.668,
+              132.89
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0027",
+          "kind": "choices",
+          "physical_page": 50,
+          "page_label": "45",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              644.497
+            ],
+            [
+              186.244,
+              644.497
+            ],
+            [
+              304.456,
+              644.497
+            ],
+            [
+              422.668,
+              644.497
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0028",
+          "kind": "choices",
+          "physical_page": 53,
+          "page_label": "48",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              485.301
+            ],
+            [
+              304.456,
+              485.301
+            ],
+            [
+              68.031,
+              502.74
+            ],
+            [
+              304.456,
+              502.74
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0029",
+          "kind": "choices",
+          "physical_page": 56,
+          "page_label": "51",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              481.739
+            ],
+            [
+              186.244,
+              481.739
+            ],
+            [
+              304.456,
+              481.739
+            ],
+            [
+              422.668,
+              481.739
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0030",
+          "kind": "choices",
+          "physical_page": 56,
+          "page_label": "51",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              665.115
+            ],
+            [
+              186.244,
+              665.115
+            ],
+            [
+              304.456,
+              665.115
+            ],
+            [
+              422.668,
+              665.115
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0031",
+          "kind": "choices",
+          "physical_page": 58,
+          "page_label": "53",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              194.835
+            ],
+            [
+              186.244,
+              194.835
+            ],
+            [
+              304.456,
+              194.835
+            ],
+            [
+              422.668,
+              194.835
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0032",
+          "kind": "choices",
+          "physical_page": 61,
+          "page_label": "56",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              608.678
+            ],
+            [
+              304.456,
+              608.678
+            ],
+            [
+              68.031,
+              626.117
+            ],
+            [
+              304.456,
+              626.117
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0033",
+          "kind": "choices",
+          "physical_page": 62,
+          "page_label": "57",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              652.277
+            ],
+            [
+              304.456,
+              652.277
+            ],
+            [
+              68.031,
+              669.715
+            ],
+            [
+              304.456,
+              669.715
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0034",
+          "kind": "choices",
+          "physical_page": 63,
+          "page_label": "58",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              492.406
+            ],
+            [
+              186.244,
+              492.406
+            ],
+            [
+              304.456,
+              492.406
+            ],
+            [
+              422.668,
+              492.406
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0035",
+          "kind": "choices",
+          "physical_page": 64,
+          "page_label": "59",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              400.567
+            ],
+            [
+              186.244,
+              400.567
+            ],
+            [
+              304.456,
+              400.567
+            ],
+            [
+              422.668,
+              400.567
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0036",
+          "kind": "choices",
+          "physical_page": 65,
+          "page_label": "60",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              115.572
+            ],
+            [
+              304.456,
+              115.572
+            ],
+            [
+              68.031,
+              133.01
+            ],
+            [
+              304.456,
+              133.01
+            ]
+          ],
+          "alignment": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "subject": "CO",
+      "pdf": "build/CO/计算机组成原理_讲义.pdf",
+      "sha256": "1cfb5132a7598a7b91bb982db8b3a10696ede36f7750144bb19634bc7382946b",
+      "choices": 53,
+      "statements": 6,
+      "groups": [
+        {
+          "id": "book-choices-0001",
+          "kind": "choices",
+          "physical_page": 8,
+          "page_label": "4",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              89.85,
+              510.252
+            ],
+            [
+              202.607,
+              510.252
+            ],
+            [
+              315.365,
+              510.252
+            ],
+            [
+              428.123,
+              510.252
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0002",
+          "kind": "choices",
+          "physical_page": 18,
+          "page_label": "14",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              89.85,
+              339.947
+            ],
+            [
+              315.365,
+              339.947
+            ],
+            [
+              89.85,
+              357.386
+            ],
+            [
+              315.365,
+              357.386
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0003",
+          "kind": "choices",
+          "physical_page": 33,
+          "page_label": "29",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              89.85,
+              179.228
+            ],
+            [
+              202.607,
+              179.228
+            ],
+            [
+              315.365,
+              179.228
+            ],
+            [
+              428.123,
+              179.228
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0004",
+          "kind": "choices",
+          "physical_page": 42,
+          "page_label": "38",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              89.85,
+              237.188
+            ],
+            [
+              202.606,
+              237.188
+            ],
+            [
+              315.363,
+              237.188
+            ],
+            [
+              428.119,
+              237.188
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0005",
+          "kind": "choices",
+          "physical_page": 48,
+          "page_label": "44",
+          "columns": 1,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              89.85,
+              599.371
+            ],
+            [
+              89.85,
+              616.809
+            ],
+            [
+              89.85,
+              634.248
+            ],
+            [
+              89.85,
+              651.686
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0006",
+          "kind": "choices",
+          "physical_page": 60,
+          "page_label": "56",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              89.85,
+              343.836
+            ],
+            [
+              202.607,
+              343.836
+            ],
+            [
+              315.365,
+              343.836
+            ],
+            [
+              428.123,
+              343.836
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0007",
+          "kind": "choices",
+          "physical_page": 67,
+          "page_label": "63",
+          "columns": 1,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              89.85,
+              111.587
+            ],
+            [
+              89.85,
+              129.025
+            ],
+            [
+              89.85,
+              146.464
+            ],
+            [
+              89.85,
+              163.902
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0008",
+          "kind": "choices",
+          "physical_page": 67,
+          "page_label": "63",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              89.85,
+              214.048
+            ],
+            [
+              315.365,
+              214.048
+            ],
+            [
+              89.85,
+              231.487
+            ],
+            [
+              315.365,
+              231.487
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0009",
+          "kind": "statements",
+          "physical_page": 6,
+          "page_label": "2",
+          "columns": 1,
+          "labels": [
+            "I",
+            "II",
+            "III"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              566.612
+            ],
+            [
+              68.032,
+              584.051
+            ],
+            [
+              68.031,
+              601.489
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0010",
+          "kind": "choices",
+          "physical_page": 6,
+          "page_label": "2",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              624.905
+            ],
+            [
+              186.244,
+              624.905
+            ],
+            [
+              304.456,
+              624.905
+            ],
+            [
+              422.668,
+              624.905
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0011",
+          "kind": "choices",
+          "physical_page": 7,
+          "page_label": "3",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              474.174
+            ],
+            [
+              186.244,
+              474.174
+            ],
+            [
+              304.456,
+              474.174
+            ],
+            [
+              422.668,
+              474.174
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0012",
+          "kind": "choices",
+          "physical_page": 7,
+          "page_label": "3",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              622.673
+            ],
+            [
+              186.244,
+              622.673
+            ],
+            [
+              304.456,
+              622.673
+            ],
+            [
+              422.668,
+              622.673
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0013",
+          "kind": "choices",
+          "physical_page": 9,
+          "page_label": "5",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              362.068
+            ],
+            [
+              186.244,
+              362.068
+            ],
+            [
+              304.456,
+              362.068
+            ],
+            [
+              422.668,
+              362.068
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0014",
+          "kind": "choices",
+          "physical_page": 10,
+          "page_label": "6",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              471.874
+            ],
+            [
+              186.244,
+              471.874
+            ],
+            [
+              304.456,
+              471.874
+            ],
+            [
+              422.668,
+              471.874
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0015",
+          "kind": "choices",
+          "physical_page": 10,
+          "page_label": "6",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              627.946
+            ],
+            [
+              186.244,
+              627.946
+            ],
+            [
+              304.456,
+              627.946
+            ],
+            [
+              422.668,
+              627.946
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0016",
+          "kind": "choices",
+          "physical_page": 11,
+          "page_label": "7",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              491.55
+            ],
+            [
+              304.456,
+              491.55
+            ],
+            [
+              68.031,
+              508.989
+            ],
+            [
+              304.456,
+              508.989
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0017",
+          "kind": "choices",
+          "physical_page": 12,
+          "page_label": "8",
+          "columns": 1,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              419.438
+            ],
+            [
+              68.032,
+              436.876
+            ],
+            [
+              68.031,
+              454.315
+            ],
+            [
+              68.032,
+              471.754
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0018",
+          "kind": "choices",
+          "physical_page": 12,
+          "page_label": "8",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              620.093
+            ],
+            [
+              186.244,
+              620.093
+            ],
+            [
+              304.456,
+              620.093
+            ],
+            [
+              422.668,
+              620.093
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0019",
+          "kind": "choices",
+          "physical_page": 15,
+          "page_label": "11",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              506.275
+            ],
+            [
+              186.244,
+              506.275
+            ],
+            [
+              304.456,
+              506.275
+            ],
+            [
+              422.668,
+              506.275
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0020",
+          "kind": "choices",
+          "physical_page": 15,
+          "page_label": "11",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              670.22
+            ],
+            [
+              186.242,
+              670.22
+            ],
+            [
+              304.453,
+              670.22
+            ],
+            [
+              422.664,
+              670.22
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0021",
+          "kind": "statements",
+          "physical_page": 16,
+          "page_label": "12",
+          "columns": 1,
+          "labels": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              494.519
+            ],
+            [
+              68.032,
+              511.958
+            ],
+            [
+              68.031,
+              529.396
+            ],
+            [
+              68.032,
+              546.835
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0022",
+          "kind": "choices",
+          "physical_page": 16,
+          "page_label": "12",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              570.251
+            ],
+            [
+              186.244,
+              570.251
+            ],
+            [
+              304.456,
+              570.251
+            ],
+            [
+              422.668,
+              570.251
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0023",
+          "kind": "choices",
+          "physical_page": 20,
+          "page_label": "16",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              227.298
+            ],
+            [
+              186.244,
+              227.298
+            ],
+            [
+              304.456,
+              227.298
+            ],
+            [
+              422.668,
+              227.298
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0024",
+          "kind": "choices",
+          "physical_page": 20,
+          "page_label": "16",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              544.229
+            ],
+            [
+              186.244,
+              544.229
+            ],
+            [
+              304.456,
+              544.229
+            ],
+            [
+              422.668,
+              544.229
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0025",
+          "kind": "choices",
+          "physical_page": 21,
+          "page_label": "17",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              309.194
+            ],
+            [
+              186.244,
+              309.194
+            ],
+            [
+              304.456,
+              309.194
+            ],
+            [
+              422.668,
+              309.194
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0026",
+          "kind": "choices",
+          "physical_page": 22,
+          "page_label": "18",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              210.281
+            ],
+            [
+              186.244,
+              210.281
+            ],
+            [
+              304.456,
+              210.281
+            ],
+            [
+              422.668,
+              210.281
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0027",
+          "kind": "choices",
+          "physical_page": 22,
+          "page_label": "18",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              682.258
+            ],
+            [
+              186.244,
+              682.258
+            ],
+            [
+              304.456,
+              682.258
+            ],
+            [
+              422.668,
+              682.258
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0028",
+          "kind": "choices",
+          "physical_page": 23,
+          "page_label": "19",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              546.244
+            ],
+            [
+              186.244,
+              546.244
+            ],
+            [
+              304.456,
+              546.244
+            ],
+            [
+              422.668,
+              546.244
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0029",
+          "kind": "choices",
+          "physical_page": 24,
+          "page_label": "20",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              714.943
+            ],
+            [
+              186.244,
+              714.943
+            ],
+            [
+              304.456,
+              714.943
+            ],
+            [
+              422.668,
+              714.943
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0030",
+          "kind": "choices",
+          "physical_page": 25,
+          "page_label": "21",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              546.332
+            ],
+            [
+              186.244,
+              546.332
+            ],
+            [
+              304.456,
+              546.332
+            ],
+            [
+              422.668,
+              546.332
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0031",
+          "kind": "choices",
+          "physical_page": 27,
+          "page_label": "23",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              482.598
+            ],
+            [
+              304.456,
+              482.598
+            ],
+            [
+              68.031,
+              500.036
+            ],
+            [
+              304.456,
+              500.036
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0032",
+          "kind": "choices",
+          "physical_page": 27,
+          "page_label": "23",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              663.822
+            ],
+            [
+              186.244,
+              663.822
+            ],
+            [
+              304.456,
+              663.822
+            ],
+            [
+              422.668,
+              663.822
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0033",
+          "kind": "choices",
+          "physical_page": 34,
+          "page_label": "30",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              509.053
+            ],
+            [
+              186.244,
+              509.053
+            ],
+            [
+              304.456,
+              509.053
+            ],
+            [
+              422.668,
+              509.053
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0034",
+          "kind": "choices",
+          "physical_page": 35,
+          "page_label": "31",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              383.895
+            ],
+            [
+              186.244,
+              383.895
+            ],
+            [
+              304.456,
+              383.895
+            ],
+            [
+              422.668,
+              383.895
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0035",
+          "kind": "choices",
+          "physical_page": 36,
+          "page_label": "32",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              308.399
+            ],
+            [
+              186.242,
+              308.399
+            ],
+            [
+              304.453,
+              308.399
+            ],
+            [
+              422.664,
+              308.399
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0036",
+          "kind": "choices",
+          "physical_page": 37,
+          "page_label": "33",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              581.64
+            ],
+            [
+              304.456,
+              581.64
+            ],
+            [
+              68.031,
+              599.079
+            ],
+            [
+              304.456,
+              599.079
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0037",
+          "kind": "choices",
+          "physical_page": 38,
+          "page_label": "34",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              259.089
+            ],
+            [
+              304.456,
+              259.089
+            ],
+            [
+              68.031,
+              276.528
+            ],
+            [
+              304.456,
+              276.528
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0038",
+          "kind": "statements",
+          "physical_page": 43,
+          "page_label": "39",
+          "columns": 1,
+          "labels": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              565.706
+            ],
+            [
+              68.032,
+              583.144
+            ],
+            [
+              68.031,
+              600.583
+            ],
+            [
+              68.032,
+              618.021
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0039",
+          "kind": "choices",
+          "physical_page": 43,
+          "page_label": "39",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              641.437
+            ],
+            [
+              186.244,
+              641.437
+            ],
+            [
+              304.456,
+              641.437
+            ],
+            [
+              422.668,
+              641.437
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0040",
+          "kind": "statements",
+          "physical_page": 46,
+          "page_label": "42",
+          "columns": 1,
+          "labels": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              419.145
+            ],
+            [
+              68.032,
+              436.584
+            ],
+            [
+              68.031,
+              454.023
+            ],
+            [
+              68.032,
+              471.461
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0041",
+          "kind": "choices",
+          "physical_page": 46,
+          "page_label": "42",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              494.877
+            ],
+            [
+              186.244,
+              494.877
+            ],
+            [
+              304.456,
+              494.877
+            ],
+            [
+              422.667,
+              494.877
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0042",
+          "kind": "choices",
+          "physical_page": 47,
+          "page_label": "43",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              306.942
+            ],
+            [
+              186.244,
+              306.942
+            ],
+            [
+              304.456,
+              306.942
+            ],
+            [
+              422.668,
+              306.942
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0043",
+          "kind": "choices",
+          "physical_page": 47,
+          "page_label": "43",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              470.887
+            ],
+            [
+              186.244,
+              470.887
+            ],
+            [
+              304.456,
+              470.887
+            ],
+            [
+              422.668,
+              470.887
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0044",
+          "kind": "choices",
+          "physical_page": 48,
+          "page_label": "44",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              371.529
+            ],
+            [
+              186.244,
+              371.529
+            ],
+            [
+              304.456,
+              371.529
+            ],
+            [
+              422.667,
+              371.529
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0045",
+          "kind": "choices",
+          "physical_page": 49,
+          "page_label": "45",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              519.514
+            ],
+            [
+              186.244,
+              519.514
+            ],
+            [
+              304.456,
+              519.514
+            ],
+            [
+              422.668,
+              519.514
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0046",
+          "kind": "choices",
+          "physical_page": 51,
+          "page_label": "47",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              202.536
+            ],
+            [
+              186.244,
+              202.536
+            ],
+            [
+              304.456,
+              202.536
+            ],
+            [
+              422.668,
+              202.536
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0047",
+          "kind": "choices",
+          "physical_page": 52,
+          "page_label": "48",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              107.618
+            ],
+            [
+              186.244,
+              107.618
+            ],
+            [
+              304.456,
+              107.618
+            ],
+            [
+              422.668,
+              107.618
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0048",
+          "kind": "choices",
+          "physical_page": 53,
+          "page_label": "49",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              541.252
+            ],
+            [
+              304.456,
+              541.252
+            ],
+            [
+              68.031,
+              558.69
+            ],
+            [
+              304.456,
+              558.69
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0049",
+          "kind": "choices",
+          "physical_page": 57,
+          "page_label": "53",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              543.93
+            ],
+            [
+              186.244,
+              543.93
+            ],
+            [
+              304.456,
+              543.93
+            ],
+            [
+              422.668,
+              543.93
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0050",
+          "kind": "choices",
+          "physical_page": 57,
+          "page_label": "53",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              692.429
+            ],
+            [
+              186.244,
+              692.429
+            ],
+            [
+              304.456,
+              692.429
+            ],
+            [
+              422.668,
+              692.429
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0051",
+          "kind": "choices",
+          "physical_page": 58,
+          "page_label": "54",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              564.177
+            ],
+            [
+              186.244,
+              564.177
+            ],
+            [
+              304.456,
+              564.177
+            ],
+            [
+              422.668,
+              564.177
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0052",
+          "kind": "choices",
+          "physical_page": 58,
+          "page_label": "54",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              728.122
+            ],
+            [
+              186.244,
+              728.122
+            ],
+            [
+              304.456,
+              728.122
+            ],
+            [
+              422.668,
+              728.122
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0053",
+          "kind": "statements",
+          "physical_page": 61,
+          "page_label": "57",
+          "columns": 1,
+          "labels": [
+            "I",
+            "II",
+            "III"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              410.519
+            ],
+            [
+              68.032,
+              427.958
+            ],
+            [
+              68.031,
+              445.396
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0054",
+          "kind": "choices",
+          "physical_page": 61,
+          "page_label": "57",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              468.812
+            ],
+            [
+              186.244,
+              468.812
+            ],
+            [
+              304.456,
+              468.812
+            ],
+            [
+              422.668,
+              468.812
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0055",
+          "kind": "choices",
+          "physical_page": 62,
+          "page_label": "58",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              313.18
+            ],
+            [
+              186.244,
+              313.18
+            ],
+            [
+              304.456,
+              313.18
+            ],
+            [
+              422.668,
+              313.18
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0056",
+          "kind": "choices",
+          "physical_page": 63,
+          "page_label": "59",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              750.592
+            ],
+            [
+              186.244,
+              750.592
+            ],
+            [
+              304.456,
+              750.592
+            ],
+            [
+              422.668,
+              750.592
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0057",
+          "kind": "choices",
+          "physical_page": 64,
+          "page_label": "60",
+          "columns": 1,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              711.435
+            ],
+            [
+              68.032,
+              728.873
+            ],
+            [
+              68.031,
+              746.312
+            ],
+            [
+              68.032,
+              763.75
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0058",
+          "kind": "statements",
+          "physical_page": 65,
+          "page_label": "61",
+          "columns": 1,
+          "labels": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              227.84
+            ],
+            [
+              68.032,
+              245.278
+            ],
+            [
+              68.031,
+              262.717
+            ],
+            [
+              68.032,
+              280.156
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0059",
+          "kind": "choices",
+          "physical_page": 65,
+          "page_label": "61",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              303.572
+            ],
+            [
+              186.244,
+              303.572
+            ],
+            [
+              304.456,
+              303.572
+            ],
+            [
+              422.667,
+              303.572
+            ]
+          ],
+          "alignment": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "subject": "OS",
+      "pdf": "build/OS/操作系统_讲义.pdf",
+      "sha256": "df07ee7a6863404dc0ab8673f84bc6ec63987c0887a9e1ea3474874b59f42863",
+      "choices": 35,
+      "statements": 6,
+      "groups": [
+        {
+          "id": "book-choices-0001",
+          "kind": "choices",
+          "physical_page": 6,
+          "page_label": "1",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              732.453
+            ],
+            [
+              304.456,
+              732.453
+            ],
+            [
+              68.031,
+              749.892
+            ],
+            [
+              304.456,
+              749.892
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0002",
+          "kind": "statements",
+          "physical_page": 8,
+          "page_label": "3",
+          "columns": 1,
+          "labels": [
+            "Ⅰ",
+            "Ⅱ",
+            "Ⅲ",
+            "Ⅳ"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              562.345
+            ],
+            [
+              68.032,
+              579.784
+            ],
+            [
+              68.031,
+              597.222
+            ],
+            [
+              68.032,
+              614.661
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0003",
+          "kind": "choices",
+          "physical_page": 8,
+          "page_label": "3",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              638.077
+            ],
+            [
+              186.244,
+              638.077
+            ],
+            [
+              304.456,
+              638.077
+            ],
+            [
+              422.668,
+              638.077
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0004",
+          "kind": "statements",
+          "physical_page": 11,
+          "page_label": "6",
+          "columns": 1,
+          "labels": [
+            "Ⅰ",
+            "Ⅱ",
+            "Ⅲ",
+            "Ⅳ"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              321.342
+            ],
+            [
+              68.032,
+              338.78
+            ],
+            [
+              68.031,
+              356.219
+            ],
+            [
+              68.032,
+              373.657
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0005",
+          "kind": "choices",
+          "physical_page": 11,
+          "page_label": "6",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              397.073
+            ],
+            [
+              186.244,
+              397.073
+            ],
+            [
+              304.456,
+              397.073
+            ],
+            [
+              422.668,
+              397.073
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0006",
+          "kind": "choices",
+          "physical_page": 11,
+          "page_label": "6",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              709.733
+            ],
+            [
+              304.456,
+              709.733
+            ],
+            [
+              68.031,
+              727.171
+            ],
+            [
+              304.456,
+              727.171
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0007",
+          "kind": "choices",
+          "physical_page": 14,
+          "page_label": "9",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              563.718
+            ],
+            [
+              304.456,
+              563.718
+            ],
+            [
+              68.031,
+              581.156
+            ],
+            [
+              304.456,
+              581.156
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0008",
+          "kind": "choices",
+          "physical_page": 18,
+          "page_label": "13",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              69.752
+            ],
+            [
+              186.244,
+              69.752
+            ],
+            [
+              304.456,
+              69.752
+            ],
+            [
+              422.668,
+              69.752
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0009",
+          "kind": "choices",
+          "physical_page": 18,
+          "page_label": "13",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              466.466
+            ],
+            [
+              186.244,
+              466.466
+            ],
+            [
+              304.456,
+              466.466
+            ],
+            [
+              422.668,
+              466.466
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0010",
+          "kind": "choices",
+          "physical_page": 19,
+          "page_label": "14",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              252.738
+            ],
+            [
+              186.244,
+              252.738
+            ],
+            [
+              304.456,
+              252.738
+            ],
+            [
+              422.668,
+              252.738
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0011",
+          "kind": "choices",
+          "physical_page": 19,
+          "page_label": "14",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              650.884
+            ],
+            [
+              186.244,
+              650.884
+            ],
+            [
+              304.456,
+              650.884
+            ],
+            [
+              422.668,
+              650.884
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0012",
+          "kind": "choices",
+          "physical_page": 25,
+          "page_label": "20",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              320.753
+            ],
+            [
+              186.244,
+              320.753
+            ],
+            [
+              304.456,
+              320.753
+            ],
+            [
+              422.667,
+              320.753
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0013",
+          "kind": "choices",
+          "physical_page": 28,
+          "page_label": "23",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              575.131
+            ],
+            [
+              186.244,
+              575.131
+            ],
+            [
+              304.456,
+              575.131
+            ],
+            [
+              422.668,
+              575.131
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0014",
+          "kind": "choices",
+          "physical_page": 38,
+          "page_label": "33",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              285.91
+            ],
+            [
+              304.456,
+              285.91
+            ],
+            [
+              68.031,
+              303.348
+            ],
+            [
+              304.453,
+              303.348
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0015",
+          "kind": "statements",
+          "physical_page": 43,
+          "page_label": "38",
+          "columns": 1,
+          "labels": [
+            "Ⅰ",
+            "Ⅱ",
+            "Ⅲ"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              725.245
+            ],
+            [
+              68.032,
+              742.684
+            ],
+            [
+              68.031,
+              760.122
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0016",
+          "kind": "choices",
+          "physical_page": 44,
+          "page_label": "39",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              69.752
+            ],
+            [
+              186.244,
+              69.752
+            ],
+            [
+              304.456,
+              69.752
+            ],
+            [
+              422.668,
+              69.752
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0017",
+          "kind": "choices",
+          "physical_page": 45,
+          "page_label": "40",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              69.752
+            ],
+            [
+              186.242,
+              69.752
+            ],
+            [
+              304.453,
+              69.752
+            ],
+            [
+              422.664,
+              69.752
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0018",
+          "kind": "statements",
+          "physical_page": 45,
+          "page_label": "40",
+          "columns": 1,
+          "labels": [
+            "Ⅰ",
+            "Ⅱ",
+            "Ⅲ",
+            "Ⅳ"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              479.903
+            ],
+            [
+              68.032,
+              497.341
+            ],
+            [
+              68.031,
+              514.78
+            ],
+            [
+              68.032,
+              532.218
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0019",
+          "kind": "choices",
+          "physical_page": 45,
+          "page_label": "40",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              555.634
+            ],
+            [
+              186.244,
+              555.634
+            ],
+            [
+              304.456,
+              555.634
+            ],
+            [
+              422.668,
+              555.634
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0020",
+          "kind": "choices",
+          "physical_page": 49,
+          "page_label": "44",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              131.018
+            ],
+            [
+              304.456,
+              131.018
+            ],
+            [
+              68.031,
+              148.456
+            ],
+            [
+              304.456,
+              148.456
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0021",
+          "kind": "choices",
+          "physical_page": 49,
+          "page_label": "44",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              559.49
+            ],
+            [
+              186.244,
+              559.49
+            ],
+            [
+              304.456,
+              559.49
+            ],
+            [
+              422.668,
+              559.49
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0022",
+          "kind": "choices",
+          "physical_page": 50,
+          "page_label": "45",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              704.126
+            ],
+            [
+              186.244,
+              704.126
+            ],
+            [
+              304.456,
+              704.126
+            ],
+            [
+              422.668,
+              704.126
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0023",
+          "kind": "choices",
+          "physical_page": 51,
+          "page_label": "46",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              194.835
+            ],
+            [
+              186.244,
+              194.835
+            ],
+            [
+              304.456,
+              194.835
+            ],
+            [
+              422.668,
+              194.835
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0024",
+          "kind": "choices",
+          "physical_page": 52,
+          "page_label": "47",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              635.077
+            ],
+            [
+              186.244,
+              635.077
+            ],
+            [
+              304.455,
+              635.077
+            ],
+            [
+              422.668,
+              635.077
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0025",
+          "kind": "choices",
+          "physical_page": 54,
+          "page_label": "49",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              512.476
+            ],
+            [
+              186.244,
+              512.476
+            ],
+            [
+              304.456,
+              512.476
+            ],
+            [
+              422.668,
+              512.476
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0026",
+          "kind": "choices",
+          "physical_page": 55,
+          "page_label": "50",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              606.605
+            ],
+            [
+              186.244,
+              606.605
+            ],
+            [
+              304.456,
+              606.605
+            ],
+            [
+              422.668,
+              606.605
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0027",
+          "kind": "choices",
+          "physical_page": 56,
+          "page_label": "51",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              504.261
+            ],
+            [
+              186.244,
+              504.261
+            ],
+            [
+              304.456,
+              504.261
+            ],
+            [
+              422.668,
+              504.261
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0028",
+          "kind": "choices",
+          "physical_page": 56,
+          "page_label": "51",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              757.414
+            ],
+            [
+              186.244,
+              757.414
+            ],
+            [
+              304.456,
+              757.414
+            ],
+            [
+              422.668,
+              757.414
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0029",
+          "kind": "choices",
+          "physical_page": 61,
+          "page_label": "56",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              458.475
+            ],
+            [
+              304.456,
+              458.475
+            ],
+            [
+              68.031,
+              475.913
+            ],
+            [
+              304.456,
+              475.913
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0030",
+          "kind": "choices",
+          "physical_page": 62,
+          "page_label": "57",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              307.337
+            ],
+            [
+              186.244,
+              307.337
+            ],
+            [
+              304.456,
+              307.337
+            ],
+            [
+              422.668,
+              307.337
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0031",
+          "kind": "choices",
+          "physical_page": 63,
+          "page_label": "58",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              591.407
+            ],
+            [
+              186.244,
+              591.407
+            ],
+            [
+              304.456,
+              591.407
+            ],
+            [
+              422.668,
+              591.407
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0032",
+          "kind": "choices",
+          "physical_page": 64,
+          "page_label": "59",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              568.071
+            ],
+            [
+              186.244,
+              568.071
+            ],
+            [
+              304.456,
+              568.071
+            ],
+            [
+              422.668,
+              568.071
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0033",
+          "kind": "statements",
+          "physical_page": 66,
+          "page_label": "61",
+          "columns": 1,
+          "labels": [
+            "Ⅰ",
+            "Ⅱ",
+            "Ⅲ"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              129.85
+            ],
+            [
+              68.032,
+              147.289
+            ],
+            [
+              68.031,
+              164.728
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0034",
+          "kind": "choices",
+          "physical_page": 66,
+          "page_label": "61",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              188.144
+            ],
+            [
+              186.244,
+              188.144
+            ],
+            [
+              304.456,
+              188.144
+            ],
+            [
+              422.668,
+              188.144
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0035",
+          "kind": "choices",
+          "physical_page": 66,
+          "page_label": "61",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              750.989
+            ],
+            [
+              186.244,
+              750.989
+            ],
+            [
+              304.456,
+              750.989
+            ],
+            [
+              422.668,
+              750.989
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0036",
+          "kind": "choices",
+          "physical_page": 71,
+          "page_label": "66",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              664.869
+            ],
+            [
+              304.456,
+              664.869
+            ],
+            [
+              68.031,
+              682.308
+            ],
+            [
+              304.456,
+              682.308
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0037",
+          "kind": "choices",
+          "physical_page": 73,
+          "page_label": "68",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              69.244
+            ],
+            [
+              304.456,
+              69.244
+            ],
+            [
+              68.031,
+              86.682
+            ],
+            [
+              304.456,
+              86.682
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0038",
+          "kind": "choices",
+          "physical_page": 74,
+          "page_label": "69",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              738.654
+            ],
+            [
+              186.244,
+              738.654
+            ],
+            [
+              304.456,
+              738.654
+            ],
+            [
+              422.668,
+              738.654
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0039",
+          "kind": "statements",
+          "physical_page": 75,
+          "page_label": "70",
+          "columns": 1,
+          "labels": [
+            "Ⅰ",
+            "Ⅱ",
+            "Ⅲ",
+            "Ⅳ"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              264.733
+            ],
+            [
+              68.032,
+              282.172
+            ],
+            [
+              68.031,
+              299.61
+            ],
+            [
+              68.032,
+              317.049
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0040",
+          "kind": "choices",
+          "physical_page": 75,
+          "page_label": "70",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              340.465
+            ],
+            [
+              186.244,
+              340.465
+            ],
+            [
+              304.456,
+              340.465
+            ],
+            [
+              422.668,
+              340.465
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0041",
+          "kind": "choices",
+          "physical_page": 76,
+          "page_label": "71",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              412.09
+            ],
+            [
+              186.244,
+              412.09
+            ],
+            [
+              304.456,
+              412.09
+            ],
+            [
+              422.668,
+              412.09
+            ]
+          ],
+          "alignment": "PASS"
+        }
+      ],
+      "status": "PASS"
+    },
+    {
+      "subject": "CN",
+      "pdf": "build/CN/计算机网络_讲义.pdf",
+      "sha256": "615541c73796129d23bfb333843037e40f63dd3777a7d96f3e74e608e13f1a8b",
+      "choices": 41,
+      "statements": 2,
+      "groups": [
+        {
+          "id": "book-choices-0001",
+          "kind": "choices",
+          "physical_page": 9,
+          "page_label": "4",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              707.252
+            ],
+            [
+              186.244,
+              707.252
+            ],
+            [
+              304.456,
+              707.252
+            ],
+            [
+              422.668,
+              707.252
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0002",
+          "kind": "choices",
+          "physical_page": 10,
+          "page_label": "5",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              179.389
+            ],
+            [
+              186.244,
+              179.389
+            ],
+            [
+              304.456,
+              179.389
+            ],
+            [
+              422.668,
+              179.389
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0003",
+          "kind": "choices",
+          "physical_page": 12,
+          "page_label": "7",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              260.604
+            ],
+            [
+              186.244,
+              260.604
+            ],
+            [
+              304.456,
+              260.604
+            ],
+            [
+              422.668,
+              260.604
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0004",
+          "kind": "choices",
+          "physical_page": 12,
+          "page_label": "7",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              409.103
+            ],
+            [
+              186.244,
+              409.103
+            ],
+            [
+              304.456,
+              409.103
+            ],
+            [
+              422.668,
+              409.103
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0005",
+          "kind": "choices",
+          "physical_page": 15,
+          "page_label": "10",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              203.268
+            ],
+            [
+              186.244,
+              203.268
+            ],
+            [
+              304.456,
+              203.268
+            ],
+            [
+              422.668,
+              203.268
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0006",
+          "kind": "choices",
+          "physical_page": 15,
+          "page_label": "10",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              646.466
+            ],
+            [
+              304.456,
+              646.466
+            ],
+            [
+              68.031,
+              663.904
+            ],
+            [
+              304.456,
+              663.904
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0007",
+          "kind": "choices",
+          "physical_page": 16,
+          "page_label": "11",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              492.801
+            ],
+            [
+              186.244,
+              492.801
+            ],
+            [
+              304.456,
+              492.801
+            ],
+            [
+              422.668,
+              492.801
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0008",
+          "kind": "choices",
+          "physical_page": 19,
+          "page_label": "14",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              114.655
+            ],
+            [
+              304.456,
+              114.655
+            ],
+            [
+              68.031,
+              132.094
+            ],
+            [
+              304.456,
+              132.094
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0009",
+          "kind": "choices",
+          "physical_page": 19,
+          "page_label": "14",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              631.85
+            ],
+            [
+              186.244,
+              631.85
+            ],
+            [
+              304.456,
+              631.85
+            ],
+            [
+              422.668,
+              631.85
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0010",
+          "kind": "choices",
+          "physical_page": 20,
+          "page_label": "15",
+          "columns": 1,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              308.635
+            ],
+            [
+              68.032,
+              326.074
+            ],
+            [
+              68.031,
+              343.513
+            ],
+            [
+              68.032,
+              360.951
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0011",
+          "kind": "choices",
+          "physical_page": 21,
+          "page_label": "16",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              409.065
+            ],
+            [
+              186.244,
+              409.065
+            ],
+            [
+              304.456,
+              409.065
+            ],
+            [
+              422.668,
+              409.065
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0012",
+          "kind": "choices",
+          "physical_page": 21,
+          "page_label": "16",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              758.474
+            ],
+            [
+              186.244,
+              758.474
+            ],
+            [
+              304.456,
+              758.474
+            ],
+            [
+              422.668,
+              758.474
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0013",
+          "kind": "choices",
+          "physical_page": 22,
+          "page_label": "17",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              225.727
+            ],
+            [
+              186.244,
+              225.727
+            ],
+            [
+              304.456,
+              225.727
+            ],
+            [
+              422.668,
+              225.727
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0014",
+          "kind": "choices",
+          "physical_page": 24,
+          "page_label": "19",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              148.336
+            ],
+            [
+              186.244,
+              148.336
+            ],
+            [
+              304.456,
+              148.336
+            ],
+            [
+              422.668,
+              148.336
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0015",
+          "kind": "choices",
+          "physical_page": 24,
+          "page_label": "19",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              757.749
+            ],
+            [
+              186.244,
+              757.749
+            ],
+            [
+              304.456,
+              757.749
+            ],
+            [
+              422.668,
+              757.749
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0016",
+          "kind": "choices",
+          "physical_page": 25,
+          "page_label": "20",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              738.332
+            ],
+            [
+              186.244,
+              738.332
+            ],
+            [
+              304.456,
+              738.332
+            ],
+            [
+              422.668,
+              738.332
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0017",
+          "kind": "choices",
+          "physical_page": 29,
+          "page_label": "24",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              210.281
+            ],
+            [
+              186.244,
+              210.281
+            ],
+            [
+              304.456,
+              210.281
+            ],
+            [
+              422.668,
+              210.281
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0018",
+          "kind": "choices",
+          "physical_page": 30,
+          "page_label": "25",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              447.136
+            ],
+            [
+              186.244,
+              447.136
+            ],
+            [
+              304.456,
+              447.136
+            ],
+            [
+              422.668,
+              447.136
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0019",
+          "kind": "choices",
+          "physical_page": 35,
+          "page_label": "30",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              131.428
+            ],
+            [
+              186.242,
+              131.428
+            ],
+            [
+              304.453,
+              131.428
+            ],
+            [
+              422.664,
+              131.428
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0020",
+          "kind": "choices",
+          "physical_page": 37,
+          "page_label": "32",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              291.496
+            ],
+            [
+              186.244,
+              291.496
+            ],
+            [
+              304.456,
+              291.496
+            ],
+            [
+              422.668,
+              291.496
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0021",
+          "kind": "choices",
+          "physical_page": 38,
+          "page_label": "33",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              129.85
+            ],
+            [
+              304.456,
+              129.85
+            ],
+            [
+              68.031,
+              147.289
+            ],
+            [
+              304.456,
+              147.289
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0022",
+          "kind": "choices",
+          "physical_page": 38,
+          "page_label": "33",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              361.398
+            ],
+            [
+              186.244,
+              361.398
+            ],
+            [
+              304.456,
+              361.398
+            ],
+            [
+              422.668,
+              361.398
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0023",
+          "kind": "choices",
+          "physical_page": 38,
+          "page_label": "33",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              757.145
+            ],
+            [
+              186.242,
+              757.145
+            ],
+            [
+              304.453,
+              757.145
+            ],
+            [
+              422.664,
+              757.145
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0024",
+          "kind": "choices",
+          "physical_page": 40,
+          "page_label": "35",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              408.435
+            ],
+            [
+              304.456,
+              408.435
+            ],
+            [
+              68.031,
+              425.874
+            ],
+            [
+              304.456,
+              425.874
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0025",
+          "kind": "choices",
+          "physical_page": 41,
+          "page_label": "36",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              371.126
+            ],
+            [
+              304.456,
+              371.126
+            ],
+            [
+              68.031,
+              388.565
+            ],
+            [
+              304.456,
+              388.565
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0026",
+          "kind": "choices",
+          "physical_page": 42,
+          "page_label": "37",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              132.89
+            ],
+            [
+              186.244,
+              132.89
+            ],
+            [
+              304.456,
+              132.89
+            ],
+            [
+              422.668,
+              132.89
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0027",
+          "kind": "statements",
+          "physical_page": 43,
+          "page_label": "38",
+          "columns": 1,
+          "labels": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              69.244
+            ],
+            [
+              68.032,
+              86.682
+            ],
+            [
+              68.031,
+              104.121
+            ],
+            [
+              68.032,
+              121.56
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0028",
+          "kind": "choices",
+          "physical_page": 43,
+          "page_label": "38",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              144.976
+            ],
+            [
+              186.244,
+              144.976
+            ],
+            [
+              304.456,
+              144.976
+            ],
+            [
+              422.668,
+              144.976
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0029",
+          "kind": "choices",
+          "physical_page": 51,
+          "page_label": "46",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              495.106
+            ],
+            [
+              186.244,
+              495.106
+            ],
+            [
+              304.456,
+              495.106
+            ],
+            [
+              422.668,
+              495.106
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0030",
+          "kind": "choices",
+          "physical_page": 53,
+          "page_label": "48",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              274.572
+            ],
+            [
+              304.456,
+              274.572
+            ],
+            [
+              68.031,
+              292.011
+            ],
+            [
+              304.456,
+              292.011
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0031",
+          "kind": "choices",
+          "physical_page": 55,
+          "page_label": "50",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              291.496
+            ],
+            [
+              186.244,
+              291.496
+            ],
+            [
+              304.456,
+              291.496
+            ],
+            [
+              422.668,
+              291.496
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0032",
+          "kind": "choices",
+          "physical_page": 56,
+          "page_label": "51",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              357.266
+            ],
+            [
+              186.242,
+              357.266
+            ],
+            [
+              304.453,
+              357.266
+            ],
+            [
+              422.664,
+              357.266
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0033",
+          "kind": "choices",
+          "physical_page": 58,
+          "page_label": "53",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              132.89
+            ],
+            [
+              186.244,
+              132.89
+            ],
+            [
+              304.456,
+              132.89
+            ],
+            [
+              422.668,
+              132.89
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0034",
+          "kind": "choices",
+          "physical_page": 59,
+          "page_label": "54",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              314.602
+            ],
+            [
+              186.244,
+              314.602
+            ],
+            [
+              304.456,
+              314.602
+            ],
+            [
+              422.668,
+              314.602
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0035",
+          "kind": "choices",
+          "physical_page": 59,
+          "page_label": "54",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              544.316
+            ],
+            [
+              186.244,
+              544.316
+            ],
+            [
+              304.456,
+              544.316
+            ],
+            [
+              422.668,
+              544.316
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0036",
+          "kind": "choices",
+          "physical_page": 65,
+          "page_label": "60",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              692.001
+            ],
+            [
+              186.244,
+              692.001
+            ],
+            [
+              304.456,
+              692.001
+            ],
+            [
+              422.668,
+              692.001
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0037",
+          "kind": "choices",
+          "physical_page": 66,
+          "page_label": "61",
+          "columns": 2,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              393.873
+            ],
+            [
+              304.456,
+              393.873
+            ],
+            [
+              68.031,
+              411.311
+            ],
+            [
+              304.456,
+              411.311
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-statements-0038",
+          "kind": "statements",
+          "physical_page": 67,
+          "page_label": "62",
+          "columns": 1,
+          "labels": [
+            "I",
+            "II",
+            "III",
+            "IV"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              324.896
+            ],
+            [
+              68.032,
+              342.334
+            ],
+            [
+              68.031,
+              359.773
+            ],
+            [
+              68.032,
+              377.211
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0039",
+          "kind": "choices",
+          "physical_page": 67,
+          "page_label": "62",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              400.628
+            ],
+            [
+              186.244,
+              400.628
+            ],
+            [
+              304.456,
+              400.628
+            ],
+            [
+              422.668,
+              400.628
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0040",
+          "kind": "choices",
+          "physical_page": 68,
+          "page_label": "63",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              648.778
+            ],
+            [
+              186.244,
+              648.778
+            ],
+            [
+              304.456,
+              648.778
+            ],
+            [
+              422.668,
+              648.778
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0041",
+          "kind": "choices",
+          "physical_page": 69,
+          "page_label": "64",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              163.782
+            ],
+            [
+              186.244,
+              163.782
+            ],
+            [
+              304.456,
+              163.782
+            ],
+            [
+              422.668,
+              163.782
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0042",
+          "kind": "choices",
+          "physical_page": 70,
+          "page_label": "65",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              314.322
+            ],
+            [
+              186.242,
+              314.322
+            ],
+            [
+              304.453,
+              314.322
+            ],
+            [
+              422.664,
+              314.322
+            ]
+          ],
+          "alignment": "PASS"
+        },
+        {
+          "id": "book-choices-0043",
+          "kind": "choices",
+          "physical_page": 70,
+          "page_label": "65",
+          "columns": 4,
+          "labels": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "label_positions": [
+            [
+              68.031,
+              559.482
+            ],
+            [
+              186.244,
+              559.482
+            ],
+            [
+              304.456,
+              559.482
+            ],
+            [
+              422.668,
+              559.482
+            ]
+          ],
+          "alignment": "PASS"
+        }
+      ],
+      "status": "PASS"
+    }
+  ]
+}

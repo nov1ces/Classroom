@@ -203,6 +203,6 @@ entry['basis']='2012年第44题原题条件；依据王道主书PDF物理271题�
 entry['mechanism_data']={'clock_count':17,'register_read_write_same_cycle':False,'forwarding':False,'instruction_stages':schedule,'completion_convention':'All five stages, including STORE empty WB'}
 manifest.append(entry)
 
-dest=ROOT/'editorial/full/CO/figure_manifest.json';dest.parent.mkdir(parents=True,exist_ok=True)
+dest=ROOT/'build/CO/figure_manifest.json';dest.parent.mkdir(parents=True,exist_ok=True)
 dest.write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf-8')
 print(json.dumps({'figures':len(manifest),'formats':['svg','png','pdf'],'directory':str(OUT)},ensure_ascii=False))

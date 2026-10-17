@@ -113,7 +113,7 @@ def build(sub, partial=False, passes=3, chapters=None, review=False, review_edit
     rel = out.relative_to(ROOT).as_posix()
     run(['pandoc', str(out / 'body.md'), '--from=markdown+raw_tex+tex_math_dollars+tex_math_single_backslash',
         '--to=latex', '--top-level-division=chapter', '--number-sections',
-        '--lua-filter=tools/book_images.lua', '--resource-path=figures',
+        '--filter=tools/book_choices.py', '--lua-filter=tools/book_images.lua', '--resource-path=figures',
         '--wrap=none', '--no-highlight', '--output=' + str(out / 'body.tex')])
     start = int(sources[0]['chapter']) - 1
     document = r'''\input{tools/book_preamble.tex}
@@ -173,7 +173,7 @@ def build(sub, partial=False, passes=3, chapters=None, review=False, review_edit
     if review:
         target = ROOT / 'dist' / review_edition / (title + '_正文审阅稿.pdf')
     else:
-        target = (out / (title + '_预览.pdf')) if partial else ROOT / 'dist' / (title + '_讲义.pdf')
+        target = out / (title + ('_预览.pdf' if partial else '_讲义.pdf'))
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_bytes(pdf.read_bytes())
     metadata = dict(subject=sub, title=title, partial=partial, sources=sources,

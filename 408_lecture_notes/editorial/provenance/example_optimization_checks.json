@@ -1,0 +1,442 @@
+{
+  "status": "PASS",
+  "scope": "两处用户指定优化；本次实际核算与源码保全，不是独立内容审校或全书精排认证",
+  "checks": [
+    {
+      "name": "only_requested_chapters_changed",
+      "actual": [
+        "manuscript/CO/03_存储系统与地址.md",
+        "manuscript/DS/05_树二叉树与应用.md"
+      ],
+      "expected": [
+        "manuscript/CO/03_存储系统与地址.md",
+        "manuscript/DS/05_树二叉树与应用.md"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "DS_content_before_answers_preserved",
+      "actual": true,
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "name": "DS_answers_2_to_4_preserved",
+      "actual": true,
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "name": "CO_content_before_example_preserved",
+      "actual": true,
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "name": "CO_content_after_example_preserved",
+      "actual": true,
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "name": "DS_leaf_and_node_counts",
+      "actual": [
+        9,
+        20
+      ],
+      "expected": [
+        9,
+        20
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "DS_tree_edge_identity",
+      "actual": 19,
+      "expected": 19,
+      "status": "PASS"
+    },
+    {
+      "name": "complete_tree_at_most_one_degree_one_node",
+      "actual": 1,
+      "expected": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "DS_definitive_noncomplete_answer",
+      "actual": true,
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "name": "CO_table_count",
+      "actual": 3,
+      "expected": 3,
+      "status": "PASS"
+    },
+    {
+      "name": "TLB_group0_way_order_0",
+      "actual": 0,
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "TLB_group0_way_order_1",
+      "actual": 1,
+      "expected": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "TLB_group0_way_order_2",
+      "actual": 2,
+      "expected": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "TLB_group0_way_order_3",
+      "actual": 3,
+      "expected": 3,
+      "status": "PASS"
+    },
+    {
+      "name": "TLB_group3_way_order_0",
+      "actual": 0,
+      "expected": 0,
+      "status": "PASS"
+    },
+    {
+      "name": "TLB_group3_way_order_1",
+      "actual": 1,
+      "expected": 1,
+      "status": "PASS"
+    },
+    {
+      "name": "TLB_group3_way_order_2",
+      "actual": 2,
+      "expected": 2,
+      "status": "PASS"
+    },
+    {
+      "name": "TLB_group3_way_order_3",
+      "actual": 3,
+      "expected": 3,
+      "status": "PASS"
+    },
+    {
+      "name": "all_original_TLB_values_preserved",
+      "actual": {
+        "0": [
+          [
+            3,
+            0,
+            null
+          ],
+          [
+            0,
+            0,
+            null
+          ],
+          [
+            9,
+            1,
+            13
+          ],
+          [
+            7,
+            1,
+            2
+          ]
+        ],
+        "3": [
+          [
+            7,
+            0,
+            null
+          ],
+          [
+            10,
+            1,
+            52
+          ],
+          [
+            3,
+            1,
+            13
+          ],
+          [
+            2,
+            0,
+            null
+          ]
+        ]
+      },
+      "expected": {
+        "0": [
+          [
+            3,
+            0,
+            null
+          ],
+          [
+            0,
+            0,
+            null
+          ],
+          [
+            9,
+            1,
+            13
+          ],
+          [
+            7,
+            1,
+            2
+          ]
+        ],
+        "3": [
+          [
+            7,
+            0,
+            null
+          ],
+          [
+            10,
+            1,
+            52
+          ],
+          [
+            3,
+            1,
+            13
+          ],
+          [
+            2,
+            0,
+            null
+          ]
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "all_original_page_table_values_preserved",
+      "actual": {
+        "3": [
+          1,
+          2
+        ],
+        "8": [
+          0,
+          null
+        ]
+      },
+      "expected": {
+        "3": [
+          1,
+          2
+        ],
+        "8": [
+          0,
+          null
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "all_original_Cache_values_preserved",
+      "actual": {
+        "5": [
+          13,
+          1,
+          [
+            54,
+            114,
+            240,
+            29
+          ]
+        ],
+        "12": [
+          2,
+          0,
+          [
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      },
+      "expected": {
+        "5": [
+          13,
+          1,
+          [
+            54,
+            114,
+            240,
+            29
+          ]
+        ],
+        "12": [
+          2,
+          0,
+          [
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      },
+      "status": "PASS"
+    },
+    {
+      "name": "address_field_widths",
+      "actual": [
+        6,
+        2,
+        6,
+        6,
+        4,
+        2
+      ],
+      "expected": [
+        6,
+        2,
+        6,
+        6,
+        4,
+        2
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "three_distinct_paths",
+      "actual": [
+        "cache",
+        "memory",
+        "page_fault"
+      ],
+      "expected": [
+        "cache",
+        "memory",
+        "page_fault"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "first_read_address_and_value",
+      "actual": [
+        "354H",
+        "36H"
+      ],
+      "expected": [
+        "354H",
+        "36H"
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "second_read_address_and_block",
+      "actual": [
+        "0B1H",
+        [
+          "0B0H",
+          "0B1H",
+          "0B2H",
+          "0B3H"
+        ],
+        null
+      ],
+      "expected": [
+        "0B1H",
+        [
+          "0B0H",
+          "0B1H",
+          "0B2H",
+          "0B3H"
+        ],
+        null
+      ],
+      "status": "PASS"
+    },
+    {
+      "name": "fault_has_no_data_physical_address",
+      "actual": true,
+      "expected": true,
+      "status": "PASS"
+    },
+    {
+      "name": "DS_answer_heading_layout_only_adjustment",
+      "actual": "Removing the local Needspace directive restores the already validated source hash",
+      "expected": "No further content changes",
+      "status": "PASS"
+    },
+    {
+      "name": "DS_final_newline_normalization",
+      "actual": "Only redundant final blank lines removed; Pandoc AST identical",
+      "expected": "No semantic or structural changes",
+      "status": "PASS"
+    }
+  ],
+  "checks_count": 28,
+  "DS_answer": {
+    "leaves": 9,
+    "total_nodes": 20,
+    "complete_binary_tree": false
+  },
+  "CO_traces": [
+    {
+      "va": "03D4H",
+      "vpn": "0FH",
+      "page_offset": "14H",
+      "TLB_group": 3,
+      "TLB_tag": "03H",
+      "TLB_hit": true,
+      "physical_address": "354H",
+      "Cache_tag": "0DH",
+      "Cache_line": "5H",
+      "byte_offset": 0,
+      "Cache_hit": true,
+      "result": "cache",
+      "byte_value": "36H"
+    },
+    {
+      "va": "00F1H",
+      "vpn": "03H",
+      "page_offset": "31H",
+      "TLB_group": 3,
+      "TLB_tag": "00H",
+      "TLB_hit": false,
+      "page_present": true,
+      "physical_address": "0B1H",
+      "Cache_tag": "02H",
+      "Cache_line": "CH",
+      "byte_offset": 1,
+      "Cache_hit": false,
+      "result": "memory",
+      "byte_value": null,
+      "memory_block": [
+        "0B0H",
+        "0B1H",
+        "0B2H",
+        "0B3H"
+      ]
+    },
+    {
+      "va": "0229H",
+      "vpn": "08H",
+      "page_offset": "29H",
+      "TLB_group": 0,
+      "TLB_tag": "02H",
+      "TLB_hit": false,
+      "page_present": false,
+      "result": "page_fault"
+    }
+  ],
+  "source_sha256": {
+    "manuscript/CO/03_存储系统与地址.md": "459e2d64cd4e5fd2e4dcf4dbde3900a552d0d5f11a7c4afdfaa893f4a623b7ac",
+    "manuscript/DS/05_树二叉树与应用.md": "2d67063fe0187d560d6b109e56e2c3703b2708b56d6859e3a9a048d3c658b38b"
+  },
+  "unchanged_chapters": 27
+}

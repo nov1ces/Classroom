@@ -2,26 +2,18 @@
 
 本项目系统归档了 408 考研初试所需的全部核心资料，包括王道全套高清教材、横版单题刷题本、章节考点精讲课件以及个人选择题错题精简数据集。
 
-## 四科讲义最终合订本
+## 四科自学讲义：最终稿与完整项目
 
-[下载最终合订本 PDF（310 页，约 22 MB）](408_lecture_notes/dist/final/408四科讲义_最终稿_合订本.pdf?raw=true)
+[下载四科合订本 PDF（310 页）](408_lecture_notes/dist/final/408四科讲义_最终稿_合订本.pdf?raw=true) · [进入完整项目](408_lecture_notes/) · [交付清单](408_lecture_notes/dist/final/最终稿交付清单.json)
 
-基于 DeepSeek 润色稿，包含数据结构第 5 章自测答案、计组例 3-13 表格与解析优化，以及例 2-4、例 2-9 等同类选项排版修订。合订本保留四科书签与内部跳转链接。
+| 分科最终版 | 页数 | 可编辑正文 |
+| --- | ---: | --- |
+| [数据结构 PDF](408_lecture_notes/dist/final/数据结构_最终稿.pdf?raw=true) | 75 | [分章](408_lecture_notes/manuscript/DS/) |
+| [计算机组成原理 PDF](408_lecture_notes/dist/final/计算机组成原理_最终稿.pdf?raw=true) | 72 | [分章](408_lecture_notes/manuscript/CO/) |
+| [操作系统 PDF](408_lecture_notes/dist/final/操作系统_最终稿.pdf?raw=true) | 84 | [分章](408_lecture_notes/manuscript/OS/) |
+| [计算机网络 PDF](408_lecture_notes/dist/final/计算机网络_最终稿.pdf?raw=true) | 79 | [分章](408_lecture_notes/manuscript/CN/) |
 
-## 四科自学讲义：完整可编辑项目
-
-[进入讲义项目](408_lecture_notes/) · [正文审阅说明](408_lecture_notes/CONTENT_REVIEW.md) · [本轮修改说明](408_lecture_notes/dist/revision3/本轮修改说明.md)
-
-四科共29章、193道编号例题。项目直接提供分章与合并Markdown、SVG/PNG图稿、绘图和排版源码、构建脚本、编辑台账及题源核验记录；进入 `408_lecture_notes/` 后运行 `bash build_review.sh` 可导出审阅PDF。依赖和命令见项目README。
-
-| 科目 | 当前审阅PDF | 可编辑正文 |
-| --- | --- | --- |
-| 数据结构 | [PDF](408_lecture_notes/dist/revision3/数据结构_正文审阅稿.pdf) | [分章](408_lecture_notes/manuscript/DS/) |
-| 计算机组成原理 | [PDF](408_lecture_notes/dist/revision3/计算机组成原理_正文审阅稿.pdf) | [分章](408_lecture_notes/manuscript/CO/) |
-| 操作系统 | [PDF](408_lecture_notes/dist/revision3/操作系统_正文审阅稿.pdf) | [分章](408_lecture_notes/manuscript/OS/) |
-| 计算机网络 | [PDF](408_lecture_notes/dist/revision3/计算机网络_正文审阅稿.pdf) | [分章](408_lecture_notes/manuscript/CN/) |
-
-上表保留历史正文审阅稿；包含后续内容与排版修订的版本，请下载上方最终合订本。
+四科共 29 章、193 道编号例题，包含 DeepSeek 润色及后续内容与排版修订。项目保留正文、图稿、构建源码和必要核验台账；旧审阅稿、样章、重复打包及编译缓存已清理。进入 `408_lecture_notes/` 后运行 `bash build_final.sh` 可重建最终版，依赖见项目 README。
 
 ---
 

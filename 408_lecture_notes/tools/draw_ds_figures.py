@@ -6,7 +6,7 @@ import math, json, subprocess, shutil, argparse
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'figures'
-MANIFEST=ROOT/'editorial/full/DS/figure_manifest.json'
+MANIFEST=ROOT/'build/DS/figure_manifest.json'
 OUT.mkdir(exist_ok=True,parents=True)
 
 class SVG:

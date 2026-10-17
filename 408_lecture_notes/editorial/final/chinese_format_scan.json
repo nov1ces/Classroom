@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "scope": "实际PDF普通题干源标行不单独占行，首行x坐标等于正文左边界；图内标题单列。普通段落缩进另由人工逐页检查。",
+  "books": [
+    {
+      "subject": "DS",
+      "sha256": "a4feba204da80b60405233202e80f4f135f6ea25a81159de51677b4b53a3297f",
+      "question_source_lines": 45,
+      "nonflush_lines": [],
+      "standalone_source_lines": [],
+      "diagram_labels_outside_question_scope": [],
+      "trailing_reference_notes_outside_question_scope": []
+    },
+    {
+      "subject": "CO",
+      "sha256": "1cfb5132a7598a7b91bb982db8b3a10696ede36f7750144bb19634bc7382946b",
+      "question_source_lines": 52,
+      "nonflush_lines": [],
+      "standalone_source_lines": [],
+      "diagram_labels_outside_question_scope": [],
+      "trailing_reference_notes_outside_question_scope": []
+    },
+    {
+      "subject": "OS",
+      "sha256": "df07ee7a6863404dc0ab8673f84bc6ec63987c0887a9e1ea3474874b59f42863",
+      "question_source_lines": 55,
+      "nonflush_lines": [],
+      "standalone_source_lines": [],
+      "diagram_labels_outside_question_scope": [
+        {
+          "page": 18,
+          "text": "【2023】抢占式优先级：运⾏段与剩余时间"
+        },
+        {
+          "page": 67,
+          "text": "【2022】⽬录层次与题设的 inode、磁盘块对应"
+        },
+        {
+          "page": 73,
+          "text": "【2011】前三块的输⼊、复制与分析（单位：μs）"
+        }
+      ],
+      "trailing_reference_notes_outside_question_scope": []
+    },
+    {
+      "subject": "CN",
+      "sha256": "615541c73796129d23bfb333843037e40f63dd3777a7d96f3e74e608e13f1a8b",
+      "question_source_lines": 50,
+      "nonflush_lines": [],
+      "standalone_source_lines": [],
+      "diagram_labels_outside_question_scope": [],
+      "trailing_reference_notes_outside_question_scope": [
+        {
+          "page": 12,
+          "text": "〖2.1‑012〗",
+          "scope": "说明段末的短例题源回指，不是题干首行"
+        },
+        {
+          "page": 33,
+          "text": "〖4.1‑018〗",
+          "scope": "说明段末的短例题源回指，不是题干首行"
+        },
+        {
+          "page": 44,
+          "text": "〖4.5‑001〗",
+          "scope": "说明段末的短例题源回指，不是题干首行"
+        },
+        {
+          "page": 55,
+          "text": "〖5.3‑011〗",
+          "scope": "说明段末的短例题源回指，不是题干首行"
+        }
+      ]
+    }
+  ]
+}

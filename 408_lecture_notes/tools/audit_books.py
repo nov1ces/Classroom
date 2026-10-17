@@ -17,7 +17,7 @@ def audit(subject, partial=False):
     if mf['partial'] and not partial:
         raise ValueError('Refusing to audit a preview as a final book')
     doc = fitz.open(pdf)
-    out = ROOT / 'editorial' / 'full' / 'pdf' / subject
+    out = ROOT / 'editorial' / 'final' / 'pdf' / subject
     render = build / 'rendered'
     out.mkdir(parents=True, exist_ok=True)
     render.mkdir(parents=True, exist_ok=True)
@@ -55,7 +55,7 @@ def audit(subject, partial=False):
     report['latex'] = {name: [line for line in log.splitlines() if term.lower() in line.lower()]
                        for name, term in kinds.items()}
     report['embedded_font_names'] = sorted({font[3] for p in doc for font in p.get_fonts()})
-    fm = json.loads((ROOT / 'editorial/verification/font_manifest.json').read_text())
+    fm = json.loads((ROOT / 'editorial/final/font_manifest.json').read_text())
     report['font_faces_verified'] = all(fm[role]['normal']['index'] == idx
         for role, idx in [('main', 2), ('sans', 2), ('mono', 7)]) and '.ttc:2]' in log and '.ttc:7]' in log
     report['font_note'] = 'SC由TTC面索引2/2/7及cmap确定；共享CFF的jp内部名不表示选用了日文字形。'
@@ -88,7 +88,7 @@ def audit(subject, partial=False):
         not report['font_faces_verified'], leak,
         any(p['outside'] or p['replacement_glyphs'] for p in report['pages'])]) else 'REVIEW'
     (out / 'audit.json').write_text(json.dumps(report, ensure_ascii=False, indent=2))
-    (out / 'pdf_text.txt').write_text('\n\f\n'.join(texts))
+    (build / 'pdf_text.txt').write_text('\n\f\n'.join(texts))
     print(json.dumps(dict(subject=subject, pages=len(doc), bookmarks=len(report['bookmarks']),
         links=report['internal_link_count'], status=report['structural_status'],
         warnings={k:len(v) for k,v in report['latex'].items()},

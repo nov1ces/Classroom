@@ -5,14 +5,9 @@ __pycache__/
 venv/
 .DS_Store
 
-# The GitHub delivery is the editable project directory.
+# Reproducible archives and build caches do not belong in the delivery.
 *.zip
 *.zip.[0-9][0-9][0-9]
-
-# Keep editable build intermediates and their recorded source fingerprints.
-# Page renders, duplicate PDFs and TeX runtime caches are reproducible locally.
-/build/**
-!/build/**/
-!/build/**/*.tex
-!/build/**/*.md
-!/build/**/*.json
+/build/
+/dist/*
+!/dist/final/

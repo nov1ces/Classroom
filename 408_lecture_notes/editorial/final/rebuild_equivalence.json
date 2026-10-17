@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-17T17:24:55.057871+00:00",
+  "scope": "精简项目独立重建后，与清理前最终稿逐页比较文字、72 dpi渲染像素、书签、页码标签与链接目标；未重新授予独立知识审校。",
+  "source_chapters_unchanged": 29,
+  "books": [
+    {
+      "subject": "DS",
+      "pdf": "dist/final/数据结构_最终稿.pdf",
+      "previous_sha256": "0d72f9185c9ecb9007299fd3ff21e3f4ffc0f85019a89b1d0696a53c8d468ee1",
+      "sha256": "a4feba204da80b60405233202e80f4f135f6ea25a81159de51677b4b53a3297f",
+      "pages": 75,
+      "all_page_text_identical": true,
+      "all_page_pixels_identical": true,
+      "render_scale": 1,
+      "page_labels_and_bookmarks_identical": true,
+      "link_targets_identical": true,
+      "links_checked": 194
+    },
+    {
+      "subject": "CO",
+      "pdf": "dist/final/计算机组成原理_最终稿.pdf",
+      "previous_sha256": "31e00b1b10a1a1722148a25b2f81a06f4a8649b84fc237753b3b9ca3f1fdf46c",
+      "sha256": "1cfb5132a7598a7b91bb982db8b3a10696ede36f7750144bb19634bc7382946b",
+      "pages": 72,
+      "all_page_text_identical": true,
+      "all_page_pixels_identical": true,
+      "render_scale": 1,
+      "page_labels_and_bookmarks_identical": true,
+      "link_targets_identical": true,
+      "links_checked": 175
+    },
+    {
+      "subject": "OS",
+      "pdf": "dist/final/操作系统_最终稿.pdf",
+      "previous_sha256": "66613fcdf5b869ca2987535cac85d243dd974a4a21fb0d0fffe5e907fde049a7",
+      "sha256": "df07ee7a6863404dc0ab8673f84bc6ec63987c0887a9e1ea3474874b59f42863",
+      "pages": 84,
+      "all_page_text_identical": true,
+      "all_page_pixels_identical": true,
+      "render_scale": 1,
+      "page_labels_and_bookmarks_identical": true,
+      "link_targets_identical": true,
+      "links_checked": 214
+    },
+    {
+      "subject": "CN",
+      "pdf": "dist/final/计算机网络_最终稿.pdf",
+      "previous_sha256": "8e57a892f923aad4d17d6639307f8c89cbaf77e885d26cfd2e1490684d7847e9",
+      "sha256": "615541c73796129d23bfb333843037e40f63dd3777a7d96f3e74e608e13f1a8b",
+      "pages": 79,
+      "all_page_text_identical": true,
+      "all_page_pixels_identical": true,
+      "render_scale": 1,
+      "page_labels_and_bookmarks_identical": true,
+      "link_targets_identical": true,
+      "links_checked": 215
+    },
+    {
+      "subject": "COMBINED",
+      "pdf": "dist/final/408四科讲义_最终稿_合订本.pdf",
+      "previous_sha256": "a46fb4335218d03460ead328594257482525816c6e144c01f1f217bfc6173814",
+      "sha256": "63dc397e2bc5ae6ddf374bf6ca7aa9ffd60974e6a48a7bf06c96a92b39677928",
+      "pages": 310,
+      "all_page_text_identical": true,
+      "all_page_pixels_identical": true,
+      "render_scale": 1,
+      "page_labels_and_bookmarks_identical": true,
+      "link_targets_identical": true,
+      "links_checked": 798
+    }
+  ]
+}

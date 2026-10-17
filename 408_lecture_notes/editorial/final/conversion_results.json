@@ -1,0 +1,706 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "id": "CONV-01",
+      "actual": false,
+      "expected": false,
+      "status": "PASS",
+      "scope": "表格单元格首没有垂直模式的裸断点；只核转换源码，不声称成稿版式通过。"
+    },
+    {
+      "id": "CONV-02",
+      "actual": true,
+      "expected": true,
+      "status": "PASS",
+      "scope": "逗号两侧字符和空格保留，断点只在两个代码片段之间。"
+    },
+    {
+      "id": "CONV-03",
+      "actual": true,
+      "expected": true,
+      "status": "PASS",
+      "scope": "代表性的助记符、寄存器、方括号、立即数与空格未在源转换中丢失。"
+    },
+    {
+      "id": "CONV-04",
+      "actual": true,
+      "expected": true,
+      "status": "PASS",
+      "scope": "等宽代码块的实际字符、缩进和行序原样进入LaTeX。"
+    },
+    {
+      "id": "CONV-05",
+      "actual": 29,
+      "expected": 29,
+      "status": "PASS",
+      "scope": "实际转换29章源码；范围为代码保全，不核排版。"
+    },
+    {
+      "id": "CONV-06",
+      "actual": true,
+      "expected": true,
+      "status": "PASS",
+      "scope": "逐一对照全部71个实际代码块的字符与行序，另扫描726处行内代码。"
+    },
+    {
+      "id": "CONV-07",
+      "actual": true,
+      "expected": true,
+      "status": "PASS",
+      "scope": "逐一比较全部102张管道表的表头、分隔行、数据行列数；与真实Pandoc AST行列交叉，不检查成稿版面。"
+    }
+  ],
+  "check_count": 7,
+  "source_sha256": {
+    "manuscript/CN/01_网络层次服务与性能.md": "2ffb7b6b17b8a710832842a4396cabb783d9433fa08cd600a60b0d69a4cd86c3",
+    "manuscript/CN/02_物理层信号速率与交换.md": "2668a3396c8d797ce4fa857bc8d48ae6f14d4ad2d5ca5d9a5b44368e7ff5edac",
+    "manuscript/CN/03_链路层可靠传输与介质访问.md": "9efd996ce31c61144ed0b3cdf357ad2b5aca2e9f85468e2631616ce2aece19fe",
+    "manuscript/CN/04_网络层地址路由与转发.md": "00f04841e5d34c6162a9209d11f00daff8e225affbd1fd43ba7df4ba74a12d1e",
+    "manuscript/CN/05_传输层可靠连接与窗口.md": "019fc76b521f58b4791919b380a880b0ae37ed19420bb0e8145169ebd4f08c47",
+    "manuscript/CN/06_应用层名称邮件与Web.md": "07488d12cd1cbb29fca8bd3d97a8ebc718c16357a9efe768f08acc23dbb6a87f",
+    "manuscript/CO/01_计算机系统与程序执行.md": "04409b5facd73ee6efc15012380a1700918e97df815396a630f0f0d89ccde544",
+    "manuscript/CO/02_数据表示与运算.md": "89ac8f8c5d60173499a3f52cb90d5277ea5d2e67d49c869baf05ebd16e9aa6db",
+    "manuscript/CO/03_存储系统与地址.md": "459e2d64cd4e5fd2e4dcf4dbde3900a552d0d5f11a7c4afdfaa893f4a623b7ac",
+    "manuscript/CO/04_指令系统与程序表示.md": "c20b603358789cac89a97bdc4300a472bcd03048386da8b66be37ab200a42bfb",
+    "manuscript/CO/05_CPU与控制.md": "9d2a2af4b5c93a34e602eb4277ac9d7511bcc9aa91edb3454cf0c888a33548fc",
+    "manuscript/CO/06_流水线与并行处理.md": "13bce71d2578f17beae347a4f5b80f002818164fcfcd5c2593af0938ed2506cb",
+    "manuscript/CO/07_总线与传输时间.md": "8ba80497dec36097015fdfe1f8e33a199365f367bbddd98661de29dcbfbbd61e",
+    "manuscript/CO/08_IO与DMA.md": "82f54cb2bfa86e9baec10bc085ca8805042011666e3dc991c676fa7c232a837b",
+    "manuscript/DS/01_数据结构算法与复杂度.md": "b050e840a2b89bdcdb2b7afabd26ce38ab83214e932c880723c9b6962114a281",
+    "manuscript/DS/02_线性表下标结点与指针.md": "bbf41bb4b8b89489df98170666c831f729f98855858a1bbff1629ec79bd08627",
+    "manuscript/DS/03_栈队列与数组.md": "6001965694eac075457a6348fc3bcf5618ca5c7a124b2b7dcd777a6a65aa68da",
+    "manuscript/DS/04_串与模式匹配.md": "842156733cdb65bf0f4d8188c857cea2f5b46e46a9581ef636986a8b3f16fd12",
+    "manuscript/DS/05_树二叉树与应用.md": "2d67063fe0187d560d6b109e56e2c3703b2708b56d6859e3a9a048d3c658b38b",
+    "manuscript/DS/06_图与图算法.md": "8a49e5b466ffc5b44ac9d68382708586f3b6c107a59c72c529cde9cca8314695",
+    "manuscript/DS/07_查找与索引结构.md": "3663092235340e1a20dd0e6ca9b2679085ee1551549317530cd565f7f903de57",
+    "manuscript/DS/08_排序与外部归并.md": "04218e9fbb344c660bdc5b5429b86bc8df5b5712863192797318b743d531264f",
+    "manuscript/OS/01_操作系统与程序运行环境.md": "cc8fd2ad790dc7c66b842a704028ec71b6823e2bb0d06c534cccf2e435d46ee1",
+    "manuscript/OS/02_进程线程调度与上下文切换.md": "780e0b7687d51909dae6665c31b21221edefff22f380ae27c4501da5b3f112ea",
+    "manuscript/OS/03_同步互斥与信号量.md": "494fc77a3c2f723b76f0dd3ede456640b710a5464fa4f3a72cbf4f6c2e21c9c1",
+    "manuscript/OS/04_死锁与资源分配.md": "105359ce2ca705a547dc2fbcbdf2e0f556aa3243e35fec8d002cd83af5625064",
+    "manuscript/OS/05_内存管理与虚拟内存.md": "4da151a728f3e4bd7142a7041ac94e23fde2fc160019f02bb8b18fa552f359b1",
+    "manuscript/OS/06_文件目录与文件系统.md": "89277a3f771b3bae98975324a1e2fcba8f66d55680ec37fa1857fdbc096a226a",
+    "manuscript/OS/07_IO设备与外存调度.md": "384abd2d1b3fbfbc11237aab5f5f34285864f59143f45bd6b04c94de19281275"
+  },
+  "actual_code_blocks": 71,
+  "actual_inline_code_nodes": 726,
+  "actual_pipe_tables": 102,
+  "table_dimensions": [
+    {
+      "path": "manuscript/CN/01_网络层次服务与性能.md",
+      "columns": 4,
+      "data_rows": 4,
+      "line": 75
+    },
+    {
+      "path": "manuscript/CN/01_网络层次服务与性能.md",
+      "columns": 3,
+      "data_rows": 7,
+      "line": 92
+    },
+    {
+      "path": "manuscript/CN/02_物理层信号速率与交换.md",
+      "columns": 4,
+      "data_rows": 5,
+      "line": 77
+    },
+    {
+      "path": "manuscript/CN/03_链路层可靠传输与介质访问.md",
+      "columns": 3,
+      "data_rows": 4,
+      "line": 19
+    },
+    {
+      "path": "manuscript/CN/03_链路层可靠传输与介质访问.md",
+      "columns": 4,
+      "data_rows": 5,
+      "line": 172
+    },
+    {
+      "path": "manuscript/CN/03_链路层可靠传输与介质访问.md",
+      "columns": 3,
+      "data_rows": 3,
+      "line": 284
+    },
+    {
+      "path": "manuscript/CN/03_链路层可靠传输与介质访问.md",
+      "columns": 4,
+      "data_rows": 4,
+      "line": 294
+    },
+    {
+      "path": "manuscript/CN/04_网络层地址路由与转发.md",
+      "columns": 3,
+      "data_rows": 4,
+      "line": 49
+    },
+    {
+      "path": "manuscript/CN/04_网络层地址路由与转发.md",
+      "columns": 4,
+      "data_rows": 3,
+      "line": 84
+    },
+    {
+      "path": "manuscript/CN/04_网络层地址路由与转发.md",
+      "columns": 3,
+      "data_rows": 5,
+      "line": 248
+    },
+    {
+      "path": "manuscript/CN/04_网络层地址路由与转发.md",
+      "columns": 4,
+      "data_rows": 5,
+      "line": 304
+    },
+    {
+      "path": "manuscript/CN/04_网络层地址路由与转发.md",
+      "columns": 5,
+      "data_rows": 2,
+      "line": 352
+    },
+    {
+      "path": "manuscript/CN/04_网络层地址路由与转发.md",
+      "columns": 3,
+      "data_rows": 3,
+      "line": 373
+    },
+    {
+      "path": "manuscript/CN/04_网络层地址路由与转发.md",
+      "columns": 3,
+      "data_rows": 3,
+      "line": 399
+    },
+    {
+      "path": "manuscript/CN/04_网络层地址路由与转发.md",
+      "columns": 3,
+      "data_rows": 3,
+      "line": 409
+    },
+    {
+      "path": "manuscript/CN/04_网络层地址路由与转发.md",
+      "columns": 4,
+      "data_rows": 3,
+      "line": 441
+    },
+    {
+      "path": "manuscript/CN/05_传输层可靠连接与窗口.md",
+      "columns": 3,
+      "data_rows": 5,
+      "line": 37
+    },
+    {
+      "path": "manuscript/CN/05_传输层可靠连接与窗口.md",
+      "columns": 4,
+      "data_rows": 3,
+      "line": 71
+    },
+    {
+      "path": "manuscript/CN/05_传输层可靠连接与窗口.md",
+      "columns": 3,
+      "data_rows": 4,
+      "line": 187
+    },
+    {
+      "path": "manuscript/CN/05_传输层可靠连接与窗口.md",
+      "columns": 7,
+      "data_rows": 5,
+      "line": 234
+    },
+    {
+      "path": "manuscript/CN/05_传输层可靠连接与窗口.md",
+      "columns": 6,
+      "data_rows": 5,
+      "line": 270
+    },
+    {
+      "path": "manuscript/CN/06_应用层名称邮件与Web.md",
+      "columns": 4,
+      "data_rows": 3,
+      "line": 115
+    },
+    {
+      "path": "manuscript/CN/06_应用层名称邮件与Web.md",
+      "columns": 4,
+      "data_rows": 6,
+      "line": 169
+    },
+    {
+      "path": "manuscript/CN/06_应用层名称邮件与Web.md",
+      "columns": 6,
+      "data_rows": 6,
+      "line": 202
+    },
+    {
+      "path": "manuscript/CN/06_应用层名称邮件与Web.md",
+      "columns": 4,
+      "data_rows": 9,
+      "line": 231
+    },
+    {
+      "path": "manuscript/CN/06_应用层名称邮件与Web.md",
+      "columns": 2,
+      "data_rows": 3,
+      "line": 245
+    },
+    {
+      "path": "manuscript/CO/01_计算机系统与程序执行.md",
+      "columns": 2,
+      "data_rows": 4,
+      "line": 9
+    },
+    {
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "columns": 3,
+      "data_rows": 4,
+      "line": 25
+    },
+    {
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "columns": 5,
+      "data_rows": 4,
+      "line": 118
+    },
+    {
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "columns": 4,
+      "data_rows": 4,
+      "line": 158
+    },
+    {
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "columns": 6,
+      "data_rows": 4,
+      "line": 169
+    },
+    {
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "columns": 4,
+      "data_rows": 3,
+      "line": 184
+    },
+    {
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "columns": 5,
+      "data_rows": 3,
+      "line": 194
+    },
+    {
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "columns": 5,
+      "data_rows": 3,
+      "line": 153
+    },
+    {
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "columns": 4,
+      "data_rows": 3,
+      "line": 209
+    },
+    {
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "columns": 3,
+      "data_rows": 4,
+      "line": 225
+    },
+    {
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "columns": 6,
+      "data_rows": 8,
+      "line": 337
+    },
+    {
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "columns": 5,
+      "data_rows": 8,
+      "line": 362
+    },
+    {
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "columns": 3,
+      "data_rows": 2,
+      "line": 375
+    },
+    {
+      "path": "manuscript/CO/03_存储系统与地址.md",
+      "columns": 7,
+      "data_rows": 2,
+      "line": 382
+    },
+    {
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "columns": 3,
+      "data_rows": 8,
+      "line": 27
+    },
+    {
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "columns": 4,
+      "data_rows": 8,
+      "line": 92
+    },
+    {
+      "path": "manuscript/CO/04_指令系统与程序表示.md",
+      "columns": 4,
+      "data_rows": 4,
+      "line": 186
+    },
+    {
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "columns": 2,
+      "data_rows": 6,
+      "line": 7
+    },
+    {
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "columns": 4,
+      "data_rows": 4,
+      "line": 39
+    },
+    {
+      "path": "manuscript/CO/05_CPU与控制.md",
+      "columns": 3,
+      "data_rows": 3,
+      "line": 88
+    },
+    {
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "columns": 3,
+      "data_rows": 4,
+      "line": 51
+    },
+    {
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "columns": 9,
+      "data_rows": 3,
+      "line": 76
+    },
+    {
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "columns": 3,
+      "data_rows": 5,
+      "line": 161
+    },
+    {
+      "path": "manuscript/CO/06_流水线与并行处理.md",
+      "columns": 15,
+      "data_rows": 4,
+      "line": 184
+    },
+    {
+      "path": "manuscript/CO/08_IO与DMA.md",
+      "columns": 5,
+      "data_rows": 4,
+      "line": 130
+    },
+    {
+      "path": "manuscript/DS/03_栈队列与数组.md",
+      "columns": 3,
+      "data_rows": 7,
+      "line": 19
+    },
+    {
+      "path": "manuscript/DS/04_串与模式匹配.md",
+      "columns": 7,
+      "data_rows": 2,
+      "line": 44
+    },
+    {
+      "path": "manuscript/DS/04_串与模式匹配.md",
+      "columns": 7,
+      "data_rows": 4,
+      "line": 114
+    },
+    {
+      "path": "manuscript/DS/05_树二叉树与应用.md",
+      "columns": 3,
+      "data_rows": 5,
+      "line": 199
+    },
+    {
+      "path": "manuscript/DS/06_图与图算法.md",
+      "columns": 5,
+      "data_rows": 5,
+      "line": 136
+    },
+    {
+      "path": "manuscript/DS/06_图与图算法.md",
+      "columns": 3,
+      "data_rows": 6,
+      "line": 221
+    },
+    {
+      "path": "manuscript/DS/07_查找与索引结构.md",
+      "columns": 3,
+      "data_rows": 7,
+      "line": 94
+    },
+    {
+      "path": "manuscript/DS/07_查找与索引结构.md",
+      "columns": 2,
+      "data_rows": 4,
+      "line": 137
+    },
+    {
+      "path": "manuscript/DS/07_查找与索引结构.md",
+      "columns": 6,
+      "data_rows": 2,
+      "line": 226
+    },
+    {
+      "path": "manuscript/DS/07_查找与索引结构.md",
+      "columns": 12,
+      "data_rows": 1,
+      "line": 243
+    },
+    {
+      "path": "manuscript/DS/07_查找与索引结构.md",
+      "columns": 4,
+      "data_rows": 8,
+      "line": 253
+    },
+    {
+      "path": "manuscript/DS/08_排序与外部归并.md",
+      "columns": 3,
+      "data_rows": 6,
+      "line": 203
+    },
+    {
+      "path": "manuscript/DS/08_排序与外部归并.md",
+      "columns": 3,
+      "data_rows": 5,
+      "line": 238
+    },
+    {
+      "path": "manuscript/DS/08_排序与外部归并.md",
+      "columns": 7,
+      "data_rows": 10,
+      "line": 262
+    },
+    {
+      "path": "manuscript/OS/01_操作系统与程序运行环境.md",
+      "columns": 3,
+      "data_rows": 3,
+      "line": 39
+    },
+    {
+      "path": "manuscript/OS/01_操作系统与程序运行环境.md",
+      "columns": 3,
+      "data_rows": 3,
+      "line": 95
+    },
+    {
+      "path": "manuscript/OS/01_操作系统与程序运行环境.md",
+      "columns": 3,
+      "data_rows": 5,
+      "line": 138
+    },
+    {
+      "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+      "columns": 3,
+      "data_rows": 5,
+      "line": 15
+    },
+    {
+      "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+      "columns": 3,
+      "data_rows": 4,
+      "line": 51
+    },
+    {
+      "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+      "columns": 3,
+      "data_rows": 3,
+      "line": 60
+    },
+    {
+      "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+      "columns": 3,
+      "data_rows": 4,
+      "line": 130
+    },
+    {
+      "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+      "columns": 4,
+      "data_rows": 3,
+      "line": 153
+    },
+    {
+      "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+      "columns": 4,
+      "data_rows": 4,
+      "line": 173
+    },
+    {
+      "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+      "columns": 3,
+      "data_rows": 4,
+      "line": 204
+    },
+    {
+      "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+      "columns": 3,
+      "data_rows": 4,
+      "line": 213
+    },
+    {
+      "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+      "columns": 3,
+      "data_rows": 4,
+      "line": 224
+    },
+    {
+      "path": "manuscript/OS/02_进程线程调度与上下文切换.md",
+      "columns": 5,
+      "data_rows": 7,
+      "line": 237
+    },
+    {
+      "path": "manuscript/OS/03_同步互斥与信号量.md",
+      "columns": 2,
+      "data_rows": 4,
+      "line": 41
+    },
+    {
+      "path": "manuscript/OS/03_同步互斥与信号量.md",
+      "columns": 3,
+      "data_rows": 3,
+      "line": 56
+    },
+    {
+      "path": "manuscript/OS/03_同步互斥与信号量.md",
+      "columns": 3,
+      "data_rows": 5,
+      "line": 547
+    },
+    {
+      "path": "manuscript/OS/04_死锁与资源分配.md",
+      "columns": 3,
+      "data_rows": 4,
+      "line": 15
+    },
+    {
+      "path": "manuscript/OS/04_死锁与资源分配.md",
+      "columns": 2,
+      "data_rows": 4,
+      "line": 66
+    },
+    {
+      "path": "manuscript/OS/04_死锁与资源分配.md",
+      "columns": 3,
+      "data_rows": 4,
+      "line": 92
+    },
+    {
+      "path": "manuscript/OS/04_死锁与资源分配.md",
+      "columns": 3,
+      "data_rows": 3,
+      "line": 107
+    },
+    {
+      "path": "manuscript/OS/04_死锁与资源分配.md",
+      "columns": 3,
+      "data_rows": 5,
+      "line": 119
+    },
+    {
+      "path": "manuscript/OS/04_死锁与资源分配.md",
+      "columns": 4,
+      "data_rows": 5,
+      "line": 165
+    },
+    {
+      "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "columns": 2,
+      "data_rows": 5,
+      "line": 53
+    },
+    {
+      "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "columns": 4,
+      "data_rows": 6,
+      "line": 121
+    },
+    {
+      "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "columns": 5,
+      "data_rows": 3,
+      "line": 134
+    },
+    {
+      "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "columns": 3,
+      "data_rows": 5,
+      "line": 150
+    },
+    {
+      "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "columns": 3,
+      "data_rows": 12,
+      "line": 186
+    },
+    {
+      "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "columns": 5,
+      "data_rows": 3,
+      "line": 217
+    },
+    {
+      "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "columns": 3,
+      "data_rows": 3,
+      "line": 293
+    },
+    {
+      "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "columns": 3,
+      "data_rows": 3,
+      "line": 307
+    },
+    {
+      "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "columns": 3,
+      "data_rows": 0,
+      "line": 323
+    },
+    {
+      "path": "manuscript/OS/05_内存管理与虚拟内存.md",
+      "columns": 3,
+      "data_rows": 6,
+      "line": 340
+    },
+    {
+      "path": "manuscript/OS/06_文件目录与文件系统.md",
+      "columns": 4,
+      "data_rows": 4,
+      "line": 17
+    },
+    {
+      "path": "manuscript/OS/06_文件目录与文件系统.md",
+      "columns": 5,
+      "data_rows": 4,
+      "line": 90
+    },
+    {
+      "path": "manuscript/OS/07_IO设备与外存调度.md",
+      "columns": 3,
+      "data_rows": 3,
+      "line": 21
+    },
+    {
+      "path": "manuscript/OS/07_IO设备与外存调度.md",
+      "columns": 5,
+      "data_rows": 6,
+      "line": 151
+    },
+    {
+      "path": "manuscript/OS/07_IO设备与外存调度.md",
+      "columns": 4,
+      "data_rows": 4,
+      "line": 234
+    }
+  ],
+  "pdf_opened": false,
+  "pdf_layout_check_performed": false,
+  "limitation": "这里只检验源字符和模式断点；不得由此宣称PDF视觉、分页或裁切检查通过。"
+}

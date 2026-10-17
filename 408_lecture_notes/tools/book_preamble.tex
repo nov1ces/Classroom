@@ -66,3 +66,53 @@
 \renewcommand{\textfraction}{.1}
 \makeatletter\def\fps@figure{H}\makeatother
 \newcommand{\BookIndexEntry}[2]{\par\noindent\hyperref[#1]{#2}\nobreak\hfill\pageref*{#1}\par}
+
+% Measure the rendered choices, then use a four-, two- or one-column grid.
+% Each cell has an identical label box and a hanging continuation indent.
+\newsavebox{\BookChoiceMeasure}
+\newlength{\BookChoiceMaximum}
+\newlength{\BookChoiceWidth}
+\newlength{\BookChoiceGap}
+\newcommand{\BookChoiceCell}[2]{\parbox[t]{\BookChoiceWidth}{%
+  \setlength{\parindent}{0pt}\hangindent=1.6em\hangafter=1\strut
+  \makebox[1.6em][l]{#1.}#2\strut}}
+\newcommand{\BookMeasureChoice}[1]{%
+  \sbox{\BookChoiceMeasure}{\makebox[1.6em][l]{A.}#1}%
+  \ifdim\wd\BookChoiceMeasure>\BookChoiceMaximum
+    \setlength{\BookChoiceMaximum}{\wd\BookChoiceMeasure}\fi}
+\newcommand{\BookChoiceSet}[5]{%
+  \par\addvspace{3pt}\begingroup
+  \setlength{\BookChoiceMaximum}{0pt}\setlength{\BookChoiceGap}{1.25em}%
+  \BookMeasureChoice{#2}\BookMeasureChoice{#3}%
+  \BookMeasureChoice{#4}\BookMeasureChoice{#5}%
+  \setlength{\BookChoiceWidth}{(\linewidth-3\BookChoiceGap)/4}%
+  \def\BookChoiceColumns{4}%
+  \ifdim\BookChoiceMaximum>\BookChoiceWidth
+    \setlength{\BookChoiceWidth}{(\linewidth-\BookChoiceGap)/2}%
+    \def\BookChoiceColumns{2}%
+    \ifdim\BookChoiceMaximum>\BookChoiceWidth
+      \setlength{\BookChoiceWidth}{\linewidth}\def\BookChoiceColumns{1}%
+    \fi
+  \fi
+  \noindent\begin{minipage}{\linewidth}\hypertarget{#1}{}%
+  \typeout{BOOKCHOICES:#1:columns=\BookChoiceColumns}%
+  \ifnum\BookChoiceColumns=4
+    \BookChoiceCell{A}{#2}\hspace{\BookChoiceGap}\BookChoiceCell{B}{#3}\hspace{\BookChoiceGap}%
+    \BookChoiceCell{C}{#4}\hspace{\BookChoiceGap}\BookChoiceCell{D}{#5}%
+  \else\ifnum\BookChoiceColumns=2
+    \BookChoiceCell{A}{#2}\hspace{\BookChoiceGap}\BookChoiceCell{B}{#3}\par\vspace{2pt}\noindent
+    \BookChoiceCell{C}{#4}\hspace{\BookChoiceGap}\BookChoiceCell{D}{#5}%
+  \else
+    \BookChoiceCell{A}{#2}\par\vspace{2pt}\noindent
+    \BookChoiceCell{B}{#3}\par\vspace{2pt}\noindent
+    \BookChoiceCell{C}{#4}\par\vspace{2pt}\noindent
+    \BookChoiceCell{D}{#5}%
+  \fi\fi
+  \end{minipage}\par\endgroup\addvspace{4pt}}
+\newenvironment{BookStatements}[1]{%
+  \par\addvspace{3pt}\noindent\begin{minipage}{\linewidth}%
+  \hypertarget{#1}{}\setlength{\parskip}{2pt}}%
+  {\par\end{minipage}\par\addvspace{3pt}}
+\newcommand{\BookStatement}[2]{%
+  \par\noindent\hangindent=2.8em\hangafter=1\strut
+  \makebox[2.8em][l]{#1.}#2\strut\par}

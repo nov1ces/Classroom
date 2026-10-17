@@ -11,7 +11,8 @@ def main():
     parser=argparse.ArgumentParser();parser.add_argument('--subjects',nargs='+',choices=list(NAMES),default=list(NAMES))
     args=parser.parse_args();items=[]
     for sub in args.subjects:
-        p=ROOT/'dist'/f'{NAMES[sub]}_讲义.pdf';d=fitz.open(p)
+        manifest=json.loads((ROOT/f'build/{sub}/build_manifest.json').read_text())
+        p=ROOT/manifest['pdf'];d=fitz.open(p)
         count=0;bad=[];alone=[];diagram_labels=[];trailing_citations=[]
         for n,page in enumerate(d,1):
             blocks=page.get_text('dict')['blocks']
@@ -43,7 +44,8 @@ def main():
         items.append(item)
         if bad or alone:raise AssertionError(item)
         print(json.dumps(dict(subject=sub,question_source_lines=count,status='PASS'),ensure_ascii=False))
-    out=ROOT/'editorial/full/pdf/chinese_format_scan.json'
+    out=ROOT/'editorial/final/chinese_format_scan.json'
+    out.parent.mkdir(parents=True,exist_ok=True)
     out.write_text(json.dumps(dict(status='PASS',scope='实际PDF普通题干源标行不单独占行，首行x坐标等于正文左边界；图内标题单列。普通段落缩进另由人工逐页检查。',books=items),ensure_ascii=False,indent=2)+'\n')
 
 if __name__=='__main__':main()

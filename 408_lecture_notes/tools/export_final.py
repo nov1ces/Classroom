@@ -27,7 +27,8 @@ def main():
     source_checks = load('editorial/final/choice_source_checks.json')
     choice_checks = load('editorial/final/choice_pdf_checks.json')
     labels = load('editorial/final/chinese_format_scan.json')
-    assert source_checks['status'] == choice_checks['status'] == labels['status'] == 'PASS'
+    table_checks = load('editorial/final/table_pdf_checks.json')
+    assert source_checks['status'] == choice_checks['status'] == labels['status'] == table_checks['status'] == 'PASS'
     for path, fingerprint in source_checks['source_sha256'].items():
         assert sha(ROOT / path) == fingerprint, path
     visual_path = ROOT / 'editorial/final/visual_review.json'
@@ -36,7 +37,7 @@ def main():
     source_books = {b['subject']: b for b in source_checks['books']}
     books = []
     combined = fitz.open()
-    toc, page_labels = [], []
+    toc, page_labels, print_sections = [], [], []
     offset = 0
     expected_links = 0
     for sub, title in NAMES.items():
@@ -44,11 +45,15 @@ def main():
         audit = load(f'editorial/final/pdf/{sub}/audit.json')
         choices = next(b for b in choice_checks['books'] if b['subject'] == sub)
         source_label = next(b for b in labels['books'] if b['subject'] == sub)
+        tables = next(b for b in table_checks['books'] if b['subject'] == sub)
         path = ROOT / mf['pdf']
         fingerprint = sha(path)
         assert not mf['partial'] and mf['edition'] == 'release'
         assert audit['structural_status'] == 'PASS'
-        assert fingerprint == mf['sha256'] == audit['sha256'] == choices['sha256'] == source_label['sha256']
+        assert fingerprint == mf['sha256'] == audit['sha256'] == choices['sha256'] == source_label['sha256'] == tables['sha256']
+        assert audit['print_layout']['even_page_count'] and audit['print_layout']['cover_back_blank']
+        assert audit['print_layout']['blank_pages_render_pure_white']
+        assert offset % 2 == 0
         for source in mf['sources']:
             assert sha(ROOT / source['path']) == source['sha256']
         target = OUT / (title + '_最终稿.pdf')
@@ -74,12 +79,16 @@ def main():
             toc.extend([[level + 1, text, page + offset] for level, text, page in doc.get_toc()])
             page_labels.extend([dict(rule, startpage=rule['startpage'] + offset) for rule in doc.get_page_labels()])
             pages = len(doc)
+            assert pages % 2 == 0 and not doc[1].get_text().strip() and not doc[1].get_drawings()
+        print_sections.append(dict(subject=sub, start_physical_page=offset + 1, physical_pages=pages,
+            cover_back_blank_physical_page=offset + 2))
         detail = visual_books.get(sub, {})
         books.append(dict(subject=sub, title=title, pdf=str(target.relative_to(ROOT)),
             sha256=fingerprint, bytes=target.stat().st_size, physical_pages=pages,
             chapters=len(mf['sources']), sources=mf['sources'],
             numbered_examples=sum(q['title'].startswith('例 ') for q in mf['questions']),
             choices=source_books[sub]['choices'], statements=source_books[sub]['statements'],
+            tables=tables['table_count'], print_layout=audit['print_layout'],
             structural_check='PASS', option_alignment_check='PASS',
             visual_check=detail.get('status') if detail.get('sha256') == fingerprint else 'NOT_CURRENT'))
         offset += pages
@@ -123,32 +132,41 @@ def main():
     tools = ['tools/build_books.py', 'tools/book_choices.py', 'tools/book_images.lua',
         'tools/book_preamble.tex', 'tools/verify_choice_layout.py', 'tools/audit_books.py',
         'tools/verify_reader_layout.py', 'tools/verify_conversion.py', 'tools/resolve_fonts.py',
-        'tools/export_final.py', 'build_final.sh']
-    manifest = dict(edition='final_polished_with_followups', exported_at=datetime.now(timezone.utc).isoformat(),
+        'tools/book_tables.py', 'tools/verify_table_layout.py', 'tools/export_final.py', 'build_final.sh']
+    manifest = dict(edition='final_duplex', exported_at=datetime.now(timezone.utc).isoformat(),
         base_commit=subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
-        source_note='基于dcaaf97的DeepSeek润色及后续内容、排版修订；正文和当前构建工具的实际指纹见本清单。',
+        source_note='保留DeepSeek润色及后续内容修订；补IEEE浮点数表、逐表优化列宽，并为双面打印留白。正文与构建工具指纹见本清单。',
         counts=dict(books=4, chapters=sum(b['chapters'] for b in books), physical_pages=offset,
             numbered_examples=sum(b['numbered_examples'] for b in books),
             choices=source_checks['choices'], statements=source_checks['statements'],
+            tables=table_checks['table_count'],
             aligned_monospaced_code_choice_sets=sum(c['already_aligned_monospaced_code_choices']
                 for b in source_checks['books'] for c in b['chapters'])), books=books,
         combined=dict(pdf=str(combined_path.relative_to(ROOT)), sha256=sha(combined_path),
             bytes=combined_path.stat().st_size, physical_pages=offset, internal_links=expected_links,
             bookmarks=len(toc), source_page_text_and_pixels_identical=True),
+        print_layout=dict(even_page_count=offset % 2 == 0, all_subject_covers_start_on_odd_pages=True,
+            sections=print_sections),
         checks=['editorial/final/choice_source_checks.json', 'editorial/final/choice_pdf_checks.json',
             'editorial/final/visual_review.json', 'editorial/final/chinese_format_scan.json',
-            'editorial/final/conversion_results.json', 'editorial/final/delivery_checks.json'],
+            'editorial/final/conversion_results.json', 'editorial/final/table_pdf_checks.json',
+            'editorial/final/delivery_checks.json'],
         tool_sha256={p:sha(ROOT / p) for p in tools},
         review_scope='29章文本与结构保全；全部选项和题组逐组坐标核对；全页渲染与版面总览、重点页细看；不重新认证历史独立内容审校或官方题源。')
     manifest_path = OUT / '最终稿交付清单.json'
     manifest_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + '\n')
-    (OUT / '最终稿说明.md').write_text('''# 408 四科讲义最终稿
+    pages_description = '、'.join(str(b['physical_pages']) for b in books)
+    (OUT / '最终稿说明.md').write_text(f'''# 408 四科讲义最终稿
 
-四科共29章、193道编号例题、310页。保留DeepSeek润色，以及数据结构第5章自测第1题、计组例3-13的后续优化。
+四科共29章、193道编号例题、{offset}页。保留DeepSeek润色，以及数据结构第5章自测第1题、计组例3-13的后续优化。
+
+本版补充IEEE 754单、双精度参数及特殊编码表，并按实际字体宽度优化四科{table_checks['table_count']}张表格：保持正文满宽，让可容纳的短字段不换行，长说明允许必要换行。计组例3-12的六列表头及数据均可单行显示。
+
+每本科目封面后均有一张纯空白页，总页数均为偶数，末尾按需补空白。合订时各科封面从奇数物理页开始。打印时选择双面、长边翻转，并保留PDF中的空白页。
 
 本轮统一164组A—D选项与15组罗马数字题组：按实际字宽采用四列、两列或逐项布局；选项标签使用统一宽度，长项续行悬挂缩进。另1组程序代码选项保留等宽格式。计组例2-4和例2-9已重点复查。
 
-分科PDF与合订本均有书签和有效内部链接；合订本保留四科目录层级，全部页面的文字及渲染像素与分科文件一致。四科分卷分别为75、72、84、79页。交付清单提供源码和文件SHA256，核验记录存于项目editorial/final。
+分科PDF与合订本均有书签和有效内部链接；合订本保留四科目录层级，全部页面的文字及渲染像素与分科文件一致。四科分卷依次为{pages_description}页。交付清单提供源码和文件SHA256，核验记录存于项目editorial/final。
 
 版面检查为全页渲染、全页总览和重点页细看，另有逐组选项坐标检查；历史题源及内容审校的边界仍以原记录为准。
 
@@ -160,6 +178,8 @@ def main():
         source_chapters_verified=sum(len(b['sources']) for b in books),
         text_and_code_preservation='editorial/final/choice_source_checks.json',
         conversion_checks='editorial/final/conversion_results.json')
+    delivery['print_layout'] = manifest['print_layout']
+    delivery['table_layout_checks'] = 'editorial/final/table_pdf_checks.json'
     (ROOT / 'editorial/final/delivery_checks.json').write_text(json.dumps(delivery, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps(dict(**manifest['counts'], combined=str(combined_path.relative_to(ROOT)),
         subject_pdfs=[b['pdf'] for b in books]), ensure_ascii=False))

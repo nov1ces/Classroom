@@ -4,16 +4,16 @@
 
 ## 四科自学讲义：最终稿与完整项目
 
-[下载四科合订本 PDF（310 页）](408_lecture_notes/dist/final/408四科讲义_最终稿_合订本.pdf?raw=true) · [进入完整项目](408_lecture_notes/) · [交付清单](408_lecture_notes/dist/final/最终稿交付清单.json)
+[下载四科合订本 PDF（316 页）](408_lecture_notes/dist/final/408四科讲义_最终稿_合订本.pdf?raw=true) · [进入完整项目](408_lecture_notes/) · [交付清单](408_lecture_notes/dist/final/最终稿交付清单.json)
 
 | 分科最终版 | 页数 | 可编辑正文 |
 | --- | ---: | --- |
-| [数据结构 PDF](408_lecture_notes/dist/final/数据结构_最终稿.pdf?raw=true) | 75 | [分章](408_lecture_notes/manuscript/DS/) |
-| [计算机组成原理 PDF](408_lecture_notes/dist/final/计算机组成原理_最终稿.pdf?raw=true) | 72 | [分章](408_lecture_notes/manuscript/CO/) |
-| [操作系统 PDF](408_lecture_notes/dist/final/操作系统_最终稿.pdf?raw=true) | 84 | [分章](408_lecture_notes/manuscript/OS/) |
-| [计算机网络 PDF](408_lecture_notes/dist/final/计算机网络_最终稿.pdf?raw=true) | 79 | [分章](408_lecture_notes/manuscript/CN/) |
+| [数据结构 PDF](408_lecture_notes/dist/final/数据结构_最终稿.pdf?raw=true) | 76 | [分章](408_lecture_notes/manuscript/DS/) |
+| [计算机组成原理 PDF](408_lecture_notes/dist/final/计算机组成原理_最终稿.pdf?raw=true) | 74 | [分章](408_lecture_notes/manuscript/CO/) |
+| [操作系统 PDF](408_lecture_notes/dist/final/操作系统_最终稿.pdf?raw=true) | 86 | [分章](408_lecture_notes/manuscript/OS/) |
+| [计算机网络 PDF](408_lecture_notes/dist/final/计算机网络_最终稿.pdf?raw=true) | 80 | [分章](408_lecture_notes/manuscript/CN/) |
 
-四科共 29 章、193 道编号例题，包含 DeepSeek 润色及后续内容与排版修订。项目保留正文、图稿、构建源码和必要核验台账；旧审阅稿、样章、重复打包及编译缓存已清理。进入 `408_lecture_notes/` 后运行 `bash build_final.sh` 可重建最终版，依赖见项目 README。
+四科共 29 章、193 道编号例题，包含 DeepSeek 润色及后续内容与排版修订。本版补 IEEE 浮点数表并优化四科表格列宽；每本封面后留白，总页数为偶数，方便双面打印。项目保留正文、图稿、构建源码和必要核验台账；旧审阅稿、样章、重复打包及编译缓存已清理。进入 `408_lecture_notes/` 后运行 `bash build_final.sh` 可重建最终版，依赖见项目 README。
 
 ---
 

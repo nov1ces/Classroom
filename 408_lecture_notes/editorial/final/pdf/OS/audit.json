@@ -1,8 +1,8 @@
 {
   "subject": "OS",
   "pdf": "build/OS/操作系统_讲义.pdf",
-  "sha256": "df07ee7a6863404dc0ab8673f84bc6ec63987c0887a9e1ea3474874b59f42863",
-  "page_count": 84,
+  "sha256": "0bbbb8a679d11ba6688978e2b84cd824b11411f8e692b9f5f29d243e94e28d8f",
+  "page_count": 86,
   "page_labels": [
     {
       "startpage": 0,
@@ -14,10 +14,16 @@
       "startpage": 1,
       "prefix": "",
       "firstpagenum": 1,
+      "style": "a"
+    },
+    {
+      "startpage": 2,
+      "prefix": "",
+      "firstpagenum": 1,
       "style": "r"
     },
     {
-      "startpage": 5,
+      "startpage": 6,
       "prefix": "",
       "firstpagenum": 1,
       "style": "D"
@@ -27,207 +33,207 @@
     [
       1,
       "阅读约定",
-      5
+      6
     ],
     [
       1,
       "1 操作系统与程序运行环境",
-      6
+      7
     ],
     [
       2,
       "1.1 操作系统管理什么，向程序提供什么",
-      6
+      7
     ],
     [
       3,
       "并发、共享、虚拟与异步怎样联系",
-      6
+      7
     ],
     [
       3,
       "例 1-1　进程越多，处理器利用率一定越高吗",
-      6
+      7
     ],
     [
       2,
       "1.2 批处理、分时与实时解决不同的问题",
-      7
+      8
     ],
     [
       2,
       "1.3 用户态、内核态与特权指令",
-      7
+      8
     ],
     [
       2,
       "1.4 中断和异常怎样把控制权交给内核",
-      8
+      9
     ],
     [
       3,
       "例 1-2　执行系统调用时，哪些操作属于软件",
-      8
+      9
     ],
     [
       2,
       "1.5 系统调用与库函数：调用一段代码，还是请求内核服务",
-      9
+      10
     ],
     [
       2,
       "1.6 从源程序到可运行映像：链接、装入与地址绑定",
-      9
+      10
     ],
     [
       2,
       "1.7 进程地址空间中，代码、数据、堆和栈各放什么",
-      10
+      11
     ],
     [
       2,
       "1.8 内核结构：把哪些功能放进同一保护域",
-      10
+      11
     ],
     [
       3,
       "例 1-3　微内核的收益与代价",
-      11
+      12
     ],
     [
       2,
       "1.9 开机以后，内核怎样获得控制权",
-      11
+      12
     ],
     [
       3,
       "例 1-4　每次开机需要重新建立什么",
-      11
+      12
     ],
     [
       2,
       "1.10 虚拟机：客户操作系统也可以成为被管理者",
-      12
+      13
     ],
     [
       2,
       "1.11 回顾与自测",
-      12
+      13
     ],
     [
       3,
       "自测答案",
-      12
+      13
     ],
     [
       1,
       "2 进程、线程、调度与上下文切换",
-      13
+      14
     ],
     [
       2,
       "2.1 进程与线程：资源单位和执行单位",
-      13
+      14
     ],
     [
       2,
       "2.2 就绪、运行和阻塞：先判断缺少什么",
-      14
+      15
     ],
     [
       3,
       "例 2-1　主动让出处理器后去哪里",
-      14
+      15
     ],
     [
       2,
       "2.3 用户级、内核级线程与映射模型",
-      15
+      16
     ],
     [
       2,
       "2.4 创建、撤销与组织：PCB 为什么是管理入口",
-      15
+      16
     ],
     [
       2,
       "2.5 共享内存、消息、管道和信号",
-      16
+      17
     ],
     [
       2,
       "2.6 调度层次与评价指标",
-      16
+      17
     ],
     [
       2,
       "2.7 什么时刻可以调度，抢占改变了哪一步",
-      17
+      18
     ],
     [
       2,
       "2.8 沿时间线执行调度算法",
-      17
+      18
     ],
     [
       3,
       "FCFS、SJF、SRTF 与高响应比",
-      17
+      18
     ],
     [
       3,
       "例 2-2　先排除尚未到达者，再比较",
-      17
+      18
     ],
     [
       3,
       "优先级：先看数值方向，再看是否抢占",
-      18
+      19
     ],
     [
       3,
       "例 2-3　被抢占者的剩余时间必须保留",
-      18
+      19
     ],
     [
       3,
       "例 2-4　一次到达不必增加一次进程调度",
-      19
+      20
     ],
     [
       3,
       "时间片轮转与多级反馈队列",
-      19
+      20
     ],
     [
       3,
       "例 2-5　二级反馈中，第二级按剩余量选择",
-      19
+      20
     ],
     [
       3,
       "例 2-6　同一组到达事件，SRTF 与 RR 如何分别推进",
-      20
+      21
     ],
     [
       3,
       "调度算法的选择依据与抢占条件",
-      20
+      21
     ],
     [
       3,
       "例 2-7　把``等待越久越优先''写成动态优先数",
-      21
+      22
     ],
     [
       2,
       "2.9 多处理机调度：负载与缓存都有代价",
-      22
+      23
     ],
     [
       2,
       "2.10 上下文切换与模式切换",
-      22
+      23
     ],
     [
       2,
@@ -237,647 +243,647 @@
     [
       3,
       "自测答案",
-      23
+      24
     ],
     [
       1,
       "3 同步、互斥与信号量",
-      24
+      25
     ],
     [
       2,
       "3.1 临界区约束什么，为什么还需要同步",
-      24
+      25
     ],
     [
       3,
       "从一次丢失的更新看原子操作",
-      24
+      25
     ],
     [
       3,
       "资源、代码与先后关系",
-      25
+      26
     ],
     [
       3,
       "例 3-1　共享缓冲区中的两种约束",
-      25
+      26
     ],
     [
       3,
       "怎样判断互斥方案是否合格",
-      25
+      26
     ],
     [
       2,
       "3.2 软件互斥与锁：检查和占用必须连起来",
-      26
+      27
     ],
     [
       3,
       "三种失败方案留下了什么问题",
-      26
+      27
     ],
     [
       3,
       "Peterson 算法怎样处理双方同时申请",
-      26
+      27
     ],
     [
       3,
       "TestAndSet 为什么能够上锁",
-      26
+      27
     ],
     [
       2,
       "3.3 信号量：先说明它代表什么，再计算初值",
-      27
+      28
     ],
     [
       3,
       "记录型 P、V 的完整语义",
-      27
+      28
     ],
     [
       3,
       "初值来自初态，不来自``同步量''这个名称",
-      28
+      29
     ],
     [
       3,
       "例 3-2　同步信号量一定从 0 开始吗",
-      28
+      29
     ],
     [
       3,
       "将完成条件放在正确位置",
-      28
+      29
     ],
     [
       2,
       "3.4 从前驱图到线程代码",
-      29
+      30
     ],
     [
       3,
       "例 3-3　哪些边需要跨线程通知",
-      29
+      30
     ],
     [
       2,
       "3.5 缓冲区：容量许可与互斥范围分别建立",
-      30
+      31
     ],
     [
       3,
       "例 3-4　同一个缓冲区为什么有不同的信号量方案",
-      30
+      31
     ],
     [
       3,
       "有限缓冲区为什么通常需要 empty、full 和 mutex",
-      30
+      31
     ],
     [
       3,
       "为什么不能持有缓冲区锁等待产品",
-      32
+      33
     ],
     [
       3,
       "例 3-5　消费者只能取特定类别时怎样计数",
-      32
+      33
     ],
     [
       3,
       "例 3-6　连续取 10 件改变的是哪一层互斥",
-      33
+      34
     ],
     [
       2,
       "3.6 多个读者怎样作为一组申请资源",
-      35
+      36
     ],
     [
       3,
       "首读者申请，末读者释放",
-      35
+      36
     ],
     [
       3,
       "读者优先与公平需要分别说明",
-      36
-    ],
-    [
-      2,
-      "3.7 哲学家进餐：申请多个资源时怎样断开等待环",
-      36
-    ],
-    [
-      3,
-      "限制竞争人数，与限制同时吃饭人数不同",
       37
     ],
     [
       2,
-      "3.8 管程与条件变量：等待时必须让出改变条件的机会",
+      "3.7 哲学家进餐：申请多个资源时怎样断开等待环",
+      37
+    ],
+    [
+      3,
+      "限制竞争人数，与限制同时吃饭人数不同",
       38
+    ],
+    [
+      2,
+      "3.8 管程与条件变量：等待时必须让出改变条件的机会",
+      39
     ],
     [
       3,
       "wait 负责等待，不替调用者判断条件",
-      38
+      39
     ],
     [
       3,
       "例 3-7　条件变量的 wait 做什么",
-      38
+      39
     ],
     [
       3,
       "通知以后，何时重新检查条件",
-      38
+      39
     ],
     [
       2,
       "3.9 写出并发代码后，怎样检验",
-      40
+      41
     ],
     [
       2,
       "3.10 自测：先判断，再看答案",
-      40
+      41
     ],
     [
       3,
       "自测答案",
-      40
+      41
     ],
     [
       1,
       "4 死锁：从资源分配状态判断能否继续",
-      42
+      43
     ],
     [
       2,
       "4.1 死锁、饥饿和不安全状态",
-      42
+      43
     ],
     [
       3,
       "四个必要条件是同时约束",
-      42
+      43
     ],
     [
       3,
       "资源分配图中的环什么时候足够",
-      42
+      43
     ],
     [
       3,
       "安全状态问的是``能否保证全部完成''",
-      43
+      44
     ],
     [
       2,
       "4.2 死锁预防：在规则中破坏一个条件",
-      43
+      44
     ],
     [
       3,
       "例 4-1　避免与检测需要的信息不同",
-      43
+      44
     ],
     [
       2,
       "4.3 银行家算法：可用不等于可以批准",
-      44
-    ],
-    [
-      3,
-      "安全性检查中的 Work 为什么要加 Allocation",
-      44
-    ],
-    [
-      3,
-      "例 4-2　能先完成两人，仍然可能不安全",
-      44
-    ],
-    [
-      3,
-      "例 4-3　把每个候选可用向量独立试一遍",
       45
     ],
     [
       3,
-      "新请求的三个关口",
+      "安全性检查中的 Work 为什么要加 Allocation",
+      45
+    ],
+    [
+      3,
+      "例 4-2　能先完成两人，仍然可能不安全",
+      45
+    ],
+    [
+      3,
+      "例 4-3　把每个候选可用向量独立试一遍",
       46
+    ],
+    [
+      3,
+      "新请求的三个关口",
+      47
     ],
     [
       3,
       "总资源界限不能代替银行家逐态检查",
-      46
+      47
     ],
     [
       2,
       "4.4 检测、解除和恢复",
-      46
+      47
     ],
     [
       3,
       "三类处理策略检查的不是同一件事",
-      47
+      48
     ],
     [
       2,
       "4.5 自测：分别判断现在和最坏未来",
-      47
+      48
     ],
     [
       3,
       "自测答案",
-      47
+      48
     ],
     [
       1,
       "5 内存管理：映射、保护与虚拟内存",
-      48
+      49
     ],
     [
       2,
       "5.1 逻辑地址、物理地址和可寻址范围",
-      48
+      49
     ],
     [
       2,
       "5.2 共享、保护、分配和回收",
-      48
+      49
     ],
     [
       3,
       "例 5-1　页号可以不同，共享的页框必须相同",
-      49
+      50
     ],
     [
       2,
       "5.3 连续分配与动态分区：空闲总量不等于可分配块",
-      49
+      50
     ],
     [
       3,
       "例 5-2　最佳适应每次都重新比较当前空闲区",
-      49
+      50
     ],
     [
       2,
       "5.4 分页：页号查表，偏移不变",
-      50
+      51
     ],
     [
       2,
       "5.5 TLB 与多级页表：空间与时间分别计算",
-      50
+      51
     ],
     [
       3,
       "多级页表为什么可以节省空间",
-      50
+      51
     ],
     [
       3,
       "例 5-3　一张下级表能覆盖多少页",
-      50
+      51
     ],
     [
       3,
       "例 5-4　10 位字段不能按十六进制整位截断",
-      51
+      52
     ],
     [
       3,
       "TLB 缓存的是转换，不是文件内容",
-      51
-    ],
-    [
-      2,
-      "5.6 分段和段页式：先检查段内地址",
       52
     ],
     [
       2,
-      "5.7 请求分页：合法但不驻留时会发生什么",
+      "5.6 分段和段页式：先检查段内地址",
       53
     ],
     [
       2,
-      "5.8 页框分配与置换范围",
+      "5.7 请求分页：合法但不驻留时会发生什么",
       54
+    ],
+    [
+      2,
+      "5.8 页框分配与置换范围",
+      55
     ],
     [
       2,
       "5.9 页面置换：必须跟踪实际状态",
-      54
+      55
     ],
     [
       3,
       "例 5-5　缺页次数与置换次数相差初装入次数",
-      54
+      55
     ],
     [
       3,
       "Clock 的访问位给页面第二次机会",
-      55
+      56
     ],
     [
       3,
       "例 5-6　缺页后，旧页框字段不能直接沿用",
-      55
+      56
     ],
     [
       2,
       "5.10 内存映射文件：把文件内容放入虚拟地址视图",
-      56
+      57
     ],
     [
       2,
       "5.11 工作集、抖动与平均访问时间",
-      56
+      57
     ],
     [
       3,
       "例 5-7　窗口内有重复，集合只记一次",
-      56
+      57
     ],
     [
       3,
       "数组访问怎样变成页引用串",
-      56
+      58
     ],
     [
       3,
       "有效访问时间要列出所有分支",
-      57
+      58
     ],
     [
       3,
       "例 5-8　一次缺页要把``失败、调页、重试''全部计时",
-      57
+      59
     ],
     [
       3,
       "例 5-9　数组偏移怎样逐级找到页表项",
-      58
+      59
     ],
     [
       2,
       "5.12 自测：先写地址字段和状态，再计算",
-      59
+      60
     ],
     [
       3,
       "自测答案",
-      59
+      61
     ],
     [
       1,
       "6 文件、目录与文件系统",
-      60
+      62
     ],
     [
       2,
       "6.1 文件、文件控制块与索引节点",
-      60
+      62
     ],
     [
       2,
       "6.2 建立、打开、读写、关闭与删除",
-      61
-    ],
-    [
-      3,
-      "例 6-1　最后关闭，释放的是哪一层",
-      61
-    ],
-    [
-      3,
-      "文件位置可以共享，也可以独立",
-      61
-    ],
-    [
-      2,
-      "6.3 文件保护：用户类别与权限组合",
-      62
-    ],
-    [
-      3,
-      "例 6-2　权限可以同时成立，不能只编码一种",
-      62
-    ],
-    [
-      2,
-      "6.4 逻辑结构：字节流和记录怎样被使用",
-      62
-    ],
-    [
-      2,
-      "6.5 物理分配：连续、链接与索引",
-      62
-    ],
-    [
-      3,
-      "例 6-3　混合索引中，一次访问要经过几层",
       63
     ],
     [
       3,
-      "例 6-4　链接文件修改一条记录，要把读和写都计入",
+      "例 6-1　最后关闭，释放的是哪一层",
+      63
+    ],
+    [
+      3,
+      "文件位置可以共享，也可以独立",
+      63
+    ],
+    [
+      2,
+      "6.3 文件保护：用户类别与权限组合",
+      63
+    ],
+    [
+      3,
+      "例 6-2　权限可以同时成立，不能只编码一种",
       64
     ],
     [
       2,
-      "6.6 目录和路径解析：逐层找到名字",
+      "6.4 逻辑结构：字节流和记录怎样被使用",
+      64
+    ],
+    [
+      2,
+      "6.5 物理分配：连续、链接与索引",
+      64
+    ],
+    [
+      3,
+      "例 6-3　混合索引中，一次访问要经过几层",
       65
+    ],
+    [
+      3,
+      "例 6-4　链接文件修改一条记录，要把读和写都计入",
+      66
+    ],
+    [
+      2,
+      "6.6 目录和路径解析：逐层找到名字",
+      66
     ],
     [
       2,
       "6.7 硬链接、软链接与什么时候回收文件",
-      65
+      67
     ],
     [
       3,
       "例 6-5　同一 inode 不要求同一读写位置",
-      66
+      67
     ],
     [
       2,
       "6.8 文件系统的磁盘结构与内存结构",
-      66
-    ],
-    [
-      2,
-      "6.9 空闲空间：位图、空闲链和成组链接",
-      66
-    ],
-    [
-      3,
-      "例 6-6　先定位位图块，再定位块内字节",
-      66
-    ],
-    [
-      2,
-      "6.10 虚拟文件系统与挂载",
-      67
-    ],
-    [
-      2,
-      "6.11 综合例题：目录、索引与容量共同约束",
-      67
-    ],
-    [
-      3,
-      "例 6-7　同一索引节点怎样连接目录查找与文件扩展",
-      67
-    ],
-    [
-      3,
-      "例 6-8　先算地址覆盖，再比较 inode 与数据簇的上限",
       68
     ],
     [
       2,
-      "6.12 自测：沿名称与数据两条线检查",
+      "6.9 空闲空间：位图、空闲链和成组链接",
+      68
+    ],
+    [
+      3,
+      "例 6-6　先定位位图块，再定位块内字节",
+      68
+    ],
+    [
+      2,
+      "6.10 虚拟文件系统与挂载",
+      68
+    ],
+    [
+      2,
+      "6.11 综合例题：目录、索引与容量共同约束",
       69
     ],
     [
       3,
-      "自测答案",
+      "例 6-7　同一索引节点怎样连接目录查找与文件扩展",
       69
+    ],
+    [
+      3,
+      "例 6-8　先算地址覆盖，再比较 inode 与数据簇的上限",
+      70
+    ],
+    [
+      2,
+      "6.12 自测：沿名称与数据两条线检查",
+      71
+    ],
+    [
+      3,
+      "自测答案",
+      71
     ],
     [
       1,
       "7 I/O 管理、设备软件与外存调度",
-      70
+      72
     ],
     [
       2,
       "7.1 设备、控制器、接口与端口",
-      70
+      72
     ],
     [
       2,
       "7.2 轮询、中断和 DMA：谁搬数据，谁等待",
-      70
+      72
     ],
     [
       2,
       "7.3 I/O 软件层次与一次请求的完整路径",
-      71
+      73
     ],
     [
       3,
       "例 7-1　哪里需要知道具体设备参数",
-      71
+      73
     ],
     [
       2,
       "7.4 阻塞、非阻塞与异步接口",
-      72
+      74
     ],
     [
       2,
       "7.5 缓冲：把输入、复制与计算放到同一时间线",
-      72
+      74
     ],
     [
       3,
       "例 7-2　首块要启动，末块要排空",
-      72
+      74
     ],
     [
       3,
       "循环缓冲与缓冲池",
-      73
+      75
     ],
     [
       2,
       "7.6 设备分配、逻辑名称与驱动接口",
-      73
+      75
     ],
     [
       2,
       "7.7 SPOOLing：先进入磁盘井，再使用独占设备",
-      74
-    ],
-    [
-      2,
-      "7.8 磁盘结构、地址与格式化",
-      74
-    ],
-    [
-      3,
-      "例 7-3　柱面、盘面、扇区是混合进位",
-      74
-    ],
-    [
-      3,
-      "分区、物理格式化和逻辑格式化",
-      75
-    ],
-    [
-      3,
-      "例 7-4　根目录属于文件系统，不属于扇区编码",
-      75
-    ],
-    [
-      2,
-      "7.9 磁盘调度：把运动顺序和运动距离分开",
-      75
-    ],
-    [
-      3,
-      "例 7-5　方向决定先服务哪一侧",
       76
     ],
     [
       2,
-      "7.10 SSD：没有寻道，不等于没有管理开销",
+      "7.8 磁盘结构、地址与格式化",
+      76
+    ],
+    [
+      3,
+      "例 7-3　柱面、盘面、扇区是混合进位",
+      76
+    ],
+    [
+      3,
+      "分区、物理格式化和逻辑格式化",
+      77
+    ],
+    [
+      3,
+      "例 7-4　根目录属于文件系统，不属于扇区编码",
       77
     ],
     [
       2,
-      "7.11 综合例题：从等待事件到设备地址",
+      "7.9 磁盘调度：把运动顺序和运动距离分开",
       77
     ],
     [
       3,
-      "例 7-6　一次键盘输入怎样使阻塞者重新获得运行资格",
-      77
-    ],
-    [
-      3,
-      "例 7-7　把簇号转换成柱面，再逐步执行 SSTF",
+      "例 7-5　方向决定先服务哪一侧",
       78
     ],
     [
       2,
-      "7.12 自测：先找可重叠阶段，再核单位",
+      "7.10 SSD：没有寻道，不等于没有管理开销",
+      79
+    ],
+    [
+      2,
+      "7.11 综合例题：从等待事件到设备地址",
       79
     ],
     [
       3,
-      "自测答案",
+      "例 7-6　一次键盘输入怎样使阻塞者重新获得运行资格",
       79
+    ],
+    [
+      3,
+      "例 7-7　把簇号转换成柱面，再逐步执行 SSTF",
+      80
+    ],
+    [
+      2,
+      "7.12 自测：先找可重叠阶段，再核单位",
+      81
+    ],
+    [
+      3,
+      "自测答案",
+      81
     ],
     [
       1,
       "题目索引",
-      80
+      82
     ],
     [
       1,
       "方法索引",
-      82
+      84
     ]
   ],
   "pages": [
@@ -901,6 +907,20 @@
     },
     {
       "physical_page": 2,
+      "label": "a",
+      "characters": 0,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": []
+    },
+    {
+      "physical_page": 3,
       "label": "i",
       "characters": 1891,
       "outside": [],
@@ -917,7 +937,7 @@
       ]
     },
     {
-      "physical_page": 3,
+      "physical_page": 4,
       "label": "ii",
       "characters": 2476,
       "outside": [],
@@ -934,7 +954,7 @@
       ]
     },
     {
-      "physical_page": 4,
+      "physical_page": 5,
       "label": "iii",
       "characters": 1251,
       "outside": [],
@@ -951,7 +971,7 @@
       ]
     },
     {
-      "physical_page": 5,
+      "physical_page": 6,
       "label": "iv",
       "characters": 240,
       "outside": [],
@@ -968,7 +988,7 @@
       ]
     },
     {
-      "physical_page": 6,
+      "physical_page": 7,
       "label": "1",
       "characters": 1059,
       "outside": [],
@@ -987,7 +1007,7 @@
       ]
     },
     {
-      "physical_page": 7,
+      "physical_page": 8,
       "label": "2",
       "characters": 1181,
       "outside": [],
@@ -1005,7 +1025,7 @@
       ]
     },
     {
-      "physical_page": 8,
+      "physical_page": 9,
       "label": "3",
       "characters": 962,
       "outside": [],
@@ -1027,7 +1047,7 @@
       ]
     },
     {
-      "physical_page": 9,
+      "physical_page": 10,
       "label": "4",
       "characters": 1178,
       "outside": [],
@@ -1045,7 +1065,7 @@
       ]
     },
     {
-      "physical_page": 10,
+      "physical_page": 11,
       "label": "5",
       "characters": 1124,
       "outside": [],
@@ -1063,9 +1083,9 @@
       ]
     },
     {
-      "physical_page": 11,
+      "physical_page": 12,
       "label": "6",
-      "characters": 932,
+      "characters": 928,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1082,7 +1102,7 @@
       ]
     },
     {
-      "physical_page": 12,
+      "physical_page": 13,
       "label": "7",
       "characters": 933,
       "outside": [],
@@ -1101,9 +1121,9 @@
       ]
     },
     {
-      "physical_page": 13,
+      "physical_page": 14,
       "label": "8",
-      "characters": 991,
+      "characters": 989,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1120,7 +1140,7 @@
       ]
     },
     {
-      "physical_page": 14,
+      "physical_page": 15,
       "label": "9",
       "characters": 860,
       "outside": [],
@@ -1143,9 +1163,9 @@
       ]
     },
     {
-      "physical_page": 15,
+      "physical_page": 16,
       "label": "10",
-      "characters": 1137,
+      "characters": 1215,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1161,9 +1181,9 @@
       ]
     },
     {
-      "physical_page": 16,
+      "physical_page": 17,
       "label": "11",
-      "characters": 1224,
+      "characters": 1141,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1180,7 +1200,7 @@
       ]
     },
     {
-      "physical_page": 17,
+      "physical_page": 18,
       "label": "12",
       "characters": 984,
       "outside": [],
@@ -1199,7 +1219,7 @@
       ]
     },
     {
-      "physical_page": 18,
+      "physical_page": 19,
       "label": "13",
       "characters": 992,
       "outside": [],
@@ -1220,7 +1240,7 @@
       ]
     },
     {
-      "physical_page": 19,
+      "physical_page": 20,
       "label": "14",
       "characters": 1186,
       "outside": [],
@@ -1238,7 +1258,7 @@
       ]
     },
     {
-      "physical_page": 20,
+      "physical_page": 21,
       "label": "15",
       "characters": 957,
       "outside": [],
@@ -1256,9 +1276,9 @@
       ]
     },
     {
-      "physical_page": 21,
+      "physical_page": 22,
       "label": "16",
-      "characters": 1155,
+      "characters": 1318,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1275,28 +1295,9 @@
       ]
     },
     {
-      "physical_page": 22,
-      "label": "17",
-      "characters": 1145,
-      "outside": [],
-      "replacement_glyphs": 0,
-      "media_box": [
-        0.0,
-        0.0,
-        595.280029296875,
-        841.8900146484375
-      ],
-      "text_sizes": [
-        7.97,
-        9.96,
-        10.91,
-        14.35
-      ]
-    },
-    {
       "physical_page": 23,
-      "label": "18",
-      "characters": 432,
+      "label": "17",
+      "characters": 1169,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1308,12 +1309,29 @@
       "text_sizes": [
         9.96,
         10.91,
-        11.96,
         14.35
       ]
     },
     {
       "physical_page": 24,
+      "label": "18",
+      "characters": 244,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96
+      ]
+    },
+    {
+      "physical_page": 25,
       "label": "19",
       "characters": 743,
       "outside": [],
@@ -1335,7 +1353,7 @@
       ]
     },
     {
-      "physical_page": 25,
+      "physical_page": 26,
       "label": "20",
       "characters": 942,
       "outside": [],
@@ -1353,9 +1371,9 @@
       ]
     },
     {
-      "physical_page": 26,
+      "physical_page": 27,
       "label": "21",
-      "characters": 990,
+      "characters": 988,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1374,7 +1392,7 @@
       ]
     },
     {
-      "physical_page": 27,
+      "physical_page": 28,
       "label": "22",
       "characters": 1120,
       "outside": [],
@@ -1393,7 +1411,7 @@
       ]
     },
     {
-      "physical_page": 28,
+      "physical_page": 29,
       "label": "23",
       "characters": 914,
       "outside": [],
@@ -1412,7 +1430,7 @@
       ]
     },
     {
-      "physical_page": 29,
+      "physical_page": 30,
       "label": "24",
       "characters": 871,
       "outside": [],
@@ -1433,7 +1451,7 @@
       ]
     },
     {
-      "physical_page": 30,
+      "physical_page": 31,
       "label": "25",
       "characters": 1238,
       "outside": [],
@@ -1452,7 +1470,7 @@
       ]
     },
     {
-      "physical_page": 31,
+      "physical_page": 32,
       "label": "26",
       "characters": 779,
       "outside": [],
@@ -1473,7 +1491,7 @@
       ]
     },
     {
-      "physical_page": 32,
+      "physical_page": 33,
       "label": "27",
       "characters": 989,
       "outside": [],
@@ -1495,7 +1513,7 @@
       ]
     },
     {
-      "physical_page": 33,
+      "physical_page": 34,
       "label": "28",
       "characters": 853,
       "outside": [],
@@ -1513,7 +1531,7 @@
       ]
     },
     {
-      "physical_page": 34,
+      "physical_page": 35,
       "label": "29",
       "characters": 884,
       "outside": [],
@@ -1530,7 +1548,7 @@
       ]
     },
     {
-      "physical_page": 35,
+      "physical_page": 36,
       "label": "30",
       "characters": 689,
       "outside": [],
@@ -1553,7 +1571,7 @@
       ]
     },
     {
-      "physical_page": 36,
+      "physical_page": 37,
       "label": "31",
       "characters": 1028,
       "outside": [],
@@ -1573,7 +1591,7 @@
       ]
     },
     {
-      "physical_page": 37,
+      "physical_page": 38,
       "label": "32",
       "characters": 832,
       "outside": [],
@@ -1594,7 +1612,7 @@
       ]
     },
     {
-      "physical_page": 38,
+      "physical_page": 39,
       "label": "33",
       "characters": 1051,
       "outside": [],
@@ -1613,7 +1631,7 @@
       ]
     },
     {
-      "physical_page": 39,
+      "physical_page": 40,
       "label": "34",
       "characters": 786,
       "outside": [],
@@ -1633,9 +1651,9 @@
       ]
     },
     {
-      "physical_page": 40,
+      "physical_page": 41,
       "label": "35",
-      "characters": 1100,
+      "characters": 1097,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1652,7 +1670,7 @@
       ]
     },
     {
-      "physical_page": 41,
+      "physical_page": 42,
       "label": "36",
       "characters": 212,
       "outside": [],
@@ -1669,9 +1687,9 @@
       ]
     },
     {
-      "physical_page": 42,
+      "physical_page": 43,
       "label": "37",
-      "characters": 1024,
+      "characters": 1023,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1690,7 +1708,7 @@
       ]
     },
     {
-      "physical_page": 43,
+      "physical_page": 44,
       "label": "38",
       "characters": 960,
       "outside": [],
@@ -1712,7 +1730,7 @@
       ]
     },
     {
-      "physical_page": 44,
+      "physical_page": 45,
       "label": "39",
       "characters": 1056,
       "outside": [],
@@ -1732,7 +1750,7 @@
       ]
     },
     {
-      "physical_page": 45,
+      "physical_page": 46,
       "label": "40",
       "characters": 1002,
       "outside": [],
@@ -1752,7 +1770,7 @@
       ]
     },
     {
-      "physical_page": 46,
+      "physical_page": 47,
       "label": "41",
       "characters": 1372,
       "outside": [],
@@ -1771,9 +1789,9 @@
       ]
     },
     {
-      "physical_page": 47,
+      "physical_page": 48,
       "label": "42",
-      "characters": 977,
+      "characters": 974,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1790,7 +1808,7 @@
       ]
     },
     {
-      "physical_page": 48,
+      "physical_page": 49,
       "label": "43",
       "characters": 1035,
       "outside": [],
@@ -1809,7 +1827,7 @@
       ]
     },
     {
-      "physical_page": 49,
+      "physical_page": 50,
       "label": "44",
       "characters": 1165,
       "outside": [],
@@ -1828,7 +1846,7 @@
       ]
     },
     {
-      "physical_page": 50,
+      "physical_page": 51,
       "label": "45",
       "characters": 1041,
       "outside": [],
@@ -1848,7 +1866,7 @@
       ]
     },
     {
-      "physical_page": 51,
+      "physical_page": 52,
       "label": "46",
       "characters": 1007,
       "outside": [],
@@ -1871,9 +1889,9 @@
       ]
     },
     {
-      "physical_page": 52,
+      "physical_page": 53,
       "label": "47",
-      "characters": 998,
+      "characters": 997,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1889,9 +1907,9 @@
       ]
     },
     {
-      "physical_page": 53,
+      "physical_page": 54,
       "label": "48",
-      "characters": 923,
+      "characters": 1004,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1910,9 +1928,9 @@
       ]
     },
     {
-      "physical_page": 54,
+      "physical_page": 55,
       "label": "49",
-      "characters": 993,
+      "characters": 726,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1926,31 +1944,30 @@
         10.91,
         11.96,
         14.35
-      ]
-    },
-    {
-      "physical_page": 55,
-      "label": "50",
-      "characters": 1191,
-      "outside": [],
-      "replacement_glyphs": 0,
-      "media_box": [
-        0.0,
-        0.0,
-        595.280029296875,
-        841.8900146484375
-      ],
-      "text_sizes": [
-        7.97,
-        9.96,
-        10.91,
-        11.96
       ]
     },
     {
       "physical_page": 56,
+      "label": "50",
+      "characters": 958,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96
+      ]
+    },
+    {
+      "physical_page": 57,
       "label": "51",
-      "characters": 1184,
+      "characters": 1157,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1968,28 +1985,9 @@
       ]
     },
     {
-      "physical_page": 57,
-      "label": "52",
-      "characters": 1119,
-      "outside": [],
-      "replacement_glyphs": 0,
-      "media_box": [
-        0.0,
-        0.0,
-        595.280029296875,
-        841.8900146484375
-      ],
-      "text_sizes": [
-        7.97,
-        9.96,
-        10.91,
-        11.96
-      ]
-    },
-    {
       "physical_page": 58,
-      "label": "53",
-      "characters": 1176,
+      "label": "52",
+      "characters": 1113,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1999,7 +1997,6 @@
         841.8900146484375
       ],
       "text_sizes": [
-        6.97,
         7.97,
         9.96,
         10.91,
@@ -2008,8 +2005,8 @@
     },
     {
       "physical_page": 59,
-      "label": "54",
-      "characters": 926,
+      "label": "53",
+      "characters": 1129,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2023,14 +2020,52 @@
         7.97,
         9.96,
         10.91,
-        11.96,
-        14.35
+        11.96
       ]
     },
     {
       "physical_page": 60,
+      "label": "54",
+      "characters": 1128,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        6.97,
+        7.97,
+        9.96,
+        10.91,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 61,
       "label": "55",
-      "characters": 1063,
+      "characters": 294,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96
+      ]
+    },
+    {
+      "physical_page": 62,
+      "label": "56",
+      "characters": 1165,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2047,47 +2082,9 @@
       ]
     },
     {
-      "physical_page": 61,
-      "label": "56",
-      "characters": 1185,
-      "outside": [],
-      "replacement_glyphs": 0,
-      "media_box": [
-        0.0,
-        0.0,
-        595.280029296875,
-        841.8900146484375
-      ],
-      "text_sizes": [
-        9.96,
-        10.91,
-        11.96,
-        14.35
-      ]
-    },
-    {
-      "physical_page": 62,
-      "label": "57",
-      "characters": 1161,
-      "outside": [],
-      "replacement_glyphs": 0,
-      "media_box": [
-        0.0,
-        0.0,
-        595.280029296875,
-        841.8900146484375
-      ],
-      "text_sizes": [
-        9.96,
-        10.91,
-        11.96,
-        14.35
-      ]
-    },
-    {
       "physical_page": 63,
-      "label": "58",
-      "characters": 997,
+      "label": "57",
+      "characters": 1278,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2099,13 +2096,33 @@
       "text_sizes": [
         9.96,
         10.91,
-        11.96
+        11.96,
+        14.35
       ]
     },
     {
       "physical_page": 64,
+      "label": "58",
+      "characters": 1221,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 65,
       "label": "59",
-      "characters": 1029,
+      "characters": 902,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2116,7 +2133,6 @@
       ],
       "text_sizes": [
         7.73,
-        7.97,
         8.18,
         9.96,
         10.45,
@@ -2125,9 +2141,29 @@
       ]
     },
     {
-      "physical_page": 65,
+      "physical_page": 66,
       "label": "60",
-      "characters": 1115,
+      "characters": 1480,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 67,
+      "label": "61",
+      "characters": 822,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2143,13 +2179,14 @@
         9.96,
         10.45,
         10.91,
+        11.96,
         14.35
       ]
     },
     {
-      "physical_page": 66,
-      "label": "61",
-      "characters": 1155,
+      "physical_page": 68,
+      "label": "62",
+      "characters": 1257,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2166,9 +2203,9 @@
       ]
     },
     {
-      "physical_page": 67,
-      "label": "62",
-      "characters": 1096,
+      "physical_page": 69,
+      "label": "63",
+      "characters": 1113,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2188,9 +2225,9 @@
       ]
     },
     {
-      "physical_page": 68,
-      "label": "63",
-      "characters": 1485,
+      "physical_page": 70,
+      "label": "64",
+      "characters": 1486,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2207,9 +2244,9 @@
       ]
     },
     {
-      "physical_page": 69,
-      "label": "64",
-      "characters": 1010,
+      "physical_page": 71,
+      "label": "65",
+      "characters": 568,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2227,9 +2264,9 @@
       ]
     },
     {
-      "physical_page": 70,
-      "label": "65",
-      "characters": 1005,
+      "physical_page": 72,
+      "label": "66",
+      "characters": 1112,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2246,9 +2283,9 @@
       ]
     },
     {
-      "physical_page": 71,
-      "label": "66",
-      "characters": 884,
+      "physical_page": 73,
+      "label": "67",
+      "characters": 917,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2269,9 +2306,9 @@
       ]
     },
     {
-      "physical_page": 72,
-      "label": "67",
-      "characters": 1212,
+      "physical_page": 74,
+      "label": "68",
+      "characters": 1147,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2289,9 +2326,9 @@
       ]
     },
     {
-      "physical_page": 73,
-      "label": "68",
-      "characters": 1030,
+      "physical_page": 75,
+      "label": "69",
+      "characters": 1051,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2313,9 +2350,9 @@
       ]
     },
     {
-      "physical_page": 74,
-      "label": "69",
-      "characters": 1252,
+      "physical_page": 76,
+      "label": "70",
+      "characters": 1155,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2333,9 +2370,9 @@
       ]
     },
     {
-      "physical_page": 75,
-      "label": "70",
-      "characters": 1081,
+      "physical_page": 77,
+      "label": "71",
+      "characters": 841,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2352,9 +2389,9 @@
       ]
     },
     {
-      "physical_page": 76,
-      "label": "71",
-      "characters": 1096,
+      "physical_page": 78,
+      "label": "72",
+      "characters": 909,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2373,46 +2410,9 @@
       ]
     },
     {
-      "physical_page": 77,
-      "label": "72",
-      "characters": 1218,
-      "outside": [],
-      "replacement_glyphs": 0,
-      "media_box": [
-        0.0,
-        0.0,
-        595.280029296875,
-        841.8900146484375
-      ],
-      "text_sizes": [
-        9.96,
-        10.91,
-        11.96,
-        14.35
-      ]
-    },
-    {
-      "physical_page": 78,
-      "label": "73",
-      "characters": 1344,
-      "outside": [],
-      "replacement_glyphs": 0,
-      "media_box": [
-        0.0,
-        0.0,
-        595.280029296875,
-        841.8900146484375
-      ],
-      "text_sizes": [
-        9.96,
-        10.91,
-        11.96
-      ]
-    },
-    {
       "physical_page": 79,
-      "label": "74",
-      "characters": 810,
+      "label": "73",
+      "characters": 1361,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2430,7 +2430,44 @@
     },
     {
       "physical_page": 80,
+      "label": "74",
+      "characters": 1347,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96
+      ]
+    },
+    {
+      "physical_page": 81,
       "label": "75",
+      "characters": 1043,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 82,
+      "label": "76",
       "characters": 704,
       "outside": [],
       "replacement_glyphs": 0,
@@ -2446,8 +2483,8 @@
       ]
     },
     {
-      "physical_page": 81,
-      "label": "76",
+      "physical_page": 83,
+      "label": "77",
       "characters": 822,
       "outside": [],
       "replacement_glyphs": 0,
@@ -2463,8 +2500,8 @@
       ]
     },
     {
-      "physical_page": 82,
-      "label": "77",
+      "physical_page": 84,
+      "label": "78",
       "characters": 557,
       "outside": [],
       "replacement_glyphs": 0,
@@ -2480,8 +2517,8 @@
       ]
     },
     {
-      "physical_page": 83,
-      "label": "78",
+      "physical_page": 85,
+      "label": "79",
       "characters": 633,
       "outside": [],
       "replacement_glyphs": 0,
@@ -2497,8 +2534,8 @@
       ]
     },
     {
-      "physical_page": 84,
-      "label": "79",
+      "physical_page": 86,
+      "label": "80",
       "characters": 237,
       "outside": [],
       "replacement_glyphs": 0,
@@ -2517,6 +2554,16 @@
   "bad_internal_links": [],
   "internal_link_count": 214,
   "scope": "PDF结构、文本边界与实际逐页渲染；不能代替知识核验或人工视觉检查。",
+  "print_layout": {
+    "physical_pages": 86,
+    "even_page_count": true,
+    "cover_back_blank": true,
+    "blank_physical_pages": [
+      2
+    ],
+    "only_intended_blanks": true,
+    "blank_pages_render_pure_white": true
+  },
   "latex": {
     "missing_glyph": [],
     "overfull": [],
@@ -2527,56 +2574,56 @@
   "embedded_font_names": [
     "AFJVDP+NotoSansCJKsc-Bold",
     "AJILVM+NotoSansCJKsc-Bold",
+    "AMAQYH+CMSY8",
     "AOPGOV+NotoSansCJKsc-Bold",
     "BIBLQZ+NotoSansCJKsc-Regular",
     "BPAIGS+NotoSansCJKsc-Regular",
+    "BYJZWE+CMEX10",
+    "CQFWPL+CMMI7",
     "CRPRDT+NotoSansCJKsc-Bold",
-    "CWHCBA+NotoSansCJKjp-Regular-Identity-H",
     "CXPUQF+NotoSansCJKsc-Bold",
+    "DMCOEX+CMR7",
+    "DOYWHZ+NotoSerifCJKjp-Regular-Identity-H",
     "DPCJFY+NotoSansCJKsc-Bold",
-    "DQKPOB+NotoSerifCJKjp-Regular-Identity-H",
+    "DTECAA+NotoSansCJKjp-Regular-Identity-H",
     "EMPPKC+NotoSansCJKsc-Bold",
     "FDCXSF+NotoSansCJKsc-Regular",
+    "GDCWHC+CMR10",
     "GEATVF+NotoSansCJKsc-Bold",
-    "IMWIMP+CMMI10",
-    "IOMDGS+CMMI8",
     "IXRZER+NotoSansCJKsc-Bold",
     "JOQZCD+NotoSansCJKsc-Bold",
-    "KWTLKR+CMR8",
+    "JQQPOB+CMMI10",
     "KZAQDU+NotoSansCJKsc-Regular",
     "LPBOAG+NotoSansCJKsc-Bold",
     "LRIAXH+NotoSansCJKsc-Bold",
     "MSCOAA+NotoSansCJKsc-Bold",
     "MSKDMO+NotoSansCJKsc-Regular",
     "MVHSUL+NotoSansCJKsc-Regular",
-    "NAPQHT+CMMI7",
-    "NASFXC+CMSY10",
-    "NGLNJQ+CMR7",
-    "NINKTW+CMSY8",
     "OCHTDC+NotoSansCJKsc-Bold",
-    "PIOBFI+CMEX10",
+    "PSETLI+NotoSansCJKjp-Regular-Identity-H",
+    "QCBCCK+NotoSerifCJKjp-Bold-Identity-H",
     "QNCNRR+NotoSansCJKsc-Regular",
+    "QPYIMB+NotoSansCJKjp-Bold-Identity-H",
     "QVALVK+NotoSansCJKsc-Regular",
     "RDJEYW+NotoSansCJKsc-Regular",
     "ROBHWQ+NotoSansCJKsc-Regular",
     "SCMKVS+NotoSansCJKsc-Regular",
+    "SKYRNS+CMSY10",
     "TJIVDH+NotoSansCJKsc-Bold",
     "TQJAOH+NotoSansCJKsc-Regular",
     "TVLWWP+NotoSansCJKsc-Regular",
     "UVWOCN+NotoSansCJKsc-Bold",
-    "VCTXJA+NotoSansCJKjp-Bold-Identity-H",
     "VUFYVZ+NotoSansCJKsc-Bold",
     "WIJSWD+NotoSansCJKsc-Regular",
     "WMJHMS+NotoSansCJKsc-Regular",
-    "WNDZVS+NotoSansCJKjp-Regular-Identity-H",
     "XBNJBT+NotoSansCJKsc-Bold",
+    "XNDFUV+CMMI8",
     "XSVFSY+NotoSansCJKsc-Regular",
     "XTNFFK+NotoSansCJKsc-Regular",
-    "XUSUKF+NotoSerifCJKjp-Bold-Identity-H",
+    "XZKEZZ+CMR8",
     "YOZKPC+NotoSansCJKsc-Regular",
     "ZAIRZT+NotoSansCJKsc-Bold",
     "ZBVRTC+NotoSansCJKsc-Regular",
-    "ZHOQJZ+CMR10",
     "ZTHAQR+NotoSansCJKsc-Regular"
   ],
   "font_faces_verified": true,
@@ -2770,6 +2817,13 @@
         82,
         83,
         84
+      ]
+    },
+    {
+      "path": "build/OS/rendered/contact_022.png",
+      "pages": [
+        85,
+        86
       ]
     }
   ],

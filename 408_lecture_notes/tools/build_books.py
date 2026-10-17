@@ -5,8 +5,10 @@ No source books or network access are required to rebuild the lecture notes.
 The source/verification ledgers are maintained separately from typesetting.
 """
 from __future__ import annotations
-import argparse, hashlib, json, re, subprocess, time
+import argparse, hashlib, json, os, re, subprocess, time
 from pathlib import Path
+import fitz
+from book_tables import plan as plan_tables
 
 ROOT = Path(__file__).resolve().parents[1]
 SUBJECTS = {'DS': ('数据结构', 8), 'CO': ('计算机组成原理', 8),
@@ -111,10 +113,12 @@ def build(sub, partial=False, passes=3, chapters=None, review=False, review_edit
     if missing:
         raise FileNotFoundError('Figures are not ready: ' + ', '.join(sorted(set(missing))))
     rel = out.relative_to(ROOT).as_posix()
+    table_plan = plan_tables(out / 'body.md', sub, out)
     run(['pandoc', str(out / 'body.md'), '--from=markdown+raw_tex+tex_math_dollars+tex_math_single_backslash',
         '--to=latex', '--top-level-division=chapter', '--number-sections',
         '--filter=tools/book_choices.py', '--lua-filter=tools/book_images.lua', '--resource-path=figures',
-        '--wrap=none', '--no-highlight', '--output=' + str(out / 'body.tex')])
+        '--wrap=none', '--no-highlight', '--output=' + str(out / 'body.tex')],
+        env=dict(os.environ, BOOK_TABLE_PLAN=str(table_plan)))
     start = int(sources[0]['chapter']) - 1
     document = r'''\input{tools/book_preamble.tex}
 \newcommand{\BookTitle}{@@TITLE@@}
@@ -135,6 +139,7 @@ def build(sub, partial=False, passes=3, chapters=None, review=False, review_edit
 \vfill
 \noindent A4 单栏 · 2026 年 10 月\par
 \end{titlepage}
+\BookBlankPage
 \pagenumbering{roman}
 \tableofcontents
 \clearpage
@@ -153,6 +158,8 @@ def build(sub, partial=False, passes=3, chapters=None, review=False, review_edit
 \setcounter{chapter}{@@START@@}
 \input{@@REL@@/body.tex}
 \input{@@REL@@/indexes.tex}
+\clearpage
+\ifodd\value{BookPhysicalPages}\BookBlankPage\fi
 \end{document}
 '''
     document = document.replace('@@TITLE@@', title).replace('@@REL@@', rel).replace('@@START@@', str(start))
@@ -176,11 +183,18 @@ def build(sub, partial=False, passes=3, chapters=None, review=False, review_edit
         target = out / (title + ('_预览.pdf' if partial else '_讲义.pdf'))
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_bytes(pdf.read_bytes())
+    with fitz.open(pdf) as document:
+        blank_pages = [i + 1 for i, page in enumerate(document)
+                       if not page.get_text().strip() and not page.get_images() and not page.get_drawings()]
+        print_layout = dict(physical_pages=len(document), even_page_count=len(document) % 2 == 0,
+                            cover_back_blank=2 in blank_pages, blank_physical_pages=blank_pages)
+        assert print_layout['even_page_count'] and print_layout['cover_back_blank'], print_layout
     metadata = dict(subject=sub, title=title, partial=partial, sources=sources,
         heading_count=len(headings), questions=questions, methods=methods,
         headings=headings, pdf=str(target.relative_to(ROOT)), sha256=sha(target),
         elapsed_seconds=round(time.time() - begun, 2),
         edition='content_review' if review else ('preview' if partial else 'release'),
+        print_layout=print_layout, table_plan=str(table_plan.relative_to(ROOT)),
         review_edition=review_edition if review else None,
         layout_review_status='本轮未进行，按用户要求待内容审阅后执行' if review else '检查记录另存，构建不自动授予通过')
     (out / 'build_manifest.json').write_text(json.dumps(metadata, ensure_ascii=False, indent=2))

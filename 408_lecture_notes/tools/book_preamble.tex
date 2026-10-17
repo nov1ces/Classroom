@@ -67,6 +67,18 @@
 \makeatletter\def\fps@figure{H}\makeatother
 \newcommand{\BookIndexEntry}[2]{\par\noindent\hyperref[#1]{#2}\nobreak\hfill\pageref*{#1}\par}
 
+% Count shipped physical pages independently of front-matter page numbering.
+\newcounter{BookPhysicalPages}
+\AddToHook{shipout/after}{\stepcounter{BookPhysicalPages}}
+\newcommand{\BookBlankPage}{\clearpage\begingroup
+  \hypersetup{pageanchor=false}\thispagestyle{empty}\null\newpage\endgroup}
+% Longtable can repeat its header; emit each invisible cell destination once.
+\newcommand{\BookTableCellAnchor}[1]{%
+  \ifcsname BookTableAnchorDone@#1\endcsname\else
+    \expandafter\gdef\csname BookTableAnchorDone@#1\endcsname{1}%
+    \leavevmode\smash{\hypertarget{#1}{}}%
+  \fi}
+
 % Measure the rendered choices, then use a four-, two- or one-column grid.
 % Each cell has an identical label box and a hanging continuation indent.
 \newsavebox{\BookChoiceMeasure}

@@ -1,8 +1,8 @@
 {
   "subject": "DS",
   "pdf": "build/DS/数据结构_讲义.pdf",
-  "sha256": "a4feba204da80b60405233202e80f4f135f6ea25a81159de51677b4b53a3297f",
-  "page_count": 75,
+  "sha256": "afd921f8a571016dfcc013aa1db5b3e8c6c0e48245c3f02d8f93ae99343f9226",
+  "page_count": 76,
   "page_labels": [
     {
       "startpage": 0,
@@ -14,10 +14,16 @@
       "startpage": 1,
       "prefix": "",
       "firstpagenum": 1,
+      "style": "a"
+    },
+    {
+      "startpage": 2,
+      "prefix": "",
+      "firstpagenum": 1,
       "style": "r"
     },
     {
-      "startpage": 5,
+      "startpage": 6,
       "prefix": "",
       "firstpagenum": 1,
       "style": "D"
@@ -27,697 +33,697 @@
     [
       1,
       "阅读约定",
-      5
+      6
     ],
     [
       1,
       "1 数据结构、算法与复杂度",
-      6
+      7
     ],
     [
       2,
       "1.1 逻辑关系怎样落实到存储",
-      6
+      7
     ],
     [
       3,
       "例 1-1　值以外还要存什么",
-      6
+      7
     ],
     [
       2,
       "1.2 算法怎样保证结束并得到正确结果",
-      7
+      8
     ],
     [
       2,
       "1.3 怎样由执行次数得到时间复杂度",
-      7
+      8
     ],
     [
       3,
       "先看循环变量如何变化",
-      7
+      8
     ],
     [
       3,
       "例 1-2　循环由累计和决定何时停止",
-      8
+      9
     ],
     [
       3,
       "例 1-3　两层循环为什么仍是线性时间",
-      8
+      9
     ],
     [
       3,
       "最好、最坏与平均情况在比较什么",
-      8
+      9
     ],
     [
       2,
       "1.4 辅助空间中为何要计入递归栈",
-      9
+      10
     ],
     [
       2,
       "1.5 自测与答案",
-      9
+      10
     ],
     [
       1,
       "2 线性表：下标、结点与指针变化",
-      10
+      11
     ],
     [
       2,
       "2.1 位序、下标和基本操作",
-      10
+      11
     ],
     [
       2,
       "2.2 顺序表的寻址、插入和删除",
-      10
+      11
     ],
     [
       3,
       "例 2-1　没有给存储方式时能否确定移动数",
-      11
+      12
     ],
     [
       2,
       "2.3 单链表：先保留哪条链接",
-      11
+      12
     ],
     [
       3,
       "原地逆置：未处理部分不能丢",
-      12
+      13
     ],
     [
       3,
       "例 2-2　如何一次扫描找到倒数第 k 个结点",
-      12
+      13
     ],
     [
       2,
       "2.4 双链表、循环链表与静态链表",
-      13
+      14
     ],
     [
       3,
       "例 2-3　把结点插到双链表结点之前",
-      13
+      14
     ],
     [
       2,
       "2.5 双指针、归并与原地处理",
-      13
+      14
     ],
     [
       3,
       "例 2-4　数组循环左移怎样避免反复搬移",
-      14
+      15
     ],
     [
       3,
       "有序归并为什么可以一次扫描",
-      14
+      15
     ],
     [
       3,
       "例 2-5　相同后缀是相同字符还是相同结点",
-      14
+      15
     ],
     [
       3,
       "例 2-6　主元素为什么还要再计数",
-      15
+      16
     ],
     [
       2,
       "2.6 自测与答案",
-      16
+      17
     ],
     [
       1,
       "3 栈、队列与数组：操作约束与状态",
-      17
+      18
     ],
     [
       2,
       "3.1 栈的后进先出与合法序列",
-      17
+      18
     ],
     [
       3,
       "例 3-1　队列不会改变栈的输出次序",
-      17
+      18
     ],
     [
       2,
       "3.2 队列与双端队列",
-      18
+      19
     ],
     [
       2,
       "3.3 顺序栈、共享栈与循环队列",
-      18
+      19
     ],
     [
       3,
       "循环队列先立约定再计算",
-      18
+      19
     ],
     [
       3,
       "例 3-2　换了 front 含义，长度公式是否改变",
-      19
+      20
     ],
     [
       2,
       "3.4 链栈与链队列",
-      19
+      20
     ],
     [
       2,
       "3.5 多维数组的地址怎样计算",
-      20
+      21
     ],
     [
       2,
       "3.6 对称、三角、三对角与稀疏矩阵",
-      20
+      21
     ],
     [
       3,
       "例 3-3　三对角矩阵的起止行不能一律算3个",
-      21
+      22
     ],
     [
       3,
       "例 3-4　先用对称性换到实际保存的半边",
-      21
+      22
     ],
     [
       2,
       "3.7 表达式、递归与层次处理",
-      21
+      22
     ],
     [
       3,
       "括号与表达式中的``最近一个尚未完成对象''",
-      21
+      22
     ],
     [
       3,
       "例 3-5　弹出次序怎样影响减法",
-      21
+      22
     ],
     [
       3,
       "递归返回前保存了什么",
-      22
+      23
     ],
     [
       2,
       "3.8 自测与答案",
-      22
+      23
     ],
     [
       1,
       "4 串的模式匹配：失配后怎样移动",
-      24
+      25
     ],
     [
       2,
       "4.1 串、子串与下标",
-      24
+      25
     ],
     [
       2,
       "4.2 朴素匹配怎样回退",
-      24
+      25
     ],
     [
       2,
       "4.3 KMP 的 next 为什么只依赖模式串",
-      25
+      26
     ],
     [
       3,
       "本书的 next 定义",
-      25
+      26
     ],
     [
       3,
       "例 4-1　第一次失配后哪个指针改变",
-      26
+      27
     ],
     [
       3,
       "nextval 省掉哪些一定失败的比较",
-      26
+      27
     ],
     [
       3,
       "例 4-2　修正后最长能移动几位",
-      27
+      28
     ],
     [
       3,
       "比较次数要与实际实现对应",
-      27
+      28
     ],
     [
       2,
       "4.4 自测与答案",
-      27
+      28
     ],
     [
       1,
       "5 树与二叉树：结构、遍历及应用",
-      28
+      29
     ],
     [
       2,
       "5.1 树的结点、度、层次与路径",
-      28
+      29
     ],
     [
       3,
       "例 5-1　怎样从非叶结点数求叶结点数",
-      28
+      29
     ],
     [
       2,
       "5.2 二叉树、满二叉树与完全二叉树",
-      29
+      30
     ],
     [
       2,
       "5.3 顺序编号与链式表示",
-      29
+      30
     ],
     [
       3,
       "例 5-2　任意形态的顺序存储需要预留多少",
-      29
+      30
     ],
     [
       2,
       "5.4 遍历、还原与树形递归",
-      30
+      31
     ],
     [
       3,
       "先序加中序为什么能还原",
-      30
+      31
     ],
     [
       3,
       "例 5-3　中序前驱和后继在哪一侧",
-      31
-    ],
-    [
-      2,
-      "5.5 线索二叉树：区分孩子链接与遍历线索",
       32
     ],
     [
       2,
-      "5.6 普通树的三种存储",
+      "5.5 线索二叉树：区分孩子链接与遍历线索",
       33
+    ],
+    [
+      2,
+      "5.6 普通树的三种存储",
+      34
     ],
     [
       2,
       "5.7 树、森林怎样转换为二叉树",
-      33
+      34
     ],
     [
       3,
       "例 5-4　二叉树隔两条链接，在森林中是什么关系",
-      34
+      35
     ],
     [
       2,
       "5.8 树与森林的遍历怎样对应",
-      34
+      35
     ],
     [
       2,
       "5.9 哈夫曼树、WPL 与前缀编码",
-      35
+      36
     ],
     [
       3,
       "例 5-5　加权平均码长怎样从合并过程得到",
-      35
+      36
     ],
     [
       3,
       "例 5-6　已占用的码字怎样限制剩余容量",
-      36
-    ],
-    [
-      2,
-      "5.10 并查集：用根结点代表一个集合",
-      36
-    ],
-    [
-      2,
-      "5.11 堆的结构、调整与优先队列",
       37
     ],
     [
       2,
-      "5.12 自测与答案",
+      "5.10 并查集：用根结点代表一个集合",
+      37
+    ],
+    [
+      2,
+      "5.11 堆的结构、调整与优先队列",
       38
+    ],
+    [
+      2,
+      "5.12 自测与答案",
+      39
     ],
     [
       1,
       "6 图：从存储、遍历到路径与活动网络",
-      39
+      40
     ],
     [
       2,
       "6.1 顶点、边、连通性与路径",
-      39
+      40
     ],
     [
       3,
       "例 6-1　``有可能连通''与``保证连通''不同",
-      39
+      40
     ],
     [
       2,
       "6.2 邻接矩阵、邻接表与基本操作",
-      40
+      41
     ],
     [
       2,
       "6.3 十字链表与邻接多重表",
-      40
+      41
     ],
     [
       2,
       "6.4 深度优先搜索与搜索森林",
-      41
+      42
     ],
     [
       3,
       "例 6-2　什么时候允许回退去另一个分支",
-      41
+      42
     ],
     [
       2,
       "6.5 BFS 为什么得到无权最短路",
-      42
+      43
     ],
     [
       2,
       "6.6 Prim 与 Kruskal 在挑什么边",
-      42
+      43
     ],
     [
       3,
       "例 6-3　同权边怎样影响第二次选边",
-      43
-    ],
-    [
-      2,
-      "6.7 Dijkstra 与 Floyd 的条件和中间状态",
-      43
-    ],
-    [
-      3,
-      "例 6-4　求出第二条最短路径后哪些值还可变",
       44
     ],
     [
       2,
-      "6.8 拓扑排序：由入度判断哪些任务可以先做",
+      "6.7 Dijkstra 与 Floyd 的条件和中间状态",
+      44
+    ],
+    [
+      3,
+      "例 6-4　求出第二条最短路径后哪些值还可变",
       45
+    ],
+    [
+      2,
+      "6.8 拓扑排序：由入度判断哪些任务可以先做",
+      46
     ],
     [
       3,
       "例 6-5　怎样判定唯一拓扑序列",
-      45
+      46
     ],
     [
       2,
       "6.9 关键路径：事件与活动的时间不同",
-      46
+      47
     ],
     [
       3,
       "例 6-6　多条关键路径时怎样缩短工期",
-      46
+      47
     ],
     [
       2,
       "6.10 自测与答案",
-      48
+      49
     ],
     [
       1,
       "7 查找：由数据约束选择索引结构",
-      49
+      50
     ],
     [
       2,
       "7.1 关键字、成功失败与平均查找长度",
-      49
+      50
     ],
     [
       2,
       "7.2 顺序查找、分块查找与提前结束",
-      49
+      50
     ],
     [
       3,
       "例 7-1　两级顺序查找怎样选择块长",
-      50
+      51
     ],
     [
       2,
       "7.3 折半查找与判定树",
-      50
+      51
     ],
     [
       3,
       "例 7-2　失败查找的最大比较次数",
-      50
+      51
     ],
     [
       2,
       "7.4 二叉搜索树的区间不变式",
-      51
+      52
     ],
     [
       2,
       "7.5 AVL：先定位最小失衡子树",
-      51
-    ],
-    [
-      3,
-      "例 7-3　连续插入时在哪里旋转",
       52
     ],
     [
       3,
-      "例 7-4　中序为降序时搜索方向怎样变",
+      "例 7-3　连续插入时在哪里旋转",
       53
+    ],
+    [
+      3,
+      "例 7-4　中序为降序时搜索方向怎样变",
+      54
     ],
     [
       2,
       "7.6 红黑树：颜色约束怎样限制高度",
-      53
+      54
     ],
     [
       2,
       "7.7 B树：一个结点保存多个分隔关键字",
-      54
-    ],
-    [
-      3,
-      "插入从叶开始，分裂向上传播",
-      54
-    ],
-    [
-      3,
-      "删除后的借位、合并与向上传播",
       55
     ],
     [
       3,
-      "例 7-5　关键字总数怎样限制高度",
+      "插入从叶开始，分裂向上传播",
+      55
+    ],
+    [
+      3,
+      "删除后的借位、合并与向上传播",
       56
+    ],
+    [
+      3,
+      "例 7-5　关键字总数怎样限制高度",
+      57
     ],
     [
       3,
       "例 7-6　小规模B树的形态怎样完整计数",
-      56
+      57
     ],
     [
       2,
       "7.8 B+树：索引层与叶层分工",
-      57
+      58
     ],
     [
       2,
       "7.9 散列表：冲突、删除与ASL",
-      57
+      58
     ],
     [
       3,
       "例 7-7　删除标记为什么继续计入失败路径",
-      58
+      59
     ],
     [
       3,
       "例 7-8　二次探查必须回到原始地址计算",
-      58
+      59
     ],
     [
       2,
       "7.10 怎样按操作约束选择方法",
-      59
+      60
     ],
     [
       2,
       "7.11 自测与答案",
-      59
+      60
     ],
     [
       1,
       "8 排序：过程、不变量与外部归并",
-      60
+      61
     ],
     [
       2,
       "8.1 稳定性、内外排序与比较口径",
-      60
+      61
     ],
     [
       2,
       "8.2 直接插入与折半插入",
-      60
+      61
     ],
     [
       2,
       "8.3 起泡：一次相邻交换消除一个逆序",
-      61
+      62
     ],
     [
       2,
       "8.4 简单选择：比较与移动的代价不同",
-      61
+      62
     ],
     [
       2,
       "8.5 希尔：一趟只保证各增量子序列有序",
-      61
+      62
     ],
     [
       3,
       "例 8-1　两趟希尔排序怎样按下标分组",
-      61
+      62
     ],
     [
       2,
       "8.6 快速排序：先划分，再递归",
-      62
+      63
     ],
     [
       3,
       "例 8-2　第二趟结束后应有几个枢轴就位",
-      62
+      63
     ],
     [
       2,
       "8.7 堆排序：堆范围与有序区分开",
-      63
+      64
     ],
     [
       3,
       "例 8-3　删除堆顶时怎样数关键字比较",
-      63
+      64
     ],
     [
       2,
       "8.8 二路归并：有序子段怎样变成长有序段",
-      63
+      64
     ],
     [
       3,
       "例 8-4　比较次数不等于移动次数",
-      64
+      65
     ],
     [
       2,
       "8.9 基数排序：低位排好后怎样保留次序",
-      64
+      65
     ],
     [
       3,
       "例 8-5　第一趟后为什么尚未整体递增",
-      65
+      66
     ],
     [
       3,
       "按取值计数：空间与稳定实现的条件",
-      65
+      66
     ],
     [
       2,
       "8.10 外部排序：归并段、缓冲与I/O",
-      65
+      66
     ],
     [
       3,
       "置换—选择为什么能产生长于内存的段",
-      66
-    ],
-    [
-      3,
-      "例 8-6　冻结记录在什么时候重新参加",
-      66
-    ],
-    [
-      3,
-      "败者树怎样减少每次输出后的比较",
       67
     ],
     [
       3,
-      "例 8-7　不等长有序表怎样安排合并",
+      "例 8-6　冻结记录在什么时候重新参加",
+      67
+    ],
+    [
+      3,
+      "败者树怎样减少每次输出后的比较",
       68
     ],
     [
       3,
+      "例 8-7　不等长有序表怎样安排合并",
+      69
+    ],
+    [
+      3,
       "例 8-8　四路最佳归并为什么补零权段",
-      68
+      69
     ],
     [
       2,
       "8.11 怎样比较和选择排序算法",
-      68
+      69
     ],
     [
       2,
       "8.12 自测与答案",
-      70
-    ],
-    [
-      1,
-      "题目索引",
       71
     ],
     [
       1,
+      "题目索引",
+      72
+    ],
+    [
+      1,
       "方法索引",
-      73
+      74
     ]
   ],
   "pages": [
@@ -741,6 +747,20 @@
     },
     {
       "physical_page": 2,
+      "label": "a",
+      "characters": 0,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": []
+    },
+    {
+      "physical_page": 3,
       "label": "i",
       "characters": 1944,
       "outside": [],
@@ -757,7 +777,7 @@
       ]
     },
     {
-      "physical_page": 3,
+      "physical_page": 4,
       "label": "ii",
       "characters": 2605,
       "outside": [],
@@ -774,7 +794,7 @@
       ]
     },
     {
-      "physical_page": 4,
+      "physical_page": 5,
       "label": "iii",
       "characters": 1072,
       "outside": [],
@@ -791,7 +811,7 @@
       ]
     },
     {
-      "physical_page": 5,
+      "physical_page": 6,
       "label": "iv",
       "characters": 240,
       "outside": [],
@@ -808,7 +828,7 @@
       ]
     },
     {
-      "physical_page": 6,
+      "physical_page": 7,
       "label": "1",
       "characters": 962,
       "outside": [],
@@ -827,7 +847,7 @@
       ]
     },
     {
-      "physical_page": 7,
+      "physical_page": 8,
       "label": "2",
       "characters": 1105,
       "outside": [],
@@ -847,7 +867,7 @@
       ]
     },
     {
-      "physical_page": 8,
+      "physical_page": 9,
       "label": "3",
       "characters": 984,
       "outside": [],
@@ -866,7 +886,7 @@
       ]
     },
     {
-      "physical_page": 9,
+      "physical_page": 10,
       "label": "4",
       "characters": 1124,
       "outside": [],
@@ -885,7 +905,7 @@
       ]
     },
     {
-      "physical_page": 10,
+      "physical_page": 11,
       "label": "5",
       "characters": 986,
       "outside": [],
@@ -904,7 +924,7 @@
       ]
     },
     {
-      "physical_page": 11,
+      "physical_page": 12,
       "label": "6",
       "characters": 838,
       "outside": [],
@@ -925,7 +945,7 @@
       ]
     },
     {
-      "physical_page": 12,
+      "physical_page": 13,
       "label": "7",
       "characters": 1170,
       "outside": [],
@@ -944,7 +964,7 @@
       ]
     },
     {
-      "physical_page": 13,
+      "physical_page": 14,
       "label": "8",
       "characters": 1189,
       "outside": [],
@@ -963,7 +983,7 @@
       ]
     },
     {
-      "physical_page": 14,
+      "physical_page": 15,
       "label": "9",
       "characters": 1032,
       "outside": [],
@@ -982,7 +1002,7 @@
       ]
     },
     {
-      "physical_page": 15,
+      "physical_page": 16,
       "label": "10",
       "characters": 987,
       "outside": [],
@@ -1002,7 +1022,7 @@
       ]
     },
     {
-      "physical_page": 16,
+      "physical_page": 17,
       "label": "11",
       "characters": 779,
       "outside": [],
@@ -1020,7 +1040,7 @@
       ]
     },
     {
-      "physical_page": 17,
+      "physical_page": 18,
       "label": "12",
       "characters": 898,
       "outside": [],
@@ -1041,7 +1061,7 @@
       ]
     },
     {
-      "physical_page": 18,
+      "physical_page": 19,
       "label": "13",
       "characters": 895,
       "outside": [],
@@ -1060,7 +1080,7 @@
       ]
     },
     {
-      "physical_page": 19,
+      "physical_page": 20,
       "label": "14",
       "characters": 906,
       "outside": [],
@@ -1082,7 +1102,7 @@
       ]
     },
     {
-      "physical_page": 20,
+      "physical_page": 21,
       "label": "15",
       "characters": 1038,
       "outside": [],
@@ -1101,7 +1121,7 @@
       ]
     },
     {
-      "physical_page": 21,
+      "physical_page": 22,
       "label": "16",
       "characters": 1223,
       "outside": [],
@@ -1121,7 +1141,7 @@
       ]
     },
     {
-      "physical_page": 22,
+      "physical_page": 23,
       "label": "17",
       "characters": 1373,
       "outside": [],
@@ -1141,7 +1161,7 @@
       ]
     },
     {
-      "physical_page": 23,
+      "physical_page": 24,
       "label": "18",
       "characters": 95,
       "outside": [],
@@ -1158,7 +1178,7 @@
       ]
     },
     {
-      "physical_page": 24,
+      "physical_page": 25,
       "label": "19",
       "characters": 964,
       "outside": [],
@@ -1177,7 +1197,7 @@
       ]
     },
     {
-      "physical_page": 25,
+      "physical_page": 26,
       "label": "20",
       "characters": 734,
       "outside": [],
@@ -1198,7 +1218,7 @@
       ]
     },
     {
-      "physical_page": 26,
+      "physical_page": 27,
       "label": "21",
       "characters": 1117,
       "outside": [],
@@ -1216,7 +1236,7 @@
       ]
     },
     {
-      "physical_page": 27,
+      "physical_page": 28,
       "label": "22",
       "characters": 1067,
       "outside": [],
@@ -1235,7 +1255,7 @@
       ]
     },
     {
-      "physical_page": 28,
+      "physical_page": 29,
       "label": "23",
       "characters": 1068,
       "outside": [],
@@ -1255,7 +1275,7 @@
       ]
     },
     {
-      "physical_page": 29,
+      "physical_page": 30,
       "label": "24",
       "characters": 1197,
       "outside": [],
@@ -1275,7 +1295,7 @@
       ]
     },
     {
-      "physical_page": 30,
+      "physical_page": 31,
       "label": "25",
       "characters": 937,
       "outside": [],
@@ -1296,7 +1316,7 @@
       ]
     },
     {
-      "physical_page": 31,
+      "physical_page": 32,
       "label": "26",
       "characters": 894,
       "outside": [],
@@ -1314,7 +1334,7 @@
       ]
     },
     {
-      "physical_page": 32,
+      "physical_page": 33,
       "label": "27",
       "characters": 798,
       "outside": [],
@@ -1337,7 +1357,7 @@
       ]
     },
     {
-      "physical_page": 33,
+      "physical_page": 34,
       "label": "28",
       "characters": 938,
       "outside": [],
@@ -1355,7 +1375,7 @@
       ]
     },
     {
-      "physical_page": 34,
+      "physical_page": 35,
       "label": "29",
       "characters": 807,
       "outside": [],
@@ -1376,7 +1396,7 @@
       ]
     },
     {
-      "physical_page": 35,
+      "physical_page": 36,
       "label": "30",
       "characters": 696,
       "outside": [],
@@ -1396,7 +1416,7 @@
       ]
     },
     {
-      "physical_page": 36,
+      "physical_page": 37,
       "label": "31",
       "characters": 999,
       "outside": [],
@@ -1418,7 +1438,7 @@
       ]
     },
     {
-      "physical_page": 37,
+      "physical_page": 38,
       "label": "32",
       "characters": 904,
       "outside": [],
@@ -1437,7 +1457,7 @@
       ]
     },
     {
-      "physical_page": 38,
+      "physical_page": 39,
       "label": "33",
       "characters": 645,
       "outside": [],
@@ -1456,7 +1476,7 @@
       ]
     },
     {
-      "physical_page": 39,
+      "physical_page": 40,
       "label": "34",
       "characters": 1166,
       "outside": [],
@@ -1476,7 +1496,7 @@
       ]
     },
     {
-      "physical_page": 40,
+      "physical_page": 41,
       "label": "35",
       "characters": 881,
       "outside": [],
@@ -1496,7 +1516,7 @@
       ]
     },
     {
-      "physical_page": 41,
+      "physical_page": 42,
       "label": "36",
       "characters": 1020,
       "outside": [],
@@ -1516,7 +1536,7 @@
       ]
     },
     {
-      "physical_page": 42,
+      "physical_page": 43,
       "label": "37",
       "characters": 869,
       "outside": [],
@@ -1534,7 +1554,7 @@
       ]
     },
     {
-      "physical_page": 43,
+      "physical_page": 44,
       "label": "38",
       "characters": 922,
       "outside": [],
@@ -1556,7 +1576,7 @@
       ]
     },
     {
-      "physical_page": 44,
+      "physical_page": 45,
       "label": "39",
       "characters": 836,
       "outside": [],
@@ -1577,7 +1597,7 @@
       ]
     },
     {
-      "physical_page": 45,
+      "physical_page": 46,
       "label": "40",
       "characters": 783,
       "outside": [],
@@ -1597,7 +1617,7 @@
       ]
     },
     {
-      "physical_page": 46,
+      "physical_page": 47,
       "label": "41",
       "characters": 1225,
       "outside": [],
@@ -1617,7 +1637,7 @@
       ]
     },
     {
-      "physical_page": 47,
+      "physical_page": 48,
       "label": "42",
       "characters": 591,
       "outside": [],
@@ -1636,7 +1656,7 @@
       ]
     },
     {
-      "physical_page": 48,
+      "physical_page": 49,
       "label": "43",
       "characters": 318,
       "outside": [],
@@ -1654,7 +1674,7 @@
       ]
     },
     {
-      "physical_page": 49,
+      "physical_page": 50,
       "label": "44",
       "characters": 872,
       "outside": [],
@@ -1673,7 +1693,7 @@
       ]
     },
     {
-      "physical_page": 50,
+      "physical_page": 51,
       "label": "45",
       "characters": 1112,
       "outside": [],
@@ -1693,7 +1713,7 @@
       ]
     },
     {
-      "physical_page": 51,
+      "physical_page": 52,
       "label": "46",
       "characters": 1010,
       "outside": [],
@@ -1711,7 +1731,7 @@
       ]
     },
     {
-      "physical_page": 52,
+      "physical_page": 53,
       "label": "47",
       "characters": 920,
       "outside": [],
@@ -1734,7 +1754,7 @@
       ]
     },
     {
-      "physical_page": 53,
+      "physical_page": 54,
       "label": "48",
       "characters": 1294,
       "outside": [],
@@ -1754,9 +1774,9 @@
       ]
     },
     {
-      "physical_page": 54,
+      "physical_page": 55,
       "label": "49",
-      "characters": 1230,
+      "characters": 1340,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1773,9 +1793,9 @@
       ]
     },
     {
-      "physical_page": 55,
+      "physical_page": 56,
       "label": "50",
-      "characters": 1186,
+      "characters": 1074,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1794,7 +1814,7 @@
       ]
     },
     {
-      "physical_page": 56,
+      "physical_page": 57,
       "label": "51",
       "characters": 1144,
       "outside": [],
@@ -1816,7 +1836,7 @@
       ]
     },
     {
-      "physical_page": 57,
+      "physical_page": 58,
       "label": "52",
       "characters": 927,
       "outside": [],
@@ -1836,9 +1856,9 @@
       ]
     },
     {
-      "physical_page": 58,
+      "physical_page": 59,
       "label": "53",
-      "characters": 1083,
+      "characters": 1081,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1855,9 +1875,9 @@
       ]
     },
     {
-      "physical_page": 59,
+      "physical_page": 60,
       "label": "54",
-      "characters": 1084,
+      "characters": 1077,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1873,7 +1893,7 @@
       ]
     },
     {
-      "physical_page": 60,
+      "physical_page": 61,
       "label": "55",
       "characters": 1040,
       "outside": [],
@@ -1893,7 +1913,7 @@
       ]
     },
     {
-      "physical_page": 61,
+      "physical_page": 62,
       "label": "56",
       "characters": 1329,
       "outside": [],
@@ -1913,7 +1933,7 @@
       ]
     },
     {
-      "physical_page": 62,
+      "physical_page": 63,
       "label": "57",
       "characters": 976,
       "outside": [],
@@ -1933,7 +1953,7 @@
       ]
     },
     {
-      "physical_page": 63,
+      "physical_page": 64,
       "label": "58",
       "characters": 1333,
       "outside": [],
@@ -1952,7 +1972,7 @@
       ]
     },
     {
-      "physical_page": 64,
+      "physical_page": 65,
       "label": "59",
       "characters": 512,
       "outside": [],
@@ -1972,7 +1992,7 @@
       ]
     },
     {
-      "physical_page": 65,
+      "physical_page": 66,
       "label": "60",
       "characters": 1430,
       "outside": [],
@@ -1992,7 +2012,7 @@
       ]
     },
     {
-      "physical_page": 66,
+      "physical_page": 67,
       "label": "61",
       "characters": 804,
       "outside": [],
@@ -2010,7 +2030,7 @@
       ]
     },
     {
-      "physical_page": 67,
+      "physical_page": 68,
       "label": "62",
       "characters": 583,
       "outside": [],
@@ -2030,9 +2050,9 @@
       ]
     },
     {
-      "physical_page": 68,
+      "physical_page": 69,
       "label": "63",
-      "characters": 1171,
+      "characters": 1038,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2042,7 +2062,6 @@
         841.8900146484375
       ],
       "text_sizes": [
-        6.97,
         9.96,
         10.91,
         11.96,
@@ -2050,9 +2069,9 @@
       ]
     },
     {
-      "physical_page": 69,
+      "physical_page": 70,
       "label": "64",
-      "characters": 1131,
+      "characters": 1263,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2068,9 +2087,9 @@
       ]
     },
     {
-      "physical_page": 70,
+      "physical_page": 71,
       "label": "65",
-      "characters": 640,
+      "characters": 594,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2087,7 +2106,7 @@
       ]
     },
     {
-      "physical_page": 71,
+      "physical_page": 72,
       "label": "66",
       "characters": 663,
       "outside": [],
@@ -2104,7 +2123,7 @@
       ]
     },
     {
-      "physical_page": 72,
+      "physical_page": 73,
       "label": "67",
       "characters": 728,
       "outside": [],
@@ -2121,7 +2140,7 @@
       ]
     },
     {
-      "physical_page": 73,
+      "physical_page": 74,
       "label": "68",
       "characters": 400,
       "outside": [],
@@ -2138,7 +2157,7 @@
       ]
     },
     {
-      "physical_page": 74,
+      "physical_page": 75,
       "label": "69",
       "characters": 609,
       "outside": [],
@@ -2155,7 +2174,7 @@
       ]
     },
     {
-      "physical_page": 75,
+      "physical_page": 76,
       "label": "70",
       "characters": 90,
       "outside": [],
@@ -2175,6 +2194,16 @@
   "bad_internal_links": [],
   "internal_link_count": 194,
   "scope": "PDF结构、文本边界与实际逐页渲染；不能代替知识核验或人工视觉检查。",
+  "print_layout": {
+    "physical_pages": 76,
+    "even_page_count": true,
+    "cover_back_blank": true,
+    "blank_physical_pages": [
+      2
+    ],
+    "only_intended_blanks": true,
+    "blank_pages_render_pure_white": true
+  },
   "latex": {
     "missing_glyph": [],
     "overfull": [],
@@ -2184,48 +2213,48 @@
   },
   "embedded_font_names": [
     "AVLWGU+NotoSansCJKsc-Regular",
-    "AWFHTC+CMMI8",
-    "BZHJYA+NotoSansCJKjp-Bold-Identity-H",
+    "BGCWAS+CMEX10",
+    "CCWECU+NotoSansCJKjp-Regular-Identity-H",
     "CNNCDR+NotoSansCJKsc-Regular",
     "DBXSLJ+NotoSansCJKsc-Bold",
-    "DHDYNU+CMR8",
     "DHHXJF+NotoSansCJKsc-Bold",
     "DJYDRI+NotoSansCJKsc-Regular",
     "EYJZAG+NotoSansCJKsc-Regular",
     "FOQKJS+NotoSansCJKsc-Regular",
+    "FSQPAV+CMSY10",
     "GRLIYJ+NotoSansCJKsc-Regular",
     "HDFKWO+NotoSansCJKsc-Bold",
-    "HVVROD+CMSY8",
+    "HKRJMK+NotoSerifCJKjp-Bold-Identity-H",
+    "HKTSDL+NotoSerifCJKjp-Regular-Identity-H",
+    "ICPJGY+CMSY8",
     "JKZVZK+NotoSansCJKsc-Regular",
     "JRYGUD+NotoSansCJKsc-Regular",
-    "JSPGOU+CMEX10",
     "JTPLVM+NotoSansCJKsc-Regular",
-    "KMZXDO+NotoSansCJKjp-Regular-Identity-H",
-    "KOOBVQ+NotoSerifCJKjp-Regular-Identity-H",
+    "JVSIIC+CMR8",
     "LRHDHK+NotoSansCJKsc-Regular",
-    "LUOFQN+CMMI10",
+    "LSZJDZ+CMMI10",
     "LVUQOQ+NotoSansCJKsc-Bold",
     "LXLHKI+NotoSansCJKsc-Regular",
     "LZQYNI+NotoSansCJKsc-Regular",
     "MFRDPE+NotoSansCJKsc-Regular",
-    "MNHLLM+CMR7",
     "MRDLIQ+NotoSansCJKsc-Bold",
-    "NPOMVP+CMSY10",
-    "NYDHXD+CMR10",
-    "PXRDQO+NotoSerifCJKjp-Bold-Identity-H",
     "QGBFCV+NotoSansCJKsc-Bold",
     "QNUZXS+NotoSansCJKsc-Regular",
-    "QUNEOR+CMMI12",
+    "QOMNGF+NotoSansCJKjp-Bold-Identity-H",
     "SFXWKJ+NotoSansCJKsc-Regular",
     "SMCVKW+NotoSansCJKsc-Regular",
     "SZZCSM+NotoSansCJKsc-Bold",
     "UMXVWB+NotoSansCJKsc-Regular",
     "UTRMVK+NotoSansCJKsc-Regular",
+    "WDGRZI+CMR10",
+    "XFNNIR+CMMI8",
     "XIIWTB+NotoSansCJKsc-Bold",
+    "XQTDHM+NotoSansCJKjp-Regular-Identity-H",
     "YFXZPS+NotoSansCJKsc-Regular",
     "YLSCXP+NotoSansCJKsc-Regular",
-    "ZJQSHG+NotoSansCJKjp-Regular-Identity-H",
-    "ZOIWOF+NotoSansCJKsc-Regular"
+    "ZIABRJ+CMR7",
+    "ZOIWOF+NotoSansCJKsc-Regular",
+    "ZVPZBB+CMMI12"
   ],
   "font_faces_verified": true,
   "font_note": "SC由TTC面索引2/2/7及cmap确定；共享CFF的jp内部名不表示选用了日文字形。",
@@ -2398,7 +2427,8 @@
       "pages": [
         73,
         74,
-        75
+        75,
+        76
       ]
     }
   ],

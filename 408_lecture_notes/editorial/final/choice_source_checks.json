@@ -11,7 +11,7 @@
     "manuscript/DS/07_查找与索引结构.md": "3663092235340e1a20dd0e6ca9b2679085ee1551549317530cd565f7f903de57",
     "manuscript/DS/08_排序与外部归并.md": "04218e9fbb344c660bdc5b5429b86bc8df5b5712863192797318b743d531264f",
     "manuscript/CO/01_计算机系统与程序执行.md": "04409b5facd73ee6efc15012380a1700918e97df815396a630f0f0d89ccde544",
-    "manuscript/CO/02_数据表示与运算.md": "89ac8f8c5d60173499a3f52cb90d5277ea5d2e67d49c869baf05ebd16e9aa6db",
+    "manuscript/CO/02_数据表示与运算.md": "092e674a870f02cfc0b4be95b4339a8feb22729a15dad63bb4d0dd9cdb6cef0c",
     "manuscript/CO/03_存储系统与地址.md": "459e2d64cd4e5fd2e4dcf4dbde3900a552d0d5f11a7c4afdfaa893f4a623b7ac",
     "manuscript/CO/04_指令系统与程序表示.md": "c20b603358789cac89a97bdc4300a472bcd03048386da8b66be37ab200a42bfb",
     "manuscript/CO/05_CPU与控制.md": "9d2a2af4b5c93a34e602eb4277ac9d7511bcc9aa91edb3454cf0c888a33548fc",
@@ -126,7 +126,7 @@
         },
         {
           "path": "manuscript/CO/02_数据表示与运算.md",
-          "sha256": "89ac8f8c5d60173499a3f52cb90d5277ea5d2e67d49c869baf05ebd16e9aa6db",
+          "sha256": "092e674a870f02cfc0b4be95b4339a8feb22729a15dad63bb4d0dd9cdb6cef0c",
           "choices": 10,
           "statements": 1,
           "already_aligned_monospaced_code_choices": 0,

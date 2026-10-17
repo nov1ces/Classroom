@@ -1,8 +1,8 @@
 {
   "subject": "CO",
   "pdf": "build/CO/计算机组成原理_讲义.pdf",
-  "sha256": "1cfb5132a7598a7b91bb982db8b3a10696ede36f7750144bb19634bc7382946b",
-  "page_count": 72,
+  "sha256": "7566d75dff7f2fe8d3d497d3210aecd0a53b6b76059bf290c2ee61fbb7c5461f",
+  "page_count": 74,
   "page_labels": [
     {
       "startpage": 0,
@@ -14,10 +14,16 @@
       "startpage": 1,
       "prefix": "",
       "firstpagenum": 1,
+      "style": "a"
+    },
+    {
+      "startpage": 2,
+      "prefix": "",
+      "firstpagenum": 1,
       "style": "r"
     },
     {
-      "startpage": 4,
+      "startpage": 5,
       "prefix": "",
       "firstpagenum": 1,
       "style": "D"
@@ -27,722 +33,722 @@
     [
       1,
       "阅读约定",
-      4
+      5
     ],
     [
       1,
       "1 计算机系统与程序执行的层次",
-      5
+      6
     ],
     [
       2,
       "1.1 从程序看计算机的功能部件",
-      5
+      6
     ],
     [
       3,
       "ISA 规定什么，微体系结构决定什么",
-      5
+      6
     ],
     [
       2,
       "1.2 存储程序怎样变成一次次指令执行",
-      6
+      7
     ],
     [
       3,
       "从 C 源文件到 CPU 能执行的内容",
-      6
+      7
     ],
     [
       3,
       "例 1-1　硬件直接执行哪一种程序",
-      6
+      7
     ],
     [
       2,
       "1.3 性能计算：先确定谁的时间在改变",
-      7
+      8
     ],
     [
       3,
       "例 1-2　主频相同，怎样由指令组成求时间",
-      7
+      8
     ],
     [
       3,
       "例 1-3　CPU 加快后，I/O 时间怎样处理",
-      7
+      8
     ],
     [
       3,
       "比较性能时，为什么不能只看主频或 MIPS",
-      8
+      9
     ],
     [
       3,
       "自测",
-      8
+      9
     ],
     [
       1,
       "2 数据表示、位级运算与浮点数",
-      9
+      10
     ],
     [
       2,
       "2.1 位串与数值之间还差一个解释规则",
-      9
+      10
     ],
     [
       3,
       "例 2-1　整数与小数分别换基数",
-      9
+      10
     ],
     [
       2,
       "2.2 定点编码：范围先于运算规则",
-      9
+      10
     ],
     [
       2,
       "2.3 截断、扩展与 C 类型转换",
-      10
+      11
     ],
     [
       3,
       "例 2-2　无符号短整数扩展",
-      10
+      11
     ],
     [
       3,
       "例 2-3　负的 short 转成 unsigned int",
-      10
+      11
     ],
     [
       3,
       "移位先问逻辑还是算术",
-      11
+      12
     ],
     [
       2,
       "2.4 加法器怎样同时支持加与减",
-      11
+      12
     ],
     [
       3,
       "例 2-4　减法器的两路输入不直接送负数符号",
-      11
+      12
     ],
     [
       2,
       "2.5 CF 与 OF 分别判断什么",
-      11
+      12
     ],
     [
       3,
       "同一个结果，按哪一种数判断",
-      12
+      13
     ],
     [
       3,
       "例 2-5　十六进制补码相减",
-      12
+      13
     ],
     [
       3,
       "例 2-6　有符号减法为何仍会产生借位",
-      12
+      13
     ],
     [
       2,
       "2.6 乘除运算必须保留的中间量",
-      13
+      14
     ],
     [
       3,
       "无符号乘法：为什么需要部分积和双倍位宽",
-      13
+      14
     ],
     [
       3,
       "除法：商来自每一步余数比较",
-      14
+      15
     ],
     [
       2,
       "2.7 IEEE 754：字段既规定精度，也规定特殊情况",
-      14
+      16
     ],
     [
       3,
       "例 2-7　负小数怎样组成单精度机器数",
-      15
+      17
     ],
     [
       3,
       "例 2-8　同为负浮点数时怎样比较",
-      15
+      17
     ],
     [
       2,
       "2.8 浮点加减：对阶丢位以后还要判断舍入",
-      16
+      17
     ],
     [
       3,
       "例 2-9　哪些步骤可能造成指数越界",
-      16
+      18
     ],
     [
       3,
       "定点整数与浮点数的范围、精度怎样比较",
-      17
+      18
     ],
     [
       3,
       "例 2-10　同一求和程序中的循环边界、整数范围与浮点精度",
-      17
+      18
     ],
     [
       3,
       "自测",
-      18
+      20
     ],
     [
       1,
       "3 存储层次、地址与 Cache",
-      19
+      21
     ],
     [
       2,
       "3.1 为什么一个程序同时使用几层存储器",
-      19
+      21
     ],
     [
       2,
       "3.2 SRAM、DRAM 与 Flash 保存信息的方式",
-      19
+      21
     ],
     [
       2,
       "3.3 地址引脚不总等于地址位数",
-      20
+      22
     ],
     [
       3,
       "例 3-1　DRAM 的复用地址怎样计数",
-      20
+      22
     ],
     [
       3,
       "MAR 的位数由地址空间决定",
-      20
+      22
     ],
     [
       3,
       "例 3-2　已安装容量不是全部可编址空间",
-      20
+      22
     ],
     [
       2,
       "3.4 单体多字和多体交叉怎样提高带宽",
-      20
+      22
     ],
     [
       3,
       "例 3-3　同一模块不等于立即发生冲突",
-      21
+      23
     ],
     [
       2,
       "3.5 主存芯片怎样连到 CPU",
-      21
+      23
     ],
     [
       3,
       "例 3-4　ROM 与 RAM 分区要分别计算",
-      22
+      24
     ],
     [
       2,
       "3.6 磁盘与 SSD 的一次访问花在哪些时间上",
-      22
+      24
     ],
     [
       3,
       "例 3-5　7200转每分不是7200转每秒",
-      22
+      24
     ],
     [
       2,
       "3.7 Cache 命中率怎样变成时间",
-      23
+      25
     ],
     [
       3,
       "例 3-6　读后写的数组访问怎样计缺失率",
-      23
+      25
     ],
     [
       3,
       "一次缺失损失要不要反复付启动代价",
-      23
+      25
     ],
     [
       2,
       "3.8 地址拆分决定块能放在哪里",
-      24
+      26
     ],
     [
       3,
       "例 3-7　8路组相联需要几个比较器",
-      24
+      26
     ],
     [
       2,
       "3.9 LRU 更新的是访问次序，不只是装入次序",
-      25
+      27
     ],
     [
       2,
       "3.10 写命中与写缺失是两个独立问题",
-      25
+      27
     ],
     [
       3,
       "例 3-8　Cache 总容量还包括哪些位",
-      25
+      27
     ],
     [
       2,
       "3.11 虚拟存储器怎样让程序看到地址空间",
-      26
+      28
     ],
     [
       2,
       "3.12 页表与 TLB：地址偏移为何原样保留",
-      26
+      28
     ],
     [
       3,
       "TLB、页表与Cache各自缺少什么",
-      26
+      28
     ],
     [
       3,
       "例 3-9　页号的十六进制不能直接当表中十进制",
-      27
+      29
     ],
     [
       3,
       "例 3-10　TLB 标记不包含页内偏移",
-      27
+      29
     ],
     [
       2,
       "3.13 段式与段页式地址为什么需要界限检查",
-      28
+      30
     ],
     [
       2,
       "3.14 综合访存：数组次序、TLB替换与Cache查找",
-      28
-    ],
-    [
-      3,
-      "例 3-11　交换内外层循环，命中率一定降低吗",
-      28
-    ],
-    [
-      3,
-      "例 3-12　TLB的组选、标记与连续替换",
       30
     ],
     [
       3,
+      "例 3-11　交换内外层循环，命中率一定降低吗",
+      30
+    ],
+    [
+      3,
+      "例 3-12　TLB的组选、标记与连续替换",
+      32
+    ],
+    [
+      3,
       "例 3-13　TLB 未命中后，还要经过哪些判断",
-      31
+      32
     ],
     [
       3,
       "自测",
-      33
+      34
     ],
     [
       1,
       "4 指令系统与 C 程序的机器级表示",
-      34
+      36
     ],
     [
       2,
       "4.1 指令字段怎样决定可表示的操作和地址",
-      34
+      36
     ],
     [
       3,
       "例 4-1　扩展操作码应逐层扣除哪些前缀",
-      34
+      36
     ],
     [
       2,
       "4.2 从形式地址到有效地址",
-      34
+      36
     ],
     [
       3,
       "例 4-2　相对转移用哪个 PC",
-      35
+      37
     ],
     [
       3,
       "访存次数要按执行路径来数",
-      35
-    ],
-    [
-      2,
-      "4.3 大端、小端和对齐解决不同问题",
-      35
-    ],
-    [
-      3,
-      "例 4-3　先确定结构布局，再看低字节",
-      36
-    ],
-    [
-      2,
-      "4.4 RISC 与 CISC：设计倾向不代替具体实现",
-      36
-    ],
-    [
-      3,
-      "例 4-4　RISC 设计能否支持流水线",
       37
     ],
     [
       2,
-      "4.5 编译、汇编、链接怎样确定程序中的地址",
-      38
+      "4.3 大端、小端和对齐解决不同问题",
+      37
     ],
     [
       3,
-      "例 4-5　工具链顺序",
+      "例 4-3　先确定结构布局，再看低字节",
       38
     ],
     [
       2,
-      "4.6 分支和循环怎样改变 PC",
-      38
-    ],
-    [
-      2,
-      "4.7 过程调用为什么要保存返回位置",
+      "4.4 RISC 与 CISC：设计倾向不代替具体实现",
       39
     ],
     [
       3,
-      "顺序、分支、调用和返回分别改变什么",
+      "例 4-4　RISC 设计能否支持流水线",
+      39
+    ],
+    [
+      2,
+      "4.5 编译、汇编、链接怎样确定程序中的地址",
       40
+    ],
+    [
+      3,
+      "例 4-5　工具链顺序",
+      40
+    ],
+    [
+      2,
+      "4.6 分支和循环怎样改变 PC",
+      40
+    ],
+    [
+      2,
+      "4.7 过程调用为什么要保存返回位置",
+      41
+    ],
+    [
+      3,
+      "顺序、分支、调用和返回分别改变什么",
+      42
     ],
     [
       3,
       "例 4-6　递归调用的返回位置、机器编码与乘法溢出",
-      40
+      42
     ],
     [
       3,
       "自测",
-      42
+      44
     ],
     [
       1,
       "5 CPU、数据通路、控制器与异常中断",
-      43
+      45
     ],
     [
       2,
       "5.1 寄存器的名字说明它暂存什么",
-      43
+      45
     ],
     [
       3,
       "例 5-1　哪些元件负责运算，哪些元件保存状态",
-      43
+      45
     ],
     [
       2,
       "5.2 指令周期、机器周期与时钟周期",
-      44
+      46
     ],
     [
       2,
       "5.3 一条指令怎样变为微操作",
-      44
+      46
     ],
     [
       3,
       "例 5-2　从单总线图确定控制信号与取指时序",
-      44
+      46
     ],
     [
       3,
       "例 5-3　间接操作数经过哪些部件",
-      46
+      48
     ],
     [
       2,
       "5.4 控制信号由组合逻辑还是微程序产生",
-      46
+      48
     ],
     [
       3,
       "例 5-4　互斥类为什么还要一个空操作编码",
-      47
+      49
     ],
     [
       3,
       "例 5-5　控制存储器地址字段怎样估位宽",
-      47
+      49
     ],
     [
       2,
       "5.5 异常、中断与返回位置",
-      47
+      49
     ],
     [
       3,
       "例 5-6　缺页后为什么重试当前指令",
-      48
+      50
     ],
     [
       3,
       "自测",
-      48
+      50
     ],
     [
       1,
       "6 流水线与并行处理的基本模型",
-      49
+      51
     ],
     [
       2,
       "6.1 延迟和完成间隔是两个量",
-      49
+      51
     ],
     [
       3,
       "例 6-1　最慢的一段决定时钟下限",
-      49
+      51
     ],
     [
       2,
       "6.2 阶段寄存器保存的不只是一份数据",
-      49
+      51
     ],
     [
       2,
       "6.3 冒险先按冲突对象分类",
-      50
+      52
     ],
     [
       3,
       "转发能省去等待写回，但不能送来尚未产生的数据",
-      50
+      52
     ],
     [
       3,
       "同一组 RAW，在不同实现中等到哪一拍",
-      50
+      52
     ],
     [
       3,
       "例 6-2　装入后立即使用需要一个气泡",
-      51
+      53
     ],
     [
       3,
       "例 6-3　同一段序列里同时有数据与控制等待",
-      51
+      53
     ],
     [
       3,
       "三种处理办法各改变什么",
-      52
+      54
     ],
     [
       2,
       "6.4 超标量与动态流水线允许哪些重叠",
-      52
+      54
     ],
     [
       2,
       "6.5 一条指令处理多个数据，还是多个指令流",
-      53
+      55
     ],
     [
       2,
       "6.6 硬件线程、多核与共享内存",
-      53
+      55
     ],
     [
       3,
       "例 6-4　硬件多线程不等于多核",
-      53
+      55
     ],
     [
       3,
       "例 6-5　无转发流水线的阻塞传播与最短调度",
-      53
+      55
     ],
     [
       3,
       "自测",
-      56
+      58
     ],
     [
       1,
       "7 总线：一次事务怎样占用时间",
-      57
+      59
     ],
     [
       2,
       "7.1 位宽、频率、传送率分别给出什么",
-      57
+      59
     ],
     [
       3,
       "例 7-1　一个总线周期占两个时钟周期",
-      57
+      59
     ],
     [
       3,
       "例 7-2　已经给出 MT/s 就不再乘4",
-      57
+      59
     ],
     [
       2,
       "7.2 一次总线事务从地址到应答",
-      58
+      60
     ],
     [
       3,
       "同步定时：固定采样时刻，必要时插等待",
-      58
+      60
     ],
     [
       3,
       "例 7-3　不支持突发，就要反复准备每个数据",
-      58
+      60
     ],
     [
       3,
       "例 7-4　峰值带宽与整次事务的有效速率",
-      58
+      60
     ],
     [
       3,
       "峰值、事务速率与CPU占用采用不同分母",
-      59
+      61
     ],
     [
       3,
       "异步定时：用握手确认进度",
-      59
+      61
     ],
     [
       3,
       "如何读总线时序图",
-      60
+      62
     ],
     [
       3,
       "自测",
-      60
+      62
     ],
     [
       1,
       "8 I/O接口、程序中断与 DMA",
-      61
+      63
     ],
     [
       2,
       "8.1 端口是接口中可访问的位置",
-      61
+      63
     ],
     [
       3,
       "例 8-1　命令字走哪组线",
-      61
+      63
     ],
     [
       2,
       "8.2 查询方式：等待和搬运都由 CPU 安排",
-      61
+      63
     ],
     [
       3,
       "例 8-2　定时查询占多少 CPU 时间",
-      62
+      64
     ],
     [
       2,
       "8.3 中断方式：先请求，再响应，再运行服务程序",
-      62
+      64
     ],
     [
       3,
       "硬件保存断点，与软件保护现场分开",
-      62
+      64
     ],
     [
       3,
       "屏蔽改变允许谁打断谁",
-      63
+      65
     ],
     [
       3,
       "例 8-3　响应顺序与完成顺序为什么可以不同",
-      63
+      65
     ],
     [
       3,
       "例 8-4　允许延迟不是额外的服务开销",
-      63
+      65
     ],
     [
       2,
       "8.4 DMA：数据不经过 CPU 寄存器逐次搬运",
-      64
+      66
     ],
     [
       3,
       "例 8-5　周期挪用不等于整块期间封住主存",
-      64
+      66
     ],
     [
       3,
       "例 8-6　DMA 的准备与完成仍需要软件",
-      65
+      67
     ],
     [
       3,
       "例 8-7　同一接口缓冲下比较查询、中断和DMA预算",
-      65
+      67
     ],
     [
       3,
       "自测",
-      67
+      69
     ],
     [
       1,
       "题目索引",
-      68
+      70
     ],
     [
       1,
       "方法索引",
-      71
+      73
     ]
   ],
   "pages": [
@@ -766,6 +772,20 @@
     },
     {
       "physical_page": 2,
+      "label": "a",
+      "characters": 0,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": []
+    },
+    {
+      "physical_page": 3,
       "label": "i",
       "characters": 1946,
       "outside": [],
@@ -782,7 +802,7 @@
       ]
     },
     {
-      "physical_page": 3,
+      "physical_page": 4,
       "label": "ii",
       "characters": 1946,
       "outside": [],
@@ -799,7 +819,7 @@
       ]
     },
     {
-      "physical_page": 4,
+      "physical_page": 5,
       "label": "iii",
       "characters": 241,
       "outside": [],
@@ -816,7 +836,7 @@
       ]
     },
     {
-      "physical_page": 5,
+      "physical_page": 6,
       "label": "1",
       "characters": 884,
       "outside": [],
@@ -836,7 +856,7 @@
       ]
     },
     {
-      "physical_page": 6,
+      "physical_page": 7,
       "label": "2",
       "characters": 1063,
       "outside": [],
@@ -855,7 +875,7 @@
       ]
     },
     {
-      "physical_page": 7,
+      "physical_page": 8,
       "label": "3",
       "characters": 1137,
       "outside": [],
@@ -875,7 +895,7 @@
       ]
     },
     {
-      "physical_page": 8,
+      "physical_page": 9,
       "label": "4",
       "characters": 1119,
       "outside": [],
@@ -894,7 +914,7 @@
       ]
     },
     {
-      "physical_page": 9,
+      "physical_page": 10,
       "label": "5",
       "characters": 999,
       "outside": [],
@@ -916,7 +936,7 @@
       ]
     },
     {
-      "physical_page": 10,
+      "physical_page": 11,
       "label": "6",
       "characters": 1415,
       "outside": [],
@@ -936,7 +956,7 @@
       ]
     },
     {
-      "physical_page": 11,
+      "physical_page": 12,
       "label": "7",
       "characters": 1302,
       "outside": [],
@@ -956,9 +976,9 @@
       ]
     },
     {
-      "physical_page": 12,
+      "physical_page": 13,
       "label": "8",
-      "characters": 1269,
+      "characters": 1267,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -975,9 +995,9 @@
       ]
     },
     {
-      "physical_page": 13,
+      "physical_page": 14,
       "label": "9",
-      "characters": 1084,
+      "characters": 1083,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -996,9 +1016,9 @@
       ]
     },
     {
-      "physical_page": 14,
+      "physical_page": 15,
       "label": "10",
-      "characters": 905,
+      "characters": 772,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1011,14 +1031,13 @@
         7.97,
         9.96,
         10.91,
-        11.96,
-        14.35
+        11.96
       ]
     },
     {
-      "physical_page": 15,
+      "physical_page": 16,
       "label": "11",
-      "characters": 1002,
+      "characters": 799,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1028,6 +1047,7 @@
         841.8900146484375
       ],
       "text_sizes": [
+        6.97,
         7.97,
         8.82,
         9.26,
@@ -1035,13 +1055,13 @@
         9.96,
         10.58,
         10.91,
-        11.96
+        14.35
       ]
     },
     {
-      "physical_page": 16,
+      "physical_page": 17,
       "label": "12",
-      "characters": 1462,
+      "characters": 1410,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1059,28 +1079,9 @@
       ]
     },
     {
-      "physical_page": 17,
-      "label": "13",
-      "characters": 1448,
-      "outside": [],
-      "replacement_glyphs": 0,
-      "media_box": [
-        0.0,
-        0.0,
-        595.280029296875,
-        841.8900146484375
-      ],
-      "text_sizes": [
-        7.97,
-        9.96,
-        10.91,
-        11.96
-      ]
-    },
-    {
       "physical_page": 18,
-      "label": "14",
-      "characters": 911,
+      "label": "13",
+      "characters": 1311,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1098,7 +1099,44 @@
     },
     {
       "physical_page": 19,
+      "label": "14",
+      "characters": 1496,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91
+      ]
+    },
+    {
+      "physical_page": 20,
       "label": "15",
+      "characters": 455,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96
+      ]
+    },
+    {
+      "physical_page": 21,
+      "label": "16",
       "characters": 1079,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1116,8 +1154,8 @@
       ]
     },
     {
-      "physical_page": 20,
-      "label": "16",
+      "physical_page": 22,
+      "label": "17",
       "characters": 1214,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1136,8 +1174,8 @@
       ]
     },
     {
-      "physical_page": 21,
-      "label": "17",
+      "physical_page": 23,
+      "label": "18",
       "characters": 967,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1160,8 +1198,8 @@
       ]
     },
     {
-      "physical_page": 22,
-      "label": "18",
+      "physical_page": 24,
+      "label": "19",
       "characters": 1114,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1180,8 +1218,8 @@
       ]
     },
     {
-      "physical_page": 23,
-      "label": "19",
+      "physical_page": 25,
+      "label": "20",
       "characters": 1191,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1200,9 +1238,9 @@
       ]
     },
     {
-      "physical_page": 24,
-      "label": "20",
-      "characters": 981,
+      "physical_page": 26,
+      "label": "21",
+      "characters": 980,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1224,8 +1262,8 @@
       ]
     },
     {
-      "physical_page": 25,
-      "label": "21",
+      "physical_page": 27,
+      "label": "22",
       "characters": 1235,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1244,9 +1282,9 @@
       ]
     },
     {
-      "physical_page": 26,
-      "label": "22",
-      "characters": 1113,
+      "physical_page": 28,
+      "label": "23",
+      "characters": 1108,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1263,8 +1301,8 @@
       ]
     },
     {
-      "physical_page": 27,
-      "label": "23",
+      "physical_page": 29,
+      "label": "24",
       "characters": 927,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1285,8 +1323,8 @@
       ]
     },
     {
-      "physical_page": 28,
-      "label": "24",
+      "physical_page": 30,
+      "label": "25",
       "characters": 1173,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1305,8 +1343,8 @@
       ]
     },
     {
-      "physical_page": 29,
-      "label": "25",
+      "physical_page": 31,
+      "label": "26",
       "characters": 1424,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1323,9 +1361,9 @@
       ]
     },
     {
-      "physical_page": 30,
-      "label": "26",
-      "characters": 1074,
+      "physical_page": 32,
+      "label": "27",
+      "characters": 1211,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1342,27 +1380,9 @@
       ]
     },
     {
-      "physical_page": 31,
-      "label": "27",
-      "characters": 873,
-      "outside": [],
-      "replacement_glyphs": 0,
-      "media_box": [
-        0.0,
-        0.0,
-        595.280029296875,
-        841.8900146484375
-      ],
-      "text_sizes": [
-        9.96,
-        10.91,
-        11.96
-      ]
-    },
-    {
-      "physical_page": 32,
+      "physical_page": 33,
       "label": "28",
-      "characters": 1332,
+      "characters": 895,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1378,9 +1398,9 @@
       ]
     },
     {
-      "physical_page": 33,
+      "physical_page": 34,
       "label": "29",
-      "characters": 363,
+      "characters": 1340,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1396,9 +1416,26 @@
       ]
     },
     {
-      "physical_page": 34,
+      "physical_page": 35,
       "label": "30",
-      "characters": 1059,
+      "characters": 192,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91
+      ]
+    },
+    {
+      "physical_page": 36,
+      "label": "31",
+      "characters": 1019,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1409,7 +1446,6 @@
       ],
       "text_sizes": [
         7.97,
-        9.96,
         10.91,
         11.96,
         14.35,
@@ -1417,9 +1453,9 @@
       ]
     },
     {
-      "physical_page": 35,
-      "label": "31",
-      "characters": 1218,
+      "physical_page": 37,
+      "label": "32",
+      "characters": 1153,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1436,9 +1472,9 @@
       ]
     },
     {
-      "physical_page": 36,
-      "label": "32",
-      "characters": 1003,
+      "physical_page": 38,
+      "label": "33",
+      "characters": 868,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1454,32 +1490,13 @@
         9.96,
         10.03,
         10.91,
-        11.96,
-        14.35
-      ]
-    },
-    {
-      "physical_page": 37,
-      "label": "33",
-      "characters": 1010,
-      "outside": [],
-      "replacement_glyphs": 0,
-      "media_box": [
-        0.0,
-        0.0,
-        595.280029296875,
-        841.8900146484375
-      ],
-      "text_sizes": [
-        9.96,
-        10.91,
         11.96
       ]
     },
     {
-      "physical_page": 38,
+      "physical_page": 39,
       "label": "34",
-      "characters": 1098,
+      "characters": 1156,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1496,9 +1513,46 @@
       ]
     },
     {
-      "physical_page": 39,
+      "physical_page": 40,
       "label": "35",
-      "characters": 1108,
+      "characters": 1050,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 41,
+      "label": "36",
+      "characters": 853,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        9.96,
+        10.91,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 42,
+      "label": "37",
+      "characters": 931,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1514,13 +1568,13 @@
         9.96,
         10.14,
         10.91,
-        14.35
+        11.96
       ]
     },
     {
-      "physical_page": 40,
-      "label": "36",
-      "characters": 1201,
+      "physical_page": 43,
+      "label": "38",
+      "characters": 1409,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1531,14 +1585,13 @@
       ],
       "text_sizes": [
         9.96,
-        10.91,
-        11.96
+        10.91
       ]
     },
     {
-      "physical_page": 41,
-      "label": "37",
-      "characters": 1468,
+      "physical_page": 44,
+      "label": "39",
+      "characters": 1360,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1550,30 +1603,13 @@
       "text_sizes": [
         7.97,
         9.96,
-        10.91
-      ]
-    },
-    {
-      "physical_page": 42,
-      "label": "38",
-      "characters": 659,
-      "outside": [],
-      "replacement_glyphs": 0,
-      "media_box": [
-        0.0,
-        0.0,
-        595.280029296875,
-        841.8900146484375
-      ],
-      "text_sizes": [
-        9.96,
         10.91,
         11.96
       ]
     },
     {
-      "physical_page": 43,
-      "label": "39",
+      "physical_page": 45,
+      "label": "40",
       "characters": 816,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1592,9 +1628,9 @@
       ]
     },
     {
-      "physical_page": 44,
-      "label": "40",
-      "characters": 1200,
+      "physical_page": 46,
+      "label": "41",
+      "characters": 1197,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1611,8 +1647,8 @@
       ]
     },
     {
-      "physical_page": 45,
-      "label": "41",
+      "physical_page": 47,
+      "label": "42",
       "characters": 1109,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1634,49 +1670,49 @@
       ]
     },
     {
-      "physical_page": 46,
-      "label": "42",
-      "characters": 1211,
-      "outside": [],
-      "replacement_glyphs": 0,
-      "media_box": [
-        0.0,
-        0.0,
-        595.280029296875,
-        841.8900146484375
-      ],
-      "text_sizes": [
-        7.97,
-        9.96,
-        10.91,
-        11.96,
-        14.35
-      ]
-    },
-    {
-      "physical_page": 47,
-      "label": "43",
-      "characters": 1304,
-      "outside": [],
-      "replacement_glyphs": 0,
-      "media_box": [
-        0.0,
-        0.0,
-        595.280029296875,
-        841.8900146484375
-      ],
-      "text_sizes": [
-        7.97,
-        9.96,
-        10.91,
-        11.96,
-        14.35
-      ]
-    },
-    {
       "physical_page": 48,
+      "label": "43",
+      "characters": 1295,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 49,
       "label": "44",
-      "characters": 1033,
+      "characters": 1338,
+      "outside": [],
+      "replacement_glyphs": 0,
+      "media_box": [
+        0.0,
+        0.0,
+        595.280029296875,
+        841.8900146484375
+      ],
+      "text_sizes": [
+        7.97,
+        9.96,
+        10.91,
+        11.96,
+        14.35
+      ]
+    },
+    {
+      "physical_page": 50,
+      "label": "45",
+      "characters": 914,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -1696,8 +1732,8 @@
       ]
     },
     {
-      "physical_page": 49,
-      "label": "45",
+      "physical_page": 51,
+      "label": "46",
       "characters": 1091,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1716,8 +1752,8 @@
       ]
     },
     {
-      "physical_page": 50,
-      "label": "46",
+      "physical_page": 52,
+      "label": "47",
       "characters": 1166,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1735,8 +1771,8 @@
       ]
     },
     {
-      "physical_page": 51,
-      "label": "47",
+      "physical_page": 53,
+      "label": "48",
       "characters": 1096,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1756,8 +1792,8 @@
       ]
     },
     {
-      "physical_page": 52,
-      "label": "48",
+      "physical_page": 54,
+      "label": "49",
       "characters": 1099,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1776,8 +1812,8 @@
       ]
     },
     {
-      "physical_page": 53,
-      "label": "49",
+      "physical_page": 55,
+      "label": "50",
       "characters": 1190,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1795,8 +1831,8 @@
       ]
     },
     {
-      "physical_page": 54,
-      "label": "50",
+      "physical_page": 56,
+      "label": "51",
       "characters": 1069,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1812,8 +1848,8 @@
       ]
     },
     {
-      "physical_page": 55,
-      "label": "51",
+      "physical_page": 57,
+      "label": "52",
       "characters": 1325,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1833,8 +1869,8 @@
       ]
     },
     {
-      "physical_page": 56,
-      "label": "52",
+      "physical_page": 58,
+      "label": "53",
       "characters": 297,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1851,8 +1887,8 @@
       ]
     },
     {
-      "physical_page": 57,
-      "label": "53",
+      "physical_page": 59,
+      "label": "54",
       "characters": 1048,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1871,8 +1907,8 @@
       ]
     },
     {
-      "physical_page": 58,
-      "label": "54",
+      "physical_page": 60,
+      "label": "55",
       "characters": 1234,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1891,8 +1927,8 @@
       ]
     },
     {
-      "physical_page": 59,
-      "label": "55",
+      "physical_page": 61,
+      "label": "56",
       "characters": 1092,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1912,8 +1948,8 @@
       ]
     },
     {
-      "physical_page": 60,
-      "label": "56",
+      "physical_page": 62,
+      "label": "57",
       "characters": 705,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1930,8 +1966,8 @@
       ]
     },
     {
-      "physical_page": 61,
-      "label": "57",
+      "physical_page": 63,
+      "label": "58",
       "characters": 866,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1949,8 +1985,8 @@
       ]
     },
     {
-      "physical_page": 62,
-      "label": "58",
+      "physical_page": 64,
+      "label": "59",
       "characters": 1224,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1969,8 +2005,8 @@
       ]
     },
     {
-      "physical_page": 63,
-      "label": "59",
+      "physical_page": 65,
+      "label": "60",
       "characters": 926,
       "outside": [],
       "replacement_glyphs": 0,
@@ -1989,8 +2025,8 @@
       ]
     },
     {
-      "physical_page": 64,
-      "label": "60",
+      "physical_page": 66,
+      "label": "61",
       "characters": 1035,
       "outside": [],
       "replacement_glyphs": 0,
@@ -2012,9 +2048,9 @@
       ]
     },
     {
-      "physical_page": 65,
-      "label": "61",
-      "characters": 1220,
+      "physical_page": 67,
+      "label": "62",
+      "characters": 1213,
       "outside": [],
       "replacement_glyphs": 0,
       "media_box": [
@@ -2030,8 +2066,8 @@
       ]
     },
     {
-      "physical_page": 66,
-      "label": "62",
+      "physical_page": 68,
+      "label": "63",
       "characters": 1194,
       "outside": [],
       "replacement_glyphs": 0,
@@ -2048,8 +2084,8 @@
       ]
     },
     {
-      "physical_page": 67,
-      "label": "63",
+      "physical_page": 69,
+      "label": "64",
       "characters": 552,
       "outside": [],
       "replacement_glyphs": 0,
@@ -2067,8 +2103,8 @@
       ]
     },
     {
-      "physical_page": 68,
-      "label": "64",
+      "physical_page": 70,
+      "label": "65",
       "characters": 790,
       "outside": [],
       "replacement_glyphs": 0,
@@ -2084,8 +2120,8 @@
       ]
     },
     {
-      "physical_page": 69,
-      "label": "65",
+      "physical_page": 71,
+      "label": "66",
       "characters": 775,
       "outside": [],
       "replacement_glyphs": 0,
@@ -2101,8 +2137,8 @@
       ]
     },
     {
-      "physical_page": 70,
-      "label": "66",
+      "physical_page": 72,
+      "label": "67",
       "characters": 121,
       "outside": [],
       "replacement_glyphs": 0,
@@ -2118,8 +2154,8 @@
       ]
     },
     {
-      "physical_page": 71,
-      "label": "67",
+      "physical_page": 73,
+      "label": "68",
       "characters": 558,
       "outside": [],
       "replacement_glyphs": 0,
@@ -2135,8 +2171,8 @@
       ]
     },
     {
-      "physical_page": 72,
-      "label": "68",
+      "physical_page": 74,
+      "label": "69",
       "characters": 496,
       "outside": [],
       "replacement_glyphs": 0,
@@ -2155,6 +2191,16 @@
   "bad_internal_links": [],
   "internal_link_count": 175,
   "scope": "PDF结构、文本边界与实际逐页渲染；不能代替知识核验或人工视觉检查。",
+  "print_layout": {
+    "physical_pages": 74,
+    "even_page_count": true,
+    "cover_back_blank": true,
+    "blank_physical_pages": [
+      2
+    ],
+    "only_intended_blanks": true,
+    "blank_pages_render_pure_white": true
+  },
   "latex": {
     "missing_glyph": [],
     "overfull": [],
@@ -2165,31 +2211,31 @@
   "embedded_font_names": [
     "ALOQLU+NotoSansCJKsc-Regular",
     "ANHTXE+NotoSansCJKsc-Regular",
-    "CDMJJP+CMSY8",
-    "FAJXGD+CMR7",
+    "BFGUTR+NotoSansCJKjp-Regular-Identity-H",
+    "DAIPDE+NotoSansCJKjp-Bold-Identity-H",
     "GEEHFB+NotoSansCJKsc-Regular",
     "GIYQEQ+NotoSansCJKsc-Regular",
+    "GJOYWF+CMEX10",
     "GKUXDT+NotoSansCJKsc-Regular",
-    "HJGBVA+CMR8",
-    "IEPLYM+CMMI7",
-    "JCHIEA+CMR10",
-    "JQWTNS+NotoSansCJKjp-Regular-Identity-H",
-    "NYKTEE+NotoSansCJKjp-Regular-Identity-H",
-    "ODKWWX+NotoSerifCJKjp-Bold-Identity-H",
-    "PBXQWH+CMMI8",
+    "HOHJGG+CMSY10",
+    "IIOEDM+NotoSerifCJKjp-Bold-Identity-H",
+    "IQOYAA+CMR10",
+    "KMJDLQ+NotoSerifCJKjp-Regular-Identity-H",
+    "MJEAMS+CMR8",
+    "OCQFWQ+CMMI10",
     "PKJQRG+NotoSansCJKsc-Regular",
-    "PNHDTZ+NotoSansCJKjp-Bold-Identity-H",
-    "TJPRVN+CMSY7",
+    "QBAORS+CMMI8",
+    "QWZSZT+CMMI7",
+    "RMFQXV+CMR7",
+    "TIGUIM+CMSY8",
     "TMDCBL+NotoSansCJKsc-Regular",
     "TNNAOP+NotoSansCJKsc-Regular",
     "VFOXFE+NotoSansCJKsc-Regular",
-    "VKDGWR+CMEX10",
-    "WGWSJV+CMSY10",
-    "XKZNFF+NotoSerifCJKjp-Regular-Identity-H",
+    "WFFDBN+CMSY7",
     "YBASVB+NotoSansCJKsc-Regular",
     "YIJVWM+NotoSansCJKsc-Regular",
     "YRCWLY+NotoSansCJKsc-Regular",
-    "YTPREL+CMMI10",
+    "ZTZFNQ+NotoSansCJKjp-Regular-Identity-H",
     "ZVBTBI+NotoSansCJKsc-Regular"
   ],
   "font_faces_verified": true,
@@ -2356,6 +2402,13 @@
         70,
         71,
         72
+      ]
+    },
+    {
+      "path": "build/CO/rendered/contact_019.png",
+      "pages": [
+        73,
+        74
       ]
     }
   ],

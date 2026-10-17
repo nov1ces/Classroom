@@ -1,9 +1,40 @@
 {
   "status": "PASS",
-  "combined_pdf_sha256": "63dc397e2bc5ae6ddf374bf6ca7aa9ffd60974e6a48a7bf06c96a92b39677928",
+  "combined_pdf_sha256": "6cb2e5f458dccf8add9922ab512bbef134744b702d0aa58aa0b635aafe349b29",
   "roundtrip_link_targets_checked": 798,
-  "source_to_combined_page_text_and_pixels": "All 310 pages verified by export_final.py",
+  "source_to_combined_page_text_and_pixels": "All 316 pages verified by export_final.py",
   "source_chapters_verified": 29,
   "text_and_code_preservation": "editorial/final/choice_source_checks.json",
-  "conversion_checks": "editorial/final/conversion_results.json"
+  "conversion_checks": "editorial/final/conversion_results.json",
+  "print_layout": {
+    "even_page_count": true,
+    "all_subject_covers_start_on_odd_pages": true,
+    "sections": [
+      {
+        "subject": "DS",
+        "start_physical_page": 1,
+        "physical_pages": 76,
+        "cover_back_blank_physical_page": 2
+      },
+      {
+        "subject": "CO",
+        "start_physical_page": 77,
+        "physical_pages": 74,
+        "cover_back_blank_physical_page": 78
+      },
+      {
+        "subject": "OS",
+        "start_physical_page": 151,
+        "physical_pages": 86,
+        "cover_back_blank_physical_page": 152
+      },
+      {
+        "subject": "CN",
+        "start_physical_page": 237,
+        "physical_pages": 80,
+        "cover_back_blank_physical_page": 238
+      }
+    ]
+  },
+  "table_layout_checks": "editorial/final/table_pdf_checks.json"
 }

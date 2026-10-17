@@ -27,7 +27,7 @@ def audit(subject, partial=False):
         page_labels=doc.get_page_labels(), bookmarks=doc.get_toc(), pages=[],
         bad_internal_links=[], internal_link_count=0,
         scope='PDF结构、文本边界与实际逐页渲染；不能代替知识核验或人工视觉检查。')
-    texts = []
+    texts, blank_pages = [], []
     for i, page in enumerate(doc):
         spans = [s for b in page.get_text('dict')['blocks'] if b['type'] == 0
                  for ln in b['lines'] for s in ln['spans']]
@@ -38,6 +38,9 @@ def audit(subject, partial=False):
                 outside.append(dict(text=s['text'], bbox=list(r)))
         text = page.get_text()
         texts.append(text)
+        is_blank = not text.strip() and not page.get_images() and not page.get_drawings()
+        if is_blank:
+            blank_pages.append(i + 1)
         report['pages'].append(dict(physical_page=i + 1, label=page.get_label(),
             characters=len(text), outside=outside, replacement_glyphs=text.count('\ufffd'),
             media_box=list(page.rect),
@@ -47,7 +50,14 @@ def audit(subject, partial=False):
                 report['internal_link_count'] += 1
                 if not (0 <= link.get('page', -1) < len(doc)):
                     report['bad_internal_links'].append(dict(source_page=i + 1, link=str(link)))
-        page.get_pixmap(matrix=fitz.Matrix(1.35, 1.35), alpha=False).save(render / f'page_{i+1:03}.png')
+        pixmap = page.get_pixmap(matrix=fitz.Matrix(1.35, 1.35), alpha=False)
+        if is_blank:
+            assert all(value == 255 for value in pixmap.samples), (subject, i + 1, 'Blank page is not white')
+        pixmap.save(render / f'page_{i+1:03}.png')
+    report['print_layout'] = dict(physical_pages=len(doc), even_page_count=len(doc) % 2 == 0,
+        cover_back_blank=2 in blank_pages, blank_physical_pages=blank_pages,
+        only_intended_blanks=all(page in (2, len(doc)) for page in blank_pages),
+        blank_pages_render_pure_white=True)
     log = (build / f'{subject}.log').read_text(errors='replace')
     kinds = {'missing_glyph': 'Missing character:', 'overfull': 'Overfull',
              'undefined': 'undefined', 'float_too_large': 'Float too large',
@@ -86,6 +96,8 @@ def audit(subject, partial=False):
     report['structural_status'] = 'PASS' if not any([
         report['bad_internal_links'], *report['latex'].values(),
         not report['font_faces_verified'], leak,
+        not report['print_layout']['even_page_count'], not report['print_layout']['cover_back_blank'],
+        not report['print_layout']['only_intended_blanks'],
         any(p['outside'] or p['replacement_glyphs'] for p in report['pages'])]) else 'REVIEW'
     (out / 'audit.json').write_text(json.dumps(report, ensure_ascii=False, indent=2))
     (build / 'pdf_text.txt').write_text('\n\f\n'.join(texts))

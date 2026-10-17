@@ -1,15 +1,17 @@
 {
-  "schema": 3,
-  "stage": "final_cleaned",
-  "current_edition": "final_polished_with_followups",
-  "source_base_commit": "dcaaf9754cf750a02bb109651232c0e49efe694b",
+  "schema": 4,
+  "stage": "final_duplex",
+  "current_edition": "final_duplex",
+  "source_base_commit": "189c527125beecf3525b856b09c284321afe8b72",
+  "updated_at": "2026-10-17T18:00:13.738056+00:00",
   "counts": {
     "books": 4,
     "chapters": 29,
-    "physical_pages": 310,
+    "physical_pages": 316,
     "numbered_examples": 193,
     "choices": 164,
     "statements": 15,
+    "tables": 104,
     "aligned_monospaced_code_choice_sets": 1
   },
   "books": [
@@ -17,49 +19,123 @@
       "subject": "DS",
       "title": "数据结构",
       "pdf": "dist/final/数据结构_最终稿.pdf",
-      "sha256": "a4feba204da80b60405233202e80f4f135f6ea25a81159de51677b4b53a3297f",
-      "physical_pages": 75,
+      "sha256": "afd921f8a571016dfcc013aa1db5b3e8c6c0e48245c3f02d8f93ae99343f9226",
+      "physical_pages": 76,
       "chapters": 8,
-      "numbered_examples": 44
+      "numbered_examples": 44,
+      "tables": 14,
+      "print_layout": {
+        "physical_pages": 76,
+        "even_page_count": true,
+        "cover_back_blank": true,
+        "blank_physical_pages": [
+          2
+        ],
+        "only_intended_blanks": true,
+        "blank_pages_render_pure_white": true
+      }
     },
     {
       "subject": "CO",
       "title": "计算机组成原理",
       "pdf": "dist/final/计算机组成原理_最终稿.pdf",
-      "sha256": "1cfb5132a7598a7b91bb982db8b3a10696ede36f7750144bb19634bc7382946b",
-      "physical_pages": 72,
+      "sha256": "7566d75dff7f2fe8d3d497d3210aecd0a53b6b76059bf290c2ee61fbb7c5461f",
+      "physical_pages": 74,
       "chapters": 8,
-      "numbered_examples": 54
+      "numbered_examples": 54,
+      "tables": 27,
+      "print_layout": {
+        "physical_pages": 74,
+        "even_page_count": true,
+        "cover_back_blank": true,
+        "blank_physical_pages": [
+          2
+        ],
+        "only_intended_blanks": true,
+        "blank_pages_render_pure_white": true
+      }
     },
     {
       "subject": "OS",
       "title": "操作系统",
       "pdf": "dist/final/操作系统_最终稿.pdf",
-      "sha256": "df07ee7a6863404dc0ab8673f84bc6ec63987c0887a9e1ea3474874b59f42863",
-      "physical_pages": 84,
+      "sha256": "0bbbb8a679d11ba6688978e2b84cd824b11411f8e692b9f5f29d243e94e28d8f",
+      "physical_pages": 86,
       "chapters": 7,
-      "numbered_examples": 45
+      "numbered_examples": 45,
+      "tables": 37,
+      "print_layout": {
+        "physical_pages": 86,
+        "even_page_count": true,
+        "cover_back_blank": true,
+        "blank_physical_pages": [
+          2
+        ],
+        "only_intended_blanks": true,
+        "blank_pages_render_pure_white": true
+      }
     },
     {
       "subject": "CN",
       "title": "计算机网络",
       "pdf": "dist/final/计算机网络_最终稿.pdf",
-      "sha256": "615541c73796129d23bfb333843037e40f63dd3777a7d96f3e74e608e13f1a8b",
-      "physical_pages": 79,
+      "sha256": "91273a3240e4c0b396fbb864082836e8014ad093ed128dd5b29ddb46ab861ed2",
+      "physical_pages": 80,
       "chapters": 6,
-      "numbered_examples": 50
+      "numbered_examples": 50,
+      "tables": 26,
+      "print_layout": {
+        "physical_pages": 80,
+        "even_page_count": true,
+        "cover_back_blank": true,
+        "blank_physical_pages": [
+          2
+        ],
+        "only_intended_blanks": true,
+        "blank_pages_render_pure_white": true
+      }
     }
   ],
   "final_delivery": {
     "manifest": "dist/final/最终稿交付清单.json",
     "combined": {
       "pdf": "dist/final/408四科讲义_最终稿_合订本.pdf",
-      "sha256": "63dc397e2bc5ae6ddf374bf6ca7aa9ffd60974e6a48a7bf06c96a92b39677928",
-      "bytes": 22662675,
-      "physical_pages": 310,
+      "sha256": "6cb2e5f458dccf8add9922ab512bbef134744b702d0aa58aa0b635aafe349b29",
+      "bytes": 22670278,
+      "physical_pages": 316,
       "internal_links": 798,
       "bookmarks": 595,
       "source_page_text_and_pixels_identical": true
+    },
+    "print_layout": {
+      "even_page_count": true,
+      "all_subject_covers_start_on_odd_pages": true,
+      "sections": [
+        {
+          "subject": "DS",
+          "start_physical_page": 1,
+          "physical_pages": 76,
+          "cover_back_blank_physical_page": 2
+        },
+        {
+          "subject": "CO",
+          "start_physical_page": 77,
+          "physical_pages": 74,
+          "cover_back_blank_physical_page": 78
+        },
+        {
+          "subject": "OS",
+          "start_physical_page": 151,
+          "physical_pages": 86,
+          "cover_back_blank_physical_page": 152
+        },
+        {
+          "subject": "CN",
+          "start_physical_page": 237,
+          "physical_pages": 80,
+          "cover_back_blank_physical_page": 238
+        }
+      ]
     }
   },
   "build": {
@@ -71,9 +147,23 @@
   "verification": {
     "reports": "editorial/final/",
     "provenance": "editorial/provenance/",
-    "source_chapters_unchanged_in_cleanup": 29,
-    "full_clean_rebuild": "PASS",
-    "pdf_text_pixels_navigation_equivalence": "PASS"
+    "full_four_subject_rebuild": "PASS",
+    "source_chapters_compared_with_base": 29,
+    "unchanged_chapter_sources": 28,
+    "changed_chapter_sources": [
+      "manuscript/CO/02_数据表示与运算.md"
+    ],
+    "source_additions": 23,
+    "source_deletions": 0,
+    "all_table_pdf_layout": "PASS",
+    "tables_checked": 104,
+    "all_book_even_page_counts_and_blank_cover_backs": "PASS",
+    "combined_to_subject_text_pixels_and_navigation": "PASS",
+    "visual_page_overviews": 316,
+    "visual_table_details": 104,
+    "ieee_encoding_checks": "editorial/final/ieee754_checks.json",
+    "current_pdf_report_fingerprints": "PASS",
+    "readme_local_links_checked": 38
   },
   "retained": {
     "chapter_sources": 29,

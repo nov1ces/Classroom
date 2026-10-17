@@ -1,15 +1,16 @@
 {
-  "edition": "final_polished_with_followups",
-  "exported_at": "2026-10-17T17:23:08.707342+00:00",
-  "base_commit": "1c1a526b5c783d33e7bed5268fdc7acff92c62ff",
-  "source_note": "基于dcaaf97的DeepSeek润色及后续内容、排版修订；正文和当前构建工具的实际指纹见本清单。",
+  "edition": "final_duplex",
+  "exported_at": "2026-10-17T17:57:46.606553+00:00",
+  "base_commit": "189c527125beecf3525b856b09c284321afe8b72",
+  "source_note": "保留DeepSeek润色及后续内容修订；补IEEE浮点数表、逐表优化列宽，并为双面打印留白。正文与构建工具指纹见本清单。",
   "counts": {
     "books": 4,
     "chapters": 29,
-    "physical_pages": 310,
+    "physical_pages": 316,
     "numbered_examples": 193,
     "choices": 164,
     "statements": 15,
+    "tables": 104,
     "aligned_monospaced_code_choice_sets": 1
   },
   "books": [
@@ -17,9 +18,9 @@
       "subject": "DS",
       "title": "数据结构",
       "pdf": "dist/final/数据结构_最终稿.pdf",
-      "sha256": "a4feba204da80b60405233202e80f4f135f6ea25a81159de51677b4b53a3297f",
-      "bytes": 2212161,
-      "physical_pages": 75,
+      "sha256": "afd921f8a571016dfcc013aa1db5b3e8c6c0e48245c3f02d8f93ae99343f9226",
+      "bytes": 2224171,
+      "physical_pages": 76,
       "chapters": 8,
       "sources": [
         {
@@ -74,17 +75,28 @@
       "numbered_examples": 44,
       "choices": 35,
       "statements": 1,
+      "tables": 14,
+      "print_layout": {
+        "physical_pages": 76,
+        "even_page_count": true,
+        "cover_back_blank": true,
+        "blank_physical_pages": [
+          2
+        ],
+        "only_intended_blanks": true,
+        "blank_pages_render_pure_white": true
+      },
       "structural_check": "PASS",
       "option_alignment_check": "PASS",
-      "visual_check": "OVERVIEW_AND_TARGETED_DETAIL_PASS"
+      "visual_check": "OVERVIEW_AND_TABLE_DETAIL_PASS"
     },
     {
       "subject": "CO",
       "title": "计算机组成原理",
       "pdf": "dist/final/计算机组成原理_最终稿.pdf",
-      "sha256": "1cfb5132a7598a7b91bb982db8b3a10696ede36f7750144bb19634bc7382946b",
-      "bytes": 4839069,
-      "physical_pages": 72,
+      "sha256": "7566d75dff7f2fe8d3d497d3210aecd0a53b6b76059bf290c2ee61fbb7c5461f",
+      "bytes": 4860460,
+      "physical_pages": 74,
       "chapters": 8,
       "sources": [
         {
@@ -95,8 +107,8 @@
         },
         {
           "path": "manuscript/CO/02_数据表示与运算.md",
-          "sha256": "89ac8f8c5d60173499a3f52cb90d5277ea5d2e67d49c869baf05ebd16e9aa6db",
-          "characters": 13372,
+          "sha256": "092e674a870f02cfc0b4be95b4339a8feb22729a15dad63bb4d0dd9cdb6cef0c",
+          "characters": 14144,
           "chapter": 2
         },
         {
@@ -139,17 +151,28 @@
       "numbered_examples": 54,
       "choices": 53,
       "statements": 6,
+      "tables": 27,
+      "print_layout": {
+        "physical_pages": 74,
+        "even_page_count": true,
+        "cover_back_blank": true,
+        "blank_physical_pages": [
+          2
+        ],
+        "only_intended_blanks": true,
+        "blank_pages_render_pure_white": true
+      },
       "structural_check": "PASS",
       "option_alignment_check": "PASS",
-      "visual_check": "OVERVIEW_AND_TARGETED_DETAIL_PASS"
+      "visual_check": "OVERVIEW_AND_TABLE_DETAIL_PASS"
     },
     {
       "subject": "OS",
       "title": "操作系统",
       "pdf": "dist/final/操作系统_最终稿.pdf",
-      "sha256": "df07ee7a6863404dc0ab8673f84bc6ec63987c0887a9e1ea3474874b59f42863",
-      "bytes": 3773000,
-      "physical_pages": 84,
+      "sha256": "0bbbb8a679d11ba6688978e2b84cd824b11411f8e692b9f5f29d243e94e28d8f",
+      "bytes": 3791691,
+      "physical_pages": 86,
       "chapters": 7,
       "sources": [
         {
@@ -198,17 +221,28 @@
       "numbered_examples": 45,
       "choices": 35,
       "statements": 6,
+      "tables": 37,
+      "print_layout": {
+        "physical_pages": 86,
+        "even_page_count": true,
+        "cover_back_blank": true,
+        "blank_physical_pages": [
+          2
+        ],
+        "only_intended_blanks": true,
+        "blank_pages_render_pure_white": true
+      },
       "structural_check": "PASS",
       "option_alignment_check": "PASS",
-      "visual_check": "OVERVIEW_AND_TARGETED_DETAIL_PASS"
+      "visual_check": "OVERVIEW_AND_TABLE_DETAIL_PASS"
     },
     {
       "subject": "CN",
       "title": "计算机网络",
       "pdf": "dist/final/计算机网络_最终稿.pdf",
-      "sha256": "615541c73796129d23bfb333843037e40f63dd3777a7d96f3e74e608e13f1a8b",
-      "bytes": 11455946,
-      "physical_pages": 79,
+      "sha256": "91273a3240e4c0b396fbb864082836e8014ad093ed128dd5b29ddb46ab861ed2",
+      "bytes": 11470682,
+      "physical_pages": 80,
       "chapters": 6,
       "sources": [
         {
@@ -251,19 +285,60 @@
       "numbered_examples": 50,
       "choices": 41,
       "statements": 2,
+      "tables": 26,
+      "print_layout": {
+        "physical_pages": 80,
+        "even_page_count": true,
+        "cover_back_blank": true,
+        "blank_physical_pages": [
+          2
+        ],
+        "only_intended_blanks": true,
+        "blank_pages_render_pure_white": true
+      },
       "structural_check": "PASS",
       "option_alignment_check": "PASS",
-      "visual_check": "OVERVIEW_AND_TARGETED_DETAIL_PASS"
+      "visual_check": "OVERVIEW_AND_TABLE_DETAIL_PASS"
     }
   ],
   "combined": {
     "pdf": "dist/final/408四科讲义_最终稿_合订本.pdf",
-    "sha256": "63dc397e2bc5ae6ddf374bf6ca7aa9ffd60974e6a48a7bf06c96a92b39677928",
-    "bytes": 22662675,
-    "physical_pages": 310,
+    "sha256": "6cb2e5f458dccf8add9922ab512bbef134744b702d0aa58aa0b635aafe349b29",
+    "bytes": 22670278,
+    "physical_pages": 316,
     "internal_links": 798,
     "bookmarks": 595,
     "source_page_text_and_pixels_identical": true
+  },
+  "print_layout": {
+    "even_page_count": true,
+    "all_subject_covers_start_on_odd_pages": true,
+    "sections": [
+      {
+        "subject": "DS",
+        "start_physical_page": 1,
+        "physical_pages": 76,
+        "cover_back_blank_physical_page": 2
+      },
+      {
+        "subject": "CO",
+        "start_physical_page": 77,
+        "physical_pages": 74,
+        "cover_back_blank_physical_page": 78
+      },
+      {
+        "subject": "OS",
+        "start_physical_page": 151,
+        "physical_pages": 86,
+        "cover_back_blank_physical_page": 152
+      },
+      {
+        "subject": "CN",
+        "start_physical_page": 237,
+        "physical_pages": 80,
+        "cover_back_blank_physical_page": 238
+      }
+    ]
   },
   "checks": [
     "editorial/final/choice_source_checks.json",
@@ -271,21 +346,23 @@
     "editorial/final/visual_review.json",
     "editorial/final/chinese_format_scan.json",
     "editorial/final/conversion_results.json",
-    "editorial/final/delivery_checks.json",
-    "editorial/final/rebuild_equivalence.json"
+    "editorial/final/table_pdf_checks.json",
+    "editorial/final/delivery_checks.json"
   ],
   "tool_sha256": {
-    "tools/build_books.py": "f618e512b54dbe0d79ec88b0a2c2897894ce7a2ef7b9003aeb0fd1848b14132a",
+    "tools/build_books.py": "f2d1aafa2758a39e264c2d9f6ddbd626b272588aadbe1524321b32069be9812e",
     "tools/book_choices.py": "6b0cb5c9742133d42d00cdc8e51d1f9b13447b26cb5cd03ac936a2c3481f8293",
-    "tools/book_images.lua": "26270841a4cb70f6796ce43a8a73b03c546db30e9d5fbfc44718f6ca4a0eeb6a",
-    "tools/book_preamble.tex": "cf8a6ec52dfb4ae393bf9fba60b97a935b6001d87fa61aa0cf4cdb795876260a",
+    "tools/book_images.lua": "a8621945ae4a3f085caddca1c925462fb3829a26372cb68dedb9b2a57a8dc63b",
+    "tools/book_preamble.tex": "ffe7a11025e26dd394db7190ddb420453b789eb665bcaf7c64eb8c48be36fedc",
     "tools/verify_choice_layout.py": "cc7b070534976023838255e711111e239fd2b4d270472275cf32169e4a10a25c",
-    "tools/audit_books.py": "7eb26b9e1075e12d47b38fd93554835fe26dd22e1377b4ba520a7e288a20aa27",
+    "tools/audit_books.py": "e7bf75da5ce9465a7959a6962dc3f70d72b22d61be60fb2bf9fe6fe9084d5b0e",
     "tools/verify_reader_layout.py": "da44542df1f2576c5a346c26144b53bb2ae80806f1e8a29f14bca48967abd7d4",
     "tools/verify_conversion.py": "0c1a0935a545f9aefd4b5db334e8631220fa285a94303cab0b66ac2ea25ac3fb",
     "tools/resolve_fonts.py": "366df021c594c4dc97cdc0a817d24121c498da52e2fcfaab614999dfce72c837",
-    "tools/export_final.py": "882e0fbc0bac7eb02b1fedcc0d5fde5e954a0ee615fb15837f72c16e5d325eb2",
-    "build_final.sh": "86ee03ff2759a235b2b80b3eeb02bccc1e900a3194d1e40e25a52f296bd9cc0e"
+    "tools/book_tables.py": "3db9fded389ba8d0e3d198cdd4fb4e87152cec53ccc439d8f8ca5bad239a5a93",
+    "tools/verify_table_layout.py": "c0823bef38c2e27a5991fcba11b0a4f3e433fd7046d01497c92519ee75cd8dc6",
+    "tools/export_final.py": "ce8fcdfe16adf4a5459b3f88d94b80052ce46e610905edc2623cddd01721b4a9",
+    "build_final.sh": "5df9f4d351c16934210d73dd79a2c23e4c31b47070e00b4447ca31438d2c3373"
   },
   "review_scope": "29章文本与结构保全；全部选项和题组逐组坐标核对；全页渲染与版面总览、重点页细看；不重新认证历史独立内容审校或官方题源。"
 }

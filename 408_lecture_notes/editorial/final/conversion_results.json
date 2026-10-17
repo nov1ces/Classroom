@@ -48,7 +48,7 @@
       "actual": true,
       "expected": true,
       "status": "PASS",
-      "scope": "逐一比较全部102张管道表的表头、分隔行、数据行列数；与真实Pandoc AST行列交叉，不检查成稿版面。"
+      "scope": "逐一比较全部104张管道表的表头、分隔行、数据行列数；与真实Pandoc AST行列交叉，不检查成稿版面。"
     }
   ],
   "check_count": 7,
@@ -60,7 +60,7 @@
     "manuscript/CN/05_传输层可靠连接与窗口.md": "019fc76b521f58b4791919b380a880b0ae37ed19420bb0e8145169ebd4f08c47",
     "manuscript/CN/06_应用层名称邮件与Web.md": "07488d12cd1cbb29fca8bd3d97a8ebc718c16357a9efe768f08acc23dbb6a87f",
     "manuscript/CO/01_计算机系统与程序执行.md": "04409b5facd73ee6efc15012380a1700918e97df815396a630f0f0d89ccde544",
-    "manuscript/CO/02_数据表示与运算.md": "89ac8f8c5d60173499a3f52cb90d5277ea5d2e67d49c869baf05ebd16e9aa6db",
+    "manuscript/CO/02_数据表示与运算.md": "092e674a870f02cfc0b4be95b4339a8feb22729a15dad63bb4d0dd9cdb6cef0c",
     "manuscript/CO/03_存储系统与地址.md": "459e2d64cd4e5fd2e4dcf4dbde3900a552d0d5f11a7c4afdfaa893f4a623b7ac",
     "manuscript/CO/04_指令系统与程序表示.md": "c20b603358789cac89a97bdc4300a472bcd03048386da8b66be37ab200a42bfb",
     "manuscript/CO/05_CPU与控制.md": "9d2a2af4b5c93a34e602eb4277ac9d7511bcc9aa91edb3454cf0c888a33548fc",
@@ -85,7 +85,7 @@
   },
   "actual_code_blocks": 71,
   "actual_inline_code_nodes": 726,
-  "actual_pipe_tables": 102,
+  "actual_pipe_tables": 104,
   "table_dimensions": [
     {
       "path": "manuscript/CN/01_网络层次服务与性能.md",
@@ -284,6 +284,18 @@
       "columns": 5,
       "data_rows": 3,
       "line": 194
+    },
+    {
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "columns": 3,
+      "data_rows": 10,
+      "line": 208
+    },
+    {
+      "path": "manuscript/CO/02_数据表示与运算.md",
+      "columns": 4,
+      "data_rows": 5,
+      "line": 225
     },
     {
       "path": "manuscript/CO/03_存储系统与地址.md",

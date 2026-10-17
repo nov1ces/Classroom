@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "source": "manuscript/CO/02_数据表示与运算.md",
+  "source_sha256": "092e674a870f02cfc0b4be95b4339a8feb22729a15dad63bb4d0dd9cdb6cef0c",
+  "records": [
+    {
+      "format": "binary32",
+      "exponent_bits": 8,
+      "fraction_bits": 23,
+      "bias": 127,
+      "normal_exponent_range": [
+        -126,
+        127
+      ],
+      "significant_bits": 24,
+      "minimum_subnormal_exponent": -149,
+      "checks": "有限边界、正负零、无穷、NaN的位模式经Python struct解码交叉检查"
+    },
+    {
+      "format": "binary64",
+      "exponent_bits": 11,
+      "fraction_bits": 52,
+      "bias": 1023,
+      "normal_exponent_range": [
+        -1022,
+        1023
+      ],
+      "significant_bits": 53,
+      "minimum_subnormal_exponent": -1074,
+      "checks": "有限边界、正负零、无穷、NaN的位模式经Python struct解码交叉检查"
+    }
+  ]
+}

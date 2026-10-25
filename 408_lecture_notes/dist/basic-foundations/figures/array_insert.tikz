@@ -1,0 +1,17 @@
+
+\begin{tikzpicture}[x=11mm,y=11mm,font=\small,
+  cell/.style={draw=SNink,minimum width=11mm,minimum height=8mm,inner sep=0pt},
+  lab/.style={font=\scriptsize,text=SNmuted},>=Latex]
+\node[anchor=east] at (-.7,0) {before};
+\node[anchor=east] at (-.7,-1.9) {after};
+\foreach \v [count=\i from 0] in {10,20,30,{}} {
+  \node[cell,fill=SNblue] (b\i) at (\i,0) {\v};
+  \node[lab] at (\i,.65) {\i};}
+\foreach \v [count=\i from 0] in {10,99,20,30} {
+  \node[cell,fill=SNblue] (a\i) at (\i,-1.9) {\v};}
+\node[cell,fill=SNpink] at (1,-1.9) {99};
+\draw[->,thick,SNrose] (b2.south) -- (a3.north);
+\draw[->,thick,SNink] (b1.south) -- (a2.north);
+\node[lab,anchor=west] at (3.65,0) {$n=3$};
+\node[lab,anchor=west] at (3.65,-1.9) {$n=4$};
+\end{tikzpicture}

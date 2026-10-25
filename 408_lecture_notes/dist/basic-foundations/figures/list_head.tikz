@@ -1,0 +1,11 @@
+
+\begin{tikzpicture}[x=1mm,y=1mm,font=\small,>=Latex,
+ nodebox/.style={draw=SNink,fill=SNblue,minimum width=14mm,minimum height=9mm,inner sep=1mm}]
+\node (L) at (0,0) {$L$};
+\node[nodebox] (h) at (19,0) {head};
+\node[nodebox] (a) at (45,0) {10};
+\node[nodebox] (b) at (70,0) {20};
+\node (null) at (96,0) {$\varnothing$};
+\draw[->] (L)--(h);\draw[->] (h)--(a);\draw[->] (a)--(b);\draw[->] (b)--(null);
+\node[font=\scriptsize,text=SNmuted] at (45,-10) {first data node};
+\end{tikzpicture}

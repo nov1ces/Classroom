@@ -11,3 +11,4 @@ venv/
 /build/
 /dist/*
 !/dist/final/
+!/dist/basic-foundations/

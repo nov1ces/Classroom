@@ -1,0 +1,13 @@
+# Rebuild output and page previews.
+build/
+previews/
+__pycache__/
+*.py[cod]
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+main.pdf
+notes.pdf
+notes-draft.pdf

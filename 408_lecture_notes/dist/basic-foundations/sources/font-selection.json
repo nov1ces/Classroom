@@ -1,0 +1,79 @@
+{
+  "variant": "system-fonts-2026-10-25",
+  "selection_basis": "User requested a PDF using general notes. Existing same-family system fonts used as disclosed implementation default; exact upstream font archive unavailable. Optional font preference question has no reply yet.",
+  "original_archive_library_file_id": "libfile_21988d6654c48191b953a4b134ce8ef3",
+  "files": [
+    {
+      "name": "DejaVuSansMono-Bold.ttf",
+      "sha256": "0d3c03d1b667192f91223660a3163325cf83132662fe4d9f7d6e596bf7a995c2"
+    },
+    {
+      "name": "DejaVuSansMono.ttf",
+      "sha256": "54bf827eb99404e8f430c330ad30f063334f637eba0109b6a18d4f566a8e9dd8"
+    },
+    {
+      "name": "LICENSE-DejaVu.txt",
+      "sha256": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+    },
+    {
+      "name": "LICENSE-URW.txt",
+      "sha256": "1315a62758a603a3e6e87a79b8389563789c59c1740b9db8bc2b20e2e2145458"
+    },
+    {
+      "name": "NimbusRoman-Bold.otf",
+      "sha256": "e0ad81923bc6d85d5426f796217c87963ca1ae3c65e22c87a25b6c6353de299e"
+    },
+    {
+      "name": "NimbusRoman-BoldItalic.otf",
+      "sha256": "c84bcb17ab4ee54f16dadad6a3b0b2df37a24f9fc812897c4a59eeca785a5dec"
+    },
+    {
+      "name": "NimbusRoman-Italic.otf",
+      "sha256": "b7c424e6cb79baddfcdcd9a9d87f9fc4fdd06f0e5160066e2b2e47bcd647c7b9"
+    },
+    {
+      "name": "NimbusRoman-Regular.otf",
+      "sha256": "fd41669443616a7ae890c42e53a58f47fa24a940fd1e367acaff665cf5b6e9d8"
+    },
+    {
+      "name": "NimbusSans-Bold.otf",
+      "sha256": "7f33328e6b4d4cd21b45fa625791928c9407dc702db6780e56b09ca9a3ecaa67"
+    },
+    {
+      "name": "NimbusSans-BoldItalic.otf",
+      "sha256": "3f47fb34fcb7de09f8cbc9f305191340ddebf7a068419f4bb5f49287dea59b87"
+    },
+    {
+      "name": "NimbusSans-Italic.otf",
+      "sha256": "7b0bef5686aa58c0fd0f0d01beeae56664208490e30ca6a25431281c9a0c6402"
+    },
+    {
+      "name": "NimbusSans-Regular.otf",
+      "sha256": "7c25be4d78155523080ab85b10277150657ff7dabbcad7037bdd536c9b6d0d08"
+    },
+    {
+      "name": "NotoSansSC-Bold.otf",
+      "sha256": "85027e17e15c7815ba707b26eb2b1da64244f3ae392e5a346ae4ce9a773d951e"
+    },
+    {
+      "name": "NotoSansSC-Regular.otf",
+      "sha256": "b042d058e25e1e61c4f2f8ce28442c9d4f43c4b1a18205620a114f54440afda6"
+    },
+    {
+      "name": "NotoSerifSC-Bold.otf",
+      "sha256": "c46849e0bbea8f11781df3fb7ebdae5d061a6d014df13f514653506c93e067dc"
+    },
+    {
+      "name": "NotoSerifSC-Regular.otf",
+      "sha256": "0959d2f749c2b0c5ec074c7a9d72e0b54311c243cd3fe52dccf53f96b976c4ff"
+    },
+    {
+      "name": "OFL-Sans.txt",
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    },
+    {
+      "name": "OFL-Serif.txt",
+      "sha256": "849f4ea9c214fa4ac3593b770c699f387534b11ce671264c1b10d85bdcb5997b"
+    }
+  ]
+}

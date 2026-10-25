@@ -1,0 +1,126 @@
+% All figures are editable TikZ; no screenshot is used in a PDF page.
+\tikzset{snv/.style={circle,fill=SNnode,minimum size=7.8mm,inner sep=0pt,
+  font=\fontsize{12}{13}\selectfont},
+  sne/.style={-{Stealth[length=2.4mm,width=1.9mm]},draw=SNink,line width=.8pt},
+  snd/.style={sne,dashed,draw=black!35},snw/.style={font=\small,fill=white,inner sep=1pt}}
+\NewDocumentCommand\GraphSample{O{1}}{%
+ \begin{tikzpicture}[scale=#1,transform shape]
+ \node[snv,fill=SNyellow](a) at (0,0){0};
+ \node[snv,fill=SNpink](b) at (3.05,1.18){1};
+ \node[snv](c) at (3.05,-1.18){2};
+ \node[snv,fill=SNpink](d) at (6.1,0){3};
+ \node[snv](e) at (9.15,0){4};
+ \node[snv,fill=SNyellow](f) at (9.15,-2){5};
+ \draw[sne] (a) to[bend left=9] node[snw,above]{4}(b);
+ \draw[sne] (a) to[bend right=9] node[snw,below]{1}(c);
+ \draw[sne] (c) to[bend right=12] node[snw,right]{2}(b);
+ \draw[sne] (b) to[bend left=7] node[snw,above]{1}(d);
+ \draw[sne] (c) to[bend right=7] node[snw,below]{5}(d);
+ \draw[sne] (d) to[bend left=8] node[snw,above]{3}(e);
+ \node[font=\tiny,text=SNmuted,anchor=east] at (8.3,-2){孤立顶点};
+ \end{tikzpicture}}
+\NewDocumentCommand\ShortestGraph{O{1}}{%
+ \begin{tikzpicture}[scale=#1,transform shape]
+ \node[snv,fill=SNyellow](a) at (0,0){0};
+ \node[snv,fill=SNpink](b) at (3.05,1.15){1};
+ \node[snv](c) at (3.05,-1.15){2};
+ \node[snv,fill=SNpink](d) at (6.1,0){3};
+ \node[snv,fill=SNyellow](e) at (9.15,0){4};
+ \draw[snd] (a) to[bend left=8] node[snw,above]{4}(b);
+ \draw[sne] (a) to[bend right=8] node[snw,below]{1}(c);
+ \draw[sne] (c) to[bend right=12] node[snw,right]{2}(b);
+ \draw[sne] (b) to[bend left=7] node[snw,above]{1}(d);
+ \draw[snd] (c) to[bend right=7] node[snw,below]{5}(d);
+ \draw[sne] (d) to[bend left=8] node[snw,above]{3}(e);
+ \end{tikzpicture}}
+\newcommand{\GraphTriangle}{\begin{tikzpicture}
+ \node[snv,fill=SNyellow](a) at (0,0){0};
+ \node[snv,fill=SNpink](b) at (3.8,0){1};
+ \node[snv](c) at (1.9,-1.65){2};
+ \draw[snd] (a) to[bend left=10] node[snw,above]{4}(b);
+ \draw[sne] (a) to[bend right=9] node[snw,below left]{1}(c);
+ \draw[sne] (c) to[bend right=9] node[snw,below right]{2}(b);
+ \node[font=\small] at (1.9,-2.8){$\min\{4,1+2\}=3$};\end{tikzpicture}}
+\newcommand{\AdjacencyList}{\begin{tikzpicture}
+ \foreach \i/\s in {0/{(1,4)\quad(2,1)},1/{(3,1)},2/{(1,2)\quad(3,5)},3/{(4,3)},4/{\varnothing},5/{\varnothing}}{
+  \node[snv] (n\i) at (0,-\i*.91){\i};
+  \draw[-{Stealth[length=1.8mm]},black!40] (n\i.east) --++(.65,.18);
+  \node[anchor=west,font=\small] at (1.0,-\i*.91){$\s$};}
+ \end{tikzpicture}}
+\newcommand{\BFSLayers}{\begin{tikzpicture}
+ \node[snv,fill=SNyellow](a) at (0,0){0};
+ \node[snv](b) at (3,1.1){1};\node[snv](c) at (3,-1.1){2};
+ \node[snv,fill=SNpink](d) at (6,0){3};
+ \node[snv,fill=SNyellow](e) at (9,0){4};
+ \draw[sne](a)to[bend left=8](b);\draw[sne](a)to[bend right=8](c);
+ \draw[sne](b)to[bend left=8](d);\draw[snd](c)to[bend right=8](d);
+ \draw[snd](c)to[bend right=10](b);\draw[sne](d)--(e);
+ \foreach \x/\l in {0/0,3/1,6/2,9/3}
+ \node[font=\large] at (\x,-2.2){$L_{\l}$};\end{tikzpicture}}
+\newcommand{\DiamondGraph}{\begin{tikzpicture}
+ \node[snv,fill=SNyellow](s) at (0,0){$s$};
+ \node[snv](a) at (1.8,1.1){$a$};\node[snv](b)at(1.8,-1.1){$b$};
+ \node[snv,fill=SNpink](t)at(3.6,0){$t$};
+ \draw[sne](s)to[bend left=8](a);\draw[sne](s)to[bend right=8](b);
+ \draw[sne](a)to[bend left=8](t);\draw[sne](b)to[bend right=8](t);
+ \node[font=\small] at(1.8,-2.05){两条入边，一个发现任务};\end{tikzpicture}}
+\newcommand{\ParentChain}{\begin{tikzpicture}
+ \foreach \i/\v/\c in {0/4/SNpink,1/3/SNyellow,2/1/SNpink,3/0/SNyellow}{
+ \node[snv,fill=\c](p\i)at(0,-\i*1.12){\v};}
+ \foreach \i/\j in {0/1,1/2,2/3}\draw[sne](p\i)--(p\j);
+ \node[anchor=west] at(.8,-1.3){parent};
+ \node[anchor=west,font=\small]at(.8,-3.36){$p[0]=0$，停止};\end{tikzpicture}}
+\newcommand{\DFSIntervals}{\begin{tikzpicture}[x=.36cm,y=.66cm]
+ \foreach \a/\b/\r/\v in {0/9/4/0,1/6/3/1,2/5/2/3,3/4/1/4,7/8/3/2,10/11/4/5}{
+ \draw[SNink,line width=1.5pt](\a,\r)--(\b,\r);
+ \draw[SNink](\a,\r-.13)--(\a,\r+.13) (\b,\r-.13)--(\b,\r+.13);
+ \node[above,font=\scriptsize]at({(\a+\b)/2},\r){$v=\v$};}
+ \foreach \x in {0,3,6,9,11}\node[font=\scriptsize]at(\x,0){\x};\end{tikzpicture}}
+\newcommand{\DFSStack}{\begin{tikzpicture}
+ \foreach \y/\v/\c in {0/0/SNnode,1/1/SNnode,2/3/SNyellow,3/4/SNpink}
+ \node[fill=\c,minimum width=34mm,minimum height=6.5mm,font=\small]at(0,\y*.82){帧 $(\v,\mathrm{next})$};
+ \node[anchor=west,font=\small]at(1.9,2.46){栈顶};
+ \node[font=\small]at(0,-.8){返回时才记录 tout};\end{tikzpicture}}
+\newcommand{\CycleGraph}{\begin{tikzpicture}
+ \node[snv,fill=SNyellow](a)at(0,0){0};\node[snv](b)at(3.4,0){1};
+ \node[snv,fill=SNpink](c)at(1.7,-2.4){2};
+ \draw[sne](a)to[bend left=8](b);\draw[sne](b)to[bend left=8](c);
+ \draw[sne,dashed,draw=SNrose](c)to[bend left=16](a);
+ \node[text=SNrose,font=\small]at(1.7,-3.5){回边：指向栈内祖先};\end{tikzpicture}}
+\newcommand{\KahnGraph}{\begin{tikzpicture}
+ \node[snv](a)at(0,1){$a$};\node[snv](b)at(0,-1){$b$};
+ \node[snv,fill=SNpink](v)at(3.4,0){$v$};
+ \draw[sne](a)to[bend left=8](v);\draw[sne](b)to[bend right=8](v);
+ \node[font=\small]at(1.7,1.9){移除 $a$: $2\to1$};
+ \node[font=\small]at(1.7,-1.9){移除 $b$: $1\to0$，入队};\end{tikzpicture}}
+\newcommand{\RelaxEdge}{\begin{tikzpicture}
+ \node[snv](u)at(0,0){$u$};\node[snv,fill=SNpink](v)at(3.4,0){$v$};
+ \draw[sne](u)to[bend left=12]node[above,font=\small]{$w=2$}(v);
+ \node[font=\small]at(0,-.85){$d[u]=1$};\node[font=\small]at(3.4,-.85){$4\to3$};
+ \node[font=\small]at(1.7,-1.75){$1+2<4$: 同步改写父指针};\end{tikzpicture}}
+\newcommand{\CutGraph}{\begin{tikzpicture}
+ \fill[SNnode!40](-.6,-.55)rectangle(1.15,1.6);
+ \node[snv](s)at(0,.8){$s$};\node[snv,fill=SNyellow](x)at(.6,-.05){$x$};
+ \node[snv,fill=SNpink](y)at(2.35,-.05){$y$};
+ \node[snv,fill=SNyellow](u)at(3.15,1.1){$u$};
+ \draw[sne](s)--(x);\draw[sne](x)to[bend left=8](y);\draw[sne](y)--(u);
+ \node[anchor=west,font=\small]at(-.6,1.95){已确定集合 $S$};
+ \node[font=\small]at(2,-1.1){$x\in S,\quad y\notin S$};\end{tikzpicture}}
+% Additional reusable diagrams, in the same soft palette.
+\newcommand{\StateMachine}{\begin{tikzpicture}[node distance=10mm]
+ \node[snv,minimum size=11mm](a){白};
+ \node[snv,fill=SNyellow,minimum size=11mm,right=of a](b){灰};
+ \node[snv,fill=SNpink,minimum size=11mm,right=of b](c){黑};
+ \draw[sne](a)--node[above,font=\scriptsize]{进入}(b);
+ \draw[sne](b)--node[above,font=\scriptsize]{退出}(c);\end{tikzpicture}}
+\newcommand{\MemoryCells}{\begin{tikzpicture}
+ \foreach \i/\v/\c in {0/0/SNyellow,1/1/SNnode,2/1/SNnode,3/2/SNpink,4/3/SNpink,5/\infty/SNgray}{
+ \node[draw=white,line width=1.5pt,fill=\c,minimum width=13mm,minimum height=8mm]
+ at(\i*1.3,0){$\v$};\node[font=\scriptsize,text=SNmuted]at(\i*1.3,.7){\i};}
+ \node[font=\small,anchor=east]at(-.9,0){$d$};\end{tikzpicture}}
+\newcommand{\RevisionTimeline}{\begin{tikzpicture}[x=1cm]
+ \draw[SNink,line width=.7pt](0,0)--(8.7,0);
+ \foreach \x/\n/\d in {0/初学/当天,2.8/回忆/次日,5.6/变式/第4天,8.4/检测/第7天}{
+ \fill[SNink](\x,0)circle(1.2mm);
+ \node[font=\small,above=2mm]at(\x,0){\n};
+ \node[font=\scriptsize,below=2mm]at(\x,0){\d};}\end{tikzpicture}}

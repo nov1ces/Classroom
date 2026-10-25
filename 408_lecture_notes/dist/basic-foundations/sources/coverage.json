@@ -1,0 +1,1143 @@
+{
+  "items": [
+    {
+      "id": "ds1-intro",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "开篇",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-intro) / notes.md:ds1-intro",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-concepts",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "数据结构：对象、关系与操作",
+      "kind": "section",
+      "target": "chapter.tex:hypertarget(ds1-concepts) / notes.md:ds1-concepts",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-terms",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "数据结构：对象、关系与操作",
+      "kind": "definition",
+      "target": "chapter.tex:hypertarget(ds1-terms) / notes.md:ds1-terms",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-record",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "数据结构：对象、关系与操作",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-record) / notes.md:ds1-record",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-three",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "数据结构：对象、关系与操作",
+      "kind": "takeaway",
+      "target": "chapter.tex:hypertarget(ds1-three) / notes.md:ds1-three",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-value-relation",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "数据结构：对象、关系与操作",
+      "kind": "sidebar",
+      "target": "chapter.tex:hypertarget(ds1-value-relation) / notes.md:ds1-value-relation",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-logical",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "数据结构：对象、关系与操作",
+      "kind": "table",
+      "target": "chapter.tex:hypertarget(ds1-logical) / notes.md:ds1-logical",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-linear-note",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "数据结构：对象、关系与操作",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-linear-note) / notes.md:ds1-linear-note",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-storage",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "数据结构：对象、关系与操作",
+      "kind": "table",
+      "target": "chapter.tex:hypertarget(ds1-storage) / notes.md:ds1-storage",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-not-equal",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "数据结构：对象、关系与操作",
+      "kind": "pitfall",
+      "target": "chapter.tex:hypertarget(ds1-not-equal) / notes.md:ds1-not-equal",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-adt",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "数据结构：对象、关系与操作",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-adt) / notes.md:ds1-adt",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-algorithm",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "算法的特性与设计要求",
+      "kind": "section",
+      "target": "chapter.tex:hypertarget(ds1-algorithm) / notes.md:ds1-algorithm",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-algorithm-def",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "算法的特性与设计要求",
+      "kind": "definition",
+      "target": "chapter.tex:hypertarget(ds1-algorithm-def) / notes.md:ds1-algorithm-def",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-five",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "算法的特性与设计要求",
+      "kind": "table",
+      "target": "chapter.tex:hypertarget(ds1-five) / notes.md:ds1-five",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-output",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "算法的特性与设计要求",
+      "kind": "sidebar",
+      "target": "chapter.tex:hypertarget(ds1-output) / notes.md:ds1-output",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-quality",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "算法的特性与设计要求",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-quality) / notes.md:ds1-quality",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-max-boundary",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "算法的特性与设计要求",
+      "kind": "example",
+      "target": "chapter.tex:hypertarget(ds1-max-boundary) / notes.md:ds1-max-boundary",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-time",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "section",
+      "target": "chapter.tex:hypertarget(ds1-time) / notes.md:ds1-time",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-cost",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-cost) / notes.md:ds1-cost",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-asymptotic",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "takeaway",
+      "target": "chapter.tex:hypertarget(ds1-asymptotic) / notes.md:ds1-asymptotic",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-order",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-order) / notes.md:ds1-order",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-rules",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "table",
+      "target": "chapter.tex:hypertarget(ds1-rules) / notes.md:ds1-rules",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-count-method",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "sidebar",
+      "target": "chapter.tex:hypertarget(ds1-count-method) / notes.md:ds1-count-method",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-patterns",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "table",
+      "target": "chapter.tex:hypertarget(ds1-patterns) / notes.md:ds1-patterns",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-ex2017",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds1-ex2017) / notes.md:ds1-ex2017",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-ex2017-stem",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-ex2017-stem) / notes.md:ds1-ex2017-stem",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-code2017",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds1-code2017) / notes.md:ds1-code2017",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-ex2017-options",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-ex2017-options) / notes.md:ds1-ex2017-options",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-ex2017-answer",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "solution",
+      "target": "chapter.tex:hypertarget(ds1-ex2017-answer) / notes.md:ds1-ex2017-answer",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-ex2022",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds1-ex2022) / notes.md:ds1-ex2022",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-ex2022-stem",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-ex2022-stem) / notes.md:ds1-ex2022-stem",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-code2022",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds1-code2022) / notes.md:ds1-code2022",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-ex2022-options",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-ex2022-options) / notes.md:ds1-ex2022-options",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-ex2022-answer",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "solution",
+      "target": "chapter.tex:hypertarget(ds1-ex2022-answer) / notes.md:ds1-ex2022-answer",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-cases",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds1-cases) / notes.md:ds1-cases",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-cases-text",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-cases-text) / notes.md:ds1-cases-text",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-average",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "时间复杂度：先计数，再判断数量级",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-average) / notes.md:ds1-average",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-space",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "辅助空间：看同时保留多少状态",
+      "kind": "section",
+      "target": "chapter.tex:hypertarget(ds1-space) / notes.md:ds1-space",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-space-def",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "辅助空间：看同时保留多少状态",
+      "kind": "definition",
+      "target": "chapter.tex:hypertarget(ds1-space-def) / notes.md:ds1-space-def",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-space-table",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "辅助空间：看同时保留多少状态",
+      "kind": "table",
+      "target": "chapter.tex:hypertarget(ds1-space-table) / notes.md:ds1-space-table",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-space-star",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "辅助空间：看同时保留多少状态",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-space-star) / notes.md:ds1-space-star",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-constant",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "辅助空间：看同时保留多少状态",
+      "kind": "sidebar",
+      "target": "chapter.tex:hypertarget(ds1-constant) / notes.md:ds1-constant",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-recursion",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "辅助空间：看同时保留多少状态",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-recursion) / notes.md:ds1-recursion",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-inplace",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "辅助空间：看同时保留多少状态",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds1-inplace) / notes.md:ds1-inplace",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-recall",
+      "source": "408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "locator": "辅助空间：看同时保留多少状态",
+      "kind": "recallcard",
+      "target": "chapter.tex:hypertarget(ds1-recall) / notes.md:ds1-recall",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds1-ex2017-original",
+      "source": "01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+      "locator": "PDF第20页",
+      "kind": "examproblem",
+      "target": "chapter.tex:ds1-ex2017 / notes.md:ds1-ex2017",
+      "status": "covered",
+      "note": "原题年份、题干、程序段和四个选项均已核对；推导重新计算。"
+    },
+    {
+      "id": "ds1-ex2022-original",
+      "source": "01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+      "locator": "PDF第22页",
+      "kind": "examproblem",
+      "target": "chapter.tex:ds1-ex2022 / notes.md:ds1-ex2022",
+      "status": "covered",
+      "note": "原题年份、题干、程序段和四个选项均已核对；推导重新计算。"
+    },
+    {
+      "id": "ds2-intro",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "开篇",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-intro) / notes.md:ds2-intro",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-basics",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "定义、位序与基本操作",
+      "kind": "section",
+      "target": "chapter.tex:hypertarget(ds2-basics) / notes.md:ds2-basics",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-definition",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "定义、位序与基本操作",
+      "kind": "definition",
+      "target": "chapter.tex:hypertarget(ds2-definition) / notes.md:ds2-definition",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-values",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "定义、位序与基本操作",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-values) / notes.md:ds2-values",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-operations",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "定义、位序与基本操作",
+      "kind": "table",
+      "target": "chapter.tex:hypertarget(ds2-operations) / notes.md:ds2-operations",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-index",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "定义、位序与基本操作",
+      "kind": "takeaway",
+      "target": "chapter.tex:hypertarget(ds2-index) / notes.md:ds2-index",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-find-failure",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "定义、位序与基本操作",
+      "kind": "sidebar",
+      "target": "chapter.tex:hypertarget(ds2-find-failure) / notes.md:ds2-find-failure",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-array",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "section",
+      "target": "chapter.tex:hypertarget(ds2-array) / notes.md:ds2-array",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-seq-def",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-seq-def) / notes.md:ds2-seq-def",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-random",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "pitfall",
+      "target": "chapter.tex:hypertarget(ds2-random) / notes.md:ds2-random",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-sq-struct",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-sq-struct) / notes.md:ds2-sq-struct",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-capacity",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-capacity) / notes.md:ds2-capacity",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-sq-find",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-sq-find) / notes.md:ds2-sq-find",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-insert",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds2-insert) / notes.md:ds2-insert",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-insert-idea",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-insert-idea) / notes.md:ds2-insert-idea",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-array-figure",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "figure",
+      "target": "chapter.tex:hypertarget(ds2-array-figure) / notes.md:ds2-array-figure",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-sq-insert",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-sq-insert) / notes.md:ds2-sq-insert",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-insert-boundary",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "sidebar",
+      "target": "chapter.tex:hypertarget(ds2-insert-boundary) / notes.md:ds2-insert-boundary",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-insert-count",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-insert-count) / notes.md:ds2-insert-count",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-delete",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds2-delete) / notes.md:ds2-delete",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-delete-idea",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-delete-idea) / notes.md:ds2-delete-idea",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-sq-delete",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-sq-delete) / notes.md:ds2-sq-delete",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-delete-count",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-delete-count) / notes.md:ds2-delete-count",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-moves-example",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "顺序表：连续存储与元素移动",
+      "kind": "example",
+      "target": "chapter.tex:hypertarget(ds2-moves-example) / notes.md:ds2-moves-example",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-linked",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "section",
+      "target": "chapter.tex:hypertarget(ds2-linked) / notes.md:ds2-linked",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-node-def",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-node-def) / notes.md:ds2-node-def",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-node-struct",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-node-struct) / notes.md:ds2-node-struct",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-head-figure",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "figure",
+      "target": "chapter.tex:hypertarget(ds2-head-figure) / notes.md:ds2-head-figure",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-head-terms",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "table",
+      "target": "chapter.tex:hypertarget(ds2-head-terms) / notes.md:ds2-head-terms",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-head-benefit",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-head-benefit) / notes.md:ds2-head-benefit",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-linked-find",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds2-linked-find) / notes.md:ds2-linked-find",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-getelem",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-getelem) / notes.md:ds2-getelem",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-getelem-note",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-getelem-note) / notes.md:ds2-getelem-note",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-linked-locate",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-linked-locate) / notes.md:ds2-linked-locate",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-linked-insert",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds2-linked-insert) / notes.md:ds2-linked-insert",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-linked-insert-idea",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-linked-insert-idea) / notes.md:ds2-linked-insert-idea",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-link-insert-figure",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "figure",
+      "target": "chapter.tex:hypertarget(ds2-link-insert-figure) / notes.md:ds2-link-insert-figure",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-linked-insert-code",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-linked-insert-code) / notes.md:ds2-linked-insert-code",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-linked-allocation",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "sidebar",
+      "target": "chapter.tex:hypertarget(ds2-linked-allocation) / notes.md:ds2-linked-allocation",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-linked-insert-cost",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-linked-insert-cost) / notes.md:ds2-linked-insert-cost",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-linked-delete",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds2-linked-delete) / notes.md:ds2-linked-delete",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-linked-delete-code",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-linked-delete-code) / notes.md:ds2-linked-delete-code",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-delete-pitfall",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "pitfall",
+      "target": "chapter.tex:hypertarget(ds2-delete-pitfall) / notes.md:ds2-delete-pitfall",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-build",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds2-build) / notes.md:ds2-build",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-head-build",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-head-build) / notes.md:ds2-head-build",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-tail-build",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-tail-build) / notes.md:ds2-tail-build",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-build-order",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-build-order) / notes.md:ds2-build-order",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-build-space",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-build-space) / notes.md:ds2-build-space",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-destroy",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "单链表：结点、查找与链接修改",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-destroy) / notes.md:ds2-destroy",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-variants",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "section",
+      "target": "chapter.tex:hypertarget(ds2-variants) / notes.md:ds2-variants",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-double",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds2-double) / notes.md:ds2-double",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-double-text",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-double-text) / notes.md:ds2-double-text",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-double-insert",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-double-insert) / notes.md:ds2-double-insert",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-double-invariant",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-double-invariant) / notes.md:ds2-double-invariant",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-double-delete",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-double-delete) / notes.md:ds2-double-delete",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-double-delete-code",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-double-delete-code) / notes.md:ds2-double-delete-code",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-circular",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds2-circular) / notes.md:ds2-circular",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-circular-text",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-circular-text) / notes.md:ds2-circular-text",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-circular-figure",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "figure",
+      "target": "chapter.tex:hypertarget(ds2-circular-figure) / notes.md:ds2-circular-figure",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-empty",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "table",
+      "target": "chapter.tex:hypertarget(ds2-empty) / notes.md:ds2-empty",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-pointer-address",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "sidebar",
+      "target": "chapter.tex:hypertarget(ds2-pointer-address) / notes.md:ds2-pointer-address",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-tail-circle",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-tail-circle) / notes.md:ds2-tail-circle",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-static",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds2-static) / notes.md:ds2-static",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-static-text",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-static-text) / notes.md:ds2-static-text",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-compare",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "table",
+      "target": "chapter.tex:hypertarget(ds2-compare) / notes.md:ds2-compare",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-choose",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "双链表、循环链表与静态链表",
+      "kind": "takeaway",
+      "target": "chapter.tex:hypertarget(ds2-choose) / notes.md:ds2-choose",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-basic-algorithms",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "基础巩固：一次扫描与原地逆置",
+      "kind": "section",
+      "target": "chapter.tex:hypertarget(ds2-basic-algorithms) / notes.md:ds2-basic-algorithms",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-delete-all",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "基础巩固：一次扫描与原地逆置",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds2-delete-all) / notes.md:ds2-delete-all",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-delete-all-idea",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "基础巩固：一次扫描与原地逆置",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-delete-all-idea) / notes.md:ds2-delete-all-idea",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-delete-all-code",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "基础巩固：一次扫描与原地逆置",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-delete-all-code) / notes.md:ds2-delete-all-code",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-delete-all-boundary",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "基础巩固：一次扫描与原地逆置",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-delete-all-boundary) / notes.md:ds2-delete-all-boundary",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-reverse",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "基础巩固：一次扫描与原地逆置",
+      "kind": "subsection",
+      "target": "chapter.tex:hypertarget(ds2-reverse) / notes.md:ds2-reverse",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-reverse-idea",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "基础巩固：一次扫描与原地逆置",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-reverse-idea) / notes.md:ds2-reverse-idea",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-reverse-code",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "基础巩固：一次扫描与原地逆置",
+      "kind": "code",
+      "target": "chapter.tex:hypertarget(ds2-reverse-code) / notes.md:ds2-reverse-code",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-reverse-boundary",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "基础巩固：一次扫描与原地逆置",
+      "kind": "p",
+      "target": "chapter.tex:hypertarget(ds2-reverse-boundary) / notes.md:ds2-reverse-boundary",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-recall",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "基础巩固：一次扫描与原地逆置",
+      "kind": "recallcard",
+      "target": "chapter.tex:hypertarget(ds2-recall) / notes.md:ds2-recall",
+      "status": "covered",
+      "note": "按用户要求以基础重点重组，代码采用C++17；补充例与自测已注明。"
+    },
+    {
+      "id": "ds2-omit-rotation",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "例2-4：循环左移",
+      "kind": "algorithm",
+      "status": "omitted_by_request",
+      "note": "用户要求重点放在重点基础知识；本次不展开综合算法题，保留基本操作、一次扫描和逆置作为巩固。"
+    },
+    {
+      "id": "ds2-omit-suffix",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "例2-5：公共后缀",
+      "kind": "algorithm",
+      "status": "omitted_by_request",
+      "note": "用户要求重点放在重点基础知识；本次不展开综合算法题，保留基本操作、一次扫描和逆置作为巩固。"
+    },
+    {
+      "id": "ds2-omit-majority",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "例2-6：主元素",
+      "kind": "algorithm",
+      "status": "omitted_by_request",
+      "note": "用户要求重点放在重点基础知识；本次不展开综合算法题，保留基本操作、一次扫描和逆置作为巩固。"
+    },
+    {
+      "id": "ds2-omit-kth",
+      "source": "408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "locator": "例2-2：倒数第k个结点",
+      "kind": "algorithm",
+      "status": "omitted_by_request",
+      "note": "用户要求重点放在重点基础知识；本次不展开综合算法题，保留基本操作、一次扫描和逆置作为巩固。"
+    }
+  ]
+}

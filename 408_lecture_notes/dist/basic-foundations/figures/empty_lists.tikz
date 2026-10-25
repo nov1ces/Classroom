@@ -1,0 +1,12 @@
+
+\begin{tikzpicture}[x=1mm,y=1mm,font=\small,>=Latex,
+ nodebox/.style={draw=SNink,fill=SNblue,minimum width=15mm,minimum height=8mm,inner sep=1mm}]
+\node[anchor=east,font=\scriptsize] at (23,0) {ordinary};
+\node (l1) at (32,0) {$L$}; \node[nodebox] (h1) at (54,0) {head};
+\node (null) at (86,0) {$\varnothing$};
+\draw[->] (l1)--(h1);\draw[->] (h1)--(null);
+\node[anchor=east,font=\scriptsize] at (23,-22) {circular};
+\node (l2) at (32,-22) {$L$};\node[nodebox] (h2) at (54,-22) {head};
+\draw[->] (l2)--(h2);
+\draw[->,SNrose,thick] (h2.east) -- ++(15,0) -- ++(0,-11) -| (h2.south);
+\end{tikzpicture}

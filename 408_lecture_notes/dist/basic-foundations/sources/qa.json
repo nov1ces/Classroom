@@ -1,0 +1,31 @@
+{
+  "pdf": "notes.pdf",
+  "pages": 12,
+  "passes": 2,
+  "coverage_items": 127,
+  "print_mode": "simplex",
+  "unresolved": [],
+  "warnings": [],
+  "draft": false,
+  "all_fonts_embedded": true,
+  "machine_checks_passed": true,
+  "human_source_and_visual_review": "completed: all 12 rendered pages inspected; definitions, conditions, counts, exact code and source coverage checked",
+  "all_pages_visual_reviewed": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "code_verification": "exact snippets: 10000 paired sequence/list operations, 500 construction/reversal trials, explicit double-link deletion; ASan and UBSan passed",
+  "markdown_latex_ids_consistent": true,
+  "font_variation": "system Noto CJK SC and system DejaVu; disclosed in chat and recorded; template geometry unchanged",
+  "pdf_sha256": "b7ef0d84ff3e4a0796dd47c94cc2f0f32666f533ae3b0b4f602d35dfc0b0132f"
+}

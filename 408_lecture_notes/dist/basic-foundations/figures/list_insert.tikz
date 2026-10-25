@@ -1,0 +1,10 @@
+
+\begin{tikzpicture}[x=1mm,y=1mm,font=\small,>=Latex,
+ nodebox/.style={draw=SNink,fill=SNblue,minimum width=13mm,minimum height=8mm,inner sep=1mm}]
+\node[nodebox] (p) at (12,0) {$p$};
+\node[nodebox] (q) at (76,0) {$q$};
+\node[nodebox,fill=SNpink] (s) at (44,-17) {$s$};
+\draw[->,dashed,SNmuted] (p.east)--node[above,font=\scriptsize]{old next}(q.west);
+\draw[->,thick,SNink] (s.east)--node[below right,font=\scriptsize]{1: s->next}(q.south west);
+\draw[->,thick,SNrose] (p.south east)--node[below left,font=\scriptsize]{2: p->next}(s.west);
+\end{tikzpicture}

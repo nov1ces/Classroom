@@ -2,6 +2,12 @@
 
 本项目系统归档了 408 考研初试所需的全部核心资料，包括王道全套高清教材、横版单题刷题本、章节考点精讲课件以及个人选择题错题精简数据集。
 
+## 数据结构前两章：基础重点笔记
+
+[下载 12 页 PDF](408_lecture_notes/dist/basic-foundations/数据结构前两章_基础重点笔记.pdf?raw=true) · [阅读 Markdown](408_lecture_notes/dist/basic-foundations/notes.md) · [可编辑源码与构建说明](408_lecture_notes/dist/basic-foundations/) · [笔记项目档案](NOTES_PROJECT.md)
+
+覆盖第 1 章绪论、第 2 章线性表，以基本概念、复杂度、顺序表和链表的基本操作为主，包含 C++ 核心代码和四张重绘图示。采用 A4 单面边栏版式，正文固定左侧、边栏固定右侧；源码目录包含 LaTeX、字体、图源和核验记录。
+
 ## 四科自学讲义：最终稿与完整项目
 
 [下载四科合订本 PDF（316 页）](408_lecture_notes/dist/final/408四科讲义_最终稿_合订本.pdf?raw=true) · [进入完整项目](408_lecture_notes/) · [交付清单](408_lecture_notes/dist/final/最终稿交付清单.json)

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="463" viewBox="0 0 680 463">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="206.5" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="236.5" text-anchor="middle" font-weight="bold">中央处理器</text>
+<path d="M148,231.5 H166 V84.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="65.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="89.5" text-anchor="middle" font-weight="bold">CPU功能与基本结构</text>
+<path d="M348,84.5 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">指令/操作/时间控制与数据加工</text>
+<path d="M348,84.5 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">ALU与寄存器</text>
+<path d="M348,84.5 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">PC/IR/MAR/MDR</text>
+<path d="M348,84.5 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">程序员可见与内部状态</text>
+<path d="M148,231.5 H166 V215.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="196.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="220.0" text-anchor="middle" font-weight="bold">指令周期与实现</text>
+<path d="M348,215.0 H365 V169.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="174.0">取指/间址/执行/中断</text>
+<path d="M348,215.0 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">时钟与机器周期</text>
+<path d="M348,215.0 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">单周期</text>
+<path d="M348,215.0 H365 V238.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="243.0">多周期</text>
+<path d="M348,215.0 H365 V261.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="266.0">流水线重叠</text>
+<path d="M148,231.5 H166 V357.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="338.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="362.0" text-anchor="middle" font-weight="bold">数据通路与微操作</text>
+<path d="M348,357.0 H365 V311.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="316.0">内部总线与系统总线</text>
+<path d="M348,357.0 H365 V334.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="339.0">专用数据通路</text>
+<path d="M348,357.0 H365 V357.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="362.0">单源多目的</text>
+<path d="M348,357.0 H365 V380.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="385.0">暂存器Y和Z</text>
+<path d="M348,357.0 H365 V403.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="408.0">控制信号与资源冲突</text>
+</g></svg>

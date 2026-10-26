@@ -1,0 +1,384 @@
+{
+  "items": [
+    {
+      "id": "CN04-N01",
+      "node": "服务与控制架构",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.7 网络层设备.pdf",
+      "locator": "文件第9页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN04-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN04-N02",
+      "node": "异构网络互联与IP服务",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N03",
+      "node": "路由与转发",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.1 网络层的功能.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N04",
+      "node": "SDN控制数据平面",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.1 网络层的功能.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N05",
+      "node": "拥塞与接收流控",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.7 网络层设备.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N06",
+      "node": "路由算法",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.1 网络层的功能.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N07",
+      "node": "静态动态与层次",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.1 路由算法.pdf",
+      "locator": "文件第6页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N08",
+      "node": "距离向量松弛",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.2 分层次的路由协议.pdf",
+      "locator": "文件第2页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N09",
+      "node": "链路状态与Dijkstra",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.1 路由算法.pdf",
+      "locator": "文件第12页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N10",
+      "node": "收敛与环路条件",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.3 RIP路由信息协议.pdf",
+      "locator": "文件第33页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N11",
+      "node": "IPv4首部与分片",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.7 网络层设备.pdf",
+      "locator": "文件第9页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN04-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN04-N12",
+      "node": "首部字段与长度单位",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N13",
+      "node": "TTL与首部校验",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "locator": "文件第11页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N14",
+      "node": "MTU与DF及MF",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N15",
+      "node": "8B对齐与原数据偏移",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "locator": "文件第10页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N16",
+      "node": "IPv4编址与查表",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.7 网络层设备.pdf",
+      "locator": "文件第9页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN04-08",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN04-N17",
+      "node": "掩码网络广播与主机",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.8 动态主机配置协议DHCP.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N18",
+      "node": "定长与VLSM",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.3 子网划分与和子网掩码（有上课手稿）.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N19",
+      "node": "精确聚合与例外覆盖",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.5 路由聚合.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-09",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N20",
+      "node": "最长前缀与默认路由",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.5 路由聚合.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-09",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N21",
+      "node": "本地配置与辅助协议",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.7 网络层设备.pdf",
+      "locator": "文件第9页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN04-10",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN04-N22",
+      "node": "NAT与端口映射",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.6 网络地址转换 NAT（有上课手稿）.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-10",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N23",
+      "node": "ARP与逐跳MAC",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-11",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N24",
+      "node": "DHCP租约状态",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-12",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N25",
+      "node": "ICMP报告与限制",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-13",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N26",
+      "node": "IPv6与过渡",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.7 网络层设备.pdf",
+      "locator": "文件第9页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN04-14",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN04-N27",
+      "node": "地址压缩与128位",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.3 IPv6（楼楼老师）.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-14",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N28",
+      "node": "固定基本首部与扩展",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.1 网络层的功能.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-14",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N29",
+      "node": "源端分片与邻居发现",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "locator": "文件第6页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-14",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N30",
+      "node": "双栈与隧道",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.6 移动IP.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-14",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N31",
+      "node": "自治系统与路由协议",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.7 网络层设备.pdf",
+      "locator": "文件第9页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN04-15",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN04-N32",
+      "node": "AS与IGP及EGP",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.2 分层次的路由协议.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-15",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N33",
+      "node": "RIP跳数与更新规则",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.1 路由算法.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-16",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N34",
+      "node": "OSPF区域与洪泛",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.1 路由算法.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-17",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N35",
+      "node": "BGP路径向量与策略",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.1 路由算法.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-18",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N36",
+      "node": "协议承载与邻居关系",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-18",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N37",
+      "node": "组播移动与设备",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.7 网络层设备.pdf",
+      "locator": "文件第9页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN04-19",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN04-N38",
+      "node": "组播复制与IGMP",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-19",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N39",
+      "node": "归属地址与转交地址",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.6 移动IP.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-20",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N40",
+      "node": "隧道与三角路由",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.6 移动IP.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-20",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN04-N41",
+      "node": "路由器结构与排队",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.7 网络层设备.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN04-21",
+      "status": "covered",
+      "verification": "text"
+    }
+  ],
+  "review_notes": [
+    "covered表示本次笔记含该节点；不表示整份教材、全部课件或历史题目已逐页审核。",
+    "扫描教材正文已核验文件页=书页+12，前言/目录罗马页另计。",
+    "配套例题沿用既有讲义实质题干及解析；未独立核验的旧年份标签已从正文降为配套例题，来源记录留在author_report。",
+    "完整保留21个知识小节、13道配套题与解析、IPv4/IPv6及路由协议比较表和8次图引用；章末从4题扩为10题。",
+    "路由器控制/数据平面导图第9页已目验；其他七个知识组按同科导图风格与各对应课件知识组补绘，而不伪称均有完整原章导图。",
+    "5列分片表合并偏移与MF列为4列，所有原数值776/796/0/1、704/724/97/0均保留。",
+    "分片8B对齐、CIDR边界、聚合覆盖与例外、距离向量候选、TTL、卫星理想下界和GBN窗口均按正文重新核算；保留题设几何与简化模型限制。",
+    "2012/2024等旧年份标注未本轮独立原卷认证；原文明确的改编标记继续保留，DHCP图yiaddr的教材简化标注与规范差异仍有说明。"
+  ],
+  "wrong_question_handling": "历史错题JSON只用于选择辨析主题；不把旧错选当成标准答案或当前仍不会的证据。标准答案依据机制与数值重推。"
+}

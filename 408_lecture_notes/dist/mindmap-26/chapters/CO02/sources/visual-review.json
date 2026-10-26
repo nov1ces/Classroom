@@ -1,0 +1,45 @@
+{
+  "reviewer": "/root/review_co_pdf",
+  "status": "passed",
+  "reviewed_at_utc": "2026-10-25T17:33:59.746324+00:00",
+  "page_count": 16,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "contact_sheets": [
+    "contact-01.png",
+    "contact-02.png"
+  ],
+  "detail_pages": [
+    3,
+    4,
+    9,
+    10,
+    14,
+    16
+  ],
+  "issues": [],
+  "pdf_sha256": "166b3d2f6af31f801afb39e13c1aa14de6a143e1cb322bea97de4663b7e71c8c",
+  "method": "Actual visual review using view_image on every current contact sheet and full page images listed in detail_pages, following the rebuild at 17:31 UTC.",
+  "findings": [
+    "固定正文左、旁注右；所有页可见1～3条旁注。",
+    "宽表跨至旁注栏时已避让旁注；无覆盖正文或页外裁字。",
+    "图示保持原有比例，标签可读。",
+    "两处求和公式已查看，长二进制字段在正文栏内完整可读；末页含完整答案。"
+  ]
+}

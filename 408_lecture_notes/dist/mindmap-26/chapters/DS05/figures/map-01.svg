@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="463" viewBox="0 0 680 463">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="206.5" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="236.5" text-anchor="middle" font-weight="bold">树与二叉树</text>
+<path d="M148,231.5 H166 V96.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="77.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="101.0" text-anchor="middle" font-weight="bold">树与森林的概念</text>
+<path d="M348,96.0 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">结点与父子兄弟</text>
+<path d="M348,96.0 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">有序树与无序树</text>
+<path d="M348,96.0 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">结点度与树度</text>
+<path d="M348,96.0 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">层次高度与路径</text>
+<path d="M348,96.0 H365 V142.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="147.0">边数及叶数计数</text>
+<path d="M148,231.5 H166 V226.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="207.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="231.5" text-anchor="middle" font-weight="bold">二叉树性质与表示</text>
+<path d="M348,226.5 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">满与完全二叉树</text>
+<path d="M348,226.5 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">叶数与双孩子结点</text>
+<path d="M348,226.5 H365 V238.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="243.0">顺序编号及空位</text>
+<path d="M348,226.5 H365 V261.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="266.0">二叉链表空域</text>
+<path d="M148,231.5 H166 V357.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="338.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="362.0" text-anchor="middle" font-weight="bold">遍历与线索化</text>
+<path d="M348,357.0 H365 V311.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="316.0">先中后序及层序</text>
+<path d="M348,357.0 H365 V334.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="339.0">非递归栈状态</text>
+<path d="M348,357.0 H365 V357.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="362.0">遍历序列还原</text>
+<path d="M348,357.0 H365 V380.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="385.0">中序线索与标志</text>
+<path d="M348,357.0 H365 V403.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="408.0">前驱后继及边界</text>
+</g></svg>

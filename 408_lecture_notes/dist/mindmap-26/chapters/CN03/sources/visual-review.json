@@ -1,0 +1,69 @@
+{
+  "chapter": "CN03",
+  "reviewer": "/root/review_cn_pdf (actual image inspection by assistant; not a human signature)",
+  "review_method": "view_image opened every contact sheet; selected complex figures, formulas, tables and final pages opened at 150 dpi",
+  "reviewed_at_utc": "2026-10-25T17:38:50.271416+00:00",
+  "status": "passed",
+  "page_count": 18,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "contact_sheets": [
+    "previews/CN03/contact-01.png",
+    "previews/CN03/contact-02.png"
+  ],
+  "detail_pages": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "detail_dpi": 150,
+  "issues": [],
+  "pdf_sha256": "219e0f5e096cde799e0c9ef9fa0c26d5e1d15bf50c7dde59283ef26192859e1d",
+  "observations": [
+    "最终18页全部联系表实看；最终第3–18页均150dpi整页查看。",
+    "所有短例题题干与选项均同框同页，例3-3和例3-7修复已逐字视觉确认。",
+    "正文固定左、旁注右，每页1条可见；宽表后旁注避让，无遮挡、切字或图像变形。",
+    "最终第18页包含自测及完整答案，结尾正常，无孤立末行或追加空白模板。"
+  ],
+  "resolved_issues": [
+    {
+      "anchor": "CN03-ex3 / 3.4.1",
+      "description": "原例3-3 D选项孤行已解决，完整题框位于最终第6页。"
+    },
+    {
+      "anchor": "CN03-ex7 / 3.9.1",
+      "description": "例3-7 CDMA题干与A/B/C/D同处最终第10页，选项孤行已解决。"
+    }
+  ]
+}

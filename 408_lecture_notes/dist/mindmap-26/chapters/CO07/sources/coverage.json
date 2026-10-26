@@ -1,0 +1,377 @@
+{
+  "items": [
+    {
+      "id": "CO07-N01",
+      "node": "系统组成与外部设备",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.3 外部设备.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-devices",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N02",
+      "node": "I/O硬件与软件",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.1+7.1.2 输入输出系统和IO控制方式.pdf",
+      "locator": "文件页16（已视觉核对系统硬件/软件/I/O指令/通道分支）",
+      "target": "notes.md#CO07-map",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N03",
+      "node": "I/O指令与通道指令",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.1+7.1.2 输入输出系统和IO控制方式.pdf",
+      "locator": "文件页16（已视觉核对系统硬件/软件/I/O指令/通道分支）",
+      "target": "notes.md#CO07-map",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N04",
+      "node": "输入/输出/外存设备",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.3 外部设备.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-devices",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N05",
+      "node": "显示器参数",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.3 外部设备.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-devices",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N06",
+      "node": "显存容量与刷新数据率",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.3 外部设备.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-devices",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N07",
+      "node": "打印机分类",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.3 外部设备.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-devices",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N08",
+      "node": "接口与端口",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.2 IO接口.pdf",
+      "locator": "文件页13（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interface",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N09",
+      "node": "数据缓冲",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.2 IO接口.pdf",
+      "locator": "文件页13（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interface",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N10",
+      "node": "状态与控制寄存器",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.2 IO接口.pdf",
+      "locator": "文件页13（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interface",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N11",
+      "node": "串并转换",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.2 IO接口.pdf",
+      "locator": "文件页13（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interface",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N12",
+      "node": "控制与地址译码",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.2 IO接口.pdf",
+      "locator": "文件页13（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interface",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N13",
+      "node": "统一编址",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.2 IO接口.pdf",
+      "locator": "文件页13（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interface",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N14",
+      "node": "独立编址",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.2 IO接口.pdf",
+      "locator": "文件页13（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interface",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N15",
+      "node": "程序查询",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.1 程序查询方式.pdf",
+      "locator": "文件页8（文本提取；不作视觉阅读声明）",
+      "target": "notes.md#CO07-query",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CO07-N16",
+      "node": "独占查询",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.1 程序查询方式.pdf",
+      "locator": "文件页8（文本提取；不作视觉阅读声明）",
+      "target": "notes.md#CO07-query",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CO07-N17",
+      "node": "定时查询",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.1 程序查询方式.pdf",
+      "locator": "文件页8（文本提取；不作视觉阅读声明）",
+      "target": "notes.md#CO07-query",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CO07-N18",
+      "node": "状态检查与搬运",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.1 程序查询方式.pdf",
+      "locator": "文件页8（文本提取；不作视觉阅读声明）",
+      "target": "notes.md#CO07-query",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CO07-N19",
+      "node": "缓冲期限",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.1 程序查询方式.pdf",
+      "locator": "文件页8（文本提取；不作视觉阅读声明）",
+      "target": "notes.md#CO07-query",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CO07-N20",
+      "node": "CPU占用率",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.1 程序查询方式.pdf",
+      "locator": "文件页8（文本提取；不作视觉阅读声明）",
+      "target": "notes.md#CO07-query",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CO07-N21",
+      "node": "程序中断",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_3 程序中断方式.pdf",
+      "locator": "文件页6（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interrupt",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N22",
+      "node": "请求与响应条件",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_3 程序中断方式.pdf",
+      "locator": "文件页6（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interrupt",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N23",
+      "node": "中断判优和入口",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_3 程序中断方式.pdf",
+      "locator": "文件页6（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interrupt",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N24",
+      "node": "隐指令与服务程序",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_3 程序中断方式.pdf",
+      "locator": "文件页6（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interrupt",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N25",
+      "node": "单重与多重中断",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_3 程序中断方式.pdf",
+      "locator": "文件页6（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interrupt",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N26",
+      "node": "响应与处理优先级",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_3 程序中断方式.pdf",
+      "locator": "文件页6（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interrupt",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N27",
+      "node": "屏蔽与嵌套恢复",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_3 程序中断方式.pdf",
+      "locator": "文件页6（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-interrupt",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N28",
+      "node": "DMA",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "locator": "文件页12（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-dma",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N29",
+      "node": "控制器组成",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "locator": "文件页12（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-dma",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N30",
+      "node": "预处理/传送/后处理",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "locator": "文件页12（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-dma",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N31",
+      "node": "暂停CPU",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "locator": "文件页12（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-dma",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N32",
+      "node": "周期挪用",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "locator": "文件页12（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-dma",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N33",
+      "node": "交替访存",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "locator": "文件页12（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-dma",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N34",
+      "node": "完成中断",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "locator": "文件页12（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO07-dma",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO07-N35",
+      "node": "统一预算",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "locator": "DMA课件文件页12之CPU占用/过程分支为模型入口；正文预算式由设备速率、每次/每块粒度独立推导，不冒充原图逐字节点",
+      "target": "notes.md#CO07-dma",
+      "status": "covered",
+      "verification": "visual",
+      "derivation": true
+    },
+    {
+      "id": "CO07-N36",
+      "node": "每次交换q字节",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "locator": "DMA课件文件页12之CPU占用/过程分支为模型入口；正文预算式由设备速率、每次/每块粒度独立推导，不冒充原图逐字节点",
+      "target": "notes.md#CO07-dma",
+      "status": "covered",
+      "verification": "visual",
+      "derivation": true
+    },
+    {
+      "id": "CO07-N37",
+      "node": "每块Q字节",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "locator": "DMA课件文件页12之CPU占用/过程分支为模型入口；正文预算式由设备速率、每次/每块粒度独立推导，不冒充原图逐字节点",
+      "target": "notes.md#CO07-dma",
+      "status": "covered",
+      "verification": "visual",
+      "derivation": true
+    },
+    {
+      "id": "CO07-N38",
+      "node": "CPU事件率",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "locator": "DMA课件文件页12之CPU占用/过程分支为模型入口；正文预算式由设备速率、每次/每块粒度独立推导，不冒充原图逐字节点",
+      "target": "notes.md#CO07-dma",
+      "status": "covered",
+      "verification": "visual",
+      "derivation": true
+    },
+    {
+      "id": "CO07-N39",
+      "node": "总线占用率",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "locator": "DMA课件文件页12之CPU占用/过程分支为模型入口；正文预算式由设备速率、每次/每块粒度独立推导，不冒充原图逐字节点",
+      "target": "notes.md#CO07-dma",
+      "status": "covered",
+      "verification": "visual",
+      "derivation": true
+    },
+    {
+      "id": "CO07-N40",
+      "node": "平均开销与最长延迟",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "locator": "DMA课件文件页12之CPU占用/过程分支为模型入口；正文预算式由设备速率、每次/每块粒度独立推导，不冒充原图逐字节点",
+      "target": "notes.md#CO07-dma",
+      "status": "covered",
+      "verification": "visual",
+      "derivation": true
+    }
+  ],
+  "review_notes": [
+    "按教材第7章编号，保留旧I/O章7道编号例题及全部推导、三个巩固自测；增加系统硬件/软件/通道、外部设备、显存数值例、DMA组成与8题主动回忆。",
+    "实际视觉查看课件外设14、I/O接口13、程序中断方式6、DMA12、系统概念16页，另全文提取程序查询8页。按导图重构六个主枝，显示参数与DMA计数器分支补足旧文缺项。",
+    "显示自拟例复算：单帧6220800 B，双缓冲12441600 B，60帧有效数据率373248000 B/s；不计编码/消隐开销。既有预算例复算A定时查询4%、B逐次中断需800%不可持续、DMA软件4%。",
+    "硬件保存与软件保存依ISA加条件；响应优先级/处理优先级、事件率/总线事务数分开。保留旧配套题实质条件，未核原卷的年份已移除，新增题标自拟。"
+  ],
+  "wrong_question_handling": "按本章历史错题涉及的单位、分类或模型边界配置错项排除；旧记录不代表学习者当前仍答错。保留配套题实质条件和解析，旧年份未独立对原卷认证，正文统一降标配套例题；自拟题明确标识。"
+}

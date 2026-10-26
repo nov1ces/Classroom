@@ -1,0 +1,356 @@
+{
+  "items": [
+    {
+      "id": "DS05-N01",
+      "node": "树与森林的概念",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.1.1+5.1.2 树的定义和基本术语.pdf",
+      "locator": "文件页12；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS05-N02",
+      "node": "结点与父子兄弟",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.1.1+5.1.2 树的定义和基本术语.pdf",
+      "locator": "文件页12；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS05-N03",
+      "node": "有序树与无序树",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.1.1+5.1.2 树的定义和基本术语.pdf",
+      "locator": "文件页12；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS05-N04",
+      "node": "结点度与树度",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.1.1+5.1.2 树的定义和基本术语.pdf",
+      "locator": "文件页12；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS05-N05",
+      "node": "层次高度与路径",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.1.1+5.1.2 树的定义和基本术语.pdf",
+      "locator": "文件页12；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS05-N06",
+      "node": "边数及叶数计数",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.1.1+5.1.2 树的定义和基本术语.pdf",
+      "locator": "文件页12；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS05-N07",
+      "node": "二叉树性质与表示",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.1_2 二叉树的性质.pdf",
+      "locator": "文件页8；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-02",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N08",
+      "node": "满与完全二叉树",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.1_2 二叉树的性质.pdf",
+      "locator": "文件页8；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-02",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N09",
+      "node": "叶数与双孩子结点",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.1_2 二叉树的性质.pdf",
+      "locator": "文件页8；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-02",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N10",
+      "node": "顺序编号及空位",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.1_2 二叉树的性质.pdf",
+      "locator": "文件页8；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-02",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N11",
+      "node": "二叉链表空域",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.1_2 二叉树的性质.pdf",
+      "locator": "文件页8；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-02",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N12",
+      "node": "遍历与线索化",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_3 在线索二叉树中找前驱后继.pdf",
+      "locator": "文件页13,14；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-04",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N13",
+      "node": "先中后序及层序",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_3 在线索二叉树中找前驱后继.pdf",
+      "locator": "文件页13,14；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-04",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N14",
+      "node": "非递归栈状态",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_3 在线索二叉树中找前驱后继.pdf",
+      "locator": "文件页13,14；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-04",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N15",
+      "node": "遍历序列还原",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_3 在线索二叉树中找前驱后继.pdf",
+      "locator": "文件页13,14；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-04",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N16",
+      "node": "中序线索与标志",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_3 在线索二叉树中找前驱后继.pdf",
+      "locator": "文件页13,14；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-04",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N17",
+      "node": "前驱后继及边界",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_3 在线索二叉树中找前驱后继.pdf",
+      "locator": "文件页13,14；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-04",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N18",
+      "node": "树森林的存储与转换",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.1 树的存储结构.pdf",
+      "locator": "文件页17；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-06",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N19",
+      "node": "双亲表示",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.1 树的存储结构.pdf",
+      "locator": "文件页17；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-06",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N20",
+      "node": "孩子表示",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.1 树的存储结构.pdf",
+      "locator": "文件页17；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-06",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N21",
+      "node": "孩子兄弟表示",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.1 树的存储结构.pdf",
+      "locator": "文件页17；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-06",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N22",
+      "node": "左孩子右兄弟转换",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.1 树的存储结构.pdf",
+      "locator": "文件页17；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-06",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N23",
+      "node": "先根后根与二叉遍历",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.1 树的存储结构.pdf",
+      "locator": "文件页17；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-06",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N24",
+      "node": "哈夫曼树与编码",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.1 哈夫曼树.pdf",
+      "locator": "文件页13；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-09",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS05-N25",
+      "node": "带权路径长度",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.1 哈夫曼树.pdf",
+      "locator": "文件页13；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-09",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS05-N26",
+      "node": "合并两个最小权根",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.1 哈夫曼树.pdf",
+      "locator": "文件页13；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-09",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS05-N27",
+      "node": "最优性与编码非唯一",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.1 哈夫曼树.pdf",
+      "locator": "文件页13；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-09",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS05-N28",
+      "node": "前缀编码与剩余容量",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.1 哈夫曼树.pdf",
+      "locator": "文件页13；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-09",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS05-N29",
+      "node": "多路归并的零权补叶",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.1 哈夫曼树.pdf",
+      "locator": "文件页13；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-09",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS05-N30",
+      "node": "并查集与堆的连接",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.2_1 并查集.pdf",
+      "locator": "文件页21；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-10",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N31",
+      "node": "双亲森林与代表元",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.2_1 并查集.pdf",
+      "locator": "文件页21；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-10",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N32",
+      "node": "按规模合并",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.2_1 并查集.pdf",
+      "locator": "文件页21；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-10",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N33",
+      "node": "路径压缩不改集合",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.2_1 并查集.pdf",
+      "locator": "文件页21；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-10",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N34",
+      "node": "完全性与堆序",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.2_1 并查集.pdf",
+      "locator": "文件页21；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-10",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS05-N35",
+      "node": "插入上滤及删根下滤",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.2_1 并查集.pdf",
+      "locator": "文件页21；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS05-10",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    }
+  ],
+  "review_notes": [
+    "每章导图是多个节级导图的重组，非原PDF整图复制；源中未明确示出的补绘分支单独登记。",
+    "旧讲义真题年份未逐项对照官方原卷，正文改标配套例题；旧年份仅作来源追踪。",
+    "全部旧正文重要实质内容保留，新增定义/方法/算法与边界；本代理未编译PDF或执行全量代码测试。",
+    "仅map.sources中visual_checked=true的源页完成实际视觉阅读；其他页是文字/标题定位，需区别于图内逐节点视觉核验。"
+  ],
+  "historical_exam_labels": [
+    "2009",
+    "2010",
+    "2020",
+    "2023",
+    "2024"
+  ],
+  "wrong_question_handling": "该章错题为历史记录，只用于选择边界辨析与配套案例；不推断学习者当前掌握水平。"
+}

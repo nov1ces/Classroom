@@ -1,0 +1,319 @@
+{
+  "items": [
+    {
+      "id": "OS03-N01",
+      "node": "地址、共享与保护",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页188为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS03-5-1",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS03-N01-01",
+      "node": "逻辑地址、物理地址与编址单位",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-1",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N01-02",
+      "node": "共享映射与写时复制",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-2",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N01-03",
+      "node": "权限、回收与TLB一致性",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-2",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N02",
+      "node": "分配与内存扩充",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页188为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS03-5-3",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS03-N02-01",
+      "node": "单一连续、固定与动态分区",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-3",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N02-02",
+      "node": "首次、循环、最佳、最坏适应",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-3",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N02-03",
+      "node": "相邻合并与紧凑",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-3",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N02-04",
+      "node": "覆盖、交换与按需调页",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-extension",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N03",
+      "node": "分页、分段与段页式",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页188为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS03-5-4",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS03-N03-01",
+      "node": "页号、页框与不变偏移",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-4",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N03-02",
+      "node": "页表项地址与目标数据地址",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-4",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N03-03",
+      "node": "段号、段长与访问权限",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-6",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N03-04",
+      "node": "段页式两级逻辑组织",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-6",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N04",
+      "node": "TLB与多级页表",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页188为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS03-5-5",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS03-N04-01",
+      "node": "稀疏分配与目录覆盖范围",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-5",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N04-02",
+      "node": "按位宽拆地址字段",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-5",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N04-03",
+      "node": "TLB未命中不等于缺页",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-5",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N04-04",
+      "node": "串行与并行查询的时间前提",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-5",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N05",
+      "node": "请求分页与页框分配",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页188为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS03-5-7",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS03-N05-01",
+      "node": "存在、访问、修改与保护位",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-7",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N05-02",
+      "node": "缺页、回写、更新与重试",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-7",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N05-03",
+      "node": "固定、可变、局部与全局置换",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-8",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N05-04",
+      "node": "请求调页与预调页",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-8",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N06",
+      "node": "页面置换算法与状态",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页188为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS03-5-9",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS03-N06-01",
+      "node": "OPT、FIFO与LRU",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-9",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N06-02",
+      "node": "缺页次数与置换次数",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-9",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N06-03",
+      "node": "基本与改进型Clock",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-9",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N06-04",
+      "node": "Belady异常与栈性质",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-9",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N07",
+      "node": "工作集、性能与文件映射",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页188为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS03-5-11",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS03-N07-01",
+      "node": "工作集、驻留集与抖动",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-11",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N07-02",
+      "node": "数组地址与页引用串",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-11",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N07-03",
+      "node": "平均访问时间的完整分支",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-11",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS03-N07-04",
+      "node": "共享映射、私有映射与持久化",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS03-5-10",
+      "status": "covered",
+      "verification": "text"
+    }
+  ],
+  "review_notes": [
+    "教材副本与项目分卷原件已由主代理逐字节核验，证据 /workspace/work/408-probe/archive_verification.json。",
+    "全部原稿实质段落/代码/例题解析保留；只规范标题ID、来源标签、表格与组件。",
+    "未独立复核的真题年份正文统一改称配套例题；历史标注及文件指纹记录在author_report。",
+    "PDF正文图像扫描，教材文件页=书页+12，已目验PDF14=书2、189=书177、318=书306。",
+    "补绘“覆盖、交换、请求调页”分支，并补正文以覆盖内存扩充主枝；覆盖课件为选修标签，未擅自推断其必考。",
+    "保留原页表字段、LRU全程状态表、Clock条件、缺页费用与数组寻址计算。"
+  ],
+  "wrong_question_handling": "历史错题按已登记题号帮助挑选辨析案例，题干及答案条件需核验；不把过去错选当作当前弱项，不在笔记中暴露个人错选。"
+}

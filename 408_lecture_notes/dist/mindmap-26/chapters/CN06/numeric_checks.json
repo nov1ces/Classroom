@@ -1,0 +1,15 @@
+{
+  "HTTP_8_objects_nonpersistent_RTT": 16,
+  "HTTP_4_images_nonpipeline_RTT": 6,
+  "HTTP_4_images_pipeline_RTT": 3,
+  "FTP_round_segments": [
+    1,
+    2,
+    4,
+    5,
+    6
+  ],
+  "FTP_finish_ms": 60,
+  "FTP_rate_bitps": 2400000,
+  "FTP_FIN_ack": 18102
+}

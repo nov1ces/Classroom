@@ -1,0 +1,383 @@
+{
+  "items": [
+    {
+      "id": "CN03-N01",
+      "node": "功能与成帧",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_5 三种协议的信道利用率分析.pdf",
+      "locator": "文件第12页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN03-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN03-N02",
+      "node": "一跳范围与透明传输",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.0 局域网与IEEE 802.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N03",
+      "node": "计数与字节填充",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.2 组帧.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N04",
+      "node": "零比特填充与违规编码",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.2 组帧.pdf",
+      "locator": "文件第8页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N05",
+      "node": "差错检测与纠正",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_5 三种协议的信道利用率分析.pdf",
+      "locator": "文件第12页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN03-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN03-N06",
+      "node": "奇偶校验与漏检",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.3.1_1 检错编码（奇偶校验码）.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N07",
+      "node": "CRC模2除法",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.3.1_2 循环冗余校验码.pdf",
+      "locator": "文件第2页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N08",
+      "node": "码距检测纠正界",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_5 三种协议的信道利用率分析.pdf",
+      "locator": "文件第12页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN03-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN03-N09",
+      "node": "海明码位置与综合征",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.3.2 纠错编码（海明校验码）.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N10",
+      "node": "可靠传输与窗口",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_5 三种协议的信道利用率分析.pdf",
+      "locator": "文件第12页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN03-05",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN03-N11",
+      "node": "确认序号计时器",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_2 停止等待协议.pdf",
+      "locator": "文件第12页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N12",
+      "node": "停止等待与利用率",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_5 三种协议的信道利用率分析.pdf",
+      "locator": "文件第12页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN03-06",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN03-N13",
+      "node": "GBN累计确认与后退",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_1 流量控制、可靠传输与滑动窗口机制.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N14",
+      "node": "SR选择确认与缓存",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_1 流量控制、可靠传输与滑动窗口机制.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N15",
+      "node": "序号空间与窗口界",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_2 停止等待协议.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N16",
+      "node": "共享信道访问",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_5 三种协议的信道利用率分析.pdf",
+      "locator": "文件第12页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN03-09",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN03-N17",
+      "node": "FDM与TDM及WDM",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.1 信道划分介质访问控制.pdf",
+      "locator": "文件第9页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-09",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N18",
+      "node": "CDMA码片内积",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.1 信道划分介质访问控制.pdf",
+      "locator": "文件第15页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-09",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N19",
+      "node": "ALOHA与CSMA坚持",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.2_1 随机访问介质访问控制.pdf",
+      "locator": "文件第8页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-10",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N20",
+      "node": "CSMA/CD与退避",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.2_4 CSMA CA协议.pdf",
+      "locator": "文件第14页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-11",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N21",
+      "node": "轮询与令牌",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.3 令牌传递协议.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-13",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N22",
+      "node": "局域网与以太网",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_5 三种协议的信道利用率分析.pdf",
+      "locator": "文件第12页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN03-14",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN03-N23",
+      "node": "LLC与MAC及网卡",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.0 局域网与IEEE 802.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-14",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N24",
+      "node": "EthernetII格式与MTU",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.3 VLAN的基本概念与基本原理.pdf",
+      "locator": "文件第8页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-15",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N25",
+      "node": "前导码FCS与帧间隔",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.2_4 CSMA CA协议.pdf",
+      "locator": "文件第12页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-15",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N26",
+      "node": "效率的统计边界",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_5 三种协议的信道利用率分析.pdf",
+      "locator": "文件第12页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN03-15",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN03-N27",
+      "node": "无线局域网",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.2_4 CSMA CA协议.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-12",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N28",
+      "node": "CSMA/CA与ACK",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.2_4 CSMA CA协议.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-12",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N29",
+      "node": "RTS与CTS及NAV",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.2_4 CSMA CA协议.pdf",
+      "locator": "文件第14页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-12",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N30",
+      "node": "BSS与AP",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.4 IEEE 802.11 无线局域网.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-16",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N31",
+      "node": "三地址与DS方向",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.2_4 CSMA CA协议.pdf",
+      "locator": "文件第14页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-16",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N32",
+      "node": "VLAN与交换机",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_5 三种协议的信道利用率分析.pdf",
+      "locator": "文件第12页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN03-17",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN03-N33",
+      "node": "广播域与标签",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.3 VLAN的基本概念与基本原理.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-17",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N34",
+      "node": "源地址学习与目的查表",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.8 以太网交换机.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-19",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N35",
+      "node": "过滤定向与泛洪",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.2 以太网与IEEE 802.3.pdf",
+      "locator": "文件第11页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-19",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N36",
+      "node": "存储转发与直通",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.8 以太网交换机.pdf",
+      "locator": "文件第16页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-19",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N37",
+      "node": "广域链路与PPP",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_5 三种协议的信道利用率分析.pdf",
+      "locator": "文件第12页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN03-18",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN03-N38",
+      "node": "点到点无需争用",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.7.1+2 广域网、PPP协议.pdf",
+      "locator": "文件第2页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-18",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N39",
+      "node": "帧格式与透明传输",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.7.1+2 广域网、PPP协议.pdf",
+      "locator": "文件第2页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-18",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N40",
+      "node": "LCP与NCP",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.7.1+2 广域网、PPP协议.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-18",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN03-N41",
+      "node": "检错不等于可靠",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.3.1_1 检错编码（奇偶校验码）.pdf",
+      "locator": "文件第2页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN03-18",
+      "status": "covered",
+      "verification": "text"
+    }
+  ],
+  "review_notes": [
+    "covered表示本次笔记含该节点；不表示整份教材、全部课件或历史题目已逐页审核。",
+    "扫描教材正文已核验文件页=书页+12，前言/目录罗马页另计。",
+    "配套例题沿用既有讲义实质题干及解析；未独立核验的旧年份标签已从正文降为配套例题，来源记录留在author_report。",
+    "完整保留19个知识小节、12道代表题和全部解析/原重绘图，导图归成8个主枝；非ARQ知识组在同科已目验风格下补绘，来源按对应课件文本定位。",
+    "新加最小码距检测/纠正界的正文论证、CRC发送接收步骤框；章末从4题扩展为9题，原4题实质保留。",
+    "重新计算CRC余数、码距、停止等待/GBN利用率、NAV与最短帧距离，结果与正文一致；保留EthernetII无标签/802.1Q题目模型边界。",
+    "旧题干CRC“可断定未出错”明确解释为检验通过，保留漏检反例；SR半窗规则保留对称前提和教材窗口关系。"
+  ],
+  "wrong_question_handling": "历史错题JSON只用于选择辨析主题；不把旧错选当成标准答案或当前仍不会的证据。标准答案依据机制与数值重推。"
+}

@@ -1,0 +1,325 @@
+{
+  "items": [
+    {
+      "id": "CO03-N01",
+      "node": "层次、分类与性能",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.1 存储系统基本概念.pdf",
+      "locator": "文件页 14（已目验导图）",
+      "target": "notes.md#CO03-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N02",
+      "node": "局部性与分层",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.1 存储系统基本概念.pdf",
+      "locator": "文件页 14（已目验导图）",
+      "target": "notes.md#CO03-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N03",
+      "node": "随机顺序直接相联",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.1 存储系统基本概念.pdf",
+      "locator": "文件页 14（已目验导图）",
+      "target": "notes.md#CO03-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N04",
+      "node": "存取时间和周期",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.1 存储系统基本概念.pdf",
+      "locator": "文件页 14（已目验导图）",
+      "target": "notes.md#CO03-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N05",
+      "node": "容量和带宽单位",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.1 存储系统基本概念.pdf",
+      "locator": "文件页 14（已目验导图）",
+      "target": "notes.md#CO03-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N06",
+      "node": "半导体主存",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-03",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N07",
+      "node": "SRAM和DRAM",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-03",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N08",
+      "node": "ROM与Flash",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-03",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N09",
+      "node": "行列地址复用",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-03",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N10",
+      "node": "刷新与Bank条件",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-03",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N11",
+      "node": "组织与扩展",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-04",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N12",
+      "node": "MAR和可编址空间",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-04",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N13",
+      "node": "位扩展与字扩展",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-04",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N14",
+      "node": "片选与地址译码",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-04",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N15",
+      "node": "低位交叉和模块冲突",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-04",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N16",
+      "node": "外部存储",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-12",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N17",
+      "node": "柱面磁头和扇区",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-12",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N18",
+      "node": "寻道旋转与传输",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-12",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N19",
+      "node": "SSD与磨损均衡",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-12",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N20",
+      "node": "磁盘阵列的冗余边界",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-12",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N21",
+      "node": "Cache地址与策略",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.3 Cache和主存的映射方式.pdf",
+      "locator": "文件页 27（已目验导图）",
+      "target": "notes.md#CO03-17",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N22",
+      "node": "直接全相联和组相联",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.3 Cache和主存的映射方式.pdf",
+      "locator": "文件页 27（已目验导图）",
+      "target": "notes.md#CO03-17",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N23",
+      "node": "偏移组号和标记",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.3 Cache和主存的映射方式.pdf",
+      "locator": "文件页 27（已目验导图）",
+      "target": "notes.md#CO03-17",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N24",
+      "node": "FIFO与LRU",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.3 Cache和主存的映射方式.pdf",
+      "locator": "文件页 27（已目验导图）",
+      "target": "notes.md#CO03-17",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N25",
+      "node": "写命中和写缺失",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.3 Cache和主存的映射方式.pdf",
+      "locator": "文件页 27（已目验导图）",
+      "target": "notes.md#CO03-17",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N26",
+      "node": "虚拟存储与TLB",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-22",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N27",
+      "node": "虚页号与页内偏移",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-22",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N28",
+      "node": "页表和存在位",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-22",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N29",
+      "node": "TLB缺失与缺页",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-22",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N30",
+      "node": "段界限和保护检查",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 89,125,159（教材抽样交叉核验）",
+      "target": "notes.md#CO03-22",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO03-N31",
+      "node": "综合访存推演",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.3 Cache和主存的映射方式.pdf",
+      "locator": "文件页 27（已目验导图）",
+      "target": "notes.md#CO03-28",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N32",
+      "node": "命中率和AMAT",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.3 Cache和主存的映射方式.pdf",
+      "locator": "文件页 27（已目验导图）",
+      "target": "notes.md#CO03-28",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N33",
+      "node": "数组访问次序",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.3 Cache和主存的映射方式.pdf",
+      "locator": "文件页 27（已目验导图）",
+      "target": "notes.md#CO03-28",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N34",
+      "node": "局部与全局缺失率",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.3 Cache和主存的映射方式.pdf",
+      "locator": "文件页 27（已目验导图）",
+      "target": "notes.md#CO03-28",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO03-N35",
+      "node": "TLB页表Cache取数路径",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.3 Cache和主存的映射方式.pdf",
+      "locator": "文件页 27（已目验导图）",
+      "target": "notes.md#CO03-28",
+      "status": "covered",
+      "verification": "visual"
+    }
+  ],
+  "review_notes": [
+    "保留旧CO03全部实质正文、13道编号例题及原3题自测，按7主枝整理；新增地址分解证明、综合题方法、ROM类别/刷新预算和相联电路条件。旧文“详见第7章”已改教材第6章总线。",
+    "旧讲义年份/题号标签已统一降为配套例题；原标签仅保留本记录，原卷未独立复核：[('2014', ''), ('2011', ''), ('2015', ''), ('2009', ''), ('2015', ''), ('2016', ''), ('2022', ''), ('2015', ''), ('2022', ''), ('2024', ''), ('2023', ''), ('2021', ''), ('2024', '')]",
+    "每个导图主分支和子节点均映射正文；这不代表全教材每题均已逐项审核。"
+  ],
+  "wrong_question_handling": "依据第3章历史26条错题，侧重引脚/地址、MAR、模块冲突、命中率分母、路数/组数、元数据容量、TLB与缺页边界；不推断当前仍答错。"
+}

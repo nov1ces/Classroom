@@ -1,0 +1,376 @@
+{
+  "items": [
+    {
+      "id": "CN06-N01",
+      "node": "应用模型",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.1 网络应用模型.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N02",
+      "node": "C/S请求服务角色",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.1 网络应用模型.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N03",
+      "node": "P2P对等与发现",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.1 网络应用模型.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N04",
+      "node": "文件分发资源下界",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.1 网络应用模型.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N05",
+      "node": "DNS名称与管理",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第10页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN06-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN06-N06",
+      "node": "标签层级与长度口径",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N07",
+      "node": "顶级域分类",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第9页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N08",
+      "node": "域与区及委派",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第8页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N09",
+      "node": "根本地与权威服务器",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第8页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N10",
+      "node": "A与AAAA及NS和MX",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.0 应用层Intro.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N11",
+      "node": "DNS解析过程",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第10页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN06-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN06-N12",
+      "node": "递归与迭代主体",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第16页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N13",
+      "node": "缓存与TTL",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第15页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N14",
+      "node": "查询次数与委派条件",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N15",
+      "node": "UDP与TCP端口53",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.5 WWW和HTTP.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N16",
+      "node": "FTP双连接",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第10页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN06-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN06-N17",
+      "node": "C/S与并发处理",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.3 FTP 文件传输协议.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N18",
+      "node": "控制连接与21端口",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.3 FTP 文件传输协议.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N19",
+      "node": "数据连接与主动被动",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.3 FTP 文件传输协议.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N20",
+      "node": "会话与文件传输寿命",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.3 FTP 文件传输协议.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N21",
+      "node": "电子邮件",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.0 应用层Intro.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N22",
+      "node": "代理服务器与信封首部",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.4 电子邮件.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N23",
+      "node": "MIME类型与Base64",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.4 电子邮件.pdf",
+      "locator": "文件第6页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N24",
+      "node": "SMTP推送与转送",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.0 应用层Intro.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N25",
+      "node": "POP3读取与连接复用",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.0 应用层Intro.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N26",
+      "node": "WWW与HTTP语义",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第10页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN06-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN06-N27",
+      "node": "URL资源与片段",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.5 WWW和HTTP.pdf",
+      "locator": "文件第9页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N28",
+      "node": "请求响应与常用方法",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.5 WWW和HTTP.pdf",
+      "locator": "文件第9页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N29",
+      "node": "状态码与缓存验证",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.5 WWW和HTTP.pdf",
+      "locator": "文件第9页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N30",
+      "node": "Cookie与无状态",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.5 WWW和HTTP.pdf",
+      "locator": "文件第11页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N31",
+      "node": "HTTP性能模型",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第10页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN06-08",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN06-N32",
+      "node": "非持久与持久",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.3 FTP 文件传输协议.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N33",
+      "node": "流水与发现依赖",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第10页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN06-08",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN06-N34",
+      "node": "计时起点与RTT",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.5 WWW和HTTP.pdf",
+      "locator": "文件第6页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N35",
+      "node": "TCP窗口与大对象",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.0 应用层Intro.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N36",
+      "node": "综合访问流程",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第10页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN06-09",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN06-N37",
+      "node": "DNS到TCP再到HTTP",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.0 应用层Intro.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-09",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N38",
+      "node": "FTP序号与拥塞轮次",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.0 应用层Intro.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-09",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N39",
+      "node": "ARP下一跳与交换学习",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.0 应用层Intro.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-09",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN06-N40",
+      "node": "缓存条件影响广播计数",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "locator": "文件第15页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN06-09",
+      "status": "covered",
+      "verification": "text"
+    }
+  ],
+  "review_notes": [
+    "covered表示本次笔记含该节点；不表示整份教材、全部课件或历史题目已逐页审核。",
+    "扫描教材正文已核验文件页=书页+12，前言/目录罗马页另计。",
+    "配套例题沿用既有讲义实质题干及解析；未独立核验的旧年份标签已从正文降为配套例题，来源记录留在author_report。",
+    "完整保留原8个知识节、9道配套题和解析，综合题另设稳定小节CN06-09；章末3题扩为9题，原题实质保留。",
+    "基于已目验DNS/FTP/邮件/HTTP真实导图，补DNS标签长度与顶级域分类、FTP并发任务模型；长度明确线格式和文本串口径，进程数不当作实现硬性要求。",
+    "补文件分发下界与资源守恒论证、HTTP依赖法框和原生请求文本示例；HTTP理想三种连接模型表完整保留。",
+    "FTP六列轮次表拆成两张按阶段关联的四/三列表，所有开始时刻、窗口、段数、累计数和确认时刻均保留。",
+    "原2016/2021等旧年份标签未独立原卷认证；原综合DNS/HTTP题的DNS缓存前提边界继续保留，避免把两次广播当无条件结论。",
+    "已复算非持久8对象16RTT、四图非流水6RTT/流水3RTT、FTP18段五轮加握手60ms与2.4Mb/s、FIN确认18102。"
+  ],
+  "wrong_question_handling": "历史错题JSON只用于选择辨析主题；不把旧错选当成标准答案或当前仍不会的证据。标准答案依据机制与数值重推。"
+}

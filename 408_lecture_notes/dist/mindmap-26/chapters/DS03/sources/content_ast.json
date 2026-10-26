@@ -1,0 +1,4754 @@
+{
+  "pandoc-api-version": [
+    1,
+    23,
+    1
+  ],
+  "meta": {},
+  "blocks": [
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "DS03",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "栈、队列和数组"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\textbf{知识导图}\\par\\smallskip\n\\begin{wideblock}\\centering\\includegraphics[width=\\linewidth,height=168mm,keepaspectratio]{figures/map-01.pdf}\\end{wideblock}\\par\\medskip\\clearpage"
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\textbf{知识导图（续）}\\par\\smallskip\n\\begin{wideblock}\\centering\\includegraphics[width=\\linewidth,height=168mm,keepaspectratio]{figures/map-02.pdf}\\end{wideblock}\\par\\medskip\\clearpage"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "栈与队列都保存线性序列，差别在于允许从哪一端加入和取出。判断一个操作序列是否合法，必须保留操作过程中的状态；只检查输入、输出是否含有相同元素，不能排除违反栈顶或队头约束的情况。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS03-01",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "栈的后进先出与合法序列"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "栈"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "只允许在同一端插入和删除，这一端称为栈顶，另一端称为栈底。入栈称"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{push}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，出栈称"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{pop}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。栈为空时不能出栈；固定容量栈满时不能继续入栈。若中途不出栈，一批元素的出栈次序是入栈次序的逆序；若允许交替入栈和出栈，输出就可能有多种。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "检验给定输出的方法是按目标逐个模拟：若当前栈顶不是所需元素，继续把尚未入栈的元素依次压入；一旦所需元素到顶，就弹出。若输入已用尽而栈顶仍不符，输出不合法。这个过程也给出实现该输出所需的最小容量，即模拟中出现的最大栈深。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS03-ex1",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "例"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "3-1　队列不会改变栈的输出次序"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{example}[配套例题]"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "配套例题：栈"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "S"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "和队列"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "Q"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "初始均为空，元素"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{a,\\allowbreak{}b,\\allowbreak{}c,\\allowbreak{}d,\\allowbreak{}e,\\allowbreak{}f,\\allowbreak{}g}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "依次入栈"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "S"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。每个元素出栈后立即进入队列"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "Q"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，7个元素出队顺序为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{b,\\allowbreak{}d,\\allowbreak{}c,\\allowbreak{}f,\\allowbreak{}e,\\allowbreak{}a,\\allowbreak{}g}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，则栈容量至少是（　）。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "A."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "1　B."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "2　C."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "3　D."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "4"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{example}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "解析。"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "队列保持进入它的先后次序，因此它的输出就是栈的输出。按目标模拟，栈内状态按栈底到栈顶写："
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\\fontsize{9.3}{12}\\selectfont\\begin{tabularx}{\\linewidth}{@{}YYY@{}}\n\\toprule\\noalign{}\n需要输出 & 必须先执行的入栈 & 弹出后栈内剩余 \\\\\n\\midrule\\noalign{}\n\n\nb & a、b & a \\\\\nd & c、d & a、c \\\\\nc & 无 & a \\\\\nf & e、f & a、e \\\\\ne & 无 & a \\\\\na & 无 & 空 \\\\\ng & g & 空 \\\\\n\\bottomrule\\end{tabularx}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "压入"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "d"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "或"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "f"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "后，栈深达到3；表中过程也说明3个单元足够，答案为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "C"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。不能把队列当作另一处可以随意调整次序的缓冲区。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "若只用入栈"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{I}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "、出栈"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{O}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "表示操作，一段从空栈出发并回到空栈的合法序列须满足：两类操作的总数相等，且每个前缀中"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{O}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "的个数不超过"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{I}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。对"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "n"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "个不同元素，合法出栈序列数为卡特兰数"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "C_n=\\frac1{n+1}\\binom{2n}{n}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；这一公式用于计数，不代替具体容量与给定序列的模拟。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "输入为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{a,\\allowbreak{}b,\\allowbreak{}c,\\allowbreak{}d}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "时，若输出以"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{c,\\allowbreak{}d}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "开头，弹出"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "c"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "后栈中为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a、b，随后必须压入并弹出"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "d，剩余只能"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "b、a，因此仅有"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{c,\\allowbreak{}d,\\allowbreak{}b,\\allowbreak{}a}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "一种。若题目指定的是栈的输出而让输入未知，也要反推中间栈顶。例如第3个输入是1，输出从1递增，1弹出时第2个输入压在第1个输入上方；若第1个是2，就要先弹出上面的另一个值才能到2，与“接下来输出2”矛盾，所以第1个不可能是2。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS03-02",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "队列与双端队列"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "队列"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "只在队尾加入、在队头删除，遵循先进先出。它适合保存等待依次处理的对象，如按发现顺序等待扩展的图顶点。队头与队尾是逻辑角色，不能凭数组下标的大小判断先后：循环队列绕回后，队尾下标可以小于队头下标。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "双端队列"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "允许在两端插入和删除。输入受限双端队列只允许一端输入，两端均可输出；输出受限双端队列允许两端输入，只允许一端输出。判断输出时应明确属于哪一种，不能直接套普通队列或普通栈的限制。双端队列能够模拟栈与队列，但这不表示它能按任意次序输出一组顺序输入的元素。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS03-03",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "顺序栈、共享栈与循环队列"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "顺序栈存于"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{A[0..M-1]}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。本书令"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{top}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "指向当前栈顶，初值"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\ensuremath{-}1：空条件"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{top=\\allowbreak{}=\\allowbreak{}-1}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，满条件"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{top=\\allowbreak{}=\\allowbreak{}M-1}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；入栈为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{A[+\\allowbreak{}+\\allowbreak{}top]=\\allowbreak{}x}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，出栈为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{x=\\allowbreak{}A[top--]}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。若题目改用“"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{top}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "指向下一个空位”，空条件就为0，入栈与出栈的增减位置也随之改变。先画一个元素的状态，再写公式，通常比背四个表达式可靠。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "两个栈共享一个数组时，可让一端从左向右长、另一端从右向左长。初值"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{top1=\\allowbreak{}-1,\\allowbreak{} top2=\\allowbreak{}M}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，栈满当且仅当"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{top2-top1=\\allowbreak{}=\\allowbreak{}1}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。未用空间是两栈顶之间的单元，某个栈已用多少并不单独决定全局是否栈满。入栈前必须先检查两栈顶是否相邻，不能等两个栈顶已经重合才报告满。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS03-detail1",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "循环队列先立约定再计算"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "采用长度为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "M"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "的数组，令"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{front}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "指向队头元素，"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{rear}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "指向下一次入队位置。出队后"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{front=\\allowbreak{}(\\allowbreak{}front+\\allowbreak{}1)\\allowbreak{}\\%M}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，入队后"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{rear=\\allowbreak{}(\\allowbreak{}rear+\\allowbreak{}1)\\allowbreak{}\\%M}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。若只有这两个下标，空与完全占满都会出现"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{front=\\allowbreak{}=\\allowbreak{}rear}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，无法区分。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "牺牲一个单元"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "时，约定空条件为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{front=\\allowbreak{}=\\allowbreak{}rear}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，满条件为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{(\\allowbreak{}rear+\\allowbreak{}1)\\allowbreak{}\\%M=\\allowbreak{}=\\allowbreak{}front}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，可保存的最大元素数是"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "M-1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。当前长度为"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "DisplayMath"
+            },
+            "\\mathrm{len}=(rear-front+M)\\bmod M."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Figure",
+      "c": [
+        [
+          "ds-fig-circular",
+          [],
+          []
+        ],
+        [
+          null,
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "数组环绕时，下标大小不代表队列先后；本图采用牺牲一个单元"
+                }
+              ]
+            }
+          ]
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Image",
+                "c": [
+                  [
+                    "",
+                    [],
+                    [
+                      [
+                        "width",
+                        "80%"
+                      ],
+                      [
+                        "width",
+                        "100%"
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "t": "Str",
+                      "c": "数组环绕时，下标大小不代表队列先后；本图采用牺牲一个单元"
+                    }
+                  ],
+                  [
+                    "figures/DS_03_circular_queue.pdf",
+                    ""
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "若要求"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "M"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "个单元全部可用，可以增加"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{size}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "计数，或增加标志，区分最近一次使二者相等的是入队还是出队。此时“空”和“满”的判断依赖新增成员，不能仍照搬牺牲单元的满条件。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS03-ex2",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "例"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "3-2　换了"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "front"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "含义，长度公式是否改变"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{example}[配套例题]"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "〖3.2-006〗"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "循环队列存于数组"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{A[21]}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{front}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "指向队首元素的前一个位置，"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{rear}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "指向队尾元素。当前"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{front=\\allowbreak{}8,\\allowbreak{} rear=\\allowbreak{}3}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，队列长度为（　）。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "A."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "5　B."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "6　C."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "16　D."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "17"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{example}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "解析。"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "有效元素从下标9开始，经过9至20，再经过0至3，共"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "12+4=16"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "个，答案为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "C"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。公式仍可写成"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "(3-8+21)\\bmod21=16"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，是因为与前一约定相比，两个指针的含义都错开了一个位置。若只改变一个指针的含义，公式就未必不变。数组是"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{A[0..n]}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "时实际有"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "n+1"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "个单元，取模也必须使用"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "n+1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS03-04",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "链栈与链队列"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "链栈通常把链头作为栈顶，头插与头删都是"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "O(1)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。动态分配可随数据量申请结点，因而通常不受预先给定的小容量数组限制；但入栈仍可能因可用内存不足而失败，出栈时也仍可能遇到空栈。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "单链队列把链头作为队头，链尾作为队尾，并保存两个指针。若反过来从单链表尾部删除，必须找到尾结点的前驱，出队会变为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "O(n)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。带头结点的链队列空时"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{front=\\allowbreak{}=\\allowbreak{}rear}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，二者都指向头结点。入队时接到"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{rear->\\allowbreak{}next}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "并更新"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{rear}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；出队时删除"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{front->\\allowbreak{}next}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\BlueLines{2,6,8}\n\\begin{codeblock}[language={}]\ndequeue(Q):\n    if Q.front==Q.rear: return 失败\n    p=Q.front->next\n    x=p->data\n    Q.front->next=p->next\n    if Q.rear==p: Q.rear=Q.front\n    释放 p\n    return x\n\\end{codeblock}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "最后一个数据结点出队时，必须让尾指针退回头结点；否则它指向已释放的空间。非空且不止一个元素时，无需改变尾指针，所以对“删除是否修改头尾指针”这类问题，答案取决于被删除的是否为最后一个元素。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "只带队首指针的非循环双链表，要在另一端入队仍需找尾部；循环双链表则可通过"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{front->\\allowbreak{}prior}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "直接取得尾部。比较结构时，应检查有没有可到达另一端的短链接，而不是看到“双链”就认定所有操作都为常数时间。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS03-05",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "多维数组的地址怎样计算"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "数组同一维度的下标取值范围固定，每个元素大小相同。设二维数组的行下标为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "l_1\\sim u_1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，列下标为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "l_2\\sim u_2"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，列数"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "c=u_2-l_2+1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，行数"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "r=u_1-l_1+1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，每元素占"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "w"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "字节，首元素地址为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "b"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "按行优先时，在"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "(i,j)"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "前有"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i-l_1"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "个完整行及本行的"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "j-l_2"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "个元素，故"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "DisplayMath"
+            },
+            "\\operatorname{Addr}(A[i,j])=b+[(i-l_1)c+(j-l_2)]w."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "按列优先时，先数完整列："
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "DisplayMath"
+            },
+            "\\operatorname{Addr}(A[i,j])=b+[(j-l_2)r+(i-l_1)]w."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "例如"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{A[2..4][−1..2]}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "按行优先存放，每元素4字节，"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{A[2][−1]}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "的地址为1000。"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{A[4][1]}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "前有"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "2\\times4+2=10"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "个元素，字节地址为1040。下标差先得到“元素数”，最后乘元素宽度才得到字节偏移；按字编址的题则要统一成字地址再计算。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "三维数组按行优先时，最右下标变化最快："
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{A[i][j][k]}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "的相对元素位置为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "((i-l_1)n_2+(j-l_2))n_3+(k-l_3)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。可以逐维理解，不必另背一个没有下标原点的公式。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS03-06",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "对称、三角、三对角与稀疏矩阵"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "压缩存储利用元素间的确定关系，避免重复保存。"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "对称矩阵"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "满足"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "a_{ij}=a_{ji}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，保存一侧三角即可；访问另一侧时交换"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i,j"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "三角矩阵"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "的三角区之外，元素全部相同，通常还要额外保存这个公共常量，它未必为0。"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "三对角矩阵"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "只在主对角线及相邻两条对角线上可能非零，共有"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "3n-2"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "个需要保存的位置。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "下三角按行保存、原矩阵与数组下标均从0开始时，位置"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "(i,j)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "（"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i\\ge j"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "）之前有"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "1+2+\\cdots+i=i(i+1)/2"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "个元素，故数组下标为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i(i+1)/2+j"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。若原矩阵从1开始而数组从0开始，公式相应变成"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i(i-1)/2+j-1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。推导的顺序始终是“前面完整行或列数＋本行或列内偏移”。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS03-ex3",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "例"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "3-3　三对角矩阵的起止行不能一律算3个"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{example}[配套例题]"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "配套例题：100阶三对角矩阵"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "M"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "的元素"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "m_{i,j}\\ (1\\le i,j\\le100)"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "按行优先依次压缩存入下标从0开始的一维数组"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "N"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "m_{30,30}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "在"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "N"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "中的下标为（　）。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "A."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "86　B."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "87　C."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "88　D."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "89"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{example}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "解析。"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "第一行有2个元素，第2至29行各有3个，共"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "2+28\\times3=86"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "个在第30行之前。第30行依次保存"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "m_{30,29},m_{30,30},m_{30,31}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，目标是本行第2个，因此下标为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "86+1=87"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，答案为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "B"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。这里87是从0开始的下标，目标是第88个被保存的元素。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS03-ex4",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "例"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "3-4　先用对称性换到实际保存的半边"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{example}[配套例题]"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "配套例题：10\\ensuremath{\\times}10对称矩阵"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "M"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "的上三角元素"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "m_{i,j}\\ (1\\le i\\le j\\le10)"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "按列优先存入"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "C"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "语言一维数组"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "N"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "m_{7,2}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "在"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "N"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "中的下标为（　）。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "A."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "15　B."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "16　C."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "22　D."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "23"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{example}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "解析。"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "m_{7,2}=m_{2,7}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，实际寻找第7列第2行。前6列各存"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "1,2,\\ldots,6"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "个，共21个；本列目标前还有第1行1个元素，所以从0开始的下标为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "21+1=22"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，答案为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "C"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。不能先把下三角坐标直接代入上三角公式，再试图以加减1修正。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "上三角若改为按行优先，各行长度为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "n,n-1,\\ldots,1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；第"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "行之前有"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "(i-1)(2n-i+2)/2"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "个保存位置。下三角若按列优先，各列长度同样递减，但列内偏移为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i-j"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。公式外形相近，决定它的是保存方向与下标原点。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "稀疏矩阵"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "的非零位置没有固定三角规律，需要连同位置一起保存。三元组顺序表记录"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{(\\allowbreak{}行,\\allowbreak{}列,\\allowbreak{}值)\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，还须保存矩阵行列数与非零元数；十字链表为同一个非零元同时设置行链接和列链接。压缩后不能再按普通二维数组地址公式随机访问任意元素，查找与修改成本随表示方法而变。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS03-07",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "表达式、递归与层次处理"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS03-detail2",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "括号与表达式中的“最近一个尚未完成对象”"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "左括号入栈；遇右括号时，栈顶必须是对应种类的左括号，匹配后弹出；扫描完后栈必须为空。"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{(\\allowbreak{}[)\\allowbreak{}]}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "中括号数量相等，但遇到第一个右圆括号时栈顶为左方括号，已经失败。这个过程正好需要最后遇到且尚未配对的对象，所以选择栈。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "后缀表达式中，操作数先入栈，遇二元运算符时先弹出的数是"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "右操作数"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，后弹出的是左操作数，计算后将结果入栈。减法、除法不能颠倒。合法的二元后缀表达式在遇到每个运算符时，栈中至少有两个可用值，最终恰好留下一个结果。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS03-ex5",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "例"
+          },
+          {
+            "t": "Space"
+          },
+          {
+            "t": "Str",
+            "c": "3-5　弹出次序怎样影响减法"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{example}[配套例题]"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "配套例题：栈"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "S_1"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "保存整数，"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "S_2"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "保存运算符。函数"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "F()"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "依次：（1）从"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "S_1"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "弹出操作数"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a、b；（2）从"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "S_2"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "弹出运算符"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "op；（3）执行"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "b"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "op"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "a；（4）把结果压入"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "S_1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。初始"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "S_1"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "自底向顶为5、8、3、2，"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "S_2"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "自底向顶为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{*\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "、"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{−}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "、"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{+\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。调用3次"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "F()"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "后，"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "S_1"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "栈顶值是（　）。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "A."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\ensuremath{-}15　B."
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "15　C."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\ensuremath{-}20　D."
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "20"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{example}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "解析。"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "第一次弹出2、3，用加法得到"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "3+2=5"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，整数栈变为5、8、5。第二次弹出5、8，用减法得到"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "8-5=3"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，栈变为5、3。第三次得到"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "5\\times3=15"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，答案为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "B"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。若第二次按弹出先后计算"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "5-8"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，就会得到错误的负数。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "中缀转后缀可用运算符栈：操作数直接输出；左括号入栈；右括号触发输出直到匹配左括号；遇运算符时，先输出栈顶中优先级更高的运算符。对通常左结合的"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{+\\allowbreak{}、−、*\\allowbreak{}、/\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，同级也先弹出；若加入右结合运算符，同优先级的处理规则需要调整。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "例如"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "x+y(z-u)/v"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "（其中相邻表示乘法）先把括号内写成"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{zu−}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，乘除按左结合形成"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{yzu−*\\allowbreak{}v/\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，最后与"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "x"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "相加，得"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{xyzu−*\\allowbreak{}v/\\allowbreak{}+\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。这里的输出顺序表达运算依赖，而不是把原式的符号按种类重新排列。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS03-detail3",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "递归返回前保存了什么"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "递归调用栈保存尚未完成的调用。调用树的一个结点表示一次调用，不能把函数返回值当作调用次数。对于"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\BlueLines{2,3}\n\\begin{codeblock}[language=C]\nint F(int n) {\n    if (n<=3) return 1;\n    return F(n-2)+F(n-4)+1;\n}\n\\end{codeblock}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "令"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "C(n)"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "表示含当前调用在内的调用次数，则"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "n\\le3"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "时"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "C(n)=1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，否则"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "C(n)=1+C(n-2)+C(n-4)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。因此"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "C(4)=C(2)+C(0)+1=3"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "C(6)=1+3+1=5"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "C(8)=1+5+3=9"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。式中返回值的“＋1”不是另一次函数调用；次数递推中的“＋1”是当前调用本身。此过程对应〖3.3-006〗的递归调用模型。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "C/C++"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "对加号两侧函数调用的求值先后并不一概保证从左到右。若题目问“第几个被调用”，应检查答案是否依赖这个先后，不能把一种习惯顺序当作语言保证。调用总数与最终结果在本例不受这个先后影响。另如〖3.3-007〗把递归式改为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{func(\\allowbreak{}x-2)\\allowbreak{}+\\allowbreak{}func(\\allowbreak{}x-4)\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "、基例返回2，并计算"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{func(\\allowbreak{}func(\\allowbreak{}5)\\allowbreak{})\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "：必须先完成内层func(5)，它和func(3)、func(1)共3次调用，结果为4，所以第4次是外层func(4)；内层两个基例谁先执行不影响这个结论。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "层次处理需要先进先出的队列：先发现的一层结点必须先扩展，后发现的下一层排在后面。第5章层序遍历与第6章"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "BFS"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "都用这条约束，但图还需"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{visited}"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "防止同一顶点反复入队。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS03-code",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "从导图恢复栈与队列的核心接口"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{definition}[先约定指针指向什么，再写边界]"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "顺序栈中的top可以指栈顶元素，也可以指下一空位；循环队列中的front/rear也有不同语义。表示约定决定空满条件、增减时机和长度公式。同一个变量名并不保证同一种表示，改题时先画空状态和单元素状态。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{definition}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "以下栈使用“top指当前栈顶”的约定；下标从0开始，空栈top为\\ensuremath{-}1。"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\BlueLines{4,6,9}\n\\begin{codeblock}[language=C++]\nconstexpr int SMAX = 100;\nstruct Stack { int data[SMAX]; int top = -1; };\nbool push(Stack& s, int x) {\n    if (s.top == SMAX - 1) return false;\n    s.data[++s.top] = x;\n    return true;\n}\nbool pop(Stack& s, int& x) {\n    if (s.top == -1) return false;\n    x = s.data[s.top--];\n    return true;\n}\n\\end{codeblock}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "循环队列使用“front指队头元素，rear指下一入队位”的约定，牺牲一个单元；数组长度固定为8，最大有效长度为7。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\BlueLines{4,7,10}\n\\begin{codeblock}[language=C++]\nconstexpr int QMAX = 8;\nstruct RingQueue { int data[QMAX]; int front = 0, rear = 0; };\nbool enqueue(RingQueue& q, int x) {\n    if ((q.rear + 1) % QMAX == q.front) return false;\n    q.data[q.rear] = x;\n    q.rear = (q.rear + 1) % QMAX;\n    return true;\n}\nbool dequeue(RingQueue& q, int& x) {\n    if (q.front == q.rear) return false;\n    x = q.data[q.front];\n    q.front = (q.front + 1) % QMAX;\n    return true;\n}\n\\end{codeblock}"
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{proof}[环形长度公式来自有向距离]"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "从front沿数组下标递增方向走到rear，步数就是有效元素数。未绕回时为rear\\ensuremath{-}front，绕回时为M\\ensuremath{-}front+rear，合并为"
+          ]
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "(rear-front+M)\\bmod M"
+          ]
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "。牺牲一个单元将步数限制在0至M\\ensuremath{-}1，从而只让0表示空；若允许M个元素，模运算会把长度M也变成0，必须增加size或标志保存这一个区别。"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{proof}"
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{wideblock}"
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\\fontsize{9.3}{12}\\selectfont\\begin{tabularx}{\\linewidth}{@{}YYYY@{}}\n\\toprule\\noalign{}\n环形队列策略 & 空条件 & 满条件 & 可用容量 \\\\\n\\midrule\\noalign{}\n\n\n牺牲一个单元 & front=rear & (rear+1) mod M=front & M\\ensuremath{-}1 \\\\\n增加size计数 & size=0 & size=M & M \\\\\n增加最近操作tag & front=rear且tag为出队 & front=rear且tag为入队 & M \\\\\n\\bottomrule\\end{tabularx}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{wideblock}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "tag方案初始设为“出队”态，初始化即表示空；成功入队/出队后更新tag。计数方案每次成功修改长度，失败操作不能改size。链队列没有预设数组容量，但申请新结点仍可能失败，不能将“不判数组满”理解为内存无限。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS03-matrix-method",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "矩阵压缩：由坐标到下标，再从下标恢复坐标"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{methodbox}[完整行数加行内偏移]"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "每次先写清：矩阵坐标从0还是1开始、压缩数组从0还是1开始、上/下三角、行/列优先。若是对称矩阵，先把目标换到实际保存的半边。最后数前面完整行或列，再加本行/列内偏移；不要用最后加减1修补错误的保存方向。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{methodbox}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "对于坐标从0开始、按行保存下三角的矩阵，令"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "T_i=i(i+1)/2"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，则"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "k=T_i+j"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。反向给定有效数组下标k时，先找到唯一满足"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "T_i\\le k<T_{i+1}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "的i，再令"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "j=k-T_i"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。数学上"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "DisplayMath"
+            },
+            "i=\\left\\lfloor\\frac{\\sqrt{8k+1}-1}{2}\\right\\rfloor,\\qquad j=k-\\frac{i(i+1)}2."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "例如k=8，因"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "T_3=6\\le8<T_4=10"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，得"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i=3,j=2"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。实现时若用浮点平方根，应以整数三角数边界复核，防止舍入把边界分到相邻行。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "坐标从1开始、压缩数组从0开始时，上三角行优先下标为"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "DisplayMath"
+            },
+            "k=\\frac{(i-1)(2n-i+2)}2+(j-i),\\quad1\\le i\\le j\\le n."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "下三角列优先则为"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "DisplayMath"
+            },
+            "k=\\frac{(j-1)(2n-j+2)}2+(i-j),\\quad1\\le j\\le i\\le n."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "三角矩阵的公共常量区可另存一个值，所需空间为"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "n(n+1)/2+1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；对称矩阵只保存一侧即可，不需要这个公共常量单元。三对角矩阵"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "n\\ge2"
+          ]
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "时按行存3n\\ensuremath{-}2个有效位置，坐标从1、数组从0的统一公式为"
+          ]
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "k=2i+j-3"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，前提是"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "|i-j|\\le1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "且坐标不越界。n=1时只有一个元素，应按单元素矩阵处理，不再套首尾行各2个的解释。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "稀疏矩阵中零元位置不具有固定三角规律。三元组的“下标”表示第几个非零记录，不能直接由坐标用普通二维地址公式得到；修改原来的零元为非零元时，可能需要插入记录并调整次序或链接。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS03-app-method",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "典型应用的失败条件"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "中缀表达式将运算符写在左右操作数之间；前缀写在两者之前，后缀写在两者之后。前缀求值从右向左扫描，遇运算符先弹出的值是左操作数、后弹出的值是右操作数；后缀从左向右扫描则先弹出右操作数。方向与角色要一起记。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "例如"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "x+y(z-u)/v"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "按通常左结合规则，前缀为"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{+\\allowbreak{} x /\\allowbreak{} *\\allowbreak{} y - z u v}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，后缀为"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{x y z u - *\\allowbreak{} v /\\allowbreak{} +\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。两种形式都用位置表达运算依赖而省去括号；不是简单地把所有运算符搬到字符串开头或末尾。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{methodbox}[按尚未完成对象的次序选结构]"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "最近进入且尚未结束的对象要先处理，用栈：括号配对、函数调用、表达式中等待右操作数的运算。最早进入且尚未服务的对象先处理，用队列：层序遍历、BFS、先来先服务。操作系统的就绪队列只是管理等待对象，实际调度策略未必总是FIFO。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{methodbox}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "后缀表达式求值必须同时检查：遇二元运算符时至少有两个操作数、除数合法、扫描末尾恰好留下一个结果。仅仅“最终留下一个数”不足以排除中途栈下溢。例如"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{1 +\\allowbreak{} 2}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "按后缀语法扫描，在加号处就没有两个数；"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{1 2 3 +\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "则扫描后还剩两个值。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{example}[自拟：括号数量正确仍可失败]"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "输入"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{(\\allowbreak{}[)\\allowbreak{}]}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "中左右圆括号和左右方括号数量分别相等。用栈检查时，在哪一个字符首次失败？"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{example}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "前两个字符依次入栈，栈顶为"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{[}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；读到第三个字符"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{)\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "时，它要求栈顶为"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{(\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，因此立即失败。只统计每类括号数量看不到嵌套关系，错误发生在第三个字符，不能等扫描完再随意重新配对。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS03-check",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "主动回忆自测"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "第2题引自王道书，其余为原创补充，检查表示约定。"
+        }
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          1,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "数组有8个单元、牺牲一个单元的循环队列，"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{front=\\allowbreak{}6,\\allowbreak{}rear=\\allowbreak{}2}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "，长度是多少？还能再入队几个元素？"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "〖3.1-025〗顺序共享栈"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{Share[0..n−1]}"
+                  ]
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "，第一个栈顶top1初值\\ensuremath{-}1，第二个栈顶top2初值n，栈满条件是（　）。A."
+                  ]
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{top2−top1=\\allowbreak{}=\\allowbreak{}1}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "　B."
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{top1−top2=\\allowbreak{}=\\allowbreak{}1}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "　C."
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{top1=\\allowbreak{}=\\allowbreak{}top2}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "　D."
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "都不对"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "下标从1开始的三对角矩阵，若压缩数组也从1开始，非边界行元素"
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Math",
+                  "c": [
+                    {
+                      "t": "InlineMath"
+                    },
+                    "a_{i,j}"
+                  ]
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "的位置如何计算？"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "答案。"
+            }
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "1."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "长度"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "(2-6+8)\\bmod8=4"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，最大容量7，还能入队3个。2."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "A"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，两栈顶相邻时已无可用单元，不能等栈顶重合才判满。3."
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "前面有"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "2+3(i-2)=3i-4"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "个元素，本行从"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "j=i-1"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "开始，故从1开始的位置为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "3i-4+[j-(i-1)]+1=2i+j-2"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；前提为"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "2\\le i\\le n-1"
+          ]
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Str",
+          "c": "且"
+        },
+        {
+          "t": "Space"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "|i-j|\\le1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，首尾行须按实际保存位置解释。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS03-recall-extra",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "补充自拟回忆题"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{recallcard}[先画状态，再作判断]"
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          4,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "入栈顺序为a、b、c，输出c、a、b是否合法？第一次失败时栈顶是谁？"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "带头结点链队列删除最后一个数据结点时，front和rear应指向哪里？"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "同一个n阶对称矩阵，为什么下三角行优先和上三角列优先有相同的三角数结构？坐标如何转换？"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "后缀表达式"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{8 3 - 2 /\\allowbreak{}}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "的值是多少？若按整数除法计算，先弹出的数是什么角色？"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "递归访问n个结点，最大同时活跃调用数一定为n吗？应由哪个结构参数决定？"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{recallcard}"
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{solution}[补充题核对答案]"
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          4,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "不合法。弹出c后栈中为a、b，想输出a时栈顶是b，而输入已用尽。"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "front仍指有效头结点，rear必须退回front；头结点的next为空。rear不能留在已释放的数据结点上。"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "一边各行保存1、2、\\ensuremath{\\cdots}个元素，另一边各列也保存1、2、\\ensuremath{\\cdots}个。先用aij=aji交换坐标，再按对应行或列求偏移。"
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "先计算8\\ensuremath{-}3=5，再作5/2，整数结果为2；每次先弹出右操作数，除法的除数是先弹出的2。"
+                  ]
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "不一定。由最长未返回调用链决定；树遍历通常取树高h，最坏链形树才可达到n。"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{solution}"
+      ]
+    }
+  ]
+}

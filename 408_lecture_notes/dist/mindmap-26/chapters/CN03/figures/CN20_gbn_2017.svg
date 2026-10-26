@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="660" viewBox="0 0 1120 660">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17212a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#17212a" stroke-linejoin="round">
+<text x="560" y="32" text-anchor="middle" font-size="25" font-weight="bold" fill="#17212a">2017：甲方发送和接收的两条事件轨迹</text>
+<text x="130" y="83" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">甲方</text>
+<text x="105" y="117" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">t₀</text>
+<line x1="130" y1="105" x2="130" y2="608" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="130" y1="130" x2="460" y2="154" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="308" y="124" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">S0,0</text>
+<line x1="130" y1="174" x2="460" y2="198" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="308" y="168" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">S1,0</text>
+<line x1="130" y1="218" x2="460" y2="242" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="308" y="212" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">S2,0</text>
+<line x1="130" y1="262" x2="460" y2="286" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="308" y="256" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">S3,0</text>
+<line x1="460" y1="306" x2="130" y2="330" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="308" y="300" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">R0,1</text>
+<line x1="130" y1="350" x2="460" y2="374" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="308" y="344" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">S4,1</text>
+<line x1="460" y1="394" x2="130" y2="418" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="308" y="388" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">R1,3</text>
+<line x1="460" y1="438" x2="130" y2="462" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="308" y="432" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">R3,3</text>
+<text x="105" y="551" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">t₁</text>
+<line x1="130" y1="543" x2="460" y2="567" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="305" y="539" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">?</text>
+<text x="305" y="588" text-anchor="middle" font-size="26" font-weight="normal" fill="#17212a">⋮</text>
+<text x="300" y="643" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">(a) 未超时</text>
+<text x="690" y="83" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">甲方</text>
+<text x="665" y="117" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">t₀</text>
+<line x1="690" y1="105" x2="690" y2="608" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="690" y1="130" x2="1020" y2="154" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="868" y="124" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">S0,0</text>
+<line x1="690" y1="174" x2="1020" y2="198" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="868" y="168" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">S1,0</text>
+<line x1="690" y1="218" x2="1020" y2="242" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="868" y="212" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">S2,0</text>
+<line x1="1020" y1="262" x2="690" y2="286" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="868" y="256" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">R0,1</text>
+<line x1="1020" y1="306" x2="690" y2="330" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="868" y="300" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">R1,2</text>
+<line x1="690" y1="350" x2="1020" y2="374" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="868" y="344" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">S3,2</text>
+<line x1="690" y1="394" x2="1020" y2="418" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="868" y="388" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">S4,2</text>
+<line x1="1020" y1="438" x2="690" y2="462" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="868" y="432" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">R2,2</text>
+<rect x="716" y="486" width="260" height="40" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="846.0" y="513.0" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">S2,0超时</text>
+<text x="665" y="551" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">t₁</text>
+<line x1="690" y1="543" x2="1020" y2="567" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="865" y="539" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">?</text>
+<text x="865" y="588" text-anchor="middle" font-size="26" font-weight="normal" fill="#17212a">⋮</text>
+<text x="860" y="643" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">(b) S₂,₀超时</text>
+</g></svg>

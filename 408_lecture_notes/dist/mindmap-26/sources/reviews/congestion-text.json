@@ -1,0 +1,38 @@
+[
+  {
+    "page": 1,
+    "text": "TCP拥塞控制\n本节内容\n王道考研/CSKAOYAN.COM\n"
+  },
+  {
+    "page": 3,
+    "text": "王道考研/CSKAOYAN.COM\n拥塞控制的四种算法\n"
+  },
+  {
+    "page": 4,
+    "text": "王道考研/CSKAOYAN.COM\nTCP拥塞控制、TCP流量控制的区别与联系\n流量控制：控制端到端的数据发送量，是“局部的”\n拥塞控制：控制整个网络中每台主机的数据发送量，降低路由器负载，是“全局的”\n⽹络\n路由器\n路由器\n路由器\n路由器\n路由器\nA\nB\nC\nD\nE\nF\n如何判断网络拥塞？\n•\n发出的每个报文段，都能顺利地收到ACK确认——不拥塞\n•\n发出的报文段未能按时收到ACK，引发超时重传——严重拥塞\n•\n收到冗余ACK，引发快重传——有点拥塞\n如果检测到网络拥塞怎么办？\n•\n迅速减少发送的数据量\n•\n严重拥塞就迅速缩小拥塞窗口\n•\n有点拥塞就适当缩小拥塞窗口\n发送窗口的上限值 = min[rwnd, cwnd]\n拥塞\n窗口\n接收\n窗口\n"
+  },
+  {
+    "page": 5,
+    "text": "王道考研/CSKAOYAN.COM\n拥塞控制考题特点\n拥塞控制考题特点：\n1. 常与“流量控制”综合考察，此时需要考虑接收窗口大小\n2. 通常只涉及单向传输（TCP连接双方只有一方发送数据）\n3. 通常默认每个TCP报文段都以最大段长MSS满载数据\n4. 拥塞窗口的大小常以“MSS的倍数”作为单位\n5. 接收方收到一个报文段，会“立即确认”，而不是“推迟确认”\n注：为了聚焦拥塞控制，接下来的讨论中，假设接收方的接收窗口足够大，\n这样发送窗口大小就只受拥塞窗口限制\n发送窗口的上限值 = min[rwnd, cwnd]\n拥塞\n窗口\n接收\n窗口\n会导致冗余\nACK，快重传\n"
+  },
+  {
+    "page": 6,
+    "text": "王道考研/CSKAOYAN.COM\n慢开始、拥塞避免\n慢开始门限(正规翻译)\n拥塞控制阈值(真题术语)\n慢开始算法：cwnd 值从1开始，每收到⼀个ACK，就让 cwnd+1（当cwnd<ssthress 时适⽤）\n拥塞避免算法：在⼀个RTT内，即使收到多个ACK，也只能让 cwnd+1（当cwnd≥ssthress 时适⽤）\n"
+  },
+  {
+    "page": 7,
+    "text": "ssthresh = cwnd/2=12\ncwnd = 1\n注意：ssthresh不能⼩于2\nt\nt\n0RTT\n1RTT\n2RTT\n3RTT\n4RTT\n5RTT\n···连发16个报⽂段···\n···连回16个ACK···\n···连发17个报⽂段···\n···连回17个ACK···\n···连发18个报⽂段···\n···连回23个ACK···\n···连发24个报⽂段···\n发⽣超时重传\n(说明严重拥塞)\n……\n6RTT\n12RTT\n13RTT\n···连发12个报⽂段···\n···连回12个ACK···\n初始 ssthresh = 16, cwnd = 1\ncwnd=1+1=2\ncwnd=2+2=4\ncwnd=4+4=8\ncwnd=8+8=16\ncwnd=16+1=17\ncwnd=17+1=18\ncwnd=23+1=24\n慢开始算法：\ncwnd 值从1开始，每收到⼀\n个ACK，就让 cwnd+1\n当 cwnd<ssthress 时适⽤\n拥塞避免算法：\n在⼀个RTT内，即使收到多\n个ACK，也只能让 cwnd+1\n当 cwnd≥ssthress 时适⽤\n慢开始算法：\ncwnd 值从1开始，每收到⼀\n个ACK，就让 cwnd+1\n当 cwnd<ssthress 时适⽤\ncwnd 到达阈值\ncwnd=1\n14RTT\n15RTT\n16RTT\n17RTT\n18RTT\n19RTT\ncwnd=1+1=2\ncwnd=2+2=4\ncwnd=4+4=8\ncwnd=8+4=12\ncwnd=12+1=13\ncwnd=13+1=14\ncwnd 到达阈值\n···连发13个报⽂段···\n···连回13个ACK···\n拥塞避免算法：\n在⼀个RTT内，即使收到多\n个ACK，也只能让 cwnd+1\n当 cwnd≥ssthress 时适⽤\n···连发8个报⽂段···\n···连回8个ACK···\n···连发15个报⽂段···\n···连回15个ACK···\n20RTT\n21RTT\ncwnd=14+1=15\ncwnd=15+1=16\n···连发16个报⽂段···\n···连发14个报⽂段···\n···连回14个ACK···\n……\n"
+  },
+  {
+    "page": 10,
+    "text": "TCP拥塞控制\n（快重传和快恢复）\n本节内容\n王道考研/CSKAOYAN.COM\n"
+  },
+  {
+    "page": 11,
+    "text": "王道考研/CSKAOYAN.COM\n快重传、快恢复\n快重传：当发送⽅收到三个确认号相同的冗余ACK时，⽴即重传对应报⽂段\n快恢复算法：⼀旦发⽣快重传，就将阈值、cwnd 都设为当前 cwnd 的⼀半，然后切换到为“拥塞避免算法”\n"
+  },
+  {
+    "page": 12,
+    "text": "ssthresh = cwnd/2 =12\ncwnd = ssthresh\n注意：ssthresh不能⼩于2\nt\nt\n0RTT\n1RTT\n2RTT\n3RTT\n4RTT\n5RTT\n···连发16个报⽂段···\n···连回16个ACK···\n···连发17个报⽂段···\n···连回17个ACK···\n···连发18个报⽂段···\n···连回23个ACK···\n···连发24个报⽂段···\n收到3个冗余ACK\n导致快重传\n(说明有点拥塞)\n……\n6RTT\n12RTT\n13RTT\n···连发12个报⽂段···\n···连回12个ACK···\n初始  ssthresh = 16, cwnd = 1\ncwnd=1+1=2\ncwnd=2+2=4\ncwnd=4+4=8\ncwnd=8+8=16\ncwnd=16+1=17\ncwnd=17+1=18\ncwnd=23+1=24\n慢开始算法：\ncwnd 值从1开始，每收到⼀\n个ACK，就让 cwnd+1\n当 cwnd<ssthress 时适⽤\n拥塞避免算法：\n在⼀个RTT内，即使收到多\n个ACK，也只能让 cwnd+1\n当 cwnd≥ssthress 时适⽤\ncwnd 到达阈值\nssthresh=12，cwnd=12\n14RTT\n15RTT\n16RTT\n17RTT\ncwnd=12+1=13\ncwnd=13+1=14\n···连发13个报⽂段···\n···连回13个ACK···\n拥塞避免算法：\n在⼀个RTT内，即使收到多\n个ACK，也只能让 cwnd+1\n当 cwnd≥ssthress 时适⽤\n···连发15个报⽂段···\n···连回15个ACK···\ncwnd=14+1=15\ncwnd=15+1=16\n···连发16个报⽂段···\n···连发14个报⽂段···\n···连回14个ACK···\n……\n快恢复算法：\n⼀旦发⽣快重传，就将阈\n值、cwnd 都设为当前 \ncwnd 的⼀半，然后切换\n到为“拥塞避免算法”\n3个冗余ACK\n"
+  }
+]

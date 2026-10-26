@@ -1,0 +1,444 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "CO05-registers",
+        "kind": "最小反例",
+        "title": "地址宽与数据宽可不同",
+        "y": 466.85394287109375,
+        "estimated_height": 89.19999999999999,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        129.35799407958984
+      ],
+      [
+        142.18310546875,
+        466.85394287109375
+      ],
+      [
+        170.205078125,
+        193.25953674316406
+      ],
+      [
+        185.71661376953125,
+        207.7229766845703
+      ],
+      [
+        201.81161499023438,
+        224.32403564453125
+      ],
+      [
+        216.791015625,
+        238.82980346679688
+      ],
+      [
+        250.58917236328125,
+        273.62200927734375
+      ],
+      [
+        266.1457214355469,
+        288.14849853515625
+      ],
+      [
+        346.4622802734375,
+        368.4686584472656
+      ],
+      [
+        362.01617431640625,
+        384.0333251953125
+      ],
+      [
+        408.55975341796875,
+        430.60845947265625
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 1,
+        "anchor": "CO05-cycle",
+        "kind": "错项排除",
+        "title": "CPI同为1也不等速",
+        "y": 459.9885559082031,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        104.25320434570312,
+        459.9885559082031
+      ],
+      [
+        132.26437377929688,
+        154.29234313964844
+      ],
+      [
+        148.34947204589844,
+        170.86187744140625
+      ],
+      [
+        163.25503540039062,
+        186.39413452148438
+      ],
+      [
+        178.84039306640625,
+        200.89990234375
+      ],
+      [
+        209.94720458984375,
+        232.9908447265625
+      ],
+      [
+        243.7021484375,
+        265.7409362792969
+      ],
+      [
+        259.2344055175781,
+        282.2888488769531
+      ],
+      [
+        274.72430419921875,
+        296.8261413574219
+      ],
+      [
+        290.3304138183594,
+        312.30523681640625
+      ],
+      [
+        324.03314208984375,
+        347.1191101074219
+      ],
+      [
+        339.576171875,
+        361.6248779296875
+      ],
+      [
+        355.09759521484375,
+        378.18359375
+      ],
+      [
+        370.661376953125,
+        392.6785583496094
+      ],
+      [
+        401.7474670410156,
+        423.7646484375
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 2,
+        "anchor": "CO05-datapath",
+        "kind": "不变量",
+        "title": "总线同拍只有一个驱动源",
+        "y": 379.62701416015625,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        104.254150390625,
+        379.62701416015625
+      ],
+      [
+        132.276123046875,
+        155.33058166503906
+      ],
+      [
+        147.82998657226562,
+        170.86282348632812
+      ],
+      [
+        163.34060668945312,
+        186.39508056640625
+      ],
+      [
+        178.9187774658203,
+        201.92730712890625
+      ],
+      [
+        194.32046508789062,
+        216.4015655517578
+      ],
+      [
+        209.88421630859375,
+        231.95452880859375
+      ],
+      [
+        259.2569580078125,
+        281.2318115234375
+      ],
+      [
+        274.736083984375,
+        296.7739562988281
+      ],
+      [
+        305.8212890625,
+        328.88653564453125
+      ],
+      [
+        321.33282470703125,
+        343.3815002441406
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 3,
+        "anchor": "CO05-datapath",
+        "kind": "最小反例",
+        "title": "同一动作不可重复计延迟",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 4,
+        "anchor": "CO05-control",
+        "kind": "错项排除",
+        "title": "编码对象先分清",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        504.9385986328125,
+        530.203857421875
+      ],
+      [
+        522.0995483398438,
+        619.0957641601562
+      ],
+      [
+        503.01251220703125,
+        515.8095092773438
+      ],
+      [
+        520.471923828125,
+        532.9700927734375
+      ],
+      [
+        609.363525390625,
+        622.1605224609375
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 5,
+        "anchor": "CO05-microsequence",
+        "kind": "最小反例",
+        "title": "4条命令不只4种状态",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [
+      {
+        "index": 6,
+        "anchor": "CO05-exception",
+        "kind": "课程连接",
+        "title": "缺页使当前指令重试",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 8,
+    "sidebars": [
+      {
+        "index": 7,
+        "anchor": "CO05-exception",
+        "kind": "错项排除",
+        "title": "进入内核不等于换进程",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [
+      {
+        "index": 8,
+        "anchor": "CO05-pipeline-performance",
+        "kind": "不变量",
+        "title": "第一条付满延迟，后续按间隔",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 10,
+    "sidebars": [
+      {
+        "index": 9,
+        "anchor": "CO05-stage-registers",
+        "kind": "错项排除",
+        "title": "段寄存器还要携带控制",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 11,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "CO05-pipeline-types",
+        "kind": "错项排除",
+        "title": "两种“动态”分类角度不同",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 12,
+    "sidebars": [
+      {
+        "index": 10,
+        "anchor": "CO05-hazards",
+        "kind": "最小反例",
+        "title": "尚未产生的值不能转发",
+        "y": 95,
+        "estimated_height": 195.5,
+        "mini": true
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 13,
+    "sidebars": [
+      {
+        "index": 11,
+        "anchor": "CO05-hazards",
+        "kind": "不变量",
+        "title": "产生点必须早于使用点",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 14,
+    "sidebars": [
+      {
+        "index": 13,
+        "anchor": "CO05-issue",
+        "kind": "最小反例",
+        "title": "改名字不能提前算出值",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 15,
+    "sidebars": [
+      {
+        "index": 16,
+        "anchor": "CO05-multithread",
+        "kind": "最小反例",
+        "title": "一核也能保存两线程状态",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 16,
+    "sidebars": [
+      {
+        "index": 15,
+        "anchor": "CO05-flynn",
+        "kind": "课程连接",
+        "title": "共享地址并不自动互斥",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 17,
+    "sidebars": [
+      {
+        "index": 17,
+        "anchor": "CO05-recall",
+        "kind": "不变量",
+        "title": "调度下界来自不可颠倒链",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 18,
+    "sidebars": [
+      {
+        "index": 17,
+        "anchor": "CO05-recall",
+        "kind": "不变量",
+        "title": "调度下界来自不可颠倒链",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  }
+]

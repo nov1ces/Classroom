@@ -1,0 +1,373 @@
+{
+  "items": [
+    {
+      "id": "DS03-N01",
+      "node": "栈的抽象与序列",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.1_栈的基本概念.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-N02",
+      "node": "后进先出",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.1_栈的基本概念.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-N03",
+      "node": "空栈与溢出",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.1_栈的基本概念.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-N04",
+      "node": "合法前缀",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.1_栈的基本概念.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-N05",
+      "node": "最大栈深与容量",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.1_栈的基本概念.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-N06",
+      "node": "卡特兰计数",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.1_栈的基本概念.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-N07",
+      "node": "顺序栈与链栈",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.2_栈的顺序存储实现.pdf",
+      "locator": "文件页12；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-code",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N08",
+      "node": "top两种约定",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.2_栈的顺序存储实现.pdf",
+      "locator": "文件页12；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-code",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N09",
+      "node": "共享栈相向生长",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.2_栈的顺序存储实现.pdf",
+      "locator": "文件页12；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-code",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N10",
+      "node": "链头作为栈顶",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.2_栈的顺序存储实现.pdf",
+      "locator": "文件页12；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-code",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N11",
+      "node": "基本操作代码",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.2_栈的顺序存储实现.pdf",
+      "locator": "文件页12；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-code",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N12",
+      "node": "队列与双端队列",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.2_队列的顺序实现.pdf",
+      "locator": "文件页16；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N13",
+      "node": "先进先出",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.2_队列的顺序实现.pdf",
+      "locator": "文件页16；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N14",
+      "node": "输入受限与输出受限",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.2_队列的顺序实现.pdf",
+      "locator": "文件页16；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N15",
+      "node": "顺序循环队列",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.2_队列的顺序实现.pdf",
+      "locator": "文件页16；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N16",
+      "node": "牺牲单元size与tag",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.2_队列的顺序实现.pdf",
+      "locator": "文件页16；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N17",
+      "node": "链队列首尾维护",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.2_队列的顺序实现.pdf",
+      "locator": "文件页16；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N18",
+      "node": "栈和队列的应用",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.3_栈在递归中的应用.pdf",
+      "locator": "文件页8；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-N19",
+      "node": "括号匹配",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.3_栈在递归中的应用.pdf",
+      "locator": "文件页8；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-N20",
+      "node": "中缀前缀与后缀",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.3_栈在递归中的应用.pdf",
+      "locator": "文件页8；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-N21",
+      "node": "操作数弹出次序",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.3_栈在递归中的应用.pdf",
+      "locator": "文件页8；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-N22",
+      "node": "递归调用状态",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.3_栈在递归中的应用.pdf",
+      "locator": "文件页8；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-N23",
+      "node": "层序BFS与服务次序",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.3_栈在递归中的应用.pdf",
+      "locator": "文件页8；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-N24",
+      "node": "数组地址",
+      "source": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+      "locator": "文件页112起=书100起，依据教材目录定位数组定义/存储；此节点组未逐页目验，实际公式独立枚举核验",
+      "target": "notes.md#DS03-05",
+      "status": "covered",
+      "verification": "toc_locator_and_independent_calculation"
+    },
+    {
+      "id": "DS03-N25",
+      "node": "行优先",
+      "source": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+      "locator": "文件页112起=书100起，依据教材目录定位数组定义/存储；此节点组未逐页目验，实际公式独立枚举核验",
+      "target": "notes.md#DS03-05",
+      "status": "covered",
+      "verification": "toc_locator_and_independent_calculation"
+    },
+    {
+      "id": "DS03-N26",
+      "node": "列优先",
+      "source": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+      "locator": "文件页112起=书100起，依据教材目录定位数组定义/存储；此节点组未逐页目验，实际公式独立枚举核验",
+      "target": "notes.md#DS03-05",
+      "status": "covered",
+      "verification": "toc_locator_and_independent_calculation"
+    },
+    {
+      "id": "DS03-N27",
+      "node": "非零下界",
+      "source": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+      "locator": "文件页112起=书100起，依据教材目录定位数组定义/存储；此节点组未逐页目验，实际公式独立枚举核验",
+      "target": "notes.md#DS03-05",
+      "status": "covered",
+      "verification": "toc_locator_and_independent_calculation"
+    },
+    {
+      "id": "DS03-N28",
+      "node": "多维地址与单位",
+      "source": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+      "locator": "文件页112起=书100起，依据教材目录定位数组定义/存储；此节点组未逐页目验，实际公式独立枚举核验",
+      "target": "notes.md#DS03-05",
+      "status": "covered",
+      "verification": "toc_locator_and_independent_calculation"
+    },
+    {
+      "id": "DS03-N29",
+      "node": "特殊矩阵压缩",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.4.1~3.4.4_特殊矩阵的压缩存储.pdf",
+      "locator": "文件页24；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-matrix-method",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N30",
+      "node": "对称矩阵",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.4.1~3.4.4_特殊矩阵的压缩存储.pdf",
+      "locator": "文件页24；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-matrix-method",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N31",
+      "node": "三角矩阵公共常量",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.4.1~3.4.4_特殊矩阵的压缩存储.pdf",
+      "locator": "文件页24；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-matrix-method",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N32",
+      "node": "三对角矩阵",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.4.1~3.4.4_特殊矩阵的压缩存储.pdf",
+      "locator": "文件页24；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-matrix-method",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N33",
+      "node": "稀疏矩阵位置记录",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.4.1~3.4.4_特殊矩阵的压缩存储.pdf",
+      "locator": "文件页24；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-matrix-method",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-N34",
+      "node": "坐标到下标及逆推",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.4.1~3.4.4_特殊矩阵的压缩存储.pdf",
+      "locator": "文件页24；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS03-matrix-method",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-EX-35",
+      "node": "例 3-1　队列不会改变栈的输出次序",
+      "source": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+      "locator": "文件页84=书72，第26题解析表和文句目验为bdcfeag；做题本102页有bdefeag排印差异，不沿用",
+      "target": "notes.md#DS03-ex1",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS03-EX-36",
+      "node": "例 3-2　换了 front 含义，长度公式是否改变",
+      "source": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+      "locator": "文件页113；本轮文本核验题干",
+      "target": "notes.md#DS03-ex2",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-EX-37",
+      "node": "例 3-3　三对角矩阵的起止行不能一律算3个",
+      "source": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+      "locator": "文件页162；本轮文本核验题干",
+      "target": "notes.md#DS03-ex3",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-EX-38",
+      "node": "例 3-4　先用对称性换到实际保存的半边",
+      "source": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+      "locator": "文件页165；本轮文本核验题干",
+      "target": "notes.md#DS03-ex4",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-EX-39",
+      "node": "例 3-5　弹出次序怎样影响减法",
+      "source": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+      "locator": "文件页149；本轮文本核验题干",
+      "target": "notes.md#DS03-ex5",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS03-EX-40",
+      "node": "自测2 共享栈边界",
+      "source": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+      "locator": "文件页101；沿用旧台账定位，本轮未逐题目验",
+      "target": "notes.md#DS03-check",
+      "status": "covered",
+      "verification": "inherited_locator"
+    }
+  ],
+  "review_notes": [
+    "目验栈顺序实现12、队列顺序实现16、链队列11、矩阵24四张真实总结/分支图。",
+    "保留旧章5个例题与完整推导；增加栈/环形队列代码、三种环形策略宽表、矩阵逆映射和自拟括号反例。",
+    "所有矩阵公式明确矩阵/压缩数组起点、保存方向及有效范围；三对角n=1另行处理。",
+    "旧年份未独立核原卷，正文降配套例题。教材数组位置来源112起为目录候选定位，正式PDF源核验由根任务复核，不能冒称视觉核验。",
+    "新增核心代码从实际notes.md提取，在C++17严格告警与ASan/UBSan下通过独立对照；验证脚本仅位于work/audit_ds，不作为读者正文。",
+    "重要题源差异：做题本102页实际印出bdefeag（e重复、c缺失）；教材PDF84=书72的第26题解析表与文句实际为bdcfeag。本章沿用教材正确序列b,d,c,f,e,a,g，已视觉核对两页。"
+  ],
+  "wrong_question_handling": "历史JSON本章22条，覆盖栈序列/共享栈、循环队列表示、链队列、递归次数及压缩矩阵。根据原错题所在节集中配置条件辨析与自测；未声称全部22题题干或答案已重新目验，也不推断当前掌握。"
+}

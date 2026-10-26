@@ -1,0 +1,50 @@
+{
+  "GBN-long-ACK": {
+    "Td_ms": 64.0,
+    "cycle_ms": 628.0,
+    "Ws_min": 10,
+    "k_min": 4
+  },
+  "SR-window-space": {
+    "k3_symmetric_max": 4,
+    "k4_Wr7_Wsmax": 9,
+    "asymmetric_common_config_ok": true
+  },
+  "TCP-new-data": {
+    "cwnd_after_ACK": 3000,
+    "rwnd": 4000,
+    "flight": 1000,
+    "new_bytes": 2000,
+    "full_MSS_segments": 2
+  },
+  "TCP-SYN-FIN": {
+    "SYN_seq": 100,
+    "data_bytes": 500,
+    "data_first": 101,
+    "data_last": 600,
+    "FIN_seq": 601,
+    "ACK_of_FIN": 602
+  },
+  "TCP-full-buffer": {
+    "round_KB": [
+      1,
+      2,
+      4,
+      8,
+      5
+    ],
+    "total_B": 20480,
+    "next_seq": 20581,
+    "time_s": 1.0,
+    "rate_bit_s": 163840.0
+  },
+  "normal-plus-dupACK": {
+    "same_ACK_total_3": "1 normal + 2 duplicate: insufficient",
+    "same_ACK_total_4": "1 normal + 3 duplicate: threshold in simplified model"
+  },
+  "SRTT": 105.0,
+  "reviewed_notes": {
+    "CN03": "974b5f61d2cad7e378903d69559498a5c96f66b0fcae902a711bd5428469488a",
+    "CN05": "a14e658cd971136b01a1d47ecc6af2f9fa7023be127eedad6309d366c7f09bbb"
+  }
+}

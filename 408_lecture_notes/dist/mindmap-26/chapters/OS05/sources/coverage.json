@@ -1,0 +1,319 @@
+{
+  "items": [
+    {
+      "id": "OS05-N01",
+      "node": "设备、控制器与分类",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页317为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS05-7-1",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS05-N01-01",
+      "node": "字符、块与网络设备",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-1",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N01-02",
+      "node": "独占、共享与可寻址性",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-1",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N01-03",
+      "node": "控制、状态与数据寄存器",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-1",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N01-04",
+      "node": "独立编址与内存映射I/O",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-1",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N02",
+      "node": "传送控制与软件层次",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页317为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS05-7-2",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS05-N02-01",
+      "node": "轮询、中断与DMA",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-2",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N02-02",
+      "node": "用户库、设备无关层、驱动、中断处理",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-3",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N02-03",
+      "node": "请求下行与完成通知上行",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-3",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N03",
+      "node": "接口、分配与假脱机",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页317为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS05-7-4",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS05-N03-01",
+      "node": "阻塞、非阻塞与异步",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-4",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N03-02",
+      "node": "逻辑名称、设备分配与释放",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-6",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N03-03",
+      "node": "静态、动态与资源等待",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-6",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N03-04",
+      "node": "SPOOLing输入井与输出井",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-7",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N04",
+      "node": "缓冲与I/O核心服务",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页317为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS05-7-5",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS05-N04-01",
+      "node": "输入、复制、分析的资源约束",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-5",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N04-02",
+      "node": "单缓冲与双缓冲时间线",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-5",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N04-03",
+      "node": "首块启动与末块排空",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-5",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N04-04",
+      "node": "循环缓冲、缓冲池与缓存",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-5",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N05",
+      "node": "磁盘结构、地址与管理",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页317为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS05-7-8",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS05-N05-01",
+      "node": "柱面、盘面、扇区与簇",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-8",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N05-02",
+      "node": "寻道、旋转与传输时间",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-8",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N05-03",
+      "node": "物理格式化、分区与逻辑格式化",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-8",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N05-04",
+      "node": "簇号到CHS地址的混合进位",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-11",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N06",
+      "node": "磁盘调度与公平边界",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页317为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS05-7-9",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS05-N06-01",
+      "node": "FCFS与SSTF逐步选择",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-9",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N06-02",
+      "node": "SCAN与LOOK折返点",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-9",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N06-03",
+      "node": "C-SCAN与C-LOOK回跳",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-9",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N06-04",
+      "node": "静态请求批次与持续到达",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-9",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N07",
+      "node": "固态硬盘与闪存管理",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "文件页317为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS05-7-10",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS05-N07-01",
+      "node": "页读写与块擦除",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-10",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N07-02",
+      "node": "FTL与异地更新",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-10",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N07-03",
+      "node": "垃圾回收与写放大",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-10",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS05-N07-04",
+      "node": "动态、静态磨损均衡与TRIM",
+      "source": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS05-7-10",
+      "status": "covered",
+      "verification": "text"
+    }
+  ],
+  "review_notes": [
+    "教材副本与项目分卷原件已由主代理逐字节核验，证据 /workspace/work/408-probe/archive_verification.json。",
+    "全部原稿实质段落/代码/例题解析保留；只规范标题ID、来源标签、表格与组件。",
+    "未独立复核的真题年份正文统一改称配套例题；历史标注及文件指纹记录在author_report。",
+    "PDF正文图像扫描，教材文件页=书页+12，已目验PDF14=书2、189=书177、318=书306。",
+    "教材第5章文件页317～371；已目验设备分类课件P9真实树形导图和I/O核心子系统P6层次图，未将层次块图冒称分支导图。",
+    "核对缓冲流水首尾边界、CHS混合进位、SCAN停止点和SSD写入/擦除粒度。"
+  ],
+  "wrong_question_handling": "历史错题按已登记题号帮助挑选辨析案例，题干及答案条件需核验；不把过去错选当作当前弱项，不在笔记中暴露个人错选。"
+}

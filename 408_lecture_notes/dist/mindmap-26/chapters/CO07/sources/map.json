@@ -1,0 +1,124 @@
+{
+  "id": "CO07",
+  "title": "输入/输出系统",
+  "branches": [
+    {
+      "label": "系统组成与外部设备",
+      "children": [
+        "I/O硬件与软件",
+        "I/O指令与通道指令",
+        "输入/输出/外存设备",
+        "显示器参数",
+        "显存容量与刷新数据率",
+        "打印机分类"
+      ]
+    },
+    {
+      "label": "接口与端口",
+      "children": [
+        "数据缓冲",
+        "状态与控制寄存器",
+        "串并转换",
+        "控制与地址译码",
+        "统一编址",
+        "独立编址"
+      ]
+    },
+    {
+      "label": "程序查询",
+      "children": [
+        "独占查询",
+        "定时查询",
+        "状态检查与搬运",
+        "缓冲期限",
+        "CPU占用率"
+      ]
+    },
+    {
+      "label": "程序中断",
+      "children": [
+        "请求与响应条件",
+        "中断判优和入口",
+        "隐指令与服务程序",
+        "单重与多重中断",
+        "响应与处理优先级",
+        "屏蔽与嵌套恢复"
+      ]
+    },
+    {
+      "label": "DMA",
+      "children": [
+        "控制器组成",
+        "预处理/传送/后处理",
+        "暂停CPU",
+        "周期挪用",
+        "交替访存",
+        "完成中断"
+      ]
+    },
+    {
+      "label": "统一预算",
+      "children": [
+        "每次交换q字节",
+        "每块Q字节",
+        "CPU事件率",
+        "总线占用率",
+        "平均开销与最长延迟"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.3 外部设备.pdf",
+      "pages": [
+        14
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.2 IO接口.pdf",
+      "pages": [
+        13
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.1 程序查询方式.pdf",
+      "pages": [
+        8
+      ],
+      "role": "slide_text",
+      "visual_checked": false
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_3 程序中断方式.pdf",
+      "pages": [
+        6
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "pages": [
+        12
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.1+7.1.2 输入输出系统和IO控制方式.pdf",
+      "pages": [
+        16
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "全章树由系统概念、外设、接口、中断与DMA节级导图合成；统一预算分支按已提取课件和保留正文的计算关系补绘，沿用本章蓝色左根右展层级。"
+  ]
+}

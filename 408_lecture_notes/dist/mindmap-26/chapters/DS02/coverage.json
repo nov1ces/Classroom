@@ -1,0 +1,337 @@
+{
+  "items": [
+    {
+      "id": "DS02-N01",
+      "node": "定义与基本操作",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.1_线性表的定义和基本操作.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N02",
+      "node": "有限有序同型",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.1_线性表的定义和基本操作.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N03",
+      "node": "表长与空表",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.1_线性表的定义和基本操作.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N04",
+      "node": "位序和数组下标",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.1_线性表的定义和基本操作.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N05",
+      "node": "初始化清空与销毁",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.1_线性表的定义和基本操作.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N06",
+      "node": "顺序表示",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_1_顺序表的插入删除.pdf",
+      "locator": "文件页10；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-code-seq",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N07",
+      "node": "静态容量与动态扩容",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_1_顺序表的插入删除.pdf",
+      "locator": "文件页10；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-code-seq",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N08",
+      "node": "随机存取与按值查找",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_1_顺序表的插入删除.pdf",
+      "locator": "文件页10；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-code-seq",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N09",
+      "node": "插入后移与删除前移",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_1_顺序表的插入删除.pdf",
+      "locator": "文件页10；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-code-seq",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N10",
+      "node": "平均移动次数",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_1_顺序表的插入删除.pdf",
+      "locator": "文件页10；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-code-seq",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N11",
+      "node": "引用参数与输出参数",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_1_顺序表的插入删除.pdf",
+      "locator": "文件页10；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-code-seq",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N12",
+      "node": "单链表示",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.1_单链表的定义.pdf",
+      "locator": "文件页13；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-code-link",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N13",
+      "node": "头指针头结点首元结点",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.1_单链表的定义.pdf",
+      "locator": "文件页13；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-code-link",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N14",
+      "node": "按位序与按值查找",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.1_单链表的定义.pdf",
+      "locator": "文件页13；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-code-link",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N15",
+      "node": "后插与删除后继",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.1_单链表的定义.pdf",
+      "locator": "文件页13；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-code-link",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N16",
+      "node": "头插法与尾插法",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.1_单链表的定义.pdf",
+      "locator": "文件页13；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-code-link",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N17",
+      "node": "局部操作和定位代价",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.1_单链表的定义.pdf",
+      "locator": "文件页13；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-code-link",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS02-N18",
+      "node": "链表变体",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.4_循环链表.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-N19",
+      "node": "双链表四条链接",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.4_循环链表.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-N20",
+      "node": "循环单链表空表与遍历",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.4_循环链表.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-N21",
+      "node": "循环双链表",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.4_循环链表.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-N22",
+      "node": "静态链表与游标",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.4_循环链表.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-N23",
+      "node": "综合方法与选择",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_3_单链表的建立.pdf",
+      "locator": "文件页9；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-N24",
+      "node": "原地逆置",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_3_单链表的建立.pdf",
+      "locator": "文件页9；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-N25",
+      "node": "倒数k固定间隔",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_3_单链表的建立.pdf",
+      "locator": "文件页9；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-N26",
+      "node": "有序归并",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_3_单链表的建立.pdf",
+      "locator": "文件页9；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-N27",
+      "node": "三次逆置左移",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_3_单链表的建立.pdf",
+      "locator": "文件页9；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-N28",
+      "node": "公共后缀按地址",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_3_单链表的建立.pdf",
+      "locator": "文件页9；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-N29",
+      "node": "主元素抵消和验证",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_3_单链表的建立.pdf",
+      "locator": "文件页9；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-N30",
+      "node": "连续删除与有序去重",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_3_单链表的建立.pdf",
+      "locator": "文件页9；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS02-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-EX-31",
+      "node": "例 2-1　没有给存储方式时能否确定移动数",
+      "source": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+      "locator": "文件页52；本轮文本核验题干",
+      "target": "notes.md#DS02-ex1",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-EX-32",
+      "node": "例 2-2　如何一次扫描找到倒数第 $k$ 个结点",
+      "source": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+      "locator": "文件页56；旧台账给出的题干定位，本轮保留实质并独立核验算法，不冒称已逐题目验",
+      "target": "notes.md#DS02-ex2",
+      "status": "covered",
+      "verification": "independent_algorithm_check"
+    },
+    {
+      "id": "DS02-EX-33",
+      "node": "例 2-3　把结点插到双链表结点之前",
+      "source": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+      "locator": "文件页55；本轮文本核验题干",
+      "target": "notes.md#DS02-ex3",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS02-EX-34",
+      "node": "例 2-4　数组循环左移怎样避免反复搬移",
+      "source": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+      "locator": "文件页32；旧台账给出的题干定位，本轮保留实质并独立核验算法，不冒称已逐题目验",
+      "target": "notes.md#DS02-ex4",
+      "status": "covered",
+      "verification": "independent_algorithm_check"
+    },
+    {
+      "id": "DS02-EX-35",
+      "node": "例 2-5　相同后缀是相同字符还是相同结点",
+      "source": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+      "locator": "文件页57；旧台账给出的题干定位，本轮保留实质并独立核验算法，不冒称已逐题目验",
+      "target": "notes.md#DS02-ex5",
+      "status": "covered",
+      "verification": "independent_algorithm_check"
+    },
+    {
+      "id": "DS02-EX-36",
+      "node": "例 2-6　主元素为什么还要再计数",
+      "source": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+      "locator": "文件页32,33；旧台账给出的题干定位，本轮保留实质并独立核验算法，不冒称已逐题目验",
+      "target": "notes.md#DS02-ex6",
+      "status": "covered",
+      "verification": "independent_algorithm_check"
+    }
+  ],
+  "review_notes": [
+    "完整保留旧章6个代表例题及核心算法，补完整顺序表/单链表基本操作、初始化/销毁语义、连续删除、结构选择宽表与回忆题。",
+    "目验2.1第11页、顺序表插入删除第10页、单链表定义第13页导图；比较课件末页是开放式总结，未冒称分支导图。",
+    "统一后继域为next；旧searchK的link字段按同义字段适配，所有相关代码同名。",
+    "旧2009/2010/2012/2013真题标签未独立核原卷，正文降为配套例题，保留题干与解析而不声称年份。",
+    "历史错题题干可从配套本43/52/55/61/65定位，答案分析按实际链表模型；不推断当前掌握。",
+    "新增核心代码从实际notes.md提取，在C++17严格告警与ASan/UBSan下通过独立对照；验证脚本仅位于work/audit_ds，不作为读者正文。"
+  ],
+  "wrong_question_handling": "历史JSON本章5条均在链式表示：用存储方式歧义、双链前插、尾/头指针条件、非循环与循环区别集中辨析；保留历史定位，不把历史错选当作当前错误。"
+}

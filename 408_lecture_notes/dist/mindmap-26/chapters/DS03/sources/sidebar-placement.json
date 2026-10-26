@@ -1,0 +1,266 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "DS03-01",
+        "kind": "最小反例",
+        "title": "数量相同仍不合法",
+        "y": 466.85394287109375,
+        "estimated_height": 195.5,
+        "mini": true
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        128.9869613647461
+      ],
+      [
+        142.18310546875,
+        466.85394287109375
+      ],
+      [
+        216.77029418945312,
+        238.79827880859375
+      ],
+      [
+        281.60052490234375,
+        303.638427734375
+      ],
+      [
+        297.17510986328125,
+        319.170654296875
+      ],
+      [
+        312.7424621582031,
+        334.7029113769531
+      ],
+      [
+        361.9945373535156,
+        383.9801940917969
+      ],
+      [
+        377.5159912109375,
+        399.5970764160156
+      ],
+      [
+        393.1157531738281,
+        416.8806457519531
+      ],
+      [
+        408.5912780761719,
+        430.6300354003906
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 2,
+        "anchor": "DS03-03",
+        "kind": "错项排除",
+        "title": "共享栈只在相邻时满",
+        "y": 428.9248962402344,
+        "estimated_height": 67.8,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        104.25405883789062,
+        428.9248962402344
+      ],
+      [
+        147.79747009277344,
+        169.81463623046875
+      ],
+      [
+        163.3297119140625,
+        185.36849975585938
+      ],
+      [
+        178.87277221679688,
+        200.9115447998047
+      ],
+      [
+        194.39419555664062,
+        216.48521423339844
+      ],
+      [
+        274.7359619140625,
+        296.77386474609375
+      ],
+      [
+        324.0762939453125,
+        346.13580322265625
+      ],
+      [
+        355.09844970703125,
+        377.1363525390625
+      ],
+      [
+        370.6415100097656,
+        392.64788818359375
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 5,
+        "anchor": "DS03-02",
+        "kind": "错项排除",
+        "title": "双端队列要看受限端",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 4,
+        "anchor": "DS03-04",
+        "kind": "不变量",
+        "title": "尾指针不能悬空",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 6,
+        "anchor": "DS03-05",
+        "kind": "课程连接",
+        "title": "偏移先统一地址单位",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 8,
+        "anchor": "DS03-ex3",
+        "kind": "错项排除",
+        "title": "三对角首尾行少一个",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [
+      {
+        "index": 9,
+        "anchor": "DS03-07",
+        "kind": "最小反例",
+        "title": "括号计数看不到嵌套",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 8,
+    "sidebars": [
+      {
+        "index": 1,
+        "anchor": "DS03-code",
+        "kind": "不变量",
+        "title": "top含义决定增减位置",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [
+      {
+        "index": 7,
+        "anchor": "DS03-matrix-method",
+        "kind": "不变量",
+        "title": "先换到已保存半边",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        329.5765380859375,
+        354.84185791015625
+      ],
+      [
+        346.7375183105469,
+        397.7380676269531
+      ],
+      [
+        327.6505126953125,
+        340.447509765625
+      ],
+      [
+        345.1098937988281,
+        357.6081237792969
+      ],
+      [
+        386.1814880371094,
+        398.9784851074219
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "sidebars": [
+      {
+        "index": 12,
+        "anchor": "DS03-app-method",
+        "kind": "错项排除",
+        "title": "FIFO只是具体策略",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 11,
+    "sidebars": [
+      {
+        "index": 3,
+        "anchor": "DS03-code",
+        "kind": "最小反例",
+        "title": "同一对下标可能空也可能满",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false
+      }
+    ],
+    "occupied_margin_intervals": []
+  }
+]

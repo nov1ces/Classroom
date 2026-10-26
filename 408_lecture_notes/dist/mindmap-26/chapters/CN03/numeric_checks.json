@@ -1,0 +1,13 @@
+{
+  "CRC_data_remainder": "001",
+  "CRC_options_remainders": [
+    12,
+    8,
+    4,
+    0
+  ],
+  "minimum_distance": 4,
+  "stop_wait_utilization": 0.4,
+  "NAV_us": 354,
+  "GBN_example2017_utilization": 0.5
+}

@@ -1,0 +1,30 @@
+{
+  "DS01": {
+    "chars": 7617,
+    "nodes": 29,
+    "sidebars": 12,
+    "example_cases": 3,
+    "h2": 9
+  },
+  "DS02": {
+    "chars": 12082,
+    "nodes": 30,
+    "sidebars": 13,
+    "example_cases": 6,
+    "h2": 10
+  },
+  "DS03": {
+    "chars": 10772,
+    "nodes": 34,
+    "sidebars": 13,
+    "example_cases": 6,
+    "h2": 11
+  },
+  "DS04": {
+    "chars": 8659,
+    "nodes": 25,
+    "sidebars": 12,
+    "example_cases": 3,
+    "h2": 9
+  }
+}

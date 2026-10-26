@@ -1,0 +1,9 @@
+**/build/
+previews/
+**/__pycache__/
+
+# Local archives, review screenshots, and the one-off publication helper.
+*.zip
+/sources/reviews/**/*.png
+/tools/publish_notes.py
+*.py[cod]

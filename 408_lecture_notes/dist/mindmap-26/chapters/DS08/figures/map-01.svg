@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="513" viewBox="0 0 680 513">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="231.5" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="261.5" text-anchor="middle" font-weight="bold">排序</text>
+<path d="M148,256.5 H166 V84.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="65.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="89.5" text-anchor="middle" font-weight="bold">排序的基本概念</text>
+<path d="M348,84.5 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">关键字与记录身份</text>
+<path d="M348,84.5 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">稳定与不稳定</text>
+<path d="M348,84.5 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">内部外部排序</text>
+<path d="M348,84.5 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">趟数比较移动空间</text>
+<path d="M148,256.5 H166 V192.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="173.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="197.0" text-anchor="middle" font-weight="bold">插入类排序</text>
+<path d="M348,192.0 H365 V169.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="174.0">直接插入有序前缀</text>
+<path d="M348,192.0 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">折半插入定位及移动</text>
+<path d="M348,192.0 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">希尔同余类与增量</text>
+<path d="M148,256.5 H166 V299.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="280.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="304.5" text-anchor="middle" font-weight="bold">交换与选择类</text>
+<path d="M348,299.5 H365 V265.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="270.0">起泡相邻逆序与早停</text>
+<path d="M348,299.5 H365 V288.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="293.0">快速划分及枢轴就位</text>
+<path d="M348,299.5 H365 V311.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="316.0">简单选择的比较次数</text>
+<path d="M348,299.5 H365 V334.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="339.0">堆排序建堆及下滤</text>
+<path d="M148,256.5 H166 V418.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="399.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="423.5" text-anchor="middle" font-weight="bold">归并与分配类</text>
+<path d="M348,418.5 H365 V384.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="389.0">二路归并及稳定合并</text>
+<path d="M348,418.5 H365 V407.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="412.0">LSD低到高与同桶保序</text>
+<path d="M348,418.5 H365 V430.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="435.0">MSD递归桶任务</text>
+<path d="M348,418.5 H365 V453.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="458.0">计数范围及前缀和</text>
+</g></svg>

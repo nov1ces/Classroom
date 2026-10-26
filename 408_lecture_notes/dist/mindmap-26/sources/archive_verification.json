@@ -1,0 +1,46 @@
+[
+  {
+    "entry": "王道2027操作系统_高清带书签版.pdf",
+    "bytes": 234834921,
+    "crc32": "ff5e4f60",
+    "archive_crc_match": true,
+    "archive_size_match": true,
+    "archive_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3",
+    "readable_copy": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+    "copy_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3",
+    "identical": true
+  },
+  {
+    "entry": "王道2027数据结构_高清带书签版.pdf",
+    "bytes": 211679786,
+    "crc32": "62cdcb90",
+    "archive_crc_match": true,
+    "archive_size_match": true,
+    "archive_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30",
+    "readable_copy": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+    "copy_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30",
+    "identical": true
+  },
+  {
+    "entry": "王道2027计算机组成原理_高清带书签版.pdf",
+    "bytes": 208829946,
+    "crc32": "58590cdb",
+    "archive_crc_match": true,
+    "archive_size_match": true,
+    "archive_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
+    "readable_copy": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+    "copy_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
+    "identical": true
+  },
+  {
+    "entry": "王道2027计算机网络_高清带书签版.pdf",
+    "bytes": 197045739,
+    "crc32": "56586dfa",
+    "archive_crc_match": true,
+    "archive_size_match": true,
+    "archive_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630",
+    "readable_copy": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+    "copy_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630",
+    "identical": true
+  }
+]

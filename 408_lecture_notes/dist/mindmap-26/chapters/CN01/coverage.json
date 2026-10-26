@@ -1,0 +1,302 @@
+{
+  "items": [
+    {
+      "id": "CN01-N01",
+      "node": "组成与功能",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_5 计算机网络的性能指标.pdf",
+      "locator": "文件第25页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN01-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN01-N02",
+      "node": "独立系统与共享资源",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_1 计算机网络的概念.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N03",
+      "node": "边缘和核心",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_2 计算机网络的组成和功能.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N04",
+      "node": "资源子网和通信子网",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_2 计算机网络的组成和功能.pdf",
+      "locator": "文件第9页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N05",
+      "node": "分类与拓扑",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_5 计算机网络的性能指标.pdf",
+      "locator": "文件第25页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN01-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN01-N06",
+      "node": "范围和使用对象",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_4 计算机网络的分类.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N07",
+      "node": "广播与点到点",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_4 计算机网络的分类.pdf",
+      "locator": "文件第6页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N08",
+      "node": "物理拓扑与逻辑共享",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_4 计算机网络的分类.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N09",
+      "node": "性能指标",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_5 计算机网络的性能指标.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N10",
+      "node": "发送与传播时延",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_5 计算机网络的性能指标.pdf",
+      "locator": "文件第12页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N11",
+      "node": "处理与排队",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_5 计算机网络的性能指标.pdf",
+      "locator": "文件第12页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N12",
+      "node": "带宽和吞吐量",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_5 计算机网络的性能指标.pdf",
+      "locator": "文件第11页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N13",
+      "node": "时延带宽积与RTT",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_5 计算机网络的性能指标.pdf",
+      "locator": "文件第17页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N14",
+      "node": "分层与封装",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_5 计算机网络的性能指标.pdf",
+      "locator": "文件第25页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN01-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN01-N15",
+      "node": "PDU与SDU及PCI",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.1+2 计算机网络分层结构.pdf",
+      "locator": "文件第22页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N16",
+      "node": "逻辑对等与实际传送",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.1+2 计算机网络分层结构.pdf",
+      "locator": "文件第10页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N17",
+      "node": "协议服务接口",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_5 计算机网络的性能指标.pdf",
+      "locator": "文件第25页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN01-05",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN01-N18",
+      "node": "语法语义时序",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.1+2 计算机网络分层结构.pdf",
+      "locator": "文件第23页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N19",
+      "node": "水平协议与垂直服务",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_1 计算机网络的概念.pdf",
+      "locator": "文件第14页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N20",
+      "node": "MAC与IP及端口",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.3_1 OSI参考模型.pdf",
+      "locator": "文件第9页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N21",
+      "node": "参考模型",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.1+2 计算机网络分层结构.pdf",
+      "locator": "文件第8页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N22",
+      "node": "OSI七层",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.1+2 计算机网络分层结构.pdf",
+      "locator": "文件第8页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N23",
+      "node": "TCP/IP四层与教学五层",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_1 计算机网络的概念.pdf",
+      "locator": "文件第14页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N24",
+      "node": "层次功能与协议条件",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.3_1 OSI参考模型.pdf",
+      "locator": "文件第9页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N25",
+      "node": "交换方式",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_3 电路交换、报文交换、分组交换.pdf",
+      "locator": "文件第31页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N26",
+      "node": "电路建立与资源分配",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_3 电路交换、报文交换、分组交换.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N27",
+      "node": "报文整份存储转发",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_3 电路交换、报文交换、分组交换.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N28",
+      "node": "分组流水与时延推导",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_3 电路交换、报文交换、分组交换.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N29",
+      "node": "数据报与虚电路",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_5 计算机网络的性能指标.pdf",
+      "locator": "文件第25页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN01-08",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN01-N30",
+      "node": "独立选路与乱序",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.3_1 OSI参考模型.pdf",
+      "locator": "文件第9页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N31",
+      "node": "逐跳虚电路标识",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_3 电路交换、报文交换、分组交换.pdf",
+      "locator": "文件第21页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN01-N32",
+      "node": "连接可靠性和带宽分开",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_5 计算机网络的性能指标.pdf",
+      "locator": "文件第6页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN01-08",
+      "status": "covered",
+      "verification": "text"
+    }
+  ],
+  "review_notes": [
+    "covered表示本次笔记含该节点；不表示整份教材、全部课件或历史题目已逐页审核。",
+    "扫描教材正文已核验文件页=书页+12，前言/目录罗马页另计。",
+    "配套例题沿用既有讲义实质题干及解析；未独立核验的旧年份标签已从正文降为配套例题，来源记录留在author_report。",
+    "将旧CN02交换方式、数据报/虚电路两个完整节及两道解析移入CN01；新CN02删除相同正文，避免重复。",
+    "交换方式组依该章课件1.1_3第32页比较表补绘树形分支；该页是比较表，不冒称原有分支导图。",
+    "保留4道完整配套例题与单位小例；章末扩为8道自拟主动回忆。",
+    "等速流水公式按首组填满与后续组间隔重新推导；未将比较表中的理想排序推广为无条件结论。"
+  ],
+  "wrong_question_handling": "历史错题JSON只用于选择辨析主题；不把旧错选当成标准答案或当前仍不会的证据。标准答案依据机制与数值重推。"
+}

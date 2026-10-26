@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="285" viewBox="0 0 960 285">
+<defs><marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7" fill="#333"/></marker></defs>
+<rect width="960" height="285" fill="white"/>
+<text x="480.0" y="31" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="23" font-weight="bold" fill="#111">【2019】2050 1225H按10+10+12位分割</text>
+<rect x="40" y="100" width="275" height="75" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="177.5" y="144.15" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">页目录号：081H</text>
+<text x="177.5" y="220" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">0010000001</text>
+<rect x="315" y="100" width="275" height="75" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="452.5" y="144.15" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">页号：101H</text>
+<text x="452.5" y="220" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">0100000001</text>
+<rect x="590" y="100" width="330" height="75" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="755.0" y="144.15" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">页内偏移：225H</text>
+<text x="755.0" y="220" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">001000100101</text>
+<text x="480" y="267" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">右移22位取目录；右移12位后取低10位得到页号；低12位为偏移。</text>
+</svg>

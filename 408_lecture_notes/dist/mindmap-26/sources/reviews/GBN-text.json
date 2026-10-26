@@ -1,0 +1,110 @@
+[
+  {
+    "page": 3,
+    "text": "王道考研/CSKAOYAN.COM\n后退N帧协议（GBN）\n发送方\n发送窗口\n大小 WT=3\n接收窗口\n大小 WR=1\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n用 2bit 给帧编号\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n接收方\n若用n bit  给帧编号，\n需满足 WT + WR ≤ 2n\n"
+  },
+  {
+    "page": 4,
+    "text": "王道考研/CSKAOYAN.COM\n“正常”情况示例\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nData0\n发送方\n接收方\n帧序号（2bit）à\nData1\nData2\n⏰⏰⏰\n"
+  },
+  {
+    "page": 5,
+    "text": "王道考研/CSKAOYAN.COM\n“正常”情况示例\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nData0\n发送方\n接收方\n帧序号（2bit）à\nData1\nData2\n✅\n⏰⏰⏰\n"
+  },
+  {
+    "page": 6,
+    "text": "王道考研/CSKAOYAN.COM\n“正常”情况示例\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\nData1\nData2\n✅\n✅\n⏰⏰⏰\n"
+  },
+  {
+    "page": 7,
+    "text": "王道考研/CSKAOYAN.COM\n“正常”情况示例\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\nData2\n✅\n✅\n✅\n⏰⏰⏰\n"
+  },
+  {
+    "page": 8,
+    "text": "王道考研/CSKAOYAN.COM\n“正常”情况示例\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\nData2\n✅\n✅\n✅\n确认帧\nACK2\nACK_i 表示接收方已收到 \ni 号帧及其之前的所有帧\n后退N帧协议规定：接收方可以“累积确认”。即连续\n收到多个数据帧时，可以仅返回最后一个帧的ACK\n⏰⏰⏰\n"
+  },
+  {
+    "page": 9,
+    "text": "王道考研/CSKAOYAN.COM\n“正常”情况示例\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n确认帧\nACK2\nACK_i 表示接收方已收到 \ni 号帧及其之前的所有帧\n✅\n✅\n✅\n后退N帧协议规定：接收方可以“累积确认”。即连续\n收到多个数据帧时，可以仅返回最后一个正确帧的ACK\n"
+  },
+  {
+    "page": 10,
+    "text": "王道考研/CSKAOYAN.COM\n“正常”情况示例\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n后退N帧协议规定：接收方可以“累积确认”。即连续\n收到多个数据帧时，可以仅返回最后一个正确帧的ACK\n"
+  },
+  {
+    "page": 11,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n✅\n✅\n✅\nData3\nData0\nData1\n⏰⏰⏰\n"
+  },
+  {
+    "page": 12,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n✅\n✅\n✅\nData3\nData0\nData1\n✅\n⏰⏰⏰\n"
+  },
+  {
+    "page": 13,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n✅\n✅\n✅\nData3\nData0\nData1\n✅\n❌\n0号数据帧因通信故障而丢失\n（或检测出“差错”而被丢弃）\n⏰⏰⏰\n"
+  },
+  {
+    "page": 14,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n✅\n✅\n✅\nData1\n✅\n1号数据帧落在接受窗\n口之外，直接丢弃\n⏰⏰⏰\n当收到接收窗口之外的\n帧时，返回目前已正确\n接收的最后一个帧的ACK\nACK3\n确认帧\n"
+  },
+  {
+    "page": 15,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n✅\n✅\n✅\nData1\n✅\n确认帧\nACK3\n✅\n1号数据帧落在接受窗\n口之外，直接丢弃\n⏰⏰\n当收到接受窗口之外的\n帧时，返回目前已正确\n接收的最后一个帧的ACK\n"
+  },
+  {
+    "page": 16,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅⏰⏰\n"
+  },
+  {
+    "page": 17,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅⏰⏰\n若i号帧超时，需要重传 \ni 号帧及其后续所有帧\n重传\nData0\n重传\nData1\nData2\n为什么叫“后退N帧协议”？\n原本已经发送了1号帧，现在\n却“后退”回0号帧重新传送。\n这样即可实现“流量控制”\n"
+  },
+  {
+    "page": 18,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n⏰\n重传帧的同时，\n要重置计时器\n重传\nData0\n重传\nData1\nData2\n✅\n⏰\n⏰\n"
+  },
+  {
+    "page": 19,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n⏰\n重传\nData0\n重传\nData1Data2\n✅\n✅\n✅\n确认帧\nACK2\n⏰\n⏰\n"
+  },
+  {
+    "page": 20,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n重传\nData0\n重传\nData1Data2\n✅\n✅\n✅\n确认帧\nACK2\n✅\n✅\n✅\n"
+  },
+  {
+    "page": 21,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：确认帧丢失\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\nData2\n✅\n✅\n✅\n确认帧\nACK2\nACK_i 表示接收方已收到 \ni 号帧及其之前的所有帧\n⏰⏰⏰\nData1\nData0\n"
+  },
+  {
+    "page": 22,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n异常情况示例：确认帧丢失\n确认帧\nACK2\n❌\n确认帧丢失\n⏰⏰⏰\n"
+  },
+  {
+    "page": 23,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n异常情况示例：确认帧丢失\n确认帧\nACK2\n❌\n确认帧丢失\n⏰⏰⏰\n若i号帧超时，需要重传 \ni 号帧及其后续所有帧\n"
+  },
+  {
+    "page": 24,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n异常情况示例：确认帧丢失\n⏰⏰\n重传帧的同时要\n重置计时器\n重传\nData0\n重传\nData1\n重传\nData2\n确认帧\nACK2\n收到一个“非法帧”时，返回目前已接\n收的最后一个正确帧的ACK\n⏰\n"
+  },
+  {
+    "page": 25,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n异常情况示例：确认帧丢失\n✅\n✅\n✅\n"
+  },
+  {
+    "page": 26,
+    "text": "王道考研/CSKAOYAN.COM\n探讨：如果不满足WT + WR ≤ 2n 会有什么问题？\n发送方\n发送窗口\n大小 WT=4\n接收窗口\n大小 WR=1\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n用 2bit 给帧编号\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n接收方\n"
+  },
+  {
+    "page": 27,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n探讨：如果不满足WT + WR ≤ 2n 会有什么问题？\nData2\nData1\nData0\nData3\n⏰⏰⏰⏰\n"
+  },
+  {
+    "page": 28,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n确认帧\nACK3\n探讨：如果不满足WT + WR ≤ 2n 会有什么问题？\n❌\n确认帧丢失\n✅\n⏰⏰⏰⏰\n"
+  },
+  {
+    "page": 29,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\n帧序号（2bit）à\n0\n1\n2\n3\n0\n1\n2\n3\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（2bit）à\n✅\n✅\n✅\n探讨：如果不满足WT + WR ≤ 2n 会有什么问题？\n✅\n⏰⏰⏰\n⏰\n若i号帧超时，需要重传 \ni 号帧及其后续所有帧\nData0\n数据帧序号落在“接受窗口”\n之内，会被错误地接收\n"
+  }
+]

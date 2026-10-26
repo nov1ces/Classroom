@@ -1,0 +1,146 @@
+{
+  "reviewer": "review_cn_pdf (/root/review_cn_pdf)",
+  "review_type": "independent numerical recomputation and conceptual spot-check",
+  "source_sha256": "a1f6367c17a3662e37a34f9cfd5a472f12f3c0bb78d8ba1630d3edf37b4a40a7",
+  "checked_at_utc": "2026-10-25T17:30:22.179675+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "id": "dns-count-subject",
+      "anchor": "CN06-ex1",
+      "subject": "201.1.1.1发出的DNS请求",
+      "computed": {
+        "valid_final_record_cache": 0,
+        "uncached_root_com_xyz_abc": 4
+      },
+      "printed": "0,4；C",
+      "result": "pass",
+      "conditions": "逐级委派，不计别名、重试；H4向本地解析器的请求不计入解析器发出数。缓存主体表述明确。"
+    },
+    {
+      "id": "http-models",
+      "anchor": "CN06-08",
+      "computed": {
+        "nonpersistent_serial": "2(m+1) RTT",
+        "persistent_nonpipeline": "m+2 RTT",
+        "persistent_pipeline": "3 RTT"
+      },
+      "result": "pass",
+      "conditions": "DNS完成；初始连接未建；先取HTML再发现m个对象；同站、忽略传输与窗口等约束。起点若为首个HTTP请求发出，三式均减1 RTT。"
+    },
+    {
+      "id": "http-7-images",
+      "anchor": "CN06-ex4",
+      "computed_rtt": 16,
+      "printed_rtt": 16,
+      "result": "pass"
+    },
+    {
+      "id": "http-discovery-pipeline",
+      "anchor": "CN06-ex5",
+      "computed_rtt": 2,
+      "printed_rtt": 2,
+      "result": "pass",
+      "conditions": "HTTP请求已发出起计；HTML后才知3图；流水只重叠后续3图，不跨资源发现。"
+    },
+    {
+      "id": "dns-web",
+      "anchor": "CN06-ex6",
+      "computed_ms": {
+        "minimum": 20,
+        "maximum": 50
+      },
+      "printed_ms": {
+        "minimum": 20,
+        "maximum": 50
+      },
+      "result": "pass",
+      "conditions": "仅DNS缓存命中；不引入已建TCP或HTML缓存；LAN时延忽略。"
+    },
+    {
+      "id": "http-cwnd",
+      "anchor": "CN06-ex7",
+      "computed_ms": 40,
+      "printed_ms": 40,
+      "result": "pass",
+      "conditions": "教材初始cwnd=1 MSS；HTML1 MSS后cwnd到2；3 MSS图片需2轮。正文明确初始窗口假设未在原题单列。"
+    },
+    {
+      "id": "ftp-sequence-fin",
+      "anchor": "CN06-ex8",
+      "computed": {
+        "first_data_seq": 101,
+        "last_data_seq": 18100,
+        "fin_seq": 18101,
+        "ack_of_fin": 18102
+      },
+      "printed": {
+        "first_data_seq": 101,
+        "last_data_seq": 18100,
+        "fin_seq": 18101,
+        "ack_of_fin": 18102
+      },
+      "result": "pass"
+    },
+    {
+      "id": "ftp-cwnd-ack",
+      "anchor": "CN06-ex8",
+      "computed": {
+        "ack_2101_cumulative_bytes": 2000,
+        "ack_2101_cwnd_mss": 3,
+        "ack_7101_cumulative_bytes": 7000,
+        "ack_7101_completed_segments": 7,
+        "ack_7101_cwnd_mss": 5
+      },
+      "printed": {
+        "ack_2101_cwnd_mss": 3,
+        "ack_7101_cwnd_mss": 5
+      },
+      "result": "pass",
+      "conditions": "前阈值逐ACK慢开始；第二个数据段ACK时cwnd=3，非整轮结束4；第3轮到达阈值4后拥塞避免，轮末5。"
+    },
+    {
+      "id": "ftp-duration-rate",
+      "anchor": "CN06-ex8",
+      "rounds_segments": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "round_sum": 18,
+      "computed_ms": 60,
+      "computed_application_bps": 2400000.0,
+      "printed": "60 ms；2.4 Mb/s",
+      "result": "pass",
+      "conditions": "含数据连接握手，直到全文件ACK到达，不含释放。"
+    },
+    {
+      "id": "dns-switch-cache-boundary",
+      "anchor": "CN06-ex9",
+      "computed": {
+        "learned_macs": 3,
+        "h2_broadcast_arp_frames": 2
+      },
+      "result": "pass",
+      "conditions": "新做DNS解析需要对本地DNS、网关各一次ARP。正文显式说明原题只清空ARP/交换表，DNS缓存命中会改变步骤。"
+    },
+    {
+      "id": "self-test-numerical",
+      "anchor": "CN06-review-answers",
+      "computed": {
+        "q1_nonpipeline_rtt": 6,
+        "q1_pipeline_rtt": 3,
+        "q2_ms": 80
+      },
+      "printed": {
+        "q1_nonpipeline_rtt": 6,
+        "q1_pipeline_rtt": 3,
+        "q2_ms": 80
+      },
+      "result": "pass"
+    }
+  ],
+  "issues": []
+}

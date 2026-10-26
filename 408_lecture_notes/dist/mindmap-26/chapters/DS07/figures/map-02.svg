@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="532" viewBox="0 0 680 532">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="241.0" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="271.0" text-anchor="middle" font-weight="bold">查找</text>
+<path d="M148,266.0 H166 V107.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="88.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="112.5" text-anchor="middle" font-weight="bold">多路外存索引</text>
+<path d="M348,107.5 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">m阶B树容量</text>
+<path d="M348,107.5 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">分裂借位合并</text>
+<path d="M348,107.5 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">根升降与叶等深</text>
+<path d="M348,107.5 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">B树高度界</text>
+<path d="M348,107.5 H365 V142.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="147.0">B+树索引及叶链</text>
+<path d="M348,107.5 H365 V165.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="170.0">点查范围与读盘次数</text>
+<path d="M148,266.0 H166 V272.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="253.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="277.5" text-anchor="middle" font-weight="bold">散列查找</text>
+<path d="M348,272.5 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">散列函数构造</text>
+<path d="M348,272.5 H365 V238.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="243.0">冲突及同义词</text>
+<path d="M348,272.5 H365 V261.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="266.0">链地址法</text>
+<path d="M348,272.5 H365 V284.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="289.0">开放定址探查序列</text>
+<path d="M348,272.5 H365 V307.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="312.0">删除标记及重复判断</text>
+<path d="M348,272.5 H365 V330.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="335.0">装填因子与ASL</text>
+<path d="M148,266.0 H166 V426.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="407.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="431.0" text-anchor="middle" font-weight="bold">结构选择的条件</text>
+<path d="M348,426.0 H365 V380.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="385.0">有序与随机定位</text>
+<path d="M348,426.0 H365 V403.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="408.0">动态更新及维护</text>
+<path d="M348,426.0 H365 V426.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="431.0">平衡性与最坏保证</text>
+<path d="M348,426.0 H365 V449.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="454.0">外存页分支数</text>
+<path d="M348,426.0 H365 V472.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="477.0">等值与范围检索</text>
+</g></svg>

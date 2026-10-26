@@ -1,0 +1,97 @@
+{
+  "id": "DS04",
+  "title": "串",
+  "branches": [
+    {
+      "label": "串的定义与操作",
+      "children": [
+        "空串与空格串",
+        "子串与子序列",
+        "字符编码与字典序",
+        "连接求子串定位"
+      ]
+    },
+    {
+      "label": "存储表示",
+      "children": [
+        "定长顺序串",
+        "动态连续区",
+        "块链串",
+        "显式长度与终止符"
+      ]
+    },
+    {
+      "label": "朴素模式匹配",
+      "children": [
+        "候选起点",
+        "失配后重新对齐",
+        "边界与最坏比较量"
+      ]
+    },
+    {
+      "label": "KMP失败表",
+      "children": [
+        "已匹配前缀不变量",
+        "真前后缀与next",
+        "零起始哨兵约定",
+        "建表与回退"
+      ]
+    },
+    {
+      "label": "KMP扫描与优化",
+      "children": [
+        "主串指针不回退",
+        "nextval跳过相同字符",
+        "位移与字符比较次数",
+        "空模式与重叠出现",
+        "线性时间证明"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.1_串的定义和基本操作.pdf",
+      "pages": [
+        11
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.2_串的存储结构.pdf",
+      "pages": [
+        10
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.1_朴素模式匹配算法.pdf",
+      "pages": [
+        47
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_2_求next数组.pdf",
+      "pages": [
+        64
+      ],
+      "role": "slide_summary",
+      "visual_checked": false
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_1_KMP算法.pdf",
+      "pages": [
+        95
+      ],
+      "role": "slide_summary",
+      "visual_checked": true
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "KMP课件末页是阶段流程、表格和代码总结，未冒称已有分支导图；按本章4.1.1/4.1.2真实分支导图风格，将失败表/扫描优化整合补绘。"
+  ]
+}

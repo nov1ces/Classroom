@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="275" viewBox="0 0 680 275">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="112.5" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="142.5" text-anchor="middle" font-weight="bold">文件管理</text>
+<path d="M148,137.5 H166 V73.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="54.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="69.0" text-anchor="middle" font-weight="bold">布局、空闲空间与一致</text>
+<text x="266" y="87.0" text-anchor="middle" font-weight="bold">性</text>
+<path d="M348,73.0 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">引导区、超级块、inode区与数据区</text>
+<path d="M348,73.0 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">空闲表、空闲链、位图与成组链接</text>
+<path d="M348,73.0 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">多结构更新与崩溃一致性</text>
+<path d="M148,137.5 H166 V180.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="161.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="176.5" text-anchor="middle" font-weight="bold">VFS、挂载与综合约</text>
+<text x="266" y="194.5" text-anchor="middle" font-weight="bold">束</text>
+<path d="M348,180.5 H365 V146.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="151.0">统一接口与具体磁盘格式</text>
+<path d="M348,180.5 H365 V169.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="174.0">superblock、inode、dentry与file</text>
+<path d="M348,180.5 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">挂载遮蔽与卸载条件</text>
+<path d="M348,180.5 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">目录、索引层数与容量瓶颈</text>
+</g></svg>

@@ -1,0 +1,24 @@
+{
+  "compiler": "g++ C++17",
+  "flags": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-fsanitize=address,undefined"
+  ],
+  "result": "PASS",
+  "oracles": [
+    "std::max_element",
+    "std::vector insertion/deletion",
+    "linked list identity traversal",
+    "std::rotate",
+    "frequency count",
+    "std::deque",
+    "std::string::find",
+    "brute-force proper-prefix/suffix",
+    "std::string::substr"
+  ],
+  "matrix_coordinate_cases": 36820,
+  "scope": "核心文档代码与边界；不是全部练习、原卷或最终PDF验收"
+}

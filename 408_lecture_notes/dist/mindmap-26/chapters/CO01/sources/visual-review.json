@@ -1,0 +1,30 @@
+{
+  "reviewer": "/root/review_co_pdf",
+  "status": "passed",
+  "reviewed_at_utc": "2026-10-25T17:29:10.432723+00:00",
+  "page_count": 8,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "contact_sheets": [
+    "contact-01.png"
+  ],
+  "detail_pages": [
+    7
+  ],
+  "issues": [],
+  "pdf_sha256": "21a7bda914589f2bcf133f5730abf6b90c170dd5332fd9de774d78fd6db71f68",
+  "method": "Actual visual review using view_image on all current contact sheets and full page images listed in detail_pages; stale preview pages beyond current PDF page count excluded.",
+  "findings": [
+    "固定正文左、旁注右；所有页可见1～3条旁注。",
+    "宽表跨至旁注栏时已避让旁注；无覆盖正文或页外裁字。",
+    "所查图示保持原有比例，标签可读。"
+  ]
+}

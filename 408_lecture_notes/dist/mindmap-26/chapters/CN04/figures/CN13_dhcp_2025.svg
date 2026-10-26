@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17212a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#17212a" stroke-linejoin="round">
+<text x="450" y="30" text-anchor="middle" font-size="23" font-weight="bold" fill="#17212a">新接入主机H与DHCP服务器192.168.5.1</text>
+<text x="125" y="85" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">H</text>
+<line x1="125" y1="110" x2="125" y2="370" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="775" y="85" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">DHCP服务器</text>
+<line x1="775" y1="110" x2="775" y2="370" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="775" y1="135" x2="125" y2="215" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="125" y1="260" x2="775" y2="340" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="290" y="120" width="320" height="85" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="450" y="153" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">DHCPOFFER</text>
+<text x="450" y="188" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">yiaddr: 192.168.5.9</text>
+<rect x="290" y="245" width="320" height="85" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="450" y="278" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">DHCPREQUEST</text>
+<text x="450" y="313" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">yiaddr: 192.168.5.9</text>
+<text x="450" y="407" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">题图保留原字段标注；其规范含义见紧邻题解</text>
+</g></svg>

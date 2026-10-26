@@ -1,0 +1,188 @@
+{
+  "id": "CO05",
+  "title": "中央处理器",
+  "branches": [
+    {
+      "label": "CPU功能与基本结构",
+      "children": [
+        "指令/操作/时间控制与数据加工",
+        "ALU与寄存器",
+        "PC/IR/MAR/MDR",
+        "程序员可见与内部状态"
+      ]
+    },
+    {
+      "label": "指令周期与实现",
+      "children": [
+        "取指/间址/执行/中断",
+        "时钟与机器周期",
+        "单周期",
+        "多周期",
+        "流水线重叠"
+      ]
+    },
+    {
+      "label": "数据通路与微操作",
+      "children": [
+        "内部总线与系统总线",
+        "专用数据通路",
+        "单源多目的",
+        "暂存器Y和Z",
+        "控制信号与资源冲突"
+      ]
+    },
+    {
+      "label": "控制器与微程序",
+      "children": [
+        "硬布线与微程序",
+        "CM/CMAR/CMDR",
+        "微命令/微指令/机器指令",
+        "直接与字段编码",
+        "下地址形成",
+        "水平/垂直/混合"
+      ]
+    },
+    {
+      "label": "异常与中断",
+      "children": [
+        "异常与外部中断",
+        "故障/陷阱/终止",
+        "响应与返回位置",
+        "硬件保存与软件保护"
+      ]
+    },
+    {
+      "label": "流水线模型与冒险",
+      "children": [
+        "吞吐率/加速比/效率",
+        "五段与段寄存器",
+        "结构/数据/控制冒险",
+        "转发与load-use",
+        "保持与气泡",
+        "同拍读写条件"
+      ]
+    },
+    {
+      "label": "流水线分类与指令级并行",
+      "children": [
+        "部件/处理机/处理机间",
+        "单功能/多功能",
+        "静态/动态与线性/非线性",
+        "超标量/超流水/VLIW",
+        "动态调度与重命名",
+        "预测与按序提交"
+      ]
+    },
+    {
+      "label": "多处理器与硬件线程",
+      "children": [
+        "Flynn四类",
+        "向量处理与SIMD",
+        "SMP与共享物理地址",
+        "多核与MIMD",
+        "粗粒度/细粒度线程",
+        "SMT与共享执行资源"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.1 CPU的功能和基本结构.pdf",
+      "pages": [
+        24
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.2 指令执行过程.pdf",
+      "pages": [
+        13
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.3_1 数据通路-单总线结构.pdf",
+      "pages": [
+        14
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.2 微程序控制器的基本原理.pdf",
+      "pages": [
+        8
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.3 微指令的设计.pdf",
+      "pages": [
+        11,
+        12
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "pages": [
+        254,
+        255
+      ],
+      "role": "book_section",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_1 指令流水线的基本概念和性能指标.pdf",
+      "pages": [
+        11
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_2 指令流水线的影响因素和分类.pdf",
+      "pages": [
+        14
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_1 多处理器基本概念.pdf",
+      "pages": [
+        8,
+        9
+      ],
+      "role": "slide_diagram",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_2 硬件多线程.pdf",
+      "pages": [
+        5,
+        6
+      ],
+      "role": "slide_diagram",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "pages": [
+        271,
+        277
+      ],
+      "role": "book_question_and_reference",
+      "visual_checked": true
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "异常机制未在当前课件目录找到对应5.5树图：按已目验教材5.5分类与响应机制、仿同科蓝色树式导图补绘，并标记教材补充。",
+    "多处理器与硬件线程当前课件抽读为结构示意，章级分支由其已目验知识与旧正文合并补绘；不得登记为已有完整章导图。"
+  ]
+}

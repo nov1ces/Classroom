@@ -1,0 +1,23 @@
+{
+  "weighted_cpi": 2.8,
+  "cpu_us": 28.0,
+  "amdahl_1": 1.6666666666666665,
+  "float_neg04375": "bee00000",
+  "binary32_smallest": true,
+  "cache8way": {
+    "rows": 512,
+    "sets": 64,
+    "offset": 6,
+    "index": 6,
+    "tag": 20,
+    "comparators": 8
+  },
+  "cache_capacity_Kbits": 148.0,
+  "relative_positive": "0x2008",
+  "relative_negative": "0x1ffc",
+  "call_next": "0x40102a",
+  "call_displacement": -42,
+  "extend_opcodes": 128,
+  "struct_lowbyte": 17,
+  "struct_next_id_56H": "0xa0c5"
+}

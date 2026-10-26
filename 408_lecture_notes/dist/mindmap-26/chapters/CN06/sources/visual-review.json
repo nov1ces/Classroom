@@ -1,0 +1,54 @@
+{
+  "chapter": "CN06",
+  "reviewer": "/root/review_cn_pdf (actual image inspection by assistant; not a human signature)",
+  "review_method": "view_image opened every current contact sheet; complex figures, formulas, tables and final pages opened at 150 dpi",
+  "reviewed_at_utc": "2026-10-25T17:35:33.583190+00:00",
+  "status": "passed",
+  "page_count": 15,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "contact_sheets": [
+    "previews/CN06/contact-01.png",
+    "previews/CN06/contact-02.png"
+  ],
+  "detail_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "detail_dpi": 150,
+  "issues": [],
+  "pdf_sha256": "9238c4741119c7af829e267f374c8673fc0402c9efe894b6f381cc9885aefcbe",
+  "observations": [
+    "正文固定左、旁注右，全部页面均见一条旁注，无碰撞或切字。",
+    "宽表进入旁注区域时，旁注已避到表后；图像比例正常，标签可读。",
+    "末页以完整核对答案结束，没有孤立单行末页或追加空白模板页。",
+    "已细看HTTP时延比较宽表、DNS/HTTP/FTP拓扑、FTP轮次双表、交换机学习宽表。",
+    "notes.md内容及11组独立数值抽核通过，见numeric_checks.json。"
+  ]
+}

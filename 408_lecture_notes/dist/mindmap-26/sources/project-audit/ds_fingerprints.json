@@ -1,0 +1,38 @@
+[
+  {
+    "path": "/workspace/Classroom/01_数据结构/数据结构错题精简.json",
+    "sha256": "76bf9d5c482f30d0608a864e5e99c006b87de1ca50a9f963c19fec997cd4c817",
+    "bytes": 14230,
+    "status": "sampled_only"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+    "sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+    "bytes": 2052817,
+    "status": "sampled_only"
+  },
+  {
+    "path": "/workspace/Classroom/408_lecture_notes/manuscript/DS/04_串与模式匹配.md",
+    "sha256": "842156733cdb65bf0f4d8188c857cea2f5b46e46a9581ef636986a8b3f16fd12",
+    "bytes": 9107,
+    "status": "sampled_only"
+  },
+  {
+    "path": "/workspace/Classroom/408_lecture_notes/dist/final/数据结构_最终稿.pdf",
+    "sha256": "afd921f8a571016dfcc013aa1db5b3e8c6c0e48245c3f02d8f93ae99343f9226",
+    "bytes": 2224171,
+    "status": "sampled_only"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.1_数据结构的基本概念.pdf",
+    "sha256": "114c08e2c2ad42a7fdbc681c13f970a2f761f2cf0805d59b707849f91f15783b",
+    "bytes": 3023525,
+    "status": "sampled_only"
+  },
+  {
+    "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_1_KMP算法.pdf",
+    "sha256": "abd90dc0abf471fbe05958bbbfe36f2b0ae76b7e1286e1fde564ded42f377af2",
+    "bytes": 3104002,
+    "status": "sampled_only"
+  }
+]

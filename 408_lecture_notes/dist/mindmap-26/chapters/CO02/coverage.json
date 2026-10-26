@@ -1,0 +1,326 @@
+{
+  "items": [
+    {
+      "id": "CO02-N01",
+      "node": "计数制与定点编码",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.1 进位计数制.pdf",
+      "locator": "文件页 15（已目验导图）",
+      "target": "notes.md#CO02-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N02",
+      "node": "位置权与换基数",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.1 进位计数制.pdf",
+      "locator": "文件页 15（已目验导图）",
+      "target": "notes.md#CO02-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N03",
+      "node": "真值和机器数",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.1 进位计数制.pdf",
+      "locator": "文件页 15（已目验导图）",
+      "target": "notes.md#CO02-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N04",
+      "node": "原反补移码",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.1 进位计数制.pdf",
+      "locator": "文件页 15（已目验导图）",
+      "target": "notes.md#CO02-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N05",
+      "node": "范围与零的表示",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.1 进位计数制.pdf",
+      "locator": "文件页 15（已目验导图）",
+      "target": "notes.md#CO02-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N06",
+      "node": "类型转换与移位",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO02-05",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N07",
+      "node": "符号扩展和零扩展",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO02-05",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N08",
+      "node": "截断与模运算",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO02-05",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N09",
+      "node": "C整数提升",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO02-05",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N10",
+      "node": "算术移位的舍入",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO02-05",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N11",
+      "node": "加减电路与标志",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO02-09",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N12",
+      "node": "全加器与先行进位",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO02-09",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N13",
+      "node": "受控取反加一",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO02-09",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N14",
+      "node": "CF和OF",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO02-09",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N15",
+      "node": "ZF、SF及条件转移",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO02-09",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N16",
+      "node": "乘除机制",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 32,66（教材抽样交叉核验）",
+      "target": "notes.md#CO02-15",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO02-N17",
+      "node": "部分积和双倍位宽",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 32,66（教材抽样交叉核验）",
+      "target": "notes.md#CO02-15",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO02-N18",
+      "node": "Booth相邻位判定",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 32,66（教材抽样交叉核验）",
+      "target": "notes.md#CO02-15",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO02-N19",
+      "node": "恢复与不恢复余数",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 32,66（教材抽样交叉核验）",
+      "target": "notes.md#CO02-15",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO02-N20",
+      "node": "商余数与异常边界",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 32,66（教材抽样交叉核验）",
+      "target": "notes.md#CO02-15",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO02-N21",
+      "node": "IEEE浮点表示",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "locator": "文件页 13（已目验导图）",
+      "target": "notes.md#CO02-18",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N22",
+      "node": "符阶尾字段",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "locator": "文件页 13（已目验导图）",
+      "target": "notes.md#CO02-18",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N23",
+      "node": "偏置与隐含位",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "locator": "文件页 13（已目验导图）",
+      "target": "notes.md#CO02-18",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N24",
+      "node": "规格化和非规格化",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "locator": "文件页 13（已目验导图）",
+      "target": "notes.md#CO02-18",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N25",
+      "node": "零、无穷和NaN",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "locator": "文件页 13（已目验导图）",
+      "target": "notes.md#CO02-18",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N26",
+      "node": "浮点运算与精度",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "locator": "文件页 13（已目验导图）",
+      "target": "notes.md#CO02-21",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N27",
+      "node": "对阶和规格化",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "locator": "文件页 13（已目验导图）",
+      "target": "notes.md#CO02-21",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N28",
+      "node": "最近偶数舍入",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "locator": "文件页 13（已目验导图）",
+      "target": "notes.md#CO02-21",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N29",
+      "node": "指数溢出与精度损失",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "locator": "文件页 13（已目验导图）",
+      "target": "notes.md#CO02-21",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N30",
+      "node": "整数和浮点转换",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "locator": "文件页 13（已目验导图）",
+      "target": "notes.md#CO02-21",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO02-N31",
+      "node": "数据宽度与存放",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "教材文件页71～72（书页59～60；独立抽查纠正原定位）",
+      "target": "notes.md#CO02-25",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO02-N32",
+      "node": "位、字节和字",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "教材文件页71～72（书页59～60；独立抽查纠正原定位）",
+      "target": "notes.md#CO02-25",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO02-N33",
+      "node": "大小端字节排列",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "教材文件页71～72（书页59～60；独立抽查纠正原定位）",
+      "target": "notes.md#CO02-25",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO02-N34",
+      "node": "对象和结构体对齐",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "教材文件页71～72（书页59～60；独立抽查纠正原定位）",
+      "target": "notes.md#CO02-25",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO02-N35",
+      "node": "数组元素地址",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "教材文件页71～72（书页59～60；独立抽查纠正原定位）",
+      "target": "notes.md#CO02-25",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    }
+  ],
+  "review_notes": [
+    "保留旧CO02全部实质正文、10道代表例题、原3题自测；从旧CO04迁回大小端/对齐全段、结构布局例题（新编号2-11）及相关结构体自测。增加方法框、补码范围证明、浮点间隔推导与数据单位说明。",
+    "旧讲义年份/题号标签已统一降为配套例题；原标签仅保留本记录，原卷未独立复核：[('', '2.1-001'), ('2012', ''), ('2025', ''), ('', '2.2-018'), ('2018', ''), ('2023', ''), ('2022', ''), ('2014', ''), ('2015', ''), ('2017', ''), ('2012', ''), ('', '2.3-024')]",
+    "每个导图主分支和子节点均映射正文；这不代表全教材每题均已逐项审核。",
+    "独立复核修正补码证明两处sum为原生\\sum，数据存放定位改教材文件页71～72。"
+  ],
+  "wrong_question_handling": "使用第2章历史18条错题的知识位置，重点辨析编码/扩展、CF/OF、特殊IEEE编码和范围精度；不宣称学习者仍错。"
+}

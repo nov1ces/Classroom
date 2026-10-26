@@ -1,0 +1,17 @@
+\documentclass{sidenotes-simplex}
+\usepackage{graphicx,longtable,calc,etoolbox,caption}
+\newfontfamily\SNsymbolfont{NotoSerifSC-Regular.otf}[Path=fonts/]
+\RenewDocumentEnvironment{wideblock}{}{\begin{adjustwidth}{0mm}{-54mm}\setlength{\hsize}{\linewidth}\setlength{\columnwidth}{\linewidth}}{\end{adjustwidth}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\passthrough}[1]{#1}
+\newcommand{\pandocbounded}[1]{#1}
+\setlength{\LTpre}{3mm}\setlength{\LTpost}{3mm}
+\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\setlength{\parskip}{2pt plus .5pt}
+\renewcommand{\sectionmark}[1]{\gdef\SNsectiontitle{\thesection\enspace\SNchaptertitle}}
+\hypersetup{pdftitle={数据链路层 · 408导图核心自学笔记},pdfsubject={CN03 · 单面边栏版},pdfauthor={}}
+\InputIfFileExists{sidebars.tex}{}{}
+\begin{document}
+\setcounter{chapter}{2}
+\input{chapter}
+\end{document}

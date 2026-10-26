@@ -1,0 +1,116 @@
+{
+  "id": "CN05",
+  "title": "传输层",
+  "branches": [
+    {
+      "label": "端口与复用分用",
+      "children": [
+        "端口和进程号区别",
+        "UDP目的端口分用",
+        "TCP四元组连接"
+      ]
+    },
+    {
+      "label": "UDP报文",
+      "children": [
+        "8B首部与总长度",
+        "报文边界与IP分片",
+        "无连接与能力边界"
+      ]
+    },
+    {
+      "label": "反码检验和",
+      "children": [
+        "伪首部与覆盖范围",
+        "16位回卷与取反",
+        "补齐与零值语义"
+      ]
+    },
+    {
+      "label": "TCP字段与字节序号",
+      "children": [
+        "首部长与MSS",
+        "序号与累计确认号",
+        "六控制位与窗口",
+        "SYN与FIN序号消耗"
+      ]
+    },
+    {
+      "label": "连接建立与释放",
+      "children": [
+        "三次握手与旧SYN",
+        "双向关闭与状态",
+        "TIMEWAIT与2MSL"
+      ]
+    },
+    {
+      "label": "确认与重传计时",
+      "children": [
+        "累计ACK与SACK",
+        "超时与三个重复ACK",
+        "SRTT与RTO",
+        "Karn与重传歧义"
+      ]
+    },
+    {
+      "label": "流量控制",
+      "children": [
+        "rwnd字节区间",
+        "总额度与剩余额度",
+        "零窗口与持续计时器",
+        "窗口扩大选项条件"
+      ]
+    },
+    {
+      "label": "拥塞控制与联合计算",
+      "children": [
+        "cwnd与门限",
+        "慢开始与拥塞避免",
+        "超时及快恢复",
+        "两个上限扣在途"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "pages": [
+        18
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.4+5 TCP可靠传输、流量控制（纯净版无手稿）.pdf",
+      "pages": [
+        13
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.4+5 TCP可靠传输、流量控制（纯净版无手稿）.pdf",
+      "pages": [
+        14
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.4+5 TCP可靠传输、流量控制（纯净版无手稿）.pdf",
+      "pages": [
+        15
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "完整保留9个知识节、9道配套题和解析、6次重绘图引用；UDP/TCP与校验范围两张比较表保留，章末4题扩为10题。",
+    "原7列抓包字段表与6列接收窗口轮次表拆成关联编号的两张不超过4列表，数据全部保留；避免跨栏仍过密。",
+    "确认重传/流控/连接管理有真实已目验导图；端点、UDP、校验和、拥塞联合计算等组按对应课件与同科风格补绘。",
+    "快重传严格区分首ACK与后三个重复ACK，原课件5.3.5第2/4页文字纠错已结合；Reno/Tahoe与初始窗口简化条件保留。",
+    "反码回卷、TCP数据长52 B、2025窗口余量2段、关闭1650/75 ms、20KiB五轮缓存及163840 bit/s均重新核算，题干原卷未全量认证。"
+  ]
+}

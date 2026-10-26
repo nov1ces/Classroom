@@ -1,0 +1,339 @@
+{
+  "items": [
+    {
+      "id": "CN05-N01",
+      "node": "端口与复用分用",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "locator": "文件第18页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN05-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN05-N02",
+      "node": "端口和进程号区别",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.1 传输层提供的服务.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N03",
+      "node": "UDP目的端口分用",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "locator": "文件第18页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN05-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN05-N04",
+      "node": "TCP四元组连接",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.4+5 TCP可靠传输、流量控制（有上课手稿）.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N05",
+      "node": "UDP报文",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "locator": "文件第18页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN05-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN05-N06",
+      "node": "8B首部与总长度",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.2.1 UDP数据报.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N07",
+      "node": "报文边界与IP分片",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（有上课手稿）.pdf",
+      "locator": "文件第21页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N08",
+      "node": "无连接与能力边界",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.1 传输层提供的服务.pdf",
+      "locator": "文件第10页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N09",
+      "node": "反码检验和",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "locator": "文件第18页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN05-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN05-N10",
+      "node": "伪首部与覆盖范围",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.2.2 UDP检验.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N11",
+      "node": "16位回卷与取反",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.2.1 UDP数据报.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N12",
+      "node": "补齐与零值语义",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.2.1 UDP数据报.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N13",
+      "node": "TCP字段与字节序号",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "locator": "文件第18页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN05-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN05-N14",
+      "node": "首部长与MSS",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（有上课手稿）.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N15",
+      "node": "序号与累计确认号",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（有上课手稿）.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N16",
+      "node": "六控制位与窗口",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（有上课手稿）.pdf",
+      "locator": "文件第15页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N17",
+      "node": "SYN与FIN序号消耗",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（有上课手稿）.pdf",
+      "locator": "文件第15页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-04",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N18",
+      "node": "连接建立与释放",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "locator": "文件第18页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN05-05",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN05-N19",
+      "node": "三次握手与旧SYN",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（有上课手稿）.pdf",
+      "locator": "文件第9页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N20",
+      "node": "双向关闭与状态",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "locator": "文件第13页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N21",
+      "node": "TIMEWAIT与2MSL",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "locator": "文件第13页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-05",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N22",
+      "node": "确认与重传计时",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "locator": "文件第18页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN05-06",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN05-N23",
+      "node": "累计ACK与SACK",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "locator": "文件第18页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN05-06",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN05-N24",
+      "node": "超时与三个重复ACK",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.4+5 TCP可靠传输、流量控制（有上课手稿）.pdf",
+      "locator": "文件第24页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N25",
+      "node": "SRTT与RTO",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "locator": "文件第11页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N26",
+      "node": "Karn与重传歧义",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.4+5 TCP可靠传输、流量控制（有上课手稿）.pdf",
+      "locator": "文件第18页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N27",
+      "node": "流量控制",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（有上课手稿）.pdf",
+      "locator": "文件第17页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N28",
+      "node": "rwnd字节区间",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（有上课手稿）.pdf",
+      "locator": "文件第17页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N29",
+      "node": "总额度与剩余额度",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.6 TCP拥塞控制.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N30",
+      "node": "零窗口与持续计时器",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "locator": "文件第18页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN05-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN05-N31",
+      "node": "窗口扩大选项条件",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（有上课手稿）.pdf",
+      "locator": "文件第17页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N32",
+      "node": "拥塞控制与联合计算",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "locator": "文件第18页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN05-08",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN05-N33",
+      "node": "cwnd与门限",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.6 TCP拥塞控制.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N34",
+      "node": "慢开始与拥塞避免",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.6 TCP拥塞控制.pdf",
+      "locator": "文件第6页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N35",
+      "node": "超时及快恢复",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.6 TCP拥塞控制.pdf",
+      "locator": "文件第10页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN05-N36",
+      "node": "两个上限扣在途",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.6 TCP拥塞控制.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN05-09",
+      "status": "covered",
+      "verification": "text"
+    }
+  ],
+  "review_notes": [
+    "covered表示本次笔记含该节点；不表示整份教材、全部课件或历史题目已逐页审核。",
+    "扫描教材正文已核验文件页=书页+12，前言/目录罗马页另计。",
+    "配套例题沿用既有讲义实质题干及解析；未独立核验的旧年份标签已从正文降为配套例题，来源记录留在author_report。",
+    "完整保留9个知识节、9道配套题和解析、6次重绘图引用；UDP/TCP与校验范围两张比较表保留，章末4题扩为10题。",
+    "原7列抓包字段表与6列接收窗口轮次表拆成关联编号的两张不超过4列表，数据全部保留；避免跨栏仍过密。",
+    "确认重传/流控/连接管理有真实已目验导图；端点、UDP、校验和、拥塞联合计算等组按对应课件与同科风格补绘。",
+    "快重传严格区分首ACK与后三个重复ACK，原课件5.3.5第2/4页文字纠错已结合；Reno/Tahoe与初始窗口简化条件保留。",
+    "反码回卷、TCP数据长52 B、2025窗口余量2段、关闭1650/75 ms、20KiB五轮缓存及163840 bit/s均重新核算，题干原卷未全量认证。"
+  ],
+  "wrong_question_handling": "历史错题JSON只用于选择辨析主题；不把旧错选当成标准答案或当前仍不会的证据。标准答案依据机制与数值重推。"
+}

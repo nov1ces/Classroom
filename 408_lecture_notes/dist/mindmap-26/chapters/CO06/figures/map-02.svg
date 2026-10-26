@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="367" viewBox="0 0 680 367">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="158.5" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="188.5" text-anchor="middle" font-weight="bold">总线</text>
+<path d="M148,183.5 H166 V96.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="77.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="101.0" text-anchor="middle" font-weight="bold">定时与握手</text>
+<path d="M348,96.0 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">同步与等待状态</text>
+<path d="M348,96.0 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">异步非/半/全互锁</text>
+<path d="M348,96.0 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">半同步通信</text>
+<path d="M348,96.0 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">分离事务</text>
+<path d="M348,96.0 H365 V142.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="147.0">有效电平与采样时刻</text>
+<path d="M148,183.5 H166 V249.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="230.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="254.5" text-anchor="middle" font-weight="bold">使用权与拓展</text>
+<path d="M348,249.5 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">集中仲裁</text>
+<path d="M348,249.5 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">链式查询</text>
+<path d="M348,249.5 H365 V238.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="243.0">计数器定时查询</text>
+<path d="M348,249.5 H365 V261.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="266.0">独立请求</text>
+<path d="M348,249.5 H365 V284.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="289.0">分布仲裁</text>
+<path d="M348,249.5 H365 V307.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="312.0">总线标准</text>
+</g></svg>

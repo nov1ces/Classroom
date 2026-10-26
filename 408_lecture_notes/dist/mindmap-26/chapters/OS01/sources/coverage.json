@@ -1,0 +1,263 @@
+{
+  "items": [
+    {
+      "id": "OS01-N01",
+      "node": "功能与基本特征",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "文件页10为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS01-1-1",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS01-N01-01",
+      "node": "资源管理与服务接口",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-1",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N01-02",
+      "node": "并发与并行",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-1",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N01-03",
+      "node": "共享、虚拟、异步",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-1",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N02",
+      "node": "操作系统发展与类型",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "文件页10为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS01-1-2",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS01-N02-01",
+      "node": "单道与多道批处理",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-2",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N02-02",
+      "node": "分时的交互与响应",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-2",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N02-03",
+      "node": "硬实时与软实时",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-2",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N03",
+      "node": "运行机制与受控入口",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "文件页10为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS01-1-3",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS01-N03-01",
+      "node": "用户态、内核态、特权指令",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-3",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N03-02",
+      "node": "外部中断与异常",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-4",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N03-03",
+      "node": "系统调用与库函数",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-5",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N04",
+      "node": "程序链接、装入与运行映像",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "文件页10为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS01-1-6",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS01-N04-01",
+      "node": "静态与动态链接",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-6",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N04-02",
+      "node": "绝对、可重定位、运行时装入",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-6",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N04-03",
+      "node": "代码、数据、堆、栈与映射区",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-7",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N05",
+      "node": "内核结构与保护边界",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "文件页10为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS01-1-8",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS01-N05-01",
+      "node": "分层与模块化",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-8",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N05-02",
+      "node": "宏内核与微内核",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-8",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N05-03",
+      "node": "外核的保护与抽象",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-8",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N06",
+      "node": "启动与持久结构",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "文件页10为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS01-1-9",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS01-N06-01",
+      "node": "固件、引导程序与内核初始化",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-9",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N06-02",
+      "node": "BIOS/MBR与UEFI/GPT",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-9",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N06-03",
+      "node": "运行结构与磁盘持久结构",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-9",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N07",
+      "node": "虚拟机与资源抽象",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "文件页10为已目验导图；本分支还综合教材章框架及既有正文，非逐页认证",
+      "target": "notes.md#OS01-1-10",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "OS01-N07-01",
+      "node": "第一类与第二类VMM",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-10",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N07-02",
+      "node": "客户权限与主机权限",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-10",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "OS01-N07-03",
+      "node": "虚拟机与容器",
+      "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "locator": "已目验本章示范导图；节点来自相应课件/教材层级与既有正文逐项对照，超出示范导图的节点为归纳补绘",
+      "target": "notes.md#OS01-1-10",
+      "status": "covered",
+      "verification": "text"
+    }
+  ],
+  "review_notes": [
+    "教材副本与项目分卷原件已由主代理逐字节核验，证据 /workspace/work/408-probe/archive_verification.json。",
+    "全部原稿实质段落/代码/例题解析保留；只规范标题ID、来源标签、表格与组件。",
+    "未独立复核的真题年份正文统一改称配套例题；历史标注及文件指纹记录在author_report。",
+    "PDF正文图像扫描，教材文件页=书页+12，已目验PDF14=书2、189=书177、318=书306。"
+  ],
+  "wrong_question_handling": "历史错题按已登记题号帮助挑选辨析案例，题干及答案条件需核验；不把过去错选当作当前弱项，不在笔记中暴露个人错选。"
+}

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="417" viewBox="0 0 680 417">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="183.5" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="213.5" text-anchor="middle" font-weight="bold">数据表示、位级运算与浮点</text>
+<path d="M148,208.5 H166 V84.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="65.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="89.5" text-anchor="middle" font-weight="bold">IEEE浮点表示</text>
+<path d="M348,84.5 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">符阶尾字段</text>
+<path d="M348,84.5 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">偏置与隐含位</text>
+<path d="M348,84.5 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">规格化和非规格化</text>
+<path d="M348,84.5 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">零、无穷和NaN</text>
+<path d="M148,208.5 H166 V203.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="184.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="208.5" text-anchor="middle" font-weight="bold">浮点运算与精度</text>
+<path d="M348,203.5 H365 V169.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="174.0">对阶和规格化</text>
+<path d="M348,203.5 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">最近偶数舍入</text>
+<path d="M348,203.5 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">指数溢出与精度损失</text>
+<path d="M348,203.5 H365 V238.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="243.0">整数和浮点转换</text>
+<path d="M148,208.5 H166 V322.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="303.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="327.5" text-anchor="middle" font-weight="bold">数据宽度与存放</text>
+<path d="M348,322.5 H365 V288.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="293.0">位、字节和字</text>
+<path d="M348,322.5 H365 V311.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="316.0">大小端字节排列</text>
+<path d="M348,322.5 H365 V334.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="339.0">对象和结构体对齐</text>
+<path d="M348,322.5 H365 V357.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="362.0">数组元素地址</text>
+</g></svg>

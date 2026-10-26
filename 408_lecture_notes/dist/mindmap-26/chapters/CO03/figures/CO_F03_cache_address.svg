@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="350" viewBox="0 0 1000 350">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#333"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="500" y="30" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="23" fill="#111">32 KiB 数据区，64 B/块，8 路组相联</text>
+<rect x="30" y="60" width="550" height="65" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="305.0" y="99.85" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">标记 20位</text>
+<rect x="580" y="60" width="185" height="65" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="672.5" y="99.85" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">组号 6位</text>
+<rect x="765" y="60" width="205" height="65" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="867.5" y="99.85" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">块内偏移 6位</text>
+<line x1="672" y1="125" x2="672" y2="185" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="815" y="170" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">选64组中的一组</text>
+<rect x="38" y="205" width="110" height="55" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="93.0" y="239.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">路0</text>
+<rect x="158" y="205" width="110" height="55" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="213.0" y="239.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">路1</text>
+<rect x="278" y="205" width="110" height="55" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="333.0" y="239.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">路2</text>
+<rect x="398" y="205" width="110" height="55" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="453.0" y="239.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">路3</text>
+<rect x="518" y="205" width="110" height="55" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="573.0" y="239.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">路4</text>
+<rect x="638" y="205" width="110" height="55" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="693.0" y="239.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">路5</text>
+<rect x="758" y="205" width="110" height="55" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="813.0" y="239.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">路6</text>
+<rect x="878" y="205" width="110" height="55" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="933.0" y="239.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">路7</text>
+<text x="500" y="300" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">选中组的8个有效标记并行比较；命中后由偏移选字节</text>
+</svg>

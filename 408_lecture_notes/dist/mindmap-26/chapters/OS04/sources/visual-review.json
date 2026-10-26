@@ -1,0 +1,49 @@
+{
+  "reviewer": "/root/review_os_pdf/review_os02",
+  "status": "passed",
+  "reviewed_at_utc": "2026-10-25",
+  "page_count": 14,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "contact_sheets": [
+    "contact-01.png",
+    "contact-02.png"
+  ],
+  "detail_pages": [
+    7,
+    9,
+    11,
+    12,
+    13,
+    14
+  ],
+  "issues": [],
+  "pdf_sha256": "19809530a6224de05462b8c0f6ecf04bfa46e5eafda5e6b7e443082bd8d83953",
+  "method": "Human visual review with view_image of both contact sheets, plus full page views for detail_pages; preview modification time is newer than the PDF.",
+  "findings": [
+    "已重新查看新版两张contact全部14页，并整页复看第7、9、11、12、13、14页。",
+    "正文固定左、旁注固定右，各页有1～3条旁注；宽表避让正常。",
+    "放大检查的索引、链接、目录图无变形或切字，公式清晰。",
+    "第13页保留完整自测题卡；第14页为标题与8条答案完整的独立核对卡，原先半句孤立的问题已解决。"
+  ],
+  "resolved_issues": [
+    {
+      "previous_page": 14,
+      "description": "先前第4条答案半句跨页、末页仅剩4条答案的问题已解决。第14页现在从4.14.1标题起展示完整的8条核对答案卡，第13页题卡完整。"
+    }
+  ]
+}

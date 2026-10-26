@@ -1,0 +1,280 @@
+{
+  "items": [
+    {
+      "id": "CO04-N01",
+      "node": "指令格式与编码",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-02",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N02",
+      "node": "操作码和地址字段",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-02",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N03",
+      "node": "零一二三地址格式",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-02",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N04",
+      "node": "定长与变长",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-02",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N05",
+      "node": "扩展前缀容量",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-02",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N06",
+      "node": "数据寻址",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_1 数据寻址1.pdf",
+      "locator": "文件页 4（已目验导图）",
+      "target": "notes.md#CO04-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N07",
+      "node": "隐含立即直接间接",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_1 数据寻址1.pdf",
+      "locator": "文件页 4（已目验导图）",
+      "target": "notes.md#CO04-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N08",
+      "node": "寄存器及寄存器间接",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_1 数据寻址1.pdf",
+      "locator": "文件页 4（已目验导图）",
+      "target": "notes.md#CO04-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N09",
+      "node": "基址变址相对",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_1 数据寻址1.pdf",
+      "locator": "文件页 4（已目验导图）",
+      "target": "notes.md#CO04-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N10",
+      "node": "堆栈与有效地址",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_1 数据寻址1.pdf",
+      "locator": "文件页 4（已目验导图）",
+      "target": "notes.md#CO04-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N11",
+      "node": "指令寻址与访问",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.1 指令寻址.pdf",
+      "locator": "文件页 2（已目验导图）",
+      "target": "notes.md#CO04-05",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N12",
+      "node": "顺序和跳跃",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.1 指令寻址.pdf",
+      "locator": "文件页 2（已目验导图）",
+      "target": "notes.md#CO04-05",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N13",
+      "node": "PC基准和指令长度",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.1 指令寻址.pdf",
+      "locator": "文件页 2（已目验导图）",
+      "target": "notes.md#CO04-05",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N14",
+      "node": "位移符号与缩放",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.1 指令寻址.pdf",
+      "locator": "文件页 2（已目验导图）",
+      "target": "notes.md#CO04-05",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N15",
+      "node": "取指取数和写回次数",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.1 指令寻址.pdf",
+      "locator": "文件页 2（已目验导图）",
+      "target": "notes.md#CO04-05",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N16",
+      "node": "ISA设计取舍",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-07",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N17",
+      "node": "RISC和CISC倾向",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-07",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N18",
+      "node": "Load/Store数据访问",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-07",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N19",
+      "node": "编码规整与流水",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-07",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N20",
+      "node": "控制方式和ABI边界",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-07",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N21",
+      "node": "程序工具链",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-09",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N22",
+      "node": "预处理和编译",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-09",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N23",
+      "node": "汇编与可重定位目标",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-09",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N24",
+      "node": "符号解析和重定位",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-09",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N25",
+      "node": "装入与运行环境",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页 160（教材抽样交叉核验）",
+      "target": "notes.md#CO04-09",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO04-N26",
+      "node": "控制流与过程调用",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_2 数据寻址2_偏移寻址.pdf",
+      "locator": "文件页 3（已目验导图）",
+      "target": "notes.md#CO04-11",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N27",
+      "node": "条件与循环结构",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_2 数据寻址2_偏移寻址.pdf",
+      "locator": "文件页 3（已目验导图）",
+      "target": "notes.md#CO04-11",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N28",
+      "node": "有符号无符号分支",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_2 数据寻址2_偏移寻址.pdf",
+      "locator": "文件页 3（已目验导图）",
+      "target": "notes.md#CO04-11",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N29",
+      "node": "返回地址和栈帧",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_2 数据寻址2_偏移寻址.pdf",
+      "locator": "文件页 3（已目验导图）",
+      "target": "notes.md#CO04-11",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO04-N30",
+      "node": "递归及调用者保存",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_2 数据寻址2_偏移寻址.pdf",
+      "locator": "文件页 3（已目验导图）",
+      "target": "notes.md#CO04-11",
+      "status": "covered",
+      "verification": "visual"
+    }
+  ],
+  "review_notes": [
+    "保留旧CO04除迁回第2章的大/小端对齐之外的全部实质正文、5道代表例题及栈模型自测；原例4-4/4-5/4-6顺改为4-3/4-4/4-5。补隐含与堆栈寻址、编码前缀证明、机器代码方法及5题主动回忆。结构体字节序自测已迁CO02，原递归综合例中必要的机器编码字节序仍保留以解释相对位移。",
+    "旧讲义年份/题号标签已统一降为配套例题；原标签仅保留本记录，原卷未独立复核：[('2022', ''), ('2009', ''), ('2025', ''), ('2022', ''), ('2019', '')]",
+    "每个导图主分支和子节点均映射正文；这不代表全教材每题均已逐项审核。"
+  ],
+  "wrong_question_handling": "依据第4章历史14条错题，突出扩展操作码、EA与访存次数、PC基准、RISC典型限定、工具链和调用；不推断现时掌握情况。"
+}

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560">
+<defs><marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7" fill="#333"/></marker></defs>
+<rect width="1000" height="560" fill="white"/>
+<text x="500.0" y="31" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="23" font-weight="bold" fill="#111">【2011】前三块的输入、复制与分析（单位：μs）</text>
+<text x="40" y="80" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">单缓冲</text>
+<text x="115" y="119" text-anchor="end" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">设备输入</text>
+<text x="115" y="167" text-anchor="end" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">复制</text>
+<text x="115" y="215" text-anchor="end" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">CPU分析</text>
+<rect x="130.0" y="95" width="162.0" height="35" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="211.0" y="118.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">入1</text>
+<rect x="292.0" y="143" width="81.0" height="35" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="332.5" y="166.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">复1</text>
+<rect x="373.0" y="191" width="81.0" height="35" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="413.5" y="214.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">析1</text>
+<rect x="373.0" y="95" width="162.0" height="35" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="454.0" y="118.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">入2</text>
+<rect x="535.0" y="143" width="81.0" height="35" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="575.5" y="166.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">复2</text>
+<rect x="616.0" y="191" width="81.0" height="35" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="656.5" y="214.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">析2</text>
+<rect x="616.0" y="95" width="162.0" height="35" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="697.0" y="118.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">入3</text>
+<rect x="778.0" y="143" width="81.0" height="35" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="818.5" y="166.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">复3</text>
+<rect x="859.0" y="191" width="81.0" height="35" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="899.5" y="214.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">析3</text>
+<text x="130.0" y="260" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">0</text>
+<text x="211.0" y="260" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">50</text>
+<text x="292.0" y="260" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">100</text>
+<text x="373.0" y="260" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">150</text>
+<text x="454.0" y="260" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">200</text>
+<text x="535.0" y="260" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">250</text>
+<text x="616.0" y="260" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">300</text>
+<text x="697.0" y="260" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">350</text>
+<text x="778.0" y="260" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">400</text>
+<text x="859.0" y="260" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">450</text>
+<text x="940.0" y="260" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">500</text>
+<text x="40" y="305" text-anchor="start" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">双缓冲</text>
+<text x="115" y="344" text-anchor="end" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">设备输入</text>
+<text x="115" y="392" text-anchor="end" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">复制</text>
+<text x="115" y="440" text-anchor="end" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">CPU分析</text>
+<rect x="130.0" y="320" width="162.0" height="35" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="211.0" y="343.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">入1</text>
+<rect x="292.0" y="368" width="81.0" height="35" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="332.5" y="391.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">复1</text>
+<rect x="373.0" y="416" width="81.0" height="35" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="413.5" y="439.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">析1</text>
+<rect x="292.0" y="320" width="162.0" height="35" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="373.0" y="343.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">入2</text>
+<rect x="454.0" y="368" width="81.0" height="35" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="494.5" y="391.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">复2</text>
+<rect x="535.0" y="416" width="81.0" height="35" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="575.5" y="439.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">析2</text>
+<rect x="454.0" y="320" width="162.0" height="35" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="535.0" y="343.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">入3</text>
+<rect x="616.0" y="368" width="81.0" height="35" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="656.5" y="391.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">复3</text>
+<rect x="697.0" y="416" width="81.0" height="35" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="737.5" y="439.1" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="16" font-weight="normal" fill="#111">析3</text>
+<text x="130.0" y="485" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">0</text>
+<text x="211.0" y="485" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">50</text>
+<text x="292.0" y="485" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">100</text>
+<text x="373.0" y="485" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">150</text>
+<text x="454.0" y="485" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">200</text>
+<text x="535.0" y="485" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">250</text>
+<text x="616.0" y="485" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">300</text>
+<text x="697.0" y="485" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">350</text>
+<text x="778.0" y="485" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">400</text>
+<text x="859.0" y="485" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">450</text>
+<text x="940.0" y="485" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="15" font-weight="normal" fill="#111">500</text>
+<text x="500" y="515" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">单缓冲：第10块1500完成复制，1550完成分析。</text>
+<text x="500" y="540" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">双缓冲：1000+50+50=1100。</text>
+</svg>

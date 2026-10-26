@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "detail_pages": [
+    1,
+    6,
+    8,
+    9
+  ],
+  "issues": [],
+  "reviewer": "review_ds_pdf (actual image inspection)",
+  "page_count": 9,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "pdf_sha256": "847fd6d145e33e8f426441bef310a0ef7510d388f05c8c9259c6e11901ffd483",
+  "method": "tools.view_image查看重建后当前全部contact；detail_pages另查看逐页PNG。",
+  "reviewed_at": "2026-10-25",
+  "resolved_issues": [
+    {
+      "page": 9,
+      "severity": "blocking",
+      "type": "orphan_final_page",
+      "description": "页首仅“不同。”及复习项8共约3行，正文占高不足6%，应压回前页。"
+    }
+  ],
+  "observations": [
+    "旧第9页3行孤立末页已修复：新版第8页为完整8题题组，第9页为完整核对答案框。"
+  ]
+}

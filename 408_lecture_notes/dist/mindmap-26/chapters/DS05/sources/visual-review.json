@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "detail_pages": [
+    8,
+    11,
+    14
+  ],
+  "issues": [],
+  "reviewer": "review_ds_pdf (actual image inspection)",
+  "page_count": 14,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "pdf_sha256": "d02a081e040e2e8fb46bdef28a61dc7185c9967d80aa68eaca29f7a35bc41c87",
+  "method": "tools.view_image查看重建后当前全部contact；detail_pages另查看逐页PNG。",
+  "reviewed_at": "2026-10-25",
+  "resolved_issues": [
+    {
+      "page": 14,
+      "severity": "blocking",
+      "type": "table_clipped_right",
+      "description": "顶部结构比较三列表超出纸张右边缘，第三列操作与判断边界内容被裁切。"
+    }
+  ],
+  "observations": [
+    "旧第14页表格右侧裁切已修复；新版表格完整在纸内，右侧栏从表下方开始。"
+  ]
+}

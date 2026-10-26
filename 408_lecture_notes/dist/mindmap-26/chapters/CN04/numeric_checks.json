@@ -1,0 +1,17 @@
+{
+  "subnet_2023": "168.16.80.0/20",
+  "fragments_1580B_data": [
+    776,
+    776,
+    8
+  ],
+  "fragments_1580B_offsets": [
+    0,
+    97,
+    194
+  ],
+  "satellite_oneway_s": 0.24,
+  "GBN_min_window_80pct": 8,
+  "GBN_min_sequence_bits": 4,
+  "VLSM_total_addresses": 256
+}

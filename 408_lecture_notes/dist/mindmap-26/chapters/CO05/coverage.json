@@ -1,0 +1,465 @@
+{
+  "items": [
+    {
+      "id": "CO05-N01",
+      "node": "CPU功能与基本结构",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.1 CPU的功能和基本结构.pdf",
+      "locator": "文件页24（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-registers",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N02",
+      "node": "指令/操作/时间控制与数据加工",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.1 CPU的功能和基本结构.pdf",
+      "locator": "文件页24（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-registers",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N03",
+      "node": "ALU与寄存器",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.1 CPU的功能和基本结构.pdf",
+      "locator": "文件页24（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-registers",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N04",
+      "node": "PC/IR/MAR/MDR",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.1 CPU的功能和基本结构.pdf",
+      "locator": "文件页24（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-registers",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N05",
+      "node": "程序员可见与内部状态",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.1 CPU的功能和基本结构.pdf",
+      "locator": "文件页24（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-registers",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N06",
+      "node": "指令周期与实现",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.2 指令执行过程.pdf",
+      "locator": "文件页13（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-cycle",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N07",
+      "node": "取指/间址/执行/中断",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.2 指令执行过程.pdf",
+      "locator": "文件页13（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-cycle",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N08",
+      "node": "时钟与机器周期",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.2 指令执行过程.pdf",
+      "locator": "文件页13（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-cycle",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N09",
+      "node": "单周期",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.2 指令执行过程.pdf",
+      "locator": "文件页13（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-cycle",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N10",
+      "node": "多周期",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.2 指令执行过程.pdf",
+      "locator": "文件页13（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-cycle",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N11",
+      "node": "流水线重叠",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.2 指令执行过程.pdf",
+      "locator": "文件页13（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-cycle",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N12",
+      "node": "数据通路与微操作",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.3_1 数据通路-单总线结构.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-datapath",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N13",
+      "node": "内部总线与系统总线",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.3_1 数据通路-单总线结构.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-datapath",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N14",
+      "node": "专用数据通路",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.3_1 数据通路-单总线结构.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-datapath",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N15",
+      "node": "单源多目的",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.3_1 数据通路-单总线结构.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-datapath",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N16",
+      "node": "暂存器Y和Z",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.3_1 数据通路-单总线结构.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-datapath",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N17",
+      "node": "控制信号与资源冲突",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.3_1 数据通路-单总线结构.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-datapath",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N18",
+      "node": "控制器与微程序",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.2 微程序控制器的基本原理.pdf",
+      "locator": "文件页8（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-control",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N19",
+      "node": "硬布线与微程序",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.2 微程序控制器的基本原理.pdf",
+      "locator": "文件页8（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-control",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N20",
+      "node": "CM/CMAR/CMDR",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.2 微程序控制器的基本原理.pdf",
+      "locator": "文件页8（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-microsequence",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N21",
+      "node": "微命令/微指令/机器指令",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.2 微程序控制器的基本原理.pdf",
+      "locator": "文件页8（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-microsequence",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N22",
+      "node": "直接与字段编码",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.3 微指令的设计.pdf",
+      "locator": "文件页12（已视觉核对微指令设计知识回顾）",
+      "target": "notes.md#CO05-microsequence",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N23",
+      "node": "下地址形成",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.2 微程序控制器的基本原理.pdf",
+      "locator": "文件页8（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-microsequence",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N24",
+      "node": "水平/垂直/混合",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.3 微指令的设计.pdf",
+      "locator": "文件页12（已视觉核对微指令设计知识回顾）",
+      "target": "notes.md#CO05-microsequence",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N25",
+      "node": "异常与中断",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页254,255（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-exception",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO05-N26",
+      "node": "异常与外部中断",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页254,255（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-exception",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO05-N27",
+      "node": "故障/陷阱/终止",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页254,255（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-exception",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO05-N28",
+      "node": "响应与返回位置",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页254,255（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-exception",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO05-N29",
+      "node": "硬件保存与软件保护",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页254,255（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-exception",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO05-N30",
+      "node": "流水线模型与冒险",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_1 指令流水线的基本概念和性能指标.pdf",
+      "locator": "文件页11（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-pipeline-performance",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N31",
+      "node": "吞吐率/加速比/效率",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_1 指令流水线的基本概念和性能指标.pdf",
+      "locator": "文件页11（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-pipeline-performance",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N32",
+      "node": "五段与段寄存器",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_1 多处理器基本概念.pdf",
+      "locator": "文件页9（五段式结构示意，已视觉核对；不是分支导图）",
+      "target": "notes.md#CO05-stage-registers",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N33",
+      "node": "结构/数据/控制冒险",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_2 指令流水线的影响因素和分类.pdf",
+      "locator": "文件页14（已视觉核对冒险分类）；具体产生/使用时刻由正文按五段模型推导",
+      "target": "notes.md#CO05-hazards",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N34",
+      "node": "转发与load-use",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_2 指令流水线的影响因素和分类.pdf",
+      "locator": "文件页14（已视觉核对冒险分类）；具体产生/使用时刻由正文按五段模型推导",
+      "target": "notes.md#CO05-hazards",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N35",
+      "node": "保持与气泡",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_2 指令流水线的影响因素和分类.pdf",
+      "locator": "文件页14（已视觉核对冒险分类）；具体产生/使用时刻由正文按五段模型推导",
+      "target": "notes.md#CO05-hazards",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N36",
+      "node": "同拍读写条件",
+      "source": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "locator": "文件页271完整题干及277参考解，已视觉核对“同一寄存器读写不可同周期”与14/17拍时序",
+      "target": "notes.md#CO05-hazards",
+      "status": "covered",
+      "verification": "book_crosscheck"
+    },
+    {
+      "id": "CO05-N37",
+      "node": "流水线分类与指令级并行",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_2 指令流水线的影响因素和分类.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-pipeline-types",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N38",
+      "node": "部件/处理机/处理机间",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_2 指令流水线的影响因素和分类.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-pipeline-types",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N39",
+      "node": "单功能/多功能",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_2 指令流水线的影响因素和分类.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-pipeline-types",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N40",
+      "node": "静态/动态与线性/非线性",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_2 指令流水线的影响因素和分类.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-pipeline-types",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N41",
+      "node": "超标量/超流水/VLIW",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_2 指令流水线的影响因素和分类.pdf",
+      "locator": "文件页14（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-issue",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N42",
+      "node": "动态调度与重命名",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_2 指令流水线的影响因素和分类.pdf",
+      "locator": "文件页14之影响因素/常见技术为导图入口；动态调度与按序提交由已读旧正文扩展并条件化，不宣称图中逐字出现",
+      "target": "notes.md#CO05-issue",
+      "status": "covered",
+      "verification": "visual",
+      "derivation": true
+    },
+    {
+      "id": "CO05-N43",
+      "node": "预测与按序提交",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_2 指令流水线的影响因素和分类.pdf",
+      "locator": "文件页14之影响因素/常见技术为导图入口；动态调度与按序提交由已读旧正文扩展并条件化，不宣称图中逐字出现",
+      "target": "notes.md#CO05-issue",
+      "status": "covered",
+      "verification": "visual",
+      "derivation": true
+    },
+    {
+      "id": "CO05-N44",
+      "node": "多处理器与硬件线程",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_1 多处理器基本概念.pdf",
+      "locator": "文件页8,9（已视觉核对；章节整合分支详见review_notes）",
+      "target": "notes.md#CO05-flynn",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N45",
+      "node": "Flynn四类",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_1 多处理器基本概念.pdf",
+      "locator": "文件页8的向量处理结构示意已目验；Flynn及SMP定义由本节课件前部与保留正文核对，不把该图冒充完整树图",
+      "target": "notes.md#CO05-flynn",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N46",
+      "node": "向量处理与SIMD",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_1 多处理器基本概念.pdf",
+      "locator": "文件页8的向量处理结构示意已目验；Flynn及SMP定义由本节课件前部与保留正文核对，不把该图冒充完整树图",
+      "target": "notes.md#CO05-flynn",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N47",
+      "node": "SMP与共享物理地址",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_1 多处理器基本概念.pdf",
+      "locator": "文件页8的向量处理结构示意已目验；Flynn及SMP定义由本节课件前部与保留正文核对，不把该图冒充完整树图",
+      "target": "notes.md#CO05-flynn",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N48",
+      "node": "多核与MIMD",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_1 多处理器基本概念.pdf",
+      "locator": "文件页8的向量处理结构示意已目验；Flynn及SMP定义由本节课件前部与保留正文核对，不把该图冒充完整树图",
+      "target": "notes.md#CO05-flynn",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N49",
+      "node": "粗粒度/细粒度线程",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_2 硬件多线程.pdf",
+      "locator": "文件页5（已视觉核对两套线程状态共用执行部件的结构图）；线程切换粒度由本节完整课件与旧正文核对",
+      "target": "notes.md#CO05-multithread",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO05-N50",
+      "node": "SMT与共享执行资源",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_2 硬件多线程.pdf",
+      "locator": "文件页5（已视觉核对两套线程状态共用执行部件的结构图）；线程切换粒度由本节完整课件与旧正文核对",
+      "target": "notes.md#CO05-multithread",
+      "status": "covered",
+      "verification": "visual"
+    }
+  ],
+  "review_notes": [
+    "教材第5章合并旧CO05与旧CO06全部实质正文：寄存器、周期、数据通路、控制器、异常中断、流水线、冒险、多发射、Flynn、多核和硬件线程；旧11道编号例题与解析保留，旧6章例1～5改为本章例7～11，并修改文内回指。",
+    "视觉查看课件5.1第24、5.2第13、5.3_1第14、5.4.2第8、5.4.3第11/12、5.6_1第11、5.6_2第14页；多处理器第8/9与线程第5/6页是结构示意，不冒充已有树状导图。扫描教材5.5文件254/255（书242/243）实际目验，异常类型与重试条件据此核对。",
+    "CPU可见寄存器按ISA范围限定；补微程序CM/CMAR/CMDR与后继微地址、理想流水线效率面积推导、静态/动态/线性/非线性等导图节点。新增定义框、方法框、定理与证明、案例框、4列跨栏CPU实现表、10题主动回忆。",
+    "关键推导复算：互斥编码3+2+4+3+3=15位；130微地址需8位；理想停顿例54ns；给定无转发模型关键链最短17拍。两张9列/15列时序表改为3列“阶段+周期/等待”表，所有原等待拍与有效阶段保留；已有重绘过程图仍引用。",
+    "旧真题年份未经本轮独立对原卷，正文统一降标配套例题，保留旧实质题设与条件，不伪称新核验官方答案。未对所有实现作全称断言，单周期/五段/寄存器时序按题目模型。",
+    "另实际视觉查看教材文件271/书259题干与277/书265参考解：16位、Cache分离、无转发、同寄存器不可同拍读写，14拍原序列与17拍最短调度均与正文一致。此为教材题源核对，不等同官方原卷认证。"
+  ],
+  "wrong_question_handling": "按本章历史错题涉及的单位、分类或模型边界配置错项排除；旧记录不代表学习者当前仍答错。保留配套题实质条件和解析，旧年份未独立对原卷认证，正文统一降标配套例题；自拟题明确标识。"
+}

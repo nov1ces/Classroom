@@ -1,0 +1,26 @@
+{
+  "updated_at": "2026-10-26T01:44:37+08:00",
+  "chapters": 26,
+  "pages": 369,
+  "map_nodes": 891,
+  "coverage_items": 909,
+  "all_chapter_machine_checks": true,
+  "all_chapter_visual_reviews_match_pdf_sha256": true,
+  "print_mode": "simplex",
+  "all_pages_have_1_to_3_sidebars": true,
+  "every_chapter_has_a_printed_editable_counterexample_microdiagram": true,
+  "blank_template_pages_added": 0,
+  "merged_page_text_identical": true,
+  "merged_page_pixels_identical_at_quarter_scale": true,
+  "official_original_exam_paper_authentication": "not claimed; labels use verified scope and companion examples",
+  "combined_all_369_pages_text_and_pixels_verified": true,
+  "combined_bookmark_entries": 30,
+  "source_archive_portable_rebuild": {
+    "chapter": "DS01",
+    "extracted_to_isolated_workspace": true,
+    "original_project_figure_lookup_disabled": true,
+    "pages": 9,
+    "warnings": [],
+    "archive_sha256": "1de1e26f79b67737c23f2ad802ac96be6f96bea87a068c2f4e6f03a8b0acba9e"
+  }
+}

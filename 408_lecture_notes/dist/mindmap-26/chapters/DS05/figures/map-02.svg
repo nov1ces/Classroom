@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="486" viewBox="0 0 680 486">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="218.0" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="248.0" text-anchor="middle" font-weight="bold">树与二叉树</text>
+<path d="M148,243.0 H166 V96.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="77.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="101.0" text-anchor="middle" font-weight="bold">树森林的存储与转换</text>
+<path d="M348,96.0 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">双亲表示</text>
+<path d="M348,96.0 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">孩子表示</text>
+<path d="M348,96.0 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">孩子兄弟表示</text>
+<path d="M348,96.0 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">左孩子右兄弟转换</text>
+<path d="M348,96.0 H365 V142.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="147.0">先根后根与二叉遍历</text>
+<path d="M148,243.0 H166 V238.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="219.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="243.0" text-anchor="middle" font-weight="bold">哈夫曼树与编码</text>
+<path d="M348,238.0 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">带权路径长度</text>
+<path d="M348,238.0 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">合并两个最小权根</text>
+<path d="M348,238.0 H365 V238.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="243.0">最优性与编码非唯一</text>
+<path d="M348,238.0 H365 V261.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="266.0">前缀编码与剩余容量</text>
+<path d="M348,238.0 H365 V284.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="289.0">多路归并的零权补叶</text>
+<path d="M148,243.0 H166 V380.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="361.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="385.0" text-anchor="middle" font-weight="bold">并查集与堆的连接</text>
+<path d="M348,380.0 H365 V334.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="339.0">双亲森林与代表元</text>
+<path d="M348,380.0 H365 V357.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="362.0">按规模合并</text>
+<path d="M348,380.0 H365 V380.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="385.0">路径压缩不改集合</text>
+<path d="M348,380.0 H365 V403.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="408.0">完全性与堆序</text>
+<path d="M348,380.0 H365 V426.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="431.0">插入上滤及删根下滤</text>
+</g></svg>

@@ -1,0 +1,235 @@
+{
+  "items": [
+    {
+      "id": "CO01-N01",
+      "node": "系统组成",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "locator": "文件页 2,9（已目验导图）",
+      "target": "notes.md#CO01-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N02",
+      "node": "硬件与软件",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "locator": "文件页 2,9（已目验导图）",
+      "target": "notes.md#CO01-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N03",
+      "node": "五大功能部件",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "locator": "文件页 2,9（已目验导图）",
+      "target": "notes.md#CO01-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N04",
+      "node": "主机与CPU",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "locator": "文件页 2,9（已目验导图）",
+      "target": "notes.md#CO01-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N05",
+      "node": "主存和外存",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "locator": "文件页 2,9（已目验导图）",
+      "target": "notes.md#CO01-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N06",
+      "node": "层次与接口",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.4 计算机系统的层次结构.pdf",
+      "locator": "文件页 5（已目验导图）",
+      "target": "notes.md#CO01-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N07",
+      "node": "高级语言与汇编",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.4 计算机系统的层次结构.pdf",
+      "locator": "文件页 5（已目验导图）",
+      "target": "notes.md#CO01-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N08",
+      "node": "操作系统机器",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.4 计算机系统的层次结构.pdf",
+      "locator": "文件页 5（已目验导图）",
+      "target": "notes.md#CO01-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N09",
+      "node": "ISA软件接口",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.4 计算机系统的层次结构.pdf",
+      "locator": "文件页 5（已目验导图）",
+      "target": "notes.md#CO01-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N10",
+      "node": "微体系结构实现",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.4 计算机系统的层次结构.pdf",
+      "locator": "文件页 5（已目验导图）",
+      "target": "notes.md#CO01-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N11",
+      "node": "存储程序与执行",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "locator": "文件页 2,9（已目验导图）",
+      "target": "notes.md#CO01-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N12",
+      "node": "控制流驱动",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "locator": "文件页 2,9（已目验导图）",
+      "target": "notes.md#CO01-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N13",
+      "node": "PC及后继地址",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "locator": "文件页 2,9（已目验导图）",
+      "target": "notes.md#CO01-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N14",
+      "node": "编译汇编链接",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "locator": "文件页 2,9（已目验导图）",
+      "target": "notes.md#CO01-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N15",
+      "node": "装入与运行环境",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "locator": "文件页 2,9（已目验导图）",
+      "target": "notes.md#CO01-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N16",
+      "node": "性能指标",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO01-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N17",
+      "node": "响应时间和吞吐量",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO01-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N18",
+      "node": "CPU执行时间",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO01-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N19",
+      "node": "CPI条数加权",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO01-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N20",
+      "node": "IPC、MIPS与FLOPS",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO01-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N21",
+      "node": "优化与边界",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO01-10",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N22",
+      "node": "动态指令数",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO01-10",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N23",
+      "node": "可加速时间比例",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO01-10",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N24",
+      "node": "Amdahl上限",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO01-10",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CO01-N25",
+      "node": "字长与容量区别",
+      "source": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "locator": "文件页 10（已目验导图）",
+      "target": "notes.md#CO01-10",
+      "status": "covered",
+      "verification": "visual"
+    }
+  ],
+  "review_notes": [
+    "保留旧CO01全部实质正文和3道编号例题及原2题自测，新增层次图解释、容量单位条件、性能题方法和CPI推导；未采用历史完成声明。",
+    "旧讲义年份/题号标签已统一降为配套例题；原标签仅保留本记录，原卷未独立复核：[('2015', ''), ('2022', ''), ('2012', ''), ('2014', '')]",
+    "每个导图主分支和子节点均映射正文；这不代表全教材每题均已逐项审核。"
+  ],
+  "wrong_question_handling": "依据第1章历史9条错题，突出控制流/编译流程、CPI权重、速度与时间、CPU和总历时，未推断当前掌握程度。"
+}

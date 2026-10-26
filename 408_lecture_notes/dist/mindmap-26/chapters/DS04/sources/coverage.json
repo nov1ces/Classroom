@@ -1,0 +1,255 @@
+{
+  "items": [
+    {
+      "id": "DS04-N01",
+      "node": "串的定义与操作",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.1_串的定义和基本操作.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-ops",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N02",
+      "node": "空串与空格串",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.1_串的定义和基本操作.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-ops",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N03",
+      "node": "子串与子序列",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.1_串的定义和基本操作.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-ops",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N04",
+      "node": "字符编码与字典序",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.1_串的定义和基本操作.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-ops",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N05",
+      "node": "连接求子串定位",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.1_串的定义和基本操作.pdf",
+      "locator": "文件页11；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-ops",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N06",
+      "node": "存储表示",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.2_串的存储结构.pdf",
+      "locator": "文件页10；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-storage",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N07",
+      "node": "定长顺序串",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.2_串的存储结构.pdf",
+      "locator": "文件页10；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-storage",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N08",
+      "node": "动态连续区",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.2_串的存储结构.pdf",
+      "locator": "文件页10；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-storage",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N09",
+      "node": "块链串",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.2_串的存储结构.pdf",
+      "locator": "文件页10；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-storage",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N10",
+      "node": "显式长度与终止符",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.2_串的存储结构.pdf",
+      "locator": "文件页10；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-storage",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N11",
+      "node": "朴素模式匹配",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.1_朴素模式匹配算法.pdf",
+      "locator": "文件页47；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N12",
+      "node": "候选起点",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.1_朴素模式匹配算法.pdf",
+      "locator": "文件页47；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N13",
+      "node": "失配后重新对齐",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.1_朴素模式匹配算法.pdf",
+      "locator": "文件页47；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N14",
+      "node": "边界与最坏比较量",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.1_朴素模式匹配算法.pdf",
+      "locator": "文件页47；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N15",
+      "node": "KMP失败表",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_2_求next数组.pdf",
+      "locator": "文件页64；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS04-N16",
+      "node": "已匹配前缀不变量",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_2_求next数组.pdf",
+      "locator": "文件页64；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS04-N17",
+      "node": "真前后缀与next",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_2_求next数组.pdf",
+      "locator": "文件页64；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS04-N18",
+      "node": "零起始哨兵约定",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_2_求next数组.pdf",
+      "locator": "文件页64；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS04-N19",
+      "node": "建表与回退",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_2_求next数组.pdf",
+      "locator": "文件页64；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS04-N20",
+      "node": "KMP扫描与优化",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_1_KMP算法.pdf",
+      "locator": "文件页95；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-code",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N21",
+      "node": "主串指针不回退",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_1_KMP算法.pdf",
+      "locator": "文件页95；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-code",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N22",
+      "node": "nextval跳过相同字符",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_1_KMP算法.pdf",
+      "locator": "文件页95；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-code",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N23",
+      "node": "位移与字符比较次数",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_1_KMP算法.pdf",
+      "locator": "文件页95；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-code",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N24",
+      "node": "空模式与重叠出现",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_1_KMP算法.pdf",
+      "locator": "文件页95；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-code",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-N25",
+      "node": "线性时间证明",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_1_KMP算法.pdf",
+      "locator": "文件页95；导图组级定位，非每页全量核验",
+      "target": "notes.md#DS04-code",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS04-EX-26",
+      "node": "例 4-1　第一次失配后哪个指针改变",
+      "source": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+      "locator": "文件页177；本轮文本核验题干",
+      "target": "notes.md#DS04-ex1",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "DS04-EX-27",
+      "node": "例 4-2　修正后最长能移动几位",
+      "source": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+      "locator": "文件页179；本轮文本核验题干",
+      "target": "notes.md#DS04-ex2",
+      "status": "covered",
+      "verification": "text"
+    }
+  ],
+  "review_notes": [
+    "目验4.1.1第11页、4.1.2第10页、朴素匹配第47页；KMP第95页实际视觉核验为流程总结。",
+    "保留旧章2个配套例题及完整next/nextval表、伪代码与解析；新增编码字典序、操作语义、三种存储、求子串和完整C++17 KMP。",
+    "所有模式下标统一从0开始、next[0]=-1；与课件从1开始/next[1]=0的原约定已区分。",
+    "配套做题本第169页文本核验历史题题干，答案“不会变小”按标准算法单调量推导；旧2015/2024标签未核原卷降配套例题。",
+    "新增核心代码从实际notes.md提取，在C++17严格告警与ASan/UBSan下通过独立对照；验证脚本仅位于work/audit_ds，不作为读者正文。"
+  ],
+  "wrong_question_handling": "本章历史JSON仅4.2第2题，做题本169页题干已文本核验。以主串指针单调不减、模式指针可回退的辨析处理，不据历史错选推断当前掌握。"
+}

@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "detail_pages": [
+    10,
+    12
+  ],
+  "issues": [],
+  "reviewer": "review_ds_pdf (actual image inspection)",
+  "page_count": 12,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "pdf_sha256": "11ba7d6397139e830fc3923d2c91b00420782bbdf3e46991bb7c4e889fd67842",
+  "method": "tools.view_image查看当前全部contact；detail_pages另查看逐页PNG。",
+  "reviewed_at": "2026-10-25"
+}

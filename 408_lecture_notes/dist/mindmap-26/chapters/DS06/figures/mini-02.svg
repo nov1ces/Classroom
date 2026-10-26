@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="395" viewBox="0 0 400 395">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6" fill="none" stroke="#466C82"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<rect x="55" y="30" width="290" height="44" rx="8" fill="#DDEFF5" stroke="#7C9AA9"/>
+<text x="200" y="58" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="19">A</text>
+<rect x="55" y="120" width="290" height="44" rx="8" fill="#DDEFF5" stroke="#7C9AA9"/>
+<text x="200" y="148" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="19">B</text>
+<rect x="55" y="210" width="290" height="44" rx="8" fill="#DDEFF5" stroke="#7C9AA9"/>
+<text x="200" y="238" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="19">C</text>
+<rect x="55" y="300" width="290" height="44" rx="8" fill="#DDEFF5" stroke="#7C9AA9"/>
+<text x="200" y="328" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="19">孤点D</text>
+<path d="M200,74 V120" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#a)"/>
+<path d="M200,164 V210" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#a)"/>
+<path d="M345,232 C390,232 390,52 345,52" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#a)"/>
+</svg>

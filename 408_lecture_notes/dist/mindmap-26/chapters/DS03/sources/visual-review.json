@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "detail_pages": [
+    4,
+    9,
+    11
+  ],
+  "issues": [],
+  "observations": [
+    "第11页页首先续选择题选项，未切字或溢出；末页有实质内容。"
+  ],
+  "reviewer": "review_ds_pdf (actual image inspection)",
+  "page_count": 11,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "pdf_sha256": "41091eea54b793fbca4a681762120910e193003d086ae6bc0ef9edcd015d4c94",
+  "method": "tools.view_image查看当前全部contact；detail_pages另查看逐页PNG。",
+  "reviewed_at": "2026-10-25"
+}

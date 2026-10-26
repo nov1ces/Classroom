@@ -1,0 +1,51 @@
+{
+  "reviewer": "/root/review_co_pdf",
+  "status": "passed",
+  "reviewed_at_utc": "2026-10-25T17:33:59.781330+00:00",
+  "page_count": 20,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "contact_sheets": [
+    "contact-01.png",
+    "contact-02.png",
+    "contact-03.png"
+  ],
+  "detail_pages": [
+    6,
+    8,
+    15,
+    16,
+    17,
+    19,
+    20
+  ],
+  "issues": [],
+  "pdf_sha256": "a30cc63e3da984b8eb3a2c9e9bd1584e9422c4c5b70beec93185b8c7754a71b3",
+  "method": "Actual visual review using view_image on every current contact sheet and full page images listed in detail_pages, following the rebuild at 17:31 UTC.",
+  "findings": [
+    "固定正文左、旁注右；所有页可见1～3条旁注。",
+    "宽表跨至旁注栏时已避让旁注；无覆盖正文或页外裁字。",
+    "图示保持原有比例，标签可读。",
+    "第20页为有标题及边框的完整参考答案块，旧版只有4条尾部答案的问题已解决。"
+  ]
+}

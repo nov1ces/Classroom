@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "detail_pages": [
+    2,
+    6,
+    9
+  ],
+  "issues": [],
+  "observations": [
+    "第6页页首先续上一页选项行，属于可改进的分页，未发生切字或越界。"
+  ],
+  "reviewer": "review_ds_pdf (actual image inspection)",
+  "page_count": 9,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "pdf_sha256": "f5e8a80aded82ef3d37ac62d7712552e41f8a0aae0ae76bdaf56f5c953084abe",
+  "method": "tools.view_image查看当前全部contact；detail_pages另查看逐页PNG。",
+  "reviewed_at": "2026-10-25"
+}

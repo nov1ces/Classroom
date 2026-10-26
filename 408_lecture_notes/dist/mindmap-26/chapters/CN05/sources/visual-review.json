@@ -1,0 +1,58 @@
+{
+  "chapter": "CN05",
+  "reviewer": "/root/review_cn_pdf (actual image inspection by assistant; not a human signature)",
+  "review_method": "view_image opened every current contact sheet; complex figures, formulas, tables and final pages opened at 150 dpi",
+  "reviewed_at_utc": "2026-10-25T17:35:33.530672+00:00",
+  "status": "passed",
+  "page_count": 16,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "contact_sheets": [
+    "previews/CN05/contact-01.png",
+    "previews/CN05/contact-02.png"
+  ],
+  "detail_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "detail_dpi": 150,
+  "issues": [],
+  "pdf_sha256": "746160e6c4a73ad373048bdc2ff12519f5a3d58b1c9dd7ee0321205ba5241a45",
+  "observations": [
+    "正文固定左、旁注右，全部页面均见一条旁注，无碰撞或切字。",
+    "宽表进入旁注区域时，旁注已避到表后；图像比例正常，标签可读。",
+    "末页以完整核对答案结束，没有孤立单行末页或追加空白模板页。",
+    "第12页跨章IPv4首部指引已为明确文字，本章TCP首部图引用正常，无??。",
+    "第9页Reno段明确新ACK之后的稳定点cwnd=ssthresh，与快恢复临时+3区分。"
+  ]
+}

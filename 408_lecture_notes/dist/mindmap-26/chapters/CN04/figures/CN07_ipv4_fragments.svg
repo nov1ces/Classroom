@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="350" viewBox="0 0 980 350">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17212a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#17212a" stroke-linejoin="round">
+<text x="490" y="30" text-anchor="middle" font-size="23" font-weight="bold" fill="#17212a">原始数据1560 B；IP首部20 B，MTU800 B</text>
+<rect x="90" y="75" width="380" height="58" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="280.0" y="111.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">0～775：776 B</text>
+<rect x="470" y="75" width="380" height="58" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="660.0" y="111.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">776～1551：776 B</text>
+<rect x="850" y="75" width="40" height="58" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="869" y="165" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">末8 B</text>
+<text x="490" y="210" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">第1片：总长796 B，偏移0，MF=1</text>
+<text x="490" y="258" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">第2片：总长796 B，偏移97，MF=1</text>
+<text x="490" y="306" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">第3片：总长28 B，偏移194，MF=0</text>
+</g></svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="248" viewBox="0 0 680 248">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="99.0" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="129.0" text-anchor="middle" font-weight="bold">线性表</text>
+<path d="M148,124.0 H166 V119.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="100.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="124.0" text-anchor="middle" font-weight="bold">综合方法与选择</text>
+<path d="M348,119.0 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">原地逆置</text>
+<path d="M348,119.0 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">倒数k固定间隔</text>
+<path d="M348,119.0 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">有序归并</text>
+<path d="M348,119.0 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">三次逆置左移</text>
+<path d="M348,119.0 H365 V142.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="147.0">公共后缀按地址</text>
+<path d="M348,119.0 H365 V165.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="170.0">主元素抵消和验证</text>
+<path d="M348,119.0 H365 V188.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="193.0">连续删除与有序去重</text>
+</g></svg>

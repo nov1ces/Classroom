@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="513" viewBox="0 0 680 513">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="231.5" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="261.5" text-anchor="middle" font-weight="bold">进程与线程</text>
+<path d="M148,256.5 H166 V73.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="54.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="78.0" text-anchor="middle" font-weight="bold">进程实体、状态与控制</text>
+<path d="M348,73.0 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">程序、进程、PCB</text>
+<path d="M348,73.0 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">就绪、运行、阻塞与挂起</text>
+<path d="M348,73.0 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">创建、撤销与队列维护</text>
+<path d="M148,256.5 H166 V169.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="150.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="174.0" text-anchor="middle" font-weight="bold">线程与执行现场</text>
+<path d="M348,169.0 H365 V146.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="151.0">ULT、KLT与映射模型</text>
+<path d="M348,169.0 H365 V169.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="174.0">线程共享资源与独立现场</text>
+<path d="M348,169.0 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">上下文切换与模式切换</text>
+<path d="M148,256.5 H166 V276.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="257.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="281.5" text-anchor="middle" font-weight="bold">进程通信</text>
+<path d="M348,276.5 H365 V242.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="247.0">共享内存</text>
+<path d="M348,276.5 H365 V265.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="270.0">消息传递与信箱</text>
+<path d="M348,276.5 H365 V288.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="293.0">管道与有限容量</text>
+<path d="M348,276.5 H365 V311.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="316.0">信号不等于信号量</text>
+<path d="M148,256.5 H166 V407.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="388.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="412.0" text-anchor="middle" font-weight="bold">CPU调度与性能指标</text>
+<path d="M348,407.0 H365 V361.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="366.0">调度层次、时机、分派</text>
+<path d="M348,407.0 H365 V384.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="389.0">周转、等待、响应与吞吐量</text>
+<path d="M348,407.0 H365 V407.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="412.0">FCFS、SJF、SRTF与HRRN</text>
+<path d="M348,407.0 H365 V430.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="435.0">优先级、RR与多级反馈</text>
+<path d="M348,407.0 H365 V453.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="458.0">多处理机调度与亲和性</text>
+</g></svg>

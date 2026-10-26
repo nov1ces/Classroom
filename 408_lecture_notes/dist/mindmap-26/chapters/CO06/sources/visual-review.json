@@ -1,0 +1,35 @@
+{
+  "reviewer": "/root/review_co_pdf",
+  "status": "passed",
+  "reviewed_at_utc": "2026-10-25T17:37:40.384066+00:00",
+  "page_count": 8,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "contact_sheets": [
+    "contact-01.png"
+  ],
+  "detail_pages": [
+    3,
+    4,
+    6,
+    7,
+    8
+  ],
+  "issues": [],
+  "pdf_sha256": "f05dffd1c20ffc3767f47e58e5398591cc6276ae41c27096e485014597f40e92",
+  "method": "Actual visual review using view_image of the current eight-page contact sheet plus full pages 7 and 8 after the 17:35 UTC rebuild; pages 3, 4, 6 were reviewed in full in the preceding revision and remain visually consistent in the new contact sheet.",
+  "findings": [
+    "固定正文左、旁注右；所有页可见1～3条旁注。",
+    "宽表跨至旁注栏时已避让旁注；无覆盖正文或页外裁字。",
+    "图示保持原有比例，标签可读。",
+    "短提示框保持同页；第8页为完整8题加核对答案的自测卡，原孤立答案尾页问题已解决。"
+  ]
+}

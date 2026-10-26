@@ -1,0 +1,28 @@
+{
+  "canonical_markdown": "content.md",
+  "readable_markdown": "notes.md",
+  "latex": "chapter.tex",
+  "printed_map_panels": 2,
+  "printed_unique_sidebars": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    6,
+    7,
+    9,
+    10,
+    14,
+    12,
+    15,
+    16,
+    13,
+    17,
+    11
+  ],
+  "canonical_sha256": "d232b77ecf247d31244ca87e9d1514b3bdabadf249b0852cd3428ffc845b7048",
+  "markdown_sha256": "19840b5d6d392da86f37276ed322573a2345d6a371f413666fddca2fccb4cd63",
+  "latex_sha256": "c0724408f04a805ddf7da5aeb8f0e83a3046024fa59eca0242320d8fcdf789e6",
+  "note": "notes.md inserts the already printed map panels and unique printed sidebars, with valid relative image links; body/knowledge IDs derive from content.md."
+}

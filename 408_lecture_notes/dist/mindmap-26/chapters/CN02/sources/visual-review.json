@@ -1,0 +1,36 @@
+{
+  "chapter": "CN02",
+  "reviewer": "/root/review_cn_pdf (actual image inspection by assistant; not a human signature)",
+  "review_method": "view_image opened every contact sheet; selected complex figures, formulas, tables and final pages opened at 150 dpi",
+  "reviewed_at_utc": "2026-10-25T17:31:50.779047+00:00",
+  "status": "passed",
+  "page_count": 7,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "contact_sheets": [
+    "previews/CN02/contact-01.png"
+  ],
+  "detail_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7
+  ],
+  "detail_dpi": 150,
+  "issues": [],
+  "pdf_sha256": "e1178b6674565de049dcc74e3fc700b75ab09d57d1652cae32a06a0c2ef3db7f",
+  "observations": [
+    "正文固定左侧、旁注右侧；每页1条旁注可见，无正文/旁注碰撞。",
+    "宽表使用右侧空间时，旁注已移到表后，无交叠。",
+    "图示比例正常，正文/图中文字可辨；未见切字、空白模板末页或孤立末行末页。"
+  ]
+}

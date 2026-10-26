@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="636" viewBox="0 0 680 636">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="293.0" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="323.0" text-anchor="middle" font-weight="bold">物理层</text>
+<path d="M148,318.0 H166 V61.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="42.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="66.5" text-anchor="middle" font-weight="bold">通信与信号</text>
+<path d="M348,61.5 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">数据与数字模拟信号</text>
+<path d="M348,61.5 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">信道与单工双工</text>
+<path d="M148,318.0 H166 V146.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="127.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="151.0" text-anchor="middle" font-weight="bold">码元与速率</text>
+<path d="M348,146.0 H365 V123.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="128.0">码元宽度与波特率</text>
+<path d="M348,146.0 H365 V146.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="151.0">状态数与比特率</text>
+<path d="M348,146.0 H365 V169.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="174.0">Hz带宽与bit/s带宽</text>
+<path d="M148,318.0 H166 V242.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="223.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="247.0" text-anchor="middle" font-weight="bold">信道容量</text>
+<path d="M348,242.0 H365 V219.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="224.0">奈氏无噪声限制</text>
+<path d="M348,242.0 H365 V242.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="247.0">香农含噪声限制</text>
+<path d="M348,242.0 H365 V265.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="270.0">分贝与功率比</text>
+<path d="M148,318.0 H166 V361.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="342.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="366.0" text-anchor="middle" font-weight="bold">编码与调制</text>
+<path d="M348,361.0 H365 V315.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="320.0">NRZ与NRZI</text>
+<path d="M348,361.0 H365 V338.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="343.0">曼彻斯特与差分编码</text>
+<path d="M348,361.0 H365 V361.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="366.0">ASK与FSK及PSK</text>
+<path d="M348,361.0 H365 V384.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="389.0">QAM组合状态</text>
+<path d="M348,361.0 H365 V407.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="412.0">PCM采样量化编码</text>
+<path d="M148,318.0 H166 V480.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="461.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="485.0" text-anchor="middle" font-weight="bold">传输介质</text>
+<path d="M348,480.0 H365 V457.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="462.0">双绞线与同轴电缆</text>
+<path d="M348,480.0 H365 V480.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="485.0">单模与多模光纤</text>
+<path d="M348,480.0 H365 V503.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="508.0">无线与卫星时延</text>
+<path d="M148,318.0 H166 V564.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="545.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="569.5" text-anchor="middle" font-weight="bold">接口特性</text>
+<path d="M348,564.5 H365 V553.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="558.0">机械与电气</text>
+<path d="M348,564.5 H365 V576.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="581.0">功能与规程</text>
+</g></svg>

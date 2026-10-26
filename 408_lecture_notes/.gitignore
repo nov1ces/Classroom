@@ -12,3 +12,6 @@ venv/
 /dist/*
 !/dist/final/
 !/dist/basic-foundations/
+
+# Verified 26-chapter notes and editable assets.
+!/dist/mindmap-26/

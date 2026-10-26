@@ -1,0 +1,607 @@
+{
+  "observed_at": "2026-10-26T09:19:48+08:00",
+  "files": [
+    {
+      "path": "00_408综合资料/2009-2026真题做题本.pdf",
+      "git_blob_sha1": "c1da87fe9d13a416b241a7c990d10ecee8795b8f",
+      "bytes": 21255152,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/1 绪论【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "baaa4d69a3885efaa0fcf4ffd7cb373b327612b8",
+      "bytes": 1015895,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/2 线性表【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "50031fa643337b25940a97d2e2ba4cd524d5f447",
+      "bytes": 5814639,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/3-1 栈 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "65f63441cb83d1f9f9fc903286749b2e52655ea4",
+      "bytes": 1062129,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/3-2 队列 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "fe69e5acc712f352ac121bbe5493dc9ecaf2c25c",
+      "bytes": 2606255,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/3-3 栈和队列的应用 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "4ba7237e14dcf060d59c27688815f0beca689c2e",
+      "bytes": 924937,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/4-1 数组和特殊矩阵 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "8750a14e576d535044bdfebce2f2c09047f3e55a",
+      "bytes": 1969519,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/4-2 串 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "38777033c413997698bbc624909bf28888e6a48c",
+      "bytes": 1159213,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/5-1 树的基本概念 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "fbc6a15e5ee935b2eb680c875419241b0983b434",
+      "bytes": 390211,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/5-2 二叉树的概念 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "f2d07f946966f319a8393418e21d023e5e18fa24",
+      "bytes": 2124458,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/5-3 二叉树的遍历和线索二叉树 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "97ec2c45874b6d7b5e04b8767eda33e0787511c1",
+      "bytes": 1372133,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/5-4 树和森林 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "dbbc8edef76868400e87f11c994e485b4d14f151",
+      "bytes": 632785,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/5-5 树与二叉树的应用 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "3a38c0c4cceac6e54c269e7a436f7a90e241dc64",
+      "bytes": 1832794,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/6-1 图的基本概念 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "4f82f074093ba335946ca65250bc91f781f19a4e",
+      "bytes": 692353,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/6-2 图的存储结构 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "13273e0ec97442a4623716819b8c69490d4f6977",
+      "bytes": 1908484,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/6-3 图的遍历 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "65d3be4a0bbbff3724b423ae0bb6a9d0f19a41d4",
+      "bytes": 2405320,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/6-4 图的应用(2) 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "3c435a9f26293999ad8f5023245eb72c7e9e5c38",
+      "bytes": 1083973,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/6-4(1) 图的应用 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "6cd764ade3027be30138eb97988ddfa237c3f93d",
+      "bytes": 270871,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/7-1 线性表的查找 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "42c488f72524a035b42645b52a289833e2d10820",
+      "bytes": 1214359,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/7-2(1) 树形查找(AVL+BST) 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "9240d7c43153ff61e0d2e9f91b00a56a18e4ee1f",
+      "bytes": 1102633,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/7-2(2)红黑树 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "0d48172ad00a0d5fafdb1a5b071b9b5a278ab3e2",
+      "bytes": 867133,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/7-3 B树和B+树 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "14a3ed0124ff9d965e982703a7f3af83d4afe1f7",
+      "bytes": 775289,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/7-4 散列表 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "32587177b0f8364d4d877a700850cc99fb4823d7",
+      "bytes": 608561,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/8-1 插入排序 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "6f8e11800e32b6acb56884a71f7a479b5672e9dc",
+      "bytes": 1051406,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/8-2 交换排序 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "da4b61f12040cbf51799d4a49774334d05a854e5",
+      "bytes": 1330768,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/8-3 选择排序 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "badfd8e011d02aa375205731851af68a85f90c91",
+      "bytes": 1274979,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/8-4 归并排序&基数排序 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "dbd3092c64593c38578e1adc3682bf78a6a904aa",
+      "bytes": 2157829,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/8-5 排序总结 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "b38db3411ce7915b4d46d8be0bd0bab3491ea839",
+      "bytes": 866355,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/8-6 外部排序 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "8bd82a641df10ded5b3ceecfa0503131c52f0676",
+      "bytes": 1257555,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/1 计算机系统概述 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "982203ecd695d3991026e6235cb35aef71029689",
+      "bytes": 1385779,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/2-1 数制与编码 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "839c21f9939f5a787b1ddb3bc6274412b4541d7a",
+      "bytes": 1876999,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/2-2 运算方法和运算部件 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "ff0d4eb02b04068268078b373dab646971facb26",
+      "bytes": 1590898,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/2-3 浮点数与IEEE754 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "52d64595b2474b6a28c859cbb50be67b26bfee62",
+      "bytes": 1294289,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/3-1存储器概述 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "ee34daae4ff268228812e7fb8e8f6ea10ccac0ce",
+      "bytes": 713820,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/3-2 主存储器 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "c76978e12e08f44e45c0cb4f8163b9829b9678b0",
+      "bytes": 1801049,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/3-3 存储器芯片的扩展及其与 CPU 的连接 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "8ca090cdbf7d635bb7b157f4affe23bc0276ada2",
+      "bytes": 1144642,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/3-4 外部存储器 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "b5a8591746f9e4b6d4a86a6bd98e9e8a9e41c5af",
+      "bytes": 997562,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/3-5 Cache（复用） 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "e2fc59d1f57a03757ff8d1abe8bda5bde7e36426",
+      "bytes": 1760228,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/3-6 虚拟存储器（复用） 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "fedba2e4eed31cbf91d5e96cd742cd70d9e313c1",
+      "bytes": 2122938,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/4-1 指令系统 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "89d31512ec6d23170d7276b1dc38d23fa15b448d",
+      "bytes": 1213663,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/4-2 指令的寻址方式 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "2043f6d06f3777a43a489c11c3c568e11699b590",
+      "bytes": 1557104,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/4-3 程序的机器级代码表示 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "28a64e606166c538cac4a8ec2950fdca59980880",
+      "bytes": 1790064,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/4-4 CISC 和 RISC 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "69a3677b9562b6ed29926d24c7593f077643d28e",
+      "bytes": 841290,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/5-1 CPU 概述 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "b96547d459920a785ca22c112e9906b9ef42c2bb",
+      "bytes": 1106065,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/5-2 数据通路和时序系统 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "df3363bf6c05ba969bb3695c6af4631a273bd3ff",
+      "bytes": 2202662,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/5-3 控制器 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "72b822a8d00d678f05a0550ad7048cb5aef2a79d",
+      "bytes": 1720510,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/5-4 异常和中断机制 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "74e08adc423afee611db0d802b89991fe21c1da6",
+      "bytes": 1595110,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/5-5 指令流水线 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "4d7810e9e0f58b04672714c21daa123f36fdb1a4",
+      "bytes": 1896867,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/5-6 多处理器的基本概念 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "94fca70b31f82cba1717b2895d3aa72da37bf2a3",
+      "bytes": 1371196,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/6 总线 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "86d7eb81a2e9d24e1a0bbe509515084590aa3aa9",
+      "bytes": 2533657,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/7-1 IO接口 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "53bdbab7781c6011f4903c13843fe04644d1ae13",
+      "bytes": 1894173,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/7-2 输入输出系统 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "7f13913ebb3c64e6a0c4ea4df462b110b08dee54",
+      "bytes": 2536766,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/1-1 操作系统的基本概念 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "325e6efc245edca1a6865adb00c9a5c99e82d3c7",
+      "bytes": 2028649,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/1-2 操作系统的发展历程 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "b776d9a91fbe3d3acd371d41e7f59d111dc71870",
+      "bytes": 2072339,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/1-3 OS 的运行环境 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "e7bcd5b59471014f47f5dc4b1c32f16b33e7d2a8",
+      "bytes": 1691844,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/1-4 操作系统结构 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "832f54f0368f059691a89591d78881d97b3125cc",
+      "bytes": 1719155,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/1-5 虚拟机 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "78f4a7fb5bdd6c02d8c9bc1907c79cb1502605df",
+      "bytes": 1183298,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/2-1 进程 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "67fb636870c57041fc60525524ccc7c6fefa2958",
+      "bytes": 2499967,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/2-2 线程 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "174273aabe5f44ec72da1c2890abab4be3ee83af",
+      "bytes": 1831049,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/2-3 CPU 调度 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "e418f5dc6992dcc9d2bf1eb66a383fcd6910ec26",
+      "bytes": 1818095,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/2-4 同步与互斥 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "2bb5ee2a2e15441f7d14b0eb7fd88ec1b31a49ed",
+      "bytes": 1879443,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/1 计算机网络概述 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "4b821012a1950b2f9e0217be15f589fdb05d0b38",
+      "bytes": 3767581,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/2-1 通信基础 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "fce3fa505d1b55fc6512285fcc56b5a42ef760b7",
+      "bytes": 1835462,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/2-2 物理层设备与传输介质 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "c1bb4a881e5cb020298e0d7c37e97a1743a5c509",
+      "bytes": 1446212,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/3-1 数据链路层概述 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "423382cb679afef4f24477aabb78ce5ba2b9590a",
+      "bytes": 1997020,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/3-2 可靠传输的工作原理 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "4ffbd27823481286884f1a738d700040be5efb71",
+      "bytes": 1655887,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/3-4 介质访问控制 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "d049357eff3e3c6b7c89cf531bf1f3f0e61b173d",
+      "bytes": 2078614,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/3-5 局域网&广域网 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "cb8597cf049eeceafe9c91735aafb8cd7f07cdde",
+      "bytes": 2701437,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/3-6 数据链路层设备 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "f69e645280679e824a533a83125388ea495db131",
+      "bytes": 1531531,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/3-7 PPP协议 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "2890f55070f282484d501101968fd7074c202277",
+      "bytes": 900700,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-1 网络层的功能 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "0d05368b47500c85f8420f140ea177add96ae890",
+      "bytes": 1171499,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-2 网际协议IP与DHCP 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "5f30dbe7eaee5262571cae68085c20546d957c85",
+      "bytes": 2144335,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-3 IP转发分组的过程 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "dd0963e52dc1398d42c159e3122628ced8cda66a",
+      "bytes": 764767,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-4 网际控制报文协议ICMP 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "fa64c893eafe37287aa41589a43e5e01330eedb0",
+      "bytes": 615461,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-5 IPv6 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "ba185c63b8e10d1b376176ccc4d984f08f6ec016",
+      "bytes": 802869,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-6 路由选择协议 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "181ab6f7bf15bad0d151dfaaf7e6225a1589ac27",
+      "bytes": 1246621,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-7 IP多播 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "450472f3d02aeda99b8a3fd4e4a01ef10eab0ecb",
+      "bytes": 765661,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-8 网络地址转换NAT 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "aacf5794313601445825d71f84413d447ecb7457",
+      "bytes": 685216,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-9 移动IP 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "1d3f104c9852249b807fe772600d6459c96ca64c",
+      "bytes": 805985,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/5-1 传输层概述 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "82f4fa4164eaf06300e23e993ab873be9f2a852b",
+      "bytes": 690965,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/5-2 UDP用户数据报 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "b3ae1b017298b2acb7aedf8711c1ccbf353458b6",
+      "bytes": 1058530,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/5-3 传输控制协议TCP 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "2f80165f74d5900f1771052d47dbb391cf7079c4",
+      "bytes": 2157229,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/6-1 网络应用模型与域名系统DNS 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "00e4bb8172a19c84a8e3cac09717b4cf5893195d",
+      "bytes": 1693218,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/6-2 文件传输协议FTP 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "9da4c944c9b8ba245ccf8129ad75549fc069a3bf",
+      "bytes": 1278440,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/6-3 电子邮件 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "1c6846eba617c4380ae72451c65fd482a6f0518f",
+      "bytes": 1727919,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/6-4 万维网 导图【公众号：研料库，料最全】.pdf",
+      "git_blob_sha1": "adef97cdbbedc9c32428f13bba89f2ddb700b75d",
+      "bytes": 1821556,
+      "observed_commit": "c54762c0dfc48068ac356d31bcbe03205ab1e416",
+      "review_status": "newly_discovered_on_remote; content_not_reviewed_or_incorporated_into_this_edition"
+    }
+  ]
+}

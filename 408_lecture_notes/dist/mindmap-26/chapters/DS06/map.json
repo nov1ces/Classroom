@@ -1,0 +1,130 @@
+{
+  "id": "DS06",
+  "title": "图",
+  "branches": [
+    {
+      "label": "图的基本概念",
+      "children": [
+        "有向无向与带权",
+        "度入度出度",
+        "路径回路与距离",
+        "连通和强连通分量",
+        "生成树森林与完全图"
+      ],
+      "target": "DS06-01"
+    },
+    {
+      "label": "存储及基本操作",
+      "children": [
+        "邻接矩阵",
+        "邻接表及逆邻接表",
+        "十字链表",
+        "邻接多重表",
+        "增删顶点与关联边"
+      ],
+      "target": "DS06-02"
+    },
+    {
+      "label": "遍历与生成森林",
+      "children": [
+        "DFS的回退条件",
+        "BFS的发现与队列",
+        "访问标记设置时机",
+        "遍历时间与辅助空间"
+      ],
+      "target": "DS06-04"
+    },
+    {
+      "label": "最小生成树",
+      "children": [
+        "总边权目标与适用图",
+        "Prim的跨割状态",
+        "Kruskal的分量合并",
+        "同权边与唯一性"
+      ],
+      "target": "DS06-06"
+    },
+    {
+      "label": "最短路径",
+      "children": [
+        "BFS同权最短路",
+        "Dijkstra非负权与松弛",
+        "Floyd中转阶段",
+        "负边负环及不可达"
+      ],
+      "target": "DS06-07"
+    },
+    {
+      "label": "DAG与活动网络",
+      "children": [
+        "共享子表达式",
+        "拓扑排序及唯一性",
+        "AOV和AOE语义",
+        "事件最早最迟时间",
+        "活动余量与多条关键路径"
+      ],
+      "target": "DS06-08"
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.1.1 图的基本概念.pdf",
+      "pages": [
+        26
+      ],
+      "role": "slide_map",
+      "visual_checked": true,
+      "topic": "图的基本概念"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.2.3+6.2.4 十字链表、邻接多重表.pdf",
+      "pages": [
+        11
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "存储及基本操作"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.3.2 图的深度优先遍历.pdf",
+      "pages": [
+        63
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "遍历与生成森林"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.1 最小生成树.pdf",
+      "pages": [
+        87
+      ],
+      "role": "slide_map",
+      "visual_checked": true,
+      "topic": "最小生成树"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.2_3 最短路径问题_Floyd算法.pdf",
+      "pages": [
+        30
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "最短路径"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.5 关键路径.pdf",
+      "pages": [
+        40,
+        41
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "DAG与活动网络"
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "最小生成树87页本身为算法对照总结，非分支导图；章级分支据图基本概念26页树状导图的层级整合。Dijkstra课件未检索到总结标题，按其算法正文及Floyd末页比较表补绘Dijkstra阶段分支。"
+  ]
+}

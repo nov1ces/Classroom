@@ -1,0 +1,170 @@
+[
+  {
+    "page": 3,
+    "text": "王道考研/CSKAOYAN.COM\n选择重传协议的窗口大小限制条件\n发送方\n发送窗口\n大小 WT=4\n接收窗口\n大小 WR=3\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n用3bit 给帧编号\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n接收方\n选择重传协议的窗口大小需满足如下两个条件：\n①若用n bit 给帧编号，WT + WR ≤2n\n②WR ≤WT \n满足条件①、条件②\n"
+  },
+  {
+    "page": 4,
+    "text": "王道考研/CSKAOYAN.COM\n发送方\n发送窗口\n大小 WT=4\n接收窗口\n大小 WR=4\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n用3bit 给帧编号\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n接收方\n选择重传协议的窗口大小限制条件\n满足条件①、条件②\n选择重传协议的窗口大小需满足如下两个条件：\n①若用n bit 给帧编号，WT + WR ≤2n\n②WR ≤WT \n"
+  },
+  {
+    "page": 5,
+    "text": "王道考研/CSKAOYAN.COM\n发送方\n发送窗口\n大小 WT=3\n接收窗口\n大小 WR=4\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n用3bit 给帧编号\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n接收方\n不满足条件②\n选择重传协议的窗口大小限制条件\n选择重传协议的窗口大小需满足如下两个条件：\n①若用n bit 给帧编号，WT + WR ≤2n\n②WR ≤WT \n"
+  },
+  {
+    "page": 6,
+    "text": "王道考研/CSKAOYAN.COM\n选择重传协议（SR）\n发送方\n发送窗口\n大小 WT=4\n接收窗口\n大小 WR=4\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n用3bit 给帧编号\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n接收方\n在实际应用中，\n通常取 WT==WR\n选择重传协议的窗口大小需满足如下两个条件：\n①若用n bit 给帧编号，WT + WR ≤2n\n②WR ≤WT \n"
+  },
+  {
+    "page": 7,
+    "text": "王道考研/CSKAOYAN.COM\n“正常”情况示例\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nData0\n发送方\n接收方\n帧序号（3bit）à\nData1\nData2\n⏰⏰⏰\n✅\n⏰\nData3\n✅\n✅\n✅\n"
+  },
+  {
+    "page": 8,
+    "text": "王道考研/CSKAOYAN.COM\n“正常”情况示例\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n⏰⏰⏰⏰\nACK0\nACK1\nACK2\nACK3\n✅\n✅\n✅\n✅\n选择重传协议规定：接收方可以连续接收多个帧，但每\n个帧都需要返回ACK\n后退N帧协议规定：接收方可以“累积确认”。即连续\n收到多个数据帧时，可以仅返回最后一个帧的ACK\n对比\n"
+  },
+  {
+    "page": 9,
+    "text": "王道考研/CSKAOYAN.COM\n“正常”情况示例\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\nACK0 ACK1ACK2ACK3\n✅\n✅\n✅\n✅\n"
+  },
+  {
+    "page": 10,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\nData4\nData5\nData6\nData7\n❌\n5号数据帧因通信故障而丢失\n⏰⏰⏰⏰\n每个帧被发出时，\n设置“计时器”\n"
+  },
+  {
+    "page": 11,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\nData4\nData6\nData7\n✅\n✅\n✅\n⏰⏰⏰⏰\n"
+  },
+  {
+    "page": 12,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\nACK4\nACK6\nACK7\n⏰⏰⏰⏰\n"
+  },
+  {
+    "page": 13,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\nACK4\nACK6ACK7\n✅\n✅\n✅\n⏰\n"
+  },
+  {
+    "page": 14,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n⏰\nData0\n⏰\n"
+  },
+  {
+    "page": 15,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n⏰\n重传\nData5\nData0\n⏰\n若i号帧超时，仅需选择重\n传 i 号帧，并重置计时器\n"
+  },
+  {
+    "page": 16,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n⏰\n重传\nData5\nData0\n⏰\n若i号帧超时，仅需选择重\n传 i 号帧，并重置计时器\n✅\n✅\n"
+  },
+  {
+    "page": 17,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n⏰\n⏰\n若i号帧超时，仅需选择重\n传 i 号帧，并重置计时器\n✅\n✅\nACK5\nACK0\n"
+  },
+  {
+    "page": 18,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n⏰\n⏰\n计时器未超\n时，收到ACK\n✅\n✅\nACK5\nACK0\n"
+  },
+  {
+    "page": 19,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧丢失\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n选择重传协议如何解决数据帧丢失问题：\n超时重传机制：每个帧被发出时设置计时器，如果超时未收\n到对应的ACK，就重传这个帧\n"
+  },
+  {
+    "page": 20,
+    "text": "王道考研/CSKAOYAN.COM\n异常情况示例：数据帧因差错而被丢弃\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\nData4\nData5\nData6\nData7\n⏰⏰⏰⏰\n每个帧被发出时，\n设置“计时器”\n"
+  },
+  {
+    "page": 21,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\nData4\nData6\nData7\n✅\n✅\n✅\n⏰⏰⏰⏰\n异常情况示例：数据帧因差错而被丢弃\nData5\n❌\n5号数据帧因检测出差\n错，被接收方丢弃\n"
+  },
+  {
+    "page": 22,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\nACK4\nACK6\nACK7\n⏰⏰⏰⏰\n异常情况示例：数据帧因差错而被丢弃\nNAK5\n❌\n5号数据帧因检测出差\n错，被接收方丢弃\n返回5号 “否认帧”，主动\n请求发送方重传5号帧\n注：NAK=Nega%ve-Acknowledge\n"
+  },
+  {
+    "page": 23,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\nACK4\nACK6ACK7\n✅\n✅\n✅\n⏰\n异常情况示例：数据帧因差错而被丢弃\nNAK5\n❌\n5号数据帧因检测出差\n错，被接收方丢弃\n在计时器超时前即可收到5号\n“否认帧”，可立即触发重传\n"
+  },
+  {
+    "page": 24,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n⏰\n重传\nData5\nData0\n⏰\n异常情况示例：数据帧因差错而被丢弃\n收到 NAK_i，就立即重传 \ni 号帧，并重置计时器\n"
+  },
+  {
+    "page": 25,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n⏰\n重传\nData5\nData0\n⏰\n✅\n✅\n异常情况示例：数据帧因差错而被丢弃\n5号数据帧未检测出差\n错，可以接收\n"
+  },
+  {
+    "page": 26,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n⏰\n⏰\n✅\n✅\nACK5\nACK0\n异常情况示例：数据帧因差错而被丢弃\n"
+  },
+  {
+    "page": 27,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n⏰\n⏰\n✅\n✅\nACK5\nACK0\n异常情况示例：数据帧因差错而被丢弃\n"
+  },
+  {
+    "page": 28,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅⏰\n✅\n✅\nACK0\n✅\n异常情况示例：数据帧因差错而被丢弃\n"
+  },
+  {
+    "page": 29,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅⏰\n✅\n✅\nACK0\n✅\n异常情况示例：数据帧因差错而被丢弃\n"
+  },
+  {
+    "page": 30,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n✅\n选择重传协议如何解决数据帧因差错而被丢弃问题：\n请求重传机制：如果接收方收到一个有差错的帧，就将此帧丢\n弃，并返回对应的否认帧NAK_i，主动请求发送方重传 i 号帧\n异常情况示例：数据帧因差错而被丢弃\n"
+  },
+  {
+    "page": 31,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nData0\n发送方\n接收方\n帧序号（3bit）à\nData1\nData2\n⏰⏰⏰\n✅\n⏰\nData3\n✅\n✅\n✅\n异常情况示例：确认帧丢失\n"
+  },
+  {
+    "page": 32,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n⏰⏰⏰⏰\nACK0\nACK1\nACK2\nACK3\n✅\n✅\n✅\n✅\n异常情况示例：确认帧丢失\n❌\n1号ACK帧因通信故障而丢失\n❌\n3号ACK帧因通信故障而丢失\n"
+  },
+  {
+    "page": 33,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n⏰\n⏰\nACK0\nACK2\n✅\n✅\n✅\n✅\n异常情况示例：确认帧丢失\n✅\n✅\n"
+  },
+  {
+    "page": 34,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n⏰\n⏰\n✅\n✅\n✅\n✅\n异常情况示例：确认帧丢失\n✅\n✅\nData4\nData1\nData3\n⏰\n"
+  },
+  {
+    "page": 35,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n⏰\n⏰\n✅\n✅\n✅\n✅\n异常情况示例：确认帧丢失\n✅\n✅\nData1\nData3\n⏰\n✅\n收到1号、3号\n两个重复帧\nACK4\n"
+  },
+  {
+    "page": 36,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n⏰\n⏰\n✅\n✅\n✅\n✅\n异常情况示例：确认帧丢失\n✅\n✅\n⏰\n✅\n若收到重复帧，\n返回该帧的ACK\nACK4\nACK1\nACK3\n若收到重复帧，\n返回该帧的ACK\n"
+  },
+  {
+    "page": 37,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n异常情况示例：确认帧丢失\n✅\n✅\n✅\nACK4\nACK1\nACK3\n✅\n✅\n✅\n"
+  },
+  {
+    "page": 38,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n✅\n✅\n✅\n✅\n异常情况示例：确认帧丢失\n✅\n✅\n✅\n✅\n✅\n✅\n"
+  },
+  {
+    "page": 39,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n探讨：如果不满足WT + WR ≤ 2n 会有什么问题？\n发送窗口\n大小 WT=5\n接收窗口\n大小 WR=4\n"
+  },
+  {
+    "page": 40,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nData0\n发送方\n接收方\n帧序号（3bit）à\nData1\nData2\n⏰⏰⏰⏰\nData3\n探讨：如果不满足WT + WR ≤ 2n 会有什么问题？\nData4\n⏰\n"
+  },
+  {
+    "page": 41,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\nData1\nData2\n⏰⏰⏰\n✅\n⏰\nData3\n探讨：如果不满足WT + WR ≤ 2n 会有什么问题？\nData4\n⏰\nACK0\n"
+  },
+  {
+    "page": 42,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\nData1Data2\n⏰⏰⏰\n✅\n⏰\nData3\n探讨：如果不满足WT + WR ≤ 2n 会有什么问题？\nData4\n⏰\nACK0\n✅\n✅\n✅\n✅\n"
+  },
+  {
+    "page": 43,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n⏰⏰⏰\n✅\n⏰\n探讨：如果不满足WT + WR ≤ 2n 会有什么问题？\n⏰\nACK0\n✅\n✅\n✅\n✅\nACK1\nACK2ACK3ACK4\n❌\n所有ACK帧因通信故障而丢失\n❌\n❌\n❌\n❌\n"
+  },
+  {
+    "page": 44,
+    "text": "王道考研/CSKAOYAN.COM\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\n帧序号（3bit）à\n0\n1\n2\n3\n4\n5\n6\n7\n0\n1\n2\n3\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\nA\nB\nC\nD\nE\nF\nG\nH\nI\nJ\nK\nL\n发送方\n接收方\n帧序号（3bit）à\n⏰⏰⏰\n✅\n⏰\n探讨：如果不满足WT + WR ≤ 2n 会有什么问题？\n⏰\n✅\n✅\n✅\n✅\nData1\nData3Data4\nData2\nData0\n✅\n0号帧落在接收窗口之\n内，会被接收方接收\n1~4号帧落在接收窗口之\n外，可判定为“重复帧”\n若不满足WT + WR ≤ 2n ，\n会导致发送方和接收方无\n法正确判别“重复帧”\n"
+  }
+]

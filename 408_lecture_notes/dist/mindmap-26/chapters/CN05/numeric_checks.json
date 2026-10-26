@@ -1,0 +1,9 @@
+{
+  "checksum_hex": "E083",
+  "TCP_data_length_B": 52,
+  "window_2025_new_segments": 2,
+  "active_close_ms": 1650,
+  "passive_close_ms": 75,
+  "cache_full_next_seq": 20581,
+  "cache_full_rate_bitps": 163840
+}

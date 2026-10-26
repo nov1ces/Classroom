@@ -1,0 +1,318 @@
+{
+  "items": [
+    {
+      "id": "DS08-N01",
+      "node": "排序的基本概念",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "locator": "文件页7；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-01",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N02",
+      "node": "关键字与记录身份",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "locator": "文件页7；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-01",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N03",
+      "node": "稳定与不稳定",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "locator": "文件页7；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-01",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N04",
+      "node": "内部外部排序",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "locator": "文件页7；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-01",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N05",
+      "node": "趟数比较移动空间",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "locator": "文件页7；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-01",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N06",
+      "node": "插入类排序",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.1+8.2.2 插入排序.pdf",
+      "locator": "文件页68；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS08-N07",
+      "node": "直接插入有序前缀",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.1+8.2.2 插入排序.pdf",
+      "locator": "文件页68；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS08-N08",
+      "node": "折半插入定位及移动",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.1+8.2.2 插入排序.pdf",
+      "locator": "文件页68；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS08-N09",
+      "node": "希尔同余类与增量",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.1+8.2.2 插入排序.pdf",
+      "locator": "文件页68；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS08-N10",
+      "node": "交换与选择类",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.2 快速排序.pdf",
+      "locator": "文件页132；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-03",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N11",
+      "node": "起泡相邻逆序与早停",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.2 快速排序.pdf",
+      "locator": "文件页132；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-03",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N12",
+      "node": "快速划分及枢轴就位",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.2 快速排序.pdf",
+      "locator": "文件页132；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-03",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N13",
+      "node": "简单选择的比较次数",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.2 快速排序.pdf",
+      "locator": "文件页132；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-03",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N14",
+      "node": "堆排序建堆及下滤",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.2 快速排序.pdf",
+      "locator": "文件页132；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-03",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N15",
+      "node": "归并与分配类",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.1 归并排序.pdf",
+      "locator": "文件页44；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-08",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N16",
+      "node": "二路归并及稳定合并",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.1 归并排序.pdf",
+      "locator": "文件页44；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-08",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N17",
+      "node": "LSD低到高与同桶保序",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.1 归并排序.pdf",
+      "locator": "文件页44；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-08",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N18",
+      "node": "MSD递归桶任务",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.1 归并排序.pdf",
+      "locator": "文件页44；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-08",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N19",
+      "node": "计数范围及前缀和",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.1 归并排序.pdf",
+      "locator": "文件页44；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-08",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N20",
+      "node": "算法性能与条件",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "locator": "文件页7；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-11",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N21",
+      "node": "最好平均最坏时间",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "locator": "文件页7；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-11",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N22",
+      "node": "递归栈及输出数组",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "locator": "文件页7；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-11",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N23",
+      "node": "稳定性条件与反例",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "locator": "文件页7；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-11",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N24",
+      "node": "比较排序下界",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "locator": "文件页7；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-11",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS08-N25",
+      "node": "外部排序与优化",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.1+8.7.2 外部排序.pdf",
+      "locator": "文件页96；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-10",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS08-N26",
+      "node": "初始归并段",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.1+8.7.2 外部排序.pdf",
+      "locator": "文件页96；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-10",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS08-N27",
+      "node": "多路归并及输入输出缓冲",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.1+8.7.2 外部排序.pdf",
+      "locator": "文件页96；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-10",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS08-N28",
+      "node": "I/O计数与趟数",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.1+8.7.2 外部排序.pdf",
+      "locator": "文件页96；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-10",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS08-N29",
+      "node": "败者树冠军路径",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.1+8.7.2 外部排序.pdf",
+      "locator": "文件页96；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-10",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS08-N30",
+      "node": "置换选择与冻结",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.1+8.7.2 外部排序.pdf",
+      "locator": "文件页96；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-10",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS08-N31",
+      "node": "最佳归并树及补零权叶",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.1+8.7.2 外部排序.pdf",
+      "locator": "文件页96；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS08-10",
+      "status": "covered",
+      "verification": "visual"
+    }
+  ],
+  "review_notes": [
+    "每章导图是多个节级导图的重组，非原PDF整图复制；源中未明确示出的补绘分支单独登记。",
+    "旧讲义真题年份未逐项对照官方原卷，正文改标配套例题；旧年份仅作来源追踪。",
+    "全部旧正文重要实质内容保留，新增定义/方法/算法与边界；本代理未编译PDF或执行全量代码测试。",
+    "仅map.sources中visual_checked=true的源页完成实际视觉阅读；其他页是文字/标题定位，需区别于图内逐节点视觉核验。"
+  ],
+  "historical_exam_labels": [
+    "2012",
+    "2015",
+    "2019",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "wrong_question_handling": "该章错题为历史记录，只用于选择边界辨析与配套案例；不推断学习者当前掌握水平。"
+}

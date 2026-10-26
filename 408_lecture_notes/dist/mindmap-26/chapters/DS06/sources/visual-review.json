@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "detail_pages": [
+    9,
+    13,
+    14
+  ],
+  "issues": [],
+  "reviewer": "review_ds_pdf (actual image inspection)",
+  "page_count": 14,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "pdf_sha256": "2aa428f28fdda89463295696707038a0aa60319adde2079d201afc5d71a7a679",
+  "method": "tools.view_image查看重建后当前全部contact；detail_pages另查看逐页PNG。",
+  "reviewed_at": "2026-10-25",
+  "observations": [
+    "旧第13页任务比较表右侧裁切已修复，四列完整在纸内且与右侧旁注上下错开。",
+    "第14页为答案4–8续页，约11行；较稀疏但内容完整，没有孤立几行或切字。"
+  ],
+  "resolved_issues": [
+    {
+      "page": 13,
+      "severity": "blocking",
+      "type": "table_clipped_right",
+      "description": "任务比较表第四列“典型边界”越过纸张右边缘裁切；顶部旁注本身在纸内。"
+    }
+  ]
+}

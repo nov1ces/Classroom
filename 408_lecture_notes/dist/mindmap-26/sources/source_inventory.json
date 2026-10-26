@@ -1,0 +1,2362 @@
+{
+  "items": [
+    {
+      "path": "/workspace/Classroom/00_408综合资料/2026年408大纲.pdf",
+      "sha256": "97c356a448dce0371b02a1f9d1cfc6f81b25090cde04e57f7465307ba5c934bf",
+      "bytes": 4363142,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+      "sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+      "bytes": 2052817,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.0_开篇_数据结构在学什么.pdf",
+      "sha256": "7c8a589a6e122d79af6fcbf5c222ee79fc2f7cfe13a17cb3371ff1ff5ea9d2f5",
+      "bytes": 4237618,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.1_数据结构的基本概念.pdf",
+      "sha256": "114c08e2c2ad42a7fdbc681c13f970a2f761f2cf0805d59b707849f91f15783b",
+      "bytes": 3023525,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.2_1_算法的基本概念.pdf",
+      "sha256": "50094b4aff4cbf83ec167daef766ea2fcf50293080221c7e5ae9459717a0d066",
+      "bytes": 603743,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.2_2_算法的时间复杂度.pdf",
+      "sha256": "e5bed0e107dbcc504502fe41dc276643f6c3a5da2f0d4e1bfabfb1a63ad496d9",
+      "bytes": 1218729,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.2_3_算法的空间复杂度.pdf",
+      "sha256": "d43d251c26004024991468a5025e25a34f63b23a8afac348924739a815ce7639",
+      "bytes": 661540,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.1 查找的基本概念.pdf",
+      "sha256": "57a4d98823de77f247739f1eb06d8e75b1be88d90575e076d0edc053b53f1485",
+      "bytes": 3125142,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.1 顺序查找.pdf",
+      "sha256": "625df9101f182e7a43b1bfa50c1ca42ef9016ed51f95b6c3c34dc0fbbe653c2e",
+      "bytes": 1097097,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.2 折半查找.pdf",
+      "sha256": "bf630db1158d8412ec06650a55623d462cea6b33d4dfd908520ec39780ffcbe1",
+      "bytes": 1535602,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.3 分块查找.pdf",
+      "sha256": "472abd4e2895ec413453c2cfc0f75b75f2abd15acc58101d5d91e0d455e2b777",
+      "bytes": 1781314,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.1 二叉排序树.pdf",
+      "sha256": "c1abfff3e3ce05ffd50f78c8c0f5c762a8ab6c297107cb39c72aee3cfc03b7f4",
+      "bytes": 876152,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+      "sha256": "ac32bd9293de24d471c4d376a04ca42418b4dfa474465731c9de215426e15464",
+      "bytes": 999376,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_2 平衡二叉树的删除.pdf",
+      "sha256": "509f07cb104a184027c0d0e454adee7f4412d484f7467476c7925ae81be154ec",
+      "bytes": 4199327,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_1 红黑树的定义和性质.pdf",
+      "sha256": "d36cb4b32b6d3da43334a2bf5a3da5fcc3e3c51a34c03ed1d2dc6f1e5c4fc7a3",
+      "bytes": 946414,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_2 红黑树的插入.pdf",
+      "sha256": "3cba0b80d67183d988824151e78c98663f249be2114e4b432000d6da16151c06",
+      "bytes": 3536315,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_3 红黑树的删除.pdf",
+      "sha256": "37da656961135c28fcb832d276236d61ad5d51b065df3743cae8de69193e5479",
+      "bytes": 562849,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+      "sha256": "e14b95b96b04506ccf8481d29f1aef75a1311c1188a6341fcc1983161429048b",
+      "bytes": 1323086,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_2 B树的插入删除.pdf",
+      "sha256": "dc4f8284a21b667d459a26c17556dee100a9ccaf25f0d96f760575430342151c",
+      "bytes": 2213195,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf",
+      "sha256": "2e40e06f10f6b985e0bc6fb1629bb2303b4cb8843865d07f7737b31b10e5d22b",
+      "bytes": 960429,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.1 散列表的基本概念.pdf",
+      "sha256": "5cbd3297b114defa0866aca9c2bb574365b518858425599c048255f7fc52293e",
+      "bytes": 702527,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.2 散列函数的构造.pdf",
+      "sha256": "18ba973481e14910e2039de98c87ab016404a58c17edadae95f752b2ca576883",
+      "bytes": 946067,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.3_1 处理冲突的方法_拉链法.pdf",
+      "sha256": "0ff22d421f6c2292461fbf4049bc9784bc9b6a7a666d56acbf08afdf767309ab",
+      "bytes": 943083,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.3_2 处理冲突的方法_开放定址法.pdf",
+      "sha256": "ecc1cc8731e99658f80c47a6e181be3162249695f10ee6c833d8259c567c2648",
+      "bytes": 1174938,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+      "sha256": "3cfc0e39a4177fd65deba469506a520909884dc2e663949159f2dbdcd763cae3",
+      "bytes": 1569259,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.1_栈的基本概念.pdf",
+      "sha256": "842d22d5a3f3ad57c4125890dc80f3c0c20b619555818d5e1e51d6248f005bfd",
+      "bytes": 3686908,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.2_栈的顺序存储实现.pdf",
+      "sha256": "c1ff64b8b6ff85e1e179bc3752132a83fb9ba309d2984ec15171f504dfff7c65",
+      "bytes": 887694,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.3_栈的链式存储实现.pdf",
+      "sha256": "5be6afdc0c93c6b74a8a4d853ff3e6fd6429655dda71517952d8a1254bc728c0",
+      "bytes": 579276,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.1_队列的基本概念.pdf",
+      "sha256": "33ad93d7fdb0744d64e5a862ff3e1c1c45be2e4dd5be37afb08154cd92ea808a",
+      "bytes": 658200,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.2_队列的顺序实现.pdf",
+      "sha256": "fccd87cf497fda68d7e24c7de46cd9fb1080b24a4195206cc6aef1296efc9934",
+      "bytes": 1003423,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.3_队列的链式实现.pdf",
+      "sha256": "690d7ec240567cc80c899a42079a003ae260b06dd005c32a959b233a1cf3e261",
+      "bytes": 777160,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.4_双端队列.pdf",
+      "sha256": "cffcd2ede1325d83129121f3de8efc5506dc8f892df197b4714010c32ecefacc",
+      "bytes": 453545,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.1_栈在括号匹配中的应用.pdf",
+      "sha256": "ab65dd1964242df0b1c5150a1a0a9181fe1940b0e2e1d2ad5546efd505b7eacc",
+      "bytes": 621212,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.2_1_栈在表达式求值中的应用(上).pdf",
+      "sha256": "12e5670a041272a2c966ec5bbed24543bc653836e632033f6b8270ee72b787c7",
+      "bytes": 748109,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.2_2_栈在表达式求值中的应用(下).pdf",
+      "sha256": "05d30e9675493a8e2095f8c240020fcddba8ef171a05706ef063a5202d8c7635",
+      "bytes": 642141,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.3_栈在递归中的应用.pdf",
+      "sha256": "3dbb054734f45ebaff277f5afb48b430854d3833de9bb6315e49ee1279681305",
+      "bytes": 684227,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.4+3.3.5_队列的应用.pdf",
+      "sha256": "7e63c9e36da8462d734ff894ecc027c3a63b1836c4ec22f4c70ce03c6c260d59",
+      "bytes": 433244,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.4.1~3.4.4_特殊矩阵的压缩存储.pdf",
+      "sha256": "c218c93af9bc380861d587a183d45f28568fa631f9cc9ec8560c4ddd5f2cfb96",
+      "bytes": 1130131,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.1_线性表的定义和基本操作.pdf",
+      "sha256": "0164b72950f0c3a80a5c7f9bd310bf9a59dfb67e034bf136bda0a44f32136492",
+      "bytes": 3815403,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.1_顺序表的定义.pdf",
+      "sha256": "fad409e94544d3fab8cb4e64f98fd932b74f0f40f087042cd68e610772a23093",
+      "bytes": 913032,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_1_顺序表的插入删除.pdf",
+      "sha256": "9b87375a9fd341a854deb5501475da6699d08a72139f067a06a631b06a7ea57a",
+      "bytes": 819726,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_2_顺序表的查找.pdf",
+      "sha256": "ff4731302b8962269f318f9f27fc3e7ffb5d7561ac86c82689eaf3041fe196bf",
+      "bytes": 625697,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.1_单链表的定义.pdf",
+      "sha256": "d7a8bd9f9b64bcd941fdbe3bd3d06063c29fcb3654ff68248bfde90d31f8d810",
+      "bytes": 999629,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_1_单链表的插入删除.pdf",
+      "sha256": "79e43abd353be162f6a0074243ddca342d7ccd36692102fe048d1842a214151c",
+      "bytes": 1238316,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_2_单链表的查找.pdf",
+      "sha256": "ee5b29e3bbd6e040710fff701cb1adb87a738b497c6c76a40aaf8ac694bf1cb7",
+      "bytes": 809687,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_3_单链表的建立.pdf",
+      "sha256": "436d5665efd563e19048f2caa75fba1ff3842a7752fc1351973e79847ef9d147",
+      "bytes": 689122,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.3_双链表.pdf",
+      "sha256": "f0d30f92c641da3c6a4d9990598296fb6bda28052e65e8a3923071a56f68d9d5",
+      "bytes": 805217,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.4_循环链表.pdf",
+      "sha256": "8b968be28816afd65f1b68b91fe1368e3e6baf7a435ed7774b39fbd9ba370ebb",
+      "bytes": 820082,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.5_静态链表.pdf",
+      "sha256": "0d909b3e2f8edbeea34b25afa48e777c2fe83b3c5c121e5c176c2da4710a314a",
+      "bytes": 640068,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.6_顺序表和链表的比较.pdf",
+      "sha256": "16e05c4882bba28616ec6f8e1c152672a78ee4732f25c96680e97857f1b468c9",
+      "bytes": 703914,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.1.1+5.1.2 树的定义和基本术语.pdf",
+      "sha256": "41e4e5c272458b2b2925e290a20dcd66d35e9c71f3678a1a09707ebd9d7c9017",
+      "bytes": 3786096,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.1.3 树的性质.pdf",
+      "sha256": "7d8483df0e3adef2629f09cd2350c778ed9d92f486239a3b6b52584ed0d53cbb",
+      "bytes": 578124,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.1_1 二叉树的定义和基本术语.pdf",
+      "sha256": "295651c7ea6fe2d221166fc9fc6510b146920c085fadd91b6603a4d9c5ac35aa",
+      "bytes": 601017,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.1_2 二叉树的性质.pdf",
+      "sha256": "6a54e0851da3e18a45ac3acf448ac879b58d22e39251d287180b41efd75cd7f4",
+      "bytes": 533403,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.2 二叉树的存储结构.pdf",
+      "sha256": "603fa4ccaef9cc324fce111d36e268ac71ede826e86ae8034abb7bf0201bdf61",
+      "bytes": 642503,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.1_1 二叉树的先中后序遍历.pdf",
+      "sha256": "fc06a010301b331fcc3fdedd58c3660cf2b4d36f3ed27633bbc09354d1b8a02d",
+      "bytes": 833741,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.1_2 二叉树的层次遍历.pdf",
+      "sha256": "0ea342a913a3b335705fdf8de18c26723729669e6674bf35dc734fc387674236",
+      "bytes": 434134,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.1_3 由遍历序列构造二叉树.pdf",
+      "sha256": "6a0926e44474e2693c4d43457f1ecda9e087b18c153b17271d437791bb1a3886",
+      "bytes": 597640,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_1 线索二叉树的概念.pdf",
+      "sha256": "30fd7818563bc6fc78c7a79a54dadced6cacd82554a745483f790e7c982db13e",
+      "bytes": 798564,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_2 二叉树的线索化.pdf",
+      "sha256": "9975cc118c525a15fa1367ca838e8436163ce5d4341b336ac6925a0a8f169e1b",
+      "bytes": 1220574,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_3 在线索二叉树中找前驱后继.pdf",
+      "sha256": "9435add1a223d3f046c6ff47843325c707ee5932d4e422a595ca11e85219f614",
+      "bytes": 896435,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.1 树的存储结构.pdf",
+      "sha256": "447c21de20f21cb6d5c1f0de9e38e9539a4875c375e12b5fe0916467b25ed444",
+      "bytes": 955156,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.2 树、森林与二叉树的转换.pdf",
+      "sha256": "f56051e1a9bb218caeb04ba45dda5d77e8f3f86b42bc8a92629668cb7c5af946",
+      "bytes": 567441,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.3 树和森林的遍历.pdf",
+      "sha256": "f96f5bec82f06253b35b915553faac12014f40af9e138814dbd0997249a84d5d",
+      "bytes": 580166,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.1 哈夫曼树.pdf",
+      "sha256": "b1ec5dc7f6f15bb691e6c34cf1155e40b3b0d7a8c1f570970855f6bde2a90780",
+      "bytes": 819751,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.2_1 并查集.pdf",
+      "sha256": "8ddd8416240b71b18a81788a3cd6ca21342288edb4a1b697ffb7085a64484b30",
+      "bytes": 1530370,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.2_2 并查集的进一步优化.pdf",
+      "sha256": "48910918255ffa0ba381365ef07c14f0a378a4463c7ef8225ec9501e42b47c2d",
+      "bytes": 2072359,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "sha256": "6a8b5e9c6de7dc9fb7a424ff271e45bee3d8612916396865e5f59fc633a9124d",
+      "bytes": 3763223,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.1+8.2.2 插入排序.pdf",
+      "sha256": "3b58a0e12ffc4c18bbf8a528f6ce21a082c1499232bb2fd29d56025fdd2c14cf",
+      "bytes": 1624596,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.3 希尔排序.pdf",
+      "sha256": "cfda989e6ec2ba7479bd08a67e03f3f035a29a074e42409b9a850ae48784b054",
+      "bytes": 1534072,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.1 冒泡排序.pdf",
+      "sha256": "66cd0951f467d593a33d2aa6a4a69ea294af7073084b0b2d1646ed15dbc83a9a",
+      "bytes": 2349636,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.2 快速排序.pdf",
+      "sha256": "3a9527c2bca8732f3a204584885a7a0ac99b207381616a820bfd8cb138cc152f",
+      "bytes": 2367359,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.4.1 简单选择排序.pdf",
+      "sha256": "c5dea23ddd97dee63d10d1c84c1cdda158e7030493258ba939d461c0d53ba5b8",
+      "bytes": 865105,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.4.2_1 堆排序.pdf",
+      "sha256": "05082448f62c789945e42c4173ce5e7cc961fc47bf011bd6865d9df46e8af1f5",
+      "bytes": 3027083,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.4.2_2 堆的插入删除.pdf",
+      "sha256": "ba33085cad88fcbad43da14ee6eda066b33a7e7d35b9ee9c868c37d7d0de70f7",
+      "bytes": 1106404,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.1 归并排序.pdf",
+      "sha256": "cf64754c5e53b4f192dad5e8f2ca9eb6864b317c2df579602c449bc01867275a",
+      "bytes": 2234354,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.2 基数排序.pdf",
+      "sha256": "8cfd407bccc5a6e450c99b9c485faee16db45533a122bc81934219f3559dd930",
+      "bytes": 1751727,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.3 计数排序.pdf",
+      "sha256": "ea503575b7c5fb594a4b73fe1ff78ec47529b77cedeafe9c49ca58a66ce42a0e",
+      "bytes": 2135928,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.3 计数排序代码附件.pdf",
+      "sha256": "01f8b279d8e027270fa4c5b0427b95a55d87aeddebfb530da1fcaa220d088ae8",
+      "bytes": 292936,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.1+8.7.2 外部排序.pdf",
+      "sha256": "34f3e8e7b497e885946f7863f30118134eb9a24d56ab9173bd8187ff3e755364",
+      "bytes": 27162630,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.3 败者树.pdf",
+      "sha256": "907d007a2c00cfc6176d72ad7b2f1d286d9948bcf0c4d56a694d292b4c448208",
+      "bytes": 2971710,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.4 置换_选择排序.pdf",
+      "sha256": "34c15028b09c191f142adc607b0a39337fb04acc0c3de83acbedc9848331cf4c",
+      "bytes": 1388019,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.5 最佳归并树.pdf",
+      "sha256": "37f4fd3467c1b9c1bd90d5b37bd300a3604feb02429b701b78da11c483106a1c",
+      "bytes": 1050220,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.1.1 图的基本概念.pdf",
+      "sha256": "9533803241cc733dbbc2e255128289afa829ab74d5813bea95d0c88d69d04cd3",
+      "bytes": 4233676,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.2.1 邻接矩阵法.pdf",
+      "sha256": "ced337189b7d88ed8f57d26d263c6aef89f2d9e5ae466afc41c8f0aa9e482dc9",
+      "bytes": 860829,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.2.2 邻接表法.pdf",
+      "sha256": "b57ab5372b70e67f95b44733134df204c9f6b024313fc9221086e7f8d03657f9",
+      "bytes": 643196,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.2.3+6.2.4 十字链表、邻接多重表.pdf",
+      "sha256": "cf1427c16b04b2561404b08c8f47dde45d5eb28875d771471c2f2cf492d41c22",
+      "bytes": 522093,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.2.5 图的基本操作.pdf",
+      "sha256": "e002f9c9f968b77b86d9531aa2131b416da74bd11d0eb749aa1043c2dd67571f",
+      "bytes": 642727,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.3.1 图的广度优先遍历.pdf",
+      "sha256": "0b2ed8431d023bc7ad1635c40fb14623083e894040fe5c6a5ccc975f89a7edfa",
+      "bytes": 1792576,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.3.2 图的深度优先遍历.pdf",
+      "sha256": "0fa32b4645bc24505befa442a374f3a4239d21b0400007c78b59230cca23d920",
+      "bytes": 1545700,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.1 最小生成树.pdf",
+      "sha256": "1fb436db87abcec2b373790f00717cdc998a8159ac58f49008770ac974e97ecf",
+      "bytes": 4625091,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.2_1 最短路径问题_BFS算法.pdf",
+      "sha256": "1eec43627f3bc76a55040fc9478ea88ece05661748bb559e87be7347fdd294f8",
+      "bytes": 1255446,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.2_2 最短路径问题_Dijkstra算法.pdf",
+      "sha256": "20315581f270c7313dfa3f6e22974d4517f13e9169540d6a82518f4ddb9dfaf7",
+      "bytes": 1231266,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.2_3 最短路径问题_Floyd算法.pdf",
+      "sha256": "3aa111e47284567d3484b5ddfa6c7bb7d8ce529bff59f20277028c46387a2c05",
+      "bytes": 1592565,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.3 有向无环图描述表达式.pdf",
+      "sha256": "fd543f2c1e29759a5ccfbac3a83bda751a37116cffec21176d8e97b4bd4d3a1b",
+      "bytes": 1017377,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.4 拓扑排序.pdf",
+      "sha256": "b464b8f4d6ad66bcabe3f6db99d00c43d332858662a299e79815faed48314b6f",
+      "bytes": 2079753,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.5 关键路径.pdf",
+      "sha256": "c8a69c73513d184874ebb8e6a5c4de3aa03da905d63046eb36a4ee93f317f90e",
+      "bytes": 1645246,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.1_串的定义和基本操作.pdf",
+      "sha256": "d9af0d544d93309cc0b279f6fc9110c018245e7579940c2d816e8ecab332ee4d",
+      "bytes": 4255508,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.2_串的存储结构.pdf",
+      "sha256": "12dfd3abfb45959e93316fbaaa40f741b98472f9bdb1e52809c2ff4efdeb494f",
+      "bytes": 731246,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.1_朴素模式匹配算法.pdf",
+      "sha256": "2a4667e4f947094541fad059f8e234b3f6d68ad5c0ddb063ec06f3e6d694ec89",
+      "bytes": 3436854,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_1_KMP算法.pdf",
+      "sha256": "abd90dc0abf471fbe05958bbbfe36f2b0ae76b7e1286e1fde564ded42f377af2",
+      "bytes": 3104002,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_2_求next数组.pdf",
+      "sha256": "095db3a043aa98c32bcfa2d1e86aca7d39374ee600630a270f21c28f27340319",
+      "bytes": 1987158,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.3_KMP算法的进一步优化.pdf",
+      "sha256": "3b9d6f9b9bc4c2cd42519d56462abeca6b0638b740cc15650fe21433a8b32183",
+      "bytes": 3519085,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/01_数据结构/数据结构错题精简.json",
+      "sha256": "76bf9d5c482f30d0608a864e5e99c006b87de1ca50a9f963c19fec997cd4c817",
+      "bytes": 14230,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+      "sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+      "bytes": 3744927,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.0_你好，我是计算机组成原理.pdf",
+      "sha256": "dbea8ccf5f209a8654931b0bd3557f5be111dab3b9440b55edf67b3f8fffcb60",
+      "bytes": 4944991,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.1_计算机发展历程（大纲已删 简要了解即可）.pdf",
+      "sha256": "165a1e13e36ad579ab35b5c252c3fe032c772a5c65fdc126d8653c984ece5089",
+      "bytes": 3169824,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "sha256": "1cb399735f9878cc423c5ecca273b310fab9605f4cd2d3142c0ef03195a91a4e",
+      "bytes": 1331812,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.2（补充）_各个硬件的工作原理.pdf",
+      "sha256": "f731e70664fc2d2c452618b2909784c1fc012bafd541415e56c912548243fa34",
+      "bytes": 1085424,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.3 计算机软件.pdf",
+      "sha256": "b779041d0a987aeb56b9f474d82068361503e323411e13e1bde61c8c8c880958",
+      "bytes": 963835,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.4 计算机系统的层次结构.pdf",
+      "sha256": "fdfef592ee537d9c208996b47e0609fb836d11141dec574036923397c432a7f2",
+      "bytes": 549305,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.5 计算机系统的工作原理.pdf",
+      "sha256": "dfe59b415b56a7c092ae5e80dd5d7a42f0bea7a6399a68922e63b95fc3554c86",
+      "bytes": 504384,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "sha256": "db7a10b040258a37fe144fd608c56ff91878ae73ed8cd814bd7b7fbe62a5232d",
+      "bytes": 1345797,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.1+7.1.2 输入输出系统和IO控制方式.pdf",
+      "sha256": "1a02c7d63f47756cd20138a6961e1808c6884d7f69095ba195f265371f9198e2",
+      "bytes": 4304621,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.3 外部设备.pdf",
+      "sha256": "667b96b4f759f415108fdcdd4a933b61af828b8283c9ff3a8a508750858d12ab",
+      "bytes": 1841041,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.2 IO接口.pdf",
+      "sha256": "472c4ef729219135fa444163d4dc80cf699f696d302d8524ed269d82f11b3b2f",
+      "bytes": 968380,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.1 程序查询方式.pdf",
+      "sha256": "33a3dcea01a81d075f39b9c2fce7d09df14bf24e25494a8f12955214c0c9e76e",
+      "bytes": 941187,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_1 中断的作用和原理.pdf",
+      "sha256": "448409bf3271e5f8dc2df5a4b0f317a48816f61c52c7e0bbd3ec245e7f2488a4",
+      "bytes": 1042291,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_2 多重中断.pdf",
+      "sha256": "4c76b6825f68890e20d2411025698a989b3b6f352e28dd94393cd5ab90b61c9d",
+      "bytes": 1840789,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_3 程序中断方式.pdf",
+      "sha256": "84c01e2746d14260178ecd9c7e6eb672e8e43147b9fe5652e6ed461af16771f5",
+      "bytes": 1133381,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "sha256": "d6614dec8316005285d3da0089c5e858500501904d782b539109152f1a4ac55d",
+      "bytes": 1953890,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.1 存储系统基本概念.pdf",
+      "sha256": "641ab364be083f764d2925ec10b17d1b1588719320bbfff2d3ecb44b269b4f07",
+      "bytes": 5513244,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.2.0+3.2.3 主存储器的基本组成.pdf",
+      "sha256": "da5eee39e982a014b6c1b11cf00acd607f0b4cff421139dbff90deeda31012eb",
+      "bytes": 1085514,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.2.1 SRAM和DRAM.pdf",
+      "sha256": "cc706fae586ed3cb5c3c32ad3c2be7c83c41f55c19e9a78c4d5fbe6a3b5d9adf",
+      "bytes": 962164,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.2.2 只读存储器ROM.pdf",
+      "sha256": "a244f8ae0cd89d20256132368f7d7a46c8ae0fa81cbc2dcb78d080d736e81c65",
+      "bytes": 1125004,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.2.4 双端口RAM和多模块存储器.pdf",
+      "sha256": "6da9f048f83cbcf6fae9e3cb2657eb66eb8b36b80c6d020834b875dfa020489d",
+      "bytes": 1781626,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.3 主存储器与CPU的连接.pdf",
+      "sha256": "ac1bf178fc7aff462711883270b0ef45a370c9858e2310a53185f775c314826f",
+      "bytes": 1765203,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.4.1 磁盘存储器.pdf",
+      "sha256": "f2f97b3aef1516f95aec5f59d129bab7b319bb4859085fd2b092b66dba73102d",
+      "bytes": 1425876,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.4.2 固态硬盘_扫描版.pdf",
+      "sha256": "eb6472e6154bfd4a05aa790625ac7ee6bd5903f00f32947a3a419632310832cf",
+      "bytes": 4161856,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.1+3.5.2 Cache的基本原理.pdf",
+      "sha256": "77bf18a9e621bfaeae1c31b7e504b3bb2cac0283c8b62315bd2ee92de4ec9c05",
+      "bytes": 1440310,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.3 Cache和主存的映射方式.pdf",
+      "sha256": "dd3a87626c3c835f1ca7d97db27cb7010f9e9e3d231c38c643454ea947977f95",
+      "bytes": 1380375,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.4 Cache替换算法.pdf",
+      "sha256": "a91d0fceee3b2d353562fd358fc8c888029466350a284b915c92a364a59440c7",
+      "bytes": 1317577,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.5 Cache写策略.pdf",
+      "sha256": "3bfe448c4e142df44b9dc8a6e0c417bc500b167a1709024fc7bd3202c3af563d",
+      "bytes": 1242006,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.6 存储系统大全图（建议用彩色打印）.pdf",
+      "sha256": "9d3803d39325792ceabb4f66129107809b039a83ae5240c495a82e3f08e644d5",
+      "bytes": 1528050,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.1 进位计数制.pdf",
+      "sha256": "22d91319dcec378c50c2ae47ede8774664089d6d70e72511e23e7b1a87f2cdc4",
+      "bytes": 2012712,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.2+2.1.3 定点数的编码表示.pdf",
+      "sha256": "1b8e9d434a78da30a879240c424eadfd7870962e77be93a30e3504bd498fd22f",
+      "bytes": 1126566,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.2+2.1.3（拓展）各种码的作用.pdf",
+      "sha256": "a91f5f45029149f066bb8f286b07d188c7eb9049292282d0e7d07ab7a7001432",
+      "bytes": 611727,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.4_1  C语言中的整数类型及类型转换.pdf",
+      "sha256": "737e614d317ecb81a9ac4c1f6edaf26a24b6dc55760ab07c955f5355e37bc561",
+      "bytes": 858429,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.4_2 零扩展、符号扩展.pdf",
+      "sha256": "fddb64135f0abd58261bdd7016bf2a92b1ac7b5d9d3c7f556c7757dca712b6e4",
+      "bytes": 918727,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.0_1  逻辑门电路（数字电路基础补充）.pdf",
+      "sha256": "6591db7586a77d662795eb980d069966e616a9e2a9a86b4c6341610211d81410",
+      "bytes": 1388394,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.0_2 多路选择器、三态门（数字电路基础补充）.pdf",
+      "sha256": "b4d7a2b08b92eef50358e107960ba7c75522385f57e43f9b92e372e29077c57d",
+      "bytes": 1778297,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.1_1 加法器.pdf",
+      "sha256": "59f9f83545c6bf59946eb1c18c3462423c0c91d248e35d6c1c30508a3dcf3668",
+      "bytes": 1677152,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.1_3  算数逻辑单元ALU.pdf",
+      "sha256": "8f7807289e001a0293584d6b4c0f7ae5b103ac3c0aa932e4c8d862c21386f651",
+      "bytes": 2063430,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "sha256": "0f5a43fb978844fc98f9ba5a1a2366368f47c35fb92de3e386271880b2749902",
+      "bytes": 951430,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.3_1 定点数的加减运算.pdf",
+      "sha256": "7bb0d1a16c231dec0a95539b75d3dd71349fe8335c880881ad4344decc54c376",
+      "bytes": 734618,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.3_2 无符号数的加减运算.pdf",
+      "sha256": "103d959d5423f3d7df38e66e1bfe3a6caf8c22ba9104a93b309d33a0ec5369be",
+      "bytes": 1577598,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.3_3 补码加减运算电路.pdf",
+      "sha256": "17ffd668ee586d7816b29af78e54ccc31b8135e21356e9487cabe53bb327cb1c",
+      "bytes": 1140767,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_0 乘法除法运算复习说明（书课适配说明）.pdf",
+      "sha256": "8a3f7988ceb8acd40e2ce75fb83ee3c036b855e73cbc353f0ba342713e289e5e",
+      "bytes": 1902911,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_1 无符号整数的乘法运算原理.pdf",
+      "sha256": "5882877a8ebdb9788a8c2ac1be5940bf64631f343259896edf355be10fc802a8",
+      "bytes": 4568566,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_2 带符号整数的乘法运算原理.pdf",
+      "sha256": "4da2baa6a893bde1983b8b2982ecb37f562397f13e53c5f22cfc9f21661360e3",
+      "bytes": 6279275,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_3 计算机实现乘法运算的三种方式.pdf",
+      "sha256": "2168864a13050ce99af26cab723247f363f61fcf7f91b9522da4958a32e3f79c",
+      "bytes": 1576551,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_4 无符号整数的除法运算原理.pdf",
+      "sha256": "81d05fd8c6b7263ab184cf3384c4d60cea3d95540f378560bbbd854973c09fd7",
+      "bytes": 6895714,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_5 带符号整数（补码）的除法运算原理.pdf",
+      "sha256": "07520277ba921e79a9e694fa578521f9d0615c1e6042fa05752c3a0d2b9938f9",
+      "bytes": 1787285,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_1 浮点数的表示_IEEE 754.pdf",
+      "sha256": "ceff24a1b2a4480f0c23e94e08eeac4ba9b3fdf055a32203dbba7336db53b750",
+      "bytes": 1352790,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "sha256": "472e1c23b3245b92ca16cf4bd4d64c7080922dd3beeef2d253ba327e91e186a0",
+      "bytes": 1759537,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_3+4 浮点数的表示范围、几种特殊状态.pdf",
+      "sha256": "f2eeea4612d7463a1757d15c85b3b92e19c1cbd5ec693ec3161e3a99458c0521",
+      "bytes": 2201269,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.2_1+2 浮点数的加减运算.pdf",
+      "sha256": "b85aabdb2383110a498446b211c8fb05e0fb0a6eec9470c09ec8d2f8a87ff36b",
+      "bytes": 1181836,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.2_3 浮点数的加减运算(舍入问题).pdf",
+      "sha256": "deb608bc4756b64042df97fd5e5f49b91acf34baa42c45d231c301ef045cf323",
+      "bytes": 1336124,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.2_4 浮点数的加减运算(溢出问题).pdf",
+      "sha256": "733a5659bd2ed9ba2b0cf1d04174b9c54c9f82ee2b0ee012b84d4ecb24c25a1e",
+      "bytes": 1337055,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.4 数据的存储和排列.pdf",
+      "sha256": "1d8b3bc763888749a8743fb9422016336b8b6057c770005c06ff43ab8e906865",
+      "bytes": 547750,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.1 CPU的功能和基本结构.pdf",
+      "sha256": "ca300d9f2e49d114dd91ede271f358fe78254923dd25c6a2838210419982e7e4",
+      "bytes": 4195723,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.2 指令执行过程.pdf",
+      "sha256": "3242dc219e9aef9a8740786a276a9b27fa1942b1bfe17cdce5f8d21199a7806f",
+      "bytes": 929134,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.3_1 数据通路-单总线结构.pdf",
+      "sha256": "d891e26f6f17b25818964ce07de904bc9523a6aa844a645ff945ce5b765e243e",
+      "bytes": 860342,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.3_2 数据通路-专用通路结构.pdf",
+      "sha256": "5d5319a5bcb11d3f75304a1acafc139e6c3aed02257f321dd6f81560cd2bbfaf",
+      "bytes": 765711,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.1 硬布线控制器.pdf",
+      "sha256": "8f5e2fe1f445aa17e69a3eb19e50a46ee80cc8f8d438254a75629554eb27afce",
+      "bytes": 1464299,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.2 微程序控制器的基本原理.pdf",
+      "sha256": "ed26a8a17ab88b49a3ca0e4d25efb6a3d96302949f046077517dc642f588b10e",
+      "bytes": 1557142,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.3 微指令的设计.pdf",
+      "sha256": "ae9bf4d140c4be081828d799a443f8e6e525831db3da76a147b452ab744e4668",
+      "bytes": 1388747,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.4 微程序控制单元的设计.pdf",
+      "sha256": "f94e9576e7b621a56c64e9127e9fa19cdf0352ff9afb8fc7ff391ab33c86725a",
+      "bytes": 1041809,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_1 指令流水线的基本概念和性能指标.pdf",
+      "sha256": "0c16f73580735d4fdc422a634ac582374989798bc3dba810a673e1cfd264ae86",
+      "bytes": 2900954,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_2 指令流水线的影响因素和分类.pdf",
+      "sha256": "3628adcb5846c9e93cf72c67c485c0b5a8b92685d5ea9e0125a81a913bea7da7",
+      "bytes": 1897932,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_3 五段式指令流水线.pdf",
+      "sha256": "142a948268971b3d7ce1844d6585b2c2368dd47f9fee9507a9ea3947b709578d",
+      "bytes": 1147253,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_1 多处理器基本概念.pdf",
+      "sha256": "d86700dfebf45a68399bc3db2b3daa48c1c49065c61188feab07db1d444049bb",
+      "bytes": 3013885,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_1 多处理器基本概念骚图.pdf",
+      "sha256": "60425af0a3e239f2ffc5d7ae0a9ff75d54e6316b7c25d75f190ec1c430bd4a0d",
+      "bytes": 1187164,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_2 硬件多线程.pdf",
+      "sha256": "0e9c3420e6c62d5bc2582d5654f4c650e04b4ccb2ef0b77e84f8a31879540b48",
+      "bytes": 1187556,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.1.1~6.1.3 总线概述.pdf",
+      "sha256": "f816691c18814c824ddda60e3963c1d0ceab3276ac0bdb2e72b17e686da564d2",
+      "bytes": 5380828,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.1.5 总线的性能指标.pdf",
+      "sha256": "576e7c331d9be22301813c4565f721484ac2869cde8f4dfcf288780537bd15e2",
+      "bytes": 609407,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.2.0 拓展：总线仲裁（408大纲已删，简单了解即可）.pdf",
+      "sha256": "af4473714a4935e11808251f3cad7934dbb6767584fb3fa4d43f2a226ec91688",
+      "bytes": 1151757,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.2.1~6.2.3 总线操作和定时.pdf",
+      "sha256": "b2199ba0c4bc28ea84916814f9c141b4f11506b56ee5fb01579e5dc673aed2a8",
+      "bytes": 771777,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.3 拓展：总线标准（408大纲已删，简单了解即可）.pdf",
+      "sha256": "b6f3be398757509fbf548fb0954389e65bcd06fa1ea30a63f9633eaacd3a7c5e",
+      "bytes": 4264848,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.1.1+2+3  指令的基本格式.pdf",
+      "sha256": "d1f6859aa9ce8d6b1ff048925c813a55ca0cc405cb5813bb0b132b83c3ef1746",
+      "bytes": 4439867,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.1.4 扩展操作码指令格式.pdf",
+      "sha256": "be6e71abd9b10e3864cc04cc0dcce571585ff15853348aae5472d93e5c5bc683",
+      "bytes": 794334,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.1 指令寻址.pdf",
+      "sha256": "70480118e47aca2873372c60ff4939a3840df6043e9b3336893652ce92982284",
+      "bytes": 893596,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_1 数据寻址1.pdf",
+      "sha256": "c3395d619d57a7cfc8cc6b0e073ff48a7f0dd62fb4cce68bfe1717115db8a164",
+      "bytes": 922543,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_2 数据寻址2_偏移寻址.pdf",
+      "sha256": "c8e43e7e7d42ec7ef2905779afa3cb8484c4a85d1695ed606a8e16f541c9561a",
+      "bytes": 1261618,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_3 数据寻址3_堆栈寻址.pdf",
+      "sha256": "3f58307fa0af5b829140d9538ec021ef424b1bc659b7fcc1495e8a1a7cbd3670",
+      "bytes": 593375,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.1_1 高级语言与机器级代码之间的对应.pdf",
+      "sha256": "a617591b85d547257c55c3cecd1d3b948862427eb8c9db9438f58b1faaee6faa",
+      "bytes": 1662097,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.1_2 常用的x86汇编指令.pdf",
+      "sha256": "b602fbb4d457eb1a9cbe2ad7ed2497ca38af4ee754e2d9b64882e32ded2946d5",
+      "bytes": 627340,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.1_3 AT&T格式和Intel格式.pdf",
+      "sha256": "f9576bba2f49250d1e536c887fab45a6f55a3ae8d8c2c0f0ca4c19ff8980954b",
+      "bytes": 708534,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.2 选择语句的机器级表示.pdf",
+      "sha256": "296ce310dbdef7ef42a347bb5a19c6fb580388619b1873949659a2b3ea8368f5",
+      "bytes": 1767166,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.3 循环语句的机器级表示.pdf",
+      "sha256": "424a09acfbcb64d793500428bd0317ee4a5320364581fb888fa6be8c234345a4",
+      "bytes": 655774,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.4 函数调用的机器级表示.pdf",
+      "sha256": "494db83270cbf56595e2ba3778b0defa05bbdfff1a3dba2d08fe8a7ba8a2bbd6",
+      "bytes": 3029873,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.4 CISC和RISC.pdf",
+      "sha256": "310681d81d72f5b12997d1e51af1583c89e7d147e88bba2e07c98fbf729bb465",
+      "bytes": 617344,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/02_计算机组成原理/计算机组成原理错题精简.json",
+      "sha256": "5bcc25591227965ac63d4f3fce944893593add2b25c7c7c10abfca7c550192a6",
+      "bytes": 17626,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+      "sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+      "bytes": 1746294,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.1.1+1.1.2 操作系统的概念、功能和目标_扫描版.pdf",
+      "sha256": "703ed27ef11af1570ed836cc44a44c9817f8e89d811ec45e1ed905ed32ac772d",
+      "bytes": 16452160,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.1.3 操作系统的特征_扫描版.pdf",
+      "sha256": "4af4e53abd063f4bdfae41753f9280fb7e4a23332fe296f5de5f1b0f41a08a5d",
+      "bytes": 8013852,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.2 操作系统的发展与分类_扫描版.pdf",
+      "sha256": "1a67f067a41a230d1f4d0f3f2f14ac971c64737eade1e2061f8e71f151c38e89",
+      "bytes": 5562439,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "sha256": "9e57eb4dc302ed81e3e4ba9d61e4fa23659a50d50ad131170304947ad0b8dcef",
+      "bytes": 1510586,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.2 中断和异常.pdf",
+      "sha256": "b792095df7303d80aaa01b12f4e963d73934ad4494f15c630405152ca5f16d68",
+      "bytes": 1260355,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.3 系统调用.pdf",
+      "sha256": "4e16773a37eaabe68784b0e624a714932a49797f6826a57cf12a26f89d06b1e9",
+      "bytes": 1272837,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.4 番外篇：中国古代的操作系统.pdf",
+      "sha256": "4d5bce00add15dde60938342232fa7ad6ca1a6ad98f8a72d4a8027fcb2d7625b",
+      "bytes": 1026056,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.4 操作系统体系结构（上）.pdf",
+      "sha256": "cef66f44e8345f3833e274436b2402a1723b5a26b29320f05e657e5a25d4a34f",
+      "bytes": 1121680,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.4 操作系统体系结构（下）.pdf",
+      "sha256": "5c156b09aedc3261b60ecd3acf22815cea471d2f2ad3124c353e6c5411f7a64a",
+      "bytes": 2499764,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.5 操作系统引导.pdf",
+      "sha256": "138a18c95e896b45d8c539b1ca6d34282e5b39cd4614d639b0326d464cfecaa9",
+      "bytes": 2272469,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.6 虚拟机.pdf",
+      "sha256": "0cc7884a0cae014e4641090683b06d7fb7ca5ace88c5f5978bcf74424f79533a",
+      "bytes": 2371031,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_1 内存的基础知识.pdf",
+      "sha256": "dda73912e639bb3f42e99c2703f2c4572a36c2413fdf1bb3ab86a8b426298742",
+      "bytes": 4060369,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_2 内存管理的概念.pdf",
+      "sha256": "e9cf3cbeadd62a2259ead989d568a0421a6a112bee871464f2a331644fcd8874",
+      "bytes": 1268240,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_3 进程的内存映像.pdf",
+      "sha256": "795a8d9978b30db73a494c722a5b7ec3a6316e533fe3da2c4390fb163e45c1a6",
+      "bytes": 1180749,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_4 （选修）覆盖与交换.pdf",
+      "sha256": "c7b6171f4d68addfa3be53869f74b46f77e1f14f7169af71b031b37e9ec213eb",
+      "bytes": 1181635,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.2_1 连续分配管理方式.pdf",
+      "sha256": "f74355bc6a53bd31ac10459d6e3d9300571726b38960ff40001fb1aa777e620e",
+      "bytes": 1260088,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.2_2 动态分区分配算法.pdf",
+      "sha256": "847c0f9ba5c9aacdcbff39fbf4d1ada67d2e91bb7040049a4bc7bed46df78b41",
+      "bytes": 1023012,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_1 基本分页存储管理的基本概念.pdf",
+      "sha256": "3344fff1be242277f7992e0f3f9a9d9ba47f6ecf6d1267c77c0ba56093a43fc9",
+      "bytes": 1337318,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_2 基本地址变换机构.pdf",
+      "sha256": "bc712b80adef0306b3ab13dbedd84523b22fbeba7cc5d6627e1dc31907aa646c",
+      "bytes": 1299236,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_3 具有快表的地址变换机构.pdf",
+      "sha256": "d38773f1144b61fd50cdf3c72b046a964b8f9df2d3f47aa51b94141e35a57bf1",
+      "bytes": 1143382,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_4 两级页表.pdf",
+      "sha256": "e18a66eb2f9e2bc96b37813b103f346aef24325706589a3cb38f7080ebe1ffc5",
+      "bytes": 1204741,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.4 基本分段存储管理方式.pdf",
+      "sha256": "471c697462bffa977d2009bc94ed8f43888b89d16e64e266745aeaeedcf2f69d",
+      "bytes": 1240624,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.5 段页式管理方式.pdf",
+      "sha256": "27583f86dc602dc85318fc0cb3a4b65319792aa7a390e7b4d2765f23120193fc",
+      "bytes": 1220885,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.1 虚拟内存的基本概念.pdf",
+      "sha256": "79c4fda561e47dc96aaad1f6dd2a612e17cde17ffa252198c73f173edc6655c1",
+      "bytes": 1362698,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.2 请求分页管理方式.pdf",
+      "sha256": "b1dbd2e3f09cf63528d14b287234a40e3c5478789028d810394847e201c2ab25",
+      "bytes": 1873114,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.4 页面置换算法.pdf",
+      "sha256": "87c8e09c94a230e439626283c5bbfd3f9e0148a29cc1feec0ec320f4c676c8d2",
+      "bytes": 1168959,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.5+3.2.3 页面分配策略.pdf",
+      "sha256": "699656a3967a5b775bd8a3b2e3b9a055ac900ca4001ceac18a46c2d34d2a56ef",
+      "bytes": 1244145,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.7 内存映射文件.pdf",
+      "sha256": "a15b90ac12b4fda97cdec28afae735905dc1314c847d29b93311c223005dee6d",
+      "bytes": 1152248,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.1+2.1.2 进程的概念、组成、特征.pdf",
+      "sha256": "0babe89b82bc06e74c555d85db24d0cde11deca17ece0e940223578aaeaa3aa7",
+      "bytes": 4038203,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.3 进程的状态与转换.pdf",
+      "sha256": "0c6980241c62a2f627867de2bdae6f7f608711d5619a4f901f181ceb3ff664cb",
+      "bytes": 1497889,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.4 进程控制.pdf",
+      "sha256": "42db013936131e30ad118d67b556449ed1ac54af1581fbbd6443ba8923928c6f",
+      "bytes": 1734511,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.5_1 进程通信.pdf",
+      "sha256": "72bbbcc70758f95a028ec6a5de2aec5f9b24fb8fe8986e34574dc633f8a85692",
+      "bytes": 2149510,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.5_2 信号.pdf",
+      "sha256": "4763779856a31dd4d7143c8a22bb8c5a8830b411a8f01ea3436062ba1a176ac8",
+      "bytes": 1910304,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.6_1 线程的概念与特点.pdf",
+      "sha256": "9928a044f51cda4f2d16e2576865dcd7b3df7f38be19b7e7194a73eb913ac01b",
+      "bytes": 1346206,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.6_2 线程的实现方式和多线程模型.pdf",
+      "sha256": "87b6e0c3594c2edea4948d01e912afa829756820f37ea40f433d934cabe3143b",
+      "bytes": 1323666,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.6_3 线程的状态与转换.pdf",
+      "sha256": "b93f36342bd295e0f35ee7f6a5adc48ef84805b4a57885a6de91632c44955890",
+      "bytes": 1101198,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.1 调度的概念、层次.pdf",
+      "sha256": "8248c4cacedd680bed4355c882cf649802b55188858818d301214f650fae0271",
+      "bytes": 1281446,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.2_1+2.2.4 进程调度的时机、切换与过程、方式.pdf",
+      "sha256": "d9d38adec76559371ab698b6716f9e869941dc4a50d420a75e67673914622fa9",
+      "bytes": 1228313,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.2_2 调度器和闲逛进程.pdf",
+      "sha256": "bc586545cc92e2f6ac9f76963309cc9de77d233613039b0eb011729f6d587c3c",
+      "bytes": 1089886,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.3 调度的目标（调度算法的评价指标）.pdf",
+      "sha256": "971ca18b4f60147fcac0a930483f36c80f95f13d57533c7a0021fe50f49e9146",
+      "bytes": 1274334,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.5_1 调度算法：先来先服务、最短作业优先、最高响应比优先.pdf",
+      "sha256": "156586600a1157f6f70a0a1fb61d9cf2f83b6446f11e4b0834d8903bd3655613",
+      "bytes": 1178719,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.5_2 调度算法：时间片轮转、优先级、多级反馈队列.pdf",
+      "sha256": "6fdf33024c45ad2ea0102a81d6c11d7000cd1c102c17801100e2a0aecb745340",
+      "bytes": 971854,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.5_3 调度算法：多级队列调度算法.pdf",
+      "sha256": "5188ef16a1b3a303d86259023392d9cf545919ab1d0d977a66a18b6700ff9e0e",
+      "bytes": 980119,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.6 多处理机调度.pdf",
+      "sha256": "0c2242baac68e6965baf1a9adfb0b652dee2e5ab932cc92c904ad256c3fa107d",
+      "bytes": 1205945,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.1 同步与互斥的基本概念.pdf",
+      "sha256": "76b584983bf33185dcdbd679e3cd01c5ef48389ace54906a6adc6d51e046dd29",
+      "bytes": 1126021,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.2_1 进程互斥的软件实现方法.pdf",
+      "sha256": "828f3e39e308b97418f58221ff964de06f455a73893d8b90707940add8399d3a",
+      "bytes": 1513619,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.2_2 进程互斥的硬件实现方法.pdf",
+      "sha256": "6a8f9d3c71b33436a10be24b3ad6fbc1e6c3b917f1bd4f8a06e503e49e8f86f7",
+      "bytes": 1147748,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.3 互斥锁.pdf",
+      "sha256": "4221c718c96d66a860d5e5800a8001f5368455c9eb08520fba6731ac1267cdec",
+      "bytes": 1186555,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.4_1 信号量机制.pdf",
+      "sha256": "e3952341aa026e141bca2be570ce6b696372b7095a9dd5fc262742a813ae56c7",
+      "bytes": 770365,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.4_2 用信号量实现进程互斥、同步、前驱关系.pdf",
+      "sha256": "9251cf32c2100f8fbafac91be526a2d4ecb5bbe0eea2b24c85809cd55b3ee8a8",
+      "bytes": 1194106,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_1_1 生产者-消费者问题.pdf",
+      "sha256": "56e62e7cde7e909bcecdd87b4a7a6ca52abacfe74b719378bad294be26d218b0",
+      "bytes": 1072409,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_1_2 多生产者-多消费者.pdf",
+      "sha256": "baca00e776c78388c1c6329cc01bc6796f3d7a7a9299a8a9cd6822d7a9f44cf8",
+      "bytes": 1107587,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_2 读者-写者问题.pdf",
+      "sha256": "ccd96a6ab7134b78e06123db5c3834e3b5eeb09f7e416f57c2826752d6c20b3f",
+      "bytes": 1007209,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_3 哲学家进餐问题.pdf",
+      "sha256": "1e7513f3ef73f0320f2ce8f20895ceecb428937bc96fef7e9c9d6b44c9a195f9",
+      "bytes": 1135575,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.6 管程.pdf",
+      "sha256": "9973f00d97f489f2395fb169fd0e20eaf699f858842b5d75688a4705462a27b1",
+      "bytes": 709792,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.1 死锁的概念.pdf",
+      "sha256": "13035666ddfc0f9744ff870165cf432145eb0561cac3992ea147c6b675a7f399",
+      "bytes": 1290573,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.2 死锁的处理策略—预防死锁.pdf",
+      "sha256": "ac79ef62fb5a755e3db8d6bed068b8a899520a6f704097eb15ee5566f9974bbb",
+      "bytes": 1187554,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.3 死锁的处理策略—避免死锁.pdf",
+      "sha256": "48a7c754fc6f3520c91f01f438be4a47fbab1da65012ae1471f9b4ee064f7555",
+      "bytes": 1123869,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.4 死锁的处理策略—死锁的检测与解除.pdf",
+      "sha256": "18cfbfbb3a97001d2caf7a579de6372f83e5393083edd1d439804d53ca9c5c00",
+      "bytes": 1163135,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_1_IO设备的基本概念和分类.pdf",
+      "sha256": "9d2cb4e0d82069f834dd2ac2dbed86dc358b993059002a36f60b5a3147a971ce",
+      "bytes": 3493375,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_2_IO控制器.pdf",
+      "sha256": "0027446357c6756c044c3f98e9f42a6c295cf3b8f4e4ef1d52990edad1567a0b",
+      "bytes": 1180515,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_3_IO控制方式.pdf",
+      "sha256": "60ac8d53eb457381fd372b70b563220a1b27d861efc29bbf1afbce1c7eb7276f",
+      "bytes": 1215239,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_4_IO软件层次结构.pdf",
+      "sha256": "ef363aa38ab5a8b93fe498365b1fe280969c18b32013667056675364e8332a17",
+      "bytes": 1110156,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_5_输入输出应用程序接口和驱动程序接口.pdf",
+      "sha256": "744c78f515d39a65bad287790a14f3a3563ee1e394b241bb495479bc1486f061",
+      "bytes": 3662340,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_1_IO核心子系统.pdf",
+      "sha256": "18689c9ac7da9b97a7fd61e1625f340c3ca6c549860ad6ef2632b2f9d6dea8bd",
+      "bytes": 882993,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_2_假脱机技术.pdf",
+      "sha256": "9c652f7f2faec386ccb72132a19020789b4349b74488f9d2f2ae9ae8a2e7bad5",
+      "bytes": 1118146,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_3_设备的分配与回收.pdf",
+      "sha256": "37b59f483b771ba814d1be958c9214aa800b60bc2dda3cc63daa8025c5e53a05",
+      "bytes": 1227557,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_4_缓冲区管理.pdf",
+      "sha256": "192895d7ba3c980fa777a1df7c78df699d10b983a03e6eeddf30c8ff96ac03ca",
+      "bytes": 1161635,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3.4 固态硬盘_扫描版.pdf",
+      "sha256": "eb6472e6154bfd4a05aa790625ac7ee6bd5903f00f32947a3a419632310832cf",
+      "bytes": 4161856,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_1_磁盘的结构.pdf",
+      "sha256": "92fd7774b9124bf4a10de52882fae8c13eac427cec4ba679d2e75f89d5d0934c",
+      "bytes": 1153531,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_2_磁盘调度算法.pdf",
+      "sha256": "bc76175237585a779221fcf82b1afae5c22e957e7c6c4e8070dbc9888af65fc4",
+      "bytes": 1201623,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_3_减少磁盘延迟时间的方法.pdf",
+      "sha256": "1bbc22639652388afff0ef002ed61161e5311541f1430418ad8e845a4f363285",
+      "bytes": 1111101,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_4_磁盘的管理.pdf",
+      "sha256": "293266febb54bab554178df5f519391c0bb9bd7d4470c26fb87eb33307b540ef",
+      "bytes": 318275,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_1_初识文件管理.pdf",
+      "sha256": "1cc15eef0d719ff3fa49caa0238a959e262ad8c60846bd89cfba49cb8fe00f78",
+      "bytes": 6072216,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_2_文件的逻辑结构.pdf",
+      "sha256": "dde519cc1b39d82de469082492f62e207a356df4459bcb52affd1954b7d495d6",
+      "bytes": 1487386,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_3_文件目录.pdf",
+      "sha256": "45b1a742e7854e69f30c5759e355243103ea62df061d645a765a7e067f0c2c35",
+      "bytes": 551524,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_4_文件的物理结构.pdf",
+      "sha256": "aadf34689a38b67798355d1d3a7db6375a6b67de8cb077b822da03d8bd6478fa",
+      "bytes": 1205585,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_5_逻辑结构VS物理结构.pdf",
+      "sha256": "48e8274b1cdb4259b57bb400400be94a73d58fa9cd8f42d7c8d812c575f3b38b",
+      "bytes": 2342567,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_6_文件存储空间管理.pdf",
+      "sha256": "9b618cce907e307e4d8664897309fc3b6a2d00ea33ca52b0e2863bfbfa96dc1a",
+      "bytes": 806295,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_7_文件的基本操作.pdf",
+      "sha256": "309a4664437bee1efbad175fca15c9b4c5dff44c9f76b49e95a9f59ca546d2be",
+      "bytes": 1294257,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_8_文件共享.pdf",
+      "sha256": "95a1fda607c13bb71915be9786a6f0b6bf49057dda90f4b0c9f94ab22090152d",
+      "bytes": 1689239,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_9_文件保护.pdf",
+      "sha256": "d020cb541c1551cd907ebf8452bab29e36f067a526de7e8d52e43947deaeceb4",
+      "bytes": 1058408,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.3_1_文件系统的层次结构.pdf",
+      "sha256": "7e17104f38b88bb4153a718ff36db5f71a38c8965e7ea20487222499c80396ea",
+      "bytes": 914160,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.3_2_文件系统布局.pdf",
+      "sha256": "9d9cbfd3a06be54888dd95a34d4451c19f0e3f4fafded6e187c55fff494e2ff8",
+      "bytes": 1812015,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.3_4_虚拟文件系统.pdf",
+      "sha256": "1941adf7b80f272800b3f232314204aa0bce7118f7272c5eb950860e6cb2091b",
+      "bytes": 1730110,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/操作系统错题精简.json",
+      "sha256": "37f64443df5f77e9b030c51d4025439c05111c95f5cfede0ae127b7721c8beab",
+      "bytes": 16413,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+      "sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+      "bytes": 5958228,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.0 开篇_欢迎来到计算机网路的世界.pdf",
+      "sha256": "db103a1e59fe2337fd6c2e4a66a4e06c2a3117f6c383e80ef1ac2443a14cd8a8",
+      "bytes": 4313366,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_1 计算机网络的概念.pdf",
+      "sha256": "2887aa8f4355c5cac7051d4ec0a916bbc3cd008026c58e25d56c672d2f0c82de",
+      "bytes": 2733905,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_2 计算机网络的组成和功能.pdf",
+      "sha256": "a2b6b4af9ac541779491cfbd93f3ef00ad8bc9096ac1cec08e02b7422280cacf",
+      "bytes": 2501048,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_3 电路交换、报文交换、分组交换.pdf",
+      "sha256": "6be0cfdb943b24439fba0f7fc10dace2b3dc9c224b8801191c415bec2b546bbf",
+      "bytes": 3845446,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_4 计算机网络的分类.pdf",
+      "sha256": "1b7fdac92406ef4f939716e1018d0671c9bfbc604c6a361a8e9e5c1cba223d05",
+      "bytes": 2152236,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_5 计算机网络的性能指标.pdf",
+      "sha256": "807348c0cd61f726439c0eca2d492277803ef9376f14cf819f1423f6811b8169",
+      "bytes": 4190630,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.1+2 计算机网络分层结构.pdf",
+      "sha256": "1437368d24c887ffd2c263f7c48090fdbfc589dd536f71083af655230ab022c0",
+      "bytes": 1565660,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.3_1 OSI参考模型.pdf",
+      "sha256": "a81e1d93cf46690453a5c36e9c301856d1c881437e2663c3249cf80931a09f9e",
+      "bytes": 1554197,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.3_2 TCP IP模型.pdf",
+      "sha256": "b4ea9b4c97e50679ad12fe452746d5307a715ac26192170f374ee330ecc3f032",
+      "bytes": 1506044,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.1 数据链路层的功能.pdf",
+      "sha256": "03a19ca7b6afe2edeb986aa02a911989cdd4adbcfc72fdef821159653a055ca6",
+      "bytes": 3864381,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.2 组帧.pdf",
+      "sha256": "ec0fe365a45340c4beff4f47316b1ec10539b18b8ba988875f3a9f05782ea0b2",
+      "bytes": 1382139,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.3.1_1 检错编码（奇偶校验码）.pdf",
+      "sha256": "1fcef96e5b3959009492fccd08e04eb272e31574b7b3aa944706b6e801cef27b",
+      "bytes": 805102,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.3.1_2 循环冗余校验码.pdf",
+      "sha256": "7e8af65f5275c9f03b54dbbc1e71e26852c02c4b7a2838616f503b2bf13ae2b1",
+      "bytes": 717638,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.3.2 纠错编码（海明校验码）.pdf",
+      "sha256": "f33918ac5e43e1bd66ee0f9055dbf0212bc29c2915d6ef83c30d944371d25763",
+      "bytes": 1225472,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_1 流量控制、可靠传输与滑动窗口机制.pdf",
+      "sha256": "59935a46bef580d7dcdf21f23cc536feec826175209579bad10d9fe79728d0f3",
+      "bytes": 1548828,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_2 停止等待协议.pdf",
+      "sha256": "70e5afac9ffa4b80727ed30bab77ad9660e156b3ebb75846a1b2e6bf14e8ea9e",
+      "bytes": 1183172,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_3 后退N帧协议（GBN）.pdf",
+      "sha256": "af5ef0441a6b82f15f58edcfb9371f0ccfb3c58d650c9336f54195bb20ba3cb2",
+      "bytes": 1513107,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_4 选择重传协议（SR）.pdf",
+      "sha256": "9964596a2305a0b7ab360904c9bbd7d190c098eddaa6c50b9633cb1d122c802e",
+      "bytes": 1488461,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_5 三种协议的信道利用率分析.pdf",
+      "sha256": "8f1a76898d18a2b293f5167e8010ddb2666b3feaf8fb99d455acae6221a9ed32",
+      "bytes": 2490725,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.1 信道划分介质访问控制.pdf",
+      "sha256": "f56c85ffdf2457f47f6498d4697eae404363d028d3cbead90abcfcf5c4db531c",
+      "bytes": 2434975,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.2_1 随机访问介质访问控制.pdf",
+      "sha256": "20dd0e7f38d9263ce8a881582adf08fefb223857b9a574f433c0d9bdd65b426e",
+      "bytes": 1533565,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.2_2+3 CSMA CD协议.pdf",
+      "sha256": "c19a1ef3763855b06d62cc60161a8479f1e5873f97e4d18576fdb5db93e769e7",
+      "bytes": 3357997,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.2_4 CSMA CA协议.pdf",
+      "sha256": "6d6ec7c1dff3a2f81f48b1851e73a9b91e84d1188b62a1ca43270fccf6e0d152",
+      "bytes": 2881400,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.3 令牌传递协议.pdf",
+      "sha256": "51e9b483ab315266746d0d25439c13b79692695491f3c08a0c75ba6331b52962",
+      "bytes": 1645673,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.0 局域网与IEEE 802.pdf",
+      "sha256": "72ed968e4852094ca3954cb4a19a4bfc2d6b407005603fc00be135ec4681732a",
+      "bytes": 1497849,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.1 局域网的基本概念和体系结构.pdf",
+      "sha256": "60371d1d5ebb0f6b2003c31ef3bf5f78191fc1a8496057a34de8192877b9e131",
+      "bytes": 1567438,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.2 以太网与IEEE 802.3.pdf",
+      "sha256": "7bce2a198c7cb98506d86d168706e9afa7835c8d6db9f196077d3749039d2b8d",
+      "bytes": 2534395,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.3 VLAN的基本概念与基本原理.pdf",
+      "sha256": "2a542ddac4e6175f31498d4393267a865a657f37b453675e4afa7333fe3b7bfe",
+      "bytes": 1742164,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.4 IEEE 802.11 无线局域网.pdf",
+      "sha256": "f748661e22ea835306f1a759795b7a7e264eae3607b80fc751e73336b74dbfc3",
+      "bytes": 3035200,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.7.1+2 广域网、PPP协议.pdf",
+      "sha256": "20518f9c315bc6b7537b175ec4b33bba809daca42982ff404352b02791d8ea29",
+      "bytes": 1651907,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.8 以太网交换机.pdf",
+      "sha256": "fa56c2362721886c1d2246dd27cab43f0b3c7f880d8240f5b43b806c2201352c",
+      "bytes": 6368956,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.1 通信基础的基本概念.pdf",
+      "sha256": "fb64f8d40a092d45dd18d5952e4a2108e7af1306ab3c5e5240071397bcbadde2",
+      "bytes": 6008282,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.2 信道的极限容量.pdf",
+      "sha256": "1a9b8a74032d123c794e2b3e30021c92e1aa5c75c1350eb77bd1dea52bf21a6a",
+      "bytes": 2289071,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.3 编码和调制.pdf",
+      "sha256": "7e717dbd39950dac21d5963d83f7b276168a9e53d73dc87ebde28ae0b5f805ec",
+      "bytes": 3011585,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.2 传输介质.pdf",
+      "sha256": "2ea30d4dec8a6697030b2bc2ad063126228d6b6031eb23f8189e4d3d7fcaed10",
+      "bytes": 4089089,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.3 物理层设备.pdf",
+      "sha256": "45fa3a5bdfb4f80548ef857c68bdf90fe87f9cbf643b4fc10ca341a7ba9db407",
+      "bytes": 3125683,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.1 传输层提供的服务.pdf",
+      "sha256": "d1a48f617ae4211d7fedce00ffab14933aa40d3c116b23630825039247da428c",
+      "bytes": 4281161,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.2.1 UDP数据报.pdf",
+      "sha256": "4786e249cf1aaf8603ce6396990899e95dd55a6fc0ab9671bcf0991771ac98d3",
+      "bytes": 1298012,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.2.2 UDP检验.pdf",
+      "sha256": "a2e7b3380862794834aa6c9d4ed9378cf3ffce3a04552d95c4f4b51c0020a556",
+      "bytes": 1215128,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（有上课手稿）.pdf",
+      "sha256": "1d6e8948bcc229428d164e582c270dba35ac835e19b96582904df211cb965142",
+      "bytes": 9096464,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（纯净版无手稿）.pdf",
+      "sha256": "fa99c8f21e1ec42cf1cd5a27e652b9f2471ef43ab839065e4692eb5fa770eaa7",
+      "bytes": 1641895,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "sha256": "607a1d113a3b1ca719fc6fea7487c43368b02c15b4c92edb7e8a67223ed72b22",
+      "bytes": 2200177,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.4+5 TCP可靠传输、流量控制（有上课手稿）.pdf",
+      "sha256": "97ec21f5eace9a98f224bf489866308ce353545edb1a35265acc59cbff65a259",
+      "bytes": 23752962,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.4+5 TCP可靠传输、流量控制（纯净版无手稿）.pdf",
+      "sha256": "34d6167486b8f3692f44c4eaa9ebff3f432ca1585e134cf779250f50e4b0a8e3",
+      "bytes": 2400895,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.5 （必看）快重传机制的易错点.pdf",
+      "sha256": "7bf584431b950d95f52c00c50fbef01ea119e102b0dc46a83212acf3fdea7a63",
+      "bytes": 2209039,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.6 TCP拥塞控制.pdf",
+      "sha256": "86656875896d074982f0ace3bde5ef5fe153542e2f1c9aed6507344da0660da9",
+      "bytes": 1906247,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.0 应用层Intro.pdf",
+      "sha256": "4dc663509cdac8c9a84346164c386251233d36b199e03e4d5da781490c7a187e",
+      "bytes": 3731133,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.1 网络应用模型.pdf",
+      "sha256": "b5753f93a60286b148b5b3e9c886dab742ab53942f34bc5b2aa9091ce0d385dd",
+      "bytes": 1883454,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "sha256": "977b803ea513be6d2d5af4016a6ec1df9cd6cc473381d8e3811b3bbd7565deb1",
+      "bytes": 2694028,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.3 FTP 文件传输协议.pdf",
+      "sha256": "f1fcf815859496ce83976e978a47e3696ef4045c8f57ae94430971f46616a358",
+      "bytes": 1086398,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.4 电子邮件.pdf",
+      "sha256": "625dd18d070d0e710bc0405463111a45cd1dbd34b1800f8e4f8db521036b2f97",
+      "bytes": 2021090,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.5 WWW和HTTP.pdf",
+      "sha256": "dc12c332f55797e6f806d3a70e013c0135201b6ff232b14b536d40284b7900fe",
+      "bytes": 3912103,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.1 网络层的功能.pdf",
+      "sha256": "db62ec1d2ff14c610c0f89776c2f4579f509d3e4bba60ad861ed727e8db9a593",
+      "bytes": 4930119,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "sha256": "cb89477403a3c2cdd9ad81024f2154514a964937992b4e5502c60456f7ae08e7",
+      "bytes": 2689957,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.2 IP地址+ 整章串讲.pdf",
+      "sha256": "c4f8ad29565befb3fa1e6fefb3851d9045d0c627d80d67093cefa24b208e2c42",
+      "bytes": 6376867,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.3 子网划分与和子网掩码（有上课手稿）.pdf",
+      "sha256": "ab3b06a171db704fd67989e863b5dbff56036006576d43a3c52c3fdca7672738",
+      "bytes": 6660440,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.3 子网划分与和子网掩码（纯净版）.pdf",
+      "sha256": "5b8a41260f8f0f92e2e5f343ceddcaa12f75068093890058e39202cb78f2b957",
+      "bytes": 6191155,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.4 无分类编址 CIDR.pdf",
+      "sha256": "9b58e82b894da2bf8f42da650c8ac20459e1d7a4501ae3fd756fa0ca559a2729",
+      "bytes": 1954588,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.5 路由聚合.pdf",
+      "sha256": "745f4da1fd947e1f1e5905b09c40d2e55e08544a488bdc5c8cf2c0faecdf34c6",
+      "bytes": 2039016,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.6 网络地址转换 NAT（有上课手稿）.pdf",
+      "sha256": "669b0d5543a752306554e23b5273b9a02c7b77f8f7a88048068a562bd95fb0ed",
+      "bytes": 8865184,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.6 网络地址转换 NAT（纯净版无手稿）.pdf",
+      "sha256": "f27e0f98bad98d2ce8179f28f58b914665568f7d6036d1db38993f14d207b5e4",
+      "bytes": 4612678,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.7 地址解析协议ARP（有上课手稿）.pdf",
+      "sha256": "270aa0dea940c52eb98142e341e193f493c8c4e436ecd03e554954a63ec74527",
+      "bytes": 5270533,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.7 地址解析协议ARP（纯净版无手稿）.pdf",
+      "sha256": "044b4306173373800909b185812c1ccaf06963ea102ba4ac3133a38ec8fe5cf1",
+      "bytes": 1332063,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.8 动态主机配置协议DHCP.pdf",
+      "sha256": "21e487693cf9cd68fc8da9a110b8ade23943d9154e14fff745fe52be2ead17c9",
+      "bytes": 6658863,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.9 ICMP网际控制报文协议.pdf",
+      "sha256": "e73f06db61c4f6c17aee8057449fc4636d0bbb6f20383e642999a0b846a1248f",
+      "bytes": 10608389,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.3 IPv6（楼楼老师）.pdf",
+      "sha256": "78ad84bd6c696d063234115f4c3e160ba8271364cea1f90b6fe9ec070bb91275",
+      "bytes": 1232025,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.3_1 IPv6地址.pdf",
+      "sha256": "179156881ea26d612a8dc2fd6afd3e976dda2fb9b5491289a19b399346bdcc73",
+      "bytes": 1647214,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4 路由算法与路由协议.pdf",
+      "sha256": "edeb7a9cd5db2d8bc238c478122c9bd26fa0c9f0ca55075d369d03a260d4c94a",
+      "bytes": 1611137,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.1 路由算法.pdf",
+      "sha256": "53825917ab8fce6825766f46c1654c0797e72caeca5b39b97cb5d9d587ebb2c2",
+      "bytes": 1895086,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.2 分层次的路由协议.pdf",
+      "sha256": "552f0d894f40e7e2660bf1ca12dc7f320832cde59e5100923ad7fae651435a3f",
+      "bytes": 713605,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.3 RIP路由信息协议.pdf",
+      "sha256": "47b6051b087bc54e9e5e7992b5e8bbd63c5c88df545efc02d44c0225d459f9c8",
+      "bytes": 2187846,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.4_1 OSPF的特点.pdf",
+      "sha256": "6e084b186d1447ecac8f55887e8a5f1e15e1b5ba9732191d8e4e920dc2a7636a",
+      "bytes": 1928579,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.4_2 OSPF的基本工作原理.pdf",
+      "sha256": "829f2178b04192e572dc9e6632cd29dca140f3d1513a69431ae9dd8e36af0a7b",
+      "bytes": 3990458,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.4_3 OSPF的分组类型.pdf",
+      "sha256": "3cf723aa90722fe2f81b32c30e9b209c90d51be7a569db3ad78b59716b32bac0",
+      "bytes": 4104774,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.5 BGP边界网关协议.pdf",
+      "sha256": "401659d0a7df93962fe58c8d5499cdc6e3ced34a988cdf81d539366162bde845",
+      "bytes": 3716104,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.5 IP多播.pdf",
+      "sha256": "6c1d79df0a26cf819368145d7876818b6bbb2cb64354c434725761b9c25688b1",
+      "bytes": 3628851,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.6 移动IP.pdf",
+      "sha256": "6b3d8fff92061a7677bc092f7825cd75087caba445f38a3543962b658d475acf",
+      "bytes": 1686836,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.7 网络层设备.pdf",
+      "sha256": "1b25e3ae839c1dcb75f53d6fa1330e11605c2fc86c01f7dc3cca0b2a6d7e6934",
+      "bytes": 1466046,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/04_计算机网络/计算机网络错题精简.json",
+      "sha256": "ada78b1e0b2a9a2b0cfbaac2ba82ea4d3ecc3e5cea8484805587e48c1be8b54d",
+      "bytes": 13338,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CN/01_网络层次服务与性能.md",
+      "sha256": "2ffb7b6b17b8a710832842a4396cabb783d9433fa08cd600a60b0d69a4cd86c3",
+      "bytes": 14509,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CN/02_物理层信号速率与交换.md",
+      "sha256": "2668a3396c8d797ce4fa857bc8d48ae6f14d4ad2d5ca5d9a5b44368e7ff5edac",
+      "bytes": 17050,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CN/03_链路层可靠传输与介质访问.md",
+      "sha256": "9efd996ce31c61144ed0b3cdf357ad2b5aca2e9f85468e2631616ce2aece19fe",
+      "bytes": 40405,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CN/04_网络层地址路由与转发.md",
+      "sha256": "00f04841e5d34c6162a9209d11f00daff8e225affbd1fd43ba7df4ba74a12d1e",
+      "bytes": 47402,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CN/05_传输层可靠连接与窗口.md",
+      "sha256": "019fc76b521f58b4791919b380a880b0ae37ed19420bb0e8145169ebd4f08c47",
+      "bytes": 31354,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CN/06_应用层名称邮件与Web.md",
+      "sha256": "07488d12cd1cbb29fca8bd3d97a8ebc718c16357a9efe768f08acc23dbb6a87f",
+      "bytes": 27913,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CO/01_计算机系统与程序执行.md",
+      "sha256": "04409b5facd73ee6efc15012380a1700918e97df815396a630f0f0d89ccde544",
+      "bytes": 11039,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CO/02_数据表示与运算.md",
+      "sha256": "092e674a870f02cfc0b4be95b4339a8feb22729a15dad63bb4d0dd9cdb6cef0c",
+      "bytes": 28105,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CO/03_存储系统与地址.md",
+      "sha256": "459e2d64cd4e5fd2e4dcf4dbde3900a552d0d5f11a7c4afdfaa893f4a623b7ac",
+      "bytes": 38947,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CO/04_指令系统与程序表示.md",
+      "sha256": "c20b603358789cac89a97bdc4300a472bcd03048386da8b66be37ab200a42bfb",
+      "bytes": 23452,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CO/05_CPU与控制.md",
+      "sha256": "9d2a2af4b5c93a34e602eb4277ac9d7511bcc9aa91edb3454cf0c888a33548fc",
+      "bytes": 17110,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CO/06_流水线与并行处理.md",
+      "sha256": "13bce71d2578f17beae347a4f5b80f002818164fcfcd5c2593af0938ed2506cb",
+      "bytes": 19848,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CO/07_总线与传输时间.md",
+      "sha256": "8ba80497dec36097015fdfe1f8e33a199365f367bbddd98661de29dcbfbbd61e",
+      "bytes": 10397,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/CO/08_IO与DMA.md",
+      "sha256": "82f54cb2bfa86e9baec10bc085ca8805042011666e3dc991c676fa7c232a837b",
+      "bytes": 17296,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/DS/01_数据结构算法与复杂度.md",
+      "sha256": "b050e840a2b89bdcdb2b7afabd26ce38ab83214e932c880723c9b6962114a281",
+      "bytes": 10810,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/DS/02_线性表下标结点与指针.md",
+      "sha256": "bbf41bb4b8b89489df98170666c831f729f98855858a1bbff1629ec79bd08627",
+      "bytes": 15674,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/DS/03_栈队列与数组.md",
+      "sha256": "6001965694eac075457a6348fc3bcf5618ca5c7a124b2b7dcd777a6a65aa68da",
+      "bytes": 15217,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/DS/04_串与模式匹配.md",
+      "sha256": "842156733cdb65bf0f4d8188c857cea2f5b46e46a9581ef636986a8b3f16fd12",
+      "bytes": 9107,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/DS/05_树二叉树与应用.md",
+      "sha256": "2d67063fe0187d560d6b109e56e2c3703b2708b56d6859e3a9a048d3c658b38b",
+      "bytes": 24059,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/DS/06_图与图算法.md",
+      "sha256": "8a49e5b466ffc5b44ac9d68382708586f3b6c107a59c72c529cde9cca8314695",
+      "bytes": 20526,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/DS/07_查找与索引结构.md",
+      "sha256": "3663092235340e1a20dd0e6ca9b2679085ee1551549317530cd565f7f903de57",
+      "bytes": 27648,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/DS/08_排序与外部归并.md",
+      "sha256": "04218e9fbb344c660bdc5b5429b86bc8df5b5712863192797318b743d531264f",
+      "bytes": 26214,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/OS/01_操作系统与程序运行环境.md",
+      "sha256": "cc8fd2ad790dc7c66b842a704028ec71b6823e2bb0d06c534cccf2e435d46ee1",
+      "bytes": 20530,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/OS/02_进程线程调度与上下文切换.md",
+      "sha256": "780e0b7687d51909dae6665c31b21221edefff22f380ae27c4501da5b3f112ea",
+      "bytes": 28991,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/OS/03_同步互斥与信号量.md",
+      "sha256": "494fc77a3c2f723b76f0dd3ede456640b710a5464fa4f3a72cbf4f6c2e21c9c1",
+      "bytes": 37858,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/OS/04_死锁与资源分配.md",
+      "sha256": "105359ce2ca705a547dc2fbcbdf2e0f556aa3243e35fec8d002cd83af5625064",
+      "bytes": 16133,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/OS/05_内存管理与虚拟内存.md",
+      "sha256": "4da151a728f3e4bd7142a7041ac94e23fde2fc160019f02bb8b18fa552f359b1",
+      "bytes": 32535,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/OS/06_文件目录与文件系统.md",
+      "sha256": "89277a3f771b3bae98975324a1e2fcba8f66d55680ec37fa1857fdbc096a226a",
+      "bytes": 28634,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/Classroom/408_lecture_notes/manuscript/OS/07_IO设备与外存调度.md",
+      "sha256": "384abd2d1b3fbfbc11237aab5f5f34285864f59143f45bd6b04c94de19281275",
+      "bytes": 27349,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3",
+      "bytes": 234834921,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+      "sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30",
+      "bytes": 211679786,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
+      "bytes": 208829946,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    },
+    {
+      "path": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630",
+      "bytes": 197045739,
+      "review_status": "inventory_only; chapter coverage records identify actual reviewed portions"
+    }
+  ]
+}

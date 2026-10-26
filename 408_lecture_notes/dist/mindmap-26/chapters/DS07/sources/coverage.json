@@ -1,0 +1,394 @@
+{
+  "items": [
+    {
+      "id": "DS07-N01",
+      "node": "查找对象与代价",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.1 查找的基本概念.pdf",
+      "locator": "文件页9；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-01",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N02",
+      "node": "主关键字与次关键字",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.1 查找的基本概念.pdf",
+      "locator": "文件页9；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-01",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N03",
+      "node": "静态动态查找表",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.1 查找的基本概念.pdf",
+      "locator": "文件页9；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-01",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N04",
+      "node": "成功失败事件",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.1 查找的基本概念.pdf",
+      "locator": "文件页9；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-01",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N05",
+      "node": "概率与平均查找长度",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.1 查找的基本概念.pdf",
+      "locator": "文件页9；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-01",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N06",
+      "node": "比较次数及外存页数",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.1 查找的基本概念.pdf",
+      "locator": "文件页9；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-01",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N07",
+      "node": "线性表上的查找",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.2 折半查找.pdf",
+      "locator": "文件页43；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-02",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N08",
+      "node": "无序及有序顺序查找",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.2 折半查找.pdf",
+      "locator": "文件页43；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-02",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N09",
+      "node": "哨兵与失败边界",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.2 折半查找.pdf",
+      "locator": "文件页43；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-02",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N10",
+      "node": "分块索引与块长",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.2 折半查找.pdf",
+      "locator": "文件页43；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-02",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N11",
+      "node": "折半查找的闭区间",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.2 折半查找.pdf",
+      "locator": "文件页43；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-02",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N12",
+      "node": "判定树与失败外部位置",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.2 折半查找.pdf",
+      "locator": "文件页43；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-02",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N13",
+      "node": "二叉搜索与平衡",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+      "locator": "文件页30；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N14",
+      "node": "BST全部子树区间",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+      "locator": "文件页30；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N15",
+      "node": "查找插入删除",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+      "locator": "文件页30；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N16",
+      "node": "AVL平衡因子",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+      "locator": "文件页30；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N17",
+      "node": "LLRRLRRL旋转",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+      "locator": "文件页30；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N18",
+      "node": "红黑性质及黑高",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+      "locator": "文件页30；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N19",
+      "node": "红黑插入删除修复",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+      "locator": "文件页30；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-04",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N20",
+      "node": "多路外存索引",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+      "locator": "文件页19；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N21",
+      "node": "m阶B树容量",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+      "locator": "文件页19；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N22",
+      "node": "分裂借位合并",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+      "locator": "文件页19；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N23",
+      "node": "根升降与叶等深",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+      "locator": "文件页19；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N24",
+      "node": "B树高度界",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+      "locator": "文件页19；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N25",
+      "node": "B+树索引及叶链",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+      "locator": "文件页19；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N26",
+      "node": "点查范围与读盘次数",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+      "locator": "文件页19；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-07",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "DS07-N27",
+      "node": "散列查找",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+      "locator": "文件页12；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-09",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N28",
+      "node": "散列函数构造",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+      "locator": "文件页12；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-09",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N29",
+      "node": "冲突及同义词",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+      "locator": "文件页12；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-09",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N30",
+      "node": "链地址法",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+      "locator": "文件页12；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-09",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N31",
+      "node": "开放定址探查序列",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+      "locator": "文件页12；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-09",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N32",
+      "node": "删除标记及重复判断",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+      "locator": "文件页12；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-09",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N33",
+      "node": "装填因子与ASL",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+      "locator": "文件页12；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-09",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N34",
+      "node": "结构选择的条件",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf",
+      "locator": "文件页22；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-10",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N35",
+      "node": "有序与随机定位",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf",
+      "locator": "文件页22；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-10",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N36",
+      "node": "动态更新及维护",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf",
+      "locator": "文件页22；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-10",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N37",
+      "node": "平衡性与最坏保证",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf",
+      "locator": "文件页22；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-10",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N38",
+      "node": "外存页分支数",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf",
+      "locator": "文件页22；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-10",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    },
+    {
+      "id": "DS07-N39",
+      "node": "等值与范围检索",
+      "source": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf",
+      "locator": "文件页22；分支综合及教材章首框架交叉核对",
+      "target": "notes.md#DS07-10",
+      "status": "covered",
+      "verification": "text",
+      "verification_note": "本页仅做总结标题/文字定位；节点知识另与已完整阅读的旧章正文核对，不声称已逐字目验该图。"
+    }
+  ],
+  "review_notes": [
+    "每章导图是多个节级导图的重组，非原PDF整图复制；源中未明确示出的补绘分支单独登记。",
+    "旧讲义真题年份未逐项对照官方原卷，正文改标配套例题；旧年份仅作来源追踪。",
+    "全部旧正文重要实质内容保留，新增定义/方法/算法与边界；本代理未编译PDF或执行全量代码测试。",
+    "仅map.sources中visual_checked=true的源页完成实际视觉阅读；其他页是文字/标题定位，需区别于图内逐节点视觉核验。"
+  ],
+  "historical_exam_labels": [
+    "2010",
+    "2015",
+    "2023",
+    "2024",
+    "2025"
+  ],
+  "wrong_question_handling": "该章错题为历史记录，只用于选择边界辨析与配套案例；不推断学习者当前掌握水平。"
+}

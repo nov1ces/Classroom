@@ -1,0 +1,266 @@
+{
+  "items": [
+    {
+      "id": "CN02-N01",
+      "node": "通信与信号",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.1 通信基础的基本概念.pdf",
+      "locator": "文件第15页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN02-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN02-N02",
+      "node": "数据与数字模拟信号",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.1 通信基础的基本概念.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N03",
+      "node": "信道与单工双工",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.1 通信基础的基本概念.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N04",
+      "node": "码元与速率",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.1 通信基础的基本概念.pdf",
+      "locator": "文件第15页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN02-01",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN02-N05",
+      "node": "码元宽度与波特率",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.1 通信基础的基本概念.pdf",
+      "locator": "文件第14页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N06",
+      "node": "状态数与比特率",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.1 通信基础的基本概念.pdf",
+      "locator": "文件第14页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N07",
+      "node": "Hz带宽与bit/s带宽",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.2 信道的极限容量.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-01",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N08",
+      "node": "信道容量",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.1 通信基础的基本概念.pdf",
+      "locator": "文件第15页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN02-02",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN02-N09",
+      "node": "奈氏无噪声限制",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.2 信道的极限容量.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N10",
+      "node": "香农含噪声限制",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.2 信道的极限容量.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N11",
+      "node": "分贝与功率比",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.2 信道的极限容量.pdf",
+      "locator": "文件第7页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-02",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N12",
+      "node": "编码与调制",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.3 编码和调制.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N13",
+      "node": "NRZ与NRZI",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.3 编码和调制.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N14",
+      "node": "曼彻斯特与差分编码",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.3 编码和调制.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N15",
+      "node": "ASK与FSK及PSK",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.3 编码和调制.pdf",
+      "locator": "文件第9页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N16",
+      "node": "QAM组合状态",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.3 编码和调制.pdf",
+      "locator": "文件第11页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-03",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N17",
+      "node": "PCM采样量化编码",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.1 通信基础的基本概念.pdf",
+      "locator": "文件第15页导图的章内关联分支；本节点详细解释由已读既有讲义重组补绘，不声称该页逐字包含完整表述",
+      "target": "notes.md#CN02-03",
+      "status": "covered",
+      "verification": "visual"
+    },
+    {
+      "id": "CN02-N18",
+      "node": "传输介质",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.2 传输介质.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N19",
+      "node": "双绞线与同轴电缆",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.2 传输介质.pdf",
+      "locator": "文件第4页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N20",
+      "node": "单模与多模光纤",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.2 信道的极限容量.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N21",
+      "node": "无线与卫星时延",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.2 信道的极限容量.pdf",
+      "locator": "文件第14页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-06",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N22",
+      "node": "接口特性",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.2 传输介质.pdf",
+      "locator": "文件第16页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N23",
+      "node": "机械与电气",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.2 传输介质.pdf",
+      "locator": "文件第16页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N24",
+      "node": "功能与规程",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.2 传输介质.pdf",
+      "locator": "文件第16页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-07",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N25",
+      "node": "物理层设备",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.3 物理层设备.pdf",
+      "locator": "文件第1页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N26",
+      "node": "中继器整形再生",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.3 物理层设备.pdf",
+      "locator": "文件第3页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N27",
+      "node": "集线器共享带宽",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.3 物理层设备.pdf",
+      "locator": "文件第5页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-08",
+      "status": "covered",
+      "verification": "text"
+    },
+    {
+      "id": "CN02-N28",
+      "node": "冲突域与兼容条件",
+      "source": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.3 物理层设备.pdf",
+      "locator": "文件第6页（文本提取；导图中图形化文本另依已目验导图和笔记补全）",
+      "target": "notes.md#CN02-08",
+      "status": "covered",
+      "verification": "text"
+    }
+  ],
+  "review_notes": [
+    "covered表示本次笔记含该节点；不表示整份教材、全部课件或历史题目已逐页审核。",
+    "扫描教材正文已核验文件页=书页+12，前言/目录罗马页另计。",
+    "配套例题沿用既有讲义实质题干及解析；未独立核验的旧年份标签已从正文降为配套例题，来源记录留在author_report。",
+    "交换方式和数据报/虚电路及其完整例题已移CN01；原CN02其他实质内容全部保留，补容量关系对比表与状态数推导。",
+    "编码导图中的0/1极性不统一推广；笔记沿用明确图示约定并要求以题意为准。",
+    "物理层设备课件谈现实速率适配与国内教材常见口径差异，正文写兼容条件，不宣称任意中继器都能转换不同速率/协议。",
+    "3道物理层配套例题完整保留；第3题题号原为2-5，保留稳定例题ID与旧编号方便来源核对；章末改为8题。"
+  ],
+  "wrong_question_handling": "历史错题JSON只用于选择辨析主题；不把旧错选当成标准答案或当前仍不会的证据。标准答案依据机制与数值重推。"
+}

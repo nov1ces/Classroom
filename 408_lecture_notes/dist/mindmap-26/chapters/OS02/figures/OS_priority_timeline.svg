@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="250" viewBox="0 0 960 250">
+<defs><marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7" fill="#333"/></marker></defs>
+<rect width="960" height="250" fill="white"/>
+<text x="480.0" y="31" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="23" font-weight="bold" fill="#111">【2023】抢占式优先级：运行段与剩余时间</text>
+<rect x="65.0" y="100" width="144.0" height="65" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="137.0" y="139.15" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">P1</text>
+<text x="65.0" y="88" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">0</text>
+<rect x="209.0" y="100" width="72.0" height="65" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="245.0" y="139.15" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">P2</text>
+<text x="209.0" y="88" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">20</text>
+<rect x="281.0" y="100" width="93.60000000000001" height="65" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="327.8" y="139.15" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">P3</text>
+<text x="281.0" y="88" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">30</text>
+<rect x="374.6" y="100" width="230.4" height="65" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="489.8" y="139.15" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">P2</text>
+<text x="374.6" y="88" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">43</text>
+<rect x="605.0" y="100" width="288.0" height="65" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="749.0" y="139.15" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">P1</text>
+<text x="605.0" y="88" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">75</text>
+<text x="893.0" y="88" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">115</text>
+<text x="480" y="213" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">P1：20+40=60 ms；P2：10+32=42 ms；P3：13 ms</text>
+</svg>

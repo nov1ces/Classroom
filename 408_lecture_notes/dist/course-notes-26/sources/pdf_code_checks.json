@@ -1,0 +1,420 @@
+{
+  "chapters": [
+    {
+      "chapter": "CN01",
+      "blocks": 0,
+      "pdf_sha256": "1b3d829f68e25be1626c3e58b05df043e764e351c746b0a5e06e600d4b1845c7",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 0,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "CN02",
+      "blocks": 0,
+      "pdf_sha256": "c911f0056efe20d89df3b927509df59730d77d72e42ba47a1bd1c047f31fb69f",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 0,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "CN03",
+      "blocks": 1,
+      "pdf_sha256": "7c888601b141f8fa4f801770bddf674c632ce5e5c08d876180c1903e2a78fdda",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 13,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "CN04",
+      "blocks": 1,
+      "pdf_sha256": "6c1f44dd79efcc4623cbe02eac48d7d4f71efaf7ce016179c54c343ac7eda340",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 4,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "CN05",
+      "blocks": 0,
+      "pdf_sha256": "abde76d3482cab1f3a5a3f0630388fa8af941ce506e81eb413879f172c21db5f",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 0,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "CN06",
+      "blocks": 2,
+      "pdf_sha256": "25d03c948ae68fc9331f3c1de5ec8ae025eb4afc6bbe4ddfb2ad46fd72e67393",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 5,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "CO01",
+      "blocks": 0,
+      "pdf_sha256": "662d25b81d06dd8147b65e44dda2c53eb3c23f488abb1f3af4d8bb6e5e0ae789",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 0,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "CO02",
+      "blocks": 4,
+      "pdf_sha256": "e7c368f2c34f3b23d2389f6d29015c27e9971d0a7e1d5b51851c388b1961de97",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 34,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "CO03",
+      "blocks": 3,
+      "pdf_sha256": "ff7f532ebb0756bb422008a49752ec5af479e260cff186b0e537ba7143cab5c9",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 14,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "CO04",
+      "blocks": 6,
+      "pdf_sha256": "4c8751e0dd1f1add84cb118cedb0ed2a327250a48b054e9d55fbc5a06cc7bd30",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 99,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [
+        {
+          "block": 4,
+          "line": 2,
+          "source": "…",
+          "pdf_text": "⋯"
+        },
+        {
+          "block": 4,
+          "line": 9,
+          "source": "…",
+          "pdf_text": "⋯"
+        },
+        {
+          "block": 4,
+          "line": 13,
+          "source": "…",
+          "pdf_text": "⋯"
+        },
+        {
+          "block": 4,
+          "line": 15,
+          "source": "…",
+          "pdf_text": "⋯"
+        }
+      ],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "CO05",
+      "blocks": 5,
+      "pdf_sha256": "05d263b43e18ae3d1e94d5a089ffc67cc0d979b043db82cfa578429a56d6321a",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 56,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "CO06",
+      "blocks": 0,
+      "pdf_sha256": "8e01149b05e0a725781b724ac383c9cff5f620b37ff60d34daae8ed6ce46bb52",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 0,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "CO07",
+      "blocks": 1,
+      "pdf_sha256": "aaf2ee7dc250c87e428787f9257a5cd629799ddc85282206649a4cacd46703fd",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 6,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "DS01",
+      "blocks": 4,
+      "pdf_sha256": "fbf2ae35fa77bf6785a20cf32ec8f475503d585d876ea01ec7c7c48467d81a0b",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 48,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "DS02",
+      "blocks": 18,
+      "pdf_sha256": "b809be0466391c474d457b423c4508005d91f4d16e1c4b097c7c389760597292",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 476,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "DS03",
+      "blocks": 11,
+      "pdf_sha256": "22ceb4f0b383ccb4005a6e61e558548c7a57146a4cf4bc946951d53bead28cde",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 331,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "DS04",
+      "blocks": 8,
+      "pdf_sha256": "4beebc16e98818461d65f654824d9786355a1d28a47e986e532ad7b84fd15f18",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 182,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "DS05",
+      "blocks": 13,
+      "pdf_sha256": "b514519ee6ec362de4f51ed2f6e13f5c91e3e78985f2bb531b1c5f129b5d7daf",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 278,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "DS06",
+      "blocks": 12,
+      "pdf_sha256": "00266c6b7dc383b3d17ff80d27ef88e5cc7ee472da92d8f102ce334106aa1194",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 243,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "DS07",
+      "blocks": 6,
+      "pdf_sha256": "b257aaa1ee5c78a4a508d5796a5a8c2ec8e7fdd9754359cc78b091bb502ce677",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 130,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "DS08",
+      "blocks": 14,
+      "pdf_sha256": "3371cb76b24149f724ba411b26b003af825d2a3ec7d6be0cb2b3301bc119132b",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 310,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "OS01",
+      "blocks": 1,
+      "pdf_sha256": "683abf26d822dce0d0c2ad51e341ccbaa36e9ee73d485ba6845ff6e504d5ba7a",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 19,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "OS02",
+      "blocks": 27,
+      "pdf_sha256": "c960e381945effdeccf8cf8074dd5d1894a145495b6c6ebafd43c039cfe91be1",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 278,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "OS03",
+      "blocks": 1,
+      "pdf_sha256": "b8b104777ce02337deda406101bbaa5ed7a25cc58392a5aa8073d04e7fff364b",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 9,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "OS04",
+      "blocks": 1,
+      "pdf_sha256": "70191aa0c35f6b54bcbf7b294e07234b348126de3501bd8ee1efb14fddbbc8da",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 40,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    },
+    {
+      "chapter": "OS05",
+      "blocks": 0,
+      "pdf_sha256": "453742e98a405094279d7e865e2258808112f632781572818fae5942073997cd",
+      "font_config": {
+        "name": "dejavusansmono",
+        "size": 8.16936488169365,
+        "mono_size": 7.760896637608966
+      },
+      "font_spans": 0,
+      "status": "checked",
+      "missing_lines": [],
+      "typographic_changes": [],
+      "method": "compare whitespace-normalized source lines with listing text; cross-block matches can mask missing lines, mismatches and unsupported fonts require review"
+    }
+  ],
+  "chapters_with_mismatches": []
+}

@@ -1,0 +1,19 @@
+{
+  "chapters/OS01/content.md": "da7f00fee5e740784daf6694364ff86265e149f56f8d0323eecb8a02c5e42915",
+  "chapters/OS01/map.json": "4a5266c98c3bad59d834c988a77a8cb56bcee699f0b557748011d288814ff556",
+  "chapters/OS01/sidebars.json": "5fef7c3dbdb76bf88bd28250417805a4c88e2d27b3a2a34834370f3755d0a28e",
+  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
+  "chapters/OS01/figures/OS_interfaces.pdf": "46d112a828e9fbbfac3172c9788a6c447bbae60e726bd6ea265c3a2d0be0dbb2",
+  "chapters/OS01/figures/OS_control_transfer.png": "3f4d05cbbac18e92043e3c3099127fe3465a762859f541eab2d686434cc727a3",
+  "chapters/OS01/figures/OS_vmm_layers.pdf": "4a7bf7a9651395db2139aeff0e11f93793e10ff4d48b3d002105cf34f996dee2",
+  "chapters/OS01/figures/OS_boot_chain.svg": "24bcd8804ead6865141be84af4bf8d66442965c4c8e52f189ce06b50adcd081b",
+  "chapters/OS01/figures/OS_vmm_layers.png": "b741153af7061fdeb45f56b90d69fb975ecb5834e8b41afd1370f67fc9c280b9",
+  "chapters/OS01/figures/OS_control_transfer.svg": "280e76a0ff438509187d042af32be835e6669c7579b41bd231f2d67ec456a6bf",
+  "chapters/OS01/figures/OS_interfaces.svg": "b289baa683e87d4bcbfc7fb8efb7c22cadd0df8f751d13a68fe908b5e6db58bc",
+  "chapters/OS01/figures/OS_boot_chain.pdf": "2af762fff7c107a02a5368bbe43caa4745ca2c628cd5e5ac84d800144f7adcd1",
+  "chapters/OS01/figures/OS_control_transfer.pdf": "9ade9ee28a941286530136d1c7076ec1441d4d4b32d5111431f9a012c1bade9d",
+  "chapters/OS01/figures/OS_vmm_layers.svg": "919fa6449044677460713cf8fb98f6617afb4713e9c8f855672c02d2b116c485",
+  "chapters/OS01/figures/OS_interfaces.png": "6cb68fe1bb0b59720e5f4c8f7fc14d033e31c0b019b814d7a77cc3566908fa1d",
+  "chapters/OS01/figures/OS_boot_chain.png": "eef5082120e3b6a61919562694843668714cc60bf3362d34d39dc79918ecd110"
+}

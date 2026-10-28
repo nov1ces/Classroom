@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="470" viewBox="0 0 980 470">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17212a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#17212a" stroke-linejoin="round">
+<text x="490" y="30" text-anchor="middle" font-size="22" font-weight="bold" fill="#17212a">MSS=1000 B；t₀窗口2000 B；门限8000 B</text>
+<text x="140" y="80" text-anchor="middle" font-size="24" font-weight="normal" fill="#17212a">甲</text>
+<line x1="140" y1="105" x2="140" y2="425" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="840" y="80" text-anchor="middle" font-size="24" font-weight="normal" fill="#17212a">乙</text>
+<line x1="840" y1="105" x2="840" y2="425" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="110" y="132" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">t₀</text>
+<text x="110" y="390" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">t₁</text>
+<line x1="140" y1="125" x2="840" y2="210" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="202" y="126.5" width="576" height="30" fill="white"/>
+<text x="490" y="150.5" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">seq=2001，1000 B数据</text>
+<line x1="140" y1="180" x2="840" y2="265" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="202" y="181.5" width="576" height="30" fill="white"/>
+<text x="490" y="205.5" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">seq=3001，1000 B数据</text>
+<line x1="840" y1="290" x2="140" y2="375" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="202" y="291.5" width="576" height="30" fill="white"/>
+<text x="490" y="315.5" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">seq=4001，ack_seq=3001，rcvwnd=4000 B</text>
+<line x1="140" y1="395" x2="190" y2="417" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="490" y="455" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">ACK只确认第一段；seq=3001的1000 B仍在途</text>
+</g></svg>

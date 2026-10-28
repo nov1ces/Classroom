@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="450" viewBox="0 0 900 450">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6" fill="none" stroke="#466C82" stroke-width="1.2"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<g font-family="Noto Sans CJK SC,Noto Sans SC,sans-serif" font-size="19" fill="#263945">
+<text x="450.0" y="30" text-anchor="middle" font-size="23" fill="#263945">
+<tspan x="450.0" dy="0">微程序控制：主存指令地址与控存微地址分属不同空间</tspan>
+</text>
+<rect x="20" y="80" width="210" height="85" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="125.0" y="115.84" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="125.0" dy="0">PC → 主存</tspan>
+<tspan x="125.0" dy="26.099999999999998">机器指令 → IR</tspan>
+</text>
+<rect x="345" y="60" width="235" height="90" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="462.5" y="98.34" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="462.5" dy="0">公共取指微程序</tspan>
+<tspan x="462.5" dy="26.099999999999998">CMAR选微指令地址</tspan>
+</text>
+<rect x="345" y="235" width="235" height="85" rx="7" fill="#DFEFE6" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="462.5" y="270.84000000000003" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="462.5" dy="0">微地址形成部件</tspan>
+<tspan x="462.5" dy="26.099999999999998">根据IR操作码分派</tspan>
+</text>
+<rect x="650" y="65" width="220" height="70" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="760.0" y="106.3" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="760.0" dy="0">LDA执行微程序</tspan>
+</text>
+<rect x="650" y="195" width="220" height="70" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="760.0" y="236.3" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="760.0" dy="0">STA执行微程序</tspan>
+</text>
+<rect x="650" y="325" width="220" height="70" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="760.0" y="366.3" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="760.0" dy="0">其他执行微程序</tspan>
+</text>
+<path d="M345,120 L230,120" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="287.5" y="111.0" text-anchor="middle" font-size="16" fill="#263945">
+<tspan x="287.5" dy="0">取指控制</tspan>
+</text>
+<path d="M125,165 V275 H345" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="230" y="265" text-anchor="middle" font-size="16" fill="#263945">
+<tspan x="230" dy="0">IR操作码</tspan>
+</text>
+<path d="M463,150 L463,235" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="477" y="198.5" text-anchor="start" font-size="16" fill="#263945">
+<tspan x="477" dy="0">取指结束</tspan>
+</text>
+<path d="M580,275 H610 V100 H650" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M580,275 L650,230" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M580,275 H610 V360 H650" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M760,65 V45 H465 V60" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="450" y="430" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="450" dy="0">执行结束回公共取指入口</tspan>
+</text>
+<text x="120" y="355" text-anchor="middle" font-size="19" fill="#263945">
+<tspan x="120" dy="0">主存：程序／数据</tspan>
+<tspan x="120" dy="27.55">控存CM：微指令</tspan>
+</text>
+</g></svg>

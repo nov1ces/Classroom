@@ -1,0 +1,386 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 1,
+        "anchor": "DS06-01",
+        "kind": "最小反例",
+        "title": "n减1条边不够判树",
+        "y": 375.68731689453125,
+        "estimated_height": 226.5,
+        "mini": true,
+        "measured_height": 189.99155
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        129.0489730834961
+      ],
+      [
+        142.18399047851562,
+        375.68731689453125
+      ],
+      [
+        155.69029235839844,
+        193.35226440429688
+      ],
+      [
+        188.10540771484375,
+        225.7673797607422
+      ],
+      [
+        220.52053833007812,
+        258.1824951171875
+      ],
+      [
+        252.9356689453125,
+        290.5976257324219
+      ],
+      [
+        285.35076904296875,
+        323.01275634765625
+      ],
+      [
+        317.7658996582031,
+        355.4278564453125
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "DS06-01",
+        "kind": "课程连接",
+        "title": "网络拓扑只是图的一种模型",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 76.78986
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 2,
+        "anchor": "DS06-02",
+        "kind": "错项排除",
+        "title": "零权边不是没有边",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 55.62787
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 12,
+        "anchor": "DS06-storage-code",
+        "kind": "条件辨析",
+        "title": "编号与顶点信息",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 45.09787
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 3,
+        "anchor": "DS06-03",
+        "kind": "不变量",
+        "title": "一条边结点参与两条链",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.16635
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 5,
+        "anchor": "DS06-05",
+        "kind": "最小反例",
+        "title": "边最少而权更大",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.11536
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "DS06-traversal-order",
+        "kind": "条件辨析",
+        "title": "三个顺序共同确定遍历",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 55.42386
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 8,
+    "sidebars": [
+      {
+        "index": 7,
+        "anchor": "DS06-06",
+        "kind": "错项排除",
+        "title": "同权不等于MST必不唯一",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 67.09286
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        310.9225158691406,
+        338.0130920410156
+      ],
+      [
+        328.08251953125,
+        367.1280822753906
+      ],
+      [
+        308.9954833984375,
+        321.79248046875
+      ],
+      [
+        326.45587158203125,
+        338.9541015625
+      ],
+      [
+        355.5715026855469,
+        368.3684997558594
+      ]
+    ]
+  },
+  {
+    "page": 9,
+    "sidebars": [
+      {
+        "index": 6,
+        "anchor": "DS06-mst-code",
+        "kind": "不变量",
+        "title": "Prim的key不是距离",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 55.85736
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 10,
+    "sidebars": [
+      {
+        "index": 9,
+        "anchor": "DS06-07",
+        "kind": "错项排除",
+        "title": "有负边与一定算错不同",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.13235
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 11,
+    "sidebars": [
+      {
+        "index": 8,
+        "anchor": "DS06-shortest-code",
+        "kind": "不变量",
+        "title": "已确定与暂定要分开",
+        "y": 168.6074981689453,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.14935
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        102.38710021972656
+      ],
+      [
+        80,
+        86.16749572753906
+      ],
+      [
+        90.82990264892578,
+        103.3281021118164
+      ],
+      [
+        155.8105010986328,
+        168.6074981689453
+      ]
+    ]
+  },
+  {
+    "page": 12,
+    "sidebars": [
+      {
+        "index": 15,
+        "anchor": "DS06-floyd-example",
+        "kind": "条件辨析",
+        "title": "path有两种语义",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 55.56836
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 13,
+    "sidebars": [
+      {
+        "index": 18,
+        "anchor": "DS06-08",
+        "kind": "不变量",
+        "title": "入度为零才可先执行",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 56.42685
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 14,
+    "sidebars": [
+      {
+        "index": 10,
+        "anchor": "DS06-topo-code",
+        "kind": "课程连接",
+        "title": "同步前驱约束就是偏序",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.28534
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 15,
+    "sidebars": [
+      {
+        "index": 17,
+        "anchor": "DS06-reverse-topo",
+        "kind": "条件辨析",
+        "title": "visited不足以判有向环",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.75787
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 16,
+    "sidebars": [
+      {
+        "index": 11,
+        "anchor": "DS06-aoe-code",
+        "kind": "错项排除",
+        "title": "缩短一条关键活动未必够",
+        "y": 180.56350708007812,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.13235
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        94.28179931640625,
+        179.3231201171875
+      ],
+      [
+        565.6515502929688,
+        590.9168090820312
+      ],
+      [
+        582.8125610351562,
+        631.9878540039062
+      ],
+      [
+        618.6775512695312,
+        681.6340942382812
+      ],
+      [
+        80,
+        86.16749572753906
+      ],
+      [
+        90.82990264892578,
+        103.3281021118164
+      ],
+      [
+        167.76651000976562,
+        180.56350708007812
+      ],
+      [
+        563.7255249023438,
+        576.5225219726562
+      ],
+      [
+        581.1849365234375,
+        593.68310546875
+      ],
+      [
+        670.0764770507812,
+        682.8734741210938
+      ]
+    ]
+  },
+  {
+    "page": 17,
+    "sidebars": [
+      {
+        "index": 11,
+        "anchor": "DS06-aoe-code",
+        "kind": "错项排除",
+        "title": "缩短一条关键活动未必够",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.13235
+      }
+    ],
+    "occupied_margin_intervals": []
+  }
+]

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<rect width="1200" height="650" fill="white"/>
+<g fill="#253d4a" font-family="Noto Sans CJK SC, sans-serif" font-size="23">
+<text x="40" y="34" font-size="25" font-weight="bold">单缓冲：工作区初始已满，系统缓冲区初始为空</text>
+<text x="40" y="85" font-size="22" font-weight="bold">T &gt; C：示意取 T=5，C=3，M=1；周期 T+M=6</text>
+<text x="215" y="133" text-anchor="end" font-size="20">设备 → 缓冲区</text>
+<line x1="230" y1="140" x2="1058" y2="140" stroke="#aab6bf" stroke-width="1"/>
+<rect x="230" y="108" width="230" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="345.0" y="131" text-anchor="middle" font-size="18">T</text>
+<rect x="506" y="108" width="230" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="621.0" y="131" text-anchor="middle" font-size="18">T</text>
+<rect x="782" y="108" width="230" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="897.0" y="131" text-anchor="middle" font-size="18">T</text>
+<text x="215" y="183" text-anchor="end" font-size="20">缓冲区 → 工作区</text>
+<line x1="230" y1="190" x2="1058" y2="190" stroke="#aab6bf" stroke-width="1"/>
+<rect x="460" y="158" width="46" height="32" rx="3" fill="#dcefe4" stroke="#536f7e"/>
+<text x="483.0" y="181" text-anchor="middle" font-size="18">M</text>
+<rect x="736" y="158" width="46" height="32" rx="3" fill="#dcefe4" stroke="#536f7e"/>
+<text x="759.0" y="181" text-anchor="middle" font-size="18">M</text>
+<rect x="1012" y="158" width="46" height="32" rx="3" fill="#dcefe4" stroke="#536f7e"/>
+<text x="1035.0" y="181" text-anchor="middle" font-size="18">M</text>
+<text x="215" y="233" text-anchor="end" font-size="20">CPU处理工作区</text>
+<line x1="230" y1="240" x2="1058" y2="240" stroke="#aab6bf" stroke-width="1"/>
+<rect x="230" y="208" width="138" height="32" rx="3" fill="#fff1cd" stroke="#536f7e"/>
+<text x="299.0" y="231" text-anchor="middle" font-size="18">C</text>
+<rect x="506" y="208" width="138" height="32" rx="3" fill="#fff1cd" stroke="#536f7e"/>
+<text x="575.0" y="231" text-anchor="middle" font-size="18">C</text>
+<rect x="782" y="208" width="138" height="32" rx="3" fill="#fff1cd" stroke="#536f7e"/>
+<text x="851.0" y="231" text-anchor="middle" font-size="18">C</text>
+<line x1="230" y1="255" x2="230" y2="263" stroke="#536f7e"/>
+<text x="230" y="286" text-anchor="middle" font-size="20">0</text>
+<line x1="506" y1="255" x2="506" y2="263" stroke="#536f7e"/>
+<text x="506" y="286" text-anchor="middle" font-size="20">6</text>
+<line x1="782" y1="255" x2="782" y2="263" stroke="#536f7e"/>
+<text x="782" y="286" text-anchor="middle" font-size="20">12</text>
+<line x1="1058" y1="255" x2="1058" y2="263" stroke="#536f7e"/>
+<text x="1058" y="286" text-anchor="middle" font-size="20">18</text>
+<text x="40" y="318" font-size="19">CPU在3–5等待输入；复制结束后系统缓冲区才可重新填入。</text>
+<text x="40" y="370" font-size="22" font-weight="bold">T &lt; C：示意取 T=3，C=5，M=1；周期 C+M=6</text>
+<text x="215" y="418" text-anchor="end" font-size="20">设备 → 缓冲区</text>
+<line x1="230" y1="425" x2="1058" y2="425" stroke="#aab6bf" stroke-width="1"/>
+<rect x="230" y="393" width="138" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="299.0" y="416" text-anchor="middle" font-size="18">T</text>
+<rect x="506" y="393" width="138" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="575.0" y="416" text-anchor="middle" font-size="18">T</text>
+<rect x="782" y="393" width="138" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="851.0" y="416" text-anchor="middle" font-size="18">T</text>
+<text x="215" y="468" text-anchor="end" font-size="20">缓冲区 → 工作区</text>
+<line x1="230" y1="475" x2="1058" y2="475" stroke="#aab6bf" stroke-width="1"/>
+<rect x="460" y="443" width="46" height="32" rx="3" fill="#dcefe4" stroke="#536f7e"/>
+<text x="483.0" y="466" text-anchor="middle" font-size="18">M</text>
+<rect x="736" y="443" width="46" height="32" rx="3" fill="#dcefe4" stroke="#536f7e"/>
+<text x="759.0" y="466" text-anchor="middle" font-size="18">M</text>
+<rect x="1012" y="443" width="46" height="32" rx="3" fill="#dcefe4" stroke="#536f7e"/>
+<text x="1035.0" y="466" text-anchor="middle" font-size="18">M</text>
+<text x="215" y="518" text-anchor="end" font-size="20">CPU处理工作区</text>
+<line x1="230" y1="525" x2="1058" y2="525" stroke="#aab6bf" stroke-width="1"/>
+<rect x="230" y="493" width="230" height="32" rx="3" fill="#fff1cd" stroke="#536f7e"/>
+<text x="345.0" y="516" text-anchor="middle" font-size="18">C</text>
+<rect x="506" y="493" width="230" height="32" rx="3" fill="#fff1cd" stroke="#536f7e"/>
+<text x="621.0" y="516" text-anchor="middle" font-size="18">C</text>
+<rect x="782" y="493" width="230" height="32" rx="3" fill="#fff1cd" stroke="#536f7e"/>
+<text x="897.0" y="516" text-anchor="middle" font-size="18">C</text>
+<line x1="230" y1="540" x2="230" y2="548" stroke="#536f7e"/>
+<text x="230" y="571" text-anchor="middle" font-size="20">0</text>
+<line x1="506" y1="540" x2="506" y2="548" stroke="#536f7e"/>
+<text x="506" y="571" text-anchor="middle" font-size="20">6</text>
+<line x1="782" y1="540" x2="782" y2="548" stroke="#536f7e"/>
+<text x="782" y="571" text-anchor="middle" font-size="20">12</text>
+<line x1="1058" y1="540" x2="1058" y2="548" stroke="#536f7e"/>
+<text x="1058" y="571" text-anchor="middle" font-size="20">18</text>
+<text x="40" y="603" font-size="19">缓冲区在3–5保持已满；复制须等CPU释放工作区。</text>
+</g></svg>

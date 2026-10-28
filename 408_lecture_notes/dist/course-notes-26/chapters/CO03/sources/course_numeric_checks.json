@@ -1,0 +1,85 @@
+{
+  "chapter": "CO03",
+  "status": "passed",
+  "method": "independent integer/fraction/IEEE and register-state calculations",
+  "checks": [
+    {
+      "case": "4M乘8位DRAM复用引脚",
+      "actual": "19",
+      "expected": "19",
+      "passed": true
+    },
+    {
+      "case": "256MiB芯片数量",
+      "actual": "64",
+      "expected": "64",
+      "passed": true
+    },
+    {
+      "case": "交叉存储体序列",
+      "actual": "[1, 2, 3, 0, 1, 2, 3, 0, 0]",
+      "expected": "[1, 2, 3, 0, 1, 2, 3, 0, 0]",
+      "passed": true
+    },
+    {
+      "case": "ROM/RAM分区芯片数",
+      "actual": "[2, 30]",
+      "expected": "[2, 30]",
+      "passed": true
+    },
+    {
+      "case": "片选111的字地址范围",
+      "actual": "[229376, 262143]",
+      "expected": "[229376, 262143]",
+      "passed": true
+    },
+    {
+      "case": "7200rpm单扇区平均ms",
+      "actual": "12.175",
+      "expected": "12.175",
+      "passed": true
+    },
+    {
+      "case": "读后写数组缺失率",
+      "actual": "1/8",
+      "expected": "1/8",
+      "passed": true
+    },
+    {
+      "case": "32KiB8路64B块字段",
+      "actual": "[64, 20]",
+      "expected": "[64, 20]",
+      "passed": true
+    },
+    {
+      "case": "4K字Cache总bit",
+      "actual": "151552",
+      "expected": "151552",
+      "passed": true
+    },
+    {
+      "case": "018H页框与840H偏移",
+      "actual": "100416",
+      "expected": "100416",
+      "passed": true
+    },
+    {
+      "case": "TLB标记位数",
+      "actual": "19",
+      "expected": "19",
+      "passed": true
+    },
+    {
+      "case": "TLB/Cache串行实例物理地址",
+      "actual": "[852, 177]",
+      "expected": "[852, 177]",
+      "passed": true
+    },
+    {
+      "case": "32bit物理标记行号偏移重组",
+      "actual": "852",
+      "expected": "852",
+      "passed": true
+    }
+  ]
+}

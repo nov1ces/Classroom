@@ -1,0 +1,238 @@
+{
+  "chapter": "CN06",
+  "primary_source": "Project Wangdao lecture PDFs in 【课件】计算机网络基础考点讲解",
+  "canonical_sha256": "a9e00fe9e35707292fc16855746542b689078df8b1761175d5842d0a27b37357",
+  "lecture_files": [
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.0 应用层Intro.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topics": [
+        "应用层任务及各应用所依赖的下层服务"
+      ],
+      "targets": [
+        "CN06-course-model"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "page_scope": "All source file pages indexed; verification is by knowledge group, not a claim that every source image was individually visually audited.",
+      "duplicate_handling": "Repeated animation text consolidated; informative state transitions retained in explanation and diagrams.",
+      "nonknowledge_material": "Course advertising, teacher biography and repeated syllabus displays remain in source inventory and are omitted from learning prose."
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.1 网络应用模型.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "topics": [
+        "C/S",
+        "P2P角色和模型比较"
+      ],
+      "targets": [
+        "CN06-01",
+        "CN06-course-model"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "page_scope": "All source file pages indexed; verification is by knowledge group, not a claim that every source image was individually visually audited.",
+      "duplicate_handling": "Repeated animation text consolidated; informative state transitions retained in explanation and diagrams.",
+      "nonknowledge_material": null
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "topics": [
+        "DNS名称层次",
+        "服务器",
+        "查询",
+        "缓存和记录"
+      ],
+      "targets": [
+        "CN06-02",
+        "CN06-03",
+        "CN06-ex1",
+        "CN06-course-dns-records"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "page_scope": "All source file pages indexed; verification is by knowledge group, not a claim that every source image was individually visually audited.",
+      "duplicate_handling": "Repeated animation text consolidated; informative state transitions retained in explanation and diagrams.",
+      "nonknowledge_material": null
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.3 FTP 文件传输协议.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "topics": [
+        "FTP主进程",
+        "控制数据连接",
+        "主动被动及LIST"
+      ],
+      "targets": [
+        "CN06-04",
+        "CN06-ex2",
+        "CN06-ex8"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "page_scope": "All source file pages indexed; verification is by knowledge group, not a claim that every source image was individually visually audited.",
+      "duplicate_handling": "Repeated animation text consolidated; informative state transitions retained in explanation and diagrams.",
+      "nonknowledge_material": null
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.4 电子邮件.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": [
+        "用户代理邮件服务器",
+        "SMTP/POP3",
+        "MIME和信封"
+      ],
+      "targets": [
+        "CN06-05",
+        "CN06-06",
+        "CN06-ex3",
+        "CN06-course-mail"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "page_scope": "All source file pages indexed; verification is by knowledge group, not a claim that every source image was individually visually audited.",
+      "duplicate_handling": "Repeated animation text consolidated; informative state transitions retained in explanation and diagrams.",
+      "nonknowledge_material": null
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.5 WWW和HTTP.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "topics": [
+        "WWW/URL",
+        "HTTP消息",
+        "连接",
+        "缓存",
+        "Cookie和时延"
+      ],
+      "targets": [
+        "CN06-07",
+        "CN06-08",
+        "CN06-ex4",
+        "CN06-ex5",
+        "CN06-ex6",
+        "CN06-ex7",
+        "CN06-course-http-message"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "page_scope": "All source file pages indexed; verification is by knowledge group, not a claim that every source image was individually visually audited.",
+      "duplicate_handling": "Repeated animation text consolidated; informative state transitions retained in explanation and diagrams.",
+      "nonknowledge_material": null
+    }
+  ],
+  "figures": [
+    {
+      "id": "CN14_dns_topology_2016",
+      "caption": "2016年共用拓扑；本题只使用H4及其默认DNS服务器201.1.1.1",
+      "editable_source": "figures/CN14_dns_topology_2016.svg",
+      "status": "redrawn",
+      "check_scope": "Existing editable diagram compared with current caption, numerical data and explanation; final placement reviewed in PDF."
+    },
+    {
+      "id": "CN12_http_pipeline",
+      "caption": "连接已建立时，HTML完成后才能发送三个图片请求；流水阶段可重叠",
+      "editable_source": "figures/CN12_http_pipeline.svg",
+      "status": "redrawn",
+      "check_scope": "Existing editable diagram compared with current caption, numerical data and explanation; final placement reviewed in PDF."
+    },
+    {
+      "id": "CN11_dns_web_2020",
+      "caption": "主机、本地DNS与路由器共享局域网，远程服务器分别承担名称解析和Web响应",
+      "editable_source": "figures/CN11_dns_web_2020.svg",
+      "status": "redrawn",
+      "check_scope": "Existing editable diagram compared with current caption, numerical data and explanation; final placement reviewed in PDF."
+    },
+    {
+      "id": "CN26_ftp_2023",
+      "caption": "H经交换机、路由器访问Internet中的FTP服务器，控制连接与数据连接均由TCP承载",
+      "editable_source": "figures/CN26_ftp_2023.svg",
+      "status": "redrawn",
+      "check_scope": "Existing editable diagram compared with current caption, numerical data and explanation; final placement reviewed in PDF."
+    },
+    {
+      "id": "CN27_dns_switch_2021",
+      "caption": "本地DNS接S的1口，R接2口，H2接3口，H1接4口；四者同属192.168.1.0/25",
+      "editable_source": "figures/CN27_dns_switch_2021.svg",
+      "status": "redrawn",
+      "check_scope": "Existing editable diagram compared with current caption, numerical data and explanation; final placement reviewed in PDF."
+    },
+    {
+      "id": "CN_course_mail_flow",
+      "caption": "邮件系统的提交、转送和读取路径",
+      "editable_source": "figures/CN_course_mail_flow.svg",
+      "status": "redrawn",
+      "check_scope": "New course diagram viewed full size; reused diagram retained after content/label review and final PDF review."
+    }
+  ],
+  "unresolved": [],
+  "review_boundaries": [
+    "Source text extraction is separate from content review.",
+    "Coverage targets are knowledge groups; source animation display pages are consolidated.",
+    "Source-image visual checks are targeted; final PDF pages and the six new course figures are all reviewed separately."
+  ]
+}

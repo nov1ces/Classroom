@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="740" viewBox="0 0 1240 740">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#425f72"/></marker></defs>
+<rect width="1240" height="740" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#223644">
+<text x="35" y="38" font-size="30" fill="#223644" text-anchor="start">DMA 控制器与通道程序：硬件分工</text>
+<text x="30" y="78" font-size="27" fill="#223644" text-anchor="start">DMA 控制器</text>
+<rect x="35" y="112" width="130" height="120" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="100.0" y="181.1" text-anchor="middle" font-size="26">CPU</text>
+<rect x="35" y="320" width="130" height="120" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="100.0" y="389.1" text-anchor="middle" font-size="26">内存</text>
+<rect x="255" y="100" width="400" height="460" rx="10" fill="#f4f8fa" stroke="#7796a5" stroke-width="2"/>
+<text x="455" y="137" font-size="25" fill="#223644" text-anchor="middle">DMA 控制器</text>
+<rect x="280" y="155" width="245" height="60" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="402.5" y="192.0" text-anchor="middle" font-size="20">DR 数据寄存器</text>
+<rect x="280" y="235" width="245" height="60" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="402.5" y="272.0" text-anchor="middle" font-size="20">MAR 内存地址寄存器</text>
+<rect x="280" y="315" width="245" height="60" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="402.5" y="352.0" text-anchor="middle" font-size="20">DC 数据计数器</text>
+<rect x="280" y="395" width="245" height="60" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="402.5" y="432.0" text-anchor="middle" font-size="20">CR 命令／状态寄存器</text>
+<rect x="550" y="240" width="85" height="150" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="592.5" y="297.2" text-anchor="middle" font-size="20">I/O</text>
+<text x="592.5" y="322.0" text-anchor="middle" font-size="20">控制</text>
+<text x="592.5" y="346.8" text-anchor="middle" font-size="20">逻辑</text>
+<rect x="700" y="245" width="140" height="115" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="770.0" y="310.9" text-anchor="middle" font-size="24">设备</text>
+<path d="M165 170 H253" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="170" y="155" font-size="18" fill="#223644" text-anchor="start">命令与参数</text>
+<path d="M255 390 H168" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M168 418 H255" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="170" y="458" font-size="20" fill="#223644" text-anchor="start">数据</text>
+<path d="M655 277 H698" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M700 313 H657" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="657" y="239" font-size="18" fill="#223644" text-anchor="start">数据／控制</text>
+<path d="M255 206 H168" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="170" y="230" font-size="18" fill="#223644" text-anchor="start">完成中断</text>
+<text x="35" y="615" font-size="24" fill="#223644" text-anchor="start">输入：设备 → DR → 内存；输出：内存 → DR → 设备。</text>
+<text x="35" y="653" font-size="22" fill="#223644" text-anchor="start">MAR 指向本次主存地址，DC 保存剩余计数；完成后向 CPU 报告。</text>
+<text x="35" y="691" font-size="22" fill="#223644" text-anchor="start">通道从内存取通道程序，控制多设备传送；整组任务结束后中断 CPU。</text>
+</g></svg>

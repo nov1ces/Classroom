@@ -1,0 +1,308 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "DS02-01",
+        "kind": "最小反例",
+        "title": "容量不等于表长",
+        "y": 343.272216796875,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.16635
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        129.8519515991211
+      ],
+      [
+        142.18402099609375,
+        343.272216796875
+      ],
+      [
+        155.69032287597656,
+        193.352294921875
+      ],
+      [
+        188.10543823242188,
+        225.7674102783203
+      ],
+      [
+        220.52056884765625,
+        258.1825256347656
+      ],
+      [
+        252.9356689453125,
+        290.59765625
+      ],
+      [
+        285.3507995605469,
+        323.01275634765625
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 1,
+        "anchor": "DS02-code-seq",
+        "kind": "不变量",
+        "title": "搬移保护未读区",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.14935
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "DS02-seq-update",
+        "kind": "辨析",
+        "title": "失败不能改状态",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.73236
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 15,
+        "anchor": "DS02-dynamic",
+        "kind": "辨析",
+        "title": "动态仍然连续",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 45.66736
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 3,
+        "anchor": "DS02-03",
+        "kind": "最小反例",
+        "title": "两句交换会丢链",
+        "y": 95,
+        "estimated_height": 206.2,
+        "mini": true,
+        "measured_height": 159.0712
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 6,
+        "anchor": "DS02-ex2",
+        "kind": "不变量",
+        "title": "固定间隔保持到尾",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.20886
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [
+      {
+        "index": 7,
+        "anchor": "DS02-ex3",
+        "kind": "最小反例",
+        "title": "旧前驱必须还能取得",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.18335
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 8,
+    "sidebars": [
+      {
+        "index": 9,
+        "anchor": "DS02-ex5",
+        "kind": "错项排除",
+        "title": "字符相同不等于共享",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.14935
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [
+      {
+        "index": 10,
+        "anchor": "DS02-ex6",
+        "kind": "最小反例",
+        "title": "剩下候选仍需复核",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.12387
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 10,
+    "sidebars": [
+      {
+        "index": 4,
+        "anchor": "DS02-code-link",
+        "kind": "不变量",
+        "title": "头结点不随表空而消失",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.42136
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 11,
+    "sidebars": [
+      {
+        "index": 17,
+        "anchor": "DS02-nohead",
+        "kind": "辨析",
+        "title": "第一位改谁",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.72388
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 12,
+    "sidebars": [
+      {
+        "index": 18,
+        "anchor": "DS02-build",
+        "kind": "辨析",
+        "title": "尾插不能反复找尾",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.73236
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 13,
+    "sidebars": [
+      {
+        "index": 19,
+        "anchor": "DS02-double-code",
+        "kind": "辨析",
+        "title": "循环终止条件",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.72388
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 14,
+    "sidebars": [
+      {
+        "index": 12,
+        "anchor": "DS02-compare",
+        "kind": "课程连接",
+        "title": "表示影响访问局部性",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.20035
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        656.9495849609375,
+        682.21484375
+      ],
+      [
+        674.1105346679688,
+        759.15087890625
+      ],
+      [
+        655.0234985351562,
+        667.8204956054688
+      ],
+      [
+        672.48291015625,
+        684.9810791015625
+      ],
+      [
+        749.4194946289062,
+        762.2164916992188
+      ]
+    ]
+  },
+  {
+    "page": 15,
+    "sidebars": [
+      {
+        "index": 11,
+        "anchor": "DS02-filter",
+        "kind": "不变量",
+        "title": "删后检查新后继",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 55.44937
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 16,
+    "sidebars": [
+      {
+        "index": 21,
+        "anchor": "DS02-check",
+        "kind": "自查提示",
+        "title": "区分定位与修改",
+        "y": 95,
+        "estimated_height": 46.4,
+        "mini": false,
+        "measured_height": 34.16837
+      }
+    ],
+    "occupied_margin_intervals": []
+  }
+]

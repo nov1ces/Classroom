@@ -1,0 +1,310 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 17,
+        "anchor": "OS01-guide",
+        "kind": "课程连接",
+        "title": "运行环境",
+        "y": 406.5436096191406,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 45.08087
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        129.8519515991211
+      ],
+      [
+        140.6251678466797,
+        406.5436096191406
+      ],
+      [
+        154.1314697265625,
+        191.79344177246094
+      ],
+      [
+        186.5465850830078,
+        224.20855712890625
+      ],
+      [
+        218.96170043945312,
+        256.6236877441406
+      ],
+      [
+        251.3768310546875,
+        289.038818359375
+      ],
+      [
+        283.79193115234375,
+        321.45391845703125
+      ],
+      [
+        316.20709228515625,
+        353.8690185546875
+      ],
+      [
+        348.6221923828125,
+        386.2841796875
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "OS01-1-1",
+        "kind": "最小反例",
+        "title": "单核也有并发",
+        "y": 95,
+        "estimated_height": 206.2,
+        "mini": true,
+        "measured_height": 180.32867
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 10,
+        "anchor": "OS01-interfaces",
+        "kind": "概念辨析",
+        "title": "脱机并不等于离线网络",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 55.70438
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 1,
+        "anchor": "OS01-1-2",
+        "kind": "错项排除",
+        "title": "实时性的判据是期限",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 76.80685
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        348.0765380859375,
+        373.34185791015625
+      ],
+      [
+        365.2365417480469,
+        414.412841796875
+      ],
+      [
+        346.1495056152344,
+        358.9465026855469
+      ],
+      [
+        363.6098937988281,
+        376.1081237792969
+      ],
+      [
+        404.6805114746094,
+        417.4775085449219
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 2,
+        "anchor": "OS01-1-3",
+        "kind": "最小反例",
+        "title": "内核也要做普通加法",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 76.81537
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 4,
+        "anchor": "OS01-1-5",
+        "kind": "错项排除",
+        "title": "系统调用不保证阻塞",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 76.95135
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [
+      {
+        "index": 5,
+        "anchor": "OS01-1-6",
+        "kind": "不变量",
+        "title": "先判范围，再求和",
+        "y": 95,
+        "estimated_height": 99.89999999999999,
+        "mini": false,
+        "measured_height": 76.86636
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        464.5995178222656,
+        489.8648376464844
+      ],
+      [
+        481.759521484375,
+        554.8457641601562
+      ],
+      [
+        462.6725158691406,
+        475.4695129394531
+      ],
+      [
+        480.13287353515625,
+        492.631103515625
+      ],
+      [
+        545.1134643554688,
+        557.9104614257812
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "sidebars": [
+      {
+        "index": 6,
+        "anchor": "OS01-1-7",
+        "kind": "课程连接",
+        "title": "指针自身与所指对象分开",
+        "y": 95,
+        "estimated_height": 99.89999999999999,
+        "mini": false,
+        "measured_height": 76.96835
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [
+      {
+        "index": 13,
+        "anchor": "OS01-kernel-primitives",
+        "kind": "适用边界",
+        "title": "关中断的作用范围",
+        "y": 303.9205017089844,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 55.43237
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        150.83253479003906,
+        176.0978240966797
+      ],
+      [
+        167.99354553222656,
+        300.8558654785156
+      ],
+      [
+        148.906494140625,
+        161.7034912109375
+      ],
+      [
+        166.3658905029297,
+        178.8640899658203
+      ],
+      [
+        291.1235046386719,
+        303.9205017089844
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "sidebars": [
+      {
+        "index": 8,
+        "anchor": "OS01-1-9",
+        "kind": "课程连接",
+        "title": "开机结构与磁盘格式不同",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 76.95135
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 11,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "OS01-vmm-models",
+        "kind": "抽象层次",
+        "title": "客户与宿主分开判断",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 55.46637
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 12,
+    "sidebars": [
+      {
+        "index": 18,
+        "anchor": "OS01-1-review",
+        "kind": "课程连接",
+        "title": "回忆顺序",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 34.27036
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 13,
+    "sidebars": [
+      {
+        "index": 19,
+        "anchor": "OS01-recall",
+        "kind": "课程连接",
+        "title": "自主检验",
+        "y": 95,
+        "estimated_height": 46.4,
+        "mini": false,
+        "measured_height": 34.27887
+      }
+    ],
+    "occupied_margin_intervals": []
+  }
+]

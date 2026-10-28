@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="670" viewBox="0 0 900 670">
+<defs><marker id="alloc" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#35896d"/></marker><marker id="request" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8Z" fill="#486c91"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC,sans-serif" fill="#203640" font-size="25">
+<rect x="8" y="65" width="875" height="520" rx="8" fill="#fcfdfd" stroke="#b3c5cc"/>
+<text x="445" y="40" font-size="27" text-anchor="middle">① P1 请求一个 R2：可化简</text>
+<rect x="100" y="230" width="170" height="105" rx="4" fill="#e2efdc" stroke="#6c9982" stroke-width="2"/>
+<text x="185" y="224" font-size="25" text-anchor="middle">R1</text>
+<rect x="660" y="230" width="170" height="105" rx="4" fill="#e2efdc" stroke="#6c9982" stroke-width="2"/>
+<text x="745" y="224" font-size="25" text-anchor="middle">R2</text>
+<circle cx="130" cy="260" r="15" fill="#f6ad69" stroke="#b66d3a"/>
+<circle cx="130" cy="310" r="15" fill="#f6ad69" stroke="#b66d3a"/>
+<circle cx="205" cy="285" r="15" fill="#f6ad69" stroke="#b66d3a"/>
+<circle cx="690" cy="270" r="15" fill="#f6ad69" stroke="#b66d3a"/>
+<circle cx="760" cy="295" r="15" fill="#f6ad69" stroke="#b66d3a"/>
+<path d="M130,260 L408,137" fill="none" stroke="#35896d" stroke-width="4" marker-end="url(#alloc)"/>
+<path d="M130,310 L418,148" fill="none" stroke="#35896d" stroke-width="4" marker-end="url(#alloc)"/>
+<path d="M205,285 L405,408" fill="none" stroke="#35896d" stroke-width="4" marker-end="url(#alloc)"/>
+<path d="M690,270 L455,410" fill="none" stroke="#35896d" stroke-width="4" marker-end="url(#alloc)"/>
+<path d="M455,132 L655,247" fill="none" stroke="#486c91" stroke-width="4" marker-end="url(#request)"/>
+<path d="M401,430 Q270,485 225,340" fill="none" stroke="#486c91" stroke-width="4" marker-end="url(#request)"/>
+<circle cx="435" cy="108" r="39" fill="#dcecf5" stroke="#64879d" stroke-width="2"/>
+<text x="435" y="117" font-size="26" text-anchor="middle">P1</text>
+<circle cx="435" cy="445" r="39" fill="#dcecf5" stroke="#64879d" stroke-width="2"/>
+<text x="435" y="454" font-size="26" text-anchor="middle">P2</text>
+<text x="445" y="552" font-size="22" text-anchor="middle">空闲 (R1,R2)=(0,1)：P1 → P2，图可完全化简</text>
+<rect x="908" y="65" width="875" height="520" rx="8" fill="#fcfdfd" stroke="#b3c5cc"/>
+<text x="1345" y="40" font-size="27" text-anchor="middle">② P1 请求两个 R2：不可完全化简</text>
+<rect x="1000" y="230" width="170" height="105" rx="4" fill="#e2efdc" stroke="#6c9982" stroke-width="2"/>
+<text x="1085" y="224" font-size="25" text-anchor="middle">R1</text>
+<rect x="1560" y="230" width="170" height="105" rx="4" fill="#e2efdc" stroke="#6c9982" stroke-width="2"/>
+<text x="1645" y="224" font-size="25" text-anchor="middle">R2</text>
+<circle cx="1030" cy="260" r="15" fill="#f6ad69" stroke="#b66d3a"/>
+<circle cx="1030" cy="310" r="15" fill="#f6ad69" stroke="#b66d3a"/>
+<circle cx="1105" cy="285" r="15" fill="#f6ad69" stroke="#b66d3a"/>
+<circle cx="1590" cy="270" r="15" fill="#f6ad69" stroke="#b66d3a"/>
+<circle cx="1660" cy="295" r="15" fill="#f6ad69" stroke="#b66d3a"/>
+<path d="M1030,260 L1308,137" fill="none" stroke="#35896d" stroke-width="4" marker-end="url(#alloc)"/>
+<path d="M1030,310 L1318,148" fill="none" stroke="#35896d" stroke-width="4" marker-end="url(#alloc)"/>
+<path d="M1105,285 L1305,408" fill="none" stroke="#35896d" stroke-width="4" marker-end="url(#alloc)"/>
+<path d="M1590,270 L1355,410" fill="none" stroke="#35896d" stroke-width="4" marker-end="url(#alloc)"/>
+<path d="M1355,132 L1555,247" fill="none" stroke="#486c91" stroke-width="4" marker-end="url(#request)"/>
+<path d="M1366,146 L1553,263" fill="none" stroke="#486c91" stroke-width="4" marker-end="url(#request)"/>
+<path d="M1301,430 Q1170,485 1125,340" fill="none" stroke="#486c91" stroke-width="4" marker-end="url(#request)"/>
+<path d="M1660,280 L1678,153" fill="none" stroke="#35896d" stroke-width="4" marker-end="url(#alloc)"/>
+<circle cx="1680" cy="112" r="39" fill="#dcecf5" stroke="#64879d" stroke-width="2"/>
+<text x="1680" y="121" font-size="26" text-anchor="middle">P3</text>
+<circle cx="1335" cy="108" r="39" fill="#dcecf5" stroke="#64879d" stroke-width="2"/>
+<text x="1335" y="117" font-size="26" text-anchor="middle">P1</text>
+<circle cx="1335" cy="445" r="39" fill="#dcecf5" stroke="#64879d" stroke-width="2"/>
+<text x="1335" y="454" font-size="26" text-anchor="middle">P2</text>
+<text x="1345" y="552" font-size="22" text-anchor="middle">P3 可先释放；随后 P1 与 P2 仍互相等待</text>
+</g></svg>

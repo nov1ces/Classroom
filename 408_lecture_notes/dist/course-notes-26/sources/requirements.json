@@ -1,0 +1,30 @@
+{
+  "subjects": {
+    "DS": 8,
+    "CO": 7,
+    "OS": 5,
+    "CN": 6
+  },
+  "source_priority": [
+    "project_slides",
+    "Wangdao_2027",
+    "blog_reference"
+  ],
+  "code_primary": "Wangdao_2027",
+  "yan_reference": "only with verifiable edition and source",
+  "print_mode": "simplex",
+  "artifacts": [
+    "chapter_pdfs",
+    "subject_pdfs",
+    "combined_pdf",
+    "markdown",
+    "latex",
+    "svg",
+    "png",
+    "source_bundle"
+  ],
+  "started_utc": "2026-10-26T17:03:02.387707+00:00",
+  "status": "in_progress",
+  "primary_source_definition": "项目四科【课件】基础考点讲解目录中的王道课件；逐份课件作为正文范围依据。",
+  "reference_policy": "王道教材核验代码和结论；博客参考讲解与组织；独立导图仅作查漏辅助。"
+}

@@ -1,0 +1,180 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="540" viewBox="0 0 920 540">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8z" fill="#446577"/></marker></defs>
+<rect width="920" height="540" fill="white"/>
+<g font-family="Noto Sans CJK SC,sans-serif" fill="#253c48" font-size="16">
+<text x="460" y="28" text-anchor="middle" font-size="20" font-weight="bold">课件示例：SSD闪存组织</text>
+<rect x="130" y="45" width="660" height="36" rx="4" fill="#e5eef2" stroke="#7b9ba8"/><text x="460" y="69" text-anchor="middle">I/O总线：主机给出待读写的逻辑块号</text>
+<path d="M460 81V96" stroke="#446577" stroke-width="2" marker-end="url(#a)"/>
+<rect x="270" y="101" width="380" height="38" rx="4" fill="#e2f0e7" stroke="#7b9ba8"/><text x="460" y="126" text-anchor="middle">闪存翻译层：逻辑块号映射为物理地址</text>
+<path d="M460 139V160" stroke="#446577" stroke-width="2" marker-end="url(#a)"/>
+<text x="460" y="179" text-anchor="middle">四个闪存芯片组成的芯片组</text>
+<rect x="20" y="192" width="210" height="285" rx="4" fill="#f4f7f9" stroke="#8aa1aa"/>
+<text x="125" y="218" text-anchor="middle" font-weight="bold">闪存芯片0</text>
+<rect x="28" y="229" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="34" y="257">块0</text>
+<rect x="75" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="92.5" y="257" font-size="13" text-anchor="middle">页0</text>
+<rect x="110" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="127.5" y="257" font-size="13" text-anchor="middle">页1</text>
+<rect x="145" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="162.5" y="257" font-size="13" text-anchor="middle">…</text>
+<rect x="180" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="197.5" y="257" font-size="13" text-anchor="middle">页n</text>
+<rect x="28" y="284" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="34" y="312">块1</text>
+<rect x="75" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="92.5" y="312" font-size="13" text-anchor="middle">页0</text>
+<rect x="110" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="127.5" y="312" font-size="13" text-anchor="middle">页1</text>
+<rect x="145" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="162.5" y="312" font-size="13" text-anchor="middle">…</text>
+<rect x="180" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="197.5" y="312" font-size="13" text-anchor="middle">页n</text>
+<rect x="28" y="339" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="34" y="367">块2</text>
+<rect x="75" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="92.5" y="367" font-size="13" text-anchor="middle">页0</text>
+<rect x="110" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="127.5" y="367" font-size="13" text-anchor="middle">页1</text>
+<rect x="145" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="162.5" y="367" font-size="13" text-anchor="middle">…</text>
+<rect x="180" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="197.5" y="367" font-size="13" text-anchor="middle">页n</text>
+<rect x="28" y="394" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="34" y="422">块m</text>
+<rect x="75" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="92.5" y="422" font-size="13" text-anchor="middle">页0</text>
+<rect x="110" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="127.5" y="422" font-size="13" text-anchor="middle">页1</text>
+<rect x="145" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="162.5" y="422" font-size="13" text-anchor="middle">…</text>
+<rect x="180" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="197.5" y="422" font-size="13" text-anchor="middle">页n</text>
+<rect x="245" y="192" width="210" height="285" rx="4" fill="#f4f7f9" stroke="#8aa1aa"/>
+<text x="350" y="218" text-anchor="middle" font-weight="bold">闪存芯片1</text>
+<rect x="253" y="229" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="259" y="257">块0</text>
+<rect x="300" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="317.5" y="257" font-size="13" text-anchor="middle">页0</text>
+<rect x="335" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="352.5" y="257" font-size="13" text-anchor="middle">页1</text>
+<rect x="370" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="387.5" y="257" font-size="13" text-anchor="middle">…</text>
+<rect x="405" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="422.5" y="257" font-size="13" text-anchor="middle">页n</text>
+<rect x="253" y="284" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="259" y="312">块1</text>
+<rect x="300" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="317.5" y="312" font-size="13" text-anchor="middle">页0</text>
+<rect x="335" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="352.5" y="312" font-size="13" text-anchor="middle">页1</text>
+<rect x="370" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="387.5" y="312" font-size="13" text-anchor="middle">…</text>
+<rect x="405" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="422.5" y="312" font-size="13" text-anchor="middle">页n</text>
+<rect x="253" y="339" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="259" y="367">块2</text>
+<rect x="300" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="317.5" y="367" font-size="13" text-anchor="middle">页0</text>
+<rect x="335" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="352.5" y="367" font-size="13" text-anchor="middle">页1</text>
+<rect x="370" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="387.5" y="367" font-size="13" text-anchor="middle">…</text>
+<rect x="405" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="422.5" y="367" font-size="13" text-anchor="middle">页n</text>
+<rect x="253" y="394" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="259" y="422">块m</text>
+<rect x="300" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="317.5" y="422" font-size="13" text-anchor="middle">页0</text>
+<rect x="335" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="352.5" y="422" font-size="13" text-anchor="middle">页1</text>
+<rect x="370" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="387.5" y="422" font-size="13" text-anchor="middle">…</text>
+<rect x="405" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="422.5" y="422" font-size="13" text-anchor="middle">页n</text>
+<rect x="470" y="192" width="210" height="285" rx="4" fill="#f4f7f9" stroke="#8aa1aa"/>
+<text x="575" y="218" text-anchor="middle" font-weight="bold">闪存芯片2</text>
+<rect x="478" y="229" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="484" y="257">块0</text>
+<rect x="525" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="542.5" y="257" font-size="13" text-anchor="middle">页0</text>
+<rect x="560" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="577.5" y="257" font-size="13" text-anchor="middle">页1</text>
+<rect x="595" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="612.5" y="257" font-size="13" text-anchor="middle">…</text>
+<rect x="630" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="647.5" y="257" font-size="13" text-anchor="middle">页n</text>
+<rect x="478" y="284" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="484" y="312">块1</text>
+<rect x="525" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="542.5" y="312" font-size="13" text-anchor="middle">页0</text>
+<rect x="560" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="577.5" y="312" font-size="13" text-anchor="middle">页1</text>
+<rect x="595" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="612.5" y="312" font-size="13" text-anchor="middle">…</text>
+<rect x="630" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="647.5" y="312" font-size="13" text-anchor="middle">页n</text>
+<rect x="478" y="339" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="484" y="367">块2</text>
+<rect x="525" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="542.5" y="367" font-size="13" text-anchor="middle">页0</text>
+<rect x="560" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="577.5" y="367" font-size="13" text-anchor="middle">页1</text>
+<rect x="595" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="612.5" y="367" font-size="13" text-anchor="middle">…</text>
+<rect x="630" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="647.5" y="367" font-size="13" text-anchor="middle">页n</text>
+<rect x="478" y="394" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="484" y="422">块m</text>
+<rect x="525" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="542.5" y="422" font-size="13" text-anchor="middle">页0</text>
+<rect x="560" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="577.5" y="422" font-size="13" text-anchor="middle">页1</text>
+<rect x="595" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="612.5" y="422" font-size="13" text-anchor="middle">…</text>
+<rect x="630" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="647.5" y="422" font-size="13" text-anchor="middle">页n</text>
+<rect x="695" y="192" width="210" height="285" rx="4" fill="#f4f7f9" stroke="#8aa1aa"/>
+<text x="800" y="218" text-anchor="middle" font-weight="bold">闪存芯片3</text>
+<rect x="703" y="229" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="709" y="257">块0</text>
+<rect x="750" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="767.5" y="257" font-size="13" text-anchor="middle">页0</text>
+<rect x="785" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="802.5" y="257" font-size="13" text-anchor="middle">页1</text>
+<rect x="820" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="837.5" y="257" font-size="13" text-anchor="middle">…</text>
+<rect x="855" y="237" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="872.5" y="257" font-size="13" text-anchor="middle">页n</text>
+<rect x="703" y="284" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="709" y="312">块1</text>
+<rect x="750" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="767.5" y="312" font-size="13" text-anchor="middle">页0</text>
+<rect x="785" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="802.5" y="312" font-size="13" text-anchor="middle">页1</text>
+<rect x="820" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="837.5" y="312" font-size="13" text-anchor="middle">…</text>
+<rect x="855" y="292" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="872.5" y="312" font-size="13" text-anchor="middle">页n</text>
+<rect x="703" y="339" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="709" y="367">块2</text>
+<rect x="750" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="767.5" y="367" font-size="13" text-anchor="middle">页0</text>
+<rect x="785" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="802.5" y="367" font-size="13" text-anchor="middle">页1</text>
+<rect x="820" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="837.5" y="367" font-size="13" text-anchor="middle">…</text>
+<rect x="855" y="347" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="872.5" y="367" font-size="13" text-anchor="middle">页n</text>
+<rect x="703" y="394" width="194" height="45" fill="white" stroke="#a2b5bb"/>
+<text x="709" y="422">块m</text>
+<rect x="750" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="767.5" y="422" font-size="13" text-anchor="middle">页0</text>
+<rect x="785" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="802.5" y="422" font-size="13" text-anchor="middle">页1</text>
+<rect x="820" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="837.5" y="422" font-size="13" text-anchor="middle">…</text>
+<rect x="855" y="402" width="35" height="29" fill="#e3eff3" stroke="#a2b5bb"/>
+<text x="872.5" y="422" font-size="13" text-anchor="middle">页n</text>
+<text x="460" y="510" text-anchor="middle">课件示意：块约16–512 KB；页约512 B–4 KB（具体取值依设备而异）</text>
+</g></svg>

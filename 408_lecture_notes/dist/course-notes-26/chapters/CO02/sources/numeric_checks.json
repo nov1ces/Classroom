@@ -1,0 +1,93 @@
+{
+  "chapter": "CO02",
+  "checks": [
+    {
+      "name": "4位全部输入加减进位/溢出/分支独立对照",
+      "cases": 512,
+      "passed": true
+    },
+    {
+      "name": "8位全部输入加减进位/溢出/分支独立对照",
+      "cases": 131072,
+      "passed": true
+    },
+    {
+      "name": "13×11无符号移位累加轨迹",
+      "actual": [
+        [
+          6,
+          13
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          8,
+          15
+        ]
+      ],
+      "expected": [
+        [
+          6,
+          13
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          4,
+          15
+        ],
+        [
+          8,
+          15
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "4位补码Booth全部256组含最小负数对照",
+      "passed": true
+    },
+    {
+      "name": "-3×6的8位补码",
+      "actual": "11101110",
+      "expected": "11101110",
+      "passed": true
+    },
+    {
+      "name": "4位无符号逐位除法240组对照",
+      "passed": true
+    },
+    {
+      "name": "单精度最近偶数4组",
+      "actual": [
+        16777216.0,
+        16777216.0,
+        16777218.0,
+        16777220.0
+      ],
+      "expected": [
+        16777216.0,
+        16777216.0,
+        16777218.0,
+        16777220.0
+      ],
+      "passed": true
+    },
+    {
+      "name": "-5.25单精度编码",
+      "actual": "c0a80000",
+      "expected": "c0a80000",
+      "passed": true
+    }
+  ],
+  "status": "passed",
+  "method": "independent arithmetic/bit-level models; full document numerical review continues at integration"
+}

@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-27T00:25:03.842729+00:00",
+  "content_sha256": "6839c4ab16e43f99309575f462105b15fdc26d8c8aacb56e3fd3d8596459a1d7",
+  "tests": [
+    {
+      "source": "code/verify_textbook.cpp",
+      "compiler_flags": [
+        "-std=c++11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-fsanitize=address,undefined",
+        "-fno-omit-frame-pointer",
+        "-g"
+      ],
+      "exit_code": 0,
+      "output": "DFS/BFS order, cycles, disconnected and directed traversal passed\n",
+      "stderr": "",
+      "source_sha256": "4cb0e9a51fa2e349e3b812024f135b305992cce627c403dd74b2ebefbc1c7d36"
+    }
+  ],
+  "all_passed": true,
+  "scope": "Existing harness algorithms and tested cases; see source for exact coverage."
+}

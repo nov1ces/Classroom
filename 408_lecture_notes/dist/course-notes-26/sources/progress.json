@@ -1,0 +1,221 @@
+{
+  "status": "in_progress",
+  "updated_utc": "2026-10-28 13:10 UTC",
+  "chapters": [
+    {
+      "id": "CN01",
+      "pages": 11,
+      "lecture_files": 9,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "CN02",
+      "pages": 8,
+      "lecture_files": 5,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "CN03",
+      "pages": 19,
+      "lecture_files": 22,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "CN04",
+      "pages": 21,
+      "lecture_files": 26,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "CN05",
+      "pages": 16,
+      "lecture_files": 10,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "CN06",
+      "pages": 15,
+      "lecture_files": 6,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "CO01",
+      "pages": 9,
+      "lecture_files": 8,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "CO02",
+      "pages": 19,
+      "lecture_files": 26,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "CO03",
+      "pages": 22,
+      "lecture_files": 13,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "CO04",
+      "pages": 14,
+      "lecture_files": 13,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "CO05",
+      "pages": 19,
+      "lecture_files": 14,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "CO06",
+      "pages": 8,
+      "lecture_files": 5,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "CO07",
+      "pages": 11,
+      "lecture_files": 8,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "DS01",
+      "pages": 9,
+      "lecture_files": 5,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "DS02",
+      "pages": 16,
+      "lecture_files": 12,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "DS03",
+      "pages": 17,
+      "lecture_files": 13,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "DS04",
+      "pages": 9,
+      "lecture_files": 6,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "DS05",
+      "pages": 19,
+      "lecture_files": 17,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "DS06",
+      "pages": 17,
+      "lecture_files": 14,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "DS07",
+      "pages": 19,
+      "lecture_files": 18,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "DS08",
+      "pages": 18,
+      "lecture_files": 16,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "OS01",
+      "pages": 13,
+      "lecture_files": 11,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    },
+    {
+      "id": "OS02",
+      "pages": 53,
+      "lecture_files": 31,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": [
+        "31份课件共336页已按两轮2.1／2.2与两轮2.3／2.4来源审阅逐页浏览联系图，并对照已记录的重点图、代码及算例。联系图小字、逐帧动画和全部例题步骤并未逐项放大核验，具体浏览范围及发现见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json、os02_sync_deadlock_followup.json、os02_sync_models_followup.json。映射和联系图浏览不构成逐字逐图全面核验。"
+      ]
+    },
+    {
+      "id": "OS03",
+      "pages": 31,
+      "lecture_files": 17,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": [
+        "17份课件共201文件页均有联系图逐页总览及长文本知识组对照；短文字和全部源图的每个节点、状态尚未逐项精校，具体视觉范围见source_review_resume.md、sources/reviews/os03_deep_review.json及replacement_audit_20261028.md。"
+      ]
+    },
+    {
+      "id": "OS04",
+      "pages": 24,
+      "lecture_files": 12,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": [
+        "12份课件的可提取文字已按知识组核对；目录、物理结构、存储空间管理、布局和保护课件已复看原始大小拼图及所记录的重点页面，其余课件的图示标签与过程状态尚未全部逐项放大核对。",
+        "文件系统布局10页与文件保护15页已复看，其中保护课件Windows界面及布局关键页曾逐页放大；其他课件仍有文字层缺失的图示细节待核。"
+      ]
+    },
+    {
+      "id": "OS05",
+      "pages": 28,
+      "lecture_files": 14,
+      "content_current": true,
+      "visual": "passed",
+      "coverage_unresolved": []
+    }
+  ]
+}

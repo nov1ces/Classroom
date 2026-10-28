@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="4" orient="auto"><path d="M0 0 L9 4 L0 8" fill="none" stroke="#527488"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC,sans-serif" fill="#213946" font-size="23">
+<text x="30" y="40" font-size="27">记录的组织方式：用户角度（课件中的学生记录）</text>
+<text x="35" y="90" font-size="22">逻辑连续：</text>
+<rect x="180" y="57" width="130" height="50" fill="#e5f0f5" stroke="#7899aa"/>
+<text x="190" y="89" font-size="20">学生 0</text>
+<rect x="315" y="57" width="130" height="50" fill="#e5f0f5" stroke="#7899aa"/>
+<text x="325" y="89" font-size="20">学生 1</text>
+<rect x="450" y="57" width="130" height="50" fill="#e5f0f5" stroke="#7899aa"/>
+<text x="460" y="89" font-size="20">学生 2</text>
+<rect x="585" y="57" width="130" height="50" fill="#e5f0f5" stroke="#7899aa"/>
+<text x="595" y="89" font-size="20">学生 3</text>
+<rect x="720" y="57" width="130" height="50" fill="#e5f0f5" stroke="#7899aa"/>
+<text x="730" y="89" font-size="20">学生 4</text>
+<rect x="855" y="57" width="130" height="50" fill="#e5f0f5" stroke="#7899aa"/>
+<text x="865" y="89" font-size="20">学生 5</text>
+<text x="35" y="170" font-size="22">记录链式：</text>
+<rect x="180" y="135" width="130" height="50" fill="#edf3ec" stroke="#7899aa"/>
+<text x="190" y="167" font-size="20">学生 0</text>
+<text x="232" y="130" font-size="18">0</text>
+<rect x="315" y="135" width="130" height="50" fill="#fafafa" stroke="#7899aa"/>
+<text x="325" y="167" font-size="20">未展开</text>
+<text x="367" y="130" font-size="18">1</text>
+<rect x="450" y="135" width="130" height="50" fill="#edf3ec" stroke="#7899aa"/>
+<text x="460" y="167" font-size="20">学生 2</text>
+<text x="502" y="130" font-size="18">2</text>
+<rect x="585" y="135" width="130" height="50" fill="#edf3ec" stroke="#7899aa"/>
+<text x="595" y="167" font-size="20">学生 1</text>
+<text x="637" y="130" font-size="18">3</text>
+<rect x="720" y="135" width="130" height="50" fill="#fafafa" stroke="#7899aa"/>
+<text x="730" y="167" font-size="20">未展开</text>
+<text x="772" y="130" font-size="18">4</text>
+<rect x="855" y="135" width="130" height="50" fill="#edf3ec" stroke="#7899aa"/>
+<text x="865" y="167" font-size="20">学生 3</text>
+<text x="907" y="130" font-size="18">5</text>
+<path d="M245 186 V241 H650 V190" fill="none" stroke="#527488" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M650 186 V265 H515 V190" fill="none" stroke="#527488" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M515 186 V289 H920 V190" fill="none" stroke="#527488" stroke-width="2" marker-end="url(#arr)"/>
+<text x="35" y="323" font-size="22">下层磁盘块的分配方式由文件系统选择，与上层记录组织相互独立。</text>
+<text x="35" y="375" font-size="22">逻辑块：</text>
+<rect x="180" y="342" width="130" height="48" fill="#e5f0f5" stroke="#7899aa"/>
+<text x="190" y="374" font-size="20">#0</text>
+<rect x="315" y="342" width="130" height="48" fill="#e5f0f5" stroke="#7899aa"/>
+<text x="325" y="374" font-size="20">#1</text>
+<rect x="450" y="342" width="130" height="48" fill="#e5f0f5" stroke="#7899aa"/>
+<text x="460" y="374" font-size="20">#2</text>
+<rect x="585" y="342" width="130" height="48" fill="#e5f0f5" stroke="#7899aa"/>
+<text x="595" y="374" font-size="20">#3</text>
+<rect x="720" y="342" width="130" height="48" fill="#e5f0f5" stroke="#7899aa"/>
+<text x="730" y="374" font-size="20">#4</text>
+<rect x="855" y="342" width="130" height="48" fill="#e5f0f5" stroke="#7899aa"/>
+<text x="865" y="374" font-size="20">#5</text>
+<text x="35" y="458" font-size="22">连续分配：</text>
+<rect x="180" y="425" width="130" height="48" fill="#edf3ec" stroke="#7899aa"/>
+<text x="190" y="457" font-size="20">#0</text>
+<rect x="315" y="425" width="130" height="48" fill="#edf3ec" stroke="#7899aa"/>
+<text x="325" y="457" font-size="20">#1</text>
+<rect x="450" y="425" width="130" height="48" fill="#edf3ec" stroke="#7899aa"/>
+<text x="460" y="457" font-size="20">#2</text>
+<rect x="585" y="425" width="130" height="48" fill="#edf3ec" stroke="#7899aa"/>
+<text x="595" y="457" font-size="20">#3</text>
+<rect x="720" y="425" width="130" height="48" fill="#edf3ec" stroke="#7899aa"/>
+<text x="730" y="457" font-size="20">#4</text>
+<rect x="855" y="425" width="130" height="48" fill="#edf3ec" stroke="#7899aa"/>
+<text x="865" y="457" font-size="20">#5</text>
+<text x="35" y="548" font-size="22">链接分配：</text>
+<rect x="180" y="515" width="130" height="48" fill="#edf3ec" stroke="#7899aa"/>
+<text x="190" y="547" font-size="20">#0</text>
+<rect x="450" y="515" width="130" height="48" fill="#edf3ec" stroke="#7899aa"/>
+<text x="460" y="547" font-size="20">#1</text>
+<rect x="720" y="515" width="130" height="48" fill="#edf3ec" stroke="#7899aa"/>
+<text x="730" y="547" font-size="20">#2</text>
+<rect x="990" y="515" width="130" height="48" fill="#edf3ec" stroke="#7899aa"/>
+<text x="1000" y="547" font-size="20">#3</text>
+<path d="M314 539 L442 539" fill="none" stroke="#527488" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M584 539 L712 539" fill="none" stroke="#527488" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M854 539 L982 539" fill="none" stroke="#527488" stroke-width="2" marker-end="url(#arr)"/>
+<text x="35" y="615" font-size="19">图中 #0、#1 等标记逻辑块；未展开部分不表示特定记录的物理位置，物理块号由具体分配确定。</text>
+</g></svg>

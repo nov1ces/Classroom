@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="610" viewBox="0 0 1200 610">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17212a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#17212a" stroke-linejoin="round">
+<text x="600" y="32" text-anchor="middle" font-size="25" font-weight="bold" fill="#17212a">Ethernet II（DIX V2）：无802.1Q标签的MAC帧</text>
+<line x1="100" y1="87" x2="570" y2="87" stroke="#17212a" stroke-width="2"/>
+<line x1="100" y1="81" x2="100" y2="100" stroke="#17212a" stroke-width="2"/>
+<line x1="570" y1="81" x2="570" y2="100" stroke="#17212a" stroke-width="2"/>
+<text x="335.0" y="73" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">MAC帧头：14 B（6+6+2）</text>
+<rect x="100" y="130" width="180" height="78" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="190.0" y="161" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">目的MAC</text>
+<text x="190.0" y="191" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">6 B</text>
+<rect x="280" y="130" width="180" height="78" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="370.0" y="161" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">源MAC</text>
+<text x="370.0" y="191" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">6 B</text>
+<rect x="460" y="130" width="110" height="78" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="515.0" y="161" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">类型</text>
+<text x="515.0" y="191" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">2 B</text>
+<rect x="570" y="130" width="390" height="78" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="765.0" y="161" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">上层PDU + 必要填充</text>
+<text x="765.0" y="191" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">合计46～1500 B</text>
+<rect x="960" y="130" width="130" height="78" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="1025.0" y="161" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">FCS</text>
+<text x="1025.0" y="191" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">4 B</text>
+<line x1="100" y1="237" x2="1090" y2="237" stroke="#17212a" stroke-width="2"/>
+<line x1="100" y1="228" x2="100" y2="245" stroke="#17212a" stroke-width="2"/>
+<line x1="1090" y1="228" x2="1090" y2="245" stroke="#17212a" stroke-width="2"/>
+<text x="595.0" y="271" text-anchor="middle" font-size="22" font-weight="bold" fill="#17212a">完整MAC帧：目的MAC起至FCS止，共64～1518 B</text>
+<line x1="100" y1="299" x2="960" y2="299" stroke="#17212a" stroke-width="2"/>
+<line x1="100" y1="292" x2="100" y2="306" stroke="#17212a" stroke-width="2"/>
+<line x1="960" y1="292" x2="960" y2="306" stroke="#17212a" stroke-width="2"/>
+<text x="530.0" y="332" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">FCS校验范围：目的MAC至数据/填充；不含前导码、SFD和FCS自身</text>
+<rect x="100" y="372" width="180" height="69" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="190.0" y="398" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">前同步码</text>
+<text x="190.0" y="426" text-anchor="middle" font-size="18" font-weight="normal" fill="#17212a">7 B</text>
+<rect x="280" y="372" width="110" height="69" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="335.0" y="398" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">SFD</text>
+<text x="335.0" y="426" text-anchor="middle" font-size="18" font-weight="normal" fill="#17212a">1 B</text>
+<rect x="390" y="372" width="520" height="69" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="650.0" y="398" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">上述完整MAC帧</text>
+<text x="650.0" y="426" text-anchor="middle" font-size="18" font-weight="normal" fill="#17212a">64～1518 B</text>
+<rect x="910" y="372" width="180" height="69" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="1000.0" y="398" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">帧间间隔</text>
+<text x="1000.0" y="426" text-anchor="middle" font-size="18" font-weight="normal" fill="#17212a">≥96 bit时间</text>
+<text x="600" y="476" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">线路发送次序如上；前同步码与SFD合计8 B，在MAC帧之外</text>
+<text x="600" y="511" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">帧间间隔是空闲时间，不是帧字段；图中各字段宽度不按字节数比例绘制</text>
+<text x="600" y="546" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">以太网MTU=1500 B：只限制所承载的上层PDU，不含MAC帧头与FCS</text>
+<text x="600" y="581" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">40 B的IP数据报需填6 B；IP总长度仍为40 B，MAC帧为64 B</text>
+</g></svg>

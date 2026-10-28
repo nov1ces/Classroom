@@ -1,0 +1,15 @@
+{
+  "source": "Displayed uniquely function extracted verbatim; separate type and permutation oracle",
+  "displayed_function_sha256": "a56f2d08c5b66df84626af547ba8a78fde533582db7b68d7a237af2d43530428",
+  "output": "4167 exhaustive directed graph / empty / self-loop topology cases passed\n",
+  "exit_code": 0,
+  "flags": [
+    "-std=c++11",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "chapters/DS01/content.md": "5e24cff27a44d40b278238ce89e1924d60a7773ef3cb02f31ba3af478cdeca56",
+  "chapters/DS01/map.json": "afed0a6ef271d635eac4ef04e57af58b71443f537af3ba58ec571127388c5a87",
+  "chapters/DS01/sidebars.json": "78a57d94295f8317dbd0c64484c3d755ef19f5c6efcc541a2e9f7555c7ba97e2",
+  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
+  "chapters/DS01/figures/DS01_logical_structures.pdf": "06ab47c6e2d425e3c77fb9bdcd591a6a1ab90ddb0a750be8ad6b66a3a7a9dd37",
+  "chapters/DS01/figures/DS01_logical_structures.svg": "f0cf9eaade7a82a77d58747a297d50ced7ac53ddeeb7f3e84fcd1b19cebb1da3",
+  "chapters/DS01/figures/DS01_recursion_space.svg": "b51ae9913bff6272ffdc0ad808defdda472d05af14420c8016393362bae4d546",
+  "chapters/DS01/figures/DS01_recursion_space.pdf": "58a4fc26230f8bd7acb26c5ae4a15ded39d5b710cb4282c3552df9396ac170b2",
+  "chapters/DS01/figures/DS01_recursion_space.png": "bdcc2c95b8c61fe1555baee065240239dc899c3b50dea28bebcd54d4150d46a1",
+  "chapters/DS01/figures/DS01_storage_models.svg": "503432fc6c9993a081eab47274c80596200cbdc3cad161985a8f8ea6d37b3597",
+  "chapters/DS01/figures/DS01_storage_models.png": "f4d3a791ac7e5e200e40130907a0bd6e0fa6e3854db3224707a8775149575f61",
+  "chapters/DS01/figures/DS01_logical_structures.png": "2ebe7eb9c8c0864b937bd096156af991d2f4672bd721c0d0b79d4cf2a64ce27e",
+  "chapters/DS01/figures/DS01_storage_models.pdf": "2c5f8f09e51f41e361750d4ad887b52393ca07ac24225a1355642258c878d8ae"
+}

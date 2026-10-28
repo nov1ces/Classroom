@@ -1,0 +1,556 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "CO03-02",
+        "kind": "课程连接",
+        "title": "分层连接操作系统",
+        "y": 406.2825622558594,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 76.84937
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        128.9869613647461
+      ],
+      [
+        140.36412048339844,
+        406.2825622558594
+      ],
+      [
+        153.87042236328125,
+        191.5323944091797
+      ],
+      [
+        186.28553771972656,
+        223.947509765625
+      ],
+      [
+        218.70065307617188,
+        256.3626403808594
+      ],
+      [
+        251.11578369140625,
+        288.77777099609375
+      ],
+      [
+        283.5308837890625,
+        321.19287109375
+      ],
+      [
+        315.946044921875,
+        353.60797119140625
+      ],
+      [
+        348.36114501953125,
+        386.02313232421875
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 1,
+        "anchor": "CO03-03",
+        "kind": "最小反例",
+        "title": "动态不等于访问变化",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.15787
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 3,
+        "anchor": "CO03-06",
+        "kind": "最小反例",
+        "title": "已安装容量不决定MAR",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.40436
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 5,
+        "anchor": "CO03-10",
+        "kind": "不变量",
+        "title": "位扩展共享片选",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.14935
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 6,
+        "anchor": "CO03-12",
+        "kind": "错项排除",
+        "title": "平均旋转等半圈",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.37885
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 8,
+        "anchor": "CO03-15",
+        "kind": "最小反例",
+        "title": "循环轮数不是访问次数",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.17487
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [
+      {
+        "index": 10,
+        "anchor": "CO03-19",
+        "kind": "最小反例",
+        "title": "命中会改变LRU",
+        "y": 219.4394989013672,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.41284
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        150.03854370117188,
+        175.3038330078125
+      ],
+      [
+        167.1995391845703,
+        218.20010375976562
+      ],
+      [
+        148.1125030517578,
+        160.9095001220703
+      ],
+      [
+        165.5718994140625,
+        178.07009887695312
+      ],
+      [
+        206.6425018310547,
+        219.4394989013672
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "CO03-23",
+        "kind": "最小反例",
+        "title": "映射没缓存不等于没驻留",
+        "y": 95,
+        "estimated_height": 195.5,
+        "mini": true,
+        "measured_height": 159.2002
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [
+      {
+        "index": 11,
+        "anchor": "CO03-20",
+        "kind": "不变量",
+        "title": "写回与写分配独立",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.15787
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        185.21453857421875,
+        222.43482971191406
+      ],
+      [
+        214.33053588867188,
+        311.32684326171875
+      ],
+      [
+        183.82749938964844,
+        196.62449645996094
+      ],
+      [
+        212.70289611816406,
+        225.2010955810547
+      ],
+      [
+        301.594482421875,
+        314.3914794921875
+      ]
+    ]
+  },
+  {
+    "page": 10,
+    "sidebars": [
+      {
+        "index": 15,
+        "anchor": "CO03-27",
+        "kind": "不变量",
+        "title": "段界限先约束偏移",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.29385
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 11,
+    "sidebars": [
+      {
+        "index": 16,
+        "anchor": "CO03-28",
+        "kind": "错项排除",
+        "title": "缺页后停止本轮查数据",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 67.10986
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 12,
+    "sidebars": [
+      {
+        "index": 16,
+        "anchor": "CO03-28",
+        "kind": "错项排除",
+        "title": "缺页后停止本轮查数据",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 67.10986
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 13,
+    "sidebars": [
+      {
+        "index": 16,
+        "anchor": "CO03-28",
+        "kind": "错项排除",
+        "title": "缺页后停止本轮查数据",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 67.10986
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        333.9365234375,
+        361.027099609375
+      ],
+      [
+        352.9228210449219,
+        449.9190368652344
+      ],
+      [
+        458.0215148925781,
+        485.1120910644531
+      ],
+      [
+        477.0068054199219,
+        502.2720947265625
+      ],
+      [
+        332.010498046875,
+        344.8074951171875
+      ],
+      [
+        349.4698791503906,
+        361.9681091308594
+      ],
+      [
+        438.36151123046875,
+        451.15850830078125
+      ],
+      [
+        456.0954895019531,
+        468.8924865722656
+      ],
+      [
+        473.55487060546875,
+        486.0531005859375
+      ],
+      [
+        490.71551513671875,
+        503.51251220703125
+      ]
+    ]
+  },
+  {
+    "page": 14,
+    "sidebars": [
+      {
+        "index": 16,
+        "anchor": "CO03-28",
+        "kind": "错项排除",
+        "title": "缺页后停止本轮查数据",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 67.10986
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        358.64752197265625,
+        384.8251647949219
+      ],
+      [
+        377.6338195800781,
+        474.6300354003906
+      ],
+      [
+        482.7325134277344,
+        508.91015625
+      ],
+      [
+        501.71881103515625,
+        526.9840698242188
+      ],
+      [
+        356.72149658203125,
+        369.51849365234375
+      ],
+      [
+        374.1808776855469,
+        386.6791076660156
+      ],
+      [
+        463.072509765625,
+        475.8695068359375
+      ],
+      [
+        480.8064880371094,
+        493.6034851074219
+      ],
+      [
+        498.265869140625,
+        510.76409912109375
+      ],
+      [
+        515.426513671875,
+        528.2235107421875
+      ]
+    ]
+  },
+  {
+    "page": 15,
+    "sidebars": [
+      {
+        "index": 16,
+        "anchor": "CO03-28",
+        "kind": "错项排除",
+        "title": "缺页后停止本轮查数据",
+        "y": 296.5094909667969,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 67.10986
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        160.08953857421875,
+        187.1800994873047
+      ],
+      [
+        179.07579040527344,
+        216.29611206054688
+      ],
+      [
+        239.0635528564453,
+        266.15411376953125
+      ],
+      [
+        258.0498046875,
+        295.2701110839844
+      ],
+      [
+        158.1634979248047,
+        170.9604949951172
+      ],
+      [
+        175.62290954589844,
+        188.12110900878906
+      ],
+      [
+        204.73849487304688,
+        217.53549194335938
+      ],
+      [
+        237.13751220703125,
+        249.93450927734375
+      ],
+      [
+        254.59689331054688,
+        267.0951232910156
+      ],
+      [
+        283.7124938964844,
+        296.5094909667969
+      ]
+    ]
+  },
+  {
+    "page": 16,
+    "sidebars": [
+      {
+        "index": 18,
+        "anchor": "CO03-method",
+        "kind": "课程连接",
+        "title": "从路径列事件",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 55.38986
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 17,
+    "sidebars": [
+      {
+        "index": 17,
+        "anchor": "CO03-assoc",
+        "kind": "不变量",
+        "title": "相联程度不直接等于延迟",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 67.12686
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 18,
+    "sidebars": [
+      {
+        "index": 20,
+        "anchor": "CO03-ssd-details",
+        "kind": "课程连接",
+        "title": "页与擦除块",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 44.91086
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 19,
+    "sidebars": [
+      {
+        "index": 21,
+        "anchor": "CO03-chip-expansion-complete",
+        "kind": "课程连接",
+        "title": "位扩展与字扩展",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 45.65887
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 20,
+    "sidebars": [
+      {
+        "index": 23,
+        "anchor": "CO03-replacement-complete",
+        "kind": "课程连接",
+        "title": "命中也会改变LRU",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 55.44937
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 21,
+    "sidebars": [
+      {
+        "index": 26,
+        "anchor": "CO03-recall",
+        "kind": "课程连接",
+        "title": "地址划分顺序",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.74936
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 22,
+    "sidebars": [
+      {
+        "index": 26,
+        "anchor": "CO03-recall",
+        "kind": "课程连接",
+        "title": "地址划分顺序",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.74936
+      }
+    ],
+    "occupied_margin_intervals": []
+  }
+]

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#47677b"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, Noto Sans SC, sans-serif" fill="#223644" font-size="19">
+<rect x="30" y="25" width="240" height="65" rx="7" stroke="#809eae" fill="#e4eff3"/>
+<text x="150.0" y="64.5" text-anchor="middle" font-size="19">用户：命令／图形界面</text>
+<rect x="320" y="25" width="250" height="65" rx="7" stroke="#809eae" fill="#e4eff3"/>
+<text x="445.0" y="64.5" text-anchor="middle" font-size="19">应用程序与库函数</text>
+<rect x="320" y="145" width="250" height="65" rx="7" stroke="#809eae" fill="#f5ead9"/>
+<text x="445.0" y="184.5" text-anchor="middle" font-size="19">程序接口：系统调用</text>
+<rect x="300" y="275" width="290" height="65" rx="7" stroke="#809eae" fill="#e0efdf"/>
+<text x="445.0" y="314.5" text-anchor="middle" font-size="19">内核：资源管理与保护</text>
+<rect x="650" y="275" width="220" height="65" rx="7" stroke="#809eae" fill="#e4eff3"/>
+<text x="760.0" y="314.5" text-anchor="middle" font-size="19">硬件：CPU／存储／I/O</text>
+<path d="M270,57 L320,57" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M445,90 L445,145" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<text x="450.0" y="110.5" text-anchor="middle" font-size="16">请求服务</text>
+<path d="M445,210 L445,275" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<text x="450.0" y="235.5" text-anchor="middle" font-size="16">受控入口</text>
+<path d="M590,307 L650,307" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<text x="450" y="397" text-anchor="middle" font-size="19">命令接口、库函数、系统调用与机器指令属于不同层次。</text>
+</g></svg>

@@ -1,0 +1,97 @@
+{
+  "chapter": "CO02",
+  "status": "passed",
+  "method": "independent integer/fraction/IEEE and register-state calculations",
+  "checks": [
+    {
+      "case": "137.5八进制整数小数",
+      "actual": "('0o211', 4)",
+      "expected": "('0o211', 4)",
+      "passed": true
+    },
+    {
+      "case": "65530零扩展",
+      "actual": "0xfffa",
+      "expected": "0xfffa",
+      "passed": true
+    },
+    {
+      "case": "负short转unsigned32",
+      "actual": "0xffff8001",
+      "expected": "0xffff8001",
+      "passed": true
+    },
+    {
+      "case": "8位69-38加法器输入",
+      "actual": "[69, 217, 1, 31]",
+      "expected": "[69, 217, 1, 31]",
+      "passed": true
+    },
+    {
+      "case": "-33-65补码",
+      "actual": "0xffffff9e",
+      "expected": "0xffffff9e",
+      "passed": true
+    },
+    {
+      "case": "-0.4375单精度",
+      "actual": "bee00000",
+      "expected": "bee00000",
+      "passed": true
+    },
+    {
+      "case": "两负单精度比较",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    },
+    {
+      "case": "f(23)浮点编码",
+      "actual": "4b7fffff",
+      "expected": "4b7fffff",
+      "passed": true
+    },
+    {
+      "case": "f(24)浮点舍入",
+      "actual": "33554432.0",
+      "expected": "33554432.0",
+      "passed": true
+    },
+    {
+      "case": "结构体填充c地址与最低字节",
+      "actual": "[49166, 17]",
+      "expected": "[49166, 17]",
+      "passed": true
+    },
+    {
+      "case": "record数组中56H字节地址",
+      "actual": "41157",
+      "expected": "41157",
+      "passed": true
+    },
+    {
+      "case": "15除2四轮恢复余数状态",
+      "actual": "[[1, 14, -1, 1, 14], [3, 12, 1, 1, 13], [3, 10, 1, 1, 11], [3, 6, 1, 1, 7]]",
+      "expected": "[[1, 14, -1, 1, 14], [3, 12, 1, 1, 13], [3, 10, 1, 1, 11], [3, 6, 1, 1, 7]]",
+      "passed": true
+    },
+    {
+      "case": "-7除3四轮状态",
+      "actual": "[[-1, 2], [-2, 4], [-1, 9], [-1, 2]]",
+      "expected": "[[-1, 2], [-2, 4], [-1, 9], [-1, 2]]",
+      "passed": true
+    },
+    {
+      "case": "-7除3商符号修正与回代",
+      "actual": "[14, -1, -7]",
+      "expected": "[14, -1, -7]",
+      "passed": true
+    },
+    {
+      "case": "双精度商溢出边界",
+      "actual": "[17, 13, 5]",
+      "expected": "[17, 13, 5]",
+      "passed": true
+    }
+  ]
+}

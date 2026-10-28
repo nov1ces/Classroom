@@ -1,0 +1,8 @@
+{
+  "matrix_coordinate_checks": 873450,
+  "input_restricted_outputs": 22,
+  "output_restricted_outputs": 22,
+  "postfix_result": 5,
+  "postfix_peak": 4,
+  "status": "passed"
+}

@@ -1,0 +1,37 @@
+{
+  "chapter": "CO07",
+  "checks": [
+    {
+      "name": "查询鼠标CPU占用%",
+      "actual": 0.006,
+      "expected": 0.006,
+      "passed": true
+    },
+    {
+      "name": "磁盘查询CPU占用%",
+      "actual": 104.85759999999999,
+      "expected": 104.8576,
+      "passed": true
+    },
+    {
+      "name": "串行字符位数",
+      "actual": 10,
+      "expected": 10,
+      "passed": true
+    },
+    {
+      "name": "每字符重复间隔cycle",
+      "actual": 25070,
+      "expected": 25070,
+      "passed": true
+    },
+    {
+      "name": "1000字符CPU开销cycle",
+      "actual": 90000,
+      "expected": 90000,
+      "passed": true
+    }
+  ],
+  "status": "passed",
+  "method": "independent arithmetic/bit-level models; full document numerical review continues at integration"
+}

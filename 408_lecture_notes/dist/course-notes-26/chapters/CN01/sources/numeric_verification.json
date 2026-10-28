@@ -1,0 +1,46 @@
+{
+  "status": "passed",
+  "method": "Independent exact bit operations, event recurrence and address arithmetic; bound to current canonical content",
+  "canonical_sha256": "a9b578290d299af6dfa9bb3581313f29fb3f5394e5707c8da0e02ebb113c1257",
+  "checks": [
+    {
+      "chapter": "CN01",
+      "item": "three links, four packets arrivals/ms",
+      "actual": [
+        10.0,
+        12.0,
+        14.0,
+        16.0
+      ],
+      "expected": [
+        10,
+        12,
+        14,
+        16
+      ],
+      "pass": true
+    },
+    {
+      "chapter": "CN01",
+      "item": "U=.9 vs U=.5 delay ratio",
+      "actual": 5.000000000000001,
+      "expected": 5,
+      "pass": true
+    },
+    {
+      "chapter": "CN01",
+      "item": "two hops different rates no processing/ms",
+      "actual": 0.24,
+      "expected": 0.24,
+      "pass": true
+    },
+    {
+      "chapter": "CN01",
+      "item": "two hops plus .04 ms processing",
+      "actual": 0.27999999999999997,
+      "expected": 0.28,
+      "pass": true
+    }
+  ],
+  "limitations": "Numerical/model checks do not certify all conceptual statements or every source image."
+}

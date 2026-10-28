@@ -1,0 +1,196 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "CO01-02",
+        "kind": "课程连接",
+        "title": "功能部件接到数据通路",
+        "y": 343.272216796875,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.34485
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        129.8519515991211
+      ],
+      [
+        142.18402099609375,
+        343.272216796875
+      ],
+      [
+        155.69032287597656,
+        193.352294921875
+      ],
+      [
+        188.10543823242188,
+        225.7674102783203
+      ],
+      [
+        220.52056884765625,
+        258.1825256347656
+      ],
+      [
+        252.9356689453125,
+        290.59765625
+      ],
+      [
+        285.3507995605469,
+        323.01275634765625
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 1,
+        "anchor": "CO01-03",
+        "kind": "最小反例",
+        "title": "同ISA不保证文件通用",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 76.78986
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 4,
+        "anchor": "CO01-07",
+        "kind": "不变量",
+        "title": "先数动态执行次数",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.14935
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 6,
+        "anchor": "CO01-09",
+        "kind": "最小反例",
+        "title": "速度翻倍不等于总时减半",
+        "y": 95,
+        "estimated_height": 195.5,
+        "mini": true,
+        "measured_height": 169.2327
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 8,
+        "anchor": "CO01-capacity",
+        "kind": "最小反例",
+        "title": "字长不能推出地址容量",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 77.11285
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        662.3905639648438,
+        687.6558227539062
+      ],
+      [
+        679.550537109375,
+        728.726806640625
+      ],
+      [
+        660.4644775390625,
+        673.261474609375
+      ],
+      [
+        677.9238891601562,
+        690.4220581054688
+      ],
+      [
+        718.9945068359375,
+        731.79150390625
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 11,
+        "anchor": "CO01-components",
+        "kind": "课程连接",
+        "title": "五部件的连接",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.69836
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [
+      {
+        "index": 12,
+        "anchor": "CO01-software",
+        "kind": "课程连接",
+        "title": "程序如何到机器上",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.84286
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 8,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "CO01-recall",
+        "kind": "课程连接",
+        "title": "自查顺序",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.69836
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "CO01-recall",
+        "kind": "课程连接",
+        "title": "自查顺序",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.69836
+      }
+    ],
+    "occupied_margin_intervals": []
+  }
+]

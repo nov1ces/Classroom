@@ -1,0 +1,91 @@
+{
+  "id": "CO01",
+  "title": "计算机系统与程序执行的层次",
+  "branches": [
+    {
+      "label": "系统组成",
+      "children": [
+        "硬件与软件",
+        "五大功能部件",
+        "主机与CPU",
+        "主存和外存"
+      ]
+    },
+    {
+      "label": "层次与接口",
+      "children": [
+        "高级语言与汇编",
+        "操作系统机器",
+        "ISA软件接口",
+        "微体系结构实现"
+      ]
+    },
+    {
+      "label": "存储程序与执行",
+      "children": [
+        "控制流驱动",
+        "PC及后继地址",
+        "编译汇编链接",
+        "装入与运行环境"
+      ]
+    },
+    {
+      "label": "性能指标",
+      "children": [
+        "响应时间和吞吐量",
+        "CPU执行时间",
+        "CPI条数加权",
+        "IPC、MIPS与FLOPS"
+      ]
+    },
+    {
+      "label": "优化与边界",
+      "children": [
+        "动态指令数",
+        "可加速时间比例",
+        "Amdahl上限",
+        "字长与容量区别"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "pages": [
+        2,
+        9
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.4 计算机系统的层次结构.pdf",
+      "pages": [
+        5
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "pages": [
+        10
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "pages": [
+        13,
+        14
+      ],
+      "role": "book_crosscheck",
+      "visual_checked": true
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "程序执行与性能优化分支由已目验节级导图、教材第1章框架及原正文整合补绘，非声称已有同名章级图。"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "chapter": "DS01",
+  "canonical_sha256": "95f897bcae0c7f21eee2b9cfe2e07a6086c24ee869aa9435c882d5ce20427182",
+  "test_source_sha256": "2647669e75e2a33dd4b93d32163ca34f1994dc2f7d5268995382d6cbabda38d2",
+  "compiler": "g++ C++11 -Wall -Wextra -Werror -fsanitize=address,undefined",
+  "compile_returncode": 0,
+  "run_returncode": 0,
+  "stdout": "DS01: 20999 checks passed\n",
+  "stderr": "",
+  "source": "actual displayed code in verification namespaces; array-input adapters and model oracles reside only in the harness",
+  "review_time_utc": "2026-10-27T00:27:55.477961+00:00"
+}

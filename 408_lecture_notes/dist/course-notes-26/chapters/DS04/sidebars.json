@@ -1,0 +1,86 @@
+[
+  {
+    "anchor": "DS04-01",
+    "kind": "辨析",
+    "title": "空串也有定义",
+    "body": "空串长度为0；空格串的空格都是字符。子串必须连续，子序列可以不连续。"
+  },
+  {
+    "anchor": "DS04-bound",
+    "kind": "辨析",
+    "title": "先定接口边界",
+    "body": "允许空子串时，pos可以等于n+1，但len只能为0；越界请求不能读取字符。"
+  },
+  {
+    "anchor": "DS04-storage",
+    "kind": "辨析",
+    "title": "长度和结束符",
+    "body": "length显式记录长度时，不依赖字符0结束；C字符串接口需要另行转换表示。"
+  },
+  {
+    "anchor": "DS04-basic-code",
+    "kind": "辨析",
+    "title": "返回符号即可",
+    "body": "串比较的正、零、负分别表示大于、相等、小于；正值不要求恰好是1。"
+  },
+  {
+    "anchor": "DS04-02",
+    "kind": "辨析",
+    "title": "回溯到哪里",
+    "body": "本轮起点是i-j+1，失败后换下一起点i-j+2，模式j恢复为1。"
+  },
+  {
+    "anchor": "DS04-naive-example",
+    "kind": "辨析",
+    "title": "逐次计数",
+    "body": "主串abaabaabcabaabc与模式abaabc：朴素各轮比较6、1、2、6次，合计15。"
+  },
+  {
+    "anchor": "DS04-03",
+    "kind": "辨析",
+    "title": "位置与长度差1",
+    "body": "next[j]是下一比较位置。j前的最长边界长k时，next[j]=k+1。next[1]=0另行定义。"
+  },
+  {
+    "anchor": "DS04-kmp-example",
+    "kind": "辨析",
+    "title": "主串没有回溯",
+    "body": "失配时i保持不变，先改j；只有字符相等或j退至0时才推进i。"
+  },
+  {
+    "anchor": "DS04-next",
+    "kind": "辨析",
+    "title": "递推也是匹配",
+    "body": "求表中的i、j都在模式串内部工作；i<T.length保证递增后写入位置不超过串长。"
+  },
+  {
+    "anchor": "DS04-next-practice",
+    "kind": "辨析",
+    "title": "先切出j前的串",
+    "body": "求next[j]只看T[1..j-1]，当前位置字符不加入普通边界长度的计算。"
+  },
+  {
+    "anchor": "DS04-nextval",
+    "kind": "辨析",
+    "title": "借失配排除比较",
+    "body": "如果回退位置字符与当前模式字符相同，它也必然失配；沿nextval继续跳过。"
+  },
+  {
+    "anchor": "DS04-opt-example",
+    "kind": "辨析",
+    "title": "两种表两种次数",
+    "body": "aaaab在aaacaaaabdaaaab中首次匹配位于5；普通next比较12次，nextval比较9次。"
+  },
+  {
+    "anchor": "DS04-analysis",
+    "kind": "辨析",
+    "title": "准备工作也计时",
+    "body": "已给next时扫描为O(n)；完整算法还需O(m)建表，表空间为O(m)。"
+  },
+  {
+    "anchor": "DS04-check",
+    "kind": "辨析",
+    "title": "失败值和合法位置",
+    "body": "正文所有非空串位置从1起，失败返回0；不要将另一种下标接口的返回值混入。"
+  }
+]

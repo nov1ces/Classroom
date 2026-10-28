@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-27T00:25:03.368760+00:00",
+  "content_sha256": "204d950b1265416b575261e5acabafce9585b57b56022442a6ccd984ebca3c89",
+  "tests": [
+    {
+      "source": "code/verify_textbook.cpp",
+      "compiler_flags": [
+        "-std=c++11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-fsanitize=address,undefined",
+        "-fno-omit-frame-pointer",
+        "-g"
+      ],
+      "exit_code": 0,
+      "output": "tree traversal, threading boundaries, 4000 union/find operations passed\n",
+      "stderr": "",
+      "source_sha256": "51c049884d57f10296e7f74ff40205368a44b1a0523da0b0d90d9b3bcd6c4311"
+    }
+  ],
+  "all_passed": true,
+  "scope": "Existing harness algorithms and tested cases; see source for exact coverage."
+}

@@ -1,0 +1,767 @@
+{
+  "chapter": "DS07",
+  "source_primary": "项目王道基础考点讲解课件",
+  "mapping_granularity": "逐文件知识组与源文件页范围；重复动画和宣传页合并/排除，不代表逐图人工鉴定",
+  "lecture_files": [
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.1 查找的基本概念.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "topics": [
+        "查找表、关键字、动态静态、成功失败ASL"
+      ],
+      "targets": [
+        "DS07-01"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.1 顺序查找.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "topics": [
+        "顺序查找、哨兵、非等概率ASL"
+      ],
+      "targets": [
+        "DS07-02",
+        "DS07-seq-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.2 折半查找.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "topics": [
+        "闭区间折半、下取整中点、判定树与失败比较"
+      ],
+      "targets": [
+        "DS07-03"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.3 分块查找.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "topics": [
+        "块间有序、索引定位、块长、链式块"
+      ],
+      "targets": [
+        "DS07-02",
+        "DS07-ex1"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.1 二叉排序树.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "topics": [
+        "BST类型、查找插入删除、中序与区间"
+      ],
+      "targets": [
+        "DS07-04",
+        "DS07-bst-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "topics": [
+        "AVL高度差、四类旋转、最小失衡子树"
+      ],
+      "targets": [
+        "DS07-05",
+        "DS07-rotate-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_2 平衡二叉树的删除.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "topics": [
+        "AVL删除、孩子BF为0、向上传播"
+      ],
+      "targets": [
+        "DS07-avl-delete"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_1 红黑树的定义和性质.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "topics": [
+        "红黑性质、NIL、黑高与高度"
+      ],
+      "targets": [
+        "DS07-06"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_2 红黑树的插入.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "topics": [
+        "红黑插入、红叔变色/黑叔旋转、黑高上下界"
+      ],
+      "targets": [
+        "DS07-06",
+        "DS07-rb-insert-trace"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_3 红黑树的删除.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topics": [
+        "红黑删除转BST删除、缺黑修复及复杂度"
+      ],
+      "targets": [
+        "DS07-06"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "topics": [
+        "m阶B树、结点容量、数据层与外部空叶、高度界"
+      ],
+      "targets": [
+        "DS07-07",
+        "DS07-ex5"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_2 B树的插入删除.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "topics": [
+        "B树插入分裂、借位合并、根升降"
+      ],
+      "targets": [
+        "DS07-07"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "topics": [
+        "B+索引与叶链、键数=分支数约定、范围查找"
+      ],
+      "targets": [
+        "DS07-08"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.1 散列表的基本概念.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "topics": [
+        "散列函数、同义词、冲突、装填因子"
+      ],
+      "targets": [
+        "DS07-09"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.2 散列函数的构造.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "topics": [
+        "直接定址、除留余数、数字分析、平方取中"
+      ],
+      "targets": [
+        "DS07-hash-functions"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.3_1 处理冲突的方法_拉链法.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "topics": [
+        "拉链法、课件12关键字桶链、成功失败ASL、桶内有序"
+      ],
+      "targets": [
+        "DS07-hash-chain"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.3_2 处理冲突的方法_开放定址法.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "topics": [
+        "线性/平方/双散列/伪随机探测、覆盖条件、删除标记"
+      ],
+      "targets": [
+        "DS07-hash-probes",
+        "DS07-hash-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "topics": [
+        "初始地址值域与表长、成功失败ASL、删除标记"
+      ],
+      "targets": [
+        "DS07-hash-asl-course",
+        "DS07-ex7",
+        "DS07-ex8"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    }
+  ],
+  "figures": [
+    {
+      "id": "DS_14_avl_rotations",
+      "caption": "LL/RR各一次旋转；结点旁为平衡因子，非空中间子树随旋转转接",
+      "targets": [
+        "ds-fig-avl"
+      ],
+      "format": [
+        "svg",
+        "png",
+        "pdf"
+      ],
+      "status": "editable_redrawing_present",
+      "verification": "SVG/PNG/PDF identity and visual check recorded separately; new course-specific figures compared with source data"
+    },
+    {
+      "id": "DS_21_avl_double_rotations",
+      "caption": "LR/RL依次给出插入后、第一旋后和第二旋后三个状态",
+      "targets": [
+        "ds-fig-avl-double"
+      ],
+      "format": [
+        "svg",
+        "png",
+        "pdf"
+      ],
+      "status": "editable_redrawing_present",
+      "verification": "SVG/PNG/PDF identity and visual check recorded separately; new course-specific figures compared with source data"
+    },
+    {
+      "id": "DS07_avl_delete_zero",
+      "caption": "删除5造成左高，孩子2平衡因子为0；右旋后高度保持3",
+      "targets": [
+        "DS07-fig-avl-delete"
+      ],
+      "format": [
+        "svg",
+        "png",
+        "pdf"
+      ],
+      "status": "editable_redrawing_present",
+      "verification": "SVG/PNG/PDF identity and visual check recorded separately; new course-specific figures compared with source data"
+    },
+    {
+      "id": "DS07_rb_insert_course",
+      "caption": "从20、10、5到30、40：黑叔旋转和红叔变色分别处理",
+      "targets": [
+        "DS07-fig-rb"
+      ],
+      "format": [
+        "svg",
+        "png",
+        "pdf"
+      ],
+      "status": "editable_redrawing_present",
+      "verification": "SVG/PNG/PDF identity and visual check recorded separately; new course-specific figures compared with source data"
+    },
+    {
+      "id": "DS_15_btree_split",
+      "caption": "5阶B树插入29，先分裂叶，再处理根溢出；虚框是待修复的5项结点",
+      "targets": [
+        "ds-fig-btree"
+      ],
+      "format": [
+        "svg",
+        "png",
+        "pdf"
+      ],
+      "status": "editable_redrawing_present",
+      "verification": "SVG/PNG/PDF identity and visual check recorded separately; new course-specific figures compared with source data"
+    },
+    {
+      "id": "DS_20_btree_delete",
+      "caption": "上排为经父结点借位；下排为叶合并使双亲下溢，再合并并降低树高",
+      "targets": [
+        "ds-fig-btree-delete"
+      ],
+      "format": [
+        "svg",
+        "png",
+        "pdf"
+      ],
+      "status": "editable_redrawing_present",
+      "verification": "SVG/PNG/PDF identity and visual check recorded separately; new course-specific figures compared with source data"
+    },
+    {
+      "id": "DS_16_bplus",
+      "caption": "内部层只导航，叶层保存全部关键字并按序相连",
+      "targets": [
+        "ds-fig-bplus"
+      ],
+      "format": [
+        "svg",
+        "png",
+        "pdf"
+      ],
+      "status": "editable_redrawing_present",
+      "verification": "SVG/PNG/PDF identity and visual check recorded separately; new course-specific figures compared with source data"
+    },
+    {
+      "id": "DS07_hash_course",
+      "caption": "同一探测链跨过删除标记；初始散列地址只来自0至12",
+      "targets": [
+        "DS07-fig-hash-course"
+      ],
+      "format": [
+        "svg",
+        "png",
+        "pdf"
+      ],
+      "status": "editable_redrawing_present",
+      "verification": "SVG/PNG/PDF identity and visual check recorded separately; new course-specific figures compared with source data"
+    }
+  ],
+  "unresolved": []
+}

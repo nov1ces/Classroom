@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="860" viewBox="0 0 1200 860">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6" fill="none" stroke="#51778c"/></marker></defs>
+<rect width="1200" height="860" fill="white"/>
+<g fill="#233e4c" font-family="Noto Sans CJK SC, sans-serif" font-size="22">
+<text x="35" y="50" font-size="25" font-weight="bold">SCAN：总移动 282 道，平均 282/9 道</text>
+<line x1="95.0" y1="87" x2="95.0" y2="415" stroke="#dbe4e8" stroke-width="1"/>
+<text x="95.0" y="80" text-anchor="middle" font-size="20">0</text>
+<line x1="290.0" y1="87" x2="290.0" y2="415" stroke="#dbe4e8" stroke-width="1"/>
+<text x="290.0" y="80" text-anchor="middle" font-size="20">50</text>
+<line x1="485.0" y1="87" x2="485.0" y2="415" stroke="#dbe4e8" stroke-width="1"/>
+<text x="485.0" y="80" text-anchor="middle" font-size="20">100</text>
+<line x1="680.0" y1="87" x2="680.0" y2="415" stroke="#dbe4e8" stroke-width="1"/>
+<text x="680.0" y="80" text-anchor="middle" font-size="20">150</text>
+<line x1="875.0" y1="87" x2="875.0" y2="415" stroke="#dbe4e8" stroke-width="1"/>
+<text x="875.0" y="80" text-anchor="middle" font-size="20">200</text>
+<circle cx="485.0" cy="105" r="4" fill="white" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="111" text-anchor="end" font-size="18">00　100 初始</text>
+<line x1="485.0" y1="105" x2="680.0" y2="132" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="680.0" cy="132" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="138" text-anchor="end" font-size="18">01　150 服务</text>
+<line x1="680.0" y1="132" x2="719.0" y2="159" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="719.0" cy="159" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="165" text-anchor="end" font-size="18">02　160 服务</text>
+<line x1="719.0" y1="159" x2="812.6" y2="186" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="812.6" cy="186" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="192" text-anchor="end" font-size="18">03　184 服务</text>
+<line x1="812.6" y1="186" x2="875.0" y2="213" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="875.0" cy="213" r="4" fill="white" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="219" text-anchor="end" font-size="18">04　200 经过</text>
+<line x1="875.0" y1="213" x2="446.0" y2="240" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="446.0" cy="240" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="246" text-anchor="end" font-size="18">05　90 服务</text>
+<line x1="446.0" y1="240" x2="321.2" y2="267" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="321.2" cy="267" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="273" text-anchor="end" font-size="18">06　58 服务</text>
+<line x1="321.2" y1="267" x2="309.5" y2="294" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="309.5" cy="294" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="300" text-anchor="end" font-size="18">07　55 服务</text>
+<line x1="309.5" y1="294" x2="247.1" y2="321" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="247.1" cy="321" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="327" text-anchor="end" font-size="18">08　39 服务</text>
+<line x1="247.1" y1="321" x2="243.2" y2="348" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="243.2" cy="348" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="354" text-anchor="end" font-size="18">09　38 服务</text>
+<line x1="243.2" y1="348" x2="165.2" y2="375" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="165.2" cy="375" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="381" text-anchor="end" font-size="18">10　18 服务</text>
+<text x="35" y="428" font-size="19">竖向为先后次序；实心点服务请求，空心点为初始或非服务折返点。</text>
+<text x="35" y="465" font-size="25" font-weight="bold">LOOK：总移动 250 道，平均 250/9 道</text>
+<line x1="95.0" y1="502" x2="95.0" y2="830" stroke="#dbe4e8" stroke-width="1"/>
+<text x="95.0" y="495" text-anchor="middle" font-size="20">0</text>
+<line x1="290.0" y1="502" x2="290.0" y2="830" stroke="#dbe4e8" stroke-width="1"/>
+<text x="290.0" y="495" text-anchor="middle" font-size="20">50</text>
+<line x1="485.0" y1="502" x2="485.0" y2="830" stroke="#dbe4e8" stroke-width="1"/>
+<text x="485.0" y="495" text-anchor="middle" font-size="20">100</text>
+<line x1="680.0" y1="502" x2="680.0" y2="830" stroke="#dbe4e8" stroke-width="1"/>
+<text x="680.0" y="495" text-anchor="middle" font-size="20">150</text>
+<line x1="875.0" y1="502" x2="875.0" y2="830" stroke="#dbe4e8" stroke-width="1"/>
+<text x="875.0" y="495" text-anchor="middle" font-size="20">200</text>
+<circle cx="485.0" cy="520" r="4" fill="white" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="526" text-anchor="end" font-size="18">00　100 初始</text>
+<line x1="485.0" y1="520" x2="680.0" y2="547" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="680.0" cy="547" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="553" text-anchor="end" font-size="18">01　150 服务</text>
+<line x1="680.0" y1="547" x2="719.0" y2="574" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="719.0" cy="574" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="580" text-anchor="end" font-size="18">02　160 服务</text>
+<line x1="719.0" y1="574" x2="812.6" y2="601" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="812.6" cy="601" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="607" text-anchor="end" font-size="18">03　184 服务</text>
+<line x1="812.6" y1="601" x2="446.0" y2="628" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="446.0" cy="628" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="634" text-anchor="end" font-size="18">04　90 服务</text>
+<line x1="446.0" y1="628" x2="321.2" y2="655" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="321.2" cy="655" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="661" text-anchor="end" font-size="18">05　58 服务</text>
+<line x1="321.2" y1="655" x2="309.5" y2="682" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="309.5" cy="682" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="688" text-anchor="end" font-size="18">06　55 服务</text>
+<line x1="309.5" y1="682" x2="247.1" y2="709" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="247.1" cy="709" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="715" text-anchor="end" font-size="18">07　39 服务</text>
+<line x1="247.1" y1="709" x2="243.2" y2="736" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="243.2" cy="736" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="742" text-anchor="end" font-size="18">08　38 服务</text>
+<line x1="243.2" y1="736" x2="165.2" y2="763" stroke="#51778c" stroke-width="1.6" marker-end="url(#a)"/>
+<circle cx="165.2" cy="763" r="4" fill="#577e95" stroke="#577e95" stroke-width="1.5"/>
+<text x="1160" y="769" text-anchor="end" font-size="18">09　18 服务</text>
+<text x="35" y="843" font-size="19">竖向为先后次序；实心点服务请求，空心点为初始或非服务折返点。</text>
+</g></svg>

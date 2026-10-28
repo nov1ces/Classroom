@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="520" viewBox="0 0 1240 520">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#425f72"/></marker></defs>
+<rect width="1240" height="520" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#223644">
+<text x="35" y="42" font-size="29" fill="#223644" text-anchor="start">SPOOLing：磁盘井、内存缓冲与独占设备</text>
+<rect x="20" y="115" width="170" height="100" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="105.0" y="173.05" text-anchor="middle" font-size="23">输入设备</text>
+<rect x="300" y="100" width="340" height="160" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="470.0" y="173.52" text-anchor="middle" font-size="24">内存：输入进程</text>
+<text x="470.0" y="203.28" text-anchor="middle" font-size="24">输入缓冲区</text>
+<rect x="800" y="115" width="195" height="100" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="897.5" y="158.79000000000002" text-anchor="middle" font-size="23">磁盘</text>
+<text x="897.5" y="187.31000000000003" text-anchor="middle" font-size="23">输入井</text>
+<rect x="20" y="315" width="170" height="100" rx="7" fill="#f7e8e0" stroke="#7796a5" stroke-width="2"/>
+<text x="105.0" y="358.79" text-anchor="middle" font-size="23">输出设备</text>
+<text x="105.0" y="387.31" text-anchor="middle" font-size="23">打印机</text>
+<rect x="300" y="300" width="340" height="160" rx="7" fill="#f7e8e0" stroke="#7796a5" stroke-width="2"/>
+<text x="470.0" y="373.52" text-anchor="middle" font-size="24">内存：输出进程</text>
+<text x="470.0" y="403.28" text-anchor="middle" font-size="24">输出缓冲区</text>
+<rect x="800" y="315" width="195" height="100" rx="7" fill="#f7e8e0" stroke="#7796a5" stroke-width="2"/>
+<text x="897.5" y="358.79" text-anchor="middle" font-size="23">磁盘</text>
+<text x="897.5" y="387.31" text-anchor="middle" font-size="23">输出井</text>
+<path d="M190 165 H298" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M640 165 H798" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M800 365 H642" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M300 365 H192" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="700" y="150" font-size="20" fill="#223644" text-anchor="start">输入</text>
+<text x="700" y="350" font-size="20" fill="#223644" text-anchor="start">输出</text>
+<text x="1040" y="155" font-size="20" fill="#223644" text-anchor="start">预读入井</text>
+<text x="1040" y="355" font-size="20" fill="#223644" text-anchor="start">保存待输出数据</text>
+<text x="1040" y="390" font-size="20" fill="#223644" text-anchor="start">由请求表定位</text>
+</g></svg>

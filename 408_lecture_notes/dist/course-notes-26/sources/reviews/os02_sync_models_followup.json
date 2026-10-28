@@ -1,0 +1,117 @@
+{
+  "chapter": "OS02",
+  "created_utc": "2026-10-28T13:07:44.294446+00:00",
+  "method": "逐页通过2×2联系图浏览原课件，重点图及代码与正文对照；不是全部图中小字逐项放大。",
+  "files": [
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.1 同步与互斥的基本概念.pdf",
+      "pdf_sha256": "76b584983bf33185dcdbd679e3cd01c5ef48389ace54906a6adc6d51e046dd29",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "targeted_comparison": "页3–6：进程同步、互斥、四段与四原则，正文均有对应。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.2_2 进程互斥的硬件实现方法.pdf",
+      "pdf_sha256": "6a8f9d3c71b33436a10be24b3ad6fbc1e6c3b917f1bd4f8a06e503e49e8f86f7",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "targeted_comparison": "页3–5：屏蔽中断、TestAndSet与Swap的原子性和适用条件，正文均有对应。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.3 互斥锁.pdf",
+      "pdf_sha256": "4221c718c96d66a860d5e5800a8001f5368455c9eb08520fba6731ac1267cdec",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "targeted_comparison": "页2–3：自旋锁忙等及多处理器适用条件，正文均有对应。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.4_2 用信号量实现进程互斥、同步、前驱关系.pdf",
+      "pdf_sha256": "9251cf32c2100f8fbafac91be526a2d4ecb5bbe0eea2b24c85809cd55b3ee8a8",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "targeted_comparison": "页3–6：互斥、同步与六事件七条前驱边，正文对应代码与重绘图。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_1_1 生产者-消费者问题.pdf",
+      "pdf_sha256": "56e62e7cde7e909bcecdd87b4a7a6ca52abacfe74b719378bad294be26d218b0",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targeted_comparison": "页2–6：empty、full、mutex及先取得互斥锁造成死锁的情形，正文有对应过程。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_1_2 多生产者-多消费者.pdf",
+      "pdf_sha256": "baca00e776c78388c1c6329cc01bc6796f3d7a7a9299a8a9cd6822d7a9f44cf8",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targeted_comparison": "页2–9：苹果橘子盘子容量1与2、访问权传递及相应P/V，正文已列代码与容量条件。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_3 哲学家进餐问题.pdf",
+      "pdf_sha256": "1e7513f3ef73f0320f2ce8f20895ceecb428937bc96fef7e9c9d6b44c9a195f9",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "targeted_comparison": "页2–9：哲学家单侧先拿导致死锁、限制竞争和串行取得，正文有相应步骤与条件。"
+    }
+  ],
+  "content_sha256": "4cdaf8959343a2dd6f4a524a145d409441e0be2ba1ea318a4734a03523223309",
+  "findings": "本轮所列重点模型及判定条件均有对应正文，未发现需要修改的内容。",
+  "limitation": "本轮仅涵盖列出的七个PDF；联系图中的全部小字和所有动画步骤未逐项放大核验。"
+}

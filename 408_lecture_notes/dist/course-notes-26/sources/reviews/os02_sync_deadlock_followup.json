@@ -1,0 +1,147 @@
+{
+  "chapter": "OS02",
+  "created_utc": "2026-10-28T13:05:41.175140+00:00",
+  "method": "逐页通过2×2联系图浏览原始课件，针对下列重点图与例题对照正文；联系图不等于全部图中文字逐项放大核验。",
+  "files": [
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.2_1 进程互斥的软件实现方法.pdf",
+      "pdf_sha256": "828f3e39e308b97418f58221ff964de06f455a73893d8b90707940add8399d3a",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "targeted_comparison": "页4–14：单标志、双标志先后检查及Peterson四种伪代码与各自缺陷，正文已有对应代码和反例。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.4_1 信号量机制.pdf",
+      "pdf_sha256": "e3952341aa026e141bca2be570ce6b696372b7095a9dd5fc262742a813ae56c7",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "targeted_comparison": "页4–7：整型／记录型信号量、两台打印机和负值队列，正文已解释，原课件伪代码仅表示原子语义。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_2 读者-写者问题.pdf",
+      "pdf_sha256": "ccd96a6ab7134b78e06123db5c3834e3b5eeb09f7e416f57c2826752d6c20b3f",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "targeted_comparison": "页2–5：读者写者共享文件、首末读者及入口信号量，正文已有模型；公平性需公平排队前提。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.6 管程.pdf",
+      "pdf_sha256": "9973f00d97f489f2395fb169fd0e20eaf699f858842b5d75688a4705462a27b1",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "targeted_comparison": "页3–7：管程封装、条件变量与Java同步实例方法，正文已有对应说明；正文使用Mesa式等待并明确其语义。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.1 死锁的概念.pdf",
+      "pdf_sha256": "13035666ddfc0f9744ff870165cf432145eb0561cac3992ea147c6b675a7f399",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targeted_comparison": "页3、5–8：哲学家等待、死锁／饥饿／死循环及四条件，正文已有相关模型和边界。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.2 死锁的处理策略—预防死锁.pdf",
+      "pdf_sha256": "ac79ef62fb5a755e3db8d6bed068b8a899520a6f704097eb15ee5566f9974bbb",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "targeted_comparison": "页3：SPOOLing逻辑共享打印服务、输出进程串行驱动设备，已补正文；页4–6对应资源剥夺、静态分配和顺序申请。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.3 死锁的处理策略—避免死锁.pdf",
+      "pdf_sha256": "48a7c754fc6f3520c91f01f438be4a47fbab1da65012ae1471f9b4ee064f7555",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "targeted_comparison": "页3–15：BAT安全序列及五进程Max／Allocation／Need表、请求(2,1,1)与不安全例，正文已有并保留资源守恒计算。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.4 死锁的处理策略—死锁的检测与解除.pdf",
+      "pdf_sha256": "18cfbfbb3a97001d2caf7a579de6372f83e5393083edd1d439804d53ca9c5c00",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "targeted_comparison": "页3–7：资源图两个示例、化简和解除方法；正文已分别解释两种图及进程撤销、剥夺与回滚。"
+    }
+  ],
+  "content_sha256": "4cdaf8959343a2dd6f4a524a145d409441e0be2ba1ea318a4734a03523223309",
+  "limitation": "仅浏览所列八个PDF；其余操作系统课件及本次联系图中所有小字、动画细节、例题并未逐项核验。源覆盖总台账的未决限制保留。"
+}

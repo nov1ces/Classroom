@@ -1,0 +1,271 @@
+{
+  "method": "actual TikZ node heights emitted by XeLaTeX",
+  "measurements": [
+    {
+      "page": 1,
+      "index": 22,
+      "height_pt": 45.02136
+    },
+    {
+      "page": 2,
+      "index": 1,
+      "height_pt": 87.56635
+    },
+    {
+      "page": 3,
+      "index": 40,
+      "height_pt": 55.41537
+    },
+    {
+      "page": 4,
+      "index": 2,
+      "height_pt": 77.82684
+    },
+    {
+      "page": 5,
+      "index": 2,
+      "height_pt": 77.82684
+    },
+    {
+      "page": 6,
+      "index": 2,
+      "height_pt": 77.82684
+    },
+    {
+      "page": 7,
+      "index": 25,
+      "height_pt": 44.68988
+    },
+    {
+      "page": 8,
+      "index": 3,
+      "height_pt": 76.83237
+    },
+    {
+      "page": 9,
+      "index": 26,
+      "height_pt": 44.84286
+    },
+    {
+      "page": 10,
+      "index": 26,
+      "height_pt": 44.84286
+    },
+    {
+      "page": 11,
+      "index": 18,
+      "height_pt": 55.44086
+    },
+    {
+      "page": 12,
+      "index": 4,
+      "height_pt": 76.85785
+    },
+    {
+      "page": 13,
+      "index": 5,
+      "height_pt": 77.06186
+    },
+    {
+      "page": 14,
+      "index": 28,
+      "height_pt": 44.80035
+    },
+    {
+      "page": 15,
+      "index": 29,
+      "height_pt": 44.72388
+    },
+    {
+      "page": 16,
+      "index": 5,
+      "height_pt": 77.06186
+    },
+    {
+      "page": 17,
+      "index": 28,
+      "height_pt": 44.80035
+    },
+    {
+      "page": 18,
+      "index": 29,
+      "height_pt": 44.72388
+    },
+    {
+      "page": 19,
+      "index": 5,
+      "height_pt": 77.06186
+    },
+    {
+      "page": 20,
+      "index": 6,
+      "height_pt": 87.49835
+    },
+    {
+      "page": 21,
+      "index": 6,
+      "height_pt": 87.49835
+    },
+    {
+      "page": 22,
+      "index": 6,
+      "height_pt": 87.49835
+    },
+    {
+      "page": 23,
+      "index": 30,
+      "height_pt": 44.84286
+    },
+    {
+      "page": 24,
+      "index": 31,
+      "height_pt": 44.69836
+    },
+    {
+      "page": 25,
+      "index": 32,
+      "height_pt": 34.34686
+    },
+    {
+      "page": 26,
+      "index": 7,
+      "height_pt": 77.02786
+    },
+    {
+      "page": 27,
+      "index": 7,
+      "height_pt": 77.02786
+    },
+    {
+      "page": 28,
+      "index": 8,
+      "height_pt": 77.01935
+    },
+    {
+      "page": 29,
+      "index": 8,
+      "height_pt": 77.01935
+    },
+    {
+      "page": 30,
+      "index": 10,
+      "height_pt": 76.87485
+    },
+    {
+      "page": 31,
+      "index": 10,
+      "height_pt": 76.87485
+    },
+    {
+      "page": 32,
+      "index": 0,
+      "height_pt": 180.96869
+    },
+    {
+      "page": 33,
+      "index": 9,
+      "height_pt": 76.88336
+    },
+    {
+      "page": 34,
+      "index": 0,
+      "height_pt": 180.96869
+    },
+    {
+      "page": 35,
+      "index": 9,
+      "height_pt": 76.88336
+    },
+    {
+      "page": 36,
+      "index": 19,
+      "height_pt": 55.46637
+    },
+    {
+      "page": 37,
+      "index": 11,
+      "height_pt": 77.80984
+    },
+    {
+      "page": 38,
+      "index": 11,
+      "height_pt": 77.80984
+    },
+    {
+      "page": 39,
+      "index": 12,
+      "height_pt": 77.13837
+    },
+    {
+      "page": 40,
+      "index": 13,
+      "height_pt": 77.20636
+    },
+    {
+      "page": 41,
+      "index": 13,
+      "height_pt": 77.20636
+    },
+    {
+      "page": 42,
+      "index": 33,
+      "height_pt": 44.74088
+    },
+    {
+      "page": 43,
+      "index": 37,
+      "height_pt": 34.99286
+    },
+    {
+      "page": 44,
+      "index": 14,
+      "height_pt": 77.02786
+    },
+    {
+      "page": 45,
+      "index": 35,
+      "height_pt": 44.72388
+    },
+    {
+      "page": 46,
+      "index": 15,
+      "height_pt": 76.88336
+    },
+    {
+      "page": 47,
+      "index": 16,
+      "height_pt": 76.83237
+    },
+    {
+      "page": 48,
+      "index": 15,
+      "height_pt": 76.88336
+    },
+    {
+      "page": 49,
+      "index": 17,
+      "height_pt": 77.01086
+    },
+    {
+      "page": 50,
+      "index": 20,
+      "height_pt": 55.40686
+    },
+    {
+      "page": 51,
+      "index": 38,
+      "height_pt": 44.74088
+    },
+    {
+      "page": 52,
+      "index": 39,
+      "height_pt": 34.31287
+    },
+    {
+      "page": 53,
+      "index": 39,
+      "height_pt": 34.31287
+    }
+  ],
+  "collisions": []
+}

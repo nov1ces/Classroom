@@ -1,0 +1,16 @@
+{
+  "chapters/DS04/content.md": "3d393df33d91a49892b3b3340359c8fe892e5fa103133be5d4d77bda301b89bf",
+  "chapters/DS04/map.json": "dd94c7edcfb9fa8d8703f89021ce229a9dffa7f93e3f56b2451d69cba20e9fb0",
+  "chapters/DS04/sidebars.json": "81f23dbe0bd82d048fb42d6dcfc2fe80a7c467e45ced2bda53b26078d5f6c1c8",
+  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
+  "chapters/DS04/figures/DS04_string_layout.pdf": "7684e39551df551db5d0e3fab50b6a70ad7f78e1e6326600d2d70cc3f81470e2",
+  "chapters/DS04/figures/DS_04_kmp_shift.pdf": "65121912e9f8cdeb519746a33f84fb81313b8b24ccdf3006a14c2b9812be6163",
+  "chapters/DS04/figures/DS04_kmp_1based.svg": "26ef9094268eed6f3ca152c863ae33d1af14730817402559a06cb10bb8081ee6",
+  "chapters/DS04/figures/DS04_kmp_1based.pdf": "8621395218cd33917e97e62a108a98da94d1e63e4ffdd449f8644a109b8264f1",
+  "chapters/DS04/figures/DS_04_kmp_shift.png": "71d86004371876c72f8dc710cd345fff1fe930ef8b4c17da11905d1f0f7bdc6d",
+  "chapters/DS04/figures/DS04_kmp_1based.png": "d8eee79a142bedf39ee4fa9fd104a2c137a71e0af67fb7387e42521611f45839",
+  "chapters/DS04/figures/DS04_string_layout.svg": "b624b861f95f85e063457ff56f45d545f45ae8817bd80c70ca1d76b628885e3b",
+  "chapters/DS04/figures/DS04_string_layout.png": "86e5713dc2d7b49fb733ccb2ec01632752ace8f2670a8d2aafe8e12b0ab035d1",
+  "chapters/DS04/figures/DS_04_kmp_shift.svg": "e30513dc17bb595f33c23eff673fce3e19f739c21271ab237d1b49f6cba10ab3"
+}

@@ -1,0 +1,22 @@
+{
+  "chapters/DS08/content.md": "73fb7e1251c32a4303defbeeed27ef6d1c70852a760c7a7089c0dab431dc3f73",
+  "chapters/DS08/map.json": "6e8685254e6dd44a1f4c199e18bd0c6bacba291c0626485596aa2163ad5610dc",
+  "chapters/DS08/sidebars.json": "fb6afd3bf95d8c695155ed7de86fcc457259db206dd8efba4743360254f154ff",
+  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
+  "chapters/DS08/figures/DS_17_merge_trace.png": "0b0a68d8df0634feb03c23ef3a2d84496bddfd8a64571315b43748a7d351bbbd",
+  "chapters/DS08/figures/DS_18_replacement_selection.pdf": "ff1edcfb0412c7dbdb20e73c07f4bf357d468ebc4db9c7d4a3d680ee97cdebe8",
+  "chapters/DS08/figures/DS_19_loser_tree.png": "deb007e1a1128796073affe73dd0b07aaa48228bf09e31d601eb60bdc7c891cc",
+  "chapters/DS08/figures/DS_17_merge_trace.pdf": "c4ddcf2d29b3b1992583f1d82fee06c0c202f13c55b78c373ed6e9cc095dd7eb",
+  "chapters/DS08/figures/DS08_sort_course.png": "3fbdc1892f0a8d2898bf92f13712084b90fb4572288fddb95d18d8f6ba14cb4c",
+  "chapters/DS08/figures/DS_19_loser_tree.pdf": "5c5c441e279fe9b617556e1eb27b0cd457c25ebab190f4080cf9ba271b9bc117",
+  "chapters/DS08/figures/DS_17_merge_trace.svg": "9604a55211c960752c727088b7ad7cbf651063ed88b47ea08cf4ca67097fedde",
+  "chapters/DS08/figures/DS_09_heap_delete.pdf": "cde54be6fb8c21c413c28261cf46bc5269b211b3dbcc2208054fd872f9988fbd",
+  "chapters/DS08/figures/DS08_sort_course.svg": "816003825c3ee3681468bb82059e51e3447c82ca9333257c2b3230eac31d4213",
+  "chapters/DS08/figures/DS_19_loser_tree.svg": "c9e2eb114afc420156e5afad668b77545d01c74b813706e5fd9187965b154806",
+  "chapters/DS08/figures/DS_09_heap_delete.png": "6a1d9827b9c495feb1242d1857aec95fa5bcd1e0a942095885cdbd1ccbf135af",
+  "chapters/DS08/figures/DS08_sort_course.pdf": "3253c1ddfb26880b1bde499b53c524ca042eb27d181d3e295f1f72390c5c0732",
+  "chapters/DS08/figures/DS_18_replacement_selection.png": "fc132af0471d62abbcf247fb3c841d62c03c4bf0f961ef132c30bc256b5be805",
+  "chapters/DS08/figures/DS_18_replacement_selection.svg": "3c119db3d4ddd44e42cc43a3064b5e10fc255b03570feb0ae9ef9f7b8436574a",
+  "chapters/DS08/figures/DS_09_heap_delete.svg": "7b4fb96f90372b51abf863306d01e1bf284648fed2f3e6d3890602b270938f48"
+}

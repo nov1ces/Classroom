@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="636" viewBox="0 0 680 636">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="293.0" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="323.0" text-anchor="middle" font-weight="bold">计算机系统概述</text>
+<path d="M148,318.0 H166 V73.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="54.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="78.0" text-anchor="middle" font-weight="bold">功能与基本特征</text>
+<path d="M348,73.0 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">资源管理与服务接口</text>
+<path d="M348,73.0 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">并发与并行</text>
+<path d="M348,73.0 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">共享、虚拟、异步</text>
+<path d="M148,318.0 H166 V169.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="150.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="174.0" text-anchor="middle" font-weight="bold">操作系统发展与类型</text>
+<path d="M348,169.0 H365 V146.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="151.0">单道与多道批处理</text>
+<path d="M348,169.0 H365 V169.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="174.0">分时的交互与响应</text>
+<path d="M348,169.0 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">硬实时与软实时</text>
+<path d="M148,318.0 H166 V265.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="246.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="270.0" text-anchor="middle" font-weight="bold">运行机制与受控入口</text>
+<path d="M348,265.0 H365 V242.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="247.0">用户态、内核态、特权指令</text>
+<path d="M348,265.0 H365 V265.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="270.0">外部中断与异常</text>
+<path d="M348,265.0 H365 V288.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="293.0">系统调用与库函数</text>
+<path d="M148,318.0 H166 V361.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="342.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="357.0" text-anchor="middle" font-weight="bold">程序链接、装入与运行</text>
+<text x="266" y="375.0" text-anchor="middle" font-weight="bold">映像</text>
+<path d="M348,361.0 H365 V338.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="343.0">静态与动态链接</text>
+<path d="M348,361.0 H365 V361.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="366.0">绝对、可重定位、运行时装入</text>
+<path d="M348,361.0 H365 V384.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="389.0">代码、数据、堆、栈与映射区</text>
+<path d="M148,318.0 H166 V457.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="438.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="462.0" text-anchor="middle" font-weight="bold">内核结构与保护边界</text>
+<path d="M348,457.0 H365 V434.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="439.0">分层与模块化</text>
+<path d="M348,457.0 H365 V457.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="462.0">宏内核与微内核</text>
+<path d="M348,457.0 H365 V480.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="485.0">外核的保护与抽象</text>
+<path d="M148,318.0 H166 V553.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="534.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="558.0" text-anchor="middle" font-weight="bold">启动与持久结构</text>
+<path d="M348,553.0 H365 V530.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="535.0">固件、引导程序与内核初始化</text>
+<path d="M348,553.0 H365 V553.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="558.0">BIOS/MBR与UEFI/GPT</text>
+<path d="M348,553.0 H365 V576.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="581.0">运行结构与磁盘持久结构</text>
+</g></svg>

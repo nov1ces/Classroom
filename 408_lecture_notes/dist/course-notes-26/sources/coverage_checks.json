@@ -1,0 +1,3921 @@
+{
+  "lecture_files_expected": 351,
+  "lecture_files_mapped": 351,
+  "missing_sources": [],
+  "errors": [],
+  "unresolved": [
+    {
+      "chapter": "OS02",
+      "item": "31份课件共336页已按两轮2.1／2.2与两轮2.3／2.4来源审阅逐页浏览联系图，并对照已记录的重点图、代码及算例。联系图小字、逐帧动画和全部例题步骤并未逐项放大核验，具体浏览范围及发现见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json、os02_sync_deadlock_followup.json、os02_sync_models_followup.json。映射和联系图浏览不构成逐字逐图全面核验。"
+    },
+    {
+      "chapter": "OS03",
+      "item": "17份课件共201文件页均有联系图逐页总览及长文本知识组对照；短文字和全部源图的每个节点、状态尚未逐项精校，具体视觉范围见source_review_resume.md、sources/reviews/os03_deep_review.json及replacement_audit_20261028.md。"
+    },
+    {
+      "chapter": "OS04",
+      "item": "12份课件的可提取文字已按知识组核对；目录、物理结构、存储空间管理、布局和保护课件已复看原始大小拼图及所记录的重点页面，其余课件的图示标签与过程状态尚未全部逐项放大核对。"
+    },
+    {
+      "chapter": "OS04",
+      "item": "文件系统布局10页与文件保护15页已复看，其中保护课件Windows界面及布局关键页曾逐页放大；其他课件仍有文字层缺失的图示细节待核。"
+    }
+  ],
+  "records": [
+    {
+      "chapter": "CN01",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.0 开篇_欢迎来到计算机网路的世界.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "CN01-01"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN01",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_1 计算机网络的概念.pdf",
+      "source_pages": 16,
+      "mapped_pages": 16,
+      "targets": [
+        "CN01-01",
+        "CN01-course-internet"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN01",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_2 计算机网络的组成和功能.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "CN01-01"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN01",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_3 电路交换、报文交换、分组交换.pdf",
+      "source_pages": 32,
+      "mapped_pages": 32,
+      "targets": [
+        "CN01-07",
+        "CN01-08",
+        "CN01-course-timeline"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN01",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_4 计算机网络的分类.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CN01-02"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN01",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.1_5 计算机网络的性能指标.pdf",
+      "source_pages": 25,
+      "mapped_pages": 25,
+      "targets": [
+        "CN01-03",
+        "CN01-course-metrics",
+        "CN01-course-metric-examples"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN01",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.1+2 计算机网络分层结构.pdf",
+      "source_pages": 24,
+      "mapped_pages": 24,
+      "targets": [
+        "CN01-04",
+        "CN01-05",
+        "CN01-course-primitives"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN01",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.3_1 OSI参考模型.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "CN01-06",
+        "CN01-ex1",
+        "CN01-ex2"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN01",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第一章 计算机网络体系结构/1.2.3_2 TCP IP模型.pdf",
+      "source_pages": 18,
+      "mapped_pages": 18,
+      "targets": [
+        "CN01-06",
+        "CN01-04"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN02",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.1 通信基础的基本概念.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "CN02-01",
+        "CN02-course-conversion"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN02",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.2 信道的极限容量.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "CN02-02",
+        "CN02-ex1",
+        "CN02-ex2",
+        "CN02-course-capacity"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN02",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.3 编码和调制.pdf",
+      "source_pages": 16,
+      "mapped_pages": 16,
+      "targets": [
+        "CN02-03",
+        "CN02-course-codes"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN02",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.2 传输介质.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "CN02-06",
+        "CN02-course-media"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN02",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.3 物理层设备.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "CN02-08",
+        "CN02-course-media"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.1 数据链路层的功能.pdf",
+      "source_pages": 5,
+      "mapped_pages": 5,
+      "targets": [
+        "CN03-01"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.2 组帧.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "CN03-02",
+        "CN03-ex1"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.3.1_1 检错编码（奇偶校验码）.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "CN03-03"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.3.1_2 循环冗余校验码.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "CN03-03",
+        "CN03-ex2"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.3.2 纠错编码（海明校验码）.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "CN03-04",
+        "CN03-course-hamming"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_1 流量控制、可靠传输与滑动窗口机制.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "CN03-05",
+        "CN03-course-window"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_2 停止等待协议.pdf",
+      "source_pages": 23,
+      "mapped_pages": 23,
+      "targets": [
+        "CN03-06",
+        "CN03-ex4",
+        "CN03-course-window"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_3 后退N帧协议（GBN）.pdf",
+      "source_pages": 30,
+      "mapped_pages": 30,
+      "targets": [
+        "CN03-07",
+        "CN03-ex5",
+        "CN03-ex6",
+        "CN03-course-window"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_4 选择重传协议（SR）.pdf",
+      "source_pages": 45,
+      "mapped_pages": 45,
+      "targets": [
+        "CN03-08",
+        "CN03-course-window"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.4_5 三种协议的信道利用率分析.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CN03-06",
+        "CN03-ex6",
+        "CN03-course-window"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.1 信道划分介质访问控制.pdf",
+      "source_pages": 23,
+      "mapped_pages": 23,
+      "targets": [
+        "CN03-09",
+        "CN03-ex7",
+        "CN03-course-mac"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.2_1 随机访问介质访问控制.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CN03-10"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.2_2+3 CSMA CD协议.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CN03-11",
+        "CN03-ex8"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.2_4 CSMA CA协议.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "CN03-12",
+        "CN03-ex9",
+        "CN03-course-mac"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.5.3 令牌传递协议.pdf",
+      "source_pages": 23,
+      "mapped_pages": 23,
+      "targets": [
+        "CN03-13",
+        "CN03-course-mac"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.0 局域网与IEEE 802.pdf",
+      "source_pages": 3,
+      "mapped_pages": 3,
+      "targets": [
+        "CN03-14"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.1 局域网的基本概念和体系结构.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "CN03-14",
+        "CN03-15"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.2 以太网与IEEE 802.3.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "CN03-15",
+        "CN03-19"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.3 VLAN的基本概念与基本原理.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "CN03-17",
+        "CN03-ex10"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.6.4 IEEE 802.11 无线局域网.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "CN03-16",
+        "CN03-course-mac"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.7.1+2 广域网、PPP协议.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "CN03-18",
+        "CN03-course-ppp"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN03",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第三章 数据链路层/3.8 以太网交换机.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "CN03-19",
+        "CN03-ex11"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.1 网络层的功能.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "CN04-01",
+        "CN04-02",
+        "CN04-03"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "source_pages": 16,
+      "mapped_pages": 16,
+      "targets": [
+        "CN04-07",
+        "CN04-ex2"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.2 IP地址+ 整章串讲.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "CN04-08",
+        "CN04-course-addresses",
+        "CN04-11"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.3 子网划分与和子网掩码（有上课手稿）.pdf",
+      "source_pages": 16,
+      "mapped_pages": 16,
+      "targets": [
+        "CN04-08",
+        "CN04-ex3",
+        "CN04-ex6",
+        "CN04-ex10"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.3 子网划分与和子网掩码（纯净版）.pdf",
+      "source_pages": 16,
+      "mapped_pages": 16,
+      "targets": [
+        "CN04-08",
+        "CN04-ex3",
+        "CN04-ex6",
+        "CN04-ex10"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.4 无分类编址 CIDR.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "CN04-08",
+        "CN04-ex4",
+        "CN04-course-vlsm"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.5 路由聚合.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "CN04-09",
+        "CN04-ex5",
+        "CN04-ex11"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.6 网络地址转换 NAT（有上课手稿）.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "CN04-10",
+        "CN04-course-addresses"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.6 网络地址转换 NAT（纯净版无手稿）.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "CN04-10",
+        "CN04-course-addresses"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.7 地址解析协议ARP（有上课手稿）.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "CN04-11",
+        "CN04-ex6"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.7 地址解析协议ARP（纯净版无手稿）.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "CN04-11",
+        "CN04-ex6"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.8 动态主机配置协议DHCP.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CN04-12",
+        "CN04-ex7"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.9 ICMP网际控制报文协议.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "CN04-13",
+        "CN04-ex8"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.3 IPv6（楼楼老师）.pdf",
+      "source_pages": 5,
+      "mapped_pages": 5,
+      "targets": [
+        "CN04-14",
+        "CN04-course-ipv6"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable; scan OCR inspected for IPv6 fields and transition methods"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.3_1 IPv6地址.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "CN04-course-ipv6",
+        "CN04-ex9"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4 路由算法与路由协议.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "CN04-04",
+        "CN04-05",
+        "CN04-06",
+        "CN04-15"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.1 路由算法.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "CN04-04",
+        "CN04-05",
+        "CN04-06",
+        "CN04-ex1"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.2 分层次的路由协议.pdf",
+      "source_pages": 6,
+      "mapped_pages": 6,
+      "targets": [
+        "CN04-15"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.3 RIP路由信息协议.pdf",
+      "source_pages": 55,
+      "mapped_pages": 55,
+      "targets": [
+        "CN04-16",
+        "CN04-ex12",
+        "CN04-course-routing"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.4_1 OSPF的特点.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CN04-17",
+        "CN04-course-ospf"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.4_2 OSPF的基本工作原理.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "CN04-06",
+        "CN04-17",
+        "CN04-course-ospf"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.4_3 OSPF的分组类型.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "CN04-course-ospf"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.5 BGP边界网关协议.pdf",
+      "source_pages": 30,
+      "mapped_pages": 30,
+      "targets": [
+        "CN04-18",
+        "CN04-course-routing"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.5 IP多播.pdf",
+      "source_pages": 6,
+      "mapped_pages": 6,
+      "targets": [
+        "CN04-19"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.6 移动IP.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "CN04-20"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN04",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.7 网络层设备.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "CN04-21"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN05",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.1 传输层提供的服务.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "CN05-01",
+        "CN05-course-buffers"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN05",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.2.1 UDP数据报.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "CN05-02",
+        "CN05-course-buffers"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN05",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.2.2 UDP检验.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "CN05-03",
+        "CN05-ex2",
+        "CN05-course-checksum"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN05",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（有上课手稿）.pdf",
+      "source_pages": 23,
+      "mapped_pages": 23,
+      "targets": [
+        "CN05-04",
+        "CN05-ex3",
+        "CN05-course-buffers"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN05",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.1+2 TCP报文段（纯净版无手稿）.pdf",
+      "source_pages": 16,
+      "mapped_pages": 16,
+      "targets": [
+        "CN05-04",
+        "CN05-ex3",
+        "CN05-course-buffers"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN05",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf",
+      "source_pages": 18,
+      "mapped_pages": 18,
+      "targets": [
+        "CN05-05",
+        "CN05-ex4"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN05",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.4+5 TCP可靠传输、流量控制（有上课手稿）.pdf",
+      "source_pages": 30,
+      "mapped_pages": 30,
+      "targets": [
+        "CN05-06",
+        "CN05-07",
+        "CN05-09",
+        "CN05-course-byte-trace"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN05",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.4+5 TCP可靠传输、流量控制（纯净版无手稿）.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "CN05-06",
+        "CN05-07",
+        "CN05-09",
+        "CN05-course-byte-trace"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN05",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.5 （必看）快重传机制的易错点.pdf",
+      "source_pages": 4,
+      "mapped_pages": 4,
+      "targets": [
+        "CN05-06",
+        "CN05-course-duplicate-acks"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN05",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.6 TCP拥塞控制.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CN05-08",
+        "CN05-ex5",
+        "CN05-ex6",
+        "CN05-ex7",
+        "CN05-09"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN06",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.0 应用层Intro.pdf",
+      "source_pages": 6,
+      "mapped_pages": 6,
+      "targets": [
+        "CN06-course-model"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN06",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.1 网络应用模型.pdf",
+      "source_pages": 4,
+      "mapped_pages": 4,
+      "targets": [
+        "CN06-01",
+        "CN06-course-model"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN06",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "source_pages": 19,
+      "mapped_pages": 19,
+      "targets": [
+        "CN06-02",
+        "CN06-03",
+        "CN06-ex1",
+        "CN06-course-dns-records"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN06",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.3 FTP 文件传输协议.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "CN06-04",
+        "CN06-ex2",
+        "CN06-ex8"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN06",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.4 电子邮件.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "CN06-05",
+        "CN06-06",
+        "CN06-ex3",
+        "CN06-course-mail"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CN06",
+      "source": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.5 WWW和HTTP.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "CN06-07",
+        "CN06-08",
+        "CN06-ex4",
+        "CN06-ex5",
+        "CN06-ex6",
+        "CN06-ex7",
+        "CN06-course-http-message"
+      ],
+      "verification": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable"
+    },
+    {
+      "chapter": "CO01",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.0_你好，我是计算机组成原理.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "CO01-02",
+        "CO01-components"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO01",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.1_计算机发展历程（大纲已删 简要了解即可）.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "CO01-history",
+        "CO01-history-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO01",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "CO01-components",
+        "CO01-03"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO01",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.2（补充）_各个硬件的工作原理.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "CO01-04",
+        "CO01-program-trace",
+        "CO01-words"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO01",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.3 计算机软件.pdf",
+      "source_pages": 5,
+      "mapped_pages": 5,
+      "targets": [
+        "CO01-software",
+        "CO01-05"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO01",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.4 计算机系统的层次结构.pdf",
+      "source_pages": 6,
+      "mapped_pages": 6,
+      "targets": [
+        "CO01-03",
+        "CO01-software"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO01",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.5 计算机系统的工作原理.pdf",
+      "source_pages": 5,
+      "mapped_pages": 5,
+      "targets": [
+        "CO01-program-trace",
+        "CO01-05"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO01",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "CO01-07",
+        "CO01-performance-complete",
+        "CO01-capacity"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.1 进位计数制.pdf",
+      "source_pages": 16,
+      "mapped_pages": 16,
+      "targets": [
+        "CO02-02",
+        "CO02-03"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.2+2.1.3 定点数的编码表示.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "CO02-04",
+        "CO02-proof"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.2+2.1.3（拓展）各种码的作用.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "CO02-04",
+        "CO02-proof"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.4_1  C语言中的整数类型及类型转换.pdf",
+      "source_pages": 3,
+      "mapped_pages": 3,
+      "targets": [
+        "CO02-05",
+        "CO02-06",
+        "CO02-07"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.4_2 零扩展、符号扩展.pdf",
+      "source_pages": 4,
+      "mapped_pages": 4,
+      "targets": [
+        "CO02-05"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.0_1  逻辑门电路（数字电路基础补充）.pdf",
+      "source_pages": 16,
+      "mapped_pages": 16,
+      "targets": [
+        "CO02-digital-logic"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.0_2 多路选择器、三态门（数字电路基础补充）.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "CO02-mux-tristate"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.1_1 加法器.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "CO02-09",
+        "CO02-adder-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.1_3  算数逻辑单元ALU.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "CO02-09",
+        "CO02-adder-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "CO02-08"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.3_1 定点数的加减运算.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "CO02-09",
+        "CO02-11"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.3_2 无符号数的加减运算.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "CO02-11",
+        "CO02-12"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.3_3 补码加减运算电路.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "CO02-09",
+        "CO02-10",
+        "CO02-14"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_0 乘法除法运算复习说明（书课适配说明）.pdf",
+      "source_pages": 6,
+      "mapped_pages": 6,
+      "targets": [
+        "CO02-15",
+        "CO02-multiply-process",
+        "CO02-division-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_1 无符号整数的乘法运算原理.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "CO02-16",
+        "CO02-unsigned-trace"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_2 带符号整数的乘法运算原理.pdf",
+      "source_pages": 24,
+      "mapped_pages": 24,
+      "targets": [
+        "CO02-booth-trace",
+        "CO02-16"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_3 计算机实现乘法运算的三种方式.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "CO02-multiply-hardware"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_4 无符号整数的除法运算原理.pdf",
+      "source_pages": 24,
+      "mapped_pages": 24,
+      "targets": [
+        "CO02-division-complete",
+        "CO02-division-registers"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_5 带符号整数（补码）的除法运算原理.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "CO02-signed-division-trace",
+        "CO02-division-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_1 浮点数的表示_IEEE 754.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "CO02-18",
+        "CO02-19"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "CO02-19",
+        "CO02-20",
+        "CO02-24"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_3+4 浮点数的表示范围、几种特殊状态.pdf",
+      "source_pages": 21,
+      "mapped_pages": 21,
+      "targets": [
+        "CO02-18",
+        "CO02-23",
+        "CO02-precision"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.2_1+2 浮点数的加减运算.pdf",
+      "source_pages": 6,
+      "mapped_pages": 6,
+      "targets": [
+        "CO02-21"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.2_3 浮点数的加减运算(舍入问题).pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "CO02-precision",
+        "CO02-rounding-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.2_4 浮点数的加减运算(溢出问题).pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "CO02-22",
+        "CO02-24"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO02",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.4 数据的存储和排列.pdf",
+      "source_pages": 3,
+      "mapped_pages": 3,
+      "targets": [
+        "CO02-25",
+        "CO02-26",
+        "CO02-storage"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO03",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.1 存储系统基本概念.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "CO03-02",
+        "CO03-storage-details"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO03",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.2.0+3.2.3 主存储器的基本组成.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "CO03-03",
+        "CO03-04",
+        "CO03-06"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO03",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.2.1 SRAM和DRAM.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "CO03-03",
+        "CO03-05",
+        "CO03-storage-details"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO03",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.2.2 只读存储器ROM.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "CO03-rom",
+        "CO03-rom-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO03",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.2.4 双端口RAM和多模块存储器.pdf",
+      "source_pages": 22,
+      "mapped_pages": 22,
+      "targets": [
+        "CO03-08",
+        "CO03-storage-details",
+        "CO03-interleave-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO03",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.3 主存储器与CPU的连接.pdf",
+      "source_pages": 28,
+      "mapped_pages": 28,
+      "targets": [
+        "CO03-10",
+        "CO03-11",
+        "CO03-chip-expansion-complete",
+        "CO03-chip-example"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO03",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.4.1 磁盘存储器.pdf",
+      "source_pages": 19,
+      "mapped_pages": 19,
+      "targets": [
+        "CO03-12",
+        "CO03-13",
+        "CO03-disk-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO03",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.4.2 固态硬盘_扫描版.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "CO03-03",
+        "CO03-12",
+        "CO03-ssd-details"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO03",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.1+3.5.2 Cache的基本原理.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CO03-14",
+        "CO03-cache-model-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO03",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.3 Cache和主存的映射方式.pdf",
+      "source_pages": 28,
+      "mapped_pages": 28,
+      "targets": [
+        "CO03-17",
+        "CO03-18",
+        "CO03-21"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO03",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.4 Cache替换算法.pdf",
+      "source_pages": 29,
+      "mapped_pages": 29,
+      "targets": [
+        "CO03-19",
+        "CO03-replacement-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO03",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.5 Cache写策略.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CO03-20",
+        "CO03-assoc"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO03",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.6 存储系统大全图（建议用彩色打印）.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "CO03-22",
+        "CO03-23",
+        "CO03-24",
+        "CO03-28"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO04",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.1.1+2+3  指令的基本格式.pdf",
+      "source_pages": 23,
+      "mapped_pages": 23,
+      "targets": [
+        "CO04-02",
+        "CO04-formats-complete",
+        "CO04-implicit"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO04",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.1.4 扩展操作码指令格式.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "CO04-03",
+        "CO04-opcode-complete",
+        "CO04-proof"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO04",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.1 指令寻址.pdf",
+      "source_pages": 20,
+      "mapped_pages": 20,
+      "targets": [
+        "CO04-04",
+        "CO04-05"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO04",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_1 数据寻址1.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "CO04-04",
+        "CO04-06",
+        "CO04-addressing-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO04",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_2 数据寻址2_偏移寻址.pdf",
+      "source_pages": 21,
+      "mapped_pages": 21,
+      "targets": [
+        "CO04-addressing-complete",
+        "CO04-05"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO04",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_3 数据寻址3_堆栈寻址.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "CO04-addressing-complete",
+        "CO04-stack-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO04",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.1_1 高级语言与机器级代码之间的对应.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CO04-09",
+        "CO04-x86-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO04",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.1_2 常用的x86汇编指令.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "CO04-x86-complete",
+        "CO04-effects"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO04",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.1_3 AT&T格式和Intel格式.pdf",
+      "source_pages": 5,
+      "mapped_pages": 5,
+      "targets": [
+        "CO04-x86-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO04",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.2 选择语句的机器级表示.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "CO04-11",
+        "CO04-branch-flags"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO04",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.3 循环语句的机器级表示.pdf",
+      "source_pages": 5,
+      "mapped_pages": 5,
+      "targets": [
+        "CO04-loop-complete",
+        "CO04-11"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO04",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.4 函数调用的机器级表示.pdf",
+      "source_pages": 60,
+      "mapped_pages": 60,
+      "targets": [
+        "CO04-12",
+        "CO04-14",
+        "CO04-stack-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO04",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.4 CISC和RISC.pdf",
+      "source_pages": 6,
+      "mapped_pages": 6,
+      "targets": [
+        "CO04-07",
+        "CO04-08"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.1 CPU的功能和基本结构.pdf",
+      "source_pages": 24,
+      "mapped_pages": 24,
+      "targets": [
+        "CO05-registers",
+        "CO05-state-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.2 指令执行过程.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "CO05-cycle",
+        "CO05-exception"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.3_1 数据通路-单总线结构.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "CO05-datapath",
+        "CO05-datapath-complete",
+        "CO05-fetch-details"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.3_2 数据通路-专用通路结构.pdf",
+      "source_pages": 16,
+      "mapped_pages": 16,
+      "targets": [
+        "CO05-datapath",
+        "CO05-datapath-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.1 硬布线控制器.pdf",
+      "source_pages": 22,
+      "mapped_pages": 22,
+      "targets": [
+        "CO05-control",
+        "CO05-hardwired-design"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.2 微程序控制器的基本原理.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "CO05-microsequence",
+        "CO05-microprogram-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.3 微指令的设计.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "CO05-example-4",
+        "CO05-example-5",
+        "CO05-microinstruction-design"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.4.4 微程序控制单元的设计.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CO05-microdesign-steps",
+        "CO05-microprogram-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_1 指令流水线的基本概念和性能指标.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CO05-pipeline-performance",
+        "CO05-example-7",
+        "CO05-five-stage-details"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_2 指令流水线的影响因素和分类.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "CO05-hazards",
+        "CO05-pipeline-types",
+        "CO05-issue"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.6_3 五段式指令流水线.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "CO05-stage-registers",
+        "CO05-example-8",
+        "CO05-example-11",
+        "CO05-five-stage-details"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_1 多处理器基本概念.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "CO05-flynn",
+        "CO05-multithread",
+        "CO05-thread-details"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_1 多处理器基本概念骚图.pdf",
+      "source_pages": 1,
+      "mapped_pages": 1,
+      "targets": [
+        "CO05-flynn",
+        "CO05-thread-details"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO05",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_2 硬件多线程.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "CO05-multithread",
+        "CO05-thread-details",
+        "CO05-thread-schedule"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO06",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.1.1~6.1.3 总线概述.pdf",
+      "source_pages": 23,
+      "mapped_pages": 23,
+      "targets": [
+        "CO06-metrics",
+        "CO06-types-complete",
+        "CO06-organization-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO06",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.1.5 总线的性能指标.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "CO06-metrics",
+        "CO06-example-1",
+        "CO06-example-2"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO06",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.2.0 拓展：总线仲裁（408大纲已删，简单了解即可）.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CO06-arbitration",
+        "CO06-arbitration-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO06",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.2.1~6.2.3 总线操作和定时.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "CO06-transaction",
+        "CO06-sync",
+        "CO06-async",
+        "CO06-timing-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO06",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.3 拓展：总线标准（408大纲已删，简单了解即可）.pdf",
+      "source_pages": 26,
+      "mapped_pages": 26,
+      "targets": [
+        "CO06-standards-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO07",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.1+7.1.2 输入输出系统和IO控制方式.pdf",
+      "source_pages": 16,
+      "mapped_pages": 16,
+      "targets": [
+        "CO07-map",
+        "CO07-io-structure-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO07",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.3 外部设备.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "CO07-devices",
+        "CO07-peripherals-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO07",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.2 IO接口.pdf",
+      "source_pages": 16,
+      "mapped_pages": 16,
+      "targets": [
+        "CO07-interface",
+        "CO07-io-structure-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO07",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.1 程序查询方式.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "CO07-query",
+        "CO07-query-complete",
+        "CO07-example-2"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO07",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_1 中断的作用和原理.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CO07-interrupt",
+        "CO07-entry",
+        "CO07-interrupt-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO07",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_2 多重中断.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "CO07-mask",
+        "CO07-example-3",
+        "CO07-interrupt-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO07",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_3 程序中断方式.pdf",
+      "source_pages": 6,
+      "mapped_pages": 6,
+      "targets": [
+        "CO07-example-4",
+        "CO07-overlap-example"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "CO07",
+      "source": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "CO07-dma",
+        "CO07-example-5",
+        "CO07-example-6",
+        "CO07-dma-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。"
+    },
+    {
+      "chapter": "DS01",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.0_开篇_数据结构在学什么.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "DS01-01"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS01",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.1_数据结构的基本概念.pdf",
+      "source_pages": 29,
+      "mapped_pages": 29,
+      "targets": [
+        "DS01-01",
+        "DS01-map"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS01",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.2_1_算法的基本概念.pdf",
+      "source_pages": 22,
+      "mapped_pages": 22,
+      "targets": [
+        "DS01-02",
+        "DS01-sort-example",
+        "DS01-code"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS01",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.2_2_算法的时间复杂度.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "DS01-03",
+        "DS01-rules",
+        "DS01-count"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS01",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.2_3_算法的空间复杂度.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "DS01-04",
+        "DS01-space-example"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS02",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.1_线性表的定义和基本操作.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "DS02-01",
+        "DS02-code-seq",
+        "DS02-compare"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS02",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.1_顺序表的定义.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "DS02-02",
+        "DS02-code-seq",
+        "DS02-dynamic"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS02",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_1_顺序表的插入删除.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "DS02-02",
+        "DS02-seq-update"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS02",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_2_顺序表的查找.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "DS02-seq-query"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS02",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.1_单链表的定义.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "DS02-03",
+        "DS02-code-link",
+        "DS02-nohead"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS02",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_1_单链表的插入删除.pdf",
+      "source_pages": 26,
+      "mapped_pages": 26,
+      "targets": [
+        "DS02-03",
+        "DS02-link-update",
+        "DS02-nohead"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS02",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_2_单链表的查找.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "DS02-code-link",
+        "DS02-link-update"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS02",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_3_单链表的建立.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "DS02-build",
+        "DS02-detail1"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS02",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.3_双链表.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "DS02-04",
+        "DS02-double-code",
+        "DS02-ex3"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS02",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.4_循环链表.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "DS02-04",
+        "DS02-double-code"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS02",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.5_静态链表.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "DS02-double-code"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS02",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.6_顺序表和链表的比较.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "DS02-compare",
+        "DS02-02"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS03",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.1_栈的基本概念.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "DS03-01",
+        "DS03-ex1",
+        "DS03-code"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS03",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.2_栈的顺序存储实现.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "DS03-03",
+        "DS03-code",
+        "DS03-share-code"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS03",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.3_栈的链式存储实现.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "DS03-04",
+        "DS03-linked-code"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS03",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.1_队列的基本概念.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "DS03-02",
+        "DS03-code"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS03",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.2_队列的顺序实现.pdf",
+      "source_pages": 16,
+      "mapped_pages": 16,
+      "targets": [
+        "DS03-detail1",
+        "DS03-ex2",
+        "DS03-code"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS03",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.3_队列的链式实现.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "DS03-04",
+        "DS03-linkqueue-code"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS03",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.4_双端队列.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "DS03-02"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS03",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.1_栈在括号匹配中的应用.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "DS03-detail2",
+        "DS03-bracket-code"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS03",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.2_1_栈在表达式求值中的应用(上).pdf",
+      "source_pages": 24,
+      "mapped_pages": 24,
+      "targets": [
+        "DS03-07",
+        "DS03-app-method",
+        "DS03-expression-trace"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS03",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.2_2_栈在表达式求值中的应用(下).pdf",
+      "source_pages": 55,
+      "mapped_pages": 55,
+      "targets": [
+        "DS03-expression-trace",
+        "DS03-infix-eval"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS03",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.3_栈在递归中的应用.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "DS03-detail3",
+        "DS03-recursion-model"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS03",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.4+3.3.5_队列的应用.pdf",
+      "source_pages": 5,
+      "mapped_pages": 5,
+      "targets": [
+        "DS03-detail3",
+        "DS03-app-method"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS03",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.4.1~3.4.4_特殊矩阵的压缩存储.pdf",
+      "source_pages": 24,
+      "mapped_pages": 24,
+      "targets": [
+        "DS03-05",
+        "DS03-06",
+        "DS03-matrix-method",
+        "DS03-matrix-table"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed."
+    },
+    {
+      "chapter": "DS04",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.1_串的定义和基本操作.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "DS04-01",
+        "DS04-bound"
+      ],
+      "verification": "all page text extracted and read; animation stages consolidated; KMP formal code file page94 visually checked; numeric examples independently simulated"
+    },
+    {
+      "chapter": "DS04",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.1.2_串的存储结构.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "DS04-storage",
+        "DS04-basic-code"
+      ],
+      "verification": "all page text extracted and read; animation stages consolidated; KMP formal code file page94 visually checked; numeric examples independently simulated"
+    },
+    {
+      "chapter": "DS04",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.1_朴素模式匹配算法.pdf",
+      "source_pages": 47,
+      "mapped_pages": 47,
+      "targets": [
+        "DS04-02",
+        "DS04-naive-example"
+      ],
+      "verification": "all page text extracted and read; animation stages consolidated; KMP formal code file page94 visually checked; numeric examples independently simulated"
+    },
+    {
+      "chapter": "DS04",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_1_KMP算法.pdf",
+      "source_pages": 95,
+      "mapped_pages": 95,
+      "targets": [
+        "DS04-03",
+        "DS04-kmp-example",
+        "DS04-analysis"
+      ],
+      "verification": "all page text extracted and read; animation stages consolidated; KMP formal code file page94 visually checked; numeric examples independently simulated"
+    },
+    {
+      "chapter": "DS04",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.2_2_求next数组.pdf",
+      "source_pages": 64,
+      "mapped_pages": 64,
+      "targets": [
+        "DS04-next",
+        "DS04-next-practice"
+      ],
+      "verification": "all page text extracted and read; animation stages consolidated; KMP formal code file page94 visually checked; numeric examples independently simulated"
+    },
+    {
+      "chapter": "DS04",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第四章 串/4.2.3_KMP算法的进一步优化.pdf",
+      "source_pages": 46,
+      "mapped_pages": 46,
+      "targets": [
+        "DS04-nextval",
+        "DS04-opt-example"
+      ],
+      "verification": "all page text extracted and read; animation stages consolidated; KMP formal code file page94 visually checked; numeric examples independently simulated"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.1.1+5.1.2 树的定义和基本术语.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "DS05-01"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.1.3 树的性质.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "DS05-01",
+        "DS05-mary"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.1_1 二叉树的定义和基本术语.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "DS05-02"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.1_2 二叉树的性质.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "DS05-02"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.2 二叉树的存储结构.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "DS05-03",
+        "DS05-bitree-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.1_1 二叉树的先中后序遍历.pdf",
+      "source_pages": 22,
+      "mapped_pages": 22,
+      "targets": [
+        "DS05-04",
+        "DS05-order-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.1_2 二叉树的层次遍历.pdf",
+      "source_pages": 4,
+      "mapped_pages": 4,
+      "targets": [
+        "DS05-04"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.1_3 由遍历序列构造二叉树.pdf",
+      "source_pages": 38,
+      "mapped_pages": 38,
+      "targets": [
+        "DS05-04",
+        "DS05-rebuild"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_1 线索二叉树的概念.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "DS05-05"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_2 二叉树的线索化.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "DS05-05",
+        "DS05-thread-access"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_3 在线索二叉树中找前驱后继.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "DS05-thread-access"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.1 树的存储结构.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "DS05-06",
+        "DS05-tree-storage-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.2 树、森林与二叉树的转换.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "DS05-07"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.3 树和森林的遍历.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "DS05-08"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.1 哈夫曼树.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "DS05-09",
+        "DS05-huffman-course"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.2_1 并查集.pdf",
+      "source_pages": 21,
+      "mapped_pages": 21,
+      "targets": [
+        "DS05-10"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS05",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.2_2 并查集的进一步优化.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "DS05-10"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.1.1 图的基本概念.pdf",
+      "source_pages": 27,
+      "mapped_pages": 27,
+      "targets": [
+        "DS06-01"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.2.1 邻接矩阵法.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "DS06-02",
+        "DS06-matrix-power"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.2.2 邻接表法.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "DS06-02",
+        "DS06-storage-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.2.3+6.2.4 十字链表、邻接多重表.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "DS06-03"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.2.5 图的基本操作.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "DS06-storage-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.3.1 图的广度优先遍历.pdf",
+      "source_pages": 43,
+      "mapped_pages": 43,
+      "targets": [
+        "DS06-05",
+        "DS06-traversal-order"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.3.2 图的深度优先遍历.pdf",
+      "source_pages": 63,
+      "mapped_pages": 63,
+      "targets": [
+        "DS06-04",
+        "DS06-traversal-order"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.1 最小生成树.pdf",
+      "source_pages": 87,
+      "mapped_pages": 87,
+      "targets": [
+        "DS06-06",
+        "DS06-mst-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.2_1 最短路径问题_BFS算法.pdf",
+      "source_pages": 31,
+      "mapped_pages": 31,
+      "targets": [
+        "DS06-05",
+        "DS06-bfs-course"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.2_2 最短路径问题_Dijkstra算法.pdf",
+      "source_pages": 34,
+      "mapped_pages": 34,
+      "targets": [
+        "DS06-07",
+        "DS06-shortest-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.2_3 最短路径问题_Floyd算法.pdf",
+      "source_pages": 30,
+      "mapped_pages": 30,
+      "targets": [
+        "DS06-07",
+        "DS06-floyd-example"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.3 有向无环图描述表达式.pdf",
+      "source_pages": 46,
+      "mapped_pages": 46,
+      "targets": [
+        "DS06-expression-dag"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.4 拓扑排序.pdf",
+      "source_pages": 85,
+      "mapped_pages": 85,
+      "targets": [
+        "DS06-08",
+        "DS06-topo-code",
+        "DS06-reverse-topo"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS06",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.5 关键路径.pdf",
+      "source_pages": 41,
+      "mapped_pages": 41,
+      "targets": [
+        "DS06-09",
+        "DS06-aoe-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.1 查找的基本概念.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "DS07-01"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.1 顺序查找.pdf",
+      "source_pages": 20,
+      "mapped_pages": 20,
+      "targets": [
+        "DS07-02",
+        "DS07-seq-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.2 折半查找.pdf",
+      "source_pages": 47,
+      "mapped_pages": 47,
+      "targets": [
+        "DS07-03"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.3 分块查找.pdf",
+      "source_pages": 24,
+      "mapped_pages": 24,
+      "targets": [
+        "DS07-02",
+        "DS07-ex1"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.1 二叉排序树.pdf",
+      "source_pages": 21,
+      "mapped_pages": 21,
+      "targets": [
+        "DS07-04",
+        "DS07-bst-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+      "source_pages": 30,
+      "mapped_pages": 30,
+      "targets": [
+        "DS07-05",
+        "DS07-rotate-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_2 平衡二叉树的删除.pdf",
+      "source_pages": 49,
+      "mapped_pages": 49,
+      "targets": [
+        "DS07-avl-delete"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_1 红黑树的定义和性质.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "DS07-06"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_2 红黑树的插入.pdf",
+      "source_pages": 33,
+      "mapped_pages": 33,
+      "targets": [
+        "DS07-06",
+        "DS07-rb-insert-trace"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_3 红黑树的删除.pdf",
+      "source_pages": 6,
+      "mapped_pages": 6,
+      "targets": [
+        "DS07-06"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+      "source_pages": 19,
+      "mapped_pages": 19,
+      "targets": [
+        "DS07-07",
+        "DS07-ex5"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_2 B树的插入删除.pdf",
+      "source_pages": 54,
+      "mapped_pages": 54,
+      "targets": [
+        "DS07-07"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf",
+      "source_pages": 22,
+      "mapped_pages": 22,
+      "targets": [
+        "DS07-08"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.1 散列表的基本概念.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "DS07-09"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.2 散列函数的构造.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "DS07-hash-functions"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.3_1 处理冲突的方法_拉链法.pdf",
+      "source_pages": 20,
+      "mapped_pages": 20,
+      "targets": [
+        "DS07-hash-chain"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.3_2 处理冲突的方法_开放定址法.pdf",
+      "source_pages": 21,
+      "mapped_pages": 21,
+      "targets": [
+        "DS07-hash-probes",
+        "DS07-hash-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS07",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "DS07-hash-asl-course",
+        "DS07-ex7",
+        "DS07-ex8"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "DS08-01"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.1+8.2.2 插入排序.pdf",
+      "source_pages": 68,
+      "mapped_pages": 68,
+      "targets": [
+        "DS08-02",
+        "DS08-bin-insert"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.3 希尔排序.pdf",
+      "source_pages": 72,
+      "mapped_pages": 72,
+      "targets": [
+        "DS08-05",
+        "DS08-shell-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.1 冒泡排序.pdf",
+      "source_pages": 59,
+      "mapped_pages": 59,
+      "targets": [
+        "DS08-03",
+        "DS08-bubble-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.2 快速排序.pdf",
+      "source_pages": 132,
+      "mapped_pages": 132,
+      "targets": [
+        "DS08-06",
+        "DS08-course-traces"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.4.1 简单选择排序.pdf",
+      "source_pages": 29,
+      "mapped_pages": 29,
+      "targets": [
+        "DS08-04"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.4.2_1 堆排序.pdf",
+      "source_pages": 78,
+      "mapped_pages": 78,
+      "targets": [
+        "DS08-07",
+        "DS08-heap-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.4.2_2 堆的插入删除.pdf",
+      "source_pages": 19,
+      "mapped_pages": 19,
+      "targets": [
+        "DS08-07",
+        "DS08-ex3"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.1 归并排序.pdf",
+      "source_pages": 44,
+      "mapped_pages": 44,
+      "targets": [
+        "DS08-08",
+        "DS08-merge-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.2 基数排序.pdf",
+      "source_pages": 81,
+      "mapped_pages": 81,
+      "targets": [
+        "DS08-09",
+        "DS08-radix-links"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.3 计数排序.pdf",
+      "source_pages": 21,
+      "mapped_pages": 21,
+      "targets": [
+        "DS08-09",
+        "DS08-count-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.3 计数排序代码附件.pdf",
+      "source_pages": 2,
+      "mapped_pages": 2,
+      "targets": [
+        "DS08-count-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.1+8.7.2 外部排序.pdf",
+      "source_pages": 98,
+      "mapped_pages": 98,
+      "targets": [
+        "DS08-10",
+        "DS08-external-course"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.3 败者树.pdf",
+      "source_pages": 36,
+      "mapped_pages": 36,
+      "targets": [
+        "DS08-10"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.4 置换_选择排序.pdf",
+      "source_pages": 66,
+      "mapped_pages": 66,
+      "targets": [
+        "DS08-ex6",
+        "DS08-external-code"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "DS08",
+      "source": "01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.5 最佳归并树.pdf",
+      "source_pages": 24,
+      "mapped_pages": 24,
+      "targets": [
+        "DS08-ex7",
+        "DS08-ex8"
+      ],
+      "verification": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。"
+    },
+    {
+      "chapter": "OS01",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.1.1+1.1.2 操作系统的概念、功能和目标_扫描版.pdf",
+      "source_pages": 18,
+      "mapped_pages": 18,
+      "targets": [
+        "OS01-1-1",
+        "OS01-interfaces"
+      ],
+      "verification": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up"
+    },
+    {
+      "chapter": "OS01",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.1.3 操作系统的特征_扫描版.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS01-auto-1"
+      ],
+      "verification": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up"
+    },
+    {
+      "chapter": "OS01",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.2 操作系统的发展与分类_扫描版.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS01-1-2",
+        "OS01-batch-evolution"
+      ],
+      "verification": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up"
+    },
+    {
+      "chapter": "OS01",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "OS01-1-3"
+      ],
+      "verification": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up"
+    },
+    {
+      "chapter": "OS01",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.2 中断和异常.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "OS01-1-4",
+        "OS01-exception-types"
+      ],
+      "verification": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up"
+    },
+    {
+      "chapter": "OS01",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.3 系统调用.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS01-1-5"
+      ],
+      "verification": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up"
+    },
+    {
+      "chapter": "OS01",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.4 番外篇：中国古代的操作系统.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS01-1-3",
+        "OS01-1-4",
+        "OS01-1-5"
+      ],
+      "verification": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up"
+    },
+    {
+      "chapter": "OS01",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.4 操作系统体系结构（上）.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "OS01-1-8",
+        "OS01-kernel-primitives"
+      ],
+      "verification": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up"
+    },
+    {
+      "chapter": "OS01",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.4 操作系统体系结构（下）.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "OS01-1-8",
+        "OS01-kernel-primitives"
+      ],
+      "verification": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up"
+    },
+    {
+      "chapter": "OS01",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.5 操作系统引导.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "OS01-1-9"
+      ],
+      "verification": "源PDF全部页面联系图逐页查看；虚拟机比较表文件页4单独放大核对。同步检查对应正文与重绘图。"
+    },
+    {
+      "chapter": "OS01",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.6 虚拟机.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "OS01-1-10",
+        "OS01-vmm-models"
+      ],
+      "verification": "源PDF全部页面联系图逐页查看；虚拟机比较表文件页4单独放大核对。同步检查对应正文与重绘图。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.1+2.1.2 进程的概念、组成、特征.pdf",
+      "source_pages": 14,
+      "mapped_pages": 14,
+      "targets": [
+        "OS02-2-1",
+        "OS02-2-4"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.3 进程的状态与转换.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "OS02-2-2",
+        "OS02-2-4"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.4 进程控制.pdf",
+      "source_pages": 28,
+      "mapped_pages": 28,
+      "targets": [
+        "OS02-control-primitives",
+        "OS02-course-context-example"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.5_1 进程通信.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "OS02-2-5",
+        "OS02-pipe-details"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.5_2 信号.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS02-signals"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.6_1 线程的概念与特点.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "OS02-2-1",
+        "OS02-2-3"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.6_2 线程的实现方式和多线程模型.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "OS02-2-3"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.6_3 线程的状态与转换.pdf",
+      "source_pages": 5,
+      "mapped_pages": 5,
+      "targets": [
+        "OS02-2-2",
+        "OS02-2-4"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.1 调度的概念、层次.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS02-2-6",
+        "OS02-course-seven-states"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.2_1+2.2.4 进程调度的时机、切换与过程、方式.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "OS02-2-7",
+        "OS02-2-10"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.2_2 调度器和闲逛进程.pdf",
+      "source_pages": 5,
+      "mapped_pages": 5,
+      "targets": [
+        "OS02-idle"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.3 调度的目标（调度算法的评价指标）.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS02-2-6"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.5_1 调度算法：先来先服务、最短作业优先、最高响应比优先.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "OS02-auto-1",
+        "OS02-lecture-scheduling"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.5_2 调度算法：时间片轮转、优先级、多级反馈队列.pdf",
+      "source_pages": 21,
+      "mapped_pages": 21,
+      "targets": [
+        "OS02-auto-2",
+        "OS02-auto-3"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.5_3 调度算法：多级队列调度算法.pdf",
+      "source_pages": 3,
+      "mapped_pages": 3,
+      "targets": [
+        "OS02-multiqueue"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.6 多处理机调度.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "OS02-2-9"
+      ],
+      "verification": "2.1与2.2课件已按两轮逐页联系图浏览，重点图及例题对照见sources/reviews/os02_process_round2.json、os02_process_followup_74pages.json及confirmed_specific_visual_checks；此前部分图的补绘已写入正文。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.1 同步与互斥的基本概念.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "OS02-concepts"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.2_1 进程互斥的软件实现方法.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "OS02-locks",
+        "OS02-software-code"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.2_2 进程互斥的硬件实现方法.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "OS02-locks",
+        "OS02-auto-11"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.3 互斥锁.pdf",
+      "source_pages": 4,
+      "mapped_pages": 4,
+      "targets": [
+        "OS02-locks"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.4_1 信号量机制.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "OS02-integer-semaphore",
+        "OS02-semaphore",
+        "OS02-auto-12"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.4_2 用信号量实现进程互斥、同步、前驱关系.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "OS02-semaphore",
+        "OS02-precedence",
+        "OS02-course-precedence"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_1_1 生产者-消费者问题.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS02-buffer",
+        "OS02-auto-15",
+        "OS02-auto-15"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_1_2 多生产者-多消费者.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS02-fruit"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_2 读者-写者问题.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "OS02-readers"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_3 哲学家进餐问题.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "OS02-philosophers"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.6 管程.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "OS02-monitor"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.1 死锁的概念.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS02-4-1"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.2 死锁的处理策略—预防死锁.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "OS02-4-2"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.3 死锁的处理策略—避免死锁.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "OS02-4-3",
+        "OS02-bat"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS02",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.4 死锁的处理策略—死锁的检测与解除.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "OS02-4-4",
+        "OS02-deadlock-detection",
+        "OS02-course-deadlock"
+      ],
+      "verification": "同步互斥与死锁部分原课件已逐页通过2×2联系图浏览，对重点图、代码及算例与正文对照；具体范围见confirmed_specific_visual_checks及sources/reviews/os02_sync_deadlock_followup.json、os02_sync_models_followup.json。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_1 内存的基础知识.pdf",
+      "source_pages": 21,
+      "mapped_pages": 21,
+      "targets": [
+        "OS03-5-1",
+        "OS03-loading"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_2 内存管理的概念.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "OS03-5-1",
+        "OS03-5-2"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_3 进程的内存映像.pdf",
+      "source_pages": 4,
+      "mapped_pages": 4,
+      "targets": [
+        "OS03-loading"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_4 （选修）覆盖与交换.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "OS03-extension",
+        "OS03-overlay-example"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.2_1 连续分配管理方式.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "OS03-5-3",
+        "OS03-partition-recovery",
+        "OS03-fixed-partition-course"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.2_2 动态分区分配算法.pdf",
+      "source_pages": 8,
+      "mapped_pages": 8,
+      "targets": [
+        "OS03-5-3",
+        "OS03-ex5-2",
+        "OS03-course-partition-choices"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_1 基本分页存储管理的基本概念.pdf",
+      "source_pages": 18,
+      "mapped_pages": 18,
+      "targets": [
+        "OS03-5-4",
+        "OS03-pte-size"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_2 基本地址变换机构.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "OS03-page-translation",
+        "OS03-pte-size"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_3 具有快表的地址变换机构.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS03-5-5",
+        "OS03-tlb-time"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_4 两级页表.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "OS03-5-5",
+        "OS03-ex5-3",
+        "OS03-ex5-4",
+        "OS03-course-twolevel"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.4 基本分段存储管理方式.pdf",
+      "source_pages": 13,
+      "mapped_pages": 13,
+      "targets": [
+        "OS03-5-6",
+        "OS03-5-2"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.5 段页式管理方式.pdf",
+      "source_pages": 9,
+      "mapped_pages": 9,
+      "targets": [
+        "OS03-5-6",
+        "OS03-segment-pages"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.1 虚拟内存的基本概念.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS03-extension",
+        "OS03-5-7"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.2 请求分页管理方式.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "OS03-5-7"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.4 页面置换算法.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "OS03-5-9",
+        "OS03-auto-3",
+        "OS03-course-replacement-traces"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.5+3.2.3 页面分配策略.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "OS03-5-8",
+        "OS03-backing",
+        "OS03-5-11",
+        "OS03-backing-course-models"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS03",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.7 内存映射文件.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS03-5-10"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。"
+    },
+    {
+      "chapter": "OS04",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_1_初识文件管理.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "OS04-guide",
+        "OS04-6-1",
+        "OS04-6-2"
+      ],
+      "verification": "已阅读去重后的全部课件页文字并对照正文对应知识组、例题或边界；重复帧合并，原课件图片中的标签和过程仍待逐项视觉复核。"
+    },
+    {
+      "chapter": "OS04",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_2_文件的逻辑结构.pdf",
+      "source_pages": 17,
+      "mapped_pages": 17,
+      "targets": [
+        "OS04-6-4",
+        "OS04-record-index"
+      ],
+      "verification": "已阅读去重后的全部课件页文字并对照正文对应知识组、例题或边界；重复帧合并，原课件图片中的标签和过程仍待逐项视觉复核。"
+    },
+    {
+      "chapter": "OS04",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_3_文件目录.pdf",
+      "source_pages": 16,
+      "mapped_pages": 16,
+      "targets": [
+        "OS04-6-6",
+        "OS04-directory-dag",
+        "OS04-course-directory"
+      ],
+      "verification": "已阅读去重后的全部课件页文字并对照正文对应知识组、例题或边界；重复帧合并，原课件图片中的标签和过程仍待逐项视觉复核。"
+    },
+    {
+      "chapter": "OS04",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_4_文件的物理结构.pdf",
+      "source_pages": 30,
+      "mapped_pages": 30,
+      "targets": [
+        "OS04-6-5",
+        "OS04-fat-example",
+        "OS04-index-extensions"
+      ],
+      "verification": "已阅读提取文字的去重内容并对照所列笔记小节；空文本和图片中的细节须结合课件页面，不以文字层代替源图逐项复核。 已浏览全部来源页缩略联系图，重点核对FAT块号、索引容量及成组链接操作；图中细小标签和全部过程图未逐幅放大复刻验收。"
+    },
+    {
+      "chapter": "OS04",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_5_逻辑结构VS物理结构.pdf",
+      "source_pages": 19,
+      "mapped_pages": 19,
+      "targets": [
+        "OS04-two-mappings",
+        "OS04-course-record-layers"
+      ],
+      "verification": "已阅读去重后的全部课件页文字并对照正文对应知识组、例题或边界；重复帧合并，原课件图片中的标签和过程仍待逐项视觉复核。"
+    },
+    {
+      "chapter": "OS04",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_6_文件存储空间管理.pdf",
+      "source_pages": 20,
+      "mapped_pages": 20,
+      "targets": [
+        "OS04-6-9",
+        "OS04-free-methods",
+        "OS04-grouped-free"
+      ],
+      "verification": "已阅读提取文字的去重内容并对照所列笔记小节；空文本和图片中的细节须结合课件页面，不以文字层代替源图逐项复核。 已浏览全部来源页缩略联系图，重点核对FAT块号、索引容量及成组链接操作；图中细小标签和全部过程图未逐幅放大复刻验收。"
+    },
+    {
+      "chapter": "OS04",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_7_文件的基本操作.pdf",
+      "source_pages": 12,
+      "mapped_pages": 12,
+      "targets": [
+        "OS04-6-2"
+      ],
+      "verification": "已阅读去重后的全部课件页文字并对照正文对应知识组、例题或边界；重复帧合并，原课件图片中的标签和过程仍待逐项视觉复核。"
+    },
+    {
+      "chapter": "OS04",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_8_文件共享.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "OS04-6-7"
+      ],
+      "verification": "已阅读提取文字的去重内容并对照所列笔记小节；空文本和图片中的细节须结合课件页面，不以文字层代替源图逐项复核。"
+    },
+    {
+      "chapter": "OS04",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_9_文件保护.pdf",
+      "source_pages": 15,
+      "mapped_pages": 15,
+      "targets": [
+        "OS04-6-3",
+        "OS04-protection-methods",
+        "OS04-windows-acl-demo"
+      ],
+      "verification": "已阅读提取文字的去重内容并对照所列笔记小节；空文本和图片中的细节须结合课件页面，不以文字层代替源图逐项复核。 续作查看15页源页联系图，原生表格保留文件页7的用户与权限值，并核对分组ACL与异或例。 本轮已复看该文件全部页的原始大小四页拼图；布局关键页4、6和保护页9–14曾单页放大核对。具体结果见source_review_independent.md。"
+    },
+    {
+      "chapter": "OS04",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.3_1_文件系统的层次结构.pdf",
+      "source_pages": 6,
+      "mapped_pages": 6,
+      "targets": [
+        "OS04-fs-layers"
+      ],
+      "verification": "已阅读提取文字的去重内容并对照所列笔记小节；空文本和图片中的细节须结合课件页面，不以文字层代替源图逐项复核。"
+    },
+    {
+      "chapter": "OS04",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.3_2_文件系统布局.pdf",
+      "source_pages": 10,
+      "mapped_pages": 10,
+      "targets": [
+        "OS04-6-8"
+      ],
+      "verification": "已阅读提取文字的去重内容并对照所列笔记小节；空文本和图片中的细节须结合课件页面，不以文字层代替源图逐项复核。 续作查看10页源页联系图，已重绘物理格式化、MBR/C/D/E及C卷初始化结构，重点文件页4–7、8–9。 本轮已复看该文件全部页的原始大小四页拼图；布局关键页4、6和保护页9–14曾单页放大核对。具体结果见source_review_independent.md。"
+    },
+    {
+      "chapter": "OS04",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.3_4_虚拟文件系统.pdf",
+      "source_pages": 11,
+      "mapped_pages": 11,
+      "targets": [
+        "OS04-6-10",
+        "OS04-vnode"
+      ],
+      "verification": "已阅读提取文字的去重内容并对照所列笔记小节；空文本和图片中的细节须结合课件页面，不以文字层代替源图逐项复核。"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_1_IO设备的基本概念和分类.pdf",
+      "source_pages": 10,
+      "mapped_pages": 3,
+      "targets": [
+        "OS05-device-classes"
+      ],
+      "verification": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字和图示与正文。"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_2_IO控制器.pdf",
+      "source_pages": 9,
+      "mapped_pages": 5,
+      "targets": [
+        "OS05-7-1"
+      ],
+      "verification": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 文件页5放大查看、页6–8联系图核对，按原控制器寄存器、I/O逻辑、CPU与多设备端口重绘。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，对照主要文字和图示；"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_3_IO控制方式.pdf",
+      "source_pages": 14,
+      "mapped_pages": 3,
+      "targets": [
+        "OS05-7-2",
+        "OS05-dma-channel"
+      ],
+      "verification": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字和图示与正文。"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_4_IO软件层次结构.pdf",
+      "source_pages": 21,
+      "mapped_pages": 3,
+      "targets": [
+        "OS05-7-3"
+      ],
+      "verification": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字和图示与正文。补入页10的两项LUT映射示例。"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_5_输入输出应用程序接口和驱动程序接口.pdf",
+      "source_pages": 18,
+      "mapped_pages": 7,
+      "targets": [
+        "OS05-device-interfaces"
+      ],
+      "verification": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。另读18页OCR文本，图中短字及网络动画须回原图核对。 文件页4、8、10、12、16已单页视觉核验；两主机示例已重绘。 本次重新查看原页4/8/10/12/16，发送图右侧箭头修为网卡到接收socket；补绘三类应用接口与标准驱动接口。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，对照主要文字和图示；"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_1_IO核心子系统.pdf",
+      "source_pages": 7,
+      "mapped_pages": 3,
+      "targets": [
+        "OS05-core-functions"
+      ],
+      "verification": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字和图示与正文。"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_2_假脱机技术.pdf",
+      "source_pages": 14,
+      "mapped_pages": 3,
+      "targets": [
+        "OS05-7-7"
+      ],
+      "verification": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字、图示和对应正文。"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_3_设备的分配与回收.pdf",
+      "source_pages": 20,
+      "mapped_pages": 3,
+      "targets": [
+        "OS05-device-tables",
+        "OS05-safe-allocation"
+      ],
+      "verification": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字、图示和对应正文。"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_4_缓冲区管理.pdf",
+      "source_pages": 20,
+      "mapped_pages": 3,
+      "targets": [
+        "OS05-7-5",
+        "OS05-buffer-pool",
+        "OS05-buffer-steady"
+      ],
+      "verification": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 文件页7、10、13、17、18、19已单页视觉核验。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，对照主要文字和图示；补充原页3—4缓冲减少中断频率的条件。"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3.4 固态硬盘_扫描版.pdf",
+      "source_pages": 7,
+      "mapped_pages": 7,
+      "targets": [
+        "OS05-7-10",
+        "OS05-flash-hierarchy"
+      ],
+      "verification": "7页原PDF全部视觉查看；第3页导图与第5–7页芯片/块/页组织和数值对照正文及重绘图；第4页是机械硬盘与SSD照片比较。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。另读7页OCR；SSD四芯片、块页尺寸已按既有原图记录复核。"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_1_磁盘的结构.pdf",
+      "source_pages": 12,
+      "mapped_pages": 7,
+      "targets": [
+        "OS05-7-8"
+      ],
+      "verification": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 补看文件页4/6/8/9/10，重绘四盘面、共用磁臂和柱面位置，并核对物理地址及磁盘类别。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，对照主要文字和图示；"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_2_磁盘调度算法.pdf",
+      "source_pages": 15,
+      "mapped_pages": 3,
+      "targets": [
+        "OS05-7-8",
+        "OS05-course-disk-traces",
+        "OS05-course-disk-traces"
+      ],
+      "verification": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，对照主要文字和图示；补充文件页14算法缺省折返点约定。"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_3_减少磁盘延迟时间的方法.pdf",
+      "source_pages": 11,
+      "mapped_pages": 3,
+      "targets": [
+        "OS05-sector-layout"
+      ],
+      "verification": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 文件页3、4、7、8已单页视觉核验。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，对照主要文字和图示；"
+    },
+    {
+      "chapter": "OS05",
+      "source": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_4_磁盘的管理.pdf",
+      "source_pages": 8,
+      "mapped_pages": 3,
+      "targets": [
+        "OS05-boot-badblocks"
+      ],
+      "verification": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字和图示与正文。"
+    }
+  ],
+  "limitation": "Checks file/page/anchor integrity. Author reports and independent checks establish actual knowledge and figure review; mappings alone do not prove it."
+}

@@ -1,0 +1,140 @@
+{
+  "chapter": "OS02",
+  "created_utc": "2026-10-28T13:10:16.429523+00:00",
+  "method": "逐页通过2×2联系图浏览原课件，对重点图及例题与正文对照；联系图不是所有小字逐项放大。",
+  "files": [
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.1+2.1.2 进程的概念、组成、特征.pdf",
+      "pdf_sha256": "0babe89b82bc06e74c555d85db24d0cde11deca17ece0e940223578aaeaa3aa7",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "targeted_comparison": "页5–13：进程实体、PCB字段、五个特征与动态性最基本；正文有对应说明。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.6_1 线程的概念与特点.pdf",
+      "pdf_sha256": "9928a044f51cda4f2d16e2576865dcd7b3df7f38be19b7e7194a73eb913ac01b",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "targeted_comparison": "页4–7：线程与进程资源／调度的关系、共享与私有状态；正文有对应说明。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.6_2 线程的实现方式和多线程模型.pdf",
+      "pdf_sha256": "87b6e0c3594c2edea4948d01e912afa829756820f37ea40f433d934cabe3143b",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "targeted_comparison": "页3–12：用户级和内核级线程，一对一、多对一、多对多，正文有对照与重绘。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.6_3 线程的状态与转换.pdf",
+      "pdf_sha256": "b93f36342bd295e0f35ee7f6a5adc48ef84805b4a57885a6de91632c44955890",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "targeted_comparison": "页3–4：扫描图的三状态转移及TCB字段，正文有对应说明。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.1 调度的概念、层次.pdf",
+      "pdf_sha256": "8248c4cacedd680bed4355c882cf649802b55188858818d301214f650fae0271",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targeted_comparison": "页4–8：三层调度和七状态关系，正文有对应解释和重绘图。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.2_1+2.2.4 进程调度的时机、切换与过程、方式.pdf",
+      "pdf_sha256": "d9d38adec76559371ab698b6716f9e869941dc4a50d420a75e67673914622fa9",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "targeted_comparison": "页3–7：调度时机、临界区及进程切换；普通临界区例已于本轮前段补入。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.2_2 调度器和闲逛进程.pdf",
+      "pdf_sha256": "bc586545cc92e2f6ac9f76963309cc9de77d233613039b0eb011729f6d587c3c",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "targeted_comparison": "页2–4：调度程序、调度对象和闲逛进程，正文有对应说明。"
+    },
+    {
+      "path": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.3 调度的目标（调度算法的评价指标）.pdf",
+      "pdf_sha256": "971ca18b4f60147fcac0a930483f36c80f95f13d57533c7a0021fe50f49e9146",
+      "contact_sheet_viewed_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targeted_comparison": "页3–8：利用率、吞吐量、周转、等待与响应时间，前两项例子已于本轮前段补入。"
+    }
+  ],
+  "content_sha256": "4cdaf8959343a2dd6f4a524a145d409441e0be2ba1ea318a4734a03523223309",
+  "findings": "本轮重点概念、图示及算例在正文已有对应内容，无需修改正文。",
+  "limitation": "联系图中的全部小字、逐帧动画及全部例题步骤未逐项放大核验。"
+}

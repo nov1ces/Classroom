@@ -1,0 +1,37 @@
+{
+  "chapter": "CO01",
+  "checks": [
+    {
+      "name": "CPU执行时间",
+      "actual": 0.075,
+      "expected": 0.075,
+      "passed": true
+    },
+    {
+      "name": "2KiB按16位字编址地址位数",
+      "actual": 10,
+      "expected": 10,
+      "passed": true
+    },
+    {
+      "name": "4KiB按32位字/按字节编址",
+      "actual": [
+        10,
+        12
+      ],
+      "expected": [
+        10,
+        12
+      ],
+      "passed": true
+    },
+    {
+      "name": "Amdahl:80%加速2倍",
+      "actual": 1.666666666667,
+      "expected": 1.666666666667,
+      "passed": true
+    }
+  ],
+  "status": "passed",
+  "method": "independent arithmetic/bit-level models; full document numerical review continues at integration"
+}

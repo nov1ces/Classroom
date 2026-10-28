@@ -1,0 +1,188 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 4,
+        "anchor": "CO06-metrics",
+        "kind": "最小反例",
+        "title": "峰值相同，事务速率可不同",
+        "y": 340.27288818359375,
+        "estimated_height": 206.2,
+        "mini": true,
+        "measured_height": 159.35867
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        129.0489730834961
+      ],
+      [
+        139.1846923828125,
+        340.27288818359375
+      ],
+      [
+        152.6909942626953,
+        190.35296630859375
+      ],
+      [
+        185.10610961914062,
+        222.76808166503906
+      ],
+      [
+        217.521240234375,
+        255.18319702148438
+      ],
+      [
+        249.9363555908203,
+        287.59832763671875
+      ],
+      [
+        282.3514709472656,
+        320.013427734375
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "CO06-map",
+        "kind": "最小反例",
+        "title": "串行不等于慢",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 67.06735
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 5,
+        "anchor": "CO06-transaction",
+        "kind": "不变量",
+        "title": "先数有效数据拍",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.42136
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 8,
+        "anchor": "CO06-async",
+        "kind": "不变量",
+        "title": "撤销也要确认",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 56.40985
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 10,
+        "anchor": "CO06-arbitration",
+        "kind": "错项排除",
+        "title": "主设备角色随事务",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 55.67035
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        617.3775634765625,
+        644.4680786132812
+      ],
+      [
+        634.53857421875,
+        671.7588500976562
+      ],
+      [
+        658.4485473632812,
+        695.6697998046875
+      ],
+      [
+        682.3595581054688,
+        719.579833984375
+      ],
+      [
+        615.4514770507812,
+        628.2484741210938
+      ],
+      [
+        632.910888671875,
+        645.4090576171875
+      ],
+      [
+        709.8474731445312,
+        722.6444702148438
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 12,
+        "anchor": "CO06-types-complete",
+        "kind": "课程连接",
+        "title": "分类依据",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 45.11487
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "CO06-arbitration-complete",
+        "kind": "课程连接",
+        "title": "集中式仲裁",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.74088
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 8,
+    "sidebars": [
+      {
+        "index": 16,
+        "anchor": "CO06-recall",
+        "kind": "课程连接",
+        "title": "单位复核",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.74936
+      }
+    ],
+    "occupied_margin_intervals": []
+  }
+]

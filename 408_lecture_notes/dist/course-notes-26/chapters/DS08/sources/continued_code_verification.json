@@ -1,0 +1,42 @@
+{
+  "utc": "2026-10-27T00:25:05.029430+00:00",
+  "content_sha256": "c9de58fece1466cb6b466a5776fe2023af41ababd948b550442aff0a3e663f96",
+  "tests": [
+    {
+      "source": "code/verify_textbook.cpp",
+      "compiler_flags": [
+        "-std=c++11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-fsanitize=address,undefined",
+        "-fno-omit-frame-pointer",
+        "-g"
+      ],
+      "exit_code": 0,
+      "output": "22720 random/empty/duplicate sorting comparisons passed\n",
+      "stderr": "",
+      "source_sha256": "18d2e201f932cd3a0e6390084e178e6e352790dc5d43651b552c2e8009870140"
+    },
+    {
+      "source": "code/verify_countsort.c",
+      "compiler_flags": [
+        "-std=c99",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-fsanitize=address,undefined",
+        "-fno-omit-frame-pointer",
+        "-g"
+      ],
+      "exit_code": 0,
+      "output": "C11 CountSort boundaries and duplicate keys passed\n",
+      "stderr": "",
+      "source_sha256": "fb9cc11879cdfbf9465d6ed2bdb533174aa06f3fd86bc3211eef866647914ca2"
+    }
+  ],
+  "all_passed": true,
+  "scope": "Existing harness algorithms and tested cases; see source for exact coverage."
+}

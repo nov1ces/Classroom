@@ -1,0 +1,134 @@
+{
+  "status": "passed",
+  "method": "Independent exact bit operations, event recurrence and address arithmetic; bound to current canonical content",
+  "canonical_sha256": "54efbff616eb4b701d588b2405fc1f8ee37087ce0d1e5db4a34a723fa196ec04",
+  "checks": [
+    {
+      "chapter": "CN04",
+      "item": "1580B MTU800 fragments [total,offset,MF]",
+      "actual": [
+        [
+          796,
+          0,
+          1
+        ],
+        [
+          796,
+          97,
+          1
+        ],
+        [
+          28,
+          194,
+          0
+        ]
+      ],
+      "expected": [
+        [
+          796,
+          0,
+          1
+        ],
+        [
+          796,
+          97,
+          1
+        ],
+        [
+          28,
+          194,
+          0
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "subnet /20 first and last usable",
+      "actual": [
+        "168.16.80.1",
+        "168.16.95.254"
+      ],
+      "expected": [
+        "168.16.80.1",
+        "168.16.95.254"
+      ],
+      "pass": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "exact CIDR collapse",
+      "actual": [
+        "35.230.32.0/19"
+      ],
+      "expected": [
+        "35.230.32.0/19"
+      ],
+      "pass": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "VLSM capacities",
+      "actual": [
+        14,
+        6,
+        2,
+        2
+      ],
+      "expected": [
+        14,
+        6,
+        2,
+        2
+      ],
+      "pass": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "VLSM aggregate",
+      "actual": [
+        "128.14.32.128/27"
+      ],
+      "expected": [
+        "128.14.32.128/27"
+      ],
+      "pass": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "satellite one-way s",
+      "actual": "6/25",
+      "expected": "6/25",
+      "pass": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "satellite file lower bound s",
+      "actual": "2/5",
+      "expected": "2/5",
+      "pass": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "satellite 80% min window",
+      "actual": 8,
+      "expected": 8,
+      "pass": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "remaining hosts technical dept",
+      "actual": 45,
+      "expected": 45,
+      "pass": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "IPv6 compress",
+      "actual": "2001:db8:85a3::8a2e:370:7334",
+      "expected": "2001:db8:85a3::8a2e:370:7334",
+      "pass": true
+    }
+  ],
+  "limitations": "Numerical/model checks do not certify all conceptual statements or every source image."
+}

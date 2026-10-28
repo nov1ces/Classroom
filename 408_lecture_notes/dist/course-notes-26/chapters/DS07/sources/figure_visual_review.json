@@ -1,0 +1,56 @@
+{
+  "reviewer": "ds_b_review",
+  "status": "passed",
+  "method": "逐图查看PNG，2x2拼图内单图缩放至最大780×500；检查可见结构、标签和版面。数字算法另用代码与独立复算。此记录不等于对所有源课件图逐页比对。",
+  "figures": [
+    {
+      "png": "DS_14_avl_rotations.png",
+      "sha256": "b2b81c845d403ee21f738eda0809df5f18c24f70b28173d6251486bb7cb98b61",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS_21_avl_double_rotations.png",
+      "sha256": "c0c845601473511a912bf9a8d84f57ccca5111a15a10a9a0f04dcf20eacc96a1",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS07_avl_delete_zero.png",
+      "sha256": "f7433adf398a16774c459ec67e19654bd7143126e05dfcab53e29373f16ec950",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS07_rb_insert_course.png",
+      "sha256": "dbcc06fd1e27274e17fe730b4343f07cd30836a0ae16a53b36c0977ec66a6d10",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS_15_btree_split.png",
+      "sha256": "ff0ca5278d9b97a1fa61665e5b3b245a9121bd632011170d073f6261b0728a3e",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS_20_btree_delete.png",
+      "sha256": "95979b30f8624f4752575018968d88e57b12729cc09309959ad7afc4687eb6ae",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS_16_bplus.png",
+      "sha256": "9d46505f5cad196685d6f790f04af1177148d7e8a5df76bd19e75d9db89a060a",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS07_hash_course.png",
+      "sha256": "23f488eb73de249ee4000e985255b8fd6a2318931f63cda0b05b2976b39773fb",
+      "svg_present": true,
+      "pdf_present": true
+    }
+  ],
+  "time_utc": "2026-10-27T05:26:00.674737+00:00"
+}

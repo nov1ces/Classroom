@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="532" viewBox="0 0 680 532">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="241.0" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="271.0" text-anchor="middle" font-weight="bold">输入/输出系统</text>
+<path d="M148,266.0 H166 V107.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="88.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="112.5" text-anchor="middle" font-weight="bold">系统组成与外部设备</text>
+<path d="M348,107.5 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">I/O硬件与软件</text>
+<path d="M348,107.5 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">I/O指令与通道指令</text>
+<path d="M348,107.5 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">输入/输出/外存设备</text>
+<path d="M348,107.5 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">显示器参数</text>
+<path d="M348,107.5 H365 V142.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="147.0">显存容量与刷新数据率</text>
+<path d="M348,107.5 H365 V165.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="170.0">打印机分类</text>
+<path d="M148,266.0 H166 V272.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="253.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="277.5" text-anchor="middle" font-weight="bold">接口与端口</text>
+<path d="M348,272.5 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">数据缓冲</text>
+<path d="M348,272.5 H365 V238.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="243.0">状态与控制寄存器</text>
+<path d="M348,272.5 H365 V261.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="266.0">串并转换</text>
+<path d="M348,272.5 H365 V284.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="289.0">控制与地址译码</text>
+<path d="M348,272.5 H365 V307.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="312.0">统一编址</text>
+<path d="M348,272.5 H365 V330.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="335.0">独立编址</text>
+<path d="M148,266.0 H166 V426.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="407.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="431.0" text-anchor="middle" font-weight="bold">程序查询</text>
+<path d="M348,426.0 H365 V380.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="385.0">独占查询</text>
+<path d="M348,426.0 H365 V403.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="408.0">定时查询</text>
+<path d="M348,426.0 H365 V426.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="431.0">状态检查与搬运</text>
+<path d="M348,426.0 H365 V449.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="454.0">缓冲期限</text>
+<path d="M348,426.0 H365 V472.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="477.0">CPU占用率</text>
+</g></svg>

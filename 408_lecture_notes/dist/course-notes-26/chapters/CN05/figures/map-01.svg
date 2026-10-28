@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="563" viewBox="0 0 680 563">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="256.5" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="286.5" text-anchor="middle" font-weight="bold">传输层</text>
+<path d="M148,281.5 H166 V73.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="54.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="78.0" text-anchor="middle" font-weight="bold">端口与复用分用</text>
+<path d="M348,73.0 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">端口和进程号区别</text>
+<path d="M348,73.0 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">UDP目的端口分用</text>
+<path d="M348,73.0 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">TCP四元组连接</text>
+<path d="M148,281.5 H166 V169.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="150.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="174.0" text-anchor="middle" font-weight="bold">UDP报文</text>
+<path d="M348,169.0 H365 V146.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="151.0">8B首部与总长度</text>
+<path d="M348,169.0 H365 V169.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="174.0">报文边界与IP分片</text>
+<path d="M348,169.0 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">无连接与能力边界</text>
+<path d="M148,281.5 H166 V265.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="246.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="270.0" text-anchor="middle" font-weight="bold">反码检验和</text>
+<path d="M348,265.0 H365 V242.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="247.0">伪首部与覆盖范围</text>
+<path d="M348,265.0 H365 V265.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="270.0">16位回卷与取反</text>
+<path d="M348,265.0 H365 V288.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="293.0">补齐与零值语义</text>
+<path d="M148,281.5 H166 V372.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="353.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="377.5" text-anchor="middle" font-weight="bold">TCP字段与字节序号</text>
+<path d="M348,372.5 H365 V338.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="343.0">首部长与MSS</text>
+<path d="M348,372.5 H365 V361.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="366.0">序号与累计确认号</text>
+<path d="M348,372.5 H365 V384.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="389.0">六控制位与窗口</text>
+<path d="M348,372.5 H365 V407.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="412.0">SYN与FIN序号消耗</text>
+<path d="M148,281.5 H166 V480.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="461.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="485.0" text-anchor="middle" font-weight="bold">连接建立与释放</text>
+<path d="M348,480.0 H365 V457.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="462.0">三次握手与旧SYN</text>
+<path d="M348,480.0 H365 V480.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="485.0">双向关闭与状态</text>
+<path d="M348,480.0 H365 V503.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="508.0">TIMEWAIT与2MSL</text>
+</g></svg>

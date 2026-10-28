@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="880" viewBox="0 0 1300 880">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#466C82"/></marker></defs>
+<rect width="1300" height="880" fill="white"/>
+<g font-family="Noto Sans CJK SC,sans-serif" fill="#243947">
+<text x="650" y="35" font-size="26" text-anchor="middle" font-weight="bold">① 原始状态：两条硬链接与一条软链接</text>
+<rect x="25" y="75" width="180" height="60" rx="6" fill="#eff6f1" stroke="#7796a5" stroke-width="2"/>
+<text x="115.0" y="113.05" font-size="23" text-anchor="middle" font-weight="normal">User1 的目录</text>
+<rect x="240" y="75" width="130" height="60" rx="6" fill="#eaf3f6" stroke="#7796a5" stroke-width="2"/>
+<text x="305.0" y="112.7" font-size="22" text-anchor="middle" font-weight="normal">aaa</text>
+<rect x="25" y="170" width="180" height="60" rx="6" fill="#eff6f1" stroke="#7796a5" stroke-width="2"/>
+<text x="115.0" y="208.05" font-size="23" text-anchor="middle" font-weight="normal">User2 的目录</text>
+<rect x="240" y="170" width="130" height="60" rx="6" fill="#eaf3f6" stroke="#7796a5" stroke-width="2"/>
+<text x="305.0" y="207.7" font-size="22" text-anchor="middle" font-weight="normal">bbb</text>
+<rect x="25" y="265" width="180" height="60" rx="6" fill="#eff6f1" stroke="#7796a5" stroke-width="2"/>
+<text x="115.0" y="303.05" font-size="23" text-anchor="middle" font-weight="normal">User3 的目录</text>
+<rect x="240" y="265" width="130" height="60" rx="6" fill="#eaf3f6" stroke="#7796a5" stroke-width="2"/>
+<text x="305.0" y="302.7" font-size="22" text-anchor="middle" font-weight="normal">ccc</text>
+<rect x="650" y="110" width="245" height="70" rx="6" fill="#eaf3f6" stroke="#7796a5" stroke-width="2"/>
+<text x="772.5" y="153.05" font-size="23" text-anchor="middle" font-weight="normal">inode 1 · count=2</text>
+<rect x="1050" y="110" width="200" height="70" rx="6" fill="#eff6f1" stroke="#7796a5" stroke-width="2"/>
+<text x="1150.0" y="153.05" font-size="23" text-anchor="middle" font-weight="normal">文件 1</text>
+<path d="M370 105 H470 V130 H650" fill="none" stroke="#466C82" stroke-width="2.5" marker-end="url(#a)"/>
+<path d="M370 200 H470 V160 H650" fill="none" stroke="#466C82" stroke-width="2.5" marker-end="url(#a)"/>
+<path d="M895 145 H1050" fill="none" stroke="#466C82" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="650" y="275" width="245" height="70" rx="6" fill="#eaf3f6" stroke="#7796a5" stroke-width="2"/>
+<text x="772.5" y="318.05" font-size="23" text-anchor="middle" font-weight="normal">inode 2 · count=1</text>
+<rect x="1005" y="275" width="245" height="70" rx="6" fill="#fff3dc" stroke="#7796a5" stroke-width="2"/>
+<text x="1127.5" y="317.35" font-size="21" text-anchor="middle" font-weight="normal">文件 2：符号链接</text>
+<path d="M370 295 H650" fill="none" stroke="#466C82" stroke-width="2.5" marker-end="url(#a)"/>
+<path d="M895 310 H1005" fill="none" stroke="#466C82" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="405" y="365" width="490" height="52" rx="6" fill="#fff3dc" stroke="#7796a5" stroke-width="2"/>
+<text x="650.0" y="399.05" font-size="23" text-anchor="middle" font-weight="normal">文件 2 内容：C:/User1/aaa</text>
+<path d="M1060 345 V391 H900" fill="none" stroke="#466C82" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#a)"/>
+<text x="1060" y="430" font-size="21" text-anchor="middle" font-weight="normal">访问 ccc 时再解析目标路径</text>
+<text x="650" y="475" font-size="26" text-anchor="middle" font-weight="bold">② 两个硬链接删除后的课件状态</text>
+<rect x="25" y="515" width="180" height="60" rx="6" fill="#eff6f1" stroke="#7796a5" stroke-width="2"/>
+<text x="115.0" y="553.05" font-size="23" text-anchor="middle" font-weight="normal">User1 的目录</text>
+<rect x="240" y="515" width="130" height="60" rx="6" fill="#f7e8eb" stroke="#7796a5" stroke-width="2"/>
+<text x="305.0" y="552.7" font-size="22" text-anchor="middle" font-weight="normal">aaa 已删除</text>
+<rect x="25" y="610" width="180" height="60" rx="6" fill="#eff6f1" stroke="#7796a5" stroke-width="2"/>
+<text x="115.0" y="648.05" font-size="23" text-anchor="middle" font-weight="normal">User2 的目录</text>
+<rect x="240" y="610" width="130" height="60" rx="6" fill="#f7e8eb" stroke="#7796a5" stroke-width="2"/>
+<text x="305.0" y="647.7" font-size="22" text-anchor="middle" font-weight="normal">bbb 已删除</text>
+<rect x="25" y="705" width="180" height="60" rx="6" fill="#eff6f1" stroke="#7796a5" stroke-width="2"/>
+<text x="115.0" y="743.05" font-size="23" text-anchor="middle" font-weight="normal">User3 的目录</text>
+<rect x="240" y="705" width="130" height="60" rx="6" fill="#eaf3f6" stroke="#7796a5" stroke-width="2"/>
+<text x="305.0" y="742.7" font-size="22" text-anchor="middle" font-weight="normal">ccc</text>
+<rect x="650" y="550" width="245" height="70" rx="6" fill="#f7e8eb" stroke="#7796a5" stroke-width="2"/>
+<text x="772.5" y="593.05" font-size="23" text-anchor="middle" font-weight="normal">inode 1 · count=0</text>
+<rect x="1050" y="550" width="200" height="70" rx="6" fill="#f7e8eb" stroke="#7796a5" stroke-width="2"/>
+<text x="1150.0" y="593.05" font-size="23" text-anchor="middle" font-weight="normal">文件 1 已回收</text>
+<text x="770" y="650" font-size="21" text-anchor="middle" font-weight="normal">两项已删，路径失效</text>
+<rect x="650" y="715" width="245" height="70" rx="6" fill="#eaf3f6" stroke="#7796a5" stroke-width="2"/>
+<text x="772.5" y="758.05" font-size="23" text-anchor="middle" font-weight="normal">inode 2 · count=1</text>
+<rect x="1005" y="715" width="245" height="70" rx="6" fill="#fff3dc" stroke="#7796a5" stroke-width="2"/>
+<text x="1127.5" y="757.35" font-size="21" text-anchor="middle" font-weight="normal">文件 2：符号链接</text>
+<path d="M370 735 H650" fill="none" stroke="#466C82" stroke-width="2.5" marker-end="url(#a)"/>
+<path d="M895 750 H1005" fill="none" stroke="#466C82" stroke-width="2.5" marker-end="url(#a)"/>
+<rect x="405" y="805" width="490" height="52" rx="6" fill="#fff3dc" stroke="#7796a5" stroke-width="2"/>
+<text x="650.0" y="839.05" font-size="23" text-anchor="middle" font-weight="normal">文件 2 内容：C:/User1/aaa</text>
+<path d="M1060 785 V831 H900" fill="none" stroke="#466C82" stroke-width="2.5" stroke-dasharray="7 5" marker-end="url(#a)"/>
+<text x="1060" y="870" font-size="21" text-anchor="middle" font-weight="normal">链接仍在；路径已失效</text>
+</g></svg>

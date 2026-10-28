@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="970" viewBox="0 0 1300 970">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#466C82"/></marker></defs>
+<rect width="1300" height="970" fill="white"/>
+<g font-family="Noto Sans CJK SC,sans-serif" fill="#243947">
+<rect x="10" y="0" width="1280" height="460" rx="8" fill="#fff" stroke="#aabcc6" stroke-width="1.4"/>
+<text x="35" y="35" font-size="25" text-anchor="start" font-weight="bold" fill="#243947">① 文件系统内存结构示意</text>
+<text x="110" y="73" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">用户区</text>
+<text x="622" y="73" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">内核区</text>
+<text x="1150" y="73" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">外存</text>
+<rect x="35" y="105" width="150" height="105" rx="4" fill="#eff6f5" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="110" y="140" font-size="19" text-anchor="middle" font-weight="normal" fill="#243947">文件描述符</text>
+<text x="110" y="178" font-size="23" text-anchor="middle" font-weight="bold" fill="#243947">fd = 1</text>
+<rect x="215" y="95" width="330" height="200" rx="4" fill="#f7fafc" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="380" y="122" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">进程打开文件表</text>
+<text x="238" y="153" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">索引</text>
+<text x="294" y="153" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">打开方式</text>
+<text x="420" y="153" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">系统表索引</text>
+<rect x="224" y="166" width="312" height="42" rx="4" fill="#fff" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="242" y="193" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">0</text>
+<text x="294" y="193" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">读／写</text>
+<text x="449" y="193" font-size="17" text-anchor="middle" font-weight="normal" fill="#243947">0</text>
+<rect x="224" y="211" width="312" height="42" rx="4" fill="#e1f1f5" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="242" y="238" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">1</text>
+<text x="294" y="238" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">只读</text>
+<text x="449" y="238" font-size="17" text-anchor="middle" font-weight="normal" fill="#243947">2</text>
+<rect x="575" y="95" width="335" height="200" rx="4" fill="#f7fafc" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="742" y="122" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">系统打开文件表</text>
+<text x="592" y="153" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">索引</text>
+<text x="650" y="153" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">目录项</text>
+<text x="795" y="153" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">打开计数</text>
+<rect x="584" y="165" width="317" height="35" rx="4" fill="#fff" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="598" y="189" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">0</text>
+<text x="652" y="189" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">FCB_F</text>
+<text x="832" y="189" font-size="17" text-anchor="middle" font-weight="normal" fill="#243947">1</text>
+<rect x="584" y="203" width="317" height="35" rx="4" fill="#fff" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="598" y="227" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">1</text>
+<text x="652" y="227" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">FCB_B</text>
+<text x="832" y="227" font-size="17" text-anchor="middle" font-weight="normal" fill="#243947">2</text>
+<rect x="584" y="241" width="317" height="35" rx="4" fill="#e1f1f5" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="598" y="265" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">2</text>
+<text x="652" y="265" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">FCB_A</text>
+<text x="832" y="265" font-size="17" text-anchor="middle" font-weight="normal" fill="#243947">1</text>
+<rect x="950" y="95" width="300" height="200" rx="4" fill="#f5f9fb" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="1100" y="122" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">外存目录 M 与文件</text>
+<rect x="965" y="138" width="120" height="125" rx="4" fill="#fff" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="1025" y="162" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">目录 M</text>
+<text x="1025" y="181" font-size="19" text-anchor="middle" font-weight="normal" fill="#243947">FCB_A</text>
+<text x="1025" y="203" font-size="19" text-anchor="middle" font-weight="normal" fill="#243947">FCB_B</text>
+<text x="1025" y="225" font-size="19" text-anchor="middle" font-weight="normal" fill="#243947">FCB_C</text>
+<text x="1025" y="247" font-size="19" text-anchor="middle" font-weight="normal" fill="#243947">FCB_D</text>
+<rect x="1100" y="150" width="135" height="44" rx="4" fill="#e2ebf1" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="1167" y="179" font-size="20" text-anchor="middle" font-weight="normal" fill="#243947">文件 A</text>
+<rect x="1100" y="207" width="135" height="44" rx="4" fill="#fff" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="1167" y="236" font-size="20" text-anchor="middle" font-weight="normal" fill="#243947">文件 B</text>
+<rect x="575" y="325" width="335" height="95" rx="4" fill="#f5f9fb" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="742" y="353" font-size="18" text-anchor="middle" font-weight="bold" fill="#243947">内存中的目录 M 缓存</text>
+<text x="742" y="388" font-size="18" text-anchor="middle" font-weight="normal" fill="#243947">FCB_A   FCB_B   FCB_C   FCB_D</text>
+<path d="M 185 169 H 208" fill="none" stroke="#466C82" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 545 232 H 565 V 258 H 575" fill="none" stroke="#466C82" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 910 258 H 930 V 285 H 1243 V 172 H 1236" fill="none" stroke="#466C82" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="35" y="337" font-size="18" text-anchor="start" font-weight="normal" fill="#243947">进程项1 → 系统项2 → 文件A</text>
+<text x="35" y="372" font-size="18" text-anchor="start" font-weight="normal" fill="#243947">目录项缓存加速后续路径查找</text>
+<rect x="10" y="480" width="1280" height="460" rx="8" fill="#fff" stroke="#aabcc6" stroke-width="1.4"/>
+<text x="35" y="515" font-size="25" text-anchor="start" font-weight="bold" fill="#243947">② open(…/M/A，只读) 的课件示例</text>
+<text x="110" y="553" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">用户区</text>
+<text x="622" y="553" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">内核区</text>
+<text x="1150" y="553" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">外存</text>
+<rect x="35" y="585" width="150" height="105" rx="4" fill="#eff6f5" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="110" y="620" font-size="19" text-anchor="middle" font-weight="normal" fill="#243947">文件描述符</text>
+<text x="110" y="658" font-size="23" text-anchor="middle" font-weight="bold" fill="#243947">fd = 1</text>
+<rect x="215" y="575" width="330" height="200" rx="4" fill="#f7fafc" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="380" y="602" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">进程打开文件表</text>
+<text x="238" y="633" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">索引</text>
+<text x="294" y="633" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">打开方式</text>
+<text x="420" y="633" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">系统表索引</text>
+<rect x="224" y="646" width="312" height="42" rx="4" fill="#fff" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="242" y="673" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">0</text>
+<text x="294" y="673" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">读／写</text>
+<text x="449" y="673" font-size="17" text-anchor="middle" font-weight="normal" fill="#243947">0</text>
+<rect x="224" y="691" width="312" height="42" rx="4" fill="#e1f1f5" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="242" y="718" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">1</text>
+<text x="294" y="718" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">只读</text>
+<text x="449" y="718" font-size="17" text-anchor="middle" font-weight="normal" fill="#243947">2</text>
+<rect x="575" y="575" width="335" height="200" rx="4" fill="#f7fafc" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="742" y="602" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">系统打开文件表</text>
+<text x="592" y="633" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">索引</text>
+<text x="650" y="633" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">目录项</text>
+<text x="795" y="633" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">打开计数</text>
+<rect x="584" y="645" width="317" height="35" rx="4" fill="#fff" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="598" y="669" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">0</text>
+<text x="652" y="669" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">FCB_F</text>
+<text x="832" y="669" font-size="17" text-anchor="middle" font-weight="normal" fill="#243947">1</text>
+<rect x="584" y="683" width="317" height="35" rx="4" fill="#fff" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="598" y="707" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">1</text>
+<text x="652" y="707" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">FCB_B</text>
+<text x="832" y="707" font-size="17" text-anchor="middle" font-weight="normal" fill="#243947">2</text>
+<rect x="584" y="721" width="317" height="35" rx="4" fill="#e1f1f5" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="598" y="745" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">2</text>
+<text x="652" y="745" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">FCB_A</text>
+<text x="832" y="745" font-size="17" text-anchor="middle" font-weight="normal" fill="#243947">1</text>
+<rect x="950" y="575" width="300" height="200" rx="4" fill="#f5f9fb" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="1100" y="602" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">外存目录 M 与文件</text>
+<rect x="965" y="618" width="120" height="125" rx="4" fill="#fff" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="1025" y="642" font-size="20" text-anchor="middle" font-weight="bold" fill="#243947">目录 M</text>
+<text x="1025" y="661" font-size="19" text-anchor="middle" font-weight="normal" fill="#243947">FCB_A</text>
+<text x="1025" y="683" font-size="19" text-anchor="middle" font-weight="normal" fill="#243947">FCB_B</text>
+<text x="1025" y="705" font-size="19" text-anchor="middle" font-weight="normal" fill="#243947">FCB_C</text>
+<text x="1025" y="727" font-size="19" text-anchor="middle" font-weight="normal" fill="#243947">FCB_D</text>
+<rect x="1100" y="630" width="135" height="44" rx="4" fill="#e2ebf1" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="1167" y="659" font-size="20" text-anchor="middle" font-weight="normal" fill="#243947">文件 A</text>
+<rect x="1100" y="687" width="135" height="44" rx="4" fill="#fff" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="1167" y="716" font-size="20" text-anchor="middle" font-weight="normal" fill="#243947">文件 B</text>
+<rect x="575" y="805" width="335" height="95" rx="4" fill="#f5f9fb" stroke="#7c9aaa" stroke-width="1.4"/>
+<text x="742" y="833" font-size="18" text-anchor="middle" font-weight="bold" fill="#243947">内存中的目录 M 缓存</text>
+<text x="742" y="868" font-size="18" text-anchor="middle" font-weight="normal" fill="#243947">FCB_A   FCB_B   FCB_C   FCB_D</text>
+<path d="M 185 649 H 208" fill="none" stroke="#466C82" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 545 712 H 565 V 738 H 575" fill="none" stroke="#466C82" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 950 682 H 930 V 855 H 915" fill="none" stroke="#466C82" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 880 805 V 777" fill="none" stroke="#466C82" stroke-width="2.2" marker-end="url(#arrow)"/>
+<path d="M 910 738 H 930 V 765 H 1243 V 652 H 1236" fill="none" stroke="#466C82" stroke-width="2.2" marker-end="url(#arrow)"/>
+<text x="220" y="800" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">③ 在进程表建立表项并返回fd</text>
+<text x="960" y="800" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">① 路径逐级读入目录</text>
+<text x="575" y="797" font-size="20" text-anchor="start" font-weight="normal" fill="#243947">② 复制FCB_A至系统表</text>
+</g></svg>

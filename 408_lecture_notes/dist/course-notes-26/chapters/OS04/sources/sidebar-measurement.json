@@ -1,0 +1,126 @@
+{
+  "method": "actual TikZ node heights emitted by XeLaTeX",
+  "measurements": [
+    {
+      "page": 1,
+      "index": 19,
+      "height_pt": 44.78336
+    },
+    {
+      "page": 2,
+      "index": 1,
+      "height_pt": 77.76736
+    },
+    {
+      "page": 3,
+      "index": 2,
+      "height_pt": 77.80136
+    },
+    {
+      "page": 4,
+      "index": 24,
+      "height_pt": 55.44086
+    },
+    {
+      "page": 5,
+      "index": 4,
+      "height_pt": 88.49286
+    },
+    {
+      "page": 6,
+      "index": 18,
+      "height_pt": 45.11487
+    },
+    {
+      "page": 7,
+      "index": 5,
+      "height_pt": 76.86636
+    },
+    {
+      "page": 8,
+      "index": 26,
+      "height_pt": 55.68735
+    },
+    {
+      "page": 9,
+      "index": 26,
+      "height_pt": 55.68735
+    },
+    {
+      "page": 10,
+      "index": 6,
+      "height_pt": 76.82385
+    },
+    {
+      "page": 11,
+      "index": 7,
+      "height_pt": 77.11285
+    },
+    {
+      "page": 12,
+      "index": 8,
+      "height_pt": 76.88336
+    },
+    {
+      "page": 13,
+      "index": 15,
+      "height_pt": 55.43237
+    },
+    {
+      "page": 14,
+      "index": 0,
+      "height_pt": 180.70618
+    },
+    {
+      "page": 15,
+      "index": 25,
+      "height_pt": 44.91937
+    },
+    {
+      "page": 16,
+      "index": 17,
+      "height_pt": 55.44937
+    },
+    {
+      "page": 17,
+      "index": 9,
+      "height_pt": 77.21484
+    },
+    {
+      "page": 18,
+      "index": 16,
+      "height_pt": 55.39838
+    },
+    {
+      "page": 19,
+      "index": 10,
+      "height_pt": 87.86386
+    },
+    {
+      "page": 20,
+      "index": 10,
+      "height_pt": 87.86386
+    },
+    {
+      "page": 21,
+      "index": 11,
+      "height_pt": 76.84937
+    },
+    {
+      "page": 22,
+      "index": 11,
+      "height_pt": 76.84937
+    },
+    {
+      "page": 23,
+      "index": 21,
+      "height_pt": 44.70688
+    },
+    {
+      "page": 24,
+      "index": 22,
+      "height_pt": 34.39786
+    }
+  ],
+  "collisions": []
+}

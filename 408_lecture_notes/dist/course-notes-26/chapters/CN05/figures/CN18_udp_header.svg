@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="470" viewBox="0 0 1180 470">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17212a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#17212a" stroke-linejoin="round">
+<text x="590" y="32" text-anchor="middle" font-size="26" font-weight="bold" fill="#17212a">UDP首部固定8 B：四个字段各16 bit</text>
+<text x="141" y="89" text-anchor="end" font-size="16" font-weight="normal" fill="#17212a">位</text>
+<line x1="155" y1="95" x2="155" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="183" y1="95" x2="183" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="211" y1="95" x2="211" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="239" y1="95" x2="239" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="267" y1="95" x2="267" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="295" y1="95" x2="295" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="323" y1="95" x2="323" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="351" y1="95" x2="351" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="379" y1="95" x2="379" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="407" y1="95" x2="407" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="435" y1="95" x2="435" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="463" y1="95" x2="463" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="491" y1="95" x2="491" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="519" y1="95" x2="519" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="547" y1="95" x2="547" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="575" y1="95" x2="575" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="603" y1="95" x2="603" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="631" y1="95" x2="631" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="659" y1="95" x2="659" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="687" y1="95" x2="687" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="715" y1="95" x2="715" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="743" y1="95" x2="743" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="771" y1="95" x2="771" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="799" y1="95" x2="799" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="827" y1="95" x2="827" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="855" y1="95" x2="855" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="883" y1="95" x2="883" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="911" y1="95" x2="911" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="939" y1="95" x2="939" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="967" y1="95" x2="967" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="995" y1="95" x2="995" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="1023" y1="95" x2="1023" y2="102" stroke="#17212a" stroke-width="1"/>
+<line x1="1051" y1="95" x2="1051" y2="102" stroke="#17212a" stroke-width="1"/>
+<text x="169.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">0</text>
+<text x="197.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">1</text>
+<text x="225.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">2</text>
+<text x="253.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">3</text>
+<text x="281.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">4</text>
+<text x="309.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">5</text>
+<text x="337.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">6</text>
+<text x="365.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">7</text>
+<text x="393.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">8</text>
+<text x="421.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">9</text>
+<text x="449.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">10</text>
+<text x="477.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">11</text>
+<text x="505.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">12</text>
+<text x="533.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">13</text>
+<text x="561.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">14</text>
+<text x="589.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">15</text>
+<text x="617.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">16</text>
+<text x="645.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">17</text>
+<text x="673.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">18</text>
+<text x="701.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">19</text>
+<text x="729.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">20</text>
+<text x="757.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">21</text>
+<text x="785.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">22</text>
+<text x="813.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">23</text>
+<text x="841.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">24</text>
+<text x="869.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">25</text>
+<text x="897.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">26</text>
+<text x="925.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">27</text>
+<text x="953.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">28</text>
+<text x="981.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">29</text>
+<text x="1009.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">30</text>
+<text x="1037.0" y="88" text-anchor="middle" font-size="12" font-weight="normal" fill="#17212a">31</text>
+<text x="603" y="60" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">每行32 bit = 4 B；固定字段按位宽等比例绘制</text>
+<text x="137" y="154.0" text-anchor="end" font-size="17" font-weight="normal" fill="#17212a">0 B</text>
+<rect x="155" y="114" width="448" height="68" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="379.0" y="142" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">源端口</text>
+<text x="379.0" y="167" text-anchor="middle" font-size="16" font-weight="normal" fill="#17212a">16 bit</text>
+<rect x="603" y="114" width="448" height="68" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="827.0" y="142" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">目的端口</text>
+<text x="827.0" y="167" text-anchor="middle" font-size="16" font-weight="normal" fill="#17212a">16 bit</text>
+<text x="137" y="222.0" text-anchor="end" font-size="17" font-weight="normal" fill="#17212a">4 B</text>
+<rect x="155" y="182" width="448" height="68" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="379.0" y="210" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">UDP长度</text>
+<text x="379.0" y="235" text-anchor="middle" font-size="16" font-weight="normal" fill="#17212a">16 bit</text>
+<rect x="603" y="182" width="448" height="68" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="827.0" y="210" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">检验和</text>
+<text x="827.0" y="235" text-anchor="middle" font-size="16" font-weight="normal" fill="#17212a">16 bit</text>
+<rect x="155" y="250" width="896" height="64" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="603.0" y="289.0" text-anchor="middle" font-size="22" font-weight="normal" fill="#17212a">UDP数据（可为0 B）：UDP长度−8 B</text>
+<text x="590" y="351" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">UDP长度以B计，包含首部与数据，最小8；源端口不需回信时可为0</text>
+<text x="590" y="390" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">检验和覆盖伪首部、UDP首部和数据；伪首部不随UDP数据报传送</text>
+<text x="590" y="429" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">IPv4中全0检验和字段表示未启用；算得0时填FFFF；IPv6通常要求启用</text>
+</g></svg>

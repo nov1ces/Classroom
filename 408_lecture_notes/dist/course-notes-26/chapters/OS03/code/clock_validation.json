@@ -1,0 +1,207 @@
+{
+  "source": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.4 页面置换算法.pdf",
+  "source_file_page": 8,
+  "source_sha256": "87c8e09c94a230e439626283c5bbfd3f9e0148a29cc1feec0ec320f4c676c8d2",
+  "source_visual_check": "Checked source page 8; animation layers overlap in the PDF. The sequence, five frames and Clock rules are visible.",
+  "assumptions": [
+    "Five initially empty frames; hand starts at frame 1.",
+    "A loaded page has access bit 1; hand advances after insertion.",
+    "A hit sets access bit to 1 and leaves hand in place."
+  ],
+  "sequence": [
+    1,
+    3,
+    4,
+    2,
+    5,
+    6,
+    3,
+    4,
+    7
+  ],
+  "faults": 7,
+  "replacements": 2,
+  "rows": [
+    {
+      "page": 1,
+      "frames": [
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "access": [
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "next_frame": 2,
+      "fault": true,
+      "victim": null
+    },
+    {
+      "page": 3,
+      "frames": [
+        1,
+        3,
+        null,
+        null,
+        null
+      ],
+      "access": [
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "next_frame": 3,
+      "fault": true,
+      "victim": null
+    },
+    {
+      "page": 4,
+      "frames": [
+        1,
+        3,
+        4,
+        null,
+        null
+      ],
+      "access": [
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "next_frame": 4,
+      "fault": true,
+      "victim": null
+    },
+    {
+      "page": 2,
+      "frames": [
+        1,
+        3,
+        4,
+        2,
+        null
+      ],
+      "access": [
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "next_frame": 5,
+      "fault": true,
+      "victim": null
+    },
+    {
+      "page": 5,
+      "frames": [
+        1,
+        3,
+        4,
+        2,
+        5
+      ],
+      "access": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "next_frame": 1,
+      "fault": true,
+      "victim": null
+    },
+    {
+      "page": 6,
+      "frames": [
+        6,
+        3,
+        4,
+        2,
+        5
+      ],
+      "access": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "next_frame": 2,
+      "fault": true,
+      "victim": 1
+    },
+    {
+      "page": 3,
+      "frames": [
+        6,
+        3,
+        4,
+        2,
+        5
+      ],
+      "access": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "next_frame": 2,
+      "fault": false,
+      "victim": null
+    },
+    {
+      "page": 4,
+      "frames": [
+        6,
+        3,
+        4,
+        2,
+        5
+      ],
+      "access": [
+        1,
+        1,
+        1,
+        0,
+        0
+      ],
+      "next_frame": 2,
+      "fault": false,
+      "victim": null
+    },
+    {
+      "page": 7,
+      "frames": [
+        6,
+        3,
+        4,
+        7,
+        5
+      ],
+      "access": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "next_frame": 5,
+      "fault": true,
+      "victim": 2
+    }
+  ],
+  "result": "all nine printed table rows agree with independently executed simulation"
+}

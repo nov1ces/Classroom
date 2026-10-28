@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="582" viewBox="0 0 680 582">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="266.0" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="296.0" text-anchor="middle" font-weight="bold">图</text>
+<path d="M148,291.0 H166 V96.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="77.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="101.0" text-anchor="middle" font-weight="bold">图的基本概念</text>
+<path d="M348,96.0 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">有向无向与带权</text>
+<path d="M348,96.0 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">度入度出度</text>
+<path d="M348,96.0 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">路径回路与距离</text>
+<path d="M348,96.0 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">连通和强连通分量</text>
+<path d="M348,96.0 H365 V142.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="147.0">生成树森林与完全图</text>
+<path d="M148,291.0 H166 V238.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="219.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="243.0" text-anchor="middle" font-weight="bold">存储及基本操作</text>
+<path d="M348,238.0 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">邻接矩阵</text>
+<path d="M348,238.0 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">邻接表及逆邻接表</text>
+<path d="M348,238.0 H365 V238.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="243.0">十字链表</text>
+<path d="M348,238.0 H365 V261.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="266.0">邻接多重表</text>
+<path d="M348,238.0 H365 V284.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="289.0">增删顶点与关联边</text>
+<path d="M148,291.0 H166 V368.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="349.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="373.5" text-anchor="middle" font-weight="bold">遍历与生成森林</text>
+<path d="M348,368.5 H365 V334.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="339.0">DFS的回退条件</text>
+<path d="M348,368.5 H365 V357.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="362.0">BFS的发现与队列</text>
+<path d="M348,368.5 H365 V380.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="385.0">访问标记设置时机</text>
+<path d="M348,368.5 H365 V403.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="408.0">遍历时间与辅助空间</text>
+<path d="M148,291.0 H166 V487.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="468.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="492.5" text-anchor="middle" font-weight="bold">最小生成树</text>
+<path d="M348,487.5 H365 V453.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="458.0">总边权目标与适用图</text>
+<path d="M348,487.5 H365 V476.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="481.0">Prim的跨割状态</text>
+<path d="M348,487.5 H365 V499.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="504.0">Kruskal的分量合并</text>
+<path d="M348,487.5 H365 V522.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="527.0">同权边与唯一性</text>
+</g></svg>

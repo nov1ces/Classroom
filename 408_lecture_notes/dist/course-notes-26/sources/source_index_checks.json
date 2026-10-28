@@ -1,0 +1,17 @@
+{
+  "index_consistency": "pass",
+  "issues": [],
+  "totals": {
+    "mindmap": {
+      "files": 85,
+      "pages": 94
+    },
+    "lecture": {
+      "files": 351,
+      "pages": 6064
+    }
+  },
+  "sources": 436,
+  "blog_entries": 26,
+  "scope": "all source extraction files and file-page records checked; content, figures and note coverage require separate verification"
+}

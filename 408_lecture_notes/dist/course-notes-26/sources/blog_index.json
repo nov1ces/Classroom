@@ -1,0 +1,420 @@
+{
+  "navigation_url": "https://blog.csdn.net/qq_43468008/article/details/129418769",
+  "checked_utc": "2026-10-26T17:05:21.098Z",
+  "scope": "25 linked initial-exam chapter pages; DS01 is explicitly missing in navigation",
+  "attribution": {
+    "author": "努力的clz",
+    "license_statement": "Navigation states CC BY-SA 4.0; preserve attribution for any adapted material."
+  },
+  "review_policy": "URLs and readable excerpts verified; this index does not assert full image/content review.",
+  "chapters": [
+    {
+      "id": "DS01",
+      "title": "绪论",
+      "url": null,
+      "access_status": "missing_in_blog_navigation",
+      "coverage_source": "project_lecture_and_textbook"
+    },
+    {
+      "id": "DS02",
+      "title": "王道数据结构课代表 - 考研数据结构 第二章 线性表 究极精华总结笔记（C版本）_王道数据结构第二章思维拓展-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/122616057",
+      "reference": "turn852687view0",
+      "total_lines": 970,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "2.1 线性表的定义和基本操作",
+        "1.定义",
+        "2.基本操作",
+        "3.小结",
+        "2.2 线性表的顺序表示和实现",
+        "1.顺序表示"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "DS03",
+      "title": "王道数据结构课代表 - 考研数据结构 第三章 栈和队列 究极精华总结笔记_王道数据结构哪一章最难-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/122587468",
+      "reference": "turn852687view1",
+      "total_lines": 1031,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "3.1 栈",
+        "3.1.1 基本概念",
+        "1.定义",
+        "2.基本操作",
+        "3.小结",
+        "3.1.2 顺序栈",
+        "1.代码实现"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "DS04",
+      "title": "王道数据结构课代表 - 考研数据结构 第四章 串-KMP(看毛片算法) 究极精华总结笔记（C版本）_王道kmp算法-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/122642294",
+      "reference": "turn852687view2",
+      "total_lines": 682,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "4.1 串的定义和实现",
+        "4.1.1 串的定义",
+        "4.1.2 串的存储结构",
+        "1、串的顺序存储",
+        "2、串的链式存储",
+        "3、串的基本操作",
+        "4、4.1.2小结",
+        "4.2 串的模式匹配",
+        "4.2.1 简单的模式匹配算法",
+        "1、具体代码",
+        "2、分析算法性能",
+        "3、4.2.1小结"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "DS05",
+      "title": "王道数据结构课代表 - 考研数据结构 第五章 树和二叉树 究极精华总结笔记-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/122580538",
+      "reference": "turn852687view3",
+      "total_lines": 1896,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "DS06",
+      "title": "王道数据结构课代表 - 考研数据结构 第六章 图 究极精华总结笔记_王道计算机课代表数据结构-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/122569753",
+      "reference": "turn852687view4",
+      "total_lines": 2298,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "DS07",
+      "title": "王道数据结构课代表 - 考研数据结构 第七章 查找(B树、散列表) 究极精华总结笔记（C版本）_王道考研b树-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/122651284",
+      "reference": "turn852687view5",
+      "total_lines": 996,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "7.1 查找的基本概念",
+        "1、查找",
+        "2、查找表",
+        "3、关键字",
+        "4、静态查找表",
+        "5、平均查找长度",
+        "7.1 查找的基本概念小结",
+        "7.2 顺序查找和折半查找",
+        "7.2.1 顺序查找",
+        "1、算法思想"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "DS08",
+      "title": "王道数据结构课代表 - 考研数据结构 第八章 排序（内部排序：八大排序动图演示与实现 + 外部排序） 究极精华总结笔记（C版本）_王道数据结构+c语言版+超全笔记(图文)+个人整理版本-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/122662977",
+      "reference": "turn852687view6",
+      "total_lines": 1330,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "CN01",
+      "title": "王道计算机网络课代表 - 考研计算机 第一章 计算机网络体系结构 究极精华总结笔记_二进制指数退避算法哪一章-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129270037",
+      "reference": "turn536700view0",
+      "total_lines": 757,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "《计算机网络》第1章 计算机网络体系结构",
+        "1.1 计算机网络概述",
+        "1.1.1 计算机网络的概念与功能",
+        "1.1.2 计算机网络的组成与分类",
+        "1.1.3 计算机网络的标准化工作及相关组织 *"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "CN02",
+      "title": "王道计算机网络课代表 - 考研计算机 第二章 物理层 究极精华总结笔记_王道 信噪比 随机误差-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129270025",
+      "reference": "turn536700view1",
+      "total_lines": 794,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "《计算机网络》第2章 物理层",
+        "2.1 通信基础",
+        "2.1.1 基础概念"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "CN03",
+      "title": "王道计算机网络课代表 - 考研计算机 第三章 数据链路层 究极精华总结笔记_在ieee802.3标准以太网中,为什么说如果有冲突则-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129269186",
+      "reference": "turn536700view2",
+      "total_lines": 1418,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "《计算机网络》第3章 数据链路层"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "CN04",
+      "title": "王道计算机网络课代表 - 考研计算机 第四章 网络层 究极精华总结笔记_在因特网中,能否使用一个很大的switch来代替因特网中全部的路由器-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129270007",
+      "reference": "turn536700view3",
+      "total_lines": 1304,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "《计算机网络》第4章 网络层",
+        "4.1 网络层的基本概念",
+        "4.1.1 网络层的功能"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "CN05",
+      "title": "王道计算机网络课代表 - 考研计算机 第五章 传输层 究极精华总结笔记_在tcp协议中,为什么发生计时器超时时cwnd被置为1,而收到3个冗余ack时cwnd减半-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129269981",
+      "reference": "turn536700view4",
+      "total_lines": 665,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "《计算机网络》第5章 传输层",
+        "5.1 传输层提供的服务",
+        "5.1.1 传输层的功能"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "CN06",
+      "title": "王道计算机网络课代表 - 考研计算机 第六章 应用层 究极精华总结笔记_计算机网络,万维网之前是哪个章节-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129269901",
+      "reference": "turn536700view5",
+      "total_lines": 658,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "《计算机网络》第6章 应用层",
+        "6.1 网络应用模型"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "OS01",
+      "title": "计算机系统概述",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129287498",
+      "reference": "turn549187view0",
+      "total_lines": 1,
+      "access_status": "fetch_denied",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "retry_note": "Tracking URL denied by robots.txt; clean URL also inaccessible via web tool."
+    },
+    {
+      "id": "OS02",
+      "title": "王道操作系统课代表 - 考研计算机 第二章 进程与线程 究极精华总结笔记_王道书上有load和store么-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129287362",
+      "reference": "turn549187view1",
+      "total_lines": 2031,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "《操作系统》第2章 进程与线程",
+        "2.1 进程与线程",
+        "2.1.1 进程的描述",
+        "2.1.2 进程的状态与转换"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "OS03",
+      "title": "王道操作系统课代表 - 考研计算机 第三章 内存管理 究极精华总结笔记_在快表中的页表项对应的页面,一定在内存中吗-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129286784",
+      "reference": "turn549187view2",
+      "total_lines": 1472,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "《操作系统》第3章 内存管理",
+        "3.1 内存管理概念",
+        "3.1.1 内存的基础知识"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "OS04",
+      "title": "王道操作系统课代表 - 考研计算机 第四章 文件管理 究极精华总结笔记_王道视频里外存空闲管理-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129282230",
+      "reference": "turn549187view3",
+      "total_lines": 1189,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "《操作系统》第4章 文件管理",
+        "4.1 文件系统基础",
+        "4.1.1 文件的基本概念"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "OS05",
+      "title": "王道操作系统课代表 - 考研计算机 第五章 输入输出管理 究极精华总结笔记_延迟时间 t r-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129277254",
+      "reference": "turn549187view4",
+      "total_lines": 1134,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "《操作系统》第5章 输入输出管理",
+        "5.1 I/O管理概述",
+        "5.1.1 I/O设备",
+        "5.1.2 I/O控制器"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "CO01",
+      "title": "王道计算机组成原理课代表 - 考研计算机 第一章 计算机系统概述 究极精华总结笔记_为什么mar和mdr是透明的-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129376848",
+      "reference": "turn224604view0",
+      "total_lines": 808,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "1.1 计算机发展历程 *",
+        "1.2 计算机系统层次结构",
+        "1.2.1 计算机硬件的基本组成"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "CO02",
+      "title": "王道计算机组成原理课代表 - 考研计算机 第二章 数据的表示和运算 究极精华总结笔记_王道奇偶校验-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129376950",
+      "reference": "turn224604view1",
+      "total_lines": 1613,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "《计算机组成原理》第2章 数据的表示和运算",
+        "2.1 数制与编码",
+        "2.1.1 进位计数制与其相互转换"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "CO03",
+      "title": "王道计算机组成原理课代表 - 考研计算机 第三章 存储系统 究极精华总结笔记_王道计组第三章存储器-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129376999",
+      "reference": "turn224604view2",
+      "total_lines": 1360,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "CO04",
+      "title": "王道计算机组成原理课代表 - 考研计算机 第四章 指令系统 究极精华总结笔记_高级语言程序与机器级代码之间的对应-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129375931",
+      "reference": "turn224604view3",
+      "total_lines": 1117,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "4.1 指令格式"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "CO05",
+      "title": "王道计算机组成原理课代表 - 考研计算机 第五章 中央处理器 究极精华总结笔记_为什么要采用最长的微操作序列和最繁的微操作作为标准-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129375123",
+      "reference": "turn224604view4",
+      "total_lines": 1378,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "5.0 课前复习"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "CO06",
+      "title": "王道计算机组成原理课代表 - 考研计算机 第六章 总线 究极精华总结笔记_3.7 课堂讨论:1.计算机五大部件之间的连接方式,为什么会从分散连接发展到总线-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129332240",
+      "reference": "turn224604view5",
+      "total_lines": 954,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "《计算机组成原理》第6章 总线",
+        "6.1 总线概述",
+        "6.1.1 总线的基本概念"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    },
+    {
+      "id": "CO07",
+      "title": "王道计算机组成原理课代表 - 考研计算机 第七章 输入输出系统 究极精华总结笔记_程序查询方式王道-CSDN博客",
+      "url": "https://blog.csdn.net/qq_43468008/article/details/129331836",
+      "reference": "turn224604view6",
+      "total_lines": 915,
+      "access_status": "readable_excerpt",
+      "role": "expression_and_structure_reference",
+      "content_review": "Full chapter body and figures require corresponding author review.",
+      "structure_excerpt": [
+        "《计算机组成原理》第7章 输入输出系统",
+        "7.1 I/O系统基本概念 *",
+        "7.1.1 I/O 系统",
+        "7.1.2 I/O 控制方式",
+        "7.1.3 I/O 外部设备"
+      ],
+      "structure_review": "heading excerpt near body opening checked"
+    }
+  ]
+}

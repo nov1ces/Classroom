@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="580" viewBox="0 0 1300 580">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#466C82"/></marker></defs>
+<rect width="1300" height="580" fill="white"/>
+<g font-family="Noto Sans CJK SC,sans-serif" fill="#243947">
+<rect x="280" y="40" width="240" height="70" rx="7" fill="#eaf3f6" stroke="#7796a5" stroke-width="2"/>
+<text x="400.0" y="83.0" font-size="24" text-anchor="middle">用户进程 P1</text>
+<rect x="800" y="40" width="240" height="70" rx="7" fill="#eaf3f6" stroke="#7796a5" stroke-width="2"/>
+<text x="920.0" y="83.0" font-size="24" text-anchor="middle">用户进程 P2</text>
+<rect x="50" y="190" width="300" height="60" rx="7" fill="#eff6f1" stroke="#7796a5" stroke-width="2"/>
+<text x="200.0" y="228.0" font-size="24" text-anchor="middle">open(a, b)</text>
+<rect x="50" y="300" width="300" height="70" rx="7" fill="#fff3dc" stroke="#7796a5" stroke-width="2"/>
+<text x="200.0" y="343.0" font-size="24" text-anchor="middle">UFS 文件系统</text>
+<rect x="50" y="445" width="300" height="60" rx="7" fill="#f6f6f6" stroke="#7796a5" stroke-width="2"/>
+<text x="200.0" y="483.0" font-size="24" text-anchor="middle">磁盘</text>
+<path d="M400 110 V150 H200 V190" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<path d="M200 250 V300" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<path d="M200 370 V445" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<rect x="500" y="190" width="300" height="60" rx="7" fill="#eff6f1" stroke="#7796a5" stroke-width="2"/>
+<text x="650.0" y="228.0" font-size="24" text-anchor="middle">fopen(x)</text>
+<rect x="500" y="300" width="300" height="70" rx="7" fill="#fff3dc" stroke="#7796a5" stroke-width="2"/>
+<text x="650.0" y="343.0" font-size="24" text-anchor="middle">NTFS 文件系统</text>
+<rect x="500" y="445" width="300" height="60" rx="7" fill="#f6f6f6" stroke="#7796a5" stroke-width="2"/>
+<text x="650.0" y="483.0" font-size="24" text-anchor="middle">移动硬盘</text>
+<path d="M400 110 V150 H650 V190" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<path d="M650 250 V300" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<path d="M650 370 V445" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<rect x="950" y="190" width="300" height="60" rx="7" fill="#eff6f1" stroke="#7796a5" stroke-width="2"/>
+<text x="1100.0" y="228.0" font-size="24" text-anchor="middle">openf(p, q)</text>
+<rect x="950" y="300" width="300" height="70" rx="7" fill="#fff3dc" stroke="#7796a5" stroke-width="2"/>
+<text x="1100.0" y="343.0" font-size="24" text-anchor="middle">FAT 文件系统</text>
+<rect x="950" y="445" width="300" height="60" rx="7" fill="#f6f6f6" stroke="#7796a5" stroke-width="2"/>
+<text x="1100.0" y="483.0" font-size="24" text-anchor="middle">U盘</text>
+<path d="M400 110 V150 H1100 V190" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<path d="M1100 250 V300" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<path d="M1100 370 V445" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<text x="650" y="555" font-size="22" text-anchor="middle">课件示意：不同文件系统采用各自接口，用户需适配具体实现。</text>
+</g></svg>

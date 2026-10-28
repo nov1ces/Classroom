@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="450" viewBox="0 0 1200 450">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#47677b"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, Noto Sans SC, sans-serif" fill="#223644" font-size="20">
+<text x="600" y="32" text-anchor="middle" font-size="23" font-weight="bold">成组链接：原课件空闲块组与结束标记</text>
+<rect x="15" y="95" width="255" height="135" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="142.5" y="144.5" text-anchor="middle" font-size="20">内存超级块</text>
+<text x="142.5" y="169.5" text-anchor="middle" font-size="20">计数100</text>
+<text x="142.5" y="194.5" text-anchor="middle" font-size="20">201～300</text>
+<rect x="310" y="95" width="255" height="135" rx="6" stroke="#809eae" fill="#f5ead9"/>
+<text x="437.5" y="144.5" text-anchor="middle" font-size="20">300号块存下一组</text>
+<text x="437.5" y="169.5" text-anchor="middle" font-size="20">计数100</text>
+<text x="437.5" y="194.5" text-anchor="middle" font-size="20">301～400</text>
+<rect x="605" y="95" width="255" height="135" rx="6" stroke="#809eae" fill="#f5ead9"/>
+<text x="732.5" y="144.5" text-anchor="middle" font-size="20">400号块存下一组</text>
+<text x="732.5" y="169.5" text-anchor="middle" font-size="20">计数100</text>
+<text x="732.5" y="194.5" text-anchor="middle" font-size="20">7801～7899、7900</text>
+<rect x="915" y="95" width="270" height="135" rx="6" stroke="#809eae" fill="#e0efdf"/>
+<text x="1050.0" y="144.5" text-anchor="middle" font-size="20">7900号块存末组</text>
+<text x="1050.0" y="169.5" text-anchor="middle" font-size="20">计数99；9901～9999</text>
+<text x="1050.0" y="194.5" text-anchor="middle" font-size="20">结束标记 −1</text>
+<path d="M270,160 L310,160" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M565,160 L605,160" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M860,160 L915,160" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<text x="600" y="290" text-anchor="middle" font-size="21">取尽当前组时：先读取承载块中下一组的目录，再将承载块分配出去。</text>
+<text x="600" y="335" text-anchor="middle" font-size="21">回收块时：组未满则直接登记；组已满则先把旧组目录写入新回收块。</text>
+<text x="600" y="395" text-anchor="middle" font-size="21">组内块号无需连续；结束标记 −1 不计入99个空闲块。</text>
+</g></svg>

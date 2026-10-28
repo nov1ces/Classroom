@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="463" viewBox="0 0 680 463">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="206.5" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="236.5" text-anchor="middle" font-weight="bold">绪论</text>
+<path d="M148,231.5 H166 V107.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="88.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="112.5" text-anchor="middle" font-weight="bold">基本概念与三要素</text>
+<path d="M348,107.5 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">数据项与数据元素</text>
+<path d="M348,107.5 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">数据对象</text>
+<path d="M348,107.5 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">逻辑结构</text>
+<path d="M348,107.5 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">存储结构</text>
+<path d="M348,107.5 H365 V142.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="147.0">运算定义与实现</text>
+<path d="M348,107.5 H365 V165.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="170.0">数据类型与ADT</text>
+<path d="M148,231.5 H166 V249.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="230.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="254.5" text-anchor="middle" font-weight="bold">算法的基本要求</text>
+<path d="M348,249.5 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">有穷性与确定性</text>
+<path d="M348,249.5 H365 V238.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="243.0">可行性</text>
+<path d="M348,249.5 H365 V261.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="266.0">输入与输出</text>
+<path d="M348,249.5 H365 V284.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="289.0">正确性可读性健壮性</text>
+<path d="M148,231.5 H166 V368.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="349.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="373.5" text-anchor="middle" font-weight="bold">正确性与实现</text>
+<path d="M348,368.5 H365 V334.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="339.0">接口前置条件</text>
+<path d="M348,368.5 H365 V357.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="362.0">循环不变量</text>
+<path d="M348,368.5 H365 V380.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="385.0">初始化保持终止</text>
+<path d="M348,368.5 H365 V403.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="408.0">扫描最大值代码</text>
+</g></svg>

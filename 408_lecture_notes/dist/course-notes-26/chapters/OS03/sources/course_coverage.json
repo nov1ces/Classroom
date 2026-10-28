@@ -1,0 +1,753 @@
+{
+  "chapter": "OS03",
+  "lecture_files": [
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_1 内存的基础知识.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "topics": [
+        "逻辑物理地址、编译链接与三种装入方式"
+      ],
+      "targets": [
+        "OS03-5-1",
+        "OS03-loading"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_2 内存管理的概念.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": [
+        "分配回收、地址重定位与界限保护"
+      ],
+      "targets": [
+        "OS03-5-1",
+        "OS03-5-2"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_3 进程的内存映像.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "topics": [
+        "进程映像、堆栈静态区与代码区"
+      ],
+      "targets": [
+        "OS03-loading"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_4 （选修）覆盖与交换.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "topics": [
+        "覆盖与交换、覆盖容量"
+      ],
+      "targets": [
+        "OS03-extension",
+        "OS03-overlay-example"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.2_1 连续分配管理方式.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "topics": [
+        "连续分配、固定分区、动态分区与回收"
+      ],
+      "targets": [
+        "OS03-5-3",
+        "OS03-partition-recovery",
+        "OS03-fixed-partition-course"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验",
+      "additional_reviews": [
+        {
+          "file_pages": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "method": "visual comparison of each original page and four redrawn physical layouts; half-open interval endpoints verified",
+          "targets": [
+            "OS03-partition-recovery"
+          ],
+          "report": "sources/author_report.md"
+        },
+        {
+          "file_pages": [
+            4,
+            5
+          ],
+          "method": "依据课件文字及页面内的分区图、说明表重绘两种固定分区结构并转录前三行；起始地址和分区容量由原图累计核对",
+          "target": "OS03-fixed-partition-course",
+          "figure": "figures/OS03_fixed_partition_course.svg"
+        },
+        {
+          "file_pages": [
+            9,
+            10
+          ],
+          "method": "两张原课件页经渲染视觉核对，保留原4MB请求、分配前后空间及空闲表项更新",
+          "target": "OS03-partition-recovery",
+          "figure": "figures/OS03_partition_allocation_course.svg"
+        }
+      ]
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.2_2 动态分区分配算法.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "topics": [
+        "首次、最佳、最坏和邻近适应"
+      ],
+      "targets": [
+        "OS03-5-3",
+        "OS03-ex5-2",
+        "OS03-course-partition-choices"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验",
+      "additional_reviews": [
+        {
+          "file_pages": [
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "method": "逐页将原课件渲染至临时目录并实际查看，按原示例重建状态；使用独立脚本核算各空闲区起点、大小与分配顺序",
+          "target": "OS03-course-partition-choices",
+          "figure": "figures/OS03_partition_algorithms_course.svg",
+          "verification_script": "code/check_partition_course.py",
+          "note": "邻近适应示例的查找起始位置按正文所述前提明确，其他源图/页仍须核对。"
+        }
+      ]
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_1 基本分页存储管理的基本概念.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "topics": [
+        "页框页表与页内偏移、页表项计算"
+      ],
+      "targets": [
+        "OS03-5-4",
+        "OS03-pte-size"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验",
+      "additional_reviews": [
+        {
+          "file_pages": [
+            12,
+            13,
+            14
+          ],
+          "method": "逐页放大原课件对照一般整除取余与二次幂页地址拼接，页14具体4097实例未另行重现",
+          "targets": [
+            "OS03-5-4"
+          ],
+          "report": "sources/translation_audit_20261028.md"
+        }
+      ]
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_2 基本地址变换机构.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": [
+        "基本地址变换与越界、页表项地址"
+      ],
+      "targets": [
+        "OS03-page-translation",
+        "OS03-pte-size"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验",
+      "additional_reviews": [
+        {
+          "file_pages": [
+            4,
+            7,
+            8
+          ],
+          "method": "逐页放大原课件并对照正文及分页地址变换图，检查分支、算式、页表项布局",
+          "targets": [
+            "OS03-page-translation",
+            "OS03-pte-size"
+          ],
+          "report": "sources/translation_audit_20261028.md"
+        }
+      ]
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_3 具有快表的地址变换机构.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "topics": [
+        "快表命中与访问时间"
+      ],
+      "targets": [
+        "OS03-5-5",
+        "OS03-tlb-time"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_4 两级页表.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "topics": [
+        "两级页表与地址字段"
+      ],
+      "targets": [
+        "OS03-5-5",
+        "OS03-ex5-3",
+        "OS03-ex5-4",
+        "OS03-course-twolevel"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验",
+      "visual_scope": "文件页8和10例题的文字与计算已核对；原图布局尚待逐页视觉核查。"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.4 基本分段存储管理方式.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "topics": [
+        "段表和分段地址转换、段共享保护"
+      ],
+      "targets": [
+        "OS03-5-6",
+        "OS03-5-2"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.5 段页式管理方式.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "topics": [
+        "段页式与段页地址转换"
+      ],
+      "targets": [
+        "OS03-5-6",
+        "OS03-segment-pages"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验",
+      "additional_reviews": [
+        {
+          "file_pages": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "method": "逐页放大原课件核对三段分页、地址字段、两级范围检查及访问路径",
+          "targets": [
+            "OS03-segment-pages"
+          ],
+          "report": "sources/translation_audit_20261028.md"
+        }
+      ]
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.1 虚拟内存的基本概念.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "topics": [
+        "虚拟内存局部性、容量、对换性"
+      ],
+      "targets": [
+        "OS03-extension",
+        "OS03-5-7"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验",
+      "additional_reviews": [
+        {
+          "file_pages": [
+            6
+          ],
+          "method": "放大原课件核对容量公式、条件和实例，正文加入理想模型并限定实际使用条件",
+          "targets": [
+            "OS03-backing"
+          ],
+          "report": "sources/translation_audit_20261028.md"
+        }
+      ]
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.2 请求分页管理方式.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": [
+        "请求页表、缺页中断、快表一致性"
+      ],
+      "targets": [
+        "OS03-5-7"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验",
+      "additional_reviews": [
+        {
+          "file_pages": [
+            3,
+            4,
+            5
+          ],
+          "method": "逐页放大原课件；逐行比对初始、空闲框装入及脏页淘汰三个表的全部字段及调页方向",
+          "targets": [
+            "OS03-course-fault-states"
+          ],
+          "report": "sources/translation_audit_20261028.md"
+        },
+        {
+          "file_pages": [
+            8,
+            9
+          ],
+          "method": "放大查看原图及调页、快表、回写路径，核对笔记中对应一般流程；具体回写策略未设为普遍行为",
+          "targets": [
+            "OS03-5-7"
+          ],
+          "report": "sources/translation_audit_20261028.md"
+        }
+      ]
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.4 页面置换算法.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "topics": [
+        "OPT、FIFO、LRU、Clock、改进Clock"
+      ],
+      "targets": [
+        "OS03-5-9",
+        "OS03-auto-3",
+        "OS03-course-replacement-traces"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验",
+      "visual_scope": "王道课件文件页3、5、6、7四组OPT/FIFO/LRU原示例逐页视觉核对并独立模拟；其余图示尚未逐一检查。",
+      "additional_reviews": [
+        {
+          "file_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "method": "original all 15 pages reviewed using contact sheets; pages 9–12 enlarged, ring states and arrows independently checked",
+          "targets": [
+            "OS03-auto-3"
+          ],
+          "report": "sources/replacement_audit_20261028.md"
+        }
+      ]
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.5+3.2.3 页面分配策略.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "topics": [
+        "页面分配与置换范围、调页来源、抖动和工作集"
+      ],
+      "targets": [
+        "OS03-5-8",
+        "OS03-backing",
+        "OS03-5-11",
+        "OS03-backing-course-models"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验",
+      "additional_reviews": [
+        {
+          "file_pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "method": "original all 12 pages reviewed using contact sheets; pages 6–8 and 10 inspected for regions, arrows and example data",
+          "targets": [
+            "OS03-backing-course-models",
+            "OS03-5-11"
+          ],
+          "report": "sources/replacement_audit_20261028.md"
+        }
+      ]
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.7 内存映射文件.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "topics": [
+        "内存映射文件与多进程共享"
+      ],
+      "targets": [
+        "OS03-5-10"
+      ],
+      "verification": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "unverified_details": "图形、例题中仅图片显示的数值及全部过程状态待逐页视觉核验"
+    }
+  ],
+  "figures": [
+    {
+      "id": "OS03_twolevel_course",
+      "source_file": "3.1.3_4 两级页表.pdf",
+      "source_file_pages": [
+        8
+      ],
+      "targets": [
+        "OS03-course-twolevel"
+      ],
+      "status": "redrawn_svg_png_pdf_and_visually_compared_to_source",
+      "review_scope": "specific source pages only; entire lesson remains separately pending"
+    },
+    {
+      "id": "OS03_segment_course",
+      "source_file": "3.1.4 基本分段存储管理方式.pdf",
+      "source_file_pages": [
+        5,
+        6
+      ],
+      "targets": [
+        "OS03-5-6"
+      ],
+      "status": "redrawn_svg_png_pdf_and_visually_compared_to_source",
+      "review_scope": "specific source pages only; entire lesson remains separately pending"
+    },
+    {
+      "id": "OS03_tlb_page_table",
+      "source_file": "3.1.3_3 具有快表的地址变换机构.pdf",
+      "source_file_pages": [
+        4
+      ],
+      "targets": [
+        "OS03-auto-2"
+      ],
+      "status": "redrawn_svg_png_pdf_and_visually_compared_to_source",
+      "review_scope": "specific source pages only; entire lesson remains separately pending"
+    },
+    {
+      "id": "OS03_tlb_time",
+      "source_file": "3.1.3_3 具有快表的地址变换机构.pdf",
+      "source_file_pages": [
+        6
+      ],
+      "targets": [
+        "OS03-tlb-time"
+      ],
+      "status": "redrawn_svg_png_pdf_and_visually_compared_to_source",
+      "review_scope": "specific source pages only; entire lesson remains separately pending"
+    },
+    {
+      "id": "OS03_mmap_shared",
+      "source_file": "3.2.7 内存映射文件.pdf",
+      "source_file_pages": [
+        8
+      ],
+      "targets": [
+        "OS03-5-10"
+      ],
+      "status": "redrawn_svg_png_pdf_and_visually_compared_to_source",
+      "review_scope": "specific source pages only; entire lesson remains separately pending"
+    },
+    {
+      "id": "OS03_loading_course",
+      "source": "3.1.1_1 内存的基础知识.pdf 文件页9–15",
+      "targets": [
+        "OS03-course-loading"
+      ],
+      "status": "redrawn_and_visual_compared",
+      "verification": "原课件对应页面、重绘PNG标签和关系已人工查看；PDF版面待重建审阅。"
+    },
+    {
+      "id": "OS03_protection_course",
+      "source": "3.1.1_2 内存管理的概念.pdf 文件页8–9",
+      "targets": [
+        "OS03-loading"
+      ],
+      "status": "redrawn_and_visual_compared",
+      "verification": "原课件对应页面、重绘PNG标签和关系已人工查看；PDF版面待重建审阅。"
+    },
+    {
+      "id": "OS03_process_image_course",
+      "source": "3.1.1_3 进程的内存映像.pdf 文件页2–3",
+      "targets": [
+        "OS03-loading"
+      ],
+      "status": "redrawn_and_visual_compared",
+      "verification": "原课件对应页面、重绘PNG标签和关系已人工查看；PDF版面待重建审阅。"
+    },
+    {
+      "id": "OS03_overlay_course",
+      "source": "3.1.1_4 （选修）覆盖与交换.pdf 文件页4",
+      "targets": [
+        "OS03-overlay-example"
+      ],
+      "status": "redrawn_and_visual_compared",
+      "verification": "原课件对应页面、重绘PNG标签和关系已人工查看；PDF版面待重建审阅。"
+    },
+    {
+      "id": "OS03_fault_states_course",
+      "source": "3.2.2 请求分页管理方式.pdf 文件页3–5",
+      "targets": [
+        "OS03-course-fault-states"
+      ],
+      "status": "redrawn_and_visual_compared",
+      "verification": "逐页联系图核对，并将原页表还原为原生表格；已查看重绘PNG及全部字段。"
+    },
+    {
+      "id": "OS03_working_set_course",
+      "source_file": "3.2.5+3.2.3 页面分配策略.pdf",
+      "source_file_pages": [
+        10
+      ],
+      "targets": [
+        "OS03-5-11"
+      ],
+      "status": "redrawn_svg_png_pdf_and_visually_compared_to_source",
+      "verification": "原课件文件页10放大核对两处窗口及引用串；新图PNG逐项核对，SVG和矢量PDF由脚本生成。章节PDF需重建和版面审阅。"
+    }
+  ],
+  "unresolved": [
+    "17份课件共201文件页均有联系图逐页总览及长文本知识组对照；短文字和全部源图的每个节点、状态尚未逐项精校，具体视觉范围见source_review_resume.md、sources/reviews/os03_deep_review.json及replacement_audit_20261028.md。"
+  ]
+}

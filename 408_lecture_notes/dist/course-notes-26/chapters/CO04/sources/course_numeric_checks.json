@@ -1,0 +1,25 @@
+{
+  "chapter": "CO04",
+  "status": "passed",
+  "method": "independent integer/fraction/IEEE and register-state calculations",
+  "checks": [
+    {
+      "case": "递归阶乘溢出",
+      "actual": "1932053504",
+      "expected": "1932053504",
+      "passed": true
+    },
+    {
+      "case": "call rel32偏移",
+      "actual": "-42",
+      "expected": "-42",
+      "passed": true
+    },
+    {
+      "case": "call rel32小端位串",
+      "actual": "d6ffffff",
+      "expected": "d6ffffff",
+      "passed": true
+    }
+  ]
+}

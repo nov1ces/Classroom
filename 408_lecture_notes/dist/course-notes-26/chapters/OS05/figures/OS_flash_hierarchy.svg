@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="450" viewBox="0 0 960 450">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#47677b"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, Noto Sans SC, sans-serif" fill="#223644" font-size="20">
+<text x="480" y="32" text-anchor="middle" font-size="23" font-weight="bold">SSD地址层次：读写页，擦除块</text>
+<rect x="20" y="80" width="230" height="70" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="135.0" y="109.5" text-anchor="middle" font-size="20">主机逻辑块地址</text>
+<text x="135.0" y="134.5" text-anchor="middle" font-size="20">文件系统提供请求</text>
+<rect x="330" y="80" width="260" height="70" rx="6" stroke="#809eae" fill="#e0efdf"/>
+<text x="460.0" y="109.5" text-anchor="middle" font-size="20">FTL：逻辑→物理</text>
+<text x="460.0" y="134.5" text-anchor="middle" font-size="20">维护映射与回收</text>
+<path d="M250,115 L330,115" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="680" y="80" width="250" height="70" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="805.0" y="109.5" text-anchor="middle" font-size="20">多个Flash芯片</text>
+<text x="805.0" y="134.5" text-anchor="middle" font-size="20">并行组织存储</text>
+<path d="M590,115 L680,115" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="650" y="225" width="280" height="65" rx="6" stroke="#809eae" fill="#f5ead9"/>
+<text x="790.0" y="252.0" text-anchor="middle" font-size="20">芯片内多个擦除块</text>
+<text x="790.0" y="277.0" text-anchor="middle" font-size="20">整块擦除</text>
+<path d="M805,150 L805,225" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="650" y="355" width="280" height="60" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="790.0" y="379.5" text-anchor="middle" font-size="20">块内多个页</text>
+<text x="790.0" y="404.5" text-anchor="middle" font-size="20">按页读／编程</text>
+<path d="M790,290 L790,355" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="60" y="250" width="455" height="90" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="287.5" y="277.0" text-anchor="middle" font-size="20">异地更新使旧页失效</text>
+<text x="287.5" y="302.0" text-anchor="middle" font-size="20">迁移有效页后才能回收整个块</text>
+<text x="287.5" y="327.0" text-anchor="middle" font-size="20">磨损均衡分散擦除次数</text>
+</g></svg>

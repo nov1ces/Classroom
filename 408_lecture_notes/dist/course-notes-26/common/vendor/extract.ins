@@ -1,0 +1,18 @@
+% Extract the unmodified vendor packages from their documented sources.
+\input l3docstrip.tex
+\keepsilent
+\askforoverwritefalse
+\preamble
+This file is extracted from the original CTeX-kit documented source.
+The original copyright notices and LPPL license in the dtx files apply.
+See THIRD_PARTY.md in the parent directory.
+\endpreamble
+\generate{
+ \file{xeCJK.sty}{\from{xeCJK.dtx}{package}}
+ \file{xeCJK.cfg}{\from{xeCJK.dtx}{config}}
+ \file{xeCJK-listings.sty}{\from{xeCJK.dtx}{listings}}
+ \file{xunicode-addon.sty}{\from{xeCJK.dtx}{xunicode}}
+ \file{xunicode-extra.def}{\from{xeCJK.dtx}{xunextra}}
+ \file{ctexhook.sty}{\from{ctex.dtx}{ctexhook}}
+}
+\endbatchfile

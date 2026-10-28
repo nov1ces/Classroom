@@ -1,0 +1,51 @@
+{
+  "chapter": "CO04",
+  "checks": [
+    {
+      "name": "扩展操作码逐层剩余",
+      "actual": [
+        1,
+        4,
+        2
+      ],
+      "expected": [
+        1,
+        4,
+        2
+      ],
+      "passed": true
+    },
+    {
+      "name": "零地址可用编码数",
+      "actual": 32,
+      "expected": 32,
+      "passed": true
+    },
+    {
+      "name": "x86地址形成",
+      "actual": 4116,
+      "expected": 4116,
+      "passed": true
+    },
+    {
+      "name": "32位标准帧参数相对位置",
+      "actual": [
+        0,
+        4,
+        8,
+        12,
+        -4
+      ],
+      "expected": [
+        0,
+        4,
+        8,
+        12,
+        -4
+      ],
+      "passed": true
+    }
+  ],
+  "status": "passed",
+  "method": "independent arithmetic/bit-level models; full document numerical review continues at integration"
+}

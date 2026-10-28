@@ -1,0 +1,194 @@
+{
+  "status": "passed",
+  "method": "Independent exact bit operations, event recurrence and address arithmetic; bound to current canonical content",
+  "canonical_sha256": "ed23044b127ff6ef5701ebee979f8161e007fca5bf18c7fcf1bac6668dccb2c2",
+  "checks": [
+    {
+      "chapter": "CN03",
+      "item": "HDLC zero insertion",
+      "actual": "011111000011111010",
+      "expected": "011111000011111010",
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "CRC textbook remainder",
+      "actual": "001",
+      "expected": "001",
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "CRC transmitted codeword",
+      "actual": "000",
+      "expected": "000",
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "CRC choices",
+      "actual": [
+        "1100",
+        "1000",
+        "0100",
+        "0000"
+      ],
+      "expected": [
+        "1100",
+        "1000",
+        "0100",
+        "0000"
+      ],
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "six pair distances",
+      "actual": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        8
+      ],
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        8
+      ],
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "H1..H7 information1010",
+      "actual": "1011010",
+      "expected": "1011010",
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "H6 single error syndrome",
+      "actual": 6,
+      "expected": 6,
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "H7..H1 informationD4..D1=1010",
+      "actual": "1010010",
+      "expected": "1010010",
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "H2 single error syndrome",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "SECDED exhaustive 16 data x37 patterns",
+      "actual": 592,
+      "expected": 592,
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "stop wait with full ACK",
+      "actual": "2/5",
+      "expected": "2/5",
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "full utilization GBN minimum window",
+      "actual": 10,
+      "expected": 10,
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "GBN bits",
+      "actual": 4,
+      "expected": 4,
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "CDMA A bits",
+      "actual": [
+        1,
+        -1,
+        1
+      ],
+      "expected": [
+        1,
+        -1,
+        1
+      ],
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "CSMA-CD cable reduction/m",
+      "actual": 80.0,
+      "expected": 80,
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "backoff fourth collision/us",
+      "actual": 768.0,
+      "expected": 768,
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "backoff collision11/ms",
+      "actual": 52.37760000000001,
+      "expected": 52.3776,
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "CTS remaining NAV/us",
+      "actual": 354.0,
+      "expected": 354,
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "VLAN padding bytes",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "cut through destination address/us",
+      "actual": 0.48,
+      "expected": 0.48,
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "bidirectional GBN utilization",
+      "actual": "1/2",
+      "expected": "1/2",
+      "pass": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "course ARQ W4 utilization",
+      "actual": "16/19",
+      "expected": "16/19",
+      "pass": true
+    }
+  ],
+  "limitations": "Numerical/model checks do not certify all conceptual statements or every source image."
+}

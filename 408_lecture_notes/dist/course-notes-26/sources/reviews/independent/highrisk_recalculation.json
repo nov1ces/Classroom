@@ -1,0 +1,1807 @@
+{
+  "status": "pass",
+  "checks_count": 186,
+  "checks": [
+    {
+      "chapter": "CN03",
+      "item": "HDLC stuffed example",
+      "actual": "011111000011111010",
+      "expected": "011111000011111010",
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "transparent flag data",
+      "actual": "011111010",
+      "expected": "011111010",
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "CRC101001 G1101",
+      "actual": "001",
+      "expected": "001",
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "CRC appended receive",
+      "actual": "000",
+      "expected": "000",
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "CRC option 101110000",
+      "actual": "1100",
+      "expected": "1100",
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "CRC option 101110100",
+      "actual": "1000",
+      "expected": "1000",
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "CRC option 101111000",
+      "actual": "0100",
+      "expected": "0100",
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "CRC option 101111100",
+      "actual": "0000",
+      "expected": "0000",
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "four-code minimum distance",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "four-code pair distances",
+      "actual": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        8
+      ],
+      "expected": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "Hamming single error pos6",
+      "actual": 6,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "stopwait long ACK",
+      "actual": "2/5",
+      "expected": "2/5",
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "GBN fill-window frames",
+      "actual": 10,
+      "expected": 10,
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "GBN sequence bits",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "GBN repeated interval length",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "NAV data transmission us",
+      "actual": "296",
+      "expected": 296,
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "NAV after CTS us",
+      "actual": 354,
+      "expected": 354,
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "untagged min payload pad",
+      "actual": 6,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "tagged book-model pad",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "cutthrough destination wait us",
+      "actual": 0.48,
+      "expected": 0.48,
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "GBN2017 maximum utilization",
+      "actual": "1/2",
+      "expected": "1/2",
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "window W4 1kbps",
+      "actual": "16/19",
+      "expected": "16/19",
+      "passed": true
+    },
+    {
+      "chapter": "CN03",
+      "item": "window W5 capped",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "distance vector columns",
+      "actual": [
+        9,
+        20,
+        28,
+        20
+      ],
+      "expected": [
+        9,
+        20,
+        28,
+        20
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "1580B IP fragments",
+      "actual": [
+        [
+          796,
+          0,
+          1
+        ],
+        [
+          796,
+          97,
+          1
+        ],
+        [
+          28,
+          194,
+          0
+        ]
+      ],
+      "expected": [
+        [
+          796,
+          0,
+          1
+        ],
+        [
+          796,
+          97,
+          1
+        ],
+        [
+          28,
+          194,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "/20 network",
+      "actual": "168.16.80.0",
+      "expected": "168.16.80.0",
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "/20 broadcast",
+      "actual": "168.16.95.255",
+      "expected": "168.16.95.255",
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "exact four route aggregate",
+      "actual": [
+        "35.230.32.0/19"
+      ],
+      "expected": [
+        "35.230.32.0/19"
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "IP header data boundaries",
+      "actual": 76,
+      "expected": 76,
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "satellite one-way seconds",
+      "actual": 0.24,
+      "expected": 0.24,
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "satellite upload ideal bound seconds",
+      "actual": 0.4,
+      "expected": 0.4,
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "satellite ARQ window",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "satellite seq bits",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "satellite VLSM capacities",
+      "actual": [
+        62,
+        62,
+        126
+      ],
+      "expected": [
+        62,
+        62,
+        126
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "satellite VLSM full cover",
+      "actual": 256,
+      "expected": 256,
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "recall fragmentation",
+      "actual": [
+        [
+          620,
+          0,
+          1
+        ],
+        [
+          620,
+          75,
+          1
+        ],
+        [
+          420,
+          150,
+          0
+        ]
+      ],
+      "expected": [
+        [
+          620,
+          0,
+          1
+        ],
+        [
+          620,
+          75,
+          1
+        ],
+        [
+          420,
+          150,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CN04",
+      "item": "ipv6 expansion",
+      "actual": "2001:db8:85a3::8a2e:370:7334",
+      "expected": "2001:db8:85a3::8a2e:370:7334",
+      "passed": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "UDP max IPv4 payload",
+      "actual": 65507,
+      "expected": 65507,
+      "passed": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "one complement checksum",
+      "actual": 57475,
+      "expected": 57475,
+      "passed": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "TCP selected payload",
+      "actual": 52,
+      "expected": 52,
+      "passed": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "two TCP segments next ACK",
+      "actual": 1000,
+      "expected": 1000,
+      "passed": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "active close ms",
+      "actual": 1650,
+      "expected": 1650,
+      "passed": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "passive close ms",
+      "actual": "75",
+      "expected": 75,
+      "passed": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "SRTT update ms",
+      "actual": "105",
+      "expected": 105,
+      "passed": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "avoidance growth longest ms",
+      "actual": 48,
+      "expected": 48,
+      "passed": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "recall FIN seq",
+      "actual": 601,
+      "expected": 601,
+      "passed": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "recall FIN ACK",
+      "actual": 602,
+      "expected": 602,
+      "passed": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "available sending bytes",
+      "actual": 1500,
+      "expected": 1500,
+      "passed": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "new max byte",
+      "actual": 8000,
+      "expected": 8000,
+      "passed": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "receive byte-by-byte ACK/rwnd",
+      "actual": [
+        [
+          603,
+          5
+        ],
+        [
+          605,
+          3
+        ],
+        [
+          607,
+          1
+        ],
+        [
+          608,
+          0
+        ]
+      ],
+      "expected": [
+        [
+          603,
+          5
+        ],
+        [
+          605,
+          3
+        ],
+        [
+          607,
+          1
+        ],
+        [
+          608,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CN06",
+      "item": "nonpersistent html+7 images RTT",
+      "actual": 16,
+      "expected": 16,
+      "passed": true
+    },
+    {
+      "chapter": "CN06",
+      "item": "persistent pipeline after HTTP request RTT",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "chapter": "CN06",
+      "item": "DNS+Web min ms",
+      "actual": 20,
+      "expected": 20,
+      "passed": true
+    },
+    {
+      "chapter": "CN06",
+      "item": "DNS+Web max ms",
+      "actual": 50,
+      "expected": 50,
+      "passed": true
+    },
+    {
+      "chapter": "CN06",
+      "item": "html1 image3 initialcwnd1 ms",
+      "actual": 40,
+      "expected": 40,
+      "passed": true
+    },
+    {
+      "chapter": "CN06",
+      "item": "FTP data first byte",
+      "actual": 101,
+      "expected": 101,
+      "passed": true
+    },
+    {
+      "chapter": "CN06",
+      "item": "FTP release ACK",
+      "actual": 18102,
+      "expected": 18102,
+      "passed": true
+    },
+    {
+      "chapter": "CN06",
+      "item": "FTP rounds total segments",
+      "actual": 18,
+      "expected": 18,
+      "passed": true
+    },
+    {
+      "chapter": "CN06",
+      "item": "FTP completion ms",
+      "actual": 60,
+      "expected": 60,
+      "passed": true
+    },
+    {
+      "chapter": "CN06",
+      "item": "FTP full-interval Mb/s",
+      "actual": 2.4,
+      "expected": 2.4,
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "137.5 octal components",
+      "actual": [
+        2,
+        1,
+        1,
+        4
+      ],
+      "expected": [
+        2,
+        1,
+        1,
+        4
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "short -32767 unsigned32",
+      "actual": 4294934529,
+      "expected": 4294934529,
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "8-bit subtraction low/carry",
+      "actual": [
+        31,
+        1
+      ],
+      "expected": [
+        31,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "32bit subtract encoded",
+      "actual": 4294967198,
+      "expected": 4294967198,
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "negative .4375 binary32",
+      "actual": 3202351104,
+      "expected": 3202351104,
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "CC900000 exponent",
+      "actual": 26,
+      "expected": 26,
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "B0C00000 exponent",
+      "actual": -30,
+      "expected": -30,
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "f(23) float encoding",
+      "actual": 1266679807,
+      "expected": 1266679807,
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "f(24) float encoding",
+      "actual": 1275068416,
+      "expected": 1275068416,
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "nearest-even 16777216.5",
+      "actual": 16777216.0,
+      "expected": 16777216,
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "nearest-even 16777217",
+      "actual": 16777216.0,
+      "expected": 16777216,
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "nearest-even 16777217.5",
+      "actual": 16777218.0,
+      "expected": 16777218,
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "nearest-even 16777219",
+      "actual": 16777220.0,
+      "expected": 16777220,
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "Booth -3x6 post-shift registers",
+      "actual": [
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          1,
+          9,
+          1
+        ],
+        [
+          0,
+          12,
+          1
+        ],
+        [
+          14,
+          14,
+          0
+        ]
+      ],
+      "expected": [
+        [
+          0,
+          3,
+          0
+        ],
+        [
+          1,
+          9,
+          1
+        ],
+        [
+          0,
+          12,
+          1
+        ],
+        [
+          14,
+          14,
+          0
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CO02",
+      "item": "Booth product",
+      "actual": -18,
+      "expected": -18,
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "4Mx8 DRAM multiplexed pins",
+      "actual": 19,
+      "expected": 19,
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "ROM/RAM chip counts",
+      "actual": [
+        2,
+        30
+      ],
+      "expected": [
+        2,
+        30
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "disk sector mean ms",
+      "actual": 12.175,
+      "expected": 12.175,
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "8way 32KiB64B tag",
+      "actual": [
+        64,
+        20
+      ],
+      "expected": [
+        64,
+        20
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "cache total Kbits",
+      "actual": 148,
+      "expected": 148,
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "TLB32entries4way1KiB tag",
+      "actual": 19,
+      "expected": 19,
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "hex VPN decimal",
+      "actual": 130,
+      "expected": 130,
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "virtual physical translate",
+      "actual": 100416,
+      "expected": 100416,
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "24x64 array bytes",
+      "actual": 6144,
+      "expected": 6144,
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "array cache lines",
+      "actual": 192,
+      "expected": 192,
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "row traversal cache misses",
+      "actual": 192,
+      "expected": 192,
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "column traversal cache misses",
+      "actual": 192,
+      "expected": 192,
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "2way grouped TLB victim",
+      "actual": [
+        4
+      ],
+      "expected": [
+        4
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "03D4 VPN offset",
+      "actual": [
+        15,
+        20
+      ],
+      "expected": [
+        15,
+        20
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "03D4 physical",
+      "actual": 852,
+      "expected": 852,
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "354 cache tag row offset",
+      "actual": [
+        13,
+        5,
+        0
+      ],
+      "expected": [
+        13,
+        5,
+        0
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "00F1 physical",
+      "actual": 177,
+      "expected": 177,
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "B1 cache tag row offset",
+      "actual": [
+        2,
+        12,
+        1
+      ],
+      "expected": [
+        2,
+        12,
+        1
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "4line FIFO hit positions",
+      "actual": [
+        5,
+        6
+      ],
+      "expected": [
+        5,
+        6
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "4line FIFO hits/misses",
+      "actual": [
+        2,
+        10
+      ],
+      "expected": [
+        2,
+        10
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "4line LRU hit positions",
+      "actual": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "expected": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CO03",
+      "item": "4line LRU hits/misses",
+      "actual": [
+        4,
+        8
+      ],
+      "expected": [
+        4,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "CO05",
+      "item": "microaddresses needed",
+      "actual": 8,
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "chapter": "CO05",
+      "item": "7commands+none bits",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "chapter": "CO05",
+      "item": "four-stage 10instruction ns",
+      "actual": 1170,
+      "expected": 1170,
+      "passed": true
+    },
+    {
+      "chapter": "CO05",
+      "item": "five-stage20 3stalls ns",
+      "actual": 54,
+      "expected": 54,
+      "passed": true
+    },
+    {
+      "chapter": "CO05",
+      "item": "throughput instruction/ns",
+      "actual": 0.37037037037037035,
+      "expected": 0.37037037037037035,
+      "passed": true
+    },
+    {
+      "chapter": "CO06",
+      "item": "10MHz2cycles4B MB/s",
+      "actual": 20.0,
+      "expected": 20,
+      "passed": true
+    },
+    {
+      "chapter": "CO06",
+      "item": "1333MT/s64bit GB/s",
+      "actual": 10.664,
+      "expected": 10.664,
+      "passed": true
+    },
+    {
+      "chapter": "CO06",
+      "item": "32B nonburst ns",
+      "actual": 32,
+      "expected": 32,
+      "passed": true
+    },
+    {
+      "chapter": "CO06",
+      "item": "420MHz2x64bit peakGB/s",
+      "actual": 6.72,
+      "expected": 6.72,
+      "passed": true
+    },
+    {
+      "chapter": "CO06",
+      "item": "burst transactionGB/s",
+      "actual": 3.84,
+      "expected": 3.84,
+      "passed": true
+    },
+    {
+      "chapter": "CO06",
+      "item": "8words50MHz burst MB/s",
+      "actual": 133.33333333333331,
+      "expected": 133.33333333333334,
+      "passed": true
+    },
+    {
+      "chapter": "CO06",
+      "item": "nonburst same MB/s",
+      "actual": 40.0,
+      "expected": 40,
+      "passed": true
+    },
+    {
+      "chapter": "CO07",
+      "item": "display frame bytes",
+      "actual": 6220800,
+      "expected": 6220800,
+      "passed": true
+    },
+    {
+      "chapter": "CO07",
+      "item": "display double buffer",
+      "actual": 12441600,
+      "expected": 12441600,
+      "passed": true
+    },
+    {
+      "chapter": "CO07",
+      "item": "display rateB/s",
+      "actual": 373248000,
+      "expected": 373248000,
+      "passed": true
+    },
+    {
+      "chapter": "CO07",
+      "item": "50MHz poll utilization percent",
+      "actual": 0.2,
+      "expected": 0.2,
+      "passed": true
+    },
+    {
+      "chapter": "CO07",
+      "item": "interrupt occupied percent",
+      "actual": 25.0,
+      "expected": 25,
+      "passed": true
+    },
+    {
+      "chapter": "CO07",
+      "item": "2MBps service gap us",
+      "actual": 2.0,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "chapter": "CO07",
+      "item": "poll CPU lowerpercent",
+      "actual": 4.0,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "chapter": "CO07",
+      "item": "40MBps interrupt requiredpercent",
+      "actual": 800.0,
+      "expected": 800,
+      "passed": true
+    },
+    {
+      "chapter": "CO07",
+      "item": "DMA1000B software percent",
+      "actual": 4.0,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "chapter": "CO07",
+      "item": "DMA1024 software percent",
+      "actual": 1.953125,
+      "expected": 1.953125,
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "FCFS completion vector",
+      "actual": [
+        7,
+        11,
+        12,
+        16
+      ],
+      "expected": [
+        7,
+        11,
+        12,
+        16
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "FCFS mean turnaround",
+      "actual": "35/4",
+      "expected": "35/4",
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "FCFS mean wait",
+      "actual": "19/4",
+      "expected": "19/4",
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "SJF completion vector",
+      "actual": [
+        7,
+        12,
+        8,
+        16
+      ],
+      "expected": [
+        7,
+        12,
+        8,
+        16
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "SJF mean turnaround",
+      "actual": "8",
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "SJF mean wait",
+      "actual": "4",
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "SRTF completion vector",
+      "actual": [
+        16,
+        7,
+        5,
+        11
+      ],
+      "expected": [
+        16,
+        7,
+        5,
+        11
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "SRTF mean turnaround",
+      "actual": "7",
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "SRTF mean wait",
+      "actual": "3",
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "HRRN completion vector",
+      "actual": [
+        7,
+        12,
+        8,
+        16
+      ],
+      "expected": [
+        7,
+        12,
+        8,
+        16
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "HRRN mean turnaround",
+      "actual": "8",
+      "expected": 8,
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "HRRN mean wait",
+      "actual": "4",
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "preemptive priority completion",
+      "actual": [
+        115,
+        75,
+        43
+      ],
+      "expected": [
+        115,
+        75,
+        43
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "second SRTF completion",
+      "actual": [
+        17,
+        5,
+        26,
+        10
+      ],
+      "expected": [
+        17,
+        5,
+        26,
+        10
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "RR q2 completion same-time-new-first",
+      "actual": [
+        22,
+        12,
+        26,
+        23
+      ],
+      "expected": [
+        22,
+        12,
+        26,
+        23
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "unsafe partial sequence",
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "four independent safety candidates",
+      "actual": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "expected": [
+        true,
+        false,
+        false,
+        false
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "BAT request B30 unsafe",
+      "actual": false,
+      "expected": false,
+      "passed": true
+    },
+    {
+      "chapter": "OS02",
+      "item": "BAT request A20 safe",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "chapter": "OS03",
+      "item": "page2 toframeB translate",
+      "actual": 11887,
+      "expected": 11887,
+      "passed": true
+    },
+    {
+      "chapter": "OS03",
+      "item": "page2 toframe8 decimal",
+      "actual": 8644,
+      "expected": 8644,
+      "passed": true
+    },
+    {
+      "chapter": "OS03",
+      "item": "directory capacity",
+      "actual": 128,
+      "expected": 128,
+      "passed": true
+    },
+    {
+      "chapter": "OS03",
+      "item": "20501225 fields",
+      "actual": [
+        129,
+        257,
+        549
+      ],
+      "expected": [
+        129,
+        257,
+        549
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "OS03",
+      "item": "serialTLB us",
+      "actual": 111.0,
+      "expected": 111,
+      "passed": true
+    },
+    {
+      "chapter": "OS03",
+      "item": "parallelTLB us",
+      "actual": 110.9,
+      "expected": 110.9,
+      "passed": true
+    },
+    {
+      "chapter": "OS03",
+      "item": "LRU12ref faults/replacements",
+      "actual": [
+        9,
+        5
+      ],
+      "expected": [
+        9,
+        5
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "OS03",
+      "item": "fault retry secondvisit ns",
+      "actual": 100000220,
+      "expected": 100000220,
+      "passed": true
+    },
+    {
+      "chapter": "OS03",
+      "item": "replacement physical1565",
+      "actual": 1054053,
+      "expected": 1054053,
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "mixedindex firstdouble regionbyte",
+      "actual": 272384,
+      "expected": 272384,
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "307400 logicalblock/offset",
+      "actual": [
+        300,
+        200
+      ],
+      "expected": [
+        300,
+        200
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "double index subindex",
+      "actual": 34,
+      "expected": 34,
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "linkedrecord22 readwrite",
+      "actual": 6,
+      "expected": 6,
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "directory exact mean blocks",
+      "actual": "53/2",
+      "expected": "53/2",
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "inode-limit filecount",
+      "actual": 67108864,
+      "expected": 67108864,
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "bitmap128KiB",
+      "actual": 131072,
+      "expected": 131072,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "singlebuffer10 us",
+      "actual": 1550,
+      "expected": 1550,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "doublebuffer10 us",
+      "actual": 1100,
+      "expected": 1100,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "CHS7866 record",
+      "actual": 5046,
+      "expected": 5046,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "SCAN seek",
+      "actual": 325,
+      "expected": 325,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "LOOK recall seek",
+      "actual": 287,
+      "expected": 287,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "FCFS seek",
+      "actual": 647,
+      "expected": 647,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "SSTF order",
+      "actual": [
+        42,
+        15,
+        130,
+        180,
+        199
+      ],
+      "expected": [
+        42,
+        15,
+        130,
+        180,
+        199
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "SSTF seek",
+      "actual": 227,
+      "expected": 227,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "diskcapacity B",
+      "actual": 307200000,
+      "expected": 307200000,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "cluster CHS100530",
+      "actual": [
+        100,
+        5,
+        60
+      ],
+      "expected": [
+        100,
+        5,
+        60
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "clusterseek sequence distance",
+      "actual": 75,
+      "expected": 75,
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "100groups success exact compares",
+      "actual": "101",
+      "expected": 101,
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "2level100size success exact compares",
+      "actual": "303/2",
+      "expected": "303/2",
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "mixed8direct capacity KiB",
+      "actual": 65800,
+      "expected": 65800,
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "FCB64 directory blocks",
+      "actual": 40,
+      "expected": 40,
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "small16entry directory blocks",
+      "actual": 10,
+      "expected": 10,
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "directory64 success exactmean",
+      "actual": "41/2",
+      "expected": "41/2",
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "directory16 success exactmean",
+      "actual": "11/2",
+      "expected": "11/2",
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "bitmap409612 disk block",
+      "actual": 82,
+      "expected": 82,
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "bitmap409612 byte",
+      "actual": 1,
+      "expected": 1,
+      "passed": true
+    },
+    {
+      "chapter": "OS04",
+      "item": "bitmap409612 bit",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "course9request FCFS movement",
+      "actual": 498,
+      "expected": 498,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "course9request SSTF movement",
+      "actual": 248,
+      "expected": 248,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "course9request SCAN movement",
+      "actual": 282,
+      "expected": 282,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "course9request LOOK movement",
+      "actual": 250,
+      "expected": 250,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "course9request C-SCAN movement",
+      "actual": 390,
+      "expected": 390,
+      "passed": true
+    },
+    {
+      "chapter": "OS05",
+      "item": "course9request C-LOOK movement",
+      "actual": 322,
+      "expected": 322,
+      "passed": true
+    },
+    {
+      "chapter": "DS06",
+      "item": "Floyd all three stages",
+      "actual": [
+        [
+          [
+            0,
+            6,
+            13
+          ],
+          [
+            10,
+            0,
+            4
+          ],
+          [
+            5,
+            11,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            6,
+            10
+          ],
+          [
+            10,
+            0,
+            4
+          ],
+          [
+            5,
+            11,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            6,
+            10
+          ],
+          [
+            9,
+            0,
+            4
+          ],
+          [
+            5,
+            11,
+            0
+          ]
+        ]
+      ],
+      "expected": [
+        [
+          [
+            0,
+            6,
+            13
+          ],
+          [
+            10,
+            0,
+            4
+          ],
+          [
+            5,
+            11,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            6,
+            10
+          ],
+          [
+            10,
+            0,
+            4
+          ],
+          [
+            5,
+            11,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            6,
+            10
+          ],
+          [
+            9,
+            0,
+            4
+          ],
+          [
+            5,
+            11,
+            0
+          ]
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "chapter": "DS07",
+      "item": "2047 minimum3way height",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "chapter": "DS07",
+      "item": "2047 maximum3way height",
+      "actual": 11,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "chapter": "DS07",
+      "item": "fourorder Btree7keys all shapes",
+      "actual": 9,
+      "expected": 9,
+      "passed": true
+    },
+    {
+      "chapter": "DS08",
+      "item": "external4500records IO",
+      "actual": 360,
+      "expected": 360,
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "CN03": "ed23044b127ff6ef5701ebee979f8161e007fca5bf18c7fcf1bac6668dccb2c2",
+    "CN04": "54efbff616eb4b701d588b2405fc1f8ee37087ce0d1e5db4a34a723fa196ec04",
+    "CN05": "29a841c849d91a3a3db4ee784ea349e68886efdab2bad77aaf25bc2135ebb0a3",
+    "CN06": "a9e00fe9e35707292fc16855746542b689078df8b1761175d5842d0a27b37357",
+    "CO02": "5dbedd925e31643669c970121980fa06ad8e60512f2a94f6f57b26a9c7eaaeca",
+    "CO03": "c6fecaff9c5100f03452136d55a06ac70a96ff0476847358c8a12a4fb1f9267c",
+    "CO05": "ac223f5867dde306ff14c1243881618bd27e8988a7264d3853a2f722f038d5e9",
+    "CO06": "8eb6453bd6aabb52bc97941792838afddc4c86624a7f4015bb6221fc23dabab1",
+    "CO07": "6d8d5db185207b380990fad1b038934dedef450b2347fd9da7b683061ed131e9",
+    "DS06": "6839c4ab16e43f99309575f462105b15fdc26d8c8aacb56e3fd3d8596459a1d7",
+    "DS07": "e9b2366dd4d826192e4028e5295ee0d96f1eea29264bd9b6279760ffe8241083",
+    "DS08": "c9de58fece1466cb6b466a5776fe2023af41ababd948b550442aff0a3e663f96",
+    "OS02": "7eb462382bb6b31b4463c5fd6f767e4612d734bd229f963c88f98cac4d319e44",
+    "OS03": "08e770283edec4153cea268ebef07b819e4b2fa9b60cc76d34f7c7025185337a",
+    "OS04": "de77a01fdf83ace9141fb010bea8ed0746d4aa32e8be71462c7f34d7dd0aa200",
+    "OS05": "7186efec9eb259828c2c6fd6a6aff392f1e02ead1492442ca42b33c9e6f19f64"
+  },
+  "scope": "Named high-risk numeric and algorithm-state examples only. Independent simulations use inputs read from current prose; no author verification modules are imported. Excludes exhaustive knowledge/source-image/PDF review."
+}

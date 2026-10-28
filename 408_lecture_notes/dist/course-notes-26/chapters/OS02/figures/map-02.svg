@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="582" viewBox="0 0 680 582">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="266.0" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="296.0" text-anchor="middle" font-weight="bold">进程与线程</text>
+<path d="M148,291.0 H166 V84.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="65.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="89.5" text-anchor="middle" font-weight="bold">临界区与互斥实现</text>
+<path d="M348,84.5 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">互斥、同步与临界资源</text>
+<path d="M348,84.5 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">三种失败软件方案</text>
+<path d="M348,84.5 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">Peterson的假设与证明</text>
+<path d="M348,84.5 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">TS、Swap、自旋与中断屏蔽</text>
+<path d="M148,291.0 H166 V215.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="196.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="211.0" text-anchor="middle" font-weight="bold">信号量、前驱与经典模</text>
+<text x="266" y="229.0" text-anchor="middle" font-weight="bold">型</text>
+<path d="M348,215.0 H365 V169.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="174.0">记录型P/V与初值</text>
+<path d="M348,215.0 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">前驱图跨线程通知</text>
+<path d="M348,215.0 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">有限与分类缓冲、成批取数</text>
+<path d="M348,215.0 H365 V238.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="243.0">读者组与公平条件</text>
+<path d="M348,215.0 H365 V261.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="266.0">哲学家申请区与资源顺序</text>
+<path d="M148,291.0 H166 V345.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="326.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="350.5" text-anchor="middle" font-weight="bold">管程与条件变量</text>
+<path d="M348,345.5 H365 V311.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="316.0">共享状态与互斥封装</text>
+<path d="M348,345.5 H365 V334.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="339.0">wait释放锁与重新取得锁</text>
+<path d="M348,345.5 H365 V357.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="362.0">Hoare与Mesa通知语义</text>
+<path d="M348,345.5 H365 V380.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="385.0">while重检与丢失通知</text>
+<path d="M148,291.0 H166 V476.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="457.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="481.0" text-anchor="middle" font-weight="bold">死锁、安全与资源分配</text>
+<path d="M348,476.0 H365 V430.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="435.0">四个必要条件与资源图</text>
+<path d="M348,476.0 H365 V453.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="458.0">预防策略与代价</text>
+<path d="M348,476.0 H365 V476.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="481.0">银行家Need与安全序列</text>
+<path d="M348,476.0 H365 V499.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="504.0">新请求试分配与回滚</text>
+<path d="M348,476.0 H365 V522.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="527.0">检测Request与解除恢复</text>
+</g></svg>

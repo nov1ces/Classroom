@@ -1,0 +1,37 @@
+{
+  "chapter": "CO06",
+  "status": "passed",
+  "method": "independent integer/fraction/IEEE and register-state calculations",
+  "checks": [
+    {
+      "case": "4B两拍10MHz带宽",
+      "actual": "20000000",
+      "expected": "20000000",
+      "passed": true
+    },
+    {
+      "case": "1333MT每次8B",
+      "actual": "10664",
+      "expected": "10664",
+      "passed": true
+    },
+    {
+      "case": "非突发64bit32B块ns",
+      "actual": "32",
+      "expected": "32",
+      "passed": true
+    },
+    {
+      "case": "420MHz64bitDDR峰值GB",
+      "actual": "168/25",
+      "expected": "168/25",
+      "passed": true
+    },
+    {
+      "case": "64B七周期有效GB",
+      "actual": "96/25",
+      "expected": "96/25",
+      "passed": true
+    }
+  ]
+}

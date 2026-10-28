@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="340" viewBox="0 0 1000 340">
+<defs><marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7" fill="#333"/></marker></defs>
+<rect width="1000" height="340" fill="white"/>
+<text x="500.0" y="31" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="23" font-weight="bold" fill="#111">【2015】SCAN：58→130→180→199→42→15</text>
+<line x1="70" y1="95" x2="905.8000000000001" y2="95" stroke="#333" stroke-width="2"/>
+<line x1="70.0" y1="87" x2="70.0" y2="103" stroke="#333" stroke-width="2"/>
+<text x="70.0" y="72" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">0</text>
+<line x1="133.0" y1="87" x2="133.0" y2="103" stroke="#333" stroke-width="2"/>
+<text x="133.0" y="72" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">15</text>
+<line x1="246.4" y1="87" x2="246.4" y2="103" stroke="#333" stroke-width="2"/>
+<text x="246.4" y="72" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">42</text>
+<line x1="313.6" y1="87" x2="313.6" y2="103" stroke="#333" stroke-width="2"/>
+<text x="313.6" y="72" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">58</text>
+<line x1="616.0" y1="87" x2="616.0" y2="103" stroke="#333" stroke-width="2"/>
+<text x="616.0" y="72" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">130</text>
+<line x1="826.0" y1="87" x2="826.0" y2="103" stroke="#333" stroke-width="2"/>
+<text x="826.0" y="72" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">180</text>
+<line x1="905.8000000000001" y1="87" x2="905.8000000000001" y2="103" stroke="#333" stroke-width="2"/>
+<text x="905.8000000000001" y="72" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">199</text>
+<line x1="313.6" y1="130" x2="616.0" y2="130" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="616.0" y1="159" x2="826.0" y2="159" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="826.0" y1="188" x2="905.8000000000001" y2="188" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="905.8000000000001" y1="217" x2="246.4" y2="217" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="246.4" y1="246" x2="133.0" y2="246" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<text x="500" y="308" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">向内为编号增大；总距离(199−58)+(199−15)=325，服务完15即停止。</text>
+</svg>

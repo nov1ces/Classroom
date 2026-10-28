@@ -1,0 +1,37 @@
+{
+  "chapter": "CO05",
+  "checks": [
+    {
+      "name": "微指令数量与地址位数",
+      "actual": [
+        130,
+        8
+      ],
+      "expected": [
+        130,
+        8
+      ],
+      "passed": true
+    },
+    {
+      "name": "7个互斥命令加空操作编码",
+      "actual": 3,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "name": "5段20条理想流水线拍数",
+      "actual": 24,
+      "expected": 24,
+      "passed": true
+    },
+    {
+      "name": "4段10条每拍90ns总时间",
+      "actual": 1170,
+      "expected": 1170,
+      "passed": true
+    }
+  ],
+  "status": "passed",
+  "method": "independent arithmetic/bit-level models; full document numerical review continues at integration"
+}

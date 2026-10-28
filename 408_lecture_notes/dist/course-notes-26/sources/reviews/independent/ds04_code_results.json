@@ -1,0 +1,22 @@
+{
+  "actual_code_match_cases": 75029,
+  "status": "pass",
+  "compiler": "g++",
+  "standard": "c++11",
+  "warnings": [
+    "-Wall",
+    "-Wextra",
+    "-Werror",
+    "-pedantic"
+  ],
+  "sanitizers": [
+    "address",
+    "undefined"
+  ],
+  "source_snapshot": "ds04_snapshot.json",
+  "displayed_code": "ds04_displayed.cpp",
+  "test_driver": "ds04_test.cpp",
+  "exit_code": 0,
+  "stderr": "",
+  "scope": "actual displayed DS04 code in snapshot; length/capacity explanatory prose excluded"
+}

@@ -1,0 +1,521 @@
+{
+  "engine": "tesseract",
+  "languages": [
+    "chi_sim",
+    "eng"
+  ],
+  "psm": 11,
+  "review_status": "draft_requires_visual_confirmation",
+  "files": [
+    {
+      "path": "01_数据结构/【导图】精讲课/1 绪论【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/1 绪论【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/3-1 栈 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/3-1 栈 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/3-2 队列 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/3-2 队列 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/2 线性表【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/2 线性表【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/4-1 数组和特殊矩阵 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/4-1 数组和特殊矩阵 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/5-1 树的基本概念 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/5-1 树的基本概念 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/5-2 二叉树的概念 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/5-2 二叉树的概念 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/3-3 栈和队列的应用 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/3-3 栈和队列的应用 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/5-4 树和森林 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/5-4 树和森林 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/4-2 串 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/4-2 串 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/5-5 树与二叉树的应用 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/5-5 树与二叉树的应用 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/6-2 图的存储结构 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/6-2 图的存储结构 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/6-1 图的基本概念 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/6-1 图的基本概念 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/6-3 图的遍历 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/6-3 图的遍历 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/5-3 二叉树的遍历和线索二叉树 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/5-3 二叉树的遍历和线索二叉树 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/6-4 图的应用(2) 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/6-4 图的应用(2) 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/6-4(1) 图的应用 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/6-4(1) 图的应用 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/7-1 线性表的查找 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/7-1 线性表的查找 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/7-2(1) 树形查找(AVL+BST) 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/7-2(1) 树形查找(AVL+BST) 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/7-2(2)红黑树 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/7-2(2)红黑树 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/7-3 B树和B+树 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/7-3 B树和B+树 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/7-4 散列表 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/7-4 散列表 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/8-1 插入排序 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/8-1 插入排序 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/8-2 交换排序 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/8-2 交换排序 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/8-5 排序总结 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/8-5 排序总结 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/8-3 选择排序 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/8-3 选择排序 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/8-4 归并排序&基数排序 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/8-4 归并排序&基数排序 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "01_数据结构/【导图】精讲课/8-6 外部排序 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/DS/maps/8-6 外部排序 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/1 计算机系统概述 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/1 计算机系统概述 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/2-1 数制与编码 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/2-1 数制与编码 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/2-2 运算方法和运算部件 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/2-2 运算方法和运算部件 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/3-1存储器概述 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/3-1存储器概述 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/2-3 浮点数与IEEE754 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/2-3 浮点数与IEEE754 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/3-2 主存储器 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/3-2 主存储器 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/3-3 存储器芯片的扩展及其与 CPU 的连接 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/3-3 存储器芯片的扩展及其与 CPU 的连接 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/3-4 外部存储器 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/3-4 外部存储器 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/3-5 Cache（复用） 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/3-5 Cache（复用） 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/4-1 指令系统 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/4-1 指令系统 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/3-6 虚拟存储器（复用） 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/3-6 虚拟存储器（复用） 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/4-2 指令的寻址方式 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/4-2 指令的寻址方式 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/4-4 CISC 和 RISC 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/4-4 CISC 和 RISC 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/4-3 程序的机器级代码表示 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/4-3 程序的机器级代码表示 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/5-1 CPU 概述 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/5-1 CPU 概述 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/5-3 控制器 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/5-3 控制器 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/5-2 数据通路和时序系统 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/5-2 数据通路和时序系统 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/5-4 异常和中断机制 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/5-4 异常和中断机制 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/5-6 多处理器的基本概念 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/5-6 多处理器的基本概念 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/5-5 指令流水线 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/5-5 指令流水线 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/6 总线 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/6 总线 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/7-1 IO接口 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/7-1 IO接口 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/1-1 操作系统的基本概念 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/OS/maps/1-1 操作系统的基本概念 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【导图】精讲课/7-2 输入输出系统 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CO/maps/7-2 输入输出系统 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/1-2 操作系统的发展历程 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/OS/maps/1-2 操作系统的发展历程 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/1-3 OS 的运行环境 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/OS/maps/1-3 OS 的运行环境 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/1-4 操作系统结构 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/OS/maps/1-4 操作系统结构 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/1-5 虚拟机 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/OS/maps/1-5 虚拟机 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/2-1 进程 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/OS/maps/2-1 进程 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/2-2 线程 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/OS/maps/2-2 线程 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/2-3 CPU 调度 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/OS/maps/2-3 CPU 调度 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/1 计算机网络概述 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/1 计算机网络概述 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【导图】精讲课/2-4 同步与互斥 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/OS/maps/2-4 同步与互斥 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/2-2 物理层设备与传输介质 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/2-2 物理层设备与传输介质 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/2-1 通信基础 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/2-1 通信基础 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/3-1 数据链路层概述 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/3-1 数据链路层概述 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/3-5 局域网&广域网 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/3-5 局域网&广域网 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/3-2 可靠传输的工作原理 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/3-2 可靠传输的工作原理 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/3-4 介质访问控制 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/3-4 介质访问控制 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-1 网络层的功能 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/4-1 网络层的功能 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/3-7 PPP协议 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/3-7 PPP协议 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/3-6 数据链路层设备 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/3-6 数据链路层设备 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-3 IP转发分组的过程 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/4-3 IP转发分组的过程 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-4 网际控制报文协议ICMP 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/4-4 网际控制报文协议ICMP 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-5 IPv6 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/4-5 IPv6 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-2 网际协议IP与DHCP 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/4-2 网际协议IP与DHCP 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-6 路由选择协议 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/4-6 路由选择协议 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-7 IP多播 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/4-7 IP多播 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-8 网络地址转换NAT 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/4-8 网络地址转换NAT 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/4-9 移动IP 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/4-9 移动IP 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/5-1 传输层概述 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/5-1 传输层概述 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/5-2 UDP用户数据报 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/5-2 UDP用户数据报 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/6-1 网络应用模型与域名系统DNS 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/6-1 网络应用模型与域名系统DNS 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/6-2 文件传输协议FTP 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/6-2 文件传输协议FTP 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/5-3 传输控制协议TCP 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/5-3 传输控制协议TCP 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/6-3 电子邮件 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/6-3 电子邮件 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【导图】精讲课/6-4 万维网 导图【公众号：研料库，料最全】.pdf",
+      "ocr_file": "sources/extracted/CN/maps/6-4 万维网 导图【公众号：研料库，料最全】.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "checks": "850000 paired container operation rounds plus getters, invalid position/output and allocation cleanup assertions",
+  "compiler": [
+    "g++",
+    "-std=c++11",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-fsanitize=address,undefined",
+    "-fno-omit-frame-pointer",
+    "-O1",
+    "-g"
+  ],
+  "output": "850000 paired container operation rounds passed\n",
+  "chapters_sha256": {
+    "DS02": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44",
+    "DS03": "cdae05666525106d30a212f195e6ae1b5c3a81108439f68fb45fcd4b8165a85b"
+  },
+  "scope": "Verbatim displayed static sequence-list + headed-list updates; stack, circular queue, linked stack, headed and unheaded linked queues. Allocation-success textbook preconditions retained. Excludes input-driven builders and unrelated code blocks."
+}

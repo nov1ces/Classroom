@@ -1,0 +1,25 @@
+{
+  "utc": "2026-10-27T00:25:04.233119+00:00",
+  "content_sha256": "e9b2366dd4d826192e4028e5295ee0d96f1eea29264bd9b6279760ffe8241083",
+  "tests": [
+    {
+      "source": "code/verify_textbook.cpp",
+      "compiler_flags": [
+        "-std=c++11",
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic",
+        "-Werror",
+        "-fsanitize=address,undefined",
+        "-fno-omit-frame-pointer",
+        "-g"
+      ],
+      "exit_code": 0,
+      "output": "sentinel/empty/binary bounds, BST insertion and reference rotations passed\n",
+      "stderr": "",
+      "source_sha256": "cb5a74d85f1e8f690472d5b508719201b1bef8e4b5e9693a2e36c12305adac71"
+    }
+  ],
+  "all_passed": true,
+  "scope": "Existing harness algorithms and tested cases; see source for exact coverage."
+}

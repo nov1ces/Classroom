@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="550" viewBox="0 0 1100 550">
+<rect width="100%" height="100%" fill="white"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#608092"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#253b47" font-size="20">
+<text x="25" y="32" text-anchor="start" font-size="24" fill="#253b47">页号为 0 的三个逻辑地址：快表命中与未命中</text>
+<text x="25" y="66" text-anchor="start" font-size="19" fill="#253b47">依次访问 (0,0)、(0,4)、(0,8)；页内偏移分别为 0、4、8。</text>
+<rect x="30" y="135" width="190" height="78" rx="2" fill="#e0eef4" stroke="#7593a2" stroke-width="1.4"/>
+<text x="125" y="162" text-anchor="middle" font-size="19" fill="#253b47">逻辑地址</text>
+<text x="125" y="190" text-anchor="middle" font-size="18" fill="#253b47">页号 0 + 页内偏移</text>
+<rect x="305" y="95" width="250" height="150" rx="2" fill="#dcefe5" stroke="#7593a2" stroke-width="1.4"/>
+<text x="430" y="124" text-anchor="middle" font-size="19" fill="#253b47">快表（部分副本）</text>
+<line x1="326" y1="136" x2="534" y2="136" stroke="#477793" stroke-width="2" />
+<text x="360" y="164" text-anchor="start" font-size="18" fill="#253b47">页号</text>
+<text x="457" y="164" text-anchor="start" font-size="18" fill="#253b47">页框号</text>
+<text x="375" y="207" text-anchor="start" font-size="21" fill="#253b47">0</text>
+<text x="478" y="207" text-anchor="start" font-size="21" fill="#253b47">600</text>
+<rect x="305" y="294" width="250" height="161" rx="2" fill="#fff1c6" stroke="#7593a2" stroke-width="1.4"/>
+<text x="430" y="321" text-anchor="middle" font-size="19" fill="#253b47">内存页表（慢表）</text>
+<line x1="326" y1="332" x2="534" y2="332" stroke="#477793" stroke-width="2" />
+<text x="347" y="360" text-anchor="start" font-size="18" fill="#253b47">页号</text>
+<text x="457" y="360" text-anchor="start" font-size="18" fill="#253b47">页框号</text>
+<text x="365" y="388" text-anchor="start" font-size="18" fill="#253b47">0</text>
+<text x="478" y="388" text-anchor="start" font-size="18" fill="#253b47">600</text>
+<text x="365" y="415" text-anchor="start" font-size="18" fill="#253b47">1</text>
+<text x="478" y="415" text-anchor="start" font-size="18" fill="#253b47">500</text>
+<text x="365" y="442" text-anchor="start" font-size="18" fill="#253b47">2</text>
+<text x="478" y="442" text-anchor="start" font-size="18" fill="#253b47">400</text>
+<rect x="770" y="145" width="290" height="98" rx="2" fill="#f1deea" stroke="#7593a2" stroke-width="1.4"/>
+<text x="915" y="177" text-anchor="middle" font-size="20" fill="#253b47">构成物理地址</text>
+<text x="915" y="207" text-anchor="middle" font-size="18" fill="#253b47">600 × 页大小 + 页内偏移</text>
+<rect x="30" y="270" width="190" height="75" rx="2" fill="#e0eef4" stroke="#7593a2" stroke-width="1.4"/>
+<text x="125" y="299" text-anchor="middle" font-size="17" fill="#253b47">页表寄存器 M、N</text>
+<text x="125" y="326" text-anchor="middle" font-size="17" fill="#253b47">0 ≤ 页号 &lt; N</text>
+<line x1="125" y1="213" x2="125" y2="270" stroke="#477793" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M220,307 H260 V173 H305" fill="none" stroke="#477793" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="225" y="295" text-anchor="start" font-size="16" fill="#253b47">合法</text>
+<line x1="125" y1="345" x2="125" y2="394" stroke="#477793" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="125" y="419" text-anchor="middle" font-size="17" fill="#253b47">越界异常</text>
+<line x1="555" y1="173" x2="770" y2="173" stroke="#477793" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="612" y="159" text-anchor="start" font-size="18" fill="#253b47">命中</text>
+<line x1="430" y1="245" x2="430" y2="294" stroke="#477793" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="446" y="275" text-anchor="start" font-size="18" fill="#253b47">未命中</text>
+<line x1="510" y1="294" x2="510" y2="245" stroke="#477793" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+<text x="522" y="265" text-anchor="start" font-size="16" fill="#253b47">回填（常见）</text>
+<line x1="555" y1="386" x2="690" y2="386" stroke="#477793" stroke-width="2" />
+<line x1="690" y1="386" x2="690" y2="224" stroke="#477793" stroke-width="2" />
+<line x1="690" y1="224" x2="770" y2="224" stroke="#477793" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="600" y="370" text-anchor="start" font-size="17" fill="#253b47">取得页框</text>
+<text x="305" y="480" text-anchor="start" font-size="16" fill="#253b47">页表项地址 = M + 页号 × 页表项大小</text>
+<text x="25" y="510" text-anchor="start" font-size="17" fill="#253b47">快表中的 0→600 是课件显示的快照；首次访问是否命中取决于初始内容。</text>
+<text x="25" y="535" text-anchor="start" font-size="17" fill="#253b47">查到页框后回填快表是常见缓存行为，具体填充策略由实现决定。</text>
+</g></svg>

@@ -1,0 +1,50 @@
+{
+  "reviewer": "ds_b_review",
+  "status": "passed",
+  "method": "逐图查看PNG，2x2拼图内单图缩放至最大780×500；检查可见结构、标签和版面。数字算法另用代码与独立复算。此记录不等于对所有源课件图逐页比对。",
+  "figures": [
+    {
+      "png": "DS_05_binary_traversal.png",
+      "sha256": "aaae9372a19611a7f69796058470f17a2188855ac0085fcefca2554615b35ba5",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS05_lecture_traversal.png",
+      "sha256": "6f5e351408e7b81c10f56fb3f0ee6e3d6e70032d72bc53927fb07bdaddcff934",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS_06_inorder_threads.png",
+      "sha256": "79f005f52bf6da5979851208a768879c0eec7dd916550393b5d49a96db5469fe",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS_07_forest_conversion.png",
+      "sha256": "e4534fd2225953ba5372341a596065a26137c99c172b055f9829162b4975518d",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS_08_huffman.png",
+      "sha256": "db4a1b935599bff742d2033cd59106688d1b302f2e5cf9c492d0cbaec0374595",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS05_huffman_course.png",
+      "sha256": "cc3d67c53c987b2ef302fc69fb35ac7cca7903af98fd26eb5ea97ee81d6979f9",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS_09_heap_delete.png",
+      "sha256": "6a1d9827b9c495feb1242d1857aec95fa5bcd1e0a942095885cdbd1ccbf135af",
+      "svg_present": true,
+      "pdf_present": true
+    }
+  ],
+  "time_utc": "2026-10-27T05:26:00.672705+00:00"
+}

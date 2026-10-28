@@ -1,0 +1,290 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "CN01-01",
+        "kind": "课程连接",
+        "title": "系统边界先于分层",
+        "y": 402.90972900390625,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.14935
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        129.8519515991211
+      ],
+      [
+        130.117919921875,
+        402.90972900390625
+      ],
+      [
+        142.41941833496094,
+        177.79226684570312
+      ],
+      [
+        171.94302368164062,
+        207.3158721923828
+      ],
+      [
+        201.46661376953125,
+        236.8394775390625
+      ],
+      [
+        230.99021911621094,
+        266.3630676269531
+      ],
+      [
+        260.5138244628906,
+        295.88665771484375
+      ],
+      [
+        290.03741455078125,
+        325.4102783203125
+      ],
+      [
+        319.56103515625,
+        354.9338684082031
+      ],
+      [
+        349.0846252441406,
+        384.45745849609375
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 1,
+        "anchor": "CN01-02",
+        "kind": "最小反例",
+        "title": "星形也可能共享",
+        "y": 95,
+        "estimated_height": 226.5,
+        "mini": true,
+        "measured_height": 188.95755
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 4,
+        "anchor": "CN01-04",
+        "kind": "课程连接",
+        "title": "像函数调用的接口",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.37036
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 5,
+        "anchor": "CN01-05",
+        "kind": "错项排除",
+        "title": "确认不自动等于可靠",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.48087
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        366.1085205078125,
+        393.1990966796875
+      ],
+      [
+        383.26953125,
+        444.3998107910156
+      ],
+      [
+        431.0895080566406,
+        470.13507080078125
+      ],
+      [
+        455.0005187988281,
+        494.04608154296875
+      ],
+      [
+        364.1824951171875,
+        376.9794921875
+      ],
+      [
+        381.6418762207031,
+        394.1401062011719
+      ],
+      [
+        482.4884948730469,
+        495.2854919433594
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 6,
+        "anchor": "CN01-06",
+        "kind": "不变量",
+        "title": "模型与实例分开",
+        "y": 238.5955047607422,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.41284
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        97.46353912353516,
+        122.72884368896484
+      ],
+      [
+        114.62354278564453,
+        237.35610961914062
+      ],
+      [
+        95.5364990234375,
+        108.33349609375
+      ],
+      [
+        112.99690246582031,
+        125.49510192871094
+      ],
+      [
+        225.7985076904297,
+        238.5955047607422
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 7,
+        "anchor": "CN01-07",
+        "kind": "课程连接",
+        "title": "流水与CPU同一个计数",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 67.08435
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        286.5265197753906,
+        311.7918395996094
+      ],
+      [
+        303.6875305175781,
+        424.59375
+      ],
+      [
+        284.6004943847656,
+        297.3974914550781
+      ],
+      [
+        302.0599060058594,
+        314.5581359863281
+      ],
+      [
+        414.86248779296875,
+        427.65948486328125
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "sidebars": [
+      {
+        "index": 9,
+        "anchor": "CN01-08",
+        "kind": "最小反例",
+        "title": "有连接仍可共享",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.49786
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 8,
+    "sidebars": [
+      {
+        "index": 11,
+        "anchor": "CN01-course-internet",
+        "kind": "术语",
+        "title": "网络的连接对象",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 33.98987
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [
+      {
+        "index": 13,
+        "anchor": "CN01-course-timeline",
+        "kind": "不变量",
+        "title": "出口何时开始",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.74936
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 10,
+    "sidebars": [
+      {
+        "index": 10,
+        "anchor": "CN01-review",
+        "kind": "不变量",
+        "title": "回忆时说出计时起点",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 67.10986
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 11,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "CN01-course-primitives",
+        "kind": "课程连接",
+        "title": "原语与报文",
+        "y": 95,
+        "estimated_height": 46.4,
+        "mini": false,
+        "measured_height": 33.99838
+      }
+    ],
+    "occupied_margin_intervals": []
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "buffer_scenarios": 4,
+  "buffer_checks": "state transitions, exclusive use and CPU non-overlap passed",
+  "disk_totals": {
+    "FCFS": 498,
+    "SSTF": 248,
+    "SCAN": 282,
+    "LOOK": 250,
+    "C-SCAN": 390,
+    "C-LOOK": 322
+  },
+  "limitations": "Illustrative timelines; OS05 printed content still needs PDF visual review."
+}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="415" viewBox="0 0 1000 415">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0,0 L9,4.5 L0,9" fill="#243746"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#243746" font-size="22">
+<text x="65" y="36" text-anchor="middle" font-size="23" fill="#243746" font-weight="bold">次序</text>
+<text x="300" y="36" text-anchor="middle" font-size="23" fill="#243746" font-weight="bold">进程 A</text>
+<text x="615" y="36" text-anchor="middle" font-size="23" fill="#243746" font-weight="bold">进程 B</text>
+<text x="870" y="36" text-anchor="middle" font-size="23" fill="#243746" font-weight="bold">共享 x</text>
+<line x1="25" y1="103" x2="970" y2="103" stroke="#243746" stroke-width="2"/>
+<text x="65" y="88" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">1</text>
+<text x="300" y="88" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">读 x：rA=0</text>
+<text x="615" y="88" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal"></text>
+<text x="870" y="88" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">0</text>
+<line x1="25" y1="157" x2="970" y2="157" stroke="#243746" stroke-width="2"/>
+<text x="65" y="142" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">2</text>
+<text x="300" y="142" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal"></text>
+<text x="615" y="142" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">读 x：rB=0</text>
+<text x="870" y="142" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">0</text>
+<line x1="25" y1="211" x2="970" y2="211" stroke="#243746" stroke-width="2"/>
+<text x="65" y="196" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">3</text>
+<text x="300" y="196" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">rA=rA+1=1</text>
+<text x="615" y="196" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal"></text>
+<text x="870" y="196" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">0</text>
+<line x1="25" y1="265" x2="970" y2="265" stroke="#243746" stroke-width="2"/>
+<text x="65" y="250" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">4</text>
+<text x="300" y="250" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal"></text>
+<text x="615" y="250" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">rB=rB+1=1</text>
+<text x="870" y="250" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">0</text>
+<line x1="25" y1="319" x2="970" y2="319" stroke="#243746" stroke-width="2"/>
+<text x="65" y="304" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">5</text>
+<text x="300" y="304" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">写 x=rA</text>
+<text x="615" y="304" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal"></text>
+<text x="870" y="304" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">1</text>
+<line x1="25" y1="373" x2="970" y2="373" stroke="#243746" stroke-width="2"/>
+<text x="65" y="358" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">6</text>
+<text x="300" y="358" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal"></text>
+<text x="615" y="358" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">写 x=rB</text>
+<text x="870" y="358" text-anchor="middle" font-size="22" fill="#243746" font-weight="normal">1</text>
+</g>
+</svg>

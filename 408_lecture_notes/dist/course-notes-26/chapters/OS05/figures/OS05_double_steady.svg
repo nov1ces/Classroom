@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650">
+<rect width="1200" height="650" fill="white"/>
+<g fill="#253d4a" font-family="Noto Sans CJK SC, sans-serif" font-size="23">
+<text x="40" y="34" font-size="25" font-weight="bold">双缓冲：工作区初始为空，缓冲区1满、缓冲区2空</text>
+<text x="40" y="85" font-size="22" font-weight="bold">T &gt; M+C：示意取 T=5，M=1，C=3；周期 T=5</text>
+<text x="215" y="133" text-anchor="end" font-size="20">设备 → 缓冲区2</text>
+<line x1="230" y1="140" x2="1058" y2="140" stroke="#aab6bf" stroke-width="1"/>
+<rect x="230" y="108" width="230" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="345.0" y="131" text-anchor="middle" font-size="18">T</text>
+<rect x="690" y="108" width="230" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="805.0" y="131" text-anchor="middle" font-size="18">T</text>
+<text x="215" y="183" text-anchor="end" font-size="20">设备 → 缓冲区1</text>
+<line x1="230" y1="190" x2="1058" y2="190" stroke="#aab6bf" stroke-width="1"/>
+<rect x="460" y="158" width="230" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="575.0" y="181" text-anchor="middle" font-size="18">T</text>
+<text x="215" y="233" text-anchor="end" font-size="20">复制M / CPU处理C</text>
+<line x1="230" y1="240" x2="1058" y2="240" stroke="#aab6bf" stroke-width="1"/>
+<rect x="230" y="208" width="46" height="32" rx="3" fill="#dcefe4" stroke="#536f7e"/>
+<text x="253.0" y="231" text-anchor="middle" font-size="18">M1</text>
+<rect x="276" y="208" width="138" height="32" rx="3" fill="#fff1cd" stroke="#536f7e"/>
+<text x="345.0" y="231" text-anchor="middle" font-size="18">C</text>
+<rect x="460" y="208" width="46" height="32" rx="3" fill="#dcefe4" stroke="#536f7e"/>
+<text x="483.0" y="231" text-anchor="middle" font-size="18">M2</text>
+<rect x="506" y="208" width="138" height="32" rx="3" fill="#fff1cd" stroke="#536f7e"/>
+<text x="575.0" y="231" text-anchor="middle" font-size="18">C</text>
+<rect x="690" y="208" width="46" height="32" rx="3" fill="#dcefe4" stroke="#536f7e"/>
+<text x="713.0" y="231" text-anchor="middle" font-size="18">M1</text>
+<rect x="736" y="208" width="138" height="32" rx="3" fill="#fff1cd" stroke="#536f7e"/>
+<text x="805.0" y="231" text-anchor="middle" font-size="18">C</text>
+<line x1="230" y1="255" x2="230" y2="263" stroke="#536f7e"/>
+<text x="230" y="286" text-anchor="middle" font-size="20">0</text>
+<line x1="460" y1="255" x2="460" y2="263" stroke="#536f7e"/>
+<text x="460" y="286" text-anchor="middle" font-size="20">5</text>
+<line x1="690" y1="255" x2="690" y2="263" stroke="#536f7e"/>
+<text x="690" y="286" text-anchor="middle" font-size="20">10</text>
+<line x1="920" y1="255" x2="920" y2="263" stroke="#536f7e"/>
+<text x="920" y="286" text-anchor="middle" font-size="20">15</text>
+<text x="40" y="318" font-size="19">M1、M2分别表示从缓冲区1、2复制；设备可连续填入。</text>
+<text x="40" y="370" font-size="22" font-weight="bold">T &lt; M+C：示意取 T=2，M=1，C=3；周期 M+C=4</text>
+<text x="215" y="418" text-anchor="end" font-size="20">设备 → 缓冲区2</text>
+<line x1="230" y1="425" x2="1058" y2="425" stroke="#aab6bf" stroke-width="1"/>
+<rect x="230" y="393" width="92" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="276.0" y="416" text-anchor="middle" font-size="18">T</text>
+<rect x="460" y="393" width="92" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="506.0" y="416" text-anchor="middle" font-size="18">T</text>
+<rect x="828" y="393" width="92" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="874.0" y="416" text-anchor="middle" font-size="18">T</text>
+<text x="215" y="468" text-anchor="end" font-size="20">设备 → 缓冲区1</text>
+<line x1="230" y1="475" x2="1058" y2="475" stroke="#aab6bf" stroke-width="1"/>
+<rect x="322" y="443" width="92" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="368.0" y="466" text-anchor="middle" font-size="18">T</text>
+<rect x="644" y="443" width="92" height="32" rx="3" fill="#dcecf4" stroke="#536f7e"/>
+<text x="690.0" y="466" text-anchor="middle" font-size="18">T</text>
+<text x="215" y="518" text-anchor="end" font-size="20">复制M / CPU处理C</text>
+<line x1="230" y1="525" x2="1058" y2="525" stroke="#aab6bf" stroke-width="1"/>
+<rect x="230" y="493" width="46" height="32" rx="3" fill="#dcefe4" stroke="#536f7e"/>
+<text x="253.0" y="516" text-anchor="middle" font-size="18">M1</text>
+<rect x="276" y="493" width="138" height="32" rx="3" fill="#fff1cd" stroke="#536f7e"/>
+<text x="345.0" y="516" text-anchor="middle" font-size="18">C</text>
+<rect x="414" y="493" width="46" height="32" rx="3" fill="#dcefe4" stroke="#536f7e"/>
+<text x="437.0" y="516" text-anchor="middle" font-size="18">M2</text>
+<rect x="460" y="493" width="138" height="32" rx="3" fill="#fff1cd" stroke="#536f7e"/>
+<text x="529.0" y="516" text-anchor="middle" font-size="18">C</text>
+<rect x="598" y="493" width="46" height="32" rx="3" fill="#dcefe4" stroke="#536f7e"/>
+<text x="621.0" y="516" text-anchor="middle" font-size="18">M1</text>
+<rect x="644" y="493" width="138" height="32" rx="3" fill="#fff1cd" stroke="#536f7e"/>
+<text x="713.0" y="516" text-anchor="middle" font-size="18">C</text>
+<rect x="782" y="493" width="46" height="32" rx="3" fill="#dcefe4" stroke="#536f7e"/>
+<text x="805.0" y="516" text-anchor="middle" font-size="18">M2</text>
+<rect x="828" y="493" width="138" height="32" rx="3" fill="#fff1cd" stroke="#536f7e"/>
+<text x="897.0" y="516" text-anchor="middle" font-size="18">C</text>
+<line x1="230" y1="540" x2="230" y2="548" stroke="#536f7e"/>
+<text x="230" y="571" text-anchor="middle" font-size="20">0</text>
+<line x1="414" y1="540" x2="414" y2="548" stroke="#536f7e"/>
+<text x="414" y="571" text-anchor="middle" font-size="20">4</text>
+<line x1="598" y1="540" x2="598" y2="548" stroke="#536f7e"/>
+<text x="598" y="571" text-anchor="middle" font-size="20">8</text>
+<line x1="782" y1="540" x2="782" y2="548" stroke="#536f7e"/>
+<text x="782" y="571" text-anchor="middle" font-size="20">12</text>
+<line x1="966" y1="540" x2="966" y2="548" stroke="#536f7e"/>
+<text x="966" y="571" text-anchor="middle" font-size="20">16</text>
+<text x="40" y="603" font-size="19">设备在4–5和7–9等待空缓冲区；复制与CPU处理依次进行。</text>
+</g></svg>

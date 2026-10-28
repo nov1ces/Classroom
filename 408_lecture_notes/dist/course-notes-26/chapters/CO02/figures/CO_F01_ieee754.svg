@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="310" viewBox="0 0 1000 310">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#333"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="500" y="30" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="24" fill="#111">IEEE 754 binary32：32 位</text>
+<rect x="35" y="55" width="95" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="82.5" y="92.35" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">s：1位</text>
+<rect x="130" y="55" width="250" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="255.0" y="92.35" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">E：8位</text>
+<rect x="380" y="55" width="585" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="672.5" y="92.35" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">F：23位</text>
+<text x="500" y="150" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#111">E=1…254：隐含 1，指数 E−127</text>
+<text x="500" y="195" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#111">E=0：隐含 0，指数 −126；F=0 时为带符号零</text>
+<text x="500" y="240" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#111">E=255：F=0 为 ±∞；F≠0 为 NaN</text>
+<text x="500" y="285" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">负号只由 s 决定，不把整个位串取补码</text>
+</svg>

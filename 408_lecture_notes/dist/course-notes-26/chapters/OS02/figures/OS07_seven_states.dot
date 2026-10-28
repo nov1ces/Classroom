@@ -1,0 +1,21 @@
+digraph SevenStates {
+ graph [rankdir=LR, bgcolor="white", pad="0.3", nodesep="0.7", ranksep="1.0", splines=polyline, outputorder=edgesfirst];
+ node [shape=box, style="rounded,filled", fontname="Noto Sans CJK SC", fontsize=20, width=1.4, height=.58, color="#6B91A7", fillcolor="#E0EFF4"];
+ edge [fontname="Noto Sans CJK SC", fontsize=14, color="#547E93", arrowsize=.8];
+ create [label="创建态", fillcolor="#FFF0DC"]; ready [label="就绪态"]; run [label="运行态"]; term [label="终止态", fillcolor="#FFF0DC"];
+ rs [label="就绪挂起", fillcolor="#EDE9F2"]; bs [label="阻塞挂起", fillcolor="#EDE9F2"]; block [label="阻塞态"];
+ {rank=same; create;} {rank=same; ready; rs;} {rank=same; run; block; bs;} {rank=same; term;}
+ create -> ready [label="接纳"];
+ ready -> run [label="调度"];
+ run -> ready [label="时间片到/抢占", constraint=false];
+ run -> term [label="退出"];
+ run -> block [label="等待事件", constraint=false];
+ block -> ready [label="事件发生", constraint=false];
+ create -> rs [label="创建后挂起"];
+ ready -> rs [label="挂起", constraint=false];
+ rs -> ready [label="激活", constraint=false];
+ block -> bs [label="挂起", constraint=false];
+ bs -> block [label="激活", constraint=false];
+ bs -> rs [label="事件发生", constraint=false];
+ run -> rs [label="挂起", constraint=false];
+}

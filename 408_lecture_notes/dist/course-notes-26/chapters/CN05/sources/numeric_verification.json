@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "method": "Independent exact bit operations, event recurrence and address arithmetic; bound to current canonical content",
+  "canonical_sha256": "29a841c849d91a3a3db4ee784ea349e68886efdab2bad77aaf25bc2135ebb0a3",
+  "checks": [
+    {
+      "chapter": "CN05",
+      "item": "two words checksum",
+      "actual": "4649",
+      "expected": "4649",
+      "pass": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "three words checksum",
+      "actual": "E083",
+      "expected": "E083",
+      "pass": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "receive checksum including checksum",
+      "actual": 0,
+      "expected": 0,
+      "pass": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "close active time/ms",
+      "actual": 1650,
+      "expected": 1650,
+      "pass": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "close passive time/ms",
+      "actual": 75.0,
+      "expected": 75,
+      "pass": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "available segments after ACK",
+      "actual": 2,
+      "expected": 2,
+      "pass": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "105ms smoothed RTT",
+      "actual": "105",
+      "expected": 105,
+      "pass": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "zero-window sequence",
+      "actual": 20581,
+      "expected": 20581,
+      "pass": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "zero-window goodput bit/s",
+      "actual": 163840.0,
+      "expected": 163840,
+      "pass": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "hex ACK difference",
+      "actual": 16,
+      "expected": 16,
+      "pass": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "packet TTL hop difference",
+      "actual": 15,
+      "expected": 15,
+      "pass": true
+    },
+    {
+      "chapter": "CN05",
+      "item": "IP and TCP option sizes payload",
+      "actual": 52,
+      "expected": 52,
+      "pass": true
+    }
+  ],
+  "limitations": "Numerical/model checks do not certify all conceptual statements or every source image."
+}

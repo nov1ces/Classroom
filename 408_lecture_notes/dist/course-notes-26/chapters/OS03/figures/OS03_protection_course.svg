@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="420" viewBox="0 0 1120 420">
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#547f96"/></marker></defs>
+<rect width="1120" height="420" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#294958">
+<text x="280" y="32" text-anchor="middle" font-size="23">方法一：上、下限寄存器</text>
+<text x="840" y="32" text-anchor="middle" font-size="23">方法二：重定位与界地址寄存器</text>
+<rect x="25" y="65" width="210" height="75" rx="5" fill="#deedf5" stroke="#8da8b6"/>
+<text x="130.0" y="96.0" text-anchor="middle" font-size="21">物理下限100</text>
+<text x="130.0" y="123.0" text-anchor="middle" font-size="21">物理上限279</text>
+<rect x="305" y="65" width="210" height="75" rx="5" fill="#dfefe4" stroke="#8da8b6"/>
+<text x="410.0" y="96.0" text-anchor="middle" font-size="21">物理地址 180</text>
+<text x="410.0" y="123.0" text-anchor="middle" font-size="21">100 ≤ 180 ≤ 279</text>
+<path d="M235,102 L305,102" stroke="#547f96" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="25" y="200" width="490" height="82" rx="5" fill="#fff1ce" stroke="#8da8b6"/>
+<text x="270.0" y="234.5" text-anchor="middle" font-size="21">合法物理空间 100～279</text>
+<text x="270.0" y="261.5" text-anchor="middle" font-size="21">超出范围触发越界异常</text>
+<rect x="600" y="65" width="210" height="75" rx="5" fill="#deedf5" stroke="#8da8b6"/>
+<text x="705.0" y="96.0" text-anchor="middle" font-size="21">重定位寄存器100</text>
+<text x="705.0" y="123.0" text-anchor="middle" font-size="21">最大逻辑地址179</text>
+<rect x="880" y="65" width="210" height="75" rx="5" fill="#dfefe4" stroke="#8da8b6"/>
+<text x="985.0" y="96.0" text-anchor="middle" font-size="21">逻辑地址80</text>
+<text x="985.0" y="123.0" text-anchor="middle" font-size="21">80 ≤ 179</text>
+<path d="M810,102 L880,102" stroke="#547f96" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="600" y="200" width="490" height="82" rx="5" fill="#fff1ce" stroke="#8da8b6"/>
+<text x="845.0" y="234.5" text-anchor="middle" font-size="21">合法：100＋80＝物理地址180</text>
+<text x="845.0" y="261.5" text-anchor="middle" font-size="21">越界：拒绝访问并触发异常</text>
+<text x="560" y="360" text-anchor="middle" font-size="20">若界地址字段保存长度180，则有效条件写为 0 ≤ 逻辑地址 &lt; 180</text>
+</g></svg>

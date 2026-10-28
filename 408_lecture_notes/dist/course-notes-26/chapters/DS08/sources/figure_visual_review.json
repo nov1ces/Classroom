@@ -1,0 +1,38 @@
+{
+  "reviewer": "ds_b_review",
+  "status": "passed",
+  "method": "逐图查看PNG，2x2拼图内单图缩放至最大780×500；检查可见结构、标签和版面。数字算法另用代码与独立复算。此记录不等于对所有源课件图逐页比对。",
+  "figures": [
+    {
+      "png": "DS08_sort_course.png",
+      "sha256": "3fbdc1892f0a8d2898bf92f13712084b90fb4572288fddb95d18d8f6ba14cb4c",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS_09_heap_delete.png",
+      "sha256": "6a1d9827b9c495feb1242d1857aec95fa5bcd1e0a942095885cdbd1ccbf135af",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS_17_merge_trace.png",
+      "sha256": "0b0a68d8df0634feb03c23ef3a2d84496bddfd8a64571315b43748a7d351bbbd",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS_18_replacement_selection.png",
+      "sha256": "fc132af0471d62abbcf247fb3c841d62c03c4bf0f961ef132c30bc256b5be805",
+      "svg_present": true,
+      "pdf_present": true
+    },
+    {
+      "png": "DS_19_loser_tree.png",
+      "sha256": "deb007e1a1128796073affe73dd0b07aaa48228bf09e31d601eb60bdc7c891cc",
+      "svg_present": true,
+      "pdf_present": true
+    }
+  ],
+  "time_utc": "2026-10-27T05:26:00.675435+00:00"
+}

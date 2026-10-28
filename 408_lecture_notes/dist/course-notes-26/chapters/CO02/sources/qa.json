@@ -1,0 +1,29 @@
+{
+  "id": "CO02",
+  "pages": 19,
+  "print_mode": "simplex",
+  "sidebar_count_per_page": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "all_fonts_embedded": true,
+  "warnings": [],
+  "human_visual_review": "passed"
+}

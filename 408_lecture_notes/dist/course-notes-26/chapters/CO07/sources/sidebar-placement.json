@@ -1,0 +1,232 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 1,
+        "anchor": "CO07-devices",
+        "kind": "最小反例",
+        "title": "24位不等于24种颜色",
+        "y": 375.40631103515625,
+        "estimated_height": 195.5,
+        "mini": true,
+        "measured_height": 150.13968
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        129.8519515991211
+      ],
+      [
+        141.90298461914062,
+        375.40631103515625
+      ],
+      [
+        155.40928649902344,
+        193.07125854492188
+      ],
+      [
+        187.82440185546875,
+        225.4863739013672
+      ],
+      [
+        220.23953247070312,
+        257.9014892578125
+      ],
+      [
+        252.6546630859375,
+        290.3166198730469
+      ],
+      [
+        285.06976318359375,
+        322.73175048828125
+      ],
+      [
+        317.4848937988281,
+        355.1468505859375
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 3,
+        "anchor": "CO07-interface",
+        "kind": "最小反例",
+        "title": "同地址不等于同寄存器",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.23438
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 5,
+        "anchor": "CO07-query",
+        "kind": "不变量",
+        "title": "最长间隔受缓冲期限限制",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.42984
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 8,
+        "anchor": "CO07-mask",
+        "kind": "不变量",
+        "title": "每层恢复自己的屏蔽字",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.14935
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 10,
+        "anchor": "CO07-dma",
+        "kind": "错项排除",
+        "title": "块完成一次，单位传送多次",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.14087
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 11,
+        "anchor": "CO07-dma",
+        "kind": "课程连接",
+        "title": "CPU预算与总线预算分列",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.31085
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        620.674560546875,
+        647.7650756835938
+      ],
+      [
+        637.8355712890625,
+        746.7869262695312
+      ],
+      [
+        618.7484741210938,
+        631.5454711914062
+      ],
+      [
+        636.2078857421875,
+        648.7060546875
+      ],
+      [
+        737.0545043945312,
+        749.8515014648438
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "sidebars": [
+      {
+        "index": 12,
+        "anchor": "CO07-dma",
+        "kind": "最小反例",
+        "title": "平均低占用也会超期限",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.40436
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 8,
+    "sidebars": [
+      {
+        "index": 13,
+        "anchor": "CO07-peripherals-complete",
+        "kind": "课程连接",
+        "title": "准备数据和传送数据",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.95337
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "CO07-io-structure-complete",
+        "kind": "课程连接",
+        "title": "端口与接口",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.69836
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 10,
+    "sidebars": [
+      {
+        "index": 17,
+        "anchor": "CO07-dma-complete",
+        "kind": "课程连接",
+        "title": "DMA仍需控制信息",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 55.44086
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 11,
+    "sidebars": [
+      {
+        "index": 18,
+        "anchor": "CO07-recall",
+        "kind": "课程连接",
+        "title": "先列时间线",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 45.11487
+      }
+    ],
+    "occupied_margin_intervals": []
+  }
+]

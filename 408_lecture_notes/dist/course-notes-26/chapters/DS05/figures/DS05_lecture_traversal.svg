@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380">
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6" fill="none" stroke="#466c82" stroke-width="1.2"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="500" y="28" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="21" fill="#223644">同一棵树的三种深度优先次序</text>
+<path d="M214.701776037659,92.8827149156556 L150.298223962341,147.11728508434442" fill="none" stroke="#466c82" stroke-width="2"/>
+<path d="M245.61737618886062,92.49390095108849 L314.3826238111394,147.50609904891152" fill="none" stroke="#466c82" stroke-width="2"/>
+<path d="M122.38814749811068,175.52228000232532 L82.61185250188932,224.47771999767468" fill="none" stroke="#466c82" stroke-width="2"/>
+<path d="M147.0,176.0 L183.0,224.0" fill="none" stroke="#466c82" stroke-width="2"/>
+<path d="M321.05572809000085,177.88854381999832 L298.94427190999915,222.11145618000168" fill="none" stroke="#466c82" stroke-width="2"/>
+<path d="M77.02246883176784,258.7265835513809 L92.97753116823216,301.2734164486191" fill="none" stroke="#466c82" stroke-width="2"/>
+<circle cx="230" cy="80" r="20" fill="#ddefe6" stroke="#6c8e9c" stroke-width="1.4"/>
+<text x="230" y="86" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="18" fill="#223644">A</text>
+<circle cx="135" cy="160" r="20" fill="#ddefe6" stroke="#6c8e9c" stroke-width="1.4"/>
+<text x="135" y="166" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="18" fill="#223644">B</text>
+<circle cx="330" cy="160" r="20" fill="#ddefe6" stroke="#6c8e9c" stroke-width="1.4"/>
+<text x="330" y="166" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="18" fill="#223644">C</text>
+<circle cx="70" cy="240" r="20" fill="#ddefe6" stroke="#6c8e9c" stroke-width="1.4"/>
+<text x="70" y="246" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="18" fill="#223644">D</text>
+<circle cx="195" cy="240" r="20" fill="#ddefe6" stroke="#6c8e9c" stroke-width="1.4"/>
+<text x="195" y="246" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="18" fill="#223644">E</text>
+<circle cx="290" cy="240" r="20" fill="#ddefe6" stroke="#6c8e9c" stroke-width="1.4"/>
+<text x="290" y="246" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="18" fill="#223644">F</text>
+<circle cx="100" cy="320" r="20" fill="#ddefe6" stroke="#6c8e9c" stroke-width="1.4"/>
+<text x="100" y="326" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="18" fill="#223644">G</text>
+<text x="690" y="100" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="21" fill="#223644">先序：A B D G E C F</text>
+<text x="690" y="170" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="21" fill="#223644">中序：D G B E A F C</text>
+<text x="690" y="240" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="21" fill="#223644">后序：G D E B F C A</text>
+<text x="690" y="310" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="21" fill="#223644">层序：A B C D E F G</text>
+</svg>

@@ -1,0 +1,102 @@
+{
+  "id": "DS01",
+  "title": "绪论",
+  "branches": [
+    {
+      "label": "基本概念与三要素",
+      "children": [
+        "数据项与数据元素",
+        "数据对象",
+        "逻辑结构",
+        "存储结构",
+        "运算定义与实现",
+        "数据类型与ADT"
+      ]
+    },
+    {
+      "label": "算法的基本要求",
+      "children": [
+        "有穷性与确定性",
+        "可行性",
+        "输入与输出",
+        "正确性可读性健壮性"
+      ]
+    },
+    {
+      "label": "正确性与实现",
+      "children": [
+        "接口前置条件",
+        "循环不变量",
+        "初始化保持终止",
+        "扫描最大值代码"
+      ]
+    },
+    {
+      "label": "时间复杂度",
+      "children": [
+        "基本操作计数",
+        "加法与乘法规则",
+        "常见增长阶",
+        "最好最坏平均",
+        "累计和与等比和",
+        "递归时间递推"
+      ]
+    },
+    {
+      "label": "空间复杂度",
+      "children": [
+        "辅助空间与输入空间",
+        "存活空间峰值",
+        "递归栈深",
+        "原地算法条件"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.1_数据结构的基本概念.pdf",
+      "pages": [
+        28,
+        29
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.2_1_算法的基本概念.pdf",
+      "pages": [
+        22
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.2_1_算法的基本概念.pdf",
+      "pages": [
+        22
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.2_2_算法的时间复杂度.pdf",
+      "pages": [
+        17
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.2_3_算法的空间复杂度.pdf",
+      "pages": [
+        10
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "正确性证明与接口契约未作为原导图独立主枝，按算法特性与质量枝补绘为实现主枝；内容为自拟最大值案例。"
+  ]
+}

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="609" viewBox="0 0 680 609">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="279.5" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="309.5" text-anchor="middle" font-weight="bold">文件管理</text>
+<path d="M148,304.5 H166 V73.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="54.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="78.0" text-anchor="middle" font-weight="bold">文件、属性与控制结构</text>
+<path d="M348,73.0 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">名字、inode与数据块</text>
+<path d="M348,73.0 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">磁盘inode与内存inode</text>
+<path d="M348,73.0 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">描述符、打开实例与文件位置</text>
+<path d="M148,304.5 H166 V180.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="161.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="185.5" text-anchor="middle" font-weight="bold">操作、保护与共享</text>
+<path d="M348,180.5 H365 V146.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="151.0">create、open、read、write、close</text>
+<path d="M348,180.5 H365 V169.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="174.0">unlink与最终回收</text>
+<path d="M348,180.5 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">用户类别、权限、ACL与能力</text>
+<path d="M348,180.5 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">硬链接与符号链接</text>
+<path d="M148,304.5 H166 V288.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="269.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="293.0" text-anchor="middle" font-weight="bold">文件逻辑结构</text>
+<path d="M348,288.0 H365 V265.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="270.0">字节流与记录</text>
+<path d="M348,288.0 H365 V288.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="293.0">定长、变长与成组分解</text>
+<path d="M348,288.0 H365 V311.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="316.0">顺序、索引与索引顺序</text>
+<path d="M148,304.5 H166 V395.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="376.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="400.5" text-anchor="middle" font-weight="bold">文件物理分配</text>
+<path d="M348,395.5 H365 V361.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="366.0">连续分配与增长</text>
+<path d="M348,395.5 H365 V384.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="389.0">隐式链接与FAT</text>
+<path d="M348,395.5 H365 V407.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="412.0">单级、多级、混合索引</text>
+<path d="M348,395.5 H365 V430.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="435.0">索引容量与访问层数</text>
+<path d="M148,304.5 H166 V514.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="495.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="519.5" text-anchor="middle" font-weight="bold">目录与名称解析</text>
+<path d="M348,514.5 H365 V480.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="485.0">单级、两级与树形目录</text>
+<path d="M348,514.5 H365 V503.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="508.0">绝对、相对路径及逐层解析</text>
+<path d="M348,514.5 H365 V526.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="531.0">目录项大小与线性查找期望</text>
+<path d="M348,514.5 H365 V549.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="554.0">缓存条件与实际访盘路径</text>
+</g></svg>

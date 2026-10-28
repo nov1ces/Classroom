@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="509" viewBox="0 0 680 509">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="229.5" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="259.5" text-anchor="middle" font-weight="bold">中央处理器</text>
+<path d="M148,254.5 H166 V107.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="88.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="112.5" text-anchor="middle" font-weight="bold">控制器与微程序</text>
+<path d="M348,107.5 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">硬布线与微程序</text>
+<path d="M348,107.5 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">CM/CMAR/CMDR</text>
+<path d="M348,107.5 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">微命令/微指令/机器指令</text>
+<path d="M348,107.5 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">直接与字段编码</text>
+<path d="M348,107.5 H365 V142.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="147.0">下地址形成</text>
+<path d="M348,107.5 H365 V165.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="170.0">水平/垂直/混合</text>
+<path d="M148,254.5 H166 V249.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="230.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="254.5" text-anchor="middle" font-weight="bold">异常与中断</text>
+<path d="M348,249.5 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">异常与外部中断</text>
+<path d="M348,249.5 H365 V238.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="243.0">故障/陷阱/终止</text>
+<path d="M348,249.5 H365 V261.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="266.0">响应与返回位置</text>
+<path d="M348,249.5 H365 V284.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="289.0">硬件保存与软件保护</text>
+<path d="M148,254.5 H166 V391.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="372.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="396.5" text-anchor="middle" font-weight="bold">流水线模型与冒险</text>
+<path d="M348,391.5 H365 V334.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="339.0">吞吐率/加速比/效率</text>
+<path d="M348,391.5 H365 V357.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="362.0">五段与段寄存器</text>
+<path d="M348,391.5 H365 V380.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="385.0">结构/数据/控制冒险</text>
+<path d="M348,391.5 H365 V403.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="408.0">转发与load-use</text>
+<path d="M348,391.5 H365 V426.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="431.0">保持与气泡</text>
+<path d="M348,391.5 H365 V449.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="454.0">同拍读写条件</text>
+</g></svg>

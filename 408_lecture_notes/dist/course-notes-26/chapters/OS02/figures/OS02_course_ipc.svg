@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="900" viewBox="0 0 1500 900">
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#526f80"/></marker></defs>
+<rect width="1500" height="900" fill="white"/>
+<g font-family="Noto Sans CJK SC,sans-serif" fill="#203640" font-size="23">
+<text x="750" y="40" font-size="28" text-anchor="middle">直接通信：进程 P 向进程 Q 发送；Q 从自己的消息队列接收</text>
+<rect x="35" y="55" width="460" height="350" rx="12" fill="#fafcfd" stroke="#bac9d0"/>
+<text x="265" y="92" font-size="26" text-anchor="middle">① 发送前</text>
+<rect x="90" y="120" width="350" height="57" rx="8" fill="#dcecf5" stroke="#8ca2ae" stroke-width="2"/>
+<text x="265.0" y="156.5" font-size="23" text-anchor="middle">P地址空间：msg</text>
+<rect x="90" y="210" width="350" height="57" rx="8" fill="#fff0dc" stroke="#8ca2ae" stroke-width="2"/>
+<text x="265.0" y="246.5" font-size="23" text-anchor="middle">Q 的消息队列</text>
+<rect x="90" y="300" width="350" height="57" rx="8" fill="#e3efdb" stroke="#8ca2ae" stroke-width="2"/>
+<text x="265.0" y="336.5" font-size="23" text-anchor="middle">Q地址空间</text>
+<text x="265" y="387" font-size="20" text-anchor="middle">send(Q,msg) / receive(P,&amp;msg)</text>
+<rect x="515" y="55" width="460" height="350" rx="12" fill="#fafcfd" stroke="#bac9d0"/>
+<text x="745" y="92" font-size="26" text-anchor="middle">② 消息进入中间实体</text>
+<rect x="570" y="120" width="350" height="57" rx="8" fill="#dcecf5" stroke="#8ca2ae" stroke-width="2"/>
+<text x="745.0" y="156.5" font-size="23" text-anchor="middle">P地址空间：msg</text>
+<rect x="570" y="210" width="350" height="57" rx="8" fill="#fff0dc" stroke="#8ca2ae" stroke-width="2"/>
+<text x="745.0" y="246.5" font-size="23" text-anchor="middle">Q 的消息队列：msg</text>
+<rect x="570" y="300" width="350" height="57" rx="8" fill="#e3efdb" stroke="#8ca2ae" stroke-width="2"/>
+<text x="745.0" y="336.5" font-size="23" text-anchor="middle">Q地址空间</text>
+<path d="M745,179 L745,205" stroke="#526f80" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+<text x="745" y="387" font-size="20" text-anchor="middle">send(Q,msg) / receive(P,&amp;msg)</text>
+<rect x="995" y="55" width="460" height="350" rx="12" fill="#fafcfd" stroke="#bac9d0"/>
+<text x="1225" y="92" font-size="26" text-anchor="middle">③ 接收后</text>
+<rect x="1050" y="120" width="350" height="57" rx="8" fill="#dcecf5" stroke="#8ca2ae" stroke-width="2"/>
+<text x="1225.0" y="156.5" font-size="23" text-anchor="middle">P地址空间：msg</text>
+<rect x="1050" y="210" width="350" height="57" rx="8" fill="#fff0dc" stroke="#8ca2ae" stroke-width="2"/>
+<text x="1225.0" y="246.5" font-size="23" text-anchor="middle">Q 的消息队列</text>
+<rect x="1050" y="300" width="350" height="57" rx="8" fill="#e3efdb" stroke="#8ca2ae" stroke-width="2"/>
+<text x="1225.0" y="336.5" font-size="23" text-anchor="middle">Q地址空间：msg</text>
+<path d="M1225,269 L1225,295" stroke="#526f80" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+<text x="1225" y="387" font-size="20" text-anchor="middle">send(Q,msg) / receive(P,&amp;msg)</text>
+<text x="750" y="470" font-size="28" text-anchor="middle">间接通信：进程 P 向信箱 A 发送；Q 从信箱 A 接收</text>
+<rect x="35" y="485" width="460" height="350" rx="12" fill="#fafcfd" stroke="#bac9d0"/>
+<text x="265" y="522" font-size="26" text-anchor="middle">① 发送前</text>
+<rect x="90" y="550" width="350" height="57" rx="8" fill="#dcecf5" stroke="#8ca2ae" stroke-width="2"/>
+<text x="265.0" y="586.5" font-size="23" text-anchor="middle">P地址空间：msg</text>
+<rect x="90" y="640" width="350" height="57" rx="8" fill="#fff0dc" stroke="#8ca2ae" stroke-width="2"/>
+<text x="265.0" y="676.5" font-size="23" text-anchor="middle">信箱 A</text>
+<rect x="90" y="730" width="350" height="57" rx="8" fill="#e3efdb" stroke="#8ca2ae" stroke-width="2"/>
+<text x="265.0" y="766.5" font-size="23" text-anchor="middle">Q地址空间</text>
+<text x="265" y="817" font-size="20" text-anchor="middle">send(A,msg) / receive(A,&amp;msg)</text>
+<rect x="515" y="485" width="460" height="350" rx="12" fill="#fafcfd" stroke="#bac9d0"/>
+<text x="745" y="522" font-size="26" text-anchor="middle">② 消息进入中间实体</text>
+<rect x="570" y="550" width="350" height="57" rx="8" fill="#dcecf5" stroke="#8ca2ae" stroke-width="2"/>
+<text x="745.0" y="586.5" font-size="23" text-anchor="middle">P地址空间：msg</text>
+<rect x="570" y="640" width="350" height="57" rx="8" fill="#fff0dc" stroke="#8ca2ae" stroke-width="2"/>
+<text x="745.0" y="676.5" font-size="23" text-anchor="middle">信箱 A：msg</text>
+<rect x="570" y="730" width="350" height="57" rx="8" fill="#e3efdb" stroke="#8ca2ae" stroke-width="2"/>
+<text x="745.0" y="766.5" font-size="23" text-anchor="middle">Q地址空间</text>
+<path d="M745,609 L745,635" stroke="#526f80" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+<text x="745" y="817" font-size="20" text-anchor="middle">send(A,msg) / receive(A,&amp;msg)</text>
+<rect x="995" y="485" width="460" height="350" rx="12" fill="#fafcfd" stroke="#bac9d0"/>
+<text x="1225" y="522" font-size="26" text-anchor="middle">③ 接收后</text>
+<rect x="1050" y="550" width="350" height="57" rx="8" fill="#dcecf5" stroke="#8ca2ae" stroke-width="2"/>
+<text x="1225.0" y="586.5" font-size="23" text-anchor="middle">P地址空间：msg</text>
+<rect x="1050" y="640" width="350" height="57" rx="8" fill="#fff0dc" stroke="#8ca2ae" stroke-width="2"/>
+<text x="1225.0" y="676.5" font-size="23" text-anchor="middle">信箱 A</text>
+<rect x="1050" y="730" width="350" height="57" rx="8" fill="#e3efdb" stroke="#8ca2ae" stroke-width="2"/>
+<text x="1225.0" y="766.5" font-size="23" text-anchor="middle">Q地址空间：msg</text>
+<path d="M1225,699 L1225,725" stroke="#526f80" stroke-width="3" fill="none" marker-end="url(#arr)"/>
+<text x="1225" y="817" font-size="20" text-anchor="middle">send(A,msg) / receive(A,&amp;msg)</text>
+<text x="750" y="875" font-size="23" text-anchor="middle">msg 随发送进入消息队列或信箱，接收后交给 Q；空队列的等待语义取决于接口。</text>
+</g></svg>

@@ -1,0 +1,12 @@
+{
+  "chapter": "DS02",
+  "canonical_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44",
+  "test_source_sha256": "0eda3e2f615e0edd968221670cfc1f195356c6e4b7abac304a7ccdb219a014fc",
+  "compiler": "g++ C++11 -Wall -Wextra -Werror -fsanitize=address,undefined",
+  "compile_returncode": 0,
+  "run_returncode": 0,
+  "stdout": "DS02: static 30000 + linked 10000 random operations, 200 build/reverse/filter groups, all rotations n<100 + 100 textbook interactive head/tail builds passed\n",
+  "stderr": "",
+  "source": "actual displayed code in verification namespaces; array-input adapters and model oracles reside only in the harness",
+  "review_time_utc": "2026-10-27T00:27:56.788389+00:00"
+}

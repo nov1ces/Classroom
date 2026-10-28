@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1100" viewBox="0 0 1400 1100">
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 Z" fill="#466C82"/></marker></defs>
+<rect width="1400" height="1100" fill="white"/>
+<g font-family="Noto Sans CJK SC,sans-serif" fill="#243947">
+<text x="700" y="44" text-anchor="middle" font-size="31" font-weight="bold">统一接口分派到不同文件系统</text>
+<rect x="130" y="75" width="260" height="60" rx="9" fill="#eaf3f6" stroke="#7796a5" stroke-width="2"/>
+<text x="260.0" y="114.1" text-anchor="middle" font-size="26" font-weight="normal">用户进程 P1</text>
+<rect x="1010" y="75" width="260" height="60" rx="9" fill="#eaf3f6" stroke="#7796a5" stroke-width="2"/>
+<text x="1140.0" y="114.1" text-anchor="middle" font-size="26" font-weight="normal">用户进程 P2</text>
+<rect x="470" y="180" width="460" height="70" rx="9" fill="#edf6f1" stroke="#7796a5" stroke-width="2"/>
+<text x="700.0" y="224.1" text-anchor="middle" font-size="26" font-weight="normal">POSIX 接口：open(x, y, z)</text>
+<path d="M260 135 V 160 H 570 V180" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<path d="M1140 135 V 160 H 830 V180" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<rect x="500" y="290" width="400" height="75" rx="9" fill="#e3edf7" stroke="#7796a5" stroke-width="2"/>
+<text x="700.0" y="337.3" text-anchor="middle" font-size="28" font-weight="normal">虚拟文件系统 VFS</text>
+<path d="M700 250 V290" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<rect x="110" y="430" width="290" height="70" rx="9" fill="#fff3dc" stroke="#7796a5" stroke-width="2"/>
+<text x="255.0" y="474.1" text-anchor="middle" font-size="26" font-weight="normal">UFS 文件系统</text>
+<path d="M700 365 V 395 H 255 V 430" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<rect x="110" y="535" width="290" height="60" rx="9" fill="#f6f6f6" stroke="#7796a5" stroke-width="2"/>
+<text x="255.0" y="574.1" text-anchor="middle" font-size="26" font-weight="normal">磁盘</text>
+<path d="M255 500 V535" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<rect x="555" y="430" width="290" height="70" rx="9" fill="#fff3dc" stroke="#7796a5" stroke-width="2"/>
+<text x="700.0" y="474.1" text-anchor="middle" font-size="26" font-weight="normal">NTFS 文件系统</text>
+<path d="M700 365 V 395 H 700 V 430" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<rect x="555" y="535" width="290" height="60" rx="9" fill="#f6f6f6" stroke="#7796a5" stroke-width="2"/>
+<text x="700.0" y="574.1" text-anchor="middle" font-size="26" font-weight="normal">移动硬盘</text>
+<path d="M700 500 V535" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1000" y="430" width="290" height="70" rx="9" fill="#fff3dc" stroke="#7796a5" stroke-width="2"/>
+<text x="1145.0" y="474.1" text-anchor="middle" font-size="26" font-weight="normal">FAT 文件系统</text>
+<path d="M700 365 V 395 H 1145 V 430" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<rect x="1000" y="535" width="290" height="60" rx="9" fill="#f6f6f6" stroke="#7796a5" stroke-width="2"/>
+<text x="1145.0" y="574.1" text-anchor="middle" font-size="26" font-weight="normal">U盘</text>
+<path d="M1145 500 V535" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<text x="700" y="658" text-anchor="middle" font-size="27" font-weight="bold">打开文件：内存 vnode 分别指向对应的具体操作</text>
+<rect x="80" y="705" width="250" height="300" rx="9" fill="white" stroke="#7796a5" stroke-width="2"/>
+<text x="205.0" y="864.1" text-anchor="middle" font-size="26" font-weight="normal"></text>
+<text x="205" y="742" text-anchor="middle" font-size="23" font-weight="bold">vnode（内存）</text>
+<text x="205" y="782" text-anchor="middle" font-size="24" font-weight="normal">文件名</text>
+<text x="205" y="825" text-anchor="middle" font-size="24" font-weight="normal">文件大小</text>
+<text x="205" y="868" text-anchor="middle" font-size="24" font-weight="normal">创建者</text>
+<text x="205" y="911" text-anchor="middle" font-size="24" font-weight="normal">文件格式</text>
+<text x="205" y="954" text-anchor="middle" font-size="24" font-weight="normal">函数功能指针</text>
+<rect x="375" y="760" width="250" height="185" rx="9" fill="white" stroke="#7796a5" stroke-width="2"/>
+<text x="500.0" y="860.2" text-anchor="middle" font-size="22" font-weight="normal"></text>
+<text x="500" y="790" text-anchor="middle" font-size="22" font-weight="bold">UFS 操作表</text>
+<text x="500" y="830" text-anchor="middle" font-size="24" font-weight="normal">open</text>
+<text x="500" y="873" text-anchor="middle" font-size="24" font-weight="normal">read</text>
+<text x="500" y="916" text-anchor="middle" font-size="24" font-weight="normal">write</text>
+<path d="M330 932 H375" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<rect x="750" y="705" width="250" height="300" rx="9" fill="white" stroke="#7796a5" stroke-width="2"/>
+<text x="875.0" y="864.1" text-anchor="middle" font-size="26" font-weight="normal"></text>
+<text x="875" y="742" text-anchor="middle" font-size="23" font-weight="bold">vnode（内存）</text>
+<text x="875" y="782" text-anchor="middle" font-size="24" font-weight="normal">文件名</text>
+<text x="875" y="825" text-anchor="middle" font-size="24" font-weight="normal">文件大小</text>
+<text x="875" y="868" text-anchor="middle" font-size="24" font-weight="normal">创建者</text>
+<text x="875" y="911" text-anchor="middle" font-size="24" font-weight="normal">文件格式</text>
+<text x="875" y="954" text-anchor="middle" font-size="24" font-weight="normal">函数功能指针</text>
+<rect x="1045" y="760" width="250" height="185" rx="9" fill="white" stroke="#7796a5" stroke-width="2"/>
+<text x="1170.0" y="860.2" text-anchor="middle" font-size="22" font-weight="normal"></text>
+<text x="1170" y="790" text-anchor="middle" font-size="22" font-weight="bold">FAT 操作表</text>
+<text x="1170" y="830" text-anchor="middle" font-size="24" font-weight="normal">open</text>
+<text x="1170" y="873" text-anchor="middle" font-size="24" font-weight="normal">read</text>
+<text x="1170" y="916" text-anchor="middle" font-size="24" font-weight="normal">write</text>
+<path d="M1000 932 H1045" fill="none" stroke="#466C82" stroke-width="3" marker-end="url(#a)"/>
+<text x="700" y="1060" text-anchor="middle" font-size="23" font-weight="normal">挂载：登记文件系统信息和操作入口，将文件系统根关联到挂载点。</text>
+</g></svg>

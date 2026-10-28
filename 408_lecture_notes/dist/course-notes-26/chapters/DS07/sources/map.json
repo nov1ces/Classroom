@@ -1,0 +1,135 @@
+{
+  "id": "DS07",
+  "title": "查找",
+  "branches": [
+    {
+      "label": "查找对象与代价",
+      "children": [
+        "主关键字与次关键字",
+        "静态动态查找表",
+        "成功失败事件",
+        "概率与平均查找长度",
+        "比较次数及外存页数"
+      ],
+      "target": "DS07-01"
+    },
+    {
+      "label": "线性表上的查找",
+      "children": [
+        "无序及有序顺序查找",
+        "哨兵与失败边界",
+        "分块索引与块长",
+        "折半查找的闭区间",
+        "判定树与失败外部位置"
+      ],
+      "target": "DS07-02"
+    },
+    {
+      "label": "二叉搜索与平衡",
+      "children": [
+        "BST全部子树区间",
+        "查找插入删除",
+        "AVL平衡因子",
+        "LLRRLRRL旋转",
+        "红黑性质及黑高",
+        "红黑插入删除修复"
+      ],
+      "target": "DS07-04"
+    },
+    {
+      "label": "多路外存索引",
+      "children": [
+        "m阶B树容量",
+        "分裂借位合并",
+        "根升降与叶等深",
+        "B树高度界",
+        "B+树索引及叶链",
+        "点查范围与读盘次数"
+      ],
+      "target": "DS07-07"
+    },
+    {
+      "label": "散列查找",
+      "children": [
+        "散列函数构造",
+        "冲突及同义词",
+        "链地址法",
+        "开放定址探查序列",
+        "删除标记及重复判断",
+        "装填因子与ASL"
+      ],
+      "target": "DS07-09"
+    },
+    {
+      "label": "结构选择的条件",
+      "children": [
+        "有序与随机定位",
+        "动态更新及维护",
+        "平衡性与最坏保证",
+        "外存页分支数",
+        "等值与范围检索"
+      ],
+      "target": "DS07-10"
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.1 查找的基本概念.pdf",
+      "pages": [
+        9
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "查找对象与代价"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.2 折半查找.pdf",
+      "pages": [
+        43
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "线性表上的查找"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+      "pages": [
+        30
+      ],
+      "role": "slide_map",
+      "visual_checked": true,
+      "topic": "二叉搜索与平衡"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+      "pages": [
+        19
+      ],
+      "role": "slide_map",
+      "visual_checked": true,
+      "topic": "多路外存索引"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+      "pages": [
+        12
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "散列查找"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf",
+      "pages": [
+        22
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "结构选择的条件"
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "B树第19页是结构图及性质总结，非完整分支导图；按AVL第30页蓝色左根树状层级补绘多路索引分支。结构选择为跨节综合补绘，依据各结构成立条件，不额外添加未经证据支持的考频。"
+  ]
+}

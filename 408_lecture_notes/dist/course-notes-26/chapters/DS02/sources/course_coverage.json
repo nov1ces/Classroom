@@ -1,0 +1,407 @@
+{
+  "chapter": "DS02",
+  "primary_source": "王道【课件】数据结构基础考点讲解",
+  "mapping_granularity": "lesson/topic groups with exact file pages and stable target anchors; not a claim that each animation frame is an independent figure",
+  "lecture_files": [
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.1_线性表的定义和基本操作.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "topics": [
+        "同型有限序列、表长、位序",
+        "初始化销毁增删改查",
+        "引用参数与修改调用者"
+      ],
+      "targets": [
+        "DS02-01",
+        "DS02-code-seq",
+        "DS02-compare"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed.",
+      "visual_pages": [],
+      "presentation_handling": "Repeated headings, watermarks and promotional slides retained in source index, not treated as knowledge items."
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.1_顺序表的定义.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": [
+        "地址与元素宽度",
+        "SqList静态、SeqList动态",
+        "void初始化与扩容、容量表长、连续存储"
+      ],
+      "targets": [
+        "DS02-02",
+        "DS02-code-seq",
+        "DS02-dynamic"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed.",
+      "visual_pages": [
+        8,
+        9
+      ],
+      "presentation_handling": "Repeated headings, watermarks and promotional slides retained in source index, not treated as knowledge items."
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_1_顺序表的插入删除.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "topics": [
+        "位序下标映射",
+        "后移/前移方向、边界检查",
+        "平均移动n/2与(n-1)/2"
+      ],
+      "targets": [
+        "DS02-02",
+        "DS02-seq-update"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed.",
+      "visual_pages": [],
+      "presentation_handling": "Repeated headings, watermarks and promotional slides retained in source index, not treated as knowledge items."
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_2_顺序表的查找.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "topics": [
+        "GetElem/LocateElem接口",
+        "首次相等位序和失败0",
+        "随机访问、结构体比较与平均代价"
+      ],
+      "targets": [
+        "DS02-seq-query"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed.",
+      "visual_pages": [],
+      "presentation_handling": "Repeated headings, watermarks and promotional slides retained in source index, not treated as knowledge items."
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.1_单链表的定义.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "topics": [
+        "LNode和LinkList",
+        "头指针、头结点、首元",
+        "带头与不带头空状态"
+      ],
+      "targets": [
+        "DS02-03",
+        "DS02-code-link",
+        "DS02-nohead"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed.",
+      "visual_pages": [],
+      "presentation_handling": "Repeated headings, watermarks and promotional slides retained in source index, not treated as knowledge items."
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_1_单链表的插入删除.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26
+      ],
+      "topics": [
+        "指定前驱后插与按位插入",
+        "指定结点前插复制法的身份条件",
+        "按位删除和复制后继删除的尾结点例外"
+      ],
+      "targets": [
+        "DS02-03",
+        "DS02-link-update",
+        "DS02-nohead"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed.",
+      "visual_pages": [],
+      "presentation_handling": "Repeated headings, watermarks and promotional slides retained in source index, not treated as knowledge items."
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_2_单链表的查找.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "topics": [
+        "GetElem允许i=0返回头结点",
+        "LocateElem与表长遍历",
+        "边界与定位成本"
+      ],
+      "targets": [
+        "DS02-code-link",
+        "DS02-link-update"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed.",
+      "visual_pages": [],
+      "presentation_handling": "Repeated headings, watermarks and promotional slides retained in source index, not treated as knowledge items."
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_3_单链表的建立.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "topics": [
+        "List_HeadInsert/List_TailInsert",
+        "9999输入终止、尾指针不变量",
+        "头插逆序与原地逆置"
+      ],
+      "targets": [
+        "DS02-build",
+        "DS02-detail1"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed.",
+      "visual_pages": [],
+      "presentation_handling": "Repeated headings, watermarks and promotional slides retained in source index, not treated as knowledge items."
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.3_双链表.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "topics": [
+        "prior/next定义",
+        "四条插入链接与删除后继",
+        "非循环链尾与遍历方向"
+      ],
+      "targets": [
+        "DS02-04",
+        "DS02-double-code",
+        "DS02-ex3"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed.",
+      "visual_pages": [],
+      "presentation_handling": "Repeated headings, watermarks and promotional slides retained in source index, not treated as knowledge items."
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.4_循环链表.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": [
+        "单向/双向循环空状态",
+        "尾指针与首尾联系",
+        "循环终止和插入删除边界"
+      ],
+      "targets": [
+        "DS02-04",
+        "DS02-double-code"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed.",
+      "visual_pages": [],
+      "presentation_handling": "Repeated headings, watermarks and promotional slides retained in source index, not treated as knowledge items."
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.5_静态链表.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "topics": [
+        "游标与物理数组位置",
+        "头0、链尾-1、空闲-2",
+        "课件e1-e4具体布局和地址"
+      ],
+      "targets": [
+        "DS02-double-code"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed.",
+      "visual_pages": [],
+      "presentation_handling": "Repeated headings, watermarks and promotional slides retained in source index, not treated as knowledge items."
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.6_顺序表和链表的比较.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": [
+        "逻辑相同与表示不同",
+        "创销、增删、按位/按值查找",
+        "容量预测、存储密度和局部性"
+      ],
+      "targets": [
+        "DS02-compare",
+        "DS02-02"
+      ],
+      "verification": "All file-page extracted text read after consolidating repeated animation text; numeric/code checks are separately recorded. Source visual inspection is limited to visual_pages, not a claim of all source images reviewed.",
+      "visual_pages": [],
+      "presentation_handling": "Repeated headings, watermarks and promotional slides retained in source index, not treated as knowledge items."
+    }
+  ],
+  "figures": [
+    {
+      "id": "DS02_dynamic_growth",
+      "targets": [
+        "DS02-dynamic"
+      ],
+      "status": "editable redrawing or checked reusable project vector",
+      "visual_review": "pending final PDF review"
+    },
+    {
+      "id": "DS_01_list_insert",
+      "targets": [
+        "DS02-03"
+      ],
+      "status": "editable redrawing or checked reusable project vector",
+      "visual_review": "pending final PDF review"
+    },
+    {
+      "id": "DS_02_shared_suffix",
+      "targets": [
+        "DS02-ex5"
+      ],
+      "status": "editable redrawing or checked reusable project vector",
+      "visual_review": "pending final PDF review"
+    },
+    {
+      "id": "DS02_build_order",
+      "targets": [
+        "DS02-build"
+      ],
+      "status": "editable redrawing or checked reusable project vector",
+      "visual_review": "pending final PDF review"
+    },
+    {
+      "id": "DS02_double_and_cycles",
+      "targets": [
+        "DS02-double-code"
+      ],
+      "status": "editable redrawing or checked reusable project vector",
+      "visual_review": "pending final PDF review"
+    }
+  ],
+  "unresolved": [],
+  "updated_utc": "2026-10-27T00:29:47.399758+00:00"
+}

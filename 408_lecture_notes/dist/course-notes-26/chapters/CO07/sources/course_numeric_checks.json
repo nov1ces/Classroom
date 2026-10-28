@@ -1,0 +1,55 @@
+{
+  "chapter": "CO07",
+  "status": "passed",
+  "method": "independent integer/fraction/IEEE and register-state calculations",
+  "checks": [
+    {
+      "case": "定时查询CPU百分比",
+      "actual": "1/5",
+      "expected": "1/5",
+      "passed": true
+    },
+    {
+      "case": "中断100ns每400nsCPU比例",
+      "actual": "1/4",
+      "expected": "1/4",
+      "passed": true
+    },
+    {
+      "case": "512B32bitDMA次数",
+      "actual": "128",
+      "expected": "128",
+      "passed": true
+    },
+    {
+      "case": "2MB设备最长查询秒",
+      "actual": "1/500000",
+      "expected": "1/500000",
+      "passed": true
+    },
+    {
+      "case": "查询设备A CPU预算",
+      "actual": "1/25",
+      "expected": "1/25",
+      "passed": true
+    },
+    {
+      "case": "40MB设备中断CPU预算",
+      "actual": "8",
+      "expected": "8",
+      "passed": true
+    },
+    {
+      "case": "40MB设备DMA CPU预算",
+      "actual": "1/25",
+      "expected": "1/25",
+      "passed": true
+    },
+    {
+      "case": "1000字符完整启动排空周期",
+      "actual": "25070020",
+      "expected": "25070020",
+      "passed": true
+    }
+  ]
+}

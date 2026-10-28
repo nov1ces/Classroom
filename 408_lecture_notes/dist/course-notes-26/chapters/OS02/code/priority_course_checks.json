@@ -1,0 +1,58 @@
+{
+  "model": "higher numeric priority; ties by ready-queue entry order; arrivals at integer times; no switch overhead",
+  "non_preemptive": [
+    [
+      "P1",
+      0,
+      7
+    ],
+    [
+      "P3",
+      7,
+      8
+    ],
+    [
+      "P2",
+      8,
+      12
+    ],
+    [
+      "P4",
+      12,
+      16
+    ]
+  ],
+  "preemptive": [
+    [
+      "P1",
+      0,
+      2
+    ],
+    [
+      "P2",
+      2,
+      4
+    ],
+    [
+      "P3",
+      4,
+      5
+    ],
+    [
+      "P2",
+      5,
+      7
+    ],
+    [
+      "P4",
+      7,
+      11
+    ],
+    [
+      "P1",
+      11,
+      16
+    ]
+  ],
+  "result": "passed"
+}

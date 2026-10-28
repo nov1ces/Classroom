@@ -1,0 +1,3462 @@
+{
+  "pandoc-api-version": [
+    1,
+    23,
+    1
+  ],
+  "meta": {},
+  "blocks": [
+    {
+      "t": "Header",
+      "c": [
+        1,
+        [
+          "DS04",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "串"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\textbf{章节脉络}\\par\\smallskip\n\\begin{wideblock}\\centering\\includegraphics[width=\\linewidth,height=92mm,keepaspectratio]{figures/overview.pdf}\\end{wideblock}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "串把字符序列作为一个整体处理。学习本章要同时分清三个问题：逻辑上哪些字符属于串，存储时怎样记录字符与长度，匹配时怎样利用已经比较过的信息。本章代码采用王道的顺序串表示：字符从位置1开始，"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{ch[\\allowbreak{}0]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "弃用，"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{length}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "另存串长；位置和匹配结果均按这一约定解释。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS04-01",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "字符串、子串与基本操作"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "串"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "是由零个或多个字符组成的有限序列，记为"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "S='a_1a_2\\cdots a_n'"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "n"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "为串长。"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "n=0"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "的是空串。一个或多个空格构成空格串，它含有字符，长度大于0。串中的字符可以是字母、数字、标点或其他编码字符；具体程序必须约定一个存储单元表示什么，本章算法以一个"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{char}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "为一个比较单位。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "串中任意"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "连续"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "字符组成的子序列称为子串，包含该子串的串称为主串。子串在主串中的位置用其第一个字符的位置表示；同一值可能多次出现，例如"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{ababa}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "中的"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{aba}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "从位置1和3开始。模式串是要查找的串，它可能不存在于主串中；不能先把“模式串”当成已找到的子串。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "两个串相等，当且仅当长度相同且每个对应字符都相同。串的大小比较采用字典序：从前向后找第一对不同字符，按约定的字符编码次序决定大小；若一方先结束且已比较部分全相同，较短串较小。例如"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{wang}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "小于"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{wangdao}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；比较串的大小不是比较串长，也不是将整个串当成十进制数。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "串属于线性结构，但串的基本操作通常以一个串或子串作为处理对象，而普通线性表常以单个数据元素为对象。赋值、比较、连接、取子串、替换与定位是不同运算，输入输出和修改对象应写清。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{wideblock}"
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\\fontsize{9.3}{12}\\selectfont\\begin{tabularx}{\\linewidth}{@{}YYY@{}}\n\\toprule\\noalign{}\n\\begin{minipage}[b]{\\linewidth}\\raggedright\n操作\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedright\n语义与结果\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedright\n需要检查的条件\n\\end{minipage} \\\\\n\\midrule\\noalign{}\n\n\n\\texttt{StrAssign(\\allowbreak{}T,\\allowbreak{}chars)\\allowbreak{}} & 将字符序列赋给T & 目标容量、字符数 \\\\\n\\texttt{StrCopy(\\allowbreak{}T,\\allowbreak{}S)\\allowbreak{}} & 用S的值复制得到T & 独立复制还是共享存储 \\\\\n\\texttt{StrEmpty(\\allowbreak{}S)\\allowbreak{}}、\\texttt{StrLength(\\allowbreak{}S)\\allowbreak{}} & 判空、取得串长 & 空串的length为0 \\\\\n\\texttt{ClearString(\\allowbreak{}S)\\allowbreak{}} & 使S成为空串 & 顺序串清空不必释放固定数组 \\\\\n\\texttt{DestroyString(\\allowbreak{}S)\\allowbreak{}} & 销毁并回收动态存储 & 堆串与定长串的资源行为不同 \\\\\n\\texttt{Concat(\\allowbreak{}T,\\allowbreak{}S1,\\allowbreak{}S2)\\allowbreak{}} & 按先后连接两串得到T & 长度之和能否容纳 \\\\\n\\texttt{SubString(\\allowbreak{}Sub,\\allowbreak{}S,\\allowbreak{}pos,\\allowbreak{}len)\\allowbreak{}} & 取位置pos起、长度len的子串 & 起点、长度及末位置合法 \\\\\n\\bottomrule\\end{tabularx}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\\fontsize{9.3}{12}\\selectfont\\begin{tabularx}{\\linewidth}{@{}YYY@{}}\n\\toprule\\noalign{}\n\\begin{minipage}[b]{\\linewidth}\\raggedright\n操作\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedright\n语义与结果\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedright\n需要检查的条件\n\\end{minipage} \\\\\n\\midrule\\noalign{}\n\n\n\\texttt{StrCompare(\\allowbreak{}S,\\allowbreak{}T)\\allowbreak{}} & 返回正、零或负值表示大小关系 & 字符编码比较规则 \\\\\n\\texttt{Index(\\allowbreak{}S,\\allowbreak{}T)\\allowbreak{}} & 返回T在S中第一次出现的位置 & 本章失败返回0 \\\\\n\\bottomrule\\end{tabularx}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{wideblock}"
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS04-bound",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "子串的起点和长度怎样约束"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "设"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "S"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "长"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "n"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，取非空子串时须满足"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "1\\le pos\\le n"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "、"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "len>0"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "及"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "pos+len-1\\le n"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。若允许空子串，可将条件扩展为"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "1\\le pos\\le n+1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "、"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "len\\ge0"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "及"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "pos+len-1\\le n"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；这时"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "n+1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "只允许取长度0的串。接口采用哪种边界应明确约定。本章给出的"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{SubString}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "允许后一种情况；模式匹配的主体分析采用非空模式，空模式在调用入口约定返回位置1。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS04-storage",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "顺序串、堆串与链串"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "定长顺序存储用连续字符数组保存串，串长由独立成员表示。教材结构以"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{MAXLEN}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "指定数组单元数。结合本章位置0弃用的约定，可直接访问的字符位置是"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{1.\\allowbreak{}.\\allowbreak{}MAXLEN-1}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，所以实现时维持"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{0<\\allowbreak{}=\\allowbreak{}length<\\allowbreak{}MAXLEN}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。若软件接口要求可保存整整MAXLEN个字符，则需要额外分配一个单元，并同步声明容量约定。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\n\\begin{codeblock}[language=C++]\n#define MAXLEN 255\ntypedef struct {\n    char ch[MAXLEN];\n    int length;\n} SString;\n\\end{codeblock}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "固定数组的容量有限。清空只需令"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{length=\\allowbreak{}0}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，旧字符即使仍留在数组中，也不再属于有效串。显式记录长度时无需用"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{'\\textbackslash{}0'}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "作结束标志；若把这种串传给要求C字符串的库函数，必须额外转换表示，不能直接把"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{ch}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "作为同一种接口使用。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "教材式顺序串存在不同布局：用"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{ch[\\allowbreak{}0]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "记录长度、从位置1保存字符；另设长度而从位置0保存字符；以"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{'\\textbackslash{}0'}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "结束；另设长度且字符从1开始。本章统一采用最后一种。第一种还受长度单元可表示范围限制；结束符方式需要扫描才能求长，并将结束符与有效字符区分。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "堆分配存储"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "用指针指向动态申请的连续区，常见定义为："
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\n\\begin{codeblock}[language=C++]\ntypedef struct {\n    char *ch;\n    int length;\n} HString;\n\\end{codeblock}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "动态分配能按实际需要调整空间，代价是要管理申请、复制、释放和失败情形。赋值一个指针只复制地址，不能自动得到独立字符副本。长度改变且容量不足时，应先申请新空间，成功后搬移并释放旧区，避免申请失败后丢失原串。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "链式存储"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "可以每结点存一个字符，也可以每结点保存多个字符形成串块。若每字符1字节而指针4字节，单字符结点只计数据与链接时，存储密度为"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "1/(1+4)=20\\%"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；一个结点存4字符时可提升至"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "4/(4+4)=50\\%"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。实际平台指针宽度和结构体对齐还会改变字节数。块结点末尾的填充符与真实字符应靠长度或其他约定区分。"
+        }
+      ]
+    },
+    {
+      "t": "Figure",
+      "c": [
+        [
+          "ds04-fig-storage",
+          [],
+          []
+        ],
+        [
+          null,
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "顺序串的1起始字符位置与链块串的链接关系"
+                }
+              ]
+            }
+          ]
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Image",
+                "c": [
+                  [
+                    "",
+                    [],
+                    [
+                      [
+                        "width",
+                        "100%"
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "t": "Str",
+                      "c": "顺序串的1起始字符位置与链块串的链接关系"
+                    }
+                  ],
+                  [
+                    "figures/DS04_string_layout.pdf",
+                    ""
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS04-basic-code",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "基本操作怎样落实到代码"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{SubString}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "先检查范围，再从主串复制；失败时保留输出串原值。按固定数组模型，最多复制"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{len}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "个字符，时间"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "O(len)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，除返回结果外只用常数个工作变量。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\n\\BlueLines{2,4,8}\n\\begin{codeblock}[language=C++]\nbool SubString(SString &Sub, SString S, int pos, int len) {\n    if (pos < 1 || pos > S.length + 1 || len < 0 ||\n        len > S.length - pos + 1)\n        return false;\n    for (int i = pos; i < pos + len; ++i)\n        Sub.ch[i - pos + 1] = S.ch[i];\n    Sub.length = len;\n    return true;\n}\nint StrCompare(SString S, SString T) {\n    for (int i = 1; i <= S.length && i <= T.length; ++i)\n        if (S.ch[i] != T.ch[i])\n            return (unsigned char)S.ch[i] -\n                   (unsigned char)T.ch[i];\n    return S.length - T.length;\n}\n\\end{codeblock}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "比较的时间由第一次不同的位置决定，最坏"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "O(\\min(n,m))"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。返回值只要求正、零、负正确；不能把“返回正值”误背成“必须返回1”。转为"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{unsigned char}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "后比较，可以避免某些实现中"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{char}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "有符号导致高位编码被当作负数。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "连接先检查总长，再分别复制两段。若接口允许输出与输入是同一个对象，需要按实现检查覆盖问题；下例按值接收定长顺序串，输入副本使"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{Concat(\\allowbreak{}S,\\allowbreak{}S,\\allowbreak{}T)\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "仍能读取原来的S。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\n\\BlueLines{2,8}\n\\begin{codeblock}[language=C++]\nbool Concat(SString &T, SString S1, SString S2) {\n    if (S1.length + S2.length >= MAXLEN) return false;\n    for (int i = 1; i <= S1.length; ++i)\n        T.ch[i] = S1.ch[i];\n    for (int i = 1; i <= S2.length; ++i)\n        T.ch[S1.length + i] = S2.ch[i];\n    T.length = S1.length + S2.length;\n    return true;\n}\n\\end{codeblock}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "若用字符串基本操作描述朴素定位，可以依次取长度"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "m"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "的子串，再用"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{StrCompare}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "比较。非空模式最多有"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "n-m+1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "个候选起点；模式长于主串时没有候选。下面改用字符位置直接实现，能更清楚地看到回溯和字符比较次数。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS04-02",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "朴素匹配：失败后移到下一个起点"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "令"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{i}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "指主串当前比较字符，"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{j}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "指模式当前比较字符，二者都从1开始。相等时同时递增；不等时，已经比较的模式前缀长为"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "j-1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，本轮起点是"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i-j+1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，下一个起点是"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i-j+2"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，因此执行"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{i=\\allowbreak{}i-j+\\allowbreak{}2;\\allowbreak{} j=\\allowbreak{}1;\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\n\\BlueLines{2,4,5}\n\\begin{codeblock}[language=C++]\nint Index(SString S, SString T) {\n    if (T.length == 0) return 1;\n    int i = 1, j = 1;\n    while (i <= S.length && j <= T.length) {\n        if (S.ch[i] == T.ch[j]) {\n            ++i; ++j;\n        } else {\n            i = i - j + 2;\n            j = 1;\n        }\n    }\n    if (j > T.length) return i - T.length;\n    return 0;\n}\n\\end{codeblock}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "成功时，"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{j=\\allowbreak{}m+\\allowbreak{}1}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{i}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "已越过匹配段，起点为"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i-m"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。主串先耗尽而模式仍未完成时失败，返回0。失败值0与合法位置1区分，不应改用另一个接口的"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{-1}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS04-naive-example",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "例：按课件主串逐次尝试"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "主串"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{S=\\allowbreak{}abaabaabcabaabc}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，模式"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{T=\\allowbreak{}abaabc}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。起点1处前5字符相同，第6字符"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{a}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "与"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{c}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "失配；起点2的"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{b}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "与模式首字符"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{a}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "失配；起点3先比较一个"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{a}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，下一字符"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{a}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "与"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{b}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "失配；起点4的6个字符全部相等，第一次成功位置为4。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\\fontsize{9.3}{12}\\selectfont\\begin{tabularx}{\\linewidth}{@{}YYY@{}}\n\\toprule\\noalign{}\n尝试起点 & 本轮字符比较次数 & 结果 \\\\\n\\midrule\\noalign{}\n\n\n1 & 6 & 第6对失配 \\\\\n2 & 1 & 第1对失配 \\\\\n3 & 2 & 第2对失配 \\\\\n4 & 6 & 全部匹配 \\\\\n\\bottomrule\\end{tabularx}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "合计15次字符比较。这个总数属于这一组数据，不能当作算法的一般复杂度。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "最坏情形如主串前部有大量"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{a}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "、模式为"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{aaaab}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "：每个起点都在接近末尾处失败，时间为"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "O((n-m+1)m)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，通常简记"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "O(nm)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。若首起点就完全匹配，则只比较"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "m"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "次；讨论最好情况时须说明是否保证成功及是否把建表等准备工作计入。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS04-03",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "KMP：利用已相等部分决定回退"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "设在位置"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i,j"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "失配。此前有"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "DisplayMath"
+            },
+            "S[i-j+1..i-1]=T[1..j-1]."
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "这段主串已经被证明等于模式前缀。模式右移后仍能保留的部分，必须同时是"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "T[1..j-1]"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "的真后缀和模式的真前缀。设最长相等真前后缀长为"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "k"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，那么前"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "k"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "字符无需再比较，下一次应将模式位置"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "k+1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "与同一个主串字符比较。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "因此，对"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "j>1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "定义"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "DisplayMath"
+            },
+            "next[j]=1+\\text{串 }T[1..j-1]\\text{ 的最长相等真前后缀长度},"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "并定义"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "next[1]=0"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{next[\\allowbreak{}j]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "保存的是"
+        },
+        {
+          "t": "Strong",
+          "c": [
+            {
+              "t": "Str",
+              "c": "下次比较的位置"
+            }
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，不是直接保存前后缀长度。值0是首字符失配后的特殊状态：下一轮同时令"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{i}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "和"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{j}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "递增，主串进入下一字符，模式恢复到位置1。"
+        }
+      ]
+    },
+    {
+      "t": "Figure",
+      "c": [
+        [
+          "ds04-fig-kmp",
+          [],
+          []
+        ],
+        [
+          null,
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "abaabc在第6位置失配后，已匹配段的后缀ab与模式前缀ab对齐，j由6退到3"
+                }
+              ]
+            }
+          ]
+        ],
+        [
+          {
+            "t": "Plain",
+            "c": [
+              {
+                "t": "Image",
+                "c": [
+                  [
+                    "",
+                    [],
+                    [
+                      [
+                        "width",
+                        "100%"
+                      ]
+                    ]
+                  ],
+                  [
+                    {
+                      "t": "Str",
+                      "c": "abaabc在第6位置失配后，已匹配段的后缀ab与模式前缀ab对齐，j由6退到3"
+                    }
+                  ],
+                  [
+                    "figures/DS04_kmp_1based.pdf",
+                    ""
+                  ]
+                ]
+              }
+            ]
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "模式"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{abaabc}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "的普通next为："
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{wideblock}\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\\fontsize{9.3}{12}\\selectfont\\begin{tabularx}{\\linewidth}{@{}YYYYYYY@{}}\n\\toprule\\noalign{}\n位置j & 1 & 2 & 3 & 4 & 5 & 6 \\\\\n\\midrule\\noalign{}\n\n\nT.ch{[}j{]} & a & b & a & a & b & c \\\\\nj之前的串 & 空 & a & ab & aba & abaa & abaab \\\\\n最长相等真前后缀长 & 特殊 & 0 & 0 & 1 & 1 & 2 \\\\\nnext{[}j{]} & 0 & 1 & 1 & 2 & 2 & 3 \\\\\n\\bottomrule\\end{tabularx}\n\\end{minipage}\\par\\medskip\\end{wideblock}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "例如"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "j=6"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "前的串是"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{abaab}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，最长相等真前后缀为"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{ab}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，长2，所以"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{next[\\allowbreak{}6]\\allowbreak{}=\\allowbreak{}3}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。当第6字符失配时，只改变"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{j}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "到3，"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{i}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "不变；不是把模式移到主串位置3。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\n\\BlueLines{2,4,5}\n\\begin{codeblock}[language=C++]\nint Index_KMP(SString S, SString T, int next[]) {\n    if (T.length == 0) return 1;\n    int i = 1, j = 1;\n    while (i <= S.length && j <= T.length) {\n        if (j == 0 || S.ch[i] == T.ch[j]) {\n            ++i;\n            ++j;\n        } else {\n            j = next[j];\n        }\n    }\n    if (j > T.length) return i - T.length;\n    return 0;\n}\n\\end{codeblock}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "短路求值使"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{j=\\allowbreak{}=\\allowbreak{}0}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "时不访问"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{T.\\allowbreak{}ch[\\allowbreak{}0]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。模式在逻辑上右移，主串指针单调递增；同一个主串字符仍可能与多个模式位置比较，所以不能将KMP解释成“每个主串字符恰好比较一次”。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS04-kmp-example",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "例：同一主串上的KMP轨迹"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "仍取"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{S=\\allowbreak{}abaabaabcabaabc}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "、"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{T=\\allowbreak{}abaabc}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。先比较位置"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "(1,1)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "至"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "(5,5)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "成功，在"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "(6,6)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "失配。由"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{next[\\allowbreak{}6]\\allowbreak{}=\\allowbreak{}3}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，下一次比较"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "(6,3)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，主串位置6的"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{a}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "等于模式位置3的"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{a}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；随后比较"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "(7,4)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "、"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "(8,5)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "、"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "(9,6)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "都成功。此时"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{i=\\allowbreak{}10,\\allowbreak{}j=\\allowbreak{}7}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，返回"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "10-6=4"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{wideblock}\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\\fontsize{9.3}{12}\\selectfont\\begin{tabularx}{\\linewidth}{@{}YYYY@{}}\n\\toprule\\noalign{}\n阶段 & 主串位置i & 模式位置j & 操作 \\\\\n\\midrule\\noalign{}\n\n\n已有5字符相等 & 6 & 6 & a与c失配 \\\\\n查next & 6 & 3 & 主串位置不变 \\\\\n继续比较 & 6、7、8、9 & 3、4、5、6 & 连续4对相等 \\\\\n完成 & 10 & 7 & 返回位置4 \\\\\n\\bottomrule\\end{tabularx}\n\\end{minipage}\\par\\medskip\\end{wideblock}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "本例普通KMP共比较10次字符，少于朴素的15次；判断"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{j=\\allowbreak{}=\\allowbreak{}0}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "不算一对字符比较。另一课件主串"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{abaacaabcabaabc}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "会产生连续回退：在"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i=5,j=5"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "失配后"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "j=2"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，仍失配再退"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "j=1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，再失配退"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "j=0"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；此后推进主串到"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "i=6,j=1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。连续回退只查表，不让主串后退。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS04-next",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "怎样在线性时间内求next"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "求表也可看成模式串与自身前缀的匹配。设正在求"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{next[\\allowbreak{}i+\\allowbreak{}1]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，已知"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{next[\\allowbreak{}i]\\allowbreak{}=\\allowbreak{}j}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。若"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{j=\\allowbreak{}=\\allowbreak{}0}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "或"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{T.\\allowbreak{}ch[\\allowbreak{}i]\\allowbreak{}=\\allowbreak{}=\\allowbreak{}T.\\allowbreak{}ch[\\allowbreak{}j]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，当前相等前后缀可扩展一字符，故"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{next[\\allowbreak{}i+\\allowbreak{}1]\\allowbreak{}=\\allowbreak{}j+\\allowbreak{}1}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；否则先尝试更短的候选边界，令"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{j=\\allowbreak{}next[\\allowbreak{}j]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\n\\BlueLines{2,5,6}\n\\begin{codeblock}[language=C++]\nvoid get_next(SString T, int next[]) {\n    if (T.length == 0) return;\n    int i = 1, j = 0;\n    next[1] = 0;\n    while (i < T.length) {\n        if (j == 0 || T.ch[i] == T.ch[j]) {\n            ++i; ++j;\n            next[i] = j;\n        } else {\n            j = next[j];\n        }\n    }\n}\n\\end{codeblock}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "这里的"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{i}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "是模式串内部的工作位置，与匹配函数的主串工作位置作用不同。"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{while(\\allowbreak{}i<\\allowbreak{}T.\\allowbreak{}length)\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "保证递增后最多写到"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{next[\\allowbreak{}T.\\allowbreak{}length]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。若使用另一种定义而把"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{next}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "记成前缀函数，表值和匹配代码就必须一起换；本章始终使用教材的下一比较位置定义。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS04-next-practice",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "三组课件手算练习"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\\fontsize{9.3}{12}\\selectfont\\begin{tabularx}{\\linewidth}{@{}YYY@{}}\n\\toprule\\noalign{}\n模式串 & 位置 & 普通next \\\\\n\\midrule\\noalign{}\n\n\ngoogle & 1、2、3、4、5、6 & 0、1、1、1、2、1 \\\\\nababaa & 1、2、3、4、5、6 & 0、1、1、2、3、4 \\\\\naaaab & 1、2、3、4、5 & 0、1、2、3、4 \\\\\n\\bottomrule\\end{tabularx}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{google}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "在位置5前的"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{goog}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "有长度1的相等真前后缀"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{g}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，所以"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{next[\\allowbreak{}5]\\allowbreak{}=\\allowbreak{}2}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；位置6前的"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{googl}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "没有非空相等真前后缀，因此"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{next[\\allowbreak{}6]\\allowbreak{}=\\allowbreak{}1}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{ababaa}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "在位置6前的"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{ababa}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "有最长边界"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{aba}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，所以"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{next[\\allowbreak{}6]\\allowbreak{}=\\allowbreak{}4}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{aaaab}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "每个待考察前缀都是一串"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{a}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，其最长真边界只比它本身短1。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "课件主串"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{googlogoogoogle}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "、模式"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{google}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "的匹配过程会反复利用这些边界，第一次成功位置为10。手算时先列主串和模式的位置行，再记录每一次失配后的"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{j}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，比仅画模式移动的外形更容易核对。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS04-nextval",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "nextval怎样跳过必然失败的比较"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "若当前"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{S.\\allowbreak{}ch[\\allowbreak{}i]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "与"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{T.\\allowbreak{}ch[\\allowbreak{}j]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "已失配，而"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{T.\\allowbreak{}ch[\\allowbreak{}next[\\allowbreak{}j]\\allowbreak{}]\\allowbreak{}=\\allowbreak{}=\\allowbreak{}T.\\allowbreak{}ch[\\allowbreak{}j]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，同一个主串字符与回退位置的字符也一定失配。可以继续沿失败链接，直接寻找字符不同的候选位置；把最终位置记为"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{nextval[\\allowbreak{}j]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "由普通next求优化表时，先令"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "nextval[1]=0"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。为简化公式，记"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "T[j]=T.ch[j]"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，对"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "j\\ge2"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "有："
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "DisplayMath"
+            },
+            "nextval[j]=\\begin{cases}\nnext[j],&T[j]\\ne T[next[j]],\\\\\nnextval[next[j]],&T[j]=T[next[j]].\n\\end{cases}"
+          ]
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "对"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "j\\ge2"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，普通"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{next[\\allowbreak{}j]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "至少为1，所以该式不访问"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{T.\\allowbreak{}ch[\\allowbreak{}0]\\allowbreak{}}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{nextval}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "使用已确认的失配信息，省去必定失败的比较，不改变匹配结果。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\\fontsize{9.3}{12}\\selectfont\\begin{tabularx}{\\linewidth}{@{}YYY@{}}\n\\toprule\\noalign{}\n模式串 & 普通next & 优化nextval \\\\\n\\midrule\\noalign{}\n\n\nabaabc & 0、1、1、2、2、3 & 0、1、0、2、1、3 \\\\\nababaa & 0、1、1、2、3、4 & 0、1、0、1、0、4 \\\\\naaaab & 0、1、2、3、4 & 0、0、0、0、4 \\\\\n\\bottomrule\\end{tabularx}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "例如"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{abaabc}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "的"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "j=3"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "字符为"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{a}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，而"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{next[\\allowbreak{}3]\\allowbreak{}=\\allowbreak{}1}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "也指向"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{a}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，故"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{nextval[\\allowbreak{}3]\\allowbreak{}=\\allowbreak{}nextval[\\allowbreak{}1]\\allowbreak{}=\\allowbreak{}0}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "；"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "j=5"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "是"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{b}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，普通回退到2仍为"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{b}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，故"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{nextval[\\allowbreak{}5]\\allowbreak{}=\\allowbreak{}nextval[\\allowbreak{}2]\\allowbreak{}=\\allowbreak{}1}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\n\\BlueLines{2,5,6}\n\\begin{codeblock}[language=C++]\nvoid get_nextval(SString T, int nextval[]) {\n    if (T.length == 0) return;\n    int i = 1, j = 0;\n    nextval[1] = 0;\n    while (i < T.length) {\n        if (j == 0 || T.ch[i] == T.ch[j]) {\n            ++i; ++j;\n            if (T.ch[i] != T.ch[j])\n                nextval[i] = j;\n            else\n                nextval[i] = nextval[j];\n        } else {\n            j = nextval[j];\n        }\n    }\n}\n\\end{codeblock}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "将"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{nextval}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "作为"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{Index\\_KMP}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "的第三个实参即可使用优化表，匹配循环不变。普通next与优化nextval的具体比较次数可以不同，算题前先确认题目采用哪一张表。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS04-opt-example",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "例：重复字符使优化效果更明显"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "主串"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{aaacaaaabdaaaab}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，模式"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{aaaab}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。普通next在主串位置4的"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{c}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "处，会依次与模式位置4、3、2、1的"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{a}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "失配；优化表在位置4第一次失配后直接退到0，跳过另外三次注定失败的比较。之后从主串位置5开始匹配，位置5至9恰为"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{aaaab}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，故返回5。普通next共比较12次，nextval共比较9次。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS04-analysis",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "正确性、代价和容易混淆的边界"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "KMP正确性的关键是：每一次跳过的对齐位置都被已经相等的前缀与后缀关系排除。模式右移后还能与旧匹配段重合的部分必须是一个边界；先尝试最长边界，失败后沿next链尝试更短边界，因此不遗漏仍可能成功的起点。"
+        }
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "建表过程中，"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{i}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "最多递增"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "m-1"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "次；回退使"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{j}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "减小，而"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{j}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "的总增量受"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{i}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "的推进限制，故总工作"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "O(m)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。匹配中，主串指针"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{i}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "最多递增"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "n"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "次，每次成功比较使"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{j}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "增加，每次失败回退使"
+        },
+        {
+          "t": "RawInline",
+          "c": [
+            "latex",
+            "\\texttt{j}"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "减少；累积回退量仍受此前的推进约束，因此匹配扫描为"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "O(n)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。总时间"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "O(n+m)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "，next数组辅助空间"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "O(m)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。只有“已给next”的匹配阶段才可单独记为"
+        },
+        {
+          "t": "Math",
+          "c": [
+            {
+              "t": "InlineMath"
+            },
+            "O(n)"
+          ]
+        },
+        {
+          "t": "Str",
+          "c": "。"
+        }
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\begin{wideblock}"
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\par\\medskip\\noindent\\begin{minipage}{\\linewidth}\\fontsize{9.3}{12}\\selectfont\\begin{tabularx}{\\linewidth}{@{}YYY@{}}\n\\toprule\\noalign{}\n\\begin{minipage}[b]{\\linewidth}\\raggedright\n问题\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedright\n本章约定或结论\n\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedright\n易混点\n\\end{minipage} \\\\\n\\midrule\\noalign{}\n\n\n字符起始位置 & 1 & 与C数组常见0起始分别说明 \\\\\n匹配失败 & 返回0 & 0不是合法非空匹配起点 \\\\\n\\texttt{next[\\allowbreak{}j]\\allowbreak{}} & 下一次比较的模式位置 & 等于边界长度加1，而非直接等于边界长度 \\\\\n\\texttt{j=\\allowbreak{}=\\allowbreak{}0} & 下轮推进主串并恢复j=1 & 不是读取第0个字符 \\\\\n字符比较次数 & 实际执行的字符相等判断 & \\texttt{j=\\allowbreak{}=\\allowbreak{}0}、循环条件不是字符对比较 \\\\\n匹配成功后继续查找 & 取决于是否查全部、是否允许重叠 & 只找首次出现的接口可立即返回 \\\\\n\\bottomrule\\end{tabularx}\n\\end{minipage}\\par\\medskip"
+      ]
+    },
+    {
+      "t": "RawBlock",
+      "c": [
+        "latex",
+        "\\end{wideblock}"
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "固定数组按值传参会复制整个结构体；教材复杂度通常关注字符扫描和串长变化，容量视作预设上限。若要在可增长规模的软件实现中精确计算拷贝成本，应把接口实现成本一并计入。本章算法推导仍采用教材的字符比较模型。"
+        }
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        2,
+        [
+          "DS04-check",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "主动回忆与自查"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "Para",
+      "c": [
+        {
+          "t": "Str",
+          "c": "以下为自拟检查题，串的位置和next均采用本章约定。"
+        }
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          1,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "空串和只含三个空格的串长度分别是多少？"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{abc}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "是不是"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{ac}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "的主串？"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "长度7的串取"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{pos=\\allowbreak{}6,\\allowbreak{}len=\\allowbreak{}2}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "是否合法？"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{pos=\\allowbreak{}8,\\allowbreak{}len=\\allowbreak{}0}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "呢？"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "字符位置为1起始时，朴素匹配在"
+                },
+                {
+                  "t": "Math",
+                  "c": [
+                    {
+                      "t": "InlineMath"
+                    },
+                    "(i,j)=(8,4)"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "失配，下一个起点和新的指针分别是什么？"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "写出"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{abaabc}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "、"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{ababaa}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "、"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{aaaab}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "的next与nextval，解释"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{next[\\allowbreak{}6]\\allowbreak{}=\\allowbreak{}3}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "中3的含义。"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "KMP在同一个主串字符上连续失配，会改变哪个指针？何时才推进主串？"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "对"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{S=\\allowbreak{}abaabaabcabaabc,\\allowbreak{}T=\\allowbreak{}abaabc}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "，朴素与普通KMP第一次成功位置及字符比较次数分别是多少？"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "对"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{S=\\allowbreak{}aaacaaaabdaaaab,\\allowbreak{}T=\\allowbreak{}aaaab}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "，普通next和优化nextval各比较多少次？"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "空模式由接口约定返回1时，是否需要访问next[1]？若模式长于主串，返回什么？"
+                }
+              ]
+            }
+          ],
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "只给匹配扫描的"
+                },
+                {
+                  "t": "Math",
+                  "c": [
+                    {
+                      "t": "InlineMath"
+                    },
+                    "O(n)"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "，为何不足以说明整个KMP的准备与扫描代价？"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "t": "Header",
+      "c": [
+        3,
+        [
+          "DS04-answers",
+          [],
+          []
+        ],
+        [
+          {
+            "t": "Str",
+            "c": "核对答案"
+          }
+        ]
+      ]
+    },
+    {
+      "t": "OrderedList",
+      "c": [
+        [
+          1,
+          {
+            "t": "Decimal"
+          },
+          {
+            "t": "Period"
+          }
+        ],
+        [
+          [
+            {
+              "t": "Plain",
+              "c": [
+                {
+                  "t": "Str",
+                  "c": "分别为0和3；"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{ac}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "不是"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{abc}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "中的连续子串。2."
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "均合法；第二种取得串尾后的空串。3."
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "本轮起点为5，下一个为6，执行"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{i=\\allowbreak{}6,\\allowbreak{}j=\\allowbreak{}1}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "。4."
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "next和nextval分别见上表；3表示下一比较位置，保留的是长2的边界"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{ab}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "。5."
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "令"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{j=\\allowbreak{}next[\\allowbreak{}j]\\allowbreak{}}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "或"
+                },
+                {
+                  "t": "RawInline",
+                  "c": [
+                    "latex",
+                    "\\texttt{j=\\allowbreak{}nextval[\\allowbreak{}j]\\allowbreak{}}"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "；字符相等或j退到0后推进主串。6."
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "都返回4；朴素15次，普通KMP10次。7."
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "分别12次、9次。8."
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "不需要建表或访问表；非空模式长于主串时返回0。9."
+                },
+                {
+                  "t": "Space"
+                },
+                {
+                  "t": "Str",
+                  "c": "还要把"
+                },
+                {
+                  "t": "Math",
+                  "c": [
+                    {
+                      "t": "InlineMath"
+                    },
+                    "O(m)"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "建表时间和"
+                },
+                {
+                  "t": "Math",
+                  "c": [
+                    {
+                      "t": "InlineMath"
+                    },
+                    "O(m)"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "表空间计入，总时间"
+                },
+                {
+                  "t": "Math",
+                  "c": [
+                    {
+                      "t": "InlineMath"
+                    },
+                    "O(n+m)"
+                  ]
+                },
+                {
+                  "t": "Str",
+                  "c": "。"
+                }
+              ]
+            }
+          ]
+        ]
+      ]
+    }
+  ]
+}

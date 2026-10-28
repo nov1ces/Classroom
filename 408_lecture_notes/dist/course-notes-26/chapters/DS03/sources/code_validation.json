@@ -1,0 +1,12 @@
+{
+  "chapter": "DS03",
+  "canonical_sha256": "cdae05666525106d30a212f195e6ae1b5c3a81108439f68fb45fcd4b8165a85b",
+  "test_source_sha256": "0c8fd7952f4a78e0288c954b872db7f5350fac2cdc7e220565cbb2fe4a051e06",
+  "compiler": "g++ C++11 -Wall -Wextra -Werror -fsanitize=address,undefined",
+  "compile_returncode": 0,
+  "run_returncode": 0,
+  "stdout": "DS03: 75000 random structure operations + 10000 bracket comparisons + factorial/Fibonacci/shared-state checks passed\n",
+  "stderr": "",
+  "source": "actual displayed code in verification namespaces; array-input adapters and model oracles reside only in the harness",
+  "review_time_utc": "2026-10-27T00:27:55.882002+00:00"
+}

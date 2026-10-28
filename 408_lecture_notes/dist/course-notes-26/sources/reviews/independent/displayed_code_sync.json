@@ -1,0 +1,461 @@
+{
+  "checks": [
+    {
+      "chapter": "DS01",
+      "block": 1,
+      "language": "c",
+      "first_line": "int func(int n) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "95f897bcae0c7f21eee2b9cfe2e07a6086c24ee869aa9435c882d5ce20427182"
+    },
+    {
+      "chapter": "DS01",
+      "block": 2,
+      "language": "c",
+      "first_line": "int sum=0;",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "95f897bcae0c7f21eee2b9cfe2e07a6086c24ee869aa9435c882d5ce20427182"
+    },
+    {
+      "chapter": "DS01",
+      "block": 3,
+      "language": "cpp",
+      "first_line": "bool maximum(int a[], int n, int &answer) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "95f897bcae0c7f21eee2b9cfe2e07a6086c24ee869aa9435c882d5ce20427182"
+    },
+    {
+      "chapter": "DS02",
+      "block": 1,
+      "language": "cpp",
+      "first_line": "#define MaxSize 100",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 2,
+      "language": "cpp",
+      "first_line": "void InitList(SqList &L) { L.length = 0; }",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 3,
+      "language": "cpp",
+      "first_line": "bool ListInsert(SqList &L, int i, ElemType e) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 4,
+      "language": "cpp",
+      "first_line": "#define InitSize 100",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 5,
+      "language": "cpp",
+      "first_line": "typedef struct LNode {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 6,
+      "language": "c",
+      "first_line": "void reverseList(LNode *L) {       // 带头结点",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 7,
+      "language": "c",
+      "first_line": "int searchK(LNode *list, int k) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 8,
+      "language": "c",
+      "first_line": "void reverse(int R[], int l, int r) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 9,
+      "language": "c",
+      "first_line": "LNode *commonSuffix(LNode *str1, LNode *str2) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 10,
+      "language": "c",
+      "first_line": "int majority(int A[], int n) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 11,
+      "language": "cpp",
+      "first_line": "LNode *GetElem(LinkList L, int i) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 12,
+      "language": "cpp",
+      "first_line": "bool InsertNextNode(LNode *p, ElemType e) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 13,
+      "language": "cpp",
+      "first_line": "bool ListInsert_NoHead(LinkList &L, int i, ElemType e) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 14,
+      "language": "cpp",
+      "first_line": "LinkList List_HeadInsert(LinkList &L) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 15,
+      "language": "cpp",
+      "first_line": "typedef struct DNode {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS02",
+      "block": 16,
+      "language": "cpp",
+      "first_line": "void eraseAll(LNode* L, int x) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "96f8906f31e6f537693a5e2e9bd8f8a60786bd6b443876b01c08c84d4df6dc44"
+    },
+    {
+      "chapter": "DS03",
+      "block": 1,
+      "language": "c",
+      "first_line": "int F(int n) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "cdae05666525106d30a212f195e6ae1b5c3a81108439f68fb45fcd4b8165a85b"
+    },
+    {
+      "chapter": "DS03",
+      "block": 2,
+      "language": "c",
+      "first_line": "int factorial(int n) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "cdae05666525106d30a212f195e6ae1b5c3a81108439f68fb45fcd4b8165a85b"
+    },
+    {
+      "chapter": "DS03",
+      "block": 3,
+      "language": "cpp",
+      "first_line": "#define MaxSize 100",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "cdae05666525106d30a212f195e6ae1b5c3a81108439f68fb45fcd4b8165a85b"
+    },
+    {
+      "chapter": "DS03",
+      "block": 4,
+      "language": "cpp",
+      "first_line": "typedef struct {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "cdae05666525106d30a212f195e6ae1b5c3a81108439f68fb45fcd4b8165a85b"
+    },
+    {
+      "chapter": "DS03",
+      "block": 5,
+      "language": "cpp",
+      "first_line": "typedef struct Linknode {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "cdae05666525106d30a212f195e6ae1b5c3a81108439f68fb45fcd4b8165a85b"
+    },
+    {
+      "chapter": "DS03",
+      "block": 6,
+      "language": "cpp",
+      "first_line": "typedef struct LinkNode {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "cdae05666525106d30a212f195e6ae1b5c3a81108439f68fb45fcd4b8165a85b"
+    },
+    {
+      "chapter": "DS03",
+      "block": 7,
+      "language": "cpp",
+      "first_line": "void InitQueue(LinkQueue &Q) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "cdae05666525106d30a212f195e6ae1b5c3a81108439f68fb45fcd4b8165a85b"
+    },
+    {
+      "chapter": "DS03",
+      "block": 8,
+      "language": "cpp",
+      "first_line": "typedef struct {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "cdae05666525106d30a212f195e6ae1b5c3a81108439f68fb45fcd4b8165a85b"
+    },
+    {
+      "chapter": "DS03",
+      "block": 9,
+      "language": "cpp",
+      "first_line": "bool bracketCheck(char str[], int length) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "cdae05666525106d30a212f195e6ae1b5c3a81108439f68fb45fcd4b8165a85b"
+    },
+    {
+      "chapter": "DS05",
+      "block": 1,
+      "language": "cpp",
+      "first_line": "typedef struct BiTNode {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "204d950b1265416b575261e5acabafce9585b57b56022442a6ccd984ebca3c89"
+    },
+    {
+      "chapter": "DS05",
+      "block": 2,
+      "language": "c",
+      "first_line": "int TreeDepth(BiTree T) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "204d950b1265416b575261e5acabafce9585b57b56022442a6ccd984ebca3c89"
+    },
+    {
+      "chapter": "DS05",
+      "block": 3,
+      "language": "cpp",
+      "first_line": "void PreOrder(BiTree T) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "204d950b1265416b575261e5acabafce9585b57b56022442a6ccd984ebca3c89"
+    },
+    {
+      "chapter": "DS05",
+      "block": 4,
+      "language": "cpp",
+      "first_line": "typedef struct ThreadNode {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "204d950b1265416b575261e5acabafce9585b57b56022442a6ccd984ebca3c89"
+    },
+    {
+      "chapter": "DS05",
+      "block": 5,
+      "language": "cpp",
+      "first_line": "ThreadNode *Firstnode(ThreadNode *p) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "204d950b1265416b575261e5acabafce9585b57b56022442a6ccd984ebca3c89"
+    },
+    {
+      "chapter": "DS05",
+      "block": 6,
+      "language": "cpp",
+      "first_line": "#define MAX_TREE_SIZE 100",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "204d950b1265416b575261e5acabafce9585b57b56022442a6ccd984ebca3c89"
+    },
+    {
+      "chapter": "DS05",
+      "block": 7,
+      "language": "cpp",
+      "first_line": "void Initial(int S[], int n) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "204d950b1265416b575261e5acabafce9585b57b56022442a6ccd984ebca3c89"
+    },
+    {
+      "chapter": "DS05",
+      "block": 8,
+      "language": "cpp",
+      "first_line": "void UnionBySize(int S[], int Root1, int Root2) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "204d950b1265416b575261e5acabafce9585b57b56022442a6ccd984ebca3c89"
+    },
+    {
+      "chapter": "DS05",
+      "block": 9,
+      "language": "cpp",
+      "first_line": "void HeadAdjust(int A[], int k, int len) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "204d950b1265416b575261e5acabafce9585b57b56022442a6ccd984ebca3c89"
+    },
+    {
+      "chapter": "DS06",
+      "block": 1,
+      "language": "cpp",
+      "first_line": "#define MaxVertexNum 100",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "6839c4ab16e43f99309575f462105b15fdc26d8c8aacb56e3fd3d8596459a1d7"
+    },
+    {
+      "chapter": "DS06",
+      "block": 2,
+      "language": "cpp",
+      "first_line": "bool visited[MaxVertexNum];",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "6839c4ab16e43f99309575f462105b15fdc26d8c8aacb56e3fd3d8596459a1d7"
+    },
+    {
+      "chapter": "DS06",
+      "block": 3,
+      "language": "cpp",
+      "first_line": "void BFS(Graph G, int v) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "6839c4ab16e43f99309575f462105b15fdc26d8c8aacb56e3fd3d8596459a1d7"
+    },
+    {
+      "chapter": "DS06",
+      "block": 4,
+      "language": "cpp",
+      "first_line": "d[w]=d[v]+1;",
+      "present_verbatim_in_saved_test_source": false,
+      "content_sha256": "6839c4ab16e43f99309575f462105b15fdc26d8c8aacb56e3fd3d8596459a1d7"
+    },
+    {
+      "chapter": "DS06",
+      "block": 5,
+      "language": "c",
+      "first_line": "typedef struct {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "6839c4ab16e43f99309575f462105b15fdc26d8c8aacb56e3fd3d8596459a1d7"
+    },
+    {
+      "chapter": "DS06",
+      "block": 6,
+      "language": "c",
+      "first_line": "int uniquely(MGraph G) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "6839c4ab16e43f99309575f462105b15fdc26d8c8aacb56e3fd3d8596459a1d7"
+    },
+    {
+      "chapter": "DS07",
+      "block": 1,
+      "language": "cpp",
+      "first_line": "typedef struct {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "e9b2366dd4d826192e4028e5295ee0d96f1eea29264bd9b6279760ffe8241083"
+    },
+    {
+      "chapter": "DS07",
+      "block": 2,
+      "language": "cpp",
+      "first_line": "int Binary_Search(SSTable L, ElemType key) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "e9b2366dd4d826192e4028e5295ee0d96f1eea29264bd9b6279760ffe8241083"
+    },
+    {
+      "chapter": "DS07",
+      "block": 3,
+      "language": "cpp",
+      "first_line": "typedef struct BSTNode {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "e9b2366dd4d826192e4028e5295ee0d96f1eea29264bd9b6279760ffe8241083"
+    },
+    {
+      "chapter": "DS07",
+      "block": 4,
+      "language": "cpp",
+      "first_line": "void R_Rotate(BSTree &p) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "e9b2366dd4d826192e4028e5295ee0d96f1eea29264bd9b6279760ffe8241083"
+    },
+    {
+      "chapter": "DS08",
+      "block": 1,
+      "language": "cpp",
+      "first_line": "void InsertSort(int A[], int n) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "c9de58fece1466cb6b466a5776fe2023af41ababd948b550442aff0a3e663f96"
+    },
+    {
+      "chapter": "DS08",
+      "block": 2,
+      "language": "cpp",
+      "first_line": "void BinaryInsertSort(int A[], int n) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "c9de58fece1466cb6b466a5776fe2023af41ababd948b550442aff0a3e663f96"
+    },
+    {
+      "chapter": "DS08",
+      "block": 3,
+      "language": "cpp",
+      "first_line": "void BubbleSort(int A[], int n) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "c9de58fece1466cb6b466a5776fe2023af41ababd948b550442aff0a3e663f96"
+    },
+    {
+      "chapter": "DS08",
+      "block": 4,
+      "language": "cpp",
+      "first_line": "void SelectSort(int A[], int n) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "c9de58fece1466cb6b466a5776fe2023af41ababd948b550442aff0a3e663f96"
+    },
+    {
+      "chapter": "DS08",
+      "block": 5,
+      "language": "cpp",
+      "first_line": "void ShellSort(int A[], int n) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "c9de58fece1466cb6b466a5776fe2023af41ababd948b550442aff0a3e663f96"
+    },
+    {
+      "chapter": "DS08",
+      "block": 6,
+      "language": "cpp",
+      "first_line": "int Partition(int A[], int low, int high) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "c9de58fece1466cb6b466a5776fe2023af41ababd948b550442aff0a3e663f96"
+    },
+    {
+      "chapter": "DS08",
+      "block": 7,
+      "language": "cpp",
+      "first_line": "void QuickSort(int A[], int low, int high) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "c9de58fece1466cb6b466a5776fe2023af41ababd948b550442aff0a3e663f96"
+    },
+    {
+      "chapter": "DS08",
+      "block": 8,
+      "language": "cpp",
+      "first_line": "void HeadAdjust(int A[], int k, int len) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "c9de58fece1466cb6b466a5776fe2023af41ababd948b550442aff0a3e663f96"
+    },
+    {
+      "chapter": "DS08",
+      "block": 9,
+      "language": "cpp",
+      "first_line": "// B在排序开始前分配，容量至少等于A的有效数组长度。",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "c9de58fece1466cb6b466a5776fe2023af41ababd948b550442aff0a3e663f96"
+    },
+    {
+      "chapter": "DS08",
+      "block": 10,
+      "language": "c",
+      "first_line": "void CountSort(int A[], int B[], int n, int k) {",
+      "present_verbatim_in_saved_test_source": true,
+      "content_sha256": "c9de58fece1466cb6b466a5776fe2023af41ababd948b550442aff0a3e663f96"
+    }
+  ],
+  "limitation": "Presence in saved test source establishes source synchronization, not sufficient behavioral coverage. Execution evidence is separately recorded."
+}

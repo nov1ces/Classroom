@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="435" viewBox="0 0 980 435">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17212a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#17212a" stroke-linejoin="round">
+<text x="490" y="29" text-anchor="middle" font-size="22" font-weight="bold" fill="#17212a">比特串101100；NRZ高=1，曼彻斯特低→高=0</text>
+<text x="287.5" y="72" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">1</text>
+<text x="392.5" y="72" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">0</text>
+<text x="497.5" y="72" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">1</text>
+<text x="602.5" y="72" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">1</text>
+<text x="707.5" y="72" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">0</text>
+<text x="812.5" y="72" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">0</text>
+<text x="200" y="141" text-anchor="end" font-size="20" font-weight="normal" fill="#17212a">NRZ</text>
+<line x1="235" y1="135" x2="865" y2="135" stroke="#999999" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="235" y1="97" x2="235" y2="173" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="340" y1="97" x2="340" y2="173" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="445" y1="97" x2="445" y2="173" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="550" y1="97" x2="550" y2="173" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="655" y1="97" x2="655" y2="173" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="760" y1="97" x2="760" y2="173" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="865" y1="97" x2="865" y2="173" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<text x="200" y="251" text-anchor="end" font-size="20" font-weight="normal" fill="#17212a">曼彻斯特</text>
+<line x1="235" y1="245" x2="865" y2="245" stroke="#999999" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="235" y1="207" x2="235" y2="283" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="340" y1="207" x2="340" y2="283" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="445" y1="207" x2="445" y2="283" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="550" y1="207" x2="550" y2="283" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="655" y1="207" x2="655" y2="283" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="760" y1="207" x2="760" y2="283" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="865" y1="207" x2="865" y2="283" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<text x="200" y="361" text-anchor="end" font-size="20" font-weight="normal" fill="#17212a">差分曼彻斯特</text>
+<line x1="235" y1="355" x2="865" y2="355" stroke="#999999" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="235" y1="317" x2="235" y2="393" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="340" y1="317" x2="340" y2="393" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="445" y1="317" x2="445" y2="393" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="550" y1="317" x2="550" y2="393" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="655" y1="317" x2="655" y2="393" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="760" y1="317" x2="760" y2="393" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<line x1="865" y1="317" x2="865" y2="393" stroke="#aaaaaa" stroke-width="1" stroke-dasharray="7 5"/>
+<path d="M 235 110 H 287.5 V 110 H 340.0 V 160 H 392.5 V 160 H 445.0 V 110 H 497.5 V 110 H 550.0 V 110 H 602.5 V 110 H 655.0 V 160 H 707.5 V 160 H 760.0 V 160 H 812.5 V 160 H 865.0" fill="none" stroke="#17212a" stroke-width="3"/>
+<path d="M 235 220 H 287.5 V 270 H 340.0 V 270 H 392.5 V 220 H 445.0 V 220 H 497.5 V 270 H 550.0 V 220 H 602.5 V 270 H 655.0 V 270 H 707.5 V 220 H 760.0 V 270 H 812.5 V 220 H 865.0" fill="none" stroke="#17212a" stroke-width="3"/>
+<path d="M 235 330 H 287.5 V 380 H 340.0 V 330 H 392.5 V 380 H 445.0 V 380 H 497.5 V 330 H 550.0 V 330 H 602.5 V 380 H 655.0 V 330 H 707.5 V 380 H 760.0 V 330 H 812.5 V 380 H 865.0" fill="none" stroke="#17212a" stroke-width="3"/>
+<text x="490" y="420" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">差分约定：起点跳变=0、不跳变=1；第一位之前电平为高</text>
+</g></svg>

@@ -1,0 +1,23 @@
+{
+  "reviewer": "root",
+  "time_utc": "2026-10-26T17:12:58.091423+00:00",
+  "source": "王道2027数据结构_高清带书签版.pdf",
+  "file_pages": [
+    122,
+    128,
+    129
+  ],
+  "printed_pages": [
+    110,
+    116,
+    117
+  ],
+  "method": "rendered full pages and visually compared structure definitions, get_next, Index_KMP and get_nextval",
+  "findings": [
+    "SString field is ch[MAXLEN] in textbook; character indexing starts at 1 in matching; primary code must retain this and explicitly bound length to allocated range.",
+    "get_next uses i=1,j=0,next[1]=0,while(i<T.length).",
+    "Index_KMP starts i=j=1 and returns i-T.length on success,0 on failure.",
+    "get_nextval propagates nextval[j] when equal characters would cause a known repeated mismatch."
+  ],
+  "action": "DS author notified to align capacity definition and tests"
+}

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="470" viewBox="0 0 1120 470">
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#547f96"/></marker></defs>
+<rect width="1120" height="470" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#294958">
+<text x="310" y="38" text-anchor="middle" font-size="23">程序X的调用结构</text>
+<text x="840" y="38" text-anchor="middle" font-size="23">物理内存中的分区</text>
+<rect x="250" y="65" width="140" height="65" rx="5" fill="#deedf5" stroke="#8da8b6"/>
+<text x="320.0" y="91.0" text-anchor="middle" font-size="21">A（main）</text>
+<text x="320.0" y="118.0" text-anchor="middle" font-size="21">8 KB</text>
+<rect x="105" y="190" width="140" height="65" rx="5" fill="#dfefe4" stroke="#8da8b6"/>
+<text x="175.0" y="216.0" text-anchor="middle" font-size="21">B</text>
+<text x="175.0" y="243.0" text-anchor="middle" font-size="21">8 KB</text>
+<rect x="395" y="190" width="140" height="65" rx="5" fill="#dfefe4" stroke="#8da8b6"/>
+<text x="465.0" y="216.0" text-anchor="middle" font-size="21">C</text>
+<text x="465.0" y="243.0" text-anchor="middle" font-size="21">10 KB</text>
+<rect x="65" y="340" width="140" height="65" rx="5" fill="#f6e5ec" stroke="#8da8b6"/>
+<text x="135.0" y="366.0" text-anchor="middle" font-size="21">D</text>
+<text x="135.0" y="393.0" text-anchor="middle" font-size="21">12 KB</text>
+<rect x="280" y="340" width="140" height="65" rx="5" fill="#f6e5ec" stroke="#8da8b6"/>
+<text x="350.0" y="366.0" text-anchor="middle" font-size="21">E</text>
+<text x="350.0" y="393.0" text-anchor="middle" font-size="21">4 KB</text>
+<rect x="495" y="340" width="140" height="65" rx="5" fill="#f6e5ec" stroke="#8da8b6"/>
+<text x="565.0" y="366.0" text-anchor="middle" font-size="21">F</text>
+<text x="565.0" y="393.0" text-anchor="middle" font-size="21">10 KB</text>
+<path d="M320,130 L175,190" stroke="#547f96" stroke-width="2" fill="none"/>
+<path d="M320,130 L465,190" stroke="#547f96" stroke-width="2" fill="none"/>
+<path d="M175,255 L135,340" stroke="#547f96" stroke-width="2" fill="none"/>
+<path d="M465,255 L350,340" stroke="#547f96" stroke-width="2" fill="none"/>
+<path d="M465,255 L565,340" stroke="#547f96" stroke-width="2" fill="none"/>
+<rect x="720" y="85" width="260" height="80" rx="5" fill="#deedf5" stroke="#8da8b6"/>
+<text x="850.0" y="118.5" text-anchor="middle" font-size="21">固定区 A</text>
+<text x="850.0" y="145.5" text-anchor="middle" font-size="21">8 KB</text>
+<rect x="720" y="190" width="260" height="80" rx="5" fill="#dfefe4" stroke="#8da8b6"/>
+<text x="850.0" y="223.5" text-anchor="middle" font-size="21">覆盖区0：B 或 C</text>
+<text x="850.0" y="250.5" text-anchor="middle" font-size="21">10 KB</text>
+<rect x="720" y="295" width="260" height="80" rx="5" fill="#f6e5ec" stroke="#8da8b6"/>
+<text x="850.0" y="328.5" text-anchor="middle" font-size="21">覆盖区1：D、E 或 F</text>
+<text x="850.0" y="355.5" text-anchor="middle" font-size="21">12 KB</text>
+<text x="850" y="430" text-anchor="middle" font-size="22">该安排共 8＋10＋12＝30 KB</text>
+</g></svg>

@@ -1,0 +1,217 @@
+{
+  "chapter": "CO03",
+  "checks": [
+    {
+      "name": "FIFO命中位置",
+      "actual": [
+        5,
+        6
+      ],
+      "expected": [
+        5,
+        6
+      ],
+      "passed": true
+    },
+    {
+      "name": "LRU命中位置",
+      "actual": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "expected": [
+        5,
+        6,
+        8,
+        9
+      ],
+      "passed": true
+    },
+    {
+      "name": "FIFO/LRU完整逐步状态",
+      "FIFO": [
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          3,
+          4,
+          5,
+          1
+        ],
+        [
+          4,
+          5,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "LRU": [
+        [
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          1
+        ],
+        [
+          3,
+          4,
+          1,
+          2
+        ],
+        [
+          4,
+          1,
+          2,
+          5
+        ],
+        [
+          4,
+          2,
+          5,
+          1
+        ],
+        [
+          4,
+          5,
+          1,
+          2
+        ],
+        [
+          5,
+          1,
+          2,
+          3
+        ],
+        [
+          1,
+          2,
+          3,
+          4
+        ],
+        [
+          2,
+          3,
+          4,
+          5
+        ]
+      ],
+      "passed": true
+    },
+    {
+      "name": "字位扩展片数",
+      "actual": 4,
+      "expected": 4,
+      "passed": true
+    },
+    {
+      "name": "128行异步刷新间隔us",
+      "actual": 15.625,
+      "expected": 15.625,
+      "passed": true
+    },
+    {
+      "name": "刷新开销%",
+      "actual": 3.2,
+      "expected": 3.2,
+      "passed": true
+    },
+    {
+      "name": "8字低位交叉读取ns",
+      "actual": 550,
+      "expected": 550,
+      "passed": true
+    },
+    {
+      "name": "Cache同时/顺序模型",
+      "actual": [
+        1.2,
+        1.25
+      ],
+      "expected": [
+        1.2,
+        1.25
+      ],
+      "passed": true
+    },
+    {
+      "name": "7200rpm平均旋转等待ms",
+      "actual": 4.166667,
+      "expected": 4.166667,
+      "passed": true
+    }
+  ],
+  "status": "passed",
+  "method": "independent arithmetic/bit-level models; full document numerical review continues at integration"
+}

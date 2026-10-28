@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430">
+<defs><marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7" fill="#333"/></marker></defs>
+<rect width="960" height="430" fill="white"/>
+<text x="480.0" y="31" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="23" font-weight="bold" fill="#111">阻塞读未命中缓存：请求提交与完成通知</text>
+<rect x="25" y="85" width="205" height="65" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="127.5" y="123.45" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">应用与I/O库</text>
+<rect x="260" y="85" width="205" height="65" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="362.5" y="123.45" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">系统调用/设备无关层</text>
+<rect x="495" y="85" width="205" height="65" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="597.5" y="123.45" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">设备驱动程序</text>
+<rect x="730" y="85" width="205" height="65" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="832.5" y="123.45" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">控制器与设备</text>
+<line x1="230" y1="117" x2="260" y2="117" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="465" y1="117" x2="495" y2="117" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="700" y1="117" x2="730" y2="117" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="730" y="275" width="205" height="65" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="832.5" y="313.45" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">设备完成：发中断</text>
+<line x1="832" y1="150" x2="832" y2="275" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="495" y="275" width="205" height="65" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="597.5" y="313.45" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">中断处理：确认完成</text>
+<line x1="730" y1="307" x2="700" y2="307" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="260" y="275" width="205" height="65" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="362.5" y="313.45" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">标记数据可用并唤醒</text>
+<line x1="495" y1="307" x2="465" y2="307" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="25" y="275" width="205" height="65" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="127.5" y="313.45" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="17" font-weight="normal" fill="#111">再获CPU，复制并返回</text>
+<line x1="260" y1="307" x2="230" y2="307" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<text x="480" y="216" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">请求者等待I/O时阻塞；CPU可运行其他进程</text>
+<text x="480" y="398" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">命中缓存时可省去设备分支；DMA搬运与完成中断可以配合使用。</text>
+</svg>

@@ -1,0 +1,415 @@
+{
+  "chapter": "CO04",
+  "primary_source": "王道计算机组成原理基础考点课件",
+  "lecture_files": [
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.1.1+2+3  指令的基本格式.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "topics": [
+        "操作码地址码、零一二三四地址、定长变长、访存次数"
+      ],
+      "targets": [
+        "CO04-02",
+        "CO04-formats-complete",
+        "CO04-implicit"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.1.4 扩展操作码指令格式.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "topics": [
+        "扩展操作码前缀、逐层保留、完整分配例"
+      ],
+      "targets": [
+        "CO04-03",
+        "CO04-opcode-complete",
+        "CO04-proof"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.1 指令寻址.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "topics": [
+        "顺序/跳跃指令寻址、PC和指令长度"
+      ],
+      "targets": [
+        "CO04-04",
+        "CO04-05"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_1 数据寻址1.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "topics": [
+        "立即/直接/间接/寄存器/寄存器间接寻址"
+      ],
+      "targets": [
+        "CO04-04",
+        "CO04-06",
+        "CO04-addressing-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_2 数据寻址2_偏移寻址.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "topics": [
+        "相对/基址/变址、偏移单位、PC基准和重定位"
+      ],
+      "targets": [
+        "CO04-addressing-complete",
+        "CO04-05"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_3 数据寻址3_堆栈寻址.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "topics": [
+        "软硬堆栈、SP、增长方向、压栈弹栈顺序"
+      ],
+      "targets": [
+        "CO04-addressing-complete",
+        "CO04-stack-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.1_1 高级语言与机器级代码之间的对应.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "topics": [
+        "源程序机器级对应、x86寄存器、地址形成"
+      ],
+      "targets": [
+        "CO04-09",
+        "CO04-x86-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.1_2 常用的x86汇编指令.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "topics": [
+        "传送算术逻辑移位比较、lea/cmp/test副作用"
+      ],
+      "targets": [
+        "CO04-x86-complete",
+        "CO04-effects"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.1_3 AT&T格式和Intel格式.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "topics": [
+        "Intel/AT&T操作数顺序、立即数/寄存器标志及位宽"
+      ],
+      "targets": [
+        "CO04-x86-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.2 选择语句的机器级表示.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": [
+        "条件码、有符号无符号条件转移、选择控制流"
+      ],
+      "targets": [
+        "CO04-11",
+        "CO04-branch-flags"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.3 循环语句的机器级表示.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "topics": [
+        "while/for/do循环、条件判断和回边"
+      ],
+      "targets": [
+        "CO04-loop-complete",
+        "CO04-11"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.3.4 函数调用的机器级表示.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60
+      ],
+      "topics": [
+        "调用返回、参数寄存器、栈帧、递归阶乘和机器编码"
+      ],
+      "targets": [
+        "CO04-12",
+        "CO04-14",
+        "CO04-stack-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.4 CISC和RISC.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topics": [
+        "CISC/RISC指令集倾向、复杂指令与流水实现条件"
+      ],
+      "targets": [
+        "CO04-07",
+        "CO04-08"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    }
+  ],
+  "figures": [
+    {
+      "id": "CO_F06_stack_frame",
+      "targets": [],
+      "source": "对应知识组的王道课件/教材示意，正文保留解释与约定",
+      "status": "editable_vector_available",
+      "svg": true,
+      "png": true,
+      "visual_review": "PNG individually viewed in 4-panel contact sheets, new division and microprogram graph additionally enlarged; final PDF review separate"
+    },
+    {
+      "id": "CO04_stack_layout",
+      "targets": [],
+      "source": "对应知识组的王道课件/教材示意，正文保留解释与约定",
+      "status": "editable_vector_available",
+      "svg": true,
+      "png": true,
+      "visual_review": "PNG individually viewed in 4-panel contact sheets, new division and microprogram graph additionally enlarged; final PDF review separate"
+    }
+  ],
+  "unresolved": [],
+  "verification_boundary": "文件/页与知识组覆盖已登记；数值复算和最终PDF视觉证据另存，不能由映射数量推定全部原图已逐幅审定。",
+  "figure_review_time_utc": "2026-10-27T00:29:11.843266+00:00"
+}

@@ -1,0 +1,249 @@
+{
+  "chapter": "CO07",
+  "primary_source": "王道计算机组成原理基础考点课件",
+  "lecture_files": [
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.1+7.1.2 输入输出系统和IO控制方式.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "topics": [
+        "I/O软硬件、查询中断DMA通道、I/O指令与通道指令"
+      ],
+      "targets": [
+        "CO07-map",
+        "CO07-io-structure-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.1.3 外部设备.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "topics": [
+        "输入输出外存、显示器/打印机分类和性能"
+      ],
+      "targets": [
+        "CO07-devices",
+        "CO07-peripherals-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.2 IO接口.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "topics": [
+        "接口端口、统一独立编址、数据状态控制寄存器和传送"
+      ],
+      "targets": [
+        "CO07-interface",
+        "CO07-io-structure-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.1 程序查询方式.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "topics": [
+        "忙等/定时查询、速率缓冲期限和CPU占用"
+      ],
+      "targets": [
+        "CO07-query",
+        "CO07-query-complete",
+        "CO07-example-2"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_1 中断的作用和原理.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "topics": [
+        "请求判优响应、中断隐指令、断点与现场恢复"
+      ],
+      "targets": [
+        "CO07-interrupt",
+        "CO07-entry",
+        "CO07-interrupt-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_2 多重中断.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "topics": [
+        "响应/处理优先级、屏蔽字、嵌套、NMI/INTR"
+      ],
+      "targets": [
+        "CO07-mask",
+        "CO07-example-3",
+        "CO07-interrupt-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_3 程序中断方式.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topics": [
+        "中断I/O CPU预算、设备准备服务重叠和有限批次端点"
+      ],
+      "targets": [
+        "CO07-example-4",
+        "CO07-overlap-example"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.3 DMA方式.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "topics": [
+        "DMA控制器寄存器、预处理/传送/后处理、三种总线占用方式"
+      ],
+      "targets": [
+        "CO07-dma",
+        "CO07-example-5",
+        "CO07-example-6",
+        "CO07-dma-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    }
+  ],
+  "figures": [
+    {
+      "id": "CO_F11_interrupt_nesting",
+      "targets": [],
+      "source": "对应知识组的王道课件/教材示意，正文保留解释与约定",
+      "status": "editable_vector_available",
+      "svg": true,
+      "png": true,
+      "visual_review": "PNG individually viewed in 4-panel contact sheets, new division and microprogram graph additionally enlarged; final PDF review separate"
+    },
+    {
+      "id": "CO_F12_dma_path",
+      "targets": [],
+      "source": "对应知识组的王道课件/教材示意，正文保留解释与约定",
+      "status": "editable_vector_available",
+      "svg": true,
+      "png": true,
+      "visual_review": "PNG individually viewed in 4-panel contact sheets, new division and microprogram graph additionally enlarged; final PDF review separate"
+    },
+    {
+      "id": "CO07_dma_phases",
+      "targets": [],
+      "source": "对应知识组的王道课件/教材示意，正文保留解释与约定",
+      "status": "editable_vector_available",
+      "svg": true,
+      "png": true,
+      "visual_review": "PNG individually viewed in 4-panel contact sheets, new division and microprogram graph additionally enlarged; final PDF review separate"
+    }
+  ],
+  "unresolved": [],
+  "verification_boundary": "文件/页与知识组覆盖已登记；数值复算和最终PDF视觉证据另存，不能由映射数量推定全部原图已逐幅审定。",
+  "figure_review_time_utc": "2026-10-27T00:29:11.845143+00:00"
+}

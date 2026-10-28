@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="582" viewBox="0 0 680 582">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="266.0" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="296.0" text-anchor="middle" font-weight="bold">线性表</text>
+<path d="M148,291.0 H166 V84.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="65.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="89.5" text-anchor="middle" font-weight="bold">定义与基本操作</text>
+<path d="M348,84.5 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">有限有序同型</text>
+<path d="M348,84.5 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">表长与空表</text>
+<path d="M348,84.5 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">位序和数组下标</text>
+<path d="M348,84.5 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">初始化清空与销毁</text>
+<path d="M148,291.0 H166 V215.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="196.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="220.0" text-anchor="middle" font-weight="bold">顺序表示</text>
+<path d="M348,215.0 H365 V169.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="174.0">静态容量与动态扩容</text>
+<path d="M348,215.0 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">随机存取与按值查找</text>
+<path d="M348,215.0 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">插入后移与删除前移</text>
+<path d="M348,215.0 H365 V238.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="243.0">平均移动次数</text>
+<path d="M348,215.0 H365 V261.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="266.0">引用参数与输出参数</text>
+<path d="M148,291.0 H166 V357.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="338.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="362.0" text-anchor="middle" font-weight="bold">单链表示</text>
+<path d="M348,357.0 H365 V311.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="316.0">头指针头结点首元结点</text>
+<path d="M348,357.0 H365 V334.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="339.0">按位序与按值查找</text>
+<path d="M348,357.0 H365 V357.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="362.0">后插与删除后继</text>
+<path d="M348,357.0 H365 V380.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="385.0">头插法与尾插法</text>
+<path d="M348,357.0 H365 V403.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="408.0">局部操作和定位代价</text>
+<path d="M148,291.0 H166 V487.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="468.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="492.5" text-anchor="middle" font-weight="bold">链表变体</text>
+<path d="M348,487.5 H365 V453.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="458.0">双链表四条链接</text>
+<path d="M348,487.5 H365 V476.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="481.0">循环单链表空表与遍历</text>
+<path d="M348,487.5 H365 V499.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="504.0">循环双链表</text>
+<path d="M348,487.5 H365 V522.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="527.0">静态链表与游标</text>
+</g></svg>

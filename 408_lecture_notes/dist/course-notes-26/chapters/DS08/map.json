@@ -1,0 +1,127 @@
+{
+  "id": "DS08",
+  "title": "排序",
+  "branches": [
+    {
+      "label": "排序的基本概念",
+      "children": [
+        "关键字与记录身份",
+        "稳定与不稳定",
+        "内部外部排序",
+        "趟数比较移动空间"
+      ],
+      "target": "DS08-01"
+    },
+    {
+      "label": "插入类排序",
+      "children": [
+        "直接插入有序前缀",
+        "折半插入定位及移动",
+        "希尔同余类与增量"
+      ],
+      "target": "DS08-02"
+    },
+    {
+      "label": "交换与选择类",
+      "children": [
+        "起泡相邻逆序与早停",
+        "快速划分及枢轴就位",
+        "简单选择的比较次数",
+        "堆排序建堆及下滤"
+      ],
+      "target": "DS08-03"
+    },
+    {
+      "label": "归并与分配类",
+      "children": [
+        "二路归并及稳定合并",
+        "LSD低到高与同桶保序",
+        "MSD递归桶任务",
+        "计数范围及前缀和"
+      ],
+      "target": "DS08-08"
+    },
+    {
+      "label": "算法性能与条件",
+      "children": [
+        "最好平均最坏时间",
+        "递归栈及输出数组",
+        "稳定性条件与反例",
+        "比较排序下界"
+      ],
+      "target": "DS08-11"
+    },
+    {
+      "label": "外部排序与优化",
+      "children": [
+        "初始归并段",
+        "多路归并及输入输出缓冲",
+        "I/O计数与趟数",
+        "败者树冠军路径",
+        "置换选择与冻结",
+        "最佳归并树及补零权叶"
+      ],
+      "target": "DS08-10"
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "pages": [
+        7
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "排序的基本概念"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.1+8.2.2 插入排序.pdf",
+      "pages": [
+        68
+      ],
+      "role": "slide_map",
+      "visual_checked": true,
+      "topic": "插入类排序"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.2 快速排序.pdf",
+      "pages": [
+        132
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "交换与选择类"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.1 归并排序.pdf",
+      "pages": [
+        44
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "归并与分配类"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.1+8.7.2 外部排序.pdf",
+      "pages": [
+        96
+      ],
+      "role": "slide_map",
+      "visual_checked": true,
+      "topic": "外部排序与优化"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf",
+      "pages": [
+        7
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "算法性能与条件"
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "章级总图整合插入类68页、外排96页等节级导图；比较排序下界、具体实现最好情况与跨算法选择条件为正文核验后的综合补绘，不把课件单一表格当成适用于所有实现的结论。"
+  ]
+}

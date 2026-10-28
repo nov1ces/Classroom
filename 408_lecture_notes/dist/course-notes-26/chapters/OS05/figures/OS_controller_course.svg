@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650"><defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8 Z" fill="#476b80"/></marker></defs><rect width="100%" height="100%" fill="white"/><g font-family="Noto Sans CJK SC,sans-serif" font-size="24" fill="#243b49">
+<text x="600" y="38" text-anchor="middle" font-size="32" font-weight="bold">I/O控制器的组成</text>
+<rect x="280" y="70" width="650" height="420" rx="8" fill="#eff5fa" stroke="#7d9cab" stroke-width="2"/>
+<text x="605" y="102" text-anchor="middle" font-weight="bold">I/O控制器</text>
+<rect x="30" y="135" width="155" height="300" rx="5" fill="#e7edf5" stroke="#7d9cab" stroke-width="2"/>
+<text x="107.5" y="293.0" text-anchor="middle">CPU</text>
+<rect x="305" y="135" width="180" height="65" rx="5" fill="#f9e6d7" stroke="#7d9cab" stroke-width="2"/>
+<text x="395.0" y="175.5" text-anchor="middle">数据寄存器</text>
+<rect x="305" y="220" width="180" height="65" rx="5" fill="#f9e6d7" stroke="#7d9cab" stroke-width="2"/>
+<text x="395.0" y="260.5" text-anchor="middle">控制寄存器</text>
+<rect x="305" y="305" width="180" height="65" rx="5" fill="#f9e6d7" stroke="#7d9cab" stroke-width="2"/>
+<text x="395.0" y="345.5" text-anchor="middle">状态寄存器</text>
+<rect x="550" y="250" width="170" height="85" rx="5" fill="#eee6f6" stroke="#7d9cab" stroke-width="2"/>
+<text x="635.0" y="300.5" text-anchor="middle">I/O逻辑</text>
+<rect x="760" y="145" width="140" height="72" rx="5" fill="#e3f1e8" stroke="#7d9cab" stroke-width="2"/>
+<text x="830.0" y="189.0" text-anchor="middle">设备接口1</text>
+<rect x="760" y="335" width="140" height="72" rx="5" fill="#e3f1e8" stroke="#7d9cab" stroke-width="2"/>
+<text x="830.0" y="379.0" text-anchor="middle">设备接口 i</text>
+<path d="M185 165 L305 165" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="215" y="151" font-size="20">数据总线</text>
+<path d="M185 250 L305 250" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)"/>
+<text x="213" y="236" font-size="20">控制信息</text>
+<path d="M305 335 L185 335" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)"/>
+<text x="213" y="321" font-size="20">状态信息</text>
+<path d="M185 400 L550 400" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)"/>
+<text x="220" y="390" font-size="20">地址线与控制线</text>
+<path d="M485 165 L550 250" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)" marker-start="url(#a)"/>
+<path d="M485 250 L550 292" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)"/>
+<path d="M550 310 L485 335" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)"/>
+<path d="M720 270 L760 181" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)" marker-start="url(#a)"/>
+<path d="M720 320 L760 371" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)" marker-start="url(#a)"/>
+<path d="M900 168 L1060 168" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="1070" y="175" font-size="21">数据</text>
+<path d="M1060 193 L900 193" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)"/>
+<text x="1070" y="200" font-size="21">状态</text>
+<path d="M900 218 L1060 218" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)"/>
+<text x="1070" y="225" font-size="21">控制</text>
+<path d="M900 358 L1060 358" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)" marker-start="url(#a)"/>
+<text x="1070" y="365" font-size="21">数据</text>
+<path d="M1060 383 L900 383" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)"/>
+<text x="1070" y="390" font-size="21">状态</text>
+<path d="M900 408 L1060 408" fill="none" stroke="#476b80" stroke-width="3" marker-end="url(#a)"/>
+<text x="1070" y="415" font-size="21">控制</text>
+<text x="30" y="540" font-size="22">CPU—控制器接口：寄存器与总线</text>
+<text x="30" y="580" font-size="22">I/O逻辑：识别命令、译码地址并控制设备接口</text>
+<text x="30" y="620" font-size="22">控制器—设备接口：交换数据、接收状态并发送控制信号</text>
+</g></svg>

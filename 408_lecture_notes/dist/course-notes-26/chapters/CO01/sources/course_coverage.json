@@ -1,0 +1,219 @@
+{
+  "chapter": "CO01",
+  "primary_source": "王道计算机组成原理基础考点课件",
+  "lecture_files": [
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.0_你好，我是计算机组成原理.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "topics": [
+        "硬件的物理形态、二进制信息与四科联系"
+      ],
+      "targets": [
+        "CO01-02",
+        "CO01-components"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.1_计算机发展历程（大纲已删 简要了解即可）.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "topics": [
+        "器件技术、发展阶段、摩尔经验趋势与应用背景"
+      ],
+      "targets": [
+        "CO01-history",
+        "CO01-history-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "topics": [
+        "五大部件、CPU与主机、冯诺依曼特点"
+      ],
+      "targets": [
+        "CO01-components",
+        "CO01-03"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.2（补充）_各个硬件的工作原理.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "topics": [
+        "ACC/MQ/IR/PC/MAR/MDR、取指与取数微操作、程序状态"
+      ],
+      "targets": [
+        "CO01-04",
+        "CO01-program-trace",
+        "CO01-words"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.3 计算机软件.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "topics": [
+        "系统/应用软件、机器/汇编/高级语言、编译解释、ISA功能等价"
+      ],
+      "targets": [
+        "CO01-software",
+        "CO01-05"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.4 计算机系统的层次结构.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topics": [
+        "五级机器、体系结构与组成、透明性"
+      ],
+      "targets": [
+        "CO01-03",
+        "CO01-software"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.5 计算机系统的工作原理.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "topics": [
+        "存储程序、y=ab+c执行、预处理编译汇编链接"
+      ],
+      "targets": [
+        "CO01-program-trace",
+        "CO01-05"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "topics": [
+        "机器字长、地址空间容量、主频时钟、CPI/IPC、执行时间、吞吐率/MIPS/FLOPS"
+      ],
+      "targets": [
+        "CO01-07",
+        "CO01-performance-complete",
+        "CO01-capacity"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    }
+  ],
+  "figures": [
+    {
+      "id": "CO01_program_path",
+      "targets": [],
+      "source": "对应知识组的王道课件/教材示意，正文保留解释与约定",
+      "status": "editable_vector_available",
+      "svg": true,
+      "png": true,
+      "visual_review": "PNG individually viewed in 4-panel contact sheets, new division and microprogram graph additionally enlarged; final PDF review separate"
+    }
+  ],
+  "unresolved": [],
+  "verification_boundary": "文件/页与知识组覆盖已登记；数值复算和最终PDF视觉证据另存，不能由映射数量推定全部原图已逐幅审定。",
+  "figure_review_time_utc": "2026-10-27T00:29:11.841559+00:00"
+}

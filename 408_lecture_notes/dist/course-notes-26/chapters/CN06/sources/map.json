@@ -1,0 +1,121 @@
+{
+  "id": "CN06",
+  "title": "应用层",
+  "branches": [
+    {
+      "label": "应用模型",
+      "children": [
+        "C/S请求服务角色",
+        "P2P对等与发现",
+        "文件分发资源下界"
+      ]
+    },
+    {
+      "label": "DNS名称与管理",
+      "children": [
+        "标签层级与长度口径",
+        "顶级域分类",
+        "域与区及委派",
+        "根本地与权威服务器",
+        "A与AAAA及NS和MX"
+      ]
+    },
+    {
+      "label": "DNS解析过程",
+      "children": [
+        "递归与迭代主体",
+        "缓存与TTL",
+        "查询次数与委派条件",
+        "UDP与TCP端口53"
+      ]
+    },
+    {
+      "label": "FTP双连接",
+      "children": [
+        "C/S与并发处理",
+        "控制连接与21端口",
+        "数据连接与主动被动",
+        "会话与文件传输寿命"
+      ]
+    },
+    {
+      "label": "电子邮件",
+      "children": [
+        "代理服务器与信封首部",
+        "MIME类型与Base64",
+        "SMTP推送与转送",
+        "POP3读取与连接复用"
+      ]
+    },
+    {
+      "label": "WWW与HTTP语义",
+      "children": [
+        "URL资源与片段",
+        "请求响应与常用方法",
+        "状态码与缓存验证",
+        "Cookie与无状态"
+      ]
+    },
+    {
+      "label": "HTTP性能模型",
+      "children": [
+        "非持久与持久",
+        "流水与发现依赖",
+        "计时起点与RTT",
+        "TCP窗口与大对象"
+      ]
+    },
+    {
+      "label": "综合访问流程",
+      "children": [
+        "DNS到TCP再到HTTP",
+        "FTP序号与拥塞轮次",
+        "ARP下一跳与交换学习",
+        "缓存条件影响广播计数"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "pages": [
+        10
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.3 FTP 文件传输协议.pdf",
+      "pages": [
+        10
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.4 电子邮件.pdf",
+      "pages": [
+        10
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.5 WWW和HTTP.pdf",
+      "pages": [
+        13
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "完整保留原8个知识节、9道配套题和解析，综合题另设稳定小节CN06-09；章末3题扩为9题，原题实质保留。",
+    "基于已目验DNS/FTP/邮件/HTTP真实导图，补DNS标签长度与顶级域分类、FTP并发任务模型；长度明确线格式和文本串口径，进程数不当作实现硬性要求。",
+    "补文件分发下界与资源守恒论证、HTTP依赖法框和原生请求文本示例；HTTP理想三种连接模型表完整保留。",
+    "FTP六列轮次表拆成两张按阶段关联的四/三列表，所有开始时刻、窗口、段数、累计数和确认时刻均保留。",
+    "原2016/2021等旧年份标签未独立原卷认证；原综合DNS/HTTP题的DNS缓存前提边界继续保留，避免把两次广播当无条件结论。",
+    "已复算非持久8对象16RTT、四图非流水6RTT/流水3RTT、FTP18段五轮加握手60ms与2.4Mb/s、FIN确认18102。"
+  ]
+}

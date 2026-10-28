@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="460" viewBox="0 0 1040 460">
+<defs><marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7" fill="#333"/></marker></defs>
+<rect width="1040" height="460" fill="white"/>
+<text x="520.0" y="31" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="23" font-weight="bold" fill="#111">【2022】目录层次与题设的 inode、磁盘块对应</text>
+<path d="M145,127.5 L165,127.5 L165,192.5 L195,192.5" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M145,127.5 L165,127.5 L165,372.5 L195,372.5" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M325,192.5 L345,192.5 L345,212.5 L380,212.5" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<path d="M325,192.5 L345,192.5 L345,307.5 L380,307.5" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="35" y="100" width="110" height="55" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="90.0" y="134.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">stu</text>
+<rect x="195" y="165" width="130" height="55" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="260.0" y="199.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">course</text>
+<rect x="195" y="345" width="130" height="55" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="260.0" y="379.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">doc</text>
+<rect x="380" y="185" width="130" height="55" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="445.0" y="219.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">course1</text>
+<rect x="380" y="280" width="130" height="55" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="445.0" y="314.5" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">course2</text>
+<rect x="565" y="100" width="150" height="48" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="640.0" y="130.65" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">文件名</text>
+<rect x="715" y="100" width="145" height="48" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="787.5" y="130.65" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">索引节点号</text>
+<rect x="860" y="100" width="145" height="48" rx="4" fill="#e4eef4" stroke="#333" stroke-width="2"/>
+<text x="932.5" y="130.65" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">磁盘块号</text>
+<rect x="565" y="148" width="150" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="640.0" y="179.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">stu</text>
+<rect x="715" y="148" width="145" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="787.5" y="179.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">1</text>
+<rect x="860" y="148" width="145" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="932.5" y="179.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">10</text>
+<rect x="565" y="196" width="150" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="640.0" y="227.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">course</text>
+<rect x="715" y="196" width="145" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="787.5" y="227.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">2</text>
+<rect x="860" y="196" width="145" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="932.5" y="227.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">20</text>
+<rect x="565" y="244" width="150" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="640.0" y="275.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">course1</text>
+<rect x="715" y="244" width="145" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="787.5" y="275.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">10</text>
+<rect x="860" y="244" width="145" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="932.5" y="275.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">30</text>
+<rect x="565" y="292" width="150" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="640.0" y="323.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">course2</text>
+<rect x="715" y="292" width="145" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="787.5" y="323.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">100</text>
+<rect x="860" y="292" width="145" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="932.5" y="323.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">40</text>
+<rect x="565" y="340" width="150" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="640.0" y="371.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">doc</text>
+<rect x="715" y="340" width="145" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="787.5" y="371.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">10</text>
+<rect x="860" y="340" width="145" height="48" rx="4" fill="white" stroke="#333" stroke-width="2"/>
+<text x="932.5" y="371.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" font-weight="normal" fill="#111">x</text>
+<text x="520" y="438" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">左侧表示目录包含关系；右表保留题设全部名字、inode 号与块号。</text>
+</svg>

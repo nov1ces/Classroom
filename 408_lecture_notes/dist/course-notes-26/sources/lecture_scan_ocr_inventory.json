@@ -1,0 +1,71 @@
+{
+  "engine": "tesseract",
+  "languages": [
+    "chi_sim",
+    "eng"
+  ],
+  "review_status": "draft_requires_visual_confirmation",
+  "files": [
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第五章 中央处理器/5.7_2 硬件多线程.pdf",
+      "ocr_file": "sources/extracted/CO/CO05/5.7_2 硬件多线程.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.4.2 固态硬盘_扫描版.pdf",
+      "ocr_file": "sources/extracted/CO/CO03/3.4.2 固态硬盘_扫描版.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.1.3 操作系统的特征_扫描版.pdf",
+      "ocr_file": "sources/extracted/OS/OS01/1.1.3 操作系统的特征_扫描版.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.2 操作系统的发展与分类_扫描版.pdf",
+      "ocr_file": "sources/extracted/OS/OS01/1.2 操作系统的发展与分类_扫描版.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.1.1+1.1.2 操作系统的概念、功能和目标_扫描版.pdf",
+      "ocr_file": "sources/extracted/OS/OS01/1.1.1+1.1.2 操作系统的概念、功能和目标_扫描版.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.6_3 线程的状态与转换.pdf",
+      "ocr_file": "sources/extracted/OS/OS02/2.1.6_3 线程的状态与转换.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.5 操作系统引导.pdf",
+      "ocr_file": "sources/extracted/OS/OS01/1.5 操作系统引导.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3.4 固态硬盘_扫描版.pdf",
+      "ocr_file": "sources/extracted/OS/OS05/5.3.4 固态硬盘_扫描版.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.3 IPv6（楼楼老师）.pdf",
+      "ocr_file": "sources/extracted/CN/CN04/4.3 IPv6（楼楼老师）.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_5_输入输出应用程序接口和驱动程序接口.pdf",
+      "ocr_file": "sources/extracted/OS/OS05/5.1_5_输入输出应用程序接口和驱动程序接口.ocr.txt",
+      "status": "ocr_draft",
+      "visual_review": "pending"
+    }
+  ],
+  "total_candidates": 10
+}

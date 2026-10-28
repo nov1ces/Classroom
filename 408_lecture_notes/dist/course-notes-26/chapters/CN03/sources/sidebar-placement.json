@@ -1,0 +1,487 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "CN03-01",
+        "kind": "课程连接",
+        "title": "链路反馈只看一跳",
+        "y": 402.90972900390625,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 76.81537
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        128.9869613647461
+      ],
+      [
+        130.117919921875,
+        402.90972900390625
+      ],
+      [
+        142.41941833496094,
+        177.79226684570312
+      ],
+      [
+        171.94302368164062,
+        207.3158721923828
+      ],
+      [
+        201.46661376953125,
+        236.8394775390625
+      ],
+      [
+        230.99021911621094,
+        266.3630676269531
+      ],
+      [
+        260.5138244628906,
+        295.88665771484375
+      ],
+      [
+        290.03741455078125,
+        325.4102783203125
+      ],
+      [
+        319.56103515625,
+        354.9338684082031
+      ],
+      [
+        349.0846252441406,
+        384.45745849609375
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 2,
+        "anchor": "CN03-03",
+        "kind": "最小反例",
+        "title": "合法码字之间仍能跳转",
+        "y": 301.4414978027344,
+        "estimated_height": 206.2,
+        "mini": true,
+        "measured_height": 159.38669
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        172.26454162597656,
+        197.5298309326172
+      ],
+      [
+        189.42454528808594,
+        298.3758544921875
+      ],
+      [
+        170.33749389648438,
+        183.13449096679688
+      ],
+      [
+        187.79689025878906,
+        200.2950897216797
+      ],
+      [
+        288.6445007324219,
+        301.4414978027344
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 1,
+        "anchor": "CN03-02",
+        "kind": "不变量",
+        "title": "填充只删自己插入的位",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.39584
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 3,
+        "anchor": "CN03-04",
+        "kind": "不变量",
+        "title": "综合征须固定编号",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.30237
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 4,
+        "anchor": "CN03-06",
+        "kind": "最小反例",
+        "title": "没收到ACK也可能交付过",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 76.83237
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 6,
+        "anchor": "CN03-07",
+        "kind": "错项排除",
+        "title": "累计确认覆盖缺失的ACK",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 76.80685
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [
+      {
+        "index": 7,
+        "anchor": "CN03-08",
+        "kind": "最小反例",
+        "title": "缓存不等于越过缺口",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 76.83237
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        610.4415283203125,
+        637.5320434570312
+      ],
+      [
+        624.4788208007812,
+        677.76220703125
+      ],
+      [
+        663.5396118164062,
+        736.6249389648438
+      ],
+      [
+        723.315673828125,
+        760.5359497070312
+      ],
+      [
+        608.5155029296875,
+        621.3125
+      ],
+      [
+        625.9749145507812,
+        638.4730834960938
+      ],
+      [
+        750.8035278320312,
+        763.6005249023438
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "sidebars": [
+      {
+        "index": 9,
+        "anchor": "CN03-09",
+        "kind": "课程连接",
+        "title": "正交像向量基的分解",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 76.84937
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [
+      {
+        "index": 10,
+        "anchor": "CN03-11",
+        "kind": "不变量",
+        "title": "最短帧要覆盖往返",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.54034
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 10,
+    "sidebars": [
+      {
+        "index": 11,
+        "anchor": "CN03-12",
+        "kind": "错项排除",
+        "title": "NAV只预约未来",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 77.04486
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 11,
+    "sidebars": [
+      {
+        "index": 12,
+        "anchor": "CN03-15",
+        "kind": "不变量",
+        "title": "帧与线上周期不同",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 66.41284
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 12,
+    "sidebars": [
+      {
+        "index": 13,
+        "anchor": "CN03-16",
+        "kind": "错项排除",
+        "title": "当前跳发送者未必是源",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 76.80685
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        365.37152099609375,
+        392.46209716796875
+      ],
+      [
+        382.5315246582031,
+        433.5330810546875
+      ],
+      [
+        522.6416015625,
+        549.7321166992188
+      ],
+      [
+        539.8025512695312,
+        588.977783203125
+      ],
+      [
+        539.802490234375,
+        578.8480224609375
+      ],
+      [
+        575.66748046875,
+        698.3991088867188
+      ],
+      [
+        363.44549560546875,
+        376.24249267578125
+      ],
+      [
+        380.9048767089844,
+        393.4031066894531
+      ],
+      [
+        421.9754943847656,
+        434.7724914550781
+      ],
+      [
+        520.7155151367188,
+        533.5125122070312
+      ],
+      [
+        538.1749267578125,
+        550.673095703125
+      ],
+      [
+        686.842529296875,
+        699.6395263671875
+      ]
+    ]
+  },
+  {
+    "page": 13,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "CN03-17",
+        "kind": "最小反例",
+        "title": "端口并行不隔离广播",
+        "y": 95,
+        "estimated_height": 89.19999999999999,
+        "mini": false,
+        "measured_height": 76.92587
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 14,
+    "sidebars": [
+      {
+        "index": 16,
+        "anchor": "CN03-19",
+        "kind": "不变量",
+        "title": "学源查目的",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.30237
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 15,
+    "sidebars": [
+      {
+        "index": 21,
+        "anchor": "CN03-ex12",
+        "kind": "辨析",
+        "title": "确认与发送分开追踪",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 55.44937
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 16,
+    "sidebars": [
+      {
+        "index": 17,
+        "anchor": "CN03-course-hamming",
+        "kind": "条件",
+        "title": "先固定书写方向",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.72388
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        399.0255126953125,
+        426.1160888671875
+      ],
+      [
+        416.1855163574219,
+        467.18707275390625
+      ],
+      [
+        544.4195556640625,
+        569.684814453125
+      ],
+      [
+        561.58056640625,
+        646.6218872070312
+      ],
+      [
+        397.0985107421875,
+        409.8955078125
+      ],
+      [
+        414.5578918457031,
+        427.0561218261719
+      ],
+      [
+        455.6295166015625,
+        468.426513671875
+      ],
+      [
+        542.4934692382812,
+        555.2904663085938
+      ],
+      [
+        559.9529418945312,
+        572.4511108398438
+      ],
+      [
+        636.8895263671875,
+        649.6865234375
+      ]
+    ]
+  },
+  {
+    "page": 17,
+    "sidebars": [
+      {
+        "index": 18,
+        "anchor": "CN03-course-window",
+        "kind": "方法",
+        "title": "发送时间也占周期",
+        "y": 95,
+        "estimated_height": 46.4,
+        "mini": false,
+        "measured_height": 34.13437
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 18,
+    "sidebars": [
+      {
+        "index": 20,
+        "anchor": "CN03-course-ppp",
+        "kind": "课程连接",
+        "title": "先LCP后NCP",
+        "y": 95,
+        "estimated_height": 46.4,
+        "mini": false,
+        "measured_height": 34.95886
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 19,
+    "sidebars": [
+      {
+        "index": 20,
+        "anchor": "CN03-course-ppp",
+        "kind": "课程连接",
+        "title": "先LCP后NCP",
+        "y": 95,
+        "estimated_height": 46.4,
+        "mini": false,
+        "measured_height": 34.95886
+      }
+    ],
+    "occupied_margin_intervals": []
+  }
+]

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="340" viewBox="0 0 1040 340">
+<defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6" fill="none" stroke="#466c82" stroke-width="1.2"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="520" y="28" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="21" fill="#223644">同一输入的三种状态</text>
+<text x="125" y="100" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="19" fill="#223644">初始</text>
+<rect x="240" y="70" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="282.5" y="101.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">49a</text>
+<rect x="332" y="70" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="374.5" y="101.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">38</text>
+<rect x="424" y="70" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="466.5" y="101.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">65</text>
+<rect x="516" y="70" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="558.5" y="101.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">97</text>
+<rect x="608" y="70" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="650.5" y="101.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">76</text>
+<rect x="700" y="70" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="742.5" y="101.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">13</text>
+<rect x="792" y="70" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="834.5" y="101.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">27</text>
+<rect x="884" y="70" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="926.5" y="101.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">49b</text>
+<text x="125" y="185" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="19" fill="#223644">插入38后</text>
+<rect x="240" y="155" width="85" height="50" rx="4" fill="#dfefe6" stroke="#8ba1ab"/>
+<text x="282.5" y="186.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">38</text>
+<rect x="332" y="155" width="85" height="50" rx="4" fill="#dfefe6" stroke="#8ba1ab"/>
+<text x="374.5" y="186.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">49a</text>
+<rect x="424" y="155" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="466.5" y="186.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">65</text>
+<rect x="516" y="155" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="558.5" y="186.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">97</text>
+<rect x="608" y="155" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="650.5" y="186.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">76</text>
+<rect x="700" y="155" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="742.5" y="186.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">13</text>
+<rect x="792" y="155" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="834.5" y="186.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">27</text>
+<rect x="884" y="155" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="926.5" y="186.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">49b</text>
+<text x="125" y="270" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="19" fill="#223644">首次快速划分</text>
+<rect x="240" y="240" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="282.5" y="271.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">27</text>
+<rect x="332" y="240" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="374.5" y="271.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">38</text>
+<rect x="424" y="240" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="466.5" y="271.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">13</text>
+<rect x="516" y="240" width="85" height="50" rx="4" fill="#dfefe6" stroke="#8ba1ab"/>
+<text x="558.5" y="271.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">49a</text>
+<rect x="608" y="240" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="650.5" y="271.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">76</text>
+<rect x="700" y="240" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="742.5" y="271.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">97</text>
+<rect x="792" y="240" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="834.5" y="271.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">65</text>
+<rect x="884" y="240" width="85" height="50" rx="4" fill="#ddeff5" stroke="#8ba1ab"/>
+<text x="926.5" y="271.0" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="17" fill="#223644">49b</text>
+<text x="520" y="325" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="18" fill="#223644">插入维护有序前缀；快速划分确定一个枢轴及左右大小关系</text>
+</svg>

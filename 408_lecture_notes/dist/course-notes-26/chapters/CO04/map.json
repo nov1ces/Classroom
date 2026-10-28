@@ -1,0 +1,98 @@
+{
+  "id": "CO04",
+  "title": "指令系统与 C 程序的机器级表示",
+  "branches": [
+    {
+      "label": "指令格式与编码",
+      "children": [
+        "操作码和地址字段",
+        "零一二三地址格式",
+        "定长与变长",
+        "扩展前缀容量"
+      ]
+    },
+    {
+      "label": "数据寻址",
+      "children": [
+        "隐含立即直接间接",
+        "寄存器及寄存器间接",
+        "基址变址相对",
+        "堆栈与有效地址"
+      ]
+    },
+    {
+      "label": "指令寻址与访问",
+      "children": [
+        "顺序和跳跃",
+        "PC基准和指令长度",
+        "位移符号与缩放",
+        "取指取数和写回次数"
+      ]
+    },
+    {
+      "label": "ISA设计取舍",
+      "children": [
+        "RISC和CISC倾向",
+        "Load/Store数据访问",
+        "编码规整与流水",
+        "控制方式和ABI边界"
+      ]
+    },
+    {
+      "label": "程序工具链",
+      "children": [
+        "预处理和编译",
+        "汇编与可重定位目标",
+        "符号解析和重定位",
+        "装入与运行环境"
+      ]
+    },
+    {
+      "label": "控制流与过程调用",
+      "children": [
+        "条件与循环结构",
+        "有符号无符号分支",
+        "返回地址和栈帧",
+        "递归及调用者保存"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_1 数据寻址1.pdf",
+      "pages": [
+        4
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.2_2 数据寻址2_偏移寻址.pdf",
+      "pages": [
+        3
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第四章 指令系统/4.2.1 指令寻址.pdf",
+      "pages": [
+        2
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "pages": [
+        160
+      ],
+      "role": "book_crosscheck",
+      "visual_checked": true
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "指令编码、RISC/CISC、静态工具链、控制流和调用的章级分支依据教材第4章框架及旧讲义补绘；数据寻址和指令寻址沿已目验节级导图整合。"
+  ]
+}

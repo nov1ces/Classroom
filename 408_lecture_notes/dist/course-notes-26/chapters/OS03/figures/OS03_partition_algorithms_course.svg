@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC,sans-serif" fill="#20343f">
+<text x="20" y="31" font-size="24" font-weight="bold">王道课件：按空闲链选择分区并依次分配</text>
+<text x="20" y="59" font-size="18">前三行方框为“大小 @ 起始地址”，单位MB；末行只标课件给出的空闲区大小。</text>
+<text x="20" y="111" font-size="20" font-weight="bold">首次适应</text>
+<text x="145" y="106" font-size="17">初始空闲链</text>
+<rect x="145" y="117" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="184.0" y="138" text-anchor="middle" font-size="16">20 @ 8</text>
+<rect x="227" y="117" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="266.0" y="138" text-anchor="middle" font-size="16">10 @ 32</text>
+<rect x="309" y="117" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="348.0" y="138" text-anchor="middle" font-size="16">4 @ 60</text>
+<text x="400" y="107" font-size="16">P5：15 MB</text>
+<path d="M400 132 h65 m-10 -7 l10 7 l-10 7" fill="none" stroke="#466C82" stroke-width="2"/>
+<text x="495" y="106" font-size="17">分配P5后</text>
+<rect x="495" y="117" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="534.0" y="138" text-anchor="middle" font-size="16">5 @ 23</text>
+<rect x="577" y="117" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="616.0" y="138" text-anchor="middle" font-size="16">10 @ 32</text>
+<rect x="659" y="117" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="698.0" y="138" text-anchor="middle" font-size="16">4 @ 60</text>
+<text x="750" y="107" font-size="16">P6：8 MB</text>
+<path d="M750 132 h65 m-10 -7 l10 7 l-10 7" fill="none" stroke="#466C82" stroke-width="2"/>
+<text x="845" y="106" font-size="17">分配P6后</text>
+<rect x="845" y="117" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="884.0" y="138" text-anchor="middle" font-size="16">5 @ 23</text>
+<rect x="927" y="117" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="966.0" y="138" text-anchor="middle" font-size="16">2 @ 40</text>
+<rect x="1009" y="117" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="1048.0" y="138" text-anchor="middle" font-size="16">4 @ 60</text>
+<path d="M20 167 H1180" stroke="#e0e8eb"/>
+<text x="20" y="216" font-size="20" font-weight="bold">最佳适应</text>
+<text x="145" y="211" font-size="17">初始空闲链</text>
+<rect x="145" y="222" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="184.0" y="243" text-anchor="middle" font-size="16">4 @ 60</text>
+<rect x="227" y="222" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="266.0" y="243" text-anchor="middle" font-size="16">10 @ 32</text>
+<rect x="309" y="222" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="348.0" y="243" text-anchor="middle" font-size="16">20 @ 8</text>
+<text x="400" y="212" font-size="16">P5：3 MB</text>
+<path d="M400 237 h65 m-10 -7 l10 7 l-10 7" fill="none" stroke="#466C82" stroke-width="2"/>
+<text x="495" y="211" font-size="17">分配P5后</text>
+<rect x="495" y="222" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="534.0" y="243" text-anchor="middle" font-size="16">1 @ 63</text>
+<rect x="577" y="222" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="616.0" y="243" text-anchor="middle" font-size="16">10 @ 32</text>
+<rect x="659" y="222" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="698.0" y="243" text-anchor="middle" font-size="16">20 @ 8</text>
+<text x="750" y="212" font-size="16">P6：9 MB</text>
+<path d="M750 237 h65 m-10 -7 l10 7 l-10 7" fill="none" stroke="#466C82" stroke-width="2"/>
+<text x="845" y="211" font-size="17">分配P6后</text>
+<rect x="845" y="222" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="884.0" y="243" text-anchor="middle" font-size="16">1 @ 63</text>
+<rect x="927" y="222" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="966.0" y="243" text-anchor="middle" font-size="16">1 @ 41</text>
+<rect x="1009" y="222" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="1048.0" y="243" text-anchor="middle" font-size="16">20 @ 8</text>
+<path d="M20 272 H1180" stroke="#e0e8eb"/>
+<text x="20" y="321" font-size="20" font-weight="bold">最坏适应</text>
+<text x="145" y="316" font-size="17">初始空闲链</text>
+<rect x="145" y="327" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="184.0" y="348" text-anchor="middle" font-size="16">20 @ 8</text>
+<rect x="227" y="327" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="266.0" y="348" text-anchor="middle" font-size="16">10 @ 32</text>
+<rect x="309" y="327" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="348.0" y="348" text-anchor="middle" font-size="16">4 @ 60</text>
+<text x="400" y="317" font-size="16">P5：3 MB</text>
+<path d="M400 342 h65 m-10 -7 l10 7 l-10 7" fill="none" stroke="#466C82" stroke-width="2"/>
+<text x="495" y="316" font-size="17">分配P5后</text>
+<rect x="495" y="327" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="534.0" y="348" text-anchor="middle" font-size="16">17 @ 11</text>
+<rect x="577" y="327" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="616.0" y="348" text-anchor="middle" font-size="16">10 @ 32</text>
+<rect x="659" y="327" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="698.0" y="348" text-anchor="middle" font-size="16">4 @ 60</text>
+<text x="750" y="317" font-size="16">P6：9 MB</text>
+<path d="M750 342 h65 m-10 -7 l10 7 l-10 7" fill="none" stroke="#466C82" stroke-width="2"/>
+<text x="845" y="316" font-size="17">分配P6后</text>
+<rect x="845" y="327" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="884.0" y="348" text-anchor="middle" font-size="16">10 @ 32</text>
+<rect x="927" y="327" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="966.0" y="348" text-anchor="middle" font-size="16">8 @ 20</text>
+<rect x="1009" y="327" width="78" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="1048.0" y="348" text-anchor="middle" font-size="16">4 @ 60</text>
+<path d="M20 377 H1180" stroke="#e0e8eb"/>
+<text x="20" y="426" font-size="20" font-weight="bold">邻近适应</text>
+<text x="145" y="421" font-size="17">初始空闲链</text>
+<rect x="145" y="432" width="58" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="174.0" y="453" text-anchor="middle" font-size="16">4</text>
+<rect x="207" y="432" width="58" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="236.0" y="453" text-anchor="middle" font-size="16">6</text>
+<rect x="269" y="432" width="58" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="298.0" y="453" text-anchor="middle" font-size="16">10</text>
+<rect x="331" y="432" width="58" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="360.0" y="453" text-anchor="middle" font-size="16">4</text>
+<text x="400" y="422" font-size="16">P5：5 MB</text>
+<path d="M400 447 h65 m-10 -7 l10 7 l-10 7" fill="none" stroke="#466C82" stroke-width="2"/>
+<text x="495" y="421" font-size="17">分配P5后</text>
+<rect x="495" y="432" width="58" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="524.0" y="453" text-anchor="middle" font-size="16">4</text>
+<rect x="557" y="432" width="58" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="586.0" y="453" text-anchor="middle" font-size="16">1</text>
+<rect x="619" y="432" width="58" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="648.0" y="453" text-anchor="middle" font-size="16">10</text>
+<rect x="681" y="432" width="58" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="710.0" y="453" text-anchor="middle" font-size="16">4</text>
+<text x="750" y="422" font-size="16">P6：5 MB</text>
+<path d="M750 447 h65 m-10 -7 l10 7 l-10 7" fill="none" stroke="#466C82" stroke-width="2"/>
+<text x="845" y="421" font-size="17">分配P6后</text>
+<rect x="845" y="432" width="58" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="874.0" y="453" text-anchor="middle" font-size="16">4</text>
+<rect x="907" y="432" width="58" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="936.0" y="453" text-anchor="middle" font-size="16">1</text>
+<rect x="969" y="432" width="58" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="998.0" y="453" text-anchor="middle" font-size="16">5</text>
+<rect x="1031" y="432" width="58" height="32" rx="3" fill="#DFEDF3" stroke="#6C94A8"/>
+<text x="1060.0" y="453" text-anchor="middle" font-size="16">4</text>
+<path d="M20 482 H1180" stroke="#e0e8eb"/>
+</g></svg>

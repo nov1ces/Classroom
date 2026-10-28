@@ -1,0 +1,27 @@
+{
+  "chapter": "CO06",
+  "checks": [
+    {
+      "name": "32bit/33MHz带宽Bps",
+      "actual": 132000000,
+      "expected": 132000000,
+      "passed": true
+    },
+    {
+      "name": "8设备三类仲裁线数",
+      "actual": [
+        3,
+        5,
+        17
+      ],
+      "expected": [
+        3,
+        5,
+        17
+      ],
+      "passed": true
+    }
+  ],
+  "status": "passed",
+  "method": "independent arithmetic/bit-level models; full document numerical review continues at integration"
+}

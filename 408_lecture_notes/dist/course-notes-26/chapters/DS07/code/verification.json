@@ -1,0 +1,11 @@
+{
+  "source": "Code blocks extracted verbatim from content.md; types/includes and test harness separate",
+  "compiler": "g++ C++17 (supports textbook C++ references)",
+  "checks": [
+    "-Wall -Wextra -Wpedantic -Werror",
+    "ASan",
+    "UBSan"
+  ],
+  "result": "passed",
+  "output": "sentinel/empty/binary bounds, BST insertion and reference rotations passed\n"
+}

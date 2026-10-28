@@ -1,0 +1,17 @@
+{
+  "index_consistency": "pass",
+  "issues": [],
+  "totals": {
+    "mindmap_ocr_inventory": {
+      "files": 85,
+      "file_pages": 94,
+      "all_markers_checked": true
+    },
+    "lecture_scan_ocr_inventory": {
+      "files": 10,
+      "file_pages": 98,
+      "all_markers_checked": true
+    }
+  },
+  "scope": "OCR output existence and all file-page markers; transcription accuracy and source visual review remain separate"
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="560" viewBox="0 0 1100 560">
+<defs><marker id="arrow" markerWidth="9" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#547f96"/></marker></defs>
+<rect width="1100" height="560" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#294958">
+<text x="550" y="35" text-anchor="middle" font-size="23">页0缺页：有空闲页框与需要置换</text>
+<rect x="300" y="65" width="500" height="72" rx="5" fill="#deedf5" stroke="#8da8b6"/>
+<text x="550.0" y="94.5" text-anchor="middle" font-size="21">页0不驻留，后备位置为x</text>
+<text x="550.0" y="121.5" text-anchor="middle" font-size="21">页1在框b；页2在框c且修改位为1</text>
+<rect x="55" y="215" width="400" height="70" rx="5" fill="#dfefe4" stroke="#8da8b6"/>
+<text x="255.0" y="257.0" text-anchor="middle" font-size="21">存在空闲页框a</text>
+<rect x="645" y="215" width="400" height="70" rx="5" fill="#f6e5ec" stroke="#8da8b6"/>
+<text x="845.0" y="257.0" text-anchor="middle" font-size="21">没有空闲页框</text>
+<path d="M420,137 L255,215" stroke="#547f96" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M680,137 L845,215" stroke="#547f96" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<rect x="55" y="355" width="400" height="95" rx="5" fill="#fff1ce" stroke="#8da8b6"/>
+<text x="255.0" y="396.0" text-anchor="middle" font-size="21">页0从外存x调入页框a</text>
+<text x="255.0" y="423.0" text-anchor="middle" font-size="21">页1、页2保持驻留</text>
+<rect x="645" y="355" width="400" height="95" rx="5" fill="#fff1ce" stroke="#8da8b6"/>
+<text x="845.0" y="396.0" text-anchor="middle" font-size="21">页2写回外存z并撤销映射</text>
+<text x="845.0" y="423.0" text-anchor="middle" font-size="21">页0从x调入页框c</text>
+<path d="M255,285 L255,355" stroke="#547f96" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<path d="M845,285 L845,355" stroke="#547f96" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+<text x="550" y="525" text-anchor="middle" font-size="20">I/O完成后更新页表，进程进入就绪，稍后重试原访存。</text>
+</g></svg>

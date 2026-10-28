@@ -1,0 +1,217 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "DS01-01",
+        "kind": "课程连接",
+        "title": "逻辑与物理",
+        "y": 343.272216796875,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.82587
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        129.8519515991211
+      ],
+      [
+        142.18402099609375,
+        343.272216796875
+      ],
+      [
+        155.69032287597656,
+        193.352294921875
+      ],
+      [
+        188.10543823242188,
+        225.7674102783203
+      ],
+      [
+        220.52056884765625,
+        258.1825256347656
+      ],
+      [
+        252.9356689453125,
+        290.59765625
+      ],
+      [
+        285.3507995605469,
+        323.01275634765625
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "DS01-01",
+        "kind": "课程连接",
+        "title": "逻辑与物理",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.82587
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 2,
+        "anchor": "DS01-02",
+        "kind": "错项排除",
+        "title": "有穷不等于很快",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 67.08435
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 6,
+        "anchor": "DS01-ex2",
+        "kind": "不变量",
+        "title": "累计值与轮数不同",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.14935
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 7,
+        "anchor": "DS01-ex3",
+        "kind": "不变量",
+        "title": "先列每轮工作量",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 55.78937
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 1,
+        "anchor": "DS01-map",
+        "kind": "最小反例",
+        "title": "链式不等于树",
+        "y": 95,
+        "estimated_height": 206.2,
+        "mini": true,
+        "measured_height": 156.57916
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        393.02752685546875,
+        418.2928466796875
+      ],
+      [
+        410.18853759765625,
+        471.31982421875
+      ],
+      [
+        391.10150146484375,
+        403.89849853515625
+      ],
+      [
+        408.5608825683594,
+        421.0591125488281
+      ],
+      [
+        461.5874938964844,
+        474.3844909667969
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "sidebars": [
+      {
+        "index": 9,
+        "anchor": "DS01-rules",
+        "kind": "最小反例",
+        "title": "重复申请不等于同时占用",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.47235
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        631.0835571289062,
+        656.3488159179688
+      ],
+      [
+        648.2445678710938,
+        735.18212890625
+      ],
+      [
+        629.1575317382812,
+        641.9545288085938
+      ],
+      [
+        646.616943359375,
+        659.1151123046875
+      ],
+      [
+        723.62451171875,
+        736.4215087890625
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "sidebars": [
+      {
+        "index": 11,
+        "anchor": "DS01-errors",
+        "kind": "错项排除",
+        "title": "效率不是唯一质量",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.14935
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [
+      {
+        "index": 16,
+        "anchor": "DS01-recall-extra",
+        "kind": "自查提示",
+        "title": "推导与结果一起核对",
+        "y": 95,
+        "estimated_height": 57.099999999999994,
+        "mini": false,
+        "measured_height": 44.95337
+      }
+    ],
+    "occupied_margin_intervals": []
+  }
+]

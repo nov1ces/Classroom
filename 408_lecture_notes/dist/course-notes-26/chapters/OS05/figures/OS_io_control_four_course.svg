@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="1280" viewBox="0 0 1240 1280">
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="#425f72"/></marker></defs>
+<rect width="1240" height="1280" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#223644">
+<rect x="25" y="35" width="580" height="585" rx="12" fill="#fafcfd" stroke="#b1c4cc" stroke-width="2"/>
+<text x="45" y="75" font-size="28" fill="#223644" text-anchor="start">① 程序直接控制</text>
+<rect x="85" y="105" width="460" height="65" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="315.0" y="145.9" text-anchor="middle" font-size="24">CPU 发读命令</text>
+<rect x="85" y="205" width="460" height="65" rx="7" fill="#e6f2e9" stroke="#7796a5" stroke-width="2"/>
+<text x="315.0" y="245.9" text-anchor="middle" font-size="24">轮询设备状态</text>
+<path d="M315 170 V203" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="85" y="305" width="460" height="65" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="315.0" y="345.9" text-anchor="middle" font-size="24">就绪：设备 → CPU</text>
+<path d="M315 270 V303" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="85" y="405" width="460" height="65" rx="7" fill="#e6f2e9" stroke="#7796a5" stroke-width="2"/>
+<text x="315.0" y="445.9" text-anchor="middle" font-size="24">CPU → 内存；检查是否完成</text>
+<path d="M315 370 V403" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M545 237 H573 V205 H546" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="340" y="225" font-size="19" fill="#94616d" text-anchor="start">未就绪继续轮询</text>
+<rect x="635" y="35" width="580" height="585" rx="12" fill="#fafcfd" stroke="#b1c4cc" stroke-width="2"/>
+<text x="655" y="75" font-size="28" fill="#223644" text-anchor="start">② 中断驱动</text>
+<rect x="695" y="105" width="460" height="65" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="925.0" y="145.9" text-anchor="middle" font-size="24">CPU 发读命令</text>
+<rect x="695" y="205" width="460" height="65" rx="7" fill="#e6f2e9" stroke="#7796a5" stroke-width="2"/>
+<text x="925.0" y="245.9" text-anchor="middle" font-size="24">CPU 执行其他任务</text>
+<path d="M925 170 V203" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="695" y="305" width="460" height="65" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="925.0" y="345.9" text-anchor="middle" font-size="24">中断：CPU 检查状态</text>
+<path d="M925 270 V303" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="695" y="405" width="460" height="65" rx="7" fill="#e6f2e9" stroke="#7796a5" stroke-width="2"/>
+<text x="925.0" y="445.9" text-anchor="middle" font-size="24">设备 → CPU → 内存</text>
+<path d="M925 370 V403" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="690" y="555" font-size="21" fill="#223644" text-anchor="start">CPU 在每字中断服务中搬运数据</text>
+<rect x="25" y="655" width="580" height="585" rx="12" fill="#fafcfd" stroke="#b1c4cc" stroke-width="2"/>
+<text x="45" y="695" font-size="28" fill="#223644" text-anchor="start">③ DMA 控制</text>
+<rect x="85" y="725" width="460" height="65" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="315.0" y="765.9" text-anchor="middle" font-size="24">CPU 设置方向、地址、计数</text>
+<rect x="85" y="825" width="460" height="65" rx="7" fill="#e6f2e9" stroke="#7796a5" stroke-width="2"/>
+<text x="315.0" y="865.9" text-anchor="middle" font-size="24">DMA 启动并执行传送</text>
+<path d="M315 790 V823" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="85" y="925" width="460" height="65" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="315.0" y="965.9" text-anchor="middle" font-size="24">设备 ⇄ 内存（DMA）</text>
+<path d="M315 890 V923" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="85" y="1025" width="460" height="65" rx="7" fill="#e6f2e9" stroke="#7796a5" stroke-width="2"/>
+<text x="315.0" y="1065.9" text-anchor="middle" font-size="24">整块完成：中断 CPU</text>
+<path d="M315 990 V1023" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="80" y="1175" font-size="21" fill="#223644" text-anchor="start">CPU 介入启动、异常和结束处理</text>
+<rect x="635" y="655" width="580" height="585" rx="12" fill="#fafcfd" stroke="#b1c4cc" stroke-width="2"/>
+<text x="655" y="695" font-size="28" fill="#223644" text-anchor="start">④ 通道控制</text>
+<rect x="695" y="725" width="460" height="65" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="925.0" y="765.9" text-anchor="middle" font-size="24">CPU 给出通道程序地址</text>
+<rect x="695" y="825" width="460" height="65" rx="7" fill="#e6f2e9" stroke="#7796a5" stroke-width="2"/>
+<text x="925.0" y="865.9" text-anchor="middle" font-size="24">通道取指并自主执行</text>
+<path d="M925 790 V823" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="695" y="925" width="460" height="65" rx="7" fill="#e1eef3" stroke="#7796a5" stroke-width="2"/>
+<text x="925.0" y="965.9" text-anchor="middle" font-size="24">设备 ⇄ 内存（通道）</text>
+<path d="M925 890 V923" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="695" y="1025" width="460" height="65" rx="7" fill="#e6f2e9" stroke="#7796a5" stroke-width="2"/>
+<text x="925.0" y="1065.9" text-anchor="middle" font-size="24">整组任务结束：中断 CPU</text>
+<path d="M925 990 V1023" fill="none" stroke="#425f72" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="690" y="1175" font-size="21" fill="#223644" text-anchor="start">通道程序位于内存，组织一组数据块</text>
+</g></svg>

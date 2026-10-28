@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#47677b"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, Noto Sans SC, sans-serif" fill="#223644" font-size="20">
+<text x="480" y="32" text-anchor="middle" font-size="23" font-weight="bold">第一类与第二类VMM的层次</text>
+<rect x="35" y="65" width="400" height="65" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="235.0" y="92.0" text-anchor="middle" font-size="20">客户应用／客户OS</text>
+<text x="235.0" y="117.0" text-anchor="middle" font-size="20">各虚拟机相互隔离</text>
+<rect x="35" y="148" width="400" height="65" rx="6" stroke="#809eae" fill="#e0efdf"/>
+<text x="235.0" y="175.0" text-anchor="middle" font-size="20">第一类VMM</text>
+<text x="235.0" y="200.0" text-anchor="middle" font-size="20">直接控制物理资源</text>
+<path d="M235,130 L235,148" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="35" y="231" width="400" height="65" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="235.0" y="258.0" text-anchor="middle" font-size="20">物理硬件</text>
+<text x="235.0" y="283.0" text-anchor="middle" font-size="20">CPU、内存、I/O</text>
+<path d="M235,213 L235,231" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="525" y="65" width="400" height="65" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="725.0" y="92.0" text-anchor="middle" font-size="20">客户应用／客户OS</text>
+<text x="725.0" y="117.0" text-anchor="middle" font-size="20">各虚拟机相互隔离</text>
+<rect x="525" y="148" width="400" height="65" rx="6" stroke="#809eae" fill="#e0efdf"/>
+<text x="725.0" y="175.0" text-anchor="middle" font-size="20">第二类VMM</text>
+<text x="725.0" y="200.0" text-anchor="middle" font-size="20">使用宿主服务</text>
+<path d="M725,130 L725,148" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="525" y="231" width="400" height="65" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="725.0" y="258.0" text-anchor="middle" font-size="20">宿主操作系统</text>
+<text x="725.0" y="283.0" text-anchor="middle" font-size="20">设备驱动与资源管理</text>
+<path d="M725,213 L725,231" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="525" y="314" width="400" height="65" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="725.0" y="341.0" text-anchor="middle" font-size="20">物理硬件</text>
+<text x="725.0" y="366.0" text-anchor="middle" font-size="20">CPU、内存、I/O</text>
+<path d="M725,296 L725,314" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+</g></svg>

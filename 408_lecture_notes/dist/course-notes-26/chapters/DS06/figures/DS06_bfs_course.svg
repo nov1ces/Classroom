@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="410" viewBox="0 0 1100 410">
+<rect width="100%" height="100%" fill="white"/>
+<text x="270" y="30" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="22" fill="#223644">原无向图：以2为源点</text>
+<path d="M87.0,145.0 L173.0,145.0" fill="none" stroke="#b67f99" stroke-width="3"/>
+<path d="M65.0,167.0 L65.0,273.0" fill="none" stroke="#b67f99" stroke-width="3"/>
+<path d="M195.0,167.0 L195.0,273.0" fill="none" stroke="#b67f99" stroke-width="3"/>
+<path d="M347.0,145.0 L433.0,145.0" fill="none" stroke="#b67f99" stroke-width="3"/>
+<path d="M310.59152815480746,161.62515982137597 L209.4084718451925,278.374840178624" fill="none" stroke="#b67f99" stroke-width="3"/>
+<path d="M325.0,167.0 L325.0,273.0" fill="none" stroke="#8ca2ae" stroke-width="3"/>
+<path d="M440.59152815480746,161.62515982137597 L339.40847184519254,278.374840178624" fill="none" stroke="#8ca2ae" stroke-width="3"/>
+<path d="M455.0,167.0 L455.0,273.0" fill="none" stroke="#8ca2ae" stroke-width="3"/>
+<path d="M217.0,295.0 L303.0,295.0" fill="none" stroke="#b67f99" stroke-width="3"/>
+<path d="M347.0,295.0 L433.0,295.0" fill="none" stroke="#b67f99" stroke-width="3"/>
+<circle cx="65" cy="145" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="65" y="152" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">1</text>
+<circle cx="195" cy="145" r="23" fill="#fff1b4" stroke="#6a8794"/>
+<text x="195" y="152" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">2</text>
+<circle cx="325" cy="145" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="325" y="152" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">3</text>
+<circle cx="455" cy="145" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="455" y="152" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">4</text>
+<circle cx="65" cy="295" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="65" y="302" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">5</text>
+<circle cx="195" cy="295" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="195" y="302" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">6</text>
+<circle cx="325" cy="295" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="325" y="302" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">7</text>
+<circle cx="455" cy="295" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="455" y="302" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">8</text>
+<text x="270" y="380" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="19" fill="#223644">粉色边为首次发现各结点的树边</text>
+<text x="820" y="30" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="22" fill="#223644">BFS生成树：同层按编号访问</text>
+<path d="M795.8595119113305,95.84627658357937 L684.1404880886695,159.15372341642063" fill="none" stroke="#b67f99" stroke-width="3"/>
+<path d="M830.0780233781098,101.02039983924166 L879.9219766218902,153.97960016075834" fill="none" stroke="#b67f99" stroke-width="3"/>
+<path d="M665.0,192.0 L665.0,233.0" fill="none" stroke="#b67f99" stroke-width="3"/>
+<path d="M879.9219766218902,186.02039983924166 L830.0780233781098,238.97960016075834" fill="none" stroke="#b67f99" stroke-width="3"/>
+<path d="M911.7626649907081,184.2482652421019 L978.2373350092919,240.7517347578981" fill="none" stroke="#b67f99" stroke-width="3"/>
+<path d="M815.0,277.0 L815.0,318.0" fill="none" stroke="#b67f99" stroke-width="3"/>
+<path d="M995.0,277.0 L995.0,318.0" fill="none" stroke="#b67f99" stroke-width="3"/>
+<circle cx="815" cy="85" r="23" fill="#fff1b4" stroke="#6a8794"/>
+<text x="815" y="92" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">2</text>
+<circle cx="665" cy="170" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="665" y="177" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">1</text>
+<circle cx="895" cy="170" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="895" y="177" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">6</text>
+<circle cx="665" cy="255" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="665" y="262" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">5</text>
+<circle cx="815" cy="255" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="815" y="262" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">3</text>
+<circle cx="995" cy="255" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="995" y="262" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">7</text>
+<circle cx="815" cy="340" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="815" y="347" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">4</text>
+<circle cx="995" cy="340" r="23" fill="#ddeff5" stroke="#6a8794"/>
+<text x="995" y="347" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="20" fill="#223644">8</text>
+<text x="820" y="395" text-anchor="middle" font-family="Noto Sans CJK SC,sans-serif" font-size="19" fill="#223644">2到8：2 → 6 → 7 → 8，长度3</text>
+</svg>

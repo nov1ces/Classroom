@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="400" viewBox="0 0 960 400">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#47677b"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, Noto Sans SC, sans-serif" fill="#223644" font-size="20">
+<text x="480" y="32" text-anchor="middle" font-size="23" font-weight="bold">传统BIOS／MBR引导链</text>
+<rect x="15" y="100" width="215" height="105" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="122.5" y="147.0" text-anchor="middle" font-size="20">固件ROM</text>
+<text x="122.5" y="172.0" text-anchor="middle" font-size="20">自检与初始引导</text>
+<rect x="253" y="100" width="215" height="105" rx="6" stroke="#809eae" fill="#e0efdf"/>
+<text x="360.5" y="147.0" text-anchor="middle" font-size="20">磁盘MBR</text>
+<text x="360.5" y="172.0" text-anchor="middle" font-size="20">引导代码与分区表</text>
+<path d="M230,152 L253,152" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="491" y="100" width="215" height="105" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="598.5" y="147.0" text-anchor="middle" font-size="20">活动分区PBR</text>
+<text x="598.5" y="172.0" text-anchor="middle" font-size="20">装入后续引导程序</text>
+<path d="M468,152 L491,152" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="729" y="100" width="215" height="105" rx="6" stroke="#809eae" fill="#e0efdf"/>
+<text x="836.5" y="147.0" text-anchor="middle" font-size="20">启动管理器／装入器</text>
+<text x="836.5" y="172.0" text-anchor="middle" font-size="20">装入并初始化内核</text>
+<path d="M706,152 L729,152" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<text x="480" y="275" text-anchor="middle" font-size="20">程序逐级读入RAM后执行；MBR和PBR位于不同的磁盘结构层次。</text>
+<text x="480" y="332" text-anchor="middle" font-size="18">UEFI／GPT等采用相应启动流程，不能把某一传统链条当作所有平台通则。</text>
+</g></svg>

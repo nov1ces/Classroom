@@ -1,0 +1,96 @@
+{
+  "method": "actual TikZ node heights emitted by XeLaTeX",
+  "measurements": [
+    {
+      "page": 1,
+      "index": 0,
+      "height_pt": 157.15521
+    },
+    {
+      "page": 2,
+      "index": 0,
+      "height_pt": 157.15521
+    },
+    {
+      "page": 3,
+      "index": 1,
+      "height_pt": 66.17487
+    },
+    {
+      "page": 4,
+      "index": 2,
+      "height_pt": 55.71286
+    },
+    {
+      "page": 5,
+      "index": 3,
+      "height_pt": 55.48337
+    },
+    {
+      "page": 6,
+      "index": 14,
+      "height_pt": 45.11487
+    },
+    {
+      "page": 7,
+      "index": 6,
+      "height_pt": 55.44937
+    },
+    {
+      "page": 8,
+      "index": 5,
+      "height_pt": 77.21484
+    },
+    {
+      "page": 9,
+      "index": 5,
+      "height_pt": 77.21484
+    },
+    {
+      "page": 10,
+      "index": 7,
+      "height_pt": 55.55984
+    },
+    {
+      "page": 11,
+      "index": 8,
+      "height_pt": 66.14935
+    },
+    {
+      "page": 12,
+      "index": 9,
+      "height_pt": 66.13235
+    },
+    {
+      "page": 13,
+      "index": 17,
+      "height_pt": 44.96185
+    },
+    {
+      "page": 14,
+      "index": 17,
+      "height_pt": 44.96185
+    },
+    {
+      "page": 15,
+      "index": 10,
+      "height_pt": 55.44937
+    },
+    {
+      "page": 16,
+      "index": 11,
+      "height_pt": 66.25134
+    },
+    {
+      "page": 17,
+      "index": 11,
+      "height_pt": 66.25134
+    },
+    {
+      "page": 18,
+      "index": 11,
+      "height_pt": 66.25134
+    }
+  ],
+  "collisions": []
+}

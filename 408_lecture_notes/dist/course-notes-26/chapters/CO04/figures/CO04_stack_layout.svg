@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="410" viewBox="0 0 900 410">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6" fill="none" stroke="#466C82" stroke-width="1.2"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<g font-family="Noto Sans CJK SC,Noto Sans SC,sans-serif" font-size="19" fill="#263945">
+<text x="450.0" y="30" text-anchor="middle" font-size="23" fill="#263945">
+<tspan x="450.0" dy="0">32位EBP栈帧示例（栈向低地址增长）</tspan>
+</text>
+<text x="245" y="83" text-anchor="end" font-size="20" fill="#263945">
+<tspan x="245" dy="0">EBP+12</tspan>
+</text>
+<rect x="280" y="55" width="380" height="45" rx="7" fill="#DFEFE6" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="470.0" y="83.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="470.0" dy="0">第二个参数</tspan>
+</text>
+<text x="245" y="133" text-anchor="end" font-size="20" fill="#263945">
+<tspan x="245" dy="0">EBP+8</tspan>
+</text>
+<rect x="280" y="105" width="380" height="45" rx="7" fill="#DFEFE6" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="470.0" y="133.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="470.0" dy="0">第一个参数</tspan>
+</text>
+<text x="245" y="183" text-anchor="end" font-size="20" fill="#263945">
+<tspan x="245" dy="0">EBP+4</tspan>
+</text>
+<rect x="280" y="155" width="380" height="45" rx="7" fill="#DFEFE6" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="470.0" y="183.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="470.0" dy="0">返回地址</tspan>
+</text>
+<text x="245" y="233" text-anchor="end" font-size="20" fill="#263945">
+<tspan x="245" dy="0">EBP</tspan>
+</text>
+<rect x="280" y="205" width="380" height="45" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="470.0" y="233.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="470.0" dy="0">保存的旧EBP</tspan>
+</text>
+<text x="245" y="283" text-anchor="end" font-size="20" fill="#263945">
+<tspan x="245" dy="0">EBP−4</tspan>
+</text>
+<rect x="280" y="255" width="380" height="45" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="470.0" y="283.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="470.0" dy="0">局部变量</tspan>
+</text>
+<text x="245" y="333" text-anchor="end" font-size="20" fill="#263945">
+<tspan x="245" dy="0">EBP−8</tspan>
+</text>
+<rect x="280" y="305" width="380" height="45" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="470.0" y="333.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="470.0" dy="0">局部变量</tspan>
+</text>
+<path d="M760,75 L760,335" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="780" y="185" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="780" dy="0">地址</tspan>
+<tspan x="780" dy="26.099999999999998">减小</tspan>
+</text>
+<text x="450" y="390" text-anchor="middle" font-size="19" fill="#263945">
+<tspan x="450" dy="0">标准建帧：push ebp；mov ebp, esp</tspan>
+</text>
+</g></svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="376" viewBox="0 0 680 376">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC,sans-serif" fill="#223644" font-size="18">
+<rect x="8" y="153.0" width="174" height="70" rx="7" fill="#DDEFF5"/>
+<text x="95" y="194.0" text-anchor="middle" font-weight="bold">计算机系统概述</text>
+<path d="M182,188.0 H206 V39 H230" fill="none" stroke="#7C9AA9" stroke-width="1.5"/>
+<rect x="230" y="20" width="430" height="38" rx="4" fill="#DFEFE6"/>
+<text x="248" y="45">功能与基本特征</text>
+<path d="M182,188.0 H206 V87 H230" fill="none" stroke="#7C9AA9" stroke-width="1.5"/>
+<rect x="230" y="68" width="430" height="38" rx="4" fill="#DFEFE6"/>
+<text x="248" y="93">操作系统发展与类型</text>
+<path d="M182,188.0 H206 V135 H230" fill="none" stroke="#7C9AA9" stroke-width="1.5"/>
+<rect x="230" y="116" width="430" height="38" rx="4" fill="#DFEFE6"/>
+<text x="248" y="141">运行机制与受控入口</text>
+<path d="M182,188.0 H206 V183 H230" fill="none" stroke="#7C9AA9" stroke-width="1.5"/>
+<rect x="230" y="164" width="430" height="38" rx="4" fill="#DFEFE6"/>
+<text x="248" y="189">程序链接、装入与运行映像</text>
+<path d="M182,188.0 H206 V231 H230" fill="none" stroke="#7C9AA9" stroke-width="1.5"/>
+<rect x="230" y="212" width="430" height="38" rx="4" fill="#DFEFE6"/>
+<text x="248" y="237">内核结构与保护边界</text>
+<path d="M182,188.0 H206 V279 H230" fill="none" stroke="#7C9AA9" stroke-width="1.5"/>
+<rect x="230" y="260" width="430" height="38" rx="4" fill="#DFEFE6"/>
+<text x="248" y="285">启动与持久结构</text>
+<path d="M182,188.0 H206 V327 H230" fill="none" stroke="#7C9AA9" stroke-width="1.5"/>
+<rect x="230" y="308" width="430" height="38" rx="4" fill="#DFEFE6"/>
+<text x="248" y="333">虚拟机与资源抽象</text>
+</g></svg>

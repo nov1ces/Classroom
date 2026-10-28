@@ -1,0 +1,168 @@
+{
+  "time_utc": "2026-10-27T10:39:41.430993+00:00",
+  "subject": "OS01",
+  "kind": "独立精讲导图辅助查漏",
+  "files": [
+    {
+      "source": "03_操作系统/【导图】精讲课/1-1 操作系统的基本概念 导图【公众号：研料库，料最全】.pdf",
+      "sha256": "453dfaba5bd1b7574f8e36ffe092366137ec182a52bd6c3b226e69e9a514b1e3",
+      "file_pages": 1,
+      "visually_viewed_pages": [
+        1
+      ],
+      "method": "PyMuPDF按原页面宽度渲染2000像素并以原分辨率查看整幅图；对照OCR和章节正文锚点",
+      "topics": [
+        {
+          "topic": "操作系统位置、资源管理及接口",
+          "targets": [
+            "OS01-1-1",
+            "OS01-interfaces"
+          ]
+        },
+        {
+          "topic": "联机/脱机命令接口",
+          "targets": [
+            "OS01-interfaces"
+          ]
+        },
+        {
+          "topic": "并发、共享、虚拟、异步以及并行区别",
+          "targets": [
+            "OS01-auto-1"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "03_操作系统/【导图】精讲课/1-2 操作系统的发展历程 导图【公众号：研料库，料最全】.pdf",
+      "sha256": "c7c213a8146fdde849938620817600fbb90e1cb2484500a6b2432dbfefde64c9",
+      "file_pages": 1,
+      "visually_viewed_pages": [
+        1
+      ],
+      "method": "PyMuPDF按原页面宽度渲染2000像素并以原分辨率查看整幅图；对照OCR和章节正文锚点",
+      "topics": [
+        {
+          "topic": "人工、脱机输入输出、单道和多道批处理",
+          "targets": [
+            "OS01-1-2",
+            "OS01-batch-evolution"
+          ]
+        },
+        {
+          "topic": "分时、实时、网络和分布式系统",
+          "targets": [
+            "OS01-1-2"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "03_操作系统/【导图】精讲课/1-3 OS 的运行环境 导图【公众号：研料库，料最全】.pdf",
+      "sha256": "4e00ffd5785fb7d8c8d1409a187e2ab5fc4bfa94187c38fb846923ef6f14021d",
+      "file_pages": 1,
+      "visually_viewed_pages": [
+        1
+      ],
+      "method": "PyMuPDF按原页面宽度渲染2000像素并以原分辨率查看整幅图；对照OCR和章节正文锚点",
+      "topics": [
+        {
+          "topic": "系统引导、MBR/PBR",
+          "targets": [
+            "OS01-1-9"
+          ]
+        },
+        {
+          "topic": "内核机制、原语、中断处理、时钟",
+          "targets": [
+            "OS01-kernel-primitives"
+          ]
+        },
+        {
+          "topic": "用户态、内核态与特权指令",
+          "targets": [
+            "OS01-1-3"
+          ]
+        },
+        {
+          "topic": "系统调用与状态切换",
+          "targets": [
+            "OS01-1-5"
+          ]
+        },
+        {
+          "topic": "外部中断、异常分类及处理",
+          "targets": [
+            "OS01-1-4",
+            "OS01-exception-types"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "03_操作系统/【导图】精讲课/1-4 操作系统结构 导图【公众号：研料库，料最全】.pdf",
+      "sha256": "481d95e4cd5e66cbadbb04fea4340e6b74871ca18687d0356bba0b24b78161df",
+      "file_pages": 1,
+      "visually_viewed_pages": [
+        1
+      ],
+      "method": "PyMuPDF按原页面宽度渲染2000像素并以原分辨率查看整幅图；对照OCR和章节正文锚点",
+      "topics": [
+        {
+          "topic": "模块化与分层结构",
+          "targets": [
+            "OS01-1-8"
+          ]
+        },
+        {
+          "topic": "微内核、服务消息传递、可靠性与性能",
+          "targets": [
+            "OS01-1-8",
+            "OS01-ex1-3"
+          ]
+        },
+        {
+          "topic": "外核的资源保护与应用管理权",
+          "targets": [
+            "OS01-1-8"
+          ]
+        }
+      ]
+    },
+    {
+      "source": "03_操作系统/【导图】精讲课/1-5 虚拟机 导图【公众号：研料库，料最全】.pdf",
+      "sha256": "b59eb1aa226ee10fe37b7f511d34faff34625e52693ca0013549b7e636ef2a8b",
+      "file_pages": 1,
+      "visually_viewed_pages": [
+        1
+      ],
+      "method": "PyMuPDF按原页面宽度渲染2000像素并以原分辨率查看整幅图；对照OCR和章节正文锚点",
+      "topics": [
+        {
+          "topic": "虚拟机组成、VMM职责与隔离",
+          "targets": [
+            "OS01-1-10"
+          ]
+        },
+        {
+          "topic": "第一类和第二类VMM架构与比较",
+          "targets": [
+            "OS01-vmm-models"
+          ]
+        },
+        {
+          "topic": "客户内核权限与底层资源保护",
+          "targets": [
+            "OS01-1-10",
+            "OS01-vmm-models"
+          ]
+        }
+      ]
+    }
+  ],
+  "finding": "1-4的模块内聚、模块耦合及接口预设局限在正文中待补，已通知章节作者；各其他主要知识组可定位。",
+  "unresolved": [
+    "1-4模块高内聚低耦合及模块化局限已通知章节作者，待其写入后重新核验。"
+  ],
+  "scope": "五幅独立导图全页视觉及知识组比对；不意味着王道课件所有源图已审。"
+}

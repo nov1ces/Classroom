@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500">
+<rect width="100%" height="100%" fill="white"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#608092"/></marker></defs>
+<g font-family="Noto Sans CJK SC, sans-serif" fill="#253b47" font-size="20">
+<text x="25" y="33" text-anchor="start" font-size="24" fill="#253b47">快表未命中：先后查询与并行查询</text>
+<text x="25" y="78" text-anchor="start" font-size="21" fill="#253b47">先查快表，未命中后查慢表</text>
+<text x="25" y="122" text-anchor="start" font-size="18" fill="#253b47">查快表</text>
+<rect x="188.0" y="104" width="3.35" height="14" rx="2" fill="#dcefe5" stroke="#7593a2" stroke-width="1.4"/>
+<text x="202.35" y="118" text-anchor="start" font-size="16" fill="#253b47">1 μs</text>
+<text x="25" y="161" text-anchor="start" font-size="18" fill="#253b47">查慢表</text>
+<rect x="191.35" y="143" width="335.0" height="14" rx="2" fill="#fff1c6" stroke="#7593a2" stroke-width="1.4"/>
+<text x="25" y="200" text-anchor="start" font-size="18" fill="#253b47">访问内存</text>
+<rect x="526.35" y="182" width="335.0" height="14" rx="2" fill="#f1deea" stroke="#7593a2" stroke-width="1.4"/>
+<line x1="188" y1="229" x2="891.5" y2="229" stroke="#477793" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="188.0" y1="224" x2="188.0" y2="234" stroke="#477793" stroke-width="2" />
+<text x="188.0" y="254" text-anchor="middle" font-size="16" fill="#253b47">0</text>
+<line x1="191.35" y1="224" x2="191.35" y2="234" stroke="#477793" stroke-width="2" />
+<line x1="191.35" y1="226" x2="213.35" y2="209" stroke="#477793" stroke-width="2" />
+<text x="217.35" y="208" text-anchor="start" font-size="15" fill="#253b47">1</text>
+<line x1="526.35" y1="224" x2="526.35" y2="234" stroke="#477793" stroke-width="2" />
+<text x="526.35" y="254" text-anchor="middle" font-size="16" fill="#253b47">101</text>
+<line x1="861.35" y1="224" x2="861.35" y2="234" stroke="#477793" stroke-width="2" />
+<text x="861.35" y="254" text-anchor="middle" font-size="16" fill="#253b47">201</text>
+<text x="904.5" y="236" text-anchor="start" font-size="18" fill="#253b47">μs</text>
+<text x="25" y="283" text-anchor="start" font-size="21" fill="#253b47">快表与慢表同时查询</text>
+<text x="25" y="327" text-anchor="start" font-size="18" fill="#253b47">查快表</text>
+<rect x="188.0" y="309" width="3.35" height="14" rx="2" fill="#dcefe5" stroke="#7593a2" stroke-width="1.4"/>
+<text x="202.35" y="323" text-anchor="start" font-size="16" fill="#253b47">1 μs</text>
+<text x="25" y="366" text-anchor="start" font-size="18" fill="#253b47">查慢表</text>
+<rect x="188.0" y="348" width="335.0" height="14" rx="2" fill="#fff1c6" stroke="#7593a2" stroke-width="1.4"/>
+<text x="25" y="405" text-anchor="start" font-size="18" fill="#253b47">访问内存</text>
+<rect x="523.0" y="387" width="335.0" height="14" rx="2" fill="#f1deea" stroke="#7593a2" stroke-width="1.4"/>
+<line x1="188" y1="434" x2="891.5" y2="434" stroke="#477793" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="188.0" y1="429" x2="188.0" y2="439" stroke="#477793" stroke-width="2" />
+<text x="188.0" y="459" text-anchor="middle" font-size="16" fill="#253b47">0</text>
+<line x1="191.35" y1="429" x2="191.35" y2="439" stroke="#477793" stroke-width="2" />
+<line x1="191.35" y1="431" x2="213.35" y2="414" stroke="#477793" stroke-width="2" />
+<text x="217.35" y="413" text-anchor="start" font-size="15" fill="#253b47">1</text>
+<line x1="523.0" y1="429" x2="523.0" y2="439" stroke="#477793" stroke-width="2" />
+<text x="523.0" y="459" text-anchor="middle" font-size="16" fill="#253b47">100</text>
+<line x1="858.0" y1="429" x2="858.0" y2="439" stroke="#477793" stroke-width="2" />
+<text x="858.0" y="459" text-anchor="middle" font-size="16" fill="#253b47">200</text>
+<text x="904.5" y="441" text-anchor="start" font-size="18" fill="#253b47">μs</text>
+<text x="25" y="485" text-anchor="start" font-size="17" fill="#253b47">命中率 90%；快表 1 μs，内存 100 μs：平均分别为 111 μs、110.9 μs。</text>
+</g></svg>

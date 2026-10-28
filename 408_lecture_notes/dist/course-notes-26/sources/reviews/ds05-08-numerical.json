@@ -1,0 +1,307 @@
+{
+  "checks": [
+    {
+      "chapter": "DS05",
+      "name": "nonleaf leaf count",
+      "result": "passed",
+      "actual": "82",
+      "expected": "82"
+    },
+    {
+      "chapter": "DS05",
+      "name": "binary nodes with n2=8,n1=3",
+      "result": "passed",
+      "actual": "20",
+      "expected": "20"
+    },
+    {
+      "chapter": "DS05",
+      "name": "3-ary min height 50",
+      "result": "passed",
+      "actual": "5",
+      "expected": "5"
+    },
+    {
+      "chapter": "DS05",
+      "name": "binary min height 50",
+      "result": "passed",
+      "actual": "6",
+      "expected": "6"
+    },
+    {
+      "chapter": "DS05",
+      "name": "Huffman [3, 4, 5, 6, 8, 10]",
+      "result": "passed",
+      "actual": "90",
+      "expected": "90"
+    },
+    {
+      "chapter": "DS05",
+      "name": "Huffman [1, 3, 2, 2, 7]",
+      "result": "passed",
+      "actual": "31",
+      "expected": "31"
+    },
+    {
+      "chapter": "DS05",
+      "name": "Huffman [80, 10, 8, 2]",
+      "result": "passed",
+      "actual": "130",
+      "expected": "130"
+    },
+    {
+      "chapter": "DS05",
+      "name": "Huffman [3, 4, 5]",
+      "result": "passed",
+      "actual": "19",
+      "expected": "19"
+    },
+    {
+      "chapter": "DS05",
+      "name": "average answer code length",
+      "result": "passed",
+      "actual": "13/10",
+      "expected": "13/10"
+    },
+    {
+      "chapter": "DS05",
+      "name": "remaining max-depth4 prefix slots",
+      "result": "passed",
+      "actual": "4",
+      "expected": "4"
+    },
+    {
+      "chapter": "DS05",
+      "name": "pre/in rebuild middle",
+      "result": "passed",
+      "actual": "EAFDHCBGI",
+      "expected": "EAFDHCBGI"
+    },
+    {
+      "chapter": "DS06",
+      "name": "BFS lecture visit",
+      "result": "passed",
+      "actual": "[2, 1, 6, 5, 3, 7, 4, 8]",
+      "expected": "[2, 1, 6, 5, 3, 7, 4, 8]"
+    },
+    {
+      "chapter": "DS06",
+      "name": "BFS lecture d",
+      "result": "passed",
+      "actual": "[1, 0, 2, 3, 2, 1, 2, 3]",
+      "expected": "[1, 0, 2, 3, 2, 1, 2, 3]"
+    },
+    {
+      "chapter": "DS06",
+      "name": "BFS lecture path",
+      "result": "passed",
+      "actual": "[2, -1, 6, 3, 1, 2, 6, 7]",
+      "expected": "[2, -1, 6, 3, 1, 2, 6, 7]"
+    },
+    {
+      "chapter": "DS06",
+      "name": "Floyd phase 0",
+      "result": "passed",
+      "actual": "[[0, 6, 13], [10, 0, 4], [5, 11, 0]]",
+      "expected": "[[0, 6, 13], [10, 0, 4], [5, 11, 0]]"
+    },
+    {
+      "chapter": "DS06",
+      "name": "Floyd phase 1",
+      "result": "passed",
+      "actual": "[[0, 6, 10], [10, 0, 4], [5, 11, 0]]",
+      "expected": "[[0, 6, 10], [10, 0, 4], [5, 11, 0]]"
+    },
+    {
+      "chapter": "DS06",
+      "name": "Floyd phase 2",
+      "result": "passed",
+      "actual": "[[0, 6, 10], [9, 0, 4], [5, 11, 0]]",
+      "expected": "[[0, 6, 10], [9, 0, 4], [5, 11, 0]]"
+    },
+    {
+      "chapter": "DS06",
+      "name": "AOE ve",
+      "result": "passed",
+      "actual": "[0, 12, 8, 21, 18, 27]",
+      "expected": "[0, 12, 8, 21, 18, 27]"
+    },
+    {
+      "chapter": "DS06",
+      "name": "AOE vl",
+      "result": "passed",
+      "actual": "[0, 12, 8, 21, 18, 27]",
+      "expected": "[0, 12, 8, 21, 18, 27]"
+    },
+    {
+      "chapter": "DS06",
+      "name": "AOE activity margins",
+      "result": "passed",
+      "actual": "[9, 0, 0, 0, 0, 0, 0, 0]",
+      "expected": "[9, 0, 0, 0, 0, 0, 0, 0]"
+    },
+    {
+      "chapter": "DS06",
+      "name": "7 vertices ensure connected threshold",
+      "result": "passed",
+      "actual": "16",
+      "expected": "16"
+    },
+    {
+      "chapter": "DS06",
+      "name": "51 vertices 21 edges max components",
+      "result": "passed",
+      "actual": "45",
+      "expected": "45"
+    },
+    {
+      "chapter": "DS07",
+      "name": "unequal probability ASL",
+      "result": "passed",
+      "actual": "367/100",
+      "expected": "367/100"
+    },
+    {
+      "chapter": "DS07",
+      "name": "sorted probability ASL",
+      "result": "passed",
+      "actual": "109/50",
+      "expected": "109/50"
+    },
+    {
+      "chapter": "DS07",
+      "name": "4-order B-tree n=7 height2",
+      "result": "passed",
+      "actual": "8",
+      "expected": "8"
+    },
+    {
+      "chapter": "DS07",
+      "name": "4-order B-tree n=7 height3",
+      "result": "passed",
+      "actual": "1",
+      "expected": "1"
+    },
+    {
+      "chapter": "DS07",
+      "name": "3-order B-tree max height 2047",
+      "result": "passed",
+      "actual": "11",
+      "expected": "11"
+    },
+    {
+      "chapter": "DS07",
+      "name": "3-order B-tree min height 2047",
+      "result": "passed",
+      "actual": "7",
+      "expected": "7"
+    },
+    {
+      "chapter": "DS07",
+      "name": "linear hash layout",
+      "result": "passed",
+      "actual": "[None, 14, 1, 68, 27, 55, 19, 20, 84, 79, 23, 11, 10, None, None, None]",
+      "expected": "[None, 14, 1, 68, 27, 55, 19, 20, 84, 79, 23, 11, 10, None, None, None]"
+    },
+    {
+      "chapter": "DS07",
+      "name": "linear success probes",
+      "result": "passed",
+      "actual": "[1, 1, 1, 2, 1, 1, 3, 4, 3, 1, 3, 9]",
+      "expected": "[1, 1, 1, 2, 1, 1, 3, 4, 3, 1, 3, 9]"
+    },
+    {
+      "chapter": "DS07",
+      "name": "linear success ASL",
+      "result": "passed",
+      "actual": "5/2",
+      "expected": "5/2"
+    },
+    {
+      "chapter": "DS07",
+      "name": "failure by initial addresses",
+      "result": "passed",
+      "actual": "[1, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]",
+      "expected": "[1, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2]"
+    },
+    {
+      "chapter": "DS07",
+      "name": "failure ASL denominator13",
+      "result": "passed",
+      "actual": "7",
+      "expected": "7"
+    },
+    {
+      "chapter": "DS08",
+      "name": "Shell gap 5",
+      "result": "passed",
+      "actual": "[2, 11, 5, 1, 8, 9, 24, 7, 34, 51, 13, 77, 56]",
+      "expected": "[2, 11, 5, 1, 8, 9, 24, 7, 34, 51, 13, 77, 56]"
+    },
+    {
+      "chapter": "DS08",
+      "name": "Shell gap 3",
+      "result": "passed",
+      "actual": "[1, 7, 5, 2, 8, 9, 24, 11, 34, 51, 13, 77, 56]",
+      "expected": "[1, 7, 5, 2, 8, 9, 24, 11, 34, 51, 13, 77, 56]"
+    },
+    {
+      "chapter": "DS08",
+      "name": "first hole partition",
+      "result": "passed",
+      "actual": "[27, 38, 13, 49, 76, 97, 65, 49]",
+      "expected": "[27, 38, 13, 49, 76, 97, 65, 49]"
+    },
+    {
+      "chapter": "DS08",
+      "name": "two-way merge worst comparisons",
+      "result": "passed",
+      "actual": "825",
+      "expected": "825"
+    },
+    {
+      "chapter": "DS08",
+      "name": "4-way merge WPL",
+      "result": "passed",
+      "actual": "690",
+      "expected": "690"
+    },
+    {
+      "chapter": "DS08",
+      "name": "16-block two-way external IO",
+      "result": "passed",
+      "actual": "128",
+      "expected": "128"
+    },
+    {
+      "chapter": "DS08",
+      "name": "16-block four-way external IO",
+      "result": "passed",
+      "actual": "96",
+      "expected": "96"
+    },
+    {
+      "chapter": "DS08",
+      "name": "4500 records external IO",
+      "result": "passed",
+      "actual": "360",
+      "expected": "360"
+    },
+    {
+      "chapter": "DS08",
+      "name": "replacement selection 19 records",
+      "result": "passed",
+      "actual": "[[37, 51, 63, 92, 94, 99], [14, 15, 23, 31, 48, 56, 60, 90, 166], [8, 17, 43, 100]]",
+      "expected": "[[37, 51, 63, 92, 94, 99], [14, 15, 23, 31, 48, 56, 60, 90, 166], [8, 17, 43, 100]]"
+    }
+  ],
+  "count": 42,
+  "all_passed": true,
+  "scope": "Independent recomputation of listed source/note examples; not a blanket proof of all content.",
+  "content_sha256": {
+    "DS05": "204d950b1265416b575261e5acabafce9585b57b56022442a6ccd984ebca3c89",
+    "DS06": "6839c4ab16e43f99309575f462105b15fdc26d8c8aacb56e3fd3d8596459a1d7",
+    "DS07": "e9b2366dd4d826192e4028e5295ee0d96f1eea29264bd9b6279760ffe8241083",
+    "DS08": "c9de58fece1466cb6b466a5776fe2023af41ababd948b550442aff0a3e663f96"
+  }
+}

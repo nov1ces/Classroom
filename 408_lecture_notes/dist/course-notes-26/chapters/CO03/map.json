@@ -1,0 +1,109 @@
+{
+  "id": "CO03",
+  "title": "存储层次、地址与 Cache",
+  "branches": [
+    {
+      "label": "层次、分类与性能",
+      "children": [
+        "局部性与分层",
+        "随机顺序直接相联",
+        "存取时间和周期",
+        "容量和带宽单位"
+      ]
+    },
+    {
+      "label": "半导体主存",
+      "children": [
+        "SRAM和DRAM",
+        "ROM与Flash",
+        "行列地址复用",
+        "刷新与Bank条件"
+      ]
+    },
+    {
+      "label": "组织与扩展",
+      "children": [
+        "MAR和可编址空间",
+        "位扩展与字扩展",
+        "片选与地址译码",
+        "低位交叉和模块冲突"
+      ]
+    },
+    {
+      "label": "外部存储",
+      "children": [
+        "柱面磁头和扇区",
+        "寻道旋转与传输",
+        "SSD与磨损均衡",
+        "磁盘阵列的冗余边界"
+      ]
+    },
+    {
+      "label": "Cache地址与策略",
+      "children": [
+        "直接全相联和组相联",
+        "偏移组号和标记",
+        "FIFO与LRU",
+        "写命中和写缺失"
+      ]
+    },
+    {
+      "label": "虚拟存储与TLB",
+      "children": [
+        "虚页号与页内偏移",
+        "页表和存在位",
+        "TLB缺失与缺页",
+        "段界限和保护检查"
+      ]
+    },
+    {
+      "label": "综合访存推演",
+      "children": [
+        "命中率和AMAT",
+        "数组访问次序",
+        "局部与全局缺失率",
+        "TLB页表Cache取数路径"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.1 存储系统基本概念.pdf",
+      "pages": [
+        14
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.3 Cache和主存的映射方式.pdf",
+      "pages": [
+        27
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第三章 存储系统/3.5.5 Cache写策略.pdf",
+      "pages": [
+        11
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "pages": [
+        89,
+        125,
+        159
+      ],
+      "role": "book_crosscheck",
+      "visual_checked": true
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "半导体主存细分、芯片连接、多体交叉、外存及综合访存分支按教材第3章框架和旧讲义逐项补绘；TLB/页表/Cache流程另保留过程图，不冒称既有树状导图。"
+  ]
+}

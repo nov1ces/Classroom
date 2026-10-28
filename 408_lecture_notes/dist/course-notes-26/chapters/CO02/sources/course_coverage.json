@@ -1,0 +1,701 @@
+{
+  "chapter": "CO02",
+  "primary_source": "王道计算机组成原理基础考点课件",
+  "lecture_files": [
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.1 进位计数制.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "topics": [
+        "位权、整数除基取余、小数乘基取整、基数分组、真值与机器数"
+      ],
+      "targets": [
+        "CO02-02",
+        "CO02-03"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.2+2.1.3 定点数的编码表示.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "topics": [
+        "原码反码补码移码、定点整数/小数范围、零和取反加一"
+      ],
+      "targets": [
+        "CO02-04",
+        "CO02-proof"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.2+2.1.3（拓展）各种码的作用.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "topics": [
+        "模运算补数、减法化加法、移码序关系"
+      ],
+      "targets": [
+        "CO02-04",
+        "CO02-proof"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.4_1  C语言中的整数类型及类型转换.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "topics": [
+        "C整数类型及有符号/无符号、长短转换和机器模型条件"
+      ],
+      "targets": [
+        "CO02-05",
+        "CO02-06",
+        "CO02-07"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.4_2 零扩展、符号扩展.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "topics": [
+        "零扩展、符号扩展及保持真值条件"
+      ],
+      "targets": [
+        "CO02-05"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.0_1  逻辑门电路（数字电路基础补充）.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "topics": [
+        "逻辑门、异或、真值表、德摩根律、优先级"
+      ],
+      "targets": [
+        "CO02-digital-logic"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.0_2 多路选择器、三态门（数字电路基础补充）.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "topics": [
+        "MUX选择位、高阻态、共享总线使能"
+      ],
+      "targets": [
+        "CO02-mux-tristate"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.1_1 加法器.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "topics": [
+        "半加/全加、本位和进位、串行进位与先行进位"
+      ],
+      "targets": [
+        "CO02-09",
+        "CO02-adder-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.1_3  算数逻辑单元ALU.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "topics": [
+        "ALU选择控制和功能组织"
+      ],
+      "targets": [
+        "CO02-09",
+        "CO02-adder-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "topics": [
+        "逻辑/算术移位、符号扩展、移位与乘除的条件"
+      ],
+      "targets": [
+        "CO02-08"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.3_1 定点数的加减运算.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "topics": [
+        "补码加减、溢出、同号加异号减"
+      ],
+      "targets": [
+        "CO02-09",
+        "CO02-11"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.3_2 无符号数的加减运算.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": [
+        "无符号进位/借位、CF/ZF及截断"
+      ],
+      "targets": [
+        "CO02-11",
+        "CO02-12"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.3_3 补码加减运算电路.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "topics": [
+        "异或取反和Sub进位、标志位电路、CF与OF不同判断"
+      ],
+      "targets": [
+        "CO02-09",
+        "CO02-10",
+        "CO02-14"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_0 乘法除法运算复习说明（书课适配说明）.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topics": [
+        "书课乘除法适配、位宽与算法过程口径"
+      ],
+      "targets": [
+        "CO02-15",
+        "CO02-multiply-process",
+        "CO02-division-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_1 无符号整数的乘法运算原理.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": [
+        "13乘11、部分积/乘数组合右移、计数和双倍位宽"
+      ],
+      "targets": [
+        "CO02-16",
+        "CO02-unsigned-trace"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_2 带符号整数的乘法运算原理.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "topics": [
+        "补码Booth、辅助位、-3乘6、乘法溢出与保护位"
+      ],
+      "targets": [
+        "CO02-booth-trace",
+        "CO02-16"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_3 计算机实现乘法运算的三种方式.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "topics": [
+        "顺序复用、阵列组合、流水线乘法器"
+      ],
+      "targets": [
+        "CO02-multiply-hardware"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_4 无符号整数的除法运算原理.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "topics": [
+        "双精度被除数R/Q、15除2逐轮、商溢出、除数零"
+      ],
+      "targets": [
+        "CO02-division-complete",
+        "CO02-division-registers"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.4_5 带符号整数（补码）的除法运算原理.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "topics": [
+        "符号扩展、-7除3寄存器过程、6除3/3除-7、商符号和异常"
+      ],
+      "targets": [
+        "CO02-signed-division-trace",
+        "CO02-division-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_1 浮点数的表示_IEEE 754.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "topics": [
+        "IEEE754符号阶码尾数、偏置、隐含位、单双精度编码"
+      ],
+      "targets": [
+        "CO02-18",
+        "CO02-19"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "topics": [
+        "机器数与真值、负数大小、整数与浮点转换"
+      ],
+      "targets": [
+        "CO02-19",
+        "CO02-20",
+        "CO02-24"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_3+4 浮点数的表示范围、几种特殊状态.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "topics": [
+        "范围、正规/次正规、正负零、无穷NaN、精度"
+      ],
+      "targets": [
+        "CO02-18",
+        "CO02-23",
+        "CO02-precision"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.2_1+2 浮点数的加减运算.pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "topics": [
+        "对阶、尾数加减、规格化、舍入与溢出步骤"
+      ],
+      "targets": [
+        "CO02-21"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.2_3 浮点数的加减运算(舍入问题).pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "topics": [
+        "保护/舍入/粘滞位、最近偶数、中点示例"
+      ],
+      "targets": [
+        "CO02-precision",
+        "CO02-rounding-complete"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.2_4 浮点数的加减运算(溢出问题).pdf",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "topics": [
+        "右规/舍入上溢、左规下溢、尾数进位与最终范围"
+      ],
+      "targets": [
+        "CO02-22",
+        "CO02-24"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.4 数据的存储和排列.pdf",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "topics": [
+        "大小端、字节编址、自然边界对齐和结构体填充"
+      ],
+      "targets": [
+        "CO02-25",
+        "CO02-26",
+        "CO02-storage"
+      ],
+      "verification": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "page_scope": "all file pages indexed; knowledge-group mapping"
+    }
+  ],
+  "figures": [
+    {
+      "id": "CO_F01_ieee754",
+      "targets": [],
+      "source": "对应知识组的王道课件/教材示意，正文保留解释与约定",
+      "status": "editable_vector_available",
+      "svg": true,
+      "png": true,
+      "visual_review": "PNG individually viewed in 4-panel contact sheets, new division and microprogram graph additionally enlarged; final PDF review separate"
+    },
+    {
+      "id": "CO_F05_struct_layout",
+      "targets": [],
+      "source": "对应知识组的王道课件/教材示意，正文保留解释与约定",
+      "status": "editable_vector_available",
+      "svg": true,
+      "png": true,
+      "visual_review": "PNG individually viewed in 4-panel contact sheets, new division and microprogram graph additionally enlarged; final PDF review separate"
+    },
+    {
+      "id": "CO02_mux_bus",
+      "targets": [],
+      "source": "对应知识组的王道课件/教材示意，正文保留解释与约定",
+      "status": "editable_vector_available",
+      "svg": true,
+      "png": true,
+      "visual_review": "PNG individually viewed in 4-panel contact sheets, new division and microprogram graph additionally enlarged; final PDF review separate"
+    },
+    {
+      "id": "CO02_restoring_division",
+      "targets": [],
+      "source": "对应知识组的王道课件/教材示意，正文保留解释与约定",
+      "status": "editable_vector_available",
+      "svg": true,
+      "png": true,
+      "visual_review": "PNG individually viewed in 4-panel contact sheets, new division and microprogram graph additionally enlarged; final PDF review separate"
+    }
+  ],
+  "unresolved": [],
+  "verification_boundary": "文件/页与知识组覆盖已登记；数值复算和最终PDF视觉证据另存，不能由映射数量推定全部原图已逐幅审定。",
+  "figure_review_time_utc": "2026-10-27T00:29:11.842120+00:00"
+}

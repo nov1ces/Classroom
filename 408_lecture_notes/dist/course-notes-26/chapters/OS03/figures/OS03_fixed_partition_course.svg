@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="660" viewBox="0 0 1080 660">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC,sans-serif" fill="#20343f">
+<text x="25" y="35" font-size="25" font-weight="bold">王道课件：固定分区可等大，也可不等大</text>
+<text x="25" y="65" font-size="19">各分区一次只装入一道作业；两列分别是独立内存示意，单位MB。</text>
+<text x="110" y="108" font-size="21" font-weight="bold">等大：四个10 MB分区</text>
+<rect x="110" y="130" width="330" height="80" fill="#f5d7b4" stroke="#7897a5"/>
+<text x="275" y="176.0" text-anchor="middle" font-size="18">操作系统 8 MB</text>
+<text x="68" y="135" font-size="16">0</text>
+<rect x="110" y="210" width="330" height="100" fill="#dcefe0" stroke="#7897a5"/>
+<text x="275" y="266.0" text-anchor="middle" font-size="18">分区1  10 MB</text>
+<text x="68" y="215" font-size="16">8</text>
+<rect x="110" y="310" width="330" height="100" fill="#dcefe0" stroke="#7897a5"/>
+<text x="275" y="366.0" text-anchor="middle" font-size="18">分区2  10 MB</text>
+<text x="68" y="315" font-size="16">18</text>
+<rect x="110" y="410" width="330" height="100" fill="#dcefe0" stroke="#7897a5"/>
+<text x="275" y="466.0" text-anchor="middle" font-size="18">分区3  10 MB</text>
+<text x="68" y="415" font-size="16">28</text>
+<rect x="110" y="510" width="330" height="100" fill="#dcefe0" stroke="#7897a5"/>
+<text x="275" y="566.0" text-anchor="middle" font-size="18">分区4  10 MB</text>
+<text x="68" y="515" font-size="16">38</text>
+<text x="68" y="615" font-size="16">48</text>
+<text x="600" y="108" font-size="21" font-weight="bold">不等大：2、2、4、6、8、12 MB</text>
+<rect x="600" y="130" width="330" height="80" fill="#f5d7b4" stroke="#7897a5"/>
+<text x="765" y="176.0" text-anchor="middle" font-size="18">操作系统 8 MB</text>
+<text x="558" y="135" font-size="16">0</text>
+<rect x="600" y="210" width="330" height="20" fill="#dcefe0" stroke="#7897a5"/>
+<text x="765" y="226.0" text-anchor="middle" font-size="18">分区1  2 MB</text>
+<text x="558" y="215" font-size="16">8</text>
+<rect x="600" y="230" width="330" height="20" fill="#dcefe0" stroke="#7897a5"/>
+<text x="765" y="246.0" text-anchor="middle" font-size="18">分区2  2 MB</text>
+<text x="558" y="235" font-size="16">10</text>
+<rect x="600" y="250" width="330" height="40" fill="#dcefe0" stroke="#7897a5"/>
+<text x="765" y="276.0" text-anchor="middle" font-size="18">分区3  4 MB</text>
+<text x="558" y="255" font-size="16">12</text>
+<rect x="600" y="290" width="330" height="60" fill="#dcefe0" stroke="#7897a5"/>
+<text x="765" y="326.0" text-anchor="middle" font-size="18">分区4  6 MB</text>
+<text x="558" y="295" font-size="16">16</text>
+<rect x="600" y="350" width="330" height="80" fill="#dcefe0" stroke="#7897a5"/>
+<text x="765" y="396.0" text-anchor="middle" font-size="18">分区5  8 MB</text>
+<text x="558" y="355" font-size="16">22</text>
+<rect x="600" y="430" width="330" height="120" fill="#dcefe0" stroke="#7897a5"/>
+<text x="765" y="496.0" text-anchor="middle" font-size="18">分区6  12 MB</text>
+<text x="558" y="435" font-size="16">30</text>
+<text x="558" y="555" font-size="16">42</text>
+<text x="25" y="642" font-size="18">每个表项记录分区大小、起始地址和分配状态；分区内的未用空间为内部碎片。</text>
+</g></svg>

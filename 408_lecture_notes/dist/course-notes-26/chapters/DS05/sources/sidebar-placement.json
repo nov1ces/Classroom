@@ -1,0 +1,381 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "DS05-01",
+        "kind": "课程连接",
+        "title": "目录树和进程树",
+        "y": 375.68731689453125,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.32785
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        80,
+        129.35799407958984
+      ],
+      [
+        142.18399047851562,
+        375.68731689453125
+      ],
+      [
+        155.69029235839844,
+        193.35226440429688
+      ],
+      [
+        188.10540771484375,
+        225.7673797607422
+      ],
+      [
+        220.52053833007812,
+        258.1824951171875
+      ],
+      [
+        252.9356689453125,
+        290.5976257324219
+      ],
+      [
+        285.35076904296875,
+        323.01275634765625
+      ],
+      [
+        317.7658996582031,
+        355.4278564453125
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 1,
+        "anchor": "DS05-01",
+        "kind": "最小反例",
+        "title": "度为2未必是二叉树",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.16635
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 2,
+        "anchor": "DS05-02",
+        "kind": "错项排除",
+        "title": "叶公式只用了二叉条件",
+        "y": 95,
+        "estimated_height": 195.5,
+        "mini": true,
+        "measured_height": 167.19821
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 3,
+        "anchor": "DS05-03",
+        "kind": "不变量",
+        "title": "编号表达位置而非秩",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.14935
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 4,
+        "anchor": "DS05-04",
+        "kind": "最小反例",
+        "title": "先序加后序的歧义",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.09836
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 14,
+        "anchor": "DS05-order-code",
+        "kind": "条件辨析",
+        "title": "访问位置",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 55.42386
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [
+      {
+        "index": 15,
+        "anchor": "DS05-rebuild",
+        "kind": "条件辨析",
+        "title": "层序先分根再筛子树",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 44.97037
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 8,
+    "sidebars": [
+      {
+        "index": 6,
+        "anchor": "DS05-05",
+        "kind": "错项排除",
+        "title": "先看tag再沿指针",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.10687
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [
+      {
+        "index": 6,
+        "anchor": "DS05-05",
+        "kind": "错项排除",
+        "title": "先看tag再沿指针",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.10687
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 10,
+    "sidebars": [
+      {
+        "index": 16,
+        "anchor": "DS05-thread-access",
+        "kind": "条件辨析",
+        "title": "中序末结点的右域",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 55.42386
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 11,
+    "sidebars": [
+      {
+        "index": 16,
+        "anchor": "DS05-thread-access",
+        "kind": "条件辨析",
+        "title": "中序末结点的右域",
+        "y": 95,
+        "estimated_height": 67.8,
+        "mini": false,
+        "measured_height": 55.42386
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 12,
+    "sidebars": [
+      {
+        "index": 7,
+        "anchor": "DS05-07",
+        "kind": "不变量",
+        "title": "转换不改变数据结点",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.31085
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 13,
+    "sidebars": [
+      {
+        "index": 8,
+        "anchor": "DS05-09",
+        "kind": "课程连接",
+        "title": "编码和外排使用同一棵树",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.10687
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 14,
+    "sidebars": [
+      {
+        "index": 9,
+        "anchor": "DS05-09",
+        "kind": "错项排除",
+        "title": "最优不意味着唯一",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.39584
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        209.39454650878906,
+        234.6598358154297
+      ],
+      [
+        226.55453491210938,
+        301.4660949707031
+      ],
+      [
+        207.46749877929688,
+        220.26449584960938
+      ],
+      [
+        224.9279022216797,
+        237.4261016845703
+      ],
+      [
+        289.90850830078125,
+        302.70550537109375
+      ]
+    ]
+  },
+  {
+    "page": 15,
+    "sidebars": [
+      {
+        "index": 8,
+        "anchor": "DS05-09",
+        "kind": "课程连接",
+        "title": "编码和外排使用同一棵树",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.10687
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 16,
+    "sidebars": [
+      {
+        "index": 10,
+        "anchor": "DS05-10",
+        "kind": "不变量",
+        "title": "压缩路径不压缩集合",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 55.44937
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 17,
+    "sidebars": [
+      {
+        "index": 10,
+        "anchor": "DS05-10",
+        "kind": "不变量",
+        "title": "压缩路径不压缩集合",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 55.44937
+      }
+    ],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 18,
+    "sidebars": [
+      {
+        "index": 11,
+        "anchor": "DS05-sift",
+        "kind": "错项排除",
+        "title": "堆序没有兄弟顺序",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.13235
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        594.267578125,
+        619.5328369140625
+      ],
+      [
+        611.4285278320312,
+        698.2951049804688
+      ],
+      [
+        592.3414916992188,
+        605.1384887695312
+      ],
+      [
+        609.8009033203125,
+        622.299072265625
+      ],
+      [
+        686.7374877929688,
+        699.5344848632812
+      ]
+    ]
+  },
+  {
+    "page": 19,
+    "sidebars": [
+      {
+        "index": 11,
+        "anchor": "DS05-sift",
+        "kind": "错项排除",
+        "title": "堆序没有兄弟顺序",
+        "y": 95,
+        "estimated_height": 78.5,
+        "mini": false,
+        "measured_height": 66.13235
+      }
+    ],
+    "occupied_margin_intervals": []
+  }
+]

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="344" viewBox="0 0 680 344">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="147.0" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="177.0" text-anchor="middle" font-weight="bold">排序</text>
+<path d="M148,172.0 H166 V84.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="65.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="89.5" text-anchor="middle" font-weight="bold">算法性能与条件</text>
+<path d="M348,84.5 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">最好平均最坏时间</text>
+<path d="M348,84.5 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">递归栈及输出数组</text>
+<path d="M348,84.5 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">稳定性条件与反例</text>
+<path d="M348,84.5 H365 V119.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="124.0">比较排序下界</text>
+<path d="M148,172.0 H166 V226.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="207.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="231.5" text-anchor="middle" font-weight="bold">外部排序与优化</text>
+<path d="M348,226.5 H365 V169.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="174.0">初始归并段</text>
+<path d="M348,226.5 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">多路归并及输入输出缓冲</text>
+<path d="M348,226.5 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">I/O计数与趟数</text>
+<path d="M348,226.5 H365 V238.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="243.0">败者树冠军路径</text>
+<path d="M348,226.5 H365 V261.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="266.0">置换选择与冻结</text>
+<path d="M348,226.5 H365 V284.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="289.0">最佳归并树及补零权叶</text>
+</g></svg>

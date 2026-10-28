@@ -1,0 +1,118 @@
+{
+  "id": "DS03",
+  "title": "栈、队列和数组",
+  "branches": [
+    {
+      "label": "栈的抽象与序列",
+      "children": [
+        "后进先出",
+        "空栈与溢出",
+        "合法前缀",
+        "最大栈深与容量",
+        "卡特兰计数"
+      ]
+    },
+    {
+      "label": "顺序栈与链栈",
+      "children": [
+        "top两种约定",
+        "共享栈相向生长",
+        "链头作为栈顶",
+        "基本操作代码"
+      ]
+    },
+    {
+      "label": "队列与双端队列",
+      "children": [
+        "先进先出",
+        "输入受限与输出受限",
+        "顺序循环队列",
+        "牺牲单元size与tag",
+        "链队列首尾维护"
+      ]
+    },
+    {
+      "label": "栈和队列的应用",
+      "children": [
+        "括号匹配",
+        "中缀前缀与后缀",
+        "操作数弹出次序",
+        "递归调用状态",
+        "层序BFS与服务次序"
+      ]
+    },
+    {
+      "label": "数组地址",
+      "children": [
+        "行优先",
+        "列优先",
+        "非零下界",
+        "多维地址与单位"
+      ]
+    },
+    {
+      "label": "特殊矩阵压缩",
+      "children": [
+        "对称矩阵",
+        "三角矩阵公共常量",
+        "三对角矩阵",
+        "稀疏矩阵位置记录",
+        "坐标到下标及逆推"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.1_栈的基本概念.pdf",
+      "pages": [
+        11
+      ],
+      "role": "slide_map",
+      "visual_checked": false
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.2_栈的顺序存储实现.pdf",
+      "pages": [
+        12
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.2_队列的顺序实现.pdf",
+      "pages": [
+        16
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.3_栈在递归中的应用.pdf",
+      "pages": [
+        8
+      ],
+      "role": "slide_summary",
+      "visual_checked": false
+    },
+    {
+      "file": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+      "pages": [
+        112
+      ],
+      "role": "book_crosscheck",
+      "visual_checked": false
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.4.1~3.4.4_特殊矩阵的压缩存储.pdf",
+      "pages": [
+        24
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "将课件分散的栈、队列、矩阵导图整合为章级导图；数组地址及综合应用节点按教材章框架与旧讲义补绘，未冒称课件中已有整章导图。"
+  ]
+}

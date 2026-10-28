@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="460" viewBox="0 0 960 460">
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#47677b"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, Noto Sans SC, sans-serif" fill="#223644" font-size="20">
+<text x="480" y="32" text-anchor="middle" font-size="23" font-weight="bold">设备分配的数据结构与依赖路径</text>
+<rect x="180" y="65" width="600" height="53" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="480.0" y="98.5" text-anchor="middle" font-size="20">SDT：系统设备目录</text>
+<rect x="180" y="143" width="600" height="53" rx="6" stroke="#809eae" fill="#e0efdf"/>
+<text x="480.0" y="176.5" text-anchor="middle" font-size="20">DCT：设备状态与等待队列</text>
+<path d="M480,118 L480,143" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="180" y="221" width="600" height="53" rx="6" stroke="#809eae" fill="#e4eff3"/>
+<text x="480.0" y="254.5" text-anchor="middle" font-size="20">COCT：控制器状态与等待队列</text>
+<path d="M480,196 L480,221" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<rect x="180" y="299" width="600" height="53" rx="6" stroke="#809eae" fill="#f5ead9"/>
+<text x="480.0" y="332.5" text-anchor="middle" font-size="20">CHCT：通道状态与等待队列</text>
+<path d="M480,274 L480,299" fill="none" stroke="#47677b" stroke-width="2" marker-end="url(#arr)"/>
+<text x="480" y="407" text-anchor="middle" font-size="21">LUT另记录逻辑名称 → 物理设备名称与驱动入口。</text>
+<text x="480" y="442" text-anchor="middle" font-size="19">只有设备、控制器与通道均取得，才可启动这次I/O。</text>
+</g></svg>

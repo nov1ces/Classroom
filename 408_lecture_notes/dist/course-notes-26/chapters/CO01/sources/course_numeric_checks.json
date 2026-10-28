@@ -1,0 +1,31 @@
+{
+  "chapter": "CO01",
+  "status": "passed",
+  "method": "independent integer/fraction/IEEE and register-state calculations",
+  "checks": [
+    {
+      "case": "加权CPI与执行时间",
+      "actual": "7/250000",
+      "expected": "7/250000",
+      "passed": true
+    },
+    {
+      "case": "CPU加速50%后总历时",
+      "actual": "70",
+      "expected": "70",
+      "passed": true
+    },
+    {
+      "case": "编译优化时间",
+      "actual": "84/5",
+      "expected": "84/5",
+      "passed": true
+    },
+    {
+      "case": "程序y=ab+c",
+      "actual": "7",
+      "expected": "7",
+      "passed": true
+    }
+  ]
+}

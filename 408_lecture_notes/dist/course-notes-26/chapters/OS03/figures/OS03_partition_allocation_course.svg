@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="395" viewBox="0 0 1240 395">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC,sans-serif" fill="#20343f">
+<text x="18" y="32" font-size="25" font-weight="bold">王道课件：空闲分区表的两种分配更新</text>
+<text x="18" y="59" font-size="18">两行各从同一空闲状态开始；粉色为分给P5的4 MB，地址按半开区间表示。</text>
+<text x="18" y="114" font-size="20" font-weight="bold">部分分配</text>
+<text x="135" y="115" font-size="18">分配前</text>
+<rect x="205.0" y="92" width="124.0" height="30" fill="#f5d7b4" stroke="#7897a5"/>
+<text x="267.0" y="113" text-anchor="middle" font-size="20">系统</text>
+<text x="205.0" y="89" font-size="16">0</text>
+<rect x="329.0" y="92" width="310.0" height="30" fill="#dcefe0" stroke="#7897a5"/>
+<text x="484.0" y="113" text-anchor="middle" font-size="20">空20</text>
+<text x="329.0" y="89" font-size="16">8</text>
+<rect x="639.0" y="92" width="62.0" height="30" fill="#d8e8f1" stroke="#7897a5"/>
+<text x="670.0" y="113" text-anchor="middle" font-size="20">P4</text>
+<text x="639.0" y="89" font-size="16">28</text>
+<rect x="701.0" y="92" width="155.0" height="30" fill="#dcefe0" stroke="#7897a5"/>
+<text x="778.5" y="113" text-anchor="middle" font-size="20">空10</text>
+<text x="701.0" y="89" font-size="16">32</text>
+<rect x="856.0" y="92" width="279.0" height="30" fill="#d8e8f1" stroke="#7897a5"/>
+<text x="995.5" y="113" text-anchor="middle" font-size="20">P3</text>
+<text x="856.0" y="89" font-size="16">42</text>
+<rect x="1135.0" y="92" width="62.0" height="30" fill="#dcefe0" stroke="#7897a5"/>
+<text x="1166.0" y="113" text-anchor="middle" font-size="20">空4</text>
+<text x="1135.0" y="89" font-size="16">60</text>
+<text x="1184.0" y="89" font-size="16">64</text>
+<text x="135" y="162" font-size="18">分配后</text>
+<rect x="205.0" y="139" width="124.0" height="30" fill="#f5d7b4" stroke="#7897a5"/>
+<text x="267.0" y="160" text-anchor="middle" font-size="20">系统</text>
+<text x="205.0" y="136" font-size="16">0</text>
+<rect x="329.0" y="139" width="62.0" height="30" fill="#f6dce8" stroke="#7897a5"/>
+<text x="360.0" y="160" text-anchor="middle" font-size="20">P5</text>
+<text x="329.0" y="136" font-size="16">8</text>
+<rect x="391.0" y="139" width="248.0" height="30" fill="#dcefe0" stroke="#7897a5"/>
+<text x="515.0" y="160" text-anchor="middle" font-size="20">空16</text>
+<text x="391.0" y="136" font-size="16">12</text>
+<rect x="639.0" y="139" width="62.0" height="30" fill="#d8e8f1" stroke="#7897a5"/>
+<text x="670.0" y="160" text-anchor="middle" font-size="20">P4</text>
+<text x="639.0" y="136" font-size="16">28</text>
+<rect x="701.0" y="139" width="155.0" height="30" fill="#dcefe0" stroke="#7897a5"/>
+<text x="778.5" y="160" text-anchor="middle" font-size="20">空10</text>
+<text x="701.0" y="136" font-size="16">32</text>
+<rect x="856.0" y="139" width="279.0" height="30" fill="#d8e8f1" stroke="#7897a5"/>
+<text x="995.5" y="160" text-anchor="middle" font-size="20">P3</text>
+<text x="856.0" y="136" font-size="16">42</text>
+<rect x="1135.0" y="139" width="62.0" height="30" fill="#dcefe0" stroke="#7897a5"/>
+<text x="1166.0" y="160" text-anchor="middle" font-size="20">空4</text>
+<text x="1135.0" y="136" font-size="16">60</text>
+<text x="1184.0" y="136" font-size="16">64</text>
+<text x="205" y="204" font-size="19">由[8,28)分配[8,12)，将原表项改为起始12、大小16</text>
+<path d="M18 222 H1215" stroke="#dce4e7"/>
+<text x="18" y="264" font-size="20" font-weight="bold">整块分配</text>
+<text x="135" y="265" font-size="18">分配前</text>
+<rect x="205.0" y="242" width="124.0" height="30" fill="#f5d7b4" stroke="#7897a5"/>
+<text x="267.0" y="263" text-anchor="middle" font-size="20">系统</text>
+<text x="205.0" y="239" font-size="16">0</text>
+<rect x="329.0" y="242" width="310.0" height="30" fill="#dcefe0" stroke="#7897a5"/>
+<text x="484.0" y="263" text-anchor="middle" font-size="20">空20</text>
+<text x="329.0" y="239" font-size="16">8</text>
+<rect x="639.0" y="242" width="62.0" height="30" fill="#d8e8f1" stroke="#7897a5"/>
+<text x="670.0" y="263" text-anchor="middle" font-size="20">P4</text>
+<text x="639.0" y="239" font-size="16">28</text>
+<rect x="701.0" y="242" width="155.0" height="30" fill="#dcefe0" stroke="#7897a5"/>
+<text x="778.5" y="263" text-anchor="middle" font-size="20">空10</text>
+<text x="701.0" y="239" font-size="16">32</text>
+<rect x="856.0" y="242" width="279.0" height="30" fill="#d8e8f1" stroke="#7897a5"/>
+<text x="995.5" y="263" text-anchor="middle" font-size="20">P3</text>
+<text x="856.0" y="239" font-size="16">42</text>
+<rect x="1135.0" y="242" width="62.0" height="30" fill="#dcefe0" stroke="#7897a5"/>
+<text x="1166.0" y="263" text-anchor="middle" font-size="20">空4</text>
+<text x="1135.0" y="239" font-size="16">60</text>
+<text x="1184.0" y="239" font-size="16">64</text>
+<text x="135" y="312" font-size="18">分配后</text>
+<rect x="205.0" y="289" width="124.0" height="30" fill="#f5d7b4" stroke="#7897a5"/>
+<text x="267.0" y="310" text-anchor="middle" font-size="20">系统</text>
+<text x="205.0" y="286" font-size="16">0</text>
+<rect x="329.0" y="289" width="310.0" height="30" fill="#dcefe0" stroke="#7897a5"/>
+<text x="484.0" y="310" text-anchor="middle" font-size="20">空20</text>
+<text x="329.0" y="286" font-size="16">8</text>
+<rect x="639.0" y="289" width="62.0" height="30" fill="#d8e8f1" stroke="#7897a5"/>
+<text x="670.0" y="310" text-anchor="middle" font-size="20">P4</text>
+<text x="639.0" y="286" font-size="16">28</text>
+<rect x="701.0" y="289" width="155.0" height="30" fill="#dcefe0" stroke="#7897a5"/>
+<text x="778.5" y="310" text-anchor="middle" font-size="20">空10</text>
+<text x="701.0" y="286" font-size="16">32</text>
+<rect x="856.0" y="289" width="279.0" height="30" fill="#d8e8f1" stroke="#7897a5"/>
+<text x="995.5" y="310" text-anchor="middle" font-size="20">P3</text>
+<text x="856.0" y="286" font-size="16">42</text>
+<rect x="1135.0" y="289" width="62.0" height="30" fill="#f6dce8" stroke="#7897a5"/>
+<text x="1166.0" y="310" text-anchor="middle" font-size="20">P5</text>
+<text x="1135.0" y="286" font-size="16">60</text>
+<text x="1184.0" y="286" font-size="16">64</text>
+<text x="205" y="354" font-size="19">由[60,64)完整分配4 MB，删除原空闲表项</text>
+<path d="M18 372 H1215" stroke="#dce4e7"/>
+</g></svg>

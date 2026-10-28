@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="760" viewBox="0 0 1240 760">
+<defs><marker id="a" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 L6 3.5 L0 7 z" fill="#496b7f"/></marker></defs>
+<rect width="1240" height="760" fill="white"/>
+<g font-family="Noto Sans CJK SC,sans-serif" fill="#213845">
+<rect x="12" y="15" width="1216" height="355" rx="8" fill="#f8fbfc" stroke="#a9bec8"/>
+<text x="32" y="51" font-size="26">SCAN　初始 100，移动 282 个磁道</text>
+<path d="M80 115 H1160" stroke="#77919f" stroke-width="2"/>
+<path d="M80.0 110 V120" stroke="#77919f"/>
+<text x="80.0" y="90" font-size="19" text-anchor="middle">0</text>
+<path d="M177.2 110 V120" stroke="#77919f"/>
+<text x="177.2" y="90" font-size="19" text-anchor="middle">18</text>
+<path d="M285.2 110 V120" stroke="#77919f"/>
+<text x="285.2" y="90" font-size="19" text-anchor="middle">38</text>
+<path d="M290.6 110 V120" stroke="#77919f"/>
+<text x="290.6" y="71" font-size="19" text-anchor="middle">39</text>
+<path d="M377.0 110 V120" stroke="#77919f"/>
+<text x="377.0" y="90" font-size="19" text-anchor="middle">55</text>
+<path d="M393.2 110 V120" stroke="#77919f"/>
+<text x="393.2" y="71" font-size="19" text-anchor="middle">58</text>
+<path d="M566.0 110 V120" stroke="#77919f"/>
+<text x="566.0" y="90" font-size="19" text-anchor="middle">90</text>
+<path d="M620.0 110 V120" stroke="#77919f"/>
+<text x="620.0" y="71" font-size="19" text-anchor="middle">100</text>
+<path d="M890.0 110 V120" stroke="#77919f"/>
+<text x="890.0" y="90" font-size="19" text-anchor="middle">150</text>
+<path d="M944.0 110 V120" stroke="#77919f"/>
+<text x="944.0" y="71" font-size="19" text-anchor="middle">160</text>
+<path d="M1073.6 110 V120" stroke="#77919f"/>
+<text x="1073.6" y="90" font-size="19" text-anchor="middle">184</text>
+<path d="M1160.0 110 V120" stroke="#77919f"/>
+<text x="1160.0" y="71" font-size="19" text-anchor="middle">200</text>
+<path d="M620.0 135 H890.0" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M890.0 153 H944.0" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M944.0 171 H1073.6" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M1073.6 189 H1160.0" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M1160.0 207 H566.0" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M566.0 225 H393.2" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M393.2 243 H377.0" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M377.0 261 H290.6" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M290.6 279 H285.2" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M285.2 297 H177.2" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<text x="32" y="352" font-size="20">100 → 150 → 160 → 184 → 200 → 90 → 58 → 55 → 39 → 38 → 18</text>
+<rect x="12" y="385" width="1216" height="355" rx="8" fill="#f8fbfc" stroke="#a9bec8"/>
+<text x="32" y="421" font-size="26">LOOK　初始 100，移动 250 个磁道</text>
+<path d="M80 485 H1160" stroke="#77919f" stroke-width="2"/>
+<path d="M80.0 480 V490" stroke="#77919f"/>
+<text x="80.0" y="460" font-size="19" text-anchor="middle">0</text>
+<path d="M177.2 480 V490" stroke="#77919f"/>
+<text x="177.2" y="460" font-size="19" text-anchor="middle">18</text>
+<path d="M285.2 480 V490" stroke="#77919f"/>
+<text x="285.2" y="460" font-size="19" text-anchor="middle">38</text>
+<path d="M290.6 480 V490" stroke="#77919f"/>
+<text x="290.6" y="441" font-size="19" text-anchor="middle">39</text>
+<path d="M377.0 480 V490" stroke="#77919f"/>
+<text x="377.0" y="460" font-size="19" text-anchor="middle">55</text>
+<path d="M393.2 480 V490" stroke="#77919f"/>
+<text x="393.2" y="441" font-size="19" text-anchor="middle">58</text>
+<path d="M566.0 480 V490" stroke="#77919f"/>
+<text x="566.0" y="460" font-size="19" text-anchor="middle">90</text>
+<path d="M620.0 480 V490" stroke="#77919f"/>
+<text x="620.0" y="441" font-size="19" text-anchor="middle">100</text>
+<path d="M890.0 480 V490" stroke="#77919f"/>
+<text x="890.0" y="460" font-size="19" text-anchor="middle">150</text>
+<path d="M944.0 480 V490" stroke="#77919f"/>
+<text x="944.0" y="441" font-size="19" text-anchor="middle">160</text>
+<path d="M1073.6 480 V490" stroke="#77919f"/>
+<text x="1073.6" y="460" font-size="19" text-anchor="middle">184</text>
+<path d="M1160.0 480 V490" stroke="#77919f"/>
+<text x="1160.0" y="441" font-size="19" text-anchor="middle">200</text>
+<path d="M620.0 505 H890.0" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M890.0 523 H944.0" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M944.0 541 H1073.6" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M1073.6 559 H566.0" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M566.0 577 H393.2" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M393.2 595 H377.0" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M377.0 613 H290.6" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M290.6 631 H285.2" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<path d="M285.2 649 H177.2" stroke="#496b7f" stroke-width="2.4" marker-end="url(#a)"/>
+<text x="32" y="722" font-size="20">100 → 150 → 160 → 184 → 90 → 58 → 55 → 39 → 38 → 18</text>
+</g></svg>

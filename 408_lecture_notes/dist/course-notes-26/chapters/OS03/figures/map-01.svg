@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="513" viewBox="0 0 680 513">
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="16" fill="#223644">
+<rect x="8" y="231.5" width="140" height="50" rx="7" fill="#DDEFF5"/>
+<text x="78" y="261.5" text-anchor="middle" font-weight="bold">内存管理</text>
+<path d="M148,256.5 H166 V73.0 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="54.0" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="78.0" text-anchor="middle" font-weight="bold">地址、共享与保护</text>
+<path d="M348,73.0 H365 V50.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="55.0">逻辑地址、物理地址与编址单位</text>
+<path d="M348,73.0 H365 V73.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="78.0">共享映射与写时复制</text>
+<path d="M348,73.0 H365 V96.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="101.0">权限、回收与TLB一致性</text>
+<path d="M148,256.5 H166 V180.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="161.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="185.5" text-anchor="middle" font-weight="bold">分配与内存扩充</text>
+<path d="M348,180.5 H365 V146.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="151.0">单一连续、固定与动态分区</text>
+<path d="M348,180.5 H365 V169.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="174.0">首次、循环、最佳、最坏适应</text>
+<path d="M348,180.5 H365 V192.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="197.0">相邻合并与紧凑</text>
+<path d="M348,180.5 H365 V215.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="220.0">覆盖、交换与按需调页</text>
+<path d="M148,256.5 H166 V299.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="280.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="304.5" text-anchor="middle" font-weight="bold">分页、分段与段页式</text>
+<path d="M348,299.5 H365 V265.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="270.0">页号、页框与不变偏移</text>
+<path d="M348,299.5 H365 V288.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="293.0">页表项地址与目标数据地址</text>
+<path d="M348,299.5 H365 V311.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="316.0">段号、段长与访问权限</text>
+<path d="M348,299.5 H365 V334.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="339.0">段页式两级逻辑组织</text>
+<path d="M148,256.5 H166 V418.5 H184" fill="none" stroke="#6F9AAE" stroke-width="1.5"/>
+<rect x="184" y="399.5" width="164" height="38" rx="4" fill="#DFEFE6"/>
+<text x="266" y="423.5" text-anchor="middle" font-weight="bold">TLB与多级页表</text>
+<path d="M348,418.5 H365 V384.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="389.0">稀疏分配与目录覆盖范围</text>
+<path d="M348,418.5 H365 V407.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="412.0">按位宽拆地址字段</text>
+<path d="M348,418.5 H365 V430.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="435.0">TLB未命中不等于缺页</text>
+<path d="M348,418.5 H365 V453.0 H380" fill="none" stroke="#9BB1BA" stroke-width="1"/>
+<text x="387" y="458.0">串行与并行查询的时间前提</text>
+</g></svg>

@@ -1,0 +1,163 @@
+{
+  "structural_errors": [],
+  "review_warnings": [],
+  "chapters": [
+    {
+      "id": "DS01",
+      "markdown_bytes": 22434,
+      "code_blocks": 4,
+      "images": 5
+    },
+    {
+      "id": "DS02",
+      "markdown_bytes": 35086,
+      "code_blocks": 18,
+      "images": 7
+    },
+    {
+      "id": "DS03",
+      "markdown_bytes": 38719,
+      "code_blocks": 11,
+      "images": 6
+    },
+    {
+      "id": "DS04",
+      "markdown_bytes": 20567,
+      "code_blocks": 8,
+      "images": 3
+    },
+    {
+      "id": "DS05",
+      "markdown_bytes": 44040,
+      "code_blocks": 13,
+      "images": 9
+    },
+    {
+      "id": "DS06",
+      "markdown_bytes": 40983,
+      "code_blocks": 12,
+      "images": 8
+    },
+    {
+      "id": "DS07",
+      "markdown_bytes": 48976,
+      "code_blocks": 6,
+      "images": 10
+    },
+    {
+      "id": "DS08",
+      "markdown_bytes": 44068,
+      "code_blocks": 14,
+      "images": 7
+    },
+    {
+      "id": "CO01",
+      "markdown_bytes": 24345,
+      "code_blocks": 0,
+      "images": 3
+    },
+    {
+      "id": "CO02",
+      "markdown_bytes": 50880,
+      "code_blocks": 4,
+      "images": 6
+    },
+    {
+      "id": "CO03",
+      "markdown_bytes": 59249,
+      "code_blocks": 3,
+      "images": 7
+    },
+    {
+      "id": "CO04",
+      "markdown_bytes": 36750,
+      "code_blocks": 6,
+      "images": 4
+    },
+    {
+      "id": "CO05",
+      "markdown_bytes": 58019,
+      "code_blocks": 5,
+      "images": 7
+    },
+    {
+      "id": "CO06",
+      "markdown_bytes": 23976,
+      "code_blocks": 0,
+      "images": 4
+    },
+    {
+      "id": "CO07",
+      "markdown_bytes": 33449,
+      "code_blocks": 1,
+      "images": 5
+    },
+    {
+      "id": "OS01",
+      "markdown_bytes": 36716,
+      "code_blocks": 1,
+      "images": 6
+    },
+    {
+      "id": "OS02",
+      "markdown_bytes": 126448,
+      "code_blocks": 26,
+      "images": 30
+    },
+    {
+      "id": "OS03",
+      "markdown_bytes": 72946,
+      "code_blocks": 1,
+      "images": 22
+    },
+    {
+      "id": "OS04",
+      "markdown_bytes": 63008,
+      "code_blocks": 1,
+      "images": 16
+    },
+    {
+      "id": "OS05",
+      "markdown_bytes": 58572,
+      "code_blocks": 0,
+      "images": 24
+    },
+    {
+      "id": "CN01",
+      "markdown_bytes": 32139,
+      "code_blocks": 0,
+      "images": 6
+    },
+    {
+      "id": "CN02",
+      "markdown_bytes": 20406,
+      "code_blocks": 0,
+      "images": 4
+    },
+    {
+      "id": "CN03",
+      "markdown_bytes": 54644,
+      "code_blocks": 1,
+      "images": 8
+    },
+    {
+      "id": "CN04",
+      "markdown_bytes": 62036,
+      "code_blocks": 1,
+      "images": 11
+    },
+    {
+      "id": "CN05",
+      "markdown_bytes": 41836,
+      "code_blocks": 0,
+      "images": 9
+    },
+    {
+      "id": "CN06",
+      "markdown_bytes": 41652,
+      "code_blocks": 2,
+      "images": 8
+    }
+  ],
+  "scope": "Structure and fingerprints; knowledge accuracy and visual review are separately recorded."
+}

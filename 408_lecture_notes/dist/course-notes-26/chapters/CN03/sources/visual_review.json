@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "reviewer": "cn_review",
+  "time_utc": "2026-10-27T05:24:44.877282+00:00",
+  "pdf_sha256": "7c888601b141f8fa4f801770bddf674c632ce5e5c08d876180c1903e2a78fdda",
+  "canonical_sha256": "ed23044b127ff6ef5701ebee979f8161e007fca5bf18c7fcf1bac6668dccb2c2",
+  "pages": 19,
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "method": "逐页查看每章联系图，检查版面、旁注及分页；另放大所列页面核对密集公式、表格、图示和末页。",
+  "enlarged_pages": [
+    3,
+    15,
+    16
+  ],
+  "findings": [],
+  "scope": "最终PDF全部页面版面和指定放大页面的可读性；知识及来源核验另行记录。"
+}

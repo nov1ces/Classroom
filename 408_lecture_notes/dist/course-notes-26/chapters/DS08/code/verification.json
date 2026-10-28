@@ -1,0 +1,11 @@
+{
+  "source": "Code blocks extracted verbatim from content.md; types/includes and test harness separate",
+  "compiler": "g++ C++17 (supports textbook C++ references)",
+  "checks": [
+    "-Wall -Wextra -Wpedantic -Werror",
+    "ASan",
+    "UBSan"
+  ],
+  "result": "passed",
+  "output": "22720 random/empty/duplicate sorting comparisons passed\n"
+}

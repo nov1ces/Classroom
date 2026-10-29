@@ -131,7 +131,7 @@ int TreeDepth(BiTree T) {
 
 高度代码按空树0、叶1返回；时间\(O(n)\)、栈空间\(O(h)\)。交换每个结点的左右孩子会反向原中序次序，保留结点身份、叶数和树高。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_05_binary_traversal.pdf}
 \caption{同一二叉树的四种遍历}\label{DS05-traversal-figure}
@@ -266,7 +266,7 @@ void InOrderThread(ThreadNode *T) {
 
 \texttt{Firstnode}要求非空参数且线索标志完整；整趟中序访问时间\(O(n)\)、工作空间\(O(1)\)。已线索化的树递归时须按标志只走真实孩子，避免沿线索返回祖先。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_06_inorder_threads.pdf}
 \caption{孩子链接与中序线索}\label{DS05-thread-figure}
@@ -339,7 +339,7 @@ typedef struct CSNode {
 
 森林双亲数组可有多个根标志，孩子兄弟表示把各根沿兄弟链接相连。转换规则为\textbf{左孩子、右兄弟}：普通树首孩子成为左孩子，后续兄弟沿右链；单棵树根无右孩子，森林根沿右链。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_07_forest_conversion.pdf}
 \caption{树、森林与二叉树转换}\label{DS05-forest-figure}

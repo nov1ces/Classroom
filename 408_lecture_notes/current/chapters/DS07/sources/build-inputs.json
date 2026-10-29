@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/DS07/map.json": "1775127ce32c9746d82123e5c862cfee9b804d38d6c6cec658dbdcd52ed25101",
   "chapters/DS07/content.md": "b9297d442053e8fe0fd249d46581cfe05406138be0247b62712611cd323c91b1",
   "chapters/DS07/examples.json": "424b1667ab6316a1f16a5f3f651652a6d129c3eceb3df81a6906c646526bb27e",
   "chapters/DS07/sidebars.json": "f24d12a401adac169b2122c3b5230e7317f1de6d0f9730b195be8a177551889d",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/DS07/figures/DS_15_btree_split.pdf": "e8d228d9a6c54ebb8f718201f04f3c6b413db69590f1f06efa9bf1465b2cd061",
   "chapters/DS07/figures/DS_16_bplus.png": "9d46505f5cad196685d6f790f04af1177148d7e8a5df76bd19e75d9db89a060a",

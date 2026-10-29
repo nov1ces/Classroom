@@ -145,12 +145,13 @@ def prepare(ch):
   return x
  doc['blocks']=walk(doc['blocks'])
  latex=cmd(['pandoc','-f','json','-t','latex','--top-level-division=chapter','--wrap=none','--no-highlight'],data=json.dumps(doc,ensure_ascii=False))
+ latex=re.sub(r'\\begin\{figure\}(?:\[[^]]*\])?',lambda m:r'\begin{figure}[H]',latex)
  latex=tex_symbols(latex)
  (ch/'chapter.tex').write_text(latex)
  jwrite(ch/'sources/anchor_titles.json',titles)
  meta=read(ch/'map.json');title=meta['title'];num=int(ch.name[2:])-1
  main=r'''\documentclass{sidenotes-simplex}
-\usepackage{graphicx,longtable,calc,etoolbox,caption}
+\usepackage{graphicx,longtable,calc,etoolbox,caption,float}
 \RenewDocumentEnvironment{wideblock}{}{\begin{adjustwidth}{0mm}{-54mm}\setlength{\hsize}{\linewidth}\setlength{\columnwidth}{\linewidth}}{\end{adjustwidth}}
 \providecommand{\tightlist}{\setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}}
 \providecommand{\passthrough}[1]{#1}

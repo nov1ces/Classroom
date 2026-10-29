@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/OS02/map.json": "c46615801da13db6ab18a6139277d5dafdced7e70964647439582999401b94d4",
   "chapters/OS02/content.md": "4cd37e54b9fd54a2fae4f2ba6b64038070917ceccba99ce2b8ad1ecebb16a6e3",
   "chapters/OS02/examples.json": "5061ba81b3526289516cad96f9d723df465986ff625cf57e6c047268d2dfdac1",
   "chapters/OS02/sidebars.json": "e6562e234813937321798ec61e6e4292568d47198babd37196c58780bb0f5c52",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/OS02/figures/OS_priority_timeline.svg": "6d4c6d37ef1757dd817bd36505d0270d8f35d8d8387569b0f1a88e94117ecf19",
   "chapters/OS02/figures/F03_precedence_2022.png": "5a49861accf42fce6b512705989fb84bff32964c2a1dd840577f299f04969bed",

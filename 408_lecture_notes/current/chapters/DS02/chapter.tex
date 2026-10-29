@@ -189,7 +189,7 @@ bool ListDelete(LinkList &L, int i, ElemType &e) {
 
 插入先令新结点指向旧后继，再修改前驱链接；删除先保存被删结点和后继，再摘除、释放。已知前驱的局部修改为\(O(1)\)；按位序插删还需\(O(n)\)定位。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_01_list_insert.pdf}
 \caption{单链表后插的链接顺序}\label{DS02-insert-figure}
@@ -349,7 +349,7 @@ void eraseAll(LNode* L, int x) {
 
 采用带头结点的单链表保存单词，两个单词可共享相同后缀的存储空间。例如 \texttt{loading} 与 \texttt{being} 共享从字符 \texttt{i} 开始的结点。\texttt{str1}、\texttt{str2} 指向两个头结点，结点为 \texttt{data | next}。设计时间上尽可能高效的算法，找到共同后缀的起始结点，给出思想、程序及时间复杂度。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_02_shared_suffix.pdf}
 \caption{两个前缀分别连接到同一个 i 结点，随后共用 n、g 结点}\label{ds-fig-shared-suffix}

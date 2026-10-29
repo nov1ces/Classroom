@@ -68,7 +68,7 @@ C. 9，20，12，20　D. 9，20，28，20
 
 \section{IPv4首部与分片}\label{CN04-ipv4}
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN16_ipv4_header.pdf}
 \caption{IPv4固定首部20 B，可选部分另计}\label{cn-fig-ipv4-format}
@@ -178,7 +178,7 @@ D. 168.16.84.1，168.16.95.254
 
 A. 126　B. 254　C. 510　D. 1022
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN_course_vlsm.pdf}
 \caption{地址块逐级二分与VLSM对齐}\label{cn-course-vlsm}
@@ -198,11 +198,11 @@ C. 35.230.32.0/19　D. 35.230.32.0/20
 
 查表先选匹配位数最多的前缀，再读取输出接口及下一跳；不同前缀长度间不直接比较度量。\texttt{/\allowbreak{}32}仅匹配一主机，\texttt{/\allowbreak{}0}为无更具体匹配时的默认路由，仍遵守广播、TTL等限制。本地出口与下一跳IP是两个字段。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E11}{}\label{CN04-E11}\textbf{例 4-11}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E11}{}\label{CN04-E11}\textbf{例 4-6}\par\nobreak\smallskip
 
 Internet的两个自治系统构成的网络如下图所示。AS1由R1连接两个子网构成；AS2由R2、R3互联并连接三个子网构成。各子网地址、R2的接口名以及R1、R3的部分接口IP地址均在图中标出。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN22_aggregate_2013.pdf}
 \caption{R2经S0到R1、经S1到R3，E0直连194.17.20.128/25}\label{cn-fig-aggregate2013}
@@ -218,7 +218,7 @@ Internet的两个自治系统构成的网络如下图所示。AS1由R1连接两�
 
 发送步骤：按掩码和路由判定下一跳\ensuremath{\to}查下一跳IP的ARP缓存\ensuremath{\to}缺项时在本广播域广播ARP请求\ensuremath{\to}目标通常单播回复\ensuremath{\to}以本机出口MAC为源、下一跳MAC为目的封装。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN08_ip_mac_hops.pdf}
 \caption{无NAT时IP两端保持，MAC逐跳重封装}\label{cn-fig-arp}
@@ -226,7 +226,7 @@ Internet的两个自治系统构成的网络如下图所示。AS1由R1连接两�
 
 目的在本地，ARP查询目的IP；目的在外地，通常查询默认网关或路由指定邻居IP。普通路由器不转发ARP广播。二层交换机转发同一帧时保留源MAC，路由器下一跳重新封装。ARP缓存会老化，代理ARP须有明确条件。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E06}{}\label{CN04-E06}\textbf{例 4-6}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E06}{}\label{CN04-E06}\textbf{例 4-7}\par\nobreak\smallskip
 
 某以太网中，甲IP为211.71.136.23，子网掩码255.255.240.0，网关211.71.136.1。若甲向乙211.71.130.25发送IP分组，则（　）。
 
@@ -244,11 +244,11 @@ NAT在边界维护内部/外部地址映射；NAPT再用端口复用公网IP。�
 
 DHCP提供IP、掩码、网关、DNS及租期，UDP服务器67、客户端68。初次获取：Discover寻找\ensuremath{\to}Offer提议\ensuremath{\to}Request选择\ensuremath{\to}ACK确认使用；初始Request源\texttt{0.\allowbreak{}0.\allowbreak{}0.\allowbreak{}0}、目的受限广播，申请地址通过Requested IP Address选项携带。续租状态可单播；跨网段可用DHCP中继。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E07}{}\label{CN04-E07}\textbf{例 4-7}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E07}{}\label{CN04-E07}\textbf{例 4-8}\par\nobreak\smallskip
 
 一台新接入网络的主机H通过DHCP服务器动态请求IP地址过程中，与DHCP服务器交换DHCP报文的部分过程如下图。封装DHCPREQUEST报文的IP数据报的目的IP地址和源IP地址分别是（　）。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN13_dhcp_2025.pdf}
 \caption{原题的两个报文及字段标记；时间向下}\label{cn-fig-dhcp}
@@ -266,7 +266,7 @@ ICMP由IP封装，报告目的不可达、时间超过、参数问题等，回�
 
 Traceroute逐增TTL，通过沿途超时回复定位，探测可用UDP、ICMP或TCP变体。历史``源点抑制''类型已由RFC 6633废弃；旧题按年代识别，现行拥塞处理使用适用反馈机制。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E08}{}\label{CN04-E08}\textbf{例 4-8}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E08}{}\label{CN04-E08}\textbf{例 4-9}\par\nobreak\smallskip
 
 若路由器R因为拥塞丢弃IP分组，则此时R可向发出该IP分组的源主机发送的ICMP报文类型是（　）。
 
@@ -305,7 +305,7 @@ IPv6地址128 bit，8组16位十六进制，单组可省前导0，\texttt{:\allo
 
 IPv6地址空间/IPv4地址空间为\(2^{96}\)。双栈同时运行两协议；隧道把一类IP分组封装到另一类IP分组中，内外端点分别解释。流量类别、流标签仅提供分类信息，服务保证还需要资源和机制。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E09}{}\label{CN04-E09}\textbf{例 4-9}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E09}{}\label{CN04-E09}\textbf{例 4-10}\par\nobreak\smallskip
 
 下列关于IPv4和IPv6的叙述中，正确的是（　）。
 
@@ -382,11 +382,11 @@ OSPF区域内同步拓扑，跨区经骨干区域，边界路由器参与多个�
 
 BGP的AS\_PATH用于AS环检测和策略，含本AS号通常拒绝；NEXT\_HOP还需IGP递归求本机出口。eBGP两端属不同AS，iBGP同AS且不必物理直连；完整网状iBGP可由路由反射等机制扩展。OPEN交换会话参数，UPDATE发布/撤销，KEEPALIVE保活，NOTIFICATION报告错误并结束。按题给本地偏好、AS路径等规则选路；属性相同的教材题才进一步比较到出口域内代价。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E12}{}\label{CN04-E12}\textbf{例 4-12}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E12}{}\label{CN04-E12}\textbf{例 4-11}\par\nobreak\smallskip
 
 网络空间是继陆海空天之后的``第五疆域''，路由算法与协议是网络核心技术之一。现有互联网中4个自治系统的互连拓扑如下图。AS1运行RIP；AS3内任意两台主机通信经过的路由器不超过15个，AS4内可能超过20个。本题采用下图拓扑：\textbf{R13与R16不直接相连}。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN23_routing_2024.pdf}
 \caption{AS1内仅有R11---R12、R12---R13、R11---R14、R14---R15、R15---R16、R15---R13六条路由器间链路}\label{cn-fig-routing2024}
@@ -433,11 +433,11 @@ IPv4组播\texttt{224.\allowbreak{}0.\allowbreak{}0.\allowbreak{}0/\allowbreak{}
 
 普通IPv4转发顺序：接收帧并检查\ensuremath{\to}取出IP\ensuremath{\to}若目的本机按协议上交\ensuremath{\to}否则检查TTL、最长前缀选出口和下一跳\ensuremath{\to}按MTU/DF处理\ensuremath{\to}解析下一跳地址\ensuremath{\to}出口排队并重封装。直通等特殊实现的启动时间按题设。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E10}{}\label{CN04-E10}\textbf{例 4-10}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN04-E10}{}\label{CN04-E10}\textbf{例 4-12}\par\nobreak\smallskip
 
 某公司的网络如下图所示。IP地址空间192.168.1.0/24被均分给销售部和技术部两个子网，并已分别为部分主机和路由器接口分配了IP地址。销售部子网的MTU=1500 B，技术部子网的MTU=800 B。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN21_subnet_fragment_2018.pdf}
 \caption{销售部已分配192.168.1.1～20，技术部已分配192.168.1.129～208；F0为.126，F1为.254}\label{cn-fig-subnet2018}
@@ -451,7 +451,7 @@ IPv4组播\texttt{224.\allowbreak{}0.\allowbreak{}0.\allowbreak{}0/\allowbreak{}
 
 某公司工程部长期驻扎偏远山区，租用天通一号卫星通信链路连接工程部R1和总部R2，网络如下图。S1、S2为千兆以太网交换机；TR1、TR2是卫星地面收发设备，实现全双工调制解调。卫星轨道高度36000 km，电磁波传播速度300000 km/s；卫星链路为R1、R2提供对称全双工信道，每方向数据传输速率200 kb/s。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN24_satellite_2025.pdf}
 \caption{H配置10.10.10.33/26并位于管理区；工程部还有作业区、生活区两个子网}\label{cn-fig-satellite2025}

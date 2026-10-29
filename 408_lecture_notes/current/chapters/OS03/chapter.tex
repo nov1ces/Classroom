@@ -143,7 +143,7 @@ C. 10 MB　　D. 15 MB
 
 当 \(P=2^d\) 时，低 \(d\) 位为偏移，转换只替换页号。单级连续紧密页表基址 \(F\)、表长 \(N\) 项、每项 \(e\) B：先检查 \(0\le p<N\)，表项地址 \(F+pe\)，取页框号、驻留与权限，再访问目标；表项地址和数据地址分别计算。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/OS_page_translation.pdf}
 \caption{页号查表与页内偏移拼接}
@@ -213,7 +213,7 @@ TLB 缓存转换及权限，数据 Cache 缓存数据。TLB 未命中可从内�
 
 合法地址查询 \ensuremath{\to} 页未驻留 \ensuremath{\to} 保存重启状态并定位后备页 \ensuremath{\to} 取得空框或选择牺牲页 \ensuremath{\to} 必要时写回脏页 \ensuremath{\to} 调入 \ensuremath{\to} 更新页表、失效旧 TLB 并建立新转换 \ensuremath{\to} 重试原指令。权限不足或非法地址按保护错误处理。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/OS_page_fault.pdf}
 \caption{缺页处理与原指令重试}

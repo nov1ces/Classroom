@@ -174,7 +174,7 @@ C. 2,12,16,5,28,32,72,60
 
 D. 5,2,12,28,16,32,72,60
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E09}{}\label{DS08-E09}\textbf{例 8-9}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E09}{}\label{DS08-E09}\textbf{例 8-3}\par\nobreak\smallskip
 
 n（n\textgreater100000）个数保存在一维数组M中，需要查找最小的10个数。
 
@@ -213,7 +213,7 @@ void HeapSort(int A[], int len) {
 
 有效元素\texttt{A[\allowbreak{}1.\allowbreak{}.\allowbreak{}len]\allowbreak{}}，0号暂存。下滤要求左右子树已经成堆，每层先选较大孩子再比较候选。自底向上建堆\(O(n)\)，完整排序最坏\(\Theta(n\log n)\)，迭代辅助空间\(O(1)\)，不稳定。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E03}{}\label{DS08-E03}\textbf{例 8-3}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E03}{}\label{DS08-E03}\textbf{例 8-4}\par\nobreak\smallskip
 
 小根堆为 \texttt{8,\allowbreak{}15,\allowbreak{}10,\allowbreak{}21,\allowbreak{}34,\allowbreak{}16,\allowbreak{}12}，删除关键字8之后重建堆，此过程中关键字之间的比较次数是（　）。
 
@@ -253,7 +253,7 @@ void MergeSort(int A[], int low, int high) {
 
 自底向上把单元素视为段，段长按1、2、4、8增长；最后一组允许不足两个完整段。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E04}{}\label{DS08-E04}\textbf{例 8-4}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E04}{}\label{DS08-E04}\textbf{例 8-5}\par\nobreak\smallskip
 
 三个有序序列 \texttt{(\allowbreak{}3,\allowbreak{}5)\allowbreak{}}、\texttt{(\allowbreak{}7,\allowbreak{}9)\allowbreak{}}、\texttt{(\allowbreak{}6)\allowbreak{}}，按从左到右次序选择序列进行二路归并，关键字总比较次数为（　）。
 
@@ -275,7 +275,7 @@ LSD(records,d,r):
 
 \(d\)位、基数\(r\)时，时间\(\Theta(d(n+r))\)。已有链接域的链式记录可只用\(O(r)\)桶头、桶尾；数组分配需\(O(n+r)\)空间。链式分配须先保存原后继，再摘下并接桶尾；收集连接各桶首尾。递减输出按桶号逆序收集，桶内仍FIFO。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E05}{}\label{DS08-E05}\textbf{例 8-5}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E05}{}\label{DS08-E05}\textbf{例 8-6}\par\nobreak\smallskip
 
 对 \texttt{05,\allowbreak{}46,\allowbreak{}13,\allowbreak{}55,\allowbreak{}94,\allowbreak{}17,\allowbreak{}42} 进行基数排序，一趟后的结果为（　）。
 
@@ -351,7 +351,7 @@ replacementSelection(input,m):
 
 输出段长度可超过工作区容量；随机输入常见平均段长约\(2m\)的结论依赖随机模型，具体输入按实际状态计算。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E06}{}\label{DS08-E06}\textbf{例 8-6}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E06}{}\label{DS08-E06}\textbf{例 8-7}\par\nobreak\smallskip
 
 对含 \(n>0\) 个记录的文件外部排序，以置换---选择生成初始归并段，工作区能保存m个记录。
 
@@ -363,7 +363,7 @@ replacementSelection(input,m):
 
 \(k\)路归并的败者树以各路为叶，内部保存比较败者，另存冠军。冠军输出、该路换入新首记录后，只沿原比赛路径重比，每层一次，更新\(O(\log k)\)。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_19_loser_tree.pdf}
 \caption{内部保存败者，冠军单独记录}\label{DS08-loser-figure}
@@ -371,13 +371,13 @@ replacementSelection(input,m):
 
 不等长段的最佳归并以段长为叶权，最小化归并树WPL。二路每次合并当前两个最短段；\(k\)路每次合并当前\(k\)个最短段，先补最少零权叶，使\((r'-1)\bmod(k-1)=0\)。补虚段用于最优树的完整分支模型。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E07}{}\label{DS08-E07}\textbf{例 8-7}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E07}{}\label{DS08-E07}\textbf{例 8-8}\par\nobreak\smallskip
 
 6个升序表A、B、C、D、E、F，分别含10、35、40、50、60、200个元素。通过5次两两合并成为一个升序表，要求最坏情况下比较总次数最小。
 
 （1）给出完整合并过程及最坏比较总次数。（2）描述N个不等长升序表的合并策略并说明理由。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E08}{}\label{DS08-E08}\textbf{例 8-8}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{DS08-E08}{}\label{DS08-E08}\textbf{例 8-9}\par\nobreak\smallskip
 
 12个初始段长分别为30、44、8、6、3、20、60、18、9、62、68、85。进行4路外部归并，画出最佳归并树并计算WPL。
 

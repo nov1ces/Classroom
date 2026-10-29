@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/CO03/map.json": "7db8e87e9b19c87d56b8ebdec42ac81b7095db1c1c6d91cd376995aaa4ca93ea",
   "chapters/CO03/content.md": "e343ad9c61bb2e3f0a1cc67c1f51ddabc9b10673c42484b0bc40d9f4cc50daeb",
   "chapters/CO03/examples.json": "c068f5a6a0a0cf3a3b8ba2372e96fcf1e1978a71b88b551e7afdc524052463b6",
   "chapters/CO03/sidebars.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/CO03/figures/CO_F03_cache_address.svg": "2803c20191b8a34dc096f4aa61d1c2dc6b039b4753fe30a6227cf98b98bf8370",
   "chapters/CO03/figures/CO_F02_memory_expand.png": "6487b91931ca60796075e2b2b08b6efc66a67ec71a2490735d51e42d132569b8",

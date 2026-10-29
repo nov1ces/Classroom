@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/CO07/map.json": "b742d07641b0a5f249be39640c13c1abad53188bd77e368ea5f39aaf14aa414c",
   "chapters/CO07/content.md": "088893d493451114cdcff82520f314c6caa4dc1912fd7750501f6a0dd3dd9994",
   "chapters/CO07/examples.json": "5d2330d730b259cfc191c7cc7f5c67fd236a40b16fa8a01af982953816484446",
   "chapters/CO07/sidebars.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/CO07/figures/CO_F12_dma_path.png": "7ad3281f734e14760a92210c78383cca20bdbd81ff783e89b4e1dd8fd24eb9e6",
   "chapters/CO07/figures/CO_F12_dma_path.pdf": "e8425e81678bede289e3f1741f6749ab56d3884fa99659234be4fddb8cd526ce",

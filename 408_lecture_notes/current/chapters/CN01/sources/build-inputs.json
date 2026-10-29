@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/CN01/map.json": "6e2b009fac8de4f827b831287a775ba3a7471848cacdba1e90fc3abb1f34d7a0",
   "chapters/CN01/content.md": "96dbec7bbd13733f776eb28f410be2f22d9681e2a471624ed17a781df97ee626",
   "chapters/CN01/examples.json": "c8cb7796783e59162ad0592a0cf4d08ccdf9df4271b06a623a5ecf7a484e92df",
   "chapters/CN01/sidebars.json": "660fbb2f81e01f9b0167da0a837c4376e3d7a697a597dc4a4ed7724168636f0a",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/CN01/figures/CN02_packet_pipeline.png": "079a0eed38f22fc4f7afde924ea039857edd684a38af978e2d914d0ecf3a7520",
   "chapters/CN01/figures/CN15_two_links_2023.png": "2e5d7675b376954b112529c15cca7c4ef219f548d5e108510c686c84c680e03b",

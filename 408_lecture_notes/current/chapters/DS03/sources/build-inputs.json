@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/DS03/map.json": "fa7ac19431ae608abd8d26c76f761029d7a8319e503b43ae5b95772cf39aee4d",
   "chapters/DS03/content.md": "8ffa66e06d5283d6c9a7fb5de33fc91d079aeb1e8acf66a1c6a08f614a11ef3c",
-  "chapters/DS03/examples.json": "40f952632fcc9129517922a844f597fdc4e052a15a630339e8c45369e1549b89",
+  "chapters/DS03/examples.json": "1dea33fca0eea9de1514a069d0160c47934a0d86bf01ee3d161692a3fb37b8af",
   "chapters/DS03/sidebars.json": "4b2816a9b8a0880984e476a3773012951a79406fd651ab156a78d35faf3af20f",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/DS03/figures/DS03_matrix_positions.png": "95ebddff02840208b794ff5f3e51023f79b046a8d599bb4144818a191a28d523",
   "chapters/DS03/figures/DS03_matrix_positions.svg": "c2dffe85b5e0266b05d59e46286e47c4e28bf4ed82e5ac0980ae49825a4496b6",

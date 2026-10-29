@@ -1,9 +1,9 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/OS01/map.json": "4a5266c98c3bad59d834c988a77a8cb56bcee699f0b557748011d288814ff556",
   "chapters/OS01/content.md": "ad41527b0aafac3a85e258da88b6fff2f6a26a29c0ab001e0d04aa7ebc066c5f",
   "chapters/OS01/examples.json": "5f3345cd96f9c0cd810b0a08af4d24fd6d6ec3f10fde3fdc0f3e2c7ec27bc78d",
   "chapters/OS01/sidebars.json": "8a3d391261380ea64c4cb68414a0e61978ae6d7dea04f1aecad7ea2da40a916c",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe"
 }

@@ -123,7 +123,7 @@ ALU一端由Y保存第一个操作数，另一端接总线；结果先存Z，后
 
 某CPU中部分数据通路如下图所示，其中，GPRs为通用寄存器组；FR为标志寄存器，用于存放ALU产生的标志信息；带箭头虚线表示控制信号，如控制信号Read、Write分别表示主存读、主存写，MDRin表示内部总线上数据写入MDR，MDRout表示MDR的内容送内部总线。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO_F07_datapath.pdf}
 \caption{单条内部总线连接Y、ALU与Z；rs、rd为4位寄存器编号}\label{co-fig-datapath}
@@ -198,7 +198,7 @@ CM/CMAR/CMDR & 控制存储器/微地址寄存器/微指令寄存器 \\
 
 PC、MAR对应机器程序/主存空间；CMAR定位控存。公共取指微程序可共享，取指结束由IR操作码映射执行入口，执行结束回取指入口。间址、中断等可有公共段；入口具体地址依模型规定。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO05_microprogram_flow.pdf}
 \caption{取指入口、操作码映射和执行微程序}
@@ -264,7 +264,7 @@ A. 5　 B. 6　 C. 8　 D. 9
 
 具体分类、保存PC及可恢复规则由ISA确定。硬件响应保存规定的断点与处理器状态、切换状态并进入入口；软件继续保存所需通用寄存器现场。``中断隐指令''为硬件响应动作的教材称呼。中断服务程序为软件。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO_F08_interrupt_response.pdf}
 \caption{外部请求、硬件入口与软件处理}

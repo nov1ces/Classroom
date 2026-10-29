@@ -39,7 +39,7 @@ TCP发送缓冲保留未确认字节以便重传；接收缓冲可存失序字�
 
 \section{UDP长度与反码检验和}\label{CN05-udp-checksum}
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN18_udp_header.pdf}
 \caption{UDP四字段各16 bit}\label{cn-fig-udp-format}
@@ -86,7 +86,7 @@ D. \texttt{1110 0000 1000 0100}
 
 \section{TCP首部、序号与累计确认}\label{CN05-tcp-header}
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN17_tcp_header.pdf}
 \caption{教材TCP固定首部及六控制位}\label{cn-fig-tcp-format}
@@ -156,7 +156,7 @@ A. 500　B. 700　C. 800　D. 1000
 
 第三次握手确认服务器初始序号，避免服务器仅凭迟到旧SYN就长期保留无效连接。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN09_tcp_handshake.pdf}
 \caption{两个方向各同步一个初始序号}\label{cn-fig-handshake}
@@ -180,7 +180,7 @@ C. 850 ms，75 ms　D. 1650 ms，75 ms
 
 例如622到达返回ACK623，623丢失；624、625、626依次到达分别产生重复ACK1、2、3，第三份才触发快重传。若已缓存624～626，补齐623后ACK可推进至627。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN_course_duplicate_acks.pdf}
 \caption{正常ACK与三次重复ACK分别计数}\label{cn-course-duplicate-acks}
@@ -204,11 +204,11 @@ rwnd由接收方依据当前接收能力通告，cwnd由发送方依据网络反
 
 接收缓存8 B且应用不读，从seq600开始，依次收到600～602、603～604、605～606、607：ACK/rwnd为603/5、605/3、607/1、608/0；应用读走8 B后为608/8，确认号保持。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN05-E06}{}\label{CN05-E06}\textbf{例 5-6}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN05-E06}{}\label{CN05-E06}\textbf{例 5-5}\par\nobreak\smallskip
 
 主机甲通过TCP向主机乙发送数据的部分过程如下图。seq为序号，ack\_seq为确认序号，rcvwnd为接收窗口。甲在 \(t_0\) 的拥塞窗口和发送窗口均为2000 B，拥塞控制阈值为8000 B，MSS=1000 B，甲始终以MSS发送TCP段。若甲在 \(t_1\) 收到图示确认段，则未收到新的确认之前，还可以继续发送的TCP段数是（　）。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN10_tcp_window_2025.pdf}
 \caption{原题数据：第二个数据段仍未被ack\_seq=3001确认}\label{cn-fig-tcp-window}
@@ -245,7 +245,7 @@ Tahoe三重复ACK & 减半门限 & 回1 MSS并慢开始 \\
 
 初始1、门限8，未受其他限制时轮次1、2、4、8、9、10\ldots\ldots；若在12超时，门限6，后续1、2、4、6、7\ldots\ldots。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN05-E05}{}\label{CN05-E05}\textbf{例 5-5}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN05-E05}{}\label{CN05-E05}\textbf{例 5-6}\par\nobreak\smallskip
 
 若主机甲与主机乙已建立TCP连接，MSS为1 KB，RTT为2 ms，则在不出现拥塞的前提下，拥塞窗口从8 KB增长到32 KB所需的最长时间是（　）。
 
@@ -265,7 +265,7 @@ A. 10 KB　B. 12 KB　C. 14 KB　D. 15 KB
 
 主机H通过快速以太网连接Internet，IP地址为192.168.0.8；服务器S的IP地址为211.68.71.80。H与S使用TCP通信，在H上捕获的5个IP分组及其中一个分组在S发出时的前40字节如下图，均为十六进制、按网络字节序排列。\textbf{第2包首字节采用45，第3包TCP数据偏移与控制字节采用50 10}。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN25_packets_2012.pdf}
 \caption{1～5为H处捕获的分组，S行为在服务器发出时捕获的对应分组；每行20 B}\label{cn-fig-packets2012}
@@ -285,7 +285,7 @@ A. 10 KB　B. 12 KB　C. 14 KB　D. 15 KB
 
 下图中H3访问Web服务器S。S为新建TCP连接分配20 KB（K=1024）接收缓存，MSS=1 KB，平均RTT=200 ms。H3建立连接时初始序号为100，持续按MSS大小发送数据，拥塞窗口初始阈值32 KB；S对收到的每个段确认并通告新接收窗口。连接建立后，S的TCP接收缓存只有数据存入、没有数据取出。图中R2的E0侧采用201.1.1.0/24。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN14_dns_topology_2016.pdf}
 \caption{H3为192.168.3.251，经Hub和R2访问130.18.10.1；复用2016年共用题图}\label{cn-fig-window2016}

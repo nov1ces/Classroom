@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/CO02/map.json": "8b8b2513191586ea46db7aef68a08526f2abdae58a7153e32f33db9dc8d680dd",
   "chapters/CO02/content.md": "ee8404a975325621be19e2dde4c023cd56ca14ecd1801e18b93b39c2d219ff6b",
   "chapters/CO02/examples.json": "410878172eaeb6c8e5e406fe9dd8c5472ae6d04e9d715d4557898c6acef1a422",
   "chapters/CO02/sidebars.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/CO02/figures/CO02_restoring_division.png": "e3d4ab1271b3beb3f06dd658d1aa560cf4bc21ba4db76e3d6408d56066a90e2c",
   "chapters/CO02/figures/CO02_mux_bus.svg": "e2f7a0bb5ae1bc51997af168ed9eb7530372ae2b92541739133eb28a5fb98747",

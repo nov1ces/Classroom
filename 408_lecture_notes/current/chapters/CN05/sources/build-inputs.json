@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/CN05/map.json": "ede134784810500a2d846b526532b38bf6c388933d82afe4bfe7fe7cd1ea0d8a",
   "chapters/CN05/content.md": "4ee4dcd3d539becde020c77de64013678e32742d41fe62d5e5270051ed603d13",
-  "chapters/CN05/examples.json": "befaca4dc569ff271dcd1228e3dcc012f785ea042734813359c7626d1ca70f88",
+  "chapters/CN05/examples.json": "dd823744da359805c289ce85cccd35f8c9a6fc9ff7ee417f3464edf4d60e1b01",
   "chapters/CN05/sidebars.json": "5fc20118efd4b045db828a53be667586f65a4657eedc2a8956cd992b493ceae4",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/CN05/figures/CN14_dns_topology_2016.pdf": "5a85d7615a8009f20036a3078035b5b67828e8ff42eca5b28749bcace4e14e1a",
   "chapters/CN05/figures/CN10_tcp_window_2025.png": "debee5e972c2f2ea4796dca8063124bc0672241fbe3d3158f09e750f2f94948d",

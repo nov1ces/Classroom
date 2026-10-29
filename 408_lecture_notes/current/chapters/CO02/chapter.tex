@@ -181,7 +181,7 @@ C 表达式先作整数提升和通常算术转换，再确定比较与运算类
 
 三态门关闭时输出高阻态，开启时驱动0或1。高阻表示不主动驱动公共线。共享总线同一时刻须满足驱动源控制约束，多个源输出相反电平会争用。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO02_mux_bus.pdf}
 \caption{选择器选择数据源，三态门控制公共线驱动}
@@ -391,7 +391,7 @@ A. OF=0，CF=0　 B. OF=0，CF=1　 C. OF=1，CF=0　 D. OF=1，CF=1
 
 15/2 初态 \(R=0000,Q=1111,Y=0010\)，每轮先整体左移 \(RQ\)，再试减并记录商位，共4轮，得到 \(Q=0111,R=0001\)。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO02_restoring_division.pdf}
 \caption{15除以2的试减、恢复和商位写入}
@@ -507,7 +507,7 @@ A. OF=0，CF=0　 B. OF=0，CF=1　 C. OF=1，CF=0　 D. OF=1，CF=1
 \end{longtable}}
 \par\smallskip
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO_F01_ieee754.pdf}
 \caption{单精度字段与指数编码}
@@ -672,7 +672,7 @@ record.a = 273;
 A. 0x00，0xC00D　 B. 0x00，0xC00E\\
 C. 0x11，0xC00D　 D. 0x11，0xC00E
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO_F05_struct_layout.pdf}
 \caption{结构体成员与填充位置}

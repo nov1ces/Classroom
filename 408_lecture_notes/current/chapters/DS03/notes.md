@@ -221,7 +221,7 @@ bool bracketCheck(char str[], int length) {
 后缀求值中，操作数入栈；运算符弹出两个值，按左右角色计算后压回。须检查操作数不足、除零与末尾恰留一个值。
 
 <a id="DS03-E05"></a>
-### [例 3-5](../../solutions/notes.md#a-DS03-E05)
+### [例 3-3](../../solutions/notes.md#a-DS03-E05)
 栈 $S_1$ 保存整数，$S_2$ 保存运算符。函数 F() 依次：（1）从 $S_1$ 弹出操作数 a、b；（2）从 $S_2$ 弹出运算符 op；（3）执行 b op a；（4）把结果压入 $S_1$。初始 $S_1$ 自底向顶为5、8、3、2，$S_2$ 自底向顶为 `*`、`−`、`+`。调用3次 F() 后，$S_1$ 栈顶值是（　）。
 
 A. −15　B. 15　C. −20　D. 20
@@ -286,13 +286,13 @@ $$\begin{aligned}
 ![压缩后的连续下标](figures/DS03_matrix_positions.png)
 
 <a id="DS03-E03"></a>
-### [例 3-3](../../solutions/notes.md#a-DS03-E03)
+### [例 3-4](../../solutions/notes.md#a-DS03-E03)
 100阶三对角矩阵 $M$ 的元素 $m_{i,j}\ (1\le i,j\le100)$ 按行优先依次压缩存入下标从0开始的一维数组 $N$。$m_{30,30}$ 在 $N$ 中的下标为（　）。
 
 A. 86　B. 87　C. 88　D. 89
 
 <a id="DS03-E04"></a>
-### [例 3-4](../../solutions/notes.md#a-DS03-E04)
+### [例 3-5](../../solutions/notes.md#a-DS03-E04)
 10×10对称矩阵 $M$ 的上三角元素 $m_{i,j}\ (1\le i\le j\le10)$ 按列优先存入 C 语言一维数组 $N$。$m_{7,2}$ 在 $N$ 中的下标为（　）。
 
 A. 15　B. 16　C. 22　D. 23

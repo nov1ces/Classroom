@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/CO01/map.json": "c1c294c1d4f954af51a002a6eec47cc08a20043462b4f4e43dcb7759f37dab67",
   "chapters/CO01/content.md": "beceb119c678e23aa6e7074e0b226c1714dcc4f6e0a4e1925057f5e659608ad2",
   "chapters/CO01/examples.json": "bb35c22f766aef20ca04f9b0ca3f87108dd608664a7c88438174e9212e0ac2f6",
   "chapters/CO01/sidebars.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/CO01/figures/CO01_program_path.pdf": "e653957b10e7c45ac183ef5eed65134b1ec7eb875c0ea05d062c2f48fef3bd01",
   "chapters/CO01/figures/CO01_program_path.png": "1588a3646ada63e49ad390271be1891e1a61df6455e9a0e8b640d9f58ee4a375",

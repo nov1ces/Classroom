@@ -264,7 +264,7 @@ R3=0时不访问数组；R3=3时访问偏移0、4、8。指针遍历每次加4�
 
 向低地址增长、SP指栈顶、槽4 B、call压入返回地址的模型：SP=1000H，返回地址2004H；call后SP=0FFCH，M{[}0FFCH{]}=2004H；保存旧FP后SP=0FF8H；分配8 B局部区后SP=0FF0H；按逆序撤销后SP恢复1000H。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO_F06_stack_frame.pdf}
 \caption{调用、建立栈帧和返回时SP移动}
@@ -293,7 +293,7 @@ R3=0时不访问数组；R3=3时访问偏移0、4、8。指针遍历每次加4�
 \end{longtable}}
 \par\smallskip
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO04_stack_layout.pdf}
 \caption{32位示例栈帧布局}

@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/OS05/map.json": "186fc341d41e3e16a21372a2a547bc3643e1985084beafe8bf5078fe49b44688",
   "chapters/OS05/content.md": "22a98edd28f8fad083f000c0bf1c89b9d910ebfb400b2fa7e3ce479d18b895f9",
   "chapters/OS05/examples.json": "2897856f06ede1ab66d8ff64222bc3465bf9a68d1739d1af20177754f47222f4",
   "chapters/OS05/sidebars.json": "42bc7dfd128dac1f7c8ba2d9b9636af7373829e3d9d157c2dcc5192435eac35d",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/OS05/figures/OS_buffer_timeline.png": "eaadd5d1dfb96905fdda067f5f1db663f22dc259c929b6d1791e58321bdd5108",
   "chapters/OS05/figures/OS_buffer_timeline.svg": "0a0fe6837d8eeb21da00d097f5cd18ed18735ed3994740c44df4a262064426a3",

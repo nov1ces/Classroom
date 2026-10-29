@@ -19,5 +19,6 @@ def main():
   for crop in e['crops']:
    if sha(ROOT/crop['png'])!=crop['png_sha256']:raise SystemExit('Screenshot changed: '+crop['png'])
  run('tools/build_all.py','--jobs',str(a.jobs));run('tools/build_solutions.py');run('tools/release.py','links');run('tools/release.py','audit');run('tools/audit_pdf_code.py')
+ run('tools/verify_text_integrity.py');run('tools/verify_navigation.py')
  print('Build complete. Push to GitHub before running final_qa.py.')
 if __name__=='__main__':main()

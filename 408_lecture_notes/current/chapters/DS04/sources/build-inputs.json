@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/DS04/map.json": "dd94c7edcfb9fa8d8703f89021ce229a9dffa7f93e3f56b2451d69cba20e9fb0",
   "chapters/DS04/content.md": "36aaa80e40b51fb835a6fb02659e712165832cb2ea5daaa92994cbf59d6bcb67",
   "chapters/DS04/examples.json": "cd0a9de38c1a07968a1c55c873310dfa59fa122623e3c4b94ad28324ed028d7e",
   "chapters/DS04/sidebars.json": "a5d3967e5c2709687f37db14b8d8f4f9f87ced650f4616f149f37ece039ce6e3",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/DS04/figures/DS04_string_layout.pdf": "7684e39551df551db5d0e3fab50b6a70ad7f78e1e6326600d2d70cc3f81470e2",
   "chapters/DS04/figures/DS04_kmp_1based.svg": "26ef9094268eed6f3ca152c863ae33d1af14730817402559a06cb10bb8081ee6",

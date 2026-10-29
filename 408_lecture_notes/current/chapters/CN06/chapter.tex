@@ -68,7 +68,7 @@ NS/MX中的名称可能继续需要地址解析。名称、IP与主机无一一�
 
 假设所有域名服务器均采用迭代查询方式进行域名解析。当H4访问规范域名为 \texttt{www.\allowbreak{}abc.\allowbreak{}xyz.\allowbreak{}com} 的网站时，域名服务器201.1.1.1完成该域名解析过程中，可能发出DNS查询的最少和最多次数分别是（　）。共用网络拓扑如下。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN14_dns_topology_2016.pdf}
 \caption{2016年共用拓扑；本题只使用H4及其默认DNS服务器201.1.1.1}\label{cn-fig-dns2016}
@@ -104,7 +104,7 @@ D. 建立在UDP之上的数据连接
 
 POP3经历授权、事务、更新；同一TCP连接可读取多封邮件，删除通常在更新阶段落实，也可下载并保留。Web邮箱浏览器使用HTTP类交互，后端仍可运行邮件协议。提交被接受与用户已读取是不同事件。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN_course_mail_flow.pdf}
 \caption{提交、转送、读取分别使用相应协议}\label{cn-course-cn_course_mail_flow}
@@ -216,7 +216,7 @@ A. 2RTT　B. 2.5RTT　C. 4RTT　D. 4.5RTT
 
 假设下图网络中的本地域名服务器只提供递归查询服务，其他域名服务器均只提供迭代查询服务；局域网内主机访问Internet上各服务器的RTT均为10 ms，忽略其他各种时延。若主机H通过超链接 \texttt{http:\allowbreak{}/\allowbreak{}/\allowbreak{}www.\allowbreak{}abc.\allowbreak{}com/\allowbreak{}index.\allowbreak{}html} 请求浏览纯文本Web页index.html，从单击超链接到浏览器收到页面，所需的最短与最长时间分别是（　）。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN11_dns_web_2020.pdf}
 \caption{主机、本地DNS与路由器共享局域网，远程服务器分别承担名称解析和Web响应}\label{cn-fig-dns2020}
@@ -242,7 +242,7 @@ A. 30 ms　B. 40 ms　C. 50 ms　D. 60 ms
 
 某网络拓扑如下图。H登录FTP服务器后，向服务器上传18000 B文件F。H为传输F建立数据连接时选择初始序号100，MSS=1000 B，拥塞控制初始阈值4 MSS，RTT=10 ms，忽略TCP段的传输时延。在F的传输过程中，H均按MSS大小发送数据，未发生差错、丢包和乱序。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN26_ftp_2023.pdf}
 \caption{H经交换机、路由器访问Internet中的FTP服务器，控制连接与数据连接均由TCP承载}\label{cn-fig-ftp2023}
@@ -260,7 +260,7 @@ A. 30 ms　B. 40 ms　C. 50 ms　D. 60 ms
 
 某网络拓扑如下图，以太网交换机S通过路由器R与Internet互联。路由器接口、本地DNS、H1、H2的IP地址与MAC地址如图。\(t_0\)时H1的ARP表和S的交换表均为空；H1此时用浏览器通过域名www.abc.com请求访问Web服务器。\(t_1>t_0\)时，S第一次收到封装HTTP请求报文的以太网帧。其间没有与此次Web访问无关的网络通信。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN27_dns_switch_2021.pdf}
 \caption{本地DNS接S的1口，R接2口，H2接3口，H1接4口；四者同属192.168.1.0/25}\label{cn-fig-dns-switch2021}

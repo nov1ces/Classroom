@@ -46,6 +46,10 @@
 \RequirePackage{booktabs,tabularx,array,multicol,enumitem}
 \RequirePackage{marginnote,needspace,changepage,eso-pic,titlesec}
 \RequirePackage{listings}
+% Restore xeCJK's normal character handlers before shipout overlays are typeset.
+% A page may ship while listings' CJK token readers are still active; xeCJK's
+% legacy \@begindvi hook runs too late for modern foreground/background hooks.
+\AddToHook{shipout/before}[sidenotes/xeCJK]{\xeCJKShipoutHook}
 \RequirePackage{hyperref}
 \hypersetup{unicode=true,colorlinks=true,linkcolor=SNink,urlcolor=SNink,
   bookmarksnumbered=true,pdfcreator={XeLaTeX / Sidenotes},

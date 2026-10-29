@@ -90,7 +90,7 @@ bool Concat(SString &T, SString S1, SString S2) {
 
 堆串采用\texttt{char *\allowbreak{}ch;\allowbreak{} int length;\allowbreak{}}管理动态连续区，需处理分配、复制、释放。链串可每结点保存一字符或多字符形成块，块尾填充须与真实字符区分。仅计字符与指针时，每结点\(q\)个1字节字符、指针\(p\)字节的存储密度为\(q/(q+p)\)；结构体对齐另计。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS04_string_layout.pdf}
 \caption{顺序串与块链串}\label{DS04-layout-figure}
@@ -131,7 +131,7 @@ int Index(SString S, SString T) {
 
 \texttt{next[\allowbreak{}j]\allowbreak{}}是下一次比较的模式位置。失配令\texttt{j=\allowbreak{}next[\allowbreak{}j]\allowbreak{}}，主串位置保持；\texttt{j=\allowbreak{}=\allowbreak{}0}时下一轮同时推进\texttt{i、j}，恢复模式首字符。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS04_kmp_1based.pdf}
 \caption{失配后保留已匹配段的边界}\label{DS04-kmp-figure}

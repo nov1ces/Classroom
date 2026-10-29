@@ -3,11 +3,13 @@
 from pathlib import Path
 from datetime import datetime, timezone
 from urllib.parse import unquote
+import argparse
 import hashlib
 import json
 import re
 
 import fitz
+from build_solutions import quick_answer
 
 ROOT = Path(__file__).resolve().parents[1]
 SUBJECTS = {'DS': '数据结构', 'CO': '计算机组成原理',
@@ -33,30 +35,82 @@ def headings(doc):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--check-only', action='store_true',
+                        help='Validate without writing the report.')
+    args = parser.parse_args()
     navigation_path = ROOT / 'sources/navigation.json'
     navigation = json.loads(navigation_path.read_text())['examples']
     manifest = json.loads((ROOT / 'manifest.json').read_text())
     chapters = {r['id']: r for r in manifest['chapters']}
     source_examples = []
     note_order = []
+    errors = []
     for subject in SUBJECTS:
         for chapter in sorted((ROOT / 'chapters').glob(subject + '*')):
-            source_examples.extend(json.loads((chapter / 'examples.json').read_text()))
-            note_order.extend(re.findall(r'\{\{example:([^}]+)\}\}',
-                                         (chapter / 'content.md').read_text()))
+            authored = json.loads((chapter / 'examples.json').read_text())
+            placement = re.findall(r'\{\{example:([^}]+)\}\}',
+                                   (chapter / 'content.md').read_text())
+            by_id = {e['id']: e for e in authored}
+            if placement != [e['id'] for e in authored]:
+                errors.append(f'{chapter.name}: examples array differs from body reading order')
+            for position, ident in enumerate(placement, 1):
+                if ident not in by_id or by_id[ident]['number'] != f'{int(chapter.name[2:])}-{position}':
+                    errors.append(f'{ident}: number is not consecutive in body reading order')
+            source_examples.extend(authored)
+            note_order.extend(placement)
     source_by_id = {e['id']: e for e in source_examples}
     nav_by_id = {e['id']: e for e in navigation}
-    expected = sorted(navigation, key=lambda e: (
-        list(SUBJECTS).index(e['subject']), int(e['chapter'][2:]),
-        int(e['number'].split('-')[1])))
-    errors = []
+    # Derive every output's order from the body, never from its own numbering.
+    expected = [nav_by_id[ident] for ident in note_order if ident in nav_by_id]
+    if (len(source_by_id) != len(source_examples) or len(note_order) != len(set(note_order))
+            or set(note_order) != set(source_by_id)):
+        errors.append('Authored IDs repeat or differ from body placements.')
     if len(nav_by_id) != len(navigation) or set(nav_by_id) != set(source_by_id):
         errors.append('Navigation IDs differ from the authored examples or repeat.')
+    if [e['id'] for e in navigation] != note_order:
+        errors.append('Navigation differs from body reading order (DS, CO, OS, CN).')
+    indexed = json.loads((ROOT / 'sources/example_index.json').read_text())['examples']
+    if [e['id'] for e in indexed] != note_order:
+        errors.append('Source index differs from body reading order (DS, CO, OS, CN).')
+    for e in indexed:
+        if e['id'] not in source_by_id:
+            errors.append(f'{e["id"]}: source index ID is not authored')
+            continue
+        for field in ['number', 'question', 'answer', 'solution']:
+            if e.get(field) != source_by_id[e['id']][field]:
+                errors.append(f'{e["id"]}: source index has stale {field}')
     for e in navigation:
         if e['id'] in source_by_id:
             for field in ['number', 'answer']:
                 if e[field] != source_by_id[e['id']][field]:
                     errors.append(f'{e["id"]}: stale {field}')
+            if e['chapter'] != e['id'].split('-')[0] or e['subject'] != e['chapter'][:2]:
+                errors.append(f'{e["id"]}: navigation has stale chapter/subject')
+
+    # Bind the editable quick table and solution headings/answers to the same IDs.
+    solution_markdown = (ROOT / 'solutions/notes.md').read_text()
+    quick_rows = re.findall(r'^\| [^|]+ \| \[([^]]+)\]\(#a-([^)]+)\) \| (.*) \| (\d+) \|$',
+                            solution_markdown, re.M)
+    expected_rows = [(e['number'], e['id'],
+                      quick_answer(source_by_id[e['id']]).replace('\n', ' ').replace('|', r'\|'),
+                      str(e['note_page'])) for e in expected]
+    if quick_rows != expected_rows:
+        errors.append('Editable quick-answer rows differ from body order, numbers, answers or pages.')
+    solution_blocks = list(re.finditer(
+        r'^<a id="a-([^"]+)"></a>\n### (.+)\n\n', solution_markdown, re.M))
+    if [m[1] for m in solution_blocks] != note_order:
+        errors.append('Editable solution headings differ from body reading order.')
+    for position, match in enumerate(solution_blocks):
+        ident = match[1]
+        if ident not in source_by_id or ident not in nav_by_id:
+            continue
+        e = nav_by_id[ident]
+        heading = ('[例 ' + e['number'] + '](../books/' + SUBJECTS[e['subject']]
+                   + '_强化笔记.md#' + ident + ')')
+        end = solution_blocks[position + 1].start() if position + 1 < len(solution_blocks) else len(solution_markdown)
+        if match[2] != heading or not solution_markdown[match.end():end].startswith(source_by_id[ident]['answer'] + '\n\n'):
+            errors.append(f'{ident}: editable solution has stale heading, return link or answer')
 
     filenames = ['408四科_强化笔记.pdf', '408强化例题解析.pdf'] + [
         name + '_强化笔记.pdf' for name in SUBJECTS.values()]
@@ -81,13 +135,11 @@ def main():
                               f'expected {destination} p{destination_page}')
         return len(links)
 
-    # Notes follow authored placement order, which may differ from example numbering.
-    # Solutions and quick answers use numeric order.
+    # Notes, solutions and quick answers share the body's consecutive numbering.
     for file in filenames:
         subject = next((s for s, name in SUBJECTS.items()
                         if file == name + '_强化笔记.pdf'), None)
-        ordered = expected if file == '408强化例题解析.pdf' else [nav_by_id[i] for i in note_order]
-        entries = [e for e in ordered if subject is None or e['subject'] == subject]
+        entries = [e for e in expected if subject is None or e['subject'] == subject]
         actual = pdf_headings[file]
         if len(actual) != len(entries):
             errors.append(f'{file}: {len(actual)} headings for {len(entries)} examples')
@@ -152,8 +204,9 @@ def main():
                               'actual_destination_page': link.get('page', -1) + 1})
     report = {
         'checked_at_utc': datetime.now(timezone.utc).isoformat(),
-        'method': 'Compare authored IDs, answers and placement order, all actual heading order/pages, every external '
-                  'annotation at those headings, and every quick-table row/internal destination.',
+        'method': 'Derive consecutive chapter numbers and all output order from body placeholders; compare authored '
+                  'and indexed IDs/answers, editable quick/solution rows, all actual PDF heading order/pages, '
+                  'every external annotation at those headings, and every PDF quick-table row/internal destination.',
         'navigation_sha256': sha(navigation_path),
         'pdfs': [{'file': 'books/' + file, 'sha256': sha(ROOT / 'books' / file),
                   'pages': len(doc)} for file, doc in docs.items()],
@@ -162,8 +215,9 @@ def main():
         'quick_links_checked': len(quick_records),
         'errors': errors, 'headings': records, 'quick_answers': quick_records,
     }
-    (ROOT / 'sources/navigation_exact_checks.json').write_text(
-        json.dumps(report, ensure_ascii=False, indent=2) + '\n')
+    if not args.check_only:
+        (ROOT / 'sources/navigation_exact_checks.json').write_text(
+            json.dumps(report, ensure_ascii=False, indent=2) + '\n')
     for doc in docs.values():
         doc.close()
     print(json.dumps({k: report[k] for k in ['examples', 'heading_instances_checked',

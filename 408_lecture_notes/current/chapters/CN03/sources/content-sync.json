@@ -1,7 +1,7 @@
 {
   "canonical_sha256": "f6faf3a43de5b623f7ce990cc0abfe3f2de0df3dcd286c2d5dcdc6297f1cc12f",
-  "markdown_sha256": "578bf376ac6d5b407a536f5ca97a8cc2df2cb2130d65782c6f1b3ce0abaf68f2",
-  "latex_sha256": "a7dee21678572f12805595ee0845592eebd5446b49f127b4aa41aa94557e52cc",
-  "examples_sha256": "f2b08494f100553a1abed384c41411c3b434a40d0a3c6fd677df07f48e77930f",
+  "markdown_sha256": "f71576df41a703e8f2fbc7082b988b3c08e9854050c8700253e893aa3b988f6e",
+  "latex_sha256": "b4a26126d047851c1d27848bb629e0fbeb6dd8a4954b56de21299f8f068d9136",
+  "examples_sha256": "ae8b0faf4c1cc065e7b2d53a2e5b78119de0e26aa4027f623732aece817938a8",
   "printed_map_panels": 0
 }

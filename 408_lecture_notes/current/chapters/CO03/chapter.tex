@@ -190,7 +190,7 @@ A. 8004和8008　 B. 8002和8007　 C. 8001和8008　 D. 8000和8004
 
 两片 \(16\mathrm K\times4\) 构成一组 \(16\mathrm K\times8\)，四组共8片构成 \(64\mathrm K\times8\)。低14位选片内单元，高2位作2--4译码。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO_F02_memory_expand.pdf}
 \caption{同组并联扩位，四组译码扩字}
@@ -229,7 +229,7 @@ A. 1、15　 B. 2、15　 C. 1、30　 D. 2、30
 
 \(16\mathrm K\times8\) 组成 \(32\mathrm K\times16\)：4片，2片一组、2组。\(A_{13}\sim A_0\) 接所有芯片，\(A_{14}\) 选组；按字编址组范围0000H～3FFFH、4000H～7FFFH。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO03_chip_expansion.pdf}
 \caption{两片作位扩展，A14选择两组}
@@ -282,7 +282,7 @@ RAID5 & 块级条带，分布式校验 & 分散校验写入，通常容忍单盘
 
 NAND Flash 通常按页读取或编程、按块擦除。FTL 将主机逻辑块地址映射为闪存物理页地址。具体页、块尺寸依器件而定，示例可取页512 B～4 KiB、块16～512 KiB。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO03_ssd_hierarchy.pdf}
 \caption{逻辑块经FTL映射到闪存芯片、块与页}
@@ -373,7 +373,7 @@ A. 1.25\%　 B. 2.5\%　 C. 12.5\%　 D. 25\%
 
 \[A=(\mathrm{tag}\,G+s)B+d.\]
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO_F03_cache_address.pdf}
 \caption{块内偏移、组号与标记}
@@ -490,7 +490,7 @@ VPN 为 \(v-p\) 位，PPN 为 \(a-p\) 位，页内偏移 \(d\) 原样保留。
 
 TLB 是页表项的高速缓存。若 TLB 共 \(K\) 项、\(r\) 路、低位选组，组数 \(G_T=K/r\)，组号 \(g_T=\log_2G_T\) 位，TLB 标记为 \(v-p-g_T\) 位；物理页框号位数由物理地址决定。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO_F04_virtual_address.pdf}
 \caption{虚页号查映射，页框号与原偏移形成物理地址}

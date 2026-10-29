@@ -161,7 +161,7 @@ void BFSTraverse(Graph G) {
 
 初始化\texttt{d[\allowbreak{}*\allowbreak{}]\allowbreak{}=\allowbreak{}INF,\allowbreak{}path[\allowbreak{}*\allowbreak{}]\allowbreak{}=\allowbreak{}-1}、\texttt{d[\allowbreak{}s]\allowbreak{}=\allowbreak{}0}，发现未访问邻点\(w\)时令\texttt{d[\allowbreak{}w]\allowbreak{}=\allowbreak{}d[\allowbreak{}v]\allowbreak{}+\allowbreak{}1;\allowbreak{} path[\allowbreak{}w]\allowbreak{}=\allowbreak{}v}。队列按距离分层扩展，首次发现即取得最少边数；适用于有向或无向同权边图。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS06_bfs_course.pdf}
 \caption{以2为源点的BFS生成树}\label{DS06-bfs-figure}
@@ -203,7 +203,7 @@ Prim的\texttt{lowCost[\allowbreak{}v]\allowbreak{}}保存当前集合到\(v\)�
 
 求下图最小生成树，可能为 Kruskal 第2次选中、但不可能为从 \(V_4\) 开始的 Prim 第2次选中的边是（　）。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_11_mst_2015.pdf}
 \caption{四顶点带权无向图；三条权为8的边形成选择分支}\label{ds-fig-mst}
@@ -233,7 +233,7 @@ Dijkstra(s):
 
 使用 Dijkstra 求下图从顶点1到其余顶点的最短路径，\texttt{dist} 依次保存到2、3、4、5的距离。求出第二条最短路径后，\texttt{dist} 内容为（　）。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_12_dijkstra_2021.pdf}
 \caption{原题有向边与权值；箭头方向参与松弛条件}\label{ds-fig-dijkstra}
@@ -336,7 +336,7 @@ criticalPath(G):
 
 下图AOE网包含8个活动。通过同时加快若干活动，可缩短整个工程工期。下列选项中，加快所列活动进度就可缩短工期的是（　）。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_13_aoe_2013.pdf}
 \caption{箭头旁给出活动名和持续时间；d 的方向为 3\ensuremath{\to}2}\label{ds-fig-aoe}

@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/DS05/map.json": "98dfde84949e11b32d62750c59663f4fbadbf7b8a8745d34b11fffa783e215b7",
   "chapters/DS05/content.md": "f45b3d5d5bee9834ef4cc7ed880e4b78b201594bfa3c190f8b7fb18a0c11e814",
   "chapters/DS05/examples.json": "20d6116330a50a7902be1740da318e63ca009b6d7c21a777b1e84443a30238c4",
-  "chapters/DS05/sidebars.json": "6fa228dc344896bb9124fa977c8637bba2ed7aa800c9b4cc8257c34595b63c9a",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "chapters/DS05/sidebars.json": "d6bad9bf1fa7a5f0d00ef6e19212d858117dabdb8df27778556db560ec212671",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/DS05/figures/DS_05_binary_traversal.png": "aaae9372a19611a7f69796058470f17a2188855ac0085fcefca2554615b35ba5",
   "chapters/DS05/figures/DS_06_inorder_threads.png": "79f005f52bf6da5979851208a768879c0eec7dd916550393b5d49a96db5469fe",

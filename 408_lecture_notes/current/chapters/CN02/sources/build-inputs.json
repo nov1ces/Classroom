@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/CN02/map.json": "208b33b240b41d1990ad2fb3057b7ad6586cafd0f350334d56d1bde7b03ecf89",
   "chapters/CN02/content.md": "eaa77488b220f2c3b5cf1526a1e3d9acb1ccc33a97de0700a99c7bf29c409db8",
   "chapters/CN02/examples.json": "b94068d19915569a5d8e8212b6c1ef340c70fa357172e53089f935ee4b82b2bf",
   "chapters/CN02/sidebars.json": "5411025eb4ad320c942d2d695620e64ad1c99fbc7f2f77d2418b1b14944d309b",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/CN02/figures/CN_course_five_codes.pdf": "5525dbbedaf4f29a24a6cbab5b3ae7a048015ed7f04af45ecdd47c7b0b4dbe2e",
   "chapters/CN02/figures/CN_course_five_codes.svg": "d0880089ec5a397be5f0d10b6079a84f9e302e65b3a21aec0501e7e768c7c592",

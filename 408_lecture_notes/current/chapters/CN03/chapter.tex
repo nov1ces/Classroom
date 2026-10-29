@@ -123,7 +123,7 @@ D. 不超过3位错的100\%检错、不超过2位错的纠错
 \end{longtable}}
 \par\smallskip
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN_course_hamming_groups.pdf}
 \caption{海明码位号和校验分组}\label{cn-course-cn_course_hamming_groups}
@@ -186,17 +186,17 @@ A. 2　B. 3　C. 4　D. 5
 
 A. 2　B. 3　C. 4　D. 5
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN04_gbn_sr.pdf}
 \caption{GBN丢弃失序帧，SR缓存后补缺}\label{cn-fig-arq}
 \end{figure}
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E12}{}\label{CN03-E12}\textbf{例 3-12}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E12}{}\label{CN03-E12}\textbf{例 3-7}\par\nobreak\smallskip
 
 甲乙双方均采用后退 N 帧协议（GBN）持续进行双向数据传输，始终采用捎带确认，帧长均为1000 B。\(S_{x,y}\)、\(R_{x,y}\)分别表示甲方、乙方发送的数据帧，\(x\)为发送序号，\(y\)为确认序号，表示希望接收对方的下一帧序号。两个序号字段均为3 bit，信道传输速率为100 Mb/s，RTT=0.96 ms。下图为甲方发送和接收数据帧的两种场景；\(t_0\)时甲方的发送序号和确认序号均为0，\(t_1\)时甲方有足够多的数据待发送。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN20_gbn_2017.pdf}
 \caption{箭头从甲方发出为S、指向甲方为R；两列分别对应未超时和S2,0超时的原题场景}\label{cn-fig-gbn2017}
@@ -241,7 +241,7 @@ CDMA & 码片序列分离用户 \\
 
 理想同步、等功率、正交码模型中，比特1发送\(c\)，0发送\(-c\)，未发为0；接收叠加信号 \(s\) 对目标码长\(m\)的码\(c\)计算 \((s\cdot c)/m\)，结果+1、\ensuremath{-}1、0分别判1、0、未发。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E07}{}\label{CN03-E07}\textbf{例 3-7}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E07}{}\label{CN03-E07}\textbf{例 3-8}\par\nobreak\smallskip
 
 站点 A、B、C通过 CDMA 共享链路，A、B、C的码片序列分别是 \texttt{(\allowbreak{}1,\allowbreak{}1,\allowbreak{}1,\allowbreak{}1)\allowbreak{}}、\texttt{(\allowbreak{}1,\allowbreak{}−1,\allowbreak{}1,\allowbreak{}−1)\allowbreak{}} 和 \texttt{(\allowbreak{}1,\allowbreak{}1,\allowbreak{}−1,\allowbreak{}−1)\allowbreak{}}。若 C 从链路上收到的序列是 \texttt{(\allowbreak{}2,\allowbreak{}0,\allowbreak{}2,\allowbreak{}0,\allowbreak{}0,\allowbreak{}−2,\allowbreak{}0,\allowbreak{}−2,\allowbreak{}0,\allowbreak{}2,\allowbreak{}0,\allowbreak{}2)\allowbreak{}}，则 C 收到 A 发送的数据是（　）。
 
@@ -280,7 +280,7 @@ CSMA策略 & 遇忙 & 遇空闲 \\
 
 第\(n\)次冲突，\(k=\min(n,10)\)，随机整数\(r\in[0,2^k-1]\)，退避\(r\)个争用时间片；传统10 Mb/s时间片51.2 μs。达到重试上限则报告失败。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E08}{}\label{CN03-E08}\textbf{例 3-8}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E08}{}\label{CN03-E08}\textbf{例 3-9}\par\nobreak\smallskip
 
 在一个采用 CSMA/CD 协议的网络中，传输介质是一根完整的电缆，传输速率为1 Gb/s，电缆中的信号传播速度为200000 km/s。若最小数据帧长度减少800 bit，则最远的两个站点之间的距离至少需要（　）。
 
@@ -292,13 +292,13 @@ CSMA/CA结合物理/虚拟载波监听、帧间间隔和随机退避；倒计时
 
 可选RTS/CTS流程：RTS---SIFS---CTS---SIFS---DATA---SIFS---ACK。隐藏站听到CTS后按持续期设置NAV，表示本帧结束后的剩余预约时间；RTS/CTS有开销，也不能消除所有冲突。基本RTS为20 B，CTS和ACK各14 B；三者属于控制帧，探测与关联属于管理帧。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN05_nav_2024.pdf}
 \caption{CTS结束后的剩余预约}\label{cn-fig-nav}
 \end{figure}
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E09}{}\label{CN03-E09}\textbf{例 3-9}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E09}{}\label{CN03-E09}\textbf{例 3-10}\par\nobreak\smallskip
 
 在采用 CSMA/CA 协议的802.11无线局域网中，DIFS=128 μs，SIFS=28 μs，RTS帧、CTS帧和ACK帧的传输时延分别是3 μs、2 μs和2 μs，忽略信号传播时延。若主机A要向AP发送一个总长度为1998 B的数据帧，无线链路带宽为54 Mb/s，则隐藏站B收到AP发送的CTS帧时，设置的NAV值是（　）。
 
@@ -333,7 +333,7 @@ IEEE 802把链路层分为LLC和MAC；局域网技术通常覆盖物理层与链
 
 无标签Ethernet II：目的6 B、源6 B、类型2 B、数据及填充46～1500 B、FCS4 B；帧头14 B，完整MAC帧64～1518 B，MTU1500 B约束完整上层PDU。类型\texttt{0800}为IPv4、\texttt{0806}为ARP；802.3在对应位置采用长度字段。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN19_ethernet_frame.pdf}
 \caption{无标签Ethernet II字段和计量边界}\label{cn-fig-ethernet-format}
@@ -345,7 +345,7 @@ IEEE 802把链路层分为LLC和MAC；局域网技术通常覆盖物理层与链
 
 VLAN划分逻辑广播域，不同VLAN通信需要三层转发。接入口可收发无标签帧，干道携多个VLAN；802.1Q在源MAC之后加4 B标签，VID12 bit，普通ID为1～4094；单标签常见最大帧1522 B，FCS随内容更新。教材最短64 B模型下，含标签首尾共22 B、数据下限42 B。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E10}{}\label{CN03-E10}\textbf{例 3-10}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E10}{}\label{CN03-E10}\textbf{例 3-11}\par\nobreak\smallskip
 
 一个长度为40 B的IP数据报需要封装成802.1Q帧进行传输，则此802.1Q帧的数据载荷部分需要填充的字节数是（　）。
 
@@ -353,7 +353,7 @@ A. 2　B. 4　C. 6　D. 8
 
 交换机按源MAC和入端口学习，按目的MAC转发：已知且异端口定向转发；同入端口过滤；未知、广播在当前VLAN除入端口外泛洪。表项会老化，环形拓扑需生成树等防循环机制。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN06_switch_learning.pdf}
 \caption{空表下A发B和B回复A的学习过程}\label{cn-fig-switch}
@@ -361,7 +361,7 @@ A. 2　B. 4　C. 6　D. 8
 
 交换机各端口独立冲突域，广播域由VLAN或三层边界划分。不同输出端口可并行，同一低速出口仍共享瓶颈。存储转发收全并可检验FCS；直通至少收到目的MAC后决策，帧尾尚未到达，不能预先排除尾部差错。吞吐量需区分单向发送与收发合计。
 
-\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E11}{}\label{CN03-E11}\textbf{例 3-11}\par\nobreak\smallskip
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E11}{}\label{CN03-E11}\textbf{例 3-12}\par\nobreak\smallskip
 
 对于100 Mb/s的以太网交换机，当输出端口无排队，以直通交换方式转发一个以太网帧（不包括前导码）时，引入的转发时延至少是（　）。
 

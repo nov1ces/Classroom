@@ -172,13 +172,13 @@ void L_Rotate(BSTree &p) {
 
 引用参数接回新局部根。中间子树按关键字区间转接；若保存高度，先更新下降结点，再更新提升结点。只交换两个根值无法代替链接旋转。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_14_avl_rotations.pdf}
 \caption{单旋与中间子树}\label{DS07-single-rotation}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_21_avl_double_rotations.pdf}
 \caption{双旋的完整两步}\label{DS07-double-rotation}
@@ -262,7 +262,7 @@ w黑、远红 & w取p原色、p与远侧黑，左旋p，结束 \\
 
 缺黑在右时左右对换；缺黑到根可结束。性质检查同时核对BST、中序、根/NIL、红红相邻及各路径黑高。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS07_rb_insert_course.pdf}
 \caption{红黑插入的黑叔旋转与红叔变色}\label{DS07-redblack-figure}
@@ -280,13 +280,13 @@ w黑、远红 & w取p原色、p与远侧黑，左旋p，结束 \\
 
 \textbf{删除}内部键先以前驱或后继替换，再到底层删除。下溢时优先向有富余的相邻兄弟借：父分隔键下移、兄弟近侧键上移，必要时转接孩子。兄弟无富余则将下溢结点、父分隔键和兄弟合并，父可能继续下溢。空根仅剩一孩子时降层。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_15_btree_split.pdf}
 \caption{5阶B树叶分裂与根分裂}\label{DS07-btree-insert-figure}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_20_btree_delete.pdf}
 \caption{经父分隔键借位与逐层合并}\label{DS07-btree-delete-figure}
@@ -312,7 +312,7 @@ A. 7　B. 8　C. 9　D. 10
 
 本章采用王道``每个内部索引键为一棵子树最大键''约定，内部键数等于孩子数：最多\(m\)，非根分支至少\(\lceil m/2\rceil\)，非叶根至少2。B树内部命中可结束，B+树记录查询仍降至叶。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/DS_16_bplus.pdf}
 \caption{B+树内部索引与有序叶链}\label{DS07-bplus-figure}

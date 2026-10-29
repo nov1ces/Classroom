@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/CO06/map.json": "ae25ed2aaf023b407132b1e9f64b59271e2d093604c24a4fd8e37e833bb13395",
   "chapters/CO06/content.md": "ce502cf7252f14878aff8f519b12c5d79bde4cd88430847ec5eef717da7efdd5",
   "chapters/CO06/examples.json": "20f21bc6b8e7d20d9e1764e58f069293f072edfaf1d30ce1ca910282ef0a6b4f",
   "chapters/CO06/sidebars.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/CO06/figures/CO_F10_bus_handshake.svg": "71fc903234723f708c21f0a6876eb5bbee7601c3dc9eb5899c3a9abdd47b2a5e",
   "chapters/CO06/figures/CO_F10_bus_handshake.pdf": "d9848062e7e4fda2b9039b1f07a61693b8caf9c478644498f441b88ebd92cf45",

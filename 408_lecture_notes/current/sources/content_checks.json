@@ -9,97 +9,6 @@
   ],
   "chapters": [
     {
-      "id": "CN01",
-      "characters": 3452,
-      "baseline_characters": 12232,
-      "examples": 4,
-      "covered_anchors": 21
-    },
-    {
-      "id": "CN02",
-      "characters": 2500,
-      "baseline_characters": 7976,
-      "examples": 3,
-      "covered_anchors": 16
-    },
-    {
-      "id": "CN03",
-      "characters": 5672,
-      "baseline_characters": 22316,
-      "examples": 12,
-      "covered_anchors": 38
-    },
-    {
-      "id": "CN04",
-      "characters": 5905,
-      "baseline_characters": 25782,
-      "examples": 13,
-      "covered_anchors": 42
-    },
-    {
-      "id": "CN05",
-      "characters": 4397,
-      "baseline_characters": 18021,
-      "examples": 9,
-      "covered_anchors": 25
-    },
-    {
-      "id": "CN06",
-      "characters": 3546,
-      "baseline_characters": 16888,
-      "examples": 9,
-      "covered_anchors": 25
-    },
-    {
-      "id": "CO01",
-      "characters": 4390,
-      "baseline_characters": 9479,
-      "examples": 3,
-      "covered_anchors": 25
-    },
-    {
-      "id": "CO02",
-      "characters": 8563,
-      "baseline_characters": 22960,
-      "examples": 11,
-      "covered_anchors": 46
-    },
-    {
-      "id": "CO03",
-      "characters": 8545,
-      "baseline_characters": 24548,
-      "examples": 13,
-      "covered_anchors": 49
-    },
-    {
-      "id": "CO04",
-      "characters": 4554,
-      "baseline_characters": 14775,
-      "examples": 5,
-      "covered_anchors": 30
-    },
-    {
-      "id": "CO05",
-      "characters": 5385,
-      "baseline_characters": 22263,
-      "examples": 11,
-      "covered_anchors": 41
-    },
-    {
-      "id": "CO06",
-      "characters": 3402,
-      "baseline_characters": 8925,
-      "examples": 4,
-      "covered_anchors": 21
-    },
-    {
-      "id": "CO07",
-      "characters": 4378,
-      "baseline_characters": 12698,
-      "examples": 7,
-      "covered_anchors": 26
-    },
-    {
       "id": "DS01",
       "characters": 2482,
       "baseline_characters": 9195,
@@ -156,6 +65,55 @@
       "covered_anchors": 33
     },
     {
+      "id": "CO01",
+      "characters": 4390,
+      "baseline_characters": 9479,
+      "examples": 3,
+      "covered_anchors": 25
+    },
+    {
+      "id": "CO02",
+      "characters": 8563,
+      "baseline_characters": 22960,
+      "examples": 11,
+      "covered_anchors": 46
+    },
+    {
+      "id": "CO03",
+      "characters": 8545,
+      "baseline_characters": 24548,
+      "examples": 13,
+      "covered_anchors": 49
+    },
+    {
+      "id": "CO04",
+      "characters": 4554,
+      "baseline_characters": 14775,
+      "examples": 5,
+      "covered_anchors": 30
+    },
+    {
+      "id": "CO05",
+      "characters": 5385,
+      "baseline_characters": 22263,
+      "examples": 11,
+      "covered_anchors": 41
+    },
+    {
+      "id": "CO06",
+      "characters": 3402,
+      "baseline_characters": 8925,
+      "examples": 4,
+      "covered_anchors": 21
+    },
+    {
+      "id": "CO07",
+      "characters": 4378,
+      "baseline_characters": 12698,
+      "examples": 7,
+      "covered_anchors": 26
+    },
+    {
       "id": "OS01",
       "characters": 3894,
       "baseline_characters": 12852,
@@ -189,6 +147,48 @@
       "baseline_characters": 22516,
       "examples": 7,
       "covered_anchors": 39
+    },
+    {
+      "id": "CN01",
+      "characters": 3452,
+      "baseline_characters": 12232,
+      "examples": 4,
+      "covered_anchors": 21
+    },
+    {
+      "id": "CN02",
+      "characters": 2500,
+      "baseline_characters": 7976,
+      "examples": 3,
+      "covered_anchors": 16
+    },
+    {
+      "id": "CN03",
+      "characters": 5672,
+      "baseline_characters": 22316,
+      "examples": 12,
+      "covered_anchors": 38
+    },
+    {
+      "id": "CN04",
+      "characters": 5905,
+      "baseline_characters": 25782,
+      "examples": 13,
+      "covered_anchors": 42
+    },
+    {
+      "id": "CN05",
+      "characters": 4397,
+      "baseline_characters": 18021,
+      "examples": 9,
+      "covered_anchors": 25
+    },
+    {
+      "id": "CN06",
+      "characters": 3546,
+      "baseline_characters": 16888,
+      "examples": 9,
+      "covered_anchors": 25
     }
   ],
   "examples": 195

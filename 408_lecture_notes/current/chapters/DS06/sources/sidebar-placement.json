@@ -16,6 +16,11 @@
   },
   {
     "page": 3,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
     "sidebars": [
       {
         "index": 0,
@@ -30,11 +35,6 @@
         146.69525146484375
       ]
     ]
-  },
-  {
-    "page": 4,
-    "sidebars": [],
-    "occupied_margin_intervals": []
   },
   {
     "page": 5,

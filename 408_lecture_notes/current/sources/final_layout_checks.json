@@ -1,51 +1,5 @@
 {
-  "github_pre_layout": {
-    "commit": "b0cc12ee725422c403f64dbc3cb2a88ca749b4b9",
-    "remote": "https://github.com/nov1ces/Classroom",
-    "branch": "main",
-    "verified_at": "2026-10-29T08:23:55.514549+08:00",
-    "remote_matches_local": true,
-    "scope": "Complete notes, solutions, and links pushed before final layout review."
-  },
-  "books": [
-    {
-      "file": "books/408四科_强化笔记.pdf",
-      "pdf_sha256": "57ccea0320b3d396a01aeebd36862e471a4f98bf72a874f6015c2ef41ee7b06b",
-      "pages": 186,
-      "issues": []
-    },
-    {
-      "file": "books/408强化例题解析.pdf",
-      "pdf_sha256": "530209f94f09ccfc2fcb28a9a88449bb3e58185291ee25d46b699f22bf4037a8",
-      "pages": 60,
-      "issues": []
-    },
-    {
-      "file": "books/操作系统_强化笔记.pdf",
-      "pdf_sha256": "4019c0df6d7de3ac589ea8deb8c5ca661634affeefc146b88ddbe74289d69893",
-      "pages": 39,
-      "issues": []
-    },
-    {
-      "file": "books/数据结构_强化笔记.pdf",
-      "pdf_sha256": "7da3ae7314b688228a2ad089d915a12f2954124b48b5f420c30312671f9c1309",
-      "pages": 57,
-      "issues": []
-    },
-    {
-      "file": "books/计算机组成原理_强化笔记.pdf",
-      "pdf_sha256": "e273fde1c402278068e9069de4fd4e3e5e23f5a4db961393cceb201b6a792109",
-      "pages": 51,
-      "issues": []
-    },
-    {
-      "file": "books/计算机网络_强化笔记.pdf",
-      "pdf_sha256": "5c393bcc169debfd5d47328eec885d91071c645b5b2ce895dd423c50953afb94",
-      "pages": 39,
-      "issues": []
-    }
-  ],
+  "books": [],
   "compile_warnings": [],
-  "visual_review": "passed",
-  "visual_review_reference": "sources/visual_review.json"
+  "visual_review": "pending_current_build"
 }

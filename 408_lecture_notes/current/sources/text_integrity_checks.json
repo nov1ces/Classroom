@@ -1,0 +1,135 @@
+{
+  "errors": [],
+  "inputs": [
+    {
+      "file": "chapters/CN01/notes.pdf",
+      "sha256": "6cc2b122deb334b28c0ca4626a361d9a0f457e6842709cb17aa640082cf9102d"
+    },
+    {
+      "file": "chapters/CN02/notes.pdf",
+      "sha256": "960cce240b78ab38f92a49e4e8cabeff24cc177e152e464dada523d34f44eef5"
+    },
+    {
+      "file": "chapters/CN03/notes.pdf",
+      "sha256": "35cc58ae47d255e2460f30a4169c7c1f48391747ec5638861de2309ee0f2a215"
+    },
+    {
+      "file": "chapters/CN04/notes.pdf",
+      "sha256": "1f5e5259db2b40f727face32cd50270e1f9a72d40c64c601d8831d562cd5249b"
+    },
+    {
+      "file": "chapters/CN05/notes.pdf",
+      "sha256": "af6b4cdb0ae85db0eb85be35033f285ae7135959922f8b70de85c5b3b2c3ade8"
+    },
+    {
+      "file": "chapters/CN06/notes.pdf",
+      "sha256": "e1d717070f64f9e073015633c9e7c3a0390f5885df65e44bdbf938644193bfb9"
+    },
+    {
+      "file": "chapters/CO01/notes.pdf",
+      "sha256": "f5c86b07fbc8ea20687094ba6912dda0eccfa60c9bc89636c61f2a0eee00c198"
+    },
+    {
+      "file": "chapters/CO02/notes.pdf",
+      "sha256": "d5c3d1c6315bf21d78808b0dee983860833dbd0fc5449b81643a23d119645558"
+    },
+    {
+      "file": "chapters/CO03/notes.pdf",
+      "sha256": "8dfb14a8857f83a21922a8db61a5b0039d270a32db10ccad83801d62855a0189"
+    },
+    {
+      "file": "chapters/CO04/notes.pdf",
+      "sha256": "0745600535dad739f22893aa89ba948adf48bdd0f118391033236cbeb844e076"
+    },
+    {
+      "file": "chapters/CO05/notes.pdf",
+      "sha256": "7f06826bcef97a34b7f22c2d641de5d6ec3b6fa4070635afd3bd75c78710018e"
+    },
+    {
+      "file": "chapters/CO06/notes.pdf",
+      "sha256": "988c43b840f49c67bb57190f218e1747164eabaf8cd3ad366bd0ecb53fd83f97"
+    },
+    {
+      "file": "chapters/CO07/notes.pdf",
+      "sha256": "6679d02ab6ca80fd26f3d155f72491fcc152f5bd03dc9151f4b26281c00dbf0a"
+    },
+    {
+      "file": "chapters/DS01/notes.pdf",
+      "sha256": "c53479153b0c777ff48c7eea10ec52fc6f4e89e2cc7a40d6180e3df346b004ec"
+    },
+    {
+      "file": "chapters/DS02/notes.pdf",
+      "sha256": "e322e0fa453855ebc42f48ebe8223a27898431b8c7790c8c6893f765e2c89e9f"
+    },
+    {
+      "file": "chapters/DS03/notes.pdf",
+      "sha256": "d6e20ac4d658ce912964d68814696666c1a297b6070ac809ab9e5aca2e94b918"
+    },
+    {
+      "file": "chapters/DS04/notes.pdf",
+      "sha256": "c6455da86ce0e66f7b6e52da1ba8a7ab4c0a74d78b15f19d819524d52bdca1de"
+    },
+    {
+      "file": "chapters/DS05/notes.pdf",
+      "sha256": "51f3cfaffc90ce22bb38cf92baf616428aac8f4894abe1ada56d92437147877d"
+    },
+    {
+      "file": "chapters/DS06/notes.pdf",
+      "sha256": "baef72b346cb5d16842c085df42498e4f7631678d820e77efe77b16f1c1ab997"
+    },
+    {
+      "file": "chapters/DS07/notes.pdf",
+      "sha256": "87dd90506b983be366d6fb1ca41d0c40c9d4339f51eb129a41d6d2b252784c47"
+    },
+    {
+      "file": "chapters/DS08/notes.pdf",
+      "sha256": "614e1cb0efccd8d9fc007d5bb96c44f028e4848b6f47aab5eb78ca947689f6a4"
+    },
+    {
+      "file": "chapters/OS01/notes.pdf",
+      "sha256": "b3e87b40ca38c7f5f28b6e18e481ad8d18d49c30470cccf31288bab6cf4bb825"
+    },
+    {
+      "file": "chapters/OS02/notes.pdf",
+      "sha256": "5fb8b906179fa93e6329fbdf0e20c4cc04544cdd42947a6f601c54888fc2b0e7"
+    },
+    {
+      "file": "chapters/OS03/notes.pdf",
+      "sha256": "7b5829924b6cd6f0f1fbcab4463b689d854dbb9b785ccb6b0dd61d244ba35cff"
+    },
+    {
+      "file": "chapters/OS04/notes.pdf",
+      "sha256": "64dc7e571bcb010cd3f1f702883decd9db6de37caef523567a2a4d3affce315a"
+    },
+    {
+      "file": "chapters/OS05/notes.pdf",
+      "sha256": "ea4f4d4fc4234c73e465d4a059d097bd1daab15b7312dce72e1afe36ce36b1ab"
+    }
+  ],
+  "verified_chapter_titles": 187,
+  "verified_placed_sidebars": 18,
+  "reading_order_checks": [
+    {
+      "chapter": "CN04",
+      "table_end_position": [
+        9,
+        156.73655700683594
+      ],
+      "next_figure_position": [
+        9,
+        684.4489135742188
+      ]
+    },
+    {
+      "chapter": "CO02",
+      "heading_position": [
+        6,
+        346.6771545410156
+      ],
+      "figure_position": [
+        6,
+        616.1649169921875
+      ]
+    }
+  ]
+}

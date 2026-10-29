@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
+  "tools/build_notes.py": "ebc9a13761d907d9238d7be140a8e61ba30a28327fea25d65bf2548229e9624a",
   "chapters/CN03/map.json": "e0e62069464bb12bd29a883746a982a84949d0037a160b4aa3d8bf15b539b7c8",
   "chapters/CN03/content.md": "f6faf3a43de5b623f7ce990cc0abfe3f2de0df3dcd286c2d5dcdc6297f1cc12f",
-  "chapters/CN03/examples.json": "f2b08494f100553a1abed384c41411c3b434a40d0a3c6fd677df07f48e77930f",
+  "chapters/CN03/examples.json": "ae8b0faf4c1cc065e7b2d53a2e5b78119de0e26aa4027f623732aece817938a8",
   "chapters/CN03/sidebars.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
+  "common/sidenotes.cls": "1f4318650ac53f46515bad61db2c24d1191e402228f146fa84305c28a6510765",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/CN03/figures/CN04_gbn_sr.svg": "191c800beb66c6add0f27223f002f2e0a3779e5ac48ee2d32600a2fa36f48b69",
   "chapters/CN03/figures/CN19_ethernet_frame.pdf": "d52fd9facfad4c1cbc2f13e525b5e3ef11dd6ffc22133403d729731c66587a55",

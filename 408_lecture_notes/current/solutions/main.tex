@@ -27,10 +27,10 @@
 2-5 & 对齐表尾后同步比较地址，时间\(O(m+n)\) & 10 & \hyperref[a:DS02-E05]{\pageref*{a:DS02-E05}} \\
 2-6 & 抵消候选后再次计数，时间\(O(n)\)，空间\(O(1)\) & 11 & \hyperref[a:DS02-E06]{\pageref*{a:DS02-E06}} \\
 3-1 & C & 12 & \hyperref[a:DS03-E01]{\pageref*{a:DS03-E01}} \\
-3-2 & C & 14 & \hyperref[a:DS03-E02]{\pageref*{a:DS03-E02}} \\
-3-3 & B & 18 & \hyperref[a:DS03-E03]{\pageref*{a:DS03-E03}} \\
-3-4 & C & 18 & \hyperref[a:DS03-E04]{\pageref*{a:DS03-E04}} \\
-3-5 & B & 16 & \hyperref[a:DS03-E05]{\pageref*{a:DS03-E05}} \\
+3-2 & C & 15 & \hyperref[a:DS03-E02]{\pageref*{a:DS03-E02}} \\
+3-3 & B & 16 & \hyperref[a:DS03-E05]{\pageref*{a:DS03-E05}} \\
+3-4 & B & 18 & \hyperref[a:DS03-E03]{\pageref*{a:DS03-E03}} \\
+3-5 & C & 18 & \hyperref[a:DS03-E04]{\pageref*{a:DS03-E04}} \\
 4-1 & 位置均为4；朴素15次，普通KMP10次 & 22 & \hyperref[a:DS04-E01]{\pageref*{a:DS04-E01}} \\
 4-2 & 位置5；普通next比较12次，nextval比较9次 & 23 & \hyperref[a:DS04-E02]{\pageref*{a:DS04-E02}} \\
 5-1 & B & 24 & \hyperref[a:DS05-E01]{\pageref*{a:DS05-E01}} \\
@@ -55,13 +55,13 @@
 7-8 & HT={[}11,空,14,7,空,20,9,空,空,3,18{]}；7/11；3、18、14；地址7 & 47 & \hyperref[a:DS07-E08]{\pageref*{a:DS07-E08}} \\
 8-1 & B & 51 & \hyperref[a:DS08-E01]{\pageref*{a:DS08-E01}} \\
 8-2 & D & 52 & \hyperref[a:DS08-E02]{\pageref*{a:DS08-E02}} \\
-8-3 & C & 53 & \hyperref[a:DS08-E03]{\pageref*{a:DS08-E03}} \\
-8-4 & C & 53 & \hyperref[a:DS08-E04]{\pageref*{a:DS08-E04}} \\
-8-5 & C & 54 & \hyperref[a:DS08-E05]{\pageref*{a:DS08-E05}} \\
-8-6 & 3段；最大n，最小m & 55 & \hyperref[a:DS08-E06]{\pageref*{a:DS08-E06}} \\
-8-7 & 825次；反复合并当前两个最短表 & 56 & \hyperref[a:DS08-E07]{\pageref*{a:DS08-E07}} \\
-8-8 & WPL=690 & 56 & \hyperref[a:DS08-E08]{\pageref*{a:DS08-E08}} \\
-8-9 & 随机划分选择第10小，平均时间\(O(n)\)、迭代辅助空间\(O(1)\) & 52 & \hyperref[a:DS08-E09]{\pageref*{a:DS08-E09}} \\
+8-3 & 随机划分选择第10小，平均时间\(O(n)\)、迭代辅助空间\(O(1)\) & 52 & \hyperref[a:DS08-E09]{\pageref*{a:DS08-E09}} \\
+8-4 & C & 53 & \hyperref[a:DS08-E03]{\pageref*{a:DS08-E03}} \\
+8-5 & C & 53 & \hyperref[a:DS08-E04]{\pageref*{a:DS08-E04}} \\
+8-6 & C & 54 & \hyperref[a:DS08-E05]{\pageref*{a:DS08-E05}} \\
+8-7 & 3段；最大n，最小m & 55 & \hyperref[a:DS08-E06]{\pageref*{a:DS08-E06}} \\
+8-8 & 825次；反复合并当前两个最短表 & 56 & \hyperref[a:DS08-E07]{\pageref*{a:DS08-E07}} \\
+8-9 & WPL=690 & 56 & \hyperref[a:DS08-E08]{\pageref*{a:DS08-E08}} \\
 \end{longtable}}
 \Needspace{6\baselineskip}
 \subsection*{计算机组成原理}
@@ -76,156 +76,156 @@
 2-4 & B & 66 & \hyperref[a:CO02-E04]{\pageref*{a:CO02-E04}} \\
 2-5 & C & 66 & \hyperref[a:CO02-E05]{\pageref*{a:CO02-E05}} \\
 2-6 & B & 67 & \hyperref[a:CO02-E06]{\pageref*{a:CO02-E06}} \\
-2-7 & A & 69 & \hyperref[a:CO02-E07]{\pageref*{a:CO02-E07}} \\
+2-7 & A & 70 & \hyperref[a:CO02-E07]{\pageref*{a:CO02-E07}} \\
 2-8 & A & 70 & \hyperref[a:CO02-E08]{\pageref*{a:CO02-E08}} \\
 2-9 & D & 70 & \hyperref[a:CO02-E09]{\pageref*{a:CO02-E09}} \\
 2-10 & （1）机器模型下循环条件恒真；改int后不进入循环。（2）相等；00FF FFFFH、4B7F FFFFH。（3）浮点舍入为2\^{}25。（4）低32位全1；最大n=30。（5）正无穷；不溢出最大n=126，精确最大n=23。 & 71 & \hyperref[a:CO02-E10]{\pageref*{a:CO02-E10}} \\
 2-11 & D & 72 & \hyperref[a:CO02-E11]{\pageref*{a:CO02-E11}} \\
-3-1 & A & 74 & \hyperref[a:CO03-E01]{\pageref*{a:CO03-E01}} \\
-3-2 & D & 74 & \hyperref[a:CO03-E02]{\pageref*{a:CO03-E02}} \\
-3-3 & D & 75 & \hyperref[a:CO03-E03]{\pageref*{a:CO03-E03}} \\
-3-4 & D & 75 & \hyperref[a:CO03-E04]{\pageref*{a:CO03-E04}} \\
-3-5 & B & 77 & \hyperref[a:CO03-E05]{\pageref*{a:CO03-E05}} \\
-3-6 & C & 78 & \hyperref[a:CO03-E06]{\pageref*{a:CO03-E06}} \\
-3-7 & A & 79 & \hyperref[a:CO03-E07]{\pageref*{a:CO03-E07}} \\
-3-8 & C & 79 & \hyperref[a:CO03-E08]{\pageref*{a:CO03-E08}} \\
-3-9 & C & 81 & \hyperref[a:CO03-E09]{\pageref*{a:CO03-E09}} \\
-3-10 & C & 81 & \hyperref[a:CO03-E10]{\pageref*{a:CO03-E10}} \\
-3-11 & （1）2页、2次缺页，0042 2000H与0042 3000H。（2）以数组元素计，无时间局部性，有空间局部性。（3）块内A4～A0，组号A10～A5；a{[}1{]}{[}0{]}=0042 2100H，组号8。（4）192块；写分配下两种循环均87.5\%。 & 82 & \hyperref[a:CO03-E11]{\pageref*{a:CO03-E11}} \\
-3-12 & （1）VPN=A29～A12，偏移=A11～A0。（2）标记=A29～A15，组号=A14～A12。（3）淘汰VPN=4。（4）每表项增加2位。 & 83 & \hyperref[a:CO03-E12]{\pageref*{a:CO03-E12}} \\
-3-13 & （1）虚址6/2/6位，物理址6/4/2位。（2）03D4H读得36H；00F1H从主存取数，字节值未知；0229H缺页。 & 83 & \hyperref[a:CO03-E13]{\pageref*{a:CO03-E13}} \\
-4-1 & D & 85 & \hyperref[a:CO04-E01]{\pageref*{a:CO04-E01}} \\
-4-2 & C & 86 & \hyperref[a:CO04-E02]{\pageref*{a:CO04-E02}} \\
-4-3 & C & 86 & \hyperref[a:CO04-E03]{\pageref*{a:CO04-E03}} \\
-4-4 & A & 87 & \hyperref[a:CO04-E04]{\pageref*{a:CO04-E04}} \\
-4-5 & （1）10次，第16行；（2）第12行条件转移，第16、20、30行无条件改变后继；（3）0040102AH，位移−42，小端；（4）32位溢出，改用long long；（5）高32位不等于低32位的符号扩展时OF=1，增加溢出自陷指令。 & 89 & \hyperref[a:CO04-E05]{\pageref*{a:CO04-E05}} \\
-5-1 & B & 91 & \hyperref[a:CO05-E01]{\pageref*{a:CO05-E01}} \\
-5-2 & （1）SF=F15，OF见解析；（2）Y保存首操作数，Z暂存结果；（3）16个，来自IR，rd接写地址译码器；（4）PCout/MARin→Read→MDRout/IRin，至少7拍；（5）CU产生，IR和FR提供输入。 & 92 & \hyperref[a:CO05-E02]{\pageref*{a:CO05-E02}} \\
-5-3 & B & 93 & \hyperref[a:CO05-E03]{\pageref*{a:CO05-E03}} \\
-5-4 & C & 94 & \hyperref[a:CO05-E04]{\pageref*{a:CO05-E04}} \\
-5-5 & C & 94 & \hyperref[a:CO05-E05]{\pageref*{a:CO05-E05}} \\
-5-6 & B & 94 & \hyperref[a:CO05-E06]{\pageref*{a:CO05-E06}} \\
-5-7 & A & 95 & \hyperref[a:CO05-E07]{\pageref*{a:CO05-E07}} \\
-5-8 & D & 96 & \hyperref[a:CO05-E08]{\pageref*{a:CO05-E08}} \\
-5-9 & C & 96 & \hyperref[a:CO05-E09]{\pageref*{a:CO05-E09}} \\
-5-10 & C & 97 & \hyperref[a:CO05-E10]{\pageref*{a:CO05-E10}} \\
-5-11 & （1）FEFFH；（2）8拍；（3）I3等待RAW写回，I4受前级冻结阻塞；（4）至少17拍。 & 98 & \hyperref[a:CO05-E11]{\pageref*{a:CO05-E11}} \\
-6-1 & B & 101 & \hyperref[a:CO06-E01]{\pageref*{a:CO06-E01}} \\
-6-2 & 10.664 GB/s；改给333.25 MHz且每拍4次时相同。 & 101 & \hyperref[a:CO06-E02]{\pageref*{a:CO06-E02}} \\
-6-3 & D & 101 & \hyperref[a:CO06-E03]{\pageref*{a:CO06-E03}} \\
-6-4 & B & 101 & \hyperref[a:CO06-E04]{\pageref*{a:CO06-E04}} \\
-7-1 & D & 104 & \hyperref[a:CO07-E01]{\pageref*{a:CO07-E01}} \\
-7-2 & C & 105 & \hyperref[a:CO07-E02]{\pageref*{a:CO07-E02}} \\
-7-3 & A、B、C屏蔽字依次100、110、111；开始A→B→C，完成C→B→A。 & 106 & \hyperref[a:CO07-E03]{\pageref*{a:CO07-E03}} \\
-7-4 & B & 106 & \hyperref[a:CO07-E04]{\pageref*{a:CO07-E04}} \\
-7-5 & C & 107 & \hyperref[a:CO07-E05]{\pageref*{a:CO07-E05}} \\
-7-6 & D & 107 & \hyperref[a:CO07-E06]{\pageref*{a:CO07-E06}} \\
-7-7 & （1）最多2 μs查询一次，至少4\%；（2）不能，需800\%的CPU预算；（3）最多4\%。 & 108 & \hyperref[a:CO07-E07]{\pageref*{a:CO07-E07}} \\
+3-1 & A & 75 & \hyperref[a:CO03-E01]{\pageref*{a:CO03-E01}} \\
+3-2 & D & 75 & \hyperref[a:CO03-E02]{\pageref*{a:CO03-E02}} \\
+3-3 & D & 76 & \hyperref[a:CO03-E03]{\pageref*{a:CO03-E03}} \\
+3-4 & D & 76 & \hyperref[a:CO03-E04]{\pageref*{a:CO03-E04}} \\
+3-5 & B & 78 & \hyperref[a:CO03-E05]{\pageref*{a:CO03-E05}} \\
+3-6 & C & 79 & \hyperref[a:CO03-E06]{\pageref*{a:CO03-E06}} \\
+3-7 & A & 80 & \hyperref[a:CO03-E07]{\pageref*{a:CO03-E07}} \\
+3-8 & C & 80 & \hyperref[a:CO03-E08]{\pageref*{a:CO03-E08}} \\
+3-9 & C & 82 & \hyperref[a:CO03-E09]{\pageref*{a:CO03-E09}} \\
+3-10 & C & 82 & \hyperref[a:CO03-E10]{\pageref*{a:CO03-E10}} \\
+3-11 & （1）2页、2次缺页，0042 2000H与0042 3000H。（2）以数组元素计，无时间局部性，有空间局部性。（3）块内A4～A0，组号A10～A5；a{[}1{]}{[}0{]}=0042 2100H，组号8。（4）192块；写分配下两种循环均87.5\%。 & 83 & \hyperref[a:CO03-E11]{\pageref*{a:CO03-E11}} \\
+3-12 & （1）VPN=A29～A12，偏移=A11～A0。（2）标记=A29～A15，组号=A14～A12。（3）淘汰VPN=4。（4）每表项增加2位。 & 84 & \hyperref[a:CO03-E12]{\pageref*{a:CO03-E12}} \\
+3-13 & （1）虚址6/2/6位，物理址6/4/2位。（2）03D4H读得36H；00F1H从主存取数，字节值未知；0229H缺页。 & 84 & \hyperref[a:CO03-E13]{\pageref*{a:CO03-E13}} \\
+4-1 & D & 86 & \hyperref[a:CO04-E01]{\pageref*{a:CO04-E01}} \\
+4-2 & C & 87 & \hyperref[a:CO04-E02]{\pageref*{a:CO04-E02}} \\
+4-3 & C & 87 & \hyperref[a:CO04-E03]{\pageref*{a:CO04-E03}} \\
+4-4 & A & 88 & \hyperref[a:CO04-E04]{\pageref*{a:CO04-E04}} \\
+4-5 & （1）10次，第16行；（2）第12行条件转移，第16、20、30行无条件改变后继；（3）0040102AH，位移−42，小端；（4）32位溢出，改用long long；（5）高32位不等于低32位的符号扩展时OF=1，增加溢出自陷指令。 & 90 & \hyperref[a:CO04-E05]{\pageref*{a:CO04-E05}} \\
+5-1 & B & 92 & \hyperref[a:CO05-E01]{\pageref*{a:CO05-E01}} \\
+5-2 & （1）SF=F15，OF见解析；（2）Y保存首操作数，Z暂存结果；（3）16个，来自IR，rd接写地址译码器；（4）PCout/MARin→Read→MDRout/IRin，至少7拍；（5）CU产生，IR和FR提供输入。 & 93 & \hyperref[a:CO05-E02]{\pageref*{a:CO05-E02}} \\
+5-3 & B & 94 & \hyperref[a:CO05-E03]{\pageref*{a:CO05-E03}} \\
+5-4 & C & 95 & \hyperref[a:CO05-E04]{\pageref*{a:CO05-E04}} \\
+5-5 & C & 95 & \hyperref[a:CO05-E05]{\pageref*{a:CO05-E05}} \\
+5-6 & B & 96 & \hyperref[a:CO05-E06]{\pageref*{a:CO05-E06}} \\
+5-7 & A & 97 & \hyperref[a:CO05-E07]{\pageref*{a:CO05-E07}} \\
+5-8 & D & 97 & \hyperref[a:CO05-E08]{\pageref*{a:CO05-E08}} \\
+5-9 & C & 98 & \hyperref[a:CO05-E09]{\pageref*{a:CO05-E09}} \\
+5-10 & C & 99 & \hyperref[a:CO05-E10]{\pageref*{a:CO05-E10}} \\
+5-11 & （1）FEFFH；（2）8拍；（3）I3等待RAW写回，I4受前级冻结阻塞；（4）至少17拍。 & 99 & \hyperref[a:CO05-E11]{\pageref*{a:CO05-E11}} \\
+6-1 & B & 102 & \hyperref[a:CO06-E01]{\pageref*{a:CO06-E01}} \\
+6-2 & 10.664 GB/s；改给333.25 MHz且每拍4次时相同。 & 102 & \hyperref[a:CO06-E02]{\pageref*{a:CO06-E02}} \\
+6-3 & D & 102 & \hyperref[a:CO06-E03]{\pageref*{a:CO06-E03}} \\
+6-4 & B & 102 & \hyperref[a:CO06-E04]{\pageref*{a:CO06-E04}} \\
+7-1 & D & 105 & \hyperref[a:CO07-E01]{\pageref*{a:CO07-E01}} \\
+7-2 & C & 106 & \hyperref[a:CO07-E02]{\pageref*{a:CO07-E02}} \\
+7-3 & A、B、C屏蔽字依次100、110、111；开始A→B→C，完成C→B→A。 & 107 & \hyperref[a:CO07-E03]{\pageref*{a:CO07-E03}} \\
+7-4 & B & 107 & \hyperref[a:CO07-E04]{\pageref*{a:CO07-E04}} \\
+7-5 & C & 108 & \hyperref[a:CO07-E05]{\pageref*{a:CO07-E05}} \\
+7-6 & D & 108 & \hyperref[a:CO07-E06]{\pageref*{a:CO07-E06}} \\
+7-7 & （1）最多2 μs查询一次，至少4\%；（2）不能，需800\%的CPU预算；（3）最多4\%。 & 109 & \hyperref[a:CO07-E07]{\pageref*{a:CO07-E07}} \\
 \end{longtable}}
 \Needspace{6\baselineskip}
 \subsection*{操作系统}
 {\fontsize{9.3}{12}\selectfont
 \begin{longtable}{@{}p{18mm}p{87mm}p{20mm}p{20mm}@{}}\toprule 题号 & 答案 & 正文页 & 解析页 \\ \midrule\endfirsthead\toprule 题号 & 答案 & 正文页 & 解析页 \\ \midrule\endhead\bottomrule\endfoot
-1-1 & D & 109 & \hyperref[a:OS01-E01]{\pageref*{a:OS01-E01}} \\
-1-2 & B & 111 & \hyperref[a:OS01-E02]{\pageref*{a:OS01-E02}} \\
-1-3 & D & 112 & \hyperref[a:OS01-E03]{\pageref*{a:OS01-E03}} \\
-1-4 & A & 112 & \hyperref[a:OS01-E04]{\pageref*{a:OS01-E04}} \\
-2-1 & C & 115 & \hyperref[a:OS02-E01]{\pageref*{a:OS02-E01}} \\
-2-2 & D & 117 & \hyperref[a:OS02-E02]{\pageref*{a:OS02-E02}} \\
-2-3 & B & 117 & \hyperref[a:OS02-E03]{\pageref*{a:OS02-E03}} \\
-2-4 & C & 117 & \hyperref[a:OS02-E04]{\pageref*{a:OS02-E04}} \\
-2-5 & C & 118 & \hyperref[a:OS02-E05]{\pageref*{a:OS02-E05}} \\
-2-6 & SRTF：13；RR：19.25 & 118 & \hyperref[a:OS02-E06]{\pageref*{a:OS02-E06}} \\
-2-7 & \(priority=nice+k_1cpuTime-k_2waitTime\)，\(k_1,k_2>0\) & 118 & \hyperref[a:OS02-E07]{\pageref*{a:OS02-E07}} \\
-2-8 & C & 119 & \hyperref[a:OS02-E08]{\pageref*{a:OS02-E08}} \\
-2-9 & D & 120 & \hyperref[a:OS02-E09]{\pageref*{a:OS02-E09}} \\
-2-10 & 两个信号量，初值均0 & 120 & \hyperref[a:OS02-E10]{\pageref*{a:OS02-E10}} \\
-2-11 & （1）是；（2）done=0；（3）mutex=1 & 121 & \hyperref[a:OS02-E11]{\pageref*{a:OS02-E11}} \\
-2-12 & empty=N，odd=even=0，mutex=1；按类别发布 & 122 & \hyperref[a:OS02-E12]{\pageref*{a:OS02-E12}} \\
-2-13 & empty=1000，full=0，mutex=batch=1 & 122 & \hyperref[a:OS02-E13]{\pageref*{a:OS02-E13}} \\
-2-14 & D & 124 & \hyperref[a:OS02-E14]{\pageref*{a:OS02-E14}} \\
-2-15 & B & 125 & \hyperref[a:OS02-E15]{\pageref*{a:OS02-E15}} \\
-2-16 & D & 125 & \hyperref[a:OS02-E16]{\pageref*{a:OS02-E16}} \\
-2-17 & C；仅\ensuremath{\mathrm{I}} & 126 & \hyperref[a:OS02-E17]{\pageref*{a:OS02-E17}} \\
-3-1 & C & 127 & \hyperref[a:OS03-E01]{\pageref*{a:OS03-E01}} \\
-3-2 & B & 128 & \hyperref[a:OS03-E02]{\pageref*{a:OS03-E02}} \\
-3-3 & B & 129 & \hyperref[a:OS03-E03]{\pageref*{a:OS03-E03}} \\
-3-4 & A & 129 & \hyperref[a:OS03-E04]{\pageref*{a:OS03-E04}} \\
-3-5 & C & 131 & \hyperref[a:OS03-E05]{\pageref*{a:OS03-E05}} \\
-3-6 & C；60A01H & 132 & \hyperref[a:OS03-E06]{\pageref*{a:OS03-E06}} \\
-3-7 & A & 132 & \hyperref[a:OS03-E07]{\pageref*{a:OS03-E07}} \\
-3-8 & 210 ns；100000220 ns；110 ns；101565H & 133 & \hyperref[a:OS03-E08]{\pageref*{a:OS03-E08}} \\
-3-9 & 10801008H；042H、001H；00201108H；00301004H & 133 & \hyperref[a:OS03-E09]{\pageref*{a:OS03-E09}} \\
-4-1 & B & 135 & \hyperref[a:OS04-E01]{\pageref*{a:OS04-E01}} \\
-4-2 & D & 136 & \hyperref[a:OS04-E02]{\pageref*{a:OS04-E02}} \\
-4-3 & B & 137 & \hyperref[a:OS04-E03]{\pageref*{a:OS04-E03}} \\
-4-4 & D & 137 & \hyperref[a:OS04-E04]{\pageref*{a:OS04-E04}} \\
-4-5 & B & 138 & \hyperref[a:OS04-E05]{\pageref*{a:OS04-E05}} \\
-4-6 & C & 139 & \hyperref[a:OS04-E06]{\pageref*{a:OS04-E06}} \\
-4-7 & （course,2）、（doc,10）；30；2块；一级和二级 & 140 & \hyperref[a:OS04-E07]{\pageref*{a:OS04-E07}} \\
-4-8 & \((8+1024+1024^2+1024^3)4096\) B；\(2^{26}\) 个；时间不同 & 141 & \hyperref[a:OS04-E08]{\pageref*{a:OS04-E08}} \\
-5-1 & C & 143 & \hyperref[a:OS05-E01]{\pageref*{a:OS05-E01}} \\
-5-2 & B & 144 & \hyperref[a:OS05-E02]{\pageref*{a:OS05-E02}} \\
-5-3 & B & 145 & \hyperref[a:OS05-E03]{\pageref*{a:OS05-E03}} \\
-5-4 & B & 146 & \hyperref[a:OS05-E04]{\pageref*{a:OS05-E04}} \\
-5-5 & C & 146 & \hyperref[a:OS05-E05]{\pageref*{a:OS05-E05}} \\
-5-6 & {\SNsymbolfont ②}→{\SNsymbolfont ⑥}→{\SNsymbolfont ④}→{\SNsymbolfont ③}→{\SNsymbolfont ①}→{\SNsymbolfont ⑤}；{\SNsymbolfont ③}为驱动；处理入口时P阻塞、CPU内核态 & 147 & \hyperref[a:OS05-E06]{\pageref*{a:OS05-E06}} \\
-5-7 & 307200000 B；100260→101660→110560→60005；（100,5,60）；驱动 & 147 & \hyperref[a:OS05-E07]{\pageref*{a:OS05-E07}} \\
+1-1 & D & 110 & \hyperref[a:OS01-E01]{\pageref*{a:OS01-E01}} \\
+1-2 & B & 112 & \hyperref[a:OS01-E02]{\pageref*{a:OS01-E02}} \\
+1-3 & D & 113 & \hyperref[a:OS01-E03]{\pageref*{a:OS01-E03}} \\
+1-4 & A & 113 & \hyperref[a:OS01-E04]{\pageref*{a:OS01-E04}} \\
+2-1 & C & 116 & \hyperref[a:OS02-E01]{\pageref*{a:OS02-E01}} \\
+2-2 & D & 118 & \hyperref[a:OS02-E02]{\pageref*{a:OS02-E02}} \\
+2-3 & B & 118 & \hyperref[a:OS02-E03]{\pageref*{a:OS02-E03}} \\
+2-4 & C & 118 & \hyperref[a:OS02-E04]{\pageref*{a:OS02-E04}} \\
+2-5 & C & 119 & \hyperref[a:OS02-E05]{\pageref*{a:OS02-E05}} \\
+2-6 & SRTF：13；RR：19.25 & 119 & \hyperref[a:OS02-E06]{\pageref*{a:OS02-E06}} \\
+2-7 & \(priority=nice+k_1cpuTime-k_2waitTime\)，\(k_1,k_2>0\) & 119 & \hyperref[a:OS02-E07]{\pageref*{a:OS02-E07}} \\
+2-8 & C & 120 & \hyperref[a:OS02-E08]{\pageref*{a:OS02-E08}} \\
+2-9 & D & 121 & \hyperref[a:OS02-E09]{\pageref*{a:OS02-E09}} \\
+2-10 & 两个信号量，初值均0 & 121 & \hyperref[a:OS02-E10]{\pageref*{a:OS02-E10}} \\
+2-11 & （1）是；（2）done=0；（3）mutex=1 & 122 & \hyperref[a:OS02-E11]{\pageref*{a:OS02-E11}} \\
+2-12 & empty=N，odd=even=0，mutex=1；按类别发布 & 123 & \hyperref[a:OS02-E12]{\pageref*{a:OS02-E12}} \\
+2-13 & empty=1000，full=0，mutex=batch=1 & 123 & \hyperref[a:OS02-E13]{\pageref*{a:OS02-E13}} \\
+2-14 & D & 125 & \hyperref[a:OS02-E14]{\pageref*{a:OS02-E14}} \\
+2-15 & B & 126 & \hyperref[a:OS02-E15]{\pageref*{a:OS02-E15}} \\
+2-16 & D & 126 & \hyperref[a:OS02-E16]{\pageref*{a:OS02-E16}} \\
+2-17 & C；仅\ensuremath{\mathrm{I}} & 127 & \hyperref[a:OS02-E17]{\pageref*{a:OS02-E17}} \\
+3-1 & C & 128 & \hyperref[a:OS03-E01]{\pageref*{a:OS03-E01}} \\
+3-2 & B & 129 & \hyperref[a:OS03-E02]{\pageref*{a:OS03-E02}} \\
+3-3 & B & 130 & \hyperref[a:OS03-E03]{\pageref*{a:OS03-E03}} \\
+3-4 & A & 131 & \hyperref[a:OS03-E04]{\pageref*{a:OS03-E04}} \\
+3-5 & C & 133 & \hyperref[a:OS03-E05]{\pageref*{a:OS03-E05}} \\
+3-6 & C；60A01H & 133 & \hyperref[a:OS03-E06]{\pageref*{a:OS03-E06}} \\
+3-7 & A & 133 & \hyperref[a:OS03-E07]{\pageref*{a:OS03-E07}} \\
+3-8 & 210 ns；100000220 ns；110 ns；101565H & 134 & \hyperref[a:OS03-E08]{\pageref*{a:OS03-E08}} \\
+3-9 & 10801008H；042H、001H；00201108H；00301004H & 134 & \hyperref[a:OS03-E09]{\pageref*{a:OS03-E09}} \\
+4-1 & B & 136 & \hyperref[a:OS04-E01]{\pageref*{a:OS04-E01}} \\
+4-2 & D & 137 & \hyperref[a:OS04-E02]{\pageref*{a:OS04-E02}} \\
+4-3 & B & 138 & \hyperref[a:OS04-E03]{\pageref*{a:OS04-E03}} \\
+4-4 & D & 138 & \hyperref[a:OS04-E04]{\pageref*{a:OS04-E04}} \\
+4-5 & B & 139 & \hyperref[a:OS04-E05]{\pageref*{a:OS04-E05}} \\
+4-6 & C & 140 & \hyperref[a:OS04-E06]{\pageref*{a:OS04-E06}} \\
+4-7 & （course,2）、（doc,10）；30；2块；一级和二级 & 141 & \hyperref[a:OS04-E07]{\pageref*{a:OS04-E07}} \\
+4-8 & \((8+1024+1024^2+1024^3)4096\) B；\(2^{26}\) 个；时间不同 & 142 & \hyperref[a:OS04-E08]{\pageref*{a:OS04-E08}} \\
+5-1 & C & 144 & \hyperref[a:OS05-E01]{\pageref*{a:OS05-E01}} \\
+5-2 & B & 145 & \hyperref[a:OS05-E02]{\pageref*{a:OS05-E02}} \\
+5-3 & B & 146 & \hyperref[a:OS05-E03]{\pageref*{a:OS05-E03}} \\
+5-4 & B & 147 & \hyperref[a:OS05-E04]{\pageref*{a:OS05-E04}} \\
+5-5 & C & 147 & \hyperref[a:OS05-E05]{\pageref*{a:OS05-E05}} \\
+5-6 & {\SNsymbolfont ②}→{\SNsymbolfont ⑥}→{\SNsymbolfont ④}→{\SNsymbolfont ③}→{\SNsymbolfont ①}→{\SNsymbolfont ⑤}；{\SNsymbolfont ③}为驱动；处理入口时P阻塞、CPU内核态 & 148 & \hyperref[a:OS05-E06]{\pageref*{a:OS05-E06}} \\
+5-7 & 307200000 B；100260→101660→110560→60005；（100,5,60）；驱动 & 148 & \hyperref[a:OS05-E07]{\pageref*{a:OS05-E07}} \\
 \end{longtable}}
 \Needspace{6\baselineskip}
 \subsection*{计算机网络}
 {\fontsize{9.3}{12}\selectfont
 \begin{longtable}{@{}p{18mm}p{87mm}p{20mm}p{20mm}@{}}\toprule 题号 & 答案 & 正文页 & 解析页 \\ \midrule\endfirsthead\toprule 题号 & 答案 & 正文页 & 解析页 \\ \midrule\endhead\bottomrule\endfoot
-1-1 & B & 150 & \hyperref[a:CN01-E01]{\pageref*{a:CN01-E01}} \\
-1-2 & B & 150 & \hyperref[a:CN01-E02]{\pageref*{a:CN01-E02}} \\
-1-3 & D & 150 & \hyperref[a:CN01-E03]{\pageref*{a:CN01-E03}} \\
-1-4 & B & 151 & \hyperref[a:CN01-E04]{\pageref*{a:CN01-E04}} \\
-2-1 & C & 152 & \hyperref[a:CN02-E01]{\pageref*{a:CN02-E01}} \\
-2-2 & A & 152 & \hyperref[a:CN02-E02]{\pageref*{a:CN02-E02}} \\
-2-3 & C & 154 & \hyperref[a:CN02-E03]{\pageref*{a:CN02-E03}} \\
-3-1 & A & 155 & \hyperref[a:CN03-E01]{\pageref*{a:CN03-E01}} \\
-3-2 & D & 156 & \hyperref[a:CN03-E02]{\pageref*{a:CN03-E02}} \\
-3-3 & C & 156 & \hyperref[a:CN03-E03]{\pageref*{a:CN03-E03}} \\
-3-4 & D & 157 & \hyperref[a:CN03-E04]{\pageref*{a:CN03-E04}} \\
-3-5 & C & 157 & \hyperref[a:CN03-E05]{\pageref*{a:CN03-E05}} \\
-3-6 & C & 157 & \hyperref[a:CN03-E06]{\pageref*{a:CN03-E06}} \\
-3-7 & B & 159 & \hyperref[a:CN03-E07]{\pageref*{a:CN03-E07}} \\
-3-8 & D & 160 & \hyperref[a:CN03-E08]{\pageref*{a:CN03-E08}} \\
-3-9 & B & 160 & \hyperref[a:CN03-E09]{\pageref*{a:CN03-E09}} \\
-3-10 & A & 161 & \hyperref[a:CN03-E10]{\pageref*{a:CN03-E10}} \\
-3-11 & B & 162 & \hyperref[a:CN03-E11]{\pageref*{a:CN03-E11}} \\
-3-12 & （1）3帧；（2）5帧，首\(S_{5,2}\)、末\(S_{1,2}\)；（3）3帧，首\(S_{2,3}\)；（4）50\%。 & 157 & \hyperref[a:CN03-E12]{\pageref*{a:CN03-E12}} \\
-4-1 & D & 163 & \hyperref[a:CN04-E01]{\pageref*{a:CN04-E01}} \\
-4-2 & B & 165 & \hyperref[a:CN04-E02]{\pageref*{a:CN04-E02}} \\
-4-3 & B & 165 & \hyperref[a:CN04-E03]{\pageref*{a:CN04-E03}} \\
-4-4 & B & 166 & \hyperref[a:CN04-E04]{\pageref*{a:CN04-E04}} \\
-4-5 & C & 166 & \hyperref[a:CN04-E05]{\pageref*{a:CN04-E05}} \\
-4-6 & B & 167 & \hyperref[a:CN04-E06]{\pageref*{a:CN04-E06}} \\
-4-7 & C & 168 & \hyperref[a:CN04-E07]{\pageref*{a:CN04-E07}} \\
-4-8 & C & 168 & \hyperref[a:CN04-E08]{\pageref*{a:CN04-E08}} \\
-4-9 & D & 169 & \hyperref[a:CN04-E09]{\pageref*{a:CN04-E09}} \\
-4-10 & （1）192.168.1.127，192.168.1.128/25，45台；（2）2片，796 B与724 B。 & 171 & \hyperref[a:CN04-E10]{\pageref*{a:CN04-E10}} \\
-4-11 & 3条路由；目的194.17.20.200走E0；域间BGP，由TCP承载。 & 166 & \hyperref[a:CN04-E11]{\pageref*{a:CN04-E11}} \\
-4-12 & （1）OSPF；（2）16；（3）30 s、60 s；（4）eBGP/UPDATE、iBGP；（5）R14选R11，R15选R13。 & 170 & \hyperref[a:CN04-E12]{\pageref*{a:CN04-E12}} \\
-4-13 & （1）0.24 s、200 kb/s、理想下界0.40 s；（2）8帧、4 bit；（3）作业区10.10.10.64/26，管理区10.10.10.0/26，生活区10.10.10.128/25。 & 172 & \hyperref[a:CN04-E13]{\pageref*{a:CN04-E13}} \\
-5-1 & B & 173 & \hyperref[a:CN05-E01]{\pageref*{a:CN05-E01}} \\
-5-2 & C & 174 & \hyperref[a:CN05-E02]{\pageref*{a:CN05-E02}} \\
-5-3 & D & 175 & \hyperref[a:CN05-E03]{\pageref*{a:CN05-E03}} \\
-5-4 & D & 176 & \hyperref[a:CN05-E04]{\pageref*{a:CN05-E04}} \\
-5-5 & D & 178 & \hyperref[a:CN05-E05]{\pageref*{a:CN05-E05}} \\
-5-6 & A & 177 & \hyperref[a:CN05-E06]{\pageref*{a:CN05-E06}} \\
-5-7 & A & 178 & \hyperref[a:CN05-E07]{\pageref*{a:CN05-E07}} \\
-5-8 & （1）H发送1、3、4；握手1、2、3；填充3、5；（2）16 B；（3）15个路由器。 & 178 & \hyperref[a:CN05-E08]{\pageref*{a:CN05-E08}} \\
-5-9 & （1）SYN=ACK=1，ack=101；（2）rwnd=12 KB，cwnd=9 KB，发送窗口9 KB；（3）20581，163.84 kb/s；（4）300 ms。 & 179 & \hyperref[a:CN05-E09]{\pageref*{a:CN05-E09}} \\
-6-1 & C & 182 & \hyperref[a:CN06-E01]{\pageref*{a:CN06-E01}} \\
-6-2 & A & 182 & \hyperref[a:CN06-E02]{\pageref*{a:CN06-E02}} \\
-6-3 & A & 183 & \hyperref[a:CN06-E03]{\pageref*{a:CN06-E03}} \\
-6-4 & D & 184 & \hyperref[a:CN06-E04]{\pageref*{a:CN06-E04}} \\
-6-5 & A & 184 & \hyperref[a:CN06-E05]{\pageref*{a:CN06-E05}} \\
-6-6 & D & 185 & \hyperref[a:CN06-E06]{\pageref*{a:CN06-E06}} \\
-6-7 & B & 185 & \hyperref[a:CN06-E07]{\pageref*{a:CN06-E07}} \\
-6-8 & （1）控制持久、数据非持久，先建控制；（2）101、18102；（3）3 MSS、5 MSS；（4）60 ms、2.4 Mb/s。 & 185 & \hyperref[a:CN06-E08]{\pageref*{a:CN06-E08}} \\
-6-9 & （1）DNS，UDP/IP/以太网封装；（2）H1→4、DNS→1、R→2；（3）2帧，目的全FF（需新DNS查询）。 & 186 & \hyperref[a:CN06-E09]{\pageref*{a:CN06-E09}} \\
+1-1 & B & 151 & \hyperref[a:CN01-E01]{\pageref*{a:CN01-E01}} \\
+1-2 & B & 151 & \hyperref[a:CN01-E02]{\pageref*{a:CN01-E02}} \\
+1-3 & D & 152 & \hyperref[a:CN01-E03]{\pageref*{a:CN01-E03}} \\
+1-4 & B & 152 & \hyperref[a:CN01-E04]{\pageref*{a:CN01-E04}} \\
+2-1 & C & 153 & \hyperref[a:CN02-E01]{\pageref*{a:CN02-E01}} \\
+2-2 & A & 153 & \hyperref[a:CN02-E02]{\pageref*{a:CN02-E02}} \\
+2-3 & C & 155 & \hyperref[a:CN02-E03]{\pageref*{a:CN02-E03}} \\
+3-1 & A & 156 & \hyperref[a:CN03-E01]{\pageref*{a:CN03-E01}} \\
+3-2 & D & 157 & \hyperref[a:CN03-E02]{\pageref*{a:CN03-E02}} \\
+3-3 & C & 157 & \hyperref[a:CN03-E03]{\pageref*{a:CN03-E03}} \\
+3-4 & D & 158 & \hyperref[a:CN03-E04]{\pageref*{a:CN03-E04}} \\
+3-5 & C & 158 & \hyperref[a:CN03-E05]{\pageref*{a:CN03-E05}} \\
+3-6 & C & 158 & \hyperref[a:CN03-E06]{\pageref*{a:CN03-E06}} \\
+3-7 & （1）3帧；（2）5帧，首\(S_{5,2}\)、末\(S_{1,2}\)；（3）3帧，首\(S_{2,3}\)；（4）50\%。 & 159 & \hyperref[a:CN03-E12]{\pageref*{a:CN03-E12}} \\
+3-8 & B & 160 & \hyperref[a:CN03-E07]{\pageref*{a:CN03-E07}} \\
+3-9 & D & 161 & \hyperref[a:CN03-E08]{\pageref*{a:CN03-E08}} \\
+3-10 & B & 161 & \hyperref[a:CN03-E09]{\pageref*{a:CN03-E09}} \\
+3-11 & A & 162 & \hyperref[a:CN03-E10]{\pageref*{a:CN03-E10}} \\
+3-12 & B & 163 & \hyperref[a:CN03-E11]{\pageref*{a:CN03-E11}} \\
+4-1 & D & 164 & \hyperref[a:CN04-E01]{\pageref*{a:CN04-E01}} \\
+4-2 & B & 166 & \hyperref[a:CN04-E02]{\pageref*{a:CN04-E02}} \\
+4-3 & B & 166 & \hyperref[a:CN04-E03]{\pageref*{a:CN04-E03}} \\
+4-4 & B & 167 & \hyperref[a:CN04-E04]{\pageref*{a:CN04-E04}} \\
+4-5 & C & 167 & \hyperref[a:CN04-E05]{\pageref*{a:CN04-E05}} \\
+4-6 & 3条路由；目的194.17.20.200走E0；域间BGP，由TCP承载。 & 167 & \hyperref[a:CN04-E11]{\pageref*{a:CN04-E11}} \\
+4-7 & B & 168 & \hyperref[a:CN04-E06]{\pageref*{a:CN04-E06}} \\
+4-8 & C & 169 & \hyperref[a:CN04-E07]{\pageref*{a:CN04-E07}} \\
+4-9 & C & 169 & \hyperref[a:CN04-E08]{\pageref*{a:CN04-E08}} \\
+4-10 & D & 170 & \hyperref[a:CN04-E09]{\pageref*{a:CN04-E09}} \\
+4-11 & （1）OSPF；（2）16；（3）30 s、60 s；（4）eBGP/UPDATE、iBGP；（5）R14选R11，R15选R13。 & 171 & \hyperref[a:CN04-E12]{\pageref*{a:CN04-E12}} \\
+4-12 & （1）192.168.1.127，192.168.1.128/25，45台；（2）2片，796 B与724 B。 & 172 & \hyperref[a:CN04-E10]{\pageref*{a:CN04-E10}} \\
+4-13 & （1）0.24 s、200 kb/s、理想下界0.40 s；（2）8帧、4 bit；（3）作业区10.10.10.64/26，管理区10.10.10.0/26，生活区10.10.10.128/25。 & 173 & \hyperref[a:CN04-E13]{\pageref*{a:CN04-E13}} \\
+5-1 & B & 174 & \hyperref[a:CN05-E01]{\pageref*{a:CN05-E01}} \\
+5-2 & C & 175 & \hyperref[a:CN05-E02]{\pageref*{a:CN05-E02}} \\
+5-3 & D & 176 & \hyperref[a:CN05-E03]{\pageref*{a:CN05-E03}} \\
+5-4 & D & 177 & \hyperref[a:CN05-E04]{\pageref*{a:CN05-E04}} \\
+5-5 & A & 178 & \hyperref[a:CN05-E06]{\pageref*{a:CN05-E06}} \\
+5-6 & D & 179 & \hyperref[a:CN05-E05]{\pageref*{a:CN05-E05}} \\
+5-7 & A & 179 & \hyperref[a:CN05-E07]{\pageref*{a:CN05-E07}} \\
+5-8 & （1）H发送1、3、4；握手1、2、3；填充3、5；（2）16 B；（3）15个路由器。 & 180 & \hyperref[a:CN05-E08]{\pageref*{a:CN05-E08}} \\
+5-9 & （1）SYN=ACK=1，ack=101；（2）rwnd=12 KB，cwnd=9 KB，发送窗口9 KB；（3）20581，163.84 kb/s；（4）300 ms。 & 180 & \hyperref[a:CN05-E09]{\pageref*{a:CN05-E09}} \\
+6-1 & C & 183 & \hyperref[a:CN06-E01]{\pageref*{a:CN06-E01}} \\
+6-2 & A & 183 & \hyperref[a:CN06-E02]{\pageref*{a:CN06-E02}} \\
+6-3 & A & 184 & \hyperref[a:CN06-E03]{\pageref*{a:CN06-E03}} \\
+6-4 & D & 185 & \hyperref[a:CN06-E04]{\pageref*{a:CN06-E04}} \\
+6-5 & A & 185 & \hyperref[a:CN06-E05]{\pageref*{a:CN06-E05}} \\
+6-6 & D & 186 & \hyperref[a:CN06-E06]{\pageref*{a:CN06-E06}} \\
+6-7 & B & 186 & \hyperref[a:CN06-E07]{\pageref*{a:CN06-E07}} \\
+6-8 & （1）控制持久、数据非持久，先建控制；（2）101、18102；（3）3 MSS、5 MSS；（4）60 ms、2.4 Mb/s。 & 186 & \hyperref[a:CN06-E08]{\pageref*{a:CN06-E08}} \\
+6-9 & （1）DNS，UDP/IP/以太网封装；（2）H1→4、DNS→1、R→2；（3）2帧，目的全FF（需新DNS查询）。 & 187 & \hyperref[a:CN06-E09]{\pageref*{a:CN06-E09}} \\
 \end{longtable}}
 \chapter{数据结构}
 \Needspace{48.00mm}\section*{绪论}
@@ -340,17 +340,17 @@ int majority(int A[], int n) {
 \par\medskip\Needspace{51.47mm}\noindent\phantomsection\label{a:DS03-E02}\textbf{例 3-2}\quad C
 \par\smallskip
 \par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/24d529bbe1b7eee11064ad2d.png}\par\smallskip
-\par\medskip\Needspace{75.96mm}\noindent\phantomsection\label{a:DS03-E03}\textbf{例 3-3}\quad B
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/d902369097e4259bb9d03cde.png}\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/bb2681687be7e02522d0920d.png}\par\smallskip
-\par\medskip\Needspace{71.61mm}\noindent\phantomsection\label{a:DS03-E04}\textbf{例 3-4}\quad C
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/72ca9acbba6a3cf8e2d07ad3.png}\par\smallskip
-\par\medskip\Needspace{32.39mm}\noindent\phantomsection\label{a:DS03-E05}\textbf{例 3-5}\quad B
+\par\medskip\Needspace{32.39mm}\noindent\phantomsection\label{a:DS03-E05}\textbf{例 3-3}\quad B
 \par\smallskip
 \par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/0af1233cf2f111913104813d.png}\par\smallskip
 \par\medskip\noindent\includegraphics[width=129.65mm,height=180mm,keepaspectratio]{../solutions/assets/e9cc980f15dafe85c14a44e4.png}\par\smallskip
+\par\medskip\Needspace{75.96mm}\noindent\phantomsection\label{a:DS03-E03}\textbf{例 3-4}\quad B
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/d902369097e4259bb9d03cde.png}\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/bb2681687be7e02522d0920d.png}\par\smallskip
+\par\medskip\Needspace{71.61mm}\noindent\phantomsection\label{a:DS03-E04}\textbf{例 3-5}\quad C
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/72ca9acbba6a3cf8e2d07ad3.png}\par\smallskip
 \Needspace{48.00mm}\section*{串}
 \par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:DS04-E01}\textbf{例 4-1}\quad 位置均为4；朴素15次，普通KMP10次
 \par\smallskip
@@ -456,30 +456,30 @@ int majority(int A[], int n) {
 \par\medskip\Needspace{38.27mm}\noindent\phantomsection\label{a:DS08-E02}\textbf{例 8-2}\quad D
 \par\smallskip
 \par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/ca53037b04c718c96fb3bd9f.png}\par\smallskip
-\par\medskip\Needspace{62.81mm}\noindent\phantomsection\label{a:DS08-E03}\textbf{例 8-3}\quad C
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/b90dd2a5bde6f698fd188c7e.png}\par\smallskip
-\par\medskip\Needspace{44.40mm}\noindent\phantomsection\label{a:DS08-E04}\textbf{例 8-4}\quad C
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/bdd205a1646697c5f4db4dd3.png}\par\smallskip
-\par\medskip\Needspace{33.07mm}\noindent\phantomsection\label{a:DS08-E05}\textbf{例 8-5}\quad C
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/a660be9d17aee0019201ebaf.png}\par\smallskip
-\par\medskip\Needspace{163.98mm}\noindent\phantomsection\label{a:DS08-E06}\textbf{例 8-6}\quad 3段；最大n，最小m
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=162.00mm,height=180mm,keepaspectratio]{../solutions/assets/38d819fe7d2ab0be5ee67283.png}\par\smallskip
-\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:DS08-E07}\textbf{例 8-7}\quad 825次；反复合并当前两个最短表
-\par\smallskip
-依次合并\texttt{10+35=45}、\texttt{40+45=85}、\texttt{50+60=110}、\texttt{85+110=195}、\texttt{195+200=395}。每次最坏比较数为新段长减1，合计\(44+84+109+194+394=825\)。合并长度和为WPL=830，减5次合并亦得825。对N表反复取最短两表，等价于以表长为叶权构造哈夫曼树，使重复参与层数的加权和最小。
-
-\par\medskip\Needspace{101.03mm}\noindent\phantomsection\label{a:DS08-E08}\textbf{例 8-8}\quad WPL=690
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=162.00mm,height=180mm,keepaspectratio]{../solutions/assets/ba3add26e93f44287444b91c.png}\par\smallskip
-\par\medskip\noindent\includegraphics[width=162.00mm,height=180mm,keepaspectratio]{../solutions/assets/77bd9b46db503a2eaaecfd6d.png}\par\smallskip
-\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:DS08-E09}\textbf{例 8-9}\quad 随机划分选择第10小，平均时间\(O(n)\)、迭代辅助空间\(O(1)\)
+\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:DS08-E09}\textbf{例 8-3}\quad 随机划分选择第10小，平均时间\(O(n)\)、迭代辅助空间\(O(1)\)
 \par\smallskip
 用随机枢轴划分，只继续处理包含第10小这一秩的子区间，丢弃无需继续划分的一侧。确定分界后保留10个最小数，无须内部有序；相等值跨边界时按尚需个数取足。随机选择的期望工作量为\(O(n)\)，在原数组迭代执行辅助空间\(O(1)\)。也可用大小10的大根堆扫描，只有新值小于堆顶才替换、下滤，时间\(O(n\log10)\)、辅助空间\(O(10)\)，适合流式输入。
 
+\par\medskip\Needspace{62.81mm}\noindent\phantomsection\label{a:DS08-E03}\textbf{例 8-4}\quad C
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/b90dd2a5bde6f698fd188c7e.png}\par\smallskip
+\par\medskip\Needspace{44.40mm}\noindent\phantomsection\label{a:DS08-E04}\textbf{例 8-5}\quad C
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/bdd205a1646697c5f4db4dd3.png}\par\smallskip
+\par\medskip\Needspace{33.07mm}\noindent\phantomsection\label{a:DS08-E05}\textbf{例 8-6}\quad C
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/a660be9d17aee0019201ebaf.png}\par\smallskip
+\par\medskip\Needspace{163.98mm}\noindent\phantomsection\label{a:DS08-E06}\textbf{例 8-7}\quad 3段；最大n，最小m
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=162.00mm,height=180mm,keepaspectratio]{../solutions/assets/38d819fe7d2ab0be5ee67283.png}\par\smallskip
+\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:DS08-E07}\textbf{例 8-8}\quad 825次；反复合并当前两个最短表
+\par\smallskip
+依次合并\texttt{10+35=45}、\texttt{40+45=85}、\texttt{50+60=110}、\texttt{85+110=195}、\texttt{195+200=395}。每次最坏比较数为新段长减1，合计\(44+84+109+194+394=825\)。合并长度和为WPL=830，减5次合并亦得825。对N表反复取最短两表，等价于以表长为叶权构造哈夫曼树，使重复参与层数的加权和最小。
+
+\par\medskip\Needspace{101.03mm}\noindent\phantomsection\label{a:DS08-E08}\textbf{例 8-9}\quad WPL=690
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=162.00mm,height=180mm,keepaspectratio]{../solutions/assets/ba3add26e93f44287444b91c.png}\par\smallskip
+\par\medskip\noindent\includegraphics[width=162.00mm,height=180mm,keepaspectratio]{../solutions/assets/77bd9b46db503a2eaaecfd6d.png}\par\smallskip
 \chapter{计算机组成原理}
 \Needspace{50.40mm}\section*{计算机系统与程序执行的层次}
 \par\medskip\Needspace{32.40mm}\noindent\phantomsection\label{a:CO01-E01}\textbf{例 1-1}\quad A
@@ -1091,23 +1091,7 @@ t 前最近六次引用为6、0、3、2、3、2，去重得到\{6,0,3,2\}。竖�
 \par\medskip\Needspace{49.74mm}\noindent\phantomsection\label{a:CN03-E06}\textbf{例 3-6}\quad C
 \par\smallskip
 \par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/323c6efd6aa373655075092f.png}\par\smallskip
-\par\medskip\Needspace{46.36mm}\noindent\phantomsection\label{a:CN03-E07}\textbf{例 3-7}\quad B
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/169c273babe5f90bd9c5ffb1.png}\par\smallskip
-\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN03-E08}\textbf{例 3-8}\quad D
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/628066db7e21991b1bbc8c07.png}\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/0686f52faa522b6a865e7995.png}\par\smallskip
-\par\medskip\Needspace{72.27mm}\noindent\phantomsection\label{a:CN03-E09}\textbf{例 3-9}\quad B
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/8b4c375de55a65f903be792b.png}\par\smallskip
-\par\medskip\Needspace{32.94mm}\noindent\phantomsection\label{a:CN03-E10}\textbf{例 3-10}\quad A
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/332cafd27f48df70206fed62.png}\par\smallskip
-\par\medskip\Needspace{38.54mm}\noindent\phantomsection\label{a:CN03-E11}\textbf{例 3-11}\quad B
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/81d572eb1af3901ceb2fbae5.png}\par\smallskip
-\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN03-E12}\textbf{例 3-12}\quad （1）3帧；（2）5帧，首\(S_{5,2}\)、末\(S_{1,2}\)；（3）3帧，首\(S_{2,3}\)；（4）50\%。
+\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN03-E12}\textbf{例 3-7}\quad （1）3帧；（2）5帧，首\(S_{5,2}\)、末\(S_{1,2}\)；（3）3帧，首\(S_{2,3}\)；（4）50\%。
 \par\smallskip
 读题时先分清两条状态线：收到帧的确认序号决定``我发出的哪些帧已被确认''；收到帧的发送序号决定``我下次应捎带哪个确认号''。GBN的接收窗口为1，收到失序帧不能跳过缺口向前确认。序号空间为\(2^3=8\)，发送窗口最多为7，所有序号按模8回绕。
 
@@ -1119,6 +1103,22 @@ t 前最近六次引用为6、0、3、2、3、2，去重得到\{6,0,3,2\}。竖�
 
 第（4）问须保留捎带确认帧的发送时间。发送一个数据帧需\(T_d=1000\times8/(100\times10^6)=0.08\) ms；确认也装在1000 B的数据帧中，\(T_a=0.08\) ms。沿用教材模型：题目中的RTT表示往返传播时延；从发送首帧到完整收到其确认，周期为\(T_d+\mathrm{RTT}+T_a=1.12\) ms。最多连续发7帧，故\(U_{\max}=7\times0.08/1.12=50\%\)。全双工允许两个方向同时工作，但本题求甲方单方向利用率；也不能把长捎带确认当成长度可忽略的纯ACK。
 
+\par\medskip\Needspace{46.36mm}\noindent\phantomsection\label{a:CN03-E07}\textbf{例 3-8}\quad B
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/169c273babe5f90bd9c5ffb1.png}\par\smallskip
+\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN03-E08}\textbf{例 3-9}\quad D
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/628066db7e21991b1bbc8c07.png}\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/0686f52faa522b6a865e7995.png}\par\smallskip
+\par\medskip\Needspace{72.27mm}\noindent\phantomsection\label{a:CN03-E09}\textbf{例 3-10}\quad B
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/8b4c375de55a65f903be792b.png}\par\smallskip
+\par\medskip\Needspace{32.94mm}\noindent\phantomsection\label{a:CN03-E10}\textbf{例 3-11}\quad A
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/332cafd27f48df70206fed62.png}\par\smallskip
+\par\medskip\Needspace{38.54mm}\noindent\phantomsection\label{a:CN03-E11}\textbf{例 3-12}\quad B
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/81d572eb1af3901ceb2fbae5.png}\par\smallskip
 \Needspace{48.00mm}\section*{网络层}
 \par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN04-E01}\textbf{例 4-1}\quad D
 \par\smallskip
@@ -1137,41 +1137,7 @@ t 前最近六次引用为6、0、3、2、3、2，去重得到\{6,0,3,2\}。竖�
 \par\medskip\Needspace{82.01mm}\noindent\phantomsection\label{a:CN04-E05}\textbf{例 4-5}\quad C
 \par\smallskip
 \par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/81d3d6987585c9df37dd602c.png}\par\smallskip
-\par\medskip\Needspace{55.34mm}\noindent\phantomsection\label{a:CN04-E06}\textbf{例 4-6}\quad B
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/9b81193d1b07f21358c2e99a.png}\par\smallskip
-\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN04-E07}\textbf{例 4-7}\quad C
-\par\smallskip
-H仅收到地址提议，尚未获得192.168.5.9的使用确认。初始选择阶段Request使用源0.0.0.0、目的255.255.255.255，按``目的、源''的设问顺序选 \textbf{C}。服务器的单播地址不是这一步的目的IP地址。
-
-图中Request框沿用原题的 \texttt{yiaddr} 标注。按DHCP规范，客户端此阶段申请的地址实际由Requested IP Address选项携带，客户端发出的 \texttt{yiaddr} 为0。图中的192.168.5.9应理解为待申请地址信息，不能据这个标注推出H已经能用它作IP源地址。Offer中的 \texttt{yiaddr} 才是服务器提出的地址。
-
-\par\medskip\Needspace{38.54mm}\noindent\phantomsection\label{a:CN04-E08}\textbf{例 4-8}\quad C
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/4e1570dea20757ba05e26a38.png}\par\smallskip
-\par\medskip\Needspace{57.22mm}\noindent\phantomsection\label{a:CN04-E09}\textbf{例 4-9}\quad D
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/c74d157a6c6695c795c5b108.png}\par\smallskip
-\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN04-E10}\textbf{例 4-10}\quad （1）192.168.1.127，192.168.1.128/25，45台；（2）2片，796 B与724 B。
-\par\smallskip
-``均分一个\texttt{/24}''先确定两个\texttt{/25}，每个块有128个地址，再利用已经分配的地址识别哪一块属于哪个部门。销售部\texttt{.1～.20}在192.168.1.0/25内，广播地址为\textbf{192.168.1.127}；技术部\texttt{.129～.208}在\textbf{192.168.1.128/25}内。技术部可用地址有\(128-2=126\)个，已分配主机数为\(208-129+1=80\)，F1的\texttt{.254}还占1个，因此还可连接\(126-80-1=\mathbf{45}\)台主机。路由器接口不是额外的一台用户主机，但会占用同一子网的可用地址。
-
-分片计算从原IP数据部分开始：\(1500-20=1480\) B。F1所在链路每片总长不能超过800 B，扣首部后最多780 B；非末片数据长度又必须是8 B的整数倍，故最大数据量为\(\lfloor780/8\rfloor\times8=\mathbf{776}\) B。余下\(1480-776=704\) B，一片即可容纳，所以最少2片。
-
-\begin{longtable}[]{@{}lrrl@{}}
-\toprule\noalign{}
-分片 & 数据长度/B & IP总长度/B & 片偏移（8 B单位）与MF \\
-\midrule\noalign{}
-\endhead
-\bottomrule\noalign{}
-\endlastfoot
-第一片 & 776 & 796 & 偏移0，MF=1 \\
-第二片 & 704 & 724 & 偏移97，MF=0 \\
-\end{longtable}
-
-第二片偏移是\(776/8=97\)，它累计的是原数据的位置，不加第一片首部。末片不要求数据长度继续凑满776 B，所有片的数据长度相加仍为1480 B。
-
-\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN04-E11}\textbf{例 4-11}\quad 3条路由；目的194.17.20.200走E0；域间BGP，由TCP承载。
+\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN04-E11}\textbf{例 4-6}\quad 3条路由；目的194.17.20.200走E0；域间BGP，由TCP承载。
 \par\smallskip
 先按出口分组，再分别求可用汇总前缀。经S0到达的153.14.5.0/25、153.14.5.128/25恰好拼成153.14.5.0/24，下一跳为R1的153.14.3.2。经S1到达的194.17.20.0/25与194.17.21.0/24可用194.17.20.0/23覆盖，但这个\texttt{/23}也包含E0直连的194.17.20.128/25，必须保留该更具体条目，让最长前缀匹配处理例外。
 
@@ -1191,7 +1157,22 @@ H仅收到地址提议，尚未获得192.168.5.9的使用确认。初始选择�
 
 194.17.20.200同时匹配\texttt{194.17.20.0/23}和\texttt{194.17.20.128/25}；比较前缀长度25与23，选择\textbf{E0}，不依赖表项书写顺序。R1与R2属于不同自治系统，因此交换域间路由使用\textbf{BGP（BGP-4）}，BGP报文由\textbf{TCP}承载。自治系统内部使用何种IGP，不改变这条跨AS邻接的协议选择。
 
-\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN04-E12}\textbf{例 4-12}\quad （1）OSPF；（2）16；（3）30 s、60 s；（4）eBGP/UPDATE、iBGP；（5）R14选R11，R15选R13。
+\par\medskip\Needspace{55.34mm}\noindent\phantomsection\label{a:CN04-E06}\textbf{例 4-7}\quad B
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/9b81193d1b07f21358c2e99a.png}\par\smallskip
+\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN04-E07}\textbf{例 4-8}\quad C
+\par\smallskip
+H仅收到地址提议，尚未获得192.168.5.9的使用确认。初始选择阶段Request使用源0.0.0.0、目的255.255.255.255，按``目的、源''的设问顺序选 \textbf{C}。服务器的单播地址不是这一步的目的IP地址。
+
+图中Request框沿用原题的 \texttt{yiaddr} 标注。按DHCP规范，客户端此阶段申请的地址实际由Requested IP Address选项携带，客户端发出的 \texttt{yiaddr} 为0。图中的192.168.5.9应理解为待申请地址信息，不能据这个标注推出H已经能用它作IP源地址。Offer中的 \texttt{yiaddr} 才是服务器提出的地址。
+
+\par\medskip\Needspace{38.54mm}\noindent\phantomsection\label{a:CN04-E08}\textbf{例 4-9}\quad C
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/4e1570dea20757ba05e26a38.png}\par\smallskip
+\par\medskip\Needspace{57.22mm}\noindent\phantomsection\label{a:CN04-E09}\textbf{例 4-10}\quad D
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/c74d157a6c6695c795c5b108.png}\par\smallskip
+\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN04-E12}\textbf{例 4-11}\quad （1）OSPF；（2）16；（3）30 s、60 s；（4）eBGP/UPDATE、iBGP；（5）R14选R11，R15选R13。
 \par\smallskip
 第（1）问先检查协议的适用上限。RIP最大有效跳数为15，16即不可达，AS4的规模可能超出这一限制，应选\textbf{OSPF}。第（2）问问的是IP的TTL而非RIP度量：每经过一个路由器TTL减1，减至0便被丢弃。最多经过15个路由器后仍须至少剩1，故初始TTL至少为\textbf{16}。
 
@@ -1223,6 +1204,25 @@ H仅收到地址提议，尚未获得192.168.5.9的使用确认。初始选择�
 第（4）问按会话两端是否同属一个AS区分：R44与R13分属AS4、AS1，用\textbf{eBGP}会话，通过\textbf{UPDATE}报文通告；R13向同属AS1的R14、R15传播可达性信息，用\textbf{iBGP}会话。BGP会话不要求所有对端在物理上直接相连。
 
 第（5）问按本题无策略约束的教材选路模型，先比较AS\_PATH：经R11、R13的路径各含3个AS，经R12含4个，先排除R12。在其余属性相同的候选中，再比较AS内到出口的距离。R14到R11为1跳，到R13需经R15为2跳，选\textbf{R11}；R15到R13为1跳，到R11为2跳，选\textbf{R13}。真实BGP还受本地优先级等属性影响，本题给定条件并不支持把``AS数少、出口近''当成无条件覆盖所有策略的规则。
+
+\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN04-E10}\textbf{例 4-12}\quad （1）192.168.1.127，192.168.1.128/25，45台；（2）2片，796 B与724 B。
+\par\smallskip
+``均分一个\texttt{/24}''先确定两个\texttt{/25}，每个块有128个地址，再利用已经分配的地址识别哪一块属于哪个部门。销售部\texttt{.1～.20}在192.168.1.0/25内，广播地址为\textbf{192.168.1.127}；技术部\texttt{.129～.208}在\textbf{192.168.1.128/25}内。技术部可用地址有\(128-2=126\)个，已分配主机数为\(208-129+1=80\)，F1的\texttt{.254}还占1个，因此还可连接\(126-80-1=\mathbf{45}\)台主机。路由器接口不是额外的一台用户主机，但会占用同一子网的可用地址。
+
+分片计算从原IP数据部分开始：\(1500-20=1480\) B。F1所在链路每片总长不能超过800 B，扣首部后最多780 B；非末片数据长度又必须是8 B的整数倍，故最大数据量为\(\lfloor780/8\rfloor\times8=\mathbf{776}\) B。余下\(1480-776=704\) B，一片即可容纳，所以最少2片。
+
+\begin{longtable}[]{@{}lrrl@{}}
+\toprule\noalign{}
+分片 & 数据长度/B & IP总长度/B & 片偏移（8 B单位）与MF \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+第一片 & 776 & 796 & 偏移0，MF=1 \\
+第二片 & 704 & 724 & 偏移97，MF=0 \\
+\end{longtable}
+
+第二片偏移是\(776/8=97\)，它累计的是原数据的位置，不加第一片首部。末片不要求数据长度继续凑满776 B，所有片的数据长度相加仍为1480 B。
 
 \par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN04-E13}\textbf{例 4-13}\quad （1）0.24 s、200 kb/s、理想下界0.40 s；（2）8帧、4 bit；（3）作业区10.10.10.64/26，管理区10.10.10.0/26，生活区10.10.10.128/25。
 \par\smallskip
@@ -1261,15 +1261,15 @@ SLP每帧发送时延\(T_d=1500\times8/200000=60\) ms；ACK长度忽略，从开
 \par\smallskip
 \par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/cc75e54b46dec4e72a54be8f.png}\par\smallskip
 \par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/5597bb39f6b2489d66691472.png}\par\smallskip
-\par\medskip\Needspace{38.54mm}\noindent\phantomsection\label{a:CN05-E05}\textbf{例 5-5}\quad D
-\par\smallskip
-\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/8783487cfe6b7209aaa19242.png}\par\smallskip
-\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN05-E06}\textbf{例 5-6}\quad A
+\par\medskip\Needspace{30.00mm}\noindent\phantomsection\label{a:CN05-E06}\textbf{例 5-5}\quad A
 \par\smallskip
 第一段seq=2001覆盖2001～3000，第二段seq=3001覆盖3001～4000。返回ack\_seq=3001只累计确认第一段，第二段的1000 B仍在途。乙段的seq=4001属于乙\ensuremath{\to}甲方向，不能拿它确认甲发出的字节。
 
 甲原cwnd为2000 B，小于门限8000 B，收到一份对新数据的确认后，按题设慢开始增加1 MSS，cwnd变为3000 B；rwnd通告为4000 B，总发送额度取3000 B。减去在途1000 B，尚可新发2000 B，即2段，选 \textbf{A}。对应允许的甲方发送范围从3001起共3000 B，其中3001～4000已经发出，4001～6000还可新发。
 
+\par\medskip\Needspace{38.54mm}\noindent\phantomsection\label{a:CN05-E05}\textbf{例 5-6}\quad D
+\par\smallskip
+\par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/8783487cfe6b7209aaa19242.png}\par\smallskip
 \par\medskip\Needspace{44.14mm}\noindent\phantomsection\label{a:CN05-E07}\textbf{例 5-7}\quad A
 \par\smallskip
 \par\medskip\noindent\includegraphics[width=161.13mm,height=180mm,keepaspectratio]{../solutions/assets/b117465bf5d3cd7bb8536b72.png}\par\smallskip

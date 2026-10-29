@@ -95,7 +95,7 @@ RTT须读清计时边界。题给往返传播时延时，数据与确认的发�
 
 \(n\)层PDU由控制信息PCI和服务数据SDU封装：\(n\text{-PDU}=n\text{-PCI}+n\text{-SDU}\)。上层PDU成为下层SDU；PCI可位于首部或尾部。接收端逐层解封装，对等通信依靠本机下层实际传送。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN01_encapsulation.pdf}
 \caption{逐层封装与链路层当前一跳}\label{cn-fig-encapsulation}
@@ -196,7 +196,7 @@ A. 物理层　B. 数据链路层　C. 网络层　D. 传输层
 
 第一组完成需 \(hL/R+\sum t_{prop,i}\)，后续每组间隔 \(L/R\)。报文长 \(F\) bit，整报文存储转发发送项为 \(hF/R\)；已建立理想电路发送项为 \(F/R\)，再加传播及题给开销。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN02_packet_pipeline.pdf}
 \caption{等速链路上的分组流水}\label{cn-fig-pipeline}
@@ -212,7 +212,7 @@ A. 物理层　B. 数据链路层　C. 网络层　D. 传输层
 
 在下图所示的分组交换网络中，主机 H1 和 H2 通过路由器互连，2段链路的带宽均为100 Mb/s，时延带宽积（即单向传播时延\ensuremath{\times}带宽）均为1000 bit。若 H1 向 H2 发送1个大小为1 MB的文件，分组长度为1000 B，则从 H1 开始发送时刻起到 H2 收到文件全部数据时刻止，所需的时间至少是（注：\(M=10^6\)）（　）。
 
-\begin{figure}
+\begin{figure}[H]
 \centering
 \includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN15_two_links_2023.pdf}
 \caption{原题的两段链路，均为100 Mb/s且时延带宽积1000 bit}\label{cn-fig-2023links}

@@ -1,3 +1,3 @@
-\expandafter\gdef\csname SNside4\endcsname{\node[anchor=north west,inner sep=0pt,text width=48mm,font=\SideFont,align=left] (SNsidebox) at ([xshift=138mm,yshift=-161.26pt]current page.north west) {\textbf{双亲信息的作用}\par\smallskip 后序中，叶X若是双亲右孩子，其后继为双亲；有右兄弟的左孩子，后继为右兄弟子树的首个后序结点。兄弟位置决定返回路径。
+\expandafter\gdef\csname SNside4\endcsname{\node[anchor=north west,inner sep=0pt,text width=48mm,font=\SideFont,align=left] (SNsidebox) at ([xshift=138mm,yshift=-156.36pt]current page.north west) {\textbf{双亲信息的作用}\par\smallskip 后序中，叶结点若是双亲的右孩子，其后继为双亲；有右兄弟的左孩子，其后继为右兄弟子树的首个后序结点。兄弟位置决定返回路径。
 };\pgfextracty{\SNsideheight}{\pgfpointdiff{\pgfpointanchor{SNsidebox}{south}}{\pgfpointanchor{SNsidebox}{north}}}\typeout{SNHEIGHT:4:0:\the\SNsideheight}}
 \AddToShipoutPictureFG{\begin{tikzpicture}[remember picture,overlay]\ifcsname SNside\thepage\endcsname\csname SNside\thepage\endcsname\fi\end{tikzpicture}}

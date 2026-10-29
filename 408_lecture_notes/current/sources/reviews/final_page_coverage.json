@@ -1,0 +1,1308 @@
+{
+  "status": "passed",
+  "github_pre_layout": {
+    "commit": "5ec78fac378a609e2a90b13bfa9c6a38e02728cd",
+    "remote": "https://github.com/nov1ces/Classroom",
+    "branch": "main",
+    "verified_at": "2026-10-30T01:42:18+08:00",
+    "remote_matches_local": true,
+    "scope": "Current notes, solutions and links pushed before final layout review."
+  },
+  "books": [
+    {
+      "file": "books/408四科_强化笔记.pdf",
+      "pdf_sha256": "1e98d5bd6fac4593500e2ce3ec0b13db831a67252d1813f2380712a1e61a0e96",
+      "pages": 187,
+      "covered_pages": 187,
+      "missing_pages": [],
+      "page_evidence": [
+        {
+          "page": 1,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 2,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 3,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 4,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 5,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 6,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 7,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 8,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 9,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 10,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 11,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 12,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 13,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 14,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 15,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 16,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 17,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 18,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 19,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 20,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 21,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 22,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 23,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 24,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 25,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 26,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 27,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 28,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 29,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 30,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 31,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 32,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 33,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 34,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 35,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 36,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 37,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 38,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 39,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 40,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 41,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 42,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 43,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 44,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 45,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 46,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 47,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 48,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 49,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 50,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 51,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 52,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 53,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 54,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 55,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 56,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 57,
+          "review": "sources/reviews/current/layout_DS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 58,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 59,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 60,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 61,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 62,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 63,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 64,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 65,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 66,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 67,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 68,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 69,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 70,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 71,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 72,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 73,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 74,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 75,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 76,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 77,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 78,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 79,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 80,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 81,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 82,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 83,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 84,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 85,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 86,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 87,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 88,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 89,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 90,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 91,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 92,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 93,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 94,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 95,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 96,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 97,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 98,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 99,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 100,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 101,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 102,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 103,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 104,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 105,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 106,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 107,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 108,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 109,
+          "review": "sources/reviews/current/layout_CO.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 110,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 111,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 112,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 113,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 114,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 115,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 116,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 117,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 118,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 119,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 120,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 121,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 122,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 123,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 124,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 125,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 126,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 127,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 128,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 129,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 130,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 131,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 132,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 133,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 134,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 135,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 136,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 137,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 138,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 139,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 140,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 141,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 142,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 143,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 144,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 145,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 146,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 147,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 148,
+          "review": "sources/reviews/current/layout_OS.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 149,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 150,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 151,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 152,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 153,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 154,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 155,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 156,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 157,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 158,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 159,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 160,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 161,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 162,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 163,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 164,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 165,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 166,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 167,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 168,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 169,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 170,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 171,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 172,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 173,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 174,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 175,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 176,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 177,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 178,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 179,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 180,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 181,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 182,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 183,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 184,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 185,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 186,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 187,
+          "review": "sources/reviews/current/layout_CN.json",
+          "method": "full_page_visual_review"
+        }
+      ]
+    },
+    {
+      "file": "books/408强化例题解析.pdf",
+      "pdf_sha256": "a0e51ee973e4699269917db8683f6c1fb8470589be90aea9b214dffecdf0ccf7",
+      "pages": 61,
+      "covered_pages": 61,
+      "missing_pages": [],
+      "page_evidence": [
+        {
+          "page": 1,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 2,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 3,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 4,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 5,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 6,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 7,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 8,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 9,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 10,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 11,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 12,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 13,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 14,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 15,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 16,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 17,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 18,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 19,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 20,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 21,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 22,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 23,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 24,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 25,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 26,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 27,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 28,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 29,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 30,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 31,
+          "review": "sources/reviews/current/layout_solutions_front.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 32,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 33,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 34,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 35,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 36,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 37,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 38,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 39,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 40,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 41,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 42,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 43,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 44,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 45,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 46,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 47,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 48,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 49,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 50,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 51,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 52,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 53,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 54,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 55,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 56,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 57,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 58,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 59,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 60,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        },
+        {
+          "page": 61,
+          "review": "sources/reviews/current/layout_solutions_tail.json",
+          "method": "full_page_visual_review"
+        }
+      ]
+    }
+  ],
+  "subject_books": [
+    {
+      "file": "books/数据结构_强化笔记.pdf",
+      "sha256": "2179ed28dc0028d60945cbb54ce9d6c43744093e50c3720c0a2642357c52b769",
+      "matching_pages": 57,
+      "total_pages": 57,
+      "comparison": "All rendered page content except the separately verified folio rectangle",
+      "review_reference": "books/408四科_强化笔记.pdf"
+    },
+    {
+      "file": "books/计算机组成原理_强化笔记.pdf",
+      "sha256": "9c5f5259302541c0177bc762b33616c91ee9b7dadfb247379b0f162c14c773c5",
+      "matching_pages": 52,
+      "total_pages": 52,
+      "comparison": "All rendered page content except the separately verified folio rectangle",
+      "review_reference": "books/408四科_强化笔记.pdf"
+    },
+    {
+      "file": "books/操作系统_强化笔记.pdf",
+      "sha256": "7c3b9676ee4306f7f2b10a1677913e63fd583dd9e8ffcf7cab78be461bc784ad",
+      "matching_pages": 39,
+      "total_pages": 39,
+      "comparison": "All rendered page content except the separately verified folio rectangle",
+      "review_reference": "books/408四科_强化笔记.pdf"
+    },
+    {
+      "file": "books/计算机网络_强化笔记.pdf",
+      "sha256": "d4013866c7eb2ab28c352f10590593f5d60a1f877414885d615820b27771dc3d",
+      "matching_pages": 39,
+      "total_pages": 39,
+      "comparison": "All rendered page content except the separately verified folio rectangle",
+      "review_reference": "books/408四科_强化笔记.pdf"
+    }
+  ],
+  "pending_pages": [],
+  "errors": [],
+  "scope": "Final delivered page layouts and displayed answer crops; source identity checks are recorded separately."
+}

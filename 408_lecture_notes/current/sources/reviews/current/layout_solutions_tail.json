@@ -1,0 +1,9 @@
+{
+  "pdf": "books/408强化例题解析.pdf",
+  "pdf_sha256": "a0e51ee973e4699269917db8683f6c1fb8470589be90aea9b214dffecdf0ccf7",
+  "reviewer": "Codex (GPT-6)",
+  "viewed_pages": [32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61],
+  "method": "逐张以 original 分辨率实际打开并查看 previews/solutions/page-032.png 至 page-061.png，共 30 页；检查原解析截图清晰完整、图表与公式边界、题头与解答相随、代码块分页、中文页眉及遮挡，并核对跨页表格续接。疑点以 PDF 文本及第 61 页 300 dpi 渲染确认。PDF SHA-256 与指定指纹一致。",
+  "findings": [],
+  "status": "passed"
+}

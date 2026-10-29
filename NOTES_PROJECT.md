@@ -27,7 +27,7 @@
 
 ## 强化版制作检查点
 
-- 状态：已构建，待集中排版检查。
+- 状态：内容、索引与最终排版检查完成。
 - 四科26章知识笔记187页，195道例题；独立解析册61页。
 - 140题使用原解析截图，55题为原生解析；具体理由与指纹见current/sources/example_index.json。
 - 页面复核及等价页面证据绑定实际PDF指纹，见current/sources/visual_review.json；GitHub检查前快照见current/sources/github_pre_layout.json。

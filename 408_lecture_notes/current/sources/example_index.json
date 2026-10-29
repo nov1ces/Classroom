@@ -5,7 +5,7 @@
   "policy": "完整题干与原题一致后使用原 PDF 裁切；不以相似主题、旧底稿锚点或答案代替原题身份核验；未确认者保留作者原生解析。",
   "source_crop_dpi": 300,
   "dry_run": false,
-  "visual_review_status": "pending_current_build",
+  "visual_review_status": "passed_for_exported_answer_crops_in_final_book",
   "summary": {
     "examples": 195,
     "original_screenshot": 140,
@@ -13899,6 +13899,6 @@
       ]
     }
   ],
-  "visual_review_reference": null,
-  "visual_review_pdf_sha256": null
+  "visual_review_reference": "sources/visual_review.json",
+  "visual_review_pdf_sha256": "a0e51ee973e4699269917db8683f6c1fb8470589be90aea9b214dffecdf0ccf7"
 }

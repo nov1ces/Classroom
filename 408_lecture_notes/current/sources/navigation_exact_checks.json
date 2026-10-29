@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-29T17:40:38.045218+00:00",
+  "checked_at_utc": "2026-10-29T17:48:09.898021+00:00",
   "method": "Derive consecutive chapter numbers and all output order from body placeholders; compare authored and indexed IDs/answers, editable quick/solution rows, all actual PDF heading order/pages, every external annotation at those headings, and every PDF quick-table row/internal destination.",
   "navigation_sha256": "4ad3def9749498616ff9a4c3f3c645e65082f44fa1dc87959502699b11b8113e",
   "pdfs": [

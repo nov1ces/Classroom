@@ -24,6 +24,7 @@ def main():
   reports.append({'file':str(path.relative_to(ROOT)),'pdf_sha256':sha(path),'pages':len(doc),'issues':issues})
   if a.render and path.name in ['408四科_强化笔记.pdf','408强化例题解析.pdf']:
    out=ROOT/'previews'/('notes' if path.name.startswith('408四科') else 'solutions');out.mkdir(parents=True,exist_ok=True)
+   for stale in list(out.glob('page-*.png'))+list(out.glob('contact-*.png')):stale.unlink()
    for i,p in enumerate(doc,1):p.get_pixmap(matrix=fitz.Matrix(1.45,1.45),alpha=False).save(out/f'page-{i:03}.png')
    for start in range(1,len(doc)+1,9):
     tiles=[]

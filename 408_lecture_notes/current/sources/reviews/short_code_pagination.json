@@ -1,0 +1,18 @@
+{
+  "pdf": "books/408强化例题解析.pdf",
+  "pdf_sha256": "6531a9dd1b696ccc8472743b3c3b75a01159f0af6e0e1ae4f22703aff75c7dfc",
+  "viewed_pages": [
+    27,
+    28
+  ],
+  "findings": [
+    {
+      "pages": [
+        27,
+        28
+      ],
+      "detail": "例4-5的四行long long递归代码前两行位于27页，后两行位于28页；将短代码块保持同页。"
+    }
+  ],
+  "status": "needs_fix"
+}

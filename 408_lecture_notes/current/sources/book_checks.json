@@ -1,0 +1,82 @@
+{
+  "errors": [],
+  "books": [
+    {
+      "file": "books/408四科_强化笔记.pdf",
+      "sha256": "57ccea0320b3d396a01aeebd36862e471a4f98bf72a874f6015c2ef41ee7b06b",
+      "pages": 186,
+      "verified_folios": 186,
+      "external_links": 390
+    },
+    {
+      "file": "books/408强化例题解析.pdf",
+      "sha256": "530209f94f09ccfc2fcb28a9a88449bb3e58185291ee25d46b699f22bf4037a8",
+      "pages": 60,
+      "verified_folios": 60,
+      "external_links": 390
+    },
+    {
+      "file": "books/操作系统_强化笔记.pdf",
+      "sha256": "4019c0df6d7de3ac589ea8deb8c5ca661634affeefc146b88ddbe74289d69893",
+      "pages": 39,
+      "verified_folios": 39,
+      "external_links": 90
+    },
+    {
+      "file": "books/数据结构_强化笔记.pdf",
+      "sha256": "7da3ae7314b688228a2ad089d915a12f2954124b48b5f420c30312671f9c1309",
+      "pages": 57,
+      "verified_folios": 57,
+      "external_links": 92
+    },
+    {
+      "file": "books/计算机组成原理_强化笔记.pdf",
+      "sha256": "e273fde1c402278068e9069de4fd4e3e5e23f5a4db961393cceb201b6a792109",
+      "pages": 51,
+      "verified_folios": 51,
+      "external_links": 108
+    },
+    {
+      "file": "books/计算机网络_强化笔记.pdf",
+      "sha256": "5c393bcc169debfd5d47328eec885d91071c645b5b2ce895dd423c50953afb94",
+      "pages": 39,
+      "verified_folios": 39,
+      "external_links": 100
+    }
+  ],
+  "page_equivalence": [
+    {
+      "file": "books/数据结构_强化笔记.pdf",
+      "sha256": "7da3ae7314b688228a2ad089d915a12f2954124b48b5f420c30312671f9c1309",
+      "matching_pages": 57,
+      "total_pages": 57,
+      "comparison": "All rendered page content except the separately verified folio rectangle",
+      "review_reference": "books/408四科_强化笔记.pdf"
+    },
+    {
+      "file": "books/计算机组成原理_强化笔记.pdf",
+      "sha256": "e273fde1c402278068e9069de4fd4e3e5e23f5a4db961393cceb201b6a792109",
+      "matching_pages": 51,
+      "total_pages": 51,
+      "comparison": "All rendered page content except the separately verified folio rectangle",
+      "review_reference": "books/408四科_强化笔记.pdf"
+    },
+    {
+      "file": "books/操作系统_强化笔记.pdf",
+      "sha256": "4019c0df6d7de3ac589ea8deb8c5ca661634affeefc146b88ddbe74289d69893",
+      "matching_pages": 39,
+      "total_pages": 39,
+      "comparison": "All rendered page content except the separately verified folio rectangle",
+      "review_reference": "books/408四科_强化笔记.pdf"
+    },
+    {
+      "file": "books/计算机网络_强化笔记.pdf",
+      "sha256": "5c393bcc169debfd5d47328eec885d91071c645b5b2ce895dd423c50953afb94",
+      "matching_pages": 39,
+      "total_pages": 39,
+      "comparison": "All rendered page content except the separately verified folio rectangle",
+      "review_reference": "books/408四科_强化笔记.pdf"
+    }
+  ],
+  "combined_sha256": "57ccea0320b3d396a01aeebd36862e471a4f98bf72a874f6015c2ef41ee7b06b"
+}

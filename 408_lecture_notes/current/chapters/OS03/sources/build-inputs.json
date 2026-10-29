@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "cc59ed7f23d83250d5957ebe3f1ccae0c4119fe955ba2d9ce9b6da0609c70af4",
+  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
   "chapters/OS03/map.json": "2604ef849c4eaed72df6b348e86cf04501d665cb353bb0f4b044dbd057247cb0",
-  "chapters/OS03/content.md": "3d1fc011dcbd172e85354c4638f260e44245b358136bb9abc6a989befbb3d1f0",
+  "chapters/OS03/content.md": "c9cbeb48bff68d64c00b3a954abeb795884eb19243accae4d1d3fb17acc8c8d7",
   "chapters/OS03/examples.json": "5754abcaa926835175d0b0ef29a4eeb51a81d140fd148512cbcc1f9c9e6f23b2",
   "chapters/OS03/sidebars.json": "5774fc91fece0d6d065e85b92e3891a80949a4c993a1ff804f9c6404829e5ff7",
-  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/OS03/figures/OS_page_fault.png": "c91c2d4dceef883b7f98306e4b2250c62867ac937e151bb4d1519dd1d51b6a8d",
   "chapters/OS03/figures/OS_page_translation.pdf": "b2a639e67569786fb6683c01581688a0af68527c2e793bf018f4e2c334ca27a4",

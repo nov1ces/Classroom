@@ -24,6 +24,8 @@
 
 {{example:OS03-E01}}
 
+\Needspace{8\baselineskip}
+
 ## 连续分配与动态分区 {#OS03-partitions}
 
 | 方法 | 特征与碎片 |

@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "cc59ed7f23d83250d5957ebe3f1ccae0c4119fe955ba2d9ce9b6da0609c70af4",
+  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
   "chapters/CN03/map.json": "e0e62069464bb12bd29a883746a982a84949d0037a160b4aa3d8bf15b539b7c8",
   "chapters/CN03/content.md": "f6faf3a43de5b623f7ce990cc0abfe3f2de0df3dcd286c2d5dcdc6297f1cc12f",
   "chapters/CN03/examples.json": "f2b08494f100553a1abed384c41411c3b434a40d0a3c6fd677df07f48e77930f",
   "chapters/CN03/sidebars.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/CN03/figures/CN04_gbn_sr.svg": "191c800beb66c6add0f27223f002f2e0a3779e5ac48ee2d32600a2fa36f48b69",
   "chapters/CN03/figures/CN19_ethernet_frame.pdf": "d52fd9facfad4c1cbc2f13e525b5e3ef11dd6ffc22133403d729731c66587a55",

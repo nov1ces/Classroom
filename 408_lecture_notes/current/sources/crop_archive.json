@@ -1,0 +1,35 @@
+{
+  "scope": "Unused earlier solution crops, retained locally in the historical cache; previous committed versions remain available through Git history.",
+  "assets": [
+    {
+      "former_path": "solutions/assets/3a7b357a8db6154f8de1ec43.png",
+      "archive_path": "archive/work-caches/solution-crops/3a7b357a8db6154f8de1ec43.png",
+      "sha256": "e1a3a2868f9d6d1e61108323eefd12647e35c58648e223f058183f1350374e3d"
+    },
+    {
+      "former_path": "solutions/assets/cf9f1d23cd9c959b0bbfd684.pdf",
+      "archive_path": "archive/work-caches/solution-crops/cf9f1d23cd9c959b0bbfd684.pdf",
+      "sha256": "a455705d33f9962713927544bb696cdb579845c347b0a036d45e4d41037fc5ce"
+    },
+    {
+      "former_path": "solutions/assets/cf9f1d23cd9c959b0bbfd684.png",
+      "archive_path": "archive/work-caches/solution-crops/cf9f1d23cd9c959b0bbfd684.png",
+      "sha256": "f47d44ca8b069e215271dd35e43cfe8de732b5d678745e1077755ae55294a879"
+    },
+    {
+      "former_path": "solutions/assets/3a7b357a8db6154f8de1ec43.pdf",
+      "archive_path": "archive/work-caches/solution-crops/3a7b357a8db6154f8de1ec43.pdf",
+      "sha256": "6d5fa31d749e8158046b3f1c8e47a97bebfa2513b1df98ac1f1951d289f44d34"
+    },
+    {
+      "former_path": "solutions/assets/8d166b86b7eb09355ca50579.pdf",
+      "archive_path": "archive/work-caches/solution-crops/8d166b86b7eb09355ca50579.pdf",
+      "sha256": "ab5df75e3e27a5efaccfd2ef4681d202eaa9a24cdb9b58036fc6646929bf6fae"
+    },
+    {
+      "former_path": "solutions/assets/8d166b86b7eb09355ca50579.png",
+      "archive_path": "archive/work-caches/solution-crops/8d166b86b7eb09355ca50579.png",
+      "sha256": "14eb68d29c4c66de328d35005a549409fc2f4626e7474aec2a2aae9330b01746"
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "cc59ed7f23d83250d5957ebe3f1ccae0c4119fe955ba2d9ce9b6da0609c70af4",
+  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
   "chapters/CO07/map.json": "b742d07641b0a5f249be39640c13c1abad53188bd77e368ea5f39aaf14aa414c",
-  "chapters/CO07/content.md": "5f7338056a550fb6b1339459a80727b7d80bc49b3e0ad598f3c5818d2204173e",
+  "chapters/CO07/content.md": "088893d493451114cdcff82520f314c6caa4dc1912fd7750501f6a0dd3dd9994",
   "chapters/CO07/examples.json": "5d2330d730b259cfc191c7cc7f5c67fd236a40b16fa8a01af982953816484446",
   "chapters/CO07/sidebars.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/CO07/figures/CO_F12_dma_path.png": "7ad3281f734e14760a92210c78383cca20bdbd81ff783e89b4e1dd8fd24eb9e6",
   "chapters/CO07/figures/CO_F12_dma_path.pdf": "e8425e81678bede289e3f1741f6749ab56d3884fa99659234be4fddb8cd526ce",

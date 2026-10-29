@@ -170,12 +170,12 @@ C. 需要实现对共享资源的管理　　D. 进程数越多 CPU 利用率越
 
 执行系统调用的过程涉及下列操作，其中由操作系统完成的是（　）。
 
-Ⅰ. 保存断点和程序状态字　　Ⅱ. 保存通用寄存器的内容
+\ensuremath{\mathrm{I}}. 保存断点和程序状态字　　\ensuremath{\mathrm{II}}. 保存通用寄存器的内容
 
-Ⅲ. 执行系统调用服务例程　　Ⅳ. 将 CPU 模式改为内核态
+\ensuremath{\mathrm{III}}. 执行系统调用服务例程　　\ensuremath{\mathrm{IV}}. 将 CPU 模式改为内核态
 
-A. 仅Ⅰ、Ⅲ　　B. 仅Ⅱ、Ⅲ\\
-C. 仅Ⅱ、Ⅳ　　D. 仅Ⅱ、Ⅲ、Ⅳ
+A. 仅\ensuremath{\mathrm{I}}、\ensuremath{\mathrm{III}}　　B. 仅\ensuremath{\mathrm{II}}、\ensuremath{\mathrm{III}}\\
+C. 仅\ensuremath{\mathrm{II}}、\ensuremath{\mathrm{IV}}　　D. 仅\ensuremath{\mathrm{II}}、\ensuremath{\mathrm{III}}、\ensuremath{\mathrm{IV}}
 
 \textbf{系统调用路径：} 准备调用号及参数 \ensuremath{\to} 陷入 \ensuremath{\to} 内核检查并分派服务 \ensuremath{\to} 返回结果。参数检查包括用户缓冲地址与访问权限。系统调用可立即完成，也可阻塞后再继续。
 
@@ -270,10 +270,10 @@ C. 仅Ⅱ、Ⅳ　　D. 仅Ⅱ、Ⅲ、Ⅳ
 
 与宏内核操作系统相比，下列特征中，微内核操作系统具有的是（　）。
 
-Ⅰ. 较好的性能　Ⅱ. 较高的可靠性　Ⅲ. 较高的安全性　Ⅳ. 较强的可扩展性
+\ensuremath{\mathrm{I}}. 较好的性能　\ensuremath{\mathrm{II}}. 较高的可靠性　\ensuremath{\mathrm{III}}. 较高的安全性　\ensuremath{\mathrm{IV}}. 较强的可扩展性
 
-A. 仅Ⅱ、Ⅳ　　B. 仅Ⅰ、Ⅱ、Ⅲ\\
-C. 仅Ⅰ、Ⅲ、Ⅳ　　D. 仅Ⅱ、Ⅲ、Ⅳ
+A. 仅\ensuremath{\mathrm{II}}、\ensuremath{\mathrm{IV}}　　B. 仅\ensuremath{\mathrm{I}}、\ensuremath{\mathrm{II}}、\ensuremath{\mathrm{III}}\\
+C. 仅\ensuremath{\mathrm{I}}、\ensuremath{\mathrm{III}}、\ensuremath{\mathrm{IV}}　　D. 仅\ensuremath{\mathrm{II}}、\ensuremath{\mathrm{III}}、\ensuremath{\mathrm{IV}}
 
 \section{系统引导}\label{OS01-boot}
 

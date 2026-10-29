@@ -247,11 +247,11 @@ A. 5045　　B. 5046　　C. 5047　　D. 5048
 
 下列选项中，磁盘逻辑格式化程序所做的工作是（　）。
 
-Ⅰ. 对磁盘进行分区　　Ⅱ. 建立文件系统根目录
+\ensuremath{\mathrm{I}}. 对磁盘进行分区　　\ensuremath{\mathrm{II}}. 建立文件系统根目录
 
-Ⅲ. 确定磁盘扇区校验码所占位数　　Ⅳ. 初始化保存空闲磁盘块信息的数据结构
+\ensuremath{\mathrm{III}}. 确定磁盘扇区校验码所占位数　　\ensuremath{\mathrm{IV}}. 初始化保存空闲磁盘块信息的数据结构
 
-A. 仅Ⅱ　　B. 仅Ⅱ、Ⅳ　　C. 仅Ⅲ、Ⅳ　　D. 仅Ⅰ、Ⅱ、Ⅳ
+A. 仅\ensuremath{\mathrm{II}}　　B. 仅\ensuremath{\mathrm{II}}、\ensuremath{\mathrm{IV}}　　C. 仅\ensuremath{\mathrm{III}}、\ensuremath{\mathrm{IV}}　　D. 仅\ensuremath{\mathrm{I}}、\ensuremath{\mathrm{II}}、\ensuremath{\mathrm{IV}}
 
 固件初始引导从固定入口开始，装入磁盘后续引导程序及内核；整盘 MBR 和卷内引导块分别定位。简单设备可由 OS 记录坏块并避开；控制器也可用备用扇区重映射。不能将坏块当空闲块反复分配，实际管理者按设备模型。
 
@@ -308,9 +308,9 @@ SSD 无机械寻道和旋转，由芯片、擦除块、页组成；通常按页�
 
 \par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{OS05-E06}{}\label{OS05-E06}\textbf{例 5-6}\par\nobreak\smallskip
 
-进程 P 通过执行系统调用从键盘接收一个字符的输入，已知此过程中与进程 P 相关的操作包括：①将进程 P 插入就绪队列；②将进程 P 插入阻塞队列；③将字符从键盘控制器读入系统缓冲区；④启动键盘中断处理程序；⑤进程 P 从系统调用返回；⑥用户在键盘上输入一个字符。以上编号①---⑥仅用于标记操作，与操作的先后顺序无关。请回答下列问题。
+进程 P 通过执行系统调用从键盘接收一个字符的输入，已知此过程中与进程 P 相关的操作包括：{\SNsymbolfont ①}将进程 P 插入就绪队列；{\SNsymbolfont ②}将进程 P 插入阻塞队列；{\SNsymbolfont ③}将字符从键盘控制器读入系统缓冲区；{\SNsymbolfont ④}启动键盘中断处理程序；{\SNsymbolfont ⑤}进程 P 从系统调用返回；{\SNsymbolfont ⑥}用户在键盘上输入一个字符。以上编号{\SNsymbolfont ①}---{\SNsymbolfont ⑥}仅用于标记操作，与操作的先后顺序无关。请回答下列问题。
 
-（1）按照正确的操作顺序，操作①的前一个和后一个操作分别是上述操作中的哪一个？操作⑥的后一个操作是上述操作中的哪一个？
+（1）按照正确的操作顺序，操作{\SNsymbolfont ①}的前一个和后一个操作分别是上述操作中的哪一个？操作{\SNsymbolfont ⑥}的后一个操作是上述操作中的哪一个？
 
 （2）在上述哪个操作之后 CPU 一定从进程 P 切换到其他进程？在上述哪个操作之后 CPU 调度程序才能选中进程 P 执行？
 

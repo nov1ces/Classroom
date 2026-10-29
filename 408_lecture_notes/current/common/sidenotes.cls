@@ -31,6 +31,7 @@
   BoldFont=NotoSerifSC-Bold.otf,ItalicFont=NotoSerifSC-Regular.otf]
 \setCJKsansfont{NotoSansSC-Regular.otf}[Path=fonts/,BoldFont=NotoSansSC-Bold.otf]
 \setCJKmonofont{NotoSansSC-Regular.otf}[Path=fonts/]
+\newfontfamily\SNsymbolfont{NotoSerifSC-Regular.otf}[Path=fonts/]
 \xeCJKsetup{PunctStyle=quanjiao,CJKmath=true}
 \RequirePackage{geometry}
 \geometry{a4paper,inner=24mm,outer=78mm,top=28mm,bottom=28mm,

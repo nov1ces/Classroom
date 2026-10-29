@@ -128,7 +128,11 @@ ISA（指令集体系结构） & 软件可见的指令功能与编码、寄存�
 
 \subsection{程序翻译与装入}\label{CO01-translation}
 
-\[\text{源程序}\xrightarrow{\text{预处理}}\text{展开后的源程序}\xrightarrow{\text{编译}}\text{汇编程序}\xrightarrow{\text{汇编}}\text{可重定位目标文件}\xrightarrow{\text{链接}}\text{可执行文件}.\]
+\[\begin{aligned}
+\text{源程序}&\xrightarrow{\text{预处理}}\text{展开后的源程序}\\
+&\xrightarrow{\text{编译}}\text{汇编程序}\xrightarrow{\text{汇编}}\text{可重定位目标文件}\\
+&\xrightarrow{\text{链接}}\text{可执行文件}.
+\end{aligned}\]
 
 预处理展开头文件、宏等；链接合并目标与库，完成符号解析和重定位；装入建立进程地址空间并准备执行入口。宏和伪指令可展开为零条、一条或多条机器指令，一条高级语言语句与机器指令条数无固定对应关系。
 

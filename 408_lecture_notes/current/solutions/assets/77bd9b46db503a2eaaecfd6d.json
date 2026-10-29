@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+    "sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30",
+    "page": 402,
+    "bbox": [
+      50.0,
+      68.0,
+      500.0,
+      87.44
+    ],
+    "dpi": 300,
+    "version": 2
+  },
+  "png_sha256": "44674f94a6733dcd27ea3bd60ad5fb0b5d2b9c4a8de7136cd2553d2ca67432cd",
+  "pdf_sha256": "a5428d6933ef01c339067c2fe127dd7fdce4ece26a1a533be18492688e906128",
+  "pixel_dimensions": [
+    1876,
+    82
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "identity": {
+    "path": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+    "sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
+    "page": 333,
+    "bbox": [
+      54.0,
+      608.28,
+      489.0,
+      705.0
+    ],
+    "dpi": 300,
+    "version": 2
+  },
+  "png_sha256": "cabaad909791593105442c04f1e0d2a17abd8783bd1cd4c90bb06dd223cec97e",
+  "pdf_sha256": "e6b3d3805d22234f0d6f756a15878fd801d2f35d0e6ff5ff272bfe5df3bc7f23",
+  "pixel_dimensions": [
+    1813,
+    404
+  ]
+}

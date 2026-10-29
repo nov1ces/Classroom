@@ -34,6 +34,8 @@ C. p1、p2 不一定相等，f1、f2 一定相等
 
 D. p1、p2 不一定相等，f1、f2 不一定相等
 
+\Needspace{8\baselineskip}
+
 <a id="OS03-partitions"></a>
 ## 连续分配与动态分区
 | 方法 | 特征与碎片 |

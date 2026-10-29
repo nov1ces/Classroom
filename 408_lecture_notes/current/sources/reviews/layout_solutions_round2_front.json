@@ -1,0 +1,59 @@
+{
+  "review": "independent solutions-book layout review, front section (pages 1-30)",
+  "pdf": "books/408强化例题解析.pdf",
+  "pdf_sha256": "4e94e4b8e307b9f486b3eedd8193cf66a49385f09d2f2d6949b55bb6be4c4abe",
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "method": "Viewed each full-page PNG (page-001.png through page-030.png) individually at original resolution in sequential batches of five; no contact sheet or thumbnail was used in place of page inspection. Rechecked the relevant quick-reference regions on pages 1, 4, and 5 at full-page resolution. Checked page folios, quick-reference headers and page breaks, example heading/solution starts, screenshot readability and bounds, tables, formulas, and clipping/overlap.",
+  "findings": [
+    {
+      "page": 1,
+      "location": "bottom, after the Data Structures quick-reference table",
+      "issue": "The section heading “计算机组成原理” is stranded at the bottom of the page; its table begins on page 2.",
+      "suggestion": "Move the heading with the table header and at least the first row onto page 2."
+    },
+    {
+      "page": 4,
+      "location": "top, continuation of the Computer Organization quick-reference table",
+      "issue": "The continued table starts with data rows and has no repeated column headings on this page. The separate Computer Networks table later on the page does have headings.",
+      "suggestion": "Repeat the column headings for the continued table at the top of the page."
+    },
+    {
+      "page": 5,
+      "location": "top, continuation of the Computer Networks quick-reference table",
+      "issue": "The continued table starts with row 4-13 and has no repeated column headings on this page.",
+      "suggestion": "Repeat the column headings for the continued table at the top of the page."
+    }
+  ],
+  "status": "needs_fix"
+}

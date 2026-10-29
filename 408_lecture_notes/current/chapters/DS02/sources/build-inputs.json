@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "cc59ed7f23d83250d5957ebe3f1ccae0c4119fe955ba2d9ce9b6da0609c70af4",
+  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
   "chapters/DS02/map.json": "0cc1a00633c6b1dac70301990eb310b281b421aec2c0c14a207aecad1bf3afbc",
   "chapters/DS02/content.md": "f0ccb60cc8fff007d88e1f9b0480463fa6970d56e580c95088fed107f1883722",
   "chapters/DS02/examples.json": "2c5343c84b6707f9986051570df14c6ce84189de0731e824ece8b9e275ca0218",
   "chapters/DS02/sidebars.json": "c11e0878e930473501fe2ba7eac6664ee1dc046986a09a7c94016b048571320d",
-  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/DS02/figures/DS_02_shared_suffix.pdf": "a176590dc01aef04bec3545b7c20258d2cb87f2c88b9c98ac368061ca885afc0",
   "chapters/DS02/figures/DS_02_shared_suffix.svg": "9c46da46246c4c3d3c01fe7596ce8027d8a3448b6197b1af9f4072c025df3b6d",

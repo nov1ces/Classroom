@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "created_utc": "2026-10-29T00:18:42.749217+00:00",
+  "created_utc": "2026-10-29T07:03:22.616285+00:00",
   "scope": "all_current_examples",
   "policy": "完整题干与原题一致后使用原 PDF 裁切；不以相似主题、旧底稿锚点或答案代替原题身份核验；未确认者保留作者原生解析。",
   "source_crop_dpi": 300,
   "dry_run": false,
-  "visual_review_status": "pending_after_github_push",
+  "visual_review_status": "passed_for_exported_answer_crops_in_final_book",
   "summary": {
     "examples": 195,
     "original_screenshot": 140,
@@ -119,7 +119,7 @@
     },
     {
       "path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-      "sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e"
+      "sha256": "cde76d91b75d06054324b35d7cf0549e12545eb2966840e7cca74c738ab488f5"
     },
     {
       "path": "/workspace/study_analysis/v2/book_answers.json",
@@ -197,7 +197,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -221,7 +221,7 @@
             251
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -276,7 +276,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -300,7 +300,7 @@
             350
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -380,7 +380,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -404,7 +404,7 @@
             317
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -459,7 +459,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -483,7 +483,7 @@
             191
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -538,7 +538,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -562,7 +562,7 @@
             380
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -571,7 +571,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN02-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "逐项核对10→20 MHz、30→40 dB、QAM-32及A-D四个倍率选项完全一致；仅精简“方案”等叙述。已查看原解析，奈氏与香农共同限制及答案A对应。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:23.825518+00:00"
@@ -619,7 +619,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -643,7 +643,7 @@
             327
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -707,7 +707,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -731,7 +731,7 @@
             87
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
@@ -754,7 +754,7 @@
             218
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -763,7 +763,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN03-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "01111100 01111110原数据、A-D四比特串、HDLC组帧要求一致；仅去掉大纲说明。已查看原解析连续5个1插0，答案A。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:47.482898+00:00"
@@ -811,7 +811,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -835,7 +835,7 @@
             458
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -844,7 +844,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN03-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "G(X)=X^4+X+1/10011、四个接收串101110000/101110100/101111000/101111100完全一致；原解析余数1100与答案D已查看。题干的未发生错误沿用原题检验通过语义，原生补充可漏检说明保留在作者文本。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:47.983672+00:00"
@@ -892,7 +892,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -916,7 +916,7 @@
             267
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -925,7 +925,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN03-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "四码字10011010/01011100/11110000/00001111及四项检错纠错位数逐项一致；已查看原解析最小码距4，答案C。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:48.269576+00:00"
@@ -973,7 +973,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -997,7 +997,7 @@
             254
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -1006,7 +1006,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN03-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "停等、数据/确认均1000 B、10 kb/s、单向200 ms及80/66.7/44.4/40%四项一致；已查看原解析周期2000 ms、利用率40%。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:48.555102+00:00"
@@ -1054,7 +1054,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -1078,7 +1078,7 @@
             380
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -1087,7 +1087,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN03-E05",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "GBN、已发0至7、仅收到0/2/3确认、超时重发帧数及2/3/4/5选项一致；已查看原解析累计确认后重发4/5/6/7。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:48.795445+00:00"
@@ -1135,7 +1135,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -1159,7 +1159,7 @@
             380
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -1168,7 +1168,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN03-E06",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "GBN、16 kb/s、单向250 ms、数据和确认均128 B、最少序号位数及2/3/4/5选项一致；已查看原解析628 ms及4 bit结论。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:24.047044+00:00"
@@ -1227,7 +1227,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -1251,7 +1251,7 @@
             342
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -1260,7 +1260,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN03-E07",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "三组CDMA码片1111/1−11−1/11−1−1、接收12码片2/0/2/0/0/−2/0/−2/0/2/0/2、求A数据及四选项一致；已查看原解析分三组内积恢复101。",
         "crop_correction_reason": "原索引延伸至705而包含后续3.6节整页知识文字。已查看原PDF及OCR行边界，当前第21题最后一行下缘242.64，下一节始于267.84；在246空白处结束，保留完整本题解析。",
         "identity_verification": "independent_verified",
@@ -1318,7 +1318,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -1342,7 +1342,7 @@
             90
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
@@ -1365,7 +1365,7 @@
             276
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -1374,7 +1374,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN03-E08",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "CSMA/CD、1 Gb/s、200000 km/s、最小帧减800 bit及增减160/80 m四项一致；已查看原解析往返减0.8微秒、单程距离减80 m。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:49.369665+00:00"
@@ -1422,7 +1422,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -1446,7 +1446,7 @@
             633
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -1455,7 +1455,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN03-E09",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "逐项核对DIFS128/SIFS28、RTS3/CTS2/ACK2微秒、1998 B和54 Mb/s、收到CTS时求NAV、326/354/385/513选项一致；原解析354微秒已查看。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:49.663545+00:00"
@@ -1503,7 +1503,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -1527,7 +1527,7 @@
             191
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -1536,7 +1536,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN03-E10",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "40 B的IP数据报、802.1Q载荷填充要求及2/4/6/8选项一致；“字节”写为B。已查看原解析采用42 B下限、答案A。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:24.237758+00:00"
@@ -1584,7 +1584,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -1608,7 +1608,7 @@
             254
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -1713,7 +1713,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -1737,7 +1737,7 @@
             318
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -1792,7 +1792,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -1816,7 +1816,7 @@
             254
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -1880,7 +1880,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -1904,7 +1904,7 @@
             483
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
@@ -1927,7 +1927,7 @@
             530
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -1936,7 +1936,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN04-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "101.200.16.0/20划5子网、可能最小子网可分配IP数及126/254/510/1022四项一致；已查看原解析采用不等长划分，答案254。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:49.950498+00:00"
@@ -1984,7 +1984,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -2008,7 +2008,7 @@
             743
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -2063,7 +2063,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -2087,7 +2087,7 @@
             443
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -2096,7 +2096,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN04-E06",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "IP甲211.71.136.23、乙211.71.130.25、掩码255.255.240.0、网关211.71.136.1及四项交付对象/MAC组合一致；选项仅压缩文字。已查看原解析同一/20网络直接交付。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:24.438163+00:00"
@@ -2169,7 +2169,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -2193,7 +2193,7 @@
             254
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -2248,7 +2248,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -2272,7 +2272,7 @@
             465
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -2436,7 +2436,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -2460,7 +2460,7 @@
             152
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
@@ -2483,7 +2483,7 @@
             147
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -2492,7 +2492,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN05-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "UDP分用头部字段、源端口/目的端口/长度/校验和四项一致；“检验和”写为“校验和”。已查看原解析B。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:50.243368+00:00"
@@ -2540,7 +2540,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -2564,7 +2564,7 @@
             549
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -2573,7 +2573,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN05-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "中间1011100110110110、末项0110010111000101及四个16位结果逐位一致；已查看原解析回卷进位再取反得1110000010000011。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:50.499958+00:00"
@@ -2621,7 +2621,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -2645,7 +2645,7 @@
             254
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -2654,7 +2654,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN05-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "TCP连续段300/500 B、起序200、正确收齐两段后ACK及500/700/800/1000选项一致；已查看原解析累计字节后ACK1000。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:50.855032+00:00"
@@ -2711,7 +2711,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -2735,7 +2735,7 @@
             299
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
@@ -2758,7 +2758,7 @@
             149
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -2767,7 +2767,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN05-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "RTT50 ms、MSL800 ms、C主动FIN、分别到C/S CLOSED最短时间及四组850/1650与50/75选项一致；已查看原解析1650/75 ms。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:51.178816+00:00"
@@ -2815,7 +2815,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -2839,7 +2839,7 @@
             254
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -2848,7 +2848,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN05-E05",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "MSS1 KB、RTT2 ms、不拥塞、cwnd8→32 KB最长时间及4/8/24/48选项一致；已查看原解析拥塞避免24RTT=48 ms。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:51.497097+00:00"
@@ -2921,7 +2921,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -2945,7 +2945,7 @@
             317
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -2954,7 +2954,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN05-E07",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "每段MSS1 KB、接收窗口10 KB、超时时cwnd8 KB、之后10 RTT求发送窗口及10/12/14/15选项一致；已查看原解析受rwnd限制为10 KB。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:51.780535+00:00"
@@ -3077,7 +3077,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -3101,7 +3101,7 @@
             190
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -3156,7 +3156,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -3180,7 +3180,7 @@
             284
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -3235,7 +3235,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -3259,7 +3259,7 @@
             451
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -3268,7 +3268,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN06-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "非并行TCP、HTTP1.0非持久、HTML+7图、从建TCP起算、求最少RTT及4/9/14/16选项一致；已查看原解析8次各2RTT=16。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:52.059806+00:00"
@@ -3316,7 +3316,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -3340,7 +3340,7 @@
             254
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -3349,7 +3349,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN06-E05",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "HTTP/1.1流水线、rfc.html引用3图、先HTML后图请求、每次RTT、忽略其余时延及从HTTP请求起算条件全部一致；四选项一致。原解析2RTT已查看。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:24.857529+00:00"
@@ -3431,7 +3431,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -3455,7 +3455,7 @@
             686
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
@@ -3478,7 +3478,7 @@
             707
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -3487,7 +3487,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CN06-E07",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "HTTP1.1、news408.html1 MSS及同目录1幅图3 MSS、RTT10 ms、已解析DNS、从请求TCP起计、忽略头和传输时间及30/40/50/60选项一致；已查看原解析4RTT=40 ms和时序图。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:52.366811+00:00"
@@ -3585,7 +3585,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -3609,7 +3609,7 @@
             185
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -3664,7 +3664,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -3688,7 +3688,7 @@
             308
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -3697,7 +3697,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO01-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "1GHz、10000指令、80%一周期/20%十周期、求CPI/执行时间及四选项完全一致，仅“共执行了”简为“共执行”；已查看原解析2.8和28微秒。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:09.506361+00:00"
@@ -3745,7 +3745,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -3769,7 +3769,7 @@
             396
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -3833,7 +3833,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -3857,7 +3857,7 @@
             174
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
@@ -3880,7 +3880,7 @@
             254
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -3944,7 +3944,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -3968,7 +3968,7 @@
             287
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
@@ -3991,7 +3991,7 @@
             143
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -4000,7 +4000,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO02-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "unsigned short x65530转unsigned int、32/16位条件及四十六进制选项一致；源OCR中D位数抽取异常按原选项语义，已查看原解析零扩展0000FFFAH。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:09.747716+00:00"
@@ -4048,7 +4048,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -4072,7 +4072,7 @@
             337
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -4081,7 +4081,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO02-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "32位系统、short si=-32767转unsigned int、四个2的幂表达式一致；公式转原生LaTeX。已查看原解析符号扩展再无符号解释得2^32−2^15+1。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:09.993466+00:00"
@@ -4129,7 +4129,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -4153,7 +4153,7 @@
             657
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -4162,7 +4162,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO02-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "8位加法器、无符号69与38、求减法两输入及低位进位、四组三位串逐个一致；已查看原解析69+反码38+1、答案B。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:10.226376+00:00"
@@ -4210,7 +4210,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -4234,7 +4234,7 @@
             308
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -4243,7 +4243,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO02-E05",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "补码x=FFFFFFDFH/y=00000041H、x/y值及差机器数四项完全一致；已查看原解析−33、65、FFFFFF9EH。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:10.461311+00:00"
@@ -4291,7 +4291,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -4315,7 +4315,7 @@
             310
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -4324,7 +4324,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO02-E06",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "int x100/y200时OF0CF1、改x10/y−20、四标志组合一致；已查看原解析OF0CF1。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:10.693199+00:00"
@@ -4381,7 +4381,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -4405,7 +4405,7 @@
             417
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
@@ -4428,7 +4428,7 @@
             18
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -4437,7 +4437,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO02-E07",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "−0.4375、IEEE754单精度及BEE00000/BF600000/BF700000/C0E00000四项一致；已查看跨页原解析符号1阶125尾数.11，答案A。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:10.920718+00:00"
@@ -4485,7 +4485,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -4509,7 +4509,7 @@
             376
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -4518,7 +4518,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO02-E08",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "IEEE754 float、f1=CC900000H/f2=B0C00000H、大小与同异符号四项一致；已查看原解析两负数且|x|>|y|故x<y。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:11.157710+00:00"
@@ -4566,7 +4566,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -4590,7 +4590,7 @@
             251
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -4670,7 +4670,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -4694,7 +4694,7 @@
             583
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -4703,7 +4703,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO02-E11",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "小端、按字节编址、int32/short16、边界对齐、record中int/char/short顺序、a273、首址C008和四选项一致；已查看原解析及布局表，C008内容11H、c地址C00EH。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:11.392314+00:00"
@@ -4751,7 +4751,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -4775,7 +4775,7 @@
             317
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -4784,7 +4784,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO03-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "256 MB存储器由4M×8 DRAM组成、求地址和数据引脚总数及19/22/30/36选项一致；已查看原解析地址复用11加数据8为19。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:11.633921+00:00"
@@ -4832,7 +4832,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -4856,7 +4856,7 @@
             246
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -4865,7 +4865,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO03-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "主存地址空间64 MB、4M×8 RAM组成实际32 MB、字节编址、求MAR至少位数及22/23/25/26选项一致；已查看原解析按完整空间26位。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:11.880465+00:00"
@@ -4913,7 +4913,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -4937,7 +4937,7 @@
             510
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -4946,7 +4946,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO03-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "四体交叉、8005/8006/8007/8008/8001/8002/8003/8004/8000访问序列及四对地址逐一一致；已查看原解析模块表，8004/8000相邻同模块冲突。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:12.112863+00:00"
@@ -4994,7 +4994,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -5018,7 +5018,7 @@
             248
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -5027,7 +5027,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO03-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "64 KB主存含4 KB ROM、字节编址、2K×8 ROM及4K×4 RAM、求芯片数及四选项一致；已查看原解析ROM2/RAM30。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:12.346423+00:00"
@@ -5075,7 +5075,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -5099,7 +5099,7 @@
             255
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -5154,7 +5154,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -5178,7 +5178,7 @@
             314
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -5187,7 +5187,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO03-E06",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "原for(k0;k<1000;k++) a[k]=a[k]+32、int4 B、直接映射1 KB/块16 B、初空及四缺失率选项一致；已查看原解析每8次数组访问1缺失，为12.5%。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:12.591443+00:00"
@@ -5235,7 +5235,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -5259,7 +5259,7 @@
             830
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -5314,7 +5314,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -5338,7 +5338,7 @@
             710
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -5393,7 +5393,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -5417,7 +5417,7 @@
             434
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -5426,7 +5426,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO03-E09",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "24位物理、4 GB虚拟、4 KB页、虚地址00082840H；页表82(024H,0)/129(180H,1)/130(018H,1)及三物理地址+缺页四项逐一一致；已查看原解析82H即十进制130，物址018840H。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:12.836038+00:00"
@@ -5474,7 +5474,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -5498,7 +5498,7 @@
             186
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -5598,7 +5598,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -5622,7 +5622,7 @@
             828
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -5631,7 +5631,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO03-E12",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "30位虚拟/24位主存、4 KB页、TLB2路8组LRU，访问10/12/16/7/26/4/12/20及四问全部一致；已查看原解析18位VPN/12位偏移、标记15/组号3、换出页4、VA增2位导致项增2位。",
         "crop_correction_reason": "原索引混入第08题并延续158页；已查看原图，第07题第4问末行下缘501.12，第08题标题502.2起，以501.6安全窄隙结束，仅保留第07题。",
         "identity_verification": "independent_verified",
@@ -5657,7 +5657,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO03-E13",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "当前为给定TLB/页表/Cache状态的组合分析题，三次访问各自从初态开始；未定位数据和要求一致的完整原题，保留原生。"
       }
     },
@@ -5712,7 +5712,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -5736,7 +5736,7 @@
             156
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
@@ -5759,7 +5759,7 @@
             272
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -5814,7 +5814,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -5838,7 +5838,7 @@
             319
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -5847,7 +5847,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO04-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "16位机器、字节编址、两字节相对转移、逐字节PC+1、起址2000H/位移06H及2006至2009H四项一致；已查看原解析取完PC2002H，目标2008H。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:13.553806+00:00"
@@ -5915,7 +5915,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -5939,7 +5939,7 @@
             260
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -5948,7 +5948,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO04-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "RISC错误叙述、硬连线/LoadStore/流水线/寄存器传参四项一致，仅排版大小写；已查看原解析C。",
         "crop_correction_reason": "原索引混入4.5小结并延伸下一页；查看原图和OCR，原题解析末行下缘589.68，下一节614.88起，在594空白结束。",
         "identity_verification": "independent_verified",
@@ -5997,7 +5997,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -6021,7 +6021,7 @@
             209
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -6157,7 +6157,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -6181,7 +6181,7 @@
             335
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -6190,7 +6190,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO05-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "组合逻辑为操作元件、时序逻辑为状态元件，ALU/PC/GPRs/MUX四对象及四组选择一致，“单元”写为“部件”；已查看原解析ALU和MUX即B。",
         "crop_correction_reason": "原索引误延至240页，含多题综合解析及后续知识；已查看原图，第18题末行下缘347.4、后续标题354.96起，在350结束。",
         "identity_verification": "independent_verified",
@@ -6264,7 +6264,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -6288,7 +6288,7 @@
             304
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -6297,7 +6297,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO05-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "两个源操作数采用寄存器及寄存器间接寻址、R[r2]←R[r1]+M[R[r0]]、取数及执行所需部件和四选项一致；原生PDF文本有M/R字形抽取错误，已查看原解析明确寄存器/存储器取数及ALU执行，B。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:14.288792+00:00"
@@ -6345,7 +6345,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -6369,7 +6369,7 @@
             242
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -6424,7 +6424,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -6448,7 +6448,7 @@
             248
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -6503,7 +6503,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -6527,7 +6527,7 @@
             410
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -6559,7 +6559,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO05-E07",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "当前将原题CPU周期修正为CPU时钟周期；属于术语纠正，保留明确模型下原生解析。"
       }
     },
@@ -6582,7 +6582,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO05-E08",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "当前指令I2明确为load，横版题本原题助记符写add但注释为取存储器值；原材料指令助记符含笔误，保留纠正后的原生解析。"
       }
     },
@@ -6628,7 +6628,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -6652,7 +6652,7 @@
             1010
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -6661,7 +6661,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO05-E09",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "五段RISC、逐条add/load/beq/addi指令寄存器和立即数一致、旁路处理数据冒险/硬阻塞处理控制冒险及四组选项一致；已查看原解析与时空图，I3和I4阻塞。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:14.555207+00:00"
@@ -6709,7 +6709,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -6733,7 +6733,7 @@
             329
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -6813,7 +6813,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -6837,7 +6837,7 @@
             254
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -6846,7 +6846,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO06-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "总线每周期4 B、每总线周期2时钟、10 MHz及10/20/40/80 MB/s四项一致；已查看原解析20 MB/s。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:14.795224+00:00"
@@ -6871,7 +6871,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO06-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "当前明确1333 MT/s并追加333.25 MHz的等价换算提问；与原选择题术语错误及问题范围不同，保留原生。"
       }
     },
@@ -6917,7 +6917,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -6941,7 +6941,7 @@
             336
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -7005,7 +7005,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -7029,7 +7029,7 @@
             152
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
@@ -7052,7 +7052,7 @@
             197
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -7107,7 +7107,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -7131,7 +7131,7 @@
             375
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -7195,7 +7195,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -7219,7 +7219,7 @@
             221
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
@@ -7242,7 +7242,7 @@
             20
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -7322,7 +7322,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -7346,7 +7346,7 @@
             248
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -7401,7 +7401,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -7425,7 +7425,7 @@
             249
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -7477,6 +7477,19 @@
               489,
               705
             ]
+          }
+        ],
+        "identity_verification": "independent_verified",
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed",
+        "indexed_answer_crops": [
+          {
+            "page": 333,
+            "bbox": [
+              54,
+              608.28,
+              489,
+              705
+            ]
           },
           {
             "page": 334,
@@ -7487,9 +7500,7 @@
               75.48
             ]
           }
-        ],
-        "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        ]
       },
       "crops": [
         {
@@ -7507,46 +7518,26 @@
           "png": "solutions/assets/c8a7f663ead1cb55f3f8fc5f.png",
           "pdf": "solutions/assets/c8a7f663ead1cb55f3f8fc5f.pdf",
           "png_sha256": "cabaad909791593105442c04f1e0d2a17abd8783bd1cd4c90bb06dd223cec97e",
-          "pdf_sha256": "5dfaec7a1652819829e881a7cee1dbf4f7a942003ed9615ce35eadc0b7a712ed",
+          "pdf_sha256": "e6b3d3805d22234f0d6f756a15878fd801d2f35d0e6ff5ff272bfe5df3bc7f23",
           "pixel_dimensions": [
             1813,
             404
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
-        },
-        {
-          "path": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
-          "sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
-          "page": 334,
-          "bbox": [
-            54.0,
-            71.0,
-            489.0,
-            75.48
-          ],
-          "dpi": 300,
-          "version": 2,
-          "png": "solutions/assets/8d166b86b7eb09355ca50579.png",
-          "pdf": "solutions/assets/8d166b86b7eb09355ca50579.pdf",
-          "png_sha256": "14eb68d29c4c66de328d35005a549409fc2f4626e7474aec2a2aae9330b01746",
-          "pdf_sha256": "ab5df75e3e27a5efaccfd2ef4681d202eaa9a24cdb9b58036fc6646929bf6fae",
-          "pixel_dimensions": [
-            1813,
-            20
-          ],
-          "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
-      "match_reason": "依据完整题干独立定位；原题题干、数据和选项经排版规范化后完全一致",
+      "match_reason": "独立逐题核验确认同题：已实际查看题本第593页44题，DMA的I—IV四句及A—D组合选项与当前题干逐项一致；查看教材第333页44.D，完整解答确认四句均正确，答案D。",
       "match_evidence": {
-        "similarity": 1.0,
-        "example_chars": 141,
-        "source_chars": 141,
-        "critical_tokens_equal": true,
-        "source_text_origin": "original_pdf_native_text"
+        "verification_method": "independent_review_ledger",
+        "verification_example_id": "CO07-E06",
+        "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
+        "ledger_sha256": "cde76d91b75d06054324b35d7cf0549e12545eb2966840e7cca74c738ab488f5",
+        "independent_review_reason": "已实际查看题本第593页44题，DMA的I—IV四句及A—D组合选项与当前题干逐项一致；查看教材第333页44.D，完整解答确认四句均正确，答案D。",
+        "crop_correction_reason": "独立查看原教材PDF第333、334页、原题本第593页及两份现有裁切。第333页44.D从设备驱动程序设置参数、DMA请求总线并控制传输，到结束时由CPU执行中断服务程序收尾，全部文字在第一裁切中完整结束；第334页从45.C开始。第二裁切[54,71,489,75.48]高4.48pt、300dpi仅20像素，实际仅有淡红水印，无正文或续句，移除该裁切不丢失解答。",
+        "identity_verification": "independent_verified",
+        "reviewed_utc": "2026-10-29T07:03:22.616285+00:00"
       }
     },
     {
@@ -7593,14 +7584,25 @@
             "page": 337,
             "bbox": [
               50,
-              448.88,
+              452.0,
               500,
               637.16
             ]
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed",
+        "indexed_answer_crops": [
+          {
+            "page": 337,
+            "bbox": [
+              50,
+              448.88,
+              500,
+              637.16
+            ]
+          }
+        ]
       },
       "crops": [
         {
@@ -7609,22 +7611,22 @@
           "page": 337,
           "bbox": [
             50.0,
-            448.88,
+            452.0,
             500.0,
             637.16
           ],
           "dpi": 300,
           "version": 2,
-          "png": "solutions/assets/cf9f1d23cd9c959b0bbfd684.png",
-          "pdf": "solutions/assets/cf9f1d23cd9c959b0bbfd684.pdf",
-          "png_sha256": "f47d44ca8b069e215271dd35e43cfe8de732b5d678745e1077755ae55294a879",
-          "pdf_sha256": "a455705d33f9962713927544bb696cdb579845c347b0a036d45e4d41037fc5ce",
+          "png": "solutions/assets/733caff6a96ae9c4ca441ad5.png",
+          "pdf": "solutions/assets/733caff6a96ae9c4ca441ad5.pdf",
+          "png_sha256": "87ce2a451393a5f062e44222e425076452b3e458c836e311f3adfa01ab1d09c2",
+          "pdf_sha256": "623885ae5dc64ae8e1bdf0101112898e671c6c9f0eff2d3d5eb50d4e7c623dbc",
           "pixel_dimensions": [
             1876,
-            785
+            772
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -7633,8 +7635,9 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "CO07-E07",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "cde76d91b75d06054324b35d7cf0549e12545eb2966840e7cca74c738ab488f5",
         "independent_review_reason": "主频500 MHz/CPI4、A2 MB/s/B40 MB/s、32位缓冲、查询10指令/中断400时钟/DMA块1000 B及预后500时钟三问全部一致；已查看原解析查询2微秒占4%、B不能中断、DMA4%。",
+        "crop_correction_reason": "独立查看原教材PDF第337页及原裁切，确认y448.88起裁含第09题末行残片。300dpi检测黑色像素：前题末行至449.28pt结束，10.【解答】标题从455.28pt开始；在空白区452pt起裁，保留完整标题、查询2μs与4%、中断0.8μs对0.1μs不能使用及DMA4%三问全部文字和公式。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:15.271948+00:00"
       }
@@ -7681,7 +7684,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -7705,7 +7708,7 @@
             153
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -7714,7 +7717,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS01-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "完整题干和A-D四选项一致，原PDF原生题干与原解析C均已核对。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:25.529148+00:00"
@@ -7739,7 +7742,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS01-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "代码、O(log n)/O(√n)/O(n)/O(nlog n)四项与原题一致，但已查看原解析22页把退出时的循环次数t写成t(t+1)/2<n，正确应为≥n；截图含错式，使用原生解析。"
       }
     },
@@ -7762,7 +7765,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS01-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "原代码i从1翻倍、j从0至i-1及四复杂度选项一致；已查看原解析23页首句把j<i写成j<=i却称执行i次，含循环边界笔误，保留原生解析。"
       }
     },
@@ -7808,7 +7811,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -7832,7 +7835,7 @@
             194
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -7841,7 +7844,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS01-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "原代码x=0、while(n>=(x+1)*(x+1))及四个复杂度选项一致；原题非负整数n条件未丢失。已查看原题公式和原解析O(√n)。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:50.497483+00:00"
@@ -7889,7 +7892,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -7913,7 +7916,7 @@
             182
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -7922,7 +7925,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS02-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "a0至a100删a50、未指定存储结构、移动元素数及0/50/51/0或50四项均一致；下标改原生LaTeX。已查看原解析分别说明链式0、顺序50。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:25.732143+00:00"
@@ -7995,7 +7998,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -8019,7 +8022,7 @@
             182
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -8028,7 +8031,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS02-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "向p之前插q的要求及A-D全部指针赋值顺序逐句一致；代码仅重新断行。原解析D的四次指针修改已查看。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:25.941924+00:00"
@@ -8151,7 +8154,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -8175,7 +8178,7 @@
             953
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -8184,7 +8187,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS03-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "入栈abcdefg、出队bdcfeag、初始空栈空队列、出栈即入队及1/2/3/4四项一致；原题原生文本将c误抽取成e，已查看原PDF字形及原解析过程表确认为c，容量3。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:50.713402+00:00"
@@ -8232,7 +8235,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -8256,7 +8259,7 @@
             400
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -8265,7 +8268,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS03-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "数组A[21]、front指队首前一位置、rear指队尾、front8/rear3及5/6/16/17选项一致；仅简化句子。已查看原解析模21得16。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:26.172167+00:00"
@@ -8322,7 +8325,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -8346,7 +8349,7 @@
             675
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
@@ -8369,7 +8372,7 @@
             752
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -8378,7 +8381,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS03-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "100阶三对角矩阵、1基矩阵下标、按行压缩到0基数组及m30,30、86/87/88/89四项一致；已查看原题数学条件和原解析87。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:50.937712+00:00"
@@ -8426,7 +8429,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -8450,7 +8453,7 @@
             626
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -8459,7 +8462,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS03-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "10×10对称矩阵、上三角按列存储到C数组、m7,2及15/16/22/23选项一致；已查看原题和原解析利用对称性取m2,7得22。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:51.169665+00:00"
@@ -8527,7 +8530,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -8551,7 +8554,7 @@
             185
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
@@ -8574,7 +8577,7 @@
             255
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -8583,7 +8586,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS03-E05",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "逐步核对F的两操作数弹出顺序a再b、执行b op a、整数栈5/8/3/2和运算符*/−/+及三次调用、四选项一致；已查看原解析三次结果5→3→15，答案B。",
         "crop_correction_reason": "原索引包含下题19的树图及文字。300dpi暗像素行复核：第二行后空白y520.98–527.21，选524分块；末行后空白581.61–588.80，选585结束。下块右界404排除右侧下题树，保留本题全部字形。",
         "identity_verification": "independent_verified",
@@ -8609,7 +8612,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS04-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "当前题干在原KMP比较次数选择题基础上增加朴素匹配比较及首次位置等要求，原截图不能覆盖全部扩问，保留原生。"
       }
     },
@@ -8632,7 +8635,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS04-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "当前主串aaacaaaabdaaaab、模式aaaab及nextval对照问题与最近原题主串aabaaaba、模式aaab不一致，不能套截图。"
       }
     },
@@ -8678,7 +8681,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -8702,7 +8705,7 @@
             317
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -8711,7 +8714,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS05-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "树度4、各度结点20/10/1/10、求叶数及41/82/113/122四项完全一致；已查看原解析边结点计数得82。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:51.614424+00:00"
@@ -8759,7 +8762,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -8783,7 +8786,7 @@
             246
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -8792,7 +8795,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS05-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "任意高度5且10结点二叉树、顺序存储每结点1单元只存数据信息、求最少保障容量及31/16/15/10选项均一致；已查看原解析31。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:51.831357+00:00"
@@ -8860,7 +8863,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -8884,7 +8887,7 @@
             271
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
@@ -8907,7 +8910,7 @@
             200
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -8916,7 +8919,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS05-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "v有两孩子、中序相邻p/v/q及p右孩子/q左孩子四组合逐项一致；已查看原解析中序前驱/后继论证答案A。",
         "crop_correction_reason": "原索引右上角混入前题树图。300dpi暗像素行复核：前三行后空白y305.57–311.09，选308分块，上块右界405排除残树；下块保留全宽，保留所有文字字形。",
         "identity_verification": "independent_verified",
@@ -8965,7 +8968,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -8989,7 +8992,7 @@
             1721
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -8998,7 +9001,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS05-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "森林转二叉树、u是v祖父及三种原森林关系和A-D组合全部一致；已查看原解析与四种转换图，答案B。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:52.260264+00:00"
@@ -9046,7 +9049,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -9070,7 +9073,7 @@
             816
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -9079,7 +9082,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS05-E05",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "六频次3/4/5/6/8/10、哈夫曼加权平均长度要求及2.4/2.5/2.67/2.75四项一致；已查看原解析完整合并图和加权平均2.5。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:52.474673+00:00"
@@ -9127,7 +9130,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -9151,7 +9154,7 @@
             656
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -9160,7 +9163,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS05-E06",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "码长不超过4、已有编码1和01、求最多剩余字符及2/3/4/5选项一致。已查看原解析与树图，最多4个。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:26.439100+00:00"
@@ -9217,7 +9220,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -9241,7 +9244,7 @@
             167
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
@@ -9264,7 +9267,7 @@
             516
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -9273,7 +9276,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS06-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "无向图7顶点、任何情况下保证连通及6/15/16/21选项一致；已查看原解析K6加孤点的极端情形，最少16。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:52.681843+00:00"
@@ -9321,7 +9324,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -9345,7 +9348,7 @@
             462
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -9354,7 +9357,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS06-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "逐边核对ab/ae/ac/be/cf/fd/ed、顶点abcdef、DFS不能得到及acfdeb/aebdfc/aedfcb/abecdf四项一致；集合有序对改边缩写。原解析答案D已查看。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:26.651100+00:00"
@@ -9461,7 +9464,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -9485,7 +9488,7 @@
             788
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
@@ -9508,7 +9511,7 @@
             905
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -9517,7 +9520,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS06-E05",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "已查看原题，删除航天新闻日期等背景后保留有向图邻接矩阵MGraph完整结构、唯一拓扑序列判定uniquely、返回1/0和思想及C/C++程序要求；原解析逐次唯一零入度及完整代码已查看。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:08.818182+00:00"
@@ -9590,7 +9593,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -9614,7 +9617,7 @@
             323
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -9623,7 +9626,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS07-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "400元素、等概率、均匀分块、索引及块内均顺序查找、求最优块大小及8/10/20/25四项一致；已查看原解析s=20。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:52.908273+00:00"
@@ -9671,7 +9674,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -9695,7 +9698,7 @@
             404
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -9704,7 +9707,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS07-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "长度16有序顺序表、折半查找不存在元素、比较次数最多及4/5/6/7选项一致；已查看原解析不计虚方结点，最多5次。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:53.113130+00:00"
@@ -9730,7 +9733,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS07-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "题目要求对34、23、15、98、115、28、107构造AVL；source_key所指原题实际为二叉排序树查找效率因素选择题。无法确认这道AVL题的准确原解析，保留原生。"
       }
     },
@@ -9776,7 +9779,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -9800,7 +9803,7 @@
             447
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -9809,7 +9812,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS07-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "无重复AVL、中序降序、根度/最小元素叶/最后插入叶/最大元素无左子树四项逐项一致；已查看原解析反向搜索树性质答案D。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:53.319238+00:00"
@@ -9857,7 +9860,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -9881,7 +9884,7 @@
             307
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -9890,7 +9893,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS07-E05",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "3阶B树、2047关键字、分别求最大/最小高度及11/10/8/7四项一致；原解析A、D及按含关键字层定义高度已查看。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:27.103117+00:00"
@@ -9938,7 +9941,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -9962,7 +9965,7 @@
             494
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -9971,7 +9974,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS07-E06",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "7个不同关键字、不同4阶B树最多数量及7/8/9/10选项一致；已查看原解析2层8种、3层1种，共9。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:53.539410+00:00"
@@ -10019,7 +10022,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -10043,7 +10046,7 @@
             613
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -10052,7 +10055,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS07-E07",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "散列表长5初空、H=(k+4) mod5、线性探查、按序插2022/12/25删25及失败ASL要求、1/1.6/1.8/2.2四项一致；已查看原解析删除标记下失败次数1/3/2/1/2，得1.8。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:53.769656+00:00"
@@ -10125,7 +10128,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -10149,7 +10152,7 @@
             179
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -10158,7 +10161,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS08-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "当前题干已补回采用希尔排序算法；逐个核对输入13/24/7/1/8/9/11/56/34/51/2/77/5、增量5/3/1、两趟要求及A-D所有元素顺序均一致。已查看原解析B及增量5、3两次结果。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:06:07.694511+00:00"
@@ -10206,7 +10209,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -10230,7 +10233,7 @@
             251
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -10239,7 +10242,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS08-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "一趟定义、快速排序第二趟不可能结果及四个8元素序列逐个一致；已查看原解析D。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:53.986077+00:00"
@@ -10287,7 +10290,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -10311,7 +10314,7 @@
             527
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -10320,7 +10323,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS08-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "小根堆8/15/10/21/34/16/12、删8重建、比较次数及1/2/3/4选项一致；已查看原解析图与三次比较，答案C。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:54.195682+00:00"
@@ -10368,7 +10371,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -10392,7 +10395,7 @@
             320
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -10401,7 +10404,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS08-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "三个升序列(3,5)/(7,9)/(6)、从左到右二路归并、总比较次数及3/4/5/6选项一致；已查看原解析两次合并2+3=5。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:09:54.403172+00:00"
@@ -10449,7 +10452,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -10473,7 +10476,7 @@
             192
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -10482,7 +10485,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS08-E05",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "原输入05/46/13/55/94/17/42、一趟基数排序及四项所有元素顺序逐个一致；原解析答案C已查看。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:27.535956+00:00"
@@ -10530,7 +10533,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -10554,7 +10557,7 @@
             1714
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -10563,7 +10566,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS08-E06",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "已查看原题19个关键字逐个同序、m4、置换选择、求初始段及任意n≫m>0第一段极值两问一致；原解析三个段及最大n/最小m已查看，表格完整。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:09.274194+00:00"
@@ -10630,7 +10633,7 @@
             "page": 401,
             "bbox": [
               50,
-              464.72,
+              468.8,
               500,
               705
             ]
@@ -10646,7 +10649,27 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed",
+        "indexed_answer_crops": [
+          {
+            "page": 401,
+            "bbox": [
+              50,
+              464.72,
+              500,
+              705
+            ]
+          },
+          {
+            "page": 402,
+            "bbox": [
+              50,
+              68,
+              500,
+              87.44
+            ]
+          }
+        ]
       },
       "crops": [
         {
@@ -10655,22 +10678,22 @@
           "page": 401,
           "bbox": [
             50.0,
-            464.72,
+            468.8,
             500.0,
             705.0
           ],
           "dpi": 300,
           "version": 2,
-          "png": "solutions/assets/3a7b357a8db6154f8de1ec43.png",
-          "pdf": "solutions/assets/3a7b357a8db6154f8de1ec43.pdf",
-          "png_sha256": "e1a3a2868f9d6d1e61108323eefd12647e35c58648e223f058183f1350374e3d",
-          "pdf_sha256": "6d5fa31d749e8158046b3f1c8e47a97bebfa2513b1df98ac1f1951d289f44d34",
+          "png": "solutions/assets/ba3add26e93f44287444b91c.png",
+          "pdf": "solutions/assets/ba3add26e93f44287444b91c.pdf",
+          "png_sha256": "65bd490bbd740a27644b05092b7f2bcbc9e4acaf8f945eeba86042e9de6f18cc",
+          "pdf_sha256": "99b44a4ce8dda6960296dca7a8ec216a9f786e08beae9626e67109e644495930",
           "pixel_dimensions": [
             1876,
-            1002
+            985
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
@@ -10687,13 +10710,13 @@
           "png": "solutions/assets/77bd9b46db503a2eaaecfd6d.png",
           "pdf": "solutions/assets/77bd9b46db503a2eaaecfd6d.pdf",
           "png_sha256": "44674f94a6733dcd27ea3bd60ad5fb0b5d2b9c4a8de7136cd2553d2ca67432cd",
-          "pdf_sha256": "178424bfb788a565d3fde183ff7270abcb3e82ad52bbb352cf60987a55e6b333",
+          "pdf_sha256": "a5428d6933ef01c339067c2fe127dd7fdce4ece26a1a533be18492688e906128",
           "pixel_dimensions": [
             1876,
             82
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -10702,8 +10725,9 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "DS08-E08",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "12段长度30/44/8/6/3/20/60/18/9/62/68/85及4路归并、画最佳树并求WPL三个要求完全一致；已查看原题和完整两页原解析，补0虚段及WPL690一致。",
+        "crop_correction_reason": "最终版面检查指出401页原裁图顶部含前题图注残行。重新查看原PDF，300dpi暗像素检测确认整行空白466.679–470.972；在468.8处起裁，去掉前题残字，保留完整04【解答】标题、全部说明和四幅归并图；402页WPL结果裁图不变。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:27.948468+00:00"
       }
@@ -10775,7 +10799,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -10799,7 +10823,7 @@
             318
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -10863,7 +10887,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -10887,7 +10911,7 @@
             278
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
@@ -10910,7 +10934,7 @@
             86
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -10965,7 +10989,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -10989,7 +11013,7 @@
             385
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -11044,7 +11068,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -11068,7 +11092,7 @@
             368
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -11077,7 +11101,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS01-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "操作系统初始化需要创建的对象及中断向量表/根目录/分区表/索引节点表四项一致，节点/结点用字差异；已查看原解析A。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:52.699009+00:00"
@@ -11125,7 +11149,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -11149,7 +11173,7 @@
             432
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -11204,7 +11228,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -11228,7 +11252,7 @@
             251
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -11237,7 +11261,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS02-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "四作业到达0/1/1/3、运行3/3/2/1、t=2开始FCFS及SJF选择和四选项一致；已查看原解析J1/J3。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:53.074326+00:00"
@@ -11285,7 +11309,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -11309,7 +11333,7 @@
             431
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -11318,7 +11342,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS02-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "逐格核对P1(0,1,60)、P2(20,10,42)、P3(30,100,13)，大优先数优先及抢占式条件、四时间选项一致；已查看原解析平均61 ms。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:53.396485+00:00"
@@ -11366,7 +11390,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -11390,7 +11414,7 @@
             311
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -11399,7 +11423,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS02-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "四进程到达0/10/10/15、优先数15/20/10/6、时间100/60/20/10、数小优先抢占、从0到全部完成及4/5/6/7选项一致；已查看原解析计首次共6。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:53.772896+00:00"
@@ -11447,7 +11471,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -11471,7 +11495,7 @@
             687
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -11480,7 +11504,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS02-E05",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "Q1时间片10 ms且优先Q2，Q2短进程优先，P1/P2先后同时入队需30/20 ms及25/20/15/10选项一致；已查看原解析等待20/10平均15。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:54.157874+00:00"
@@ -11538,7 +11562,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -11562,7 +11586,7 @@
             1260
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
@@ -11585,7 +11609,7 @@
             341
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -11594,7 +11618,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS02-E06",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "已找到并查看完整综合题索引中正确原题和原解析：4进程到达0/1/2/3、运行8/4/9/5、SRTF及时间片2的RR要求一致；原解析13及19.25与当前答案一致。先前同号选择题键冲突由完整来源ID及页码坐标区分。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:07.292200+00:00"
@@ -11667,7 +11691,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -11691,7 +11715,7 @@
             315
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -11700,7 +11724,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS02-E08",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "共享缓冲区中A生产/B读出、制约关系要求及互斥/同步/二者/无四项一致；已查看原解析C。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:28.964077+00:00"
@@ -11748,7 +11772,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -11772,7 +11796,7 @@
             254
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -11781,7 +11805,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS02-E09",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "用P/V实现同步、信号量初值问题和−1/0/1/由用户确定四项一致；原解析D及按具体情况非负初始化已查看。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:29.198120+00:00"
@@ -11929,7 +11953,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -11953,7 +11977,7 @@
             371
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -12017,7 +12041,7 @@
           }
         ],
         "identity_verification": "normalized_full_question_equal",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -12041,7 +12065,7 @@
             308
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
@@ -12064,7 +12088,7 @@
             521
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -12153,7 +12177,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -12177,7 +12201,7 @@
             495
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
@@ -12200,7 +12224,7 @@
             506
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -12209,7 +12233,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS02-E17",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "已查看原题图逐格核对5进程Allocation/Max矩阵、三资源及四个候选Available向量，全部相同；四选项一致。已查看跨页原解析，只有I安全。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:29.427468+00:00"
@@ -12266,7 +12290,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -12290,7 +12314,7 @@
             272
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
@@ -12313,7 +12337,7 @@
             80
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -12322,7 +12346,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS03-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "共享data、页号p1/p2及页框f1/f2的相等/不一定相等四组合逐项一致；已查看原解析页号可不同、物理框必同。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:54.545309+00:00"
@@ -12370,7 +12394,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -12394,7 +12418,7 @@
             885
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -12403,7 +12427,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS03-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "55 MB初空闲、最佳适配、分15/分30/释15/分8/分6、求最大空闲及7/9/10/15选项一致；已查看原解析内存过程图得9 MB。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:54.947222+00:00"
@@ -12576,7 +12600,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -12600,7 +12624,7 @@
             931
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -12609,7 +12633,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS03-E08",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "已查看原题图核对页表0→101H/存在1、1缺页、2→254H/存在1，页4 KB、内存100ns/TLB10ns/缺页10^8ns、驻留2及LRU局部、TLB初空和重试条件、三地址与两问均一致；原解析210/100000220/110ns及101565H已核对。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:07.818294+00:00"
@@ -12666,7 +12690,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -12690,7 +12714,7 @@
             309
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
@@ -12713,7 +12737,7 @@
             919
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -12722,7 +12746,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS03-E09",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "已查看原题结构10/10/12位、数组1024×1024从10800000H、元素4 B、目录基址00201000H、目录项页框00301H及三问一致；原解析10801008H/042H/001H/00201108H/00301004H和局部性结论已核对。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:16:08.353984+00:00"
@@ -12770,7 +12794,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -12794,7 +12818,7 @@
             374
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -12803,7 +12827,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS04-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "F仅由P打开后关闭、目录项/内存inode/外存inode/磁盘链接数四操作一致；已查看原解析最后关闭释放内存控制信息，B。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:55.253395+00:00"
@@ -12860,7 +12884,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -12884,7 +12908,7 @@
             912
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         },
         {
           "path": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
@@ -12907,7 +12931,7 @@
             210
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -12916,7 +12940,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS04-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "用户四类、权限完全控制/执行/修改/读取/写入五种、FCB位串表示及5/9/12/20选项一致；已查看原解析4×5=20位。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:55.571344+00:00"
@@ -12964,7 +12988,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -12988,7 +13012,7 @@
             555
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -12997,7 +13021,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS04-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "10直接+各1一二级、块1 KB、指针4 B、inode在内存、偏移1234/307400及四访问次数组合一致；已查看原解析直接1次/二级3次。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:55.954071+00:00"
@@ -13045,7 +13069,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -13069,7 +13093,7 @@
             424
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -13078,7 +13102,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS04-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "隐式链接、定长100 B记录、成组分解、512 B块、目录在内存、修改第22记录及3/4/5/6选项全部一致；已查看原解析5次读加1次写。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:29.654091+00:00"
@@ -13126,7 +13150,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -13150,7 +13174,7 @@
             252
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -13159,7 +13183,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS04-E05",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "f1/f2硬链接、两进程独立打开fd1/fd2及读写指针/内存inode/用户打开表三叙述和组合选项一致；已查看原解析B。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:56.285411+00:00"
@@ -13207,7 +13231,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -13231,7 +13255,7 @@
             182
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -13240,7 +13264,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS04-E06",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "位图块32至127、块1024 B、块及字节均0基、释放409612及81/82与1/2四组合一致；已查看原解析块82字节1。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:56.645339+00:00"
@@ -13338,7 +13362,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -13362,7 +13386,7 @@
             191
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -13371,7 +13395,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS05-E01",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "I/O调用链用户→系统调用→驱动→中断、计算CHS的程序及四选项一致；已查看原解析设备驱动C。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:56.997901+00:00"
@@ -13419,7 +13443,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -13443,7 +13467,7 @@
             383
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -13452,7 +13476,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS05-E02",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "10块、输入100微秒/复制50/分析50、等块缓冲、单双缓冲总时间及四组选项一致；已查看原解析1550/1100微秒。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:57.396742+00:00"
@@ -13500,7 +13524,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -13524,7 +13548,7 @@
             256
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -13533,7 +13557,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS05-E03",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "100柱面、每柱面8道、每道8扇区、6400记录、0基顺序存储及目标CHS(78,6,6)、5045至5048选项一致；已查看原解析5046。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:05:29.883142+00:00"
@@ -13581,7 +13605,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -13605,7 +13629,7 @@
             494
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -13614,7 +13638,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS05-E04",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "逻辑格式化、四叙述分区/根目录/扇区校验码位数/空闲结构及四组合一致；已查看原解析II/IV即B。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:57.745725+00:00"
@@ -13662,7 +13686,7 @@
           }
         ],
         "identity_verification": "independent_verified",
-        "source_visual_review": "pending"
+        "source_visual_review": "answer_crops_reviewed_in_final_book; whole_original_page_review_not_claimed"
       },
       "crops": [
         {
@@ -13686,7 +13710,7 @@
             309
           ],
           "pdf_mode": "original_pdf_objects_preserved",
-          "crop_visual_review": "pending"
+          "crop_visual_review": "passed_in_final_solution_book"
         }
       ],
       "solution_mode": "original_screenshot",
@@ -13695,7 +13719,7 @@
         "verification_method": "independent_review_ledger",
         "verification_example_id": "OS05-E05",
         "ledger_path": "/workspace/Classroom/408_lecture_notes/current/sources/solution_source_verifications.json",
-        "ledger_sha256": "6f2c30f12f657ff9a1b7d9865b4b2dce907899ab8dda6afc7ee1d9acdcff558e",
+        "ledger_sha256": "8673bb9913c3bfc260f21b42fd5459ec161188838f9407c6d0ce735b04b9f0c8",
         "independent_review_reason": "200道外侧0、请求130/42/180/15/199、当前位置58向内SCAN及208/287/325/382选项一致；已查看原解析走至199再15，共325。",
         "identity_verification": "independent_verified",
         "reviewed_utc": "2026-10-29T00:11:58.136435+00:00"
@@ -13751,5 +13775,130 @@
         "nearest_source_key": "OS:5.3:33"
       }
     }
-  ]
+  ],
+  "source_crop_revisions": [
+    {
+      "example_id": "DS08-E08",
+      "created_utc": "2026-10-29T00:35:56.247015+00:00",
+      "old_answer_crops": [
+        {
+          "page": 401,
+          "bbox": [
+            50,
+            464.72,
+            500,
+            705
+          ]
+        },
+        {
+          "page": 402,
+          "bbox": [
+            50,
+            68,
+            500,
+            87.44
+          ]
+        }
+      ],
+      "new_answer_crops": [
+        {
+          "page": 401,
+          "bbox": [
+            50,
+            468.8,
+            500,
+            705
+          ]
+        },
+        {
+          "page": 402,
+          "bbox": [
+            50,
+            68,
+            500,
+            87.44
+          ]
+        }
+      ],
+      "reason": "最终版面检查指出401页原裁图顶部含前题图注残行。重新查看原PDF，300dpi暗像素检测确认整行空白466.679–470.972；在468.8处起裁，去掉前题残字，保留完整04【解答】标题、全部说明和四幅归并图；402页WPL结果裁图不变。"
+    },
+    {
+      "example_id": "CO07-E06",
+      "created_utc": "2026-10-29T07:03:22.616285+00:00",
+      "old_answer_crops": [
+        {
+          "page": 333,
+          "bbox": [
+            54,
+            608.28,
+            489,
+            705
+          ]
+        },
+        {
+          "page": 334,
+          "bbox": [
+            54,
+            71,
+            489,
+            75.48
+          ]
+        }
+      ],
+      "new_answer_crops": [
+        {
+          "page": 333,
+          "bbox": [
+            54,
+            608.28,
+            489,
+            705
+          ]
+        }
+      ],
+      "reason": "独立查看原教材PDF第333、334页、原题本第593页及两份现有裁切。第333页44.D从设备驱动程序设置参数、DMA请求总线并控制传输，到结束时由CPU执行中断服务程序收尾，全部文字在第一裁切中完整结束；第334页从45.C开始。第二裁切[54,71,489,75.48]高4.48pt、300dpi仅20像素，实际仅有淡红水印，无正文或续句，移除该裁切不丢失解答。",
+      "old_asset_paths": [
+        "solutions/assets/c8a7f663ead1cb55f3f8fc5f.png",
+        "solutions/assets/8d166b86b7eb09355ca50579.png"
+      ],
+      "new_asset_paths": [
+        "solutions/assets/c8a7f663ead1cb55f3f8fc5f.png"
+      ]
+    },
+    {
+      "example_id": "CO07-E07",
+      "created_utc": "2026-10-29T07:03:22.616285+00:00",
+      "old_answer_crops": [
+        {
+          "page": 337,
+          "bbox": [
+            50,
+            448.88,
+            500,
+            637.16
+          ]
+        }
+      ],
+      "new_answer_crops": [
+        {
+          "page": 337,
+          "bbox": [
+            50,
+            452.0,
+            500,
+            637.16
+          ]
+        }
+      ],
+      "reason": "独立查看原教材PDF第337页及原裁切，确认y448.88起裁含第09题末行残片。300dpi检测黑色像素：前题末行至449.28pt结束，10.【解答】标题从455.28pt开始；在空白区452pt起裁，保留完整标题、查询2μs与4%、中断0.8μs对0.1μs不能使用及DMA4%三问全部文字和公式。",
+      "old_asset_paths": [
+        "solutions/assets/cf9f1d23cd9c959b0bbfd684.png"
+      ],
+      "new_asset_paths": [
+        "solutions/assets/733caff6a96ae9c4ca441ad5.png"
+      ]
+    }
+  ],
+  "visual_review_reference": "sources/visual_review.json",
+  "visual_review_pdf_sha256": "530209f94f09ccfc2fcb28a9a88449bb3e58185291ee25d46b699f22bf4037a8"
 }

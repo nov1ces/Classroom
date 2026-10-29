@@ -1,0 +1,6091 @@
+{
+  "checked_at_utc": "2026-10-29T07:06:17.683757+00:00",
+  "method": "Compare authored IDs, answers and placement order, all actual heading order/pages, every external annotation at those headings, and every quick-table row/internal destination.",
+  "navigation_sha256": "4db74d61d0214366ef177ab82b0511f63aa9125999550df05b8a2bea12119176",
+  "pdfs": [
+    {
+      "file": "books/408四科_强化笔记.pdf",
+      "sha256": "57ccea0320b3d396a01aeebd36862e471a4f98bf72a874f6015c2ef41ee7b06b",
+      "pages": 186
+    },
+    {
+      "file": "books/408强化例题解析.pdf",
+      "sha256": "530209f94f09ccfc2fcb28a9a88449bb3e58185291ee25d46b699f22bf4037a8",
+      "pages": 60
+    },
+    {
+      "file": "books/数据结构_强化笔记.pdf",
+      "sha256": "7da3ae7314b688228a2ad089d915a12f2954124b48b5f420c30312671f9c1309",
+      "pages": 57
+    },
+    {
+      "file": "books/计算机组成原理_强化笔记.pdf",
+      "sha256": "e273fde1c402278068e9069de4fd4e3e5e23f5a4db961393cceb201b6a792109",
+      "pages": 51
+    },
+    {
+      "file": "books/操作系统_强化笔记.pdf",
+      "sha256": "4019c0df6d7de3ac589ea8deb8c5ca661634affeefc146b88ddbe74289d69893",
+      "pages": 39
+    },
+    {
+      "file": "books/计算机网络_强化笔记.pdf",
+      "sha256": "5c393bcc169debfd5d47328eec885d91071c645b5b2ce895dd423c50953afb94",
+      "pages": 39
+    }
+  ],
+  "examples": 195,
+  "heading_instances_checked": 585,
+  "external_annotations_checked": 1170,
+  "quick_links_checked": 195,
+  "errors": [],
+  "headings": [
+    {
+      "example_id": "DS01-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 1,
+      "expected_heading_page": 1,
+      "expected_destination_page": 6,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS01-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 3,
+      "expected_heading_page": 3,
+      "expected_destination_page": 6,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS01-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 3,
+      "expected_heading_page": 3,
+      "expected_destination_page": 6,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS01-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 3,
+      "expected_heading_page": 3,
+      "expected_destination_page": 6,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 5,
+      "expected_heading_page": 5,
+      "expected_destination_page": 6,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 8,
+      "expected_heading_page": 8,
+      "expected_destination_page": 6,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 9,
+      "expected_heading_page": 9,
+      "expected_destination_page": 7,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 7,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 7,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 11,
+      "expected_heading_page": 11,
+      "expected_destination_page": 8,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 12,
+      "expected_heading_page": 12,
+      "expected_destination_page": 8,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 14,
+      "expected_heading_page": 14,
+      "expected_destination_page": 9,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 16,
+      "expected_heading_page": 16,
+      "expected_destination_page": 10,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 18,
+      "expected_heading_page": 18,
+      "expected_destination_page": 9,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 18,
+      "expected_heading_page": 18,
+      "expected_destination_page": 10,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS04-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 22,
+      "expected_heading_page": 22,
+      "expected_destination_page": 10,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS04-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 23,
+      "expected_heading_page": 23,
+      "expected_destination_page": 10,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 24,
+      "expected_heading_page": 24,
+      "expected_destination_page": 11,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 25,
+      "expected_heading_page": 25,
+      "expected_destination_page": 11,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 27,
+      "expected_heading_page": 27,
+      "expected_destination_page": 11,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 30,
+      "expected_heading_page": 30,
+      "expected_destination_page": 12,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 30,
+      "expected_heading_page": 30,
+      "expected_destination_page": 13,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 30,
+      "expected_heading_page": 30,
+      "expected_destination_page": 13,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 33,
+      "expected_heading_page": 33,
+      "expected_destination_page": 13,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 35,
+      "expected_heading_page": 35,
+      "expected_destination_page": 14,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 36,
+      "expected_heading_page": 36,
+      "expected_destination_page": 14,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 37,
+      "expected_heading_page": 37,
+      "expected_destination_page": 14,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 38,
+      "expected_heading_page": 38,
+      "expected_destination_page": 14,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 39,
+      "expected_heading_page": 39,
+      "expected_destination_page": 15,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 40,
+      "expected_heading_page": 40,
+      "expected_destination_page": 15,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 41,
+      "expected_heading_page": 41,
+      "expected_destination_page": 15,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 16,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 16,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 46,
+      "expected_heading_page": 46,
+      "expected_destination_page": 16,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 46,
+      "expected_heading_page": 46,
+      "expected_destination_page": 16,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 47,
+      "expected_heading_page": 47,
+      "expected_destination_page": 17,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E08",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 47,
+      "expected_heading_page": 47,
+      "expected_destination_page": 17,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 51,
+      "expected_heading_page": 51,
+      "expected_destination_page": 17,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 52,
+      "expected_heading_page": 52,
+      "expected_destination_page": 17,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E09",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 52,
+      "expected_heading_page": 52,
+      "expected_destination_page": 19,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 53,
+      "expected_heading_page": 53,
+      "expected_destination_page": 17,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 53,
+      "expected_heading_page": 53,
+      "expected_destination_page": 18,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 54,
+      "expected_heading_page": 54,
+      "expected_destination_page": 18,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 55,
+      "expected_heading_page": 55,
+      "expected_destination_page": 18,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 56,
+      "expected_heading_page": 56,
+      "expected_destination_page": 19,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E08",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 56,
+      "expected_heading_page": 56,
+      "expected_destination_page": 19,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO01-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 60,
+      "expected_heading_page": 60,
+      "expected_destination_page": 20,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO01-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 61,
+      "expected_heading_page": 61,
+      "expected_destination_page": 20,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO01-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 61,
+      "expected_heading_page": 61,
+      "expected_destination_page": 20,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 63,
+      "expected_heading_page": 63,
+      "expected_destination_page": 20,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 64,
+      "expected_heading_page": 64,
+      "expected_destination_page": 21,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 64,
+      "expected_heading_page": 64,
+      "expected_destination_page": 21,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 66,
+      "expected_heading_page": 66,
+      "expected_destination_page": 21,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 66,
+      "expected_heading_page": 66,
+      "expected_destination_page": 21,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 67,
+      "expected_heading_page": 67,
+      "expected_destination_page": 22,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 69,
+      "expected_heading_page": 69,
+      "expected_destination_page": 22,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E08",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 70,
+      "expected_heading_page": 70,
+      "expected_destination_page": 22,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E09",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 70,
+      "expected_heading_page": 70,
+      "expected_destination_page": 22,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E10",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 71,
+      "expected_heading_page": 71,
+      "expected_destination_page": 22,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E11",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 72,
+      "expected_heading_page": 72,
+      "expected_destination_page": 23,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 74,
+      "expected_heading_page": 74,
+      "expected_destination_page": 23,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 74,
+      "expected_heading_page": 74,
+      "expected_destination_page": 23,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 75,
+      "expected_heading_page": 75,
+      "expected_destination_page": 23,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 75,
+      "expected_heading_page": 75,
+      "expected_destination_page": 24,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 77,
+      "expected_heading_page": 77,
+      "expected_destination_page": 24,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 78,
+      "expected_heading_page": 78,
+      "expected_destination_page": 24,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 79,
+      "expected_heading_page": 79,
+      "expected_destination_page": 24,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E08",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 79,
+      "expected_heading_page": 79,
+      "expected_destination_page": 25,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E09",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 81,
+      "expected_heading_page": 81,
+      "expected_destination_page": 25,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E10",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 81,
+      "expected_heading_page": 81,
+      "expected_destination_page": 25,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E11",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 82,
+      "expected_heading_page": 82,
+      "expected_destination_page": 25,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E12",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 83,
+      "expected_heading_page": 83,
+      "expected_destination_page": 26,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E13",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 83,
+      "expected_heading_page": 83,
+      "expected_destination_page": 26,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 85,
+      "expected_heading_page": 85,
+      "expected_destination_page": 27,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 86,
+      "expected_heading_page": 86,
+      "expected_destination_page": 27,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 86,
+      "expected_heading_page": 86,
+      "expected_destination_page": 27,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 87,
+      "expected_heading_page": 87,
+      "expected_destination_page": 27,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 89,
+      "expected_heading_page": 89,
+      "expected_destination_page": 27,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 91,
+      "expected_heading_page": 91,
+      "expected_destination_page": 28,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 92,
+      "expected_heading_page": 92,
+      "expected_destination_page": 28,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 93,
+      "expected_heading_page": 93,
+      "expected_destination_page": 28,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 94,
+      "expected_heading_page": 94,
+      "expected_destination_page": 29,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 94,
+      "expected_heading_page": 94,
+      "expected_destination_page": 29,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 94,
+      "expected_heading_page": 94,
+      "expected_destination_page": 29,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 95,
+      "expected_heading_page": 95,
+      "expected_destination_page": 29,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E08",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 96,
+      "expected_heading_page": 96,
+      "expected_destination_page": 29,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E09",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 96,
+      "expected_heading_page": 96,
+      "expected_destination_page": 30,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E10",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 97,
+      "expected_heading_page": 97,
+      "expected_destination_page": 30,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E11",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 98,
+      "expected_heading_page": 98,
+      "expected_destination_page": 30,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO06-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 101,
+      "expected_heading_page": 101,
+      "expected_destination_page": 31,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO06-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 101,
+      "expected_heading_page": 101,
+      "expected_destination_page": 31,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO06-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 101,
+      "expected_heading_page": 101,
+      "expected_destination_page": 31,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO06-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 101,
+      "expected_heading_page": 101,
+      "expected_destination_page": 31,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 104,
+      "expected_heading_page": 104,
+      "expected_destination_page": 32,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 105,
+      "expected_heading_page": 105,
+      "expected_destination_page": 32,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 106,
+      "expected_heading_page": 106,
+      "expected_destination_page": 32,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 106,
+      "expected_heading_page": 106,
+      "expected_destination_page": 32,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 107,
+      "expected_heading_page": 107,
+      "expected_destination_page": 32,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 107,
+      "expected_heading_page": 107,
+      "expected_destination_page": 33,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 108,
+      "expected_heading_page": 108,
+      "expected_destination_page": 33,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS01-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 109,
+      "expected_heading_page": 109,
+      "expected_destination_page": 34,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS01-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 111,
+      "expected_heading_page": 111,
+      "expected_destination_page": 34,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS01-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 112,
+      "expected_heading_page": 112,
+      "expected_destination_page": 34,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS01-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 112,
+      "expected_heading_page": 112,
+      "expected_destination_page": 34,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 115,
+      "expected_heading_page": 115,
+      "expected_destination_page": 35,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 117,
+      "expected_heading_page": 117,
+      "expected_destination_page": 35,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 117,
+      "expected_heading_page": 117,
+      "expected_destination_page": 35,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 117,
+      "expected_heading_page": 117,
+      "expected_destination_page": 35,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 118,
+      "expected_heading_page": 118,
+      "expected_destination_page": 36,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 118,
+      "expected_heading_page": 118,
+      "expected_destination_page": 36,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 118,
+      "expected_heading_page": 118,
+      "expected_destination_page": 37,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E08",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 119,
+      "expected_heading_page": 119,
+      "expected_destination_page": 37,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E09",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 120,
+      "expected_heading_page": 120,
+      "expected_destination_page": 37,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E10",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 120,
+      "expected_heading_page": 120,
+      "expected_destination_page": 37,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E11",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 121,
+      "expected_heading_page": 121,
+      "expected_destination_page": 37,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E12",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 122,
+      "expected_heading_page": 122,
+      "expected_destination_page": 38,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E13",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 122,
+      "expected_heading_page": 122,
+      "expected_destination_page": 38,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E14",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 124,
+      "expected_heading_page": 124,
+      "expected_destination_page": 38,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E15",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 125,
+      "expected_heading_page": 125,
+      "expected_destination_page": 39,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E16",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 125,
+      "expected_heading_page": 125,
+      "expected_destination_page": 39,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E17",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 126,
+      "expected_heading_page": 126,
+      "expected_destination_page": 39,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 127,
+      "expected_heading_page": 127,
+      "expected_destination_page": 40,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 128,
+      "expected_heading_page": 128,
+      "expected_destination_page": 40,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 129,
+      "expected_heading_page": 129,
+      "expected_destination_page": 40,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 129,
+      "expected_heading_page": 129,
+      "expected_destination_page": 40,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 131,
+      "expected_heading_page": 131,
+      "expected_destination_page": 40,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 132,
+      "expected_heading_page": 132,
+      "expected_destination_page": 41,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 132,
+      "expected_heading_page": 132,
+      "expected_destination_page": 41,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E08",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 133,
+      "expected_heading_page": 133,
+      "expected_destination_page": 41,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E09",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 133,
+      "expected_heading_page": 133,
+      "expected_destination_page": 41,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 135,
+      "expected_heading_page": 135,
+      "expected_destination_page": 42,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 136,
+      "expected_heading_page": 136,
+      "expected_destination_page": 43,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 137,
+      "expected_heading_page": 137,
+      "expected_destination_page": 43,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 137,
+      "expected_heading_page": 137,
+      "expected_destination_page": 43,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 138,
+      "expected_heading_page": 138,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 139,
+      "expected_heading_page": 139,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 140,
+      "expected_heading_page": 140,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E08",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 141,
+      "expected_heading_page": 141,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 143,
+      "expected_heading_page": 143,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 144,
+      "expected_heading_page": 144,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 145,
+      "expected_heading_page": 145,
+      "expected_destination_page": 45,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 146,
+      "expected_heading_page": 146,
+      "expected_destination_page": 45,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 146,
+      "expected_heading_page": 146,
+      "expected_destination_page": 45,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 147,
+      "expected_heading_page": 147,
+      "expected_destination_page": 45,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 147,
+      "expected_heading_page": 147,
+      "expected_destination_page": 45,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN01-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 150,
+      "expected_heading_page": 150,
+      "expected_destination_page": 46,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN01-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 150,
+      "expected_heading_page": 150,
+      "expected_destination_page": 46,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN01-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 150,
+      "expected_heading_page": 150,
+      "expected_destination_page": 46,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN01-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 151,
+      "expected_heading_page": 151,
+      "expected_destination_page": 46,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN02-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 152,
+      "expected_heading_page": 152,
+      "expected_destination_page": 47,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN02-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 152,
+      "expected_heading_page": 152,
+      "expected_destination_page": 47,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN02-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 154,
+      "expected_heading_page": 154,
+      "expected_destination_page": 47,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 155,
+      "expected_heading_page": 155,
+      "expected_destination_page": 47,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 156,
+      "expected_heading_page": 156,
+      "expected_destination_page": 48,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 156,
+      "expected_heading_page": 156,
+      "expected_destination_page": 48,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 157,
+      "expected_heading_page": 157,
+      "expected_destination_page": 48,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 157,
+      "expected_heading_page": 157,
+      "expected_destination_page": 48,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 157,
+      "expected_heading_page": 157,
+      "expected_destination_page": 48,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E12",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 157,
+      "expected_heading_page": 157,
+      "expected_destination_page": 50,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 159,
+      "expected_heading_page": 159,
+      "expected_destination_page": 49,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E08",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 160,
+      "expected_heading_page": 160,
+      "expected_destination_page": 49,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E09",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 160,
+      "expected_heading_page": 160,
+      "expected_destination_page": 49,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E10",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 161,
+      "expected_heading_page": 161,
+      "expected_destination_page": 49,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E11",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 162,
+      "expected_heading_page": 162,
+      "expected_destination_page": 49,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 163,
+      "expected_heading_page": 163,
+      "expected_destination_page": 50,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 165,
+      "expected_heading_page": 165,
+      "expected_destination_page": 50,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 165,
+      "expected_heading_page": 165,
+      "expected_destination_page": 50,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 166,
+      "expected_heading_page": 166,
+      "expected_destination_page": 51,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 166,
+      "expected_heading_page": 166,
+      "expected_destination_page": 51,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E11",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 166,
+      "expected_heading_page": 166,
+      "expected_destination_page": 52,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 167,
+      "expected_heading_page": 167,
+      "expected_destination_page": 51,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 168,
+      "expected_heading_page": 168,
+      "expected_destination_page": 52,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E08",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 168,
+      "expected_heading_page": 168,
+      "expected_destination_page": 52,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E09",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 169,
+      "expected_heading_page": 169,
+      "expected_destination_page": 52,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E12",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 170,
+      "expected_heading_page": 170,
+      "expected_destination_page": 53,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E10",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 171,
+      "expected_heading_page": 171,
+      "expected_destination_page": 52,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E13",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 172,
+      "expected_heading_page": 172,
+      "expected_destination_page": 53,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 173,
+      "expected_heading_page": 173,
+      "expected_destination_page": 54,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 174,
+      "expected_heading_page": 174,
+      "expected_destination_page": 54,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 175,
+      "expected_heading_page": 175,
+      "expected_destination_page": 54,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 176,
+      "expected_heading_page": 176,
+      "expected_destination_page": 55,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 177,
+      "expected_heading_page": 177,
+      "expected_destination_page": 55,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 178,
+      "expected_heading_page": 178,
+      "expected_destination_page": 55,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 178,
+      "expected_heading_page": 178,
+      "expected_destination_page": 55,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E08",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 178,
+      "expected_heading_page": 178,
+      "expected_destination_page": 55,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E09",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 179,
+      "expected_heading_page": 179,
+      "expected_destination_page": 56,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E01",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 182,
+      "expected_heading_page": 182,
+      "expected_destination_page": 57,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E02",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 182,
+      "expected_heading_page": 182,
+      "expected_destination_page": 57,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E03",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 183,
+      "expected_heading_page": 183,
+      "expected_destination_page": 57,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E04",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 184,
+      "expected_heading_page": 184,
+      "expected_destination_page": 57,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E05",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 184,
+      "expected_heading_page": 184,
+      "expected_destination_page": 58,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E06",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 185,
+      "expected_heading_page": 185,
+      "expected_destination_page": 58,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E07",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 185,
+      "expected_heading_page": 185,
+      "expected_destination_page": 58,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E08",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 185,
+      "expected_heading_page": 185,
+      "expected_destination_page": 59,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E09",
+      "file": "408四科_强化笔记.pdf",
+      "actual_heading_page": 186,
+      "expected_heading_page": 186,
+      "expected_destination_page": 59,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS01-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 6,
+      "expected_heading_page": 6,
+      "expected_destination_page": 1,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS01-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 6,
+      "expected_heading_page": 6,
+      "expected_destination_page": 3,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS01-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 6,
+      "expected_heading_page": 6,
+      "expected_destination_page": 3,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS01-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 6,
+      "expected_heading_page": 6,
+      "expected_destination_page": 3,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 6,
+      "expected_heading_page": 6,
+      "expected_destination_page": 5,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 6,
+      "expected_heading_page": 6,
+      "expected_destination_page": 8,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 7,
+      "expected_heading_page": 7,
+      "expected_destination_page": 9,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 7,
+      "expected_heading_page": 7,
+      "expected_destination_page": 10,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 7,
+      "expected_heading_page": 7,
+      "expected_destination_page": 10,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 8,
+      "expected_heading_page": 8,
+      "expected_destination_page": 11,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 8,
+      "expected_heading_page": 8,
+      "expected_destination_page": 12,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 9,
+      "expected_heading_page": 9,
+      "expected_destination_page": 14,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 9,
+      "expected_heading_page": 9,
+      "expected_destination_page": 18,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 18,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 16,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS04-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 22,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS04-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 23,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 11,
+      "expected_heading_page": 11,
+      "expected_destination_page": 24,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 11,
+      "expected_heading_page": 11,
+      "expected_destination_page": 25,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 11,
+      "expected_heading_page": 11,
+      "expected_destination_page": 27,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 12,
+      "expected_heading_page": 12,
+      "expected_destination_page": 30,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 13,
+      "expected_heading_page": 13,
+      "expected_destination_page": 30,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 13,
+      "expected_heading_page": 13,
+      "expected_destination_page": 30,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 13,
+      "expected_heading_page": 13,
+      "expected_destination_page": 33,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 14,
+      "expected_heading_page": 14,
+      "expected_destination_page": 35,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 14,
+      "expected_heading_page": 14,
+      "expected_destination_page": 36,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 14,
+      "expected_heading_page": 14,
+      "expected_destination_page": 37,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 14,
+      "expected_heading_page": 14,
+      "expected_destination_page": 38,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 15,
+      "expected_heading_page": 15,
+      "expected_destination_page": 39,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 15,
+      "expected_heading_page": 15,
+      "expected_destination_page": 40,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 15,
+      "expected_heading_page": 15,
+      "expected_destination_page": 41,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 16,
+      "expected_heading_page": 16,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 16,
+      "expected_heading_page": 16,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 16,
+      "expected_heading_page": 16,
+      "expected_destination_page": 46,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 16,
+      "expected_heading_page": 16,
+      "expected_destination_page": 46,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 17,
+      "expected_heading_page": 17,
+      "expected_destination_page": 47,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E08",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 17,
+      "expected_heading_page": 17,
+      "expected_destination_page": 47,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 17,
+      "expected_heading_page": 17,
+      "expected_destination_page": 51,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 17,
+      "expected_heading_page": 17,
+      "expected_destination_page": 52,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 17,
+      "expected_heading_page": 17,
+      "expected_destination_page": 53,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 18,
+      "expected_heading_page": 18,
+      "expected_destination_page": 53,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 18,
+      "expected_heading_page": 18,
+      "expected_destination_page": 54,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 18,
+      "expected_heading_page": 18,
+      "expected_destination_page": 55,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 19,
+      "expected_heading_page": 19,
+      "expected_destination_page": 56,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E08",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 19,
+      "expected_heading_page": 19,
+      "expected_destination_page": 56,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E09",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 19,
+      "expected_heading_page": 19,
+      "expected_destination_page": 52,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO01-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 20,
+      "expected_heading_page": 20,
+      "expected_destination_page": 60,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO01-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 20,
+      "expected_heading_page": 20,
+      "expected_destination_page": 61,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO01-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 20,
+      "expected_heading_page": 20,
+      "expected_destination_page": 61,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 20,
+      "expected_heading_page": 20,
+      "expected_destination_page": 63,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 21,
+      "expected_heading_page": 21,
+      "expected_destination_page": 64,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 21,
+      "expected_heading_page": 21,
+      "expected_destination_page": 64,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 21,
+      "expected_heading_page": 21,
+      "expected_destination_page": 66,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 21,
+      "expected_heading_page": 21,
+      "expected_destination_page": 66,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 22,
+      "expected_heading_page": 22,
+      "expected_destination_page": 67,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 22,
+      "expected_heading_page": 22,
+      "expected_destination_page": 69,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E08",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 22,
+      "expected_heading_page": 22,
+      "expected_destination_page": 70,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E09",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 22,
+      "expected_heading_page": 22,
+      "expected_destination_page": 70,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E10",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 22,
+      "expected_heading_page": 22,
+      "expected_destination_page": 71,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E11",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 23,
+      "expected_heading_page": 23,
+      "expected_destination_page": 72,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 23,
+      "expected_heading_page": 23,
+      "expected_destination_page": 74,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 23,
+      "expected_heading_page": 23,
+      "expected_destination_page": 74,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 23,
+      "expected_heading_page": 23,
+      "expected_destination_page": 75,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 24,
+      "expected_heading_page": 24,
+      "expected_destination_page": 75,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 24,
+      "expected_heading_page": 24,
+      "expected_destination_page": 77,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 24,
+      "expected_heading_page": 24,
+      "expected_destination_page": 78,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 24,
+      "expected_heading_page": 24,
+      "expected_destination_page": 79,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E08",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 25,
+      "expected_heading_page": 25,
+      "expected_destination_page": 79,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E09",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 25,
+      "expected_heading_page": 25,
+      "expected_destination_page": 81,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E10",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 25,
+      "expected_heading_page": 25,
+      "expected_destination_page": 81,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E11",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 25,
+      "expected_heading_page": 25,
+      "expected_destination_page": 82,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E12",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 26,
+      "expected_heading_page": 26,
+      "expected_destination_page": 83,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E13",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 26,
+      "expected_heading_page": 26,
+      "expected_destination_page": 83,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 27,
+      "expected_heading_page": 27,
+      "expected_destination_page": 85,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 27,
+      "expected_heading_page": 27,
+      "expected_destination_page": 86,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 27,
+      "expected_heading_page": 27,
+      "expected_destination_page": 86,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 27,
+      "expected_heading_page": 27,
+      "expected_destination_page": 87,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 27,
+      "expected_heading_page": 27,
+      "expected_destination_page": 89,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 28,
+      "expected_heading_page": 28,
+      "expected_destination_page": 91,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 28,
+      "expected_heading_page": 28,
+      "expected_destination_page": 92,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 28,
+      "expected_heading_page": 28,
+      "expected_destination_page": 93,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 29,
+      "expected_heading_page": 29,
+      "expected_destination_page": 94,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 29,
+      "expected_heading_page": 29,
+      "expected_destination_page": 94,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 29,
+      "expected_heading_page": 29,
+      "expected_destination_page": 94,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 29,
+      "expected_heading_page": 29,
+      "expected_destination_page": 95,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E08",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 29,
+      "expected_heading_page": 29,
+      "expected_destination_page": 96,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E09",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 30,
+      "expected_heading_page": 30,
+      "expected_destination_page": 96,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E10",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 30,
+      "expected_heading_page": 30,
+      "expected_destination_page": 97,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E11",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 30,
+      "expected_heading_page": 30,
+      "expected_destination_page": 98,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO06-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 31,
+      "expected_heading_page": 31,
+      "expected_destination_page": 101,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO06-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 31,
+      "expected_heading_page": 31,
+      "expected_destination_page": 101,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO06-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 31,
+      "expected_heading_page": 31,
+      "expected_destination_page": 101,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO06-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 31,
+      "expected_heading_page": 31,
+      "expected_destination_page": 101,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 32,
+      "expected_heading_page": 32,
+      "expected_destination_page": 104,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 32,
+      "expected_heading_page": 32,
+      "expected_destination_page": 105,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 32,
+      "expected_heading_page": 32,
+      "expected_destination_page": 106,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 32,
+      "expected_heading_page": 32,
+      "expected_destination_page": 106,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 32,
+      "expected_heading_page": 32,
+      "expected_destination_page": 107,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 33,
+      "expected_heading_page": 33,
+      "expected_destination_page": 107,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 33,
+      "expected_heading_page": 33,
+      "expected_destination_page": 108,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS01-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 34,
+      "expected_heading_page": 34,
+      "expected_destination_page": 109,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS01-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 34,
+      "expected_heading_page": 34,
+      "expected_destination_page": 111,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS01-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 34,
+      "expected_heading_page": 34,
+      "expected_destination_page": 112,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS01-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 34,
+      "expected_heading_page": 34,
+      "expected_destination_page": 112,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 35,
+      "expected_heading_page": 35,
+      "expected_destination_page": 115,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 35,
+      "expected_heading_page": 35,
+      "expected_destination_page": 117,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 35,
+      "expected_heading_page": 35,
+      "expected_destination_page": 117,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 35,
+      "expected_heading_page": 35,
+      "expected_destination_page": 117,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 36,
+      "expected_heading_page": 36,
+      "expected_destination_page": 118,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 36,
+      "expected_heading_page": 36,
+      "expected_destination_page": 118,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 37,
+      "expected_heading_page": 37,
+      "expected_destination_page": 118,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E08",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 37,
+      "expected_heading_page": 37,
+      "expected_destination_page": 119,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E09",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 37,
+      "expected_heading_page": 37,
+      "expected_destination_page": 120,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E10",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 37,
+      "expected_heading_page": 37,
+      "expected_destination_page": 120,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E11",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 37,
+      "expected_heading_page": 37,
+      "expected_destination_page": 121,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E12",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 38,
+      "expected_heading_page": 38,
+      "expected_destination_page": 122,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E13",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 38,
+      "expected_heading_page": 38,
+      "expected_destination_page": 122,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E14",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 38,
+      "expected_heading_page": 38,
+      "expected_destination_page": 124,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E15",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 39,
+      "expected_heading_page": 39,
+      "expected_destination_page": 125,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E16",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 39,
+      "expected_heading_page": 39,
+      "expected_destination_page": 125,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E17",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 39,
+      "expected_heading_page": 39,
+      "expected_destination_page": 126,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 40,
+      "expected_heading_page": 40,
+      "expected_destination_page": 127,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 40,
+      "expected_heading_page": 40,
+      "expected_destination_page": 128,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 40,
+      "expected_heading_page": 40,
+      "expected_destination_page": 129,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 40,
+      "expected_heading_page": 40,
+      "expected_destination_page": 129,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 40,
+      "expected_heading_page": 40,
+      "expected_destination_page": 131,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 41,
+      "expected_heading_page": 41,
+      "expected_destination_page": 132,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 41,
+      "expected_heading_page": 41,
+      "expected_destination_page": 132,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E08",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 41,
+      "expected_heading_page": 41,
+      "expected_destination_page": 133,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E09",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 41,
+      "expected_heading_page": 41,
+      "expected_destination_page": 133,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 42,
+      "expected_heading_page": 42,
+      "expected_destination_page": 135,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 43,
+      "expected_heading_page": 43,
+      "expected_destination_page": 136,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 43,
+      "expected_heading_page": 43,
+      "expected_destination_page": 137,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 43,
+      "expected_heading_page": 43,
+      "expected_destination_page": 137,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 138,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 139,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 140,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E08",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 141,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 143,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 144,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 45,
+      "expected_heading_page": 45,
+      "expected_destination_page": 145,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 45,
+      "expected_heading_page": 45,
+      "expected_destination_page": 146,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 45,
+      "expected_heading_page": 45,
+      "expected_destination_page": 146,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 45,
+      "expected_heading_page": 45,
+      "expected_destination_page": 147,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 45,
+      "expected_heading_page": 45,
+      "expected_destination_page": 147,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN01-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 46,
+      "expected_heading_page": 46,
+      "expected_destination_page": 150,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN01-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 46,
+      "expected_heading_page": 46,
+      "expected_destination_page": 150,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN01-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 46,
+      "expected_heading_page": 46,
+      "expected_destination_page": 150,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN01-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 46,
+      "expected_heading_page": 46,
+      "expected_destination_page": 151,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN02-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 47,
+      "expected_heading_page": 47,
+      "expected_destination_page": 152,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN02-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 47,
+      "expected_heading_page": 47,
+      "expected_destination_page": 152,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN02-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 47,
+      "expected_heading_page": 47,
+      "expected_destination_page": 154,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 47,
+      "expected_heading_page": 47,
+      "expected_destination_page": 155,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 48,
+      "expected_heading_page": 48,
+      "expected_destination_page": 156,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 48,
+      "expected_heading_page": 48,
+      "expected_destination_page": 156,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 48,
+      "expected_heading_page": 48,
+      "expected_destination_page": 157,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 48,
+      "expected_heading_page": 48,
+      "expected_destination_page": 157,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 48,
+      "expected_heading_page": 48,
+      "expected_destination_page": 157,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 49,
+      "expected_heading_page": 49,
+      "expected_destination_page": 159,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E08",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 49,
+      "expected_heading_page": 49,
+      "expected_destination_page": 160,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E09",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 49,
+      "expected_heading_page": 49,
+      "expected_destination_page": 160,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E10",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 49,
+      "expected_heading_page": 49,
+      "expected_destination_page": 161,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E11",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 49,
+      "expected_heading_page": 49,
+      "expected_destination_page": 162,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E12",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 50,
+      "expected_heading_page": 50,
+      "expected_destination_page": 157,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 50,
+      "expected_heading_page": 50,
+      "expected_destination_page": 163,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 50,
+      "expected_heading_page": 50,
+      "expected_destination_page": 165,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 50,
+      "expected_heading_page": 50,
+      "expected_destination_page": 165,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 51,
+      "expected_heading_page": 51,
+      "expected_destination_page": 166,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 51,
+      "expected_heading_page": 51,
+      "expected_destination_page": 166,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 51,
+      "expected_heading_page": 51,
+      "expected_destination_page": 167,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 52,
+      "expected_heading_page": 52,
+      "expected_destination_page": 168,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E08",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 52,
+      "expected_heading_page": 52,
+      "expected_destination_page": 168,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E09",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 52,
+      "expected_heading_page": 52,
+      "expected_destination_page": 169,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E10",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 52,
+      "expected_heading_page": 52,
+      "expected_destination_page": 171,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E11",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 52,
+      "expected_heading_page": 52,
+      "expected_destination_page": 166,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E12",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 53,
+      "expected_heading_page": 53,
+      "expected_destination_page": 170,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E13",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 53,
+      "expected_heading_page": 53,
+      "expected_destination_page": 172,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 54,
+      "expected_heading_page": 54,
+      "expected_destination_page": 173,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 54,
+      "expected_heading_page": 54,
+      "expected_destination_page": 174,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 54,
+      "expected_heading_page": 54,
+      "expected_destination_page": 175,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 55,
+      "expected_heading_page": 55,
+      "expected_destination_page": 176,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 55,
+      "expected_heading_page": 55,
+      "expected_destination_page": 178,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 55,
+      "expected_heading_page": 55,
+      "expected_destination_page": 177,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 55,
+      "expected_heading_page": 55,
+      "expected_destination_page": 178,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E08",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 55,
+      "expected_heading_page": 55,
+      "expected_destination_page": 178,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E09",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 56,
+      "expected_heading_page": 56,
+      "expected_destination_page": 179,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E01",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 57,
+      "expected_heading_page": 57,
+      "expected_destination_page": 182,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E02",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 57,
+      "expected_heading_page": 57,
+      "expected_destination_page": 182,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E03",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 57,
+      "expected_heading_page": 57,
+      "expected_destination_page": 183,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E04",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 57,
+      "expected_heading_page": 57,
+      "expected_destination_page": 184,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E05",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 58,
+      "expected_heading_page": 58,
+      "expected_destination_page": 184,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E06",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 58,
+      "expected_heading_page": 58,
+      "expected_destination_page": 185,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E07",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 58,
+      "expected_heading_page": 58,
+      "expected_destination_page": 185,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E08",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 59,
+      "expected_heading_page": 59,
+      "expected_destination_page": 185,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E09",
+      "file": "408强化例题解析.pdf",
+      "actual_heading_page": 59,
+      "expected_heading_page": 59,
+      "expected_destination_page": 186,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS01-E01",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 1,
+      "expected_heading_page": 1,
+      "expected_destination_page": 6,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS01-E02",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 3,
+      "expected_heading_page": 3,
+      "expected_destination_page": 6,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS01-E03",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 3,
+      "expected_heading_page": 3,
+      "expected_destination_page": 6,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS01-E04",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 3,
+      "expected_heading_page": 3,
+      "expected_destination_page": 6,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E01",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 5,
+      "expected_heading_page": 5,
+      "expected_destination_page": 6,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E02",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 8,
+      "expected_heading_page": 8,
+      "expected_destination_page": 6,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E03",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 9,
+      "expected_heading_page": 9,
+      "expected_destination_page": 7,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E04",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 7,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E05",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 7,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS02-E06",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 11,
+      "expected_heading_page": 11,
+      "expected_destination_page": 8,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E01",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 12,
+      "expected_heading_page": 12,
+      "expected_destination_page": 8,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E02",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 14,
+      "expected_heading_page": 14,
+      "expected_destination_page": 9,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E05",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 16,
+      "expected_heading_page": 16,
+      "expected_destination_page": 10,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E03",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 18,
+      "expected_heading_page": 18,
+      "expected_destination_page": 9,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS03-E04",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 18,
+      "expected_heading_page": 18,
+      "expected_destination_page": 10,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS04-E01",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 22,
+      "expected_heading_page": 22,
+      "expected_destination_page": 10,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS04-E02",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 23,
+      "expected_heading_page": 23,
+      "expected_destination_page": 10,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E01",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 24,
+      "expected_heading_page": 24,
+      "expected_destination_page": 11,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E02",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 25,
+      "expected_heading_page": 25,
+      "expected_destination_page": 11,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E03",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 27,
+      "expected_heading_page": 27,
+      "expected_destination_page": 11,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E04",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 30,
+      "expected_heading_page": 30,
+      "expected_destination_page": 12,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E05",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 30,
+      "expected_heading_page": 30,
+      "expected_destination_page": 13,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS05-E06",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 30,
+      "expected_heading_page": 30,
+      "expected_destination_page": 13,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E01",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 33,
+      "expected_heading_page": 33,
+      "expected_destination_page": 13,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E02",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 35,
+      "expected_heading_page": 35,
+      "expected_destination_page": 14,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E03",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 36,
+      "expected_heading_page": 36,
+      "expected_destination_page": 14,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E04",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 37,
+      "expected_heading_page": 37,
+      "expected_destination_page": 14,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E05",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 38,
+      "expected_heading_page": 38,
+      "expected_destination_page": 14,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS06-E06",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 39,
+      "expected_heading_page": 39,
+      "expected_destination_page": 15,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E01",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 40,
+      "expected_heading_page": 40,
+      "expected_destination_page": 15,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E02",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 41,
+      "expected_heading_page": 41,
+      "expected_destination_page": 15,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E03",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 16,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E04",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 16,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E05",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 46,
+      "expected_heading_page": 46,
+      "expected_destination_page": 16,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E06",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 46,
+      "expected_heading_page": 46,
+      "expected_destination_page": 16,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E07",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 47,
+      "expected_heading_page": 47,
+      "expected_destination_page": 17,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS07-E08",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 47,
+      "expected_heading_page": 47,
+      "expected_destination_page": 17,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E01",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 51,
+      "expected_heading_page": 51,
+      "expected_destination_page": 17,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E02",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 52,
+      "expected_heading_page": 52,
+      "expected_destination_page": 17,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E09",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 52,
+      "expected_heading_page": 52,
+      "expected_destination_page": 19,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E03",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 53,
+      "expected_heading_page": 53,
+      "expected_destination_page": 17,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E04",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 53,
+      "expected_heading_page": 53,
+      "expected_destination_page": 18,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E05",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 54,
+      "expected_heading_page": 54,
+      "expected_destination_page": 18,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E06",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 55,
+      "expected_heading_page": 55,
+      "expected_destination_page": 18,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E07",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 56,
+      "expected_heading_page": 56,
+      "expected_destination_page": 19,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "DS08-E08",
+      "file": "数据结构_强化笔记.pdf",
+      "actual_heading_page": 56,
+      "expected_heading_page": 56,
+      "expected_destination_page": 19,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO01-E01",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 3,
+      "expected_heading_page": 3,
+      "expected_destination_page": 20,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO01-E02",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 4,
+      "expected_heading_page": 4,
+      "expected_destination_page": 20,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO01-E03",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 4,
+      "expected_heading_page": 4,
+      "expected_destination_page": 20,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E01",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 6,
+      "expected_heading_page": 6,
+      "expected_destination_page": 20,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E02",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 7,
+      "expected_heading_page": 7,
+      "expected_destination_page": 21,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E03",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 7,
+      "expected_heading_page": 7,
+      "expected_destination_page": 21,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E04",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 9,
+      "expected_heading_page": 9,
+      "expected_destination_page": 21,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E05",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 9,
+      "expected_heading_page": 9,
+      "expected_destination_page": 21,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E06",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 22,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E07",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 12,
+      "expected_heading_page": 12,
+      "expected_destination_page": 22,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E08",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 13,
+      "expected_heading_page": 13,
+      "expected_destination_page": 22,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E09",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 13,
+      "expected_heading_page": 13,
+      "expected_destination_page": 22,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E10",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 14,
+      "expected_heading_page": 14,
+      "expected_destination_page": 22,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO02-E11",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 15,
+      "expected_heading_page": 15,
+      "expected_destination_page": 23,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E01",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 17,
+      "expected_heading_page": 17,
+      "expected_destination_page": 23,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E02",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 17,
+      "expected_heading_page": 17,
+      "expected_destination_page": 23,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E03",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 18,
+      "expected_heading_page": 18,
+      "expected_destination_page": 23,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E04",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 18,
+      "expected_heading_page": 18,
+      "expected_destination_page": 24,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E05",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 20,
+      "expected_heading_page": 20,
+      "expected_destination_page": 24,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E06",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 21,
+      "expected_heading_page": 21,
+      "expected_destination_page": 24,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E07",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 22,
+      "expected_heading_page": 22,
+      "expected_destination_page": 24,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E08",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 22,
+      "expected_heading_page": 22,
+      "expected_destination_page": 25,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E09",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 24,
+      "expected_heading_page": 24,
+      "expected_destination_page": 25,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E10",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 24,
+      "expected_heading_page": 24,
+      "expected_destination_page": 25,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E11",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 25,
+      "expected_heading_page": 25,
+      "expected_destination_page": 25,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E12",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 26,
+      "expected_heading_page": 26,
+      "expected_destination_page": 26,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO03-E13",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 26,
+      "expected_heading_page": 26,
+      "expected_destination_page": 26,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E01",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 28,
+      "expected_heading_page": 28,
+      "expected_destination_page": 27,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E02",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 29,
+      "expected_heading_page": 29,
+      "expected_destination_page": 27,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E03",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 29,
+      "expected_heading_page": 29,
+      "expected_destination_page": 27,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E04",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 30,
+      "expected_heading_page": 30,
+      "expected_destination_page": 27,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO04-E05",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 32,
+      "expected_heading_page": 32,
+      "expected_destination_page": 27,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E01",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 34,
+      "expected_heading_page": 34,
+      "expected_destination_page": 28,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E02",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 35,
+      "expected_heading_page": 35,
+      "expected_destination_page": 28,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E03",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 36,
+      "expected_heading_page": 36,
+      "expected_destination_page": 28,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E04",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 37,
+      "expected_heading_page": 37,
+      "expected_destination_page": 29,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E05",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 37,
+      "expected_heading_page": 37,
+      "expected_destination_page": 29,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E06",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 37,
+      "expected_heading_page": 37,
+      "expected_destination_page": 29,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E07",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 38,
+      "expected_heading_page": 38,
+      "expected_destination_page": 29,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E08",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 39,
+      "expected_heading_page": 39,
+      "expected_destination_page": 29,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E09",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 39,
+      "expected_heading_page": 39,
+      "expected_destination_page": 30,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E10",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 40,
+      "expected_heading_page": 40,
+      "expected_destination_page": 30,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO05-E11",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 41,
+      "expected_heading_page": 41,
+      "expected_destination_page": 30,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO06-E01",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 31,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO06-E02",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 31,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO06-E03",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 31,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO06-E04",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 44,
+      "expected_heading_page": 44,
+      "expected_destination_page": 31,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E01",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 47,
+      "expected_heading_page": 47,
+      "expected_destination_page": 32,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E02",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 48,
+      "expected_heading_page": 48,
+      "expected_destination_page": 32,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E03",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 49,
+      "expected_heading_page": 49,
+      "expected_destination_page": 32,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E04",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 49,
+      "expected_heading_page": 49,
+      "expected_destination_page": 32,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E05",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 50,
+      "expected_heading_page": 50,
+      "expected_destination_page": 32,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E06",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 50,
+      "expected_heading_page": 50,
+      "expected_destination_page": 33,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CO07-E07",
+      "file": "计算机组成原理_强化笔记.pdf",
+      "actual_heading_page": 51,
+      "expected_heading_page": 51,
+      "expected_destination_page": 33,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS01-E01",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 1,
+      "expected_heading_page": 1,
+      "expected_destination_page": 34,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS01-E02",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 3,
+      "expected_heading_page": 3,
+      "expected_destination_page": 34,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS01-E03",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 4,
+      "expected_heading_page": 4,
+      "expected_destination_page": 34,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS01-E04",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 4,
+      "expected_heading_page": 4,
+      "expected_destination_page": 34,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E01",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 7,
+      "expected_heading_page": 7,
+      "expected_destination_page": 35,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E02",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 9,
+      "expected_heading_page": 9,
+      "expected_destination_page": 35,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E03",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 9,
+      "expected_heading_page": 9,
+      "expected_destination_page": 35,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E04",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 9,
+      "expected_heading_page": 9,
+      "expected_destination_page": 35,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E05",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 36,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E06",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 36,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E07",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 37,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E08",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 11,
+      "expected_heading_page": 11,
+      "expected_destination_page": 37,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E09",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 12,
+      "expected_heading_page": 12,
+      "expected_destination_page": 37,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E10",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 12,
+      "expected_heading_page": 12,
+      "expected_destination_page": 37,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E11",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 13,
+      "expected_heading_page": 13,
+      "expected_destination_page": 37,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E12",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 14,
+      "expected_heading_page": 14,
+      "expected_destination_page": 38,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E13",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 14,
+      "expected_heading_page": 14,
+      "expected_destination_page": 38,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E14",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 16,
+      "expected_heading_page": 16,
+      "expected_destination_page": 38,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E15",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 17,
+      "expected_heading_page": 17,
+      "expected_destination_page": 39,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E16",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 17,
+      "expected_heading_page": 17,
+      "expected_destination_page": 39,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS02-E17",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 18,
+      "expected_heading_page": 18,
+      "expected_destination_page": 39,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E01",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 19,
+      "expected_heading_page": 19,
+      "expected_destination_page": 40,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E02",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 20,
+      "expected_heading_page": 20,
+      "expected_destination_page": 40,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E03",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 21,
+      "expected_heading_page": 21,
+      "expected_destination_page": 40,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E04",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 21,
+      "expected_heading_page": 21,
+      "expected_destination_page": 40,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E05",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 23,
+      "expected_heading_page": 23,
+      "expected_destination_page": 40,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E06",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 24,
+      "expected_heading_page": 24,
+      "expected_destination_page": 41,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E07",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 24,
+      "expected_heading_page": 24,
+      "expected_destination_page": 41,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E08",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 25,
+      "expected_heading_page": 25,
+      "expected_destination_page": 41,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS03-E09",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 25,
+      "expected_heading_page": 25,
+      "expected_destination_page": 41,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E01",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 27,
+      "expected_heading_page": 27,
+      "expected_destination_page": 42,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E02",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 28,
+      "expected_heading_page": 28,
+      "expected_destination_page": 43,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E03",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 29,
+      "expected_heading_page": 29,
+      "expected_destination_page": 43,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E04",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 29,
+      "expected_heading_page": 29,
+      "expected_destination_page": 43,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E05",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 30,
+      "expected_heading_page": 30,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E06",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 31,
+      "expected_heading_page": 31,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E07",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 32,
+      "expected_heading_page": 32,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS04-E08",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 33,
+      "expected_heading_page": 33,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E01",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 35,
+      "expected_heading_page": 35,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E02",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 36,
+      "expected_heading_page": 36,
+      "expected_destination_page": 44,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E03",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 37,
+      "expected_heading_page": 37,
+      "expected_destination_page": 45,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E04",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 38,
+      "expected_heading_page": 38,
+      "expected_destination_page": 45,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E05",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 38,
+      "expected_heading_page": 38,
+      "expected_destination_page": 45,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E06",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 39,
+      "expected_heading_page": 39,
+      "expected_destination_page": 45,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "OS05-E07",
+      "file": "操作系统_强化笔记.pdf",
+      "actual_heading_page": 39,
+      "expected_heading_page": 39,
+      "expected_destination_page": 45,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN01-E01",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 3,
+      "expected_heading_page": 3,
+      "expected_destination_page": 46,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN01-E02",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 3,
+      "expected_heading_page": 3,
+      "expected_destination_page": 46,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN01-E03",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 3,
+      "expected_heading_page": 3,
+      "expected_destination_page": 46,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN01-E04",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 4,
+      "expected_heading_page": 4,
+      "expected_destination_page": 46,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN02-E01",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 5,
+      "expected_heading_page": 5,
+      "expected_destination_page": 47,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN02-E02",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 5,
+      "expected_heading_page": 5,
+      "expected_destination_page": 47,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN02-E03",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 7,
+      "expected_heading_page": 7,
+      "expected_destination_page": 47,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E01",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 8,
+      "expected_heading_page": 8,
+      "expected_destination_page": 47,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E02",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 9,
+      "expected_heading_page": 9,
+      "expected_destination_page": 48,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E03",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 9,
+      "expected_heading_page": 9,
+      "expected_destination_page": 48,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E04",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 48,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E05",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 48,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E06",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 48,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E12",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 10,
+      "expected_heading_page": 10,
+      "expected_destination_page": 50,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E07",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 12,
+      "expected_heading_page": 12,
+      "expected_destination_page": 49,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E08",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 13,
+      "expected_heading_page": 13,
+      "expected_destination_page": 49,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E09",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 13,
+      "expected_heading_page": 13,
+      "expected_destination_page": 49,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E10",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 14,
+      "expected_heading_page": 14,
+      "expected_destination_page": 49,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN03-E11",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 15,
+      "expected_heading_page": 15,
+      "expected_destination_page": 49,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E01",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 16,
+      "expected_heading_page": 16,
+      "expected_destination_page": 50,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E02",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 18,
+      "expected_heading_page": 18,
+      "expected_destination_page": 50,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E03",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 18,
+      "expected_heading_page": 18,
+      "expected_destination_page": 50,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E04",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 19,
+      "expected_heading_page": 19,
+      "expected_destination_page": 51,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E05",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 19,
+      "expected_heading_page": 19,
+      "expected_destination_page": 51,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E11",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 19,
+      "expected_heading_page": 19,
+      "expected_destination_page": 52,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E06",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 20,
+      "expected_heading_page": 20,
+      "expected_destination_page": 51,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E07",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 21,
+      "expected_heading_page": 21,
+      "expected_destination_page": 52,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E08",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 21,
+      "expected_heading_page": 21,
+      "expected_destination_page": 52,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E09",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 22,
+      "expected_heading_page": 22,
+      "expected_destination_page": 52,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E12",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 23,
+      "expected_heading_page": 23,
+      "expected_destination_page": 53,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E10",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 24,
+      "expected_heading_page": 24,
+      "expected_destination_page": 52,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN04-E13",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 25,
+      "expected_heading_page": 25,
+      "expected_destination_page": 53,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E01",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 26,
+      "expected_heading_page": 26,
+      "expected_destination_page": 54,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E02",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 27,
+      "expected_heading_page": 27,
+      "expected_destination_page": 54,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E03",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 28,
+      "expected_heading_page": 28,
+      "expected_destination_page": 54,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E04",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 29,
+      "expected_heading_page": 29,
+      "expected_destination_page": 55,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E06",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 30,
+      "expected_heading_page": 30,
+      "expected_destination_page": 55,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E05",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 31,
+      "expected_heading_page": 31,
+      "expected_destination_page": 55,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E07",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 31,
+      "expected_heading_page": 31,
+      "expected_destination_page": 55,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E08",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 31,
+      "expected_heading_page": 31,
+      "expected_destination_page": 55,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN05-E09",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 32,
+      "expected_heading_page": 32,
+      "expected_destination_page": 56,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E01",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 35,
+      "expected_heading_page": 35,
+      "expected_destination_page": 57,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E02",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 35,
+      "expected_heading_page": 35,
+      "expected_destination_page": 57,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E03",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 36,
+      "expected_heading_page": 36,
+      "expected_destination_page": 57,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E04",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 37,
+      "expected_heading_page": 37,
+      "expected_destination_page": 57,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E05",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 37,
+      "expected_heading_page": 37,
+      "expected_destination_page": 58,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E06",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 38,
+      "expected_heading_page": 38,
+      "expected_destination_page": 58,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E07",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 38,
+      "expected_heading_page": 38,
+      "expected_destination_page": 58,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E08",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 38,
+      "expected_heading_page": 38,
+      "expected_destination_page": 59,
+      "checked_external_annotations": 2
+    },
+    {
+      "example_id": "CN06-E09",
+      "file": "计算机网络_强化笔记.pdf",
+      "actual_heading_page": 39,
+      "expected_heading_page": 39,
+      "expected_destination_page": 59,
+      "checked_external_annotations": 2
+    }
+  ],
+  "quick_answers": [
+    {
+      "example_id": "DS01-E01",
+      "quick_table_page": 1,
+      "printed_note_page": "1",
+      "printed_solution_page": "6",
+      "actual_destination_page": 6
+    },
+    {
+      "example_id": "DS01-E02",
+      "quick_table_page": 1,
+      "printed_note_page": "3",
+      "printed_solution_page": "6",
+      "actual_destination_page": 6
+    },
+    {
+      "example_id": "DS01-E03",
+      "quick_table_page": 1,
+      "printed_note_page": "3",
+      "printed_solution_page": "6",
+      "actual_destination_page": 6
+    },
+    {
+      "example_id": "DS01-E04",
+      "quick_table_page": 1,
+      "printed_note_page": "3",
+      "printed_solution_page": "6",
+      "actual_destination_page": 6
+    },
+    {
+      "example_id": "DS02-E01",
+      "quick_table_page": 1,
+      "printed_note_page": "5",
+      "printed_solution_page": "6",
+      "actual_destination_page": 6
+    },
+    {
+      "example_id": "DS02-E02",
+      "quick_table_page": 1,
+      "printed_note_page": "8",
+      "printed_solution_page": "6",
+      "actual_destination_page": 6
+    },
+    {
+      "example_id": "DS02-E03",
+      "quick_table_page": 1,
+      "printed_note_page": "9",
+      "printed_solution_page": "7",
+      "actual_destination_page": 7
+    },
+    {
+      "example_id": "DS02-E04",
+      "quick_table_page": 1,
+      "printed_note_page": "10",
+      "printed_solution_page": "7",
+      "actual_destination_page": 7
+    },
+    {
+      "example_id": "DS02-E05",
+      "quick_table_page": 1,
+      "printed_note_page": "10",
+      "printed_solution_page": "7",
+      "actual_destination_page": 7
+    },
+    {
+      "example_id": "DS02-E06",
+      "quick_table_page": 1,
+      "printed_note_page": "11",
+      "printed_solution_page": "8",
+      "actual_destination_page": 8
+    },
+    {
+      "example_id": "DS03-E01",
+      "quick_table_page": 1,
+      "printed_note_page": "12",
+      "printed_solution_page": "8",
+      "actual_destination_page": 8
+    },
+    {
+      "example_id": "DS03-E02",
+      "quick_table_page": 1,
+      "printed_note_page": "14",
+      "printed_solution_page": "9",
+      "actual_destination_page": 9
+    },
+    {
+      "example_id": "DS03-E03",
+      "quick_table_page": 1,
+      "printed_note_page": "18",
+      "printed_solution_page": "9",
+      "actual_destination_page": 9
+    },
+    {
+      "example_id": "DS03-E04",
+      "quick_table_page": 1,
+      "printed_note_page": "18",
+      "printed_solution_page": "10",
+      "actual_destination_page": 10
+    },
+    {
+      "example_id": "DS03-E05",
+      "quick_table_page": 1,
+      "printed_note_page": "16",
+      "printed_solution_page": "10",
+      "actual_destination_page": 10
+    },
+    {
+      "example_id": "DS04-E01",
+      "quick_table_page": 1,
+      "printed_note_page": "22",
+      "printed_solution_page": "10",
+      "actual_destination_page": 10
+    },
+    {
+      "example_id": "DS04-E02",
+      "quick_table_page": 1,
+      "printed_note_page": "23",
+      "printed_solution_page": "10",
+      "actual_destination_page": 10
+    },
+    {
+      "example_id": "DS05-E01",
+      "quick_table_page": 1,
+      "printed_note_page": "24",
+      "printed_solution_page": "11",
+      "actual_destination_page": 11
+    },
+    {
+      "example_id": "DS05-E02",
+      "quick_table_page": 1,
+      "printed_note_page": "25",
+      "printed_solution_page": "11",
+      "actual_destination_page": 11
+    },
+    {
+      "example_id": "DS05-E03",
+      "quick_table_page": 1,
+      "printed_note_page": "27",
+      "printed_solution_page": "11",
+      "actual_destination_page": 11
+    },
+    {
+      "example_id": "DS05-E04",
+      "quick_table_page": 1,
+      "printed_note_page": "30",
+      "printed_solution_page": "12",
+      "actual_destination_page": 12
+    },
+    {
+      "example_id": "DS05-E05",
+      "quick_table_page": 1,
+      "printed_note_page": "30",
+      "printed_solution_page": "13",
+      "actual_destination_page": 13
+    },
+    {
+      "example_id": "DS05-E06",
+      "quick_table_page": 1,
+      "printed_note_page": "30",
+      "printed_solution_page": "13",
+      "actual_destination_page": 13
+    },
+    {
+      "example_id": "DS06-E01",
+      "quick_table_page": 1,
+      "printed_note_page": "33",
+      "printed_solution_page": "13",
+      "actual_destination_page": 13
+    },
+    {
+      "example_id": "DS06-E02",
+      "quick_table_page": 1,
+      "printed_note_page": "35",
+      "printed_solution_page": "14",
+      "actual_destination_page": 14
+    },
+    {
+      "example_id": "DS06-E03",
+      "quick_table_page": 1,
+      "printed_note_page": "36",
+      "printed_solution_page": "14",
+      "actual_destination_page": 14
+    },
+    {
+      "example_id": "DS06-E04",
+      "quick_table_page": 1,
+      "printed_note_page": "37",
+      "printed_solution_page": "14",
+      "actual_destination_page": 14
+    },
+    {
+      "example_id": "DS06-E05",
+      "quick_table_page": 1,
+      "printed_note_page": "38",
+      "printed_solution_page": "14",
+      "actual_destination_page": 14
+    },
+    {
+      "example_id": "DS06-E06",
+      "quick_table_page": 1,
+      "printed_note_page": "39",
+      "printed_solution_page": "15",
+      "actual_destination_page": 15
+    },
+    {
+      "example_id": "DS07-E01",
+      "quick_table_page": 1,
+      "printed_note_page": "40",
+      "printed_solution_page": "15",
+      "actual_destination_page": 15
+    },
+    {
+      "example_id": "DS07-E02",
+      "quick_table_page": 1,
+      "printed_note_page": "41",
+      "printed_solution_page": "15",
+      "actual_destination_page": 15
+    },
+    {
+      "example_id": "DS07-E03",
+      "quick_table_page": 1,
+      "printed_note_page": "44",
+      "printed_solution_page": "16",
+      "actual_destination_page": 16
+    },
+    {
+      "example_id": "DS07-E04",
+      "quick_table_page": 1,
+      "printed_note_page": "44",
+      "printed_solution_page": "16",
+      "actual_destination_page": 16
+    },
+    {
+      "example_id": "DS07-E05",
+      "quick_table_page": 1,
+      "printed_note_page": "46",
+      "printed_solution_page": "16",
+      "actual_destination_page": 16
+    },
+    {
+      "example_id": "DS07-E06",
+      "quick_table_page": 1,
+      "printed_note_page": "46",
+      "printed_solution_page": "16",
+      "actual_destination_page": 16
+    },
+    {
+      "example_id": "DS07-E07",
+      "quick_table_page": 1,
+      "printed_note_page": "47",
+      "printed_solution_page": "17",
+      "actual_destination_page": 17
+    },
+    {
+      "example_id": "DS07-E08",
+      "quick_table_page": 1,
+      "printed_note_page": "47",
+      "printed_solution_page": "17",
+      "actual_destination_page": 17
+    },
+    {
+      "example_id": "DS08-E01",
+      "quick_table_page": 1,
+      "printed_note_page": "51",
+      "printed_solution_page": "17",
+      "actual_destination_page": 17
+    },
+    {
+      "example_id": "DS08-E02",
+      "quick_table_page": 1,
+      "printed_note_page": "52",
+      "printed_solution_page": "17",
+      "actual_destination_page": 17
+    },
+    {
+      "example_id": "DS08-E03",
+      "quick_table_page": 1,
+      "printed_note_page": "53",
+      "printed_solution_page": "17",
+      "actual_destination_page": 17
+    },
+    {
+      "example_id": "DS08-E04",
+      "quick_table_page": 1,
+      "printed_note_page": "53",
+      "printed_solution_page": "18",
+      "actual_destination_page": 18
+    },
+    {
+      "example_id": "DS08-E05",
+      "quick_table_page": 1,
+      "printed_note_page": "54",
+      "printed_solution_page": "18",
+      "actual_destination_page": 18
+    },
+    {
+      "example_id": "DS08-E06",
+      "quick_table_page": 1,
+      "printed_note_page": "55",
+      "printed_solution_page": "18",
+      "actual_destination_page": 18
+    },
+    {
+      "example_id": "DS08-E07",
+      "quick_table_page": 1,
+      "printed_note_page": "56",
+      "printed_solution_page": "19",
+      "actual_destination_page": 19
+    },
+    {
+      "example_id": "DS08-E08",
+      "quick_table_page": 1,
+      "printed_note_page": "56",
+      "printed_solution_page": "19",
+      "actual_destination_page": 19
+    },
+    {
+      "example_id": "DS08-E09",
+      "quick_table_page": 1,
+      "printed_note_page": "52",
+      "printed_solution_page": "19",
+      "actual_destination_page": 19
+    },
+    {
+      "example_id": "CO01-E01",
+      "quick_table_page": 2,
+      "printed_note_page": "60",
+      "printed_solution_page": "20",
+      "actual_destination_page": 20
+    },
+    {
+      "example_id": "CO01-E02",
+      "quick_table_page": 2,
+      "printed_note_page": "61",
+      "printed_solution_page": "20",
+      "actual_destination_page": 20
+    },
+    {
+      "example_id": "CO01-E03",
+      "quick_table_page": 2,
+      "printed_note_page": "61",
+      "printed_solution_page": "20",
+      "actual_destination_page": 20
+    },
+    {
+      "example_id": "CO02-E01",
+      "quick_table_page": 2,
+      "printed_note_page": "63",
+      "printed_solution_page": "20",
+      "actual_destination_page": 20
+    },
+    {
+      "example_id": "CO02-E02",
+      "quick_table_page": 2,
+      "printed_note_page": "64",
+      "printed_solution_page": "21",
+      "actual_destination_page": 21
+    },
+    {
+      "example_id": "CO02-E03",
+      "quick_table_page": 2,
+      "printed_note_page": "64",
+      "printed_solution_page": "21",
+      "actual_destination_page": 21
+    },
+    {
+      "example_id": "CO02-E04",
+      "quick_table_page": 2,
+      "printed_note_page": "66",
+      "printed_solution_page": "21",
+      "actual_destination_page": 21
+    },
+    {
+      "example_id": "CO02-E05",
+      "quick_table_page": 2,
+      "printed_note_page": "66",
+      "printed_solution_page": "21",
+      "actual_destination_page": 21
+    },
+    {
+      "example_id": "CO02-E06",
+      "quick_table_page": 2,
+      "printed_note_page": "67",
+      "printed_solution_page": "22",
+      "actual_destination_page": 22
+    },
+    {
+      "example_id": "CO02-E07",
+      "quick_table_page": 2,
+      "printed_note_page": "69",
+      "printed_solution_page": "22",
+      "actual_destination_page": 22
+    },
+    {
+      "example_id": "CO02-E08",
+      "quick_table_page": 2,
+      "printed_note_page": "70",
+      "printed_solution_page": "22",
+      "actual_destination_page": 22
+    },
+    {
+      "example_id": "CO02-E09",
+      "quick_table_page": 2,
+      "printed_note_page": "70",
+      "printed_solution_page": "22",
+      "actual_destination_page": 22
+    },
+    {
+      "example_id": "CO02-E10",
+      "quick_table_page": 2,
+      "printed_note_page": "71",
+      "printed_solution_page": "22",
+      "actual_destination_page": 22
+    },
+    {
+      "example_id": "CO02-E11",
+      "quick_table_page": 2,
+      "printed_note_page": "72",
+      "printed_solution_page": "23",
+      "actual_destination_page": 23
+    },
+    {
+      "example_id": "CO03-E01",
+      "quick_table_page": 2,
+      "printed_note_page": "74",
+      "printed_solution_page": "23",
+      "actual_destination_page": 23
+    },
+    {
+      "example_id": "CO03-E02",
+      "quick_table_page": 2,
+      "printed_note_page": "74",
+      "printed_solution_page": "23",
+      "actual_destination_page": 23
+    },
+    {
+      "example_id": "CO03-E03",
+      "quick_table_page": 2,
+      "printed_note_page": "75",
+      "printed_solution_page": "23",
+      "actual_destination_page": 23
+    },
+    {
+      "example_id": "CO03-E04",
+      "quick_table_page": 2,
+      "printed_note_page": "75",
+      "printed_solution_page": "24",
+      "actual_destination_page": 24
+    },
+    {
+      "example_id": "CO03-E05",
+      "quick_table_page": 2,
+      "printed_note_page": "77",
+      "printed_solution_page": "24",
+      "actual_destination_page": 24
+    },
+    {
+      "example_id": "CO03-E06",
+      "quick_table_page": 2,
+      "printed_note_page": "78",
+      "printed_solution_page": "24",
+      "actual_destination_page": 24
+    },
+    {
+      "example_id": "CO03-E07",
+      "quick_table_page": 2,
+      "printed_note_page": "79",
+      "printed_solution_page": "24",
+      "actual_destination_page": 24
+    },
+    {
+      "example_id": "CO03-E08",
+      "quick_table_page": 2,
+      "printed_note_page": "79",
+      "printed_solution_page": "25",
+      "actual_destination_page": 25
+    },
+    {
+      "example_id": "CO03-E09",
+      "quick_table_page": 2,
+      "printed_note_page": "81",
+      "printed_solution_page": "25",
+      "actual_destination_page": 25
+    },
+    {
+      "example_id": "CO03-E10",
+      "quick_table_page": 2,
+      "printed_note_page": "81",
+      "printed_solution_page": "25",
+      "actual_destination_page": 25
+    },
+    {
+      "example_id": "CO03-E11",
+      "quick_table_page": 2,
+      "printed_note_page": "82",
+      "printed_solution_page": "25",
+      "actual_destination_page": 25
+    },
+    {
+      "example_id": "CO03-E12",
+      "quick_table_page": 2,
+      "printed_note_page": "83",
+      "printed_solution_page": "26",
+      "actual_destination_page": 26
+    },
+    {
+      "example_id": "CO03-E13",
+      "quick_table_page": 2,
+      "printed_note_page": "83",
+      "printed_solution_page": "26",
+      "actual_destination_page": 26
+    },
+    {
+      "example_id": "CO04-E01",
+      "quick_table_page": 2,
+      "printed_note_page": "85",
+      "printed_solution_page": "27",
+      "actual_destination_page": 27
+    },
+    {
+      "example_id": "CO04-E02",
+      "quick_table_page": 2,
+      "printed_note_page": "86",
+      "printed_solution_page": "27",
+      "actual_destination_page": 27
+    },
+    {
+      "example_id": "CO04-E03",
+      "quick_table_page": 2,
+      "printed_note_page": "86",
+      "printed_solution_page": "27",
+      "actual_destination_page": 27
+    },
+    {
+      "example_id": "CO04-E04",
+      "quick_table_page": 2,
+      "printed_note_page": "87",
+      "printed_solution_page": "27",
+      "actual_destination_page": 27
+    },
+    {
+      "example_id": "CO04-E05",
+      "quick_table_page": 2,
+      "printed_note_page": "89",
+      "printed_solution_page": "27",
+      "actual_destination_page": 27
+    },
+    {
+      "example_id": "CO05-E01",
+      "quick_table_page": 2,
+      "printed_note_page": "91",
+      "printed_solution_page": "28",
+      "actual_destination_page": 28
+    },
+    {
+      "example_id": "CO05-E02",
+      "quick_table_page": 2,
+      "printed_note_page": "92",
+      "printed_solution_page": "28",
+      "actual_destination_page": 28
+    },
+    {
+      "example_id": "CO05-E03",
+      "quick_table_page": 2,
+      "printed_note_page": "93",
+      "printed_solution_page": "28",
+      "actual_destination_page": 28
+    },
+    {
+      "example_id": "CO05-E04",
+      "quick_table_page": 2,
+      "printed_note_page": "94",
+      "printed_solution_page": "29",
+      "actual_destination_page": 29
+    },
+    {
+      "example_id": "CO05-E05",
+      "quick_table_page": 2,
+      "printed_note_page": "94",
+      "printed_solution_page": "29",
+      "actual_destination_page": 29
+    },
+    {
+      "example_id": "CO05-E06",
+      "quick_table_page": 2,
+      "printed_note_page": "94",
+      "printed_solution_page": "29",
+      "actual_destination_page": 29
+    },
+    {
+      "example_id": "CO05-E07",
+      "quick_table_page": 3,
+      "printed_note_page": "95",
+      "printed_solution_page": "29",
+      "actual_destination_page": 29
+    },
+    {
+      "example_id": "CO05-E08",
+      "quick_table_page": 3,
+      "printed_note_page": "96",
+      "printed_solution_page": "29",
+      "actual_destination_page": 29
+    },
+    {
+      "example_id": "CO05-E09",
+      "quick_table_page": 3,
+      "printed_note_page": "96",
+      "printed_solution_page": "30",
+      "actual_destination_page": 30
+    },
+    {
+      "example_id": "CO05-E10",
+      "quick_table_page": 3,
+      "printed_note_page": "97",
+      "printed_solution_page": "30",
+      "actual_destination_page": 30
+    },
+    {
+      "example_id": "CO05-E11",
+      "quick_table_page": 3,
+      "printed_note_page": "98",
+      "printed_solution_page": "30",
+      "actual_destination_page": 30
+    },
+    {
+      "example_id": "CO06-E01",
+      "quick_table_page": 3,
+      "printed_note_page": "101",
+      "printed_solution_page": "31",
+      "actual_destination_page": 31
+    },
+    {
+      "example_id": "CO06-E02",
+      "quick_table_page": 3,
+      "printed_note_page": "101",
+      "printed_solution_page": "31",
+      "actual_destination_page": 31
+    },
+    {
+      "example_id": "CO06-E03",
+      "quick_table_page": 3,
+      "printed_note_page": "101",
+      "printed_solution_page": "31",
+      "actual_destination_page": 31
+    },
+    {
+      "example_id": "CO06-E04",
+      "quick_table_page": 3,
+      "printed_note_page": "101",
+      "printed_solution_page": "31",
+      "actual_destination_page": 31
+    },
+    {
+      "example_id": "CO07-E01",
+      "quick_table_page": 3,
+      "printed_note_page": "104",
+      "printed_solution_page": "32",
+      "actual_destination_page": 32
+    },
+    {
+      "example_id": "CO07-E02",
+      "quick_table_page": 3,
+      "printed_note_page": "105",
+      "printed_solution_page": "32",
+      "actual_destination_page": 32
+    },
+    {
+      "example_id": "CO07-E03",
+      "quick_table_page": 3,
+      "printed_note_page": "106",
+      "printed_solution_page": "32",
+      "actual_destination_page": 32
+    },
+    {
+      "example_id": "CO07-E04",
+      "quick_table_page": 3,
+      "printed_note_page": "106",
+      "printed_solution_page": "32",
+      "actual_destination_page": 32
+    },
+    {
+      "example_id": "CO07-E05",
+      "quick_table_page": 3,
+      "printed_note_page": "107",
+      "printed_solution_page": "32",
+      "actual_destination_page": 32
+    },
+    {
+      "example_id": "CO07-E06",
+      "quick_table_page": 3,
+      "printed_note_page": "107",
+      "printed_solution_page": "33",
+      "actual_destination_page": 33
+    },
+    {
+      "example_id": "CO07-E07",
+      "quick_table_page": 3,
+      "printed_note_page": "108",
+      "printed_solution_page": "33",
+      "actual_destination_page": 33
+    },
+    {
+      "example_id": "OS01-E01",
+      "quick_table_page": 3,
+      "printed_note_page": "109",
+      "printed_solution_page": "34",
+      "actual_destination_page": 34
+    },
+    {
+      "example_id": "OS01-E02",
+      "quick_table_page": 3,
+      "printed_note_page": "111",
+      "printed_solution_page": "34",
+      "actual_destination_page": 34
+    },
+    {
+      "example_id": "OS01-E03",
+      "quick_table_page": 3,
+      "printed_note_page": "112",
+      "printed_solution_page": "34",
+      "actual_destination_page": 34
+    },
+    {
+      "example_id": "OS01-E04",
+      "quick_table_page": 3,
+      "printed_note_page": "112",
+      "printed_solution_page": "34",
+      "actual_destination_page": 34
+    },
+    {
+      "example_id": "OS02-E01",
+      "quick_table_page": 3,
+      "printed_note_page": "115",
+      "printed_solution_page": "35",
+      "actual_destination_page": 35
+    },
+    {
+      "example_id": "OS02-E02",
+      "quick_table_page": 3,
+      "printed_note_page": "117",
+      "printed_solution_page": "35",
+      "actual_destination_page": 35
+    },
+    {
+      "example_id": "OS02-E03",
+      "quick_table_page": 3,
+      "printed_note_page": "117",
+      "printed_solution_page": "35",
+      "actual_destination_page": 35
+    },
+    {
+      "example_id": "OS02-E04",
+      "quick_table_page": 3,
+      "printed_note_page": "117",
+      "printed_solution_page": "35",
+      "actual_destination_page": 35
+    },
+    {
+      "example_id": "OS02-E05",
+      "quick_table_page": 3,
+      "printed_note_page": "118",
+      "printed_solution_page": "36",
+      "actual_destination_page": 36
+    },
+    {
+      "example_id": "OS02-E06",
+      "quick_table_page": 3,
+      "printed_note_page": "118",
+      "printed_solution_page": "36",
+      "actual_destination_page": 36
+    },
+    {
+      "example_id": "OS02-E07",
+      "quick_table_page": 3,
+      "printed_note_page": "118",
+      "printed_solution_page": "37",
+      "actual_destination_page": 37
+    },
+    {
+      "example_id": "OS02-E08",
+      "quick_table_page": 3,
+      "printed_note_page": "119",
+      "printed_solution_page": "37",
+      "actual_destination_page": 37
+    },
+    {
+      "example_id": "OS02-E09",
+      "quick_table_page": 3,
+      "printed_note_page": "120",
+      "printed_solution_page": "37",
+      "actual_destination_page": 37
+    },
+    {
+      "example_id": "OS02-E10",
+      "quick_table_page": 3,
+      "printed_note_page": "120",
+      "printed_solution_page": "37",
+      "actual_destination_page": 37
+    },
+    {
+      "example_id": "OS02-E11",
+      "quick_table_page": 3,
+      "printed_note_page": "121",
+      "printed_solution_page": "37",
+      "actual_destination_page": 37
+    },
+    {
+      "example_id": "OS02-E12",
+      "quick_table_page": 3,
+      "printed_note_page": "122",
+      "printed_solution_page": "38",
+      "actual_destination_page": 38
+    },
+    {
+      "example_id": "OS02-E13",
+      "quick_table_page": 3,
+      "printed_note_page": "122",
+      "printed_solution_page": "38",
+      "actual_destination_page": 38
+    },
+    {
+      "example_id": "OS02-E14",
+      "quick_table_page": 3,
+      "printed_note_page": "124",
+      "printed_solution_page": "38",
+      "actual_destination_page": 38
+    },
+    {
+      "example_id": "OS02-E15",
+      "quick_table_page": 3,
+      "printed_note_page": "125",
+      "printed_solution_page": "39",
+      "actual_destination_page": 39
+    },
+    {
+      "example_id": "OS02-E16",
+      "quick_table_page": 3,
+      "printed_note_page": "125",
+      "printed_solution_page": "39",
+      "actual_destination_page": 39
+    },
+    {
+      "example_id": "OS02-E17",
+      "quick_table_page": 3,
+      "printed_note_page": "126",
+      "printed_solution_page": "39",
+      "actual_destination_page": 39
+    },
+    {
+      "example_id": "OS03-E01",
+      "quick_table_page": 3,
+      "printed_note_page": "127",
+      "printed_solution_page": "40",
+      "actual_destination_page": 40
+    },
+    {
+      "example_id": "OS03-E02",
+      "quick_table_page": 3,
+      "printed_note_page": "128",
+      "printed_solution_page": "40",
+      "actual_destination_page": 40
+    },
+    {
+      "example_id": "OS03-E03",
+      "quick_table_page": 3,
+      "printed_note_page": "129",
+      "printed_solution_page": "40",
+      "actual_destination_page": 40
+    },
+    {
+      "example_id": "OS03-E04",
+      "quick_table_page": 3,
+      "printed_note_page": "129",
+      "printed_solution_page": "40",
+      "actual_destination_page": 40
+    },
+    {
+      "example_id": "OS03-E05",
+      "quick_table_page": 3,
+      "printed_note_page": "131",
+      "printed_solution_page": "40",
+      "actual_destination_page": 40
+    },
+    {
+      "example_id": "OS03-E06",
+      "quick_table_page": 3,
+      "printed_note_page": "132",
+      "printed_solution_page": "41",
+      "actual_destination_page": 41
+    },
+    {
+      "example_id": "OS03-E07",
+      "quick_table_page": 3,
+      "printed_note_page": "132",
+      "printed_solution_page": "41",
+      "actual_destination_page": 41
+    },
+    {
+      "example_id": "OS03-E08",
+      "quick_table_page": 4,
+      "printed_note_page": "133",
+      "printed_solution_page": "41",
+      "actual_destination_page": 41
+    },
+    {
+      "example_id": "OS03-E09",
+      "quick_table_page": 4,
+      "printed_note_page": "133",
+      "printed_solution_page": "41",
+      "actual_destination_page": 41
+    },
+    {
+      "example_id": "OS04-E01",
+      "quick_table_page": 4,
+      "printed_note_page": "135",
+      "printed_solution_page": "42",
+      "actual_destination_page": 42
+    },
+    {
+      "example_id": "OS04-E02",
+      "quick_table_page": 4,
+      "printed_note_page": "136",
+      "printed_solution_page": "43",
+      "actual_destination_page": 43
+    },
+    {
+      "example_id": "OS04-E03",
+      "quick_table_page": 4,
+      "printed_note_page": "137",
+      "printed_solution_page": "43",
+      "actual_destination_page": 43
+    },
+    {
+      "example_id": "OS04-E04",
+      "quick_table_page": 4,
+      "printed_note_page": "137",
+      "printed_solution_page": "43",
+      "actual_destination_page": 43
+    },
+    {
+      "example_id": "OS04-E05",
+      "quick_table_page": 4,
+      "printed_note_page": "138",
+      "printed_solution_page": "44",
+      "actual_destination_page": 44
+    },
+    {
+      "example_id": "OS04-E06",
+      "quick_table_page": 4,
+      "printed_note_page": "139",
+      "printed_solution_page": "44",
+      "actual_destination_page": 44
+    },
+    {
+      "example_id": "OS04-E07",
+      "quick_table_page": 4,
+      "printed_note_page": "140",
+      "printed_solution_page": "44",
+      "actual_destination_page": 44
+    },
+    {
+      "example_id": "OS04-E08",
+      "quick_table_page": 4,
+      "printed_note_page": "141",
+      "printed_solution_page": "44",
+      "actual_destination_page": 44
+    },
+    {
+      "example_id": "OS05-E01",
+      "quick_table_page": 4,
+      "printed_note_page": "143",
+      "printed_solution_page": "44",
+      "actual_destination_page": 44
+    },
+    {
+      "example_id": "OS05-E02",
+      "quick_table_page": 4,
+      "printed_note_page": "144",
+      "printed_solution_page": "44",
+      "actual_destination_page": 44
+    },
+    {
+      "example_id": "OS05-E03",
+      "quick_table_page": 4,
+      "printed_note_page": "145",
+      "printed_solution_page": "45",
+      "actual_destination_page": 45
+    },
+    {
+      "example_id": "OS05-E04",
+      "quick_table_page": 4,
+      "printed_note_page": "146",
+      "printed_solution_page": "45",
+      "actual_destination_page": 45
+    },
+    {
+      "example_id": "OS05-E05",
+      "quick_table_page": 4,
+      "printed_note_page": "146",
+      "printed_solution_page": "45",
+      "actual_destination_page": 45
+    },
+    {
+      "example_id": "OS05-E06",
+      "quick_table_page": 4,
+      "printed_note_page": "147",
+      "printed_solution_page": "45",
+      "actual_destination_page": 45
+    },
+    {
+      "example_id": "OS05-E07",
+      "quick_table_page": 4,
+      "printed_note_page": "147",
+      "printed_solution_page": "45",
+      "actual_destination_page": 45
+    },
+    {
+      "example_id": "CN01-E01",
+      "quick_table_page": 4,
+      "printed_note_page": "150",
+      "printed_solution_page": "46",
+      "actual_destination_page": 46
+    },
+    {
+      "example_id": "CN01-E02",
+      "quick_table_page": 4,
+      "printed_note_page": "150",
+      "printed_solution_page": "46",
+      "actual_destination_page": 46
+    },
+    {
+      "example_id": "CN01-E03",
+      "quick_table_page": 4,
+      "printed_note_page": "150",
+      "printed_solution_page": "46",
+      "actual_destination_page": 46
+    },
+    {
+      "example_id": "CN01-E04",
+      "quick_table_page": 4,
+      "printed_note_page": "151",
+      "printed_solution_page": "46",
+      "actual_destination_page": 46
+    },
+    {
+      "example_id": "CN02-E01",
+      "quick_table_page": 4,
+      "printed_note_page": "152",
+      "printed_solution_page": "47",
+      "actual_destination_page": 47
+    },
+    {
+      "example_id": "CN02-E02",
+      "quick_table_page": 4,
+      "printed_note_page": "152",
+      "printed_solution_page": "47",
+      "actual_destination_page": 47
+    },
+    {
+      "example_id": "CN02-E03",
+      "quick_table_page": 4,
+      "printed_note_page": "154",
+      "printed_solution_page": "47",
+      "actual_destination_page": 47
+    },
+    {
+      "example_id": "CN03-E01",
+      "quick_table_page": 4,
+      "printed_note_page": "155",
+      "printed_solution_page": "47",
+      "actual_destination_page": 47
+    },
+    {
+      "example_id": "CN03-E02",
+      "quick_table_page": 4,
+      "printed_note_page": "156",
+      "printed_solution_page": "48",
+      "actual_destination_page": 48
+    },
+    {
+      "example_id": "CN03-E03",
+      "quick_table_page": 4,
+      "printed_note_page": "156",
+      "printed_solution_page": "48",
+      "actual_destination_page": 48
+    },
+    {
+      "example_id": "CN03-E04",
+      "quick_table_page": 4,
+      "printed_note_page": "157",
+      "printed_solution_page": "48",
+      "actual_destination_page": 48
+    },
+    {
+      "example_id": "CN03-E05",
+      "quick_table_page": 4,
+      "printed_note_page": "157",
+      "printed_solution_page": "48",
+      "actual_destination_page": 48
+    },
+    {
+      "example_id": "CN03-E06",
+      "quick_table_page": 4,
+      "printed_note_page": "157",
+      "printed_solution_page": "48",
+      "actual_destination_page": 48
+    },
+    {
+      "example_id": "CN03-E07",
+      "quick_table_page": 4,
+      "printed_note_page": "159",
+      "printed_solution_page": "49",
+      "actual_destination_page": 49
+    },
+    {
+      "example_id": "CN03-E08",
+      "quick_table_page": 4,
+      "printed_note_page": "160",
+      "printed_solution_page": "49",
+      "actual_destination_page": 49
+    },
+    {
+      "example_id": "CN03-E09",
+      "quick_table_page": 4,
+      "printed_note_page": "160",
+      "printed_solution_page": "49",
+      "actual_destination_page": 49
+    },
+    {
+      "example_id": "CN03-E10",
+      "quick_table_page": 4,
+      "printed_note_page": "161",
+      "printed_solution_page": "49",
+      "actual_destination_page": 49
+    },
+    {
+      "example_id": "CN03-E11",
+      "quick_table_page": 4,
+      "printed_note_page": "162",
+      "printed_solution_page": "49",
+      "actual_destination_page": 49
+    },
+    {
+      "example_id": "CN03-E12",
+      "quick_table_page": 4,
+      "printed_note_page": "157",
+      "printed_solution_page": "50",
+      "actual_destination_page": 50
+    },
+    {
+      "example_id": "CN04-E01",
+      "quick_table_page": 4,
+      "printed_note_page": "163",
+      "printed_solution_page": "50",
+      "actual_destination_page": 50
+    },
+    {
+      "example_id": "CN04-E02",
+      "quick_table_page": 4,
+      "printed_note_page": "165",
+      "printed_solution_page": "50",
+      "actual_destination_page": 50
+    },
+    {
+      "example_id": "CN04-E03",
+      "quick_table_page": 4,
+      "printed_note_page": "165",
+      "printed_solution_page": "50",
+      "actual_destination_page": 50
+    },
+    {
+      "example_id": "CN04-E04",
+      "quick_table_page": 4,
+      "printed_note_page": "166",
+      "printed_solution_page": "51",
+      "actual_destination_page": 51
+    },
+    {
+      "example_id": "CN04-E05",
+      "quick_table_page": 4,
+      "printed_note_page": "166",
+      "printed_solution_page": "51",
+      "actual_destination_page": 51
+    },
+    {
+      "example_id": "CN04-E06",
+      "quick_table_page": 4,
+      "printed_note_page": "167",
+      "printed_solution_page": "51",
+      "actual_destination_page": 51
+    },
+    {
+      "example_id": "CN04-E07",
+      "quick_table_page": 4,
+      "printed_note_page": "168",
+      "printed_solution_page": "52",
+      "actual_destination_page": 52
+    },
+    {
+      "example_id": "CN04-E08",
+      "quick_table_page": 4,
+      "printed_note_page": "168",
+      "printed_solution_page": "52",
+      "actual_destination_page": 52
+    },
+    {
+      "example_id": "CN04-E09",
+      "quick_table_page": 5,
+      "printed_note_page": "169",
+      "printed_solution_page": "52",
+      "actual_destination_page": 52
+    },
+    {
+      "example_id": "CN04-E10",
+      "quick_table_page": 5,
+      "printed_note_page": "171",
+      "printed_solution_page": "52",
+      "actual_destination_page": 52
+    },
+    {
+      "example_id": "CN04-E11",
+      "quick_table_page": 5,
+      "printed_note_page": "166",
+      "printed_solution_page": "52",
+      "actual_destination_page": 52
+    },
+    {
+      "example_id": "CN04-E12",
+      "quick_table_page": 5,
+      "printed_note_page": "170",
+      "printed_solution_page": "53",
+      "actual_destination_page": 53
+    },
+    {
+      "example_id": "CN04-E13",
+      "quick_table_page": 5,
+      "printed_note_page": "172",
+      "printed_solution_page": "53",
+      "actual_destination_page": 53
+    },
+    {
+      "example_id": "CN05-E01",
+      "quick_table_page": 5,
+      "printed_note_page": "173",
+      "printed_solution_page": "54",
+      "actual_destination_page": 54
+    },
+    {
+      "example_id": "CN05-E02",
+      "quick_table_page": 5,
+      "printed_note_page": "174",
+      "printed_solution_page": "54",
+      "actual_destination_page": 54
+    },
+    {
+      "example_id": "CN05-E03",
+      "quick_table_page": 5,
+      "printed_note_page": "175",
+      "printed_solution_page": "54",
+      "actual_destination_page": 54
+    },
+    {
+      "example_id": "CN05-E04",
+      "quick_table_page": 5,
+      "printed_note_page": "176",
+      "printed_solution_page": "55",
+      "actual_destination_page": 55
+    },
+    {
+      "example_id": "CN05-E05",
+      "quick_table_page": 5,
+      "printed_note_page": "178",
+      "printed_solution_page": "55",
+      "actual_destination_page": 55
+    },
+    {
+      "example_id": "CN05-E06",
+      "quick_table_page": 5,
+      "printed_note_page": "177",
+      "printed_solution_page": "55",
+      "actual_destination_page": 55
+    },
+    {
+      "example_id": "CN05-E07",
+      "quick_table_page": 5,
+      "printed_note_page": "178",
+      "printed_solution_page": "55",
+      "actual_destination_page": 55
+    },
+    {
+      "example_id": "CN05-E08",
+      "quick_table_page": 5,
+      "printed_note_page": "178",
+      "printed_solution_page": "55",
+      "actual_destination_page": 55
+    },
+    {
+      "example_id": "CN05-E09",
+      "quick_table_page": 5,
+      "printed_note_page": "179",
+      "printed_solution_page": "56",
+      "actual_destination_page": 56
+    },
+    {
+      "example_id": "CN06-E01",
+      "quick_table_page": 5,
+      "printed_note_page": "182",
+      "printed_solution_page": "57",
+      "actual_destination_page": 57
+    },
+    {
+      "example_id": "CN06-E02",
+      "quick_table_page": 5,
+      "printed_note_page": "182",
+      "printed_solution_page": "57",
+      "actual_destination_page": 57
+    },
+    {
+      "example_id": "CN06-E03",
+      "quick_table_page": 5,
+      "printed_note_page": "183",
+      "printed_solution_page": "57",
+      "actual_destination_page": 57
+    },
+    {
+      "example_id": "CN06-E04",
+      "quick_table_page": 5,
+      "printed_note_page": "184",
+      "printed_solution_page": "57",
+      "actual_destination_page": 57
+    },
+    {
+      "example_id": "CN06-E05",
+      "quick_table_page": 5,
+      "printed_note_page": "184",
+      "printed_solution_page": "58",
+      "actual_destination_page": 58
+    },
+    {
+      "example_id": "CN06-E06",
+      "quick_table_page": 5,
+      "printed_note_page": "185",
+      "printed_solution_page": "58",
+      "actual_destination_page": 58
+    },
+    {
+      "example_id": "CN06-E07",
+      "quick_table_page": 5,
+      "printed_note_page": "185",
+      "printed_solution_page": "58",
+      "actual_destination_page": 58
+    },
+    {
+      "example_id": "CN06-E08",
+      "quick_table_page": 5,
+      "printed_note_page": "185",
+      "printed_solution_page": "59",
+      "actual_destination_page": 59
+    },
+    {
+      "example_id": "CN06-E09",
+      "quick_table_page": 5,
+      "printed_note_page": "186",
+      "printed_solution_page": "59",
+      "actual_destination_page": 59
+    }
+  ]
+}

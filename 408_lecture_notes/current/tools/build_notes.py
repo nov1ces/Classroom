@@ -91,6 +91,11 @@ def table_tex(obj,api):
  ret.append(r'\par\smallskip')
  return '\n'.join(ret)
 
+def tex_symbols(text):
+ for char,roman in zip('ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ',['I','II','III','IV','V','VI','VII','VIII','IX','X']):text=text.replace(char,r'\ensuremath{\mathrm{'+roman+'}}')
+ for char in '①②③④⑤⑥⑦⑧⑨⑩':text=text.replace(char,r'{\SNsymbolfont '+char+'}')
+ return text
+
 def prepare(ch):
  (ch/'build').mkdir(exist_ok=True)
  for p in COMMON.iterdir():
@@ -140,6 +145,7 @@ def prepare(ch):
   return x
  doc['blocks']=walk(doc['blocks'])
  latex=cmd(['pandoc','-f','json','-t','latex','--top-level-division=chapter','--wrap=none','--no-highlight'],data=json.dumps(doc,ensure_ascii=False))
+ latex=tex_symbols(latex)
  (ch/'chapter.tex').write_text(latex)
  jwrite(ch/'sources/anchor_titles.json',titles)
  meta=read(ch/'map.json');title=meta['title'];num=int(ch.name[2:])-1

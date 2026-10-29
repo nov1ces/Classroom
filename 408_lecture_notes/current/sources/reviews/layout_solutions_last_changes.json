@@ -1,0 +1,55 @@
+{
+  "review": "final solutions-book review of last changed pages",
+  "pdf": "books/408强化例题解析.pdf",
+  "pdf_sha256": "530209f94f09ccfc2fcb28a9a88449bb3e58185291ee25d46b699f22bf4037a8",
+  "reviewer": "Luna",
+  "viewed_pages": [
+    2,
+    3,
+    4,
+    5,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+  ],
+  "method": "逐张使用 view_image original 查看上述最终 PDF 完整页面，重点复核题头、索引表、短代码块、中央处理器章节分页，以及 CO07-E06/E07 原解析截图裁切。 对第 31 页页顶时序表再以 PDF 文本抽取及 300 dpi 局部图复核。",
+  "verified_changes": [
+    {
+      "pages": [
+        27,
+        28
+      ],
+      "detail": "短代码块完整保留在第 28 页，没有跨页拆开。"
+    },
+    {
+      "page": 28,
+      "detail": "“中央处理器”章节题头与本页正文相随，未落在页底或与内容分离。"
+    },
+    {
+      "page": 33,
+      "detail": "CO07-E06/E07 对应答案与解析截图区域已清理；未见前题残字或截图上沿残片，解析文字可读。"
+    },
+    {
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "detail": "答案速查表的题号、答案、正文页、解析页列头清晰，跨页和分科处可辨。"
+    },
+    {
+      "pages": [
+        30,
+        31
+      ],
+      "detail": "流水线时序表跨页后，第 31 页页顶清晰重复显示“指令、IF、ID 成功、EX、M、WB/流出”列头，随后为 I2–I5；PDF 文本抽取与 300 dpi 局部图均确认列头存在。"
+    }
+  ],
+  "findings": [],
+  "status": "passed"
+}

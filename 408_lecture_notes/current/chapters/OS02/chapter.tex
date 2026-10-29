@@ -642,6 +642,8 @@ get() {
 
 安全序列保证每个进程的最大剩余需求可由当时可用量及前者归还量满足。安全表示存在至少一条完整序列；序列可不唯一，也无须强制按其执行。死锁必不安全，不安全可能尚未死锁。
 
+\Needspace{8\baselineskip}
+
 \section{死锁预防、避免与解除}\label{OS02-deadlock-strategies}
 
 \par\smallskip
@@ -675,13 +677,13 @@ get() {
 
 若系统 S1 采用死锁避免方法，S2 采用死锁检测方法。下列叙述中，正确的是（　）。
 
-Ⅰ. S1 会限制用户申请资源的顺序，而 S2 不会
+\ensuremath{\mathrm{I}}. S1 会限制用户申请资源的顺序，而 S2 不会
 
-Ⅱ. S1 需要进程运行所需的资源总量信息，而 S2 不需要
+\ensuremath{\mathrm{II}}. S1 需要进程运行所需的资源总量信息，而 S2 不需要
 
-Ⅲ. S1 不会给可能导致死锁的进程分配资源，而 S2 会
+\ensuremath{\mathrm{III}}. S1 不会给可能导致死锁的进程分配资源，而 S2 会
 
-A. 仅Ⅰ、Ⅱ　　B. 仅Ⅱ、Ⅲ　　C. 仅Ⅰ、Ⅲ　　D. Ⅰ、Ⅱ、Ⅲ
+A. 仅\ensuremath{\mathrm{I}}、\ensuremath{\mathrm{II}}　　B. 仅\ensuremath{\mathrm{II}}、\ensuremath{\mathrm{III}}　　C. 仅\ensuremath{\mathrm{I}}、\ensuremath{\mathrm{III}}　　D. \ensuremath{\mathrm{I}}、\ensuremath{\mathrm{II}}、\ensuremath{\mathrm{III}}
 
 仅降低死锁者优先级无法使其释放资源。预防改变请求规则，避免依据当前状态和最大需求，检测依据当前等待请求。
 
@@ -699,7 +701,7 @@ while 存在 i 满足 !Finish[i] && Need[i]<=Work:
 \end{codeblock}
 \end{minipage}\par\smallskip
 
-模拟中借出的 Need 随完成归还相抵，净增为原 Allocation。检查新请求 \(Q_i\)：① \(Q_i\le Need_i\)；② \(Q_i\le Available\)；③试减 Available、试增 Allocation、试减 Need，完整执行安全检查，安全则提交，否则回滚并等待。
+模拟中借出的 Need 随完成归还相抵，净增为原 Allocation。检查新请求 \(Q_i\)：{\SNsymbolfont ①} \(Q_i\le Need_i\)；{\SNsymbolfont ②} \(Q_i\le Available\)；{\SNsymbolfont ③}试减 Available、试增 Allocation、试减 Need，完整执行安全检查，安全则提交，否则回滚并等待。
 
 \par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{OS02-E16}{}\label{OS02-E16}\textbf{例 2-16}\par\nobreak\smallskip
 
@@ -759,9 +761,9 @@ P4 & (0,0,1) & (0,6,5) \\
 \end{longtable}}
 \par\smallskip
 
-Ⅰ. (1,4,0)　Ⅱ. (0,6,2)　Ⅲ. (1,1,1)　Ⅳ. (0,4,7)
+\ensuremath{\mathrm{I}}. (1,4,0)　\ensuremath{\mathrm{II}}. (0,6,2)　\ensuremath{\mathrm{III}}. (1,1,1)　\ensuremath{\mathrm{IV}}. (0,4,7)
 
-A. Ⅰ、Ⅱ、Ⅳ　　B. Ⅰ、Ⅱ　　C. 仅Ⅰ　　D. Ⅰ、Ⅲ
+A. \ensuremath{\mathrm{I}}、\ensuremath{\mathrm{II}}、\ensuremath{\mathrm{IV}}　　B. \ensuremath{\mathrm{I}}、\ensuremath{\mathrm{II}}　　C. 仅\ensuremath{\mathrm{I}}　　D. \ensuremath{\mathrm{I}}、\ensuremath{\mathrm{III}}
 
 单资源模型总量 100，B、A、T 的 Max 为 70、40、50，Allocation 为 20、10、30，可用 40。给 B 再分 30 后可用 10、Need 为 20、30、20，无人可先完成，应推迟；独立从原态给 A 再分 20 后可用 20、Need 为 50、10、20，可取 T\ensuremath{\to}B\ensuremath{\to}A，Work 为 20\ensuremath{\to}50\ensuremath{\to}70\ensuremath{\to}100。
 

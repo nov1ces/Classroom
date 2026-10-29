@@ -3,7 +3,7 @@
 from pathlib import Path
 import re,json,shutil
 import fitz
-from build_notes import ROOT, COMMON, cmd, esc, mdtex, collect_assets, read, jwrite, sha
+from build_notes import ROOT, COMMON, cmd, esc, mdtex, collect_assets, read, jwrite, sha, tex_symbols
 SUBJECTS={'DS':'数据结构','CO':'计算机组成原理','OS':'操作系统','CN':'计算机网络'}
 
 def label_pages(path):
@@ -13,11 +13,24 @@ def native_latex(e):
  ch=ROOT/'chapters'/e['chapter'];source=e['solution'];collect_assets(ch,source)
  source=re.sub(r'(!\[[^\]]*\]\()([^\s)]+)',lambda m:m[1]+str(ch/'figures'/Path(m[2]).name),source)
  tex=mdtex(source).replace(r'\begin{verbatim}',r'\begin{codeblock}[language={}]').replace(r'\end{verbatim}',r'\end{codeblock}')
+ def keep_short_code(match):
+  lines=len(match[1].strip().splitlines())
+  reserve=(r'\Needspace{'+str(lines+4)+r'\baselineskip}') if lines<=12 else ''
+  return reserve+match[0]
+ tex=re.sub(r'\\begin\{codeblock\}\[language=\{\}\]([\s\S]*?)\\end\{codeblock\}',keep_short_code,tex)
  tex=re.sub(r'\\begin\{figure\}(?:\[[^]]*\])?',r'\\par\\medskip\\begin{center}',tex)
  tex=tex.replace(r'\end{figure}',r'\end{center}\par\medskip').replace(r'\caption{',r'\captionof{figure}{')
  symbols={'→':r'\to','←':r'\leftarrow','≤':r'\le','≥':r'\ge','≠':r'\ne','×':r'\times','⋯':r'\cdots','−':'-','α':r'\alpha','β':r'\beta','τ':r'\tau','λ':r'\lambda','⊕':r'\oplus'}
  for c,v in symbols.items():tex=tex.replace(c,r'\ensuremath{'+v+'}')
  return tex
+
+def quick_answer(e):
+ text=e['answer'].strip()
+ # A single-choice item needs only its choice letter in the lookup table.
+ if len(re.findall(r'(?:^|\s)A[.．、]',e['question']))==1:
+  letters=re.findall(r'(?<![A-Za-z])([A-D])(?![A-Za-z])',text)
+  if len(letters)==1 and text.startswith(letters[0]):return letters[0]
+ return text
 
 def main():
  examples=read(ROOT/'sources/example_index.json')['examples'];manifest=read(ROOT/'manifest.json')
@@ -46,21 +59,26 @@ def main():
 '''
  parts=[pre];md=['# 408强化例题解析','']
  for subject,name in SUBJECTS.items():
+  parts.append(r'\Needspace{6\baselineskip}')
   parts.append(r'\subsection*{'+name+'}')
+  parts.append(r'{\fontsize{9.3}{12}\selectfont')
   parts.append(r'\begin{longtable}{@{}p{18mm}p{87mm}p{20mm}p{20mm}@{}}\toprule 题号 & 答案 & 正文页 & 解析页 \\ \midrule\endfirsthead\toprule 题号 & 答案 & 正文页 & 解析页 \\ \midrule\endhead\bottomrule\endfoot')
   for e in examples:
    if e['subject']!=subject:continue
-   answer=mdtex(e['answer']).strip()
+   answer=mdtex(quick_answer(e)).strip()
    parts.append(esc(e['number'])+' & '+answer+' & '+str(e['note_page'])+r' & \hyperref[a:'+e['id']+r']{\pageref*{a:'+e['id']+r'}} \\')
-  parts.append(r'\end{longtable}')
+  parts.append(r'\end{longtable}}')
  for subject,name in SUBJECTS.items():
   parts.append(r'\chapter{'+name+'}');md+=['# '+name,''];current=None
   for e in examples:
    if e['subject']!=subject:continue
+   keep_mm=30
+   if e['solution_mode']=='original_screenshot' and e['crops']:
+    first=e['crops'][0];w=min(162,(first['bbox'][2]-first['bbox'][0])*25.4/72*1.05);h=min(180,w*(first['bbox'][3]-first['bbox'][1])/(first['bbox'][2]-first['bbox'][0]));keep_mm=max(30,h+16)
    if e['chapter']!=current:
     current=e['chapter'];title=read(ROOT/'chapters'/current/'map.json')['title']
-    parts.append(r'\section*{'+esc(title)+'}');md+=['## '+title,'']
-   parts.append(r'\par\medskip\Needspace{5\baselineskip}\noindent\hypertarget{a:'+e['id']+r'}{}\label{a:'+e['id']+r'}\textbf{例 '+esc(e['number'])+r'}\quad '+mdtex(e['answer'])+r'\par\smallskip')
+    parts.append(r'\Needspace{'+f'{min(222,keep_mm+18):.2f}'+r'mm}\section*{'+esc(title)+'}');md+=['## '+title,'']
+   parts.append(r'\par\medskip\Needspace{'+f'{keep_mm:.2f}'+r'mm}\noindent\phantomsection\label{a:'+e['id']+r'}\textbf{例 '+esc(e['number'])+r'}\quad '+mdtex(e['answer'])+r'\par\smallskip')
    md+=['<a id="a-'+e['id']+'"></a>','### [例 '+e['number']+'](../books/'+SUBJECTS[e['subject']]+'_强化笔记.md#'+e['id']+')','',e['answer'],'']
    if e['solution_mode']=='original_screenshot':
     for crop in e['crops']:
@@ -70,9 +88,9 @@ def main():
    else:
     parts.append(native_latex(e));solution_md=re.sub(r'(!\[[^\]]*\]\()([^\s)]+)',lambda m:m[1]+'../chapters/'+e['chapter']+'/figures/'+Path(m[2]).name,e['solution']);md+=[solution_md,'']
  parts.append(r'\end{document}')
- (out/'main.tex').write_text('\n'.join(parts))
+ (out/'main.tex').write_text(tex_symbols('\n'.join(parts)))
  quick=['## 答案速查','','| 科目 | 题号 | 答案 | 正文页 |','| --- | --- | --- | --- |']
- for e in examples:quick.append('| '+SUBJECTS[e['subject']]+' | ['+e['number']+'](#a-'+e['id']+') | '+e['answer'].replace('\n',' ').replace('|',r'\|')+' | '+str(e['note_page'])+' |')
+ for e in examples:quick.append('| '+SUBJECTS[e['subject']]+' | ['+e['number']+'](#a-'+e['id']+') | '+quick_answer(e).replace('\n',' ').replace('|',r'\|')+' | '+str(e['note_page'])+' |')
  md[1:1]=['']+quick+['']
  (out/'notes.md').write_text('\n'.join(md))
  for _ in range(3):cmd(['xelatex','-no-shell-escape','-interaction=nonstopmode','-halt-on-error','-output-directory=build','main.tex'],cwd=out)

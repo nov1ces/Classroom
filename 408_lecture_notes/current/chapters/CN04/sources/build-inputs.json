@@ -1,10 +1,10 @@
 {
-  "tools/build_notes.py": "cc59ed7f23d83250d5957ebe3f1ccae0c4119fe955ba2d9ce9b6da0609c70af4",
+  "tools/build_notes.py": "4913fc0a99931050c06f706047fe9e77a11d446f7b1a730ec4459dd9e139e6eb",
   "chapters/CN04/map.json": "67d6e092c2a27b4132fe63a3936506ffd3c39a0ed76e101057805ec9ae0d1750",
   "chapters/CN04/content.md": "c03a24fce429583aeeedb4ec29f39517a0579e12f4a9962c7e05e809c97a9982",
   "chapters/CN04/examples.json": "a3a1989bb2f4d6762af88b0574cac55ee5ea591573efe9d4cd0ca6c53a90f8e9",
   "chapters/CN04/sidebars.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
-  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes.cls": "e8ed80d490eb3e6053e8071b1a00c9e53f43e6de4695ada61372c0640f7a2056",
   "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
   "chapters/CN04/figures/CN22_aggregate_2013.pdf": "3ed78ebddeffdae643f76b25e99f2a697db6e99ca1eebc9240b20baff73a9903",
   "chapters/CN04/figures/CN24_satellite_2025.png": "bc754a6de24ee9ee9d3a631ed6a8d2335a33daa06de6709a6831ebb296d96ad5",

@@ -1,0 +1,20 @@
+{
+  "review": "final solutions-book layout review, pages 31–59",
+  "pdf": "books/408强化例题解析.pdf",
+  "pdf_sha256": "6531a9dd1b696ccc8472743b3c3b75a01159f0af6e0e1ae4f22703aff75c7dfc",
+  "reviewer": "Luna",
+  "viewed_pages": [
+    31, 32, 33, 34, 35, 36, 37, 38, 39, 40,
+    41, 42, 43, 44, 45, 46, 47, 48, 49, 50,
+    51, 52, 53, 54, 55, 56, 57, 58, 59
+  ],
+  "method": "逐张使用 view_image original 查看最终 PDF 渲染的第 31–59 页完整页面，检查题头与截图、公式和表格边界、字形及页面裁切；对第 32 页疑似截图裁切处重新以 300 dpi PDF 页面和局部高清图复核。",
+  "findings": [
+    {
+      "page": 32,
+      "location": "例 7-7 答案下方的原解析截图块顶缘，‘10.【解答】’标题上方",
+      "issue": "截图块顶缘横贯一条被截断的前一行字形残片，局部高清图确认存在。下方解答正文完整；该残片造成明确的截图裁切瑕疵。"
+    }
+  ],
+  "status": "needs_fix"
+}

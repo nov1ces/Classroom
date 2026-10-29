@@ -601,7 +601,74 @@
         "question_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30",
         "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
         "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
-      }
+      },
+      "export_answer_crops": [
+        {
+          "page": 401,
+          "bbox": [
+            50,
+            468.8,
+            500,
+            705
+          ]
+        },
+        {
+          "page": 402,
+          "bbox": [
+            50,
+            68,
+            500,
+            87.44
+          ]
+        }
+      ],
+      "crop_correction_reason": "最终版面检查指出401页原裁图顶部含前题图注残行。重新查看原PDF，300dpi暗像素检测确认整行空白466.679–470.972；在468.8处起裁，去掉前题残字，保留完整04【解答】标题、全部说明和四幅归并图；402页WPL结果裁图不变。",
+      "crop_correction_history": [
+        {
+          "reviewed_utc": "2026-10-29T00:35:56.247015+00:00",
+          "old_crops": [
+            {
+              "page": 401,
+              "bbox": [
+                50,
+                464.72,
+                500,
+                705
+              ]
+            },
+            {
+              "page": 402,
+              "bbox": [
+                50,
+                68,
+                500,
+                87.44
+              ]
+            }
+          ],
+          "new_crops": [
+            {
+              "page": 401,
+              "bbox": [
+                50,
+                468.8,
+                500,
+                705
+              ]
+            },
+            {
+              "page": 402,
+              "bbox": [
+                50,
+                68,
+                500,
+                87.44
+              ]
+            }
+          ],
+          "reason": "最终版面检查指出401页原裁图顶部含前题图注残行。重新查看原PDF，300dpi暗像素检测确认整行空白466.679–470.972；在468.8处起裁，去掉前题残字，保留完整04【解答】标题、全部说明和四幅归并图；402页WPL结果裁图不变。"
+        }
+      ]
     },
     {
       "example_id": "OS02-E06",
@@ -4135,7 +4202,20 @@
         "question_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
         "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
         "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
-      }
+      },
+      "export_answer_crops": [
+        {
+          "page": 337,
+          "bbox": [
+            50,
+            452.0,
+            500,
+            637.16
+          ]
+        }
+      ],
+      "crop_correction_reason": "独立查看原教材PDF第337页及原裁切，确认y448.88起裁含第09题末行残片。300dpi检测黑色像素：前题末行至449.28pt结束，10.【解答】标题从455.28pt开始；在空白区452pt起裁，保留完整标题、查询2μs与4%、中断0.8μs对0.1μs不能使用及DMA4%三问全部文字和公式。",
+      "crop_reviewed_utc": "2026-10-29T07:03:22.616285+00:00"
     },
     {
       "example_id": "DS04-E01",
@@ -4367,6 +4447,65 @@
         "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
         "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
       }
+    },
+    {
+      "example_id": "CO07-E06",
+      "question_sha256": "4953a79f44113ba4a5d375a33f1a88907360b73cd869f079efa8682eeb872b4d",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T07:03:22.616285+00:00",
+      "reason": "已实际查看题本第593页44题，DMA的I—IV四句及A—D组合选项与当前题干逐项一致；查看教材第333页44.D，完整解答确认四句均正确，答案D。",
+      "source": {
+        "id": "WD-CO-7_3-044",
+        "source_key": "CO:7.3:44",
+        "question_crops": [
+          {
+            "page": 593,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              165.09548950195312
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 333,
+            "bbox": [
+              54,
+              608.28,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 334,
+            "bbox": [
+              54,
+              71,
+              489,
+              75.48
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      },
+      "export_answer_crops": [
+        {
+          "page": 333,
+          "bbox": [
+            54,
+            608.28,
+            489,
+            705
+          ]
+        }
+      ],
+      "crop_correction_reason": "独立查看原教材PDF第333、334页、原题本第593页及两份现有裁切。第333页44.D从设备驱动程序设置参数、DMA请求总线并控制传输，到结束时由CPU执行中断服务程序收尾，全部文字在第一裁切中完整结束；第334页从45.C开始。第二裁切[54,71,489,75.48]高4.48pt、300dpi仅20像素，实际仅有淡红水印，无正文或续句，移除该裁切不丢失解答。",
+      "crop_reviewed_utc": "2026-10-29T07:03:22.616285+00:00"
     }
   ]
 }

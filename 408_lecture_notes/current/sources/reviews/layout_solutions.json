@@ -1,0 +1,99 @@
+{
+  "review": "independent solutions-book layout review, 58 pages",
+  "pdf": "books/408强化例题解析.pdf",
+  "pdf_sha256": "8793a36833bd58de2e742d765fa3b26fc78e4676b1147bb645695fc0ffe6a631",
+  "viewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58
+  ],
+  "method": "Viewed every full page PNG (page-001.png through page-058.png) individually at original resolution, in batches of ten pages; final batch contained eight pages. Contact sheets were not used as substitutes for page inspection. Rechecked pages 35, 36, and 39 individually after review feedback; page numbers are present on 35–36, and page 39 ends with the complete sentence “旧页框存段20H在位0时无效。” Gray margin marks were omitted because their origin could not be distinguished confidently from source graphics/watermarks. Rechecked the top of pages 2, 4, 5, and 6: pages 2, 4, and 5 do show the quick-reference column headers; only page 6 lacks them.",
+  "findings": [
+    {
+      "page": 6,
+      "location": "top, continuation of the Computer Networks quick-reference table",
+      "issue": "Only the final row (6-9) appears on this page, without the column-header row, leaving almost the entire page blank; this is the sole quick-reference continuation page in this group without its headers."
+    },
+    {
+      "page": 12,
+      "location": "bottom",
+      "issue": "The heading and answer marker ‘例5-5 B’ are stranded at the bottom; its explanation begins on page 13, leaving the heading separated from its content."
+    },
+    {
+      "page": 16,
+      "location": "bottom",
+      "issue": "The heading ‘例7-7 C’ is stranded at the bottom; its explanation begins on page 17."
+    },
+    {
+      "page": 31,
+      "location": "bottom",
+      "issue": "The heading ‘例7-7 D’ is stranded at the page bottom; its solution starts at the top of page 32."
+    },
+    {
+      "page": 48,
+      "location": "bottom",
+      "issue": "The heading ‘例4-5 C’ is stranded at the page bottom; its solution starts at the top of page 49."
+    },
+    {
+      "page": 19,
+      "location": "top of the figure under example 8-8",
+      "issue": "A narrow remnant of content is visibly cut off at the top edge of the figure block, leaving a clipped image/text fragment above the complete diagrams."
+    }
+  ],
+  "status": "needs_fix"
+}

@@ -39,6 +39,9 @@ def patch_links():
  counts={}
  for file,subject in targets:
   path=ROOT/'books'/file;doc=fitz.open(path);count=0
+  for page in doc:
+   for link in page.get_links():
+    if link['kind']==fitz.LINK_GOTOR:page.delete_link(link)
   for e in nav:
    if subject and e['subject']!=subject:continue
    page_number=e['note_page'] if subject is None else meta[e['chapter']]['subject_start_page']+e['note_local_page']-1
@@ -49,6 +52,9 @@ def patch_links():
     count+=1
   tmp=path.with_suffix('.tmp.pdf');doc.save(tmp,garbage=4,deflate=True);doc.close();tmp.replace(path);counts[file]=count
  path=ROOT/'books/408强化例题解析.pdf';doc=fitz.open(path);count=0
+ for page in doc:
+  for link in page.get_links():
+   if link['kind']==fitz.LINK_GOTOR:page.delete_link(link)
  for e in nav:
   page=doc[e['solution_page']-1]
   rects=page.search_for('例 '+e['number']) or page.search_for('例'+e['number'])

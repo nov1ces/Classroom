@@ -1,1 +1,0 @@
-{\color{ink}\bfseries 例 2-7}\par\vspace{1bp}只用nice时，较小nice的任务可持续占用CPU，使较大nice者一直等待。可取\(priority=\allowbreak{}nice+\allowbreak{}cpuTime-waitTime\)；例如nice为0、4的两进程从计数均为0开始，一方连续运行、另一方持续等待t个单位，其优先数分别为t与4\(-\)t，\(t>\allowbreak{}2\)时等待者优先。等待项提供老化，运行项降低持续占用者的优先权；无饥饿结论还以有限进程、定期重新调度、同级公平及计数不溢出为前提。

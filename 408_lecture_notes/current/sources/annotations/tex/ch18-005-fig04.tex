@@ -1,7 +1,0 @@
-{\color{ink}\bfseries 例 3-8 \(\cdot \) 合订本133 \(\cdot \) 图4}\par \textbf{访问完成后的映射与LRU}\par\vspace{2bp}{\setlength{\tabcolsep}{1.2bp}\renewcommand{\arraystretch}{1.18}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{19.171bp}>{\raggedright\arraybackslash}p{73.736bp}>{\raggedright\arraybackslash}p{38.343bp}@{}}
-\toprule
-\textbf{访问} & \textbf{页\(\to \)页框} & \textbf{最久\(\to \)最近}\\\midrule
-{\symfont ①} & 0\(\to \)101H，2\(\to \)254H\par TLB：2\(\to \)254H & 0\(\to \)2\\
-{\symfont ②} & 1\(\to \)101H，2\(\to \)254H\par TLB：1\(\to \)101H，2\(\to \)254H & 2\(\to \)1\\
-{\symfont ③} & 1\(\to \)101H，2\(\to \)254H\par TLB：1\(\to \)101H，2\(\to \)254H & 1\(\to \)2\\
-\bottomrule\end{tabular}}\par \(10^{8} ns\)含缺页处理中的页表与TLB更新，失败查询与重试另计；页2的TLB项保留。\par 1565H\(\to \)101000H\(+\allowbreak{}\)565H\(=\allowbreak{}\)101565H

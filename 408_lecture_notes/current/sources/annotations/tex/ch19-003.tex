@@ -1,1 +1,0 @@
-{\color{ink}\bfseries 例 4-4}\par\vspace{1bp}记录不跨块时，每块装\(\lfloor 512/\allowbreak{}100\rfloor =\allowbreak{}5\)条完整记录，第22条落在第\(\lceil 22/\allowbreak{}5\rceil =\allowbreak{}5\)个物理块的第2条。数据块初始均未缓存时，前4块须读出以追踪后继，第5块须读出并修改，再写回第5块：5次读+\allowbreak{}1次写\(=\allowbreak{}6\)次，选D。这里按链指针可放入每块余下的12 B、不会减少成组条数计算。

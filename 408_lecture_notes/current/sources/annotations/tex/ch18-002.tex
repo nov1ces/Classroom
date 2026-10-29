@@ -1,1 +1,0 @@
-{\color{ink}\bfseries 多级页表只为使用区间分配下级表}\par\vspace{1bp}以32位虚拟地址、4 KiB页、4 B表项为例，假定各表独占一页、按需建立，则每个二级页表覆盖1024个虚拟页，即4 MiB。一个进程仅映射两个虚拟页时，若它们在同一4 MiB目录区间，需1个目录页\(+\allowbreak{}\)1个二级表页\(=\allowbreak{}\)8 KiB；若跨两个目录区间，则需1\(+\allowbreak{}\)2页\(=\allowbreak{}\)12 KiB，均不计数据页。全展开需1024个二级表页\(+\allowbreak{}\)1个目录页\(=\allowbreak{}\)4 MiB\(+\allowbreak{}\)4 KiB，比同条件单级页表多1个目录页。

@@ -1,1 +1,0 @@
-{\color{ink}\bfseries 动态指令数、取指次数与数据访问次数}\par\vspace{1bp}设\(R3=\allowbreak{}n\ge 0\)，第4行判断n+\allowbreak{}1次，第5～9行各n次，其中第6行共读取n个数据字。若两次初始化各计1条、if合计1条伪指令，则总数为\(2+\allowbreak{}(n+\allowbreak{}1)+\allowbreak{}5n=\allowbreak{}6n+\allowbreak{}3\)；\(n=\allowbreak{}3\)时为21条伪指令及3次数据读。实际机器若把if拆为cmp与条件跳转，两条各执行n+\allowbreak{}1次，指令总数相应增加n+\allowbreak{}1。

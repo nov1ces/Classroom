@@ -1,1 +1,0 @@
-{\color{ink}\bfseries 其标志副作用须依指令定义}\par\vspace{1bp}x86的LOOP保持EFLAGS不变；ECX初值为0时，第一次减1得到FFFFFFFFH，仍会跳转。对从循环体进入、体内不改ECX且只由末尾LOOP控制退出的循环，这对应\(2^{32}\)次循环体执行，因此允许零次循环时须先判零。

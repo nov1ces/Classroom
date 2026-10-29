@@ -1,1 +1,0 @@
-{\color{ink}\bfseries Karn 原则排除有重传歧义}\par\vspace{1bp}无时间戳等消歧信息时，若同一段在0 ms首发、100 ms重传，140 ms才收到ACK，则候选RTT为140 ms或40 ms。ACK不能区分它确认的是哪次发送，因此本次确认不用于更新SRTT。

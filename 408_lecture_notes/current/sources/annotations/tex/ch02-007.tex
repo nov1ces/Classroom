@@ -1,1 +1,0 @@
-{\color{ink}\bfseries 例 2-6}\par\vspace{1bp}顺序扫描并维护候选candidate与票数vote：vote为0时置\(candidate=\allowbreak{}x\)、\(vote=\allowbreak{}1\)；否则x与candidate相同则加1，不同则减1。每次抵消一对不同值，若主元素存在，它仍是剩余序列的主元素；首个示例的vote依次为1、0、1、0、1、0、1、2，最终候选为5。再扫描统计候选频次，示例中为\(5>\allowbreak{}8/\allowbreak{}2\)，返回5；仅当频次\(>\allowbreak{}n/\allowbreak{}2\)时返回候选，否则返回\(-\)1，总时间\(\Theta (n)\)、辅助空间\(\Theta (1)\)。

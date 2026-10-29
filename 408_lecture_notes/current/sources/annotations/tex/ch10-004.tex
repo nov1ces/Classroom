@@ -1,1 +1,0 @@
-{\color{ink}\bfseries 左移的合法性分别检查}\par\vspace{1bp}C11/\allowbreak{}C17先对移位操作数作整数提升，设提升后的左操作数宽度为n，则移位量须满足\(0\le k<\allowbreak{}n\)。有符号左移还要求原值非负且数学结果\(x\times 2^{k}\)可由该类型表示；32位int下1<<31属未定义行为，32位unsigned int下1u<<31得到80000000H。

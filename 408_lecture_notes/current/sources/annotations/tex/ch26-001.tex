@@ -1,1 +1,0 @@
-{\color{ink}\bfseries 资源记录可缓存的有效期}\par\vspace{1bp}TTL 是资源记录中的字段，单位为秒，表中应与 A、AAAA、NS、CNAME、MX 等记录类型区分。若收到的 TTL 为300 s，已经缓存120 s，正常缓存转发时剩余 TTL 为180 s；未重新获取记录时，转发不会把有效期重置为300 s。

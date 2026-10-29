@@ -18,8 +18,6 @@ def main():
  for e in idx['examples']:
   for crop in e['crops']:
    if sha(ROOT/crop['png'])!=crop['png_sha256']:raise SystemExit('Screenshot changed: '+crop['png'])
- run('tools/build_all.py','--jobs',str(a.jobs));run('tools/build_solutions.py');run('tools/release.py','links')
- if (ROOT/'sources/annotations/input.json').exists():run('tools/import_annotations.py','--refresh-baseline')
- run('tools/release.py','audit');run('tools/audit_pdf_code.py')
+ run('tools/build_all.py','--jobs',str(a.jobs));run('tools/build_solutions.py');run('tools/release.py','links');run('tools/release.py','audit');run('tools/audit_pdf_code.py')
  print('Build complete. Push to GitHub before running final_qa.py.')
 if __name__=='__main__':main()

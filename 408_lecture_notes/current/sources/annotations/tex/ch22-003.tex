@@ -1,1 +1,0 @@
-{\color{ink}\bfseries 每样本编码位数}\par\vspace{1bp}L 个量化级别采用等长二进制编码时，最少位数满足\(2^{q}\ge L\)，故\(q=\allowbreak{}\lceil \operatorname{log}_{2}L\rceil \)。例如\(L=\allowbreak{}300\)时，\(2^{8}<\allowbreak{}300\le 2^{9}\)，需 9 bit/\allowbreak{}样本；以 8 kHz 采样，原始 PCM 码率为\(8000\times 9=\allowbreak{}72 kb/\allowbreak{}s\)，未计额外编码及帧开销。

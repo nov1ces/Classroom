@@ -1,1 +1,0 @@
-{\color{ink}\bfseries 例 4-5 \(\cdot \) 第5问}\par\vspace{1bp}设完整64位乘积为H:L。\(\mathrm{OF}=\allowbreak{}0\)的条件是：L的最高位为0且\(H=\allowbreak{}00000000H\)，或L的最高位为1且\(H=\allowbreak{}FFFFFFFFH\)；其余情形\(\mathrm{OF}=\allowbreak{}1\)。13!的\(H=\allowbreak{}00000001H\)、\(L=\allowbreak{}7328CC00H\)，故\(\mathrm{OF}=\allowbreak{}1\)；在本题32位x86的imul后紧接into，可在\(\mathrm{OF}=\allowbreak{}1\)时触发4号溢出异常。

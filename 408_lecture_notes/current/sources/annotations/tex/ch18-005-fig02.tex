@@ -1,9 +1,0 @@
-{\color{ink}\bfseries 例 3-8 \(\cdot \) 合订本133 \(\cdot \) 图2}\par \textbf{{\symfont ②} 1565H：页1、偏移565H}\par\vspace{2bp}{\setlength{\fboxsep}{3bp}\color{ink}\fbox{\parbox{128bp}{\color{black}查TLB\par 未命中：10 ns}}}
-\par\vspace{1bp}\centerline{\(\downarrow\)}\par\vspace{1bp}
-{\setlength{\fboxsep}{3bp}\color{ink}\fbox{\parbox{128bp}{\color{black}查页表\par 页1不在内存：100 ns}}}
-\par\vspace{1bp}\centerline{\(\downarrow\)}\par\vspace{1bp}
-{\setlength{\fboxsep}{3bp}\color{ink}\fbox{\parbox{128bp}{\color{black}处理缺页\par 淘汰页0、调入页1\par 更新页表和TLB：\(10^{8} ns\)}}}
-\par\vspace{1bp}\centerline{\(\downarrow\)}\par\vspace{1bp}
-{\setlength{\fboxsep}{3bp}\color{ink}\fbox{\parbox{128bp}{\color{black}重试原指令，查TLB\par 页1命中：10 ns}}}
-\par\vspace{1bp}\centerline{\(\downarrow\)}\par\vspace{1bp}
-{\setlength{\fboxsep}{3bp}\color{ink}\fbox{\parbox{128bp}{\color{black}访问数据\par 100 ns}}}\par \(T_{2}=\allowbreak{}10+\allowbreak{}100+\allowbreak{}10^{8}+\allowbreak{}10+\allowbreak{}100=\allowbreak{}10^{8}+\allowbreak{}220 ns\)

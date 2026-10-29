@@ -1,1 +1,0 @@
-{\color{ink}\bfseries C 表达式先作整数提升}\par\vspace{1bp}设unsigned short为16位、int为32位，unsigned short a=\allowbreak{}1,\allowbreak{}b=\allowbreak{}2;\allowbreak{} 的a-b先把两数提升为int，结果为\(-\)1，故\(a-b<\allowbreak{}0\)为真。int能够覆盖unsigned short的整个取值范围时，提升后采用int；较窄无符号变量参与表达式时应先确定提升后的类型。

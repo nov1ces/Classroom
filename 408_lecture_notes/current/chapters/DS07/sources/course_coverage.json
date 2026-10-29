@@ -1,0 +1,674 @@
+{
+  "chapter": "DS07",
+  "lecture_files": [
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.1 查找的基本概念.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targets": [
+        "DS07-definition"
+      ],
+      "baseline_targets": [
+        "DS07-01"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.1 顺序查找.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "targets": [
+        "DS07-sequential"
+      ],
+      "baseline_targets": [
+        "DS07-02",
+        "DS07-seq-code"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.2 折半查找.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ],
+      "targets": [
+        "DS07-binary"
+      ],
+      "baseline_targets": [
+        "DS07-03"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.3 分块查找.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "targets": [
+        "DS07-sequential",
+        "DS07-E01"
+      ],
+      "baseline_targets": [
+        "DS07-02",
+        "DS07-ex1"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.1 二叉排序树.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "targets": [
+        "DS07-bst"
+      ],
+      "baseline_targets": [
+        "DS07-04",
+        "DS07-bst-code"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "targets": [
+        "DS07-avl"
+      ],
+      "baseline_targets": [
+        "DS07-05",
+        "DS07-rotate-code"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_2 平衡二叉树的删除.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ],
+      "targets": [
+        "DS07-avl"
+      ],
+      "baseline_targets": [
+        "DS07-avl-delete"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_1 红黑树的定义和性质.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "targets": [
+        "DS07-redblack"
+      ],
+      "baseline_targets": [
+        "DS07-06"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_2 红黑树的插入.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "targets": [
+        "DS07-redblack"
+      ],
+      "baseline_targets": [
+        "DS07-06",
+        "DS07-rb-insert-trace"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.3_3 红黑树的删除.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "targets": [
+        "DS07-redblack"
+      ],
+      "baseline_targets": [
+        "DS07-06"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "targets": [
+        "DS07-btree",
+        "DS07-E05"
+      ],
+      "baseline_targets": [
+        "DS07-07",
+        "DS07-ex5"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_2 B树的插入删除.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "targets": [
+        "DS07-btree"
+      ],
+      "baseline_targets": [
+        "DS07-07"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "targets": [
+        "DS07-bplus"
+      ],
+      "baseline_targets": [
+        "DS07-08"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.1 散列表的基本概念.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "targets": [
+        "DS07-hash"
+      ],
+      "baseline_targets": [
+        "DS07-09"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.2 散列函数的构造.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "targets": [
+        "DS07-hash"
+      ],
+      "baseline_targets": [
+        "DS07-hash-functions"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.3_1 处理冲突的方法_拉链法.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "targets": [
+        "DS07-hash-asl"
+      ],
+      "baseline_targets": [
+        "DS07-hash-chain"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.3_2 处理冲突的方法_开放定址法.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "targets": [
+        "DS07-hash",
+        "DS07-hash-state"
+      ],
+      "baseline_targets": [
+        "DS07-hash-probes",
+        "DS07-hash-code"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "targets": [
+        "DS07-hash-asl",
+        "DS07-E07",
+        "DS07-E08"
+      ],
+      "baseline_targets": [
+        "DS07-hash-asl-course",
+        "DS07-ex7",
+        "DS07-ex8"
+      ],
+      "baseline_review_scope": "全页自动提取已登记；初编逐课件知识组编写，续作按对应主题、代码、公式和代表例题复核；具体视觉页与测试范围见author_report及continued_code_verification，非每页图像已人工审定声明。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    }
+  ],
+  "scope": "Knowledge-group source mapping; does not assert every animation frame or tiny figure label was independently reviewed."
+}

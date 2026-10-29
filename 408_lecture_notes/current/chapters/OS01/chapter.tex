@@ -1,0 +1,317 @@
+\chapter{计算机系统概述}\label{OS01}
+
+\section{操作系统的功能与接口}\label{OS01-functions}
+
+操作系统是控制和管理计算机硬件、软件资源，组织程序运行，并向用户和应用提供接口的系统软件；把裸机扩充为便于使用的机器。
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.32663\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.67337\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+管理对象 & 基本职责 \\
+
+\midrule\endfirsthead\toprule
+管理对象 & 基本职责 \\
+
+\midrule\endhead\bottomrule\endfoot
+处理机 & 进程、线程、调度、同步与通信 \\
+
+内存 & 分配回收、地址变换、保护共享与扩充 \\
+
+文件 & 名称目录、存储组织、访问与保护 \\
+
+设备 & 分配回收、驱动、缓冲与 I/O 协调 \\
+
+\end{longtable}}
+\par\smallskip
+
+编译器属于系统软件，提供高级语言编译器不属于操作系统的基本管理职责。图形界面依实现配置。
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.34307\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.65693\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+接口 & 使用方式 \\
+
+\midrule\endfirsthead\toprule
+接口 & 使用方式 \\
+
+\midrule\endhead\bottomrule\endfoot
+联机命令接口 & 用户交互式逐条输入命令，系统解释执行 \\
+
+脱机命令接口 & 预先提交作业控制命令，系统成批执行 \\
+
+程序接口 & 应用通过系统调用请求内核服务 \\
+
+图形用户界面 & 用户操作窗口等对象，由应用及系统服务完成请求 \\
+
+\end{longtable}}
+\par\smallskip
+
+联机、脱机描述命令提交与交互方式，与是否联网分别判断。
+
+\section{并发、共享、虚拟与异步}\label{OS01-features}
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.26748\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.73252\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+特征 & 结论与边界 \\
+
+\midrule\endfirsthead\toprule
+特征 & 结论与边界 \\
+
+\midrule\endhead\bottomrule\endfoot
+并发 & 多个活动在同一时间间隔内推进；单核交替执行即可成立 \\
+
+并行 & 多个活动在同一时刻执行；单 CPU 也可与独立 I/O 设备并行 \\
+
+共享 & 多个并发活动共同使用资源，分为互斥共享、同时共享 \\
+
+虚拟 & 物理资源被抽象为逻辑资源；时分复用形成虚拟处理机，空分复用支持虚拟存储 \\
+
+异步 & 进程以不可预知的速度推进；自身指令依赖仍须满足 \\
+
+\end{longtable}}
+\par\smallskip
+
+并发与共享互为存在条件。互斥共享要求一个使用者退出后另一使用者进入；同时共享允许同一时期多个使用者访问，具体硬件动作仍可交替完成。增加进程数的收益受切换开销和内存压力限制。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{OS01-E01}{}\label{OS01-E01}\textbf{例 1-1}\par\nobreak\smallskip
+
+下列关于多道程序系统的叙述中，不正确的是（　）。
+
+A. 支持进程的并发执行　　B. 不必支持虚拟存储管理
+
+C. 需要实现对共享资源的管理　　D. 进程数越多 CPU 利用率越高
+
+\section{批处理、分时与实时系统}\label{OS01-systems}
+
+人工操作使 CPU 等待人工准备；脱机 I/O 减少主机与慢速输入输出的直接等待。单道批处理自动逐个运行作业，当前作业等待 I/O 时 CPU 仍可能空闲；多道批处理在内存保留多个作业，以其他就绪者填补等待间隙，需要中断、存储保护和资源管理。
+
+\par\smallskip
+\begin{wideblock}
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.18490\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.36980\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.44530\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+系统 & 组织与目标 & 必要边界 \\
+
+\midrule\endfirsthead\toprule
+系统 & 组织与目标 & 必要边界 \\
+
+\midrule\endhead\bottomrule\endfoot
+多道批处理 & 成批提交，重吞吐量、资源利用率与周转时间 & 交互性通常较弱；可不使用虚拟内存 \\
+
+分时 & 时间片轮转，多用户交互 & 重及时响应、独立性、交互性和同时性；时间片无需完成整个任务 \\
+
+实时 & 按任务期限组织响应或完成 & 硬实时须满足截止时间，软实时容忍一定超期 \\
+
+\end{longtable}}
+\end{wideblock}
+\par\smallskip
+
+网络操作系统提供联网资源和通信服务；分布式系统组织多机协作并可提供统一资源视图。单用户／多用户、单任务／多任务是独立的分类维度。
+
+\section{用户态、内核态与原语}\label{OS01-privilege}
+
+模式位属于程序状态信息，由硬件按受控事件改变。用户程序通过预定入口请求服务，内核检查参数和权限。内核态可执行特权指令及普通指令；用户态仅可执行允许的非特权指令。
+
+\par\smallskip
+\begin{wideblock}
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.53103\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.46897\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+操作 & 权限与用途 \\
+
+\midrule\endfirsthead\toprule
+操作 & 权限与用途 \\
+
+\midrule\endhead\bottomrule\endfoot
+修改中断屏蔽、关键内存映射、直接控制受保护 I/O & 通常属于特权操作 \\
+
+算术、逻辑、普通寄存器操作 & 通常可在两种模式执行 \\
+
+陷入指令 & 用户态可执行；硬件转入规定的内核入口 \\
+
+\end{longtable}}
+\end{wideblock}
+\par\smallskip
+
+原语完成关键状态更新，要求原子性，如保存现场、修改进程状态、移动队列。单处理器可短暂屏蔽可屏蔽中断来保护合适的内核路径；多处理器还须用原子指令或锁保护共享数据。本 CPU 关中断的作用范围不覆盖其他 CPU。时钟中断支持计时、定时等待和时间片管理。
+
+\section{中断、异常与系统调用}\label{OS01-interrupts}
+
+\par\smallskip
+\begin{wideblock}
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.20195\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.38904\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.40900\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+事件 & 来源 & 典型恢复行为 \\
+
+\midrule\endfirsthead\toprule
+事件 & 来源 & 典型恢复行为 \\
+
+\midrule\endhead\bottomrule\endfoot
+外部中断 & 当前指令以外的时钟、设备事件 & 通常在指令边界响应；恢复原进程或按调度切换 \\
+
+陷阱 trap & 主动执行陷入指令等受控事件 & 通常从规定后继指令继续 \\
+
+故障 fault & 当前指令执行条件不满足，如合法页面缺页 & 修复条件后重试原指令 \\
+
+终止 abort & 难以恢复的严重事件 & 通常结束相关执行或进入故障处理 \\
+
+\end{longtable}}
+\end{wideblock}
+\par\smallskip
+
+中断响应硬件保存断点、程序状态等规定现场，切换权限并按中断向量定位入口；内核入口代码保存必要的通用寄存器，执行处理，恢复现场并用专门指令返回。硬件、软件保存范围以及异常断点由体系结构规定。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{OS01-E02}{}\label{OS01-E02}\textbf{例 1-2}\par\nobreak\smallskip
+
+执行系统调用的过程涉及下列操作，其中由操作系统完成的是（　）。
+
+Ⅰ. 保存断点和程序状态字　　Ⅱ. 保存通用寄存器的内容
+
+Ⅲ. 执行系统调用服务例程　　Ⅳ. 将 CPU 模式改为内核态
+
+A. 仅Ⅰ、Ⅲ　　B. 仅Ⅱ、Ⅲ\\
+C. 仅Ⅱ、Ⅳ　　D. 仅Ⅱ、Ⅲ、Ⅳ
+
+\textbf{系统调用路径：} 准备调用号及参数 \ensuremath{\to} 陷入 \ensuremath{\to} 内核检查并分派服务 \ensuremath{\to} 返回结果。参数检查包括用户缓冲地址与访问权限。系统调用可立即完成，也可阻塞后再继续。
+
+\textbf{库函数}是已有程序代码：纯计算可全在用户态完成，文件 I/O 库函数可处理格式、用户缓冲，再调用内核服务。普通函数调用保存调用现场；系统调用还跨越保护边界。中断、系统调用可以只发生模式切换，进程身份可保持不变。
+
+\section{编译、链接、装入与地址绑定}\label{OS01-loading}
+
+编译或汇编产生目标模块；链接解析外部符号并形成可装入程序；装入建立地址空间与运行条件。静态链接在运行前完成，装入时动态链接在装入时完成，运行时动态链接推迟到运行需要时。
+
+\par\smallskip
+\begin{wideblock}
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.28491\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.32142\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.39366\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+装入方式 & 地址确定或转换时机 & 移动条件 \\
+
+\midrule\endfirsthead\toprule
+装入方式 & 地址确定或转换时机 & 移动条件 \\
+
+\midrule\endhead\bottomrule\endfoot
+绝对装入 & 编译或汇编时形成绝对地址 & 改位置通常须重生成或修补 \\
+
+可重定位装入 & 装入时按实际起点修改有关地址 & 装入后搬移仍须修正有关地址 \\
+
+动态运行时装入／重定位 & 访存时由硬件转换逻辑地址 & 修改基址或映射可改变物理位置，需要硬件支持 \\
+
+\end{longtable}}
+\end{wideblock}
+\par\smallskip
+
+基址为 \(B\)、界限保存长度 \(L\) 时，逻辑地址 \(a\) 须满足 \(0\le a<L\)，物理地址为 \(B+a\)；界限若保存最大合法地址，上界按题设改为包含。
+
+\section{进程地址空间}\label{OS01-address-space}
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.35389\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.64611\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+区域 & 常规 C 运行时内容 \\
+
+\midrule\endfirsthead\toprule
+区域 & 常规 C 运行时内容 \\
+
+\midrule\endhead\bottomrule\endfoot
+代码区 & 机器指令，通常只读、可共享 \\
+
+初始化数据区 & 已初始化全局、静态存储期对象 \\
+
+零填充区 & 未显式初始化或零初始化的静态存储期对象 \\
+
+堆 & 动态申请的对象 \\
+
+栈 & 函数活动记录、返回信息及相应自动局部对象 \\
+
+映射区 & 共享库、映射文件等 \\
+
+\end{longtable}}
+\par\smallskip
+
+局部指针变量自身通常属于函数活动记录，\texttt{malloc} 返回空间属于堆；优化可能将局部变量放入寄存器或消除。PCB 是内核管理结构。虚拟映像、可执行文件布局与物理页框布局分别判断；地址增长方向和实际排列采用题设。
+
+\section{内核结构}\label{OS01-kernel-structures}
+
+\par\smallskip
+\begin{wideblock}
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.16285\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.44598\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.39117\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+结构 & 主要组织原则 & 收益与代价 \\
+
+\midrule\endfirsthead\toprule
+结构 & 主要组织原则 & 收益与代价 \\
+
+\midrule\endhead\bottomrule\endfoot
+分层 & 上层调用规定下层服务 & 便于逐层验证，划层困难，调用路径可能加长 \\
+
+模块化 & 清晰接口，高内聚、低耦合 & 便于替换维护；预先设计接口及跨模块协调有成本 \\
+
+宏内核 & 较多功能处于同一内核地址空间 & 可直接调用；模块故障可能扩散 \\
+
+微内核 & 保留基本调度、低级地址空间管理和 IPC 等机制，较多服务在用户态 & 隔离、扩展和移植较便利；IPC 与跨域切换增加开销 \\
+
+外核 & 分离资源保护复用机制与高层抽象 & 应用或库操作系统自定义抽象，内核继续保护资源 \\
+
+\end{longtable}}
+\end{wideblock}
+\par\smallskip
+
+模块划分不规定独立保护域，实际系统可混合采用多种组织方式。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{OS01-E03}{}\label{OS01-E03}\textbf{例 1-3}\par\nobreak\smallskip
+
+与宏内核操作系统相比，下列特征中，微内核操作系统具有的是（　）。
+
+Ⅰ. 较好的性能　Ⅱ. 较高的可靠性　Ⅲ. 较高的安全性　Ⅳ. 较强的可扩展性
+
+A. 仅Ⅱ、Ⅳ　　B. 仅Ⅰ、Ⅱ、Ⅲ\\
+C. 仅Ⅰ、Ⅲ、Ⅳ　　D. 仅Ⅱ、Ⅲ、Ⅳ
+
+\section{系统引导}\label{OS01-boot}
+
+处理器复位 \ensuremath{\to} 固件初始化硬件并选择启动设备 \ensuremath{\to} 引导程序分阶段装入内核 \ensuremath{\to} 建立中断入口、内存及设备管理 \ensuremath{\to} 创建初始进程并进入调度。
+
+传统 BIOS／MBR 模型中，MBR 可含主引导代码和分区表，卷内引导块可继续装载后续程序；UEFI／GPT 使用不同组织。分区、根目录、磁盘 inode 表等持久结构通常在分区或创建文件系统时建立；本次启动须建立运行所需的内存管理与中断结构。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{OS01-E04}{}\label{OS01-E04}\textbf{例 1-4}\par\nobreak\smallskip
+
+下列选项中，需要在操作系统进行初始化过程中创建的是（　）。
+
+A. 中断向量表　　B. 文件系统的根目录
+
+C. 硬盘分区表　　D. 文件系统的索引节点表
+
+\section{虚拟机与虚拟机管理程序}\label{OS01-vmm}
+
+VMM 为客户操作系统提供虚拟 CPU、内存和设备，并复用、隔离物理资源。客户内核的高权限受 VMM 和硬件虚拟化机制约束；敏感操作通过受控执行、陷入模拟等完成。
+
+\par\smallskip
+\begin{wideblock}
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.24497\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.30145\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.45359\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+维度 & 第一类 VMM & 第二类 VMM \\
+
+\midrule\endfirsthead\toprule
+维度 & 第一类 VMM & 第二类 VMM \\
+
+\midrule\endhead\bottomrule\endfoot
+依托层次 & 直接运行在硬件上 & 依托宿主操作系统 \\
+
+设备与存储服务 & 由 VMM 及服务组件管理 & 可利用宿主驱动，虚拟磁盘常为宿主文件 \\
+
+开销与迁移 & 通常少一层宿主转接 & 还占用宿主资源；镜像便于复制，迁移仍受兼容性约束 \\
+
+\end{longtable}}
+\end{wideblock}
+\par\smallskip
+
+两类都可使用硬件加速，多虚拟机可在单核上并发、在多核上并行。进程虚拟地址空间隔离访存，系统虚拟机提供完整机器抽象；容器通常共享宿主内核。

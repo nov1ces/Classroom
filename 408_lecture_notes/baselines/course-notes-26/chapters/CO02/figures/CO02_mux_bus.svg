@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="350" viewBox="0 0 900 350">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6" fill="none" stroke="#466C82" stroke-width="1.2"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<g font-family="Noto Sans CJK SC,Noto Sans SC,sans-serif" font-size="19" fill="#263945">
+<text x="450.0" y="30" text-anchor="middle" font-size="23" fill="#263945">
+<tspan x="450.0" dy="0">MUX选择数据；三态门管理公共总线驱动</tspan>
+</text>
+<rect x="20" y="75" width="120" height="55" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="80.0" y="108.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="80.0" dy="0">D0</tspan>
+</text>
+<rect x="20" y="175" width="120" height="55" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="80.0" y="208.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="80.0" dy="0">D1</tspan>
+</text>
+<rect x="245" y="75" width="140" height="155" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="315.0" y="145.84" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="315.0" dy="0">2选1</tspan>
+<tspan x="315.0" dy="26.099999999999998">MUX</tspan>
+</text>
+<path d="M140,102 L245,102" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M140,202 L245,202" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M315,300 L315,230" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="329" y="271.0" text-anchor="start" font-size="16" fill="#263945">
+<tspan x="329" dy="0">s</tspan>
+</text>
+<path d="M385,152 L470,152" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="427.5" y="143.0" text-anchor="middle" font-size="16" fill="#263945">
+<tspan x="427.5" dy="0">Y</tspan>
+</text>
+<rect x="490" y="75" width="130" height="55" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="555.0" y="108.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="555.0" dy="0">源A</tspan>
+</text>
+<rect x="490" y="195" width="130" height="55" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="555.0" y="228.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="555.0" dy="0">源B</tspan>
+</text>
+<rect x="665" y="75" width="110" height="55" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="720.0" y="108.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="720.0" dy="0">三态门A</tspan>
+</text>
+<rect x="665" y="195" width="110" height="55" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="720.0" y="228.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="720.0" dy="0">三态门B</tspan>
+</text>
+<path d="M620,102 L665,102" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M620,222 L665,222" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M775,102 L835,102" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M775,222 L835,222" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M835,85 L835,280" fill="none" stroke="#466C82" stroke-width="2"/>
+<text x="820" y="307" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="820" dy="0">公共总线</tspan>
+</text>
+<text x="670" y="60" text-anchor="middle" font-size="16" fill="#263945">
+<tspan x="670" dy="0">每拍仅允许一个源驱动</tspan>
+</text>
+<text x="670" y="280" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="670" dy="0">未使能端呈高阻态</tspan>
+</text>
+</g></svg>

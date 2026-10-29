@@ -1,0 +1,173 @@
+[
+  {
+    "id": "OS02-E01",
+    "number": "2-1",
+    "question": "下列由当前线程引起的事件或执行的操作中，可能导致该线程由执行态变为就绪态的是（　）。\n\nA. 键盘输入　　B. 缺页异常　　C. 主动出让 CPU　　D. 执行信号量的 wait() 操作",
+    "answer": "C",
+    "solution": "主动让出 CPU 时仍具执行条件，可由运行变为就绪。输入未到、缺页调入等待使线程阻塞；信号量 wait 取得许可则继续，未取得则阻塞。",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex2-1",
+    "method": "状态转换条件"
+  },
+  {
+    "id": "OS02-E02",
+    "number": "2-2",
+    "question": "4 个作业到达系统的时刻和运行时间如下表所示。\n\n| 作业 | 到达时刻 | 运行时间 |\n| --- | --- | --- |\n| J1 | 0 | 3 |\n| J2 | 1 | 3 |\n| J3 | 1 | 2 |\n| J4 | 3 | 1 |\n\n系统在 $t=2$ 时开始作业调度。若分别采用先来先服务和短作业优先调度算法，则选中的作业分别是（　）。\n\nA. J2、J3　　B. J1、J4　　C. J2、J4　　D. J1、J3",
+    "answer": "D",
+    "solution": "时刻2只有 J1、J2、J3 到达。FCFS 选最早到达的 J1；SJF 在当前三者的运行时间3、3、2中选择 J3。J4 到时刻3才到达。",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex2-2",
+    "method": "筛选就绪集合"
+  },
+  {
+    "id": "OS02-E03",
+    "number": "2-3",
+    "question": "进程进入就绪队列的时刻、优先级（值越大优先权越高）及 CPU 执行时间如下表所示。\n\n| 进程 | 到达 | 优先级 | CPU 时间 |\n| --- | --- | --- | --- |\n| P1 | 0 ms | 1 | 60 ms |\n| P2 | 20 ms | 10 | 42 ms |\n| P3 | 30 ms | 100 | 13 ms |\n\n采用基于优先权的抢占式 CPU 调度算法，从 0 ms 开始调度，三个进程的平均周转时间为（　）。\n\nA. 60 ms　　B. 61 ms　　C. 70 ms　　D. 71 ms",
+    "answer": "B；61 ms",
+    "solution": "运行区间为 P1[0,20)、P2[20,30)、P3[30,43)、P2[43,75)、P1[75,115)。抢占时分别保留 P1 的40 ms、P2 的32 ms。\n\n周转时间为 $115-0=115$、$75-20=55$、$43-30=13$ ms，平均 $(115+55+13)/3=61$ ms。\n\n![每次抢占保留剩余时间，不重新开始整个 CPU 段](OS_priority_timeline.png)",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex2-3",
+    "method": "抢占剩余量与周转"
+  },
+  {
+    "id": "OS02-E04",
+    "number": "2-4",
+    "question": "P0、P1、P2、P3 的到达、优先级（值越小优先权越高）和执行时间如下表所示。采用基于优先权的抢占式进程调度，从 0 ms 开始，到四个进程都运行结束为止，发生进程调度的总次数为（　）。\n\n| 进程 | 到达 | 优先级 | CPU 时间 |\n| --- | --- | --- | --- |\n| P0 | 0 ms | 15 | 100 ms |\n| P1 | 10 ms | 20 | 60 ms |\n| P2 | 10 ms | 10 | 20 ms |\n| P3 | 15 ms | 6 | 10 ms |\n\nA. 4　　B. 5　　C. 6　　D. 7",
+    "answer": "C；6次",
+    "solution": "运行段为 P0[0,10)、P2[10,15)、P3[15,25)、P2[25,40)、P0[40,130)、P1[130,190)。按原题计首次分派、不计最后转入空闲，共6次。相邻不同进程更换为5次；P1 到达时优先级较低，无需新增运行段。",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex2-4",
+    "method": "分派与切换计数"
+  },
+  {
+    "id": "OS02-E05",
+    "number": "2-5",
+    "question": "系统采用二级反馈队列调度。Q1 采用时间片轮转，时间片为 10 ms；Q2 采用短进程优先。系统优先调度 Q1，Q1 为空才调度 Q2；新创建进程先进入 Q1，在 Q1 执行一个时间片后仍未结束则转入 Q2。当前两队列为空，系统依次创建 P1、P2 后开始调度，两者需要的 CPU 时间分别为 30 ms、20 ms。平均等待时间为（　）。\n\nA. 25 ms　　B. 20 ms　　C. 15 ms　　D. 10 ms",
+    "answer": "C；15 ms",
+    "solution": "P1 先运行[0,10)余20，P2 运行[10,20)余10；Q2 先选 P2，在30完成，P1 在50完成。二者初始均已就绪，等待分别为 $50-30=20$、$30-20=10$ ms，平均15 ms。",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex2-5",
+    "method": "反馈队列剩余服务量"
+  },
+  {
+    "id": "OS02-E06",
+    "number": "2-6",
+    "question": "系统有 4 个进程，预计运行时间和到达就绪队列的时刻如下，单位均为时间配额。分别采用可抢占式短进程优先和时间片轮转调度（时间片为 2），求各进程的调度次序与平均周转时间。\n\n| 进程 | 到达时刻 | 预计运行时间 |\n| --- | --- | --- |\n| P1 | 0 | 8 |\n| P2 | 1 | 4 |\n| P3 | 2 | 9 |\n| P4 | 3 | 5 |",
+    "answer": "SRTF：13；RR：19.25",
+    "solution": "SRTF：P1[0,1)→P2[1,5)→P4[5,10)→P1[10,17)→P3[17,26)。完成时刻为 $(17,5,26,10)$，周转为 $(17,4,24,7)$，平均13。\n\nRR 采用原参考解的同刻约定：新到者先入队，片到期者后回队尾。轨迹为 P1[0,2)→P2[2,4)→P3[4,6)→P1[6,8)→P4[8,10)→P2[10,12)→P3[12,14)→P1[14,16)→P4[16,18)→P3[18,20)→P1[20,22)→P4[22,23)→P3[23,25)→P3[25,26)。完成时刻为 $(22,12,26,23)$，周转 $(22,11,24,20)$，平均19.25。同刻入队规则改变时须重新推演。",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex2-6",
+    "method": "SRTF 与 RR 事件推进",
+    "unverified_legacy_source_key": "OS:2.2:6"
+  },
+  {
+    "id": "OS02-E07",
+    "number": "2-7",
+    "question": "某进程调度程序采用基于优先数（priority）的调度策略，即选择优先数最小的进程运行。进程创建时由用户指定一个 nice 作为静态优先数。为了动态调整优先数，引入运行时间 cpuTime 和等待时间 waitTime，初值均为 0。进程处于执行态时，cpuTime 定时加 1，且 waitTime 置 0；进程处于就绪态时，cpuTime 置 0，waitTime 定时加 1。请回答下列问题。\n\n（1）若调度程序只将 nice 的值作为进程的优先数，即 priority=nice，则可能会出现饥饿现象，为什么？\n\n（2）使用 nice、cpuTime 和 waitTime 设计一种动态优先数计算方法，以避免产生饥饿现象，并说明 waitTime 的作用。",
+    "answer": "$priority=nice+k_1cpuTime-k_2waitTime$，$k_1,k_2>0$",
+    "solution": "（1）只比较 nice 时，较小 nice 的进程持续就绪可使较大 nice 的进程长期落选。\n\n（2）取 $priority=nice+k_1cpuTime-k_2waitTime$，$k_1,k_2>0$。运行使优先数增大，等待使优先数减小；waitTime 实现老化。按题设在运行时清 waitTime、就绪时清 cpuTime。无饥饿保证还需有限进程或有界 nice、持续重算、适当抢占或有限运行段及公平同级处理等前提。",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex2-7",
+    "method": "动态优先数与老化"
+  },
+  {
+    "id": "OS02-E08",
+    "number": "2-8",
+    "question": "进程 A 和进程 B 通过共享缓冲区协作完成数据处理，进程 A 负责产生数据并放入缓冲区，进程 B 从缓冲区读数据并输出。进程 A 和进程 B 之间的制约关系是（　）。\n\nA. 互斥关系　　B. 同步关系　　C. 互斥和同步关系　　D. 无制约关系",
+    "answer": "C",
+    "solution": "B 等 A 放入后才读，构成同步；双方操作同一共享缓冲，须协调冲突，构成互斥。实际信号量个数还取决于初态、容量与执行次数。",
+    "source_key": "OS:2.3:11",
+    "baseline_anchor": "OS02-ex-err11",
+    "method": "同步与互斥"
+  },
+  {
+    "id": "OS02-E09",
+    "number": "2-9",
+    "question": "用 P、V 操作实现进程同步，信号量的初值为（　）。\n\nA. −1　　B. 0　　C. 1　　D. 由用户确定",
+    "answer": "D",
+    "solution": "根据资源或事件的初始状态确定。尚未完成的一次通知可从0开始；已有 k 个结果时，相应可消费许可应为 k。",
+    "source_key": "OS:2.3:18",
+    "baseline_anchor": "OS02-ex-err18",
+    "method": "信号量初态"
+  },
+  {
+    "id": "OS02-E10",
+    "number": "2-10",
+    "question": "某进程的两个线程 T1 和 T2 并发执行 A、B、C、D、E 和 F 共 6 个操作，其中 T1 执行 A、E 和 F，T2 执行 B、C 和 D。题46图表示上述 6 个操作的执行顺序所必须满足的约束：C 在 A 和 B 完成后执行，D 和 E 在 C 完成后执行，F 在 E 完成后执行。请使用信号量的 wait()、signal() 操作描述 T1 和 T2 之间的同步关系，并说明所用信号量的作用及其初值。\n\n![原题前驱图；图下文字标明题干给出的线程归属](F03_precedence_2022.png)",
+    "answer": "两个信号量，初值均0",
+    "solution": "T1 按 A、E、F 执行，T2 按 B、C、D 执行；本线程顺序已保证 B→C、C→D、E→F。跨线程只需 A→C 和 C→E。\n\n```text\nsemaphore ac=0, ce=0;\nT1: A; V(ac); P(ce); E; F;\nT2: B; P(ac); C; V(ce); D;\n```\n\nC 前已完成本线程的 B 并收到 A 通知；E 前收到 C 通知。V(ce) 放在 C 后、D 前，保留 D 与 E/F 的并发。",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex-2022",
+    "method": "前驱边与线程归属"
+  },
+  {
+    "id": "OS02-E11",
+    "number": "2-11",
+    "question": "计算机系统中的进程之间往往需要相互协作以完成一个任务。在某网络系统中，缓冲区 B 用于存放一个数据分组，对 B 的操作有 C1、C2 和 C3。C1 将一个数据分组写入 B 中，C2 从 B 中读出一个数据分组，C3 对 B 中的数据分组进行修改。要求 B 为空时才能执行 C1，B 非空时才能执行 C2 和 C3。\n\n（1）假设进程 P1 和 P2 均需要执行 C1，实现 C1 的代码是否为临界区？为什么？（2分）\n\n（2）假设 B 初始为空，进程 P1 执行 C1 一次，进程 P2 执行 C2 一次。请定义尽可能少的信号量，并用 wait()、signal() 操作描述进程 P1 和 P2 之间的同步或互斥关系，说明所用信号量的作用及其初值。（3分）\n\n（3）假设 B 初始不为空，进程 P1 和 P2 各执行 C3 一次。请定义尽可能少的信号量，并用 wait()、signal() 操作描述进程 P1 和 P2 之间的同步或互斥关系，说明所用信号量的作用及其初值。（3分）",
+    "answer": "（1）是；（2）done=0；（3）mutex=1",
+    "solution": "（1）两个 C1 可同时发现空缓冲并互相覆盖，检查和写入须作为临界区保护。\n\n（2）初始空且各执行一次，只需写完通知：\n\n```text\nsemaphore done=0;\nP1: C1; V(done);\nP2: P(done); C2;\n```\n\n该先后关系已排除两次操作重叠。\n\n（3）初始非空且两次修改均不清空，使用互斥量：\n\n```text\nsemaphore mutex=1;\nP1: P(mutex); C3; V(mutex);\nP2: P(mutex); C3; V(mutex);\n```\n\n每问按各自初态和活动范围独立分析。",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex-2024",
+    "method": "一次同步与互斥最少量"
+  },
+  {
+    "id": "OS02-E12",
+    "number": "2-12",
+    "question": "三个进程 P1、P2、P3 互斥使用一个包含 N（N>0）个单元的缓冲区。P1 每次用 produce() 生成一个正整数并用 put() 送入缓冲区某一空单元中；P2 每次用 getodd() 从该缓冲区中取出一个奇数并用 countodd() 统计奇数个数；P3 每次用 geteven() 从该缓冲区中取出一个偶数并用 counteven() 统计偶数个数。请用信号量机制实现这三个进程的同步与互斥活动，并说明所定义信号量的含义（要求用伪代码描述）。",
+    "answer": "empty=N，odd=even=0，mutex=1；按类别发布",
+    "solution": "原题未明确初态，沿参考解取初始为空；有初存 a 个奇数、b 个偶数时改为 empty=N-a-b、odd=a、even=b。所有缓冲放取共用 mutex；奇偶分别计产品许可。\n\n```text\nsemaphore empty=N, odd=0, even=0, mutex=1;\nP1: while (true) {\n    x=produce();\n    P(empty); P(mutex); put(); V(mutex);\n    if (x%2) V(odd); else V(even);\n}\nP2: while (true) {\n    P(odd); P(mutex); getodd(); V(mutex);\n    V(empty); countodd();\n}\nP3: while (true) {\n    P(even); P(mutex); geteven(); V(mutex);\n    V(empty); counteven();\n}\n```\n\nput() 放入 P1 当前的本地整数 x。实际取出后立即归还空位，私有统计留在锁外；某类长期不产生时，该消费者可一直等，其他进程仍可推进。",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex-2009",
+    "method": "分类产品许可"
+  },
+  {
+    "id": "OS02-E13",
+    "number": "2-13",
+    "question": "系统中有多个生产者进程和多个消费者进程，共享一个能存放 1000 件产品的环形缓冲区（初始为空）。当缓冲区未满时，生产者进程可以放入其生产的一件产品，否则等待；当缓冲区未空时，消费者进程可以从缓冲区取走一件产品，否则等待。要求一个消费者进程从缓冲区连续取出 10 件产品后，其他消费者进程才可以取产品。请使用信号量 P、V（或 wait()、signal()）操作实现进程间的互斥与同步，要求写出完整的过程，并说明所用信号量的含义和初值。",
+    "answer": "empty=1000，full=0，mutex=batch=1",
+    "solution": "mutex 保护单次缓冲操作及指针，batch 保证一个消费者连续取10件；生产者不申请 batch。\n\n```text\nsemaphore empty=1000, full=0, mutex=1, batch=1;\nitem buf[1000]; int in=0, out=0;\nproducer: while (true) {\n    x=produce(); P(empty); P(mutex);\n    buf[in]=x; in=(in+1)%1000;\n    V(mutex); V(full);\n}\nconsumer: while (true) {\n    P(batch);\n    for (int k=0; k<10; k++) {\n        P(full); P(mutex);\n        local[k]=buf[out]; out=(out+1)%1000;\n        V(mutex); V(empty);\n    }\n    V(batch); consume(local);\n}\n```\n\n消费者缺货时只持 batch、等待 full，生产者仍可取得 mutex 补货；其他消费者无法插入。每取一件即归还空位，整批无须在开始时凑齐。",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex-2014",
+    "method": "整批锁与单件锁"
+  },
+  {
+    "id": "OS02-E14",
+    "number": "2-14",
+    "question": "若 x 是管程内的条件变量，则当进程执行 x.wait() 时所做的工作是（　）。\n\nA. 实现对变量 x 的互斥访问\n\nB. 唤醒一个在 x 上阻塞的进程\n\nC. 根据 x 的值判断该进程是否进入阻塞态\n\nD. 阻塞该进程，并将之插入 x 的阻塞队列中",
+    "answer": "D",
+    "solution": "x.wait() 将当前进程插入 x 的等待队列、阻塞并释放管程。共享状态的条件由调用者先判断，条件变量本身只管理等待；通知后是否立即运行由管程语义规定。",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex-2018",
+    "method": "条件等待释放管程"
+  },
+  {
+    "id": "OS02-E15",
+    "number": "2-15",
+    "question": "若系统 S1 采用死锁避免方法，S2 采用死锁检测方法。下列叙述中，正确的是（　）。\n\nⅠ. S1 会限制用户申请资源的顺序，而 S2 不会\n\nⅡ. S1 需要进程运行所需的资源总量信息，而 S2 不需要\n\nⅢ. S1 不会给可能导致死锁的进程分配资源，而 S2 会\n\nA. 仅Ⅰ、Ⅱ　　B. 仅Ⅱ、Ⅲ　　C. 仅Ⅰ、Ⅲ　　D. Ⅰ、Ⅱ、Ⅲ",
+    "answer": "B",
+    "solution": "Ⅰ所述统一资源申请顺序属于预防策略。银行家式避免需要最大需求，检测依据当前持有与等待请求；检测允许出现死锁后再解除。故Ⅱ、Ⅲ成立。",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex4-1",
+    "method": "预防避免检测信息"
+  },
+  {
+    "id": "OS02-E16",
+    "number": "2-16",
+    "question": "某时刻进程的资源使用情况如下表所示，可用资源向量为 $(0,2,1)$。\n\n| 进程 | 已分配 $(R_1,R_2,R_3)$ | 尚需分配 $(R_1,R_2,R_3)$ |\n| --- | --- | --- |\n| P1 | (2,0,0) | (0,0,1) |\n| P2 | (1,2,0) | (1,3,2) |\n| P3 | (0,1,1) | (1,3,1) |\n| P4 | (0,0,1) | (2,0,0) |\n\n此时的安全序列是（　）。\n\nA. P1、P2、P3、P4　　B. P1、P3、P2、P4\n\nC. P1、P4、P3、P2　　D. 不存在",
+    "answer": "D；不存在安全序列",
+    "solution": "Work 初为 $(0,2,1)$，仅 P1 可完成，回收后为 $(2,2,1)$；再选 P4 后为 $(2,2,2)$。P2、P3 均仍需3个 R2，仅2个可用，无法继续。完成前两人无法证明整个系统安全；实际当前请求未给出，不能据此确定已死锁。",
+    "source_key": null,
+    "baseline_anchor": "OS02-ex4-2",
+    "method": "安全检查停止条件"
+  },
+  {
+    "id": "OS02-E17",
+    "number": "2-17",
+    "question": "系统有三类资源 A、B、C 和五个进程，某时刻分配如下。若系统安全，则可用资源向量 $(x,y,z)$ 可能是哪些？\n\n| 进程 | Allocation | Max |\n| --- | --- | --- |\n| P0 | (0,0,3) | (0,0,4) |\n| P1 | (1,0,0) | (1,7,5) |\n| P2 | (1,3,5) | (2,3,5) |\n| P3 | (0,0,2) | (0,6,4) |\n| P4 | (0,0,1) | (0,6,5) |\n\nⅠ. (1,4,0)　Ⅱ. (0,6,2)　Ⅲ. (1,1,1)　Ⅳ. (0,4,7)\n\nA. Ⅰ、Ⅱ、Ⅳ　　B. Ⅰ、Ⅱ　　C. 仅Ⅰ　　D. Ⅰ、Ⅲ",
+    "answer": "C；仅Ⅰ",
+    "solution": "Need 依次为 $(0,0,1)$、$(0,7,5)$、$(1,0,0)$、$(0,6,2)$、$(0,6,4)$。各候选独立从原态检查：\n\n| 候选 | 可完成过程或停止状态 | 结论 |\n| --- | --- | --- |\n| Ⅰ | P2 完成后 Work=$(2,7,5)$，其余均可完成 | 安全 |\n| Ⅱ | P0、P3、P4 完成后至多 $(0,6,8)$，P2 差A、P1 差B | 不安全 |\n| Ⅲ | P0、P2 完成后 $(2,4,9)$，其余仍差B | 不安全 |\n| Ⅳ | 仅 P0 完成，Work=$(0,4,10)$ 后停止 | 不安全 |",
+    "source_key": "OS:2.4:26",
+    "baseline_anchor": "OS02-ex4-3",
+    "method": "候选向量独立安全检查"
+  }
+]

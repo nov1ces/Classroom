@@ -1,0 +1,26 @@
+{
+  "review_time_utc": "2026-10-28T17:22:08.933174+00:00",
+  "reviewer": "independent Sol content_review",
+  "files_sha256": {
+    "content.md": "a826c05a20e8cdd262ccb86162d742728d724f1946c1b4c04acd9615ecf66371",
+    "examples.json": "cd0a9de38c1a07968a1c55c873310dfa59fa122623e3c4b94ad28324ed028d7e",
+    "sidebars.json": "a5d3967e5c2709687f37db14b8d8f4f9f87ced650f4616f149f37ece039ce6e3",
+    "sources/coverage.json": "206c1074e8d9f42be22b4e999f7bed5c7a88dad830d5484822495e4be9f0f3b2"
+  },
+  "scope": [
+    "Read complete content, examples (question/answer/solution), sidebars",
+    "Checked retained concepts against baseline chapter heading inventory and substantive text",
+    "Manual answer/algorithm reasoning; representative graph diagrams checked in baseline; no claim of re-viewing all original textbook pages"
+  ],
+  "examples_read": 2,
+  "pdf_visual_review": false,
+  "checks": [],
+  "corrections": [
+    "Restricted naive matching candidate/time bound to n>=m>0 and described m>n failure path"
+  ],
+  "code_test": {
+    "command": "g++ -std=c++11 -Wall -Wextra -Werror -fsanitize=address,undefined sources/independent_displayed_ds04.cpp",
+    "result": "65025 binary string pairs length 0..7; brute prefix/standard find oracles; SubString boundaries; maximum legal capacity; passed",
+    "source": "All current displayed C++ blocks extracted without edits, then independent harness appended"
+  }
+}

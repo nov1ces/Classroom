@@ -1,0 +1,49 @@
+[
+  {
+    "page": 1,
+    "sidebars": [],
+    "occupied_margin_intervals": [
+      [
+        82,
+        109.8389892578125
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [],
+    "occupied_margin_intervals": [
+      [
+        527.5675048828125,
+        667.4287109375
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "DS04-next",
+        "y": 156.7208251953125,
+        "estimated_height": 59.8
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        86.83541870117188,
+        156.7208251953125
+      ]
+    ]
+  },
+  {
+    "page": 5,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  }
+]

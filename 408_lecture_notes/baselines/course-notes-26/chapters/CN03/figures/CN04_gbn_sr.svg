@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="375" viewBox="0 0 980 375">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17212a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#17212a" stroke-linejoin="round">
+<text x="490" y="30" text-anchor="middle" font-size="23" font-weight="bold" fill="#17212a">0、1按序交付后，2丢失，3和4先到</text>
+<text x="90" y="130" text-anchor="middle" font-size="24" font-weight="bold" fill="#17212a">GBN</text>
+<rect x="190" y="105" width="95" height="50" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="237.5" y="137.0" text-anchor="middle" font-size="24" font-weight="normal" fill="#17212a">2</text>
+<rect x="315" y="105" width="95" height="50" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="362.5" y="137.0" text-anchor="middle" font-size="24" font-weight="normal" fill="#17212a">3</text>
+<rect x="440" y="105" width="95" height="50" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="487.5" y="137.0" text-anchor="middle" font-size="24" font-weight="normal" fill="#17212a">4</text>
+<text x="237" y="191" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">缺失</text>
+<text x="425" y="130" text-anchor="middle" font-size="32" font-weight="normal" fill="#17212a">×</text>
+<text x="550" y="130" text-anchor="middle" font-size="32" font-weight="normal" fill="#17212a">×</text>
+<text x="760" y="130" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">失序帧丢弃</text>
+<text x="640" y="189" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">超时重发2、3、4</text>
+<text x="90" y="265" text-anchor="middle" font-size="24" font-weight="bold" fill="#17212a">SR</text>
+<rect x="190" y="240" width="95" height="50" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="237.5" y="272.0" text-anchor="middle" font-size="24" font-weight="normal" fill="#17212a">2</text>
+<rect x="315" y="240" width="95" height="50" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="362.5" y="272.0" text-anchor="middle" font-size="24" font-weight="normal" fill="#17212a">3</text>
+<rect x="440" y="240" width="95" height="50" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="487.5" y="272.0" text-anchor="middle" font-size="24" font-weight="normal" fill="#17212a">4</text>
+<text x="237" y="326" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">缺失</text>
+<text x="760" y="265" text-anchor="middle" font-size="23" font-weight="normal" fill="#17212a">3、4进入缓存</text>
+<text x="640" y="324" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">补到2后连续交付2、3、4</text>
+</g></svg>

@@ -1,0 +1,75 @@
+[
+  {
+    "page": 1,
+    "sidebars": [],
+    "occupied_margin_intervals": [
+      [
+        82,
+        109.83876037597656
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "DS03-queue",
+        "y": 156.42422485351562,
+        "estimated_height": 59.8
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        86.835205078125,
+        156.42422485351562
+      ]
+    ]
+  },
+  {
+    "page": 3,
+    "sidebars": [],
+    "occupied_margin_intervals": [
+      [
+        123.31950378417969,
+        138.1165008544922
+      ],
+      [
+        126.52349853515625,
+        151.55715942382812
+      ],
+      [
+        140.77890014648438,
+        155.277099609375
+      ],
+      [
+        143.78640747070312,
+        193.48983764648438
+      ],
+      [
+        181.85049438476562,
+        196.64749145507812
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  }
+]

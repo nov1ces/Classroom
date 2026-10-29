@@ -1,0 +1,316 @@
+[
+  {
+    "baseline_anchor": "CN04",
+    "targets": [
+      "CN04"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-01",
+    "targets": [
+      "CN04-forwarding"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-02",
+    "targets": [
+      "CN04-forwarding"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-03",
+    "targets": [
+      "CN04-forwarding"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-04",
+    "targets": [
+      "CN04-forwarding"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-05",
+    "targets": [
+      "CN04-routing-algorithms"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-ex1",
+    "targets": [
+      "CN04-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN04-06",
+    "targets": [
+      "CN04-routing-algorithms"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-07",
+    "targets": [
+      "CN04-ipv4"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-ex2",
+    "targets": [
+      "CN04-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN04-08",
+    "targets": [
+      "CN04-addresses"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-ex3",
+    "targets": [
+      "CN04-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN04-ex4",
+    "targets": [
+      "CN04-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN04-09",
+    "targets": [
+      "CN04-prefix"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-ex5",
+    "targets": [
+      "CN04-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN04-10",
+    "targets": [
+      "CN04-arp-nat"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-11",
+    "targets": [
+      "CN04-arp-nat"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-ex6",
+    "targets": [
+      "CN04-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN04-12",
+    "targets": [
+      "CN04-control"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-ex7",
+    "targets": [
+      "CN04-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN04-13",
+    "targets": [
+      "CN04-control"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-ex8",
+    "targets": [
+      "CN04-E08"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN04-14",
+    "targets": [
+      "CN04-ipv6"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-ex9",
+    "targets": [
+      "CN04-E09"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN04-15",
+    "targets": [
+      "CN04-routing-protocols"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-16",
+    "targets": [
+      "CN04-routing-protocols"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-17",
+    "targets": [
+      "CN04-routing-protocols"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-18",
+    "targets": [
+      "CN04-routing-protocols"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-19",
+    "targets": [
+      "CN04-multicast-mobility"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-20",
+    "targets": [
+      "CN04-multicast-mobility"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-21",
+    "targets": [
+      "CN04-router"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN04-ex10",
+    "targets": [
+      "CN04-E10"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN04-ex11",
+    "targets": [
+      "CN04-E11"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN04-ex12",
+    "targets": [
+      "CN04-E12"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN04-ex13",
+    "targets": [
+      "CN04-E13"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN04-course-addresses",
+    "targets": [
+      "CN04-addresses"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN04-course-vlsm",
+    "targets": [
+      "CN04-addresses"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN04-course-ospf",
+    "targets": [
+      "CN04-routing-protocols"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN04-course-routing",
+    "targets": [
+      "CN04-routing-protocols"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN04-course-ipv6",
+    "targets": [
+      "CN04-ipv6"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN04-review",
+    "targets": [
+      "CN04-forwarding",
+      "CN04-routing-algorithms",
+      "CN04-ipv4",
+      "CN04-addresses",
+      "CN04-prefix",
+      "CN04-arp-nat",
+      "CN04-control",
+      "CN04-ipv6",
+      "CN04-routing-protocols",
+      "CN04-multicast-mobility",
+      "CN04-router"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN04-review-answers",
+    "targets": [
+      "CN04-forwarding",
+      "CN04-routing-algorithms",
+      "CN04-ipv4",
+      "CN04-addresses",
+      "CN04-prefix",
+      "CN04-arp-nat",
+      "CN04-control",
+      "CN04-ipv6",
+      "CN04-routing-protocols",
+      "CN04-multicast-mobility",
+      "CN04-router"
+    ],
+    "disposition": "merged"
+  }
+]

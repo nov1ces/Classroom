@@ -1,0 +1,383 @@
+[
+  {
+    "baseline_anchor": "CO03",
+    "targets": [
+      "CO03"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO03-02",
+    "targets": [
+      "CO03-hierarchy"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-03",
+    "targets": [
+      "CO03-semiconductor"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-04",
+    "targets": [
+      "CO03-dram"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-05",
+    "targets": [
+      "CO03-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO03-06",
+    "targets": [
+      "CO03-expansion"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-07",
+    "targets": [
+      "CO03-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO03-08",
+    "targets": [
+      "CO03-interleave"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-09",
+    "targets": [
+      "CO03-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO03-10",
+    "targets": [
+      "CO03-chip"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-11",
+    "targets": [
+      "CO03-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO03-12",
+    "targets": [
+      "CO03-disk"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-13",
+    "targets": [
+      "CO03-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO03-14",
+    "targets": [
+      "CO03-cache-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-15",
+    "targets": [
+      "CO03-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO03-16",
+    "targets": [
+      "CO03-burst"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-17",
+    "targets": [
+      "CO03-cache-address"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-18",
+    "targets": [
+      "CO03-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO03-19",
+    "targets": [
+      "CO03-replacement"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-20",
+    "targets": [
+      "CO03-write"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-21",
+    "targets": [
+      "CO03-E08"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO03-22",
+    "targets": [
+      "CO03-virtual"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-23",
+    "targets": [
+      "CO03-virtual"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-24",
+    "targets": [
+      "CO03-virtual"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-25",
+    "targets": [
+      "CO03-E09"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO03-26",
+    "targets": [
+      "CO03-E10"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO03-27",
+    "targets": [
+      "CO03-segment"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-28",
+    "targets": [
+      "CO03-access"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-29",
+    "targets": [
+      "CO03-E11"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO03-30",
+    "targets": [
+      "CO03-E12"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO03-31",
+    "targets": [
+      "CO03-E13"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO03-method",
+    "targets": [
+      "CO03-access"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-proof",
+    "targets": [
+      "CO03-cache-address"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-rom",
+    "targets": [
+      "CO03-semiconductor",
+      "CO03-dram"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-assoc",
+    "targets": [
+      "CO03-cache-address"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-storage-details",
+    "targets": [
+      "CO03-hierarchy",
+      "CO03-dram"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-rom-complete",
+    "targets": [
+      "CO03-semiconductor"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-ssd-details",
+    "targets": [
+      "CO03-ssd"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-chip-expansion-complete",
+    "targets": [
+      "CO03-chip"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-chip-example",
+    "targets": [
+      "CO03-decoding"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-interleave-complete",
+    "targets": [
+      "CO03-interleave"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-replacement-complete",
+    "targets": [
+      "CO03-replacement"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-cache-model-complete",
+    "targets": [
+      "CO03-cache-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-disk-complete",
+    "targets": [
+      "CO03-disk",
+      "CO03-raid"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-extra-check",
+    "targets": [
+      "CO03-interleave",
+      "CO03-expansion",
+      "CO03-replacement",
+      "CO03-ssd",
+      "CO03-cache-time",
+      "CO03-cache-capacity",
+      "CO03-translation",
+      "CO03-write"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-recall",
+    "targets": [
+      "CO03-interleave",
+      "CO03-expansion",
+      "CO03-replacement",
+      "CO03-ssd",
+      "CO03-cache-time",
+      "CO03-cache-capacity",
+      "CO03-translation",
+      "CO03-write"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-32",
+    "targets": [
+      "CO03-interleave",
+      "CO03-expansion",
+      "CO03-replacement",
+      "CO03-ssd",
+      "CO03-cache-time",
+      "CO03-cache-capacity",
+      "CO03-translation",
+      "CO03-write"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-recall-new",
+    "targets": [
+      "CO03-interleave",
+      "CO03-expansion",
+      "CO03-replacement",
+      "CO03-ssd",
+      "CO03-cache-time",
+      "CO03-cache-capacity",
+      "CO03-translation",
+      "CO03-write"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO03-answers",
+    "targets": [
+      "CO03-interleave",
+      "CO03-expansion",
+      "CO03-replacement",
+      "CO03-ssd",
+      "CO03-cache-time",
+      "CO03-cache-capacity",
+      "CO03-translation",
+      "CO03-write"
+    ],
+    "disposition": "merged"
+  }
+]

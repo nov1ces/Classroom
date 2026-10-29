@@ -1,0 +1,23 @@
+{
+  "OS05": "输入输出管理",
+  "OS05-devices": "设备、控制器与 I/O 地址",
+  "OS05-control": "轮询、中断、DMA 与通道",
+  "OS05-software": "软件层次与请求完成",
+  "OS05-E01": "例 5-1",
+  "OS05-interfaces": "阻塞、非阻塞、异步与设备接口",
+  "OS05-buffer-time": "单缓冲与双缓冲时间",
+  "OS05-E02": "例 5-2",
+  "OS05-buffer-pool": "循环缓冲与缓冲池",
+  "OS05-allocation": "设备分配与控制表",
+  "OS05-spooling": "SPOOLing",
+  "OS05-disk": "磁盘结构、地址与访问时间",
+  "OS05-E03": "例 5-3",
+  "OS05-formatting": "格式化、引导与坏块",
+  "OS05-E04": "例 5-4",
+  "OS05-disk-scheduling": "磁盘调度与布局",
+  "OS05-E05": "例 5-5",
+  "OS05-ssd": "SSD、FTL 与磨损均衡",
+  "OS05-comprehensive": "I/O 状态与地址综合",
+  "OS05-E06": "例 5-6",
+  "OS05-E07": "例 5-7"
+}

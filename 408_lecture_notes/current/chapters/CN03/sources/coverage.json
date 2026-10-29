@@ -1,0 +1,286 @@
+[
+  {
+    "baseline_anchor": "CN03",
+    "targets": [
+      "CN03"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-01",
+    "targets": [
+      "CN03-framing"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-02",
+    "targets": [
+      "CN03-framing"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-ex1",
+    "targets": [
+      "CN03-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN03-03",
+    "targets": [
+      "CN03-error-code"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-ex2",
+    "targets": [
+      "CN03-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN03-04",
+    "targets": [
+      "CN03-error-code",
+      "CN03-hamming"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-ex3",
+    "targets": [
+      "CN03-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN03-05",
+    "targets": [
+      "CN03-arq"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-06",
+    "targets": [
+      "CN03-arq"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-ex4",
+    "targets": [
+      "CN03-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN03-07",
+    "targets": [
+      "CN03-arq"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-ex5",
+    "targets": [
+      "CN03-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN03-ex6",
+    "targets": [
+      "CN03-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN03-08",
+    "targets": [
+      "CN03-arq"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-09",
+    "targets": [
+      "CN03-multiplex"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-ex7",
+    "targets": [
+      "CN03-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN03-10",
+    "targets": [
+      "CN03-csma"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-11",
+    "targets": [
+      "CN03-csma"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-ex8",
+    "targets": [
+      "CN03-E08"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN03-12",
+    "targets": [
+      "CN03-wlan"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-ex9",
+    "targets": [
+      "CN03-E09"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN03-13",
+    "targets": [
+      "CN03-multiplex"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-14",
+    "targets": [
+      "CN03-ethernet"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-15",
+    "targets": [
+      "CN03-ethernet"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-16",
+    "targets": [
+      "CN03-wlan"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-17",
+    "targets": [
+      "CN03-ethernet"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-ex10",
+    "targets": [
+      "CN03-E10"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN03-18",
+    "targets": [
+      "CN03-ppp"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-19",
+    "targets": [
+      "CN03-ethernet"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN03-ex11",
+    "targets": [
+      "CN03-E11"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN03-ex12",
+    "targets": [
+      "CN03-E12"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN03-course-hamming",
+    "targets": [
+      "CN03-hamming"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN03-course-window",
+    "targets": [
+      "CN03-arq"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN03-course-mac",
+    "targets": [
+      "CN03-wlan",
+      "CN03-multiplex"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN03-course-ppp",
+    "targets": [
+      "CN03-ppp"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN03-review",
+    "targets": [
+      "CN03-framing",
+      "CN03-error-code",
+      "CN03-hamming",
+      "CN03-arq",
+      "CN03-multiplex",
+      "CN03-csma",
+      "CN03-wlan",
+      "CN03-ethernet",
+      "CN03-ppp"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN03-review-answers",
+    "targets": [
+      "CN03-framing",
+      "CN03-error-code",
+      "CN03-hamming",
+      "CN03-arq",
+      "CN03-multiplex",
+      "CN03-csma",
+      "CN03-wlan",
+      "CN03-ethernet",
+      "CN03-ppp"
+    ],
+    "disposition": "merged"
+  }
+]

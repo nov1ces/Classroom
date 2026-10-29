@@ -1,0 +1,4372 @@
+{
+  "schema_version": 1,
+  "policy": "逐题独立核对题干、数据、选项、要求及必要图示；绑定精确题干SHA与原材料文件指纹、页码和bbox。native记录说明改题、缺条件或来源不符；不以相似度作为确证。",
+  "verifications": [
+    {
+      "example_id": "CN02-E02",
+      "question_sha256": "ea019137c19396d6b3d7e80ee28bba8937ceb8b10e4adbac876f16ed7524a426",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:23.825518+00:00",
+      "reason": "逐项核对10→20 MHz、30→40 dB、QAM-32及A-D四个倍率选项完全一致；仅精简“方案”等叙述。已查看原解析，奈氏与香农共同限制及答案A对应。",
+      "source": {
+        "id": "WD-CN-2_1-017",
+        "source_key": "CN:2.1:17",
+        "question_crops": [
+          {
+            "page": 72,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              105.67998504638672
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 52,
+            "bbox": [
+              54,
+              182.4,
+              489,
+              273.48
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN03-E06",
+      "question_sha256": "1254ea8765c1df31ed732b9176ee1668309388b4250053f30c414bb7e2801f76",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:24.047044+00:00",
+      "reason": "GBN、16 kb/s、单向250 ms、数据和确认均128 B、最少序号位数及2/3/4/5选项一致；已查看原解析628 ms及4 bit结论。",
+      "source": {
+        "id": "WD-CN-3_4-019",
+        "source_key": "CN:3.4:19",
+        "question_crops": [
+          {
+            "page": 139,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              124.97854614257812
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 85,
+            "bbox": [
+              54,
+              531.96,
+              489,
+              623.0400000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN03-E10",
+      "question_sha256": "2790059c95322300e0e47f1d0354b79bdb164707a2181956e69c21cda7e3a73d",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:24.237758+00:00",
+      "reason": "40 B的IP数据报、802.1Q载荷填充要求及2/4/6/8选项一致；“字节”写为B。已查看原解析采用42 B下限、答案A。",
+      "source": {
+        "id": "WD-CN-3_6-008",
+        "source_key": "CN:3.6:8",
+        "question_crops": [
+          {
+            "page": 180,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              105.46774291992188
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 118,
+            "bbox": [
+              54,
+              575.16,
+              489,
+              620.88
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN04-E06",
+      "question_sha256": "55677d0fe572578cd36d19de1cfc6f3add4956b3254437f4afe34dba085b763d",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:24.438163+00:00",
+      "reason": "IP甲211.71.136.23、乙211.71.130.25、掩码255.255.240.0、网关211.71.136.1及四项交付对象/MAC组合一致；选项仅压缩文字。已查看原解析同一/20网络直接交付。",
+      "source": {
+        "id": "WD-CN-4_2-043",
+        "source_key": "CN:4.2:43",
+        "question_crops": [
+          {
+            "page": 320,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              165.13656616210938
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 182,
+            "bbox": [
+              54,
+              188.16,
+              489,
+              294.36
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN06-E05",
+      "question_sha256": "0fd0ff8e5fea02f0e1fefd653480a6503645648fdb17f3afee51ab1f3d216826",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:24.857529+00:00",
+      "reason": "HTTP/1.1流水线、rfc.html引用3图、先HTML后图请求、每次RTT、忽略其余时延及从HTTP请求起算条件全部一致；四选项一致。原解析2RTT已查看。",
+      "source": {
+        "id": "WD-CN-6_5-012",
+        "source_key": "CN:6.5:12",
+        "question_crops": [
+          {
+            "page": 557,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              144.70159912109375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 311,
+            "bbox": [
+              54,
+              531.96,
+              489,
+              592.8000000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "DS01-E01",
+      "question_sha256": "29828b8b59dea0bd6b50ebaddd12fa4d8da152da7305a93c754752f6dea2a8cf",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:25.529148+00:00",
+      "reason": "完整题干和A-D四选项一致，原PDF原生题干与原解析C均已核对。",
+      "source": {
+        "id": "WD-DS-1_1-005",
+        "source_key": "DS:1.1:5",
+        "question_crops": [
+          {
+            "page": 5,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              105.8160629272461
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 16,
+            "bbox": [
+              54,
+              356.64,
+              489,
+              393.36
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS02-E01",
+      "question_sha256": "39d711f688d28b39e92971792db33b8ad143ef7817ffee6e97c5a2a8c867f246",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:25.732143+00:00",
+      "reason": "a0至a100删a50、未指定存储结构、移动元素数及0/50/51/0或50四项均一致；下标改原生LaTeX。已查看原解析分别说明链式0、顺序50。",
+      "source": {
+        "id": "WD-DS-2_3-012",
+        "source_key": "DS:2.3:12",
+        "question_crops": [
+          {
+            "page": 52,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              88.29378509521484
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 59,
+            "bbox": [
+              54,
+              75.12,
+              489,
+              118.68
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS02-E03",
+      "question_sha256": "255590980955dee3c09c2162d2cab2a59b134c0f4838cd21efcbfc04bc739daf",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:25.941924+00:00",
+      "reason": "向p之前插q的要求及A-D全部指针赋值顺序逐句一致；代码仅重新断行。原解析D的四次指针修改已查看。",
+      "source": {
+        "id": "WD-DS-2_3-015",
+        "source_key": "DS:2.3:15",
+        "question_crops": [
+          {
+            "page": 55,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              145.59255981445312
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 59,
+            "bbox": [
+              54,
+              205.8,
+              489,
+              249.36
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS03-E02",
+      "question_sha256": "f9fb97cfecdc4286def1b5894ecfd3f77bbd3f8b2766c829c6f6d9e6c8d5ae12",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:26.172167+00:00",
+      "reason": "数组A[21]、front指队首前一位置、rear指队尾、front8/rear3及5/6/16/17选项一致；仅简化句子。已查看原解析模21得16。",
+      "source": {
+        "id": "WD-DS-3_2-006",
+        "source_key": "DS:3.2:6",
+        "question_crops": [
+          {
+            "page": 113,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              105.67998504638672
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 97,
+            "bbox": [
+              54,
+              238.20000000000002,
+              489,
+              333.96000000000004
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS05-E06",
+      "question_sha256": "db65ca71f86335a28d9cc7373e5f10d072141eae03c9336934498796a8289b2c",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:26.439100+00:00",
+      "reason": "码长不超过4、已有编码1和01、求最多剩余字符及2/3/4/5选项一致。已查看原解析与树图，最多4个。",
+      "source": {
+        "id": "WD-DS-5_5-004",
+        "source_key": "DS:5.5:4",
+        "question_crops": [
+          {
+            "page": 287,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              86.14864349365234
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 200,
+            "bbox": [
+              54,
+              139.92000000000002,
+              489,
+              297.24
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS06-E02",
+      "question_sha256": "c596bda3e8519b7860e8b54041344373f6bdc7659f1d4fa76c875c2fabf9b00f",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:26.651100+00:00",
+      "reason": "逐边核对ab/ae/ac/be/cf/fd/ed、顶点abcdef、DFS不能得到及acfdeb/aebdfc/aedfcb/abecdf四项一致；集合有序对改边缩写。原解析答案D已查看。",
+      "source": {
+        "id": "WD-DS-6_3-011",
+        "source_key": "DS:6.3:11",
+        "question_crops": [
+          {
+            "page": 355,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              107.86238861083984
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 234,
+            "bbox": [
+              54,
+              376.08000000000004,
+              489,
+              486.96000000000004
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS07-E03",
+      "question_sha256": "8eee9f5dbc26111996323dfa43daec26727649cd748d07717012391bd1f5e00a",
+      "verdict": "native",
+      "reviewed_utc": "2026-10-29T00:05:26.859967+00:00",
+      "reason": "题目要求对34、23、15、98、115、28、107构造AVL；source_key所指原题实际为二叉排序树查找效率因素选择题。无法确认这道AVL题的准确原解析，保留原生。",
+      "source": {
+        "id": "workbook-DS:7.3:3",
+        "source_key": "DS:7.3:3",
+        "question_crops": [
+          {
+            "page": 438,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 307,
+            "bbox": [
+              54,
+              401.64,
+              489,
+              431.88
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS07-E05",
+      "question_sha256": "59a751ee1c3d62cd9a9cc84aa38a858dc6dc467906349299804e472ea1a5d21d",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:27.103117+00:00",
+      "reason": "3阶B树、2047关键字、分别求最大/最小高度及11/10/8/7四项一致；原解析A、D及按含关键字层定义高度已查看。",
+      "source": {
+        "id": "WD-DS-7_4-009",
+        "source_key": "DS:7.4:9",
+        "question_crops": [
+          {
+            "page": 478,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              86.16918182373047
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 325,
+            "bbox": [
+              54,
+              104.28,
+              489,
+              177.72
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS08-E01",
+      "question_sha256": "93f2711d611321139198b5845f50378fe96520731e18eef8ef36fbfda6fd88d8",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:06:07.694511+00:00",
+      "reason": "当前题干已补回采用希尔排序算法；逐个核对输入13/24/7/1/8/9/11/56/34/51/2/77/5、增量5/3/1、两趟要求及A-D所有元素顺序均一致。已查看原解析B及增量5、3两次结果。",
+      "source": {
+        "id": "WD-DS-8_2-012",
+        "source_key": "DS:8.2:12",
+        "question_crops": [
+          {
+            "page": 533,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              126.0750732421875
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 351,
+            "bbox": [
+              54,
+              103.2,
+              489,
+              146.04
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS08-E05",
+      "question_sha256": "9d1357d2133921933ffd69cec43e5dfa937033c3f5389d8e18e484c58dd737d7",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:27.535956+00:00",
+      "reason": "原输入05/46/13/55/94/17/42、一趟基数排序及四项所有元素顺序逐个一致；原解析答案C已查看。",
+      "source": {
+        "id": "WD-DS-8_5-012",
+        "source_key": "DS:8.5:12",
+        "question_crops": [
+          {
+            "page": 594,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              106.75597381591797
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 383,
+            "bbox": [
+              54,
+              106.08,
+              489,
+              152.16
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS08-E08",
+      "question_sha256": "8950022ff15025dbe3a0e36760a4f669507c7301f96c7d71c6ebab0541bf63ca",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:27.948468+00:00",
+      "reason": "12段长度30/44/8/6/3/20/60/18/9/62/68/85及4路归并、画最佳树并求WPL三个要求完全一致；已查看原题和完整两页原解析，补0虚段及WPL690一致。",
+      "source": {
+        "id": "G-12",
+        "source_key": "DS:8.7:4",
+        "question_crops": [
+          {
+            "page": 398,
+            "bbox": [
+              50,
+              523.4,
+              500,
+              551.84
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 401,
+            "bbox": [
+              50,
+              464.72,
+              500,
+              705
+            ]
+          },
+          {
+            "page": 402,
+            "bbox": [
+              50,
+              68,
+              500,
+              87.44
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "question_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "OS02-E06",
+      "question_sha256": "088ec42aeee8ab14c97ffd0cb0107da19e023c6a32cc64cc59517ba32f2283fa",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:07.292200+00:00",
+      "reason": "已找到并查看完整综合题索引中正确原题和原解析：4进程到达0/1/2/3、运行8/4/9/5、SRTF及时间片2的RR要求一致；原解析13及19.25与当前答案一致。先前同号选择题键冲突由完整来源ID及页码坐标区分。",
+      "source": {
+        "id": "full-big-OS:2.2:6",
+        "source_key": "OS:2.2:6",
+        "question_crops": [
+          {
+            "page": 98,
+            "bbox": [
+              50,
+              87.08,
+              500,
+              197.24
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 108,
+            "bbox": [
+              50,
+              402.8,
+              500,
+              705
+            ]
+          },
+          {
+            "page": 109,
+            "bbox": [
+              50,
+              68,
+              500,
+              149.72
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "question_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS02-E08",
+      "question_sha256": "cbd9ed3404a398cdc82d829dfadd1ba492ded6808e1c9e38e62a8917f22f089e",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:28.964077+00:00",
+      "reason": "共享缓冲区中A生产/B读出、制约关系要求及互斥/同步/二者/无四项一致；已查看原解析C。",
+      "source": {
+        "id": "WD-OS-2_3-011",
+        "source_key": "OS:2.3:11",
+        "question_crops": [
+          {
+            "page": 227,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              106.60416412353516
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 140,
+            "bbox": [
+              54,
+              137.04,
+              489,
+              212.64000000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS02-E09",
+      "question_sha256": "83cd5d0fde981c7279122661557cf0756356b4d1444bd689344bc33169cc1394",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:29.198120+00:00",
+      "reason": "用P/V实现同步、信号量初值问题和−1/0/1/由用户确定四项一致；原解析D及按具体情况非负初始化已查看。",
+      "source": {
+        "id": "WD-OS-2_3-018",
+        "source_key": "OS:2.3:18",
+        "question_crops": [
+          {
+            "page": 234,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              87.05228424072266
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 140,
+            "bbox": [
+              54,
+              456.0,
+              489,
+              516.84
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS02-E17",
+      "question_sha256": "631d7775195f9293ea298242b8945a79e6dd8cd8c92e7a97b1831ad74099a42f",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:29.427468+00:00",
+      "reason": "已查看原题图逐格核对5进程Allocation/Max矩阵、三资源及四个候选Available向量，全部相同；四选项一致。已查看跨页原解析，只有I安全。",
+      "source": {
+        "id": "WD-OS-2_4-026",
+        "source_key": "OS:2.4:26",
+        "question_crops": [
+          {
+            "page": 299,
+            "bbox": [
+              60,
+              45.85954284667969,
+              535,
+              267.7472839355469
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 180,
+            "bbox": [
+              54,
+              586.32,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 181,
+            "bbox": [
+              54,
+              71,
+              489,
+              192.12
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS04-E04",
+      "question_sha256": "4957c1da8152517cb477f14b20a10eec7d29b2d3a60684a670f1ecff0f1791e1",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:29.654091+00:00",
+      "reason": "隐式链接、定长100 B记录、成组分解、512 B块、目录在内存、修改第22记录及3/4/5/6选项全部一致；已查看原解析5次读加1次写。",
+      "source": {
+        "id": "WD-OS-4_2-025",
+        "source_key": "OS:4.2:25",
+        "question_crops": [
+          {
+            "page": 481,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              125.17024230957031
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 296,
+            "bbox": [
+              54,
+              187.8,
+              489,
+              289.32
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS05-E03",
+      "question_sha256": "498a699a76d483e7a74b73332d992b816e04d35f15ae8a614fce12a9226e9cf8",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:05:29.883142+00:00",
+      "reason": "100柱面、每柱面8道、每道8扇区、6400记录、0基顺序存储及目标CHS(78,6,6)、5045至5048选项一致；已查看原解析5046。",
+      "source": {
+        "id": "WD-OS-5_3-016",
+        "source_key": "OS:5.3:16",
+        "question_crops": [
+          {
+            "page": 633,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              144.70159912109375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 366,
+            "bbox": [
+              54,
+              120.84,
+              489,
+              182.04000000000002
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "DS01-E02",
+      "question_sha256": "91a76db543d73a7f8aefbc91c6cde5af49538f7f47f03edb193afc58379f0ac8",
+      "verdict": "native",
+      "reviewed_utc": "2026-10-29T00:09:50.062654+00:00",
+      "reason": "代码、O(log n)/O(√n)/O(n)/O(nlog n)四项与原题一致，但已查看原解析22页把退出时的循环次数t写成t(t+1)/2<n，正确应为≥n；截图含错式，使用原生解析。",
+      "source": {
+        "id": "WD-DS-1_2-015",
+        "source_key": "DS:1.2:15",
+        "question_crops": [
+          {
+            "page": 20,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              184.95428466796875
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 22,
+            "bbox": [
+              54,
+              507.84000000000003,
+              489,
+              616.5600000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS01-E03",
+      "question_sha256": "dbc985931da7fb228505f86fc3f94c47e8aabde0182279551c7b2e6b1823ab24",
+      "verdict": "native",
+      "reviewed_utc": "2026-10-29T00:09:50.270611+00:00",
+      "reason": "原代码i从1翻倍、j从0至i-1及四复杂度选项一致；已查看原解析23页首句把j<i写成j<=i却称执行i次，含循环边界笔误，保留原生解析。",
+      "source": {
+        "id": "WD-DS-1_2-017",
+        "source_key": "DS:1.2:17",
+        "question_crops": [
+          {
+            "page": 22,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              166.03988647460938
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 22,
+            "bbox": [
+              54,
+              663.0,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 23,
+            "bbox": [
+              54,
+              71,
+              489,
+              205.08
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS01-E04",
+      "question_sha256": "1d63814284a661e88689551bbf8262ea199cdac4b7c1877a1e2a58e9de8ac8ad",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:50.497483+00:00",
+      "reason": "原代码x=0、while(n>=(x+1)*(x+1))及四个复杂度选项一致；原题非负整数n条件未丢失。已查看原题公式和原解析O(√n)。",
+      "source": {
+        "id": "WD-DS-1_2-016",
+        "source_key": "DS:1.2:16",
+        "question_crops": [
+          {
+            "page": 21,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              147.12548828125
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 22,
+            "bbox": [
+              54,
+              616.5600000000001,
+              489,
+              663.0
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS03-E01",
+      "question_sha256": "182776b499721bfc9be32ab42f0d6afe845266d195a0a5ae4aa2149adca86255",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:50.713402+00:00",
+      "reason": "入栈abcdefg、出队bdcfeag、初始空栈空队列、出栈即入队及1/2/3/4四项一致；原题原生文本将c误抽取成e，已查看原PDF字形及原解析过程表确认为c，容量3。",
+      "source": {
+        "id": "WD-DS-3_1-026",
+        "source_key": "DS:3.1:26",
+        "question_crops": [
+          {
+            "page": 102,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              105.6594467163086
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 84,
+            "bbox": [
+              54,
+              295.08,
+              489,
+              523.6800000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS03-E03",
+      "question_sha256": "0c9bd086597a5e7627261301598d7917dd631f6e0db665bf0c8426ca0994145b",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:50.937712+00:00",
+      "reason": "100阶三对角矩阵、1基矩阵下标、按行压缩到0基数组及m30,30、86/87/88/89四项一致；已查看原题数学条件和原解析87。",
+      "source": {
+        "id": "WD-DS-3_4-011",
+        "source_key": "DS:3.4:11",
+        "question_crops": [
+          {
+            "page": 162,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              110.47957611083984
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 118,
+            "bbox": [
+              54,
+              543.12,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 119,
+            "bbox": [
+              54,
+              71,
+              489,
+              251.16
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS03-E04",
+      "question_sha256": "fa507046a325576990db4b22b8fb9e3577dd98f6106d08d9cc404adf28f72f26",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:51.169665+00:00",
+      "reason": "10×10对称矩阵、上三角按列存储到C数组、m7,2及15/16/22/23选项一致；已查看原题和原解析利用对称性取m2,7得22。",
+      "source": {
+        "id": "WD-DS-3_4-014",
+        "source_key": "DS:3.4:14",
+        "question_crops": [
+          {
+            "page": 165,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              110.45903778076172
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 119,
+            "bbox": [
+              54,
+              372.84000000000003,
+              489,
+              522.96
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS03-E05",
+      "question_sha256": "4eca17d322d782baee5b18b8e40e9eabc3cc1b26d403e9fa8c8e552170304dcf",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:51.385091+00:00",
+      "reason": "逐步核对F的两操作数弹出顺序a再b、执行b op a、整数栈5/8/3/2和运算符*/−/+及三次调用、四选项一致；已查看原解析三次结果5→3→15，答案B。",
+      "source": {
+        "id": "workbook-DS:3.3:18",
+        "source_key": "DS:3.3:18",
+        "question_crops": [
+          {
+            "page": 149,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 111,
+            "bbox": [
+              54,
+              479.76,
+              489,
+              631.6800000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      },
+      "export_answer_crops": [
+        {
+          "page": 111,
+          "bbox": [
+            54,
+            479.76,
+            489,
+            524
+          ]
+        },
+        {
+          "page": 111,
+          "bbox": [
+            54,
+            524,
+            404,
+            585
+          ]
+        }
+      ],
+      "crop_correction_reason": "原索引包含下题19的树图及文字。300dpi暗像素行复核：第二行后空白y520.98–527.21，选524分块；末行后空白581.61–588.80，选585结束。下块右界404排除右侧下题树，保留本题全部字形。"
+    },
+    {
+      "example_id": "DS05-E01",
+      "question_sha256": "7e9609cb92c3b58e11b2c513acad24392f064c0a9231e4fc2dacb58f67a3dec2",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:51.614424+00:00",
+      "reason": "树度4、各度结点20/10/1/10、求叶数及41/82/113/122四项完全一致；已查看原解析边结点计数得82。",
+      "source": {
+        "id": "WD-DS-5_1-009",
+        "source_key": "DS:5.1:9",
+        "question_crops": [
+          {
+            "page": 188,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              105.6594467163086
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 140,
+            "bbox": [
+              54,
+              521.16,
+              489,
+              597.12
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS05-E02",
+      "question_sha256": "7f4f4b81dd98fd4e3e6cca0d472bf4a243e8589ff915d815191947580f9b61f9",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:51.831357+00:00",
+      "reason": "任意高度5且10结点二叉树、顺序存储每结点1单元只存数据信息、求最少保障容量及31/16/15/10选项均一致；已查看原解析31。",
+      "source": {
+        "id": "WD-DS-5_2-028",
+        "source_key": "DS:5.2:28",
+        "question_crops": [
+          {
+            "page": 217,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              105.6594467163086
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 150,
+            "bbox": [
+              54,
+              342.24,
+              489,
+              401.28000000000003
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS05-E03",
+      "question_sha256": "971a315bced2749cac89b6ee91cd398808c537df29af445c9e4b829d11af1b8f",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:52.045822+00:00",
+      "reason": "v有两孩子、中序相邻p/v/q及p右孩子/q左孩子四组合逐项一致；已查看原解析中序前驱/后继论证答案A。",
+      "source": {
+        "id": "WD-DS-5_3-043",
+        "source_key": "DS:5.3:43",
+        "question_crops": [
+          {
+            "page": 262,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              127.29585266113281
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 170,
+            "bbox": [
+              54,
+              243.24,
+              489,
+              355.92
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      },
+      "export_answer_crops": [
+        {
+          "page": 170,
+          "bbox": [
+            54,
+            243.24,
+            405,
+            308
+          ]
+        },
+        {
+          "page": 170,
+          "bbox": [
+            54,
+            308,
+            489,
+            355.92
+          ]
+        }
+      ],
+      "crop_correction_reason": "原索引右上角混入前题树图。300dpi暗像素行复核：前三行后空白y305.57–311.09，选308分块，上块右界405排除残树；下块保留全宽，保留所有文字字形。"
+    },
+    {
+      "example_id": "DS05-E04",
+      "question_sha256": "0f4dbfb54a15a3c1f2923c0622faf2f2f68c5ab7a3bb5a3a26ef0c2d36732bee",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:52.260264+00:00",
+      "reason": "森林转二叉树、u是v祖父及三种原森林关系和A-D组合全部一致；已查看原解析与四种转换图，答案B。",
+      "source": {
+        "id": "WD-DS-5_4-015",
+        "source_key": "DS:5.4:15",
+        "question_crops": [
+          {
+            "page": 277,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              126.07388305664062
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 189,
+            "bbox": [
+              54,
+              151.08,
+              489,
+              564.0
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS05-E05",
+      "question_sha256": "014b62062d4ef0f9d5bc0d2202b4097f7bf3b69ff3178b95f22b160a3874fde4",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:52.474673+00:00",
+      "reason": "六频次3/4/5/6/8/10、哈夫曼加权平均长度要求及2.4/2.5/2.67/2.75四项一致；已查看原解析完整合并图和加权平均2.5。",
+      "source": {
+        "id": "WD-DS-5_5-022",
+        "source_key": "DS:5.5:22",
+        "question_crops": [
+          {
+            "page": 305,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              105.48828125
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 202,
+            "bbox": [
+              54,
+              394.8,
+              489,
+              590.64
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS06-E01",
+      "question_sha256": "6f8f36b5aa655910a44601afb02066b49e1ba9d2c1b6192258da5fdc1ca54ee8",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:52.681843+00:00",
+      "reason": "无向图7顶点、任何情况下保证连通及6/15/16/21选项一致；已查看原解析K6加孤点的极端情形，最少16。",
+      "source": {
+        "id": "WD-DS-6_1-016",
+        "source_key": "DS:6.1:16",
+        "question_crops": [
+          {
+            "page": 322,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              105.71623992919922
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 212,
+            "bbox": [
+              54,
+              665.16,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 213,
+            "bbox": [
+              54,
+              71,
+              489,
+              194.64000000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS07-E01",
+      "question_sha256": "7c2ce71962a24c99f0ddbcd1248ae019ac2c86aaf7ac31eed14430e9551f644b",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:52.908273+00:00",
+      "reason": "400元素、等概率、均匀分块、索引及块内均顺序查找、求最优块大小及8/10/20/25四项一致；已查看原解析s=20。",
+      "source": {
+        "id": "workbook-DS:7.2:26",
+        "source_key": "DS:7.2:26",
+        "question_crops": [
+          {
+            "page": 435,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 288,
+            "bbox": [
+              54,
+              106.08,
+              489,
+              183.48000000000002
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS07-E02",
+      "question_sha256": "603074f4a255b0645abb2a237ae511006f7f65bbe5b157f40befa41940e6cce6",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:53.113130+00:00",
+      "reason": "长度16有序顺序表、折半查找不存在元素、比较次数最多及4/5/6/7选项一致；已查看原解析不计虚方结点，最多5次。",
+      "source": {
+        "id": "WD-DS-7_2-020",
+        "source_key": "DS:7.2:20",
+        "question_crops": [
+          {
+            "page": 429,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              105.67998504638672
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 287,
+            "bbox": [
+              54,
+              201.12,
+              489,
+              297.96000000000004
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS07-E04",
+      "question_sha256": "62767cc8e8a217fc0a4d47582590df344f7a1508487956d91b93fd2c14585323",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:53.319238+00:00",
+      "reason": "无重复AVL、中序降序、根度/最小元素叶/最后插入叶/最大元素无左子树四项逐项一致；已查看原解析反向搜索树性质答案D。",
+      "source": {
+        "id": "WD-DS-7_3-029",
+        "source_key": "DS:7.3:29",
+        "question_crops": [
+          {
+            "page": 464,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              126.11495971679688
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 311,
+            "bbox": [
+              54,
+              430.8,
+              489,
+              538.08
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS07-E06",
+      "question_sha256": "31013859b8c2910e44ed703c0185e4f610b55e7f5608bc4d7e2183cb41034e86",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:53.539410+00:00",
+      "reason": "7个不同关键字、不同4阶B树最多数量及7/8/9/10选项一致；已查看原解析2层8种、3层1种，共9。",
+      "source": {
+        "id": "WD-DS-7_4-025",
+        "source_key": "DS:7.4:25",
+        "question_crops": [
+          {
+            "page": 494,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              86.16918182373047
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 327,
+            "bbox": [
+              54,
+              528.36,
+              489,
+              646.8000000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS07-E07",
+      "question_sha256": "f19f274fbd6223a58ab974decb3baf3b00527de5eacb08aeb70bafabb6f5692f",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:53.769656+00:00",
+      "reason": "散列表长5初空、H=(k+4) mod5、线性探查、按序插2022/12/25删25及失败ASL要求、1/1.6/1.8/2.2四项一致；已查看原解析删除标记下失败次数1/3/2/1/2，得1.8。",
+      "source": {
+        "id": "WD-DS-7_5-023",
+        "source_key": "DS:7.5:23",
+        "question_crops": [
+          {
+            "page": 517,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              125.2475814819336
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 338,
+            "bbox": [
+              54,
+              476.52000000000004,
+              489,
+              623.4
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS08-E02",
+      "question_sha256": "9194ae467d4b031dbc9d1e4e4a2dc42a0b332d65b6856be527918605d99d4015",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:53.986077+00:00",
+      "reason": "一趟定义、快速排序第二趟不可能结果及四个8元素序列逐个一致；已查看原解析D。",
+      "source": {
+        "id": "WD-DS-8_3-018",
+        "source_key": "DS:8.3:18",
+        "question_crops": [
+          {
+            "page": 559,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              126.0750732421875
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 360,
+            "bbox": [
+              54,
+              288.96000000000004,
+              489,
+              349.08000000000004
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS08-E03",
+      "question_sha256": "b92f22b493e72a1956e3fbaeb8625719ac5bfb8667c8ea5aee9c1920c0b4517c",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:54.195682+00:00",
+      "reason": "小根堆8/15/10/21/34/16/12、删8重建、比较次数及1/2/3/4选项一致；已查看原解析图与三次比较，答案C。",
+      "source": {
+        "id": "WD-DS-8_4-017",
+        "source_key": "DS:8.4:17",
+        "question_crops": [
+          {
+            "page": 578,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              105.46774291992188
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 371,
+            "bbox": [
+              54,
+              373.2,
+              489,
+              499.56
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS08-E04",
+      "question_sha256": "8867e6794de27d8b1069a4b8371f30056f4f7e651dd61d463083b6c42698cc44",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:09:54.403172+00:00",
+      "reason": "三个升序列(3,5)/(7,9)/(6)、从左到右二路归并、总比较次数及3/4/5/6选项一致；已查看原解析两次合并2+3=5。",
+      "source": {
+        "id": "workbook-DS:8.5:20",
+        "source_key": "DS:8.5:20",
+        "question_crops": [
+          {
+            "page": 602,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 384,
+            "bbox": [
+              54,
+              75.84,
+              489,
+              152.52
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "CN03-E01",
+      "question_sha256": "70f7feecf922d4341eff871637d637562b6b57092aec251087fef3f344a16703",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:47.482898+00:00",
+      "reason": "01111100 01111110原数据、A-D四比特串、HDLC组帧要求一致；仅去掉大纲说明。已查看原解析连续5个1插0，答案A。",
+      "source": {
+        "id": "workbook-CN:3.2:1",
+        "source_key": "CN:3.2:1",
+        "question_crops": [
+          {
+            "page": 111,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 67,
+            "bbox": [
+              54,
+              684.24,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 68,
+            "bbox": [
+              54,
+              71,
+              489,
+              123.0
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN03-E02",
+      "question_sha256": "86e7370b77fa86032d72d3c067c57dfe4508746f413f5d25ac8e65a6040b5cc0",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:47.983672+00:00",
+      "reason": "G(X)=X^4+X+1/10011、四个接收串101110000/101110100/101111000/101111100完全一致；原解析余数1100与答案D已查看。题干的未发生错误沿用原题检验通过语义，原生补充可漏检说明保留在作者文本。",
+      "source": {
+        "id": "workbook-CN:3.3:8",
+        "source_key": "CN:3.3:8",
+        "question_crops": [
+          {
+            "page": 119,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 73,
+            "bbox": [
+              54,
+              197.88,
+              489,
+              307.68
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN03-E03",
+      "question_sha256": "0d4015c678f52096f3f858c3ef5cd02393781b0f68b94ce087f3b8211fa99893",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:48.269576+00:00",
+      "reason": "四码字10011010/01011100/11110000/00001111及四项检错纠错位数逐项一致；已查看原解析最小码距4，答案C。",
+      "source": {
+        "id": "workbook-CN:3.3:9",
+        "source_key": "CN:3.3:9",
+        "question_crops": [
+          {
+            "page": 120,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 73,
+            "bbox": [
+              54,
+              307.68,
+              489,
+              371.76
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN03-E04",
+      "question_sha256": "64f397a052fc1122c5468f3123db294dbe6701415df56be7c30d607d891ca161",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:48.555102+00:00",
+      "reason": "停等、数据/确认均1000 B、10 kb/s、单向200 ms及80/66.7/44.4/40%四项一致；已查看原解析周期2000 ms、利用率40%。",
+      "source": {
+        "id": "workbook-CN:3.4:29",
+        "source_key": "CN:3.4:29",
+        "question_crops": [
+          {
+            "page": 149,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 87,
+            "bbox": [
+              54,
+              288.96000000000004,
+              489,
+              349.8
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN03-E05",
+      "question_sha256": "265ec9d389e774363341769d7fef4c48ee2f307dc8431be057440ab80dcda367",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:48.795445+00:00",
+      "reason": "GBN、已发0至7、仅收到0/2/3确认、超时重发帧数及2/3/4/5选项一致；已查看原解析累计确认后重发4/5/6/7。",
+      "source": {
+        "id": "workbook-CN:3.4:22",
+        "source_key": "CN:3.4:22",
+        "question_crops": [
+          {
+            "page": 142,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 86,
+            "bbox": [
+              54,
+              121.56,
+              489,
+              212.64000000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN03-E07",
+      "question_sha256": "c2a252469a3dd9887d4aa24ad8181a87a751aa509d2f13026602e263ca46a76e",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:49.071576+00:00",
+      "reason": "三组CDMA码片1111/1−11−1/11−1−1、接收12码片2/0/2/0/0/−2/0/−2/0/2/0/2、求A数据及四选项一致；已查看原解析分三组内积恢复101。",
+      "source": {
+        "id": "workbook-CN:3.5:21",
+        "source_key": "CN:3.5:21",
+        "question_crops": [
+          {
+            "page": 172,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 99,
+            "bbox": [
+              54,
+              164.04,
+              489,
+              705
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      },
+      "export_answer_crops": [
+        {
+          "page": 99,
+          "bbox": [
+            54,
+            164.04,
+            489,
+            246
+          ]
+        }
+      ],
+      "crop_correction_reason": "原索引延伸至705而包含后续3.6节整页知识文字。已查看原PDF及OCR行边界，当前第21题最后一行下缘242.64，下一节始于267.84；在246空白处结束，保留完整本题解析。"
+    },
+    {
+      "example_id": "CN03-E08",
+      "question_sha256": "9d221c85badd9e541c667346ca5ecab6bf3c30b9e87d0f5ca2864e77ca946409",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:49.369665+00:00",
+      "reason": "CSMA/CD、1 Gb/s、200000 km/s、最小帧减800 bit及增减160/80 m四项一致；已查看原解析往返减0.8微秒、单程距离减80 m。",
+      "source": {
+        "id": "workbook-CN:3.6:37",
+        "source_key": "CN:3.6:37",
+        "question_crops": [
+          {
+            "page": 209,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 121,
+            "bbox": [
+              54,
+              683.52,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 122,
+            "bbox": [
+              54,
+              71,
+              489,
+              137.04
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN03-E09",
+      "question_sha256": "38b03a81bdd68e4ac710af0e6a7f3827abbbe55da794f591ad205da8d2b2498f",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:49.663545+00:00",
+      "reason": "逐项核对DIFS128/SIFS28、RTS3/CTS2/ACK2微秒、1998 B和54 Mb/s、收到CTS时求NAV、326/354/385/513选项一致；原解析354微秒已查看。",
+      "source": {
+        "id": "WD-CN-3_6-048",
+        "source_key": "CN:3.6:48",
+        "question_crops": [
+          {
+            "page": 220,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              146.82720947265625
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 123,
+            "bbox": [
+              54,
+              318.48,
+              489,
+              470.40000000000003
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN04-E04",
+      "question_sha256": "8b2c72b30efd487152a19ca77dbf0f2f15edca8cf9d67aa900c2cdf7cc1692af",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:49.950498+00:00",
+      "reason": "101.200.16.0/20划5子网、可能最小子网可分配IP数及126/254/510/1022四项一致；已查看原解析采用不等长划分，答案254。",
+      "source": {
+        "id": "WD-CN-4_2-064",
+        "source_key": "CN:4.2:64",
+        "question_crops": [
+          {
+            "page": 341,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              86.14864349365234
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 184,
+            "bbox": [
+              54,
+              589.2,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 185,
+            "bbox": [
+              54,
+              71,
+              489,
+              197.88
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN05-E01",
+      "question_sha256": "610795f891ff22b0c8accd05bf89088e3825c77cd2fa17b7d6794181b265b0c1",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:50.243368+00:00",
+      "reason": "UDP分用头部字段、源端口/目的端口/长度/校验和四项一致；“检验和”写为“校验和”。已查看原解析B。",
+      "source": {
+        "id": "WD-CN-5_2-015",
+        "source_key": "CN:5.2:15",
+        "question_crops": [
+          {
+            "page": 436,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              87.0933609008789
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 246,
+            "bbox": [
+              54,
+              668.76,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 247,
+            "bbox": [
+              54,
+              71,
+              489,
+              106.08
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN05-E02",
+      "question_sha256": "da020dd0c774f0a3172abfdf43d51d51bd06a5283ad510acc74771e4ccbe323a",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:50.499958+00:00",
+      "reason": "中间1011100110110110、末项0110010111000101及四个16位结果逐位一致；已查看原解析回卷进位再取反得1110000010000011。",
+      "source": {
+        "id": "WD-CN-5_2-016",
+        "source_key": "CN:5.2:16",
+        "question_crops": [
+          {
+            "page": 437,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              125.17024230957031
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 247,
+            "bbox": [
+              54,
+              106.08,
+              489,
+              237.84
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN05-E03",
+      "question_sha256": "922274dd61134bd6e90afd05eeba54b5f02095e7ea1ad836d34a7dca63b6f6ac",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:50.855032+00:00",
+      "reason": "TCP连续段300/500 B、起序200、正确收齐两段后ACK及500/700/800/1000选项一致；已查看原解析累计字节后ACK1000。",
+      "source": {
+        "id": "workbook-CN:5.3:41",
+        "source_key": "CN:5.3:41",
+        "question_crops": [
+          {
+            "page": 479,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 272,
+            "bbox": [
+              54,
+              137.04,
+              489,
+              197.88
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN05-E04",
+      "question_sha256": "7cbdda1fadcf5ec1fa4e6765c1613c010b02dfd78a09fcb43445be63023c067e",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:51.178816+00:00",
+      "reason": "RTT50 ms、MSL800 ms、C主动FIN、分别到C/S CLOSED最短时间及四组850/1650与50/75选项一致；已查看原解析1650/75 ms。",
+      "source": {
+        "id": "workbook-CN:5.3:58",
+        "source_key": "CN:5.3:58",
+        "question_crops": [
+          {
+            "page": 496,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 273,
+            "bbox": [
+              54,
+              633.48,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 274,
+            "bbox": [
+              54,
+              71,
+              489,
+              106.44
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN05-E05",
+      "question_sha256": "6b9a4d97e004c0484593b8740b664d541c35962f4b69247c3868b17e21867ede",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:51.497097+00:00",
+      "reason": "MSS1 KB、RTT2 ms、不拥塞、cwnd8→32 KB最长时间及4/8/24/48选项一致；已查看原解析拥塞避免24RTT=48 ms。",
+      "source": {
+        "id": "WD-CN-5_3-052",
+        "source_key": "CN:5.3:52",
+        "question_crops": [
+          {
+            "page": 490,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              105.6594467163086
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 273,
+            "bbox": [
+              54,
+              243.24,
+              489,
+              304.08
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN05-E07",
+      "question_sha256": "929262e4b8f7d3a69f7d889c20ba786cd29fa65bdaec1a1825d3db7d04fb76be",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:51.780535+00:00",
+      "reason": "每段MSS1 KB、接收窗口10 KB、超时时cwnd8 KB、之后10 RTT求发送窗口及10/12/14/15选项一致；已查看原解析受rwnd限制为10 KB。",
+      "source": {
+        "id": "WD-CN-5_3-047",
+        "source_key": "CN:5.3:47",
+        "question_crops": [
+          {
+            "page": 485,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              125.17024230957031
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 272,
+            "bbox": [
+              54,
+              547.44,
+              489,
+              623.4
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN06-E04",
+      "question_sha256": "d924d286424a0407c4f6330dfe8728dc007e9e122fdc86e7da843c66e315e992",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:52.059806+00:00",
+      "reason": "非并行TCP、HTTP1.0非持久、HTML+7图、从建TCP起算、求最少RTT及4/9/14/16选项一致；已查看原解析8次各2RTT=16。",
+      "source": {
+        "id": "WD-CN-6_5-019",
+        "source_key": "CN:6.5:19",
+        "question_crops": [
+          {
+            "page": 564,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              125.19078063964844
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 313,
+            "bbox": [
+              54,
+              240.36,
+              489,
+              348.36
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "CN06-E07",
+      "question_sha256": "47f686ffe09c3aa49266e6b92aeed5bbc0c17f4b92fb696c8a9500b92da5ef5b",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:52.366811+00:00",
+      "reason": "HTTP1.1、news408.html1 MSS及同目录1幅图3 MSS、RTT10 ms、已解析DNS、从请求TCP起计、忽略头和传输时间及30/40/50/60选项一致；已查看原解析4RTT=40 ms和时序图。",
+      "source": {
+        "id": "WD-CN-6_5-018",
+        "source_key": "CN:6.5:18",
+        "question_crops": [
+          {
+            "page": 563,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              164.00015258789062
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 312,
+            "bbox": [
+              54,
+              540.6,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 313,
+            "bbox": [
+              54,
+              71,
+              489,
+              240.36
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/04_计算机网络/【横版】27王道计算机网络选择题做题本.pdf",
+        "question_pdf_sha256": "0e3740a05014b0964182ee80c7bf78ba1cc9d0ebbd757d3c4775d94f74a73755",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+        "answer_pdf_sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630"
+      }
+    },
+    {
+      "example_id": "OS01-E04",
+      "question_sha256": "c237ea2aea44d6626fb38787d5fe4297635747c3521d90434d4adc691cdee0ca",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:52.699009+00:00",
+      "reason": "操作系统初始化需要创建的对象及中断向量表/根目录/分区表/索引节点表四项一致，节点/结点用字差异；已查看原解析A。",
+      "source": {
+        "id": "WD-OS-1_6-020",
+        "source_key": "OS:1.6:20",
+        "question_crops": [
+          {
+            "page": 84,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              106.00775909423828
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 47,
+            "bbox": [
+              54,
+              204.0,
+              489,
+              292.2
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS02-E02",
+      "question_sha256": "23188b4a970161aefa95f0308623ead7adffbbb764ee61bfb64bb549c2517ca5",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:53.074326+00:00",
+      "reason": "四作业到达0/1/1/3、运行3/3/2/1、t=2开始FCFS及SJF选择和四选项一致；已查看原解析J1/J3。",
+      "source": {
+        "id": "workbook-OS:2.2:45",
+        "source_key": "OS:2.2:45",
+        "question_crops": [
+          {
+            "page": 204,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 104,
+            "bbox": [
+              54,
+              256.56,
+              489,
+              316.68
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS02-E03",
+      "question_sha256": "95562d2a1091de0b0e80d03733b7ce446729785bcd40482b40c04f7ccadb4327",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:53.396485+00:00",
+      "reason": "逐格核对P1(0,1,60)、P2(20,10,42)、P3(30,100,13)，大优先数优先及抢占式条件、四时间选项一致；已查看原解析平均61 ms。",
+      "source": {
+        "id": "workbook-OS:2.2:53",
+        "source_key": "OS:2.2:53",
+        "question_crops": [
+          {
+            "page": 212,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 105,
+            "bbox": [
+              54,
+              372.12,
+              489,
+              475.44
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS02-E04",
+      "question_sha256": "b1201ba41bd5ccf2223873f59c554bcac4502b44c531a2493ae2e12991f8d8e5",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:53.772896+00:00",
+      "reason": "四进程到达0/10/10/15、优先数15/20/10/6、时间100/60/20/10、数小优先抢占、从0到全部完成及4/5/6/7选项一致；已查看原解析计首次共6。",
+      "source": {
+        "id": "WD-OS-2_2-052",
+        "source_key": "OS:2.2:52",
+        "question_crops": [
+          {
+            "page": 211,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              248.5461883544922
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 105,
+            "bbox": [
+              54,
+              297.6,
+              489,
+              372.12
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS02-E05",
+      "question_sha256": "abf0889c0a3a66b2fccc492de9f20907dad0d7a835b2f974776b3fbc954ba0d7",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:54.157874+00:00",
+      "reason": "Q1时间片10 ms且优先Q2，Q2短进程优先，P1/P2先后同时入队需30/20 ms及25/20/15/10选项一致；已查看原解析等待20/10平均15。",
+      "source": {
+        "id": "workbook-OS:2.2:48",
+        "source_key": "OS:2.2:48",
+        "question_crops": [
+          {
+            "page": 207,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 104,
+            "bbox": [
+              54,
+              451.68,
+              489,
+              616.5600000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS03-E01",
+      "question_sha256": "915128c85ad638fb2ed23918d915f28874c08c696816d7b82e3990a87f510d74",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:54.545309+00:00",
+      "reason": "共享data、页号p1/p2及页框f1/f2的相等/不一定相等四组合逐项一致；已查看原解析页号可不同、物理框必同。",
+      "source": {
+        "id": "workbook-OS:3.1:71",
+        "source_key": "OS:3.1:71",
+        "question_crops": [
+          {
+            "page": 389,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 219,
+            "bbox": [
+              54,
+              639.96,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 220,
+            "bbox": [
+              54,
+              71,
+              489,
+              89.88000000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS03-E02",
+      "question_sha256": "47597c28b6a2d08da6732e9200326f0ef686e209bca13d1cc611905e5339d031",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:54.947222+00:00",
+      "reason": "55 MB初空闲、最佳适配、分15/分30/释15/分8/分6、求最大空闲及7/9/10/15选项一致；已查看原解析内存过程图得9 MB。",
+      "source": {
+        "id": "WD-OS-3_1-061",
+        "source_key": "OS:3.1:61",
+        "question_crops": [
+          {
+            "page": 379,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              124.99908447265625
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 218,
+            "bbox": [
+              54,
+              234.96,
+              489,
+              447.36
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS04-E01",
+      "question_sha256": "d17339d261f7016694c8ec8bb29e4b6712f48fad40f54bfb8a6200a6462c447c",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:55.253395+00:00",
+      "reason": "F仅由P打开后关闭、目录项/内存inode/外存inode/磁盘链接数四操作一致；已查看原解析最后关闭释放内存控制信息，B。",
+      "source": {
+        "id": "workbook-OS:4.2:67",
+        "source_key": "OS:4.2:67",
+        "question_crops": [
+          {
+            "page": 523,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 300,
+            "bbox": [
+              54,
+              559.6800000000001,
+              489,
+              649.32
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS04-E02",
+      "question_sha256": "d1920440a9f6ed21ec47f9d7f7bb49d462cc2f5085a8081bb35c0051db62ed9a",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:55.571344+00:00",
+      "reason": "用户四类、权限完全控制/执行/修改/读取/写入五种、FCB位串表示及5/9/12/20选项一致；已查看原解析4×5=20位。",
+      "source": {
+        "id": "WD-OS-4_2-060",
+        "source_key": "OS:4.2:60",
+        "question_crops": [
+          {
+            "page": 516,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              143.91348266601562
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 299,
+            "bbox": [
+              54,
+              486.24,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 300,
+            "bbox": [
+              54,
+              71,
+              489,
+              121.2
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS04-E03",
+      "question_sha256": "675944bd6d588c21ce5c53221c2c4128bc9d2ba85ced93ea25c2de2f877fb317",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:55.954071+00:00",
+      "reason": "10直接+各1一二级、块1 KB、指针4 B、inode在内存、偏移1234/307400及四访问次数组合一致；已查看原解析直接1次/二级3次。",
+      "source": {
+        "id": "workbook-OS:4.2:59",
+        "source_key": "OS:4.2:59",
+        "question_crops": [
+          {
+            "page": 515,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 299,
+            "bbox": [
+              54,
+              353.04,
+              489,
+              486.24
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS04-E05",
+      "question_sha256": "ebb316ccfed957ab8fadda0076628627de0c652faf25120c40360f9bf69f93ac",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:56.285411+00:00",
+      "reason": "f1/f2硬链接、两进程独立打开fd1/fd2及读写指针/内存inode/用户打开表三叙述和组合选项一致；已查看原解析B。",
+      "source": {
+        "id": "workbook-OS:4.2:61",
+        "source_key": "OS:4.2:61",
+        "question_crops": [
+          {
+            "page": 517,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 300,
+            "bbox": [
+              54,
+              121.2,
+              489,
+              181.68
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS04-E06",
+      "question_sha256": "1150f9f893a012c761d8ae1a31b87e39f59e3a2d0a7c518ef9f0c77483149a79",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:56.645339+00:00",
+      "reason": "位图块32至127、块1024 B、块及字节均0基、释放409612及81/82与1/2四组合一致；已查看原解析块82字节1。",
+      "source": {
+        "id": "WD-OS-4_3-014",
+        "source_key": "OS:4.3:14",
+        "question_crops": [
+          {
+            "page": 541,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              126.60613250732422
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 315,
+            "bbox": [
+              54,
+              381.12,
+              489,
+              424.68
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS05-E01",
+      "question_sha256": "b2b81905b9d99b828f2b95a49e3286722af225b0e054ddd301d3077b51c95339",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:56.997901+00:00",
+      "reason": "I/O调用链用户→系统调用→驱动→中断、计算CHS的程序及四选项一致；已查看原解析设备驱动C。",
+      "source": {
+        "id": "WD-OS-5_2-040",
+        "source_key": "OS:5.2:40",
+        "question_crops": [
+          {
+            "page": 611,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              144.64596557617188
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 350,
+            "bbox": [
+              54,
+              76.2,
+              489,
+              121.92
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS05-E02",
+      "question_sha256": "f88e27630eb3e64822b8c7d3f8fbeff352b2f388f5bd645e79499e23d3dda727",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:57.396742+00:00",
+      "reason": "10块、输入100微秒/复制50/分析50、等块缓冲、单双缓冲总时间及四组选项一致；已查看原解析1550/1100微秒。",
+      "source": {
+        "id": "WD-OS-5_2-038",
+        "source_key": "OS:5.2:38",
+        "question_crops": [
+          {
+            "page": 609,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              146.635498046875
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 349,
+            "bbox": [
+              54,
+              534.84,
+              489,
+              626.64
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS05-E04",
+      "question_sha256": "a8f5c017056c14571b793cf56498e1dcc8959e8eb9c2905abf114cabda034901",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:57.745725+00:00",
+      "reason": "逻辑格式化、四叙述分区/根目录/扇区校验码位数/空闲结构及四组合一致；已查看原解析II/IV即B。",
+      "source": {
+        "id": "WD-OS-5_3-030",
+        "source_key": "OS:5.3:30",
+        "question_crops": [
+          {
+            "page": 647,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              165.09548950195312
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 367,
+            "bbox": [
+              54,
+              442.32,
+              489,
+              560.76
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS05-E05",
+      "question_sha256": "1f316860dfbe1e71c85ab40416e2011cc3040000dfbc041d852d6dcbebabec6d",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:11:58.136435+00:00",
+      "reason": "200道外侧0、请求130/42/180/15/199、当前位置58向内SCAN及208/287/325/382选项一致；已查看原解析走至199再15，共325。",
+      "source": {
+        "id": "workbook-OS:5.3:29",
+        "source_key": "OS:5.3:29",
+        "question_crops": [
+          {
+            "page": 646,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 367,
+            "bbox": [
+              54,
+              368.16,
+              489,
+              442.32
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/03_操作系统/【横版】27王道操作系统选择题做题本.pdf",
+        "question_pdf_sha256": "895468a245b565bfebc018984b26e518fb015bf86844faee2fe76f239b910eb6",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS03-E08",
+      "question_sha256": "925978d68660d7297cdb5b552bbfb148f169524df32b8b059cb4211f40b45067",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:07.818294+00:00",
+      "reason": "已查看原题图核对页表0→101H/存在1、1缺页、2→254H/存在1，页4 KB、内存100ns/TLB10ns/缺页10^8ns、驻留2及LRU局部、TLB初空和重试条件、三地址与两问均一致；原解析210/100000220/110ns及101565H已核对。",
+      "source": {
+        "id": "full-big-OS:3.2:15",
+        "source_key": "OS:3.2:15",
+        "question_crops": [
+          {
+            "page": 246,
+            "bbox": [
+              50,
+              429.08000000000004,
+              500,
+              634.64
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 260,
+            "bbox": [
+              50,
+              239.0,
+              500,
+              462.2
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "question_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "OS03-E09",
+      "question_sha256": "300c4f8d47fe1df79b0f55edbb995500e806076e855352ef2c3b888176df6964",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:08.353984+00:00",
+      "reason": "已查看原题结构10/10/12位、数组1024×1024从10800000H、元素4 B、目录基址00201000H、目录项页框00301H及三问一致；原解析10801008H/042H/001H/00201108H/00301004H和局部性结论已核对。",
+      "source": {
+        "id": "full-big-OS:3.2:21",
+        "source_key": "OS:3.2:21",
+        "question_crops": [
+          {
+            "page": 248,
+            "bbox": [
+              50,
+              454.64000000000004,
+              500,
+              637.52
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 261,
+            "bbox": [
+              50,
+              631.0400000000001,
+              500,
+              705
+            ]
+          },
+          {
+            "page": 262,
+            "bbox": [
+              50,
+              68,
+              500,
+              288.32
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "question_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+        "answer_pdf_sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3"
+      }
+    },
+    {
+      "example_id": "DS06-E05",
+      "question_sha256": "54048356f958533f9ce4306bc5a4cffe193a267cf1a10fcc9b4138177d21826c",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:08.818182+00:00",
+      "reason": "已查看原题，删除航天新闻日期等背景后保留有向图邻接矩阵MGraph完整结构、唯一拓扑序列判定uniquely、返回1/0和思想及C/C++程序要求；原解析逐次唯一零入度及完整代码已查看。",
+      "source": {
+        "id": "G-05",
+        "source_key": "DS:6.4:13",
+        "question_crops": [
+          {
+            "page": 257,
+            "bbox": [
+              50,
+              327.92,
+              500,
+              529.52
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 272,
+            "bbox": [
+              50,
+              516.2,
+              500,
+              705
+            ]
+          },
+          {
+            "page": 273,
+            "bbox": [
+              50,
+              68,
+              500,
+              285.08
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "question_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS08-E06",
+      "question_sha256": "ef0afd0217fcc1434b6d11983ee2a9125f8491fb231c0a2609d39aec96325099",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:09.274194+00:00",
+      "reason": "已查看原题19个关键字逐个同序、m4、置换选择、求初始段及任意n≫m>0第一段极值两问一致；原解析三个段及最大n/最小m已查看，表格完整。",
+      "source": {
+        "id": "G-07",
+        "source_key": "DS:8.7:5",
+        "question_crops": [
+          {
+            "page": 398,
+            "bbox": [
+              50,
+              551.84,
+              500,
+              628.8000000000001
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 402,
+            "bbox": [
+              50,
+              87.44,
+              500,
+              498.5
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "question_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "CO01-E02",
+      "question_sha256": "f18f757bc4156321f18b972f5ae34e54fc692e7c5a6da6167313177bad695bb3",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:09.506361+00:00",
+      "reason": "1GHz、10000指令、80%一周期/20%十周期、求CPI/执行时间及四选项完全一致，仅“共执行了”简为“共执行”；已查看原解析2.8和28微秒。",
+      "source": {
+        "id": "workbook-CO:1.3:19",
+        "source_key": "CO:1.3:19",
+        "question_crops": [
+          {
+            "page": 33,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 29,
+            "bbox": [
+              54,
+              422.52000000000004,
+              489,
+              496.32
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO02-E02",
+      "question_sha256": "41e1cf596c2fb7674ccecc185f95ebce69b9c780574aecebfdee4f414c539403",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:09.747716+00:00",
+      "reason": "unsigned short x65530转unsigned int、32/16位条件及四十六进制选项一致；源OCR中D位数抽取异常按原选项语义，已查看原解析零扩展0000FFFAH。",
+      "source": {
+        "id": "WD-CO-2_1-027",
+        "source_key": "CO:2.1:27",
+        "question_crops": [
+          {
+            "page": 61,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              162.827880859375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 43,
+            "bbox": [
+              54,
+              636.36,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 44,
+            "bbox": [
+              54,
+              71,
+              489,
+              105.0
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO02-E03",
+      "question_sha256": "16adbee3c1cdaa6c46282cd8756c2b92c8b93bf9a56644a4b72ba6e5df1fb4e5",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:09.993466+00:00",
+      "reason": "32位系统、short si=-32767转unsigned int、四个2的幂表达式一致；公式转原生LaTeX。已查看原解析符号扩展再无符号解释得2^32−2^15+1。",
+      "source": {
+        "id": "WD-CO-2_1-034",
+        "source_key": "CO:2.1:34",
+        "question_crops": [
+          {
+            "page": 68,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              124.6085205078125
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 44,
+            "bbox": [
+              54,
+              513.96,
+              489,
+              594.6
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO02-E04",
+      "question_sha256": "2f57438e54e31bb622faf325e8665ef70694df1fd2e54bd7df5f6f91e0d55d33",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:10.226376+00:00",
+      "reason": "8位加法器、无符号69与38、求减法两输入及低位进位、四组三位串逐个一致；已查看原解析69+反码38+1、答案B。",
+      "source": {
+        "id": "WD-CO-2_2-018",
+        "source_key": "CO:2.2:18",
+        "question_crops": [
+          {
+            "page": 86,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              125.21131896972656
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 62,
+            "bbox": [
+              54,
+              224.88,
+              489,
+              382.56
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO02-E05",
+      "question_sha256": "f048021b9719dcfa4a9a42a3c210b72e84d51cef7f36a6e2423e5b8582490001",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:10.461311+00:00",
+      "reason": "补码x=FFFFFFDFH/y=00000041H、x/y值及差机器数四项完全一致；已查看原解析−33、65、FFFFFF9EH。",
+      "source": {
+        "id": "WD-CO-2_2-029",
+        "source_key": "CO:2.2:29",
+        "question_crops": [
+          {
+            "page": 97,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              166.33799743652344
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 63,
+            "bbox": [
+              54,
+              386.88,
+              489,
+              460.68
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO02-E06",
+      "question_sha256": "d0bfafd9a2da09242f7bf179b6a28d7a145d3f234b60c70f0645f89a08cbe2e1",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:10.693199+00:00",
+      "reason": "int x100/y200时OF0CF1、改x10/y−20、四标志组合一致；已查看原解析OF0CF1。",
+      "source": {
+        "id": "WD-CO-2_2-032",
+        "source_key": "CO:2.2:32",
+        "question_crops": [
+          {
+            "page": 100,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              106.75597381591797
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 63,
+            "bbox": [
+              54,
+              564.36,
+              489,
+              638.52
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO02-E07",
+      "question_sha256": "c10cc3d0175eb289849741d6199f47fdd303353701c73eea6460b9e3553399ed",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:10.920718+00:00",
+      "reason": "−0.4375、IEEE754单精度及BEE00000/BF600000/BF700000/C0E00000四项一致；已查看跨页原解析符号1阶125尾数.11，答案A。",
+      "source": {
+        "id": "workbook-CO:2.3:40",
+        "source_key": "CO:2.3:40",
+        "question_crops": [
+          {
+            "page": 143,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 83,
+            "bbox": [
+              54,
+              605.0400000000001,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 84,
+            "bbox": [
+              54,
+              71,
+              489,
+              75.12
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO02-E08",
+      "question_sha256": "f2888fd0a8a9f7e9f8fb2e17885c883e6b95aadd65af009f7b0346aa3e2db7b4",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:11.157710+00:00",
+      "reason": "IEEE754 float、f1=CC900000H/f2=B0C00000H、大小与同异符号四项一致；已查看原解析两负数且|x|>|y|故x<y。",
+      "source": {
+        "id": "WD-CO-2_3-032",
+        "source_key": "CO:2.3:32",
+        "question_crops": [
+          {
+            "page": 135,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              127.12469482421875
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 82,
+            "bbox": [
+              54,
+              511.80000000000007,
+              489,
+              601.8000000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO02-E11",
+      "question_sha256": "e9aa8bc35c1cb48e9927e17380076a4f8bd61ff7ee9c2232504832e1e8c71428",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:11.392314+00:00",
+      "reason": "小端、按字节编址、int32/short16、边界对齐、record中int/char/short顺序、a273、首址C008和四选项一致；已查看原解析及布局表，C008内容11H、c地址C00EH。",
+      "source": {
+        "id": "WD-CO-2_3-030",
+        "source_key": "CO:2.3:30",
+        "question_crops": [
+          {
+            "page": 133,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              240.2842254638672
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 82,
+            "bbox": [
+              54,
+              258.36,
+              489,
+              398.04
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO03-E01",
+      "question_sha256": "c812125ef0fc89cecb4e163182b72d01e8410ffd0e167b6e4932b96bc31dc9a6",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:11.633921+00:00",
+      "reason": "256 MB存储器由4M×8 DRAM组成、求地址和数据引脚总数及19/22/30/36选项一致；已查看原解析地址复用11加数据8为19。",
+      "source": {
+        "id": "WD-CO-3_2-032",
+        "source_key": "CO:3.2:32",
+        "question_crops": [
+          {
+            "page": 191,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              105.48828125
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 107,
+            "bbox": [
+              54,
+              337.92,
+              489,
+              413.88
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO03-E02",
+      "question_sha256": "dc7704d1a0ac5a34661e42f4fb7bda012232e26c28ec10eeaddd58b1c3b0fc9d",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:11.880465+00:00",
+      "reason": "主存地址空间64 MB、4M×8 RAM组成实际32 MB、字节编址、求MAR至少位数及22/23/25/26选项一致；已查看原解析按完整空间26位。",
+      "source": {
+        "id": "WD-CO-3_3-012",
+        "source_key": "CO:3.3:12",
+        "question_crops": [
+          {
+            "page": 208,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              106.52201843261719
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 113,
+            "bbox": [
+              54,
+              593.52,
+              489,
+              652.5600000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO03-E03",
+      "question_sha256": "cdf54addfd8df4f6fc193dcf3e49c95d210ee54379ec699e5873cc8a2675b047",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:12.112863+00:00",
+      "reason": "四体交叉、8005/8006/8007/8008/8001/8002/8003/8004/8000访问序列及四对地址逐一一致；已查看原解析模块表，8004/8000相邻同模块冲突。",
+      "source": {
+        "id": "workbook-CO:3.2:34",
+        "source_key": "CO:3.2:34",
+        "question_crops": [
+          {
+            "page": 193,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 107,
+            "bbox": [
+              54,
+              459.6,
+              489,
+              582.0
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO03-E04",
+      "question_sha256": "70a93a54bcff7abd2b55c712a7e561debc40eb0691a086116fa333736b7e68d3",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:12.346423+00:00",
+      "reason": "64 KB主存含4 KB ROM、字节编址、2K×8 ROM及4K×4 RAM、求芯片数及四选项一致；已查看原解析ROM2/RAM30。",
+      "source": {
+        "id": "workbook-CO:3.3:10",
+        "source_key": "CO:3.3:10",
+        "question_crops": [
+          {
+            "page": 206,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 113,
+            "bbox": [
+              54,
+              415.68,
+              489,
+              475.08000000000004
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO03-E06",
+      "question_sha256": "4032b0dcf203585f7f5d056879cfab6397c52ff170792581dc9d9dfc302b5456",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:12.591443+00:00",
+      "reason": "原for(k0;k<1000;k++) a[k]=a[k]+32、int4 B、直接映射1 KB/块16 B、初空及四缺失率选项一致；已查看原解析每8次数组访问1缺失，为12.5%。",
+      "source": {
+        "id": "WD-CO-3_5-032",
+        "source_key": "CO:3.5:32",
+        "question_crops": [
+          {
+            "page": 255,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              182.8622283935547
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 138,
+            "bbox": [
+              54,
+              449.16,
+              489,
+              524.4
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO03-E09",
+      "question_sha256": "79696f847c5959ee903f25da4414825ea5ecd8e7ac669737c35e88e8b7a54c93",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:12.836038+00:00",
+      "reason": "24位物理、4 GB虚拟、4 KB页、虚地址00082840H；页表82(024H,0)/129(180H,1)/130(018H,1)及三物理地址+缺页四项逐一一致；已查看原解析82H即十进制130，物址018840H。",
+      "source": {
+        "id": "workbook-CO:3.6:17",
+        "source_key": "CO:3.6:17",
+        "question_crops": [
+          {
+            "page": 275,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 154,
+            "bbox": [
+              54,
+              544.5600000000001,
+              489,
+              648.6
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO03-E12",
+      "question_sha256": "dd6af655a8a49703c7921d015284638119266b3d127830abe4c5d81ed8057030",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:13.309220+00:00",
+      "reason": "30位虚拟/24位主存、4 KB页、TLB2路8组LRU，访问10/12/16/7/26/4/12/20及四问全部一致；已查看原解析18位VPN/12位偏移、标记15/组号3、换出页4、VA增2位导致项增2位。",
+      "source": {
+        "id": "full-big-CO:3.6:7",
+        "source_key": "CO:3.6:7",
+        "question_crops": [
+          {
+            "page": 152,
+            "bbox": [
+              50,
+              118.4,
+              500,
+              257.0
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 157,
+            "bbox": [
+              50,
+              303.08,
+              500,
+              705
+            ]
+          },
+          {
+            "page": 158,
+            "bbox": [
+              50,
+              68,
+              500,
+              178.52
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "question_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      },
+      "export_answer_crops": [
+        {
+          "page": 157,
+          "bbox": [
+            50,
+            303.08,
+            500,
+            501.6
+          ]
+        }
+      ],
+      "crop_correction_reason": "原索引混入第08题并延续158页；已查看原图，第07题第4问末行下缘501.12，第08题标题502.2起，以501.6安全窄隙结束，仅保留第07题。"
+    },
+    {
+      "example_id": "CO04-E02",
+      "question_sha256": "f1b3d1306f5155065a87732a284f338ab60dd96fccae1ecdf60849640d3482a7",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:13.553806+00:00",
+      "reason": "16位机器、字节编址、两字节相对转移、逐字节PC+1、起址2000H/位移06H及2006至2009H四项一致；已查看原解析取完PC2002H，目标2008H。",
+      "source": {
+        "id": "workbook-CO:4.2:23",
+        "source_key": "CO:4.2:23",
+        "question_crops": [
+          {
+            "page": 317,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 180,
+            "bbox": [
+              54,
+              491.64000000000004,
+              489,
+              567.96
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO04-E03",
+      "question_sha256": "2a0182be35a03fa338a1e39621c4738c23d3bbffbdd439040d48d18340209953",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:13.774561+00:00",
+      "reason": "RISC错误叙述、硬连线/LoadStore/流水线/寄存器传参四项一致，仅排版大小写；已查看原解析C。",
+      "source": {
+        "id": "WD-CO-4_4-006",
+        "source_key": "CO:4.4:6",
+        "question_crops": [
+          {
+            "page": 345,
+            "bbox": [
+              60,
+              45.1069450378418,
+              535,
+              106.6452407836914
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 205,
+            "bbox": [
+              54,
+              531.6,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 206,
+            "bbox": [
+              54,
+              71,
+              489,
+              299.76
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      },
+      "export_answer_crops": [
+        {
+          "page": 205,
+          "bbox": [
+            54,
+            531.6,
+            489,
+            594
+          ]
+        }
+      ],
+      "crop_correction_reason": "原索引混入4.5小结并延伸下一页；查看原图和OCR，原题解析末行下缘589.68，下一节614.88起，在594空白结束。"
+    },
+    {
+      "example_id": "CO05-E01",
+      "question_sha256": "9957952088a382a524084577cc33f2c8b1f57f49d9c3b4fdad809f53410eca68",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:14.023101+00:00",
+      "reason": "组合逻辑为操作元件、时序逻辑为状态元件，ALU/PC/GPRs/MUX四对象及四组选择一致，“单元”写为“部件”；已查看原解析ALU和MUX即B。",
+      "source": {
+        "id": "workbook-CO:5.3:18",
+        "source_key": "CO:5.3:18",
+        "question_crops": [
+          {
+            "page": 398,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 235,
+            "bbox": [
+              54,
+              269.88,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 236,
+            "bbox": [
+              54,
+              71,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 237,
+            "bbox": [
+              54,
+              71,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 238,
+            "bbox": [
+              54,
+              71,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 239,
+            "bbox": [
+              54,
+              71,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 240,
+            "bbox": [
+              54,
+              71,
+              489,
+              705
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      },
+      "export_answer_crops": [
+        {
+          "page": 235,
+          "bbox": [
+            54,
+            269.88,
+            489,
+            350
+          ]
+        }
+      ],
+      "crop_correction_reason": "原索引误延至240页，含多题综合解析及后续知识；已查看原图，第18题末行下缘347.4、后续标题354.96起，在350结束。"
+    },
+    {
+      "example_id": "CO05-E03",
+      "question_sha256": "616044c32c46830c8d5a2ec266efdd75b23fcb25aa479036f15900cb4b5afab5",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:14.288792+00:00",
+      "reason": "两个源操作数采用寄存器及寄存器间接寻址、R[r2]←R[r1]+M[R[r0]]、取数及执行所需部件和四选项一致；原生PDF文本有M/R字形抽取错误，已查看原解析明确寄存器/存储器取数及ALU执行，B。",
+      "source": {
+        "id": "workbook-CO:5.4:25",
+        "source_key": "CO:5.4:25",
+        "question_crops": [
+          {
+            "page": 423,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 252,
+            "bbox": [
+              54,
+              488.76,
+              489,
+              561.48
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO05-E09",
+      "question_sha256": "d8afc8eb56b9d1d117f1cd90a4025f268ba17015a63a8702c9a1eee35a37f019",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:14.555207+00:00",
+      "reason": "五段RISC、逐条add/load/beq/addi指令寄存器和立即数一致、旁路处理数据冒险/硬阻塞处理控制冒险及四组选项一致；已查看原解析与时空图，I3和I4阻塞。",
+      "source": {
+        "id": "WD-CO-5_6-030",
+        "source_key": "CO:5.6:30",
+        "question_crops": [
+          {
+            "page": 468,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              240.73179626464844
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 276,
+            "bbox": [
+              54,
+              300.84000000000003,
+              489,
+              543.12
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO06-E01",
+      "question_sha256": "33062859b216950cffe228f1979f9f32ac48e33c4282ab230301f153bcedc6ff",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:14.795224+00:00",
+      "reason": "总线每周期4 B、每总线周期2时钟、10 MHz及10/20/40/80 MB/s四项一致；已查看原解析20 MB/s。",
+      "source": {
+        "id": "WD-CO-6_1-016",
+        "source_key": "CO:6.1:16",
+        "question_crops": [
+          {
+            "page": 499,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              105.67998504638672
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 294,
+            "bbox": [
+              54,
+              151.8,
+              489,
+              212.64000000000001
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO07-E07",
+      "question_sha256": "afb9c57a24afcfa31472b317f36f0e42a5bb98701d0debbecff94a549959d4a0",
+      "verdict": "independent_verified",
+      "reviewed_utc": "2026-10-29T00:16:15.271948+00:00",
+      "reason": "主频500 MHz/CPI4、A2 MB/s/B40 MB/s、32位缓冲、查询10指令/中断400时钟/DMA块1000 B及预后500时钟三问全部一致；已查看原解析查询2微秒占4%、B不能中断、DMA4%。",
+      "source": {
+        "id": "G-20",
+        "source_key": "CO:7.3:10",
+        "question_crops": [
+          {
+            "page": 328,
+            "bbox": [
+              50,
+              577.4,
+              500,
+              705
+            ]
+          },
+          {
+            "page": 329,
+            "bbox": [
+              50,
+              68,
+              500,
+              114.8
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 337,
+            "bbox": [
+              50,
+              448.88,
+              500,
+              637.16
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "question_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "DS04-E01",
+      "question_sha256": "093f5f13815de8cb803141581672b8845741609e88ec42dd8c50f0ba6bb2d7c2",
+      "verdict": "native",
+      "reviewed_utc": "2026-10-29T00:16:15.510484+00:00",
+      "reason": "当前题干在原KMP比较次数选择题基础上增加朴素匹配比较及首次位置等要求，原截图不能覆盖全部扩问，保留原生。",
+      "source": {
+        "id": "workbook-DS:4.2:11",
+        "source_key": "DS:4.2:11",
+        "question_crops": [
+          {
+            "page": 178,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 133,
+            "bbox": [
+              54,
+              108.96000000000001,
+              489,
+              245.4
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "DS04-E02",
+      "question_sha256": "d3db6c2310c1fa4e5dbd573882bc1119a780ebcac735f22ecf7c8677bc0d5cf4",
+      "verdict": "native",
+      "reviewed_utc": "2026-10-29T00:16:15.745537+00:00",
+      "reason": "当前主串aaacaaaabdaaaab、模式aaaab及nextval对照问题与最近原题主串aabaaaba、模式aaab不一致，不能套截图。",
+      "source": {
+        "id": "workbook-DS:4.2:7",
+        "source_key": "DS:4.2:7",
+        "question_crops": [
+          {
+            "page": 174,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 131,
+            "bbox": [
+              54,
+              624.12,
+              489,
+              705
+            ]
+          },
+          {
+            "page": 132,
+            "bbox": [
+              54,
+              71,
+              489,
+              206.16
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf",
+        "question_pdf_sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+        "answer_pdf_sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30"
+      }
+    },
+    {
+      "example_id": "CO05-E07",
+      "question_sha256": "da84baa6fa76c3ef543540928126448e0ecd8c252a5ea2f4b9e256f87b26c04c",
+      "verdict": "native",
+      "reviewed_utc": "2026-10-29T00:16:15.967901+00:00",
+      "reason": "当前将原题CPU周期修正为CPU时钟周期；属于术语纠正，保留明确模型下原生解析。",
+      "source": {
+        "id": "workbook-CO:5.6:19",
+        "source_key": "CO:5.6:19",
+        "question_crops": [
+          {
+            "page": 457,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 274,
+            "bbox": [
+              54,
+              594.96,
+              489,
+              624.12
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO05-E08",
+      "question_sha256": "ad9c951ed710b370db9c44f3318c2fc811b72b40b7303ad96fbd8d56cfc5cc09",
+      "verdict": "native",
+      "reviewed_utc": "2026-10-29T00:16:16.198743+00:00",
+      "reason": "当前指令I2明确为load，横版题本原题助记符写add但注释为取存储器值；原材料指令助记符含笔误，保留纠正后的原生解析。",
+      "source": {
+        "id": "WD-CO-5_6-013",
+        "source_key": "CO:5.6:13",
+        "question_crops": [
+          {
+            "page": 451,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              181.89215087890625
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 274,
+            "bbox": [
+              54,
+              141.36,
+              489,
+              254.04000000000002
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO06-E02",
+      "question_sha256": "8352c0848eb8bcb8d08adc2f813ffa57094c981a7fcbeacb51919b703190c80e",
+      "verdict": "native",
+      "reviewed_utc": "2026-10-29T00:16:16.425094+00:00",
+      "reason": "当前明确1333 MT/s并追加333.25 MHz的等价换算提问；与原选择题术语错误及问题范围不同，保留原生。",
+      "source": {
+        "id": "WD-CO-6_1-025",
+        "source_key": "CO:6.1:25",
+        "question_crops": [
+          {
+            "page": 508,
+            "bbox": [
+              60,
+              46.305667877197266,
+              535,
+              125.21131896972656
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 295,
+            "bbox": [
+              54,
+              117.96000000000001,
+              489,
+              170.16
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    },
+    {
+      "example_id": "CO03-E13",
+      "question_sha256": "16ddd35c2eaf3e50dfa3101d7b614ec596093bfa6cbeef42df4a9e8ba21d4445",
+      "verdict": "native",
+      "reviewed_utc": "2026-10-29T00:16:16.657011+00:00",
+      "reason": "当前为给定TLB/页表/Cache状态的组合分析题，三次访问各自从初态开始；未定位数据和要求一致的完整原题，保留原生。",
+      "source": {
+        "id": "workbook-CO:3.6:13",
+        "source_key": "CO:3.6:13",
+        "question_crops": [
+          {
+            "page": 271,
+            "bbox": [
+              0.0,
+              0.0,
+              595.2760009765625,
+              481.8900146484375
+            ]
+          }
+        ],
+        "answer_crops": [
+          {
+            "page": 154,
+            "bbox": [
+              54,
+              319.2,
+              489,
+              379.68
+            ]
+          }
+        ],
+        "question_pdf": "/workspace/Classroom/02_计算机组成原理/【横版】27王道计算机组成原理选择题做题本.pdf",
+        "question_pdf_sha256": "52c1d83404155d561d309d648cd071fa822bbabeb67caf2156133dbe39f549e8",
+        "answer_pdf": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+        "answer_pdf_sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff"
+      }
+    }
+  ]
+}

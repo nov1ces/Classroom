@@ -1,0 +1,69 @@
+[
+  {
+    "page": 1,
+    "sidebars": [],
+    "occupied_margin_intervals": [
+      [
+        82,
+        109.83917999267578
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [],
+    "occupied_margin_intervals": [
+      [
+        630.4735107421875,
+        645.2705078125
+      ],
+      [
+        647.9329223632812,
+        662.4310913085938
+      ],
+      [
+        650.8477783203125,
+        723.2937622070312
+      ],
+      [
+        712.9144897460938,
+        727.7114868164062
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 8,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  }
+]

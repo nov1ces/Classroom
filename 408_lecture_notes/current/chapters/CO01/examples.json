@@ -1,0 +1,32 @@
+[
+  {
+    "id": "CO01-E01",
+    "number": "1-1",
+    "question": "计算机硬件能够直接执行的是（　）。\n\nI. 机器语言程序　II. 汇编语言程序　III. 硬件描述语言程序\n\nA. 仅 I　 B. 仅 I、II　 C. 仅 I、III　 D. I、II、III",
+    "answer": "A",
+    "solution": "普通CPU按 ISA 识别并执行机器编码。汇编程序需先汇编；硬件描述语言用于描述硬件。",
+    "source_key": null,
+    "baseline_anchor": "CO01-06",
+    "method": "机器执行接口"
+  },
+  {
+    "id": "CO01-E02",
+    "number": "1-2",
+    "question": "某计算机主频为1 GHz，程序 P 运行过程中共执行10000条指令，其中80%的指令执行平均需1个时钟周期，20%的指令执行平均需10个时钟周期。程序 P 的平均 CPI 和 CPU 执行时间分别是（　）。\n\nA. 2.8，28 μs　 B. 28，28 μs　 C. 2.8，28 ms　 D. 28，28 ms",
+    "answer": "A，平均 CPI=2.8，CPU 时间28 μs。",
+    "solution": "$\\overline{\\mathrm{CPI}}=0.8\\times1+0.2\\times10=2.8$；总周期 $10000\\times2.8=28000$。1 GHz 对应1 ns，故时间为28 μs。",
+    "source_key": null,
+    "baseline_anchor": "CO01-08",
+    "method": "动态指令加权"
+  },
+  {
+    "id": "CO01-E03",
+    "number": "1-3",
+    "question": "假定基准程序 A 在某计算机上的运行时间为100 s，其中90 s为 CPU 时间，其余为 I/O 时间。若 CPU 速度提高50%，I/O 速度不变，则运行基准程序 A 所耗费的时间是（　）。\n\nA. 55 s　 B. 60 s　 C. 65 s　 D. 70 s",
+    "answer": "D，70 s。",
+    "solution": "CPU速度变为1.5倍，CPU时间 $90/1.5=60$ s；I/O仍为10 s，总时间70 s。",
+    "source_key": null,
+    "baseline_anchor": "CO01-09",
+    "method": "分段时间加速"
+  }
+]

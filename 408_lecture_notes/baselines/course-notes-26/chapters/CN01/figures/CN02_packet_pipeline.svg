@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="380" viewBox="0 0 980 380">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17212a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#17212a" stroke-linejoin="round">
+<text x="490" y="30" text-anchor="middle" font-size="23" font-weight="bold" fill="#17212a">两段等速链路：每组发送时间 T，图中暂略传播时间</text>
+<text x="130" y="78" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">H1</text>
+<line x1="130" y1="95" x2="130" y2="330" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="470" y="78" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">路由器</text>
+<line x1="470" y1="95" x2="470" y2="330" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="810" y="78" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">H2</text>
+<line x1="810" y1="95" x2="810" y2="330" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="130" y1="108" x2="470" y2="164" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="280" y="122" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">分组1</text>
+<line x1="470" y1="164" x2="810" y2="220" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="640" y="178" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">分组1</text>
+<line x1="130" y1="164" x2="470" y2="220" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="280" y="178" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">分组2</text>
+<line x1="470" y1="220" x2="810" y2="276" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="640" y="234" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">分组2</text>
+<line x1="130" y1="220" x2="470" y2="276" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="280" y="234" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">分组3</text>
+<line x1="470" y1="276" x2="810" y2="332" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="640" y="290" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">分组3</text>
+<text x="490" y="365" text-anchor="middle" font-size="21" font-weight="normal" fill="#17212a">第一组经历2T；随后每隔T完成一组，共(3+2−1)T</text>
+</g></svg>

@@ -1,0 +1,98 @@
+{
+  "id": "OS04",
+  "title": "文件管理",
+  "branches": [
+    {
+      "label": "文件、属性与控制结构",
+      "children": [
+        "名字、inode与数据块",
+        "磁盘inode与内存inode",
+        "描述符、打开实例与文件位置"
+      ]
+    },
+    {
+      "label": "操作、保护与共享",
+      "children": [
+        "create、open、read、write、close",
+        "unlink与最终回收",
+        "用户类别、权限、ACL与能力",
+        "硬链接与符号链接"
+      ]
+    },
+    {
+      "label": "文件逻辑结构",
+      "children": [
+        "字节流与记录",
+        "定长、变长与成组分解",
+        "顺序、索引与索引顺序"
+      ]
+    },
+    {
+      "label": "文件物理分配",
+      "children": [
+        "连续分配与增长",
+        "隐式链接与FAT",
+        "单级、多级、混合索引",
+        "索引容量与访问层数"
+      ]
+    },
+    {
+      "label": "目录与名称解析",
+      "children": [
+        "单级、两级与树形目录",
+        "绝对、相对路径及逐层解析",
+        "目录项大小与线性查找期望",
+        "缓存条件与实际访盘路径"
+      ]
+    },
+    {
+      "label": "布局、空闲空间与一致性",
+      "children": [
+        "引导区、超级块、inode区与数据区",
+        "空闲表、空闲链、位图与成组链接",
+        "多结构更新与崩溃一致性"
+      ]
+    },
+    {
+      "label": "VFS、挂载与综合约束",
+      "children": [
+        "统一接口与具体磁盘格式",
+        "superblock、inode、dentry与file",
+        "挂载遮蔽与卸载条件",
+        "目录、索引层数与容量瓶颈"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "pages": [
+        263
+      ],
+      "role": "chapter_framework",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_1_初识文件管理.pdf",
+      "pages": [
+        16
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.3_4_虚拟文件系统.pdf",
+      "pages": [
+        2
+      ],
+      "role": "topic_locator",
+      "visual_checked": true
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "整章汇总导图为据各节课件及教材章框架归纳的补绘；已存在的节级导图保留知识层级。未声称存在现成整章总图。",
+    "教材第4章文件页263～316，对照章首框架与初识文件管理课件导图；VFS第2页为主题页而非树形导图，未混称。",
+    "原5列表按键拆成最多4列的两表，保留物理分配方式、访盘、空间及增长信息。"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "DS04": "串",
+  "DS04-definition": "串、子串与基本运算",
+  "DS04-storage": "存储表示与基本操作代码",
+  "DS04-naive": "朴素模式匹配",
+  "DS04-kmp": "KMP与next的1起始约定",
+  "DS04-E01": "例 4-1",
+  "DS04-next": "线性时间建立next",
+  "DS04-nextval": "nextval优化",
+  "DS04-E02": "例 4-2",
+  "DS04-analysis": "KMP的代价与边界"
+}

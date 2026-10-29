@@ -1,0 +1,55 @@
+{
+  "review_time_utc": "2026-10-29T00:06:31.638624+00:00",
+  "reviewer": "independent Sol verify_content_reinforce",
+  "files_sha256": {
+    "content.md": "04e1ca8f3b0ae5c55bc348a808c818d27d5ffa93ca630320dc36dc8192c7ec7e",
+    "examples.json": "0ac4d05fc78a3c7aaedd3216d481d2ce224fa799ab1bf67d1cce2ab870a3b1cb",
+    "sidebars.json": "cd5d37bbec3c7fab940aaa07e6ccfc2e5b806ee774f52ee64c659a84a5b469ba",
+    "map.json": "ce6d48dca5f400fc0a92a820d83fb5ecaab84e0c501a0a111ed2c336b9e8be68",
+    "sources/coverage.json": "0f9a5f225d0c06db555ec60efa70097876563df800b8289faf9adefa34678646"
+  },
+  "baseline_sha256": "083faa7bead92e6a70e9fd4f94dddb759caf70d3f84976d44f7f9393727e96e4",
+  "scope": [
+    "Read complete current chapter content, all question/answer/solution entries, and all sidebars.",
+    "Compared retained concept coverage against every baseline heading and inspected targeted substantive baseline/source passages; no material concept omission identified in that scope.",
+    "Manually reasoned through all retained examples; computed selected numerical/protocol cases independently below.",
+    "Checked available textbook answer index and listed OCR/readable records only; did not re-view all original courseware/textbook PDF pages or images."
+  ],
+  "examples_read": 9,
+  "source_sampling": {
+    "ocr": [
+      "CN_311.json"
+    ],
+    "readable": [],
+    "figures": []
+  },
+  "source_index_limitations": [],
+  "pdf_visual_review": false,
+  "build_performed": false,
+  "checks": [
+    {
+      "item": "serial nonpersistent RTT",
+      "actual": "16",
+      "expected": "16",
+      "passed": true
+    },
+    {
+      "item": "FTP bytes and FIN acknowledgement",
+      "actual": "18102",
+      "expected": "18102",
+      "passed": true
+    },
+    {
+      "item": "FTP rate bit/s",
+      "actual": "2400000.0",
+      "expected": "2400000.0",
+      "passed": true
+    }
+  ],
+  "corrections": [],
+  "remaining_limitations": [
+    "Original explanation screenshots not verified in this review.",
+    "Diagram graphics were not visually re-inspected; listed SVG checks read textual data only.",
+    "No PDF pagination, clipping, font, or rendered-formula assessment."
+  ]
+}

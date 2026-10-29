@@ -1,0 +1,190 @@
+[
+  {
+    "baseline_anchor": "CN05",
+    "targets": [
+      "CN05"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN05-01",
+    "targets": [
+      "CN05-endpoints"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN05-ex1",
+    "targets": [
+      "CN05-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN05-02",
+    "targets": [
+      "CN05-endpoints",
+      "CN05-udp-checksum"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN05-03",
+    "targets": [
+      "CN05-udp-checksum"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN05-ex2",
+    "targets": [
+      "CN05-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN05-04",
+    "targets": [
+      "CN05-tcp-header"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN05-ex3",
+    "targets": [
+      "CN05-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN05-05",
+    "targets": [
+      "CN05-connection"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN05-ex4",
+    "targets": [
+      "CN05-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN05-06",
+    "targets": [
+      "CN05-retransmission"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN05-07",
+    "targets": [
+      "CN05-windows"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN05-08",
+    "targets": [
+      "CN05-congestion"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN05-ex5",
+    "targets": [
+      "CN05-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN05-09",
+    "targets": [
+      "CN05-windows"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN05-ex6",
+    "targets": [
+      "CN05-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN05-ex7",
+    "targets": [
+      "CN05-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN05-ex8",
+    "targets": [
+      "CN05-E08"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN05-ex9",
+    "targets": [
+      "CN05-E09"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN05-course-buffers",
+    "targets": [
+      "CN05-endpoints"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN05-course-checksum",
+    "targets": [
+      "CN05-udp-checksum"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN05-course-byte-trace",
+    "targets": [
+      "CN05-windows"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN05-course-duplicate-acks",
+    "targets": [
+      "CN05-retransmission"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN05-review",
+    "targets": [
+      "CN05-endpoints",
+      "CN05-udp-checksum",
+      "CN05-tcp-header",
+      "CN05-connection",
+      "CN05-retransmission",
+      "CN05-windows",
+      "CN05-congestion"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN05-review-answers",
+    "targets": [
+      "CN05-endpoints",
+      "CN05-udp-checksum",
+      "CN05-tcp-header",
+      "CN05-connection",
+      "CN05-retransmission",
+      "CN05-windows",
+      "CN05-congestion"
+    ],
+    "disposition": "merged"
+  }
+]

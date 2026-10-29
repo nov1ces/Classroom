@@ -1,0 +1,108 @@
+{
+  "id": "CO02",
+  "title": "数据表示、位级运算与浮点数",
+  "branches": [
+    {
+      "label": "计数制与定点编码",
+      "children": [
+        "位置权与换基数",
+        "真值和机器数",
+        "原反补移码",
+        "范围与零的表示"
+      ]
+    },
+    {
+      "label": "类型转换与移位",
+      "children": [
+        "符号扩展和零扩展",
+        "截断与模运算",
+        "C整数提升",
+        "算术移位的舍入"
+      ]
+    },
+    {
+      "label": "加减电路与标志",
+      "children": [
+        "全加器与先行进位",
+        "受控取反加一",
+        "CF和OF",
+        "ZF、SF及条件转移"
+      ]
+    },
+    {
+      "label": "乘除机制",
+      "children": [
+        "部分积和双倍位宽",
+        "Booth相邻位判定",
+        "恢复与不恢复余数",
+        "商余数与异常边界"
+      ]
+    },
+    {
+      "label": "IEEE浮点表示",
+      "children": [
+        "符阶尾字段",
+        "偏置与隐含位",
+        "规格化和非规格化",
+        "零、无穷和NaN"
+      ]
+    },
+    {
+      "label": "浮点运算与精度",
+      "children": [
+        "对阶和规格化",
+        "最近偶数舍入",
+        "指数溢出与精度损失",
+        "整数和浮点转换"
+      ]
+    },
+    {
+      "label": "数据宽度与存放",
+      "children": [
+        "位、字节和字",
+        "大小端字节排列",
+        "对象和结构体对齐",
+        "数组元素地址"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.1.1 进位计数制.pdf",
+      "pages": [
+        15
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.2.2 定点数的移位运算.pdf",
+      "pages": [
+        10
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第二章 数据的表示和运算/2.3.1_2 浮点数的表示_IEEE 754（例题训练）.pdf",
+      "pages": [
+        13
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "pages": [
+        32,
+        66
+      ],
+      "role": "book_crosscheck",
+      "visual_checked": true
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "定点编码、加减标志、乘除和数据存放的章级分支依据教材第2章框架与对应机制补绘；章级知识树由多张节级导图整合，不声称原来已有完整总图。"
+  ]
+}

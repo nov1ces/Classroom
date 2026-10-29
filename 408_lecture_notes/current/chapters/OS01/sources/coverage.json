@@ -1,0 +1,214 @@
+[
+  {
+    "baseline_anchor": "OS01",
+    "targets": [
+      "OS01"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-guide",
+    "targets": [
+      "OS01-functions",
+      "OS01-privilege",
+      "OS01-interrupts"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS01-entry-proof",
+    "targets": [
+      "OS01-privilege",
+      "OS01-interrupts"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS01-1-1",
+    "targets": [
+      "OS01-functions"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-interfaces",
+    "targets": [
+      "OS01-functions"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-auto-1",
+    "targets": [
+      "OS01-features"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS01-ex1-1",
+    "targets": [
+      "OS01-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS01-1-2",
+    "targets": [
+      "OS01-systems"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-batch-evolution",
+    "targets": [
+      "OS01-systems"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-1-3",
+    "targets": [
+      "OS01-privilege"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-1-4",
+    "targets": [
+      "OS01-interrupts"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-exception-types",
+    "targets": [
+      "OS01-interrupts"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-ex1-2",
+    "targets": [
+      "OS01-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS01-1-5",
+    "targets": [
+      "OS01-interrupts"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-1-6",
+    "targets": [
+      "OS01-loading"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-1-7",
+    "targets": [
+      "OS01-address-space"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-1-8",
+    "targets": [
+      "OS01-kernel-structures"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-ex1-3",
+    "targets": [
+      "OS01-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS01-kernel-primitives",
+    "targets": [
+      "OS01-privilege"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-1-9",
+    "targets": [
+      "OS01-boot"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-ex1-4",
+    "targets": [
+      "OS01-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS01-1-10",
+    "targets": [
+      "OS01-vmm"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-vmm-models",
+    "targets": [
+      "OS01-vmm"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS01-1-review",
+    "targets": [
+      "OS01-features",
+      "OS01-privilege",
+      "OS01-interrupts",
+      "OS01-loading",
+      "OS01-address-space",
+      "OS01-vmm"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS01-auto-2",
+    "targets": [
+      "OS01-features",
+      "OS01-privilege",
+      "OS01-interrupts",
+      "OS01-loading",
+      "OS01-address-space",
+      "OS01-vmm"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS01-recall",
+    "targets": [
+      "OS01-features",
+      "OS01-privilege",
+      "OS01-interrupts",
+      "OS01-loading",
+      "OS01-address-space",
+      "OS01-vmm"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS01-recall-answers",
+    "targets": [
+      "OS01-features",
+      "OS01-privilege",
+      "OS01-interrupts",
+      "OS01-loading",
+      "OS01-address-space",
+      "OS01-vmm"
+    ],
+    "disposition": "merged"
+  }
+]

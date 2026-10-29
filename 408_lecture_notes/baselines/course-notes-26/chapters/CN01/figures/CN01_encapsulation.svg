@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="390" viewBox="0 0 980 390">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#17212a"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<g font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#17212a" stroke-linejoin="round">
+<text x="490" y="30" text-anchor="middle" font-size="24" font-weight="bold" fill="#17212a">应用 → TCP → IP → 当前链路</text>
+<rect x="430" y="65" width="440" height="46" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="650.0" y="95.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">应用数据</text>
+<rect x="310" y="135" width="120" height="46" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="370.0" y="165.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">TCP首部</text>
+<rect x="430" y="135" width="440" height="46" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="650.0" y="165.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">应用数据</text>
+<rect x="220" y="205" width="90" height="46" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="265.0" y="235.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">IP首部</text>
+<rect x="310" y="205" width="120" height="46" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="370.0" y="235.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">TCP首部</text>
+<rect x="430" y="205" width="440" height="46" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="650.0" y="235.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">应用数据</text>
+<rect x="40" y="275" width="180" height="46" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="130.0" y="305.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">以太网首部</text>
+<rect x="220" y="275" width="90" height="46" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="265.0" y="305.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">IP首部</text>
+<rect x="310" y="275" width="120" height="46" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="370.0" y="305.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">TCP首部</text>
+<rect x="430" y="275" width="440" height="46" fill="#eef1f3" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="650.0" y="305.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">应用数据</text>
+<rect x="870" y="275" width="70" height="46" fill="white" stroke="#17212a" stroke-width="2" rx="0"/>
+<text x="905.0" y="305.0" text-anchor="middle" font-size="20" font-weight="normal" fill="#17212a">FCS</text>
+<line x1="650" y1="115" x2="650" y2="131" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="650" y1="185" x2="650" y2="201" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<line x1="650" y1="255" x2="650" y2="271" stroke="#17212a" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="490" y="365" text-anchor="middle" font-size="19" font-weight="normal" fill="#17212a">同一IP分组到下一跳时，链路首部与FCS按下一链路重新封装</text>
+</g></svg>

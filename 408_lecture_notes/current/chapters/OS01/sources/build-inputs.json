@@ -1,0 +1,9 @@
+{
+  "tools/build_notes.py": "cc59ed7f23d83250d5957ebe3f1ccae0c4119fe955ba2d9ce9b6da0609c70af4",
+  "chapters/OS01/map.json": "4a5266c98c3bad59d834c988a77a8cb56bcee699f0b557748011d288814ff556",
+  "chapters/OS01/content.md": "ad41527b0aafac3a85e258da88b6fff2f6a26a29c0ab001e0d04aa7ebc066c5f",
+  "chapters/OS01/examples.json": "5f3345cd96f9c0cd810b0a08af4d24fd6d6ec3f10fde3fdc0f3e2c7ec27bc78d",
+  "chapters/OS01/sidebars.json": "8a3d391261380ea64c4cb68414a0e61978ae6d7dea04f1aecad7ea2da40a916c",
+  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "CO06-E01",
+    "number": "6-1",
+    "question": "假设某系统总线在一个总线周期中并行传输4 B信息，一个总线周期占用2个时钟周期，总线时钟频率为10 MHz，则总线带宽是（　）。\n\nA. 10 MB/s　 B. 20 MB/s　 C. 40 MB/s　 D. 80 MB/s",
+    "answer": "B，20 MB/s。",
+    "solution": "每次4 B，耗时$2/(10\\times10^6)=200$ ns，带宽$4/(200\\times10^{-9})=20$ MB/s。",
+    "source_key": null,
+    "baseline_anchor": "CO06-example-1",
+    "method": "每次有效字节数与相应时间预算"
+  },
+  {
+    "id": "CO06-E02",
+    "number": "6-2",
+    "question": "某64位并行总线每时钟周期传4次数据，实际数据传送率已明确给为1333 MT/s，求单方向理想峰值带宽。若改给的是333.25 MHz时钟频率，结果是否相同？",
+    "answer": "10.664 GB/s；改给333.25 MHz且每拍4次时相同。",
+    "solution": "64位为8 B，$1333$ MT/s已是每秒传送次数，$B=1333\\times10^6\\times8=10.664$ GB/s。若给333.25 MHz，则$R=4\\times333.25=1333$ MT/s，结果相同。",
+    "source_key": null,
+    "baseline_anchor": "CO06-example-2",
+    "method": "每次有效字节数与相应时间预算"
+  },
+  {
+    "id": "CO06-E03",
+    "number": "6-3",
+    "question": "某存储器总线宽度为64位，总线时钟频率为1 GHz，在总线上传输一个数据或地址需要一个时钟周期，不支持突发传送方式。若通过该总线连接CPU和主存，主存每次准备一个64位数据需要6 ns，主存块大小为32 B，则读取一个主存块所需的时间是（　）。\n\nA. 8 ns　 B. 11 ns　 C. 26 ns　 D. 32 ns",
+    "answer": "D，32 ns。",
+    "solution": "每拍1 ns，每数据8 B，32 B共4次。不支持突发，每次付地址1 ns、准备6 ns、数据1 ns，$T=4(1+6+1)=32$ ns。",
+    "source_key": null,
+    "baseline_anchor": "CO06-example-3",
+    "method": "每次有效字节数与相应时间预算"
+  },
+  {
+    "id": "CO06-E04",
+    "number": "6-4",
+    "question": "某存储器总线的时钟频率为420 MHz，总线宽度为64位，每个时钟周期传送2次数据；其总线事务支持突发传送方式，最多传送8次数据，第1个时钟周期传送地址和读/写命令，从第4个至第7个时钟周期连续传送8次数据。该总线的总线带宽（最大数据传输率）为（　）。\n\nA. 3.84 GB/s　 B. 6.72 GB/s　 C. 30.72 GB/s　 D. 53.76 GB/s",
+    "answer": "B，6.72 GB/s。",
+    "solution": "最大数据传输率为$420\\times10^6\\times2\\times8=6.72$ GB/s。若统计整次事务，64 B占7拍，有效速率才是$64\\times420\\times10^6/7=3.84$ GB/s。",
+    "source_key": null,
+    "baseline_anchor": "CO06-example-4",
+    "method": "每次有效字节数与相应时间预算"
+  }
+]

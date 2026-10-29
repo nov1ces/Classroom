@@ -1,0 +1,84 @@
+{
+  "id": "OS01",
+  "title": "计算机系统概述",
+  "branches": [
+    {
+      "label": "功能与基本特征",
+      "children": [
+        "资源管理与服务接口",
+        "并发与并行",
+        "共享、虚拟、异步"
+      ]
+    },
+    {
+      "label": "操作系统发展与类型",
+      "children": [
+        "单道与多道批处理",
+        "分时的交互与响应",
+        "硬实时与软实时"
+      ]
+    },
+    {
+      "label": "运行机制与受控入口",
+      "children": [
+        "用户态、内核态、特权指令",
+        "外部中断与异常",
+        "系统调用与库函数"
+      ]
+    },
+    {
+      "label": "程序链接、装入与运行映像",
+      "children": [
+        "静态与动态链接",
+        "绝对、可重定位、运行时装入",
+        "代码、数据、堆、栈与映射区"
+      ]
+    },
+    {
+      "label": "内核结构与保护边界",
+      "children": [
+        "分层与模块化",
+        "宏内核与微内核",
+        "外核的保护与抽象"
+      ]
+    },
+    {
+      "label": "启动与持久结构",
+      "children": [
+        "固件、引导程序与内核初始化",
+        "BIOS/MBR与UEFI/GPT",
+        "运行结构与磁盘持久结构"
+      ]
+    },
+    {
+      "label": "虚拟机与资源抽象",
+      "children": [
+        "第一类与第二类VMM",
+        "客户权限与主机权限",
+        "虚拟机与容器"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "pages": [
+        10
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "pages": [
+        13
+      ],
+      "role": "chapter_framework",
+      "visual_checked": true
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "整章汇总导图为据各节课件及教材章框架归纳的补绘；已存在的节级导图保留知识层级。未声称存在现成整章总图。"
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "errors": [],
+  "warnings": [
+    {
+      "chapter": "DS03",
+      "long_paragraph": "若`F(n)`在$n\\le3$时返回1，否则返回`F(n-2)+F(n-4)+1`，调用次数满足$C(n)=1+C(n-2)+C(n-4)$、基例$C(n)=1$；因此$C(4)=3,C(6)=5,C",
+      "characters": 249
+    }
+  ],
+  "chapters": [
+    {
+      "id": "CN01",
+      "characters": 3452,
+      "baseline_characters": 12232,
+      "examples": 4,
+      "covered_anchors": 21
+    },
+    {
+      "id": "CN02",
+      "characters": 2500,
+      "baseline_characters": 7976,
+      "examples": 3,
+      "covered_anchors": 16
+    },
+    {
+      "id": "CN03",
+      "characters": 5672,
+      "baseline_characters": 22316,
+      "examples": 12,
+      "covered_anchors": 38
+    },
+    {
+      "id": "CN04",
+      "characters": 5905,
+      "baseline_characters": 25782,
+      "examples": 13,
+      "covered_anchors": 42
+    },
+    {
+      "id": "CN05",
+      "characters": 4397,
+      "baseline_characters": 18021,
+      "examples": 9,
+      "covered_anchors": 25
+    },
+    {
+      "id": "CN06",
+      "characters": 3546,
+      "baseline_characters": 16888,
+      "examples": 9,
+      "covered_anchors": 25
+    },
+    {
+      "id": "CO01",
+      "characters": 4351,
+      "baseline_characters": 9479,
+      "examples": 3,
+      "covered_anchors": 25
+    },
+    {
+      "id": "CO02",
+      "characters": 8563,
+      "baseline_characters": 22960,
+      "examples": 11,
+      "covered_anchors": 46
+    },
+    {
+      "id": "CO03",
+      "characters": 8545,
+      "baseline_characters": 24548,
+      "examples": 13,
+      "covered_anchors": 49
+    },
+    {
+      "id": "CO04",
+      "characters": 4554,
+      "baseline_characters": 14775,
+      "examples": 5,
+      "covered_anchors": 30
+    },
+    {
+      "id": "CO05",
+      "characters": 5385,
+      "baseline_characters": 22263,
+      "examples": 11,
+      "covered_anchors": 41
+    },
+    {
+      "id": "CO06",
+      "characters": 3402,
+      "baseline_characters": 8925,
+      "examples": 4,
+      "covered_anchors": 21
+    },
+    {
+      "id": "CO07",
+      "characters": 4395,
+      "baseline_characters": 12698,
+      "examples": 7,
+      "covered_anchors": 26
+    },
+    {
+      "id": "DS01",
+      "characters": 2482,
+      "baseline_characters": 9195,
+      "examples": 4,
+      "covered_anchors": 19
+    },
+    {
+      "id": "DS02",
+      "characters": 6617,
+      "baseline_characters": 17424,
+      "examples": 6,
+      "covered_anchors": 27
+    },
+    {
+      "id": "DS03",
+      "characters": 7657,
+      "baseline_characters": 18685,
+      "examples": 5,
+      "covered_anchors": 29
+    },
+    {
+      "id": "DS04",
+      "characters": 4985,
+      "baseline_characters": 10498,
+      "examples": 2,
+      "covered_anchors": 16
+    },
+    {
+      "id": "DS05",
+      "characters": 7924,
+      "baseline_characters": 19189,
+      "examples": 6,
+      "covered_anchors": 28
+    },
+    {
+      "id": "DS06",
+      "characters": 6319,
+      "baseline_characters": 18208,
+      "examples": 6,
+      "covered_anchors": 29
+    },
+    {
+      "id": "DS07",
+      "characters": 7571,
+      "baseline_characters": 20601,
+      "examples": 8,
+      "covered_anchors": 31
+    },
+    {
+      "id": "DS08",
+      "characters": 8590,
+      "baseline_characters": 20332,
+      "examples": 9,
+      "covered_anchors": 33
+    },
+    {
+      "id": "OS01",
+      "characters": 3894,
+      "baseline_characters": 12852,
+      "examples": 4,
+      "covered_anchors": 27
+    },
+    {
+      "id": "OS02",
+      "characters": 10449,
+      "baseline_characters": 54385,
+      "examples": 17,
+      "covered_anchors": 100
+    },
+    {
+      "id": "OS03",
+      "characters": 5439,
+      "baseline_characters": 31799,
+      "examples": 9,
+      "covered_anchors": 48
+    },
+    {
+      "id": "OS04",
+      "characters": 5009,
+      "baseline_characters": 24829,
+      "examples": 8,
+      "covered_anchors": 44
+    },
+    {
+      "id": "OS05",
+      "characters": 5244,
+      "baseline_characters": 22516,
+      "examples": 7,
+      "covered_anchors": 39
+    }
+  ],
+  "examples": 195
+}

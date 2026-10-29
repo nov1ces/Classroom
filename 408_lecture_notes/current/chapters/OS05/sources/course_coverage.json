@@ -1,0 +1,255 @@
+{
+  "chapter": "OS05",
+  "lecture_files": [
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_1_IO设备的基本概念和分类.pdf",
+      "file_pages": [
+        8,
+        9,
+        10
+      ],
+      "targets": [
+        "OS05-devices"
+      ],
+      "baseline_targets": [
+        "OS05-device-classes"
+      ],
+      "baseline_review_scope": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字和图示与正文。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_2_IO控制器.pdf",
+      "file_pages": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "targets": [
+        "OS05-devices"
+      ],
+      "baseline_targets": [
+        "OS05-7-1"
+      ],
+      "baseline_review_scope": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 文件页5放大查看、页6–8联系图核对，按原控制器寄存器、I/O逻辑、CPU与多设备端口重绘。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，对照主要文字和图示；",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_3_IO控制方式.pdf",
+      "file_pages": [
+        12,
+        13,
+        14
+      ],
+      "targets": [
+        "OS05-control"
+      ],
+      "baseline_targets": [
+        "OS05-7-2",
+        "OS05-dma-channel"
+      ],
+      "baseline_review_scope": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字和图示与正文。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_4_IO软件层次结构.pdf",
+      "file_pages": [
+        19,
+        20,
+        21
+      ],
+      "targets": [
+        "OS05-software"
+      ],
+      "baseline_targets": [
+        "OS05-7-3"
+      ],
+      "baseline_review_scope": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字和图示与正文。补入页10的两项LUT映射示例。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_5_输入输出应用程序接口和驱动程序接口.pdf",
+      "file_pages": [
+        4,
+        8,
+        10,
+        12,
+        16,
+        17,
+        18
+      ],
+      "targets": [
+        "OS05-interfaces"
+      ],
+      "baseline_targets": [
+        "OS05-device-interfaces"
+      ],
+      "baseline_review_scope": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。另读18页OCR文本，图中短字及网络动画须回原图核对。 文件页4、8、10、12、16已单页视觉核验；两主机示例已重绘。 本次重新查看原页4/8/10/12/16，发送图右侧箭头修为网卡到接收socket；补绘三类应用接口与标准驱动接口。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，对照主要文字和图示；",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_1_IO核心子系统.pdf",
+      "file_pages": [
+        5,
+        6,
+        7
+      ],
+      "targets": [
+        "OS05-software"
+      ],
+      "baseline_targets": [
+        "OS05-core-functions"
+      ],
+      "baseline_review_scope": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字和图示与正文。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_2_假脱机技术.pdf",
+      "file_pages": [
+        12,
+        13,
+        14
+      ],
+      "targets": [
+        "OS05-spooling"
+      ],
+      "baseline_targets": [
+        "OS05-7-7"
+      ],
+      "baseline_review_scope": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字、图示和对应正文。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_3_设备的分配与回收.pdf",
+      "file_pages": [
+        18,
+        19,
+        20
+      ],
+      "targets": [
+        "OS05-allocation"
+      ],
+      "baseline_targets": [
+        "OS05-device-tables",
+        "OS05-safe-allocation"
+      ],
+      "baseline_review_scope": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字、图示和对应正文。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_4_缓冲区管理.pdf",
+      "file_pages": [
+        18,
+        19,
+        20
+      ],
+      "targets": [
+        "OS05-buffer-time",
+        "OS05-buffer-pool"
+      ],
+      "baseline_targets": [
+        "OS05-7-5",
+        "OS05-buffer-pool",
+        "OS05-buffer-steady"
+      ],
+      "baseline_review_scope": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 文件页7、10、13、17、18、19已单页视觉核验。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，对照主要文字和图示；补充原页3—4缓冲减少中断频率的条件。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3.4 固态硬盘_扫描版.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "targets": [
+        "OS05-ssd"
+      ],
+      "baseline_targets": [
+        "OS05-7-10",
+        "OS05-flash-hierarchy"
+      ],
+      "baseline_review_scope": "7页原PDF全部视觉查看；第3页导图与第5–7页芯片/块/页组织和数值对照正文及重绘图；第4页是机械硬盘与SSD照片比较。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。另读7页OCR；SSD四芯片、块页尺寸已按既有原图记录复核。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_1_磁盘的结构.pdf",
+      "file_pages": [
+        4,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "targets": [
+        "OS05-disk",
+        "OS05-formatting"
+      ],
+      "baseline_targets": [
+        "OS05-7-8"
+      ],
+      "baseline_review_scope": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 补看文件页4/6/8/9/10，重绘四盘面、共用磁臂和柱面位置，并核对物理地址及磁盘类别。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，对照主要文字和图示；",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_2_磁盘调度算法.pdf",
+      "file_pages": [
+        13,
+        14,
+        15
+      ],
+      "targets": [
+        "OS05-disk",
+        "OS05-formatting",
+        "OS05-disk-scheduling"
+      ],
+      "baseline_targets": [
+        "OS05-7-8",
+        "OS05-course-disk-traces",
+        "OS05-course-disk-traces"
+      ],
+      "baseline_review_scope": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，对照主要文字和图示；补充文件页14算法缺省折返点约定。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_3_减少磁盘延迟时间的方法.pdf",
+      "file_pages": [
+        9,
+        10,
+        11
+      ],
+      "targets": [
+        "OS05-disk-scheduling"
+      ],
+      "baseline_targets": [
+        "OS05-sector-layout"
+      ],
+      "baseline_review_scope": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 文件页3、4、7、8已单页视觉核验。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，对照主要文字和图示；",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_4_磁盘的管理.pdf",
+      "file_pages": [
+        6,
+        7,
+        8
+      ],
+      "targets": [
+        "OS05-formatting"
+      ],
+      "baseline_targets": [
+        "OS05-boot-badblocks"
+      ],
+      "baseline_review_scope": "对照课件末3页提取文本或OCR和正文对应节；其余页面和源图逐项核对待完成。；续查去重文本行（丢弃少于12字符的短行与重复行），对照对应知识组；该方法不证明逐页/逐图视觉审定。 本轮按2×2、每页约1248像素宽的图逐页查看完整源页，核对主要文字和图示与正文。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    }
+  ],
+  "scope": "Knowledge-group source mapping; does not assert every animation frame or tiny figure label was independently reviewed."
+}

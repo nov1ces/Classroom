@@ -1,0 +1,239 @@
+{
+  "chapters": [
+    {
+      "id": "DS01",
+      "title": "绪论",
+      "pages": 3,
+      "combined_start_page": 1,
+      "subject_start_page": 1,
+      "pdf_sha256": "bb444b6b5cb70a16e004a4e49147b3f8939410f94a58c50d87ab7c521f2da503",
+      "content_sha256": "3be4748bbfc001ebab961e110b5f36fe5fc7abefd981ca9578ed1bfd8bd3fcb2"
+    },
+    {
+      "id": "DS02",
+      "title": "线性表",
+      "pages": 8,
+      "combined_start_page": 4,
+      "subject_start_page": 4,
+      "pdf_sha256": "1261bc0d430b6dc8ecdd7ada89812ae5e41ac8ebc5c038cbe622491b3cf00740",
+      "content_sha256": "f0ccb60cc8fff007d88e1f9b0480463fa6970d56e580c95088fed107f1883722"
+    },
+    {
+      "id": "DS03",
+      "title": "栈、队列和数组",
+      "pages": 7,
+      "combined_start_page": 12,
+      "subject_start_page": 12,
+      "pdf_sha256": "cc4380dabc7c7ced41d803115647ae38767195972d2a4c4de3e7a4309f58570a",
+      "content_sha256": "8ffa66e06d5283d6c9a7fb5de33fc91d079aeb1e8acf66a1c6a08f614a11ef3c"
+    },
+    {
+      "id": "DS04",
+      "title": "串",
+      "pages": 5,
+      "combined_start_page": 19,
+      "subject_start_page": 19,
+      "pdf_sha256": "358f24de51486da62222a9d31ffd1df02ab3d1281087ae959c24db3f013e9b5f",
+      "content_sha256": "49ee237a847a6f13050a41346cf3f4484696470f7c4eeb57ece7b79cc10ef49d"
+    },
+    {
+      "id": "DS05",
+      "title": "树与二叉树",
+      "pages": 9,
+      "combined_start_page": 24,
+      "subject_start_page": 24,
+      "pdf_sha256": "520fc0f8db380ad2d035f1e305eaf434e7edd770de8a77361ccca7a878fcce95",
+      "content_sha256": "f45b3d5d5bee9834ef4cc7ed880e4b78b201594bfa3c190f8b7fb18a0c11e814"
+    },
+    {
+      "id": "DS06",
+      "title": "图",
+      "pages": 7,
+      "combined_start_page": 33,
+      "subject_start_page": 33,
+      "pdf_sha256": "4ba32b2ef83a654f234536fa7d1582ef199a4f677380a7a9e6769235d45f6bfb",
+      "content_sha256": "1821b499230034d3fe4a5f1ecce70970d70d3239fdbb27dd67aeeca8a7c77d2e"
+    },
+    {
+      "id": "DS07",
+      "title": "查找",
+      "pages": 9,
+      "combined_start_page": 40,
+      "subject_start_page": 40,
+      "pdf_sha256": "f61e6a0bba5f7a0d073a7e8ee2e2538926c63efd041740a35957fba132d0ef60",
+      "content_sha256": "b9297d442053e8fe0fd249d46581cfe05406138be0247b62712611cd323c91b1"
+    },
+    {
+      "id": "DS08",
+      "title": "排序",
+      "pages": 9,
+      "combined_start_page": 49,
+      "subject_start_page": 49,
+      "pdf_sha256": "95f7dd98a2e7246e438ea5506eff6e16523dbd14ae5f6d59a80e08a6c9cb688e",
+      "content_sha256": "7e1064bf5e921269556fcc4cb1f14715c205387a69e4d4454c2d0e7dedcf0827"
+    },
+    {
+      "id": "CO01",
+      "title": "计算机系统与程序执行的层次",
+      "pages": 5,
+      "combined_start_page": 58,
+      "subject_start_page": 1,
+      "pdf_sha256": "3f4a59b4f884c61b710b15eac907141e9e21a5921cdcffaa263c271aa3e2d422",
+      "content_sha256": "a5023a8c8cbe68f7a084009e41f05ba207b9107382fc23150f849ae712b11e1f"
+    },
+    {
+      "id": "CO02",
+      "title": "数据表示、位级运算与浮点数",
+      "pages": 10,
+      "combined_start_page": 63,
+      "subject_start_page": 6,
+      "pdf_sha256": "4b5d32bbae412ac1211ca3a26e30c1686176e6cd04625dee077dea5bca8d53c3",
+      "content_sha256": "ee8404a975325621be19e2dde4c023cd56ca14ecd1801e18b93b39c2d219ff6b"
+    },
+    {
+      "id": "CO03",
+      "title": "存储层次、地址与 Cache",
+      "pages": 12,
+      "combined_start_page": 73,
+      "subject_start_page": 16,
+      "pdf_sha256": "bef1c8691d43ed47e18da18e916613dfd7e525a68009b211ae032d07bd5d3695",
+      "content_sha256": "e343ad9c61bb2e3f0a1cc67c1f51ddabc9b10673c42484b0bc40d9f4cc50daeb"
+    },
+    {
+      "id": "CO04",
+      "title": "指令系统与 C 程序的机器级表示",
+      "pages": 6,
+      "combined_start_page": 85,
+      "subject_start_page": 28,
+      "pdf_sha256": "13a781250fb4ee336e1b6d4257f7792f4a091158c50d1bf80e06117954627dd5",
+      "content_sha256": "57eb1d5f9e753910861478f08fc2d216844a9e8871fded1edf7f06ebe58eefe6"
+    },
+    {
+      "id": "CO05",
+      "title": "中央处理器",
+      "pages": 9,
+      "combined_start_page": 91,
+      "subject_start_page": 34,
+      "pdf_sha256": "95d2d613d33cd34f4583965bafeec7735ff1c4628d5325347903b9dce83ff479",
+      "content_sha256": "a7c27f8132979388b351c8d411d17493bb568c760156256eebb266e19e563f2b"
+    },
+    {
+      "id": "CO06",
+      "title": "总线",
+      "pages": 4,
+      "combined_start_page": 100,
+      "subject_start_page": 43,
+      "pdf_sha256": "e3417fb1b982e2c5133bb9771bad70893ad2a674e6aca196e3b843d054c9a0cd",
+      "content_sha256": "ce502cf7252f14878aff8f519b12c5d79bde4cd88430847ec5eef717da7efdd5"
+    },
+    {
+      "id": "CO07",
+      "title": "输入/输出系统",
+      "pages": 6,
+      "combined_start_page": 104,
+      "subject_start_page": 47,
+      "pdf_sha256": "8f80f872f1b9fd60afba77a2f1c5769ea85b00106ee21f2dd088791c9373a8cf",
+      "content_sha256": "5f7338056a550fb6b1339459a80727b7d80bc49b3e0ad598f3c5818d2204173e"
+    },
+    {
+      "id": "OS01",
+      "title": "计算机系统概述",
+      "pages": 5,
+      "combined_start_page": 110,
+      "subject_start_page": 1,
+      "pdf_sha256": "fbc88aec305606119f171ae3ec5da39a617df3e8362b55395b329235ad61092c",
+      "content_sha256": "ad41527b0aafac3a85e258da88b6fff2f6a26a29c0ab001e0d04aa7ebc066c5f"
+    },
+    {
+      "id": "OS02",
+      "title": "进程与线程",
+      "pages": 13,
+      "combined_start_page": 115,
+      "subject_start_page": 6,
+      "pdf_sha256": "997825818903187fdb37f9e26e91113f2c45a6b8d6a4e34fd2b82b03ea52fe04",
+      "content_sha256": "fac0a15690668c4fa66392a355333e5826043c275d39992ffbbdb01013b6ac17"
+    },
+    {
+      "id": "OS03",
+      "title": "内存管理",
+      "pages": 8,
+      "combined_start_page": 128,
+      "subject_start_page": 19,
+      "pdf_sha256": "bb6aa0b71485b14bd6516ad66c5e0c956e447a20aa87fad79f5463ebf03fff37",
+      "content_sha256": "3d1fc011dcbd172e85354c4638f260e44245b358136bb9abc6a989befbb3d1f0"
+    },
+    {
+      "id": "OS04",
+      "title": "文件管理",
+      "pages": 7,
+      "combined_start_page": 136,
+      "subject_start_page": 27,
+      "pdf_sha256": "3f6ad4852e98a516b1d089c90a13dcc96a090fc2110208f33b358e2860057529",
+      "content_sha256": "323f369d2f6c639bcc8d0537631bd45ce050877f1bede5494997140635d83589"
+    },
+    {
+      "id": "OS05",
+      "title": "输入输出管理",
+      "pages": 6,
+      "combined_start_page": 143,
+      "subject_start_page": 34,
+      "pdf_sha256": "fb346fae47bad2748fbc46496c0406c420df11d7fe06c9ae483345b49329a96e",
+      "content_sha256": "22a98edd28f8fad083f000c0bf1c89b9d910ebfb400b2fa7e3ce479d18b895f9"
+    },
+    {
+      "id": "CN01",
+      "title": "计算机网络体系结构",
+      "pages": 4,
+      "combined_start_page": 149,
+      "subject_start_page": 1,
+      "pdf_sha256": "3638dc64ae4e69ff20ecd3cbab93cb9e040bc47be495a56e3f0b16c4462f3150",
+      "content_sha256": "96dbec7bbd13733f776eb28f410be2f22d9681e2a471624ed17a781df97ee626"
+    },
+    {
+      "id": "CN02",
+      "title": "物理层",
+      "pages": 3,
+      "combined_start_page": 153,
+      "subject_start_page": 5,
+      "pdf_sha256": "56962d855a5155ef1435d994e2ce43718549fa19baa525798cf3719c2f778c13",
+      "content_sha256": "eaa77488b220f2c3b5cf1526a1e3d9acb1ccc33a97de0700a99c7bf29c409db8"
+    },
+    {
+      "id": "CN03",
+      "title": "数据链路层",
+      "pages": 8,
+      "combined_start_page": 156,
+      "subject_start_page": 8,
+      "pdf_sha256": "8f7e8e726c8709e0e4dda5ccf994468b26d516234c35b2ea61072d79192bd2f7",
+      "content_sha256": "f6faf3a43de5b623f7ce990cc0abfe3f2de0df3dcd286c2d5dcdc6297f1cc12f"
+    },
+    {
+      "id": "CN04",
+      "title": "网络层",
+      "pages": 10,
+      "combined_start_page": 164,
+      "subject_start_page": 16,
+      "pdf_sha256": "3e08c02044a99df3694212a6e8d561aa329161e12b6bb940c2631615c2f8a483",
+      "content_sha256": "c03a24fce429583aeeedb4ec29f39517a0579e12f4a9962c7e05e809c97a9982"
+    },
+    {
+      "id": "CN05",
+      "title": "传输层",
+      "pages": 8,
+      "combined_start_page": 174,
+      "subject_start_page": 26,
+      "pdf_sha256": "0036d0d4014870c08d2ceb8cab15e83d78f8008b118a51aef3ff352579bd8ea4",
+      "content_sha256": "4ee4dcd3d539becde020c77de64013678e32742d41fe62d5e5270051ed603d13"
+    },
+    {
+      "id": "CN06",
+      "title": "应用层",
+      "pages": 6,
+      "combined_start_page": 182,
+      "subject_start_page": 34,
+      "pdf_sha256": "f7c833696352300fde3cf044c778f11a7bd3cd06468136255a8f4badbc19e547",
+      "content_sha256": "04e1ca8f3b0ae5c55bc348a808c818d27d5ffa93ca630320dc36dc8192c7ec7e"
+    }
+  ],
+  "total_pages": 187
+}

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="390" viewBox="0 0 1000 390">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#333"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="500" y="30" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#111">五段流水线：load-use停顿一拍（有MEM→EX转发）</text>
+<text x="205" y="75" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">1</text>
+<text x="305" y="75" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">2</text>
+<text x="405" y="75" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">3</text>
+<text x="505" y="75" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">4</text>
+<text x="605" y="75" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">5</text>
+<text x="705" y="75" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">6</text>
+<text x="805" y="75" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">7</text>
+<text x="905" y="75" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">8</text>
+<text x="75" y="135" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#111">I1</text>
+<rect x="155" y="100" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="205.0" y="137.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">IF</text>
+<rect x="255" y="100" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="305.0" y="137.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">ID</text>
+<rect x="355" y="100" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="405.0" y="137.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">EX</text>
+<rect x="455" y="100" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="505.0" y="137.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">MEM</text>
+<rect x="555" y="100" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="605.0" y="137.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">WB</text>
+<rect x="655" y="100" width="100" height="60" fill="white" stroke="#333" stroke-width="2"/>
+<rect x="755" y="100" width="100" height="60" fill="white" stroke="#333" stroke-width="2"/>
+<rect x="855" y="100" width="100" height="60" fill="white" stroke="#333" stroke-width="2"/>
+<text x="75" y="215" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#111">I2</text>
+<rect x="155" y="180" width="100" height="60" fill="white" stroke="#333" stroke-width="2"/>
+<rect x="255" y="180" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="305.0" y="217.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">IF</text>
+<rect x="355" y="180" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="405.0" y="217.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">ID</text>
+<rect x="455" y="180" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="505.0" y="217.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">EX</text>
+<rect x="555" y="180" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="605.0" y="217.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">MEM</text>
+<rect x="655" y="180" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="705.0" y="217.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">WB</text>
+<rect x="755" y="180" width="100" height="60" fill="white" stroke="#333" stroke-width="2"/>
+<rect x="855" y="180" width="100" height="60" fill="white" stroke="#333" stroke-width="2"/>
+<text x="75" y="295" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#111">I3</text>
+<rect x="155" y="260" width="100" height="60" fill="white" stroke="#333" stroke-width="2"/>
+<rect x="255" y="260" width="100" height="60" fill="white" stroke="#333" stroke-width="2"/>
+<rect x="355" y="260" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="405.0" y="297.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">IF</text>
+<rect x="455" y="260" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="505.0" y="297.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">ID</text>
+<rect x="555" y="260" width="100" height="60" fill="#eeeeee" stroke="#333" stroke-width="2"/>
+<text x="605.0" y="297.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">保持ID</text>
+<rect x="655" y="260" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="705.0" y="297.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">EX</text>
+<rect x="755" y="260" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="805.0" y="297.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">MEM</text>
+<rect x="855" y="260" width="100" height="60" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="905.0" y="297.0" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">WB</text>
+<path d="M605,240 L605,250 L705,250 L705,260" fill="none" stroke="#333" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="500" y="370" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">I2在第5拍末得到r3；I3的EX推迟到第6拍使用它</text>
+</svg>

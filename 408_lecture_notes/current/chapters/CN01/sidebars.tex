@@ -1,0 +1,3 @@
+\expandafter\gdef\csname SNside3\endcsname{\node[anchor=north west,inner sep=0pt,text width=48mm,font=\SideFont,align=left] (SNsidebox) at ([xshift=138mm,yshift=-217.59pt]current page.north west) {\textbf{等长分组经过异速链路}\par\smallskip 固定路径、等长分组、链路独立且无竞争/处理开销时，令 \(s_i=L/R_i\)，则 \(T=\sum_i(s_i+t_{prop,i})+(n-1)\max_i s_i\)。首组走完全程，后续受最慢链路间隔约束。
+};\pgfextracty{\SNsideheight}{\pgfpointdiff{\pgfpointanchor{SNsidebox}{south}}{\pgfpointanchor{SNsidebox}{north}}}\typeout{SNHEIGHT:3:0:\the\SNsideheight}}
+\AddToShipoutPictureFG{\begin{tikzpicture}[remember picture,overlay]\ifcsname SNside\thepage\endcsname\csname SNside\thepage\endcsname\fi\end{tikzpicture}}

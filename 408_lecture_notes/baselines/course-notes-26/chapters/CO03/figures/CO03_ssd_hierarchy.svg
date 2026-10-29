@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="490" viewBox="0 0 900 490">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6" fill="none" stroke="#466C82" stroke-width="1.2"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<g font-family="Noto Sans CJK SC,Noto Sans SC,sans-serif" font-size="19" fill="#263945">
+<text x="450.0" y="30" text-anchor="middle" font-size="23" fill="#263945">
+<tspan x="450.0" dy="0">SSD层次：逻辑块号 → 闪存翻译层 → 芯片／块／页</tspan>
+</text>
+<rect x="290" y="50" width="320" height="55" rx="7" fill="#DFEFE6" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="450.0" y="83.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="450.0" dy="0">I/O总线：逻辑块号</tspan>
+</text>
+<rect x="270" y="145" width="360" height="65" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="450.0" y="170.84" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="450.0" dy="0">闪存翻译层 FTL</tspan>
+<tspan x="450.0" dy="26.099999999999998">逻辑地址映射到物理页</tspan>
+</text>
+<path d="M450,105 L450,145" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="20" y="285" width="200" height="165" rx="7" fill="#F6F6F6" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="120.0" y="373.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="120.0" dy="0"></tspan>
+</text>
+<text x="120" y="310" text-anchor="middle" font-size="20" fill="#263945">
+<tspan x="120" dy="0">闪存芯片0</tspan>
+</text>
+<rect x="32" y="326" width="176" height="29" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="120.0" y="344.7" text-anchor="middle" font-size="12" fill="#263945">
+<tspan x="120.0" dy="0">块0：页0｜页1｜…｜页n</tspan>
+</text>
+<rect x="32" y="362" width="176" height="29" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="120.0" y="380.7" text-anchor="middle" font-size="12" fill="#263945">
+<tspan x="120.0" dy="0">块1：页0｜页1｜…｜页n</tspan>
+</text>
+<rect x="32" y="398" width="176" height="29" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="120.0" y="416.7" text-anchor="middle" font-size="12" fill="#263945">
+<tspan x="120.0" dy="0">块2、…、块m</tspan>
+</text>
+<text x="120" y="471" text-anchor="middle" font-size="16" fill="#263945">
+<tspan x="120" dy="0">块0、块1、…、块m</tspan>
+</text>
+<rect x="240" y="285" width="200" height="165" rx="7" fill="#F6F6F6" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="340.0" y="373.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="340.0" dy="0"></tspan>
+</text>
+<text x="340" y="310" text-anchor="middle" font-size="20" fill="#263945">
+<tspan x="340" dy="0">闪存芯片1</tspan>
+</text>
+<rect x="252" y="326" width="176" height="29" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="340.0" y="344.7" text-anchor="middle" font-size="12" fill="#263945">
+<tspan x="340.0" dy="0">块0：页0｜页1｜…｜页n</tspan>
+</text>
+<rect x="252" y="362" width="176" height="29" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="340.0" y="380.7" text-anchor="middle" font-size="12" fill="#263945">
+<tspan x="340.0" dy="0">块1：页0｜页1｜…｜页n</tspan>
+</text>
+<rect x="252" y="398" width="176" height="29" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="340.0" y="416.7" text-anchor="middle" font-size="12" fill="#263945">
+<tspan x="340.0" dy="0">块2、…、块m</tspan>
+</text>
+<text x="340" y="471" text-anchor="middle" font-size="16" fill="#263945">
+<tspan x="340" dy="0">块0、块1、…、块m</tspan>
+</text>
+<rect x="460" y="285" width="200" height="165" rx="7" fill="#F6F6F6" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="560.0" y="373.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="560.0" dy="0"></tspan>
+</text>
+<text x="560" y="310" text-anchor="middle" font-size="20" fill="#263945">
+<tspan x="560" dy="0">闪存芯片2</tspan>
+</text>
+<rect x="472" y="326" width="176" height="29" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="560.0" y="344.7" text-anchor="middle" font-size="12" fill="#263945">
+<tspan x="560.0" dy="0">块0：页0｜页1｜…｜页n</tspan>
+</text>
+<rect x="472" y="362" width="176" height="29" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="560.0" y="380.7" text-anchor="middle" font-size="12" fill="#263945">
+<tspan x="560.0" dy="0">块1：页0｜页1｜…｜页n</tspan>
+</text>
+<rect x="472" y="398" width="176" height="29" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="560.0" y="416.7" text-anchor="middle" font-size="12" fill="#263945">
+<tspan x="560.0" dy="0">块2、…、块m</tspan>
+</text>
+<text x="560" y="471" text-anchor="middle" font-size="16" fill="#263945">
+<tspan x="560" dy="0">块0、块1、…、块m</tspan>
+</text>
+<rect x="680" y="285" width="200" height="165" rx="7" fill="#F6F6F6" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="780.0" y="373.8" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="780.0" dy="0"></tspan>
+</text>
+<text x="780" y="310" text-anchor="middle" font-size="20" fill="#263945">
+<tspan x="780" dy="0">闪存芯片3</tspan>
+</text>
+<rect x="692" y="326" width="176" height="29" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="780.0" y="344.7" text-anchor="middle" font-size="12" fill="#263945">
+<tspan x="780.0" dy="0">块0：页0｜页1｜…｜页n</tspan>
+</text>
+<rect x="692" y="362" width="176" height="29" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="780.0" y="380.7" text-anchor="middle" font-size="12" fill="#263945">
+<tspan x="780.0" dy="0">块1：页0｜页1｜…｜页n</tspan>
+</text>
+<rect x="692" y="398" width="176" height="29" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="780.0" y="416.7" text-anchor="middle" font-size="12" fill="#263945">
+<tspan x="780.0" dy="0">块2、…、块m</tspan>
+</text>
+<text x="780" y="471" text-anchor="middle" font-size="16" fill="#263945">
+<tspan x="780" dy="0">块0、块1、…、块m</tspan>
+</text>
+<path d="M450,210 V245 H120 V285" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M450,245 H340 V285" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M450,245 H560 V285" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M450,245 H780 V285" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="450" y="272" text-anchor="middle" font-size="17" fill="#263945">
+<tspan x="450" dy="0">按页读写，按块擦除</tspan>
+</text>
+</g></svg>

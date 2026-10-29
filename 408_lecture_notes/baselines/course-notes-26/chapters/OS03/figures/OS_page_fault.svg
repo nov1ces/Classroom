@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470">
+<defs><marker id="arr" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><path d="M0,0 L8,3.5 L0,7" fill="#333"/></marker></defs>
+<rect width="960" height="470" fill="white"/>
+<text x="480.0" y="31" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="23" font-weight="bold" fill="#111">请求分页：未驻留页面怎样成为有效映射</text>
+<rect x="40" y="80" width="250" height="62" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="165.0" y="117.3" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">访存：查TLB/页表</text>
+<rect x="355" y="80" width="250" height="62" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="480.0" y="117.3" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">合法页面不在内存</text>
+<rect x="670" y="80" width="250" height="62" rx="4" fill="#fff5dc" stroke="#333" stroke-width="2"/>
+<text x="795.0" y="117.3" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">陷入缺页处理</text>
+<rect x="670" y="260" width="250" height="82" rx="4" fill="#fff5dc" stroke="#333" stroke-width="2"/>
+<text x="795.0" y="294.3" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">取得页框</text>
+<text x="795.0" y="320.3" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">必要时淘汰并回写脏页</text>
+<rect x="355" y="260" width="250" height="82" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="480.0" y="294.3" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">从后备存储调入</text>
+<text x="480.0" y="320.3" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">更新页表与TLB</text>
+<rect x="40" y="260" width="250" height="82" rx="4" fill="#f2f3f4" stroke="#333" stroke-width="2"/>
+<text x="165.0" y="294.3" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">重新就绪并获CPU</text>
+<text x="165.0" y="320.3" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="18" font-weight="normal" fill="#111">重试原访存</text>
+<line x1="290" y1="111" x2="355" y2="111" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="605" y1="111" x2="670" y2="111" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="795" y1="142" x2="795" y2="260" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="670" y1="300" x2="605" y2="300" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<line x1="355" y1="300" x2="290" y2="300" stroke="#333" stroke-width="2" marker-end="url(#arr)"/>
+<text x="480" y="408" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">调页I/O等待期间可阻塞；有空闲页框时不必发生置换。</text>
+<text x="480" y="440" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="19" font-weight="normal" fill="#111">非法地址或权限错误走错误处理，不能一律当作可调入页面。</text>
+</svg>

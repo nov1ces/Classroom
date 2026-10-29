@@ -1,0 +1,7 @@
+[
+  {
+    "anchor": "CN06-mail",
+    "title": "Base64的整块长度",
+    "body": "$n$字节数据的Base64字符数为 $4\\lceil n/3\\rceil$，包含末块的等号补齐，不含换行、MIME首部和边界。1 B或2 B数据也均需4字符。"
+  }
+]

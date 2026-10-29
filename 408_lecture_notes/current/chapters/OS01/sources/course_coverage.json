@@ -1,0 +1,274 @@
+{
+  "chapter": "OS01",
+  "lecture_files": [
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.1.1+1.1.2 操作系统的概念、功能和目标_扫描版.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "targets": [
+        "OS01-functions"
+      ],
+      "baseline_targets": [
+        "OS01-1-1",
+        "OS01-interfaces"
+      ],
+      "baseline_review_scope": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.1.3 操作系统的特征_扫描版.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targets": [
+        "OS01-features"
+      ],
+      "baseline_targets": [
+        "OS01-auto-1"
+      ],
+      "baseline_review_scope": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.2 操作系统的发展与分类_扫描版.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targets": [
+        "OS01-systems"
+      ],
+      "baseline_targets": [
+        "OS01-1-2",
+        "OS01-batch-evolution"
+      ],
+      "baseline_review_scope": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "targets": [
+        "OS01-privilege"
+      ],
+      "baseline_targets": [
+        "OS01-1-3"
+      ],
+      "baseline_review_scope": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.2 中断和异常.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "targets": [
+        "OS01-interrupts"
+      ],
+      "baseline_targets": [
+        "OS01-1-4",
+        "OS01-exception-types"
+      ],
+      "baseline_review_scope": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.3 系统调用.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targets": [
+        "OS01-interrupts"
+      ],
+      "baseline_targets": [
+        "OS01-1-5"
+      ],
+      "baseline_review_scope": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.4 番外篇：中国古代的操作系统.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targets": [
+        "OS01-privilege",
+        "OS01-interrupts"
+      ],
+      "baseline_targets": [
+        "OS01-1-3",
+        "OS01-1-4",
+        "OS01-1-5"
+      ],
+      "baseline_review_scope": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.4 操作系统体系结构（上）.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "targets": [
+        "OS01-kernel-structures",
+        "OS01-privilege"
+      ],
+      "baseline_targets": [
+        "OS01-1-8",
+        "OS01-kernel-primitives"
+      ],
+      "baseline_review_scope": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.4 操作系统体系结构（下）.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "targets": [
+        "OS01-kernel-structures",
+        "OS01-privilege"
+      ],
+      "baseline_targets": [
+        "OS01-1-8",
+        "OS01-kernel-primitives"
+      ],
+      "baseline_review_scope": "full extracted-text review; first three scanned lectures visually reviewed all pages; 1.5/1.6 image-dominant pages require detailed follow-up",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.5 操作系统引导.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "targets": [
+        "OS01-boot"
+      ],
+      "baseline_targets": [
+        "OS01-1-9"
+      ],
+      "baseline_review_scope": "源PDF全部页面联系图逐页查看；虚拟机比较表文件页4单独放大核对。同步检查对应正文与重绘图。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.6 虚拟机.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "targets": [
+        "OS01-vmm"
+      ],
+      "baseline_targets": [
+        "OS01-1-10",
+        "OS01-vmm-models"
+      ],
+      "baseline_review_scope": "源PDF全部页面联系图逐页查看；虚拟机比较表文件页4单独放大核对。同步检查对应正文与重绘图。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    }
+  ],
+  "scope": "Knowledge-group source mapping; does not assert every animation frame or tiny figure label was independently reviewed."
+}

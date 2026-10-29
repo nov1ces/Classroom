@@ -1,0 +1,18 @@
+\documentclass{sidenotes-simplex}
+\usepackage{graphicx,longtable,calc,etoolbox,caption}
+\RenewDocumentEnvironment{wideblock}{}{\begin{adjustwidth}{0mm}{-54mm}\setlength{\hsize}{\linewidth}\setlength{\columnwidth}{\linewidth}}{\end{adjustwidth}}
+\providecommand{\tightlist}{\setlength{\itemsep}{1pt}\setlength{\parskip}{0pt}}
+\providecommand{\passthrough}[1]{#1}
+\newcommand{\pandocbounded}[1]{#1}
+\newdimen\SNsideheight
+\setcounter{secnumdepth}{1}
+\setlength{\parindent}{0pt}
+\setlength{\emergencystretch}{3em}
+\setlength{\LTpre}{2mm}\setlength{\LTpost}{2mm}
+\hypersetup{pdftitle={数据表示、位级运算与浮点数 · 强化笔记},pdfsubject={CO02}}
+\renewcommand{\sectionmark}[1]{\gdef\SNsectiontitle{\SNchaptertitle}}
+\InputIfFileExists{sidebars.tex}{}{}
+\begin{document}
+\setcounter{chapter}{1}
+\input{chapter}
+\end{document}

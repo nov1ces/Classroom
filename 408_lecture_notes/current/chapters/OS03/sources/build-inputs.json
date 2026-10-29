@@ -1,0 +1,15 @@
+{
+  "tools/build_notes.py": "cc59ed7f23d83250d5957ebe3f1ccae0c4119fe955ba2d9ce9b6da0609c70af4",
+  "chapters/OS03/map.json": "2604ef849c4eaed72df6b348e86cf04501d665cb353bb0f4b044dbd057247cb0",
+  "chapters/OS03/content.md": "3d1fc011dcbd172e85354c4638f260e44245b358136bb9abc6a989befbb3d1f0",
+  "chapters/OS03/examples.json": "5754abcaa926835175d0b0ef29a4eeb51a81d140fd148512cbcc1f9c9e6f23b2",
+  "chapters/OS03/sidebars.json": "5774fc91fece0d6d065e85b92e3891a80949a4c993a1ff804f9c6404829e5ff7",
+  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
+  "chapters/OS03/figures/OS_page_fault.png": "c91c2d4dceef883b7f98306e4b2250c62867ac937e151bb4d1519dd1d51b6a8d",
+  "chapters/OS03/figures/OS_page_translation.pdf": "b2a639e67569786fb6683c01581688a0af68527c2e793bf018f4e2c334ca27a4",
+  "chapters/OS03/figures/OS_page_fault.pdf": "d5847536e36109008d1b2c8d364835f6dc6f5eed4a0caa6dc6737bd582a71584",
+  "chapters/OS03/figures/OS_page_translation.png": "d1aae67969316c530e16a0a49294d05492459261c2f05f39369dd04dc9ce6898",
+  "chapters/OS03/figures/OS_page_fault.svg": "21f4d251aa68873b908155d6898ac085946de9af3f01d925f68ba216f95a68ec",
+  "chapters/OS03/figures/OS_page_translation.svg": "5cec9b212df27156b2e87d48dc8db35f6d2ebaccab914858e0614185713247c6"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "DS04-E01",
+    "number": "4-1",
+    "question": "主串`S=abaabaabcabaabc`，模式`T=abaabc`。分别用朴素匹配和普通next表的KMP查找首次出现位置，计算实际字符比较次数。字符位置与next均从1开始，`next[1]=0`。",
+    "answer": "位置均为4；朴素15次，普通KMP10次",
+    "solution": "朴素匹配从起点1、2、3、4依次比较6、1、2、6次，共15次。普通next为`0,1,1,2,2,3`；KMP前5对相等，第6对在`(i,j)=(6,6)`失配，令`j=3`、`i`保持6；随后`(6,3)、(7,4)、(8,5)、(9,6)`均相等，共10次字符比较，返回`10-6=4`。",
+    "source_key": null,
+    "baseline_anchor": "DS04-naive-example",
+    "method": "朴素回溯与KMP失败链接"
+  },
+  {
+    "id": "DS04-E02",
+    "number": "4-2",
+    "question": "主串`aaacaaaabdaaaab`，模式`aaaab`。比较普通next和优化nextval的匹配过程，求首次成功位置与两者字符比较次数。采用1起始位置和`next[1]=nextval[1]=0`。",
+    "answer": "位置5；普通next比较12次，nextval比较9次",
+    "solution": "普通next为`0,1,2,3,4`，nextval为`0,0,0,0,4`。前3对`a`相等；主串第4位`c`在普通表下依次与模式第4、3、2、1位失配，优化表在第一次失配后直接退到0。推进到主串第5位后，连续匹配`aaaab`。普通表比较`3+4+5=12`次，优化表比较`3+1+5=9`次，均返回5。",
+    "source_key": null,
+    "baseline_anchor": "DS04-opt-example",
+    "method": "相同字符导致连续必败回退"
+  }
+]

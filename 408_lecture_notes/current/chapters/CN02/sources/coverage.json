@@ -1,0 +1,125 @@
+[
+  {
+    "baseline_anchor": "CN02",
+    "targets": [
+      "CN02"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN02-01",
+    "targets": [
+      "CN02-signal"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN02-02",
+    "targets": [
+      "CN02-capacity"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN02-ex1",
+    "targets": [
+      "CN02-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN02-ex2",
+    "targets": [
+      "CN02-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN02-03",
+    "targets": [
+      "CN02-coding",
+      "CN02-pcm"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN02-06",
+    "targets": [
+      "CN02-media"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN02-07",
+    "targets": [
+      "CN02-interface"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN02-ex5",
+    "targets": [
+      "CN02-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN02-08",
+    "targets": [
+      "CN02-repeater"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN02-course-conversion",
+    "targets": [
+      "CN02-signal"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN02-course-codes",
+    "targets": [
+      "CN02-coding"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN02-course-capacity",
+    "targets": [
+      "CN02-capacity"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN02-course-media",
+    "targets": [
+      "CN02-media"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN02-review",
+    "targets": [
+      "CN02-signal",
+      "CN02-capacity",
+      "CN02-coding",
+      "CN02-media",
+      "CN02-interface",
+      "CN02-repeater"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN02-review-answers",
+    "targets": [
+      "CN02-signal",
+      "CN02-capacity",
+      "CN02-coding",
+      "CN02-media",
+      "CN02-interface",
+      "CN02-repeater"
+    ],
+    "disposition": "merged"
+  }
+]

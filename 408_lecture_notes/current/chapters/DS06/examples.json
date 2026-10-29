@@ -1,0 +1,62 @@
+[
+  {
+    "id": "DS06-E01",
+    "number": "6-1",
+    "question": "无向图有7个顶点，要保证图在任何情况下都连通，需要的边数最少是（　）。\n\nA. 6　B. 15　C. 16　D. 21",
+    "answer": "C",
+    "solution": "不连通时边数最多的分法为6个顶点构成完全图、另1点孤立，共$\\binom62=15$条边。因此16条边可保证连通，选C。6条边只是可能组成生成树。",
+    "source_key": null,
+    "baseline_anchor": "DS06-ex1",
+    "method": "不连通图边数上界"
+  },
+  {
+    "id": "DS06-E02",
+    "number": "6-2",
+    "question": "无向图顶点为 `{a,b,c,d,e,f}`，边为 `{ab,ae,ac,be,cf,fd,ed}`。进行深度优先遍历，不能得到的序列为（　）。\n\nA. acfdeb　B. aebdfc　C. aedfcb　D. abecdf",
+    "answer": "D",
+    "solution": "D在访问a、b、e后，e还有未访问邻点d，不能回退到a再访问c，故不可能。A沿a-c-f-d-e-b；B沿a-e-b后回e再走d-f-c；C沿a-e-d-f-c后回退再访b，均可实现。选D。",
+    "source_key": "DS:6.3:11",
+    "baseline_anchor": "DS06-ex2",
+    "method": "DFS回退约束"
+  },
+  {
+    "id": "DS06-E03",
+    "number": "6-3",
+    "question": "求下图最小生成树，可能为 Kruskal 第2次选中、但不可能为从 $V_4$ 开始的 Prim 第2次选中的边是（　）。\n\n![四顶点带权无向图；三条权为8的边形成选择分支](DS_11_mst_2015.png){#ds-fig-mst width=78%}\n\nA. $(V_1,V_3)$　B. $(V_1,V_4)$　C. $(V_2,V_3)$　D. $(V_3,V_4)$",
+    "answer": "C",
+    "solution": "两者首先选权5的$(V_1,V_4)$。Kruskal第2条可取不成环的任一权8边，包括$(V_2,V_3)$。Prim此时集合为$\\{V_1,V_4\\}$，只能选跨割边$(V_1,V_3)$或$(V_4,V_3)$，选C。",
+    "source_key": null,
+    "baseline_anchor": "DS06-ex3",
+    "method": "跨割候选与分量候选"
+  },
+  {
+    "id": "DS06-E04",
+    "number": "6-4",
+    "question": "使用 Dijkstra 求下图从顶点1到其余顶点的最短路径，`dist` 依次保存到2、3、4、5的距离。求出第二条最短路径后，`dist` 内容为（　）。\n\n![原题有向边与权值；箭头方向参与松弛条件](DS_12_dijkstra_2021.png){#ds-fig-dijkstra width=88%}\n\nA. 26、3、14、6　B. 25、3、14、6　C. 21、3、14、6　D. 15、3、14、6",
+    "answer": "C",
+    "solution": "起点确定后初始向量为$(26,3,\\infty,6)$。先确定3，经3到2得到$3+22=25$；再确定5，经5到2得到$6+15=21$，经5到4得到$6+8=14$，故为$(21,3,14,6)$，选C。经4把到2改成15属于下一轮。",
+    "source_key": null,
+    "baseline_anchor": "DS06-ex4",
+    "method": "Dijkstra阶段松弛"
+  },
+  {
+    "id": "DS06-E05",
+    "number": "6-5",
+    "question": "载人航天工程包含众多子工程，为保证有序开展，需要明确前导子工程。这可抽象为有向图的拓扑序列问题。已知图G采用邻接矩阵存储：\n\n```c\ntypedef struct {\n    int numVertices,numEdges;\n    char VerticesList[MAXV];\n    int Edge[MAXV][MAXV];\n} MGraph;\n```\n\n设计 `int uniquely(MGraph G)` 判定G是否存在唯一拓扑序列，是则返回1，否则返回0。给出设计思想及带关键注释的C或C++实现。",
+    "answer": "每轮零入度候选恰有一个，且处理完全体顶点",
+    "solution": "每一轮的候选零入度顶点必须恰有一个。若图无环且某轮至少有两个，二者都可作为下一项，交换其先后可产生至少两个拓扑序列；若某轮没有候选而尚未处理完，则余图有环，无法完成。这两种情况都不满足唯一，均可返回0。只有始终唯一且处理完全体顶点，才能返回1。\n\n```c\nint uniquely(MGraph G) {\n    int n=G.numVertices, indeg[MAXV]={0};\n    bool used[MAXV]={false};\n    for (int u=0; u<n; ++u)\n        for (int v=0; v<n; ++v)\n            if (G.Edge[u][v]) ++indeg[v];\n    for (int step=0; step<n; ++step) {\n        int pick=-1;\n        for (int v=0; v<n; ++v)\n            if (!used[v] && indeg[v]==0) {\n                if (pick!=-1) return 0; // 至少两个候选\n                pick=v;\n            }\n        if (pick==-1) return 0;         // 剩余部分有环\n        used[pick]=true;\n        for (int v=0; v<n; ++v)\n            if (G.Edge[pick][v]) --indeg[v];\n    }\n    return 1;\n}\n```\n\n这里AOV邻接矩阵用0/1分别表示无边与有弧，不能直接把带权矩阵的“无边为无穷”搬进这个判断。总时间 $O(n^2)$，工作数组额外占 $O(n)$；题给的按值传参若实际复制整个矩阵，形参副本还占 $O(n^2)$，可按接口许可改为只读引用。若使用邻接表并维护零入度候选数，处理时间可为 $O(n+|E|)$。顶点已经按某个拓扑次序编号时，所有弧才保证由小编号指向大编号，邻接矩阵才呈严格上三角；任意编号的DAG不必原样为三角矩阵。\n\nDAG还可表达共享子表达式：相同子式只存一份，不同上层结点可指向同一子式。它表达计算依赖而非普通树的唯一双亲关系；不能再套用“除根外每结点恰有一个双亲”。",
+    "source_key": null,
+    "baseline_anchor": "DS06-ex5",
+    "method": "拓扑序唯一性"
+  },
+  {
+    "id": "DS06-E06",
+    "number": "6-6",
+    "question": "下图AOE网包含8个活动。通过同时加快若干活动，可缩短整个工程工期。下列选项中，加快所列活动进度就可缩短工期的是（　）。\n\n![箭头旁给出活动名和持续时间；d 的方向为 3→2](DS_13_aoe_2013.png){#ds-fig-aoe width=92%}\n\nA. c和e　B. d和c　C. f和d　D. f和h",
+    "answer": "C",
+    "solution": "按拓扑序1、3、2、4、5、6求得事件最早、最迟时间均依次为0、8、12、21、18、27。工期27，关键路径为`b-d-c-g`、`b-d-e-h`、`b-f-h`。同时缩短d、f可覆盖三条关键路径；A、B遗漏`b-f-h`，D遗漏`b-d-c-g`，选C。持续缩短后应重算新关键路径。",
+    "source_key": null,
+    "baseline_anchor": "DS06-ex6",
+    "method": "多关键路径覆盖"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "tools/build_notes.py": "cc59ed7f23d83250d5957ebe3f1ccae0c4119fe955ba2d9ce9b6da0609c70af4",
+  "chapters/CO04/map.json": "7f5569af26f012f88678eee1e80da7672d2118131c166c574b77723b574b2b6c",
+  "chapters/CO04/content.md": "57eb1d5f9e753910861478f08fc2d216844a9e8871fded1edf7f06ebe58eefe6",
+  "chapters/CO04/examples.json": "143cfc2547c1f0ff1d2513c624f2a64269a421cddd1ede37bfc8e46c64b86fe6",
+  "chapters/CO04/sidebars.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
+  "chapters/CO04/figures/CO_F06_stack_frame.pdf": "1160f97c639de2e9fa01d6002854c0eeb01c35dbc5d3e81e4f8b3ab21755eb45",
+  "chapters/CO04/figures/CO_F06_stack_frame.png": "45122ab9c8c1ae1441de928783b9e04380c6138ba9d51fb622020782bacd57a7",
+  "chapters/CO04/figures/CO_F06_stack_frame.svg": "d885a9d49bd1e4a6eb216be152ae105d54c4c3f7ff763263c70da2bff096b31f",
+  "chapters/CO04/figures/CO04_stack_layout.png": "70ada834cf737305fae66b204b79c3b81a06e48355fa6796ae85f83862ad2c1c",
+  "chapters/CO04/figures/CO04_stack_layout.pdf": "67d241f42354c7c635477b58bcb372274f7b61f0bc15339f4cc79e350b64530d",
+  "chapters/CO04/figures/CO04_stack_layout.svg": "6443cdc932e7b7d60dfa5238f28a66b06a0499b1a5f960404ed673f23cf11a6d"
+}

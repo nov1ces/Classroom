@@ -1,0 +1,161 @@
+[
+  {
+    "baseline_anchor": "CO06",
+    "targets": [
+      "CO06-structure"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO06-map",
+    "targets": [
+      "CO06-structure"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO06-metrics",
+    "targets": [
+      "CO06-bandwidth"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO06-example-1",
+    "targets": [
+      "CO06-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO06-example-2",
+    "targets": [
+      "CO06-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO06-transaction",
+    "targets": [
+      "CO06-transactions"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO06-sync",
+    "targets": [
+      "CO06-timing",
+      "CO06-transactions"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO06-example-3",
+    "targets": [
+      "CO06-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO06-example-4",
+    "targets": [
+      "CO06-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO06-async",
+    "targets": [
+      "CO06-timing"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO06-timeline",
+    "targets": [
+      "CO06-timing"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO06-old-self",
+    "targets": [
+      "CO06-transactions"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO06-arbitration",
+    "targets": [
+      "CO06-arbitrate"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO06-types-complete",
+    "targets": [
+      "CO06-structure"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO06-organization-complete",
+    "targets": [
+      "CO06-structure"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO06-timing-complete",
+    "targets": [
+      "CO06-timing",
+      "CO06-arbitrate"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO06-arbitration-complete",
+    "targets": [
+      "CO06-arbitrate"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO06-standards-complete",
+    "targets": [
+      "CO06-standards"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO06-extra-check",
+    "targets": [
+      "CO06-structure",
+      "CO06-timing",
+      "CO06-arbitrate"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO06-recall",
+    "targets": [
+      "CO06-structure",
+      "CO06-bandwidth",
+      "CO06-transactions",
+      "CO06-timing",
+      "CO06-arbitrate"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO06-recall-answers",
+    "targets": [
+      "CO06-structure",
+      "CO06-bandwidth",
+      "CO06-transactions",
+      "CO06-timing",
+      "CO06-arbitrate"
+    ],
+    "disposition": "merged"
+  }
+]

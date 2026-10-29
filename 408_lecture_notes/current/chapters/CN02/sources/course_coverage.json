@@ -1,0 +1,158 @@
+{
+  "chapter": "CN02",
+  "lecture_files": [
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.1 通信基础的基本概念.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "targets": [
+        "CN02-signal"
+      ],
+      "baseline_targets": [
+        "CN02-01",
+        "CN02-course-conversion"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.2 信道的极限容量.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "targets": [
+        "CN02-capacity",
+        "CN02-E01",
+        "CN02-E02"
+      ],
+      "baseline_targets": [
+        "CN02-02",
+        "CN02-ex1",
+        "CN02-ex2",
+        "CN02-course-capacity"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.1.3 编码和调制.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "targets": [
+        "CN02-coding",
+        "CN02-pcm"
+      ],
+      "baseline_targets": [
+        "CN02-03",
+        "CN02-course-codes"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.2 传输介质.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "targets": [
+        "CN02-media"
+      ],
+      "baseline_targets": [
+        "CN02-06",
+        "CN02-course-media"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第二章 物理层/2.3 物理层设备.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "targets": [
+        "CN02-repeater",
+        "CN02-media"
+      ],
+      "baseline_targets": [
+        "CN02-08",
+        "CN02-course-media"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    }
+  ],
+  "scope": "Knowledge-group source mapping; does not assert every animation frame or tiny figure label was independently reviewed."
+}

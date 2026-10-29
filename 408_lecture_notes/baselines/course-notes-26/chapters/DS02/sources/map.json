@@ -1,0 +1,102 @@
+{
+  "id": "DS02",
+  "title": "线性表",
+  "branches": [
+    {
+      "label": "定义与基本操作",
+      "children": [
+        "有限有序同型",
+        "表长与空表",
+        "位序和数组下标",
+        "初始化清空与销毁"
+      ]
+    },
+    {
+      "label": "顺序表示",
+      "children": [
+        "静态容量与动态扩容",
+        "随机存取与按值查找",
+        "插入后移与删除前移",
+        "平均移动次数",
+        "引用参数与输出参数"
+      ]
+    },
+    {
+      "label": "单链表示",
+      "children": [
+        "头指针头结点首元结点",
+        "按位序与按值查找",
+        "后插与删除后继",
+        "头插法与尾插法",
+        "局部操作和定位代价"
+      ]
+    },
+    {
+      "label": "链表变体",
+      "children": [
+        "双链表四条链接",
+        "循环单链表空表与遍历",
+        "循环双链表",
+        "静态链表与游标"
+      ]
+    },
+    {
+      "label": "综合方法与选择",
+      "children": [
+        "原地逆置",
+        "倒数k固定间隔",
+        "有序归并",
+        "三次逆置左移",
+        "公共后缀按地址",
+        "主元素抵消和验证",
+        "连续删除与有序去重"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.1_线性表的定义和基本操作.pdf",
+      "pages": [
+        11
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_1_顺序表的插入删除.pdf",
+      "pages": [
+        10
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.1_单链表的定义.pdf",
+      "pages": [
+        13
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.4_循环链表.pdf",
+      "pages": [
+        11
+      ],
+      "role": "slide_map",
+      "visual_checked": false
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.3.2_3_单链表的建立.pdf",
+      "pages": [
+        9
+      ],
+      "role": "slide_map",
+      "visual_checked": false
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "综合算法的三次逆置、公共后缀、主元素等不是所目验课件中独立导图，以本章实际蓝色分支导图风格补绘方法主枝，保留旧讲义完整题干解析。"
+  ]
+}

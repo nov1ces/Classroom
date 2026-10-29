@@ -1,0 +1,205 @@
+[
+  {
+    "baseline_anchor": "DS03",
+    "targets": [
+      "DS03-stack"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-01",
+    "targets": [
+      "DS03-stack"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-ex1",
+    "targets": [
+      "DS03-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS03-02",
+    "targets": [
+      "DS03-queue"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-03",
+    "targets": [
+      "DS03-stack-code"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-detail1",
+    "targets": [
+      "DS03-queue"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-ex2",
+    "targets": [
+      "DS03-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS03-04",
+    "targets": [
+      "DS03-linked-queue"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-05",
+    "targets": [
+      "DS03-array"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-06",
+    "targets": [
+      "DS03-matrix"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-ex3",
+    "targets": [
+      "DS03-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS03-ex4",
+    "targets": [
+      "DS03-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS03-07",
+    "targets": [
+      "DS03-applications"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-detail2",
+    "targets": [
+      "DS03-applications"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-ex5",
+    "targets": [
+      "DS03-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS03-detail3",
+    "targets": [
+      "DS03-recursion"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-recursion-model",
+    "targets": [
+      "DS03-recursion"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-code",
+    "targets": [
+      "DS03-stack-code"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-matrix-method",
+    "targets": [
+      "DS03-matrix"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-app-method",
+    "targets": [
+      "DS03-applications"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-linked-code",
+    "targets": [
+      "DS03-linked-stack"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-linkqueue-code",
+    "targets": [
+      "DS03-linked-queue"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-share-code",
+    "targets": [
+      "DS03-stack-code"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-bracket-code",
+    "targets": [
+      "DS03-applications"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-expression-trace",
+    "targets": [
+      "DS03-applications"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-infix-eval",
+    "targets": [
+      "DS03-applications"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-matrix-table",
+    "targets": [
+      "DS03-matrix"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-check",
+    "targets": [
+      "DS03-matrix"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS03-recall-extra",
+    "targets": [
+      "DS03-matrix"
+    ],
+    "disposition": "merged"
+  }
+]

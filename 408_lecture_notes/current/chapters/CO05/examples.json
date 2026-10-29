@@ -1,0 +1,112 @@
+[
+  {
+    "id": "CO05-E01",
+    "number": "5-1",
+    "question": "数据通路由组合逻辑元件（操作元件）和时序逻辑元件（状态元件）组成。以下给出的元件中，属于操作元件的是（　）。\n\nI. 算术逻辑部件（ALU）　II. 程序计数器（PC）  \nIII. 通用寄存器组（GPRs）　IV. 多路选择器（MUX）\n\nA. 仅 I、II　 B. 仅 I、IV　 C. 仅 II、III　 D. 仅 I、II、IV",
+    "answer": "B。",
+    "solution": "ALU和MUX按当前输入产生输出，为组合逻辑操作元件；PC、GPRs保存状态，选B。",
+    "source_key": null,
+    "baseline_anchor": "CO05-example-1",
+    "method": "组合逻辑与状态元件分类"
+  },
+  {
+    "id": "CO05-E02",
+    "number": "5-2",
+    "question": "某CPU中部分数据通路如下图所示，其中，GPRs为通用寄存器组；FR为标志寄存器，用于存放ALU产生的标志信息；带箭头虚线表示控制信号，如控制信号Read、Write分别表示主存读、主存写，MDRin表示内部总线上数据写入MDR，MDRout表示MDR的内容送内部总线。\n\n![单条内部总线连接Y、ALU与Z；rs、rd为4位寄存器编号](CO_F07_datapath.png){#co-fig-datapath width=98%}\n\n（1）设ALU的输入端A、B及输出端F的最高位分别为A15、B15及F15，FR中的符号标志和溢出标志分别为SF和OF，则SF的逻辑表达式是什么？A加B、A减B时OF的逻辑表达式分别是什么？要求逻辑表达式的输入变量为A15、B15及F15。\n\n（2）为什么要设置暂存器Y和Z？\n\n（3）若GPRs的输入端rs、rd分别为所读、写的通用寄存器的编号，则GPRs中最多有多少个通用寄存器？rs和rd来自图中的哪个寄存器？已知GPRs内部有一个地址译码器和一个多路选择器，rd应连接地址译码器还是多路选择器？\n\n（4）取指令阶段（不考虑PC增量操作）的控制信号序列是什么？若从发出主存读命令到主存读出数据并传送到MDR共需5个时钟周期，则取指令阶段至少需要几个时钟周期？\n\n（5）图中控制信号由什么部件产生？图中哪些寄存器的输出信号会连到该部件的输入端？",
+    "answer": "（1）SF=F15，OF见解析；（2）Y保存首操作数，Z暂存结果；（3）16个，来自IR，rd接写地址译码器；（4）PCout/MARin→Read→MDRout/IRin，至少7拍；（5）CU产生，IR和FR提供输入。",
+    "solution": "（1）令$a=A_{15},b=B_{15},f=F_{15}$，乘为逻辑与、加为逻辑或：\n\\[\n\\mathrm{SF}=f,\\quad\n\\mathrm{OF}_{add}=ab\\overline f+\\overline a\\,\\overline b f,\\quad\n\\mathrm{OF}_{sub}=a\\overline b\\,\\overline f+\\overline a b f.\n\\]\n加法同号输入异号结果时溢出；减法异号输入、结果符号异于A时溢出。\n\n（2）总线同拍仅提供一个值，Y暂存首操作数，随后总线提供第二个。结果先存Z，避免结果与第二输入同时驱动总线，再由Z输出。\n\n（3）rs、rd为4位，可选$2^4=16$个寄存器，来自IR字段。rd接写地址译码器，rs控制读多路选择器。\n\n（4）PCout、MARin（1拍）→Read，主存读并送MDR（5拍）→MDRout、IRin（1拍），至少7拍。主存读入MDR已计在5拍内；MDRin为内部总线写MDR，本次主存路径无需该信号。\n\n（5）信号由CU产生，IR的指令信息和FR的状态标志输出连到CU输入。",
+    "source_key": null,
+    "baseline_anchor": "CO05-example-2",
+    "method": "单总线资源与数据可用时刻"
+  },
+  {
+    "id": "CO05-E03",
+    "number": "5-3",
+    "question": "某指令功能为 $\\mathrm R[r2]\\leftarrow\\mathrm R[r1]+\\mathrm M[\\mathrm R[r0]]$，其两个源操作数分别采用寄存器、寄存器间接寻址方式。对于下列给定部件，该指令在取数及执行过程中需要用到的是（　）。\n\nI. 通用寄存器组（GPRs）　II. 算术逻辑单元（ALU）  \nIII. 存储器（Memory）　IV. 指令译码器（ID）\n\nA. 仅 I、II　 B. 仅 I、II、III　 C. 仅 II、III、IV　 D. 仅 I、III、IV",
+    "answer": "B。",
+    "solution": "寄存器组提供r1值与r0地址，存储器按r0取第二源，ALU加法后写r2，需I、II、III，选B。题目限定取数与执行，译码器属于此前译码阶段。",
+    "source_key": null,
+    "baseline_anchor": "CO05-example-3",
+    "method": "寄存器传送语义逐项追踪"
+  },
+  {
+    "id": "CO05-E04",
+    "number": "5-4",
+    "question": "某计算机的控制器采用微程序控制方式，微指令中的操作控制字段采用字段直接编码法，共有33个微命令，构成5个互斥类，分别包含7、3、12、5和6个微命令，则操作控制字段至少有（　）。\n\nA. 5位　 B. 6位　 C. 15位　 D. 33位",
+    "answer": "C，15位。",
+    "solution": "各互斥组另加空操作编码，位数为$\\lceil\\log_2 8\\rceil+\\lceil\\log_2 4\\rceil+\\lceil\\log_2 13\\rceil+\\lceil\\log_2 6\\rceil+\\lceil\\log_2 7\\rceil=3+2+4+3+3=15$，选C。",
+    "source_key": null,
+    "baseline_anchor": "CO05-example-4",
+    "method": "互斥组编码计数"
+  },
+  {
+    "id": "CO05-E05",
+    "number": "5-5",
+    "question": "某计算机采用微程序控制器，共有32条指令，公共的取指令微程序包含2条微指令，各指令对应的微程序平均由4条微指令组成，采用断定法（下地址字段法）确定下条微指令地址，则微指令中下地址字段的位数至少是（　）。\n\nA. 5　 B. 6　 C. 8　 D. 9",
+    "answer": "C，8位。",
+    "solution": "共享取指段只存一份，总数$32\\times4+2=130$条微指令。下地址需区分130个位置，至少$\\lceil\\log_2 130\\rceil=8$位，选C。",
+    "source_key": null,
+    "baseline_anchor": "CO05-example-5",
+    "method": "控存位置总数估算"
+  },
+  {
+    "id": "CO05-E06",
+    "number": "5-6",
+    "question": "异常事件在当前指令执行过程中进行检测，中断请求则在当前指令执行后进行检测。下列事件中，相应处理程序执行后，必须回到当前指令重新执行的是（　）。\n\nA. 系统调用　 B. 页缺失　 C. DMA传送结束　 D. 打印机缺纸",
+    "answer": "B。",
+    "solution": "缺页导致当前指令访存未完成；调入页面后需重试该指令，选B。系统调用通常继续后继位置；设备事件按外部中断处理。",
+    "source_key": null,
+    "baseline_anchor": "CO05-example-6",
+    "method": "按可恢复事件确定断点"
+  },
+  {
+    "id": "CO05-E07",
+    "number": "5-7",
+    "question": "某计算机的指令流水线由四个功能段组成，指令流经各功能段的时间（忽略各功能段之间的缓存时间）分别为90 ns、80 ns、70 ns和60 ns，则该计算机的 CPU 时钟周期至少是（　）。\n\nA. 90 ns　 B. 80 ns　 C. 70 ns　 D. 60 ns",
+    "answer": "A，90 ns。",
+    "solution": "共同节拍至少覆盖最慢功能段，$\\tau\\ge\\max(90,80,70,60)=90$ ns，选A；题目已忽略段寄存器开销。",
+    "source_key": null,
+    "baseline_anchor": "CO05-example-7",
+    "method": "最慢流水段下界"
+  },
+  {
+    "id": "CO05-E08",
+    "number": "5-8",
+    "question": "下列指令序列中，指令I1和I3、I2和I3之间发生数据相关。假定采用“取指、译码/取数、执行、访存、写回”五段流水线方式，那么在采用转发技术时，需要在指令I3之前加入（　）条空操作指令才能使这段程序不发生数据冒险。\n\n```text\nI1: add  r1, r0, 1    // R[r1] <- R[r0] + 1\nI2: load r3, 12(r2)   // R[r3] <- M[R[r2] + 12]\nI3: add  r5, r3, r1   // R[r5] <- R[r3] + R[r1]\n```\n\nA. 3　 B. 2　 C. 0　 D. 1",
+    "answer": "D，1条。",
+    "solution": "无停顿时I2在第5拍MEM末才有r3，I3原本第5拍EX就需使用，需把I3的EX推迟到第6拍。I1的r1已有可用结果，转发可满足。因此插1条NOP，选D。",
+    "source_key": null,
+    "baseline_anchor": "CO05-example-8",
+    "method": "结果产生与使用时刻比较"
+  },
+  {
+    "id": "CO05-E09",
+    "number": "5-9",
+    "question": "在采用“取指、译码/取数、执行、访存、写回”5段流水线的 RISC 处理器中，执行如下指令序列，其中s0、s1、s2、s3和t2表示寄存器编号。\n\n```text\nI1: add  s2, s1, s0  // R[s2] <- R[s1] + R[s0]\nI2: load s3, 0(s2)   // R[s3] <- M[R[s2] + 0]\nI3: beq  t2, s3, L1  // if R[t2] = R[s3] jump to L1\nI4: addi t2, t2, 20  // R[t2] <- R[t2] + 20\nI5: L1: ...\n```\n\n若采用转发（旁路）技术处理数据冒险，采用硬件阻塞方式处理控制冒险，则在指令I1～I4的执行过程中，发生流水线阻塞的指令有（　）。\n\nA. 仅 I3　 B. 仅 I2、I4　 C. 仅 I3、I4　 D. I2、I3、I4",
+    "answer": "C，I3、I4。",
+    "solution": "I1的EX结果可转发到I2的EX计算地址，I2无需等待。I3紧随load使用s3，发生load-use停顿；I3分支未定时硬件阻塞后继I4。因此I3、I4阻塞，选C。",
+    "source_key": null,
+    "baseline_anchor": "CO05-example-9",
+    "method": "数据依赖与控制等待分开追踪"
+  },
+  {
+    "id": "CO05-E10",
+    "number": "5-10",
+    "question": "下列关于并行处理技术的叙述中，不正确的是（　）。\n\nA. 多核处理器属于 MIMD 结构  \nB. 向量处理器属于 SIMD 结构  \nC. 硬件多线程技术只可用于多核处理器  \nD. SMP中所有处理器共享单一物理地址空间",
+    "answer": "C。",
+    "solution": "单核也能保存多套硬件线程状态并共享执行部件，故C错误。多核属于MIMD，向量处理器属SIMD；SMP共享单一物理地址空间。",
+    "source_key": null,
+    "baseline_anchor": "CO05-example-10",
+    "method": "并行分类维度判断"
+  },
+  {
+    "id": "CO05-E11",
+    "number": "5-11",
+    "question": "某16位计算机中，带符号整数用补码表示，数据Cache和指令Cache分离。下面给出了指令系统中部分指令的汇编格式及对应功能，其中Rs和Rd表示寄存器，mem表示存储单元地址，(x)表示寄存器x或存储单元x的内容。\n\n```text\nADD   Rs, Rd\nSHL   Rd\nSHR   Rd\nLOAD  Rd, mem\nSTORE Rs, mem\n```\n\n上面每行给出一种汇编格式；下表逐项给出各助记符对应的名称和功能，不改变源、目的操作数的次序。\n\n| 名称 | 助记符 | 指令功能 |\n|---|---|---|\n| 加法 | `ADD` | $(\\mathrm{Rs})+(\\mathrm{Rd})\\to\\mathrm{Rd}$ |\n| 算术/逻辑左移 | `SHL` | $2(\\mathrm{Rd})\\to\\mathrm{Rd}$ |\n| 算术右移 | `SHR` | $(\\mathrm{Rd})/2\\to\\mathrm{Rd}$ |\n| 取数 | `LOAD` | $(\\mathrm{mem})\\to\\mathrm{Rd}$ |\n| 存数 | `STORE` | $(\\mathrm{Rs})\\to\\mathrm{mem}$ |\n\n该计算机采用5段流水方式执行指令，各流水段分别是取指IF、译码/读寄存器ID、执行/计算有效地址EX、访问存储器M和结果写回寄存器WB。流水线采用“按序发射、按序完成”方式，没有采用转发技术处理数据相关，并且同一个寄存器的读和写操作不能在同一个时钟周期内进行。请回答下列问题。\n\n（1）若int型变量x的值为−513，存放在寄存器R1中，则执行指令 `SHR R1` 后，R1的内容是多少（用十六进制表示）？\n\n（2）若某个时间段中有连续4条指令进入流水线，在其执行过程中没有发生任何阻塞，则执行这4条指令需要多少个时钟周期？\n\n（3）若赋值语句为 `x=a+b`，x、a、b均为int型变量，其存储单元地址分别为[x]、[a]、[b]。对应指令序列及流水过程如下，I3的ID段和I4的IF段被阻塞的原因各是什么？\n\n```text\nI1  LOAD  R1, [a]\nI2  LOAD  R2, [b]\nI3  ADD   R1, R2\nI4  STORE R2, [x]\n```\n\n| 指令 | 成功推进的阶段与周期 | 因依赖或前级冻结而等待 |\n|---|---|---|\n| I1 | IF1，ID2，EX3，M4，WB5 | 无 |\n| I2 | IF2，ID3，EX4，M5，WB6 | 无 |\n| I3 | IF3，ID7，EX8，M9，WB10 | 第4～6拍在ID端等待 |\n| I4 | IF7，ID11，EX12，M13，WB14 | 第4～6拍未获准取指；第8～10拍在ID端等待 |\n\n上表将原图时空格紧凑写成“阶段名+周期数”，另列等待状态：I3第4～6拍在ID端等待，I4第4～6拍尚未获准取指，第8～10拍又在ID端等待；这些等待状态保留了原图中的阻塞信息；其他未列时刻表示该指令尚未进入或已经离开流水线。\n\n（4）若赋值语句为 `x=x*2+a`，x和a均为unsigned int型变量，其存储单元地址分别为[x]、[a]，执行这条语句至少需要多少个时钟周期？要求模仿上图，画出对应指令序列及流水线执行过程示意图。",
+    "answer": "（1）FEFFH；（2）8拍；（3）I3等待RAW写回，I4受前级冻结阻塞；（4）至少17拍。",
+    "solution": "统一约束：无转发，同寄存器不能同拍读写，消费者ID最早为生产者WB的下一拍；按题设计所有指令流出五段。\n\n（1）−513的16位补码FDFFH，算术右移复制符号位，得到FEFFH（−257）。负奇数算术右移按位结果对应向负无穷取整。\n\n（2）$5+4-1=8$拍。\n\n（3）I3读R1、R2，分别依赖I1的WB5、I2的WB6，故ID须到第7拍，第4～6拍等待。IF/ID保持使I4也不能取指。I3的WB10后I4最早ID11，因此流出为第14拍。I4的IF阻塞由前级冻结传播产生。\n\n（4）先装x以提前关键链：\n\n```text\nI1 LOAD  R1, [x]\nI2 LOAD  R2, [a]\nI3 SHL   R1\nI4 ADD   R1, R2\nI5 STORE R2, [x]\n```\n\n| 指令 | IF | ID成功 | EX | M | WB/流出 |\n|---|---|---|---|---|---|\n| I1 | 1 | 2 | 3 | 4 | 5 |\n| I2 | 2 | 3 | 4 | 5 | 6 |\n| I3 | 3 | 6 | 7 | 8 | 9 |\n| I4 | 6 | 10 | 11 | 12 | 13 |\n| I5 | 10 | 14 | 15 | 16 | 17 |\n\nI3在ID端等第4～5拍，I4等第7～9拍，I5等第11～13拍，相应后继取指冻结。x的LOAD→翻倍→相加→STORE链使这三次消费者ID分别至少第6、10、14拍，所列调度达到下界，共17拍。STORE在M16已写主存，按五段流出计为17拍。",
+    "source_key": null,
+    "baseline_anchor": "CO05-example-11",
+    "method": "无转发依赖链下界与达到下界排程"
+  }
+]

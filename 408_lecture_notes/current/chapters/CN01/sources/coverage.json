@@ -1,0 +1,159 @@
+[
+  {
+    "baseline_anchor": "CN01",
+    "targets": [
+      "CN01"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN01-01",
+    "targets": [
+      "CN01-network"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN01-02",
+    "targets": [
+      "CN01-network"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN01-03",
+    "targets": [
+      "CN01-delay"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN01-sub01",
+    "targets": [
+      "CN01-delay"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN01-04",
+    "targets": [
+      "CN01-layers"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN01-05",
+    "targets": [
+      "CN01-layers"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN01-06",
+    "targets": [
+      "CN01-models"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN01-ex1",
+    "targets": [
+      "CN01-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN01-ex2",
+    "targets": [
+      "CN01-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN01-07",
+    "targets": [
+      "CN01-switching"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN01-ex3",
+    "targets": [
+      "CN01-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN01-08",
+    "targets": [
+      "CN01-datagram-vc"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN01-ex4",
+    "targets": [
+      "CN01-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN01-course-internet",
+    "targets": [
+      "CN01-network"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN01-course-metrics",
+    "targets": [
+      "CN01-delay"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN01-course-timeline",
+    "targets": [
+      "CN01-switching"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN01-course-metric-examples",
+    "targets": [
+      "CN01-delay"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN01-course-primitives",
+    "targets": [
+      "CN01-layers"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN01-review",
+    "targets": [
+      "CN01-network",
+      "CN01-delay",
+      "CN01-layers",
+      "CN01-models",
+      "CN01-switching",
+      "CN01-datagram-vc"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN01-review-answers",
+    "targets": [
+      "CN01-network",
+      "CN01-delay",
+      "CN01-layers",
+      "CN01-models",
+      "CN01-switching",
+      "CN01-datagram-vc"
+    ],
+    "disposition": "merged"
+  }
+]

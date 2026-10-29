@@ -1,0 +1,112 @@
+[
+  {
+    "id": "CO02-E01",
+    "number": "2-1",
+    "question": "若十进制数为137.5，则其八进制数为（　）。\n\nA. 89.8　 B. 211.4　 C. 211.5　 D. 1011111.101",
+    "answer": "B，211.4。",
+    "solution": "$137=2\\times8^2+1\\times8+1$，$0.5\\times8=4$，故为 $(211.4)_8$。",
+    "source_key": null,
+    "baseline_anchor": "CO02-03",
+    "method": "整数除基与小数乘基"
+  },
+  {
+    "id": "CO02-E02",
+    "number": "2-2",
+    "question": "假定编译器规定 int 型和 short 型长度分别为32位和16位，执行下列 C 语言语句：\n\n```c\nunsigned short x = 65530;\nunsigned int y = x;\n```\n\n得到 y 的机器数为（　）。\n\nA. 0000 7FFAH　 B. 0000 FFFAH　 C. FFFF 7FFAH　 D. FFFF FFFAH",
+    "answer": "B，0000 FFFAH。",
+    "solution": "$65530=65536-6=\\mathtt{FFFAH}$，无符号源数扩展时高16位补0。",
+    "source_key": null,
+    "baseline_anchor": "CO02-06",
+    "method": "无符号零扩展"
+  },
+  {
+    "id": "CO02-E03",
+    "number": "2-3",
+    "question": "在32位计算机上执行下列 C 语言代码段后，ui 的值是（　）。\n\n```c\nshort si = -32767;\nunsigned int ui = si;\n```\n\nA. $2^{15}-1$　 B. $2^{15}+1$　 C. $2^{32}-2^{15}-1$　 D. $2^{32}-2^{15}+1$",
+    "answer": "D。",
+    "solution": "题设按16位short、32位unsigned int计算。$-32767$ 的16位补码为8001H；转无符号32位得到 $2^{32}-32767=2^{32}-2^{15}+1$，机器数FFFF 8001H。",
+    "source_key": null,
+    "baseline_anchor": "CO02-07",
+    "method": "按模转换"
+  },
+  {
+    "id": "CO02-E04",
+    "number": "2-4",
+    "question": "某计算机字长为8位，CPU 中有一个8位加法器。已知无符号数 $x=69,y=38$，若在该加法器中计算 $x-y$，则加法器的两个输入端信息和输入的低位进位信息分别为（　）。\n\nA. 0100 0101、0010 0110、0  \nB. 0100 0101、1101 1001、1  \nC. 0100 0101、1101 1010、0  \nD. 0100 0101、1101 1010、1",
+    "answer": "B。",
+    "solution": "$69=01000101_2$，$38=00100110_2$；第二输入逐位取反为11011001，最低进位输入1。总和287，低8位为31。",
+    "source_key": null,
+    "baseline_anchor": "CO02-10",
+    "method": "取反输入与独立进位"
+  },
+  {
+    "id": "CO02-E05",
+    "number": "2-5",
+    "question": "假定有符号整数采用补码表示，若 int 型变量 x 和 y 的机器数分别是 FFFF FFDFH 和0000 0041H，则 x、y 的值及 x−y 的机器数分别是（　）。\n\nA. x=−65，y=41，x−y 的机器数溢出  \nB. x=−33，y=65，x−y 的机器数为 FFFF FF9DH  \nC. x=−33，y=65，x−y 的机器数为 FFFF FF9EH  \nD. x=−65，y=41，x−y 的机器数为 FFFF FF96H",
+    "answer": "C。",
+    "solution": "FFFFFFDFH按32位补码解读为 $-33$，41H为65；$x-y=-98$，可表示，机器数 $2^{32}-98=\\mathtt{FFFFFF9EH}$。",
+    "source_key": null,
+    "baseline_anchor": "CO02-13",
+    "method": "补码解码后求差"
+  },
+  {
+    "id": "CO02-E06",
+    "number": "2-6",
+    "question": "已知 x、y 为 int 类型，当 x=100、y=200时，执行“x减y”指令得到的溢出标志 OF 和借位标志 CF 分别为0、1。那么当 x=10、y=−20时，执行该指令得到的 OF 和 CF 分别是（　）。\n\nA. OF=0，CF=0　 B. OF=0，CF=1　 C. OF=1，CF=0　 D. OF=1，CF=1",
+    "answer": "B，OF=0、CF=1。",
+    "solution": "有符号真值 $10-(-20)=30$ 在int范围内，OF=0。按无符号输入解读，$10<2^{32}-20$，产生借位，CF=1。",
+    "source_key": null,
+    "baseline_anchor": "CO02-14",
+    "method": "区分有符号溢出与借位"
+  },
+  {
+    "id": "CO02-E07",
+    "number": "2-7",
+    "question": "−0.4375的 IEEE 754 单精度浮点数表示为（　）。\n\nA. BEE0 0000H　 B. BF60 0000H　 C. BF70 0000H　 D. C0E0 0000H",
+    "answer": "A，BEE0 0000H。",
+    "solution": "$0.4375=0.0111_2=1.11_2\\times2^{-2}$。$s=1,E=125=01111101_2$，尾数字段为110后补20个0，连接为BEE00000H。",
+    "source_key": null,
+    "baseline_anchor": "CO02-19",
+    "method": "规格化并拼接字段"
+  },
+  {
+    "id": "CO02-E08",
+    "number": "2-8",
+    "question": "float 型数据常用 IEEE 754 单精度浮点格式表示。假设两个 float 型变量 x 和 y 分别存放在32位寄存器 f1 和 f2 中，若 `(f1)=CC90 0000H`、`(f2)=B0C0 0000H`，则 x 和 y 之间的关系为（　）。\n\nA. x<y且符号相同　 B. x<y且符号不同　 C. x>y且符号相同　 D. x>y且符号不同",
+    "answer": "A，x<y且符号相同。",
+    "solution": "最高位均为1，均为负有限数。x阶码153，真阶26；y阶码97，真阶−30。故 $|x|>|y|$，$x<y$。",
+    "source_key": null,
+    "baseline_anchor": "CO02-20",
+    "method": "符号与阶码比较"
+  },
+  {
+    "id": "CO02-E09",
+    "number": "2-9",
+    "question": "下列有关浮点数加减运算的叙述中，正确的是（　）。\n\nI. 对阶操作不会引起阶码上溢或下溢  \nII. 右规和尾数舍入都可能引起阶码上溢  \nIII. 左规时可能引起阶码下溢  \nIV. 尾数溢出时，结果不一定溢出\n\nA. 仅 II、III　 B. 仅 I、II、IV　 C. 仅 I、III、IV　 D. I、II、III、IV",
+    "answer": "D，I、II、III、IV。",
+    "solution": "对阶将小阶提高到原大阶，阶码仍合法；右规、舍入后的再右规可增加阶码并上溢；左规减少阶码可触及下界。尾数暂时进位可通过右规保留有效结果，结果是否溢出取决于最终范围。",
+    "source_key": null,
+    "baseline_anchor": "CO02-22",
+    "method": "按浮点步骤判断边界"
+  },
+  {
+    "id": "CO02-E10",
+    "number": "2-10",
+    "question": "已知 $f(n)=\\sum_{i=0}^{n}2^i=2^{n+1}-1=\\underbrace{11\\cdots1}_{n+1\\text{位}}{}_2$，计算 $f(n)$ 的C语言函数f1如下。\n\n```c\nint f1(unsigned n) {\n    int sum = 1, power = 1;\n    for (unsigned i = 0; i <= n - 1; i++) {\n        power *= 2;\n        sum += power;\n    }\n    return sum;\n}\n```\n\n将f1中的int都改为float，可得到计算 $f(n)$ 的另一个函数f2。假设unsigned和int型数据都占32位，float采用IEEE 754单精度标准。请回答下列问题。\n\n（1）当n=0时，f1会出现死循环，为什么？若将f1中的变量i和n都定义为int型，则f1是否还会出现死循环？为什么？\n\n（2）f1(23)和f2(23)的返回值是否相等？机器数各是什么（用十六进制表示）？\n\n（3）f1(24)和f2(24)的返回值分别为33 554 431和33 554 432.0，为什么不相等？\n\n（4）$f(31)=2^{32}-1$，而f1(31)的返回值却为−1，为什么？若使f1(n)的返回值与f(n)相等，则最大的n是多少？\n\n（5）f2(127)的机器数为7F80 0000H，对应的值是什么？若使f2(n)的结果不溢出，则最大的n是多少？若使f2(n)的结果精确（无舍入），则最大的n是多少？",
+    "answer": "（1）机器模型下循环条件恒真；改int后不进入循环。（2）相等；00FF FFFFH、4B7F FFFFH。（3）浮点舍入为2^25。（4）低32位全1；最大n=30。（5）正无穷；不溢出最大n=126，精确最大n=23。",
+    "solution": "本题关于f1溢出后的返回值、n=0的持续循环按题设32位补码机器模型推演；C有符号溢出属未定义行为。\n\n（1）unsigned的 `n-1` 在n=0时为 $2^{32}-1$，任意unsigned i均满足条件，i递增可绕回0。若i、n改int，首次条件为 $0\\le-1$，循环不执行。\n\n（2）$f(23)=2^{24}-1=16777215$，int和24位精度binary32均精确。int机器数00FF FFFFH；浮点 $1.\\underbrace{11\\cdots1}_{23\\text{位}}\\times2^{23}$，阶码150，机器数4B7F FFFFH。\n\n（3）$f(24)=2^{25}-1=33554431$ 需25位精度；binary32相邻候选为33554430、33554432，精确和居中，最近偶数取33554432，即4C00 0000H。\n\n（4）$2^{32}-1$ 超过int上界，机器模型保留低32位全1，补码为−1。精确须 $2^{n+1}-1\\le2^{31}-1$，故n≤30。\n\n（5）7F80 0000H表示正无穷。n=126的结果舍入为有限 $2^{127}$；n=127越过有限上界并舍入为无穷。不溢出上界126；完全精确需n+1个连续1全部容纳在24位中，上界23。",
+    "source_key": null,
+    "baseline_anchor": "CO02-24",
+    "method": "循环边界、范围与有效位分别核算"
+  },
+  {
+    "id": "CO02-E11",
+    "number": "2-11",
+    "question": "某计算机存储器按字节编址，采用小端方式存放数据。假定编译器规定 int 型和 short 型长度分别为32位和16位，并且数据按边界对齐存储。某 C 语言程序段如下：\n\n```c\nstruct {\n    int a;\n    char b;\n    short c;\n} record;\nrecord.a = 273;\n```\n\n若 record 变量的首地址为0xC008，则地址0xC008中的内容及 record.c 的地址分别为（　）。\n\nA. 0x00，0xC00D　 B. 0x00，0xC00E  \nC. 0x11，0xC00D　 D. 0x11，0xC00E",
+    "answer": "D，0x11、0xC00E。",
+    "solution": "a占偏移0～3，b占偏移4；偏移5填充，c从偏移6开始，地址C00EH。$273=\\mathtt{00000111H}$，小端最低地址保存11H。",
+    "source_key": null,
+    "baseline_anchor": "CO02-26",
+    "method": "成员对齐后拆字节"
+  }
+]

@@ -1,0 +1,3 @@
+\expandafter\gdef\csname SNside1\endcsname{\node[anchor=north west,inner sep=0pt,text width=48mm,font=\SideFont,align=left] (SNsidebox) at ([xshift=138mm,yshift=-205.53pt]current page.north west) {\textbf{功率比和分贝增量}\par\smallskip 信号功率保持不变，噪声功率减半，信噪比提高 \(10\log_{10}2\approx3.01\) dB；功率比乘10才增加10 dB。
+};\pgfextracty{\SNsideheight}{\pgfpointdiff{\pgfpointanchor{SNsidebox}{south}}{\pgfpointanchor{SNsidebox}{north}}}\typeout{SNHEIGHT:1:0:\the\SNsideheight}}
+\AddToShipoutPictureFG{\begin{tikzpicture}[remember picture,overlay]\ifcsname SNside\thepage\endcsname\csname SNside\thepage\endcsname\fi\end{tikzpicture}}

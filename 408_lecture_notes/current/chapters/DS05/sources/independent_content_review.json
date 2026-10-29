@@ -1,0 +1,44 @@
+{
+  "review_time_utc": "2026-10-28T17:22:08.933451+00:00",
+  "reviewer": "independent Sol content_review",
+  "files_sha256": {
+    "content.md": "bef2a241abc63211b42b63b0053ad0d0577997af14abd03daec059d9b64b0115",
+    "examples.json": "20d6116330a50a7902be1740da318e63ca009b6d7c21a777b1e84443a30238c4",
+    "sidebars.json": "6fa228dc344896bb9124fa977c8637bba2ed7aa800c9b4cc8257c34595b63c9a",
+    "sources/coverage.json": "f5d741a550965c9afb203383c465352ef29260ce6ae5001d8d96e610edcffa26"
+  },
+  "scope": [
+    "Read complete content, examples (question/answer/solution), sidebars",
+    "Checked retained concepts against baseline chapter heading inventory and substantive text",
+    "Manual answer/algorithm reasoning; representative graph diagrams checked in baseline; no claim of re-viewing all original textbook pages"
+  ],
+  "examples_read": 6,
+  "pdf_visual_review": false,
+  "checks": [
+    {
+      "item": "DS05 Huffman merges",
+      "actual": [
+        7,
+        11,
+        15,
+        21,
+        36
+      ],
+      "expected": [
+        7,
+        11,
+        15,
+        21,
+        36
+      ]
+    },
+    {
+      "item": "DS05 Huffman average",
+      "actual": 2.5,
+      "expected": 2.5
+    }
+  ],
+  "corrections": [
+    "Declared nonnegative Huffman weights and positive total weight for average code length"
+  ]
+}

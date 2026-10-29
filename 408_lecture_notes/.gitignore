@@ -1,17 +1,15 @@
-# Local Python environments and bytecode.
+# Local environments and generated caches.
 __pycache__/
 *.py[cod]
 .venv/
 venv/
 .DS_Store
-
-# Reproducible archives and build caches do not belong in the delivery.
+**/build/
+**/previews/
+**/build-logs/
+**/extracted/
 *.zip
 *.zip.[0-9][0-9][0-9]
-/build/
-/dist/*
-!/dist/final/
-!/dist/basic-foundations/
 
-# Verified 26-chapter notes and editable assets.
-!/dist/mindmap-26/
+# Locally retained, unused crop candidates.
+/archive/work-caches/

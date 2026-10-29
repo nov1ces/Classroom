@@ -1,0 +1,12 @@
+{
+  "tools/build_notes.py": "cc59ed7f23d83250d5957ebe3f1ccae0c4119fe955ba2d9ce9b6da0609c70af4",
+  "chapters/DS01/map.json": "afed0a6ef271d635eac4ef04e57af58b71443f537af3ba58ec571127388c5a87",
+  "chapters/DS01/content.md": "3be4748bbfc001ebab961e110b5f36fe5fc7abefd981ca9578ed1bfd8bd3fcb2",
+  "chapters/DS01/examples.json": "da4291dc1e6aeb93508fc4304a1b442fb7dd0522f9e03fd39187f1941c3a69da",
+  "chapters/DS01/sidebars.json": "d639ebca8f73bafb1c038dbb58899bbedd0ff4254c776aace37ad3f96176d21c",
+  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
+  "chapters/DS01/figures/DS01_logical_structures.pdf": "06ab47c6e2d425e3c77fb9bdcd591a6a1ab90ddb0a750be8ad6b66a3a7a9dd37",
+  "chapters/DS01/figures/DS01_logical_structures.svg": "f0cf9eaade7a82a77d58747a297d50ced7ac53ddeeb7f3e84fcd1b19cebb1da3",
+  "chapters/DS01/figures/DS01_logical_structures.png": "2ebe7eb9c8c0864b937bd096156af991d2f4672bd721c0d0b79d4cf2a64ce27e"
+}

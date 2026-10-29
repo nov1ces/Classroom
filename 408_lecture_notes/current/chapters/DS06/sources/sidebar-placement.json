@@ -1,0 +1,66 @@
+[
+  {
+    "page": 1,
+    "sidebars": [],
+    "occupied_margin_intervals": [
+      [
+        82,
+        109.83899688720703
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "DS06-mst",
+        "y": 146.69525146484375,
+        "estimated_height": 59.8
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        86.83470153808594,
+        146.69525146484375
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [
+      {
+        "index": 1,
+        "anchor": "DS06-shortest",
+        "y": 146.02664184570312,
+        "estimated_height": 59.8
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        86.8350830078125,
+        146.02664184570312
+      ]
+    ]
+  },
+  {
+    "page": 6,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  }
+]

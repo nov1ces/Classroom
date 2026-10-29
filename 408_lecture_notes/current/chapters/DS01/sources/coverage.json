@@ -1,0 +1,136 @@
+[
+  {
+    "baseline_anchor": "DS01",
+    "targets": [
+      "DS01-structure"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-01",
+    "targets": [
+      "DS01-structure"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-ex1",
+    "targets": [
+      "DS01-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS01-02",
+    "targets": [
+      "DS01-algorithm"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-sort-example",
+    "targets": [
+      "DS01-algorithm"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-03",
+    "targets": [
+      "DS01-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-detail1",
+    "targets": [
+      "DS01-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-ex2",
+    "targets": [
+      "DS01-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS01-ex3",
+    "targets": [
+      "DS01-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS01-detail2",
+    "targets": [
+      "DS01-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-04",
+    "targets": [
+      "DS01-space"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-map",
+    "targets": [
+      "DS01-structure"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-code",
+    "targets": [
+      "DS01-algorithm"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-rules",
+    "targets": [
+      "DS01-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-count",
+    "targets": [
+      "DS01-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-space-example",
+    "targets": [
+      "DS01-space"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-errors",
+    "targets": [
+      "DS01-algorithm"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-check",
+    "targets": [
+      "DS01-time",
+      "DS01-E04"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS01-recall-extra",
+    "targets": [
+      "DS01-time"
+    ],
+    "disposition": "merged"
+  }
+]

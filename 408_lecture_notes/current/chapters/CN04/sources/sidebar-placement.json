@@ -1,0 +1,95 @@
+[
+  {
+    "page": 1,
+    "sidebars": [],
+    "occupied_margin_intervals": [
+      [
+        82,
+        109.8389892578125
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [],
+    "occupied_margin_intervals": [
+      [
+        353.1805114746094,
+        367.9775085449219
+      ],
+      [
+        370.639892578125,
+        385.13812255859375
+      ],
+      [
+        373.6103515625,
+        482.25579833984375
+      ],
+      [
+        471.48651123046875,
+        486.28350830078125
+      ]
+    ]
+  },
+  {
+    "page": 4,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [],
+    "occupied_margin_intervals": [
+      [
+        489.6195068359375,
+        504.41650390625
+      ],
+      [
+        493.0458679199219,
+        517.7182006835938
+      ],
+      [
+        507.07891845703125,
+        521.5770874023438
+      ],
+      [
+        510.02056884765625,
+        618.6763305664062
+      ],
+      [
+        607.9254760742188,
+        622.7224731445312
+      ]
+    ]
+  },
+  {
+    "page": 8,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 10,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  }
+]

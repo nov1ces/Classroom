@@ -1,0 +1,63 @@
+[
+  {
+    "page": 1,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "DS08-insertion",
+        "y": 226.88629150390625,
+        "estimated_height": 70.5
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        82,
+        109.83899688720703
+      ],
+      [
+        146.6118927001953,
+        226.88629150390625
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 7,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 8,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  }
+]

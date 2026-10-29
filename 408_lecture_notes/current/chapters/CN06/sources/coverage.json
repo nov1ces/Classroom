@@ -1,0 +1,190 @@
+[
+  {
+    "baseline_anchor": "CN06",
+    "targets": [
+      "CN06"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN06-01",
+    "targets": [
+      "CN06-model"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN06-02",
+    "targets": [
+      "CN06-dns"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN06-03",
+    "targets": [
+      "CN06-dns"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN06-ex1",
+    "targets": [
+      "CN06-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN06-04",
+    "targets": [
+      "CN06-ftp"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN06-ex2",
+    "targets": [
+      "CN06-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN06-05",
+    "targets": [
+      "CN06-mail"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN06-06",
+    "targets": [
+      "CN06-mail"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN06-ex3",
+    "targets": [
+      "CN06-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN06-07",
+    "targets": [
+      "CN06-http"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN06-08",
+    "targets": [
+      "CN06-http-delay",
+      "CN06-http"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN06-ex4",
+    "targets": [
+      "CN06-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN06-ex5",
+    "targets": [
+      "CN06-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN06-ex6",
+    "targets": [
+      "CN06-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN06-ex7",
+    "targets": [
+      "CN06-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN06-09",
+    "targets": [
+      "CN06-integrated"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CN06-ex8",
+    "targets": [
+      "CN06-E08"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN06-ex9",
+    "targets": [
+      "CN06-E09"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CN06-course-model",
+    "targets": [
+      "CN06-model"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN06-course-dns-records",
+    "targets": [
+      "CN06-dns"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN06-course-mail",
+    "targets": [
+      "CN06-mail"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN06-course-http-message",
+    "targets": [
+      "CN06-http"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN06-review",
+    "targets": [
+      "CN06-model",
+      "CN06-dns",
+      "CN06-ftp",
+      "CN06-mail",
+      "CN06-http",
+      "CN06-http-delay",
+      "CN06-integrated"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CN06-review-answers",
+    "targets": [
+      "CN06-model",
+      "CN06-dns",
+      "CN06-ftp",
+      "CN06-mail",
+      "CN06-http",
+      "CN06-http-delay",
+      "CN06-integrated"
+    ],
+    "disposition": "merged"
+  }
+]

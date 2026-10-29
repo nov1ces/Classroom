@@ -1,0 +1,46 @@
+{
+  "books": [
+    {
+      "path": "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf",
+      "name": "王道2027操作系统_高清带书签版.pdf",
+      "bytes": 234834921,
+      "sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3",
+      "pdf_pages": 372,
+      "bookmarks": 435,
+      "format": "scanned textbook; visual/OCR verification required",
+      "content_review": "per-chapter authors must establish actual reviewed ranges"
+    },
+    {
+      "path": "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf",
+      "name": "王道2027数据结构_高清带书签版.pdf",
+      "bytes": 211679786,
+      "sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30",
+      "pdf_pages": 404,
+      "bookmarks": 478,
+      "format": "scanned textbook; visual/OCR verification required",
+      "content_review": "per-chapter authors must establish actual reviewed ranges"
+    },
+    {
+      "path": "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf",
+      "name": "王道2027计算机组成原理_高清带书签版.pdf",
+      "bytes": 208829946,
+      "sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
+      "pdf_pages": 340,
+      "bookmarks": 485,
+      "format": "scanned textbook; visual/OCR verification required",
+      "content_review": "per-chapter authors must establish actual reviewed ranges"
+    },
+    {
+      "path": "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf",
+      "name": "王道2027计算机网络_高清带书签版.pdf",
+      "bytes": 197045739,
+      "sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630",
+      "pdf_pages": 316,
+      "bookmarks": 419,
+      "format": "scanned textbook; visual/OCR verification required",
+      "content_review": "per-chapter authors must establish actual reviewed ranges"
+    }
+  ],
+  "original_archive": "/workspace/Classroom/王道书/Documents.z01..z07 + Documents.zip",
+  "yan_weimin_source": "No identifiable local source located; edition-specific comparison requires verifiable source."
+}

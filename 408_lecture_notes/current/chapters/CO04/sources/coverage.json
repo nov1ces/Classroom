@@ -1,0 +1,225 @@
+[
+  {
+    "baseline_anchor": "CO04",
+    "targets": [
+      "CO04-format"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-02",
+    "targets": [
+      "CO04-format"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-03",
+    "targets": [
+      "CO04-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO04-04",
+    "targets": [
+      "CO04-address"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-05",
+    "targets": [
+      "CO04-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO04-06",
+    "targets": [
+      "CO04-address"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-07",
+    "targets": [
+      "CO04-isa"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-08",
+    "targets": [
+      "CO04-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO04-09",
+    "targets": [
+      "CO04-toolchain"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-10",
+    "targets": [
+      "CO04-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO04-11",
+    "targets": [
+      "CO04-flow"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-12",
+    "targets": [
+      "CO04-call"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-13",
+    "targets": [
+      "CO04-call"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-14",
+    "targets": [
+      "CO04-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO04-method",
+    "targets": [
+      "CO04-address",
+      "CO04-flow",
+      "CO04-call"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-proof",
+    "targets": [
+      "CO04-format"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO04-implicit",
+    "targets": [
+      "CO04-format",
+      "CO04-address"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-effects",
+    "targets": [
+      "CO04-isa",
+      "CO04-x86"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-formats-complete",
+    "targets": [
+      "CO04-format"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO04-opcode-complete",
+    "targets": [
+      "CO04-format"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO04-addressing-complete",
+    "targets": [
+      "CO04-address"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO04-x86-complete",
+    "targets": [
+      "CO04-x86"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO04-branch-flags",
+    "targets": [
+      "CO04-x86"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-loop-complete",
+    "targets": [
+      "CO04-flow"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO04-stack-complete",
+    "targets": [
+      "CO04-call"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO04-extra-check",
+    "targets": [
+      "CO04-format",
+      "CO04-x86",
+      "CO04-call"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO04-recall",
+    "targets": [
+      "CO04-address",
+      "CO04-call"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO04-15",
+    "targets": [
+      "CO04-call"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO04-recall-new",
+    "targets": [
+      "CO04-format",
+      "CO04-address",
+      "CO04-flow",
+      "CO04-call"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO04-answers",
+    "targets": [
+      "CO04-format",
+      "CO04-address",
+      "CO04-flow",
+      "CO04-call"
+    ],
+    "disposition": "merged"
+  }
+]

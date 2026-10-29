@@ -1,0 +1,106 @@
+{
+  "id": "CO06",
+  "title": "总线",
+  "branches": [
+    {
+      "label": "概念、特性与分类",
+      "children": [
+        "共享通路",
+        "机械/电气/功能/时间特性",
+        "串行与并行",
+        "片内/系统/通信总线",
+        "单/双/三总线与桥接"
+      ]
+    },
+    {
+      "label": "性能指标",
+      "children": [
+        "位宽与信号线数",
+        "时钟周期与总线周期",
+        "传送率与MT/s",
+        "峰值带宽",
+        "事务有效速率",
+        "复用与开销"
+      ]
+    },
+    {
+      "label": "事务阶段",
+      "children": [
+        "申请分配",
+        "寻址",
+        "传输",
+        "结束",
+        "主设备与从设备",
+        "突发传送"
+      ]
+    },
+    {
+      "label": "定时与握手",
+      "children": [
+        "同步与等待状态",
+        "异步非/半/全互锁",
+        "半同步通信",
+        "分离事务",
+        "有效电平与采样时刻"
+      ]
+    },
+    {
+      "label": "使用权与拓展",
+      "children": [
+        "集中仲裁",
+        "链式查询",
+        "计数器定时查询",
+        "独立请求",
+        "分布仲裁",
+        "总线标准"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.1.1~6.1.3 总线概述.pdf",
+      "pages": [
+        23
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.1.5 总线的性能指标.pdf",
+      "pages": [
+        10
+      ],
+      "role": "slide_text",
+      "visual_checked": false
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.2.1~6.2.3 总线操作和定时.pdf",
+      "pages": [
+        11
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.2.0 拓展：总线仲裁（408大纲已删，简单了解即可）.pdf",
+      "pages": [
+        11
+      ],
+      "role": "slide_map",
+      "visual_checked": true
+    },
+    {
+      "file": "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第六章 总线/6.3 拓展：总线标准（408大纲已删，简单了解即可）.pdf",
+      "pages": [
+        24,
+        25
+      ],
+      "role": "slide_text",
+      "visual_checked": false
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "全章导图由节级概念、定时、仲裁导图合成；性能数值分支由课件性能指标文本补绘，沿同科左根右展样式。"
+  ]
+}

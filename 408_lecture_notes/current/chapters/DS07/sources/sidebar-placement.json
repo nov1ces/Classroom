@@ -1,0 +1,64 @@
+[
+  {
+    "page": 1,
+    "sidebars": [],
+    "occupied_margin_intervals": [
+      [
+        82,
+        109.8389892578125
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 5,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 6,
+    "sidebars": [
+      {
+        "index": 0,
+        "anchor": "DS07-btree",
+        "y": 156.5934600830078,
+        "estimated_height": 59.8
+      }
+    ],
+    "occupied_margin_intervals": [
+      [
+        86.8350830078125,
+        156.5934600830078
+      ]
+    ]
+  },
+  {
+    "page": 7,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 8,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 9,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  }
+]

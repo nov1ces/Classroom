@@ -1,0 +1,709 @@
+\chapter{存储层次、地址与 Cache}\label{CO03}
+
+\section{存储层次与性能指标}\label{CO03-hierarchy}
+
+寄存器 \ensuremath{\to} Cache \ensuremath{\to} 主存 \ensuremath{\to} 外存，通常速度逐级降低、容量逐级增大、每位成本逐级降低。Cache---主存层次利用局部性缓解 CPU 与主存速度差；主存---辅存层次由硬件与操作系统配合实现虚拟存储。
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.25917\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.48166\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.25917\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+存取方式 & 定位规则 & 典型对象 \\
+
+\midrule\endfirsthead\toprule
+存取方式 & 定位规则 & 典型对象 \\
+
+\midrule\endhead\bottomrule\endfoot
+随机存取 RAM & 按地址访问任意单元，寻址步骤基本与位置无关 & SRAM、DRAM \\
+
+顺序存取 SAM & 按记录次序定位 & 磁带 \\
+
+直接存取 DAM & 先选区域，再在局部定位 & 磁盘 \\
+
+相联存取 CAM & 按内容或标记比较 & TLB 相联查找 \\
+
+\end{longtable}}
+\par\smallskip
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.31043\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.68957\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+指标 & 定义与条件 \\
+
+\midrule\endfirsthead\toprule
+指标 & 定义与条件 \\
+
+\midrule\endhead\bottomrule\endfoot
+容量 & 单元数×每单元位数；\(2^{20}\) 个8位单元为1 MiB \\
+
+存取时间 \(t_a\) & 启动一次读写到完成该操作的延迟 \\
+
+存取周期 \(T\) & 连续两次独立访问的最短启动间隔，可含恢复时间 \\
+
+带宽 & 单位时间最大传送信息量；简单单端口模型为每次传送位数／存取周期 \\
+
+单位成本 & 总成本／总位数 \\
+
+\end{longtable}}
+\par\smallskip
+
+容量中的 KiB、MiB 按 \(2^{10},2^{20}\) B；频率和速率中的 M、G 通常按 \(10^6,10^9\)。题源采用 KB、MB 时先依据题设确认进制。
+
+\section{SRAM、DRAM 与 ROM}\label{CO03-semiconductor}
+
+\par\smallskip
+\begin{wideblock}
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.18065\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.25548\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.38322\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.18065\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+器件 & 保存机制 & 读出与保持 & 常见用途 \\
+
+\midrule\endfirsthead\toprule
+器件 & 保存机制 & 读出与保持 & 常见用途 \\
+
+\midrule\endhead\bottomrule\endfoot
+SRAM & 双稳态电路 & 非破坏性读出，供电期间无需刷新；易失 & Cache \\
+
+DRAM & 电容电荷 & 读后再生，周期刷新；易失，集成密度高 & 主存 \\
+
+Flash & 非易失性闪存单元 & 按规定粒度编程与擦除，寿命有限 & SSD等 \\
+
+\end{longtable}}
+\end{wideblock}
+\par\smallskip
+
+随机存取、是否易失、是否破坏性读出是不同分类维度。主存与 Cache 是系统层次角色，SRAM、DRAM 是器件技术。
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.31114\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.68886\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+ROM 类别 & 写入与修改方式 \\
+
+\midrule\endfirsthead\toprule
+ROM 类别 & 写入与修改方式 \\
+
+\midrule\endhead\bottomrule\endfoot
+掩膜 ROM & 制造时写入，使用阶段固定 \\
+
+PROM & 用户一次编程 \\
+
+EPROM & 紫外线擦除后重写，通常整片擦除 \\
+
+EEPROM & 电擦除、电改写，速度和次数受器件限制 \\
+
+Flash & 通常按块擦除，读、编程、擦除粒度分别规定 \\
+
+\end{longtable}}
+\par\smallskip
+
+\subsection{DRAM 刷新与地址复用}\label{CO03-dram}
+
+读后再生恢复刚读单元的电荷；定时刷新保持长期未访问单元的信息。刷新通常按行进行，保持时间内所有行均须刷新。
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.28571\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.71429\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+刷新方式 & 时间安排 \\
+
+\midrule\endfirsthead\toprule
+刷新方式 & 时间安排 \\
+
+\midrule\endhead\bottomrule\endfoot
+集中刷新 & 固定时段连续刷新全部行，形成集中死时间 \\
+
+分散刷新 & 正常存取与刷新交替，扩大存取周期 \\
+
+异步刷新 & 将各行刷新均匀分散在保持时间内，定期插入短刷新周期 \\
+
+\end{longtable}}
+\par\smallskip
+
+有 \(R\) 行、保持时间 \(T_r\)、每行刷新占 \(t_f\) 时，理想均匀刷新间隔为 \(T_r/R\)，总占用比例为 \(Rt_f/T_r\)。128行、2 ms、每行0.5 μs：间隔15.625 μs，占比3.2\%；4096行、64 ms、每行100 ns：间隔15.625 μs，占比0.64\%。命令粒度和内部刷新行为服从题设。
+
+\(2^k\times w\) 芯片含 \(2^k\) 个 \(w\) 位单元。普通非复用 SRAM 通常需 \(k\) 根地址线、\(w\) 根数据线。DRAM 将行、列地址分时送到复用地址引脚；若行列各 \(k/2\) 位，则需 \(k/2\) 根地址引脚，另配行列选通及其他控制线。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CO03-E01}{}\label{CO03-E01}\textbf{例 3-1}\par\nobreak\smallskip
+
+某容量为256 MB的存储器由若干 \(4\mathrm M\times8\) 位的 DRAM 芯片构成，该 DRAM 芯片的地址引脚和数据引脚总数是（　）。
+
+A. 19　 B. 22　 C. 30　 D. 36
+
+双端口 RAM 有两套地址、数据和控制线，可并行访问不同单元。同一单元的读写、写写冲突按忙信号、仲裁和芯片规定处理。
+
+\section{主存地址空间与 MAR}\label{CO03-expansion}
+
+MAR 位数由可编码主存地址空间与编址单位决定，MDR 位数反映一次交换数据的宽度。已安装容量可以小于可编址空间。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CO03-E02}{}\label{CO03-E02}\textbf{例 3-2}\par\nobreak\smallskip
+
+某计算机存储器按字节编址，主存地址空间大小为64 MB，现用 \(4\mathrm M\times8\) 位的 RAM 芯片组成32 MB的主存储器，则存储器地址寄存器 MAR 的位数至少是（　）。
+
+A. 22位　 B. 23位　 C. 25位　 D. 26位
+
+\section{单体多字与多体交叉存储}\label{CO03-interleave}
+
+单体多字通过扩宽一次读写数据量，提高顺序访问的带宽；多体存储包含可相对独立工作的模块。高位交叉以高位选模块，同一连续区间落在同体；低位交叉以低位选模块，连续字轮流分布到不同体。
+
+\(m\) 体低位交叉、按字编址：
+
+\[\text{模块号}=A\bmod m,\qquad\text{模块内地址}=\lfloor A/m\rfloor.\]
+
+若给字节地址、每字 \(w\) B，先用 \(\lfloor A/w\rfloor\) 求字地址。模块存取周期 \(T\)、连续启动间隔 \(\tau\)，连续访问无其他冲突且 \(m\tau\ge T\) 时：
+
+\[t_n=T+(n-1)\tau,\qquad m\ge\lceil T/\tau\rceil.\]
+
+\(T=200\) ns、\(\tau=50\) ns至少需4体，连续8字为550 ns。4体步长4访问始终选同体；再次请求到达时该体尚忙才冲突。低位交叉提高连续吞吐率，第一字延迟仍由 \(T\) 决定。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CO03-E03}{}\label{CO03-E03}\textbf{例 3-3}\par\nobreak\smallskip
+
+某计算机使用4体交叉编址存储器，假定在存储器总线上出现的主存地址（十进制）序列为8005、8006、8007、8008、8001、8002、8003、8004、8000，则可能发生访存冲突的地址对是（　）。
+
+A. 8004和8008　 B. 8002和8007　 C. 8001和8008　 D. 8000和8004
+
+\section{主存芯片字位扩展}\label{CO03-chip}
+
+以 \(n\times b\) 芯片组成 \(N\times W\) 存储器，且两维均为整数倍时：
+
+\[\text{并行片数}=W/b,\quad \text{地址组数}=N/n,\quad \text{总片数}=\frac Nn\frac Wb.\]
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.23787\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.41200\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.35013\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+扩展 & 地址与数据连接 & 片选 \\
+
+\midrule\endfirsthead\toprule
+扩展 & 地址与数据连接 & 片选 \\
+
+\midrule\endhead\bottomrule\endfoot
+位扩展 & 同组地址并联，各片负责不同数据位 & 同组选中信号相同 \\
+
+字扩展 & 低位送片内地址，高位选择地址区间 & 各组片选互斥 \\
+
+字位同时扩展 & 先按目标字长组成并行组，再增加地址组 & 组内共同选中，组间译码选择 \\
+
+\end{longtable}}
+\par\smallskip
+
+两片 \(16\mathrm K\times4\) 构成一组 \(16\mathrm K\times8\)，四组共8片构成 \(64\mathrm K\times8\)。低14位选片内单元，高2位作2--4译码。
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO_F02_memory_expand.pdf}
+\caption{同组并联扩位，四组译码扩字}
+\end{figure}
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CO03-E04}{}\label{CO03-E04}\textbf{例 3-4}\par\nobreak\smallskip
+
+某计算机主存容量为64 KB，其中 ROM 区为4 KB，其余为 RAM 区，按字节编址。现要用 \(2\mathrm K\times8\) 位的 ROM 芯片和 \(4\mathrm K\times4\) 位的 RAM 芯片来设计该存储器，则需要上述规格的 ROM 芯片数和 RAM 芯片数分别是（　）。
+
+A. 1、15　 B. 2、15　 C. 1、30　 D. 2、30
+
+\subsection{片选译码与地址范围}\label{CO03-decoding}
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.27429\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.72571\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+译码方式 & 特征 \\
+
+\midrule\endfirsthead\toprule
+译码方式 & 特征 \\
+
+\midrule\endhead\bottomrule\endfoot
+全译码 & 使用全部需要判别的高位地址，地址映射唯一 \\
+
+部分译码 & 省略部分高位，可能多个地址选中同一物理单元，形成地址重叠 \\
+
+线选法 & 直接用地址线选片，连线简单，可用组合和连续性受限制 \\
+
+\end{longtable}}
+\par\smallskip
+
+片选表达式同时考虑地址译码、访存使能及有效电平。地址线高低位由题干定义，通常 A0最低，也可有 A0最高的题设。
+
+首地址由片选编码接片内全0组成，末地址接片内全1组成。按字编址的 \(32\mathrm K\times16\) 芯片需15位片内地址，高3位片选111时，范围38000H～3FFFFH；改按字节编址后，每字2 B，须增加字节选择与字节使能信息并重算范围。
+
+\(16\mathrm K\times8\) 组成 \(32\mathrm K\times16\)：4片，2片一组、2组。\(A_{13}\sim A_0\) 接所有芯片，\(A_{14}\) 选组；按字编址组范围0000H～3FFFH、4000H～7FFFH。
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO03_chip_expansion.pdf}
+\caption{两片作位扩展，A14选择两组}
+\end{figure}
+
+\section{磁盘结构、容量与访问时间}\label{CO03-disk}
+
+盘面包含磁道，磁道划分为扇区；不同盘面同半径的磁道组成柱面。典型定位字段为柱面号、磁头号、扇区号，磁头号确定盘面。
+
+\[\text{容量}=\text{有效盘面数}\times\text{每面磁道数}\times\text{每道扇区数}\times\text{每扇区字节数}.\]
+
+\[T_{\mathrm{access}}=T_{\mathrm{seek}}+T_{\mathrm{rotation}}+T_{\mathrm{transfer}}.\]
+
+转速 \(r\) 转/分，一圈 \(60/r\) s；随机到达、角位置均匀时，平均旋转等待为 \(30/r\) s。每道 \(S\) 扇区、连续传 \(k\) 扇区且忽略其他开销时，传输时间为 \((k/S)(60/r)\)。控制器与排队开销按题设增加。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CO03-E05}{}\label{CO03-E05}\textbf{例 3-5}\par\nobreak\smallskip
+
+若磁盘转速为7200转/分，平均寻道时间为8 ms，每个磁道包含1000个扇区，则访问一个扇区的平均存取时间大约是（　）。
+
+A. 8.1 ms　 B. 12.2 ms　 C. 16.3 ms　 D. 20.5 ms
+
+\subsection{RAID 组织}\label{CO03-raid}
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.20671\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.34279\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.45051\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+级别 & 数据与冗余组织 & 典型性质 \\
+
+\midrule\endfirsthead\toprule
+级别 & 数据与冗余组织 & 典型性质 \\
+
+\midrule\endhead\bottomrule\endfoot
+RAID0 & 条带化，无冗余 & 提高并行带宽，单盘故障可使阵列数据丢失 \\
+
+RAID1 & 镜像 & 常见双副本有效容量约为总容量一半 \\
+
+RAID3 & 细粒度条带，专用校验盘 & 数据盘协调并行传输 \\
+
+RAID4 & 块级条带，专用校验盘 & 校验盘可能成为写热点 \\
+
+RAID5 & 块级条带，分布式校验 & 分散校验写入，通常容忍单盘故障 \\
+
+\end{longtable}}
+\par\smallskip
+
+容错范围由具体级别和故障分布决定，更新数据还可能引入校验一致性开销；冗余副本会同步误写或误删，备份承担历史恢复功能。
+
+\section{SSD 的页、块与磨损均衡}\label{CO03-ssd}
+
+NAND Flash 通常按页读取或编程、按块擦除。FTL 将主机逻辑块地址映射为闪存物理页地址。具体页、块尺寸依器件而定，示例可取页512 B～4 KiB、块16～512 KiB。
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO03_ssd_hierarchy.pdf}
+\caption{逻辑块经FTL映射到闪存芯片、块与页}
+\end{figure}
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.34307\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.65693\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+管理动作 & 作用 \\
+
+\midrule\endfirsthead\toprule
+管理动作 & 作用 \\
+
+\midrule\endhead\bottomrule\endfoot
+异地更新 & 新数据写入空闲已擦除位置，更新映射，旧页失效 \\
+
+垃圾回收 & 搬走块中有效页，擦除旧块，回收空间 \\
+
+写放大 & 实际闪存写入量因有效页搬移等大于主机写入量 \\
+
+动态磨损均衡 & 新写入优先使用擦除次数较少的空闲块 \\
+
+静态磨损均衡 & 进一步搬移冷数据，让长期少用的块参加新写入 \\
+
+\end{longtable}}
+\par\smallskip
+
+SSD 无机械寻道和旋转等待，仍有闪存、控制器、接口传输和写入管理延迟；擦写次数、写放大和管理开销须按具体模型考虑。
+
+\section{Cache 局部性与平均访问时间}\label{CO03-cache-time}
+
+时间局部性：近期访问过的同一信息可能很快再访问；空间局部性：相邻位置可能很快被访问。Cache 按块调入利用空间局部性。
+
+\[h=\frac{N_{\mathrm{hit}}}{N_{\mathrm{hit}}+N_{\mathrm{miss}}}.\]
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.58009\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.41991\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+时间定义／访问模型 & 平均访问时间 \\
+
+\midrule\endfirsthead\toprule
+时间定义／访问模型 & 平均访问时间 \\
+
+\midrule\endhead\bottomrule\endfoot
+先查Cache，缺失后额外耗时 \(p\) & \(t_c+(1-h)p\) \\
+
+完整缺失访问耗时 \(t_{\mathrm{miss}}\)，已含查Cache & \(ht_c+(1-h)t_{\mathrm{miss}}\) \\
+
+Cache与主存同时启动，命中取Cache结果 & \(ht_c+(1-h)t_m\) \\
+
+先Cache、缺失后启动主存，主存耗时 \(t_m\) & \(t_c+(1-h)t_m\) \\
+
+\end{longtable}}
+\par\smallskip
+
+\(t_m=5t_c,h=0.95\) 时，并行模型为 \(1.2t_c\)、加速约4.17倍；串行为 \(1.25t_c\)、加速4倍。\(t_c=2\) ns、缺失额外80 ns、\(h=0.95\) 时平均6 ns；若80 ns已含查Cache，则平均5.9 ns。
+
+两级Cache的简单串行模型：\(\mathrm{AMAT}=t_1+m_1(t_2+m_2p_2)\)，其中 \(m_2\) 为进入二级后的局部缺失率，二级全局缺失率为 \(m_1m_2\)。回写、调块、重访等开销是否计入缺失损失服从题设。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CO03-E06}{}\label{CO03-E06}\textbf{例 3-6}\par\nobreak\smallskip
+
+有如下 C 语言程序段：
+
+\par\smallskip\noindent\begin{minipage}{\linewidth}
+\begin{codeblock}[language={C}]
+for (k = 0; k < 1000; k++)
+    a[k] = a[k] + 32;
+\end{codeblock}
+\end{minipage}\par\smallskip
+
+若数组 a 和变量 k 均为 int 型，int 型数据占4 B，数据 Cache 采用直接映射方式，数据区大小为1 KB、块大小为16 B，该程序段执行前 Cache 为空，则该程序段执行过程中访问数组 a 的 Cache 缺失率约为（　）。
+
+A. 1.25\%　 B. 2.5\%　 C. 12.5\%　 D. 25\%
+
+\subsection{块传送与突发访问}\label{CO03-burst}
+
+取64 B块、每次传8 B，若每次均需地址1周期、准备8周期、传输1周期，独立访问需 \(8(1+8+1)=80\) 周期。支持一次地址、一次首数据等待、连续8次传输的突发模型时，共 \(1+8+8=17\) 周期。
+
+\section{Cache 映射与地址字段}\label{CO03-cache-address}
+
+设数据区容量 \(C\) B、块大小 \(B\) B、\(r\) 路、\(m\) 位字节地址。先求行数 \(L=C/B\)、组数 \(G=L/r\)。\(B,G\) 均为2的幂时：
+
+\[b=\log_2B,\quad g=\log_2G,\quad t=m-b-g.\]
+
+\[q=\lfloor A/B\rfloor,\quad d=A\bmod B,\quad s=q\bmod G,\quad\mathrm{tag}=\lfloor q/G\rfloor,\]
+
+\[A=(\mathrm{tag}\,G+s)B+d.\]
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO_F03_cache_address.pdf}
+\caption{块内偏移、组号与标记}
+\end{figure}
+
+\par\smallskip
+\begin{wideblock}
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.18234\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.22332\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.19425\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.23763\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.16244\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+映射 & 可放位置 & 组选位数 & 比较范围 & 替换范围 \\
+
+\midrule\endfirsthead\toprule
+映射 & 可放位置 & 组选位数 & 比较范围 & 替换范围 \\
+
+\midrule\endhead\bottomrule\endfoot
+直接映射 & 唯一一行 & \(\log_2(C/B)\) & 该行1个标记 & 唯一位置 \\
+
+\(r\) 路组相联 & 唯一一组内 \(r\) 行 & \(\log_2(C/(Br))\) & 该组 \(r\) 个有效标记 & 组内 \\
+
+全相联 & 任一行 & 0 & 全部有效标记 & 全Cache \\
+
+\end{longtable}}
+\end{wideblock}
+\par\smallskip
+
+命中须同时满足有效位为1、标记匹配。组号用于选组，块内偏移用于选块中字节，二者均无需保存到每行标记。
+
+固定地址位数、数据容量和块大小时，相联度增大使组号变短、标记变长，可能减少冲突缺失。强制缺失与容量限制仍存在。比较器数、布线、扇入和编码共同影响实际延迟，具体快慢需依据电路模型。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CO03-E07}{}\label{CO03-E07}\textbf{例 3-7}\par\nobreak\smallskip
+
+若计算机主存地址为32位，按字节编址，某 Cache 的数据区容量为32 KB，主存块大小为64 B，采用8路组相联映射方式，该 Cache 中比较器的个数和位数分别为（　）。
+
+A. 8，20　 B. 8，23　 C. 64，20　 D. 64，23
+
+\subsection{Cache 总容量}\label{CO03-cache-capacity}
+
+\[\text{总位数}=L(8B+t+V+D+\cdots)+\text{替换状态位}.\]
+
+\(V\) 为有效位，回写通常需脏位 \(D\)；替换位、校验位等按题设计入。给出的数据容量 \(C\) 与含标记和状态位的总容量分别使用。
+
+32位字节地址、4 KiB数据区、16 B块、2路：偏移4位、组号7位、标记21位；含有效和脏位且暂不计替换位，每行151位。直接映射无需行间替换状态。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CO03-E08}{}\label{CO03-E08}\textbf{例 3-8}\par\nobreak\smallskip
+
+假定主存地址为32位，按字节编址，主存和 Cache 之间采用直接映射方式，主存块大小为4个字，每字32位，采用回写方式，则能存放4 K字数据的 Cache 的总容量的位数至少是（　）。
+
+A. 146 K　 B. 147 K　 C. 148 K　 D. 158 K
+
+\section{Cache 替换与写策略}\label{CO03-replacement}
+
+优先使用目标组空行；满组后在本组选择牺牲行。
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.24031\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.29432\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.46536\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+策略 & 状态依据 & 命中更新 \\
+
+\midrule\endfirsthead\toprule
+策略 & 状态依据 & 命中更新 \\
+
+\midrule\endhead\bottomrule\endfoot
+FIFO & 装入先后 & 保持装入次序 \\
+
+LRU & 最近使用次序 & 置为最近使用 \\
+
+LFU & 累计使用频次 & 更新计数，初值及并列规则须给定 \\
+
+随机 & 随机选择 & 无需维护精确最近次序 \\
+
+\end{longtable}}
+\par\smallskip
+
+两路一组访问 A、B、A、C、B，LRU 状态从最近到最久依次为 {[}A{]}、{[}B,A{]}、{[}A,B{]}、{[}C,A{]}、{[}B,C{]}，仅第3次命中。
+
+4行全相联、初始空，访问 \(1,2,3,4,1,2,5,1,2,3,4,5\)：FIFO命中第5、6次；LRU命中第5、6、8、9次。访问块5前，FIFO淘汰1，LRU淘汰3。
+
+\subsection{写命中、写缺失与脏块}\label{CO03-write}
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.36317\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.63683\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+事件与策略 & 动作 \\
+
+\midrule\endfirsthead\toprule
+事件与策略 & 动作 \\
+
+\midrule\endhead\bottomrule\endfoot
+写命中，直写 & 同时更新Cache和下层，可用写缓冲；缓冲满时可能阻塞 \\
+
+写命中，回写 & 只更新Cache并置脏位，淘汰脏块时写回 \\
+
+写缺失，写分配 & 调块进入Cache再写 \\
+
+写缺失，非写分配 & 绕过当前Cache，直接写下层 \\
+
+\end{longtable}}
+\par\smallskip
+
+回写常配写分配、直写常配非写分配，具体组合按题设执行。干净块可直接淘汰；脏块需按回写规则保存。多核副本及 DMA 访问还需相应一致性机制。
+
+\section{虚拟存储、页表与 TLB}\label{CO03-virtual}
+
+虚拟存储将进程虚拟地址映射为物理地址，支持部分内容驻留外存、隔离与保护。操作系统建立并维护映射、分配和换入换出；MMU 执行运行时地址转换及权限检查。TLB 命中路径可由硬件完成。
+
+页大小 \(P=2^p\) B、虚址 \(v\) 位、物理地址 \(a\) 位：
+
+\[\mathrm{VA}=\mathrm{VPN}\times P+d,\quad\mathrm{PA}=\mathrm{PPN}\times P+d,\]
+
+VPN 为 \(v-p\) 位，PPN 为 \(a-p\) 位，页内偏移 \(d\) 原样保留。
+
+TLB 是页表项的高速缓存。若 TLB 共 \(K\) 项、\(r\) 路、低位选组，组数 \(G_T=K/r\)，组号 \(g_T=\log_2G_T\) 位，TLB 标记为 \(v-p-g_T\) 位；物理页框号位数由物理地址决定。
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CO_F04_virtual_address.pdf}
+\caption{虚页号查映射，页框号与原偏移形成物理地址}
+\end{figure}
+
+\par\smallskip
+\begin{wideblock}
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.22861\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.34464\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.42676\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+查找对象 & 保存内容 & 未命中或异常处理 \\
+
+\midrule\endfirsthead\toprule
+查找对象 & 保存内容 & 未命中或异常处理 \\
+
+\midrule\endhead\bottomrule\endfoot
+TLB & 页映射、权限等 & 未命中转页表，页面仍可能已驻留 \\
+
+页表 & 页框号、存在位、权限、管理状态 & 合法且未驻留时缺页；非法映射、保护失败分别处理 \\
+
+物理地址Cache & 主存数据块或指令块副本 & 未命中访问下一层，按策略调块 \\
+
+\end{longtable}}
+\end{wideblock}
+\par\smallskip
+
+TLB命中与Cache命中分别判断；页表存在位为1说明页面驻留，数据Cache仍可缺失。Cache标记与页框号按各自字段求取。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CO03-E09}{}\label{CO03-E09}\textbf{例 3-9}\par\nobreak\smallskip
+
+某计算机主存地址为24位，采用分页虚拟存储管理方式，虚拟地址空间大小为4 GB，页大小为4 KB，按字节编址。某进程的页表部分内容如下。
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.29289\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.41421\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.29289\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+虚页号 & 实页号（页框号） & 存在位 \\
+
+\midrule\endfirsthead\toprule
+虚页号 & 实页号（页框号） & 存在位 \\
+
+\midrule\endhead\bottomrule\endfoot
+82 & 024H & 0 \\
+
+\ldots{} & \ldots{} & \ldots{} \\
+
+129 & 180H & 1 \\
+
+130 & 018H & 1 \\
+
+\end{longtable}}
+\par\smallskip
+
+当 CPU 访问虚拟地址0008 2840H时，虚---实地址转换的结果是（　）。
+
+A. 得到主存地址02 4840H　 B. 得到主存地址18 0840H\\
+C. 得到主存地址01 8840H　 D. 检测到缺页异常
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CO03-E10}{}\label{CO03-E10}\textbf{例 3-10}\par\nobreak\smallskip
+
+某计算机按字节编址，采用页式虚拟存储管理方式，虚拟地址为32位，主存地址为30位，页大小为1 KB。若 TLB 共有32个表项，采用4路组相联映射方式，则 TLB 表项中标记字段的位数至少是（　）。
+
+A. 17　 B. 18　 C. 19　 D. 20
+
+\subsection{地址转换路径与平均时间}\label{CO03-translation}
+
+先转换、后查物理Cache的串行模型：拆 VPN、页内偏移 \ensuremath{\to} 查 TLB \ensuremath{\to} 未命中时查各级页表 \ensuremath{\to} 检查存在位与权限 \ensuremath{\to} 形成物理地址 \ensuremath{\to} 查Cache \ensuremath{\to} 缺失时访问下层。
+
+缺页时先处理并重试当前指令，普通数据Cache查找须等待可用映射。页表访问是否经过Cache、TLB与Cache能否并行均由题设决定。
+
+单级页表、不计缺页、TLB和主存串行且主存数据无Cache时，TLB命中率 \(h_T\)、时间 \(t_T\)、每次主存访问 \(t_M\)：
+
+\[\bar t=h_T(t_T+t_M)+(1-h_T)(t_T+2t_M).\]
+
+多级页表增加相应查表访问；缺页需另加外存与操作系统处理时间。MMU 在地址转换中检测TLB缺失、缺页及权限问题，数据Cache缺失由Cache查找确定。
+
+\section{段式与段页式存储}\label{CO03-segment}
+
+段式地址含段号和段内偏移。段表保存基址、段长和权限；段长 \(L\) 表示字节数时，合法条件为 \(0\le d<L\)，物理地址为 base+\(d\)，末字节地址为 base+\(L-1\)。
+
+段页式先由段号定位该段页表，再由段内页号查页框，最后拼接页内偏移。段界限仍须检查，最后一页的填充空间可能超出段长。
+
+段基址10000 B、长3000 B，偏移2999对应12999 B；偏移3000越界。1 KiB页的段页式模型中，页号2、偏移952恰为段内3000，也越界。
+
+\section{数组访问次序与 TLB、Cache 综合推演}\label{CO03-access}
+
+行优先数组、每元素 \(w\) B、每行 \(C\) 个元素：\(\operatorname{addr}(a[i][j])=A_0+(iC+j)w\)。先分别求触及页面、Cache块和每组工作集，再计算缺页与命中数。
+
+首地址偏移 \(d\)、连续区域长 \(n\) B、页或块大小 \(P\) 时，非空区域覆盖数为 \(\lceil(d+n)/P\rceil\)。每组工作集超过路数才存在相应组容量压力，总容量可容纳仍可能发生组冲突。
+
+若Cache组选位全部落在页内偏移中，虚实转换保留这些位，可直接从虚址提取本题组号。超出页内偏移时需按指定地址模型取得相关物理位。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CO03-E11}{}\label{CO03-E11}\textbf{例 3-11}\par\nobreak\smallskip
+
+已知计算机M字长为32位，按字节编址，采用请求调页策略的虚拟存储管理方式，虚拟地址32位，页面大小为4 KB；数据Cache采用4路组相联映射方式，数据区大小为8 KB，主存块大小为32 B。现有C语言程序段如下：
+
+\par\smallskip\noindent\begin{minipage}{\linewidth}
+\begin{codeblock}[language={C}]
+int a[24][64];
+/* ... */
+for (i = 0; i < 24; i++)
+    for (j = 0; j < 64; j++) a[i][j] = 10;
+\end{codeblock}
+\end{minipage}\par\smallskip
+
+已知二维数组a按行优先存放，在虚拟地址空间中分配的起始地址为0042 2000H，\texttt{sizeof(\allowbreak{}int)\allowbreak{}=\allowbreak{}4}。假定在M上执行上述程序段之前数组a不在主存，且在该程序执行过程中不会发生页面置换。请回答下列问题。
+
+（1）数组分布在几个页面中？对于数组a的访问，会发生几次缺页异常？页故障地址各是什么？
+
+（2）不考虑变量i和j，该程序段的数据访问是否具有时间局部性？为什么？
+
+（3）计算机M的虚拟地址（A31～A0）中哪几位用作块内地址？哪几位用作Cache组号？a{[}1{]}{[}0{]}的虚拟地址是多少？其所在主存块对应的Cache组号是多少？
+
+（4）数组a占用多少主存块？假设上述程序段执行过程中数组a的访问不会和其他数据发生Cache访问冲突，则数组a的Cache命中率是多少？若将循环中i和j的次序按如下方式调换，则数组a的Cache命中率又是多少？
+
+\par\smallskip\noindent\begin{minipage}{\linewidth}
+\begin{codeblock}[language={C}]
+for (j = 0; j < 64; j++)
+    for (i = 0; i < 24; i++) a[i][j] = 10;
+\end{codeblock}
+\end{minipage}\par\smallskip
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CO03-E12}{}\label{CO03-E12}\textbf{例 3-12}\par\nobreak\smallskip
+
+假设计算机M的主存地址为24位，按字节编址；采用分页存储管理方式，虚拟地址为30位，页大小为4 KB；TLB采用2路组相联方式和LRU替换策略，共8组。请回答下列问题。
+
+（1）虚拟地址中哪几位表示虚页号？哪几位表示页内地址？
+
+（2）已知访问TLB时虚页号高位部分用作TLB标记，低位部分用作TLB组号，M的虚拟地址中哪几位是TLB标记？哪几位是TLB组号？
+
+（3）假设TLB初始时为空，访问的虚页号依次为10、12、16、7、26、4、12和20，在此过程中，哪一个虚页号对应的TLB表项被替换？说明理由。
+
+（4）若将M中的虚拟地址位数增加到32位，则TLB表项的位数增加几位？
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CO03-E13}{}\label{CO03-E13}\textbf{例 3-13}\par\nobreak\smallskip
+
+某系统按字节编址，虚拟地址为14位，物理地址为12位，页大小为64 B。TLB 共16项，采用4路组相联；数据 Cache 使用物理地址，采用直接映射，共16行，每行4 B。
+
+按``先完成地址转换，再查数据 Cache''的串行模型分析。所有待访问的虚拟地址均合法，且允许读；页表存在位 \(P=1\) 表示页面已在主存，\(P=0\) 表示合法但尚未驻留，需要处理缺页。读 Cache 未命中时，从主存调入对应的4 B数据块。
+
+以下给出本题所需的初始状态。表中页号、页框号、标记、Cache 行号和字节数据均用十六进制，后缀 H 表示十六进制；\(V\) 为有效位，``---''表示没有可用信息。TLB 的组号和路号均在0至3之间。
+
+\textbf{表 A　TLB 初始状态}
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.20000\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.20000\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.20000\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.20000\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.20000\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+组号 & 路号 & 标记 & 有效位V & 页框号 \\
+
+\midrule\endfirsthead\toprule
+组号 & 路号 & 标记 & 有效位V & 页框号 \\
+
+\midrule\endhead\bottomrule\endfoot
+0 & 0 & 03H & 0 & --- \\
+
+0 & 1 & 00H & 0 & --- \\
+
+0 & 2 & 09H & 1 & 0DH \\
+
+0 & 3 & 07H & 1 & 02H \\
+
+3 & 0 & 07H & 0 & --- \\
+
+3 & 1 & 0AH & 1 & 34H \\
+
+3 & 2 & 03H & 1 & 0DH \\
+
+3 & 3 & 02H & 0 & --- \\
+
+\end{longtable}}
+\par\smallskip
+
+\textbf{表 B　页表中与本题有关的表项}
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.33278\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.33444\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.33278\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+虚页号 & 存在位 \(P\) & 页框号 \\
+
+\midrule\endfirsthead\toprule
+虚页号 & 存在位 \(P\) & 页框号 \\
+
+\midrule\endhead\bottomrule\endfoot
+03H & 1 & 02H \\
+
+08H & 0 & --- \\
+
+\end{longtable}}
+\par\smallskip
+
+\textbf{表 C　Cache 初始状态，数据按块内偏移排列}
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.14286\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.14286\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.14286\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.14286\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.14286\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.14286\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.14286\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+行号 & 标记 & V & 偏移0 & 偏移1 & 偏移2 & 偏移3 \\
+
+\midrule\endfirsthead\toprule
+行号 & 标记 & V & 偏移0 & 偏移1 & 偏移2 & 偏移3 \\
+
+\midrule\endhead\bottomrule\endfoot
+5H & 0DH & 1 & 36H & 72H & F0H & 1DH \\
+
+CH & 02H & 0 & --- & --- & --- & --- \\
+
+\end{longtable}}
+\par\smallskip
+
+（1）写出查 TLB 时虚拟地址的字段划分，以及查 Cache 时物理地址的字段划分，并求各字段位数。
+
+（2）分别读取虚拟地址03D4H、00F1H、0229H处的一个字节，依次说明 TLB 查找、必要的页表检查和 Cache 查找，指出最终从哪里取数，或在哪一步转入异常处理。能确定字节值时给出结果。
+
+\textbf{三次访问相互独立，均从上述初始状态开始。} 某次访问引起的回填不影响另两次；不推演缺页后的页框分配与替换，也不计算访问时间。

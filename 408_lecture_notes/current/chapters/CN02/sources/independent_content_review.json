@@ -1,0 +1,45 @@
+{
+  "review_time_utc": "2026-10-29T00:06:31.637364+00:00",
+  "reviewer": "independent Sol verify_content_reinforce",
+  "files_sha256": {
+    "content.md": "eaa77488b220f2c3b5cf1526a1e3d9acb1ccc33a97de0700a99c7bf29c409db8",
+    "examples.json": "b94068d19915569a5d8e8212b6c1ef340c70fa357172e53089f935ee4b82b2bf",
+    "sidebars.json": "5411025eb4ad320c942d2d695620e64ad1c99fbc7f2f77d2418b1b14944d309b",
+    "map.json": "208b33b240b41d1990ad2fb3057b7ad6586cafd0f350334d56d1bde7b03ecf89",
+    "sources/coverage.json": "ae3e579843f50fa582283536753e0843faf0e3ab8dfdc4adea6fd08770d46f23"
+  },
+  "baseline_sha256": "c15272241b3f9fbffbd78a92edeb4296a1cdd64748f925dee34611f1475fa4d9",
+  "scope": [
+    "Read complete current chapter content, all question/answer/solution entries, and all sidebars.",
+    "Compared retained concept coverage against every baseline heading and inspected targeted substantive baseline/source passages; no material concept omission identified in that scope.",
+    "Manually reasoned through all retained examples; computed selected numerical/protocol cases independently below.",
+    "Checked available textbook answer index and listed OCR/readable records only; did not re-view all original courseware/textbook PDF pages or images."
+  ],
+  "examples_read": 3,
+  "source_sampling": {
+    "ocr": [
+      "CN_052.json"
+    ],
+    "readable": [
+      "04_计算机网络_book.txt:PDF_PAGE72"
+    ],
+    "figures": []
+  },
+  "source_index_limitations": [],
+  "pdf_visual_review": false,
+  "build_performed": false,
+  "checks": [
+    {
+      "item": "QAM32 dual-bound choice",
+      "actual": "True",
+      "expected": "True",
+      "passed": true
+    }
+  ],
+  "corrections": [],
+  "remaining_limitations": [
+    "Original explanation screenshots not verified in this review.",
+    "Diagram graphics were not visually re-inspected; listed SVG checks read textual data only.",
+    "No PDF pagination, clipping, font, or rendered-formula assessment."
+  ]
+}

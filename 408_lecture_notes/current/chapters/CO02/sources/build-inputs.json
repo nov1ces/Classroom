@@ -1,0 +1,21 @@
+{
+  "tools/build_notes.py": "cc59ed7f23d83250d5957ebe3f1ccae0c4119fe955ba2d9ce9b6da0609c70af4",
+  "chapters/CO02/map.json": "8b8b2513191586ea46db7aef68a08526f2abdae58a7153e32f33db9dc8d680dd",
+  "chapters/CO02/content.md": "ee8404a975325621be19e2dde4c023cd56ca14ecd1801e18b93b39c2d219ff6b",
+  "chapters/CO02/examples.json": "410878172eaeb6c8e5e406fe9dd8c5472ae6d04e9d715d4557898c6acef1a422",
+  "chapters/CO02/sidebars.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
+  "chapters/CO02/figures/CO02_restoring_division.png": "e3d4ab1271b3beb3f06dd658d1aa560cf4bc21ba4db76e3d6408d56066a90e2c",
+  "chapters/CO02/figures/CO02_mux_bus.svg": "e2f7a0bb5ae1bc51997af168ed9eb7530372ae2b92541739133eb28a5fb98747",
+  "chapters/CO02/figures/CO_F01_ieee754.svg": "814faf19da454f7c1060d3091daceaa3bb60f2786a1582b8b45da79470124fec",
+  "chapters/CO02/figures/CO02_restoring_division.svg": "9eaa463fc1f2f3d53a96e7beaa285936a89b0cae803a3e3f600d81986d72069c",
+  "chapters/CO02/figures/CO_F05_struct_layout.png": "183b952201c0df67196f94fd92c4276a8cc491cb14c30b984f2816de2e12eacf",
+  "chapters/CO02/figures/CO_F05_struct_layout.pdf": "8dd0def33dd3853fd2f987f037438a7148f9a496f87576b8bed4cc0699e77644",
+  "chapters/CO02/figures/CO_F01_ieee754.pdf": "c54119f644856eac1ea50e2e661443b6fb7c8ea409081bbfae6c35a210f5f57b",
+  "chapters/CO02/figures/CO_F05_struct_layout.svg": "6147dd4d8cbed3c52e7a97e178ef46cf687fe9dfc3dcf2369a262cdc71423433",
+  "chapters/CO02/figures/CO_F01_ieee754.png": "55fe6972ec81718abd0def2dee9de2eb5b7be43fd5d298014c493bee06713b17",
+  "chapters/CO02/figures/CO02_mux_bus.pdf": "735b43864047ca3c5a7c19eae887aef8cc40d9bd813a4538e86c0f12a1cd33d7",
+  "chapters/CO02/figures/CO02_restoring_division.pdf": "bb5239fdb3e780a1517cfc481feaf6516d932d903692e32b0b5f14c32abfa09a",
+  "chapters/CO02/figures/CO02_mux_bus.png": "184b797d3b5c222aef30aa0f50474ba1dae149c400702f5fc387df60f05e34bc"
+}

@@ -1,0 +1,203 @@
+[
+  {
+    "baseline_anchor": "CO07",
+    "targets": [
+      "CO07-ports"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO07-map",
+    "targets": [
+      "CO07-ports"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO07-devices",
+    "targets": [
+      "CO07-peripherals"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO07-interface",
+    "targets": [
+      "CO07-ports"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO07-example-1",
+    "targets": [
+      "CO07-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO07-query",
+    "targets": [
+      "CO07-polling"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO07-example-2",
+    "targets": [
+      "CO07-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO07-interrupt",
+    "targets": [
+      "CO07-service"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO07-entry",
+    "targets": [
+      "CO07-service"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO07-mask",
+    "targets": [
+      "CO07-priority"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO07-example-3",
+    "targets": [
+      "CO07-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO07-example-4",
+    "targets": [
+      "CO07-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO07-dma",
+    "targets": [
+      "CO07-direct",
+      "CO07-budget"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO07-example-5",
+    "targets": [
+      "CO07-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO07-example-6",
+    "targets": [
+      "CO07-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO07-example-7",
+    "targets": [
+      "CO07-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO07-old-self",
+    "targets": [
+      "CO07-priority",
+      "CO07-direct",
+      "CO07-budget"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO07-peripherals-complete",
+    "targets": [
+      "CO07-peripherals"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO07-io-structure-complete",
+    "targets": [
+      "CO07-ports"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO07-query-complete",
+    "targets": [
+      "CO07-polling"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO07-interrupt-complete",
+    "targets": [
+      "CO07-service",
+      "CO07-priority"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO07-overlap-example",
+    "targets": [
+      "CO07-overlap"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO07-dma-complete",
+    "targets": [
+      "CO07-direct"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO07-extra-check",
+    "targets": [
+      "CO07-ports",
+      "CO07-polling",
+      "CO07-priority",
+      "CO07-direct"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO07-recall",
+    "targets": [
+      "CO07-ports",
+      "CO07-polling",
+      "CO07-service",
+      "CO07-priority",
+      "CO07-direct",
+      "CO07-peripherals",
+      "CO07-budget"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO07-recall-answers",
+    "targets": [
+      "CO07-ports",
+      "CO07-polling",
+      "CO07-service",
+      "CO07-priority",
+      "CO07-direct",
+      "CO07-peripherals",
+      "CO07-budget"
+    ],
+    "disposition": "merged"
+  }
+]

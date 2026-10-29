@@ -1,0 +1,87 @@
+{
+  "review_time_utc": "2026-10-28T17:22:08.932739+00:00",
+  "reviewer": "independent Sol content_review",
+  "files_sha256": {
+    "content.md": "8ffa66e06d5283d6c9a7fb5de33fc91d079aeb1e8acf66a1c6a08f614a11ef3c",
+    "examples.json": "40f952632fcc9129517922a844f597fdc4e052a15a630339e8c45369e1549b89",
+    "sidebars.json": "3ebcafad61171c0ff1cdb3a599617653b9867560aa76277cbee88ff50452fe3f",
+    "sources/coverage.json": "83802626a64cb2519f309c7039ad17f234693f1e2eec13d5e26cf1f7b5a54b8f"
+  },
+  "scope": [
+    "Read complete content, examples (question/answer/solution), sidebars",
+    "Checked retained concepts against baseline chapter heading inventory and substantive text",
+    "Manual answer/algorithm reasoning; representative graph diagrams checked in baseline; no claim of re-viewing all original textbook pages"
+  ],
+  "examples_read": 5,
+  "pdf_visual_review": false,
+  "checks": [
+    {
+      "item": "DS03 input-restricted impossible",
+      "actual": [
+        [
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          2,
+          3,
+          1
+        ]
+      ],
+      "expected": [
+        [
+          4,
+          2,
+          1,
+          3
+        ],
+        [
+          4,
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "item": "DS03 output-restricted impossible",
+      "actual": [
+        [
+          4,
+          1,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          3,
+          1
+        ]
+      ],
+      "expected": [
+        [
+          4,
+          1,
+          3,
+          2
+        ],
+        [
+          4,
+          2,
+          3,
+          1
+        ]
+      ]
+    },
+    {
+      "item": "DS03 matrix formulas exhaustive n=2..29",
+      "actual": true,
+      "expected": true
+    }
+  ],
+  "corrections": []
+}

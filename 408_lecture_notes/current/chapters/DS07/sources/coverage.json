@@ -1,0 +1,219 @@
+[
+  {
+    "baseline_anchor": "DS07",
+    "targets": [
+      "DS07-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-map",
+    "targets": [
+      "DS07-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-01",
+    "targets": [
+      "DS07-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-02",
+    "targets": [
+      "DS07-sequential"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-seq-code",
+    "targets": [
+      "DS07-sequential"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-ex1",
+    "targets": [
+      "DS07-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS07-03",
+    "targets": [
+      "DS07-binary"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-ex2",
+    "targets": [
+      "DS07-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS07-04",
+    "targets": [
+      "DS07-bst"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-bst-code",
+    "targets": [
+      "DS07-bst"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-05",
+    "targets": [
+      "DS07-avl"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-ex3",
+    "targets": [
+      "DS07-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS07-avl-delete",
+    "targets": [
+      "DS07-avl"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-ex4",
+    "targets": [
+      "DS07-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS07-rotate-code",
+    "targets": [
+      "DS07-avl"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-06",
+    "targets": [
+      "DS07-redblack"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-rb-insert-trace",
+    "targets": [
+      "DS07-redblack"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-07",
+    "targets": [
+      "DS07-btree"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-ex5",
+    "targets": [
+      "DS07-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS07-ex6",
+    "targets": [
+      "DS07-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS07-08",
+    "targets": [
+      "DS07-bplus"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-09",
+    "targets": [
+      "DS07-hash"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-hash-functions",
+    "targets": [
+      "DS07-hash"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-hash-probes",
+    "targets": [
+      "DS07-hash"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-hash-chain",
+    "targets": [
+      "DS07-hash-asl"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-hash-asl-course",
+    "targets": [
+      "DS07-hash-asl"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-ex7",
+    "targets": [
+      "DS07-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS07-ex8",
+    "targets": [
+      "DS07-E08"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS07-hash-code",
+    "targets": [
+      "DS07-hash-state"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-10",
+    "targets": [
+      "DS07-comparison"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS07-check",
+    "targets": [
+      "DS07-comparison"
+    ],
+    "disposition": "merged"
+  }
+]

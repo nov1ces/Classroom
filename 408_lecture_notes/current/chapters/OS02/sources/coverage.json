@@ -1,0 +1,766 @@
+[
+  {
+    "baseline_anchor": "OS02",
+    "targets": [
+      "OS02"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-guide",
+    "targets": [
+      "OS02-process-thread",
+      "OS02-states",
+      "OS02-scheduling-metrics",
+      "OS02-semaphores",
+      "OS02-deadlock"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-module-02",
+    "targets": [
+      "OS02-process-thread",
+      "OS02-states",
+      "OS02-thread-models",
+      "OS02-scheduling-algorithms",
+      "OS02-context"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-2-1",
+    "targets": [
+      "OS02-process-thread"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-2-2",
+    "targets": [
+      "OS02-states"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-course-seven-states",
+    "targets": [
+      "OS02-states"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-ex2-1",
+    "targets": [
+      "OS02-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-2-3",
+    "targets": [
+      "OS02-thread-models"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-2-4",
+    "targets": [
+      "OS02-process-thread",
+      "OS02-states"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-2-5",
+    "targets": [
+      "OS02-ipc"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-control-primitives",
+    "targets": [
+      "OS02-states"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-course-pcb-organization",
+    "targets": [
+      "OS02-states"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-signals",
+    "targets": [
+      "OS02-ipc"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-pipe-details",
+    "targets": [
+      "OS02-ipc"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-2-6",
+    "targets": [
+      "OS02-scheduling-metrics"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-2-7",
+    "targets": [
+      "OS02-scheduling-metrics"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-idle",
+    "targets": [
+      "OS02-scheduling-metrics"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-2-8",
+    "targets": [
+      "OS02-scheduling-algorithms"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-auto-1",
+    "targets": [
+      "OS02-scheduling-algorithms"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-ex2-2",
+    "targets": [
+      "OS02-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-lecture-scheduling",
+    "targets": [
+      "OS02-scheduling-algorithms"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-auto-2",
+    "targets": [
+      "OS02-scheduling-algorithms"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-course-priority",
+    "targets": [
+      "OS02-scheduling-algorithms"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-ex2-3",
+    "targets": [
+      "OS02-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-ex2-4",
+    "targets": [
+      "OS02-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-auto-3",
+    "targets": [
+      "OS02-scheduling-algorithms"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-course-multilevel",
+    "targets": [
+      "OS02-scheduling-algorithms"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-ex2-5",
+    "targets": [
+      "OS02-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-ex2-6",
+    "targets": [
+      "OS02-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-auto-4",
+    "targets": [
+      "OS02-scheduling-algorithms"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-ex2-7",
+    "targets": [
+      "OS02-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-multiqueue",
+    "targets": [
+      "OS02-scheduling-algorithms"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-2-9",
+    "targets": [
+      "OS02-context"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-course-context-example",
+    "targets": [
+      "OS02-context"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-course-multiprocessor-queues",
+    "targets": [
+      "OS02-context"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-2-10",
+    "targets": [
+      "OS02-context"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-2-review",
+    "targets": [
+      "OS02-states",
+      "OS02-thread-models",
+      "OS02-scheduling-metrics",
+      "OS02-scheduling-algorithms",
+      "OS02-context"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-auto-5",
+    "targets": [
+      "OS02-states",
+      "OS02-thread-models",
+      "OS02-scheduling-metrics",
+      "OS02-scheduling-algorithms",
+      "OS02-context"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-module-03",
+    "targets": [
+      "OS02-critical-section",
+      "OS02-semaphores",
+      "OS02-buffer",
+      "OS02-readers",
+      "OS02-philosophers",
+      "OS02-monitor"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-concepts",
+    "targets": [
+      "OS02-critical-section"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-auto-6",
+    "targets": [
+      "OS02-critical-section"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-auto-7",
+    "targets": [
+      "OS02-critical-section"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-ex-err11",
+    "targets": [
+      "OS02-E08"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-auto-8",
+    "targets": [
+      "OS02-critical-section"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-locks",
+    "targets": [
+      "OS02-locks"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-auto-9",
+    "targets": [
+      "OS02-locks"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-auto-10",
+    "targets": [
+      "OS02-locks"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-auto-11",
+    "targets": [
+      "OS02-locks"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-software-code",
+    "targets": [
+      "OS02-locks"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-integer-semaphore",
+    "targets": [
+      "OS02-semaphores"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-semaphore",
+    "targets": [
+      "OS02-semaphores"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-auto-12",
+    "targets": [
+      "OS02-semaphores"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-auto-13",
+    "targets": [
+      "OS02-semaphores"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-ex-err18",
+    "targets": [
+      "OS02-E09"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-auto-14",
+    "targets": [
+      "OS02-semaphores"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-precedence",
+    "targets": [
+      "OS02-semaphores"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-course-precedence",
+    "targets": [
+      "OS02-semaphores"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-ex-2022",
+    "targets": [
+      "OS02-E10"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-buffer",
+    "targets": [
+      "OS02-buffer"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-ex-2024",
+    "targets": [
+      "OS02-E11"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-auto-15",
+    "targets": [
+      "OS02-buffer"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-auto-16",
+    "targets": [
+      "OS02-buffer"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-ex-2009",
+    "targets": [
+      "OS02-E12"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-ex-2014",
+    "targets": [
+      "OS02-E13"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-fruit",
+    "targets": [
+      "OS02-fruit"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-readers",
+    "targets": [
+      "OS02-readers"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-auto-17",
+    "targets": [
+      "OS02-readers"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-auto-18",
+    "targets": [
+      "OS02-readers"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-philosophers",
+    "targets": [
+      "OS02-philosophers"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-auto-19",
+    "targets": [
+      "OS02-philosophers"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-monitor",
+    "targets": [
+      "OS02-monitor"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-auto-20",
+    "targets": [
+      "OS02-monitor"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-ex-2018",
+    "targets": [
+      "OS02-E14"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-auto-21",
+    "targets": [
+      "OS02-monitor"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-method",
+    "targets": [
+      "OS02-semaphores",
+      "OS02-buffer",
+      "OS02-readers",
+      "OS02-philosophers",
+      "OS02-monitor"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-selfcheck",
+    "targets": [
+      "OS02-semaphores",
+      "OS02-buffer",
+      "OS02-readers",
+      "OS02-philosophers",
+      "OS02-monitor"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-auto-22",
+    "targets": [
+      "OS02-semaphores",
+      "OS02-buffer",
+      "OS02-readers",
+      "OS02-philosophers",
+      "OS02-monitor"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-module-04",
+    "targets": [
+      "OS02-deadlock",
+      "OS02-deadlock-strategies",
+      "OS02-banker",
+      "OS02-detection"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-4-1",
+    "targets": [
+      "OS02-deadlock"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-auto-23",
+    "targets": [
+      "OS02-deadlock"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-auto-24",
+    "targets": [
+      "OS02-deadlock"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-auto-25",
+    "targets": [
+      "OS02-deadlock"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-4-2",
+    "targets": [
+      "OS02-deadlock-strategies"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-ex4-1",
+    "targets": [
+      "OS02-E15"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-4-3",
+    "targets": [
+      "OS02-banker"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-auto-26",
+    "targets": [
+      "OS02-banker"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-ex4-2",
+    "targets": [
+      "OS02-E16"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-ex4-3",
+    "targets": [
+      "OS02-E17"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS02-auto-27",
+    "targets": [
+      "OS02-banker"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-auto-28",
+    "targets": [
+      "OS02-banker"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-course-banker",
+    "targets": [
+      "OS02-banker"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-bat",
+    "targets": [
+      "OS02-banker"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-4-4",
+    "targets": [
+      "OS02-deadlock-strategies",
+      "OS02-detection"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-course-deadlock",
+    "targets": [
+      "OS02-detection"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-auto-29",
+    "targets": [
+      "OS02-deadlock-strategies"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-deadlock-detection",
+    "targets": [
+      "OS02-detection"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS02-4-review",
+    "targets": [
+      "OS02-deadlock",
+      "OS02-deadlock-strategies",
+      "OS02-banker",
+      "OS02-detection"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-auto-30",
+    "targets": [
+      "OS02-deadlock",
+      "OS02-deadlock-strategies",
+      "OS02-banker",
+      "OS02-detection"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-recall",
+    "targets": [
+      "OS02-states",
+      "OS02-thread-models",
+      "OS02-scheduling-algorithms",
+      "OS02-context",
+      "OS02-semaphores",
+      "OS02-buffer",
+      "OS02-readers",
+      "OS02-philosophers",
+      "OS02-monitor",
+      "OS02-banker",
+      "OS02-detection"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS02-recall-answers",
+    "targets": [
+      "OS02-states",
+      "OS02-thread-models",
+      "OS02-scheduling-algorithms",
+      "OS02-context",
+      "OS02-semaphores",
+      "OS02-buffer",
+      "OS02-readers",
+      "OS02-philosophers",
+      "OS02-monitor",
+      "OS02-banker",
+      "OS02-detection"
+    ],
+    "disposition": "merged"
+  }
+]

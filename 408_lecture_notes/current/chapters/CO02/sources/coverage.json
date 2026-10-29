@@ -1,0 +1,357 @@
+[
+  {
+    "baseline_anchor": "CO02",
+    "targets": [
+      "CO02"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO02-02",
+    "targets": [
+      "CO02-radix"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-03",
+    "targets": [
+      "CO02-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO02-04",
+    "targets": [
+      "CO02-fixed"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-05",
+    "targets": [
+      "CO02-conversion"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-06",
+    "targets": [
+      "CO02-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO02-07",
+    "targets": [
+      "CO02-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO02-08",
+    "targets": [
+      "CO02-shift"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-09",
+    "targets": [
+      "CO02-adder"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-10",
+    "targets": [
+      "CO02-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO02-11",
+    "targets": [
+      "CO02-flags"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-12",
+    "targets": [
+      "CO02-flags"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-13",
+    "targets": [
+      "CO02-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO02-14",
+    "targets": [
+      "CO02-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO02-15",
+    "targets": [
+      "CO02-multiply"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-16",
+    "targets": [
+      "CO02-multiply"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-17",
+    "targets": [
+      "CO02-division"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-18",
+    "targets": [
+      "CO02-ieee"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-19",
+    "targets": [
+      "CO02-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO02-20",
+    "targets": [
+      "CO02-E08"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO02-21",
+    "targets": [
+      "CO02-float-operation"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-22",
+    "targets": [
+      "CO02-E09"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO02-23",
+    "targets": [
+      "CO02-precision"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-24",
+    "targets": [
+      "CO02-E10"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO02-25",
+    "targets": [
+      "CO02-storage"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-26",
+    "targets": [
+      "CO02-E11"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO02-method",
+    "targets": [
+      "CO02-fixed",
+      "CO02-conversion",
+      "CO02-flags",
+      "CO02-float-operation"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-proof",
+    "targets": [
+      "CO02-fixed"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-precision",
+    "targets": [
+      "CO02-precision"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO02-storage",
+    "targets": [
+      "CO02-storage"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO02-digital-logic",
+    "targets": [
+      "CO02-logic"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-mux-tristate",
+    "targets": [
+      "CO02-logic"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-adder-complete",
+    "targets": [
+      "CO02-adder"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-multiply-process",
+    "targets": [
+      "CO02-multiply"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-unsigned-trace",
+    "targets": [
+      "CO02-multiply"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-booth-trace",
+    "targets": [
+      "CO02-booth"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-multiply-hardware",
+    "targets": [
+      "CO02-multiply"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-division-complete",
+    "targets": [
+      "CO02-division"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-division-registers",
+    "targets": [
+      "CO02-restoring"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-signed-division-trace",
+    "targets": [
+      "CO02-signed-division"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-rounding-complete",
+    "targets": [
+      "CO02-float-operation"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-extra-check",
+    "targets": [
+      "CO02-logic",
+      "CO02-flags",
+      "CO02-multiply",
+      "CO02-division",
+      "CO02-precision",
+      "CO02-storage",
+      "CO02-conversion"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-recall",
+    "targets": [
+      "CO02-logic",
+      "CO02-flags",
+      "CO02-multiply",
+      "CO02-division",
+      "CO02-precision",
+      "CO02-storage",
+      "CO02-conversion"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-27",
+    "targets": [
+      "CO02-logic",
+      "CO02-flags",
+      "CO02-multiply",
+      "CO02-division",
+      "CO02-precision",
+      "CO02-storage",
+      "CO02-conversion"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-recall-new",
+    "targets": [
+      "CO02-logic",
+      "CO02-flags",
+      "CO02-multiply",
+      "CO02-division",
+      "CO02-precision",
+      "CO02-storage",
+      "CO02-conversion"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO02-answers",
+    "targets": [
+      "CO02-logic",
+      "CO02-flags",
+      "CO02-multiply",
+      "CO02-division",
+      "CO02-precision",
+      "CO02-storage",
+      "CO02-conversion"
+    ],
+    "disposition": "merged"
+  }
+]

@@ -1,0 +1,309 @@
+[
+  {
+    "baseline_anchor": "CO05",
+    "targets": [
+      "CO05-state"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-map",
+    "targets": [
+      "CO05-state"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-registers",
+    "targets": [
+      "CO05-state"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-example-1",
+    "targets": [
+      "CO05-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO05-cycle",
+    "targets": [
+      "CO05-cycle-model"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-datapath",
+    "targets": [
+      "CO05-bus-operations"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-example-2",
+    "targets": [
+      "CO05-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO05-example-3",
+    "targets": [
+      "CO05-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO05-control",
+    "targets": [
+      "CO05-controller"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-microsequence",
+    "targets": [
+      "CO05-controller"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-example-4",
+    "targets": [
+      "CO05-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO05-example-5",
+    "targets": [
+      "CO05-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO05-exception",
+    "targets": [
+      "CO05-events"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-example-6",
+    "targets": [
+      "CO05-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO05-basic-check",
+    "targets": [
+      "CO05-controller",
+      "CO05-bus-operations"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO05-pipeline-performance",
+    "targets": [
+      "CO05-pipeline"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-example-7",
+    "targets": [
+      "CO05-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO05-pipeline-types",
+    "targets": [
+      "CO05-pipeline"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-stage-registers",
+    "targets": [
+      "CO05-pipeline"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-hazards",
+    "targets": [
+      "CO05-hazard"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-example-8",
+    "targets": [
+      "CO05-E08"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO05-example-9",
+    "targets": [
+      "CO05-E09"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO05-issue",
+    "targets": [
+      "CO05-parallel"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-flynn",
+    "targets": [
+      "CO05-threads"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-multithread",
+    "targets": [
+      "CO05-threads"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-example-10",
+    "targets": [
+      "CO05-E10"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO05-example-11",
+    "targets": [
+      "CO05-E11"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO05-pipeline-check",
+    "targets": [
+      "CO05-pipeline",
+      "CO05-hazard"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO05-state-complete",
+    "targets": [
+      "CO05-state",
+      "CO05-cycle-model"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO05-datapath-complete",
+    "targets": [
+      "CO05-bus-operations"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO05-fetch-details",
+    "targets": [
+      "CO05-bus-operations"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-hardwired-design",
+    "targets": [
+      "CO05-controller"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-microprogram-complete",
+    "targets": [
+      "CO05-controller"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO05-microinstruction-design",
+    "targets": [
+      "CO05-controller"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-microdesign-steps",
+    "targets": [
+      "CO05-controller"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-five-stage-details",
+    "targets": [
+      "CO05-pipeline"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-thread-details",
+    "targets": [
+      "CO05-threads"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-thread-schedule",
+    "targets": [
+      "CO05-threads"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO05-extra-check",
+    "targets": [
+      "CO05-state",
+      "CO05-controller",
+      "CO05-pipeline",
+      "CO05-hazard"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO05-recall",
+    "targets": [
+      "CO05-state",
+      "CO05-cycle-model",
+      "CO05-controller",
+      "CO05-events",
+      "CO05-pipeline",
+      "CO05-hazard",
+      "CO05-parallel",
+      "CO05-threads"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO05-recall-answers",
+    "targets": [
+      "CO05-state",
+      "CO05-cycle-model",
+      "CO05-controller",
+      "CO05-events",
+      "CO05-pipeline",
+      "CO05-hazard",
+      "CO05-parallel",
+      "CO05-threads"
+    ],
+    "disposition": "merged"
+  }
+]

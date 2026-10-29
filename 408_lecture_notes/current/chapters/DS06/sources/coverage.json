@@ -1,0 +1,205 @@
+[
+  {
+    "baseline_anchor": "DS06",
+    "targets": [
+      "DS06-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-map",
+    "targets": [
+      "DS06-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-01",
+    "targets": [
+      "DS06-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-ex1",
+    "targets": [
+      "DS06-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS06-02",
+    "targets": [
+      "DS06-storage"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-storage-code",
+    "targets": [
+      "DS06-storage"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-matrix-power",
+    "targets": [
+      "DS06-storage"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-03",
+    "targets": [
+      "DS06-storage"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-04",
+    "targets": [
+      "DS06-traversal"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-ex2",
+    "targets": [
+      "DS06-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS06-traversal-order",
+    "targets": [
+      "DS06-traversal"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-05",
+    "targets": [
+      "DS06-bfs-shortest"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-bfs-course",
+    "targets": [
+      "DS06-bfs-shortest"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-06",
+    "targets": [
+      "DS06-mst"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-ex3",
+    "targets": [
+      "DS06-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS06-mst-code",
+    "targets": [
+      "DS06-mst"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-07",
+    "targets": [
+      "DS06-shortest"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-ex4",
+    "targets": [
+      "DS06-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS06-shortest-code",
+    "targets": [
+      "DS06-shortest"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-floyd-example",
+    "targets": [
+      "DS06-shortest"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-expression-dag",
+    "targets": [
+      "DS06-topological"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-08",
+    "targets": [
+      "DS06-topological"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-ex5",
+    "targets": [
+      "DS06-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS06-topo-code",
+    "targets": [
+      "DS06-topological"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-reverse-topo",
+    "targets": [
+      "DS06-topological"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-09",
+    "targets": [
+      "DS06-critical"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-ex6",
+    "targets": [
+      "DS06-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS06-aoe-code",
+    "targets": [
+      "DS06-critical"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS06-check",
+    "targets": [
+      "DS06-critical"
+    ],
+    "disposition": "merged"
+  }
+]

@@ -1,0 +1,72 @@
+{
+  "review_time_utc": "2026-10-29T00:06:31.637559+00:00",
+  "reviewer": "independent Sol verify_content_reinforce",
+  "files_sha256": {
+    "content.md": "f6faf3a43de5b623f7ce990cc0abfe3f2de0df3dcd286c2d5dcdc6297f1cc12f",
+    "examples.json": "f2b08494f100553a1abed384c41411c3b434a40d0a3c6fd677df07f48e77930f",
+    "sidebars.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "map.json": "e0e62069464bb12bd29a883746a982a84949d0037a160b4aa3d8bf15b539b7c8",
+    "sources/coverage.json": "56e489d01b1e77da52d134d7be93791bbd8548f89dc4e51e945fcfc16e4265d6"
+  },
+  "baseline_sha256": "ed23044b127ff6ef5701ebee979f8161e007fca5bf18c7fcf1bac6668dccb2c2",
+  "scope": [
+    "Read complete current chapter content, all question/answer/solution entries, and all sidebars.",
+    "Compared retained concept coverage against every baseline heading and inspected targeted substantive baseline/source passages; no material concept omission identified in that scope.",
+    "Manually reasoned through all retained examples; computed selected numerical/protocol cases independently below.",
+    "Checked available textbook answer index and listed OCR/readable records only; did not re-view all original courseware/textbook PDF pages or images."
+  ],
+  "examples_read": 12,
+  "source_sampling": {
+    "ocr": [
+      "CN_085.json",
+      "CN_118.json"
+    ],
+    "readable": [
+      "04_计算机网络_book.txt:1998 B NAV题"
+    ],
+    "figures": [
+      "CN20_gbn_2017.svg (text fields only)"
+    ]
+  },
+  "source_index_limitations": [],
+  "pdf_visual_review": false,
+  "build_performed": false,
+  "checks": [
+    {
+      "item": "CRC four option remainders",
+      "actual": "[12, 8, 4, 0]",
+      "expected": "[12, 8, 4, 0]",
+      "passed": true
+    },
+    {
+      "item": "minimum Hamming distance",
+      "actual": "4",
+      "expected": "4",
+      "passed": true
+    },
+    {
+      "item": "GBN required window",
+      "actual": "10",
+      "expected": "10",
+      "passed": true
+    },
+    {
+      "item": "CTS NAV microseconds",
+      "actual": "354.0",
+      "expected": "354.0",
+      "passed": true
+    },
+    {
+      "item": "bidirectional GBN utilization",
+      "actual": "1/2",
+      "expected": "1/2",
+      "passed": true
+    }
+  ],
+  "corrections": [],
+  "remaining_limitations": [
+    "Original explanation screenshots not verified in this review.",
+    "Diagram graphics were not visually re-inspected; listed SVG checks read textual data only.",
+    "No PDF pagination, clipping, font, or rendered-formula assessment."
+  ]
+}

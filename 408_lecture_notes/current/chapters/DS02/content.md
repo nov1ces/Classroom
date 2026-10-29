@@ -1,0 +1,273 @@
+# 线性表 {#DS02}
+
+## 线性表、位序与表示 {#DS02-definition}
+
+线性表是$n$个相同数据类型元素的有限序列；$n=0$为空表。非空表首元素无直接前驱，末元素无直接后继，其余各有一个直接前驱和直接后继。元素值可重复。
+
+已有元素位序为$1..n$；插入位序为$1..n+1$。数组`data[0..n-1]`中，位序$i$对应下标$i-1$。本章带头单链表中，`L`为头指针，指向不保存有效数据的头结点，首元结点为`L->next`。
+
+## 顺序表：寻址、插入与删除 {#DS02-sequence}
+
+首元素地址$b$、每元素占$w$个地址单位时，第$i$个元素地址为$b+(i-1)w$，按位访问$O(1)$。无序按值查找最坏$O(n)$。
+
+```cpp
+#define MaxSize 100
+typedef int ElemType;
+typedef struct {
+    ElemType data[MaxSize];
+    int length;
+} SqList;
+```
+
+```cpp
+void InitList(SqList &L) { L.length = 0; }
+ElemType GetElem(SqList L, int i) {
+    return L.data[i - 1];  // 前提：1 <= i <= L.length
+}
+int LocateElem(SqList L, ElemType e) {
+    for (int i = 0; i < L.length; ++i)
+        if (L.data[i] == e) return i + 1;
+    return 0;
+}
+```
+
+`GetElem`要求位序合法；`LocateElem`成功返回首次相等元素的位序，失败返回0。若元素为结构体，按题意定义比较规则。
+
+```cpp
+bool ListInsert(SqList &L, int i, ElemType e) {
+    if (i < 1 || i > L.length + 1) return false;
+    if (L.length >= MaxSize) return false;
+    for (int j = L.length; j >= i; --j)
+        L.data[j] = L.data[j - 1];
+    L.data[i - 1] = e;
+    ++L.length;
+    return true;
+}
+bool ListDelete(SqList &L, int i, ElemType &e) {
+    if (i < 1 || i > L.length) return false;
+    e = L.data[i - 1];
+    for (int j = i; j < L.length; ++j)
+        L.data[j - 1] = L.data[j];
+    --L.length;
+    return true;
+}
+```
+
+| 操作 | 搬移方向 | 位序$i$的移动数 | 等概率平均移动数 |
+| --- | --- | --- | --- |
+| 插入 | 后向前 | $n-i+1$ | $n/2$，共$n+1$个位置 |
+| 删除 | 前向后 | $n-i$ | $(n-1)/2$，共$n$个位置 |
+
+追加、删末元素可为$O(1)$；一般插删最坏$O(n)$。失败操作保持表长，输出参数只在删除成功后有效。
+
+{{example:DS02-E01}}
+
+### 动态顺序表 {#DS02-dynamic}
+
+动态顺序表仍用连续数组；结构记录`data、length、MaxSize`。容量不足时申请更大的连续区，复制$n$个有效元素并释放旧区，单次扩容时间$O(n)$，新旧区共存时额外空间$O(n)$。静态容量固定时，表长仍可变化。
+
+以下动态类型与前面的静态宏`MaxSize`示例独立使用；`ElemType`取整型，需包含`<stdlib.h>`。接口以申请成功、`len>0`且容量运算不溢出为前提。
+
+```cpp
+#define InitSize 100
+typedef struct {
+    ElemType *data;
+    int MaxSize;
+    int length;
+} SeqList;
+void InitList(SeqList &L) {
+    L.data = (ElemType *)malloc(InitSize * sizeof(ElemType));
+    L.length = 0;
+    L.MaxSize = InitSize;
+}
+void IncreaseSize(SeqList &L, int len) {
+    ElemType *p = L.data;
+    L.data = (ElemType *)malloc(
+        (L.MaxSize + len) * sizeof(ElemType));
+    for (int i = 0; i < L.length; ++i)
+        L.data[i] = p[i];
+    L.MaxSize += len;
+    free(p);
+}
+```
+
+工程实现先用临时指针接收申请结果，成功后替换`data`。清空只令表长为0，销毁才释放连续区。
+
+## 单链表：定位与链接修改 {#DS02-linked}
+
+```cpp
+typedef struct LNode {
+    ElemType data;
+    struct LNode *next;
+} LNode, *LinkList;
+bool InitList(LinkList &L) {
+    L = (LNode *)malloc(sizeof(LNode));
+    if (L == NULL) return false;
+    L->next = NULL;
+    return true;
+}
+```
+
+结点间无需连续；按位定位沿`next`逐个前进，最坏$O(n)$。`malloc/free`成对使用。
+
+```cpp
+LNode *GetElem(LinkList L, int i) {
+    if (i < 0) return NULL;
+    int j = 0;
+    LNode *p = L;
+    while (p != NULL && j < i) {
+        p = p->next;
+        ++j;
+    }
+    return p;
+}
+LNode *LocateElem(LinkList L, ElemType e) {
+    LNode *p = L->next;
+    while (p != NULL && p->data != e) p = p->next;
+    return p;
+}
+```
+
+带头结点时`GetElem(L,0)`返回头结点，超过表长返回空。按值查找从首元结点开始。
+
+```cpp
+bool InsertNextNode(LNode *p, ElemType e) {
+    if (p == NULL) return false;
+    LNode *s = (LNode *)malloc(sizeof(LNode));
+    if (s == NULL) return false;
+    s->data = e;
+    s->next = p->next;
+    p->next = s;
+    return true;
+}
+bool ListInsert(LinkList &L, int i, ElemType e) {
+    if (i < 1) return false;
+    LNode *p = GetElem(L, i - 1);
+    return InsertNextNode(p, e);
+}
+bool ListDelete(LinkList &L, int i, ElemType &e) {
+    if (i < 1) return false;
+    LNode *p = GetElem(L, i - 1);
+    if (p == NULL || p->next == NULL) return false;
+    LNode *q = p->next;
+    e = q->data;
+    p->next = q->next;
+    free(q);
+    return true;
+}
+```
+
+插入先令新结点指向旧后继，再修改前驱链接；删除先保存被删结点和后继，再摘除、释放。已知前驱的局部修改为$O(1)$；按位序插删还需$O(n)$定位。
+
+![单链表后插的链接顺序](DS_01_list_insert.png){#DS02-insert-figure}
+
+仅给结点$p$，在允许改变数据与结点身份时，可通过复制数据实现前插或删自身；删除自身的复制后继法要求$p$有后继，尾结点不适用。共享后缀结点需统一管理释放。
+
+不带头结点时空表为`L==NULL`。位置1插入执行`s->next=L; L=s`；删除首元执行`p=L; L=L->next; free(p)`。修改头指针的接口须用引用或二级指针。
+
+### 建表与原地逆置 {#DS02-build}
+
+| 方法 | 每轮接入 | 输入次序 | 建$n$结点时间 |
+| --- | --- | --- | --- |
+| 头插 | `s->next=L->next; L->next=s` | 逆序 | $O(n)$ |
+| 尾插 | `r->next=s; r=s`，结束置`r->next=NULL` | 保序 | $O(n)$，维护尾指针 |
+
+头插前令`L->next=NULL`；尾插前令`r=L`。每轮重新寻找尾部的尾插建表需$O(n^2)$。教材交互式建表以9999为结束标志时，9999不能同时作为普通数据。
+
+```c
+void reverseList(LNode *L) {       // 带头结点
+    LNode *prev=NULL, *cur=L->next;
+    while (cur!=NULL) {
+        LNode *nxt=cur->next;
+        cur->next=prev;
+        prev=cur;
+        cur=nxt;
+    }
+    L->next=prev;
+}
+```
+
+逆置维护已逆置前缀与未处理后缀，改`cur->next`前保存后继。时间$\Theta(n)$、辅助空间$\Theta(1)$，空表与单元素表均适用。
+
+{{example:DS02-E02}}
+
+## 双链表、循环链表与静态链表 {#DS02-variants}
+
+双链表增加`prior`域。已知有效结点后可直接取得前驱；按位查找仍需遍历。非循环链的首尾边界要检查空指针。
+
+```cpp
+typedef struct DNode {
+    ElemType data;
+    struct DNode *prior, *next;
+} DNode, *DLinklist;
+bool InsertNextDNode(DNode *p, DNode *s) {
+    if (p == NULL || s == NULL) return false;
+    s->next = p->next;
+    if (p->next != NULL) p->next->prior = s;
+    s->prior = p;
+    p->next = s;
+    return true;
+}
+bool DeleteNextDNode(DNode *p) {
+    if (p == NULL || p->next == NULL) return false;
+    DNode *q = p->next;
+    p->next = q->next;
+    if (q->next != NULL) q->next->prior = p;
+    free(q);
+    return true;
+}
+```
+
+{{example:DS02-E03}}
+
+| 表示 | 空状态 | 遍历终止或关键条件 |
+| --- | --- | --- |
+| 带头普通单链表 | `L->next==NULL` | 当前指针为NULL |
+| 带头循环单链表 | `L->next==L` | 重新遇到头结点；尾满足`p->next==L` |
+| 带头循环双链表 | `L->next==L && L->prior==L` | 正反向均以头结点为边界 |
+| 无头循环单链表，仅尾指针`rear` | 空状态另行约定 | 首元为`rear->next` |
+
+两个非空、无头循环单链表给定尾指针时，交换两个尾部的后继即可$O(1)$拼接；只给头指针通常须先找尾。带头结点版本还要删除或绕过多余头结点。
+
+**静态链表**用数组保存结点、游标保存后继，逻辑顺序由游标决定；按逻辑位序访问仍需遍历。须管理空闲位置。例如底稿表示以0号为头结点、`next=-1`为链尾、`next=-2`为空闲，三个状态各有用途。物理地址可按数组下标寻址，不能将该下标直接作为逻辑位序。
+
+## 线性扫描、双指针与归并 {#DS02-methods}
+
+**连续删除**：指针$p$始终指向已处理区的最后一个保留结点；删除$p$后继后继续检查新后继，保留后继时才推进$p$。
+
+```cpp
+void eraseAll(LNode* L, int x) {
+    LNode* p = L;
+    while (p->next != NULL) {
+        if (p->next->data == x) {
+            LNode* q = p->next;
+            p->next = q->next;
+            free(q);
+        } else {
+            p = p->next;
+        }
+    }
+}
+```
+
+**有序数组去重**：读指针扫描，写指针维护互异前缀；仅当当前值不同于最后保留值时写入。时间$O(n)$、空间$O(1)$。无序输入仅消除相邻重复。
+
+**有序归并**：每次输出两表当前首元素中较小者并推进对应指针，最后接余段。长度$m,n$的两表需$O(m+n)$时间。数组常需输出区；允许破坏原链表时可重接结点。稳定合并相等时先取左表；集合并集相等时只留一次并同时推进。
+
+{{example:DS02-E04}}
+
+{{example:DS02-E05}}
+
+{{example:DS02-E06}}
+
+## 顺序表与链表的操作代价 {#DS02-comparison}
+
+| 操作或资源 | 顺序表 | 带头单链表 |
+| --- | --- | --- |
+| 按位访问 | $O(1)$ | $O(n)$ |
+| 无序按值查找 | $O(n)$ | $O(n)$ |
+| 按位插入、删除 | 最坏$O(n)$ | 定位最坏$O(n)$ |
+| 已知前驱后插、删后继 | 仍可能搬移后缀 | $O(1)$ |
+| 额外空间 | 未用容量、扩容临时区 | 每结点链接域与分配开销 |
+
+顺序表连续访问具有局部性；链表适合已定位后的频繁局部修改。空间比较还要计容量利用率、链接宽度和分配开销。

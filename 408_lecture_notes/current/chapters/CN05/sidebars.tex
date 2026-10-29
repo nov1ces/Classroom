@@ -1,0 +1,3 @@
+\expandafter\gdef\csname SNside5\endcsname{\node[anchor=north west,inner sep=0pt,text width=48mm,font=\SideFont,align=left] (SNsidebox) at ([xshift=138mm,yshift=-156.69pt]current page.north west) {\textbf{固定窗口下的吞吐上界}\par\smallskip 长连接、窗口固定、确认及时且无损失的理想模型中，窗口约束的数据率不超过 \(W/RTT\)；\(W\)用bit。还须与路径瓶颈速率取小。
+};\pgfextracty{\SNsideheight}{\pgfpointdiff{\pgfpointanchor{SNsidebox}{south}}{\pgfpointanchor{SNsidebox}{north}}}\typeout{SNHEIGHT:5:0:\the\SNsideheight}}
+\AddToShipoutPictureFG{\begin{tikzpicture}[remember picture,overlay]\ifcsname SNside\thepage\endcsname\csname SNside\thepage\endcsname\fi\end{tikzpicture}}

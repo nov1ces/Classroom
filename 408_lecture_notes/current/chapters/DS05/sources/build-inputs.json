@@ -1,0 +1,18 @@
+{
+  "tools/build_notes.py": "cc59ed7f23d83250d5957ebe3f1ccae0c4119fe955ba2d9ce9b6da0609c70af4",
+  "chapters/DS05/map.json": "98dfde84949e11b32d62750c59663f4fbadbf7b8a8745d34b11fffa783e215b7",
+  "chapters/DS05/content.md": "f45b3d5d5bee9834ef4cc7ed880e4b78b201594bfa3c190f8b7fb18a0c11e814",
+  "chapters/DS05/examples.json": "20d6116330a50a7902be1740da318e63ca009b6d7c21a777b1e84443a30238c4",
+  "chapters/DS05/sidebars.json": "6fa228dc344896bb9124fa977c8637bba2ed7aa800c9b4cc8257c34595b63c9a",
+  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
+  "chapters/DS05/figures/DS_05_binary_traversal.png": "aaae9372a19611a7f69796058470f17a2188855ac0085fcefca2554615b35ba5",
+  "chapters/DS05/figures/DS_06_inorder_threads.png": "79f005f52bf6da5979851208a768879c0eec7dd916550393b5d49a96db5469fe",
+  "chapters/DS05/figures/DS_07_forest_conversion.png": "e4534fd2225953ba5372341a596065a26137c99c172b055f9829162b4975518d",
+  "chapters/DS05/figures/DS_05_binary_traversal.pdf": "c02bf9b4cc2dfca835c9051876b6d03ad06e51fbc93f99f3a142af0ecaa5cf02",
+  "chapters/DS05/figures/DS_07_forest_conversion.svg": "75852c1c40d3ecf2a3b5c5eef43e0cf9281d13ace85cbc9d9a88631c7159f24e",
+  "chapters/DS05/figures/DS_06_inorder_threads.pdf": "c290afb21fe6ee30bf909bf2d081611b139d3c8f1686b143636df22163ff6be0",
+  "chapters/DS05/figures/DS_05_binary_traversal.svg": "d65cca95e820a078fe45de26864b113b853e5fdd9d566bc9d83b2e207d7e6593",
+  "chapters/DS05/figures/DS_07_forest_conversion.pdf": "dad5c55174617e2b7870662343e09bfb6c6a0fdf0c4663f763361d24d325525b",
+  "chapters/DS05/figures/DS_06_inorder_threads.svg": "7ab4eb53eaefcfff5c90338a9decaef28e380eb738a701e7d1da33ecc1da4e86"
+}

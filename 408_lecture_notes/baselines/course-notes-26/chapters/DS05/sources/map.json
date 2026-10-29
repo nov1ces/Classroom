@@ -1,0 +1,132 @@
+{
+  "id": "DS05",
+  "title": "树与二叉树",
+  "branches": [
+    {
+      "label": "树与森林的概念",
+      "children": [
+        "结点与父子兄弟",
+        "有序树与无序树",
+        "结点度与树度",
+        "层次高度与路径",
+        "边数及叶数计数"
+      ],
+      "target": "DS05-01"
+    },
+    {
+      "label": "二叉树性质与表示",
+      "children": [
+        "满与完全二叉树",
+        "叶数与双孩子结点",
+        "顺序编号及空位",
+        "二叉链表空域"
+      ],
+      "target": "DS05-02"
+    },
+    {
+      "label": "遍历与线索化",
+      "children": [
+        "先中后序及层序",
+        "非递归栈状态",
+        "遍历序列还原",
+        "中序线索与标志",
+        "前驱后继及边界"
+      ],
+      "target": "DS05-04"
+    },
+    {
+      "label": "树森林的存储与转换",
+      "children": [
+        "双亲表示",
+        "孩子表示",
+        "孩子兄弟表示",
+        "左孩子右兄弟转换",
+        "先根后根与二叉遍历"
+      ],
+      "target": "DS05-06"
+    },
+    {
+      "label": "哈夫曼树与编码",
+      "children": [
+        "带权路径长度",
+        "合并两个最小权根",
+        "最优性与编码非唯一",
+        "前缀编码与剩余容量",
+        "多路归并的零权补叶"
+      ],
+      "target": "DS05-09"
+    },
+    {
+      "label": "并查集与堆的连接",
+      "children": [
+        "双亲森林与代表元",
+        "按规模合并",
+        "路径压缩不改集合",
+        "完全性与堆序",
+        "插入上滤及删根下滤"
+      ],
+      "target": "DS05-10"
+    }
+  ],
+  "sources": [
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.1.1+5.1.2 树的定义和基本术语.pdf",
+      "pages": [
+        12
+      ],
+      "role": "slide_map",
+      "visual_checked": true,
+      "topic": "树与森林的概念"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.1 哈夫曼树.pdf",
+      "pages": [
+        13
+      ],
+      "role": "slide_map",
+      "visual_checked": true,
+      "topic": "哈夫曼树与编码"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.1_2 二叉树的性质.pdf",
+      "pages": [
+        8
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "二叉树性质与表示"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_3 在线索二叉树中找前驱后继.pdf",
+      "pages": [
+        13,
+        14
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "遍历与线索化"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.1 树的存储结构.pdf",
+      "pages": [
+        17
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "树森林的存储与转换"
+    },
+    {
+      "file": "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.2_1 并查集.pdf",
+      "pages": [
+        21
+      ],
+      "role": "slide_map",
+      "visual_checked": false,
+      "topic": "并查集与堆的连接"
+    }
+  ],
+  "mode": "integrated_from_existing_maps",
+  "missing_map_notes": [
+    "章级总导图为节级导图的整合重绘。堆在教材排序章展开，本章保留其与完全二叉树的连接并补绘关联分支；并查集进一步优化课件未检索到标题，按其正文及旧讲义补齐路径压缩/按规模合并分支。"
+  ]
+}

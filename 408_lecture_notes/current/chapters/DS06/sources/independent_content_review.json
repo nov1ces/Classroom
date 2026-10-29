@@ -1,0 +1,60 @@
+{
+  "review_time_utc": "2026-10-28T17:22:08.933658+00:00",
+  "reviewer": "independent Sol content_review",
+  "files_sha256": {
+    "content.md": "1fda8e13658406f2967e1ef392d4af99345c75d6ecf877de1294b4e5b577a45d",
+    "examples.json": "bf49c3396bbad4e61be283dde8efc1b1b5e18612d9c09407b11b4c2027cc0505",
+    "sidebars.json": "747dcbe9d3a38f3fd62ecb048833b9e83f5583de5af827dcfa3472288916756d",
+    "sources/coverage.json": "ba9cea82d26ebeee78b856e046f42629f307540aeb5c74380191eda7f7592458"
+  },
+  "scope": [
+    "Read complete content, examples (question/answer/solution), sidebars",
+    "Checked retained concepts against baseline chapter heading inventory and substantive text",
+    "Manual answer/algorithm reasoning; representative graph diagrams checked in baseline; no claim of re-viewing all original textbook pages"
+  ],
+  "examples_read": 6,
+  "pdf_visual_review": false,
+  "checks": [
+    {
+      "item": "DS06 AOE ve order 1,3,2,4,5,6",
+      "actual": [
+        0,
+        8,
+        12,
+        21,
+        18,
+        27
+      ],
+      "expected": [
+        0,
+        8,
+        12,
+        21,
+        18,
+        27
+      ]
+    },
+    {
+      "item": "DS06 AOE vl",
+      "actual": [
+        0,
+        8,
+        12,
+        21,
+        18,
+        27
+      ],
+      "expected": [
+        0,
+        8,
+        12,
+        21,
+        18,
+        27
+      ]
+    }
+  ],
+  "corrections": [
+    "Declared nonnegative common edge weight for BFS weighted-shortest interpretation and distinguished distance in edges from weight"
+  ]
+}

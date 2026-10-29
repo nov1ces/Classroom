@@ -1,0 +1,7 @@
+[
+  {
+    "anchor": "OS03-paging",
+    "title": "未对齐对象占页数",
+    "body": "长度 $L>0$ B 的连续虚拟对象，起址页内偏移为 $w$，页大小为 $P$ B，占用页数为 $\\lceil(w+L)/P\\rceil$；只有页对齐即 $w=0$ 时，才可直接用 $\\lceil L/P\\rceil$。"
+  }
+]

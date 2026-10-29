@@ -1,0 +1,21 @@
+{
+  "tools/build_notes.py": "cc59ed7f23d83250d5957ebe3f1ccae0c4119fe955ba2d9ce9b6da0609c70af4",
+  "chapters/DS06/map.json": "6f79e932f31f8273ceec8dc9489b01e5183f8da344ddab98b6a6331878c7ca3f",
+  "chapters/DS06/content.md": "1821b499230034d3fe4a5f1ecce70970d70d3239fdbb27dd67aeeca8a7c77d2e",
+  "chapters/DS06/examples.json": "bf49c3396bbad4e61be283dde8efc1b1b5e18612d9c09407b11b4c2027cc0505",
+  "chapters/DS06/sidebars.json": "747dcbe9d3a38f3fd62ecb048833b9e83f5583de5af827dcfa3472288916756d",
+  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
+  "chapters/DS06/figures/DS_12_dijkstra_2021.svg": "67b0bf7c2f5277dd2743669b3950b6c2f024d0651c3a82d95cdeecde6debc7fb",
+  "chapters/DS06/figures/DS06_bfs_course.png": "50491afd24646bca240c1676f2584f2fdcd698f4c4d8ff8e8d7e8fef775af62e",
+  "chapters/DS06/figures/DS_12_dijkstra_2021.png": "6c333320ffe539f1e2f47c4bb3aa2a4a41ace5de8db13d94ac6219b9d810cfff",
+  "chapters/DS06/figures/DS_11_mst_2015.pdf": "7c87a2423a33047d01f12341728a90060bc97ceb0274d5e9f6497066e675c6c2",
+  "chapters/DS06/figures/DS_13_aoe_2013.png": "5bf69da5f4d74230335e70cbf72f0f82daef9f32eb362e793fb6a8bd329f956f",
+  "chapters/DS06/figures/DS06_bfs_course.pdf": "21d47fab397ee7c2623f3e5c1e7ec6248643e714f806a7eecc6e6aab56bca35c",
+  "chapters/DS06/figures/DS_11_mst_2015.svg": "c7db482d4f8f0c5c3ad2379d9862accd38b69aa0c6484c300f7621c800468135",
+  "chapters/DS06/figures/DS_11_mst_2015.png": "a097e660ab7a3e8e9a49da4190383a278de33c4ce58dba508810d2ee4dc03ca4",
+  "chapters/DS06/figures/DS06_bfs_course.svg": "1ae405dbc45404e2790d01eb079c942efef88857aab09fb64e4073e8e03da968",
+  "chapters/DS06/figures/DS_13_aoe_2013.pdf": "631a2a75ab2905c98cb0294e659e668b0501eab4eff184d032da8972771a3e10",
+  "chapters/DS06/figures/DS_13_aoe_2013.svg": "458a9d67af09028f7c582a98a25a80b0a61c590b4280b64211a1f6a95cbed805",
+  "chapters/DS06/figures/DS_12_dijkstra_2021.pdf": "14d258470c9713688b1c0de023ee11fbef217101d969d3609daac1c3c2f9b10a"
+}

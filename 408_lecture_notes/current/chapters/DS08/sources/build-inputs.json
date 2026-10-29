@@ -1,0 +1,12 @@
+{
+  "tools/build_notes.py": "cc59ed7f23d83250d5957ebe3f1ccae0c4119fe955ba2d9ce9b6da0609c70af4",
+  "chapters/DS08/map.json": "6e8685254e6dd44a1f4c199e18bd0c6bacba291c0626485596aa2163ad5610dc",
+  "chapters/DS08/content.md": "7e1064bf5e921269556fcc4cb1f14715c205387a69e4d4454c2d0e7dedcf0827",
+  "chapters/DS08/examples.json": "15e90388f1732f2f8a588448c07d646da83dcf174d589c5a9fda56cb83b9612f",
+  "chapters/DS08/sidebars.json": "eceecfc80f79ce9cdc44c35d934d40ecdc46473367991c3ccea4d86b4c58b4b0",
+  "common/sidenotes.cls": "c5800cb97e7c466cf3c3eb755f992d9f61c8fd4c13dde8839be6fd4428acf811",
+  "common/sidenotes-simplex.cls": "a8fd9b0177ff9064117a6a3ee7dec39ff52eff45460cc6b273d39be729a10dbe",
+  "chapters/DS08/figures/DS_19_loser_tree.png": "deb007e1a1128796073affe73dd0b07aaa48228bf09e31d601eb60bdc7c891cc",
+  "chapters/DS08/figures/DS_19_loser_tree.pdf": "5c5c441e279fe9b617556e1eb27b0cd457c25ebab190f4080cf9ba271b9bc117",
+  "chapters/DS08/figures/DS_19_loser_tree.svg": "c9e2eb114afc420156e5afad668b77545d01c74b813706e5fd9187965b154806"
+}

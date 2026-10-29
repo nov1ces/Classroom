@@ -1,0 +1,20 @@
+{
+  "CN05": "传输层",
+  "CN05-endpoints": "端口、连接与数据边界",
+  "CN05-E01": "例 5-1",
+  "CN05-udp-checksum": "UDP长度与反码检验和",
+  "CN05-E02": "例 5-2",
+  "CN05-tcp-header": "TCP首部、序号与累计确认",
+  "CN05-E03": "例 5-3",
+  "CN05-connection": "三次握手、半关闭与TIME-WAIT",
+  "CN05-E04": "例 5-4",
+  "CN05-retransmission": "重传、重复ACK与RTT估计",
+  "CN05-windows": "接收窗口、拥塞窗口与可新发额度",
+  "CN05-E06": "例 5-6",
+  "CN05-congestion": "慢开始、拥塞避免与Reno恢复",
+  "CN05-E05": "例 5-5",
+  "CN05-E07": "例 5-7",
+  "CN05-integrated": "TCP字段与接收缓存综合计算",
+  "CN05-E08": "例 5-8",
+  "CN05-E09": "例 5-9"
+}

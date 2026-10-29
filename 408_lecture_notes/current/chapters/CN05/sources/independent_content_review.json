@@ -1,0 +1,61 @@
+{
+  "review_time_utc": "2026-10-29T00:06:31.638326+00:00",
+  "reviewer": "independent Sol verify_content_reinforce",
+  "files_sha256": {
+    "content.md": "4ee4dcd3d539becde020c77de64013678e32742d41fe62d5e5270051ed603d13",
+    "examples.json": "befaca4dc569ff271dcd1228e3dcc012f785ea042734813359c7626d1ca70f88",
+    "sidebars.json": "5fc20118efd4b045db828a53be667586f65a4657eedc2a8956cd992b493ceae4",
+    "map.json": "ede134784810500a2d846b526532b38bf6c388933d82afe4bfe7fe7cd1ea0d8a",
+    "sources/coverage.json": "8207bef59b1d836ca6dcdb77a6b7bd4d5c5b08b909e2193297d574a4ea7322f4"
+  },
+  "baseline_sha256": "29a841c849d91a3a3db4ee784ea349e68886efdab2bad77aaf25bc2135ebb0a3",
+  "scope": [
+    "Read complete current chapter content, all question/answer/solution entries, and all sidebars.",
+    "Compared retained concept coverage against every baseline heading and inspected targeted substantive baseline/source passages; no material concept omission identified in that scope.",
+    "Manually reasoned through all retained examples; computed selected numerical/protocol cases independently below.",
+    "Checked available textbook answer index and listed OCR/readable records only; did not re-view all original courseware/textbook PDF pages or images."
+  ],
+  "examples_read": 9,
+  "source_sampling": {
+    "ocr": [],
+    "readable": [],
+    "figures": [
+      "CN25_packets_2012.svg (all six byte tables read; protocol fields recalculated)"
+    ]
+  },
+  "source_index_limitations": [],
+  "pdf_visual_review": false,
+  "build_performed": false,
+  "checks": [
+    {
+      "item": "ones complement checksum",
+      "actual": "0xe083",
+      "expected": "0xe083",
+      "passed": true
+    },
+    {
+      "item": "confirmed payload hexadecimal difference",
+      "actual": "16",
+      "expected": "16",
+      "passed": true
+    },
+    {
+      "item": "receive cache next seq",
+      "actual": "20581",
+      "expected": "20581",
+      "passed": true
+    },
+    {
+      "item": "20KiB in five RTT bit/s",
+      "actual": "163840",
+      "expected": "163840",
+      "passed": true
+    }
+  ],
+  "corrections": [],
+  "remaining_limitations": [
+    "Original explanation screenshots not verified in this review.",
+    "Diagram graphics were not visually re-inspected; listed SVG checks read textual data only.",
+    "No PDF pagination, clipping, font, or rendered-formula assessment."
+  ]
+}

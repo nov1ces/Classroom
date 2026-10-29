@@ -1,0 +1,769 @@
+{
+  "chapter": "CN04",
+  "lecture_files": [
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.1 网络层的功能.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "targets": [
+        "CN04-forwarding"
+      ],
+      "baseline_targets": [
+        "CN04-01",
+        "CN04-02",
+        "CN04-03"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.1 IPv4分组.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "targets": [
+        "CN04-ipv4",
+        "CN04-E02"
+      ],
+      "baseline_targets": [
+        "CN04-07",
+        "CN04-ex2"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.2 IP地址+ 整章串讲.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "targets": [
+        "CN04-addresses",
+        "CN04-arp-nat"
+      ],
+      "baseline_targets": [
+        "CN04-08",
+        "CN04-course-addresses",
+        "CN04-11"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.3 子网划分与和子网掩码（有上课手稿）.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "targets": [
+        "CN04-addresses",
+        "CN04-E03",
+        "CN04-E06",
+        "CN04-E10"
+      ],
+      "baseline_targets": [
+        "CN04-08",
+        "CN04-ex3",
+        "CN04-ex6",
+        "CN04-ex10"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.3 子网划分与和子网掩码（纯净版）.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "targets": [
+        "CN04-addresses",
+        "CN04-E03",
+        "CN04-E06",
+        "CN04-E10"
+      ],
+      "baseline_targets": [
+        "CN04-08",
+        "CN04-ex3",
+        "CN04-ex6",
+        "CN04-ex10"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.4 无分类编址 CIDR.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "targets": [
+        "CN04-addresses",
+        "CN04-E04"
+      ],
+      "baseline_targets": [
+        "CN04-08",
+        "CN04-ex4",
+        "CN04-course-vlsm"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.5 路由聚合.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "targets": [
+        "CN04-prefix",
+        "CN04-E05",
+        "CN04-E11"
+      ],
+      "baseline_targets": [
+        "CN04-09",
+        "CN04-ex5",
+        "CN04-ex11"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.6 网络地址转换 NAT（有上课手稿）.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "targets": [
+        "CN04-arp-nat",
+        "CN04-addresses"
+      ],
+      "baseline_targets": [
+        "CN04-10",
+        "CN04-course-addresses"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.6 网络地址转换 NAT（纯净版无手稿）.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "targets": [
+        "CN04-arp-nat",
+        "CN04-addresses"
+      ],
+      "baseline_targets": [
+        "CN04-10",
+        "CN04-course-addresses"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.7 地址解析协议ARP（有上课手稿）.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targets": [
+        "CN04-arp-nat",
+        "CN04-E06"
+      ],
+      "baseline_targets": [
+        "CN04-11",
+        "CN04-ex6"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.7 地址解析协议ARP（纯净版无手稿）.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "targets": [
+        "CN04-arp-nat",
+        "CN04-E06"
+      ],
+      "baseline_targets": [
+        "CN04-11",
+        "CN04-ex6"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.8 动态主机配置协议DHCP.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "targets": [
+        "CN04-control",
+        "CN04-E07"
+      ],
+      "baseline_targets": [
+        "CN04-12",
+        "CN04-ex7"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.9 ICMP网际控制报文协议.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "targets": [
+        "CN04-control",
+        "CN04-E08"
+      ],
+      "baseline_targets": [
+        "CN04-13",
+        "CN04-ex8"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.3 IPv6（楼楼老师）.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "targets": [
+        "CN04-ipv6"
+      ],
+      "baseline_targets": [
+        "CN04-14",
+        "CN04-course-ipv6"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable; scan OCR inspected for IPv6 fields and transition methods",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.3_1 IPv6地址.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "targets": [
+        "CN04-ipv6",
+        "CN04-E09"
+      ],
+      "baseline_targets": [
+        "CN04-course-ipv6",
+        "CN04-ex9"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4 路由算法与路由协议.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "targets": [
+        "CN04-forwarding",
+        "CN04-routing-algorithms",
+        "CN04-routing-protocols"
+      ],
+      "baseline_targets": [
+        "CN04-04",
+        "CN04-05",
+        "CN04-06",
+        "CN04-15"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.1 路由算法.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "targets": [
+        "CN04-forwarding",
+        "CN04-routing-algorithms",
+        "CN04-E01"
+      ],
+      "baseline_targets": [
+        "CN04-04",
+        "CN04-05",
+        "CN04-06",
+        "CN04-ex1"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.2 分层次的路由协议.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "targets": [
+        "CN04-routing-protocols"
+      ],
+      "baseline_targets": [
+        "CN04-15"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.3 RIP路由信息协议.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55
+      ],
+      "targets": [
+        "CN04-routing-protocols",
+        "CN04-E12"
+      ],
+      "baseline_targets": [
+        "CN04-16",
+        "CN04-ex12",
+        "CN04-course-routing"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.4_1 OSPF的特点.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "targets": [
+        "CN04-routing-protocols"
+      ],
+      "baseline_targets": [
+        "CN04-17",
+        "CN04-course-ospf"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.4_2 OSPF的基本工作原理.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "targets": [
+        "CN04-routing-algorithms",
+        "CN04-routing-protocols"
+      ],
+      "baseline_targets": [
+        "CN04-06",
+        "CN04-17",
+        "CN04-course-ospf"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.4_3 OSPF的分组类型.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "targets": [
+        "CN04-routing-protocols"
+      ],
+      "baseline_targets": [
+        "CN04-course-ospf"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.4.5 BGP边界网关协议.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "targets": [
+        "CN04-routing-protocols"
+      ],
+      "baseline_targets": [
+        "CN04-18",
+        "CN04-course-routing"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.5 IP多播.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "targets": [
+        "CN04-multicast-mobility"
+      ],
+      "baseline_targets": [
+        "CN04-19"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.6 移动IP.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "targets": [
+        "CN04-multicast-mobility"
+      ],
+      "baseline_targets": [
+        "CN04-20"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.7 网络层设备.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "targets": [
+        "CN04-router"
+      ],
+      "baseline_targets": [
+        "CN04-21"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    }
+  ],
+  "scope": "Knowledge-group source mapping; does not assert every animation frame or tiny figure label was independently reviewed."
+}

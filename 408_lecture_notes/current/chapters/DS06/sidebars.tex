@@ -1,0 +1,5 @@
+\expandafter\gdef\csname SNside3\endcsname{\node[anchor=north west,inner sep=0pt,text width=48mm,font=\SideFont,align=left] (SNsidebox) at ([xshift=138mm,yshift=-146.70pt]current page.north west) {\textbf{同权边的唯一性检查}\par\smallskip 对某棵MST加入一条非树边会形成唯一环。若该边权等于环上最大树边权，可交换得到另一棵同权生成树。
+};\pgfextracty{\SNsideheight}{\pgfpointdiff{\pgfpointanchor{SNsidebox}{south}}{\pgfpointanchor{SNsidebox}{north}}}\typeout{SNHEIGHT:3:0:\the\SNsideheight}}
+\expandafter\gdef\csname SNside5\endcsname{\node[anchor=north west,inner sep=0pt,text width=48mm,font=\SideFont,align=left] (SNsidebox) at ([xshift=138mm,yshift=-146.03pt]current page.north west) {\textbf{路径恢复的终止状态}\par\smallskip 前驱链的源点标记−1只是回溯终止；距离为无穷才表示不可达。Floyd中转矩阵则需按中转点递归拆分路径。
+};\pgfextracty{\SNsideheight}{\pgfpointdiff{\pgfpointanchor{SNsidebox}{south}}{\pgfpointanchor{SNsidebox}{north}}}\typeout{SNHEIGHT:5:1:\the\SNsideheight}}
+\AddToShipoutPictureFG{\begin{tikzpicture}[remember picture,overlay]\ifcsname SNside\thepage\endcsname\csname SNside\thepage\endcsname\fi\end{tikzpicture}}

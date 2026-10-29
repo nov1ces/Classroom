@@ -1,0 +1,13 @@
+{
+  "phase": "ready_for_layout",
+  "updated_at": "2026-10-29T08:20:51+08:00",
+  "notes_pages": 187,
+  "examples": 195,
+  "solution_modes": {
+    "examples": 195,
+    "original_screenshot": 140,
+    "native": 55,
+    "crops_needing_manual_split": 0
+  },
+  "visual_review_after_github_push": true
+}

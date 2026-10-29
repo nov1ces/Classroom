@@ -1,0 +1,189 @@
+[
+  {
+    "baseline_anchor": "CO01",
+    "targets": [
+      "CO01"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO01-02",
+    "targets": [
+      "CO01-components"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-03",
+    "targets": [
+      "CO01-architecture"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-04",
+    "targets": [
+      "CO01-execution"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-05",
+    "targets": [
+      "CO01-translation"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-06",
+    "targets": [
+      "CO01-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO01-07",
+    "targets": [
+      "CO01-performance"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-08",
+    "targets": [
+      "CO01-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO01-09",
+    "targets": [
+      "CO01-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "CO01-10",
+    "targets": [
+      "CO01-ratio"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-model",
+    "targets": [
+      "CO01-amdahl"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-proof",
+    "targets": [
+      "CO01-performance"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-capacity",
+    "targets": [
+      "CO01-capacity"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO01-history",
+    "targets": [
+      "CO01-history"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO01-components",
+    "targets": [
+      "CO01-components"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "CO01-words",
+    "targets": [
+      "CO01-capacity"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-program-trace",
+    "targets": [
+      "CO01-program"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-software",
+    "targets": [
+      "CO01-architecture"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-performance-complete",
+    "targets": [
+      "CO01-performance"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-history-complete",
+    "targets": [
+      "CO01-history"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-extra-check",
+    "targets": [
+      "CO01-components",
+      "CO01-capacity",
+      "CO01-performance",
+      "CO01-amdahl"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-recall",
+    "targets": [
+      "CO01-components",
+      "CO01-capacity",
+      "CO01-performance",
+      "CO01-amdahl"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-11",
+    "targets": [
+      "CO01-ratio"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-recall-new",
+    "targets": [
+      "CO01-components",
+      "CO01-capacity",
+      "CO01-performance",
+      "CO01-amdahl"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "CO01-answers",
+    "targets": [
+      "CO01-components",
+      "CO01-capacity",
+      "CO01-performance",
+      "CO01-amdahl"
+    ],
+    "disposition": "merged"
+  }
+]

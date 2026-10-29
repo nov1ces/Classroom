@@ -1,0 +1,310 @@
+[
+  {
+    "baseline_anchor": "OS05",
+    "targets": [
+      "OS05"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-guide",
+    "targets": [
+      "OS05-software",
+      "OS05-control",
+      "OS05-comprehensive"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS05-pipeline-proof",
+    "targets": [
+      "OS05-buffer-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS05-7-1",
+    "targets": [
+      "OS05-devices"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-device-classes",
+    "targets": [
+      "OS05-devices"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-7-2",
+    "targets": [
+      "OS05-control"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-dma-channel",
+    "targets": [
+      "OS05-control"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-7-3",
+    "targets": [
+      "OS05-software"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-ex7-1",
+    "targets": [
+      "OS05-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS05-core-functions",
+    "targets": [
+      "OS05-software"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-7-4",
+    "targets": [
+      "OS05-interfaces"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-device-interfaces",
+    "targets": [
+      "OS05-interfaces"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-7-5",
+    "targets": [
+      "OS05-buffer-time"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-ex7-2",
+    "targets": [
+      "OS05-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS05-auto-1",
+    "targets": [
+      "OS05-buffer-pool"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS05-buffer-steady",
+    "targets": [
+      "OS05-buffer-time"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-buffer-pool",
+    "targets": [
+      "OS05-buffer-pool"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-7-6",
+    "targets": [
+      "OS05-allocation"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-device-tables",
+    "targets": [
+      "OS05-allocation"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-safe-allocation",
+    "targets": [
+      "OS05-allocation"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-7-7",
+    "targets": [
+      "OS05-spooling"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-7-8",
+    "targets": [
+      "OS05-disk",
+      "OS05-formatting"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS05-ex7-3",
+    "targets": [
+      "OS05-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS05-auto-2",
+    "targets": [
+      "OS05-formatting"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS05-ex7-4",
+    "targets": [
+      "OS05-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS05-boot-badblocks",
+    "targets": [
+      "OS05-formatting"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-7-9",
+    "targets": [
+      "OS05-disk-scheduling"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-ex7-5",
+    "targets": [
+      "OS05-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS05-course-disk-traces",
+    "targets": [
+      "OS05-disk-scheduling"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-sector-layout",
+    "targets": [
+      "OS05-disk-scheduling"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-7-10",
+    "targets": [
+      "OS05-ssd"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-flash-hierarchy",
+    "targets": [
+      "OS05-ssd"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-7-11",
+    "targets": [
+      "OS05-comprehensive"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS05-ex7-6",
+    "targets": [
+      "OS05-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS05-ex7-7",
+    "targets": [
+      "OS05-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS05-7-review",
+    "targets": [
+      "OS05-control",
+      "OS05-software",
+      "OS05-interfaces",
+      "OS05-buffer-time",
+      "OS05-allocation",
+      "OS05-disk",
+      "OS05-disk-scheduling",
+      "OS05-ssd",
+      "OS05-comprehensive"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS05-auto-3",
+    "targets": [
+      "OS05-control",
+      "OS05-software",
+      "OS05-interfaces",
+      "OS05-buffer-time",
+      "OS05-allocation",
+      "OS05-disk",
+      "OS05-disk-scheduling",
+      "OS05-ssd",
+      "OS05-comprehensive"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS05-recall",
+    "targets": [
+      "OS05-control",
+      "OS05-software",
+      "OS05-interfaces",
+      "OS05-buffer-time",
+      "OS05-allocation",
+      "OS05-disk",
+      "OS05-disk-scheduling",
+      "OS05-ssd",
+      "OS05-comprehensive"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS05-recall-answers",
+    "targets": [
+      "OS05-control",
+      "OS05-software",
+      "OS05-interfaces",
+      "OS05-buffer-time",
+      "OS05-allocation",
+      "OS05-disk",
+      "OS05-disk-scheduling",
+      "OS05-ssd",
+      "OS05-comprehensive"
+    ],
+    "disposition": "merged"
+  }
+]

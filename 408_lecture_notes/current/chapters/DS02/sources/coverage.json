@@ -1,0 +1,191 @@
+[
+  {
+    "baseline_anchor": "DS02",
+    "targets": [
+      "DS02-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-01",
+    "targets": [
+      "DS02-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-02",
+    "targets": [
+      "DS02-sequence"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-ex1",
+    "targets": [
+      "DS02-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS02-code-seq",
+    "targets": [
+      "DS02-sequence"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-seq-query",
+    "targets": [
+      "DS02-sequence"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-seq-update",
+    "targets": [
+      "DS02-sequence"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-dynamic",
+    "targets": [
+      "DS02-dynamic"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "DS02-03",
+    "targets": [
+      "DS02-linked"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-detail1",
+    "targets": [
+      "DS02-build"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-ex2",
+    "targets": [
+      "DS02-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS02-04",
+    "targets": [
+      "DS02-variants"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-ex3",
+    "targets": [
+      "DS02-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS02-05",
+    "targets": [
+      "DS02-methods"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-ex4",
+    "targets": [
+      "DS02-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS02-detail2",
+    "targets": [
+      "DS02-methods"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-ex5",
+    "targets": [
+      "DS02-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS02-ex6",
+    "targets": [
+      "DS02-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS02-code-link",
+    "targets": [
+      "DS02-linked"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-link-update",
+    "targets": [
+      "DS02-linked"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-nohead",
+    "targets": [
+      "DS02-linked"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-build",
+    "targets": [
+      "DS02-build"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "DS02-double-code",
+    "targets": [
+      "DS02-variants"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-compare",
+    "targets": [
+      "DS02-comparison"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-filter",
+    "targets": [
+      "DS02-methods"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-check",
+    "targets": [
+      "DS02-methods"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS02-recall-extra",
+    "targets": [
+      "DS02-methods"
+    ],
+    "disposition": "merged"
+  }
+]

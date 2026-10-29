@@ -1,0 +1,114 @@
+[
+  {
+    "baseline_anchor": "DS04",
+    "targets": [
+      "DS04-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS04-01",
+    "targets": [
+      "DS04-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS04-bound",
+    "targets": [
+      "DS04-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS04-storage",
+    "targets": [
+      "DS04-storage"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "DS04-basic-code",
+    "targets": [
+      "DS04-storage"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS04-02",
+    "targets": [
+      "DS04-naive"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS04-naive-example",
+    "targets": [
+      "DS04-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS04-03",
+    "targets": [
+      "DS04-kmp"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS04-kmp-example",
+    "targets": [
+      "DS04-kmp"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS04-next",
+    "targets": [
+      "DS04-next"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "DS04-next-practice",
+    "targets": [
+      "DS04-next"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS04-nextval",
+    "targets": [
+      "DS04-nextval"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "DS04-opt-example",
+    "targets": [
+      "DS04-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS04-analysis",
+    "targets": [
+      "DS04-analysis"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "DS04-check",
+    "targets": [
+      "DS04-analysis"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS04-answers",
+    "targets": [
+      "DS04-analysis"
+    ],
+    "disposition": "merged"
+  }
+]

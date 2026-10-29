@@ -1,0 +1,211 @@
+{
+  "chapter": "CO01",
+  "lecture_files": [
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.0_你好，我是计算机组成原理.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "targets": [
+        "CO01-components"
+      ],
+      "baseline_targets": [
+        "CO01-02",
+        "CO01-components"
+      ],
+      "baseline_review_scope": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.1_计算机发展历程（大纲已删 简要了解即可）.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "targets": [
+        "CO01-history"
+      ],
+      "baseline_targets": [
+        "CO01-history",
+        "CO01-history-complete"
+      ],
+      "baseline_review_scope": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.1+1.2.2_计算机硬件的基本组成.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "targets": [
+        "CO01-components",
+        "CO01-architecture"
+      ],
+      "baseline_targets": [
+        "CO01-components",
+        "CO01-03"
+      ],
+      "baseline_review_scope": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.2（补充）_各个硬件的工作原理.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "targets": [
+        "CO01-execution",
+        "CO01-program",
+        "CO01-capacity"
+      ],
+      "baseline_targets": [
+        "CO01-04",
+        "CO01-program-trace",
+        "CO01-words"
+      ],
+      "baseline_review_scope": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.3 计算机软件.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "targets": [
+        "CO01-architecture",
+        "CO01-translation"
+      ],
+      "baseline_targets": [
+        "CO01-software",
+        "CO01-05"
+      ],
+      "baseline_review_scope": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.4 计算机系统的层次结构.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "targets": [
+        "CO01-architecture"
+      ],
+      "baseline_targets": [
+        "CO01-03",
+        "CO01-software"
+      ],
+      "baseline_review_scope": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.2.5 计算机系统的工作原理.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "targets": [
+        "CO01-program",
+        "CO01-translation"
+      ],
+      "baseline_targets": [
+        "CO01-program-trace",
+        "CO01-05"
+      ],
+      "baseline_review_scope": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "02_计算机组成原理/【课件】组成原理基础考点讲解/第一章 计算机系统概述/1.3 计算机的性能指标.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "targets": [
+        "CO01-performance",
+        "CO01-capacity"
+      ],
+      "baseline_targets": [
+        "CO01-07",
+        "CO01-performance-complete",
+        "CO01-capacity"
+      ],
+      "baseline_review_scope": "王道课件主题、知识回顾及有关例题与所列正文节对照；原始文本逐页建立索引，数值按独立模型复算。关键源图的视觉范围见author_report；此处页列表不是逐页人工视觉认证。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    }
+  ],
+  "scope": "Knowledge-group source mapping; does not assert every animation frame or tiny figure label was independently reviewed."
+}

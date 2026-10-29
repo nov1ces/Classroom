@@ -1,0 +1,40 @@
+[
+  {
+    "page": 1,
+    "sidebars": [],
+    "occupied_margin_intervals": [
+      [
+        82,
+        109.83899688720703
+      ]
+    ]
+  },
+  {
+    "page": 2,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 3,
+    "sidebars": [],
+    "occupied_margin_intervals": []
+  },
+  {
+    "page": 4,
+    "sidebars": [],
+    "occupied_margin_intervals": [
+      [
+        89.82990264892578,
+        104.3281021118164
+      ],
+      [
+        92.74375915527344,
+        153.63417053222656
+      ],
+      [
+        142.85549926757812,
+        157.65249633789062
+      ]
+    ]
+  }
+]

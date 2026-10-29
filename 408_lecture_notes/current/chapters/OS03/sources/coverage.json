@@ -1,0 +1,377 @@
+[
+  {
+    "baseline_anchor": "OS03",
+    "targets": [
+      "OS03"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-guide",
+    "targets": [
+      "OS03-addresses",
+      "OS03-paging",
+      "OS03-demand-paging",
+      "OS03-effective-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS03-offset-proof",
+    "targets": [
+      "OS03-paging"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS03-extension",
+    "targets": [
+      "OS03-extension"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-5-1",
+    "targets": [
+      "OS03-addresses"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-loading",
+    "targets": [
+      "OS03-addresses"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-course-loading",
+    "targets": [
+      "OS03-addresses"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-5-2",
+    "targets": [
+      "OS03-sharing",
+      "OS03-addresses"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS03-ex5-1",
+    "targets": [
+      "OS03-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS03-5-3",
+    "targets": [
+      "OS03-partitions"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-fixed-partition-course",
+    "targets": [
+      "OS03-partitions"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-course-partition-choices",
+    "targets": [
+      "OS03-partitions"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-ex5-2",
+    "targets": [
+      "OS03-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS03-partition-recovery",
+    "targets": [
+      "OS03-partitions"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-overlay-example",
+    "targets": [
+      "OS03-extension"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-5-4",
+    "targets": [
+      "OS03-paging"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-page-translation",
+    "targets": [
+      "OS03-paging"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-pte-size",
+    "targets": [
+      "OS03-paging"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-5-5",
+    "targets": [
+      "OS03-tlb"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-auto-1",
+    "targets": [
+      "OS03-tlb"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS03-course-twolevel",
+    "targets": [
+      "OS03-tlb"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-ex5-3",
+    "targets": [
+      "OS03-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS03-ex5-4",
+    "targets": [
+      "OS03-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS03-auto-2",
+    "targets": [
+      "OS03-tlb"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS03-tlb-time",
+    "targets": [
+      "OS03-tlb"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-5-6",
+    "targets": [
+      "OS03-segmentation"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-segment-pages",
+    "targets": [
+      "OS03-segmentation"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-5-7",
+    "targets": [
+      "OS03-demand-paging"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-course-fault-states",
+    "targets": [
+      "OS03-demand-paging"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-5-8",
+    "targets": [
+      "OS03-resident-allocation"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-backing",
+    "targets": [
+      "OS03-resident-allocation",
+      "OS03-extension",
+      "OS03-demand-paging"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS03-backing-course-models",
+    "targets": [
+      "OS03-resident-allocation"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-5-9",
+    "targets": [
+      "OS03-replacement"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-course-replacement-traces",
+    "targets": [
+      "OS03-replacement"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-ex5-5",
+    "targets": [
+      "OS03-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS03-auto-3",
+    "targets": [
+      "OS03-replacement"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS03-ex5-6",
+    "targets": [
+      "OS03-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS03-5-10",
+    "targets": [
+      "OS03-mmap"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS03-5-11",
+    "targets": [
+      "OS03-working-set",
+      "OS03-effective-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS03-ex5-7",
+    "targets": [
+      "OS03-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS03-auto-4",
+    "targets": [
+      "OS03-working-set"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS03-auto-5",
+    "targets": [
+      "OS03-effective-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS03-ex5-8",
+    "targets": [
+      "OS03-E08"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS03-ex5-9",
+    "targets": [
+      "OS03-E09"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS03-5-review",
+    "targets": [
+      "OS03-addresses",
+      "OS03-partitions",
+      "OS03-paging",
+      "OS03-tlb",
+      "OS03-segmentation",
+      "OS03-demand-paging",
+      "OS03-replacement",
+      "OS03-working-set",
+      "OS03-effective-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS03-auto-6",
+    "targets": [
+      "OS03-addresses",
+      "OS03-partitions",
+      "OS03-paging",
+      "OS03-tlb",
+      "OS03-segmentation",
+      "OS03-demand-paging",
+      "OS03-replacement",
+      "OS03-working-set",
+      "OS03-effective-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS03-recall",
+    "targets": [
+      "OS03-addresses",
+      "OS03-partitions",
+      "OS03-paging",
+      "OS03-tlb",
+      "OS03-segmentation",
+      "OS03-demand-paging",
+      "OS03-replacement",
+      "OS03-working-set",
+      "OS03-effective-time"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS03-recall-answers",
+    "targets": [
+      "OS03-addresses",
+      "OS03-partitions",
+      "OS03-paging",
+      "OS03-tlb",
+      "OS03-segmentation",
+      "OS03-demand-paging",
+      "OS03-replacement",
+      "OS03-working-set",
+      "OS03-effective-time"
+    ],
+    "disposition": "merged"
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "chapter": "CN06",
+  "lecture_files": [
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.0 应用层Intro.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "targets": [
+        "CN06-model"
+      ],
+      "baseline_targets": [
+        "CN06-course-model"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.1 网络应用模型.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "targets": [
+        "CN06-model"
+      ],
+      "baseline_targets": [
+        "CN06-01",
+        "CN06-course-model"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.2_1+2+3 DNS域名系统.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "targets": [
+        "CN06-dns",
+        "CN06-E01"
+      ],
+      "baseline_targets": [
+        "CN06-02",
+        "CN06-03",
+        "CN06-ex1",
+        "CN06-course-dns-records"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.3 FTP 文件传输协议.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targets": [
+        "CN06-ftp",
+        "CN06-E02",
+        "CN06-E08"
+      ],
+      "baseline_targets": [
+        "CN06-04",
+        "CN06-ex2",
+        "CN06-ex8"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.4 电子邮件.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "targets": [
+        "CN06-mail",
+        "CN06-E03"
+      ],
+      "baseline_targets": [
+        "CN06-05",
+        "CN06-06",
+        "CN06-ex3",
+        "CN06-course-mail"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "04_计算机网络/【课件】计算机网络基础考点讲解/第六章 应用层/6.5 WWW和HTTP.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "targets": [
+        "CN06-http",
+        "CN06-http-delay",
+        "CN06-E04",
+        "CN06-E05",
+        "CN06-E06",
+        "CN06-E07"
+      ],
+      "baseline_targets": [
+        "CN06-07",
+        "CN06-08",
+        "CN06-ex4",
+        "CN06-ex5",
+        "CN06-ex6",
+        "CN06-ex7",
+        "CN06-course-http-message"
+      ],
+      "baseline_review_scope": "Lesson text/key definitions and destination sections compared by knowledge group; numerical examples independently recalculated where applicable",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    }
+  ],
+  "scope": "Knowledge-group source mapping; does not assert every animation frame or tiny figure label was independently reviewed."
+}

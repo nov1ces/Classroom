@@ -1,0 +1,62 @@
+[
+  {
+    "id": "DS02-E01",
+    "number": "2-1",
+    "question": "在线性表 $a_0,a_1,\\ldots,a_{100}$ 中，删除元素 $a_{50}$ 需要移动（　）个元素。\n\nA. 0　B. 50　C. 51　D. 0 或 50",
+    "answer": "D",
+    "solution": "顺序表须把$a_{51}\\sim a_{100}$共50个元素前移；链表只修改链接，搬移数为0。存储方式未限定，选D。链表若需定位前驱，总时间仍可能为$O(n)$。",
+    "source_key": "DS:2.3:12",
+    "baseline_anchor": "DS02-ex1",
+    "method": "区分搬移与定位"
+  },
+  {
+    "id": "DS02-E02",
+    "number": "2-2",
+    "question": "已知一个带有表头结点的单链表，结点结构为 `data | next`，只给出了头指针 `list`。在不改变链表的前提下，设计尽可能高效的算法，查找倒数第 $k$ 个位置上的结点（$k$ 为正整数）。若成功，输出该结点的 `data` 值并返回 1；否则只返回 0。要求说明设计思想、实现步骤，并用 C、C++ 或 Java 描述算法，在关键处加注释。",
+    "answer": "双指针，时间$O(n)$，空间$O(1)$",
+    "solution": "倒数位置由尾部决定，但链表不能直接向前访问。让两个指针保持固定间隔：`fast` 先从首元结点前进 $k$ 步，再让 `fast` 与 `slow` 同步前进。若表长为 $n$，`fast` 到达空位置时共走了 $n$ 步，`slow` 只走了 $n-k$ 步，正好指向第 $n-k+1$ 个结点。\n\n```c\nint searchK(LNode *list, int k) {\n    if (k<=0) return 0;\n    LNode *fast=list->next, *slow=list->next;\n    for (int j=0; j<k; ++j) {\n        if (fast==NULL) return 0;   // 表长不足 k\n        fast=fast->next;\n    }\n    while (fast!=NULL) {\n        fast=fast->next;\n        slow=slow->next;\n    }\n    printf(\"%d\", slow->data);\n    return 1;\n}\n```\n\n以长度 5、$k=2$ 为例，先让 `fast` 指向第3个结点，`slow` 留在第1个；同步经过“4与2—5与3—空与4”，第4个即倒数第2个。$k=n$ 时第一阶段恰好走到空位置，第二阶段不执行，返回首元结点；$k>n$ 时在第一阶段报失败。两个指针合计走 $O(n)$ 步，辅助空间 $O(1)$，没有修改任何链接。",
+    "source_key": null,
+    "baseline_anchor": "DS02-ex2",
+    "method": "保持固定指针间隔"
+  },
+  {
+    "id": "DS02-E03",
+    "number": "2-3",
+    "question": "在双链表中向 `p` 所指的结点之前插入结点 `q`，正确操作是（　）。\n\n```text\nA. p->prior=q; q->next=p;\n   p->prior->next=q; q->prior=p->prior;\nB. q->prior=p->prior; p->prior->next=q;\n   q->next=p; p->prior=q->next;\nC. q->next=p; p->next=q;\n   q->prior->next=q; q->next=p;\nD. p->prior->next=q; q->next=p;\n   q->prior=p->prior; p->prior=q;\n```",
+    "answer": "D",
+    "solution": "记旧前驱为$r$，目标链接为$r\\to q\\to p$及相应反向链接。D在最后才改`p->prior`，保留了前三句所需的旧前驱。A提前覆盖旧前驱；B最终使`p->prior=p`；C改错方向且使用未赋值的`q->prior`。选D；题设要求$p$有有效前驱。",
+    "source_key": "DS:2.3:15",
+    "baseline_anchor": "DS02-ex3",
+    "method": "双向链接依赖"
+  },
+  {
+    "id": "DS02-E04",
+    "number": "2-4",
+    "question": "将 $n\\ (n>1)$ 个整数存放在一维数组 $R$ 中。设计一个时间、空间都尽可能高效的算法，将序列循环左移 $p\\ (0<p<n)$ 个位置，即把 $(X_0,\\ldots,X_{n-1})$ 变为 $(X_p,\\ldots,X_{n-1},X_0,\\ldots,X_{p-1})$。给出思想、C/C++ 或 Java 实现，并说明时间与空间复杂度。",
+    "answer": "三次逆置，时间$O(n)$，空间$O(1)$",
+    "solution": "题目要求两个连续区段交换位置，同时保持各段内部次序。设前 $p$ 个元素为 $A$，其余为 $B$。分别逆置得 $A^RB^R$，再整体逆置，即得 $BA$。两个区段各被逆置两次，内部方向恢复，而相对位置交换。\n\n```c\nvoid reverse(int R[], int l, int r) {\n    while (l<r) {\n        int t=R[l]; R[l]=R[r]; R[r]=t;\n        ++l; --r;\n    }\n}\nvoid rotateLeft(int R[], int n, int p) {\n    reverse(R,0,p-1);\n    reverse(R,p,n-1);\n    reverse(R,0,n-1);\n}\n```\n\n例如 `abcdefgh` 左移3位，依次得到 `cbadefgh`、`cbahgfed`、`defghabc`。总交换次数不超过 $n$，时间 $O(n)$；只用常数临时变量，空间 $O(1)$。若将首元素移到末尾重复 $p$ 次，时间为 $O(np)$，当 $p$ 与 $n$ 同阶时会退化。三次逆置可处理 $p=1$ 和 $p=n-1$，无需另写搬移循环。",
+    "source_key": null,
+    "baseline_anchor": "DS02-ex4",
+    "method": "区段逆置"
+  },
+  {
+    "id": "DS02-E05",
+    "number": "2-5",
+    "question": "采用带头结点的单链表保存单词，两个单词可共享相同后缀的存储空间。例如 `loading` 与 `being` 共享从字符 `i` 开始的结点。`str1`、`str2` 指向两个头结点，结点为 `data | next`。设计时间上尽可能高效的算法，找到共同后缀的起始结点，给出思想、程序及时间复杂度。\n\n![两个前缀分别连接到同一个 i 结点，随后共用 n、g 结点](DS_02_shared_suffix.png){#ds-fig-shared-suffix width=94%}",
+    "answer": "对齐表尾后同步比较地址，时间$O(m+n)$",
+    "solution": "共享指的是地址相同，不能以 `p->data==q->data` 判断。单链表一旦在某结点汇合，其后继也相同，所以两表从公共起点到末尾的长度相等。先各扫描一次求长 $m,n$，让较长表先走 $|m-n|$ 步，两指针便处于距表尾相同的位置；此后同步前进，第一次地址相等的位置就是答案。\n\n```c\nLNode *commonSuffix(LNode *str1, LNode *str2) {\n    int m=0,n=0;\n    for (LNode *p=str1->next; p; p=p->next) ++m;\n    for (LNode *q=str2->next; q; q=q->next) ++n;\n    LNode *p=str1->next, *q=str2->next;\n    while (m>n) { p=p->next; --m; }\n    while (n>m) { q=q->next; --n; }\n    while (p!=q) { p=p->next; q=q->next; }\n    return p;                   // 无公共结点时二者同时为 NULL\n}\n```\n\n图中两表长度分别为7和5，先让长表跨过 `l,o`，再比较 `a` 与 `b`、`d` 与 `e`，最后到达同一个 `i`。若两表内容相同却各自分配结点，则直到空位置才相等，返回空。总时间 $O(m+n)$，辅助空间 $O(1)$，适用于有限、无环单链表。",
+    "source_key": null,
+    "baseline_anchor": "DS02-ex5",
+    "method": "长度差与结点身份"
+  },
+  {
+    "id": "DS02-E06",
+    "number": "2-6",
+    "question": "整数序列 $A=(a_0,\\ldots,a_{n-1})$ 满足 $0\\le a_i<n$。某值出现次数超过 $n/2$ 时，称它为主元素。例如 $(0,5,5,3,5,7,5,5)$ 的主元素为5，而 $(0,5,5,3,5,1,5,7)$ 没有主元素。设计尽可能高效的算法，存在主元素时输出该值，否则输出 −1；给出思想、程序及时间、空间复杂度。",
+    "answer": "抵消候选后再次计数，时间$O(n)$，空间$O(1)$",
+    "solution": "每次删除两个值不同的元素，不会消灭一个原本占严格多数的值：若删去一个多数元素和一个其他元素，多数仍超过剩余的一半；若删去两个其他元素，多数优势更大。用一个候选值和计数模拟这种抵消。计数为0时选新候选；相同则加1，不同则减1。\n\n```c\nint majority(int A[], int n) {\n    int candidate=0, count=0;\n    for (int i=0; i<n; ++i) {\n        if (count==0) { candidate=A[i]; count=1; }\n        else if (A[i]==candidate) ++count;\n        else --count;\n    }\n    int actual=0;\n    for (int i=0; i<n; ++i)\n        if (A[i]==candidate) ++actual;\n    return actual>n/2 ? candidate : -1;\n}\n```\n\n抵消只保证“若有主元素，最后候选一定是它”，没有保证主元素存在。例如 `1,2,3` 最后仍可能留下候选3，它只出现一次，所以必须第二次扫描核实。两个线性扫描合计 $O(n)$ 时间，额外空间 $O(1)$。题目给出的值域也允许用计数数组，但需 $O(n)$ 辅助空间；此处没有必要为省下一次扫描而付出这部分空间。",
+    "source_key": null,
+    "baseline_anchor": "DS02-ex6",
+    "method": "多数抵消与验证"
+  }
+]

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="390" viewBox="0 0 900 390">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6" fill="none" stroke="#466C82" stroke-width="1.2"/></marker></defs>
+<rect width="100%" height="100%" fill="#fff"/>
+<g font-family="Noto Sans CJK SC,Noto Sans SC,sans-serif" font-size="19" fill="#263945">
+<text x="450.0" y="30" text-anchor="middle" font-size="23" fill="#263945">
+<tspan x="450.0" dy="0">程序和数据共同存储：y = a×b+c</tspan>
+</text>
+<rect x="25" y="90" width="180" height="240" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="115.0" y="145.0" text-anchor="middle" font-size="20" fill="#263945">
+<tspan x="115.0" dy="0">主存</tspan>
+<tspan x="115.0" dy="29.0">0～4：机器指令</tspan>
+<tspan x="115.0" dy="29.0">5：a = 2</tspan>
+<tspan x="115.0" dy="29.0">6：b = 3</tspan>
+<tspan x="115.0" dy="29.0">7：c = 1</tspan>
+<tspan x="115.0" dy="29.0">8：y = 0</tspan>
+</text>
+<rect x="290" y="70" width="215" height="85" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="397.5" y="105.84" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="397.5" dy="0">控制器</tspan>
+<tspan x="397.5" dy="26.099999999999998">PC、IR与控制逻辑</tspan>
+</text>
+<rect x="290" y="245" width="215" height="85" rx="7" fill="#DDEFF5" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="397.5" y="280.84000000000003" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="397.5" dy="0">运算器</tspan>
+<tspan x="397.5" dy="26.099999999999998">ACC、MQ、ALU</tspan>
+</text>
+<rect x="600" y="70" width="260" height="85" rx="7" fill="#DFEFE6" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="730.0" y="105.84" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="730.0" dy="0">取指：PC → MAR</tspan>
+<tspan x="730.0" dy="26.099999999999998">M[MAR] → MDR → IR</tspan>
+</text>
+<rect x="600" y="245" width="260" height="85" rx="7" fill="#DFEFE6" stroke="#8EA8B4" stroke-width="1.5"/>
+<text x="730.0" y="280.84000000000003" text-anchor="middle" font-size="18" fill="#263945">
+<tspan x="730.0" dy="0">执行：2 → 6 → 7</tspan>
+<tspan x="730.0" dy="26.099999999999998">最终写回 M[8] = 7</tspan>
+</text>
+<path d="M205,115 L290,115" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="247.5" y="106.0" text-anchor="middle" font-size="16" fill="#263945">
+<tspan x="247.5" dy="0">指令</tspan>
+</text>
+<path d="M205,280 L290,280" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="247.5" y="271.0" text-anchor="middle" font-size="16" fill="#263945">
+<tspan x="247.5" dy="0">数据</tspan>
+</text>
+<path d="M397,155 L397,245" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="411" y="206.0" text-anchor="start" font-size="16" fill="#263945">
+<tspan x="411" dy="0">控制信号</tspan>
+</text>
+<path d="M505,112 L600,112" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M505,287 L600,287" fill="none" stroke="#466C82" stroke-width="2" marker-end="url(#arrow)"/>
+</g></svg>

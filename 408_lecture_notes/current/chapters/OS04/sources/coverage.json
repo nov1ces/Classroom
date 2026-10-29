@@ -1,0 +1,336 @@
+[
+  {
+    "baseline_anchor": "OS04",
+    "targets": [
+      "OS04"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-guide",
+    "targets": [
+      "OS04-objects",
+      "OS04-allocation",
+      "OS04-directory"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS04-capacity-proof",
+    "targets": [
+      "OS04-mixed-index"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS04-6-1",
+    "targets": [
+      "OS04-objects"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-6-2",
+    "targets": [
+      "OS04-operations"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-course-open",
+    "targets": [
+      "OS04-operations"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-ex6-1",
+    "targets": [
+      "OS04-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS04-auto-1",
+    "targets": [
+      "OS04-operations"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS04-course-shared-open",
+    "targets": [
+      "OS04-operations"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-6-3",
+    "targets": [
+      "OS04-protection"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-ex6-2",
+    "targets": [
+      "OS04-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS04-protection-methods",
+    "targets": [
+      "OS04-protection"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-windows-acl-demo",
+    "targets": [
+      "OS04-protection"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-6-4",
+    "targets": [
+      "OS04-records"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-sequential-records",
+    "targets": [
+      "OS04-records"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-record-index",
+    "targets": [
+      "OS04-records"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-two-mappings",
+    "targets": [
+      "OS04-records"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-course-record-layers",
+    "targets": [
+      "OS04-records"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-6-5",
+    "targets": [
+      "OS04-allocation"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-ex6-3",
+    "targets": [
+      "OS04-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS04-ex6-4",
+    "targets": [
+      "OS04-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS04-fat-example",
+    "targets": [
+      "OS04-allocation"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-index-extensions",
+    "targets": [
+      "OS04-allocation"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-6-6",
+    "targets": [
+      "OS04-directory"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-course-directory",
+    "targets": [
+      "OS04-directory"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-directory-dag",
+    "targets": [
+      "OS04-directory"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-6-7",
+    "targets": [
+      "OS04-links"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-course-link-path",
+    "targets": [
+      "OS04-links"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-ex6-5",
+    "targets": [
+      "OS04-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS04-fs-layers",
+    "targets": [
+      "OS04-fs-structures"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-6-8",
+    "targets": [
+      "OS04-fs-structures"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-6-9",
+    "targets": [
+      "OS04-free-space"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-free-methods",
+    "targets": [
+      "OS04-free-space"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-grouped-free",
+    "targets": [
+      "OS04-free-space"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-ex6-6",
+    "targets": [
+      "OS04-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS04-6-10",
+    "targets": [
+      "OS04-vfs"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-vnode",
+    "targets": [
+      "OS04-vfs"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-6-11",
+    "targets": [
+      "OS04-comprehensive"
+    ],
+    "disposition": "summarized"
+  },
+  {
+    "baseline_anchor": "OS04-ex6-7",
+    "targets": [
+      "OS04-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS04-ex6-8",
+    "targets": [
+      "OS04-E08"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "OS04-6-review",
+    "targets": [
+      "OS04-objects",
+      "OS04-operations",
+      "OS04-allocation",
+      "OS04-mixed-index",
+      "OS04-links",
+      "OS04-free-space",
+      "OS04-comprehensive"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS04-auto-2",
+    "targets": [
+      "OS04-objects",
+      "OS04-operations",
+      "OS04-allocation",
+      "OS04-mixed-index",
+      "OS04-links",
+      "OS04-free-space",
+      "OS04-comprehensive"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS04-recall",
+    "targets": [
+      "OS04-objects",
+      "OS04-operations",
+      "OS04-allocation",
+      "OS04-mixed-index",
+      "OS04-links",
+      "OS04-free-space",
+      "OS04-comprehensive"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "OS04-recall-answers",
+    "targets": [
+      "OS04-objects",
+      "OS04-operations",
+      "OS04-allocation",
+      "OS04-mixed-index",
+      "OS04-links",
+      "OS04-free-space",
+      "OS04-comprehensive"
+    ],
+    "disposition": "merged"
+  }
+]

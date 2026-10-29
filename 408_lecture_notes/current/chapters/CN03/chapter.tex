@@ -1,0 +1,376 @@
+\chapter{数据链路层}\label{CN03}
+
+\section{链路功能与成帧}\label{CN03-framing}
+
+数据链路层在物理链路上组织帧，完成帧定界、透明传输、差错检测；可靠性、流量控制和介质访问由具体协议提供。流量控制保护接收能力，差错控制处理损坏、丢失、重复与次序；链路确认的范围为相邻节点。
+
+\par\smallskip
+\begin{wideblock}
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.20700\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.30703\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.48598\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+成帧方法 & 边界依据 & 透明传输与限制 \\
+
+\midrule\endfirsthead\toprule
+成帧方法 & 边界依据 & 透明传输与限制 \\
+
+\midrule\endhead\bottomrule\endfoot
+字符计数 & 首部长度字段 & 字段损坏可使后续边界错位 \\
+
+字节填充 & 定界字节 & 数据中的定界与转义字节均须转义 \\
+
+零比特填充 & 标志\texttt{01111110} & 被扫描区每连续5个1后插0，连续计数跨字节；标志自身不填充 \\
+
+违规编码 & 保留的数据编码禁用组合 & 取决于具体物理编码 \\
+
+\end{longtable}}
+\end{wideblock}
+\par\smallskip
+
+去填充只删第五个连续1后的填入0，原数据中的0须保留。例如\texttt{111110}变成\texttt{1111100}。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E01}{}\label{CN03-E01}\textbf{例 3-1}\par\nobreak\smallskip
+
+HDLC 协议对 \texttt{01111100 01111110} 组帧后对应的比特串为（　）。
+
+A. \texttt{01111100 00111110 10}
+
+B. \texttt{01111100 01111101 01111110}
+
+C. \texttt{01111100 01111101 0}
+
+D. \texttt{01111100 01111110 01111101}
+
+\section{CRC、奇偶校验与码距}\label{CN03-error-code}
+
+奇偶校验保证检测奇数位翻转，偶数位错可能漏检，一位校验不能定位单错。
+
+生成多项式 \(G(x)\) 次数为 \(r\)，二进制形式有 \(r+1\) 位。CRC发送端计算 \(D(x)x^r\) 模2除以 \(G(x)\) 的余数 \(R(x)\)，发送 \(D\,R\)；余数固定写成 \(r\) bit。模2减法逐位异或。接收端对完整接收串直接除以 \(G\)，余数非零则检出错误，余数0表示检验通过，存在漏检。
+
+\par\smallskip
+\begin{wideblock}
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.43840\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.56160\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+CRC条件 & 保证 \\
+
+\midrule\endfirsthead\toprule
+CRC条件 & 保证 \\
+
+\midrule\endhead\bottomrule\endfoot
+生成式最高、最低系数为1，次数\(r\) & 所有长度不超过\(r\)的突发错误可检出 \\
+
+含因子\(x+1\) & 所有奇数位错误可检出 \\
+
+双错位间距为\(k\) & 当\(G(x)\)不整除\(x^k+1\)时可检出；须结合码长判断全部双错 \\
+
+特定码长单错余数均非0且互异 & 可建综合征表定位单错；实际链路通常用CRC检错重传 \\
+
+\end{longtable}}
+\end{wideblock}
+\par\smallskip
+
+较长突发错误的 \(2^{-r}\) 漏检概率须有相应随机模型，不能用于某个确定错误模式。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E02}{}\label{CN03-E02}\textbf{例 3-2}\par\nobreak\smallskip
+
+若甲向乙发送数据时采用 CRC 校验，生成多项式为 \(G(X)=X^4+X+1\)（即 \(G=10011\)），则乙接收到下列比特串时，可以断定其在传输过程中未发生错误的是（　）。
+
+A. \texttt{1 0111 0000}　B. \texttt{1 0111 0100}
+
+C. \texttt{1 0111 1000}　D. \texttt{1 0111 1100}
+
+最小海明距离 \(d_{min}\) 为任意两合法等长码字不同位数的最小值：保证检出 \(e\) 位错需 \(d_{min}\ge e+1\)；保证纠正 \(t\) 位错需 \(d_{min}\ge2t+1\)。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E03}{}\label{CN03-E03}\textbf{例 3-3}\par\nobreak\smallskip
+
+若某差错编码的编码集为 \texttt{\{1001 1010,\allowbreak{} 0101 1100,\allowbreak{} 1111 0000,\allowbreak{} 0000 1111\}}，则该差错编码的检错和纠错能力是（　）。
+
+A. 不超过2位错的100\%检错、不超过1位错的纠错
+
+B. 不超过2位错的100\%检错、不超过2位错的纠错
+
+C. 不超过3位错的100\%检错、不超过1位错的纠错
+
+D. 不超过3位错的100\%检错、不超过2位错的纠错
+
+\section{海明码校验分组与综合征}\label{CN03-hamming}
+
+\(m\)个信息位、\(r\)个单错校验位须满足 \(2^r\ge m+r+1\)。校验位置为1、2、4、8\ldots\ldots，数据填其余位置；位号二进制中相应位为1的所有位置归该校验组。7位码分组为：1组检查1、3、5、7；2组检查2、3、6、7；4组检查4、5、6、7。
+
+偶校验综合征 \(s_4s_2s_1\) 在单错假设下给出错位编号。先固定位置编号、数据位映射和字符串方向。例如数据放3、5、6、7且依次为1、0、1、0，校验位为1、0、1，按位号递增写为\texttt{1011010}。
+
+普通海明码通常 \(d_{min}=3\)，单错纠正；增加总体偶校验可实现SECDED，在最多两错的模型下：
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.29904\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.24417\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.45679\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+原海明综合征 & 总体校验 & 判决 \\
+
+\midrule\endfirsthead\toprule
+原海明综合征 & 总体校验 & 判决 \\
+
+\midrule\endhead\bottomrule\endfoot
+0 & 通过 & 无错 \\
+
+非0 & 失败 & 原海明部分单错，按综合征纠正 \\
+
+0 & 失败 & 总体校验位单错 \\
+
+非0 & 通过 & 双错，只检出 \\
+
+\end{longtable}}
+\par\smallskip
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN_course_hamming_groups.pdf}
+\caption{海明码位号和校验分组}\label{cn-course-cn_course_hamming_groups}
+\end{figure}
+
+\section{ARQ协议、窗口与利用率}\label{CN03-arq}
+
+检错发现位错，ACK反馈接收进度，计时器恢复无反馈状态，序号识别新数据与重复。ACK丢失也会引起重传，接收方须防止重复交付；NAK本身也可能丢失，仍需超时机制。
+
+本章一般\texttt{ACK i}表示已收到\(i\)号帧，题干指定``下一期待帧''时按题意。\(k\)位帧序号按模 \(2^k\)循环，窗口以帧数计。
+
+\par\smallskip
+\begin{wideblock}
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.19320\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.22189\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.29304\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.29187\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+项目 & 停止---等待 & GBN后退N帧 & SR选择重传 \\
+
+\midrule\endfirsthead\toprule
+项目 & 停止---等待 & GBN后退N帧 & SR选择重传 \\
+
+\midrule\endhead\bottomrule\endfoot
+发送/接收窗口 & \(1/1\)，0、1交替序号 & \(W_s\le2^k-1\)，\(W_r=1\) & \(W_s+W_r\le2^k\)；对称时各\(\le2^{k-1}\) \\
+
+确认 & 确认当前帧 & 累计确认连续收到的帧 & 各帧分别确认 \\
+
+失序正确帧 & 下一新帧尚未发送 & 通常丢弃并重复旧ACK & 窗口内缓存，补缺后连续交付 \\
+
+超时 & 重传当前帧 & 从最早未确认至最后已发帧全重传 & 只重传相应超时帧 \\
+
+状态成本 & 一个计时器 & 通常计时最早未确认帧 & 各帧计时，保存失序帧 \\
+
+\end{longtable}}
+\end{wideblock}
+\par\smallskip
+
+SR教材常用配置还满足 \(W_r\le W_s\)；不对称时先用两窗和条件。若窗口左沿缺口未确认或未交付，即使高号帧已收到也不能越过左沿。序号空间过小会使旧重传与下一轮新帧混淆。
+
+无错、立即确认、全双工、确认链路不构成额外瓶颈，数据发送时间 \(T_d=L_d/R\)、ACK发送时间 \(T_a=L_a/R\)、单向传播 \(\tau\)：
+
+\[U_{stop}=\frac{T_d}{T_d+2\tau+T_a},\qquad U_W=\min\left(1,\frac{WT_d}{T_d+2\tau+T_a}\right).\]
+
+填满链路要求 \(W\ge\lceil(T_d+2\tau+T_a)/T_d\rceil\)，再按协议窗口上限求序号位数。捎带ACK用承载确认的数据帧发送时间，题给RTT按其边界代替相应传播项。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E04}{}\label{CN03-E04}\textbf{例 3-4}\par\nobreak\smallskip
+
+假设主机甲采用停---等协议向主机乙发送数据帧，数据帧长与确认帧长均为1000 B，数据传输速率是10 kb/s，单向传播延时是200 ms。则甲的最大信道利用率为（　）。
+
+A. 80\%　B. 66.7\%　C. 44.4\%　D. 40\%
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E05}{}\label{CN03-E05}\textbf{例 3-5}\par\nobreak\smallskip
+
+数据链路层采用后退帧（GBN）协议，发送方已经发送了编号为0～7的帧。当计时器超时时，若发送方只收到0、2、3号帧的确认，则发送方需要重发的帧数是（　）。
+
+A. 2　B. 3　C. 4　D. 5
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E06}{}\label{CN03-E06}\textbf{例 3-6}\par\nobreak\smallskip
+
+假设两台主机之间采用后退 N 帧协议传输数据，数据传输速率为16 kb/s，单向传播时延为250 ms，数据帧长度为128 B，确认帧长度也是128 B。为使信道利用率达到最高，帧序号的比特数至少为（　）。
+
+A. 2　B. 3　C. 4　D. 5
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN04_gbn_sr.pdf}
+\caption{GBN丢弃失序帧，SR缓存后补缺}\label{cn-fig-arq}
+\end{figure}
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E12}{}\label{CN03-E12}\textbf{例 3-12}\par\nobreak\smallskip
+
+甲乙双方均采用后退 N 帧协议（GBN）持续进行双向数据传输，始终采用捎带确认，帧长均为1000 B。\(S_{x,y}\)、\(R_{x,y}\)分别表示甲方、乙方发送的数据帧，\(x\)为发送序号，\(y\)为确认序号，表示希望接收对方的下一帧序号。两个序号字段均为3 bit，信道传输速率为100 Mb/s，RTT=0.96 ms。下图为甲方发送和接收数据帧的两种场景；\(t_0\)时甲方的发送序号和确认序号均为0，\(t_1\)时甲方有足够多的数据待发送。
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN20_gbn_2017.pdf}
+\caption{箭头从甲方发出为S、指向甲方为R；两列分别对应未超时和S2,0超时的原题场景}\label{cn-fig-gbn2017}
+\end{figure}
+
+（1）对于图(a)，\(t_0\)到\(t_1\)期间，甲方可以断定乙方已正确接收多少个数据帧？是哪几个帧？请用\(S_{x,y}\)表示。
+
+（2）对于图(a)，从\(t_1\)起，在不出现超时且未收到乙方新的数据帧之前，甲方最多还可以发送多少个数据帧？第一个和最后一个分别是什么？请用\(S_{x,y}\)表示。
+
+（3）对于图(b)，从\(t_1\)起，在不出现新的超时且未收到乙方新的数据帧之前，需要重发多少个数据帧？重发的第一个帧是什么？请用\(S_{x,y}\)表示。
+
+（4）甲方可以达到的最大信道利用率是多少？
+
+\section{复用与受控介质访问}\label{CN03-multiplex}
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.26748\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.73252\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+方法 & 分配维度或操作 \\
+
+\midrule\endfirsthead\toprule
+方法 & 分配维度或操作 \\
+
+\midrule\endhead\bottomrule\endfoot
+FDM & 频带并行，设保护频带；数字数据调制后也可使用 \\
+
+同步TDM & 固定周期时隙，用户无数据时其时隙可闲置 \\
+
+统计TDM & 按需求分配，需标识归属与排队规则 \\
+
+WDM & 光波长复用 \\
+
+CDMA & 码片序列分离用户 \\
+
+轮询 & 控制站依次给站点发送机会，承担控制开销和单点失效风险 \\
+
+令牌 & 持有唯一有效令牌者发送，限制持有时间或额度；需处理丢失、重复与失效 \\
+
+\end{longtable}}
+\par\smallskip
+
+理想同步、等功率、正交码模型中，比特1发送\(c\)，0发送\(-c\)，未发为0；接收叠加信号 \(s\) 对目标码长\(m\)的码\(c\)计算 \((s\cdot c)/m\)，结果+1、\ensuremath{-}1、0分别判1、0、未发。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E07}{}\label{CN03-E07}\textbf{例 3-7}\par\nobreak\smallskip
+
+站点 A、B、C通过 CDMA 共享链路，A、B、C的码片序列分别是 \texttt{(\allowbreak{}1,\allowbreak{}1,\allowbreak{}1,\allowbreak{}1)\allowbreak{}}、\texttt{(\allowbreak{}1,\allowbreak{}−1,\allowbreak{}1,\allowbreak{}−1)\allowbreak{}} 和 \texttt{(\allowbreak{}1,\allowbreak{}1,\allowbreak{}−1,\allowbreak{}−1)\allowbreak{}}。若 C 从链路上收到的序列是 \texttt{(\allowbreak{}2,\allowbreak{}0,\allowbreak{}2,\allowbreak{}0,\allowbreak{}0,\allowbreak{}−2,\allowbreak{}0,\allowbreak{}−2,\allowbreak{}0,\allowbreak{}2,\allowbreak{}0,\allowbreak{}2)\allowbreak{}}，则 C 收到 A 发送的数据是（　）。
+
+A. 000　B. 101　C. 110　D. 111
+
+令牌环目的站复制数据并设置状态，帧回源站后由源站移除，再按协议释放令牌。无数据及时转交，有数据也须遵守额度；单有效令牌、正常运行模型可避免数据争用冲突。
+
+\section{ALOHA、CSMA与CSMA/CD}\label{CN03-csma}
+
+等长帧发送时间\(T\)、经典泊松负载\(G\)模型：纯ALOHA易冲突区间\(2T\)，吞吐\(Ge^{-2G}\)，最大\(1/(2e)\)；时隙ALOHA只在时隙边界开始，区间\(T\)，吞吐\(Ge^{-G}\)，最大\(1/e\)。
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.29435\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.30499\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.40066\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+CSMA策略 & 遇忙 & 遇空闲 \\
+
+\midrule\endfirsthead\toprule
+CSMA策略 & 遇忙 & 遇空闲 \\
+
+\midrule\endhead\bottomrule\endfoot
+1坚持 & 持续监听 & 立即发送 \\
+
+非坚持 & 随机等待再监听 & 发送 \\
+
+\(p\)坚持（时隙） & 继续按协议监听 & 概率\(p\)发送，\(1-p\)延后一时隙 \\
+
+\end{longtable}}
+\par\smallskip
+
+传播期间远站尚未听到载波，仍可能同时发送。共享半双工以太网用CSMA/CD：边发边检，冲突后停止正常发送、发强化信号、随机退避。最坏单向传播\(\tau\)时：
+
+\[L_{min}/R\ge2\tau,\qquad L_{min}\ge2R\tau.\]
+
+计入中继器等最坏往返延迟；提高速率而固定帧长会缩小允许跨度。全双工点到点以太网不使用CSMA/CD。
+
+第\(n\)次冲突，\(k=\min(n,10)\)，随机整数\(r\in[0,2^k-1]\)，退避\(r\)个争用时间片；传统10 Mb/s时间片51.2 μs。达到重试上限则报告失败。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E08}{}\label{CN03-E08}\textbf{例 3-8}\par\nobreak\smallskip
+
+在一个采用 CSMA/CD 协议的网络中，传输介质是一根完整的电缆，传输速率为1 Gb/s，电缆中的信号传播速度为200000 km/s。若最小数据帧长度减少800 bit，则最远的两个站点之间的距离至少需要（　）。
+
+A. 增加160 m　B. 增加80 m　C. 减少160 m　D. 减少80 m
+
+\section{802.11访问、NAV与无线地址}\label{CN03-wlan}
+
+CSMA/CA结合物理/虚拟载波监听、帧间间隔和随机退避；倒计时遇忙冻结，空闲并满足间隔后继续。SIFS短于DIFS，使当前交换的CTS、ACK等响应优先于新数据竞争。普通单播正确接收后发ACK，缺ACK按协议重试；广播、组播不套用该逐帧确认流程。
+
+可选RTS/CTS流程：RTS---SIFS---CTS---SIFS---DATA---SIFS---ACK。隐藏站听到CTS后按持续期设置NAV，表示本帧结束后的剩余预约时间；RTS/CTS有开销，也不能消除所有冲突。基本RTS为20 B，CTS和ACK各14 B；三者属于控制帧，探测与关联属于管理帧。
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN05_nav_2024.pdf}
+\caption{CTS结束后的剩余预约}\label{cn-fig-nav}
+\end{figure}
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E09}{}\label{CN03-E09}\textbf{例 3-9}\par\nobreak\smallskip
+
+在采用 CSMA/CA 协议的802.11无线局域网中，DIFS=128 μs，SIFS=28 μs，RTS帧、CTS帧和ACK帧的传输时延分别是3 μs、2 μs和2 μs，忽略信号传播时延。若主机A要向AP发送一个总长度为1998 B的数据帧，无线链路带宽为54 Mb/s，则隐藏站B收到AP发送的CTS帧时，设置的NAV值是（　）。
+
+A. 326 μs　B. 354 μs　C. 385 μs　D. 513 μs
+
+BSS为AP与关联站点，BSA为覆盖范围，SSID为服务集名称，BSSID通常为AP无线接口MAC；多个BSS经分布式系统DS组成ESS，门户连接其他局域网。AP负责接入和桥接，跨子网路由须有三层功能。
+
+\par\smallskip
+{\fontsize{9.3}{12}\selectfont\setlength{\tabcolsep}{2.5pt}\setlength{\LTleft}{0pt}\setlength{\LTright}{0pt}
+\begin{longtable}{@{}>{\raggedright\arraybackslash}p{\dimexpr0.26090\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.24876\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.28724\linewidth-2\tabcolsep\relax}>{\raggedright\arraybackslash}p{\dimexpr0.20311\linewidth-2\tabcolsep\relax}@{}}
+\toprule
+ToDS/FromDS & 地址1 & 地址2 & 地址3 \\
+
+\midrule\endfirsthead\toprule
+ToDS/FromDS & 地址1 & 地址2 & 地址3 \\
+
+\midrule\endhead\bottomrule\endfoot
+1/0，站点→AP & AP接收接口 & 当前站点发送接口 & 最终目的 \\
+
+0/1，AP→站点 & 当前接收站点 & AP发送接口 & 原始源 \\
+
+0/0，自组织 & 目的 & 源 & BSSID \\
+
+\end{longtable}}
+\par\smallskip
+
+1/1的无线分布式转发可用第四地址。无线链路ACK只反馈当前无线跳，TCP ACK反馈端到端字节流。
+
+\section{Ethernet II、VLAN与交换机}\label{CN03-ethernet}
+
+IEEE 802把链路层分为LLC和MAC；局域网技术通常覆盖物理层与链路层，网卡同时处理信号和帧。
+
+无标签Ethernet II：目的6 B、源6 B、类型2 B、数据及填充46～1500 B、FCS4 B；帧头14 B，完整MAC帧64～1518 B，MTU1500 B约束完整上层PDU。类型\texttt{0800}为IPv4、\texttt{0806}为ARP；802.3在对应位置采用长度字段。
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN19_ethernet_frame.pdf}
+\caption{无标签Ethernet II字段和计量边界}\label{cn-fig-ethernet-format}
+\end{figure}
+
+7 B前同步码和1 B SFD在MAC帧外；帧间间隔96 bit时间也在帧外。FCS检验从目的MAC至数据/填充，不含前导部分和间隔；错误帧丢弃，基本以太网无MAC逐帧确认重传。MAC通常48 bit，目的全1为广播，首字节最低位区分单播/组播。
+
+40 B IP分组装入无标签帧须填6 B，IP总长度保持40 B。最短MAC帧若计前导和间隔，一个周期为\((8+64)\times8+96=672\) bit时间，吞吐量分母按题设边界选取。
+
+VLAN划分逻辑广播域，不同VLAN通信需要三层转发。接入口可收发无标签帧，干道携多个VLAN；802.1Q在源MAC之后加4 B标签，VID12 bit，普通ID为1～4094；单标签常见最大帧1522 B，FCS随内容更新。教材最短64 B模型下，含标签首尾共22 B、数据下限42 B。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E10}{}\label{CN03-E10}\textbf{例 3-10}\par\nobreak\smallskip
+
+一个长度为40 B的IP数据报需要封装成802.1Q帧进行传输，则此802.1Q帧的数据载荷部分需要填充的字节数是（　）。
+
+A. 2　B. 4　C. 6　D. 8
+
+交换机按源MAC和入端口学习，按目的MAC转发：已知且异端口定向转发；同入端口过滤；未知、广播在当前VLAN除入端口外泛洪。表项会老化，环形拓扑需生成树等防循环机制。
+
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth,height=108mm,keepaspectratio]{figures/CN06_switch_learning.pdf}
+\caption{空表下A发B和B回复A的学习过程}\label{cn-fig-switch}
+\end{figure}
+
+交换机各端口独立冲突域，广播域由VLAN或三层边界划分。不同输出端口可并行，同一低速出口仍共享瓶颈。存储转发收全并可检验FCS；直通至少收到目的MAC后决策，帧尾尚未到达，不能预先排除尾部差错。吞吐量需区分单向发送与收发合计。
+
+\par\medskip\Needspace{4\baselineskip}\noindent\hypertarget{CN03-E11}{}\label{CN03-E11}\textbf{例 3-11}\par\nobreak\smallskip
+
+对于100 Mb/s的以太网交换机，当输出端口无排队，以直通交换方式转发一个以太网帧（不包括前导码）时，引入的转发时延至少是（　）。
+
+A. 0 μs　B. 0.48 μs　C. 5.12 μs　D. 121.44 μs
+
+\section{PPP封装与链路建立}\label{CN03-ppp}
+
+PPP用于点到点链路，无多站竞争和争用时间片所需的64 B最短帧限制。基本帧：\texttt{7E | FF | 03 | 协议 | 信息 | FCS | 7E}；协议字段分用IPv4、LCP、NCP等，固定地址不作以太网式多站寻址。
+
+建立过程：物理连接\ensuremath{\to}LCP配置和测试\ensuremath{\to}可选鉴别\ensuremath{\to}相应NCP配置\ensuremath{\to}网络层传送；关闭时撤销网络层配置、LCP和物理连接。LCP负责链路，NCP是一族网络层配置协议。
+
+异步PPP：\texttt{7E→7D 5E}，\texttt{7D→7D 5D}；同步教材模型使用零比特填充。PPP基本协议用FCS检错，不靠数据帧编号与逐帧ACK实现可靠交付。PPPoE从外到内为以太网、PPPoE/PPP、被封装的网络层分组。

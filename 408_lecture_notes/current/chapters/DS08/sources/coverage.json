@@ -1,0 +1,233 @@
+[
+  {
+    "baseline_anchor": "DS08",
+    "targets": [
+      "DS08-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-map",
+    "targets": [
+      "DS08-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-01",
+    "targets": [
+      "DS08-definition"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-02",
+    "targets": [
+      "DS08-insertion"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-bin-insert",
+    "targets": [
+      "DS08-insertion"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-03",
+    "targets": [
+      "DS08-exchange-selection"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-bubble-code",
+    "targets": [
+      "DS08-exchange-selection"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-04",
+    "targets": [
+      "DS08-exchange-selection"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-05",
+    "targets": [
+      "DS08-shell"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-ex1",
+    "targets": [
+      "DS08-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS08-shell-code",
+    "targets": [
+      "DS08-shell"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-06",
+    "targets": [
+      "DS08-quick"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-course-traces",
+    "targets": [
+      "DS08-quick"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-ex2",
+    "targets": [
+      "DS08-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS08-07",
+    "targets": [
+      "DS08-heap"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-ex3",
+    "targets": [
+      "DS08-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS08-heap-code",
+    "targets": [
+      "DS08-heap"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-08",
+    "targets": [
+      "DS08-merge"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-ex4",
+    "targets": [
+      "DS08-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS08-merge-code",
+    "targets": [
+      "DS08-merge"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-09",
+    "targets": [
+      "DS08-distribution"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-ex5",
+    "targets": [
+      "DS08-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS08-distribute-code",
+    "targets": [
+      "DS08-distribution"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-count-code",
+    "targets": [
+      "DS08-counting"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-radix-links",
+    "targets": [
+      "DS08-distribution"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-10",
+    "targets": [
+      "DS08-external"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-external-course",
+    "targets": [
+      "DS08-external"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-ex6",
+    "targets": [
+      "DS08-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS08-ex7",
+    "targets": [
+      "DS08-E07"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS08-ex8",
+    "targets": [
+      "DS08-E08"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS08-external-code",
+    "targets": [
+      "DS08-external"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-11",
+    "targets": [
+      "DS08-comparison"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS08-check",
+    "targets": [
+      "DS08-E09"
+    ],
+    "disposition": "solution"
+  }
+]

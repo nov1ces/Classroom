@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="335" viewBox="0 0 1000 335">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#333"/></marker></defs>
+<rect width="100%" height="100%" fill="white"/>
+<text x="500" y="30" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="23" fill="#111">record 首地址 C008H；小端；int 4 B，short 2 B</text>
+<rect x="30" y="100" width="117" height="65" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="88.5" y="139.85" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">11</text>
+<text x="88" y="83" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">+0</text>
+<rect x="147" y="100" width="117" height="65" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="205.5" y="139.85" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">01</text>
+<text x="205" y="83" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">+1</text>
+<rect x="264" y="100" width="117" height="65" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="322.5" y="139.85" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">00</text>
+<text x="322" y="83" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">+2</text>
+<rect x="381" y="100" width="117" height="65" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="439.5" y="139.85" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">00</text>
+<text x="439" y="83" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">+3</text>
+<rect x="498" y="100" width="117" height="65" fill="#eeeeee" stroke="#333" stroke-width="2"/>
+<text x="556.5" y="139.85" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">b</text>
+<text x="556" y="83" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">+4</text>
+<rect x="615" y="100" width="117" height="65" fill="#eeeeee" stroke="#333" stroke-width="2"/>
+<text x="673.5" y="139.85" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">填充</text>
+<text x="673" y="83" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">+5</text>
+<rect x="732" y="100" width="117" height="65" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="790.5" y="139.85" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">c低</text>
+<text x="790" y="83" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">+6</text>
+<rect x="849" y="100" width="117" height="65" fill="#e9f0f3" stroke="#333" stroke-width="2"/>
+<text x="907.5" y="139.85" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">c高</text>
+<text x="907" y="83" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="20" fill="#111">+7</text>
+<text x="260" y="215" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#111">a = 273 = 0000 0111H</text>
+<text x="785" y="215" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="22" fill="#111">c 起于偏移6（C00EH）</text>
+<text x="500" y="285" text-anchor="middle" font-family="Noto Sans CJK SC, sans-serif" font-size="21" fill="#111">成员对齐决定填充；字节序决定 a 的低地址字节</text>
+</svg>

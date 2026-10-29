@@ -1,0 +1,460 @@
+{
+  "chapter": "OS03",
+  "lecture_files": [
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_1 内存的基础知识.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "targets": [
+        "OS03-addresses"
+      ],
+      "baseline_targets": [
+        "OS03-5-1",
+        "OS03-loading"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_2 内存管理的概念.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "targets": [
+        "OS03-addresses",
+        "OS03-sharing"
+      ],
+      "baseline_targets": [
+        "OS03-5-1",
+        "OS03-5-2"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_3 进程的内存映像.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "targets": [
+        "OS03-addresses"
+      ],
+      "baseline_targets": [
+        "OS03-loading"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_4 （选修）覆盖与交换.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "targets": [
+        "OS03-extension"
+      ],
+      "baseline_targets": [
+        "OS03-extension",
+        "OS03-overlay-example"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.2_1 连续分配管理方式.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "targets": [
+        "OS03-partitions"
+      ],
+      "baseline_targets": [
+        "OS03-5-3",
+        "OS03-partition-recovery",
+        "OS03-fixed-partition-course"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.2_2 动态分区分配算法.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "targets": [
+        "OS03-partitions",
+        "OS03-E02"
+      ],
+      "baseline_targets": [
+        "OS03-5-3",
+        "OS03-ex5-2",
+        "OS03-course-partition-choices"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_1 基本分页存储管理的基本概念.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "targets": [
+        "OS03-paging"
+      ],
+      "baseline_targets": [
+        "OS03-5-4",
+        "OS03-pte-size"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_2 基本地址变换机构.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "targets": [
+        "OS03-paging"
+      ],
+      "baseline_targets": [
+        "OS03-page-translation",
+        "OS03-pte-size"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_3 具有快表的地址变换机构.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targets": [
+        "OS03-tlb"
+      ],
+      "baseline_targets": [
+        "OS03-5-5",
+        "OS03-tlb-time"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_4 两级页表.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "targets": [
+        "OS03-tlb",
+        "OS03-E03",
+        "OS03-E04"
+      ],
+      "baseline_targets": [
+        "OS03-5-5",
+        "OS03-ex5-3",
+        "OS03-ex5-4",
+        "OS03-course-twolevel"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.4 基本分段存储管理方式.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "targets": [
+        "OS03-segmentation",
+        "OS03-sharing",
+        "OS03-addresses"
+      ],
+      "baseline_targets": [
+        "OS03-5-6",
+        "OS03-5-2"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.5 段页式管理方式.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "targets": [
+        "OS03-segmentation"
+      ],
+      "baseline_targets": [
+        "OS03-5-6",
+        "OS03-segment-pages"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.1 虚拟内存的基本概念.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targets": [
+        "OS03-extension",
+        "OS03-demand-paging"
+      ],
+      "baseline_targets": [
+        "OS03-extension",
+        "OS03-5-7"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.2 请求分页管理方式.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "targets": [
+        "OS03-demand-paging"
+      ],
+      "baseline_targets": [
+        "OS03-5-7"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.4 页面置换算法.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "targets": [
+        "OS03-replacement"
+      ],
+      "baseline_targets": [
+        "OS03-5-9",
+        "OS03-auto-3",
+        "OS03-course-replacement-traces"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.5+3.2.3 页面分配策略.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "targets": [
+        "OS03-resident-allocation",
+        "OS03-extension",
+        "OS03-demand-paging",
+        "OS03-working-set",
+        "OS03-effective-time"
+      ],
+      "baseline_targets": [
+        "OS03-5-8",
+        "OS03-backing",
+        "OS03-5-11",
+        "OS03-backing-course-models"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    },
+    {
+      "path": "03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.7 内存映射文件.pdf",
+      "file_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "targets": [
+        "OS03-mmap"
+      ],
+      "baseline_targets": [
+        "OS03-5-10"
+      ],
+      "baseline_review_scope": "人工逐页查看提取文字的开头两条及去重文本知识组，已与正文目标标题及部分文本比较；重复动画状态按主题合并。此为文本概要抽核，未逐页完整阅读全部文字，未逐图对照原PDF。",
+      "current_review": "author synthesis and chapter-specific content review; source limitations remain in baseline records"
+    }
+  ],
+  "scope": "Knowledge-group source mapping; does not assert every animation frame or tiny figure label was independently reviewed."
+}

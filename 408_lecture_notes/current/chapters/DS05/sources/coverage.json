@@ -1,0 +1,198 @@
+[
+  {
+    "baseline_anchor": "DS05",
+    "targets": [
+      "DS05-tree"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-map",
+    "targets": [
+      "DS05-tree"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-01",
+    "targets": [
+      "DS05-tree"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-ex1",
+    "targets": [
+      "DS05-E01"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS05-mary",
+    "targets": [
+      "DS05-tree"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-02",
+    "targets": [
+      "DS05-binary"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-03",
+    "targets": [
+      "DS05-binary"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-ex2",
+    "targets": [
+      "DS05-E02"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS05-bitree-code",
+    "targets": [
+      "DS05-binary"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-04",
+    "targets": [
+      "DS05-traversal"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-order-code",
+    "targets": [
+      "DS05-traversal"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-rebuild",
+    "targets": [
+      "DS05-reconstruction"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-ex3",
+    "targets": [
+      "DS05-E03"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS05-05",
+    "targets": [
+      "DS05-thread"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-thread-access",
+    "targets": [
+      "DS05-thread"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-06",
+    "targets": [
+      "DS05-forest"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-tree-storage-code",
+    "targets": [
+      "DS05-forest"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-07",
+    "targets": [
+      "DS05-forest"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-ex4",
+    "targets": [
+      "DS05-E04"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS05-08",
+    "targets": [
+      "DS05-forest"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-09",
+    "targets": [
+      "DS05-huffman"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-ex5",
+    "targets": [
+      "DS05-E05"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS05-huffman-course",
+    "targets": [
+      "DS05-huffman"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-ex6",
+    "targets": [
+      "DS05-E06"
+    ],
+    "disposition": "solution"
+  },
+  {
+    "baseline_anchor": "DS05-10",
+    "targets": [
+      "DS05-union-find"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-11",
+    "targets": [
+      "DS05-heap"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-sift",
+    "targets": [
+      "DS05-heap"
+    ],
+    "disposition": "merged"
+  },
+  {
+    "baseline_anchor": "DS05-check",
+    "targets": [
+      "DS05-heap"
+    ],
+    "disposition": "merged"
+  }
+]

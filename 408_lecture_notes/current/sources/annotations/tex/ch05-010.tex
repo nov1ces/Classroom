@@ -1,0 +1,1 @@
+{\color{ink}\bfseries 按各高度工作量求和为}\par\vspace{1bp}一次下滤每下降1层只做常数次比较；能下降至少 k 层的结点共有\(\lfloor n/\allowbreak{}2^{k}\rfloor \)个，因此全部下滤层数至多\(\sum_{k\ge1}\lfloor n/\allowbreak{}2^{k}\rfloor <\allowbreak{}n\)。外层还需处理\(\lfloor n/\allowbreak{}2\rfloor \)个非叶结点，故自底向上建堆时间为\(\Theta (n)\)；8.6节（PDF第52页）的 BuildMaxHeap 沿用此结论。

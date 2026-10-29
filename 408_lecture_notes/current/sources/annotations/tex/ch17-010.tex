@@ -1,0 +1,1 @@
+{\color{ink}\bfseries 例 2-11}\par\vspace{1bp}（1）C1是访问同一缓冲B的临界区：两个写入者须互斥检查并占用空缓冲，防止覆盖彼此的数据。\par （2）仅执行各一次，设\(ready=\allowbreak{}0\)：P1为C1;\allowbreak{} V(ready)，P2为P(ready);\allowbreak{} C2；这一先后关系已使两次访问不重叠，只需一个信号量。\par （3）B初始非空且C3不取走分组，设\(mutex=\allowbreak{}1\)；两进程均执行P(mutex);\allowbreak{} C3;\allowbreak{} V(mutex)，同样只需一个信号量。第（2）问的简化依赖“一次”，若反复生产消费，还须保证下一次写入等待上一分组被取走。

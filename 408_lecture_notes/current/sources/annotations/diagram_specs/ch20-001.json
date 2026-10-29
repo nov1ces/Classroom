@@ -1,0 +1,424 @@
+{
+  "type": "two_panel_resource_timeline",
+  "layout": {
+    "panels": "上下排列，单缓冲在上，双缓冲在下",
+    "time_direction": "left_to_right",
+    "same_time_scale": true,
+    "axis_start": 0,
+    "axis_end": 500,
+    "tick_step": 50,
+    "stage_styles": {
+      "input": "蓝色实心条",
+      "copy": "橙色实心条",
+      "analysis": "绿色实心条"
+    },
+    "idle_style": "留白",
+    "interval_convention": "所有区间按[开始,结束)表示；边界处可以交接",
+    "panel_note": "仅绘出原题前3块；原题总块数仍为10"
+  },
+  "units": {
+    "time": "μs"
+  },
+  "assumptions": [
+    "初始系统缓冲与用户工作区均空；单缓冲为B1，双缓冲交替使用B1、B2。",
+    "每块输入100 μs、复制50 μs、分析50 μs；忽略其他开销。",
+    "设备一次输入一块；同一系统缓冲的输入与复制不可重叠，复制结束后该系统缓冲可复用。",
+    "复制与分析共用一个CPU；只有一个用户工作区，上一块分析完成后才可复制下一块。",
+    "设备输入可与CPU处理重叠，受系统缓冲可用性约束。"
+  ],
+  "panels": [
+    {
+      "id": "S",
+      "title": "单缓冲：前3块",
+      "lanes": [
+        {
+          "id": "device",
+          "label": "设备输入"
+        },
+        {
+          "id": "cpu",
+          "label": "CPU：复制、分析"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "SI1",
+          "label": "输入1（B1）",
+          "lane": "device",
+          "block": 1,
+          "system_buffer": 1,
+          "start": 0,
+          "end": 100,
+          "stage": "input"
+        },
+        {
+          "id": "SM1",
+          "label": "复制1",
+          "lane": "cpu",
+          "block": 1,
+          "system_buffer": 1,
+          "start": 100,
+          "end": 150,
+          "stage": "copy"
+        },
+        {
+          "id": "SC1",
+          "label": "分析1",
+          "lane": "cpu",
+          "block": 1,
+          "system_buffer": 1,
+          "start": 150,
+          "end": 200,
+          "stage": "analysis"
+        },
+        {
+          "id": "SI2",
+          "label": "输入2（B1）",
+          "lane": "device",
+          "block": 2,
+          "system_buffer": 1,
+          "start": 150,
+          "end": 250,
+          "stage": "input"
+        },
+        {
+          "id": "SM2",
+          "label": "复制2",
+          "lane": "cpu",
+          "block": 2,
+          "system_buffer": 1,
+          "start": 250,
+          "end": 300,
+          "stage": "copy"
+        },
+        {
+          "id": "SC2",
+          "label": "分析2",
+          "lane": "cpu",
+          "block": 2,
+          "system_buffer": 1,
+          "start": 300,
+          "end": 350,
+          "stage": "analysis"
+        },
+        {
+          "id": "SI3",
+          "label": "输入3（B1）",
+          "lane": "device",
+          "block": 3,
+          "system_buffer": 1,
+          "start": 300,
+          "end": 400,
+          "stage": "input"
+        },
+        {
+          "id": "SM3",
+          "label": "复制3",
+          "lane": "cpu",
+          "block": 3,
+          "system_buffer": 1,
+          "start": 400,
+          "end": 450,
+          "stage": "copy"
+        },
+        {
+          "id": "SC3",
+          "label": "分析3",
+          "lane": "cpu",
+          "block": 3,
+          "system_buffer": 1,
+          "start": 450,
+          "end": 500,
+          "stage": "analysis"
+        }
+      ],
+      "edges": [
+        {
+          "from": "SM1",
+          "from_endpoint": "end",
+          "to": "SI2",
+          "to_endpoint": "start",
+          "direction": "forward",
+          "label": "复制1结束，B1才可接收第2块"
+        },
+        {
+          "from": "SM2",
+          "from_endpoint": "end",
+          "to": "SI3",
+          "to_endpoint": "start",
+          "direction": "forward",
+          "label": "复制2结束，B1才可接收第3块"
+        }
+      ],
+      "state_table": [
+        {
+          "block": 1,
+          "buffer": 1,
+          "input": [
+            0,
+            100
+          ],
+          "copy": [
+            100,
+            150
+          ],
+          "analysis": [
+            150,
+            200
+          ]
+        },
+        {
+          "block": 2,
+          "buffer": 1,
+          "input": [
+            150,
+            250
+          ],
+          "copy": [
+            250,
+            300
+          ],
+          "analysis": [
+            300,
+            350
+          ]
+        },
+        {
+          "block": 3,
+          "buffer": 1,
+          "input": [
+            300,
+            400
+          ],
+          "copy": [
+            400,
+            450
+          ],
+          "analysis": [
+            450,
+            500
+          ]
+        }
+      ],
+      "prefix_completion": 500
+    },
+    {
+      "id": "D",
+      "title": "双缓冲：前3块",
+      "lanes": [
+        {
+          "id": "device",
+          "label": "设备输入"
+        },
+        {
+          "id": "cpu",
+          "label": "CPU：复制、分析"
+        }
+      ],
+      "nodes": [
+        {
+          "id": "DI1",
+          "label": "输入1（B1）",
+          "lane": "device",
+          "block": 1,
+          "system_buffer": 1,
+          "start": 0,
+          "end": 100,
+          "stage": "input"
+        },
+        {
+          "id": "DM1",
+          "label": "复制1",
+          "lane": "cpu",
+          "block": 1,
+          "system_buffer": 1,
+          "start": 100,
+          "end": 150,
+          "stage": "copy"
+        },
+        {
+          "id": "DC1",
+          "label": "分析1",
+          "lane": "cpu",
+          "block": 1,
+          "system_buffer": 1,
+          "start": 150,
+          "end": 200,
+          "stage": "analysis"
+        },
+        {
+          "id": "DI2",
+          "label": "输入2（B2）",
+          "lane": "device",
+          "block": 2,
+          "system_buffer": 2,
+          "start": 100,
+          "end": 200,
+          "stage": "input"
+        },
+        {
+          "id": "DM2",
+          "label": "复制2",
+          "lane": "cpu",
+          "block": 2,
+          "system_buffer": 2,
+          "start": 200,
+          "end": 250,
+          "stage": "copy"
+        },
+        {
+          "id": "DC2",
+          "label": "分析2",
+          "lane": "cpu",
+          "block": 2,
+          "system_buffer": 2,
+          "start": 250,
+          "end": 300,
+          "stage": "analysis"
+        },
+        {
+          "id": "DI3",
+          "label": "输入3（B1）",
+          "lane": "device",
+          "block": 3,
+          "system_buffer": 1,
+          "start": 200,
+          "end": 300,
+          "stage": "input"
+        },
+        {
+          "id": "DM3",
+          "label": "复制3",
+          "lane": "cpu",
+          "block": 3,
+          "system_buffer": 1,
+          "start": 300,
+          "end": 350,
+          "stage": "copy"
+        },
+        {
+          "id": "DC3",
+          "label": "分析3",
+          "lane": "cpu",
+          "block": 3,
+          "system_buffer": 1,
+          "start": 350,
+          "end": 400,
+          "stage": "analysis"
+        }
+      ],
+      "edges": [
+        {
+          "from": "DI1",
+          "from_endpoint": "end",
+          "to": "DI2",
+          "to_endpoint": "start",
+          "direction": "forward",
+          "label": "改填B2，同时CPU处理第1块"
+        },
+        {
+          "from": "DM1",
+          "from_endpoint": "end",
+          "to": "DI3",
+          "to_endpoint": "start",
+          "direction": "forward",
+          "label": "B1已于150释放；设备在200开始填第3块"
+        }
+      ],
+      "state_table": [
+        {
+          "block": 1,
+          "buffer": 1,
+          "input": [
+            0,
+            100
+          ],
+          "copy": [
+            100,
+            150
+          ],
+          "analysis": [
+            150,
+            200
+          ]
+        },
+        {
+          "block": 2,
+          "buffer": 2,
+          "input": [
+            100,
+            200
+          ],
+          "copy": [
+            200,
+            250
+          ],
+          "analysis": [
+            250,
+            300
+          ]
+        },
+        {
+          "block": 3,
+          "buffer": 1,
+          "input": [
+            200,
+            300
+          ],
+          "copy": [
+            300,
+            350
+          ],
+          "analysis": [
+            350,
+            400
+          ]
+        }
+      ],
+      "prefix_completion": 400
+    }
+  ],
+  "continuation": {
+    "single_buffer": {
+      "start_spacing": 150,
+      "block_10": {
+        "block": 10,
+        "buffer": 1,
+        "input": [
+          1350,
+          1450
+        ],
+        "copy": [
+          1450,
+          1500
+        ],
+        "analysis": [
+          1500,
+          1550
+        ]
+      },
+      "batch_completion": 1550
+    },
+    "double_buffer": {
+      "start_spacing": 100,
+      "block_10": {
+        "block": 10,
+        "buffer": 2,
+        "input": [
+          900,
+          1000
+        ],
+        "copy": [
+          1000,
+          1050
+        ],
+        "analysis": [
+          1050,
+          1100
+        ]
+      },
+      "batch_completion": 1100
+    },
+    "caption": "同样节拍延续至第10块，分析完成时刻分别为1550 μs、1100 μs，选择B。"
+  }
+}

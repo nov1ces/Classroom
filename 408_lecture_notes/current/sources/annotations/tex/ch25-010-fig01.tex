@@ -1,0 +1,10 @@
+{\color{ink}\bfseries 例 5-9 \(\cdot \) 第3问 \(\cdot \) 合订本180 \(\cdot \) 图1}\par \textbf{每轮发送和缓存，单位KB}\par\vspace{2bp}{\setlength{\tabcolsep}{1.2bp}\renewcommand{\arraystretch}{1.18}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{16.094bp}>{\raggedright\arraybackslash}p{16.094bp}>{\raggedright\arraybackslash}p{29.888bp}>{\raggedright\arraybackslash}p{32.187bp}>{\raggedright\arraybackslash}p{32.187bp}@{}}
+\toprule
+\textbf{轮} & \textbf{发} & \textbf{累计收} & \textbf{cwnd} & \textbf{rwnd}\\\midrule
+0 & 0 & 0 & 1 & 20\\
+1 & 1 & 1 & 2 & 19\\
+2 & 2 & 3 & 4 & 17\\
+3 & 4 & 7 & 8 & 13\\
+4 & 8 & 15 & 16 & 5\\
+5 & 5 & 20 & 21 & 0\\
+\bottomrule\end{tabular}}\par 表中窗口为该轮ACK处理后。初始\(cwnd=\allowbreak{}1 \mathrm{MSS}\)、\(ssthresh=\allowbreak{}32 KB\)，\(1 \mathrm{MSS}=\allowbreak{}1 KB=\allowbreak{}1024 B\)。

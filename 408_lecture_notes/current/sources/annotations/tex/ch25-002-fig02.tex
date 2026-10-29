@@ -1,0 +1,9 @@
+{\color{ink}\bfseries 例 5-4 \(\cdot \) 合订本176 \(\cdot \) 图2}\par \textbf{各端状态与关闭时刻}\par\vspace{2bp}{\setlength{\tabcolsep}{1.2bp}\renewcommand{\arraystretch}{1.18}\begin{tabular}{@{}>{\raggedright\arraybackslash}p{22.275bp}>{\raggedright\arraybackslash}p{111.375bp}@{}}
+\toprule
+\textbf{时刻} & \textbf{状态变化}\\\midrule
+0 & C发FIN，FIN-WAIT-1\\
+25 & S：CLOSE-WAIT\(\to \)立即发FIN+\allowbreak{}ACK\(\to \)LAST-ACK\\
+50 & C发最后ACK，进入TIME-WAIT\\
+75 & S收ACK，CLOSED\\
+1650 & C等待2MSL结束，CLOSED\\
+\bottomrule\end{tabular}}\par \(\mathrm{RTT}=\allowbreak{}50 ms\)，单向25 ms；\(MSL=\allowbreak{}800 ms\)。服务器收到FIN后立即关闭并合并FIN+\allowbreak{}ACK；忽略发送、处理和丢失。

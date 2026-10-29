@@ -1,0 +1,376 @@
+{
+  "type": "comparison_gantt",
+  "layout": {
+    "orientation": "上下两条时间线，共用0至26的横向时间刻度",
+    "panels": [
+      "SRTF",
+      "RR，q=2"
+    ],
+    "width_hint_px": 1300,
+    "height_hint_px": 560,
+    "bar_width": "按end−start成比例",
+    "labels": "条内标进程名，条下标每个区间端点；RR在t=25保留片界"
+  },
+  "nodes": [
+    {
+      "id": "SRTF-1",
+      "lane": "SRTF",
+      "label": "P1",
+      "start": 0,
+      "end": 1,
+      "duration": 1
+    },
+    {
+      "id": "SRTF-2",
+      "lane": "SRTF",
+      "label": "P2",
+      "start": 1,
+      "end": 5,
+      "duration": 4
+    },
+    {
+      "id": "SRTF-3",
+      "lane": "SRTF",
+      "label": "P4",
+      "start": 5,
+      "end": 10,
+      "duration": 5
+    },
+    {
+      "id": "SRTF-4",
+      "lane": "SRTF",
+      "label": "P1",
+      "start": 10,
+      "end": 17,
+      "duration": 7
+    },
+    {
+      "id": "SRTF-5",
+      "lane": "SRTF",
+      "label": "P3",
+      "start": 17,
+      "end": 26,
+      "duration": 9
+    },
+    {
+      "id": "RR-1",
+      "lane": "RR",
+      "label": "P1",
+      "start": 0,
+      "end": 2,
+      "duration": 2
+    },
+    {
+      "id": "RR-2",
+      "lane": "RR",
+      "label": "P2",
+      "start": 2,
+      "end": 4,
+      "duration": 2
+    },
+    {
+      "id": "RR-3",
+      "lane": "RR",
+      "label": "P3",
+      "start": 4,
+      "end": 6,
+      "duration": 2
+    },
+    {
+      "id": "RR-4",
+      "lane": "RR",
+      "label": "P1",
+      "start": 6,
+      "end": 8,
+      "duration": 2
+    },
+    {
+      "id": "RR-5",
+      "lane": "RR",
+      "label": "P4",
+      "start": 8,
+      "end": 10,
+      "duration": 2
+    },
+    {
+      "id": "RR-6",
+      "lane": "RR",
+      "label": "P2",
+      "start": 10,
+      "end": 12,
+      "duration": 2
+    },
+    {
+      "id": "RR-7",
+      "lane": "RR",
+      "label": "P3",
+      "start": 12,
+      "end": 14,
+      "duration": 2
+    },
+    {
+      "id": "RR-8",
+      "lane": "RR",
+      "label": "P1",
+      "start": 14,
+      "end": 16,
+      "duration": 2
+    },
+    {
+      "id": "RR-9",
+      "lane": "RR",
+      "label": "P4",
+      "start": 16,
+      "end": 18,
+      "duration": 2
+    },
+    {
+      "id": "RR-10",
+      "lane": "RR",
+      "label": "P3",
+      "start": 18,
+      "end": 20,
+      "duration": 2
+    },
+    {
+      "id": "RR-11",
+      "lane": "RR",
+      "label": "P1",
+      "start": 20,
+      "end": 22,
+      "duration": 2
+    },
+    {
+      "id": "RR-12",
+      "lane": "RR",
+      "label": "P4",
+      "start": 22,
+      "end": 23,
+      "duration": 1
+    },
+    {
+      "id": "RR-13",
+      "lane": "RR",
+      "label": "P3",
+      "start": 23,
+      "end": 25,
+      "duration": 2
+    },
+    {
+      "id": "RR-14",
+      "lane": "RR",
+      "label": "P3",
+      "start": 25,
+      "end": 26,
+      "duration": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": "SRTF-1",
+      "to": "SRTF-2",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "SRTF-2",
+      "to": "SRTF-3",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "SRTF-3",
+      "to": "SRTF-4",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "SRTF-4",
+      "to": "SRTF-5",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "RR-1",
+      "to": "RR-2",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "RR-2",
+      "to": "RR-3",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "RR-3",
+      "to": "RR-4",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "RR-4",
+      "to": "RR-5",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "RR-5",
+      "to": "RR-6",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "RR-6",
+      "to": "RR-7",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "RR-7",
+      "to": "RR-8",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "RR-8",
+      "to": "RR-9",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "RR-9",
+      "to": "RR-10",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "RR-10",
+      "to": "RR-11",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "RR-11",
+      "to": "RR-12",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "RR-12",
+      "to": "RR-13",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    },
+    {
+      "from": "RR-13",
+      "to": "RR-14",
+      "direction": "left-to-right",
+      "meaning": "下一执行区间；相接时刻见start/end"
+    }
+  ],
+  "execution_order": {
+    "SRTF": [
+      "SRTF-1",
+      "SRTF-2",
+      "SRTF-3",
+      "SRTF-4",
+      "SRTF-5"
+    ],
+    "RR": [
+      "RR-1",
+      "RR-2",
+      "RR-3",
+      "RR-4",
+      "RR-5",
+      "RR-6",
+      "RR-7",
+      "RR-8",
+      "RR-9",
+      "RR-10",
+      "RR-11",
+      "RR-12",
+      "RR-13",
+      "RR-14"
+    ]
+  },
+  "units": "题设时间配额",
+  "assumptions": [
+    "单CPU、忽略上下文切换开销，无I/O阻塞",
+    "SRTF每次比较剩余CPU时间",
+    "RR在同刻到达与片耗尽时先将到达者入队，再将未完成的当前进程放到队尾；因此t=2时P3排在P1前方",
+    "RR最后的P3仍按时间片在t=25形成边界"
+  ],
+  "input_table": [
+    {
+      "process": "P1",
+      "arrival": 0,
+      "service": 8
+    },
+    {
+      "process": "P2",
+      "arrival": 1,
+      "service": 4
+    },
+    {
+      "process": "P3",
+      "arrival": 2,
+      "service": 9
+    },
+    {
+      "process": "P4",
+      "arrival": 3,
+      "service": 5
+    }
+  ],
+  "summary_table": [
+    {
+      "process": "P1",
+      "SRTF_completion": 17,
+      "SRTF_turnaround": 17,
+      "RR_completion": 22,
+      "RR_turnaround": 22
+    },
+    {
+      "process": "P2",
+      "SRTF_completion": 5,
+      "SRTF_turnaround": 4,
+      "RR_completion": 12,
+      "RR_turnaround": 11
+    },
+    {
+      "process": "P3",
+      "SRTF_completion": 26,
+      "SRTF_turnaround": 24,
+      "RR_completion": 26,
+      "RR_turnaround": 24
+    },
+    {
+      "process": "P4",
+      "SRTF_completion": 10,
+      "SRTF_turnaround": 7,
+      "RR_completion": 23,
+      "RR_turnaround": 20
+    }
+  ],
+  "mean_turnaround": {
+    "SRTF": 13,
+    "RR": 19.25
+  },
+  "alternative_tie_rule": {
+    "description": "t=2先将P1回队，再将P3入队",
+    "RR_completion": [
+      20,
+      12,
+      26,
+      23
+    ],
+    "RR_turnaround": [
+      20,
+      11,
+      24,
+      20
+    ],
+    "RR_mean_turnaround": 18.75
+  }
+}

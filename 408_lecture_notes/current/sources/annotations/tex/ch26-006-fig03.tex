@@ -1,0 +1,5 @@
+{\color{ink}\bfseries 例 6-8 \(\cdot \) 第4问 \(\cdot \) 合订本186 \(\cdot \) 图3}\par \textbf{FTP消息方向与时序1～3}\par\vspace{2bp}{\setlength{\fboxsep}{3bp}\color{ink}\fbox{\parbox{128bp}{\color{black}H\(\to \)S（0\(\to \)5 ms）：SYN，\(seq=\allowbreak{}100\)}}}
+\par\vspace{1bp}\centerline{\(\downarrow\)}\par\vspace{1bp}
+{\setlength{\fboxsep}{3bp}\color{ink}\fbox{\parbox{128bp}{\color{black}S\(\to \)H（5\(\to \)10 ms）：SYN+\allowbreak{}ACK，\(ack=\allowbreak{}101\)；此确认不增大发送数据的cwnd}}}
+\par\vspace{1bp}\centerline{\(\downarrow\)}\par\vspace{1bp}
+{\setlength{\fboxsep}{3bp}\color{ink}\fbox{\parbox{128bp}{\color{black}H\(\to \)S（10\(\to \)15 ms）：第1轮：1段，共1 MSS，\(seq=\allowbreak{}101\)～1100；首段可与第三次握手ACK同行}}}

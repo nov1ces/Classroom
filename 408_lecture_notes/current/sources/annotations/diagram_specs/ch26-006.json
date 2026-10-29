@@ -1,0 +1,260 @@
+{
+  "type": "timed_sequence_with_round_table",
+  "title": "例6-8：从建立数据连接到18段全部获确认",
+  "layout": {
+    "upper_panel": "H在左、FTP服务器S在右；时间自上向下，0～60 ms，每5 ms一刻度；同轮数据和逐段ACK各聚合为一条带完整标签的箭头",
+    "lower_panel": "按第1～5轮纵向排列表格；列为发送时刻、发送前cwnd、发送段数、数据序号范围、轮末累计ACK、H收到轮末ACK时刻；关键时刻30 ms和60 ms加注"
+  },
+  "nodes": [
+    {
+      "id": "H",
+      "label": "FTP客户H（数据发送方）"
+    },
+    {
+      "id": "S",
+      "label": "FTP服务器S（数据接收方）"
+    }
+  ],
+  "edges": [
+    {
+      "order": 1,
+      "from": "H",
+      "to": "S",
+      "send_time_ms": 0,
+      "receive_time_ms": 5,
+      "label": "SYN，seq=100"
+    },
+    {
+      "order": 2,
+      "from": "S",
+      "to": "H",
+      "send_time_ms": 5,
+      "receive_time_ms": 10,
+      "label": "SYN+ACK，ack=101；此确认不增大发送数据的cwnd"
+    },
+    {
+      "order": 3,
+      "from": "H",
+      "to": "S",
+      "send_time_ms": 10,
+      "receive_time_ms": 15,
+      "label": "第1轮：1段，共1 MSS，seq=101～1100；首段可与第三次握手ACK同行"
+    },
+    {
+      "order": 4,
+      "from": "S",
+      "to": "H",
+      "send_time_ms": 15,
+      "receive_time_ms": 20,
+      "label": "逐段确认ACK=1101"
+    },
+    {
+      "order": 5,
+      "from": "H",
+      "to": "S",
+      "send_time_ms": 20,
+      "receive_time_ms": 25,
+      "label": "第2轮：2段，共2 MSS，seq=1101～3100"
+    },
+    {
+      "order": 6,
+      "from": "S",
+      "to": "H",
+      "send_time_ms": 25,
+      "receive_time_ms": 30,
+      "label": "逐段确认ACK=2101、3101"
+    },
+    {
+      "order": 7,
+      "from": "H",
+      "to": "S",
+      "send_time_ms": 30,
+      "receive_time_ms": 35,
+      "label": "第3轮：4段，共4 MSS，seq=3101～7100"
+    },
+    {
+      "order": 8,
+      "from": "S",
+      "to": "H",
+      "send_time_ms": 35,
+      "receive_time_ms": 40,
+      "label": "逐段确认ACK=4101、5101、6101、7101"
+    },
+    {
+      "order": 9,
+      "from": "H",
+      "to": "S",
+      "send_time_ms": 40,
+      "receive_time_ms": 45,
+      "label": "第4轮：5段，共5 MSS，seq=7101～12100"
+    },
+    {
+      "order": 10,
+      "from": "S",
+      "to": "H",
+      "send_time_ms": 45,
+      "receive_time_ms": 50,
+      "label": "逐段确认ACK=8101、9101、10101、11101、12101"
+    },
+    {
+      "order": 11,
+      "from": "H",
+      "to": "S",
+      "send_time_ms": 50,
+      "receive_time_ms": 55,
+      "label": "第5轮：6段，共6 MSS，seq=12101～18100"
+    },
+    {
+      "order": 12,
+      "from": "S",
+      "to": "H",
+      "send_time_ms": 55,
+      "receive_time_ms": 60,
+      "label": "逐段确认ACK=13101、14101、15101、16101、17101、18101"
+    }
+  ],
+  "execution_order": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "state_table": [
+    {
+      "round": 1,
+      "H_send_time_ms": 10,
+      "cwnd_before_send_MSS": 1,
+      "segments_sent": 1,
+      "data_bytes": 1000,
+      "first_byte_seq": 101,
+      "last_byte_seq": 1100,
+      "cumulative_data_bytes": 1000,
+      "ACKs_in_order": [
+        1101
+      ],
+      "H_receives_final_ACK_time_ms": 20,
+      "cwnd_after_round_MSS": 2
+    },
+    {
+      "round": 2,
+      "H_send_time_ms": 20,
+      "cwnd_before_send_MSS": 2,
+      "segments_sent": 2,
+      "data_bytes": 2000,
+      "first_byte_seq": 1101,
+      "last_byte_seq": 3100,
+      "cumulative_data_bytes": 3000,
+      "ACKs_in_order": [
+        2101,
+        3101
+      ],
+      "H_receives_final_ACK_time_ms": 30,
+      "cwnd_after_round_MSS": 4
+    },
+    {
+      "round": 3,
+      "H_send_time_ms": 30,
+      "cwnd_before_send_MSS": 4,
+      "segments_sent": 4,
+      "data_bytes": 4000,
+      "first_byte_seq": 3101,
+      "last_byte_seq": 7100,
+      "cumulative_data_bytes": 7000,
+      "ACKs_in_order": [
+        4101,
+        5101,
+        6101,
+        7101
+      ],
+      "H_receives_final_ACK_time_ms": 40,
+      "cwnd_after_round_MSS": 5
+    },
+    {
+      "round": 4,
+      "H_send_time_ms": 40,
+      "cwnd_before_send_MSS": 5,
+      "segments_sent": 5,
+      "data_bytes": 5000,
+      "first_byte_seq": 7101,
+      "last_byte_seq": 12100,
+      "cumulative_data_bytes": 12000,
+      "ACKs_in_order": [
+        8101,
+        9101,
+        10101,
+        11101,
+        12101
+      ],
+      "H_receives_final_ACK_time_ms": 50,
+      "cwnd_after_round_MSS": 6
+    },
+    {
+      "round": 5,
+      "H_send_time_ms": 50,
+      "cwnd_before_send_MSS": 6,
+      "segments_sent": 6,
+      "data_bytes": 6000,
+      "first_byte_seq": 12101,
+      "last_byte_seq": 18100,
+      "cumulative_data_bytes": 18000,
+      "ACKs_in_order": [
+        13101,
+        14101,
+        15101,
+        16101,
+        17101,
+        18101
+      ],
+      "H_receives_final_ACK_time_ms": 60,
+      "cwnd_after_round_MSS": 7
+    }
+  ],
+  "callouts": [
+    {
+      "time_ms": 30,
+      "actor": "H",
+      "event": "先处理ACK2101：已确认第2个数据段，慢开始cwnd=3 MSS；再处理ACK3101后cwnd=4 MSS"
+    },
+    {
+      "time_ms": 40,
+      "actor": "H",
+      "event": "ACK7101确认累计7 MSS；按完整一轮拥塞避免增1 MSS，cwnd=5 MSS"
+    },
+    {
+      "time_ms": 50,
+      "actor": "H",
+      "event": "最后6段发出；尚未到达题定“全部获确认”的终点"
+    },
+    {
+      "time_ms": 55,
+      "actor": "S",
+      "event": "全部18000 B已到达S"
+    },
+    {
+      "time_ms": 60,
+      "actor": "H",
+      "event": "收到ACK18101，文件全部获确认；平均应用数据率=18000×8/0.06=2.4 Mbit/s"
+    }
+  ],
+  "units": {
+    "time": "ms",
+    "cwnd": "MSS，1 MSS=1000 B",
+    "seq_ack": "TCP字节序号",
+    "rate": "bit/s，Mbit/s按10^6 bit/s换算"
+  },
+  "assumptions": [
+    "初始cwnd补定为1 MSS；ssthresh=4 MSS；rwnd足够；无差错、丢失或乱序",
+    "服务器逐段及时确认；同轮各段及ACK的发送时延忽略，图中按序号递增处理同到达时刻的ACK",
+    "cwnd达到4 MSS后采用每完整轮增加1 MSS的教材近似；不把逐ACK的小数增量实现当作精确同一模型",
+    "RTT=10 ms、单向传播5 ms；SYN不带文件数据，第三次握手ACK可带首段数据",
+    "仅计题设数据连接的建立和文件传输确认；额外FTP控制命令交互已完成或不另计，关闭连接不在本问计时内"
+  ]
+}

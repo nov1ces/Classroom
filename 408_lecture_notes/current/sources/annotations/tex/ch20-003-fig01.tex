@@ -1,0 +1,7 @@
+{\color{ink}\bfseries 例 5-6 \(\cdot \) 合订本147 \(\cdot \) 图1}\par \textbf{键盘输入：阻塞至驱动读入}\par\vspace{2bp}{\setlength{\fboxsep}{3bp}\color{ink}\fbox{\parbox{128bp}{\color{black}{\symfont ②} 将P插入阻塞队列\par 系统调用中的内核阻塞操作\par P：运行\(\to \)阻塞；内核态}}}
+\par\vspace{1bp}\centerline{\(\downarrow\)}\par\vspace{1bp}
+{\setlength{\fboxsep}{3bp}\color{ink}\fbox{\parbox{128bp}{\color{black}{\symfont ⑥} 用户在键盘上输入字符\par 用户与键盘硬件\par P：阻塞；此设备事件不限定CPU此刻模式}}}
+\par\vspace{1bp}\centerline{\(\downarrow\)}\par\vspace{1bp}
+{\setlength{\fboxsep}{3bp}\color{ink}\fbox{\parbox{128bp}{\color{black}{\symfont ④} 启动键盘中断处理程序\par CPU中断响应及中断入口\par P：阻塞；内核态}}}
+\par\vspace{1bp}\centerline{\(\downarrow\)}\par\vspace{1bp}
+{\setlength{\fboxsep}{3bp}\color{ink}\fbox{\parbox{128bp}{\color{black}{\symfont ③} 从键盘控制器读字符至系统缓冲区\par 键盘驱动的设备读取代码\par P：阻塞；内核态}}}

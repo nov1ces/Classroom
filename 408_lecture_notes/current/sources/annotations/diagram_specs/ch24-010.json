@@ -1,0 +1,228 @@
+{
+  "type": "synchronous_distance_vector_state_table",
+  "layout": {
+    "orientation": "top-to-bottom",
+    "panels": [
+      {
+        "title": "目的网210.2.3.0/24，直连R14",
+        "table_key": "net_210_2_3"
+      },
+      {
+        "title": "目的网210.2.4.0/24，直连R16",
+        "table_key": "net_210_2_4"
+      }
+    ],
+    "table_columns": [
+      "交换完成时刻",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15",
+      "R16"
+    ],
+    "highlight": "每个表突出显示首次全体达到最终距离的一行：分别30 s、60 s；16以“不可达”显示"
+  },
+  "nodes": [
+    {
+      "id": "R11",
+      "label": "R11",
+      "type": "router"
+    },
+    {
+      "id": "R12",
+      "label": "R12",
+      "type": "router"
+    },
+    {
+      "id": "R13",
+      "label": "R13",
+      "type": "router"
+    },
+    {
+      "id": "R14",
+      "label": "R14",
+      "type": "router"
+    },
+    {
+      "id": "R15",
+      "label": "R15",
+      "type": "router"
+    },
+    {
+      "id": "R16",
+      "label": "R16",
+      "type": "router"
+    },
+    {
+      "id": "N3",
+      "label": "210.2.3.0/24",
+      "type": "destination_network"
+    },
+    {
+      "id": "N4",
+      "label": "210.2.4.0/24",
+      "type": "destination_network"
+    }
+  ],
+  "edges": [
+    {
+      "from": "R11",
+      "to": "R12",
+      "arrow_direction": "bidirectional",
+      "label": "内部邻接，代价1"
+    },
+    {
+      "from": "R12",
+      "to": "R13",
+      "arrow_direction": "bidirectional",
+      "label": "内部邻接，代价1"
+    },
+    {
+      "from": "R11",
+      "to": "R14",
+      "arrow_direction": "bidirectional",
+      "label": "内部邻接，代价1"
+    },
+    {
+      "from": "R14",
+      "to": "R15",
+      "arrow_direction": "bidirectional",
+      "label": "内部邻接，代价1"
+    },
+    {
+      "from": "R15",
+      "to": "R16",
+      "arrow_direction": "bidirectional",
+      "label": "内部邻接，代价1"
+    },
+    {
+      "from": "R15",
+      "to": "R13",
+      "arrow_direction": "bidirectional",
+      "label": "内部邻接，代价1"
+    },
+    {
+      "from": "R14",
+      "to": "N3",
+      "arrow_direction": "none",
+      "label": "直连，初始RIP距离1"
+    },
+    {
+      "from": "R16",
+      "to": "N4",
+      "arrow_direction": "none",
+      "label": "直连，初始RIP距离1"
+    }
+  ],
+  "state_tables": {
+    "net_210_2_3": [
+      {
+        "time": "首次交换前",
+        "distances": [
+          16,
+          16,
+          16,
+          1,
+          16,
+          16
+        ]
+      },
+      {
+        "time_s": 0,
+        "distances": [
+          2,
+          16,
+          16,
+          1,
+          2,
+          16
+        ]
+      },
+      {
+        "time_s": 30,
+        "distances": [
+          2,
+          3,
+          3,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "time_s": 60,
+        "distances": [
+          2,
+          3,
+          3,
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "net_210_2_4": [
+      {
+        "time": "首次交换前",
+        "distances": [
+          16,
+          16,
+          16,
+          16,
+          16,
+          1
+        ]
+      },
+      {
+        "time_s": 0,
+        "distances": [
+          16,
+          16,
+          16,
+          16,
+          2,
+          1
+        ]
+      },
+      {
+        "time_s": 30,
+        "distances": [
+          16,
+          16,
+          3,
+          3,
+          2,
+          1
+        ]
+      },
+      {
+        "time_s": 60,
+        "distances": [
+          4,
+          4,
+          3,
+          3,
+          2,
+          1
+        ]
+      }
+    ]
+  },
+  "execution_order": [
+    "初始各路由器仅已知自己的直连网",
+    "t=0同时发送初始向量并完成第1轮更新",
+    "t=30 s同时发送上一轮结果并完成第2轮更新",
+    "t=60 s同时发送上一轮结果并完成第3轮更新"
+  ],
+  "units": {
+    "time": "s",
+    "distance": "RIP跳数；直连网计1，16表示不可达"
+  },
+  "key_assumptions": [
+    "仅使用图4.6的六条AS1内部邻接，R13与R16不直接相连",
+    "每轮只使用该轮开始前的邻居距离，传播与处理耗时忽略",
+    "按题设每30 s同步交换，不额外插入触发更新",
+    "距离数组列序固定为R11、R12、R13、R14、R15、R16"
+  ]
+}

@@ -1,0 +1,1 @@
+{\color{ink}\bfseries 每个前缀中出栈数不超过入栈数}\par\vspace{1bp}固定 n 个不同元素的输入次序，栈容量足够且允许交替入出栈。对\(n\ge 1\)，含 n 次入栈、n 次出栈的操作序列共 C(2n,\allowbreak{}n) 个；将非法序列中截至首次“出栈数比入栈数多1”的前缀交换入出栈，恰对应含 n+\allowbreak{}1 次入栈、n\(-\)1 次出栈的序列。因此合法数为\(C(2n,\allowbreak{}n)-C(2n,\allowbreak{}n-1)=\allowbreak{}C(2n,\allowbreak{}n)/\allowbreak{}(n+\allowbreak{}1)\)。

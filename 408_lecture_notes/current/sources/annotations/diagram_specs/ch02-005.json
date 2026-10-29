@@ -1,0 +1,137 @@
+{
+  "type": "array_operation_sequence",
+  "layout": "四行自上而下排列，每行五个等宽单元格；每行上方标出下标0至4，行左标出步骤；相邻两行之间用向下箭头标出本次逆置区间。",
+  "assumptions": [
+    "数组R=[0,1,2,3,4]，n=5，循环左移p=2个位置。",
+    "所有区间端点均包含在内；逆置通过区间左右指针向中间靠拢并交换实现。"
+  ],
+  "nodes": [
+    {
+      "id": "s0",
+      "label": "原数组",
+      "values": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "segments": [
+        {
+          "indices": [
+            0,
+            1
+          ],
+          "label": "A"
+        },
+        {
+          "indices": [
+            2,
+            3,
+            4
+          ],
+          "label": "B"
+        }
+      ]
+    },
+    {
+      "id": "s1",
+      "label": "逆置前段后",
+      "values": [
+        1,
+        0,
+        2,
+        3,
+        4
+      ],
+      "swapped_index_pairs": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "s2",
+      "label": "逆置后段后",
+      "values": [
+        1,
+        0,
+        4,
+        3,
+        2
+      ],
+      "swapped_index_pairs": [
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "id": "s3",
+      "label": "逆置全表后：BA",
+      "values": [
+        2,
+        3,
+        4,
+        0,
+        1
+      ],
+      "swapped_index_pairs": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      "segments": [
+        {
+          "indices": [
+            0,
+            1,
+            2
+          ],
+          "label": "B"
+        },
+        {
+          "indices": [
+            3,
+            4
+          ],
+          "label": "A"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "s0",
+      "to": "s1",
+      "direction": "down",
+      "label": "reverse(R,0,1)"
+    },
+    {
+      "from": "s1",
+      "to": "s2",
+      "direction": "down",
+      "label": "reverse(R,2,4)"
+    },
+    {
+      "from": "s2",
+      "to": "s3",
+      "direction": "down",
+      "label": "reverse(R,0,4)"
+    }
+  ],
+  "execution_order": [
+    "s0",
+    "s1",
+    "s2",
+    "s3"
+  ],
+  "units": "下标和元素值均为整数，无物理单位。"
+}

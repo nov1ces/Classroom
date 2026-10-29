@@ -1,0 +1,216 @@
+{
+  "type": "event_sequence_with_process_state",
+  "layout": {
+    "direction": "top_to_bottom",
+    "columns": [
+      "操作序号及事件",
+      "执行方",
+      "P状态",
+      "CPU模式"
+    ],
+    "use_equal_row_spacing": true,
+    "time_scale": "仅表示先后，行距不表示耗时",
+    "highlight_rows": [
+      "op3",
+      "op1"
+    ],
+    "highlight_reason": "③标明驱动操作；①标明中断处理中P状态改变的边界"
+  },
+  "units": {
+    "time": "无数值时间，事件顺序"
+  },
+  "assumptions": [
+    "采用本题先等待、后输入的路径：初始无目标字符，②在⑥之前。",
+    "采用单CPU的教材抽象；②后由其他进程使用CPU，键盘中断处理期间不把P视为正在运行。",
+    "在中断处理内执行①时P从阻塞改为就绪；P继续执行系统调用需后续调度。"
+  ],
+  "nodes": [
+    {
+      "id": "op2",
+      "step": "②",
+      "event": "将P插入阻塞队列",
+      "executor": "系统调用中的内核阻塞操作",
+      "P_state": "运行→阻塞",
+      "CPU_mode": "内核态",
+      "note": "P让出CPU，随后运行其他进程"
+    },
+    {
+      "id": "op6",
+      "step": "⑥",
+      "event": "用户在键盘上输入字符",
+      "executor": "用户与键盘硬件",
+      "P_state": "阻塞",
+      "CPU_mode": "此设备事件不限定CPU此刻模式",
+      "note": "键盘随后产生中断请求"
+    },
+    {
+      "id": "op4",
+      "step": "④",
+      "event": "启动键盘中断处理程序",
+      "executor": "CPU中断响应及中断入口",
+      "P_state": "阻塞",
+      "CPU_mode": "内核态",
+      "note": "尚未唤醒P"
+    },
+    {
+      "id": "op3",
+      "step": "③",
+      "event": "从键盘控制器读字符至系统缓冲区",
+      "executor": "键盘驱动的设备读取代码",
+      "P_state": "阻塞",
+      "CPU_mode": "内核态",
+      "note": "数据已就绪，P尚未执行①"
+    },
+    {
+      "id": "op1",
+      "step": "①",
+      "event": "将P插入就绪队列",
+      "executor": "内核唤醒操作",
+      "P_state": "阻塞→就绪",
+      "CPU_mode": "内核态",
+      "note": "P从此具备被调度的条件"
+    },
+    {
+      "id": "dispatch",
+      "step": "未编号",
+      "event": "调度选中P，继续系统调用",
+      "executor": "调度程序及P的内核执行路径",
+      "P_state": "就绪→运行",
+      "CPU_mode": "内核态",
+      "note": "与①之间可存在等待，题目未给时长"
+    },
+    {
+      "id": "op5",
+      "step": "⑤",
+      "event": "P从系统调用返回",
+      "executor": "P的系统调用返回路径",
+      "P_state": "运行",
+      "CPU_mode": "内核态→用户态",
+      "note": "用户程序继续执行"
+    }
+  ],
+  "edges": [
+    {
+      "from": "op2",
+      "to": "op6",
+      "direction": "top_to_bottom",
+      "style": "solid",
+      "label": "随后"
+    },
+    {
+      "from": "op6",
+      "to": "op4",
+      "direction": "top_to_bottom",
+      "style": "solid",
+      "label": "随后"
+    },
+    {
+      "from": "op4",
+      "to": "op3",
+      "direction": "top_to_bottom",
+      "style": "solid",
+      "label": "随后"
+    },
+    {
+      "from": "op3",
+      "to": "op1",
+      "direction": "top_to_bottom",
+      "style": "solid",
+      "label": "随后"
+    },
+    {
+      "from": "op1",
+      "to": "dispatch",
+      "direction": "top_to_bottom",
+      "style": "dashed",
+      "label": "等待调度，时长未定"
+    },
+    {
+      "from": "dispatch",
+      "to": "op5",
+      "direction": "top_to_bottom",
+      "style": "solid",
+      "label": "随后"
+    }
+  ],
+  "execution_order": [
+    "op2",
+    "op6",
+    "op4",
+    "op3",
+    "op1",
+    "dispatch",
+    "op5"
+  ],
+  "state_table": [
+    {
+      "id": "op2",
+      "step": "②",
+      "event": "将P插入阻塞队列",
+      "executor": "系统调用中的内核阻塞操作",
+      "P_state": "运行→阻塞",
+      "CPU_mode": "内核态",
+      "note": "P让出CPU，随后运行其他进程"
+    },
+    {
+      "id": "op6",
+      "step": "⑥",
+      "event": "用户在键盘上输入字符",
+      "executor": "用户与键盘硬件",
+      "P_state": "阻塞",
+      "CPU_mode": "此设备事件不限定CPU此刻模式",
+      "note": "键盘随后产生中断请求"
+    },
+    {
+      "id": "op4",
+      "step": "④",
+      "event": "启动键盘中断处理程序",
+      "executor": "CPU中断响应及中断入口",
+      "P_state": "阻塞",
+      "CPU_mode": "内核态",
+      "note": "尚未唤醒P"
+    },
+    {
+      "id": "op3",
+      "step": "③",
+      "event": "从键盘控制器读字符至系统缓冲区",
+      "executor": "键盘驱动的设备读取代码",
+      "P_state": "阻塞",
+      "CPU_mode": "内核态",
+      "note": "数据已就绪，P尚未执行①"
+    },
+    {
+      "id": "op1",
+      "step": "①",
+      "event": "将P插入就绪队列",
+      "executor": "内核唤醒操作",
+      "P_state": "阻塞→就绪",
+      "CPU_mode": "内核态",
+      "note": "P从此具备被调度的条件"
+    },
+    {
+      "id": "dispatch",
+      "step": "未编号",
+      "event": "调度选中P，继续系统调用",
+      "executor": "调度程序及P的内核执行路径",
+      "P_state": "就绪→运行",
+      "CPU_mode": "内核态",
+      "note": "与①之间可存在等待，题目未给时长"
+    },
+    {
+      "id": "op5",
+      "step": "⑤",
+      "event": "P从系统调用返回",
+      "executor": "P的系统调用返回路径",
+      "P_state": "运行",
+      "CPU_mode": "内核态→用户态",
+      "note": "用户程序继续执行"
+    }
+  ],
+  "question_mapping": {
+    "1": "所列六项中①前为③、后为⑤；⑥后为④。",
+    "2": "②后P让出CPU；①后调度程序才可选中P。",
+    "3": "③的设备读取代码属于键盘驱动。",
+    "4": "中断处理中CPU为内核态；①前P阻塞，①后P就绪。"
+  }
+}

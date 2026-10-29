@@ -1,0 +1,316 @@
+{
+  "type": "rooted_weighted_tree",
+  "layout": {
+    "orientation": "top_to_bottom",
+    "root": "N413",
+    "sibling_order": {
+      "N17": [
+        "L0",
+        "L3",
+        "L6",
+        "L8"
+      ],
+      "N64": [
+        "L9",
+        "N17",
+        "L18",
+        "L20"
+      ],
+      "N196": [
+        "L30",
+        "L44",
+        "L60",
+        "L62"
+      ],
+      "N413": [
+        "N64",
+        "L68",
+        "L85",
+        "N196"
+      ]
+    },
+    "node_labels": "叶结点显示段长，内部结点显示所合并段长之和；0虚段用虚线边框",
+    "depth_reference": "根深度为0，以边数计算叶深度"
+  },
+  "nodes": [
+    {
+      "id": "L0",
+      "label": "0（虚段）",
+      "weight": 0,
+      "node_type": "dummy_leaf",
+      "depth": 3
+    },
+    {
+      "id": "L3",
+      "label": "3",
+      "weight": 3,
+      "node_type": "leaf",
+      "depth": 3
+    },
+    {
+      "id": "L6",
+      "label": "6",
+      "weight": 6,
+      "node_type": "leaf",
+      "depth": 3
+    },
+    {
+      "id": "L8",
+      "label": "8",
+      "weight": 8,
+      "node_type": "leaf",
+      "depth": 3
+    },
+    {
+      "id": "L9",
+      "label": "9",
+      "weight": 9,
+      "node_type": "leaf",
+      "depth": 2
+    },
+    {
+      "id": "L18",
+      "label": "18",
+      "weight": 18,
+      "node_type": "leaf",
+      "depth": 2
+    },
+    {
+      "id": "L20",
+      "label": "20",
+      "weight": 20,
+      "node_type": "leaf",
+      "depth": 2
+    },
+    {
+      "id": "L30",
+      "label": "30",
+      "weight": 30,
+      "node_type": "leaf",
+      "depth": 2
+    },
+    {
+      "id": "L44",
+      "label": "44",
+      "weight": 44,
+      "node_type": "leaf",
+      "depth": 2
+    },
+    {
+      "id": "L60",
+      "label": "60",
+      "weight": 60,
+      "node_type": "leaf",
+      "depth": 2
+    },
+    {
+      "id": "L62",
+      "label": "62",
+      "weight": 62,
+      "node_type": "leaf",
+      "depth": 2
+    },
+    {
+      "id": "L68",
+      "label": "68",
+      "weight": 68,
+      "node_type": "leaf",
+      "depth": 1
+    },
+    {
+      "id": "L85",
+      "label": "85",
+      "weight": 85,
+      "node_type": "leaf",
+      "depth": 1
+    },
+    {
+      "id": "N17",
+      "label": "17",
+      "weight": 17,
+      "node_type": "merge",
+      "depth": 2
+    },
+    {
+      "id": "N64",
+      "label": "64",
+      "weight": 64,
+      "node_type": "merge",
+      "depth": 1
+    },
+    {
+      "id": "N196",
+      "label": "196",
+      "weight": 196,
+      "node_type": "merge",
+      "depth": 1
+    },
+    {
+      "id": "N413",
+      "label": "413",
+      "weight": 413,
+      "node_type": "root",
+      "depth": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "N17",
+      "to": "L0",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N17",
+      "to": "L3",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N17",
+      "to": "L6",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N17",
+      "to": "L8",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N64",
+      "to": "L9",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N64",
+      "to": "N17",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N64",
+      "to": "L18",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N64",
+      "to": "L20",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N196",
+      "to": "L30",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N196",
+      "to": "L44",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N196",
+      "to": "L60",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N196",
+      "to": "L62",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N413",
+      "to": "N64",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N413",
+      "to": "L68",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N413",
+      "to": "L85",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    },
+    {
+      "from": "N413",
+      "to": "N196",
+      "direction": "parent_to_child",
+      "arrowhead": "at_child"
+    }
+  ],
+  "execution_order": [
+    {
+      "step": 1,
+      "inputs": [
+        "L0",
+        "L3",
+        "L6",
+        "L8"
+      ],
+      "output": "N17",
+      "sum": 17
+    },
+    {
+      "step": 2,
+      "inputs": [
+        "L9",
+        "N17",
+        "L18",
+        "L20"
+      ],
+      "output": "N64",
+      "sum": 64
+    },
+    {
+      "step": 3,
+      "inputs": [
+        "L30",
+        "L44",
+        "L60",
+        "L62"
+      ],
+      "output": "N196",
+      "sum": 196
+    },
+    {
+      "step": 4,
+      "inputs": [
+        "N64",
+        "L68",
+        "L85",
+        "N196"
+      ],
+      "output": "N413",
+      "sum": 413
+    }
+  ],
+  "units": {
+    "weight": "题干给定的段长单位，题干未明确为块",
+    "depth": "根到叶的边数",
+    "WPL": "段长单位乘归并层数"
+  },
+  "assumptions": [
+    "4路完整分支模型，每个内部结点恰有4个孩子",
+    "12个真实段加1个零权虚段，使(13−1)可被3整除",
+    "每步选择当前最小的4个权值",
+    "虚段不产生实际数据读写"
+  ],
+  "results": {
+    "WPL_by_internal_sums": "17+64+196+413=690",
+    "WPL_by_leaf_depths": "3×(3+6+8)+2×(9+18+20+30+44+60+62)+(68+85)=690",
+    "conditional_IO": "若段长以块计且每次完整读写，归并阶段I/O=2×690=1380块；初始段生成另计"
+  }
+}

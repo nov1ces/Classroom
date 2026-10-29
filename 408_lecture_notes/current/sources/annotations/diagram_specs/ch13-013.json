@@ -1,0 +1,256 @@
+{
+  "type": "pipeline_time_space_table",
+  "layout": {
+    "title": "例5-11(4)：x=x*2+a 的最少17周期调度",
+    "orientation": "横向为周期，纵向为指令",
+    "columns": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+    ],
+    "row_order": [
+      "I1",
+      "I2",
+      "I3",
+      "I4",
+      "I5"
+    ],
+    "cell_labels": "逐格使用state_table的states；空字符串为空白格",
+    "styling": {
+      "active_stage": "实线浅底格",
+      "ID等": "橙色等待格",
+      "IF禁": "灰色虚线格，表示尚未获准取指",
+      "dependency_arrow": "从生产者WB格的右端指向消费者ID格的左端"
+    }
+  },
+  "nodes": [
+    {
+      "id": "I1",
+      "label": "LOAD R1, [x]"
+    },
+    {
+      "id": "I2",
+      "label": "LOAD R2, [a]"
+    },
+    {
+      "id": "I3",
+      "label": "SHL R1"
+    },
+    {
+      "id": "I4",
+      "label": "ADD R2, R1"
+    },
+    {
+      "id": "I5",
+      "label": "STORE R1, [x]"
+    }
+  ],
+  "edges": [
+    {
+      "from": "I1",
+      "from_stage": "WB",
+      "from_cycle": 5,
+      "to": "I3",
+      "to_stage": "ID",
+      "to_cycle": 6,
+      "direction": "producer_to_consumer",
+      "label": "R1=x；读晚于写1拍"
+    },
+    {
+      "from": "I2",
+      "from_stage": "WB",
+      "from_cycle": 6,
+      "to": "I4",
+      "to_stage": "ID",
+      "to_cycle": 10,
+      "direction": "producer_to_consumer",
+      "label": "R2=a"
+    },
+    {
+      "from": "I3",
+      "from_stage": "WB",
+      "from_cycle": 9,
+      "to": "I4",
+      "to_stage": "ID",
+      "to_cycle": 10,
+      "direction": "producer_to_consumer",
+      "label": "R1=2x mod 2¹⁶；读晚于写1拍"
+    },
+    {
+      "from": "I4",
+      "from_stage": "WB",
+      "from_cycle": 13,
+      "to": "I5",
+      "to_stage": "ID",
+      "to_cycle": 14,
+      "direction": "producer_to_consumer",
+      "label": "R1=(2x+a) mod 2¹⁶；读晚于写1拍"
+    }
+  ],
+  "execution_order": [
+    "I1: LOAD R1, [x]",
+    "I2: LOAD R2, [a]",
+    "I3: SHL R1",
+    "I4: ADD R2, R1",
+    "I5: STORE R1, [x]"
+  ],
+  "state_table": [
+    {
+      "instruction": "I1",
+      "label": "LOAD R1, [x]",
+      "states": [
+        "IF",
+        "ID",
+        "EX",
+        "M",
+        "WB",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "instruction": "I2",
+      "label": "LOAD R2, [a]",
+      "states": [
+        "",
+        "IF",
+        "ID",
+        "EX",
+        "M",
+        "WB",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "instruction": "I3",
+      "label": "SHL R1",
+      "states": [
+        "",
+        "",
+        "IF",
+        "ID等",
+        "ID等",
+        "ID",
+        "EX",
+        "M",
+        "WB",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "instruction": "I4",
+      "label": "ADD R2, R1",
+      "states": [
+        "",
+        "",
+        "",
+        "IF禁",
+        "IF禁",
+        "IF",
+        "ID等",
+        "ID等",
+        "ID等",
+        "ID",
+        "EX",
+        "M",
+        "WB",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "instruction": "I5",
+      "label": "STORE R1, [x]",
+      "states": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "IF禁",
+        "IF禁",
+        "IF禁",
+        "IF",
+        "ID等",
+        "ID等",
+        "ID等",
+        "ID",
+        "EX",
+        "M",
+        "WB"
+      ]
+    }
+  ],
+  "units": {
+    "horizontal_axis": "时钟周期，1～17",
+    "vertical_axis": "机器指令，I1～I5",
+    "data_width": "16位"
+  },
+  "legend": {
+    "IF": "取指成功",
+    "ID": "成功读寄存器",
+    "EX": "执行/计算地址",
+    "M": "访存阶段",
+    "WB": "流水线末段",
+    "ID等": "因RAW相关停在ID端等待",
+    "IF禁": "前级被冻结，尚未获准取指",
+    "blank": "尚未进入或已经离开流水线"
+  },
+  "assumptions": [
+    "按序发射、按序完成，单发射五段，每段1拍",
+    "无任何转发；同一寄存器的读、写不能同拍",
+    "沿用题内示意表的计数方式，所有指令经过WB后计完成；STORE的WB格不写寄存器",
+    "指令Cache和数据Cache分离，访存无额外等待",
+    "ID阻塞期间前级冻结；该ID获准前进的同一拍，下一条指令才完成IF",
+    "ADD Rs,Rd把Rs+Rd写入Rd；SHL按16位无符号模2¹⁶运算"
+  ],
+  "result_labels": [
+    "无阻塞基数5+5−1=9拍，新增等待2+3+3=8拍，总计17拍",
+    "关键依赖链LOAD x→SHL→ADD→STORE的ID最早为第2、6、10、14拍，STORE流出WB最早第17拍",
+    "第16拍M阶段把结果写入[x]；按题设五段流出方式，第17拍计完成"
+  ]
+}

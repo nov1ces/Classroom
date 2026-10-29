@@ -1,0 +1,1 @@
+{\color{ink}\bfseries 例 4-5 \(\cdot \) 第4问}\par\vspace{1bp}题给imul仅保留低32位，\(13! \operatorname{mod} 2^{32}=\allowbreak{}6227020800-4294967296=\allowbreak{}1932053504\)（7328CC00H）。将签名改为long long f1(int n)，并同步修改函数声明及接收变量，递归乘法按long long类型进行；仅扩大接收变量不能补救函数内的32位乘法。此返回数按题给机器代码确定，C有符号溢出本身不保证该结果。

@@ -1,0 +1,9069 @@
+{
+  "pdf": "/workspace/work/wangdao_answer/delivery/2009-2026真题_王道知识与解析答案册.pdf",
+  "pdf_sha256": "4a66a13d5c4d10065a074af0beb06310a09a68d466a6ef4ee3538e8cde928318",
+  "manifest_sha256": "849f85ef31687b881e975c0a99b65408ea75d86199604ddb727ed0629138a364",
+  "source_fingerprints": {
+    "/workspace/Classroom/01_数据结构/【横版】27王道数据结构选择题做题本.pdf": {
+      "sha256": "ad66fede040b385129446dcfeda97e8a828101f744c17c8a7873091cd3d88644",
+      "bytes": 2052817,
+      "mtime_ns": 1793766863353281578
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第一章 绪论/1.2_2_算法的时间复杂度.pdf": {
+      "sha256": "e5bed0e107dbcc504502fe41dc276643f6c3a5da2f0d4e1bfabfb1a63ad496d9",
+      "bytes": 1218729,
+      "mtime_ns": 1793766863381281579
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.2 折半查找.pdf": {
+      "sha256": "bf630db1158d8412ec06650a55623d462cea6b33d4dfd908520ec39780ffcbe1",
+      "bytes": 1535602,
+      "mtime_ns": 1793766863401281580
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.2.3 分块查找.pdf": {
+      "sha256": "472abd4e2895ec413453c2cfc0f75b75f2abd15acc58101d5d91e0d455e2b777",
+      "bytes": 1781314,
+      "mtime_ns": 1793766863409281580
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.1 二叉排序树.pdf": {
+      "sha256": "c1abfff3e3ce05ffd50f78c8c0f5c762a8ab6c297107cb39c72aee3cfc03b7f4",
+      "bytes": 876152,
+      "mtime_ns": 1793766863413281580
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.3.2_1 平衡二叉树.pdf": {
+      "sha256": "ac32bd9293de24d471c4d376a04ca42418b4dfa474465731c9de215426e15464",
+      "bytes": 999376,
+      "mtime_ns": 1793766863417281580
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.1_1 B树.pdf": {
+      "sha256": "e14b95b96b04506ccf8481d29f1aef75a1311c1188a6341fcc1983161429048b",
+      "bytes": 1323086,
+      "mtime_ns": 1793766863453281581
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.4.2 B+树.pdf": {
+      "sha256": "2e40e06f10f6b985e0bc6fb1629bb2303b4cb8843865d07f7737b31b10e5d22b",
+      "bytes": 960429,
+      "mtime_ns": 1793766863461281581
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.3_2 处理冲突的方法_开放定址法.pdf": {
+      "sha256": "ecc1cc8731e99658f80c47a6e181be3162249695f10ee6c833d8259c567c2648",
+      "bytes": 1174938,
+      "mtime_ns": 1793766863477281581
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第七章 查找/7.5.4 散列查找的性能分析.pdf": {
+      "sha256": "3cfc0e39a4177fd65deba469506a520909884dc2e663949159f2dbdcd763cae3",
+      "bytes": 1569259,
+      "mtime_ns": 1793766863481281581
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.1.1_栈的基本概念.pdf": {
+      "sha256": "842d22d5a3f3ad57c4125890dc80f3c0c20b619555818d5e1e51d6248f005bfd",
+      "bytes": 3686908,
+      "mtime_ns": 1793766863493281582
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.1_队列的基本概念.pdf": {
+      "sha256": "33ad93d7fdb0744d64e5a862ff3e1c1c45be2e4dd5be37afb08154cd92ea808a",
+      "bytes": 658200,
+      "mtime_ns": 1793766863501281582
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.2.4_双端队列.pdf": {
+      "sha256": "cffcd2ede1325d83129121f3de8efc5506dc8f892df197b4714010c32ecefacc",
+      "bytes": 453545,
+      "mtime_ns": 1793766863509281582
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.1_栈在括号匹配中的应用.pdf": {
+      "sha256": "ab65dd1964242df0b1c5150a1a0a9181fe1940b0e2e1d2ad5546efd505b7eacc",
+      "bytes": 621212,
+      "mtime_ns": 1793766863513281582
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.2_2_栈在表达式求值中的应用(下).pdf": {
+      "sha256": "05d30e9675493a8e2095f8c240020fcddba8ef171a05706ef063a5202d8c7635",
+      "bytes": 642141,
+      "mtime_ns": 1793766863517281582
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.3.3_栈在递归中的应用.pdf": {
+      "sha256": "3dbb054734f45ebaff277f5afb48b430854d3833de9bb6315e49ee1279681305",
+      "bytes": 684227,
+      "mtime_ns": 1793766863521281582
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第三章 栈、队列和数组/3.4.1~3.4.4_特殊矩阵的压缩存储.pdf": {
+      "sha256": "c218c93af9bc380861d587a183d45f28568fa631f9cc9ec8560c4ddd5f2cfb96",
+      "bytes": 1130131,
+      "mtime_ns": 1793766863529281582
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.1_顺序表的定义.pdf": {
+      "sha256": "fad409e94544d3fab8cb4e64f98fd932b74f0f40f087042cd68e610772a23093",
+      "bytes": 913032,
+      "mtime_ns": 1793766863545281583
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第二章 线性表/2.2.2_1_顺序表的插入删除.pdf": {
+      "sha256": "9b87375a9fd341a854deb5501475da6699d08a72139f067a06a631b06a7ea57a",
+      "bytes": 819726,
+      "mtime_ns": 1793766863545281583
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.1.3 树的性质.pdf": {
+      "sha256": "7d8483df0e3adef2629f09cd2350c778ed9d92f486239a3b6b52584ed0d53cbb",
+      "bytes": 578124,
+      "mtime_ns": 1793766863593281584
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.1_2 二叉树的性质.pdf": {
+      "sha256": "6a54e0851da3e18a45ac3acf448ac879b58d22e39251d287180b41efd75cd7f4",
+      "bytes": 533403,
+      "mtime_ns": 1793766863597281584
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.2.2 二叉树的存储结构.pdf": {
+      "sha256": "603fa4ccaef9cc324fce111d36e268ac71ede826e86ae8034abb7bf0201bdf61",
+      "bytes": 642503,
+      "mtime_ns": 1793766863601281584
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.1_3 由遍历序列构造二叉树.pdf": {
+      "sha256": "6a0926e44474e2693c4d43457f1ecda9e087b18c153b17271d437791bb1a3886",
+      "bytes": 597640,
+      "mtime_ns": 1793766863609281584
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.3.2_1 线索二叉树的概念.pdf": {
+      "sha256": "30fd7818563bc6fc78c7a79a54dadced6cacd82554a745483f790e7c982db13e",
+      "bytes": 798564,
+      "mtime_ns": 1793766863613281584
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.2 树、森林与二叉树的转换.pdf": {
+      "sha256": "f56051e1a9bb218caeb04ba45dda5d77e8f3f86b42bc8a92629668cb7c5af946",
+      "bytes": 567441,
+      "mtime_ns": 1793766863625281585
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.4.3 树和森林的遍历.pdf": {
+      "sha256": "f96f5bec82f06253b35b915553faac12014f40af9e138814dbd0997249a84d5d",
+      "bytes": 580166,
+      "mtime_ns": 1793766863629281585
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第五章 树与二叉树/5.5.1 哈夫曼树.pdf": {
+      "sha256": "b1ec5dc7f6f15bb691e6c34cf1155e40b3b0d7a8c1f570970855f6bde2a90780",
+      "bytes": 819751,
+      "mtime_ns": 1793766863633281585
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.1 排序的基本概念.pdf": {
+      "sha256": "6a8b5e9c6de7dc9fb7a424ff271e45bee3d8612916396865e5f59fc633a9124d",
+      "bytes": 3763223,
+      "mtime_ns": 1793766863653281585
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.1+8.2.2 插入排序.pdf": {
+      "sha256": "3b58a0e12ffc4c18bbf8a528f6ce21a082c1499232bb2fd29d56025fdd2c14cf",
+      "bytes": 1624596,
+      "mtime_ns": 1793766863661281586
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.2.3 希尔排序.pdf": {
+      "sha256": "cfda989e6ec2ba7479bd08a67e03f3f035a29a074e42409b9a850ae48784b054",
+      "bytes": 1534072,
+      "mtime_ns": 1793766863665281586
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.3.2 快速排序.pdf": {
+      "sha256": "3a9527c2bca8732f3a204584885a7a0ac99b207381616a820bfd8cb138cc152f",
+      "bytes": 2367359,
+      "mtime_ns": 1793766863681281586
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.5.3 计数排序.pdf": {
+      "sha256": "ea503575b7c5fb594a4b73fe1ff78ec47529b77cedeafe9c49ca58a66ce42a0e",
+      "bytes": 2135928,
+      "mtime_ns": 1793766863709281587
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.1+8.7.2 外部排序.pdf": {
+      "sha256": "34f3e8e7b497e885946f7863f30118134eb9a24d56ab9173bd8187ff3e755364",
+      "bytes": 27162630,
+      "mtime_ns": 1793766863761281588
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.3 败者树.pdf": {
+      "sha256": "907d007a2c00cfc6176d72ad7b2f1d286d9948bcf0c4d56a694d292b4c448208",
+      "bytes": 2971710,
+      "mtime_ns": 1793766863769281588
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.4 置换_选择排序.pdf": {
+      "sha256": "34c15028b09c191f142adc607b0a39337fb04acc0c3de83acbedc9848331cf4c",
+      "bytes": 1388019,
+      "mtime_ns": 1793766863773281588
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第八章 排序/8.7.5 最佳归并树.pdf": {
+      "sha256": "37f4fd3467c1b9c1bd90d5b37bd300a3604feb02429b701b78da11c483106a1c",
+      "bytes": 1050220,
+      "mtime_ns": 1793766863777281588
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.1.1 图的基本概念.pdf": {
+      "sha256": "9533803241cc733dbbc2e255128289afa829ab74d5813bea95d0c88d69d04cd3",
+      "bytes": 4233676,
+      "mtime_ns": 1793766863789281588
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.2.1 邻接矩阵法.pdf": {
+      "sha256": "ced337189b7d88ed8f57d26d263c6aef89f2d9e5ae466afc41c8f0aa9e482dc9",
+      "bytes": 860829,
+      "mtime_ns": 1793766863793281589
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.2.2 邻接表法.pdf": {
+      "sha256": "b57ab5372b70e67f95b44733134df204c9f6b024313fc9221086e7f8d03657f9",
+      "bytes": 643196,
+      "mtime_ns": 1793766863797281589
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.2.3+6.2.4 十字链表、邻接多重表.pdf": {
+      "sha256": "cf1427c16b04b2561404b08c8f47dde45d5eb28875d771471c2f2cf492d41c22",
+      "bytes": 522093,
+      "mtime_ns": 1793766863801281589
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.3.1 图的广度优先遍历.pdf": {
+      "sha256": "0b2ed8431d023bc7ad1635c40fb14623083e894040fe5c6a5ccc975f89a7edfa",
+      "bytes": 1792576,
+      "mtime_ns": 1793766863809281589
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.3.2 图的深度优先遍历.pdf": {
+      "sha256": "0fa32b4645bc24505befa442a374f3a4239d21b0400007c78b59230cca23d920",
+      "bytes": 1545700,
+      "mtime_ns": 1793766863813281589
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.1 最小生成树.pdf": {
+      "sha256": "1fb436db87abcec2b373790f00717cdc998a8159ac58f49008770ac974e97ecf",
+      "bytes": 4625091,
+      "mtime_ns": 1793766863825281589
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.2_1 最短路径问题_BFS算法.pdf": {
+      "sha256": "1eec43627f3bc76a55040fc9478ea88ece05661748bb559e87be7347fdd294f8",
+      "bytes": 1255446,
+      "mtime_ns": 1793766863829281589
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.2_2 最短路径问题_Dijkstra算法.pdf": {
+      "sha256": "20315581f270c7313dfa3f6e22974d4517f13e9169540d6a82518f4ddb9dfaf7",
+      "bytes": 1231266,
+      "mtime_ns": 1793766863833281589
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.3 有向无环图描述表达式.pdf": {
+      "sha256": "fd543f2c1e29759a5ccfbac3a83bda751a37116cffec21176d8e97b4bd4d3a1b",
+      "bytes": 1017377,
+      "mtime_ns": 1793766863845281590
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.4 拓扑排序.pdf": {
+      "sha256": "b464b8f4d6ad66bcabe3f6db99d00c43d332858662a299e79815faed48314b6f",
+      "bytes": 2079753,
+      "mtime_ns": 1793766863849281590
+    },
+    "/workspace/Classroom/01_数据结构/【课件】数据结构基础考点讲解/第六章 图/6.4.5 关键路径.pdf": {
+      "sha256": "c8a69c73513d184874ebb8e6a5c4de3aa03da905d63046eb36a4ee93f317f90e",
+      "bytes": 1645246,
+      "mtime_ns": 1793766863857281590
+    },
+    "/workspace/Classroom/02_计算机组成原理/【课件】组成原理基础考点讲解/第七章 输入输出系统/7.3.2_1 中断的作用和原理.pdf": {
+      "sha256": "448409bf3271e5f8dc2df5a4b0f317a48816f61c52c7e0bbd3ec245e7f2488a4",
+      "bytes": 1042291,
+      "mtime_ns": 1793766864209281598
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.1 操作系统的运行机制.pdf": {
+      "sha256": "9e57eb4dc302ed81e3e4ba9d61e4fa23659a50d50ad131170304947ad0b8dcef",
+      "bytes": 1510586,
+      "mtime_ns": 1793766864893281614
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.2 中断和异常.pdf": {
+      "sha256": "b792095df7303d80aaa01b12f4e963d73934ad4494f15c630405152ca5f16d68",
+      "bytes": 1260355,
+      "mtime_ns": 1793766864897281614
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.3.3 系统调用.pdf": {
+      "sha256": "4e16773a37eaabe68784b0e624a714932a49797f6826a57cf12a26f89d06b1e9",
+      "bytes": 1272837,
+      "mtime_ns": 1793766864901281614
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.4 操作系统体系结构（上）.pdf": {
+      "sha256": "cef66f44e8345f3833e274436b2402a1723b5a26b29320f05e657e5a25d4a34f",
+      "bytes": 1121680,
+      "mtime_ns": 1793766864909281614
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第一章 计算机系统概述/1.6 虚拟机.pdf": {
+      "sha256": "0cc7884a0cae014e4641090683b06d7fb7ca5ace88c5f5978bcf74424f79533a",
+      "bytes": 2371031,
+      "mtime_ns": 1793766864929281614
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_1 内存的基础知识.pdf": {
+      "sha256": "dda73912e639bb3f42e99c2703f2c4572a36c2413fdf1bb3ab86a8b426298742",
+      "bytes": 4060369,
+      "mtime_ns": 1793766864945281615
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.1_2 内存管理的概念.pdf": {
+      "sha256": "e9cf3cbeadd62a2259ead989d568a0421a6a112bee871464f2a331644fcd8874",
+      "bytes": 1268240,
+      "mtime_ns": 1793766864949281615
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.2_2 动态分区分配算法.pdf": {
+      "sha256": "847c0f9ba5c9aacdcbff39fbf4d1ada67d2e91bb7040049a4bc7bed46df78b41",
+      "bytes": 1023012,
+      "mtime_ns": 1793766864969281615
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_1 基本分页存储管理的基本概念.pdf": {
+      "sha256": "3344fff1be242277f7992e0f3f9a9d9ba47f6ecf6d1267c77c0ba56093a43fc9",
+      "bytes": 1337318,
+      "mtime_ns": 1793766864973281615
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_2 基本地址变换机构.pdf": {
+      "sha256": "bc712b80adef0306b3ab13dbedd84523b22fbeba7cc5d6627e1dc31907aa646c",
+      "bytes": 1299236,
+      "mtime_ns": 1793766864977281616
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_3 具有快表的地址变换机构.pdf": {
+      "sha256": "d38773f1144b61fd50cdf3c72b046a964b8f9df2d3f47aa51b94141e35a57bf1",
+      "bytes": 1143382,
+      "mtime_ns": 1793766864981281616
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.3_4 两级页表.pdf": {
+      "sha256": "e18a66eb2f9e2bc96b37813b103f346aef24325706589a3cb38f7080ebe1ffc5",
+      "bytes": 1204741,
+      "mtime_ns": 1793766864985281616
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.1.4 基本分段存储管理方式.pdf": {
+      "sha256": "471c697462bffa977d2009bc94ed8f43888b89d16e64e266745aeaeedcf2f69d",
+      "bytes": 1240624,
+      "mtime_ns": 1793766864989281616
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.1 虚拟内存的基本概念.pdf": {
+      "sha256": "79c4fda561e47dc96aaad1f6dd2a612e17cde17ffa252198c73f173edc6655c1",
+      "bytes": 1362698,
+      "mtime_ns": 1793766865001281616
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.2 请求分页管理方式.pdf": {
+      "sha256": "b1dbd2e3f09cf63528d14b287234a40e3c5478789028d810394847e201c2ab25",
+      "bytes": 1873114,
+      "mtime_ns": 1793766865005281616
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.4 页面置换算法.pdf": {
+      "sha256": "87c8e09c94a230e439626283c5bbfd3f9e0148a29cc1feec0ec320f4c676c8d2",
+      "bytes": 1168959,
+      "mtime_ns": 1793766865009281616
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第三章 内存管理/3.2.5+3.2.3 页面分配策略.pdf": {
+      "sha256": "699656a3967a5b775bd8a3b2e3b9a055ac900ca4001ceac18a46c2d34d2a56ef",
+      "bytes": 1244145,
+      "mtime_ns": 1793766865013281616
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.3 进程的状态与转换.pdf": {
+      "sha256": "0c6980241c62a2f627867de2bdae6f7f608711d5619a4f901f181ceb3ff664cb",
+      "bytes": 1497889,
+      "mtime_ns": 1793766865037281617
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.4 进程控制.pdf": {
+      "sha256": "42db013936131e30ad118d67b556449ed1ac54af1581fbbd6443ba8923928c6f",
+      "bytes": 1734511,
+      "mtime_ns": 1793766865041281617
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.5_1 进程通信.pdf": {
+      "sha256": "72bbbcc70758f95a028ec6a5de2aec5f9b24fb8fe8986e34574dc633f8a85692",
+      "bytes": 2149510,
+      "mtime_ns": 1793766865049281617
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.1.6_2 线程的实现方式和多线程模型.pdf": {
+      "sha256": "87b6e0c3594c2edea4948d01e912afa829756820f37ea40f433d934cabe3143b",
+      "bytes": 1323666,
+      "mtime_ns": 1793766865065281618
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.2_1+2.2.4 进程调度的时机、切换与过程、方式.pdf": {
+      "sha256": "d9d38adec76559371ab698b6716f9e869941dc4a50d420a75e67673914622fa9",
+      "bytes": 1228313,
+      "mtime_ns": 1793766865073281618
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.5_1 调度算法：先来先服务、最短作业优先、最高响应比优先.pdf": {
+      "sha256": "156586600a1157f6f70a0a1fb61d9cf2f83b6446f11e4b0834d8903bd3655613",
+      "bytes": 1178719,
+      "mtime_ns": 1793766865081281618
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.2.5_2 调度算法：时间片轮转、优先级、多级反馈队列.pdf": {
+      "sha256": "6fdf33024c45ad2ea0102a81d6c11d7000cd1c102c17801100e2a0aecb745340",
+      "bytes": 971854,
+      "mtime_ns": 1793766865081281618
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.1 同步与互斥的基本概念.pdf": {
+      "sha256": "76b584983bf33185dcdbd679e3cd01c5ef48389ace54906a6adc6d51e046dd29",
+      "bytes": 1126021,
+      "mtime_ns": 1793766865089281618
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.2_1 进程互斥的软件实现方法.pdf": {
+      "sha256": "828f3e39e308b97418f58221ff964de06f455a73893d8b90707940add8399d3a",
+      "bytes": 1513619,
+      "mtime_ns": 1793766865093281618
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.2_2 进程互斥的硬件实现方法.pdf": {
+      "sha256": "6a8f9d3c71b33436a10be24b3ad6fbc1e6c3b917f1bd4f8a06e503e49e8f86f7",
+      "bytes": 1147748,
+      "mtime_ns": 1793766865093281618
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.4_1 信号量机制.pdf": {
+      "sha256": "e3952341aa026e141bca2be570ce6b696372b7095a9dd5fc262742a813ae56c7",
+      "bytes": 770365,
+      "mtime_ns": 1793766865101281618
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.4_2 用信号量实现进程互斥、同步、前驱关系.pdf": {
+      "sha256": "9251cf32c2100f8fbafac91be526a2d4ecb5bbe0eea2b24c85809cd55b3ee8a8",
+      "bytes": 1194106,
+      "mtime_ns": 1793766865105281618
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_1_1 生产者-消费者问题.pdf": {
+      "sha256": "56e62e7cde7e909bcecdd87b4a7a6ca52abacfe74b719378bad294be26d218b0",
+      "bytes": 1072409,
+      "mtime_ns": 1793766865109281619
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_2 读者-写者问题.pdf": {
+      "sha256": "ccd96a6ab7134b78e06123db5c3834e3b5eeb09f7e416f57c2826752d6c20b3f",
+      "bytes": 1007209,
+      "mtime_ns": 1793766865117281619
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.5_3 哲学家进餐问题.pdf": {
+      "sha256": "1e7513f3ef73f0320f2ce8f20895ceecb428937bc96fef7e9c9d6b44c9a195f9",
+      "bytes": 1135575,
+      "mtime_ns": 1793766865121281619
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.3.6 管程.pdf": {
+      "sha256": "9973f00d97f489f2395fb169fd0e20eaf699f858842b5d75688a4705462a27b1",
+      "bytes": 709792,
+      "mtime_ns": 1793766865125281619
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.1 死锁的概念.pdf": {
+      "sha256": "13035666ddfc0f9744ff870165cf432145eb0561cac3992ea147c6b675a7f399",
+      "bytes": 1290573,
+      "mtime_ns": 1793766865129281619
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.3 死锁的处理策略—避免死锁.pdf": {
+      "sha256": "48a7c754fc6f3520c91f01f438be4a47fbab1da65012ae1471f9b4ee064f7555",
+      "bytes": 1123869,
+      "mtime_ns": 1793766865137281619
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第二章 进程与线程/2.4.4 死锁的处理策略—死锁的检测与解除.pdf": {
+      "sha256": "18cfbfbb3a97001d2caf7a579de6372f83e5393083edd1d439804d53ca9c5c00",
+      "bytes": 1163135,
+      "mtime_ns": 1793766865141281619
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_3_IO控制方式.pdf": {
+      "sha256": "60ac8d53eb457381fd372b70b563220a1b27d861efc29bbf1afbce1c7eb7276f",
+      "bytes": 1215239,
+      "mtime_ns": 1793766865165281620
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_4_IO软件层次结构.pdf": {
+      "sha256": "ef363aa38ab5a8b93fe498365b1fe280969c18b32013667056675364e8332a17",
+      "bytes": 1110156,
+      "mtime_ns": 1793766865177281620
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.1_5_输入输出应用程序接口和驱动程序接口.pdf": {
+      "sha256": "744c78f515d39a65bad287790a14f3a3563ee1e394b241bb495479bc1486f061",
+      "bytes": 3662340,
+      "mtime_ns": 1793766865193281620
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_2_假脱机技术.pdf": {
+      "sha256": "9c652f7f2faec386ccb72132a19020789b4349b74488f9d2f2ae9ae8a2e7bad5",
+      "bytes": 1118146,
+      "mtime_ns": 1793766865201281621
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_3_设备的分配与回收.pdf": {
+      "sha256": "37b59f483b771ba814d1be958c9214aa800b60bc2dda3cc63daa8025c5e53a05",
+      "bytes": 1227557,
+      "mtime_ns": 1793766865209281621
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.2_4_缓冲区管理.pdf": {
+      "sha256": "192895d7ba3c980fa777a1df7c78df699d10b983a03e6eeddf30c8ff96ac03ca",
+      "bytes": 1161635,
+      "mtime_ns": 1793766865209281621
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_2_磁盘调度算法.pdf": {
+      "sha256": "bc76175237585a779221fcf82b1afae5c22e957e7c6c4e8070dbc9888af65fc4",
+      "bytes": 1201623,
+      "mtime_ns": 1793766865229281621
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第五章 输入输出管理/5.3_4_磁盘的管理.pdf": {
+      "sha256": "293266febb54bab554178df5f519391c0bb9bd7d4470c26fb87eb33307b540ef",
+      "bytes": 318275,
+      "mtime_ns": 1793766865229281621
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_3_文件目录.pdf": {
+      "sha256": "45b1a742e7854e69f30c5759e355243103ea62df061d645a765a7e067f0c2c35",
+      "bytes": 551524,
+      "mtime_ns": 1793766865261281622
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_4_文件的物理结构.pdf": {
+      "sha256": "aadf34689a38b67798355d1d3a7db6375a6b67de8cb077b822da03d8bd6478fa",
+      "bytes": 1205585,
+      "mtime_ns": 1793766865261281622
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_6_文件存储空间管理.pdf": {
+      "sha256": "9b618cce907e307e4d8664897309fc3b6a2d00ea33ca52b0e2863bfbfa96dc1a",
+      "bytes": 806295,
+      "mtime_ns": 1793766865277281622
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_7_文件的基本操作.pdf": {
+      "sha256": "309a4664437bee1efbad175fca15c9b4c5dff44c9f76b49e95a9f59ca546d2be",
+      "bytes": 1294257,
+      "mtime_ns": 1793766865281281623
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_8_文件共享.pdf": {
+      "sha256": "95a1fda607c13bb71915be9786a6f0b6bf49057dda90f4b0c9f94ab22090152d",
+      "bytes": 1689239,
+      "mtime_ns": 1793766865289281623
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.1_9_文件保护.pdf": {
+      "sha256": "d020cb541c1551cd907ebf8452bab29e36f067a526de7e8d52e43947deaeceb4",
+      "bytes": 1058408,
+      "mtime_ns": 1793766865293281623
+    },
+    "/workspace/Classroom/03_操作系统/【课件】操作系统基础考点讲解/第四章 文件管理/4.3_4_虚拟文件系统.pdf": {
+      "sha256": "1941adf7b80f272800b3f232314204aa0bce7118f7272c5eb950860e6cb2091b",
+      "bytes": 1730110,
+      "mtime_ns": 1793766865297281623
+    },
+    "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.3 TCP连接管理.pdf": {
+      "sha256": "607a1d113a3b1ca719fc6fea7487c43368b02c15b4c92edb7e8a67223ed72b22",
+      "bytes": 2200177,
+      "mtime_ns": 1793766865785281634
+    },
+    "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第五章 传输层/5.3.6 TCP拥塞控制.pdf": {
+      "sha256": "86656875896d074982f0ace3bde5ef5fe153542e2f1c9aed6507344da0660da9",
+      "bytes": 1906247,
+      "mtime_ns": 1793766865849281635
+    },
+    "/workspace/Classroom/04_计算机网络/【课件】计算机网络基础考点讲解/第四章 网络层/4.2.8 动态主机配置协议DHCP.pdf": {
+      "sha256": "21e487693cf9cd68fc8da9a110b8ade23943d9154e14fff745fe52be2ead17c9",
+      "bytes": 6658863,
+      "mtime_ns": 1793766866021281639
+    },
+    "/workspace/study_analysis/v2/books/王道2027操作系统_高清带书签版.pdf": {
+      "sha256": "476d917de04568d00a2a1bbda0788785c8cc7aab15e6ed822778a80e7cc1a9d3",
+      "bytes": 234834921,
+      "mtime_ns": 1791568854970332726
+    },
+    "/workspace/study_analysis/v2/books/王道2027数据结构_高清带书签版.pdf": {
+      "sha256": "2a2fe3b77080ac615b5503d0e3b8b3dc5c23e7b0ef1cd462e4cf4fb23ec6be30",
+      "bytes": 211679786,
+      "mtime_ns": 1791568855802353377
+    },
+    "/workspace/study_analysis/v2/books/王道2027计算机组成原理_高清带书签版.pdf": {
+      "sha256": "f3219d2a50449ea4c50711bde0198e74165e06182a63f55f257f0122afc578ff",
+      "bytes": 208829946,
+      "mtime_ns": 1791568856566372122
+    },
+    "/workspace/study_analysis/v2/books/王道2027计算机网络_高清带书签版.pdf": {
+      "sha256": "c6fa0b7820c87d5bc006945ecfb19e0d9f29070e060cfd80837b302af42d1630",
+      "bytes": 197045739,
+      "mtime_ns": 1791568857286389788
+    }
+  },
+  "question_count": 846,
+  "page_count": 1856,
+  "checks": {
+    "crop_placements": 1667,
+    "original_streams_preserved": 846,
+    "sources_fully_rendered": 1545,
+    "blank_insertion_areas_checked": 819,
+    "protected_pages_raster_checked": 846
+  },
+  "status_counts": {
+    "knowledge_only": 48,
+    "exact_answer": 798
+  },
+  "knowledge_only_ids": [
+    "2026-01",
+    "2026-02",
+    "2026-03",
+    "2026-04",
+    "2026-05",
+    "2026-06",
+    "2026-07",
+    "2026-08",
+    "2026-09",
+    "2026-10",
+    "2026-11",
+    "2026-12",
+    "2026-13",
+    "2026-14",
+    "2026-15",
+    "2026-16",
+    "2026-17",
+    "2026-18",
+    "2026-19",
+    "2026-20",
+    "2026-21",
+    "2026-22",
+    "2026-23",
+    "2026-24",
+    "2026-25",
+    "2026-26",
+    "2026-27",
+    "2026-28",
+    "2026-29",
+    "2026-30",
+    "2026-31",
+    "2026-32",
+    "2026-33",
+    "2026-34",
+    "2026-35",
+    "2026-36",
+    "2026-37",
+    "2026-38",
+    "2026-39",
+    "2026-40",
+    "2026-41",
+    "2026-42",
+    "2026-43",
+    "2026-44",
+    "2026-45",
+    "2026-46",
+    "2026-47",
+    "2013-15"
+  ],
+  "render_checks": [
+    {
+      "id": "2026-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2026-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2026-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2025-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2025-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2024-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2024-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2023-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2023-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2022-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2022-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2021-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2021-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2020-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2020-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2019-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2019-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2018-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2018-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2017-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2017-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2016-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2016-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2015-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2015-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2014-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2014-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2013-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2013-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2012-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2012-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2011-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2011-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2010-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2010-47",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-01",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-01",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-02",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-02",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-03",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-03",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-04",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-04",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-05",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-05",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-06",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-06",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-07",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-07",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-08",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-08",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-09",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-09",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-10",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-10",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-11",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-11",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-12",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-12",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-13",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-13",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-14",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-14",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-15",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-15",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-16",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-16",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-17",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-17",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-18",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-18",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-19",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-19",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-20",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-20",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-21",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-21",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-22",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-22",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-23",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-23",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-24",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-24",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-25",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-25",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-26",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-26",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-27",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-27",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-28",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-28",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-29",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-29",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-30",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-30",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-31",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-31",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-32",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-32",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-33",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-33",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-34",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-34",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-35",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-35",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-36",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-36",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-37",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-37",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-38",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-38",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-39",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-39",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-40",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-40",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-41",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-41",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-42",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-42",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-43",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-43",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-44",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-44",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-45",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-45",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-46",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-46",
+      "region": "footer",
+      "identical": true
+    },
+    {
+      "id": "2009-47",
+      "region": "question",
+      "identical": true
+    },
+    {
+      "id": "2009-47",
+      "region": "footer",
+      "identical": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

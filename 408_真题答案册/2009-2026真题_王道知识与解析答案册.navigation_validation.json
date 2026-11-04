@@ -1,0 +1,124 @@
+{
+  "pdf": "/workspace/work/wangdao_answer/delivery/2009-2026真题_王道知识与解析答案册.pdf",
+  "pdf_sha256": "4a66a13d5c4d10065a074af0beb06310a09a68d466a6ef4ee3538e8cde928318",
+  "source_index_sha256": "849f85ef31687b881e975c0a99b65408ea75d86199604ddb727ed0629138a364",
+  "checks": {
+    "internal_links": 2998,
+    "continuation_return_links": 2018,
+    "question_bookmarks": 1692,
+    "annual_pages_match_master": 1855,
+    "annual_pdfs": 18
+  },
+  "annual_results": [
+    {
+      "year": 2026,
+      "questions": 47,
+      "pages": 114,
+      "sha256": "8d1e8ef343e507e0042214a767f7f8808d94a3fde0424e8d2e210a8554a199d8"
+    },
+    {
+      "year": 2025,
+      "questions": 47,
+      "pages": 104,
+      "sha256": "6c366df177933adb6d77dbb2ad2cced9b8c83e6e3a7019d7702f57e5240b22dc"
+    },
+    {
+      "year": 2024,
+      "questions": 47,
+      "pages": 98,
+      "sha256": "c73618e4683c00b53f47994fdcad867f0d6c1385b4c1c98fe60ef2c450ae9040"
+    },
+    {
+      "year": 2023,
+      "questions": 47,
+      "pages": 102,
+      "sha256": "69c2b8043d02d39fc89b3b33df08458e0955197975979326df5f478f02e6bc2e"
+    },
+    {
+      "year": 2022,
+      "questions": 47,
+      "pages": 99,
+      "sha256": "59185562669e719101b9358700f5943b5fe0e1870853ea9ab8e9cca761b06568"
+    },
+    {
+      "year": 2021,
+      "questions": 47,
+      "pages": 102,
+      "sha256": "64561450aa3b5a4abd9beee8211985df162ab12ef516891838c02c984b634d94"
+    },
+    {
+      "year": 2020,
+      "questions": 47,
+      "pages": 105,
+      "sha256": "63f50f2c42408d57fa5e251dd8b4c2b945d46b5d73582b7fd1e1e926038c7395"
+    },
+    {
+      "year": 2019,
+      "questions": 47,
+      "pages": 103,
+      "sha256": "c2ed8e5dfa20acb8cfcf4fa2e1d7635b4ebd04232568b8803c1f081041eabdf2"
+    },
+    {
+      "year": 2018,
+      "questions": 47,
+      "pages": 97,
+      "sha256": "7355d08f5b2277e58f3d7f925d2d0700e2442776ed16ecca45de787ed38fcff9"
+    },
+    {
+      "year": 2017,
+      "questions": 47,
+      "pages": 104,
+      "sha256": "1e55ebfb191831ba5b77c993adc06927e8b56a3b65b69a4875f8f3c50634e6ef"
+    },
+    {
+      "year": 2016,
+      "questions": 47,
+      "pages": 107,
+      "sha256": "24cd63e4ee4c142514d4c0ca3d76cd6c202b2b4a657941f00de273509a3f3723"
+    },
+    {
+      "year": 2015,
+      "questions": 47,
+      "pages": 102,
+      "sha256": "1517816c3acfd3824c87b4347e12273aa029efdd3123596f14fdf8569df69b3e"
+    },
+    {
+      "year": 2014,
+      "questions": 47,
+      "pages": 107,
+      "sha256": "7dfbcb49a233ac5968b413594c0edef342c5b4626380c0748eb1cf4c10b63333"
+    },
+    {
+      "year": 2013,
+      "questions": 47,
+      "pages": 101,
+      "sha256": "1e22c4f38615fd171abcb0a3b47fbca42404832ff564bcbed456ddc07d4ebc10"
+    },
+    {
+      "year": 2012,
+      "questions": 47,
+      "pages": 100,
+      "sha256": "5b64231a938d7fa3a3eb3d59e9c22a8a8c01d23669e664992cd93e5b73a4d2f5"
+    },
+    {
+      "year": 2011,
+      "questions": 47,
+      "pages": 105,
+      "sha256": "47ba4debc65de7bc3bbd35a223a2f6b78e051ccb88e038bdb9e606a63fd2471a"
+    },
+    {
+      "year": 2010,
+      "questions": 47,
+      "pages": 106,
+      "sha256": "5eb3373bbc3de6cc43b8266de373bc2c1cbba1754cc698f9dc55841f406def5d"
+    },
+    {
+      "year": 2009,
+      "questions": 47,
+      "pages": 99,
+      "sha256": "c8ca513afcc2359bcb2fcf0ad4db28ffd8b6b5a4eaae032733762a312690e7f7"
+    }
+  ],
+  "passed": true,
+  "errors": []
+}

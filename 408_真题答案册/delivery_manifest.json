@@ -1,0 +1,139 @@
+{
+  "files": [
+    {
+      "name": "2009-2026真题_王道知识与解析答案册.annual_manifest.json",
+      "bytes": 4282,
+      "sha256": "dfd1c313377b715516b8dd4937564c1fa899a8c8c70d7a650988f0209fa5b0f5"
+    },
+    {
+      "name": "2009-2026真题_王道知识与解析答案册.navigation_validation.json",
+      "bytes": 3379,
+      "sha256": "3b7ed277cc9f58055b689d1119703807f16449a475d66535f4d5064899db74e5"
+    },
+    {
+      "name": "2009-2026真题_王道知识与解析答案册.pdf",
+      "bytes": 264538974,
+      "sha256": "4a66a13d5c4d10065a074af0beb06310a09a68d466a6ef4ee3538e8cde928318"
+    },
+    {
+      "name": "2009-2026真题_王道知识与解析答案册.sources.csv",
+      "bytes": 359560,
+      "sha256": "99ea9cb4faa663588cdfaf3e5a91b6eca79a3d31e7a4d79dfb0d65f2dbbc20fe"
+    },
+    {
+      "name": "2009-2026真题_王道知识与解析答案册.sources.json",
+      "bytes": 5936749,
+      "sha256": "849f85ef31687b881e975c0a99b65408ea75d86199604ddb727ed0629138a364"
+    },
+    {
+      "name": "2009-2026真题_王道知识与解析答案册.sources_fingerprints.json",
+      "bytes": 30718,
+      "sha256": "e1fb6e583deb67bdd0c42132c74ac256645f6ecb7ca92f4d39fc4e42941c5103"
+    },
+    {
+      "name": "2009-2026真题_王道知识与解析答案册.validation.json",
+      "bytes": 180438,
+      "sha256": "5945d2f4bbd01d08788c2e7c319747e652fd3544779d9e3998e5655fe3c6f62c"
+    },
+    {
+      "name": "2009-2026真题_王道知识与解析答案册.使用说明.md",
+      "bytes": 4256,
+      "sha256": "46bb8d9cdb75c35aec0b085372a645094e2d61aacd8bab0e295d1bd3d79cd21b"
+    },
+    {
+      "name": "2009年_王道知识与解析答案册.pdf",
+      "bytes": 24623569,
+      "sha256": "c8ca513afcc2359bcb2fcf0ad4db28ffd8b6b5a4eaae032733762a312690e7f7"
+    },
+    {
+      "name": "2010年_王道知识与解析答案册.pdf",
+      "bytes": 27189830,
+      "sha256": "5eb3373bbc3de6cc43b8266de373bc2c1cbba1754cc698f9dc55841f406def5d"
+    },
+    {
+      "name": "2011年_王道知识与解析答案册.pdf",
+      "bytes": 27245019,
+      "sha256": "47ba4debc65de7bc3bbd35a223a2f6b78e051ccb88e038bdb9e606a63fd2471a"
+    },
+    {
+      "name": "2012年_王道知识与解析答案册.pdf",
+      "bytes": 27536090,
+      "sha256": "5b64231a938d7fa3a3eb3d59e9c22a8a8c01d23669e664992cd93e5b73a4d2f5"
+    },
+    {
+      "name": "2013年_王道知识与解析答案册.pdf",
+      "bytes": 25281368,
+      "sha256": "1e22c4f38615fd171abcb0a3b47fbca42404832ff564bcbed456ddc07d4ebc10"
+    },
+    {
+      "name": "2014年_王道知识与解析答案册.pdf",
+      "bytes": 27524795,
+      "sha256": "7dfbcb49a233ac5968b413594c0edef342c5b4626380c0748eb1cf4c10b63333"
+    },
+    {
+      "name": "2015年_王道知识与解析答案册.pdf",
+      "bytes": 25583905,
+      "sha256": "1517816c3acfd3824c87b4347e12273aa029efdd3123596f14fdf8569df69b3e"
+    },
+    {
+      "name": "2016年_王道知识与解析答案册.pdf",
+      "bytes": 26807037,
+      "sha256": "24cd63e4ee4c142514d4c0ca3d76cd6c202b2b4a657941f00de273509a3f3723"
+    },
+    {
+      "name": "2017年_王道知识与解析答案册.pdf",
+      "bytes": 24639583,
+      "sha256": "1e55ebfb191831ba5b77c993adc06927e8b56a3b65b69a4875f8f3c50634e6ef"
+    },
+    {
+      "name": "2018年_王道知识与解析答案册.pdf",
+      "bytes": 25066012,
+      "sha256": "7355d08f5b2277e58f3d7f925d2d0700e2442776ed16ecca45de787ed38fcff9"
+    },
+    {
+      "name": "2019年_王道知识与解析答案册.pdf",
+      "bytes": 28755694,
+      "sha256": "c2ed8e5dfa20acb8cfcf4fa2e1d7635b4ebd04232568b8803c1f081041eabdf2"
+    },
+    {
+      "name": "2020年_王道知识与解析答案册.pdf",
+      "bytes": 26154434,
+      "sha256": "63f50f2c42408d57fa5e251dd8b4c2b945d46b5d73582b7fd1e1e926038c7395"
+    },
+    {
+      "name": "2021年_王道知识与解析答案册.pdf",
+      "bytes": 23818137,
+      "sha256": "64561450aa3b5a4abd9beee8211985df162ab12ef516891838c02c984b634d94"
+    },
+    {
+      "name": "2022年_王道知识与解析答案册.pdf",
+      "bytes": 26238491,
+      "sha256": "59185562669e719101b9358700f5943b5fe0e1870853ea9ab8e9cca761b06568"
+    },
+    {
+      "name": "2023年_王道知识与解析答案册.pdf",
+      "bytes": 26986759,
+      "sha256": "69c2b8043d02d39fc89b3b33df08458e0955197975979326df5f478f02e6bc2e"
+    },
+    {
+      "name": "2024年_王道知识与解析答案册.pdf",
+      "bytes": 27715899,
+      "sha256": "c73618e4683c00b53f47994fdcad867f0d6c1385b4c1c98fe60ef2c450ae9040"
+    },
+    {
+      "name": "2025年_王道知识与解析答案册.pdf",
+      "bytes": 27918026,
+      "sha256": "6c366df177933adb6d77dbb2ad2cced9b8c83e6e3a7019d7702f57e5240b22dc"
+    },
+    {
+      "name": "2026年_王道知识与解析答案册.pdf",
+      "bytes": 41749081,
+      "sha256": "8d1e8ef343e507e0042214a767f7f8808d94a3fde0424e8d2e210a8554a199d8"
+    },
+    {
+      "name": "按年度分册.zip",
+      "bytes": 490836631,
+      "sha256": "f19432202cf72fd043b2160decffa23a5c4040a647abec3a041cb34a2661e33c"
+    }
+  ]
+}
